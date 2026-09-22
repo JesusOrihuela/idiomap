@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Idiomap">
-  <rect width="64" height="64" rx="14" fill="#1B2A80"/>
+  <rect width="64" height="64" rx="14" fill="#EEF1F8"/>
   <g transform="translate(6.7 6.3) scale(0.79)">
-    <path fill="#ffffff" d="M32 63 C 20 47 9 41 9 25 A 23 23 0 1 1 55 25 C 55 41 44 47 32 63 Z"/>
-    <rect x="16" y="16" width="32" height="17" rx="5.5" fill="#182252"/>
-    <path d="M25 33 l0 6 6 -6 z" fill="#182252"/>
-    <text x="25" y="28.8" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff"
+    <path fill="#1B2A80" d="M32 63 C 20 47 9 41 9 25 A 23 23 0 1 1 55 25 C 55 41 44 47 32 63 Z"/>
+    <rect x="16" y="16" width="32" height="17" rx="5.5" fill="#ffffff"/>
+    <path d="M25 33 l0 6 6 -6 z" fill="#ffffff"/>
+    <text x="25" y="28.8" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1B2A80"
           font-family="'Noto Sans CJK SC','Microsoft YaHei','Yu Gothic',sans-serif">文</text>
-    <text x="39" y="28.8" text-anchor="middle" font-size="12.5" font-weight="800" fill="#F5A623"
+    <text x="39" y="28.8" text-anchor="middle" font-size="12.5" font-weight="800" fill="#D97706"
           font-family="'Segoe UI',Arial,sans-serif">A</text>
   </g>
 </svg>
