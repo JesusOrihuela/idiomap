@@ -36,7 +36,7 @@ Each pair has its own independent content, and switching pairs is a completely s
   - 📚 **Vocabulary** — flashcards with definitions and examples
   - 🧠 **Quiz** — adaptive multiple-choice vocabulary
   - 📐 **Grammar** — rules browser + fill-in-the-blank exercises
-- **Mi Aprendizaje** — a guided learning path with a daily session queue, mastery tracking, and a CEFR progression.
+- **My Learning** — a guided learning path with a daily session queue, mastery tracking, and a CEFR progression.
 - **Placement test** — a 14-question CEFR test (A1–C2) to start at the right level.
 - **On-device audio** — pre-generated natural speech for instant playback, with [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) TTS and [Whisper](https://huggingface.co/onnx-community/whisper-tiny) STT running fully in the browser (no audio ever leaves your device).
 - **Works offline** — installable PWA with a network-first service worker; models and audio are cached after first use.
