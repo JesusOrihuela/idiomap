@@ -128,7 +128,7 @@ header {
 header a { display: flex; align-items: center; text-decoration: none; }
 
 header img {
-  height: 44px;
+  height: 54px;
   width: auto;
   transition: transform var(--transition);
 }
