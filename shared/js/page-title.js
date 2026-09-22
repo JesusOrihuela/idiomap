@@ -37,7 +37,7 @@
   var txt = AppLang.t(key);
   // Strip <span> markup present in non-source-language values.
   if (txt && txt !== key) {
-    document.title = txt.replace(/<[^>]*>/g, '') + ' — Practice English';
+    document.title = txt.replace(/<[^>]*>/g, '') + ' — Idiomap';
   }
 })();
 

@@ -37,7 +37,7 @@ jobs:
         uses: treosh/lighthouse-ci-action@v12
         with:
           urls: |
-            https://jesusorihuela.github.io/practice_english.github.io/
+            https://jesusorihuela.github.io/idiomap/
           runs: 3                     # median of 3 runs for stable numbers
           uploadArtifacts: true       # save the full HTML report as a run artifact
           temporaryPublicStorage: true # also print a shareable report link in the logs

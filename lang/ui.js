@@ -233,7 +233,7 @@
 
       // ── Milestones ───────────────────────────────────────────────
       milestone_share:        'Compartir logro',
-      milestone_share_text:   '¡Acabo de desbloquear "{title}" en PracticeEnglish! {emoji} practiceenglish.app',
+      milestone_share_text:   '¡Acabo de desbloquear "{title}" en Idiomap! {emoji} idiomap.app',
       milestone_first_streak_title:    'Primera Racha',
       milestone_first_streak_desc:     'Volviste — esa es la parte más difícil.',
       milestone_phrases_10_title:      '10 Frases Aprendidas',
@@ -561,7 +561,7 @@
       backup_last_export:         'Último respaldo: {date}',
       backup_never_exported:      'Aún no has exportado tu progreso.',
       backup_import_success:      '✓ Progreso restaurado. Recargando…',
-      backup_import_error:        'Archivo inválido. Verifica que sea un respaldo de Practice English.',
+      backup_import_error:        'Archivo inválido. Verifica que sea un respaldo de Idiomap.',
       backup_import_confirm:      'Esto reemplazará tu progreso actual con el del archivo. ¿Continuar?',
       backup_instructions_export: '⬇️  Descarga un archivo .json con todo tu progreso. Guárdalo en Google Drive, iCloud o envíatelo por correo.',
       backup_instructions_import: '⬆️  Para restaurar, selecciona el archivo .json que descargaste anteriormente.',
@@ -830,7 +830,7 @@
 
       // ── Milestones ────────────────────────────────────────────
       milestone_share:        'Share achievement',
-      milestone_share_text:   'I just unlocked "{title}" in PracticeEnglish! {emoji} practiceenglish.app',
+      milestone_share_text:   'I just unlocked "{title}" in Idiomap! {emoji} idiomap.app',
       milestone_first_streak_title:    'First Streak',
       milestone_first_streak_desc:     "You came back — that's the hardest part.",
       milestone_phrases_10_title:      '10 Phrases Learned',
@@ -1158,7 +1158,7 @@
       backup_last_export:         'Last backup: {date}',
       backup_never_exported:      'You haven\'t exported your progress yet.',
       backup_import_success:      '✓ Progress restored. Reloading…',
-      backup_import_error:        'Invalid file. Make sure it\'s a Practice English backup.',
+      backup_import_error:        'Invalid file. Make sure it\'s a Idiomap backup.',
       backup_import_confirm:      'This will replace your current progress with the file\'s. Continue?',
       backup_instructions_export: '⬇️  Download a .json file with all your progress. Save it to Google Drive, iCloud, or email it to yourself.',
       backup_instructions_import: '⬆️  To restore, select the .json file you previously downloaded.',
@@ -1424,7 +1424,7 @@
 
       // ── Milestones ────────────────────────────────────────────
       milestone_share:        'Erfolg teilen',
-      milestone_share_text:   'Ich habe gerade „{title}" in PracticeEnglish freigeschaltet! {emoji} practiceenglish.app',
+      milestone_share_text:   'Ich habe gerade „{title}" in Idiomap freigeschaltet! {emoji} idiomap.app',
       milestone_first_streak_title:    'Erste Serie',
       milestone_first_streak_desc:     'Du bist zurückgekommen, das ist der schwerste Teil.',
       milestone_phrases_10_title:      '10 Sätze gelernt',

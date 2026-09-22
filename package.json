@@ -1,8 +1,8 @@
 {
-  "name": "practice-english",
+  "name": "idiomap",
   "version": "1.0.0",
   "private": true,
-  "description": "Practice English — static language-learning PWA. Root deps are the Playwright browser smoke suite only (the app itself ships no build step).",
+  "description": "Idiomap — static language-learning PWA. Root deps are the Playwright browser smoke suite only (the app itself ships no build step).",
   "scripts": {
     "test": "node tests/smoke.mjs",
     "test:voice": "node tests/smoke-voice.mjs"

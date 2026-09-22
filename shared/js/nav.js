@@ -46,7 +46,7 @@
   var _activity = _htmlIdx > 0 ? _parts[_htmlIdx - 1] : null;
   var _pageTxt = (_activity && _PAGE_TITLE_MAP[_activity]) ? AppLang.t(_PAGE_TITLE_MAP[_activity]) : null;
   if (_pageTxt && _pageTxt !== _PAGE_TITLE_MAP[_activity]) {
-    document.title = _pageTxt.replace(/<[^>]*>/g, '') + ' — Practice English';
+    document.title = _pageTxt.replace(/<[^>]*>/g, '') + ' — Idiomap';
   }
 
   // 3. Footer — built from i18n for ALL pairs. The name is invariant; only the

@@ -1,5 +1,5 @@
 /**
- * audit.mjs — PracticeEnglish Content Audit
+ * audit.mjs — Idiomap Content Audit
  * ==========================================
  * Language-pair-aware audit for all shared/json/{pairId}/*.json content files.
  * Runs universal checks (em dash, word count, ID uniqueness, JSON validity)

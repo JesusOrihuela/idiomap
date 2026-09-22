@@ -1,5 +1,5 @@
 /* ============================================================
-   service-worker.js — Practice English PWA
+   service-worker.js — Idiomap PWA
    No version numbers needed — network-first for code, cache-first for images.
    ============================================================ */
 
@@ -9,7 +9,7 @@
 // forever would pin the old one permanently. They are served
 // stale-while-revalidate instead, and the cache name carries a version so a
 // bump force-purges stale images when one is intentionally replaced.
-const IMG_CACHE   = 'pe-images-v3'; // photos/icons: stale-while-revalidate (bumped: 178 topic images replaced)
+const IMG_CACHE   = 'pe-images-v4'; // photos/icons: stale-while-revalidate (bumped: Idiomap rebrand — new logo/favicon/og)
 const AUDIO_CACHE = 'pe-audio';     // pre-generated WAV: cache-first forever (slug-named, immutable)
 const APP_CACHE   = 'pe-app';       // HTML/JS/CSS/JSON: network-first, cached for offline
 const APP_CACHE_MAX = 250;          // cap network-first growth (all visited JSON would accumulate otherwise)

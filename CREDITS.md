@@ -1,6 +1,6 @@
 # Credits & Content Sources
 
-Practice English is MIT-licensed (see [LICENSE](LICENSE)). Some learning content
+Idiomap is MIT-licensed (see [LICENSE](LICENSE)). Some learning content
 is curated with the help of open linguistic resources. This file records those
 sources and their licenses, as their terms require attribution.
 

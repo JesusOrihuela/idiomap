@@ -1,19 +1,19 @@
-# Practice English
+# Idiomap
 
 A free, installable **language-learning PWA** that teaches a target language through real-life topics and eight skill-building activities — with on-device speech synthesis and recognition, a spaced-repetition learning path, and full offline support. No backend, no sign-up, no tracking.
 
-[![Content checks](https://github.com/JesusOrihuela/practice_english.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/JesusOrihuela/practice_english.github.io/actions/workflows/ci.yml)
+[![Content checks](https://github.com/JesusOrihuela/idiomap/actions/workflows/ci.yml/badge.svg)](https://github.com/JesusOrihuela/idiomap/actions/workflows/ci.yml)
 ![PWA](https://img.shields.io/badge/PWA-installable-5A0FC8)
 ![No build step](https://img.shields.io/badge/build-none-brightgreen)
 ![Vanilla JS](https://img.shields.io/badge/stack-HTML%20%C2%B7%20CSS%20%C2%B7%20vanilla%20JS-f7df1e)
 
-**▶ Live app:** https://jesusorihuela.github.io/practice_english.github.io/
+**▶ Live app:** https://jesusorihuela.github.io/idiomap/
 
 ---
 
 ## What it is
 
-Practice English is a static Progressive Web App for language learners. It guides you through 13 everyday topics (greetings, restaurant, airport, technology, …) in CEFR order and builds a daily study session automatically using a custom **SM-2 spaced-repetition** engine. Everything — progress, placement, preferences — lives in your browser's `localStorage`; nothing is sent to a server.
+Idiomap is a static Progressive Web App for language learners. It guides you through 13 everyday topics (greetings, restaurant, airport, technology, …) in CEFR order and builds a daily study session automatically using a custom **SM-2 spaced-repetition** engine. Everything — progress, placement, preferences — lives in your browser's `localStorage`; nothing is sent to a server.
 
 It ships as three independent language pairs:
 
@@ -56,8 +56,8 @@ Deliberately minimal and dependency-free at runtime:
 Because the app uses `fetch()` for content and registers a service worker, it must be served over HTTP — open it via a local server, not `file://`.
 
 ```bash
-git clone https://github.com/JesusOrihuela/practice_english.github.io.git
-cd practice_english.github.io
+git clone https://github.com/JesusOrihuela/idiomap.git
+cd idiomap
 
 # serve the folder with any static server, e.g.:
 python -m http.server 8000
