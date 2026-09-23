@@ -120,7 +120,7 @@ const AppLangPair = (() => {
       // es coverage gate. Passes both es channels (phrases + vocab) of the PCIC core gate and every
       // completeness/grammar/taxonomy check, so it ships like es-en/en-es (see docs/DE-ES-PLAN.md).
       id:          'de-es',
-      source:      { code: 'de', flags: ['de', 'at'],       name: 'Deutsch', localName: 'Deutsch' },
+      source:      { code: 'de', flags: ['at', 'de'],       name: 'Deutsch', localName: 'Deutsch' },
       target:      { code: 'es', flags: ['es', 'mx', 'ar'], name: 'Español', localName: 'Spanisch' },
       label:       'Deutsch → Español',
       ttsVoices:   ['ef_dora', 'em_alex', 'em_santa'],
