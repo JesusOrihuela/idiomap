@@ -87,10 +87,19 @@ const Progress = (() => {
       ? AppData.get("id-map")
       : fetch("shared/json/common/id-map.json").then(function (r) { return r.json(); });
     _idMapPromise = loader.then(function (m) {
-      _ID_MAP = (m && m.phrases) ? m : { phrases: {}, vocab: {} };
+      // Only COMMIT a map that actually loaded. An early call — before AppData is
+      // defined (progress.js parses before topic-data.js), on a sub-page where the
+      // relative fallback fetch 404s — must NOT poison the cache with an empty map:
+      // reset so a later call (once AppData is ready, via AppPath.load) retries and
+      // loads the real map. Otherwise every getPhraseIds/getVocabIds reads empty.
+      if (!m || !m.phrases || Object.keys(m.phrases).length === 0) {
+        _idMapPromise = null;
+        return { phrases: {}, vocab: {} };
+      }
+      _ID_MAP = m;
       if (_cache && _cache.__pendingIdMigration) { _cache = null; _load(); }  // finish deferred v2→v3
       return _ID_MAP;
-    }).catch(function () { _ID_MAP = { phrases: {}, vocab: {} }; return _ID_MAP; });
+    }).catch(function () { _idMapPromise = null; return { phrases: {}, vocab: {} }; });
     return _idMapPromise;
   }
   function _mapPhrases(pair, esEnFallback) {
