@@ -57,7 +57,7 @@
     if (_devTxt !== 'footer_developed_by') {
       var _yrEl = _footerP.querySelector('#footer-year');
       var _yr = _yrEl ? _yrEl.textContent : new Date().getFullYear();
-      _footerP.innerHTML = '© <span id="footer-year">' + _yr + '</span> ' + _devTxt + ' Jesús Orihuela';
+      _footerP.innerHTML = '© <span id="footer-year">' + _yr + '</span> ' + _devTxt + ' aurariola<span style="color:var(--clr-accent)">.</span>com';
     }
   }
 

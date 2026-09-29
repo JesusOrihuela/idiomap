@@ -180,7 +180,9 @@ footer {
   gap: 16px;
 }
 
-.footer-content p { font-size: 0.85rem; opacity: 0.8; font-weight: 500; }
+.footer-content p { font-size: 0.85rem; opacity: 0.8; font-weight: 500; margin: 0; }
+.footer-content a { display: inline-flex; align-items: center; }
+.footer-content a svg { display: block; }
 
 .github-logo {
   font-size: 22px;
