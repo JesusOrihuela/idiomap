@@ -73,16 +73,20 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   });
 
-  document.getElementById('flashcard-scene').addEventListener('click', () => {
-    if (!isFlipped) flipCard();
+  document.getElementById('flashcard-scene').addEventListener('click', (e) => {
+    // Un clic en la tarjeta la voltea en cualquier dirección; los controles
+    // internos (escuchar, valorar) conservan su propio comportamiento.
+    if (e.target.closest('button, a, input, label')) return;
+    if (!isFlipped) flipCard(); else unflipCard();
   });
 
-  document.getElementById('flashcard-scene').addEventListener('keydown', e => {
-    if ((e.key === 'Enter' || e.key === ' ') && !isFlipped) {
-      e.preventDefault();
-      flipCard();
-    }
+  // El giro tiene su propio botón: el contenedor no puede ser role=button con
+  // botones dentro (escuchar, selector de definición) sin romper la semántica.
+  document.getElementById('flip-btn').addEventListener('click', () => {
+    if (!isFlipped) flipCard(); else unflipCard();
   });
+  // La palabra del reverso vuelve al frente (ratón y teclado).
+  document.getElementById('fc-back-word').addEventListener('click', unflipCard);
 
   document.getElementById('next-btn').addEventListener('click', () => rateAndNext(3));
 
@@ -90,7 +94,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     AppUI.addPathBackLink('vocab-content', function () { return isFlipped; });
   }
 
-  AppAudio.setBase('../../shared/audio/' + AppLangPair.getActive().target.code + '/');
+  AppAudio.setBase('../shared/audio/' + AppLangPair.getActive().target.code + '/');
   AppAudio.warmup();
 });
 
@@ -184,8 +188,8 @@ function _setupDefinition(l1, l2, level) {
     defEl.textContent = showL1 ? (l1 || l2) : (l2 || l1);
     if (sw) {
       sw.classList.toggle('hidden', !hasBoth);
-      if (l1Btn) l1Btn.classList.toggle('fc-def-side--active', showL1);
-      if (l2Btn) l2Btn.classList.toggle('fc-def-side--active', !showL1);
+      if (l1Btn) { l1Btn.classList.toggle('segmented__item--active', showL1); l1Btn.setAttribute('aria-pressed', String(showL1)); }
+      if (l2Btn) { l2Btn.classList.toggle('segmented__item--active', !showL1); l2Btn.setAttribute('aria-pressed', String(!showL1)); }
     }
   };
 
@@ -212,6 +216,12 @@ function showCard(index) {
   if (!word) return;
   isFlipped = false;
   document.getElementById('flashcard').classList.remove('flipped');
+  document.getElementById('flashcard-scene').classList.remove('is-flipped');
+  const _front = document.getElementById('flashcard-front');
+  const _back  = document.getElementById('flashcard-back');
+  if (_front) { _front.inert = false; _front.removeAttribute('aria-hidden'); }
+  if (_back)  { _back.inert = true;  _back.setAttribute('aria-hidden', 'true'); }
+  document.getElementById('flip-btn')?.setAttribute('aria-expanded', 'false');
 
   const _srcCode     = AppLangPair.getActive().source.code;
   // Capitalize the first letter of EVERY slash-separated form ("carta / letra" → "Carta / Letra").
@@ -241,6 +251,7 @@ function showCard(index) {
   // Front shows the word's FORMS: variants grouped in bordered boxes whose CONNECTED header carries the
   // POS + group label (no floating labels). A word with no variants shows its plain term + POS above.
   const _wtEl = document.getElementById('word-text');
+  _wtEl.lang = AppLang.targetCode();
   _wtEl.textContent = '';
   _wtEl.classList.remove('word-text--variants');
   const _frontFrag = (word.variants && word.variants.length && typeof AppFeedback !== 'undefined' && AppFeedback.buildWordVariants)
@@ -251,13 +262,17 @@ function showCard(index) {
   else { _wtEl.textContent = _displayWord; _renderCurrentFormBadge('word-text', _currentPickedForm); }
 
   // Back is the MEANING side: the word's identity (its lemma/term) + definition/example/translation.
-  document.getElementById('fc-back-word').textContent = _frontFrag ? _capParts(word.term || '') : _displayWord;
+  const _bw = document.getElementById('fc-back-word');
+  _bw.lang = AppLang.targetCode();
+  _bw.textContent = _frontFrag ? _capParts(word.term || '') : _displayWord;
+  _bw.setAttribute('aria-label', AppLang.t('fc_back_flip_aria', { word: _bw.textContent }));
   if (!_frontFrag) _renderCurrentFormBadge('fc-back-word', _currentPickedForm);
   // Definition: L1 (source-language gloss) vs L2 (target-language definition). Default follows the
   // CEFR level — A1/A2 lead with L1 (the learner can't yet parse an L2 definition), B1+ lead with L2
   // (monolingual) — and a toggle swaps to the other. The L1 translation stays visible below as the
   // safety net so no external lookup is ever needed. (Laufer & Shmueli 1997.)
   _setupDefinition((word.gloss && word.gloss[_srcCode]) || '', word.definition || '', word.level);
+  document.getElementById('word-example').lang = AppLang.targetCode();
   document.getElementById('word-example').textContent    = word.example || (word.gloss_example?.[_srcCode] || '');
   document.getElementById('word-translation').textContent = _displayHint;
 
@@ -275,6 +290,10 @@ function showCard(index) {
   document.getElementById('back-to-path')?.classList.add('hidden');
   _showCefrBadge(word.level, 'flashcard-front');
   _showCefrBadge(word.level, 'flashcard-back');
+
+  // Al entrar en la tarjeta, el foco va al botón de giro (el contenedor ya no es enfocable).
+  const _flip = document.getElementById('flip-btn');
+  if (_flip) _flip.focus({ preventScroll: true });
 }
 
 // Badge for the SHOWN rotated form's own variant (region flag / register pill), placed inline next to
@@ -327,11 +346,44 @@ function _showCefrBadge(level, containerId) {
 
 function flipCard() {
   isFlipped = true;
-  document.getElementById('flashcard').classList.add('flipped');
+  const card  = document.getElementById('flashcard');
+  const front = document.getElementById('flashcard-front');
+  const back  = document.getElementById('flashcard-back');
+  card.classList.add('flipped');
+  document.getElementById('flashcard-scene').classList.add('is-flipped');
+  document.getElementById('flip-btn')?.setAttribute('aria-expanded', 'true');
+  // La cara oculta sale del árbol accesible y del orden de tabulación.
+  front.inert = true;
+  front.setAttribute('aria-hidden', 'true');
+  back.inert = false;
+  back.removeAttribute('aria-hidden');
   setTimeout(() => {
     document.getElementById('next-btn').classList.remove('hidden');
     document.getElementById('back-to-path')?.classList.remove('hidden');
+    const bw = document.getElementById('fc-back-word');
+    if (bw) bw.focus({ preventScroll: true });
   }, 350);
+}
+
+function unflipCard() {
+  if (!isFlipped) return;
+  isFlipped = false;
+  const card  = document.getElementById('flashcard');
+  const front = document.getElementById('flashcard-front');
+  const back  = document.getElementById('flashcard-back');
+  card.classList.remove('flipped');
+  document.getElementById('flashcard-scene').classList.remove('is-flipped');
+  document.getElementById('flip-btn')?.setAttribute('aria-expanded', 'false');
+  back.inert = true;
+  back.setAttribute('aria-hidden', 'true');
+  front.inert = false;
+  front.removeAttribute('aria-hidden');
+  // Volver al frente es volver al estado "sin valorar": la acción de avance
+  // reaparece al girar de nuevo.
+  document.getElementById('next-btn')?.classList.add('hidden');
+  document.getElementById('back-to-path')?.classList.add('hidden');
+  const flip = document.getElementById('flip-btn');
+  if (flip) flip.focus({ preventScroll: true });
 }
 
 function rateAndNext(quality) {
@@ -343,7 +395,7 @@ function rateAndNext(quality) {
   if (_pathModeActive && typeof PathSession !== 'undefined') {
     const nextHref = PathSession.advance();
     if (nextHref) {
-      window.location.href = '../../' + nextHref;
+      window.location.href = '../' + nextHref;
     } else {
       _showPathSessionComplete();
     }
@@ -355,8 +407,8 @@ function rateAndNext(quality) {
   currentIndex = (currentIndex + 1) % words.length;
   showCard(currentIndex);
 
-  const scene = document.getElementById('flashcard-scene');
-  if (scene) scene.focus();
+  const flip = document.getElementById('flip-btn');
+  if (flip) flip.focus({ preventScroll: true });
 
   AppSessionBar.updateStreak('vocab-streak');
 }

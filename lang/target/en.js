@@ -1,5 +1,5 @@
 /* ============================================================
-   lang/target/en.js — Contenido específico del idioma destino (inglés)
+   lang/target/en.js | Contenido específico del idioma destino (inglés)
    Reservado para strings que dependen del idioma que se está aprendiendo,
    no de la interfaz. Ejemplo: si se añaden instrucciones o ejemplos en
    el idioma destino que varíen según el par de idiomas.

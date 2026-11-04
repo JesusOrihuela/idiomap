@@ -28,16 +28,16 @@
     placement:     'placement_page_title',
   };
 
-  var parts = location.pathname.split('/');
-  var hi = parts.indexOf('html');
-  var activity = hi > 0 ? parts[hi - 1] : null;
+  var parts = location.pathname.split('/').filter(Boolean);
+  if (parts[parts.length - 1] === 'index.html') parts.pop();
+  var activity = parts.length ? parts[parts.length - 1] : null;
   var key = activity && MAP[activity];
   if (!key) return;
 
   var txt = AppLang.t(key);
   // Strip <span> markup present in non-source-language values.
   if (txt && txt !== key) {
-    document.title = txt.replace(/<[^>]*>/g, '') + ' — Idiomap';
+    document.title = txt.replace(/<[^>]*>/g, '') + ' · Idiomap';
   }
 })();
 
@@ -62,7 +62,7 @@
     de.classList.add('lang-cloak');
     var revealed = false;
     // Removing lang-cloak makes the body visible; adding page-in (same frame) starts the
-    // orchestrated entrance (title → subtitle → cards) defined in generalities.css. Because
+    // orchestrated entrance (title → subtitle → cards) defined in components.css. Because
     // the grid is already built when this runs, it is a pure reveal — nothing pops in empty.
     var reveal = function () { if (revealed) return; revealed = true; de.classList.remove('lang-cloak'); de.classList.add('page-in'); };
     // Exposed so AppTopicGrid.build() can reveal the page the moment the topic grid is

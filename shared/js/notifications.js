@@ -123,7 +123,7 @@
         title: AppLang.t('notif_title_due'),
         body:  bodyText,
         tag:   'srs-due',
-        url:   'speaking/html/speaking.html?topic=' + topDueTopic,
+        url:   'speaking/?topic=' + topDueTopic,
       };
     }
 
@@ -133,7 +133,7 @@
         title: AppLang.t('notif_title_streak'),
         body:  AppLang.t('notif_body_streak', { n: streak.current }),
         tag:   'streak-risk',
-        url:   'speaking/html/speaking.html',
+        url:   'speaking/',
       };
     }
 

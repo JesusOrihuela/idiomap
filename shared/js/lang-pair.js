@@ -14,124 +14,25 @@ const AppLangPair = (() => {
 
   const ACTIVE_KEY = 'pe_active_pair';
 
+  // Site root path captured at load time (document.currentScript is only set
+  // while the script executes, not inside later callbacks).
+  const SITE_ROOT_PATH = (() => {
+    if (typeof document === 'undefined') return null;
+    const s = document.currentScript;
+    return s ? new URL('../../', s.src).pathname : null;
+  })();
+
   // ── Available pairs ───────────────────────────────────────────
   // Add new pairs here when new source/target languages are supported.
   // flags: a language's flag code(s) — ONE, TWO or THREE, whatever represents it (Finnish/Icelandic
   //   may need just ['fi']/['is']; Spanish/German two; a language could need three). AppFlags.langFlags()
   //   renders any count (1 = single, 2 = overlapping stack, 3+ = cluster) — never assume exactly two.
-  const PAIRS = [
-    {
-      id:          'es-en',
-      source:      { code: 'es', flags: ['es', 'mx', 'ar'], name: 'Español', localName: 'español' },
-      target:      { code: 'en', flags: ['us', 'gb'], name: 'English', localName: 'inglés'  },
-      label:       'Español → English',
-      ttsVoices:   ['af_heart', 'af_bella', 'bf_emma', 'am_michael'],
-      sttLanguage: 'english',
-    },
-    {
-      id:          'en-es',
-      source:      { code: 'en', flags: ['us', 'gb'], name: 'English', localName: 'English' },
-      target:      { code: 'es', flags: ['es', 'mx', 'ar'], name: 'Español', localName: 'Spanish' },
-      label:       'English → Español',
-      ttsVoices:   ['ef_dora', 'em_alex', 'em_santa'],
-      sttLanguage: 'spanish',
-    },
-    {
-      // STRESS-TEST pair (intentionally minimal): exercises the framework's new variant
-      // dimensions (number, case) + 3-way gender and du/Sie register with a German target.
-      id:          'en-de',
-      source:      { code: 'en', flags: ['us', 'gb'], name: 'English', localName: 'English' },
-      target:      { code: 'de', flags: ['at', 'de'], name: 'Deutsch', localName: 'German' },
-      label:       'English → Deutsch',
-      ttsVoices:   ['df_hedda', 'dm_conrad'],
-      sttLanguage: 'german',
-      stressTest:  true,   // architecture stress-test pair — hidden from the shippable picker + exempt from coverage
-    },
-    {
-      // STRESS-TEST pair (intentionally minimal): the opposite pole to en-de — a target with NO
-      // grammatical gender and an extreme case system (partitive + local cases), vowel harmony and
-      // agglutination. Also the first pair whose target is ONE flag (Finland), proving langFlags()
-      // never assumes exactly two.
-      id:          'en-fi',
-      source:      { code: 'en', flags: ['us', 'gb'], name: 'English', localName: 'English' },
-      target:      { code: 'fi', flags: ['fi'],       name: 'Suomi',   localName: 'Finnish' },
-      label:       'English → Suomi',
-      ttsVoices:   ['fif_noora', 'fim_harri'],
-      sttLanguage: 'finnish',
-      stressTest:  true,   // architecture stress-test pair — hidden from the shippable picker + exempt from coverage
-    },
-    {
-      // STRESS-TEST pair (intentionally minimal): the 3rd divergent target AND the first pair with a
-      // NON-en/es SOURCE (German). Polish stresses a 7-case system + verbal aspect (perf/imperf) +
-      // 3-gender agreement, no articles, and 9 special letters (ąćęłńóśźż). localName follows the
-      // convention "target's name in the SOURCE language" → Polnisch (Polish, in German).
-      id:          'de-pl',
-      source:      { code: 'de', flags: ['at', 'de'], name: 'Deutsch', localName: 'Deutsch'  },
-      target:      { code: 'pl', flags: ['pl'],       name: 'Polski',  localName: 'Polnisch' },
-      label:       'Deutsch → Polski',
-      ttsVoices:   ['plf_zofia', 'plm_marek'],
-      sttLanguage: 'polish',
-      stressTest:  true,   // architecture stress-test pair — hidden from the shippable picker + exempt from coverage
-    },
-    {
-      // STRESS-TEST pair (intentionally minimal): the 4th and final divergent target. Portuguese
-      // stresses (1) a 3-WAY register cline tu / você / o senhor (register's first non-binary use),
-      // (2) BR↔PT regional variation (flags br + pt), and grammatical gender -o/-a. NOTE: it also
-      // exposed that kokoro-js ships ONLY English voices, so pt (like every non-en target) uses
-      // edge-tts pt-BR — the "Kokoro with a new language" premise is not achievable with kokoro-js.
-      id:          'en-pt',
-      source:      { code: 'en', flags: ['us', 'gb'], name: 'English',    localName: 'English' },
-      target:      { code: 'pt', flags: ['br', 'pt'], name: 'Português', localName: 'Portuguese' },
-      label:       'English → Português',
-      ttsVoices:   ['pf_dora', 'pm_alex'],
-      sttLanguage: 'portuguese',
-      stressTest:  true,   // architecture stress-test pair — hidden from the shippable picker + exempt from coverage
-    },
-    {
-      // STRESS-TEST pair (intentionally minimal): the 5th divergent target. Swedish (North Germanic)
-      // closes the COMMON/NEUTER gender typology (en/ett = utrum/neutrum, shared by nl/sv/no/da) and
-      // stresses the SUFFIXED definite article (hus → huset) via the new `definiteness` dimension. Its
-      // common/neuter is noun-inherent (article in the term), not a person m/f variant → no gender
-      // detector. du is universal (register absent).
-      id:          'en-sv',
-      source:      { code: 'en', flags: ['us', 'gb'], name: 'English',  localName: 'English' },
-      target:      { code: 'sv', flags: ['se'],       name: 'Svenska',  localName: 'Swedish' },
-      label:       'English → Svenska',
-      ttsVoices:   ['svf_sofie', 'svm_mattias'],
-      sttLanguage: 'swedish',
-      stressTest:  true,   // architecture stress-test pair — hidden from the shippable picker + exempt from coverage
-    },
-    {
-      // STRESS-TEST pair (intentionally minimal): the 6th and final divergent target. Norwegian closes
-      // the DUAL WRITTEN STANDARD gap — Bokmål ↔ Nynorsk, two official norms of one spoken language
-      // (jeg/eg, ikke/ikkje), handled by the new `standard` dimension with a TEXT badge (both are
-      // Norway → no distinct flag). Reuses common/neuter (en/et) + suffixed definite from en-sv.
-      id:          'en-no',
-      source:      { code: 'en', flags: ['us', 'gb'], name: 'English', localName: 'English' },
-      target:      { code: 'no', flags: ['no'],       name: 'Norsk',   localName: 'Norwegian' },
-      label:       'English → Norsk',
-      ttsVoices:   ['nof_pernille', 'nom_finn'],
-      sttLanguage: 'norwegian',
-      stressTest:  true,   // architecture stress-test pair — hidden from the shippable picker + exempt from coverage
-    },
-    {
-      // SHIPPABLE pair: German → Spanish, the first real product pair beyond es-en/en-es. Source German
-      // reuses the `de` UI block; target Spanish reuses vocab/es (with German glosses) + es audio + the
-      // es coverage gate. Passes both es channels (phrases + vocab) of the PCIC core gate and every
-      // completeness/grammar/taxonomy check, so it ships like es-en/en-es (see docs/DE-ES-PLAN.md).
-      id:          'de-es',
-      source:      { code: 'de', flags: ['at', 'de'],       name: 'Deutsch', localName: 'Deutsch' },
-      target:      { code: 'es', flags: ['es', 'mx', 'ar'], name: 'Español', localName: 'Spanisch' },
-      label:       'Deutsch → Español',
-      ttsVoices:   ['ef_dora', 'em_alex', 'em_santa'],
-      sttLanguage: 'spanish',
-    },
-    // To add a new pair, insert an object here with id, source, target, label,
-    // ttsVoices (Kokoro voice names for the target language),
-    // sttLanguage (Whisper language name for the target language).
-    // Grammar rules are stored at shared/json/{pairId}/grammar-rules.json —
-    // AppData.get('grammar-rules') resolves to the active pair's file automatically.
-  ];
+  // Generated pair list: shared/js/pairs.js (source: shared/json/pairs/<id>/pair.json).
+  // Browser pages load pairs.js immediately before this file. Node tooling falls back
+  // to require() so gates never duplicate the list.
+  const PAIRS = (typeof AppPairs !== 'undefined')
+    ? AppPairs
+    : (typeof require === 'function' ? require('./pairs.js') : []);
 
   // ── Active pair ───────────────────────────────────────────────
 
@@ -214,15 +115,13 @@ const AppLangPair = (() => {
   // ── Header badge (injected on DOMContentLoaded) ───────────────
 
   function _progressHref() {
-    // Compute relative path to progress page based on URL structure.
-    // Root page (index.html): pathname ends with / or index.html — no prefix needed.
-    // Activity pages (e.g. speaking/html/speaking.html): need ../../ to reach root.
-    // Checking the filename is more robust than counting segments, because dev servers
-    // may serve from a parent directory, adding extra path segments before the app root.
+    // Derive the site root from this script, so the prefix is right for the root
+    // page and for clean directories (/speaking/, /cloze/) on root or subpath.
     var path = location.pathname;
-    var isRoot = /\/$/.test(path) || /\/index\.html$/.test(path) || path === '';
-    var prefix = isRoot ? '' : '../../';
-    return prefix + 'progress/html/progress.html';
+    var root = SITE_ROOT_PATH || '/';
+    var isRoot = path === root || path === root + 'index.html';
+    var prefix = isRoot ? '' : '../';
+    return prefix + 'progress/';
   }
 
   function _injectBadge() {

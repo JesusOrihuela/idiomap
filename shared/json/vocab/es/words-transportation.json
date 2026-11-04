@@ -34,7 +34,8 @@
           },
           "audioSlug": "bus"
         }
-      ]
+      ],
+      "conceptId": "es.bus"
     },
     {
       "id": "taxi",
@@ -54,7 +55,8 @@
       },
       "gloss_example": {
         "en": "We took a taxi from the hotel to the train station."
-      }
+      },
+      "conceptId": "es.taxi"
     },
     {
       "id": "station",
@@ -74,7 +76,8 @@
       },
       "gloss_example": {
         "en": "The train station is a ten-minute walk from the hotel."
-      }
+      },
+      "conceptId": "es.station"
     },
     {
       "id": "stop",
@@ -94,7 +97,8 @@
       },
       "gloss_example": {
         "en": "Get off at the third stop. The museum is right there."
-      }
+      },
+      "conceptId": "es.stop"
     },
     {
       "id": "metro",
@@ -130,7 +134,8 @@
           },
           "audioSlug": "subterraneo"
         }
-      ]
+      ],
+      "conceptId": "es.metro"
     },
     {
       "id": "fare",
@@ -166,7 +171,8 @@
           },
           "audioSlug": "pasaje"
         }
-      ]
+      ],
+      "conceptId": "es.fare"
     },
     {
       "id": "route",
@@ -186,7 +192,8 @@
       },
       "gloss_example": {
         "en": "Which route do you recommend, the highway or the scenic road?"
-      }
+      },
+      "conceptId": "es.route"
     },
     {
       "id": "transfer",
@@ -222,7 +229,8 @@
           },
           "audioSlug": "traslado"
         }
-      ]
+      ],
+      "conceptId": "es.transfer"
     },
     {
       "id": "schedule",
@@ -242,7 +250,8 @@
       },
       "gloss_example": {
         "en": "Check the bus schedule online before heading to the stop."
-      }
+      },
+      "conceptId": "es.schedule"
     },
     {
       "id": "itinerary",
@@ -262,7 +271,8 @@
       },
       "gloss_example": {
         "en": "The tour guide handed out the itinerary for our three-day trip."
-      }
+      },
+      "conceptId": "es.itinerary"
     },
     {
       "id": "platform",
@@ -298,7 +308,8 @@
           },
           "audioSlug": "plataforma"
         }
-      ]
+      ],
+      "conceptId": "es.platform"
     },
     {
       "id": "carpool",
@@ -318,7 +329,8 @@
       },
       "gloss_example": {
         "en": "We set up a carpool with three colleagues to avoid paying for parking every day."
-      }
+      },
+      "conceptId": "es.carpool"
     },
     {
       "id": "commute",
@@ -338,7 +350,8 @@
       },
       "gloss_example": {
         "en": "Her daily commute takes over an hour each way by train."
-      }
+      },
+      "conceptId": "es.commute"
     },
     {
       "id": "compensation",
@@ -374,7 +387,8 @@
           },
           "audioSlug": "indemnizacion"
         }
-      ]
+      ],
+      "conceptId": "es.compensation"
     },
     {
       "id": "congestion",
@@ -410,7 +424,8 @@
           },
           "audioSlug": "trafico"
         }
-      ]
+      ],
+      "conceptId": "es.congestion"
     },
     {
       "id": "bypass",
@@ -453,7 +468,8 @@
           },
           "audioSlug": "circunvalacion"
         }
-      ]
+      ],
+      "conceptId": "es.bypass"
     },
     {
       "id": "interchange",
@@ -489,7 +505,8 @@
           },
           "audioSlug": "nodo_de_transporte"
         }
-      ]
+      ],
+      "conceptId": "es.interchange"
     },
     {
       "id": "ridesharing",
@@ -509,7 +526,8 @@
       },
       "gloss_example": {
         "en": "Ridesharing apps have changed how people travel in cities around the world."
-      }
+      },
+      "conceptId": "es.ridesharing"
     },
     {
       "id": "surcharge",
@@ -545,7 +563,8 @@
           },
           "audioSlug": "sobrecargo"
         }
-      ]
+      ],
+      "conceptId": "es.surcharge"
     },
     {
       "id": "infrastructure",
@@ -565,7 +584,8 @@
       },
       "gloss_example": {
         "en": "Poor infrastructure is one of the main reasons public transport is unreliable in this region."
-      }
+      },
+      "conceptId": "es.infrastructure"
     },
     {
       "id": "accessibility",
@@ -585,7 +605,8 @@
       },
       "gloss_example": {
         "en": "The new bus fleet was praised for its improved accessibility for wheelchair users."
-      }
+      },
+      "conceptId": "es.accessibility"
     },
     {
       "id": "subsidy",
@@ -621,7 +642,8 @@
           },
           "audioSlug": "subsidio"
         }
-      ]
+      ],
+      "conceptId": "es.subsidy"
     },
     {
       "id": "penalty",
@@ -657,7 +679,8 @@
           },
           "audioSlug": "sancion"
         }
-      ]
+      ],
+      "conceptId": "es.penalty"
     },
     {
       "id": "liability",
@@ -677,7 +700,8 @@
       },
       "gloss_example": {
         "en": "The rental agreement clearly states the renter's liability for vehicle damage."
-      }
+      },
+      "conceptId": "es.liability"
     },
     {
       "id": "urban_mobility",
@@ -697,7 +721,8 @@
       },
       "gloss_example": {
         "en": "Improving urban mobility requires investment in both infrastructure and behavioral change."
-      }
+      },
+      "conceptId": "es.urban_mobility"
     },
     {
       "id": "deregulation",
@@ -717,7 +742,8 @@
       },
       "gloss_example": {
         "en": "The deregulation of the bus industry led to lower prices but less reliable services."
-      }
+      },
+      "conceptId": "es.deregulation"
     },
     {
       "id": "congestion_pricing",
@@ -753,7 +779,8 @@
           },
           "audioSlug": "peaje_urbano"
         }
-      ]
+      ],
+      "conceptId": "es.congestion_pricing"
     },
     {
       "id": "intermodal",
@@ -773,7 +800,8 @@
       },
       "gloss_example": {
         "en": "The new intermodal hub connects rail, bus, and cycle lanes in a single terminal."
-      }
+      },
+      "conceptId": "es.intermodal"
     },
     {
       "id": "carbon_footprint",
@@ -793,7 +821,8 @@
       },
       "gloss_example": {
         "en": "Taking the train instead of flying dramatically reduces your carbon footprint."
-      }
+      },
+      "conceptId": "es.carbon_footprint"
     },
     {
       "id": "franchise",
@@ -829,7 +858,8 @@
           },
           "audioSlug": "franquicia"
         }
-      ]
+      ],
+      "conceptId": "es.franchise"
     },
     {
       "id": "drive",
@@ -865,7 +895,8 @@
           },
           "audioSlug": "manejar"
         }
-      ]
+      ],
+      "conceptId": "es.drive"
     },
     {
       "id": "trip",
@@ -885,7 +916,8 @@
       },
       "gloss_example": {
         "en": "We took a trip to the mountains."
-      }
+      },
+      "conceptId": "es.trip"
     },
     {
       "id": "mile",
@@ -905,7 +937,8 @@
       },
       "gloss_example": {
         "en": "The station is two miles away."
-      }
+      },
+      "conceptId": "es.mile"
     },
     {
       "id": "cross",
@@ -925,7 +958,8 @@
       },
       "gloss_example": {
         "en": "Look both ways before you cross the street."
-      }
+      },
+      "conceptId": "es.cross"
     },
     {
       "id": "airplane",
@@ -945,7 +979,8 @@
       },
       "gloss_example": {
         "en": "The airplane landed on time."
-      }
+      },
+      "conceptId": "es.airplane"
     },
     {
       "id": "vacaciones",
@@ -965,7 +1000,8 @@
       },
       "gloss_example": {
         "en": "We are going on vacation in July."
-      }
+      },
+      "conceptId": "es.vacaciones"
     },
     {
       "id": "guia",
@@ -985,7 +1021,8 @@
       },
       "gloss_example": {
         "en": "The guide showed us the city."
-      }
+      },
+      "conceptId": "es.guia"
     },
     {
       "id": "turismo",
@@ -1005,7 +1042,8 @@
       },
       "gloss_example": {
         "en": "Tourism is important on the coast."
-      }
+      },
+      "conceptId": "es.turismo"
     },
     {
       "id": "excursion",
@@ -1025,7 +1063,8 @@
       },
       "gloss_example": {
         "en": "We took a trip to the mountains."
-      }
+      },
+      "conceptId": "es.excursion"
     },
     {
       "id": "coche",
@@ -1068,7 +1107,8 @@
           },
           "audioSlug": "auto"
         }
-      ]
+      ],
+      "conceptId": "es.coche"
     },
     {
       "id": "bicicleta",
@@ -1088,7 +1128,8 @@
       },
       "gloss_example": {
         "en": "I go to work by bicycle."
-      }
+      },
+      "conceptId": "es.bicicleta"
     },
     {
       "id": "barco",
@@ -1108,7 +1149,8 @@
       },
       "gloss_example": {
         "en": "We crossed the river by boat."
-      }
+      },
+      "conceptId": "es.barco"
     },
     {
       "id": "tren",
@@ -1128,7 +1170,8 @@
       },
       "gloss_example": {
         "en": "I took the morning train."
-      }
+      },
+      "conceptId": "es.tren"
     },
     {
       "id": "motorcycle",
@@ -1164,7 +1207,8 @@
           },
           "audioSlug": "motocicleta"
         }
-      ]
+      ],
+      "conceptId": "es.motorcycle"
     },
     {
       "id": "wheel",
@@ -1184,7 +1228,8 @@
       },
       "gloss_example": {
         "en": "One wheel of the car is flat."
-      }
+      },
+      "conceptId": "es.wheel"
     }
   ]
 }

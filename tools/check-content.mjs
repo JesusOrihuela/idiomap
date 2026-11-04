@@ -17,6 +17,7 @@ import { fileURLToPath } from 'url';
 import AppLangProfiles from '../shared/js/lang-profiles.js';
 import AppVariantDims from '../shared/js/variant-dimensions.js';
 import AppLangPair from '../shared/js/lang-pair.js';
+import { loadTopic } from './lib-content.mjs';
 
 // WIP pairs (`wip:true` in lang-pair.js) are shippable pairs still under construction — their vocab
 // glosses are added incrementally, so their SOURCE must NOT yet be required on the shared vocab of
@@ -111,7 +112,7 @@ for (const pair of PAIRS) {
     const filepath = join(BASE, 'pairs', pair, `${topic}.json`);
     let data;
     try {
-      data = JSON.parse(readFileSync(filepath, 'utf8'));
+      data = loadTopic(pair, topic);
     } catch {
       flag(pair, topic, '—', '—', 'R9', `Cannot read/parse file`);
       continue;

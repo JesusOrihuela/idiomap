@@ -1,8 +1,8 @@
 {
     "name": "Idiomap",
     "short_name": "Idiomap",
-    "description": "Learn languages with speaking practice, vocabulary flashcards, and spaced repetition — free, offline, and installable.",
-    "start_url": "./index.html",
+    "description": "Learn languages with speaking practice, vocabulary flashcards, and spaced repetition, free, offline, and installable.",
+    "start_url": "./",
     "scope": "./",
     "display": "standalone",
     "orientation": "portrait-primary",
@@ -26,12 +26,12 @@
     "shortcuts": [
         {
             "name": "Speaking Practice",
-            "url": "./speaking/html/speaking.html",
+            "url": "./speaking/",
             "description": "Choose a topic and practice speaking"
         },
         {
             "name": "Vocabulary Trainer",
-            "url": "./vocabulary/html/vocabulary.html",
+            "url": "./vocabulary/",
             "description": "Flashcard vocabulary with spaced repetition"
         }
     ]

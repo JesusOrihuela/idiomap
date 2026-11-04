@@ -81,7 +81,7 @@ try {
   page.on('pageerror', e => errs.push(e.message));
   page.on('console', m => { const t = m.text(); if (/content security policy|violates the following/i.test(t)) csp.push(t); });
 
-  await page.goto(BASE + '/speaking/html/speaking.html', { waitUntil: 'domcontentloaded' });
+  await page.goto(BASE + '/speaking/', { waitUntil: 'domcontentloaded' });
   await page.click('#topic-grid button');                // pick a topic → phrase browser
   await page.waitForSelector('.pb-chip', { state: 'visible', timeout: 15000 });
   await page.click('.pb-chip');                          // pick a phrase → exercise area

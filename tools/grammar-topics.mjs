@@ -17,6 +17,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { DETECTORS } from './lang-detectors.mjs';
+import { loadTopic } from './lib-content.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
@@ -47,7 +48,7 @@ function verifyPair(pair) {
   const topicsMeta = JSON.parse(fs.readFileSync(`${ROOT}/shared/json/pairs/${pair}/topics.json`, 'utf8')).topics.filter(t => t.phrase);
   const phrasesByTopic = {};
   for (const t of topicsMeta) {
-    const d = JSON.parse(fs.readFileSync(`${ROOT}/shared/json/pairs/${pair}/${t.id}.json`, 'utf8'));
+    const d = loadTopic(pair, t.id);
     phrasesByTopic[t.id] = (d.phrases || []).map(p => ({ id: p.id, text: p.target.map(f => f.text).join(' ') }));
   }
   const rulesFile = `${ROOT}/shared/json/pairs/${pair}/grammar-rules.json`;

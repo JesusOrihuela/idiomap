@@ -4,22 +4,6 @@
    AppPath (shared/js/path.js) via localStorage.
    ============================================================ */
 
-// In-page fetch cache — deduplicates concurrent requests
-const _fetchCache = new Map();
-function _fetchJSON(url) {
-  if (!_fetchCache.has(url)) {
-    _fetchCache.set(url,
-      fetch(url)
-        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-        .catch(err => { _fetchCache.delete(url); throw err; })
-    );
-  }
-  return _fetchCache.get(url);
-}
-
-// Prefix hrefs from AppPath (root-relative) to work from progress/html/
-function _pHref(href) { return '../../' + href; }
-
 document.addEventListener('DOMContentLoaded', async () => {
   // Part B: load the active pair's topics before reading topic lists.
   await AppTopics.load();
@@ -34,12 +18,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderMilestones();
   await renderExerciseMatrix();
 
-  // Show backup reminder toast if the user hasn't exported in 30+ days
+  // Reminder banner inside the "Respaldo" section (not a floating toast)
   if (typeof AppBackupReminder !== 'undefined' && AppBackupReminder.shouldShow()) {
-    AppBackupReminder.show(function () {
-      var block = document.getElementById('backup-block');
-      if (block) block.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
+    AppBackupReminder.show();
   }
 });
 
@@ -62,7 +43,7 @@ function renderLangPair() {
   all.forEach(function (pair) {
     const card = document.createElement('button');
     card.type = 'button';
-    card.className = 'lp-card' + (pair.id === active.id ? ' lp-card--active' : '');
+    card.className = 'choice lp-card' + (pair.id === active.id ? ' choice--selected' : '');
     card.setAttribute('aria-pressed', pair.id === active.id ? 'true' : 'false');
     card.setAttribute('aria-label', pair.label);
 
@@ -108,7 +89,7 @@ function renderTopicPrefs() {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'prog-bubble' + (saved.has(t.id) ? ' prog-bubble--on' : '');
-    btn.textContent = t.emoji + ' ' + AppTopics.getLabel(t);
+    btn.textContent = AppTopics.getLabel(t);
     btn.dataset.id = t.id;
     btn.setAttribute('aria-pressed', saved.has(t.id) ? 'true' : 'false');
     btn.addEventListener('click', () => {
@@ -127,11 +108,6 @@ function renderTopicPrefs() {
 function renderHeroStats() {
   const streak = Progress.getStreak();
   const cards  = Progress.getAllCards();
-
-  let masteredCount = 0;
-  Object.keys(cards).forEach(key => {
-    if (!key.startsWith('_') && Progress.getMastery(key) === 'mastered') masteredCount++;
-  });
 
   // Lessons started: count unique topic×activity combos + grammar rules started
   let lessonsStarted = 0;
@@ -155,7 +131,7 @@ function renderHeroStats() {
   }
 
   document.getElementById('stat-streak').textContent   = streak.current;
-  document.getElementById('stat-mastered').textContent = masteredCount; // total added later by renderExerciseMatrix
+  // «Tarjetas dominadas» se pinta como porcentaje al cargar el resumen (DP-03).
   document.getElementById('stat-topics').textContent   = lessonsStarted;
   const bestEl = document.getElementById('stat-best-streak');
   if (bestEl && streak.best > streak.current) bestEl.textContent = AppLang.t('streak_best', { n: streak.best });
@@ -203,8 +179,8 @@ function _segBar(mastered, learning, total) {
   var mPct = Math.round((mastered  / total) * 100);
   var lPct = Math.round((learning  / total) * 100);
   var out  = '';
-  if (mPct > 0) out += '<div class="ex-seg--mastered" style="width:' + mPct + '%"></div>';
-  if (lPct > 0) out += '<div class="ex-seg--learning" style="width:' + lPct + '%"></div>';
+  if (mPct > 0) out += '<div class="ex-seg--mastered" style="transform:scaleX(' + (mPct/100) + ')"></div>';
+  if (lPct > 0) out += '<div class="ex-seg--learning" style="transform:scaleX(' + (lPct/100) + ')"></div>';
   return out;
 }
 
@@ -217,19 +193,14 @@ async function renderExerciseMatrix() {
   const grammarRules = grammarData.rules || [];
   const allCards = Progress.getAllCards();
 
-  // Update Cards Mastered stat with full total (phrases×5 + vocab×2 + grammar per topic)
+  // Cards Mastered stat: numerator only («0 / 9353» leído como cifra extraña, DP-03)
   (function() {
-    let masteredCount = 0, totalCount = 0;
+    let masteredCount = 0;
     Object.keys(allCards).forEach(function(key) {
       if (!key.startsWith('_') && Progress.getMastery(key) === 'mastered') masteredCount++;
     });
-    AppPath.getTopicStatuses().forEach(function(topic) {
-      totalCount += Progress.getPhraseIds(topic.id).length * 5;
-      totalCount += Progress.getVocabIds(topic.id).length * 2;
-      totalCount += grammarRules.filter(function(r) { return Array.isArray(r.topics) && r.topics.includes(topic.id); }).length;
-    });
     const el = document.getElementById('stat-mastered');
-    if (el) el.textContent = masteredCount + ' / ' + totalCount;
+    if (el) el.textContent = masteredCount;
   })();
 
   function _topicLabel(t) {
@@ -237,14 +208,14 @@ async function renderExerciseMatrix() {
   }
 
   const ACT_ORDER = [
-    { id: 'speaking',    emoji: '🎙️', label: AppLang.t('act_speaking')    },
-    { id: 'dictation',   emoji: '✍️', label: AppLang.t('act_dictation')   },
-    { id: 'vocabulary',  emoji: '📚', label: AppLang.t('act_vocabulary')  },
-    { id: 'cloze',       emoji: '🔤', label: AppLang.t('act_cloze')       },
-    { id: 'translation', emoji: '🔄', label: AppLang.t('act_translation') },
-    { id: 'scramble',    emoji: '🧩', label: AppLang.t('act_scramble')    },
-    { id: 'quiz',        emoji: '🧠', label: AppLang.t('act_quiz')        },
-    { id: 'grammar',     emoji: '📐', label: AppLang.t('act_grammar')     },
+    { id: 'speaking',    icon: 'mic', label: AppLang.t('act_speaking')    },
+    { id: 'dictation',   icon: 'pen', label: AppLang.t('act_dictation')   },
+    { id: 'vocabulary',  icon: 'book', label: AppLang.t('act_vocabulary')  },
+    { id: 'cloze',       icon: 'type', label: AppLang.t('act_cloze')       },
+    { id: 'translation', icon: 'languages', label: AppLang.t('act_translation') },
+    { id: 'scramble',    icon: 'puzzle', label: AppLang.t('act_scramble')    },
+    { id: 'quiz',        icon: 'brain', label: AppLang.t('act_quiz')        },
+    { id: 'grammar',     icon: 'ruler', label: AppLang.t('act_grammar')     },
   ];
 
   container.innerHTML = '';
@@ -264,7 +235,7 @@ async function renderExerciseMatrix() {
     th.setAttribute('aria-label', a.label);
     const emojiEl = document.createElement('span');
     emojiEl.setAttribute('aria-hidden', 'true');
-    emojiEl.textContent = a.emoji;
+    emojiEl.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-' + a.icon + '"/></svg>';
     const labelEl = document.createElement('span');
     labelEl.className = 'ex-grid-th-label';
     labelEl.textContent = a.label;
@@ -295,7 +266,7 @@ async function renderExerciseMatrix() {
     th.className = 'ex-grid-topic';
     th.setAttribute('role', 'rowheader');
     th.innerHTML =
-      '<span class="ex-grid-topic-emoji" aria-hidden="true">' + topic.emoji + '</span>' +
+      '<span class="ex-grid-topic-emoji" aria-hidden="true"><svg class="icon"><use href="#' + AppTopicIcon.of(topic.id) + '"/></svg></span>' +
       '<span class="ex-grid-topic-name">' + _esc(_topicLabel(topic)) + '</span>';
     row.appendChild(th);
 
@@ -304,6 +275,7 @@ async function renderExerciseMatrix() {
       const td = document.createElement('div');
       td.className = 'ex-grid-cell';
       td.setAttribute('role', 'cell');
+      td.dataset.label = act.label;
 
       const stats = _getActStats(topic.id, act.id, allCards, phraseIds, vocabIds, grammarRules);
 
@@ -350,9 +322,11 @@ async function renderExerciseMatrix() {
     legend.appendChild(el);
   });
   document.getElementById('exercises-block').appendChild(legend);
+
 }
 
 // ---- Activity Heatmap (last 60 days) ----
+// Rejilla 7 filas (L-D) x N semanas, con meses encima y dias a la izquierda.
 
 function renderHeatmap() {
   const sessions  = Progress.getSessions();
@@ -360,23 +334,94 @@ function renderHeatmap() {
   if (!container) return;
 
   const counts = {};
-  sessions.forEach(s => {
-    counts[s.date] = (counts[s.date] || 0) + 1;
-  });
+  sessions.forEach(s => { counts[s.date] = (counts[s.date] || 0) + 1; });
+
+  const lang   = document.documentElement.lang || 'es';
+  const dayFmt = new Intl.DateTimeFormat(lang, { weekday: 'narrow' });
+  const monFmt = new Intl.DateTimeFormat(lang, { month: 'short' });
 
   const today = new Date();
+  const days  = [];
   for (let i = 59; i >= 0; i--) {
     const d = new Date(today);
     d.setDate(d.getDate() - i);
-    const dateStr = d.toISOString().slice(0, 10);
-    const count   = counts[dateStr] || 0;
-    const level   = count === 0 ? 'l0' : count === 1 ? 'l1' : count <= 3 ? 'l2' : 'l3';
-
-    const cell = document.createElement('div');
-    cell.className = 'heatmap-cell ' + level;
-    cell.title = dateStr + (count > 0 ? ' — ' + count + ' ' + (count > 1 ? AppLang.t('heatmap_session_plural') : AppLang.t('heatmap_session_singular')) : '');
-    container.appendChild(cell);
+    days.push(d);
   }
+
+  // Semanas que empiezan en lunes
+  const lead  = (days[0].getDay() + 6) % 7;
+  const cells = new Array(lead).fill(null).concat(days);
+  const weeks = [];
+  for (let i = 0; i < cells.length; i += 7) weeks.push(cells.slice(i, i + 7));
+
+  const monday = new Date(days[0]);
+  monday.setDate(monday.getDate() - lead);
+
+  container.innerHTML = '';
+  const grid = document.createElement('div');
+  grid.className = 'heatmap-grid';
+  grid.style.setProperty('--weeks', weeks.length);
+
+  const label = (text, cls) => {
+    const el = document.createElement('span');
+    el.className = 'heatmap-label' + (cls ? ' ' + cls : '');
+    el.textContent = text;
+    return el;
+  };
+
+  // Meses: una etiqueta por tramo, arriba y abarcando sus semanas
+  let monthStart = 0, monthName = '';
+  const flushMonth = endIdx => {
+    if (!monthName) return;
+    const el = label(monthName, 'heatmap-month');
+    el.style.gridRow = '1';
+    el.style.gridColumn = (monthStart + 2) + ' / span ' + (endIdx - monthStart);
+    grid.appendChild(el);
+  };
+  weeks.forEach((week, wi) => {
+    const first = week.find(Boolean);
+    if (!first) return;
+    const name = monFmt.format(first);
+    if (name !== monthName) {
+      flushMonth(wi);
+      monthName = name;
+      monthStart = wi;
+    }
+  });
+  flushMonth(weeks.length);
+
+  // Dias a la izquierda
+  for (let d = 0; d < 7; d++) {
+    const day = new Date(monday);
+    day.setDate(day.getDate() + d);
+    const el = label(dayFmt.format(day), 'heatmap-day');
+    el.style.gridRow = String(d + 2);
+    el.style.gridColumn = '1';
+    grid.appendChild(el);
+  }
+
+  // Celdas: fila = dia de la semana, columna = semana
+  weeks.forEach((week, wi) => {
+    week.forEach((day, di) => {
+      if (!day) return;
+      const dateStr = day.toISOString().slice(0, 10);
+      const count   = counts[dateStr] || 0;
+      const level   = count === 0 ? 'l0' : count === 1 ? 'l1' : count <= 3 ? 'l2' : 'l3';
+
+      const cell = document.createElement('span');
+      cell.className = 'heatmap-cell ' + level;
+      cell.style.gridRow = String(di + 2);
+      cell.style.gridColumn = String(wi + 2);
+      cell.setAttribute('role', 'img');
+      cell.setAttribute('aria-label', dateStr + (count > 0
+        ? ', ' + count + ' ' + (count > 1 ? AppLang.t('heatmap_session_plural') : AppLang.t('heatmap_session_singular'))
+        : ''));
+      cell.title = cell.getAttribute('aria-label');
+      grid.appendChild(cell);
+    });
+  });
+
+  container.appendChild(grid);
 }
 
 // ---- Milestones ----
@@ -395,11 +440,12 @@ function renderMilestones() {
     const _mTitle = AppLang.t('milestone_' + m.id + '_title');
     const _mDesc  = AppLang.t('milestone_' + m.id + '_desc');
     el.className = 'milestone-badge' + (done ? ' milestone-badge--done' : ' milestone-badge--locked');
-    el.setAttribute('aria-label', _mTitle + (done ? ' — achieved' : ' — locked'));
+    // Sin aria-label: se leen título y descripción, y el estado va en texto oculto localizado.
     el.innerHTML =
-      '<span class="milestone-badge__emoji">' + (done ? m.emoji : '🔒') + '</span>' +
+      '<span class="milestone-badge__icon"><svg class="icon" aria-hidden="true"><use href="#' + (done ? (m.icon || 'i-star') : 'i-lock') + '"/></svg></span>' +
       '<span class="milestone-badge__title">' + _esc(_mTitle) + '</span>' +
-      '<span class="milestone-badge__desc">' + _esc(_mDesc) + '</span>';
+      '<span class="milestone-badge__desc">' + _esc(_mDesc) + '</span>' +
+      '<span class="visually-hidden">' + AppLang.t(done ? 'milestone_state_done' : 'milestone_state_locked') + '</span>';
     container.appendChild(el);
   });
 }

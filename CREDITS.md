@@ -114,16 +114,26 @@ inventory per target language — not intuition. Full spec: `docs/GRAMMAR.md`. N
   grammatikk* (Faarlund, Lie & Vannebo). Bokmål and Nynorsk are both covered (dual written standard).
 
 ### National flags (`shared/img/flags/`)
-Faithful national flag SVGs used for the region/variant badges. National flags are in the
-**public domain** (government works); files sourced from Wikimedia Commons.
-- Source: https://commons.wikimedia.org/ (Special:FilePath/Flag_of_*.svg)
-- License: Public domain
+Faithful national flag SVGs used for the region/variant badges and the language-pair stack.
+Every file is the **canonical Wikimedia Commons file** for that country (`Flag_of_<Country>.svg`),
+kept at its **official aspect ratio** (Switzerland 1:1, Germany 3:5, Norway 8:11, USA 10:19…),
+optimized with SVGO at precision 1. `tools/check-flags.mjs` enforces the ratio table and that no
+flag is ever drawn in code.
+- Source: https://commons.wikimedia.org/ (Special:FilePath/Flag_of_<Country>.svg)
+- License: Public domain (national flags; a few coats of arms are PD-old)
 
 ### Orthographic region maps (`shared/img/regions/`)
 Real orthographic-projection locator maps for contiguous macro-regions (e.g. Latinoamérica),
 used in the variant badge. Sourced from Wikimedia Commons.
 - Source: https://commons.wikimedia.org/ (e.g. Latin America (orthographic projection).svg)
 - License: Creative Commons Attribution-ShareAlike (CC BY-SA), per each file's Commons page.
+
+### Interface icons (`shared/js/icons.js`)
+A single SVG sprite inlined at runtime. 42 glyphs come from **Lucide** (ISC/MIT); the GitHub
+mark (`i-github`, filled, drawn with `.icon--brand`) comes from **Font Awesome Free brands**
+(CC BY 4.0). Both are attributed here; no icon file is redistributed separately.
+- Lucide: https://lucide.dev · License: ISC (MIT for some files)
+- Font Awesome Free: https://fontawesome.com · License: CC BY 4.0 (icons), SIL OFL 1.1 (fonts)
 
 ## Topic images
 

@@ -1,0 +1,30 @@
+{
+  "id": "de-pl",
+  "source": {
+    "code": "de",
+    "flags": [
+      "at",
+      "de"
+    ],
+    "name": "Deutsch",
+    "localName": "Deutsch"
+  },
+  "target": {
+    "code": "pl",
+    "flags": [
+      "pl"
+    ],
+    "name": "Polski",
+    "localName": "Polnisch"
+  },
+  "sourceLocale": "de-DE",
+  "targetLocale": "pl-PL",
+  "label": "Deutsch → Polski",
+  "ttsVoices": [
+    "plf_zofia",
+    "plm_marek"
+  ],
+  "sttLanguage": "polish",
+  "status": "stress",
+  "stressTest": true
+}

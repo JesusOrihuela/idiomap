@@ -95,17 +95,17 @@ const PathSession = (() => {
     return warmup.concat(peak).concat(cooldown).map(function (x) { return x.item; });
   }
 
-  // Href builders (paths relative to root, activities prefix ../../ themselves)
+  // Href builders (paths relative to root; pages one level deep prefix ../)
   function _href(activityId, topic, cardId) {
     switch (activityId) {
-      case 'speaking':    return 'speaking/html/speaking.html?topic='    + topic + '&card=' + cardId + '&path=1';
-      case 'cloze':       return 'cloze/html/cloze.html?topic='          + topic + '&card=' + cardId + '&path=1';
-      case 'dictation':   return 'dictation/html/dictation.html?topic='  + topic + '&card=' + cardId + '&path=1';
-      case 'translation': return 'translation/html/translation.html?topic=' + topic + '&card=' + cardId + '&path=1';
-      case 'scramble':    return 'scramble/html/scramble.html?topic='    + topic + '&card=' + cardId + '&path=1';
-      case 'vocabulary':  return 'vocabulary/html/vocabulary.html?topic=' + topic + '&card=' + cardId + '&path=1';
-      case 'quiz':        return 'quiz/html/quiz.html?topic='             + topic + '&card=' + cardId + '&path=1';
-      case 'grammar':     return 'grammar/html/grammar.html?rule='        + cardId + '&path=1';
+      case 'speaking':    return 'speaking/?topic='    + topic + '&card=' + cardId + '&path=1';
+      case 'cloze':       return 'cloze/?topic='          + topic + '&card=' + cardId + '&path=1';
+      case 'dictation':   return 'dictation/?topic='  + topic + '&card=' + cardId + '&path=1';
+      case 'translation': return 'translation/?topic=' + topic + '&card=' + cardId + '&path=1';
+      case 'scramble':    return 'scramble/?topic='    + topic + '&card=' + cardId + '&path=1';
+      case 'vocabulary':  return 'vocabulary/?topic=' + topic + '&card=' + cardId + '&path=1';
+      case 'quiz':        return 'quiz/?topic='             + topic + '&card=' + cardId + '&path=1';
+      case 'grammar':     return 'grammar/?rule='        + cardId + '&path=1';
       default:            return 'index.html';
     }
   }

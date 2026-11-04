@@ -37,20 +37,18 @@ const AppTopicGrid = (() => {
       const btn = document.createElement('button');
       btn.className = 'img-topic-card';
       btn.dataset.theme = topic.id;
-      // Orchestrated-reveal stagger (only fires under .page-in, once the grid is fully built
-      // and the cloak lifts — see generalities.css / page-title.js). Base 0.18s lets the
-      // header (title 0s → subtitle 0.09s) land first; the per-card step is CAPPED at 12
-      // cards (~0.6s max) so ~45 topics cascade in order without a long, piecemeal tail.
-      btn.style.animationDelay = (0.18 + Math.min(i, 12) * 0.035).toFixed(3) + 's';
-      const imgSrc = '../img/' + topic.id + '.webp';
+      const imgSrc = 'img/' + topic.id + '.webp';
       btn.innerHTML =
         '<div class="img-topic-card__img-wrap">' +
-          '<img class="img-topic-card__img" src="' + imgSrc + '" alt="" loading="lazy" onerror="this.remove()" width="800" height="450">' +
-          '<div class="img-topic-card__overlay"></div>' +
+          '<img class="img-topic-card__img" src="' + imgSrc + '" alt="" ' +
+            (i < 4 ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"') +
+            ' onerror="this.remove()" width="800" height="450">' +
         '</div>' +
         '<div class="img-topic-card__body">' +
-          '<span class="img-topic-card__title">' + ((typeof AppTopics !== 'undefined') ? AppTopics.getLabel(topic) : topic.label) + '</span>' +
-          '<span class="img-topic-card__progress" id="tp-' + topic.id + '"></span>' +
+          '<span class="img-topic-card__text">' +
+            '<span class="img-topic-card__title">' + ((typeof AppTopics !== 'undefined') ? AppTopics.getLabel(topic) : topic.label) + '</span>' +
+            '<span class="img-topic-card__progress" id="tp-' + topic.id + '"></span>' +
+          '</span>' +
         '</div>';
       btn.addEventListener('click', () => onSelect(topic.id));
       grid.appendChild(btn);
@@ -60,6 +58,7 @@ const AppTopicGrid = (() => {
           const keyPrefix = resolveSrsKey(topic) + '_';
           const seen = Object.keys(cards).filter(k => k.startsWith(keyPrefix) && cards[k].reps > 0).length;
           const el = document.getElementById('tp-' + topic.id);
+          // El contador se muestra siempre, también en «0 / N» (DP-03 revisado).
           if (el) el.textContent = AppLang.t('topic_learned', { seen, total });
         })
         .catch(() => {});

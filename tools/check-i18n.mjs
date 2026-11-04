@@ -25,7 +25,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const HTML = [
   'index.html',
   ...['speaking','dictation','cloze','translation','scramble','vocabulary','quiz','grammar','my-learning','progress','placement']
-      .map(a => `${a}/html/${a}.html`),
+      .map(a => `${a}/index.html`),
 ];
 
 // ── Parse lang/ui.js language blocks ──────────────────────────────────────

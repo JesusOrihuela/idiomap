@@ -35,8 +35,11 @@
   function params() {
     try {
       var p = AppLangPair.getActive();
-      return { target: p.target.localName, source: p.source.localName,
+      var out = { target: p.target.localName, source: p.source.localName,
                targetName: p.target.name, sourceName: p.source.name };
+      var n = document.querySelectorAll('.feature-card-link').length;
+      if (n) out.count = n;
+      return out;
     } catch (e) { return {}; }
   }
 
@@ -47,5 +50,11 @@
   // placement) and future pages. nav.js / index also call apply() earlier
   // during parse; re-applying is idempotent. Guarantees the no-hardcoded-text
   // standard holds everywhere with zero per-page wiring.
-  document.addEventListener('DOMContentLoaded', function () { apply(document, params()); });
+  document.addEventListener('DOMContentLoaded', function () {
+    apply(document, params());
+    if (typeof AppLang !== 'undefined') {
+      AppLang.applyDocumentLang();
+      AppLang.markTargets(document);
+    }
+  });
 })();

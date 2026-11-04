@@ -1,0 +1,75 @@
+{
+  "feedback": {
+    "$description": "Avisos de corrección compartidos por Dictado, Cloze, Traducción, Secuencia, Quiz y Pronunciación.",
+    "correct": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.semantic.success-subtle}",
+        "$description": "Fondo del aviso de acierto.",
+        "$extensions": { "com.idiomap": { "cssVar": "--feedback-correct-bg" } }
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.semantic.success}",
+        "$description": "Borde izquierdo del aviso de acierto.",
+        "$extensions": { "com.idiomap": { "cssVar": "--feedback-correct-border" } }
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.semantic.success-strong}",
+        "$description": "Texto de acierto (AA sobre el fondo).",
+        "$extensions": { "com.idiomap": { "cssVar": "--feedback-correct-text" } }
+      }
+    },
+    "error": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.semantic.danger-subtle}",
+        "$description": "Fondo del aviso de fallo.",
+        "$extensions": { "com.idiomap": { "cssVar": "--feedback-error-bg" } }
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.semantic.danger}",
+        "$description": "Borde izquierdo del aviso de fallo.",
+        "$extensions": { "com.idiomap": { "cssVar": "--feedback-error-border" } }
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.semantic.danger-strong}",
+        "$description": "Texto de fallo (AA sobre el fondo).",
+        "$extensions": { "com.idiomap": { "cssVar": "--feedback-error-text" } }
+      }
+    },
+    "word": {
+      "ok-bg": {
+        "$type": "cssValue",
+        "$value": "color-mix(in srgb, var(--color-success) 13%, transparent)",
+        "$description": "Tinte de la palabra acertada; sigue al rol semántico.",
+        "$extensions": { "com.idiomap": { "cssVar": "--feedback-word-ok-bg" } }
+      },
+      "ok-text": {
+        "$type": "color",
+        "$value": "{color.semantic.success-strong}",
+        "$extensions": { "com.idiomap": { "cssVar": "--feedback-word-ok-text" } }
+      },
+      "err-bg": {
+        "$type": "cssValue",
+        "$value": "color-mix(in srgb, var(--color-danger) 12%, transparent)",
+        "$description": "Tinte de la palabra fallada; sigue al rol semántico.",
+        "$extensions": { "com.idiomap": { "cssVar": "--feedback-word-err-bg" } }
+      },
+      "err-text": {
+        "$type": "color",
+        "$value": "{color.semantic.danger-strong}",
+        "$extensions": { "com.idiomap": { "cssVar": "--feedback-word-err-text" } }
+      },
+      "neutral-text": {
+        "$type": "color",
+        "$value": "{color.semantic.text-muted}",
+        "$description": "Contexto no evaluado de la frase.",
+        "$extensions": { "com.idiomap": { "cssVar": "--feedback-word-neutral-text" } }
+      }
+    }
+  }
+}

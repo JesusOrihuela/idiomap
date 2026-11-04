@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "tag": "fi",
+  "concepts": [
+    {
+      "conceptId": "fi.personal_info_i_am_a_student",
+      "id": "personal_info_i_am_a_student",
+      "target": [
+        {
+          "text": "Olen opiskelija.",
+          "audioSlug": "olen_opiskelija"
+        }
+      ],
+      "pairs": [
+        "en-fi"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "fi.personal_info_i_live_in_the_city",
+      "id": "personal_info_i_live_in_the_city",
+      "target": [
+        {
+          "text": "Asun kaupungissa.",
+          "audioSlug": "asun_kaupungissa"
+        }
+      ],
+      "pairs": [
+        "en-fi"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "fi.survival_can_you_help_me",
+      "id": "survival_can_you_help_me",
+      "target": [
+        {
+          "text": "Voitko auttaa minua?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "voitko_auttaa_minua"
+        },
+        {
+          "text": "Voitteko auttaa minua?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "voitteko_auttaa_minua"
+        }
+      ],
+      "pairs": [
+        "en-fi"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "fi.survival_do_you_speak_english",
+      "id": "survival_do_you_speak_english",
+      "target": [
+        {
+          "text": "Anteeksi, puhutko englantia?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "anteeksi_puhutko_englantia"
+        },
+        {
+          "text": "Anteeksi, puhutteko englantia?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "anteeksi_puhutteko_englantia"
+        }
+      ],
+      "pairs": [
+        "en-fi"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "fi.survival_i_do_not_understand",
+      "id": "survival_i_do_not_understand",
+      "target": [
+        {
+          "text": "En ymmärrä.",
+          "audioSlug": "en_ymmarra"
+        }
+      ],
+      "pairs": [
+        "en-fi"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    }
+  ]
+}

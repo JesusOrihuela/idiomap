@@ -18,6 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Scroll active nav button into view so it's never hidden off-screen on mobile
   const nav    = document.querySelector('.mode-switcher');
-  const active = nav && nav.querySelector('.mode-btn.active');
+  const active = nav && nav.querySelector('.nav-item--active');
   if (active) active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'instant' });
 });

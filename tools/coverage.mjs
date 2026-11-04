@@ -41,6 +41,7 @@ import { fileURLToPath } from 'url';
 import { loadFreq, tokenize, lookupRank } from './lib-freq.mjs';
 import AppLangProfiles from '../shared/js/lang-profiles.js';
 import { discoverPairs } from './lib-content.mjs';
+import { loadTopic } from './lib-content.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -48,11 +49,8 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 // automatically. Excludes non-topic files (grammar-rules, placement).
 const NON_TOPIC = new Set(['grammar-rules', 'placement']);
 function discoverTopics() {
-  const dir = join(ROOT, 'shared/json/pairs/en-es');
-  return fs.readdirSync(dir)
-    .filter(f => f.endsWith('.json'))
-    .map(f => f.replace(/\.json$/, ''))
-    .filter(t => !NON_TOPIC.has(t));
+  const meta = JSON.parse(fs.readFileSync(join(ROOT, 'shared/json/pairs/en-es/topics.json'), 'utf8'));
+  return meta.topics.filter((t) => t.phrase).map((t) => t.id);
 }
 const TOPICS = discoverTopics();
 
@@ -101,9 +99,8 @@ function contentWords(pair, lang, scope = 'all') {
   const words = new Set();
   if (scope === 'phrases' || scope === 'all') {
     for (const t of TOPICS) {
-      const path = join(ROOT, `shared/json/pairs/${pair}/${t}.json`);
-      if (!fs.existsSync(path)) continue;
-      const d = JSON.parse(fs.readFileSync(path, 'utf8'));
+      let d;
+      try { d = loadTopic(pair, t); } catch { continue; }
       for (const p of (d.phrases || [])) for (const f of p.target) for (const w of tokenize(f.text)) words.add(w);
     }
   }

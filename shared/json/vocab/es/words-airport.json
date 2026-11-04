@@ -18,7 +18,8 @@
       },
       "gloss_example": {
         "en": "Our flight to Miami leaves at seven in the morning."
-      }
+      },
+      "conceptId": "es.flight"
     },
     {
       "id": "passport",
@@ -38,7 +39,8 @@
       },
       "gloss_example": {
         "en": "You cannot board the plane without a valid passport."
-      }
+      },
+      "conceptId": "es.passport"
     },
     {
       "id": "gate",
@@ -58,7 +60,8 @@
       },
       "gloss_example": {
         "en": "Please proceed to gate B14. Boarding starts in twenty minutes."
-      }
+      },
+      "conceptId": "es.gate"
     },
     {
       "id": "luggage",
@@ -78,7 +81,8 @@
       },
       "gloss_example": {
         "en": "Please put your luggage on the scale before checking in."
-      }
+      },
+      "conceptId": "es.luggage"
     },
     {
       "id": "ticket",
@@ -114,7 +118,8 @@
           },
           "audioSlug": "billete"
         }
-      ]
+      ],
+      "conceptId": "es.ticket"
     },
     {
       "id": "boarding",
@@ -150,7 +155,8 @@
           },
           "audioSlug": "abordaje"
         }
-      ]
+      ],
+      "conceptId": "es.boarding"
     },
     {
       "id": "check_in",
@@ -186,7 +192,8 @@
           },
           "audioSlug": "facturacion"
         }
-      ]
+      ],
+      "conceptId": "es.check_in"
     },
     {
       "id": "delay",
@@ -222,7 +229,8 @@
           },
           "audioSlug": "demora"
         }
-      ]
+      ],
+      "conceptId": "es.delay"
     },
     {
       "id": "currency",
@@ -258,7 +266,8 @@
           },
           "audioSlug": "moneda"
         }
-      ]
+      ],
+      "conceptId": "es.currency"
     },
     {
       "id": "destination",
@@ -278,7 +287,8 @@
       },
       "gloss_example": {
         "en": "Paris is one of the most visited tourist destinations in the world."
-      }
+      },
+      "conceptId": "es.destination"
     },
     {
       "id": "customs",
@@ -298,7 +308,8 @@
       },
       "gloss_example": {
         "en": "You must declare any food or plant products when going through customs."
-      }
+      },
+      "conceptId": "es.customs"
     },
     {
       "id": "layover",
@@ -318,7 +329,8 @@
       },
       "gloss_example": {
         "en": "We had a six-hour layover in Amsterdam before our connecting flight."
-      }
+      },
+      "conceptId": "es.layover"
     },
     {
       "id": "transit",
@@ -338,7 +350,8 @@
       },
       "gloss_example": {
         "en": "Passengers in transit do not need to collect their bags between flights."
-      }
+      },
+      "conceptId": "es.transit"
     },
     {
       "id": "turbulence",
@@ -358,7 +371,8 @@
       },
       "gloss_example": {
         "en": "The pilot asked everyone to fasten their seatbelts due to turbulence."
-      }
+      },
+      "conceptId": "es.turbulence"
     },
     {
       "id": "jet_lag",
@@ -378,7 +392,8 @@
       },
       "gloss_example": {
         "en": "It took her three days to recover from jet lag after flying to Tokyo."
-      }
+      },
+      "conceptId": "es.jet_lag"
     },
     {
       "id": "immigration",
@@ -414,7 +429,8 @@
           },
           "audioSlug": "control_migratorio"
         }
-      ]
+      ],
+      "conceptId": "es.immigration"
     },
     {
       "id": "baggage_claim",
@@ -434,7 +450,8 @@
       },
       "gloss_example": {
         "en": "Our bags should arrive at baggage claim carousel 4."
-      }
+      },
+      "conceptId": "es.baggage_claim"
     },
     {
       "id": "overbooked",
@@ -470,7 +487,8 @@
           },
           "audioSlug": "con_exceso_de_reservas"
         }
-      ]
+      ],
+      "conceptId": "es.overbooked"
     },
     {
       "id": "upgrade",
@@ -490,7 +508,8 @@
       },
       "gloss_example": {
         "en": "She used her frequent flyer miles to request an upgrade to business class."
-      }
+      },
+      "conceptId": "es.upgrade"
     },
     {
       "id": "voucher",
@@ -526,7 +545,8 @@
           },
           "audioSlug": "bono_de_compensacion"
         }
-      ]
+      ],
+      "conceptId": "es.voucher"
     },
     {
       "id": "duty_free",
@@ -562,7 +582,8 @@
           },
           "audioSlug": "duty_free"
         }
-      ]
+      ],
+      "conceptId": "es.duty_free"
     },
     {
       "id": "biometrics",
@@ -582,7 +603,8 @@
       },
       "gloss_example": {
         "en": "The new e-gates use biometrics to verify travelers' identities in seconds."
-      }
+      },
+      "conceptId": "es.biometrics"
     },
     {
       "id": "prohibited",
@@ -602,7 +624,8 @@
       },
       "gloss_example": {
         "en": "Liquids over 100 ml are prohibited in carry-on luggage at most airports."
-      }
+      },
+      "conceptId": "es.prohibited"
     },
     {
       "id": "carrier",
@@ -638,7 +661,8 @@
           },
           "audioSlug": "transportista"
         }
-      ]
+      ],
+      "conceptId": "es.carrier"
     },
     {
       "id": "overbooking",
@@ -674,7 +698,8 @@
           },
           "audioSlug": "overbooking"
         }
-      ]
+      ],
+      "conceptId": "es.overbooking"
     },
     {
       "id": "repatriation",
@@ -694,7 +719,8 @@
       },
       "gloss_example": {
         "en": "Stranded travelers awaited repatriation flights after the sudden closure of the border."
-      }
+      },
+      "conceptId": "es.repatriation"
     },
     {
       "id": "asylum",
@@ -714,7 +740,8 @@
       },
       "gloss_example": {
         "en": "She requested asylum at the airport, citing political persecution in her home country."
-      }
+      },
+      "conceptId": "es.asylum"
     },
     {
       "id": "contraband",
@@ -734,7 +761,8 @@
       },
       "gloss_example": {
         "en": "The sniffer dog detected contraband hidden inside a checked suitcase."
-      }
+      },
+      "conceptId": "es.contraband"
     },
     {
       "id": "manifest",
@@ -770,7 +798,8 @@
           },
           "audioSlug": "manifiesto"
         }
-      ]
+      ],
+      "conceptId": "es.manifest"
     },
     {
       "id": "force_majeure",
@@ -790,7 +819,8 @@
       },
       "gloss_example": {
         "en": "The airline refused to pay compensation, citing force majeure due to the volcanic eruption."
-      }
+      },
+      "conceptId": "es.force_majeure"
     },
     {
       "id": "maleta",
@@ -810,7 +840,8 @@
       },
       "gloss_example": {
         "en": "My suitcase weighs too much."
-      }
+      },
+      "conceptId": "es.maleta"
     },
     {
       "id": "aeropuerto",
@@ -830,7 +861,8 @@
       },
       "gloss_example": {
         "en": "We arrived early at the airport."
-      }
+      },
+      "conceptId": "es.aeropuerto"
     }
   ]
 }

@@ -8,15 +8,56 @@
       "difficulty": "easy",
       "definition": "Eine Person, die im Restaurant Essen und Getränke serviert.",
       "example": "Der Kellner bringt das Essen.",
-      "translations": { "en": "waiter" },
-      "gloss": { "en": "A person who serves food and drinks in a restaurant." },
-      "gloss_example": { "en": "The waiter brings the food." },
+      "translations": {
+        "en": "waiter",
+        "es": "camarero / camarera"
+      },
+      "gloss": {
+        "en": "A person who serves food and drinks in a restaurant.",
+        "es": "Persona que atiende en un restaurante."
+      },
+      "gloss_example": {
+        "en": "The waiter brings the food."
+      },
       "variants": [
-        { "text": "der Kellner",   "labels": { "gender": "masculino", "case": "nominativ", "number": "singular" }, "audioSlug": "der_kellner" },
-        { "text": "den Kellner",   "labels": { "gender": "masculino", "case": "akkusativ", "number": "singular" }, "audioSlug": "den_kellner" },
-        { "text": "die Kellner",   "labels": { "gender": "masculino", "case": "nominativ", "number": "plural" },   "audioSlug": "die_kellner" },
-        { "text": "die Kellnerin", "labels": { "gender": "femenino",  "case": "nominativ", "number": "singular" }, "audioSlug": "die_kellnerin" }
-      ]
+        {
+          "text": "der Kellner",
+          "labels": {
+            "gender": "masculino",
+            "case": "nominativ",
+            "number": "singular"
+          },
+          "audioSlug": "der_kellner"
+        },
+        {
+          "text": "den Kellner",
+          "labels": {
+            "gender": "masculino",
+            "case": "akkusativ",
+            "number": "singular"
+          },
+          "audioSlug": "den_kellner"
+        },
+        {
+          "text": "die Kellner",
+          "labels": {
+            "gender": "masculino",
+            "case": "nominativ",
+            "number": "plural"
+          },
+          "audioSlug": "die_kellner"
+        },
+        {
+          "text": "die Kellnerin",
+          "labels": {
+            "gender": "femenino",
+            "case": "nominativ",
+            "number": "singular"
+          },
+          "audioSlug": "die_kellnerin"
+        }
+      ],
+      "conceptId": "de.kellner"
     },
     {
       "id": "lehrer",
@@ -26,13 +67,34 @@
       "difficulty": "easy",
       "definition": "Eine Person, die in der Schule unterrichtet.",
       "example": "Der Lehrer erklärt die Aufgabe.",
-      "translations": { "en": "teacher" },
-      "gloss": { "en": "A person who teaches at a school." },
-      "gloss_example": { "en": "The teacher explains the task." },
+      "translations": {
+        "en": "teacher",
+        "es": "profesor / profesora"
+      },
+      "gloss": {
+        "en": "A person who teaches at a school.",
+        "es": "Persona que enseña en una escuela."
+      },
+      "gloss_example": {
+        "en": "The teacher explains the task."
+      },
       "variants": [
-        { "text": "der Lehrer",    "labels": { "gender": "masculino" }, "audioSlug": "der_lehrer" },
-        { "text": "die Lehrerin",  "labels": { "gender": "femenino" },  "audioSlug": "die_lehrerin" }
-      ]
+        {
+          "text": "der Lehrer",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "der_lehrer"
+        },
+        {
+          "text": "die Lehrerin",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "die_lehrerin"
+        }
+      ],
+      "conceptId": "de.lehrer"
     },
     {
       "id": "verkaeufer",
@@ -42,13 +104,34 @@
       "difficulty": "easy",
       "definition": "Eine Person, die in einem Geschäft Waren verkauft.",
       "example": "Der Verkäufer hilft dem Kunden.",
-      "translations": { "en": "salesperson" },
-      "gloss": { "en": "A person who sells goods in a shop." },
-      "gloss_example": { "en": "The salesperson helps the customer." },
+      "translations": {
+        "en": "salesperson",
+        "es": "vendedor / vendedora"
+      },
+      "gloss": {
+        "en": "A person who sells goods in a shop.",
+        "es": "Persona que vende en una tienda."
+      },
+      "gloss_example": {
+        "en": "The salesperson helps the customer."
+      },
       "variants": [
-        { "text": "der Verkäufer",   "labels": { "gender": "masculino" }, "audioSlug": "der_verkaufer" },
-        { "text": "die Verkäuferin", "labels": { "gender": "femenino" },  "audioSlug": "die_verkauferin" }
-      ]
+        {
+          "text": "der Verkäufer",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "der_verkaufer"
+        },
+        {
+          "text": "die Verkäuferin",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "die_verkauferin"
+        }
+      ],
+      "conceptId": "de.verkaeufer"
     },
     {
       "id": "baecker",
@@ -58,13 +141,34 @@
       "difficulty": "easy",
       "definition": "Eine Person, die Brot und Brötchen backt.",
       "example": "Der Bäcker backt frisches Brot.",
-      "translations": { "en": "baker" },
-      "gloss": { "en": "A person who bakes bread and rolls." },
-      "gloss_example": { "en": "The baker bakes fresh bread." },
+      "translations": {
+        "en": "baker",
+        "es": "panadero / panadera"
+      },
+      "gloss": {
+        "en": "A person who bakes bread and rolls.",
+        "es": "Persona que hace y vende pan."
+      },
+      "gloss_example": {
+        "en": "The baker bakes fresh bread."
+      },
       "variants": [
-        { "text": "der Bäcker",   "labels": { "gender": "masculino" }, "audioSlug": "der_backer" },
-        { "text": "die Bäckerin", "labels": { "gender": "femenino" },  "audioSlug": "die_backerin" }
-      ]
+        {
+          "text": "der Bäcker",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "der_backer"
+        },
+        {
+          "text": "die Bäckerin",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "die_backerin"
+        }
+      ],
+      "conceptId": "de.baecker"
     }
   ]
 }

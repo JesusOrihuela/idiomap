@@ -16,7 +16,13 @@
 
 const AppData = (() => {
   const _cache     = new Map();          // memory: in-flight Promises + resolved data
-  const _BASE      = '../../shared/json/';
+  // Derived from this script, so the loader works from the root page and from
+  // any depth (clean URLs) without a hardcoded ../../.
+  const _BASE      = (() => {
+    if (typeof document === 'undefined') return '../../shared/json/';
+    const s = document.currentScript;
+    return s ? new URL('../../shared/json/', s.src).href : '../../shared/json/';
+  })();
   const _SS_PREFIX = 'pe_topic_v11_';    // v11: faithful-translation sources + new phrase categories
 
   // IDs still shared across all pairs (no pair prefix).
@@ -68,11 +74,33 @@ const AppData = (() => {
    * @param {string} id - Filename without extension (e.g. 'greetings', 'word-equivalents')
    * @returns {Promise<Object>} Parsed JSON data
    */
+  // IDs that are NOT phrase topics: pair metadata, grammar, placement, vocab, shared maps.
+  const _NON_TOPIC = /^(topics|placement|grammar-rules|grammar-phrase-rules|word-equivalents|id-map|words)/;
+
+  function _layered(id) {
+    return typeof AppContent !== 'undefined' && AppContent.enabled() && !_NON_TOPIC.test(id);
+  }
+
   function get(id) {
     const key = _cacheKey(id);
 
     // 1 — Memory cache (same page only; also holds in-flight Promises for dedup)
     if (_cache.has(key)) return Promise.resolve(_cache.get(key));
+
+    if (_layered(id)) {
+      const lkey = 'layer_' + key;
+      if (_cache.has(lkey)) return Promise.resolve(_cache.get(lkey));
+      const lp = AppContent.topic(id)
+        .then((data) => { _cache.set(lkey, data); _ssPut('layer_' + id, data); return data; })
+        .catch((err) => {
+          const ss = _ssGet('layer_' + id);
+          if (ss) { _cache.set(lkey, ss); return ss; }
+          _cache.delete(lkey);
+          throw err;
+        });
+      _cache.set(lkey, lp);
+      return lp;
+    }
 
     // 2 — Network-first: always fetch fresh when online (through the SW). Fall
     // back to the sessionStorage copy only if the fetch fails (offline), so

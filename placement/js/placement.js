@@ -17,38 +17,37 @@ AppData.get('placement')
   .catch(function () { QUESTIONS = []; });
 
 /* ---- CEFR result config ---- */
-const _LEVEL_COLORS  = { A1: '#22c55e', A2: '#3b82f6', B1: '#f59e0b', B2: '#7c3aed', C1: '#0891b2', C2: '#be123c' };
-const _LEVEL_EMOJIS  = { A1: '🌱', A2: '📗', B1: '📘', B2: '🎓', C1: '🏅', C2: '🌟' };
+const _LEVEL_ICONS   = { A1: 'i-sprout', A2: 'i-book-open', B1: 'i-book', B2: 'i-graduation-cap', C1: 'i-medal', C2: 'i-star' };
 const _LEVEL_SUGGESTIONS = {
   A1: [
-    { emoji: '📚', labelKey: 'act_vocabulary',            url: '../../vocabulary/html/vocabulary.html' },
-    { emoji: '🎙️', labelKey: 'placement_speaking_greetings', url: '../../speaking/html/speaking.html' },
-    { emoji: '✍️', labelKey: 'act_dictation',             url: '../../dictation/html/dictation.html' },
+    { icon: 'i-book', labelKey: 'act_vocabulary',            url: '../vocabulary/' },
+    { icon: 'i-mic', labelKey: 'placement_speaking_greetings', url: '../speaking/' },
+    { icon: 'i-pen', labelKey: 'act_dictation',             url: '../dictation/' },
   ],
   A2: [
-    { emoji: '🎙️', labelKey: 'act_speaking',   url: '../../speaking/html/speaking.html' },
-    { emoji: '🔤', labelKey: 'act_cloze',       url: '../../cloze/html/cloze.html' },
-    { emoji: '🧠', labelKey: 'act_quiz',        url: '../../quiz/html/quiz.html' },
+    { icon: 'i-mic', labelKey: 'act_speaking',   url: '../speaking/' },
+    { icon: 'i-type', labelKey: 'act_cloze',       url: '../cloze/' },
+    { icon: 'i-brain', labelKey: 'act_quiz',        url: '../quiz/' },
   ],
   B1: [
-    { emoji: '📐', labelKey: 'act_grammar',     url: '../../grammar/html/grammar.html' },
-    { emoji: '🔄', labelKey: 'act_translation', url: '../../translation/html/translation.html' },
-    { emoji: '🧩', labelKey: 'act_scramble',    url: '../../scramble/html/scramble.html' },
+    { icon: 'i-ruler', labelKey: 'act_grammar',     url: '../grammar/' },
+    { icon: 'i-languages', labelKey: 'act_translation', url: '../translation/' },
+    { icon: 'i-puzzle', labelKey: 'act_scramble',    url: '../scramble/' },
   ],
   B2: [
-    { emoji: '📐', labelKey: 'act_grammar',               url: '../../grammar/html/grammar.html' },
-    { emoji: '🔄', labelKey: 'act_translation',           url: '../../translation/html/translation.html' },
-    { emoji: '🎙️', labelKey: 'placement_speaking_advanced', url: '../../speaking/html/speaking.html' },
+    { icon: 'i-ruler', labelKey: 'act_grammar',               url: '../grammar/' },
+    { icon: 'i-languages', labelKey: 'act_translation',           url: '../translation/' },
+    { icon: 'i-mic', labelKey: 'placement_speaking_advanced', url: '../speaking/' },
   ],
   C1: [
-    { emoji: '📐', labelKey: 'act_grammar',     url: '../../grammar/html/grammar.html' },
-    { emoji: '🔄', labelKey: 'act_translation', url: '../../translation/html/translation.html' },
-    { emoji: '🧩', labelKey: 'act_scramble',    url: '../../scramble/html/scramble.html' },
+    { icon: 'i-ruler', labelKey: 'act_grammar',     url: '../grammar/' },
+    { icon: 'i-languages', labelKey: 'act_translation', url: '../translation/' },
+    { icon: 'i-puzzle', labelKey: 'act_scramble',    url: '../scramble/' },
   ],
   C2: [
-    { emoji: '📐', labelKey: 'act_grammar',     url: '../../grammar/html/grammar.html' },
-    { emoji: '🔄', labelKey: 'act_translation', url: '../../translation/html/translation.html' },
-    { emoji: '🧩', labelKey: 'act_scramble',    url: '../../scramble/html/scramble.html' },
+    { icon: 'i-ruler', labelKey: 'act_grammar',     url: '../grammar/' },
+    { icon: 'i-languages', labelKey: 'act_translation', url: '../translation/' },
+    { icon: 'i-puzzle', labelKey: 'act_scramble',    url: '../scramble/' },
   ],
 };
 
@@ -56,11 +55,10 @@ function _getLevelConfig(level) {
   var lk = level.toLowerCase();
   return {
     label:   AppLang.t('placement_result_' + lk + '_label'),
-    emoji:   _LEVEL_EMOJIS[level],
-    color:   _LEVEL_COLORS[level],
-    message: AppLang.t('placement_result_' + lk + '_msg'),
+    icon: _LEVEL_ICONS[level],
+    message: AppLang.t('placement_result_' + lk + '_msg', _plParams),
     suggestions: (_LEVEL_SUGGESTIONS[level] || []).map(function (s) {
-      return { emoji: s.emoji, label: AppLang.t(s.labelKey), url: s.url };
+      return { icon: s.icon, label: AppLang.t(s.labelKey), url: s.url };
     }),
   };
 }
@@ -116,7 +114,7 @@ function startTest() {
 
 function skipTest() {
   localStorage.setItem(AppLangPair.storageKey('pe_placement_done'), 'skipped');
-  window.location.href = '../../index.html';
+  window.location.href = '../';
 }
 
 function retakeTest() {
@@ -130,7 +128,7 @@ function showQuestion(i) {
 
   // Progress bar
   const pct = (i / QUESTIONS.length) * 100;
-  document.getElementById('placement-progress-fill').style.width = pct + '%';
+  document.getElementById('placement-progress-fill').style.transform = 'scaleX(' + (pct / 100) + ')';
 
   // Counter + level badge
   document.getElementById('placement-counter').textContent = AppLang.t('placement_counter', { n: i + 1, total: QUESTIONS.length });
@@ -148,7 +146,7 @@ function showQuestion(i) {
 
   q.options.forEach((opt, idx) => {
     const btn = document.createElement('button');
-    btn.className = 'option-btn';
+    btn.className = 'option option-btn';
     btn.textContent = opt;
     btn.setAttribute('aria-label', AppLang.t('option_n', { n: idx + 1 }) + ': ' + opt);
     btn.addEventListener('click', () => selectOption(idx, btn));
@@ -168,8 +166,8 @@ function selectOption(idx, btn) {
   const allBtns = document.querySelectorAll('.option-btn');
   allBtns.forEach((b, i) => {
     b.disabled = true;
-    if (i === q.answer)   b.classList.add('option-correct');
-    if (i === idx && !correct) b.classList.add('option-wrong');
+    if (i === q.answer)   b.classList.add('option--correct');
+    if (i === idx && !correct) b.classList.add('option--wrong');
   });
 
   // Advance after short delay so user sees the feedback
@@ -197,9 +195,12 @@ function scoreToLevel(s) {
 function showResults() {
   const level  = scoreToLevel(score);
   const config = _getLevelConfig(level);
+  const _resultScreen = document.getElementById('screen-result');
+  _resultScreen.className = _resultScreen.className.replace(/\blevel-[A-C][12]\b/g, '').trim();
+  _resultScreen.classList.add('level-' + level);
 
   // Fill progress bar to 100%
-  document.getElementById('placement-progress-fill').style.width = '100%';
+  document.getElementById('placement-progress-fill').style.transform = 'scaleX(1)';
 
   // Result card
   const emojiEl = document.getElementById('result-emoji');
@@ -209,11 +210,9 @@ function showResults() {
   const sugsEl  = document.getElementById('result-suggestions');
   const ctaEl   = document.getElementById('result-cta');
 
-  emojiEl.textContent = config.emoji;
-  emojiEl.style.setProperty('--level-color', config.color);
+  emojiEl.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#' + config.icon + '"/></svg>';
 
   levelEl.textContent  = config.label;
-  levelEl.style.color  = config.color;
   const _isEnSrc = AppLangPair.getActive().source.code === 'en';
   scoreEl.textContent  = score + ' / ' + QUESTIONS.length + AppLang.t('placement_score_suffix');
   msgEl.textContent    = config.message;
@@ -223,12 +222,12 @@ function showResults() {
     const a = document.createElement('a');
     a.href      = s.url;
     a.className = 'result-suggestion';
-    a.innerHTML = '<span class="result-suggestion__emoji">' + s.emoji + '</span>' +
+    a.innerHTML = '<span class="result-suggestion__icon"><svg class="icon" aria-hidden="true"><use href="#' + s.icon + '"/></svg></span>' +
                   '<span class="result-suggestion__label">' + s.label + '</span>';
     sugsEl.appendChild(a);
   });
 
-  ctaEl.href = '../../index.html';
+  ctaEl.href = '../';
 
   showScreen('screen-result');
 

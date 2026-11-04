@@ -1,0 +1,95 @@
+{
+  "prefix": "../",
+  "items": [
+    {
+      "id": "home",
+      "href": "",
+      "match": "index.html",
+      "icon": "house",
+      "ariaLabel": "Inicio",
+      "ariaKey": "nav_home_aria",
+      "dataNav": "home"
+    },
+    {
+      "id": "my-learning",
+      "href": "my-learning/",
+      "match": "my-learning/",
+      "icon": "map",
+      "i18n": "nav_my_learning",
+      "label": "Mi Aprendizaje",
+      "dataNav": "my-learning"
+    },
+    {
+      "id": "speaking",
+      "href": "speaking/",
+      "match": "speaking/",
+      "icon": "mic",
+      "i18n": "nav_speaking",
+      "label": "Pronunciación"
+    },
+    {
+      "id": "dictation",
+      "href": "dictation/",
+      "match": "dictation/",
+      "icon": "pen",
+      "i18n": "nav_dictation",
+      "label": "Dictado"
+    },
+    {
+      "id": "cloze",
+      "href": "cloze/",
+      "match": "cloze/",
+      "icon": "type",
+      "i18n": "nav_cloze",
+      "label": "Cloze"
+    },
+    {
+      "id": "translation",
+      "href": "translation/",
+      "match": "translation/",
+      "icon": "languages",
+      "i18n": "nav_translation",
+      "label": "Traducción"
+    },
+    {
+      "id": "scramble",
+      "href": "scramble/",
+      "match": "scramble/",
+      "icon": "puzzle",
+      "i18n": "nav_scramble",
+      "label": "Secuencia"
+    },
+    {
+      "id": "vocabulary",
+      "href": "vocabulary/",
+      "match": "vocabulary/",
+      "icon": "book",
+      "i18n": "nav_vocabulary",
+      "label": "Vocabulario"
+    },
+    {
+      "id": "quiz",
+      "href": "quiz/",
+      "match": "quiz/",
+      "icon": "brain",
+      "i18n": "nav_quiz",
+      "label": "Quiz"
+    },
+    {
+      "id": "grammar",
+      "href": "grammar/",
+      "match": "grammar/",
+      "icon": "ruler",
+      "i18n": "nav_grammar",
+      "label": "Gramática"
+    },
+    {
+      "id": "settings",
+      "href": "progress/",
+      "match": "progress/",
+      "icon": "settings",
+      "ariaKey": "nav_settings_aria",
+      "dataNav": "settings"
+    }
+  ]
+}

@@ -59,6 +59,19 @@ const phrases = {};
 for (const pair of PAIRS) {
   phrases[pair] = {};
   for (const topic of phraseTopicsFor(pair)) {
+    const orderFile = path.join(root, 'shared', 'json', 'pairs', pair, 'content', `${topic}.json`);
+    if (fs.existsSync(orderFile)) {
+      const order = JSON.parse(fs.readFileSync(orderFile, 'utf8'));
+      const target = pair.split('-')[1];
+      const pack = JSON.parse(fs.readFileSync(path.join(root, 'shared', 'json', 'targets', target, 'concepts.json'), 'utf8'));
+      const byId = new Map(pack.concepts.map((c) => [c.conceptId, c]));
+      phrases[pair][topic] = order.conceptIds.map((cid) => {
+        const c = byId.get(cid);
+        if (!c) throw new Error(`${pair}/${topic}: concept ${cid} missing from targets/${target}`);
+        return c.id;
+      });
+      continue;
+    }
     const filePath = path.join(root, 'shared', 'json', 'pairs', pair, `${topic}.json`);
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     phrases[pair][topic] = (data.phrases || data).map(p => p.id);

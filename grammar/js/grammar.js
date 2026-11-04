@@ -108,7 +108,7 @@ function loadData() {
     })
     .catch(() => {
       document.getElementById('category-grid').innerHTML =
-        '<p style="color:var(--clr-danger);text-align:center">' + AppLang.t('grammar_data_error') + '</p>';
+        '<p style="color:var(--color-danger);text-align:center">' + AppLang.t('grammar_data_error') + '</p>';
     });
 }
 
@@ -149,6 +149,26 @@ function buildCategoryGrid() {
   const grid = document.getElementById('category-grid');
   grid.innerHTML = '';
 
+  // Icono de linea por categoria (ids en ingles; hay 39 entre todos los pares).
+  // El emoji del dato no se pinta como chrome; una categoria nueva cae al generico.
+  function _catIcon(id) {
+    if (/question|interrog/.test(id)) return 'i-circle-help';
+    if (/article/.test(id)) return 'i-book-open';
+    if (/preposition|address/.test(id)) return 'i-map-pin';
+    if (/tense|time|future|present|preterite|imperfect|futuro|presente|perfect/.test(id)) return 'i-clock';
+    if (/conditional|condicional/.test(id)) return 'i-git-branch';
+    if (/modal/.test(id)) return 'i-zap';
+    if (/passive/.test(id)) return 'i-repeat';
+    if (/subjunctive|subjuntivo/.test(id)) return 'i-brain';
+    if (/phrasal/.test(id)) return 'i-link';
+    if (/verb_pattern/.test(id)) return 'i-layout-grid';
+    if (/relative|pronoun|reflex/.test(id)) return 'i-message';
+    if (/syntax|discourse|registro/.test(id)) return 'i-graduation-cap';
+    if (/comparative|cases|gender|standard/.test(id)) return 'i-scale';
+    if (/verb|ser_estar|gustar|por_para|stem/.test(id)) return 'i-target';
+    return 'i-book-open';
+  }
+
   _categoriesByComplexity().forEach(cat => {
     const rulesInCat = allRules.filter(r => r.category === cat.id);
     const cardIds    = rulesInCat.map(r => 'grammar_' + cat.id + '_' + r.id);
@@ -157,14 +177,16 @@ function buildCategoryGrid() {
     // failed round rates Hard and leaves lapses ≥ 1, so it does NOT count here.
     const seen       = cardIds.filter(id => { const c = _cards && _cards[id]; return c && c.reps > 0 && (c.lapses || 0) === 0; }).length;
 
+    // Una categoría sin reglas vistas no anuncia «0 / N» (DP-03): el dato aparece al estudiarla.
+    const progressText = seen > 0 ? AppLang.t('topic_learned', { seen, total: rulesInCat.length }) : '';
     const btn = document.createElement('button');
-    btn.className = 'category-card';
-    btn.style.setProperty('--cat-color', cat.color);
-    btn.setAttribute('aria-label', _catLabel(cat));
+    btn.className = 'card card--interactive category-card';
+    btn.setAttribute('aria-label', progressText ? _catLabel(cat) + ' · ' + progressText : _catLabel(cat));
     btn.innerHTML =
-      '<span class="category-emoji">' + cat.emoji + '</span>' +
+      '<span class="category-icon"><svg class="icon" aria-hidden="true"><use href="#' + _catIcon(cat.id) + '"/></svg></span>' +
       '<span class="category-label">' + _catLabel(cat) + '</span>' +
-      '<span class="category-progress">' + AppLang.t('topic_learned', { seen, total: rulesInCat.length }) + '</span>';
+      (progressText ? '<span class="category-progress">' + progressText + '</span>' : '') +
+      '<span class="card-chevron" aria-hidden="true">→</span>';
 
     btn.addEventListener('click', () => showRules(cat.id));
     grid.appendChild(btn);
@@ -202,6 +224,10 @@ function _showTopicRules(rules) {
   });
 
   showScreen('screen-rules');
+  // Cambio de pantalla: el foco entra en la primera regla (el anterior ya no existe).
+  const firstRule = document.querySelector('#rule-list .rule-row');
+  if (firstRule) firstRule.focus({ preventScroll: true });
+  window.scrollTo(0, 0);
 }
 
 /* ══════════════════════════════════════════════════════
@@ -212,7 +238,7 @@ function showRules(categoryId) {
   const cat = categories.find(c => c.id === categoryId);
   if (!cat) return;
 
-  document.getElementById('rule-category-label').textContent = cat.emoji + ' ' + _catLabel(cat);
+  document.getElementById('rule-category-label').textContent = _catLabel(cat);
 
   // Rules within a category also run easiest → hardest (CEFR), matching the category ordering.
   const _cefr = lvl => (typeof CEFR_ORDER !== 'undefined' ? (CEFR_ORDER[lvl] ?? 99) : 99);
@@ -224,7 +250,7 @@ function showRules(categoryId) {
   if (rulesInCat.length === 0) {
     list.innerHTML =
       '<div class="empty-state">' +
-        '<span class="empty-state__icon">🚧</span>' +
+        '<span class="empty-state__icon"><svg class="icon" aria-hidden="true"><use href="#i-lightbulb"/></svg></span>' +
         '<p class="empty-state__msg">' + AppLang.t('coming_soon') + '</p>' +
         '<p class="empty-state__sub">' + AppLang.t('coming_soon_body') + '</p>' +
       '</div>';
@@ -251,7 +277,7 @@ function showRules(categoryId) {
       : '<span class="rule-row__status">→</span>';
 
     btn.innerHTML =
-      '<span class="rule-row__cefr cefr-' + rule.level + '">' + rule.level + '</span>' +
+      '<span class="rule-row__cefr cefr-badge cefr-badge--' + rule.level.toLowerCase() + '">' + rule.level + '</span>' +
       '<span class="rule-row__text">' +
         '<span class="rule-row__title">' + _ruleTitle(rule) + '</span>' +
       '</span>' +
@@ -262,6 +288,11 @@ function showRules(categoryId) {
   });
 
   showScreen('screen-rules');
+
+  // Cambio de pantalla: el foco entra en la primera regla (el anterior ya no existe).
+  const firstRule = document.querySelector('#rule-list .rule-row');
+  if (firstRule) firstRule.focus({ preventScroll: true });
+  window.scrollTo(0, 0);
 }
 
 /* ══════════════════════════════════════════════════════
@@ -284,7 +315,7 @@ function startExercise(rule) {
   const cefrBadge = document.getElementById('exercise-cefr-badge');
   if (cefrBadge) {
     cefrBadge.textContent = rule.level;
-    cefrBadge.className   = 'cefr-badge cefr-' + rule.level;
+    cefrBadge.className   = 'cefr-badge cefr-badge--' + rule.level.toLowerCase();
   }
 
   const cardId  = 'grammar_' + rule.category + '_' + rule.id;
@@ -333,6 +364,19 @@ function goToPhase(p) {
   if (p === 6) { buildPhaseComplete(); }
 
   _placeBack();
+
+  // Cambio de fase: si el foco quedó en un control oculto, entra en la etiqueta de
+  // fase (se anuncia "Fase N: …"); en el cierre, en "Continuar".
+  const focusInside = target && target.contains(document.activeElement);
+  if (target && !focusInside) {
+    if (p === 6) {
+      document.getElementById('rate-auto')?.focus({ preventScroll: true });
+    } else {
+      const label = target.querySelector('.phase-label');
+      if (label) { label.tabIndex = -1; label.focus({ preventScroll: true }); }
+    }
+  }
+  window.scrollTo(0, 0);
 }
 
 // Put the step-back button into the visible phase's action row so it sits at the SAME height as the
@@ -444,7 +488,7 @@ function buildPhase2() {
 
     // Answer input
     const textarea = document.createElement('textarea');
-    textarea.className   = 'noticing-input';
+    textarea.className   = 'field__input noticing-input';
     textarea.rows        = 2;
     textarea.placeholder = promptHint || AppLang.t('noticing_placeholder');
     textarea.setAttribute('aria-label', AppLang.t('grammar_noticing_answer_n', { n: i + 1 }));
@@ -608,7 +652,7 @@ function showStructuredItem(idx) {
   const LETTERS = ['A', 'B', 'C', 'D'];
   item.options.forEach((opt, i) => {
     const btn = document.createElement('button');
-    btn.className = 'option-btn';
+    btn.className = 'option option-btn';
     btn.innerHTML =
       '<span class="option-letter">' + LETTERS[i] + '</span>' +
       escapeHTML(opt);
@@ -620,21 +664,23 @@ function showStructuredItem(idx) {
 
       if (affective) {
         // No right/wrong — any answer is valid; just mark the learner's choice and acknowledge.
-        btn.classList.add('option-btn--chosen');
+        btn.classList.add('option--chosen');
         const fb = document.createElement('div');
         fb.className = 'structured-feedback';
-        fb.textContent = item.feedback;
+        fb.innerHTML = '<span class="structured-feedback__icon"><svg class="icon" aria-hidden="true"><use href="#i-lightbulb"/></svg></span>';
+        fb.appendChild(document.createTextNode(item.feedback));
         card.appendChild(fb);
       } else {
         const isCorrect = i === item.correct;
-        btn.classList.add(isCorrect ? 'option-btn--correct' : 'option-btn--wrong');
+        btn.classList.add(isCorrect ? 'option--correct' : 'option--wrong');
         if (!isCorrect) {
-          optsEl.querySelectorAll('.option-btn')[item.correct].classList.add('option-btn--correct');
+          optsEl.querySelectorAll('.option-btn')[item.correct].classList.add('option--correct');
         }
         // Show feedback
         const fb = document.createElement('div');
         fb.className = 'structured-feedback' + (isCorrect ? '' : ' structured-feedback--wrong');
-        fb.textContent = item.feedback;
+        fb.innerHTML = '<span class="structured-feedback__icon"><svg class="icon" aria-hidden="true"><use href="#' + (isCorrect ? 'i-check' : 'i-close') + '"/></svg></span>';
+        fb.appendChild(document.createTextNode(item.feedback));
         card.appendChild(fb);
       }
 
@@ -650,7 +696,7 @@ function showStructuredItem(idx) {
       const bar = document.getElementById('structured-actions');
       bar.querySelectorAll('.structured-next-btn').forEach(x => x.remove());
       const nextBtn = document.createElement('button');
-      nextBtn.className   = 'structured-next-btn';
+      nextBtn.className   = 'btn btn--primary structured-next-btn';
       nextBtn.textContent = AppLang.t('btn_next');
       nextBtn.addEventListener('click', advance);
       bar.appendChild(nextBtn);   // in the action bar → same row as back (space-between)
@@ -712,7 +758,7 @@ function showProductionItem(idx) {
     if (i < blankCount) {
       const inp = document.createElement('input');
       inp.type         = 'text';
-      inp.className    = 'production-input production-input--inline';
+      inp.className    = 'field__input field__input--inline production-input production-input--inline';
       inp.autocomplete = 'off';
       inp.spellcheck   = false;
       inp.setAttribute('aria-label', AppLang.t('grammar_production_blank_n', { n: i + 1 }));
@@ -737,7 +783,7 @@ function showProductionItem(idx) {
 
   // Check button in its own row below the sentence
   const checkBtn = document.createElement('button');
-  checkBtn.className   = 'production-check-btn';
+  checkBtn.className   = 'btn btn--check production-check-btn';
   checkBtn.textContent = AppLang.t('btn_verify');
   const btnRow = document.createElement('div');
   btnRow.className = 'production-input-row production-input-row--check-only';
@@ -753,7 +799,7 @@ function showProductionItem(idx) {
   const pBar = document.getElementById('production-actions');
   pBar.querySelectorAll('.production-next-btn').forEach(x => x.remove());
   const nextBtn = document.createElement('button');
-  nextBtn.className   = 'production-next-btn';
+  nextBtn.className   = 'btn btn--primary production-next-btn';
   nextBtn.textContent = idx + 1 < total ? AppLang.t('btn_next') : AppLang.t('btn_results');
   pBar.appendChild(nextBtn);
 
@@ -848,7 +894,7 @@ function showExpressItem(idx) {
 
   // The learner's own production (free text — not auto-graded; it is theirs to compare).
   const ta = document.createElement('textarea');
-  ta.className = 'express-input';
+  ta.className = 'field__input field__input--alt express-input';
   ta.rows = 2;
   ta.autocomplete = 'off';
   ta.spellcheck = false;
@@ -858,7 +904,7 @@ function showExpressItem(idx) {
 
   // Reveal-model button (self-assessment: compare your sentence to a model).
   const showBtn = document.createElement('button');
-  showBtn.className = 'express-model-btn';
+  showBtn.className = 'btn btn--secondary btn--sm express-model-btn';
   showBtn.textContent = AppLang.t('grammar_show_model');
   card.appendChild(showBtn);
 
@@ -892,7 +938,7 @@ function showExpressItem(idx) {
     card.appendChild(model);
 
     const nextBtn = document.createElement('button');
-    nextBtn.className = 'express-next-btn';
+    nextBtn.className = 'btn btn--primary express-next-btn';
     nextBtn.textContent = idx + 1 < total ? AppLang.t('btn_next') : AppLang.t('btn_results');
     nextBtn.addEventListener('click', () => { expIndex++; showExpressItem(expIndex); });
     bar.appendChild(nextBtn);
@@ -916,9 +962,9 @@ function accuracyToQuality(correct, total) {
 }
 
 const QUALITY_META = {
-  5: { emoji: '😄', label: 'Easy', cls: 'badge--easy',   hint: 'next review in ~1 week' },
-  3: { emoji: '🙂', label: 'OK',   cls: 'badge--ok',     hint: 'next review in ~3 days' },
-  1: { emoji: '😰', label: 'Hard', cls: 'badge--hard',   hint: 'next review tomorrow'   },
+  5: { emoji: '😄', label: 'Easy', cls: 'pill--easy',   hint: 'next review in ~1 week' },
+  3: { emoji: '🙂', label: 'OK',   cls: 'pill--ok',     hint: 'next review in ~3 days' },
+  1: { emoji: '😰', label: 'Hard', cls: 'pill--hard',   hint: 'next review tomorrow'   },
 };
 
 function buildPhaseComplete() {
@@ -954,10 +1000,10 @@ function buildPhaseComplete() {
   const iconEl  = document.querySelector('.complete-icon');
   const titleEl = document.querySelector('.complete-title');
   if (prodCorrect === total) {
-    iconEl.textContent  = wasReentry ? '🏆' : '🎉';
+    iconEl.innerHTML    = '<svg class="icon" aria-hidden="true"><use href="#' + (wasReentry ? 'i-trophy' : 'i-party') + '"/></svg>';
     titleEl.textContent = wasReentry ? AppLang.t('rule_mastered') : AppLang.t('exercise_complete');
   } else {
-    iconEl.textContent  = '💪';
+    iconEl.innerHTML    = '<svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>';
     titleEl.textContent = AppLang.t('keep_practicing');
   }
 
@@ -970,7 +1016,7 @@ function buildPhaseComplete() {
   if (_pathMode && _completeCard && !_existingBack) {
     const _backLink = document.createElement('a');
     _backLink.id = 'grammar-back-to-path';
-    _backLink.href = '../../my-learning/html/my-learning.html';
+    _backLink.href = '../my-learning/';
     _backLink.className = 'back-to-path-link';
     _backLink.textContent = AppLang.t('back_to_path');
     _completeCard.appendChild(_backLink);
@@ -1028,9 +1074,9 @@ function buildRelatedPhrases(rule) {
     container.appendChild(heading);
 
     var activities = [
-      { href: '../../cloze/html/cloze.html',            label: '🔤 ' + AppLang.t('act_cloze') },
-      { href: '../../translation/html/translation.html', label: AppLang.t('translate_btn') },
-      { href: '../../speaking/html/speaking.html',       label: AppLang.t('speak_btn') },
+      { href: '../cloze/',            label: AppLang.t('act_cloze') },
+      { href: '../translation/', label: AppLang.t('translate_btn') },
+      { href: '../speaking/',       label: AppLang.t('speak_btn') },
     ];
 
     matches.forEach(function(m) {
@@ -1050,7 +1096,7 @@ function buildRelatedPhrases(rule) {
 
       activities.forEach(function(act) {
         var link = document.createElement('a');
-        link.className = 'related-practice-btn';
+        link.className = 'btn btn--ghost btn--sm related-practice-btn';
         link.href = act.href + '?topic=' + m.topicId;
         link.textContent = act.label;
         linksEl.appendChild(link);
@@ -1084,7 +1130,7 @@ function finishAndRate(quality) {
   if (_pathMode && typeof PathSession !== 'undefined') {
     const nextHref = PathSession.advance();
     if (nextHref) {
-      window.location.href = '../../' + nextHref;
+      window.location.href = '../' + nextHref;
     } else {
       _showPathSessionComplete();
     }
@@ -1097,13 +1143,13 @@ function finishAndRate(quality) {
 function _showPathSessionComplete() {
   const summary = typeof PathSession !== 'undefined' ? PathSession.getTodaySummary() : null;
   const screen  = document.getElementById('screen-exercise');
-  if (!screen) { window.location.href = '../../my-learning/html/my-learning.html'; return; }
+  if (!screen) { window.location.href = '../my-learning/'; return; }
   screen.innerHTML =
     '<div class="path-session-complete">' +
-      '<div class="path-session-complete__icon">🎉</div>' +
+      '<div class="path-session-complete__icon"><svg class="icon" aria-hidden="true"><use href="#i-party"/></svg></div>' +
       '<h2 class="path-session-complete__title">' + AppLang.t('session_complete') + '</h2>' +
       (summary ? '<p class="path-session-complete__sub">' + AppLang.t('path_complete_summary', { review: summary.reviewCount, new: summary.newCount }) + '</p>' : '') +
-      '<a href="../../my-learning/html/my-learning.html" class="path-session-complete__btn">' + AppLang.t('my_learning_path_link') + '</a>' +
+      '<a href="../my-learning/" class="btn btn--path">' + AppLang.t('my_learning_path_link') + '</a>' +
     '</div>';
 }
 
@@ -1118,7 +1164,7 @@ function setReentryBanner(visible) {
     banner.className = 'reentry-banner hidden';
     banner.setAttribute('role', 'status');
     banner.innerHTML =
-      '<span class="reentry-icon">🔁</span>' +
+      '<span class="reentry-icon"><svg class="icon" aria-hidden="true"><use href="#i-rotate-ccw"/></svg></span>' +
       '<span>' + AppLang.t('reentry_banner_msg') + '</span>';
     // Insert after phase-progress bar
     const prog = document.getElementById('phase-progress');

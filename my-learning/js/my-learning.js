@@ -3,16 +3,16 @@
    Depends on: progress.js, path.js, path-session.js
    ============================================================ */
 
-const _ACT_EMOJI = {
-  speaking: '🎙️', grammar: '📐', vocabulary: '📚', quiz: '🧠',
-  cloze: '🔤', dictation: '✍️', translation: '🔄', scramble: '🧩',
+const _ACT_ICON = {
+  speaking: 'mic', grammar: 'ruler', vocabulary: 'book', quiz: 'brain',
+  cloze: 'type', dictation: 'pen', translation: 'languages', scramble: 'puzzle',
 };
 function _topicLabel(id) {
   var t = (AppTopics.PHRASE_TOPICS || []).find(function (x) { return x.id === id; })
        || (AppTopics.VOCAB_TOPICS  || []).find(function (x) { return x.id === id; });
   if (!t) return id;
   var lbl = AppTopics.getLabel(t);
-  return t.emoji + ' ' + lbl;
+  return lbl;
 }
 
 function _esc(s) {
@@ -72,14 +72,14 @@ function _renderCta() {
     const remMins = PathSession.getRemainingMinutes();
     const pct     = Math.round(((prog.current - 1) / prog.total) * 100);
     el.innerHTML =
-      '<div class="ml-cta__bar"><div class="ml-cta__bar-fill" style="width:' + Math.max(pct,5) + '%"></div></div>' +
+      '<div class="ml-cta__bar"><div class="ml-cta__bar-fill" style="transform:scaleX(' + (Math.max(pct,5)/100) + ')"></div></div>' +
       '<div class="ml-cta__row">' +
         '<div class="ml-cta__body">' +
           '<div class="ml-cta__title">' + AppLang.t('cta_keep_going') + '</div>' +
           '<div class="ml-cta__sub">' + AppLang.t('cta_exercise_n', { cur: prog.current, total: prog.total }) +
             (remMins ? ' · ' + AppLang.t('cta_min_left', { n: remMins }) : '') + '</div>' +
         '</div>' +
-        (href ? '<a href="../../' + _esc(href) + '" class="ml-cta__btn">' + AppLang.t('cta_continue') + '</a>'
+        (href ? '<a href="../' + _esc(href) + '" class="btn btn--path ml-cta__btn">' + AppLang.t('cta_continue') + '</a>'
               : '<span class="ml-cta__done">' + AppLang.t('done_today_status') + '</span>') +
       '</div>';
     return;
@@ -109,7 +109,7 @@ function _renderCta() {
         '<div class="ml-cta__title">' + AppLang.t('cta_ready') + '</div>' +
         '<div class="ml-cta__sub">' + _ctaSubtitle(summary) + '</div>' +
       '</div>' +
-      '<button class="ml-cta__btn" id="ml-start-btn">' + AppLang.t('cta_start') + '</button>' +
+      '<button class="btn btn--path ml-cta__btn" id="ml-start-btn">' + AppLang.t('cta_start') + '</button>' +
     '</div>';
 
   document.getElementById('ml-start-btn').addEventListener('click', function () {
@@ -117,7 +117,7 @@ function _renderCta() {
     if (!s) s = PathSession.buildAndSave();
     if (s && s.queue.length > 0) {
       PathSession.start();
-      window.location.href = '../../' + s.queue[s.position].href;
+      window.location.href = '../' + s.queue[s.position].href;
     }
   });
 }
@@ -129,6 +129,7 @@ function _renderTrail() {
   const titleEl   = document.getElementById('ml-trail-title');
   if (!container || typeof PathSession === 'undefined') return;
 
+  if (_connRO) { _connRO.disconnect(); _connRO = null; }
   container.innerHTML = '';
 
   var session = PathSession.getSession();
@@ -141,135 +142,74 @@ function _renderTrail() {
 
   if (session && session.queue.length > 0) {
     if (titleEl) titleEl.textContent = AppLang.t('trail_today');
-    _buildSnakeTrail(container, session.queue, session.position);
+    _buildTrail(container, session.queue, session.position);
   } else {
     if (titleEl) titleEl.textContent = AppLang.t('trail_empty');
   }
 }
 
-// ── Snake trail ───────────────────────────────────────────────
-// Absolute positioning. Each node i sits at:
-//   x = one of 3 columns (left / center / right) following a 4-phase cycle
-//   y = i * STEP  (all nodes equally spaced vertically)
-//
-// Column cycle (i % 4): [left, center, right, center]
-// This creates the shared-corner zigzag:
-//   node 0 (left) → node 1 (center) → node 2 (right, PIVOT)
-//                                    → node 3 (center) → node 4 (left, PIVOT)
-//                                                       → node 5 (center) → node 6 (right, PIVOT) …
-//
-// The pivot node naturally has two connectors (one arriving, one departing) — no side connector needed.
+// ── Trail: diagonal zigzag ────────────────────────────────────
+// One step per row on alternating columns: every connector is a diagonal, so no
+// stroke crosses the topic pill (above the bubble) or the activity label and the
+// Nuevo/Repasar chip (below it). The row step lives in CSS
+// (grid-auto-rows) and JS only mirrors the position to place each node.
 
-var _COL_PHASE = [0, 1, 2, 1];   // 0=left, 1=center, 2=right
-var _STEP      = 120;             // px between consecutive node tops (node height ≈ 118px)
-var _NODE_W    = 90;              // px width of each node's bounding box
-var _PIN_H     = 14;              // topic pin height (font ~9px + 2px padding + border)
-var _GAP       = 10;              // gap between pin and bubble (CSS gap: 10px)
-var _HALF_BUB  = 32;              // half of 64px bubble
-var _BCTL      = _PIN_H + _GAP + _HALF_BUB;  // node top → bubble center ≈ 56px
+var _connRO = null;
 
-function _colX(col, cW, nodeW) {
-  if (col === 0) return nodeW / 2;
-  if (col === 1) return cW / 2;
-  return cW - nodeW / 2;
-}
+function _buildTrail(container, queue, position) {
+  container.className = 'ml-trail';
 
-function _buildSnakeTrail(container, queue, position) {
-  container.className = 'ml-trail ml-trail--snake';
-
-  var cW = container.offsetWidth || 440;
-  var n  = queue.length;
-
-  // Responsive: 2 columns (left/right) on narrow screens, 3 on wide
-  var twoCol   = cW < 480;
-  var colPhase = twoCol ? [0, 2, 0, 2] : [0, 1, 2, 1];
-  var nodeW    = 130;
-
-  // Container height: last node top + pin + gap + bubble + label + badge + padding
-  var nodeFullH = _PIN_H + _GAP + 64 + 6 + 16 + 20 + 8; // ≈ 128px
-  container.style.height = ((n - 1) * _STEP + nodeFullH) + 'px';
+  var lastTopic = null;
 
   queue.forEach(function (item, i) {
-    var col     = colPhase[i % 4];
-    var xCenter = _colX(col, cW, nodeW);
-    var yTop    = i * _STEP;
-    var yBubble = yTop + _BCTL;
-
-    // ── Connector from previous node to this one ─────────────
-    if (i > 0) {
-      var prevCol     = colPhase[(i - 1) % 4];
-      var prevXCenter = _colX(prevCol, cW, nodeW);
-      var prevYBubble = (i - 1) * _STEP + _BCTL;
-      var dx          = xCenter - prevXCenter;
-      var dy          = _STEP;
-      var lenFull     = Math.sqrt(dx * dx + dy * dy);
-      var angle       = Math.atan2(dy, dx) * 180 / Math.PI;
-      var connDone    = i <= position;
-
-      // Trim GAP px from each end so the line doesn't overlap the bubble circles
-      // +14 gives clearance for the active node's 6px glow ring + a small visual gap
-      var GAP  = _HALF_BUB + 14;
-      var ux   = dx / lenFull;
-      var uy   = dy / lenFull;
-      var sx   = Math.round(prevXCenter + GAP * ux);
-      var sy   = Math.round(prevYBubble + GAP * uy);
-      var len  = Math.max(0, Math.round(lenFull - 2 * GAP));
-
-      var conn = document.createElement('div');
-      conn.className = 'ml-h-conn' + (connDone ? ' ml-h-conn--done' : '');
-      conn.setAttribute('aria-hidden', 'true');  // decorative, not a list item
-      conn.style.left      = sx + 'px';
-      conn.style.top       = sy + 'px';
-      conn.style.width     = len + 'px';
-      conn.style.transform = 'rotate(' + angle + 'deg)';
-      container.appendChild(conn);
-    }
-
-    // ── Node ─────────────────────────────────────────────────
+    var row     = i;
+    var col     = (i % 2) + 1;
     var isDone   = i < position;
     var isActive = i === position;
+    // Un paso hecho también es un enlace: repasar lo aprendido (DP-07).
+    var isLink   = (isActive || isDone) && !!item.href;
 
     var node = document.createElement('div');
     node.className = 'ml-snode' +
       (isDone ? ' ml-snode--done' : isActive ? ' ml-snode--active' : ' ml-snode--pending');
-    node.style.left  = (xCenter - nodeW / 2) + 'px';
-    node.style.top   = yTop + 'px';
-    node.style.width = nodeW + 'px';
+    node.style.gridRow = String(row + 1);
+    node.style.gridColumn = String(col);
     node.setAttribute('role', 'listitem');
 
-    // Topic pin
+    // Pin de tema: solo al cambiar de tema (los repetidos reservan el hueco).
     var tp = document.createElement('div');
     tp.className = 'ml-snode__topic';
     tp.textContent = _topicLabel(item.topic);
+    if (item.topic === lastTopic) tp.style.visibility = 'hidden';
+    lastTopic = item.topic;
     node.appendChild(tp);
 
-    // Bubble
-    var bubble = isActive ? document.createElement('a') : document.createElement('div');
+    var bubble = isLink ? document.createElement('a') : document.createElement('div');
     bubble.className = 'ml-snode__bubble';
-    if (isActive && item.href) {
-      bubble.href = '../../' + item.href;
-      bubble.setAttribute('aria-label', AppLang.t('aria_continue', { label: AppLang.t('act_' + item.activityId) || item.activityId }));
+    if (isLink) {
+      bubble.href = '../' + item.href;
+      bubble.setAttribute('aria-label', AppLang.t(isDone ? 'aria_review' : 'aria_continue', { label: AppLang.t('act_' + item.activityId) || item.activityId }));
     }
     if (isDone) {
-      bubble.innerHTML = '<span class="ml-snode__check">✓</span>';
+      bubble.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>';
     } else {
-      bubble.textContent = _ACT_EMOJI[item.activityId] || '●';
+      bubble.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-' + (_ACT_ICON[item.activityId] || 'star') + '"/></svg>';
     }
     node.appendChild(bubble);
 
-    // Label + badge grouped together
     var info = document.createElement('div');
     info.className = 'ml-snode__info';
     var lbl = document.createElement('span');
     lbl.className = 'ml-snode__label';
     lbl.textContent = AppLang.t('act_' + item.activityId) || item.activityId;
     info.appendChild(lbl);
-    if (!isDone && item.isNew) {
+    // El estado se dice una vez: en el paso que toca ahora (10 "Nuevo" seguidos era ruido).
+    if (isActive && item.isNew) {
       var badge = document.createElement('span');
       badge.className = 'ml-snode__new-badge';
       badge.textContent = AppLang.t('badge_new');
       info.appendChild(badge);
-    } else if (!isDone && !item.isNew) {
+    } else if (isActive && !item.isNew) {
       var rbadge = document.createElement('span');
       rbadge.className = 'ml-snode__review-badge';
       rbadge.textContent = AppLang.t('badge_review');
@@ -279,4 +219,61 @@ function _buildSnakeTrail(container, queue, position) {
 
     container.appendChild(node);
   });
+
+  _drawConnectors(container, position);
+}
+
+function _drawConnectors(trail, position) {
+  trail._connPos = position;
+  _paintConnectors(trail);
+  if (_connRO || typeof ResizeObserver === 'undefined') return;
+  _connRO = new ResizeObserver(function () { _paintConnectors(trail); });
+  _connRO.observe(trail);
+}
+
+function _paintConnectors(trail) {
+  var position = trail._connPos || 0;
+  var NS = 'http://www.w3.org/2000/svg';
+  var nodes = Array.from(trail.querySelectorAll('.ml-snode'));
+  if (nodes.length < 2) return;
+  var old = trail.querySelector('.ml-connectors');
+  if (old) old.remove();
+
+  var trailRect = trail.getBoundingClientRect();
+  var width  = trailRect.width;
+  var height = trailRect.height;
+  var svg = document.createElementNS(NS, 'svg');
+  svg.setAttribute('class', 'ml-connectors');
+  svg.setAttribute('aria-hidden', 'true');
+  svg.setAttribute('viewBox', '0 0 ' + width + ' ' + height);
+  svg.setAttribute('preserveAspectRatio', 'none');
+  svg.setAttribute('width', width);
+  svg.setAttribute('height', height);
+
+  var bubbles = nodes.map(function (n) { return n.querySelector('.ml-snode__bubble'); });
+  for (var i = 0; i < bubbles.length - 1; i++) {
+    var a = bubbles[i].getBoundingClientRect();
+    var b = bubbles[i + 1].getBoundingClientRect();
+    var ax = a.left + a.width / 2 - trailRect.left;
+    var ay = a.top + a.height / 2 - trailRect.top;
+    var bx = b.left + b.width / 2 - trailRect.left;
+    var by = b.top + b.height / 2 - trailRect.top;
+    var dx = bx - ax, dy = by - ay;
+    var len = Math.hypot(dx, dy);
+    if (!len) continue;
+    var ra = Math.max(a.width, a.height) / 2;
+    var rb = Math.max(b.width, b.height) / 2;
+    var cls = 'ml-connector' + (i + 1 <= position ? ' ml-connector--done' : '');
+    // Straight line from circle edge to circle edge. Every step is diagonal, so
+    // the stroke passes beside the topic pill and the state chip, never over them.
+    var ux = dx / len, uy = dy / len;
+    var el = document.createElementNS(NS, 'line');
+    el.setAttribute('x1', (ax + ux * ra).toFixed(2));
+    el.setAttribute('y1', (ay + uy * ra).toFixed(2));
+    el.setAttribute('x2', (bx - ux * rb).toFixed(2));
+    el.setAttribute('y2', (by - uy * rb).toFixed(2));
+    el.setAttribute('class', cls);
+    svg.appendChild(el);
+  }
+  trail.insertBefore(svg, trail.firstChild);
 }

@@ -23,6 +23,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { loadTopic } from './lib-content.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PAIRS_DIR = path.join(ROOT, 'shared/json/pairs');
@@ -58,10 +59,10 @@ const findings = [];
 for (const pair of fs.readdirSync(PAIRS_DIR)) {
   const dir = path.join(PAIRS_DIR, pair);
   if (!fs.statSync(dir).isDirectory()) continue;
-  for (const f of fs.readdirSync(dir)) {
-    if (!f.endsWith('.json') || ['grammar-rules.json', 'placement.json', 'topics.json'].includes(f)) continue;
+  const meta = JSON.parse(fs.readFileSync(path.join(dir, 'topics.json'), 'utf8')).topics.filter((t) => t.phrase);
+  for (const t of meta) {
     let data;
-    try { data = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')); } catch { continue; }
+    try { data = loadTopic(pair, t.id); } catch { continue; }
     for (const p of (data.phrases || [])) {
       const text = p.target?.[0]?.text || '';
       const level = p.level;
@@ -74,7 +75,7 @@ for (const pair of fs.readdirSync(PAIRS_DIR)) {
       if (chars > lim.chars) flags.push(`chars ${chars}/${lim.chars}`);
       const ro = isRunOn(text);
       if (ro) flags.push(`run-on: ${ro}`);
-      if (flags.length) findings.push({ pair, topic: f.replace('.json', ''), id: p.id, level, flags, text });
+      if (flags.length) findings.push({ pair, topic: t.id, id: p.id, level, flags, text });
     }
   }
 }

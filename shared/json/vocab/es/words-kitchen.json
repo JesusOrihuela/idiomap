@@ -18,7 +18,8 @@
       },
       "gloss_example": {
         "en": "This is my grandmother's secret recipe for apple pie."
-      }
+      },
+      "conceptId": "es.recipe"
     },
     {
       "id": "ingredient",
@@ -38,7 +39,8 @@
       },
       "gloss_example": {
         "en": "You only need a few fresh ingredients to make this meal."
-      }
+      },
+      "conceptId": "es.ingredient"
     },
     {
       "id": "boil",
@@ -58,7 +60,8 @@
       },
       "gloss_example": {
         "en": "Boil the pasta for ten minutes until it is al dente."
-      }
+      },
+      "conceptId": "es.boil"
     },
     {
       "id": "blend",
@@ -94,7 +97,8 @@
           },
           "audioSlug": "licuar"
         }
-      ]
+      ],
+      "conceptId": "es.blend"
     },
     {
       "id": "preheat",
@@ -114,7 +118,8 @@
       },
       "gloss_example": {
         "en": "Preheat the oven to 180°C before putting in the cake."
-      }
+      },
+      "conceptId": "es.preheat"
     },
     {
       "id": "whisk",
@@ -134,7 +139,8 @@
       },
       "gloss_example": {
         "en": "Whisk the eggs until they are light and fluffy."
-      }
+      },
+      "conceptId": "es.whisk"
     },
     {
       "id": "dice",
@@ -154,7 +160,8 @@
       },
       "gloss_example": {
         "en": "Dice the onion and garlic finely before adding them to the pan."
-      }
+      },
+      "conceptId": "es.dice"
     },
     {
       "id": "marinate",
@@ -174,7 +181,8 @@
       },
       "gloss_example": {
         "en": "Marinate the chicken in lemon juice and herbs for two hours."
-      }
+      },
+      "conceptId": "es.marinate"
     },
     {
       "id": "grate",
@@ -194,7 +202,8 @@
       },
       "gloss_example": {
         "en": "Grate the cheese over the pasta just before serving."
-      }
+      },
+      "conceptId": "es.grate"
     },
     {
       "id": "batter",
@@ -214,7 +223,8 @@
       },
       "gloss_example": {
         "en": "Dip the fish pieces in the batter before frying them."
-      }
+      },
+      "conceptId": "es.batter"
     },
     {
       "id": "utensil",
@@ -234,7 +244,8 @@
       },
       "gloss_example": {
         "en": "Make sure all cooking utensils are clean before you start."
-      }
+      },
+      "conceptId": "es.utensil"
     },
     {
       "id": "simmer",
@@ -254,7 +265,8 @@
       },
       "gloss_example": {
         "en": "Let the soup simmer on low heat for about twenty minutes."
-      }
+      },
+      "conceptId": "es.simmer"
     },
     {
       "id": "saut",
@@ -274,7 +286,8 @@
       },
       "gloss_example": {
         "en": "Sauté the mushrooms in butter for about two minutes."
-      }
+      },
+      "conceptId": "es.saut"
     },
     {
       "id": "knead",
@@ -294,7 +307,8 @@
       },
       "gloss_example": {
         "en": "Knead the bread dough for ten minutes until it is smooth and elastic."
-      }
+      },
+      "conceptId": "es.knead"
     },
     {
       "id": "broil",
@@ -314,7 +328,8 @@
       },
       "gloss_example": {
         "en": "Broil the fish fillets for about five minutes on each side."
-      }
+      },
+      "conceptId": "es.broil"
     },
     {
       "id": "deglaze",
@@ -334,7 +349,8 @@
       },
       "gloss_example": {
         "en": "Deglaze the pan with cognac and scrape up all the browned bits."
-      }
+      },
+      "conceptId": "es.deglaze"
     },
     {
       "id": "emulsify",
@@ -354,7 +370,8 @@
       },
       "gloss_example": {
         "en": "Mustard helps emulsify the dressing, keeping the oil and vinegar combined."
-      }
+      },
+      "conceptId": "es.emulsify"
     },
     {
       "id": "braise",
@@ -390,7 +407,8 @@
           },
           "audioSlug": "estofar"
         }
-      ]
+      ],
+      "conceptId": "es.braise"
     },
     {
       "id": "render",
@@ -426,7 +444,8 @@
           },
           "audioSlug": "fundir_la_grasa"
         }
-      ]
+      ],
+      "conceptId": "es.render"
     },
     {
       "id": "blanch",
@@ -462,7 +481,8 @@
           },
           "audioSlug": "escaldar"
         }
-      ]
+      ],
+      "conceptId": "es.blanch"
     },
     {
       "id": "spherification",
@@ -482,7 +502,8 @@
       },
       "gloss_example": {
         "en": "The chef used spherification to create olive oil pearls that burst in the mouth."
-      }
+      },
+      "conceptId": "es.spherification"
     },
     {
       "id": "temper",
@@ -502,7 +523,8 @@
       },
       "gloss_example": {
         "en": "If you don't temper the chocolate properly, it will look dull and have a crumbly texture."
-      }
+      },
+      "conceptId": "es.temper"
     },
     {
       "id": "maillard",
@@ -522,7 +544,8 @@
       },
       "gloss_example": {
         "en": "Understanding the Maillard reaction explains why searing meat before braising develops so much more flavor."
-      }
+      },
+      "conceptId": "es.maillard"
     },
     {
       "id": "roux",
@@ -542,7 +565,8 @@
       },
       "gloss_example": {
         "en": "Make a roux by cooking the butter and flour together for two minutes before adding the milk."
-      }
+      },
+      "conceptId": "es.roux"
     },
     {
       "id": "fold",
@@ -578,7 +602,8 @@
           },
           "audioSlug": "incorporar"
         }
-      ]
+      ],
+      "conceptId": "es.fold"
     },
     {
       "id": "umami",
@@ -598,7 +623,8 @@
       },
       "gloss_example": {
         "en": "Adding a splash of soy sauce enhances the umami and brings the whole dish together."
-      }
+      },
+      "conceptId": "es.umami"
     },
     {
       "id": "comida",
@@ -618,7 +644,8 @@
       },
       "gloss_example": {
         "en": "The food is ready."
-      }
+      },
+      "conceptId": "es.comida"
     },
     {
       "id": "azucar",
@@ -638,7 +665,8 @@
       },
       "gloss_example": {
         "en": "I don't put sugar in my coffee."
-      }
+      },
+      "conceptId": "es.azucar"
     },
     {
       "id": "aceite",
@@ -658,7 +686,8 @@
       },
       "gloss_example": {
         "en": "Add oil to the pan."
-      }
+      },
+      "conceptId": "es.aceite"
     },
     {
       "id": "botella",
@@ -678,7 +707,8 @@
       },
       "gloss_example": {
         "en": "I bought a bottle of water."
-      }
+      },
+      "conceptId": "es.botella"
     },
     {
       "id": "napkin",
@@ -698,7 +728,8 @@
       },
       "gloss_example": {
         "en": "She placed a napkin next to each plate."
-      }
+      },
+      "conceptId": "es.napkin"
     }
   ]
 }

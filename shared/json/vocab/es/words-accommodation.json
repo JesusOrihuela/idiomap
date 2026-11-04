@@ -18,7 +18,8 @@
       },
       "gloss_example": {
         "en": "We stayed at a hotel near the beach for our vacation."
-      }
+      },
+      "conceptId": "es.hotel"
     },
     {
       "id": "room",
@@ -38,7 +39,8 @@
       },
       "gloss_example": {
         "en": "Our hotel room had a view of the sea."
-      }
+      },
+      "conceptId": "es.room"
     },
     {
       "id": "reservation",
@@ -58,7 +60,8 @@
       },
       "gloss_example": {
         "en": "I made a reservation for two nights at a hotel near the airport."
-      }
+      },
+      "conceptId": "es.reservation"
     },
     {
       "id": "hostel",
@@ -94,7 +97,8 @@
           },
           "audioSlug": "albergue"
         }
-      ]
+      ],
+      "conceptId": "es.hostel"
     },
     {
       "id": "key",
@@ -130,7 +134,8 @@
           },
           "audioSlug": "tarjeta_llave"
         }
-      ]
+      ],
+      "conceptId": "es.key"
     },
     {
       "id": "checkout",
@@ -150,7 +155,8 @@
       },
       "gloss_example": {
         "en": "Checkout is at noon. Please return your key to reception before then."
-      }
+      },
+      "conceptId": "es.checkout"
     },
     {
       "id": "reception",
@@ -170,7 +176,8 @@
       },
       "gloss_example": {
         "en": "Go to reception if you need extra towels or a wake-up call."
-      }
+      },
+      "conceptId": "es.reception"
     },
     {
       "id": "balcony",
@@ -190,7 +197,8 @@
       },
       "gloss_example": {
         "en": "Our room had a balcony with a beautiful view of the sea."
-      }
+      },
+      "conceptId": "es.balcony"
     },
     {
       "id": "parking",
@@ -226,7 +234,8 @@
           },
           "audioSlug": "aparcamiento"
         }
-      ]
+      ],
+      "conceptId": "es.parking"
     },
     {
       "id": "towel",
@@ -246,7 +255,8 @@
       },
       "gloss_example": {
         "en": "We called reception to ask for extra towels for the room."
-      }
+      },
+      "conceptId": "es.towel"
     },
     {
       "id": "accommodation",
@@ -266,7 +276,8 @@
       },
       "gloss_example": {
         "en": "We booked accommodation close to the city centre for three nights."
-      }
+      },
+      "conceptId": "es.accommodation"
     },
     {
       "id": "amenities",
@@ -302,7 +313,8 @@
           },
           "audioSlug": "servicios"
         }
-      ]
+      ],
+      "conceptId": "es.amenities"
     },
     {
       "id": "complimentary",
@@ -338,7 +350,8 @@
           },
           "audioSlug": "de_cortesia"
         }
-      ]
+      ],
+      "conceptId": "es.complimentary"
     },
     {
       "id": "suite",
@@ -358,7 +371,8 @@
       },
       "gloss_example": {
         "en": "They upgraded us to a suite on the top floor with a spectacular view."
-      }
+      },
+      "conceptId": "es.suite"
     },
     {
       "id": "housekeeping",
@@ -378,7 +392,8 @@
       },
       "gloss_example": {
         "en": "Please call housekeeping if you need clean towels or your room tidied."
-      }
+      },
+      "conceptId": "es.housekeeping"
     },
     {
       "id": "tariff",
@@ -414,7 +429,8 @@
           },
           "audioSlug": "arancel"
         }
-      ]
+      ],
+      "conceptId": "es.tariff"
     },
     {
       "id": "concierge",
@@ -434,7 +450,8 @@
       },
       "gloss_example": {
         "en": "The concierge arranged restaurant reservations and museum tickets for our trip."
-      }
+      },
+      "conceptId": "es.concierge"
     },
     {
       "id": "deposit",
@@ -470,7 +487,8 @@
           },
           "audioSlug": "fianza"
         }
-      ]
+      ],
+      "conceptId": "es.deposit"
     },
     {
       "id": "occupancy",
@@ -490,7 +508,8 @@
       },
       "gloss_example": {
         "en": "The hotel reached full occupancy during the international conference."
-      }
+      },
+      "conceptId": "es.occupancy"
     },
     {
       "id": "refund",
@@ -510,7 +529,8 @@
       },
       "gloss_example": {
         "en": "She requested a full refund after the hotel failed to provide the room she had booked."
-      }
+      },
+      "conceptId": "es.refund"
     },
     {
       "id": "invoice",
@@ -530,7 +550,8 @@
       },
       "gloss_example": {
         "en": "Please provide an itemized invoice. I need it for my company's accounting."
-      }
+      },
+      "conceptId": "es.invoice"
     },
     {
       "id": "complaint",
@@ -566,7 +587,8 @@
           },
           "audioSlug": "reclamacion"
         }
-      ]
+      ],
+      "conceptId": "es.complaint"
     },
     {
       "id": "liability",
@@ -586,7 +608,8 @@
       },
       "gloss_example": {
         "en": "The hotel disclaimed liability for valuables left outside the safe."
-      }
+      },
+      "conceptId": "es.liability"
     },
     {
       "id": "waiver",
@@ -622,7 +645,8 @@
           },
           "audioSlug": "renuncia_de_responsabilidad"
         }
-      ]
+      ],
+      "conceptId": "es.waiver"
     },
     {
       "id": "corporate_rate",
@@ -642,7 +666,8 @@
       },
       "gloss_example": {
         "en": "Our company has a corporate rate with the hotel chain that saves us 20% per night."
-      }
+      },
+      "conceptId": "es.corporate_rate"
     },
     {
       "id": "indemnify",
@@ -662,7 +687,8 @@
       },
       "gloss_example": {
         "en": "The contract stipulates that the hotel will indemnify guests for losses caused by staff negligence."
-      }
+      },
+      "conceptId": "es.indemnify"
     },
     {
       "id": "misrepresentation",
@@ -698,7 +724,8 @@
           },
           "audioSlug": "engano_publicitario"
         }
-      ]
+      ],
+      "conceptId": "es.misrepresentation"
     },
     {
       "id": "arbitration",
@@ -718,7 +745,8 @@
       },
       "gloss_example": {
         "en": "The hotel's terms of service require disputes to be settled by arbitration."
-      }
+      },
+      "conceptId": "es.arbitration"
     },
     {
       "id": "discretion",
@@ -754,7 +782,8 @@
           },
           "audioSlug": "potestad"
         }
-      ]
+      ],
+      "conceptId": "es.discretion"
     },
     {
       "id": "remittance",
@@ -797,7 +826,8 @@
           },
           "audioSlug": "remision_de_pago"
         }
-      ]
+      ],
+      "conceptId": "es.remittance"
     },
     {
       "id": "bed",
@@ -817,7 +847,8 @@
       },
       "gloss_example": {
         "en": "The hotel bed was very comfortable."
-      }
+      },
+      "conceptId": "es.bed"
     },
     {
       "id": "building",
@@ -837,7 +868,8 @@
       },
       "gloss_example": {
         "en": "They live in a tall building downtown."
-      }
+      },
+      "conceptId": "es.building"
     },
     {
       "id": "garden",
@@ -857,7 +889,8 @@
       },
       "gloss_example": {
         "en": "They grow vegetables in the garden."
-      }
+      },
+      "conceptId": "es.garden"
     },
     {
       "id": "living_room",
@@ -893,7 +926,8 @@
           },
           "audioSlug": "sala"
         }
-      ]
+      ],
+      "conceptId": "es.living_room"
     },
     {
       "id": "madera",
@@ -913,7 +947,8 @@
       },
       "gloss_example": {
         "en": "The table is made of wood."
-      }
+      },
+      "conceptId": "es.madera"
     },
     {
       "id": "hogar",
@@ -933,7 +968,8 @@
       },
       "gloss_example": {
         "en": "There is no place like home."
-      }
+      },
+      "conceptId": "es.hogar"
     },
     {
       "id": "cuarto",
@@ -969,7 +1005,8 @@
           },
           "audioSlug": "cuarto"
         }
-      ]
+      ],
+      "conceptId": "es.cuarto"
     },
     {
       "id": "bathroom",
@@ -989,7 +1026,8 @@
       },
       "gloss_example": {
         "en": "The bathroom is at the end of the hall."
-      }
+      },
+      "conceptId": "es.bathroom"
     },
     {
       "id": "staircase",
@@ -1009,7 +1047,8 @@
       },
       "gloss_example": {
         "en": "We went up the stairs to the third floor."
-      }
+      },
+      "conceptId": "es.staircase"
     },
     {
       "id": "shower",
@@ -1029,7 +1068,8 @@
       },
       "gloss_example": {
         "en": "I take a quick shower in the morning."
-      }
+      },
+      "conceptId": "es.shower"
     },
     {
       "id": "sofa",
@@ -1049,7 +1089,8 @@
       },
       "gloss_example": {
         "en": "We watch television on the sofa."
-      }
+      },
+      "conceptId": "es.sofa"
     },
     {
       "id": "armchair",
@@ -1069,7 +1110,8 @@
       },
       "gloss_example": {
         "en": "My grandfather reads in his armchair."
-      }
+      },
+      "conceptId": "es.armchair"
     },
     {
       "id": "wardrobe",
@@ -1089,7 +1131,8 @@
       },
       "gloss_example": {
         "en": "I keep my clothes in the wardrobe."
-      }
+      },
+      "conceptId": "es.wardrobe"
     },
     {
       "id": "bedroom",
@@ -1109,7 +1152,8 @@
       },
       "gloss_example": {
         "en": "The bedroom has a big bed."
-      }
+      },
+      "conceptId": "es.bedroom"
     },
     {
       "id": "terrace",
@@ -1129,7 +1173,8 @@
       },
       "gloss_example": {
         "en": "We have breakfast on the terrace when it is sunny."
-      }
+      },
+      "conceptId": "es.terrace"
     },
     {
       "id": "garage",
@@ -1149,7 +1194,8 @@
       },
       "gloss_example": {
         "en": "She left the car in the garage."
-      }
+      },
+      "conceptId": "es.garage"
     },
     {
       "id": "elevator",
@@ -1169,7 +1215,8 @@
       },
       "gloss_example": {
         "en": "The elevator is not working today."
-      }
+      },
+      "conceptId": "es.elevator"
     },
     {
       "id": "heating",
@@ -1189,7 +1236,8 @@
       },
       "gloss_example": {
         "en": "In winter we turn on the heating."
-      }
+      },
+      "conceptId": "es.heating"
     },
     {
       "id": "fridge",
@@ -1209,7 +1257,8 @@
       },
       "gloss_example": {
         "en": "Keep the milk in the fridge."
-      }
+      },
+      "conceptId": "es.fridge"
     },
     {
       "id": "washing_machine",
@@ -1229,7 +1278,8 @@
       },
       "gloss_example": {
         "en": "Put the dirty clothes in the washing machine."
-      }
+      },
+      "conceptId": "es.washing_machine"
     },
     {
       "id": "microwave",
@@ -1249,7 +1299,8 @@
       },
       "gloss_example": {
         "en": "Heat the soup in the microwave."
-      }
+      },
+      "conceptId": "es.microwave"
     },
     {
       "id": "bookshelf",
@@ -1269,7 +1320,8 @@
       },
       "gloss_example": {
         "en": "The books are on the bookshelf."
-      }
+      },
+      "conceptId": "es.bookshelf"
     },
     {
       "id": "bathtub",
@@ -1289,7 +1341,8 @@
       },
       "gloss_example": {
         "en": "The child plays in the bathtub."
-      }
+      },
+      "conceptId": "es.bathtub"
     },
     {
       "id": "washbasin",
@@ -1309,7 +1362,8 @@
       },
       "gloss_example": {
         "en": "She washed her hands in the washbasin."
-      }
+      },
+      "conceptId": "es.washbasin"
     },
     {
       "id": "apartment_place",
@@ -1345,7 +1399,8 @@
           },
           "audioSlug": "departamento"
         }
-      ]
+      ],
+      "conceptId": "es.apartment_place"
     },
     {
       "id": "ceiling_roof",
@@ -1365,7 +1420,8 @@
       },
       "gloss_example": {
         "en": "The lamp hangs from the ceiling of the living room."
-      }
+      },
+      "conceptId": "es.ceiling_roof"
     },
     {
       "id": "floor_ground",
@@ -1385,7 +1441,8 @@
       },
       "gloss_example": {
         "en": "He fell to the floor but was not hurt."
-      }
+      },
+      "conceptId": "es.floor_ground"
     },
     {
       "id": "swimming_pool",
@@ -1405,7 +1462,8 @@
       },
       "gloss_example": {
         "en": "The children swim in the hotel pool."
-      }
+      },
+      "conceptId": "es.swimming_pool"
     },
     {
       "id": "guesthouse",
@@ -1425,7 +1483,8 @@
       },
       "gloss_example": {
         "en": "We stayed in a small guesthouse downtown."
-      }
+      },
+      "conceptId": "es.guesthouse"
     }
   ]
 }

@@ -1,14 +1,15 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
+    <script src="shared/js/icons.js?v=bf0d48f8"></script>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://esm.sh blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://cdn.jsdelivr.net https://esm.sh https://huggingface.co https://*.huggingface.co; media-src 'self' blob:; worker-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; child-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Idiomap — Learn to Speak & Build Vocabulary</title>
+    <title>Idiomap · Learn to Speak & Build Vocabulary</title>
     <meta name="description" content="Free interactive language learning. Practice speaking, dictation, and vocabulary with spaced repetition. Works offline, no signup required.">
     <link rel="canonical" href="https://jesusorihuela.github.io/idiomap/">
-    <meta property="og:title" content="Idiomap — Learn to Speak & Build Vocabulary">
+    <meta property="og:title" content="Idiomap · Learn to Speak & Build Vocabulary">
     <meta property="og:description" content="Free interactive language learning app. Practice speaking, dictation, and vocabulary with spaced repetition. Works offline.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jesusorihuela.github.io/idiomap/">
@@ -17,10 +18,10 @@
     <meta property="og:image" content="https://jesusorihuela.github.io/idiomap/index/img/og-image.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Idiomap — learn to speak and build vocabulary">
+    <meta property="og:image:alt" content="Idiomap · learn to speak and build vocabulary">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Idiomap">
-    <meta name="twitter:description" content="Free interactive language learning — speaking, dictation, vocabulary with spaced repetition.">
+    <meta name="twitter:description" content="Free interactive language learning · speaking, dictation, vocabulary with spaced repetition.">
     <meta name="twitter:image" content="https://jesusorihuela.github.io/idiomap/index/img/og-image.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,12 +31,14 @@
          the fallback and does NOT swap if Raleway isn't ready immediately, so the
          async load causes no layout shift (CLS). Raleway shows once cached (repeat
          visits). <noscript> keeps it working without JS. -->
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=optional">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=optional" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=optional"></noscript>
-    <link rel="stylesheet" href="index/css/generalities.css?v=f2ec31b3">
-    <link rel="stylesheet" href="index/css/index.css?v=639d0243">
-    <!-- LCP image on the landing hero — fetch it early and at high priority so mobile
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&display=optional">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&display=optional" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&display=optional"></noscript>
+    <link rel="stylesheet" href="shared/css/tokens.css?v=c503fc77">
+    <link rel="stylesheet" href="shared/css/layout.css?v=19bc9d12">
+    <link rel="stylesheet" href="shared/css/components.css?v=ea5c27b8">
+    <link rel="stylesheet" href="index/css/index.css?v=66e3eb8d">
+    <!-- LCP image on the landing hero - fetch it early and at high priority so mobile
          (Slow 4G) discovers it before scripts instead of after CSS+parse. -->
     <link rel="preload" as="image" href="index/img/learn.webp" fetchpriority="high">
     <link rel="icon" href="index/img/ico/favicon.svg" type="image/svg+xml">
@@ -43,7 +46,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="index/img/ico/favicon-32x32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="index/img/ico/apple-touch-icon.png">
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#2563EB">
+    <meta name="theme-color" content="">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Idiomap">
@@ -63,11 +66,11 @@
     }
     </script>
 
-    <!-- i18n cloak: the landing carries no hardcoded UI text — every element is
+    <!-- i18n cloak: the landing carries no hardcoded UI text - every element is
          empty (data-i18n) and filled by _initMainPageI18n() at end of body, for
          ALL pairs. Hide the page until it's filled so no empty content is painted;
          reveal on DOMContentLoaded (after that runs), with a 2 s failsafe.
-         generalities.css (loaded above) defines html.lang-cloak body{visibility:hidden}. -->
+         layout.css (loaded above) defines html.lang-cloak body{visibility:hidden}. -->
     <script>
     (function () {
       try {
@@ -84,7 +87,7 @@
 <body>
     <a class="skip-link" href="#main-content" data-i18n="skip_to_main"></a>
     <header>
-        <a href="index.html" aria-label="Idiomap — Home" data-i18n-aria="nav_home_aria">
+        <a href="./" aria-label="Idiomap · Home" data-i18n-aria="nav_home_aria">
             <img src="index/img/ico/logo.webp" alt="Idiomap" width="228" height="88" fetchpriority="high">
         </a>
     </header>
@@ -93,8 +96,6 @@
         <section class="hero">
             <!-- Left Column -->
             <div class="hero-left">
-                <div class="hexagon"></div>
-                <div class="hexagon"></div>
 
                 <h1 class="hero-title" data-i18n-html="index_hero_title"></h1>
 
@@ -102,32 +103,30 @@
 
                 <div class="hero-stats">
                     <div class="stat">
-                        <div class="stat-number">8</div>
+                        <div class="stat-number" id="stat-activities-num">8</div>
                         <div class="stat-label" data-i18n="index_stat_activities"></div>
                     </div>
                     <div class="stat-divider"></div>
                     <div class="stat">
-                        <div class="stat-number" id="stat-phrases-num">—</div>
+                        <div class="stat-number" id="stat-phrases-num"> … </div>
                         <div class="stat-label" data-i18n="index_stat_phrases"></div>
                     </div>
                     <div class="stat-divider"></div>
                     <div class="stat">
-                        <div class="stat-number" data-i18n="index_stat_free_num"></div>
-                        <div class="stat-label" data-i18n="index_stat_free"></div>
+                        <div class="stat-number" id="stat-levels-num">A1-C2</div>
+                        <div class="stat-label" data-i18n="index_stat_levels"></div>
                     </div>
                 </div>
             </div>
 
             <!-- Right Column -->
             <div class="hero-right">
-                <div class="hexagon"></div>
-                <div class="hero-image-glow"></div>
                 <img id="skewingImage" src="index/img/learn.webp" alt="Language learning illustration" width="640" height="640" fetchpriority="high" decoding="async" />
             </div>
         </section>
 
 
-        <!-- ── Learning Path ── -->
+        <!-- -- Learning Path -- -->
         <section class="path-section" id="path-section">
           <div class="path-intro">
             <h2 class="path-heading" data-i18n="index_path_heading"></h2>
@@ -136,17 +135,18 @@
           <div class="path-card">
             <div class="path-session-cta" id="path-session-cta"><!-- JS --></div>
             <div class="path-card__trail">
-              <button class="path-scroll-btn path-scroll-btn--left hidden" id="path-scroll-left" aria-label="" data-i18n-aria="index_scroll_left">‹</button>
               <div class="path-nodes" id="path-nodes" role="list"><!-- JS --></div>
-              <button class="path-scroll-btn path-scroll-btn--right hidden" id="path-scroll-right" aria-label="" data-i18n-aria="index_scroll_right">›</button>
-              <div class="path-nodes-fade path-nodes-fade--left hidden" aria-hidden="true"></div>
-              <div class="path-nodes-fade path-nodes-fade--right" aria-hidden="true"></div>
+            </div>
+            <div class="path-pager" id="path-pager" hidden>
+              <button class="icon-btn path-scroll-btn path-scroll-btn--left is-hidden" id="path-scroll-left" aria-label="" data-i18n-aria="index_scroll_left"><svg class="icon" aria-hidden="true"><use href="#i-chevron-left"/></svg></button>
+              <span class="path-pager__status" id="path-page-status" role="status" aria-live="polite"></span>
+              <button class="icon-btn path-scroll-btn path-scroll-btn--right" id="path-scroll-right" aria-label="" data-i18n-aria="index_scroll_right"><svg class="icon" aria-hidden="true"><use href="#i-chevron-right"/></svg></button>
             </div>
           </div>
         </section>
 
         <!-- Activities Hub -->
-        <section class="activities-section" id="all-activities">
+        <section class="activities-section">
 
             <div class="activities-intro">
                 <h2 class="activities-heading" data-i18n="index_activities_heading"></h2>
@@ -156,22 +156,20 @@
             <!-- Group A: Habla y Escucha -->
             <div class="activity-group">
                 <div class="group-label">
-                    <span class="group-badge" data-i18n="index_group_speaking"></span>
+                    <h3 class="group-badge" data-i18n="index_group_speaking"></h3>
                 </div>
                 <div class="activity-grid activity-grid--2">
-                    <a href="speaking/html/speaking.html" class="feature-card-link">
-                        <div class="feature-card">
-                            <div class="feature-icon">🎙️</div>
-                            <h3 data-i18n="act_speaking"></h3>
-                            <span class="card-benefit" data-i18n="index_card_speaking_benefit"></span>
+                    <a href="speaking/" class="feature-card-link" data-i18n-aria="act_speaking">
+                        <div class="card card--feature">
+                            <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-mic"/></svg><span data-i18n="act_speaking"></span></h4>
+                            <span class="card__benefit" data-i18n="index_card_speaking_benefit"></span>
                             <p data-i18n="index_card_speaking_desc"></p>
                         </div>
                     </a>
-                    <a href="dictation/html/dictation.html" class="feature-card-link">
-                        <div class="feature-card">
-                            <div class="feature-icon">✍️</div>
-                            <h3 data-i18n="act_dictation"></h3>
-                            <span class="card-benefit" data-i18n="index_card_dictation_benefit"></span>
+                    <a href="dictation/" class="feature-card-link" data-i18n-aria="act_dictation">
+                        <div class="card card--feature">
+                            <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-pen"/></svg><span data-i18n="act_dictation"></span></h4>
+                            <span class="card__benefit" data-i18n="index_card_dictation_benefit"></span>
                             <p data-i18n="index_card_dictation_desc"></p>
                         </div>
                     </a>
@@ -181,30 +179,27 @@
             <!-- Group B: Práctica de Oraciones -->
             <div class="activity-group">
                 <div class="group-label">
-                    <span class="group-badge" data-i18n="index_group_sentences"></span>
+                    <h3 class="group-badge" data-i18n="index_group_sentences"></h3>
                 </div>
                 <div class="activity-grid activity-grid--3">
-                    <a href="cloze/html/cloze.html" class="feature-card-link">
-                        <div class="feature-card">
-                            <div class="feature-icon">🔤</div>
-                            <h3 data-i18n="act_cloze"></h3>
-                            <span class="card-benefit" data-i18n="index_card_cloze_benefit"></span>
+                    <a href="cloze/" class="feature-card-link" data-i18n-aria="act_cloze">
+                        <div class="card card--feature">
+                            <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-type"/></svg><span data-i18n="act_cloze"></span></h4>
+                            <span class="card__benefit" data-i18n="index_card_cloze_benefit"></span>
                             <p data-i18n="index_card_cloze_desc"></p>
                         </div>
                     </a>
-                    <a href="translation/html/translation.html" class="feature-card-link">
-                        <div class="feature-card">
-                            <div class="feature-icon">🔄</div>
-                            <h3 data-i18n="act_translation"></h3>
-                            <span class="card-benefit" data-i18n="index_card_translation_benefit"></span>
+                    <a href="translation/" class="feature-card-link" data-i18n-aria="act_translation">
+                        <div class="card card--feature">
+                            <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-languages"/></svg><span data-i18n="act_translation"></span></h4>
+                            <span class="card__benefit" data-i18n="index_card_translation_benefit"></span>
                             <p data-i18n="index_card_translation_desc"></p>
                         </div>
                     </a>
-                    <a href="scramble/html/scramble.html" class="feature-card-link">
-                        <div class="feature-card">
-                            <div class="feature-icon">🧩</div>
-                            <h3 data-i18n="act_scramble"></h3>
-                            <span class="card-benefit" data-i18n="index_card_scramble_benefit"></span>
+                    <a href="scramble/" class="feature-card-link" data-i18n-aria="act_scramble">
+                        <div class="card card--feature">
+                            <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-puzzle"/></svg><span data-i18n="act_scramble"></span></h4>
+                            <span class="card__benefit" data-i18n="index_card_scramble_benefit"></span>
                             <p data-i18n="index_card_scramble_desc"></p>
                         </div>
                     </a>
@@ -214,22 +209,20 @@
             <!-- Group C: Vocabulario -->
             <div class="activity-group">
                 <div class="group-label">
-                    <span class="group-badge" data-i18n="index_group_vocab"></span>
+                    <h3 class="group-badge" data-i18n="index_group_vocab"></h3>
                 </div>
                 <div class="activity-grid activity-grid--2">
-                    <a href="vocabulary/html/vocabulary.html" class="feature-card-link">
-                        <div class="feature-card">
-                            <div class="feature-icon">📚</div>
-                            <h3 data-i18n="act_vocabulary"></h3>
-                            <span class="card-benefit" data-i18n="index_card_vocabulary_benefit"></span>
+                    <a href="vocabulary/" class="feature-card-link" data-i18n-aria="act_vocabulary">
+                        <div class="card card--feature">
+                            <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg><span data-i18n="act_vocabulary"></span></h4>
+                            <span class="card__benefit" data-i18n="index_card_vocabulary_benefit"></span>
                             <p data-i18n="index_card_vocabulary_desc"></p>
                         </div>
                     </a>
-                    <a href="quiz/html/quiz.html" class="feature-card-link">
-                        <div class="feature-card">
-                            <div class="feature-icon">🧠</div>
-                            <h3 data-i18n="act_quiz"></h3>
-                            <span class="card-benefit" data-i18n="index_card_quiz_benefit"></span>
+                    <a href="quiz/" class="feature-card-link" data-i18n-aria="act_quiz">
+                        <div class="card card--feature">
+                            <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-brain"/></svg><span data-i18n="act_quiz"></span></h4>
+                            <span class="card__benefit" data-i18n="index_card_quiz_benefit"></span>
                             <p data-i18n="index_card_quiz_desc"></p>
                         </div>
                     </a>
@@ -239,14 +232,13 @@
             <!-- Group D: Gramática -->
             <div class="activity-group">
                 <div class="group-label">
-                    <span class="group-badge" data-i18n="index_group_grammar"></span>
+                    <h3 class="group-badge" data-i18n="index_group_grammar"></h3>
                 </div>
                 <div class="activity-grid activity-grid--3">
-                    <a href="grammar/html/grammar.html" class="feature-card-link">
-                        <div class="feature-card">
-                            <div class="feature-icon">📐</div>
-                            <h3 data-i18n="act_grammar"></h3>
-                            <span class="card-benefit" data-i18n="index_card_grammar_benefit"></span>
+                    <a href="grammar/" class="feature-card-link" data-i18n-aria="act_grammar">
+                        <div class="card card--feature">
+                            <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-ruler"/></svg><span data-i18n="act_grammar"></span></h4>
+                            <span class="card__benefit" data-i18n="index_card_grammar_benefit"></span>
                             <p data-i18n="index_card_grammar_desc"></p>
                         </div>
                     </a>
@@ -258,11 +250,11 @@
         </section>
     </main>
 
-    <!-- ══ Onboarding Modal ══ -->
-    <div id="ob-overlay" class="ob-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="ob-title">
-        <div class="ob-modal">
+    <!-- -- Onboarding Modal -- -->
+    <div id="ob-overlay" class="dialog-overlay ob-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="ob-title">
+        <div class="dialog ob-modal">
 
-            <button class="ob-close" id="ob-close" aria-label="" data-i18n-aria="ob_close_aria">✕</button>
+ <button class="icon-btn icon-btn--overlay ob-close" id="ob-close" aria-label="" data-i18n-aria="ob_close_aria"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
 
             <div class="ob-inner">
 
@@ -274,50 +266,50 @@
                 <span class="ob-dot"></span>
             </div>
 
-            <!-- ── Step 0: How it works ── -->
+            <!-- -- Step 0: How it works -- -->
             <div class="ob-step" id="ob-step-0">
-                <div class="ob-hero-icon">🗣️</div>
+                <div class="ob-hero-icon"><svg class="icon" aria-hidden="true"><use href="#i-megaphone"/></svg></div>
                 <h2 class="ob-title" id="ob-title" data-i18n="ob_title_how"></h2>
                 <p class="ob-body" data-i18n-html="ob_body_how"></p>
-                <button class="ob-primary-btn" id="ob-next-0" data-i18n="ob_btn_find_level"></button>
+                <button class="btn btn--primary" id="ob-next-0" data-i18n="ob_btn_find_level"></button>
             </div>
 
-            <!-- ── Step 1: Topic Preferences ── -->
+            <!-- -- Step 1: Topic Preferences -- -->
             <div class="ob-step hidden" id="ob-step-1">
                 <h2 class="ob-title" data-i18n="ob_title_topics"></h2>
                 <p class="ob-body ob-body--sm" data-i18n="ob_body_topics"></p>
                 <div class="ob-topic-bubbles" id="ob-topic-bubbles"></div>
-                <button class="ob-primary-btn" id="ob-topics-done" type="button" data-i18n="ob_btn_topics_done"></button>
+                <button class="btn btn--primary" id="ob-topics-done" type="button" data-i18n="ob_btn_topics_done"></button>
             </div>
 
-            <!-- ── Step 2: Placement Quiz ── -->
+            <!-- -- Step 2: Placement Quiz -- -->
             <div class="ob-step ob-step--quiz hidden" id="ob-step-2">
                 <div class="ob-quiz-meta" id="ob-quiz-meta">
                     <span class="ob-quiz-counter" id="ob-quiz-counter" aria-live="polite"></span>
                     <span class="ob-quiz-lvbadge" id="ob-quiz-lvbadge">A1</span>
                 </div>
-                <div class="ob-quiz-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="ob-quiz-bar">
-                    <div class="ob-quiz-fill" id="ob-quiz-fill"></div>
+                <div class="progress-bar ob-quiz-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="ob-quiz-bar">
+                    <div class="progress-bar__fill ob-quiz-fill" id="ob-quiz-fill"></div>
                 </div>
                 <p class="ob-quiz-q" id="ob-quiz-q"></p>
                 <div class="ob-quiz-opts" id="ob-quiz-opts"></div>
-                <button class="ob-ghost-btn ob-quiz-skip" id="ob-quiz-skip" data-i18n="ob_quiz_skip"></button>
+                <button class="btn btn--ghost btn--sm ob-quiz-skip" id="ob-quiz-skip" data-i18n="ob_quiz_skip"></button>
                 <div class="ob-quiz-manual hidden" id="ob-quiz-manual">
                     <p class="ob-quiz-manual-label" data-i18n="ob_manual_label"></p>
-                    <button class="ob-manual-btn" data-level="A1" data-i18n-html="manual_level_beginner"></button>
-                    <button class="ob-manual-btn" data-level="B1" data-i18n-html="manual_level_intermediate"></button>
-                    <button class="ob-manual-btn" data-level="C1" data-i18n-html="manual_level_advanced"></button>
+                    <button class="btn btn--secondary ob-manual-btn" data-level="A1" data-i18n-html="manual_level_beginner"></button>
+                    <button class="btn btn--secondary ob-manual-btn" data-level="B1" data-i18n-html="manual_level_intermediate"></button>
+                    <button class="btn btn--secondary ob-manual-btn" data-level="C1" data-i18n-html="manual_level_advanced"></button>
                 </div>
             </div>
 
 
-            <!-- ── Step 3: Welcome ── -->
+            <!-- -- Step 3: Welcome -- -->
             <div class="ob-step hidden" id="ob-step-3">
-                <div class="ob-hero-icon">🎉</div>
+                <div class="ob-hero-icon"><svg class="icon" aria-hidden="true"><use href="#i-party"/></svg></div>
                 <h2 class="ob-title" data-i18n="ob_title_done"></h2>
                 <p class="ob-body ob-body--sm" id="ob-welcome-msg"></p>
-                <button class="ob-primary-btn" id="ob-go-path" type="button" data-i18n="ob_btn_go_path"></button>
-                <button class="ob-ghost-btn" id="ob-go-free" type="button" data-i18n="ob_btn_explore"></button>
+                <button class="btn btn--primary" id="ob-go-path" type="button" data-i18n="ob_btn_go_path"></button>
+                <button class="btn btn--ghost btn--sm" id="ob-go-free" type="button" data-i18n="ob_btn_explore"></button>
             </div>
 
             </div><!-- /ob-inner -->
@@ -329,36 +321,38 @@
         <div class="footer-content">
             <p></p>
             <a href="https://github.com/JesusOrihuela/idiomap" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository" data-i18n-aria="nav_github_aria">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="white" opacity="0.8" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                <svg class="icon icon--sm icon--brand" aria-hidden="true"><use href="#i-github"/></svg>
             </a>
         </div>
     </footer>
 
-    <script src="shared/js/flags.js?v=e119628b"></script>
+    <script src="shared/js/flags.js?v=527c7259"></script>
     <script src="shared/js/cefr.js?v=4737c1d0"></script>
-    <script src="shared/js/lang-pair.js?v=502ec531"></script>
+    <script src="shared/js/pairs.js?v=d0d87bca"></script>
+    <script src="shared/js/languages.js?v=e2f2f8aa"></script>
+    <script src="shared/js/lang-pair.js?v=bd479fdf"></script>
     <script src="shared/js/proficiency.js?v=5fd50d9f"></script>
-    <script src="lang/ui.js?v=ea61459c"></script>
-    <script src="lang/target/en.js?v=2cd78c3d"></script>
-    <script src="shared/js/lang.js?v=d2e47532"></script>
-    <script src="shared/js/i18n-dom.js?v=1278e66a"></script>
+    <script src="lang/ui.js?v=45820f61"></script>
+    <script src="lang/target/en.js?v=22e1b310"></script>
+    <script src="shared/js/lang.js?v=aaf848f7"></script>
+    <script src="shared/js/i18n-dom.js?v=3ac48a81"></script>
     <script>
-      /* ── Pair Selection + Onboarding Modal + Embedded Placement Quiz ── */
+      /* -- Pair Selection + Onboarding Modal + Embedded Placement Quiz -- */
       (function () {
 
-        // ── Group 0: Show pair picker on very first visit ─────────────
+        // -- Group 0: Show pair picker on very first visit -------------
         if (!localStorage.getItem('pe_active_pair')) {
           _initMainPageI18n(); // translate background using navigator.language
           _showPairPicker();
           return;
         }
 
-        // ── Translate main page content for English-source pairs ──────
+        // -- Translate main page content for English-source pairs ------
         _initMainPageI18n();
 
-        // ── Background model preload ────────────────────────────────
+        // -- Background model preload --------------------------------
         // Start caching TTS + STT models as soon as the pair is confirmed.
-        // Guards on localStorage keys set by AppDownloadPanel.complete() — no
+        // Guards on localStorage keys set by AppDownloadPanel.complete() - no
         // Worker is created on repeat visits when models are already cached.
         if (typeof AppTTS !== 'undefined' && !localStorage.getItem('pe_tts_cached')) {
           AppTTS.warmup();
@@ -400,7 +394,7 @@
         }
         // Defer the ~41 MB STT model preload until the page is interactive so it
         // does not compete with first paint / LCP during the critical load window.
-        // The model still warms up in the background — just after the page is usable.
+        // The model still warms up in the background - just after the page is usable.
         if ('requestIdleCallback' in window) {
           requestIdleCallback(_maybeStartSttWarmup, { timeout: 4000 });
         } else {
@@ -409,7 +403,7 @@
 
         if (localStorage.getItem(AppLangPair.storageKey('pe_onboarded'))) return;
 
-        // ── Placement questions — the ACTIVE PAIR's own placement.json ──
+        // -- Placement questions - the ACTIVE PAIR's own placement.json --
         // Every pair ships one (shared/json/pairs/<pair>/placement.json), already in the source
         // language, so the onboarding quiz auto-adapts to any pair with NO per-pair key to maintain.
         var QUESTIONS = null;
@@ -469,7 +463,7 @@
           });
         }
 
-        // Score → CEFR, proportional to the question count (pairs differ: 14 vs 6), so the same
+        // Score ? CEFR, proportional to the question count (pairs differ: 14 vs 6), so the same
         // band ratios apply whatever the pair's placement length is.
         function scoreToLevel(s, total) {
           var pct = total > 0 ? s / total : 0;
@@ -502,7 +496,7 @@
         function showQuestion(i) {
           var q = QUESTIONS[i];
           var pct = (i / QUESTIONS.length) * 100;
-          document.getElementById('ob-quiz-fill').style.width = pct + '%';
+          document.getElementById('ob-quiz-fill').style.transform = 'scaleX(' + (pct / 100) + ')';
           document.getElementById('ob-quiz-bar').setAttribute('aria-valuenow', Math.round(pct));
           document.getElementById('ob-quiz-counter').textContent = AppLang.t('placement_counter', { n: i + 1, total: QUESTIONS.length });
           document.getElementById('ob-quiz-lvbadge').textContent = q.level;
@@ -512,7 +506,7 @@
           quizAnswered = false;
           q.options.forEach(function (opt, idx) {
             var btn = document.createElement('button');
-            btn.className = 'ob-opt-btn';
+            btn.className = 'btn btn--secondary ob-opt-btn';
             btn.textContent = opt;
             btn.setAttribute('role', 'listitem');
             btn.addEventListener('click', function () { selectOption(idx); });
@@ -537,7 +531,7 @@
             if (quizIdx < QUESTIONS.length) {
               showQuestion(quizIdx);
             } else {
-              document.getElementById('ob-quiz-fill').style.width = '100%';
+              document.getElementById('ob-quiz-fill').style.transform = 'scaleX(1)';
               _finishPlacement(scoreToLevel(quizScore, QUESTIONS.length));
             }
           }, 850);
@@ -559,20 +553,20 @@
           if (container.children.length) return;
           (typeof AppTopics !== 'undefined' ? AppTopics.PHRASE_TOPICS : []).forEach(function (t) {
             var btn = document.createElement('button');
-            btn.className = 'ob-bubble';
+            btn.className = 'chip ob-bubble';
             btn.type = 'button';
             var _label = (typeof AppTopics !== 'undefined' && AppTopics.getLabel)
               ? AppTopics.getLabel(t)
               : ((_isEnSrc && t.labelEn) ? t.labelEn : t.label);
-            btn.textContent = t.emoji + ' ' + _label;
+            btn.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#' + AppTopicIcon.of(t.id) + '"/></svg><span>' + _label + '</span>';
             btn.dataset.id = t.id;
-            btn.addEventListener('click', function () { btn.classList.toggle('ob-bubble--on'); });
+            btn.addEventListener('click', function () { btn.classList.toggle('chip--on'); });
             container.appendChild(btn);
           });
         }
 
         document.getElementById('ob-topics-done').addEventListener('click', function () {
-          var on = Array.from(document.querySelectorAll('#ob-topic-bubbles .ob-bubble--on'))
+          var on = Array.from(document.querySelectorAll('#ob-topic-bubbles .chip--on'))
                        .map(function (b) { return b.dataset.id; });
           localStorage.setItem(AppLangPair.storageKey('pe_topic_preferences'), JSON.stringify(on));
           quizIdx = 0; quizScore = 0;
@@ -593,21 +587,35 @@
 
         document.getElementById('ob-go-path').addEventListener('click', function () {
           dismiss();
-          window.location.href = 'my-learning/html/my-learning.html';
+          window.location.href = 'my-learning/';
         });
         document.getElementById('ob-go-free').addEventListener('click', dismiss);
 
         setTimeout(show, 700);
 
-        // ── Main page i18n (translates static HTML for non-es source) ──
+        // -- Main page i18n (translates static HTML for non-es source) --
         function _initMainPageI18n() {
           if (typeof AppI18nDom === 'undefined') return;
+          // Activity count = the feature cards actually rendered (8 today). The
+          // learning path is NOT an exercise and is deliberately excluded.
+          var _count = document.querySelectorAll('.feature-card-link').length;
+          var _an = document.getElementById('stat-activities-num');
+          if (_an && _count) _an.textContent = String(_count);
+          // CEFR range actually covered by the active pair (from pairs.js, built
+          // from gloss.json). Stress pilots show their real single level.
+          var _ln = document.getElementById('stat-levels-num');
+          if (_ln && typeof AppLangPair !== 'undefined') {
+            var _lv = AppLangPair.getActive().levels;
+            if (_lv && _lv.min) _ln.textContent = _lv.min === _lv.max ? _lv.min : _lv.min + '-' + _lv.max;
+          }
           // Fill every data-i18n* element (landing + onboarding) from AppLang,
-          // for ALL pairs — no hardcoded UI text in the HTML (project standard).
-          AppI18nDom.apply(document, AppI18nDom.params());
+          // for ALL pairs - no hardcoded UI text in the HTML (project standard).
+          var _params = AppI18nDom.params();
+          _params.count = _count;
+          AppI18nDom.apply(document, _params);
 
           // Hero "Phrases" stat = the REAL number of phrases the active pair has (from the ID map),
-          // not a hardcoded figure — so each pair shows its own size. Floor to a round number with a
+          // not a hardcoded figure - so each pair shows its own size. Floor to a round number with a
           // "+" for large decks (honest: "at least N"); exact for small stress-test pairs.
           // progress.js loads later in the body, so run once it's available (DOMContentLoaded).
           var _setPhrasesStat = function () {
@@ -615,7 +623,7 @@
               var _pn = document.getElementById('stat-phrases-num');
               if (!_pn || typeof Progress === 'undefined' || !Progress.getContentCounts) return;
               // The count comes from the id-map, now fetched lazily (off the critical path).
-              // Wait for it, then fill; the "—" placeholder has a reserved width (index.css)
+              // Wait for it, then fill; the " … " placeholder has a reserved width (index.css)
               // so this late text swap causes no layout shift (CLS stays 0).
               var _apply = function () {
                 var _ph = Progress.getContentCounts().phrases;
@@ -632,12 +640,12 @@
           if (fp && typeof AppLang !== 'undefined') {
             var dev = AppLang.t('footer_developed_by');
             if (dev !== 'footer_developed_by') {
-              fp.innerHTML = '© <span id="footer-year">' + new Date().getFullYear() + '</span> ' + dev + ' aurariola<span style="color:var(--clr-accent)">.</span>com';
+              fp.innerHTML = '© <span id="footer-year">' + new Date().getFullYear() + '</span> ' + dev + ' aurariola<span style="color:var(--color-action)">.</span>com';
             }
           }
         }
 
-        // ── Pair picker (shown when pe_active_pair === null) ──────────
+        // -- Pair picker (shown when pe_active_pair === null) ----------
         function _showPairPicker() {
           var _PICKER_UI = {
             en: { title: 'What language do you want to learn?',       subtitle: 'Choose your learning path'            },
@@ -647,13 +655,13 @@
             de: { title: 'Welche Sprache möchtest du lernen?',        subtitle: 'Wähle deinen Lernpfad'                },
             it: { title: 'Quale lingua vuoi imparare?',               subtitle: 'Scegli il tuo percorso'               },
             nl: { title: 'Welke taal wil je leren?',                  subtitle: 'Kies je leertraject'                  },
-            pl: { title: 'Jakiego języka chcesz się nauczyć?',        subtitle: 'Wybierz swoją ścieżkę nauki'          },
+            pl: { title: 'Jakiego jezyka chcesz sie nauczyc?',        subtitle: 'Wybierz swoja sciezke nauki'          },
             cs: { title: 'Jaký jazyk se chceš naučit?',              subtitle: 'Zvol si svou vzdělávací cestu'         },
             sv: { title: 'Vilket språk vill du lära dig?',            subtitle: 'Välj din inlärningsväg'               },
             da: { title: 'Hvilket sprog vil du lære?',                subtitle: 'Vælg din læringssti'                  },
             no: { title: 'Hvilket språk vil du lære?',                subtitle: 'Velg din læringsvei'                  },
             fi: { title: 'Minkä kielen haluat oppia?',                subtitle: 'Valitse oppimispolkusi'               },
-            lv: { title: 'Kādu valodu tu gribi mācīties?',             subtitle: 'Izvēlies savu mācību ceļu'             },
+            lv: { title: 'Kadu valodu tu gribi macities?',             subtitle: 'Izvelies savu macibu celu'             },
             lt: { title: 'Kokios kalbos nori išmokti?',                subtitle: 'Pasirink savo mokymosi kelią'          },
             et: { title: 'Millist keelt soovid õppida?',               subtitle: 'Vali oma õpitee'                       },
           };
@@ -664,20 +672,20 @@
 
           var picker = document.createElement('div');
           picker.id  = 'lp-picker';
-          picker.className = 'ob-overlay';
+          picker.className = 'dialog-overlay dialog-overlay--solid ob-overlay';
           picker.setAttribute('role', 'dialog');
           picker.setAttribute('aria-modal', 'true');
           picker.setAttribute('aria-label', _s.title);
 
           var modal = document.createElement('div');
-          modal.className = 'ob-modal';
+          modal.className = 'dialog ob-modal';
 
           var inner = document.createElement('div');
           inner.className = 'ob-inner';
 
           var icon = document.createElement('div');
           icon.className = 'ob-hero-icon';
-          icon.textContent = '🌍';
+ icon.textContent = '';
           inner.appendChild(icon);
 
           var title = document.createElement('h2');
@@ -697,16 +705,16 @@
           _pairs.forEach(function (pair) {
             var card = document.createElement('button');
             card.type = 'button';
-            card.className = 'lp-picker-card';
+            card.className = 'choice choice--row lp-picker-card';
             card.setAttribute('aria-label', pair.label);
-            if (pair.source.code === _lang) card.classList.add('lp-picker-card--suggested');
+            if (pair.source.code === _lang) card.classList.add('choice--selected');
 
             if (typeof AppFlags !== 'undefined') {
               card.appendChild(AppFlags.langFlags(pair.source.flags));
               var arrow = document.createElement('span');
               arrow.className = 'lp-picker-card__arrow';
               arrow.setAttribute('aria-hidden', 'true');
-              arrow.textContent = '→';
+              arrow.textContent = '?';
               card.appendChild(arrow);
               card.appendChild(AppFlags.langFlags(pair.target.flags));
             }
@@ -735,6 +743,12 @@
           picker.appendChild(modal);
           document.body.appendChild(picker);
 
+          // Diálogo modal de verdad: la página de detrás queda inerte, así Tab no se
+          // escapa del selector (WCAG 2.4.3). Al elegir par se recarga y se restaura.
+          [].forEach.call(document.body.children, function (el) {
+            if (el !== picker && 'inert' in el) el.inert = true;
+          });
+
           var firstCard = picker.querySelector('.lp-picker-card');
           if (firstCard) setTimeout(function () { firstCard.focus(); }, 50);
         }
@@ -743,22 +757,23 @@
     <!-- These landing scripts are NOT needed by the head inline IIFE at parse time
          (it uses only head globals + guards, and defers its Progress-dependent stat to
          DOMContentLoaded). `defer` lets all 10 download in PARALLEL instead of the parser
-         stopping to fetch each one sequentially — the big win on Slow 4G. They still run
+         stopping to fetch each one sequentially - the big win on Slow 4G. They still run
          in document order before DOMContentLoaded (which reveals the cloak), so the path
          preview, theme and stat are all filled before first paint. -->
-    <script defer src="shared/js/progress.js?v=de28d015"></script>
-    <script defer src="shared/js/topic-data.js?v=36f1f125"></script>
+    <script defer src="shared/js/progress.js?v=651f6d16"></script>
+    <script defer src="shared/js/content.js?v=a9ebe9f2"></script>
+    <script defer src="shared/js/topic-data.js?v=5bf39a02"></script>
     <script defer src="shared/js/topics.js?v=4b06b99c"></script>
-    <script defer src="shared/js/path.js?v=fe97ef55"></script>
-    <script defer src="shared/js/path-session.js?v=678a282f"></script>
-    <script defer src="shared/js/milestones.js?v=cd178b62"></script>
-    <script defer src="shared/js/notifications.js?v=1817e28c"></script>
-    <script defer src="index/js/index.js?v=9eea1989"></script>
-    <script defer src="shared/js/network-status.js?v=b94cd881"></script>
-    <script defer src="shared/js/theme.js?v=362c3938"></script>
+    <script defer src="shared/js/path.js?v=424ff18b"></script>
+    <script defer src="shared/js/path-session.js?v=f54a2937"></script>
+    <script defer src="shared/js/milestones.js?v=f3a74ec2"></script>
+    <script defer src="shared/js/notifications.js?v=e0d3b795"></script>
+    <script defer src="index/js/index.js?v=2618e64f"></script>
+    <script defer src="shared/js/network-status.js?v=bb7c0f56"></script>
+    <script defer src="shared/js/theme.js?v=80cf2218"></script>
     <script>
       if ('serviceWorker' in navigator) {
-        // Automatic updates — mirrors shared/js/sw-register.js (root path here).
+        // Automatic updates - mirrors shared/js/sw-register.js (root path here).
         // Only reload on a real update (a controller already existed), never on
         // first install. updateViaCache:'none' detects a new SW on the next
         // navigation instead of up to 24h later.
@@ -788,7 +803,7 @@
           .catch(() => {});
         // Fire daily reminder if conditions are met (once per day, after configured time).
         // notifications.js is now deferred, so wait for it (DOMContentLoaded runs after
-        // all deferred scripts) before calling in — the guard alone would skip it at parse.
+        // all deferred scripts) before calling in - the guard alone would skip it at parse.
         document.addEventListener('DOMContentLoaded', function () {
           if (window.NotificationSystem) window.NotificationSystem.checkAndNotify();
         });

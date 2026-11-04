@@ -8,13 +8,34 @@
       "difficulty": "easy",
       "definition": "Lugar onde a pessoa lava as mãos e usa o sanitário.",
       "example": "O banheiro fica no fim do corredor.",
-      "translations": { "en": "bathroom" },
-      "gloss": { "en": "The room where you wash and use the toilet." },
-      "gloss_example": { "en": "The bathroom is at the end of the hallway." },
+      "translations": {
+        "en": "bathroom",
+        "es": "baño"
+      },
+      "gloss": {
+        "en": "The room where you wash and use the toilet.",
+        "es": "Cuarto con inodoro y lavabo."
+      },
+      "gloss_example": {
+        "en": "The bathroom is at the end of the hallway."
+      },
       "variants": [
-        { "text": "banheiro",      "labels": { "region": "Brasil" },   "audioSlug": "banheiro" },
-        { "text": "casa de banho", "labels": { "region": "Portugal" }, "audioSlug": "casa_de_banho" }
-      ]
+        {
+          "text": "banheiro",
+          "labels": {
+            "region": "Brasil"
+          },
+          "audioSlug": "banheiro"
+        },
+        {
+          "text": "casa de banho",
+          "labels": {
+            "region": "Portugal"
+          },
+          "audioSlug": "casa_de_banho"
+        }
+      ],
+      "conceptId": "pt.banheiro"
     },
     {
       "id": "cidade",
@@ -24,9 +45,18 @@
       "difficulty": "easy",
       "definition": "Lugar grande onde vivem muitas pessoas.",
       "example": "São Paulo é uma cidade grande.",
-      "translations": { "en": "city" },
-      "gloss": { "en": "A large place where many people live." },
-      "gloss_example": { "en": "São Paulo is a big city." }
+      "translations": {
+        "en": "city",
+        "es": "ciudad"
+      },
+      "gloss": {
+        "en": "A large place where many people live.",
+        "es": "Núcleo urbano grande."
+      },
+      "gloss_example": {
+        "en": "São Paulo is a big city."
+      },
+      "conceptId": "pt.cidade"
     },
     {
       "id": "rua",
@@ -36,9 +66,18 @@
       "difficulty": "easy",
       "definition": "Caminho na cidade com casas dos dois lados.",
       "example": "Esta rua é muito longa.",
-      "translations": { "en": "street" },
-      "gloss": { "en": "A way in the city with houses on both sides." },
-      "gloss_example": { "en": "This street is very long." }
+      "translations": {
+        "en": "street",
+        "es": "calle"
+      },
+      "gloss": {
+        "en": "A way in the city with houses on both sides.",
+        "es": "Vía pública entre edificios."
+      },
+      "gloss_example": {
+        "en": "This street is very long."
+      },
+      "conceptId": "pt.rua"
     },
     {
       "id": "parque",
@@ -48,9 +87,18 @@
       "difficulty": "easy",
       "definition": "Lugar verde na cidade onde as pessoas descansam.",
       "example": "As crianças brincam no parque.",
-      "translations": { "en": "park" },
-      "gloss": { "en": "A green place in the city where people relax." },
-      "gloss_example": { "en": "The children play in the park." }
+      "translations": {
+        "en": "park",
+        "es": "parque"
+      },
+      "gloss": {
+        "en": "A green place in the city where people relax.",
+        "es": "Zona verde pública para pasear."
+      },
+      "gloss_example": {
+        "en": "The children play in the park."
+      },
+      "conceptId": "pt.parque"
     }
   ]
 }

@@ -54,7 +54,6 @@ var AppGrammarChip = (function () {
   var _pair = null, _loaded = false;
 
   function _activePair() { try { return AppLangPair.getActive().id; } catch (e) { return null; } }
-  function _targetCode() { try { return AppLangPair.getActive().target.code; } catch (e) { return 'en'; } }
   function _sourceCode() { try { return AppLangPair.getActive().source.code; } catch (e) { return 'en'; } }
 
   function load() {

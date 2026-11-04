@@ -1667,6 +1667,22 @@
           "influencia"
         ]
       }
+    },
+    {
+      "id": "piloto",
+      "kind": "phrase",
+      "axis": "functional",
+      "scope": "Pilot pair content used to validate a new language before the full course is authored: greetings, survival and courtesy formulas.",
+      "examples": {
+        "en": [
+          "Hello, how are you?",
+          "Thank you for your help."
+        ],
+        "es": [
+          "Hola, ¿cómo estás?",
+          "Gracias por tu ayuda."
+        ]
+      }
     }
   ]
 }

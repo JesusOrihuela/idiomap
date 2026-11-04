@@ -30,10 +30,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   const pair = AppLangPair.getActive();
   const titleEl = document.querySelector('.trans-title');
   if (titleEl) {
-    // The title template carries an intended <span> around the language name, so it
-    // must go through innerHTML — escape the interpolated value as defense-in-depth.
-    const escName = String(pair.target.localName).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-    titleEl.innerHTML = AppLang.t('translation_title', { lang: '<span>' + escName + '</span>' });
+    // Sin dos tonos: el nombre del idioma va en el mismo color que el resto (D3).
+    titleEl.textContent = AppLang.t('translation_title', { lang: pair.target.localName });
   }
   const subEl = document.querySelector('.trans-subtitle');
   if (subEl) {
@@ -43,12 +41,22 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Build lang badge with shared flag module
   const badge = document.getElementById('lang-badge');
   if (badge && typeof AppFlags !== 'undefined') {
+    badge.setAttribute('aria-label', pair.source.localName + ' → ' + pair.target.localName);
+    // Nombres de idioma visibles: las banderas solas no dicen el idioma (DP-08).
+    const nameEl = p => {
+      const s = document.createElement('span');
+      s.className = 'lang-badge__name';
+      s.textContent = p.localName;
+      return s;
+    };
     badge.appendChild(AppFlags.langFlags(pair.source.flags));
+    badge.appendChild(nameEl(pair.source));
     const arrow = document.createElement('span');
     arrow.setAttribute('aria-hidden', 'true');
     arrow.textContent = '→';
     badge.appendChild(arrow);
     badge.appendChild(AppFlags.langFlags(pair.target.flags));
+    badge.appendChild(nameEl(pair.target));
   }
 
   AppData.get('word-equivalents')
@@ -97,7 +105,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     AppUI.addPathBackLink('exercise-area', function () { return _lastCorrect; });
   }
 
-  AppAudio.setBase('../../shared/audio/' + AppLangPair.getActive().id + '/');
+  AppAudio.setBase('../shared/audio/' + AppLangPair.getActive().id + '/');
   AppAudio.warmup();
 });
 
@@ -149,7 +157,7 @@ function startTopic(topicId, pathMode, pathCard) {
         const _picker = document.getElementById('topic-picker');
         if (_picker) {
           const _msg = document.createElement('p');
-          _msg.style.cssText = 'color:var(--clr-danger);font-size:0.9rem;margin:0 0 12px;text-align:center;';
+          _msg.style.cssText = 'color:var(--color-danger);font-size:0.9rem;margin:0 0 12px;text-align:center;';
           _msg.textContent = AppLang.t('no_translations');
           _picker.prepend(_msg);
           setTimeout(() => _msg.remove(), 4000);
@@ -211,7 +219,7 @@ function showPhrase(index) {
   // Per-form source: when the picked form carries its own source (referent-determined variant,
   // e.g. "The girl is smart."), the prompt shows THAT specific form so it is unambiguous; the
   // checker (below) then accepts only forms sharing that source. Otherwise the phrase-level source.
-  document.getElementById('spanish-phrase').textContent = _currentPickedSource || translations[index] || '—';
+  document.getElementById('spanish-phrase').textContent = _currentPickedSource || translations[index] || '…';
   document.getElementById('trans-input').value           = '';
   document.getElementById('trans-input').disabled        = false;
   document.getElementById('check-btn').disabled          = false;
@@ -316,7 +324,7 @@ function checkAnswer() {
 
   if (chosen && chosen.ruleId && chipWrap) {
     document.getElementById('grammar-chip-label').textContent = chosen.label;
-    document.getElementById('grammar-chip').href = '../../grammar/html/grammar.html?rule=' + chosen.ruleId;
+    document.getElementById('grammar-chip').href = '../grammar/?rule=' + chosen.ruleId;
     chipWrap.classList.remove('hidden');
   } else if (chipWrap) {
     chipWrap.classList.add('hidden');
@@ -372,7 +380,7 @@ function rateAndNext(quality) {
   if (_pathModeActive && typeof PathSession !== 'undefined') {
     const nextHref = PathSession.advance();
     if (nextHref) {
-      window.location.href = '../../' + nextHref;
+      window.location.href = '../' + nextHref;
     } else {
       _showPathSessionComplete();
     }

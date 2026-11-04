@@ -1,0 +1,30 @@
+{
+  "id": "en-no",
+  "source": {
+    "code": "en",
+    "flags": [
+      "us",
+      "gb"
+    ],
+    "name": "English",
+    "localName": "English"
+  },
+  "target": {
+    "code": "no",
+    "flags": [
+      "no"
+    ],
+    "name": "Norsk",
+    "localName": "Norwegian"
+  },
+  "sourceLocale": "en-US",
+  "targetLocale": "nb-NO",
+  "label": "English → Norsk",
+  "ttsVoices": [
+    "nof_pernille",
+    "nom_finn"
+  ],
+  "sttLanguage": "norwegian",
+  "status": "stress",
+  "stressTest": true
+}

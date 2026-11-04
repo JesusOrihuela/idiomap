@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "tag": "pl",
+  "concepts": [
+    {
+      "conceptId": "pl.personal_info_i_am_a_student",
+      "id": "personal_info_i_am_a_student",
+      "target": [
+        {
+          "text": "Jestem studentem.",
+          "source": "Ich bin Student.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "jestem_studentem"
+        },
+        {
+          "text": "Jestem studentką.",
+          "source": "Ich bin Studentin.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "jestem_studentka"
+        }
+      ],
+      "pairs": [
+        "de-pl"
+      ],
+      "sources": [
+        "de"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pl.personal_info_i_am_from_germany",
+      "id": "personal_info_i_am_from_germany",
+      "target": [
+        {
+          "text": "Pochodzę z Niemiec.",
+          "audioSlug": "pochodze_z_niemiec"
+        }
+      ],
+      "pairs": [
+        "de-pl"
+      ],
+      "sources": [
+        "de"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pl.personal_info_my_name_is",
+      "id": "personal_info_my_name_is",
+      "target": [
+        {
+          "text": "Nazywam się Anna.",
+          "audioSlug": "nazywam_sie_anna"
+        }
+      ],
+      "pairs": [
+        "de-pl"
+      ],
+      "sources": [
+        "de"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pl.survival_can_you_help_me",
+      "id": "survival_can_you_help_me",
+      "target": [
+        {
+          "text": "Czy możesz mi pomóc?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "czy_mozesz_mi_pomoc"
+        },
+        {
+          "text": "Czy może pan mi pomóc?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "czy_moze_pan_mi_pomoc"
+        }
+      ],
+      "pairs": [
+        "de-pl"
+      ],
+      "sources": [
+        "de"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pl.survival_do_you_speak_english",
+      "id": "survival_do_you_speak_english",
+      "target": [
+        {
+          "text": "Przepraszam, czy mówisz po angielsku?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "przepraszam_czy_mowisz_po_angielsku"
+        },
+        {
+          "text": "Przepraszam, czy mówi pan po angielsku?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "przepraszam_czy_mowi_pan_po_angielsku"
+        }
+      ],
+      "pairs": [
+        "de-pl"
+      ],
+      "sources": [
+        "de"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pl.survival_i_do_not_understand",
+      "id": "survival_i_do_not_understand",
+      "target": [
+        {
+          "text": "Nie rozumiem.",
+          "audioSlug": "nie_rozumiem"
+        }
+      ],
+      "pairs": [
+        "de-pl"
+      ],
+      "sources": [
+        "de"
+      ],
+      "status": "pair-only"
+    }
+  ]
+}

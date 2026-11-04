@@ -16,7 +16,8 @@
       },
       "gloss_example": {
         "es": "Nos alojamos en un hotel cerca de la playa durante las vacaciones."
-      }
+      },
+      "conceptId": "en.hotel"
     },
     {
       "id": "room",
@@ -34,7 +35,8 @@
       },
       "gloss_example": {
         "es": "Nuestra habitación de hotel tenía vista al mar."
-      }
+      },
+      "conceptId": "en.room"
     },
     {
       "id": "reservation",
@@ -52,7 +54,8 @@
       },
       "gloss_example": {
         "es": "Hice una reserva para dos noches en un hotel cerca del aeropuerto."
-      }
+      },
+      "conceptId": "en.reservation"
     },
     {
       "id": "hostel",
@@ -70,7 +73,8 @@
       },
       "gloss_example": {
         "es": "Se hospedó en un hostal para ahorrar dinero durante su viaje de mochilero."
-      }
+      },
+      "conceptId": "en.hostel"
     },
     {
       "id": "key",
@@ -88,7 +92,8 @@
       },
       "gloss_example": {
         "es": "Dejé la llave de mi habitación en recepción antes de ir a la piscina."
-      }
+      },
+      "conceptId": "en.key"
     },
     {
       "id": "checkout",
@@ -106,7 +111,8 @@
       },
       "gloss_example": {
         "es": "La salida es a mediodía. Por favor, devuelve la llave en recepción antes de esa hora."
-      }
+      },
+      "conceptId": "en.checkout"
     },
     {
       "id": "reception",
@@ -124,7 +130,8 @@
       },
       "gloss_example": {
         "es": "Ve a recepción si necesitas toallas adicionales o que te despierten."
-      }
+      },
+      "conceptId": "en.reception"
     },
     {
       "id": "balcony",
@@ -142,7 +149,8 @@
       },
       "gloss_example": {
         "es": "Nuestra habitación tenía un balcón con una hermosa vista al mar."
-      }
+      },
+      "conceptId": "en.balcony"
     },
     {
       "id": "parking",
@@ -160,7 +168,8 @@
       },
       "gloss_example": {
         "es": "¿El hotel ofrece estacionamiento gratuito o tiene un costo adicional?"
-      }
+      },
+      "conceptId": "en.parking"
     },
     {
       "id": "towel",
@@ -178,7 +187,8 @@
       },
       "gloss_example": {
         "es": "Llamamos a recepción para pedir toallas adicionales para la habitación."
-      }
+      },
+      "conceptId": "en.towel"
     },
     {
       "id": "accommodation",
@@ -196,7 +206,8 @@
       },
       "gloss_example": {
         "es": "Reservamos alojamiento cerca del centro de la ciudad durante tres noches."
-      }
+      },
+      "conceptId": "en.accommodation"
     },
     {
       "id": "amenities",
@@ -214,7 +225,8 @@
       },
       "gloss_example": {
         "es": "Las instalaciones del hotel incluyen una piscina en la azotea y un spa completo."
-      }
+      },
+      "conceptId": "en.amenities"
     },
     {
       "id": "complimentary",
@@ -232,7 +244,8 @@
       },
       "gloss_example": {
         "es": "El hotel ofrecía desayuno gratuito a todos los huéspedes los fines de semana."
-      }
+      },
+      "conceptId": "en.complimentary"
     },
     {
       "id": "suite",
@@ -250,7 +263,8 @@
       },
       "gloss_example": {
         "es": "Nos mejoraron a una suite en el último piso con una vista espectacular."
-      }
+      },
+      "conceptId": "en.suite"
     },
     {
       "id": "housekeeping",
@@ -268,7 +282,8 @@
       },
       "gloss_example": {
         "es": "Llama al servicio de limpieza si necesitas toallas limpias o que arreglen tu habitación."
-      }
+      },
+      "conceptId": "en.housekeeping"
     },
     {
       "id": "tariff",
@@ -286,7 +301,8 @@
       },
       "gloss_example": {
         "es": "La tarifa del hotel varía según la temporada, con precios más altos en verano."
-      }
+      },
+      "conceptId": "en.tariff"
     },
     {
       "id": "concierge",
@@ -304,7 +320,8 @@
       },
       "gloss_example": {
         "es": "El conserje nos organizó las reservas en restaurantes y las entradas al museo."
-      }
+      },
+      "conceptId": "en.concierge"
     },
     {
       "id": "occupancy",
@@ -322,7 +339,8 @@
       },
       "gloss_example": {
         "es": "El hotel alcanzó la ocupación total durante el congreso internacional."
-      }
+      },
+      "conceptId": "en.occupancy"
     },
     {
       "id": "refund",
@@ -340,7 +358,8 @@
       },
       "gloss_example": {
         "es": "Solicitó un reembolso completo después de que el hotel no pudo darle la habitación reservada."
-      }
+      },
+      "conceptId": "en.refund"
     },
     {
       "id": "invoice",
@@ -358,7 +377,8 @@
       },
       "gloss_example": {
         "es": "Por favor, facilita una factura detallada. La necesito para la contabilidad de mi empresa."
-      }
+      },
+      "conceptId": "en.invoice"
     },
     {
       "id": "complaint",
@@ -376,7 +396,8 @@
       },
       "gloss_example": {
         "es": "Presentó una queja formal por el ruido y recibió un descuento en su factura."
-      }
+      },
+      "conceptId": "en.complaint"
     },
     {
       "id": "waiver",
@@ -394,7 +415,8 @@
       },
       "gloss_example": {
         "es": "Los huéspedes que firman la exención reconocen que el hotel no se hace responsable de las lesiones en el gimnasio."
-      }
+      },
+      "conceptId": "en.waiver"
     },
     {
       "id": "corporate_rate",
@@ -412,7 +434,8 @@
       },
       "gloss_example": {
         "es": "Nuestra empresa tiene una tarifa corporativa con la cadena hotelera que nos ahorra un 20 % por noche."
-      }
+      },
+      "conceptId": "en.corporate_rate"
     },
     {
       "id": "misrepresentation",
@@ -430,7 +453,8 @@
       },
       "gloss_example": {
         "es": "Argumentó que el anuncio constituía una representación falsa y exigió un reembolso completo."
-      }
+      },
+      "conceptId": "en.misrepresentation"
     },
     {
       "id": "arbitration",
@@ -448,7 +472,8 @@
       },
       "gloss_example": {
         "es": "Los términos del servicio del hotel exigen que las disputas se resuelvan mediante arbitraje."
-      }
+      },
+      "conceptId": "en.arbitration"
     },
     {
       "id": "discretion",
@@ -466,7 +491,8 @@
       },
       "gloss_example": {
         "es": "Los cargos por daños se evalúan a discreción exclusiva del hotel, sin un baremo fijo."
-      }
+      },
+      "conceptId": "en.discretion"
     },
     {
       "id": "remittance",
@@ -484,7 +510,8 @@
       },
       "gloss_example": {
         "es": "Por favor, tramita la remesa en un plazo de catorce días a partir de la recepción de la factura."
-      }
+      },
+      "conceptId": "en.remittance"
     },
     {
       "id": "bed",
@@ -502,7 +529,8 @@
       },
       "gloss_example": {
         "es": "La cama del hotel era muy cómoda."
-      }
+      },
+      "conceptId": "en.bed"
     },
     {
       "id": "building",
@@ -520,7 +548,8 @@
       },
       "gloss_example": {
         "es": "Viven en un edificio alto en el centro."
-      }
+      },
+      "conceptId": "en.building"
     },
     {
       "id": "garden",
@@ -538,7 +567,8 @@
       },
       "gloss_example": {
         "es": "Cultivan verduras en el jardín."
-      }
+      },
+      "conceptId": "en.garden"
     },
     {
       "id": "wall",
@@ -556,7 +586,8 @@
       },
       "gloss_example": {
         "es": "Colgó un cuadro en la pared."
-      }
+      },
+      "conceptId": "en.wall"
     }
   ]
 }

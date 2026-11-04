@@ -18,7 +18,8 @@
       },
       "gloss_example": {
         "en": "The word sun has three letters."
-      }
+      },
+      "conceptId": "es.letter"
     },
     {
       "id": "term",
@@ -38,7 +39,8 @@
       },
       "gloss_example": {
         "en": "Explain the term in simple words."
-      }
+      },
+      "conceptId": "es.term"
     },
     {
       "id": "lengua",
@@ -58,7 +60,8 @@
       },
       "gloss_example": {
         "en": "Spanish is a widely spoken language."
-      }
+      },
+      "conceptId": "es.lengua"
     },
     {
       "id": "frase",
@@ -78,7 +81,8 @@
       },
       "gloss_example": {
         "en": "Write a sentence with this word."
-      }
+      },
+      "conceptId": "es.frase"
     },
     {
       "id": "texto",
@@ -98,7 +102,8 @@
       },
       "gloss_example": {
         "en": "Read the text carefully."
-      }
+      },
+      "conceptId": "es.texto"
     },
     {
       "id": "expresion",
@@ -118,7 +123,8 @@
       },
       "gloss_example": {
         "en": "I learned a new expression."
-      }
+      },
+      "conceptId": "es.expresion"
     },
     {
       "id": "capitulo",
@@ -138,7 +144,8 @@
       },
       "gloss_example": {
         "en": "I watched the last episode last night."
-      }
+      },
+      "conceptId": "es.capitulo"
     },
     {
       "id": "pagina",
@@ -158,7 +165,8 @@
       },
       "gloss_example": {
         "en": "Open the book to page ten."
-      }
+      },
+      "conceptId": "es.pagina"
     },
     {
       "id": "word",
@@ -178,7 +186,8 @@
       },
       "gloss_example": {
         "en": "I don't know this word."
-      }
+      },
+      "conceptId": "es.word"
     },
     {
       "id": "question",
@@ -198,7 +207,8 @@
       },
       "gloss_example": {
         "en": "May I ask a question?"
-      }
+      },
+      "conceptId": "es.question"
     },
     {
       "id": "voice",
@@ -218,7 +228,8 @@
       },
       "gloss_example": {
         "en": "She has a beautiful singing voice."
-      }
+      },
+      "conceptId": "es.voice"
     },
     {
       "id": "silence",
@@ -238,7 +249,8 @@
       },
       "gloss_example": {
         "en": "The library was in total silence."
-      }
+      },
+      "conceptId": "es.silence"
     },
     {
       "id": "espanol",
@@ -258,7 +270,8 @@
       },
       "gloss_example": {
         "en": "I speak Spanish."
-      }
+      },
+      "conceptId": "es.espanol"
     },
     {
       "id": "respuesta",
@@ -278,7 +291,8 @@
       },
       "gloss_example": {
         "en": "I am still waiting for your answer."
-      }
+      },
+      "conceptId": "es.respuesta"
     },
     {
       "id": "idioma",
@@ -298,7 +312,8 @@
       },
       "gloss_example": {
         "en": "She is learning a new language."
-      }
+      },
+      "conceptId": "es.idioma"
     },
     {
       "id": "conversacion",
@@ -318,7 +333,8 @@
       },
       "gloss_example": {
         "en": "We had a long conversation."
-      }
+      },
+      "conceptId": "es.conversacion"
     },
     {
       "id": "mensaje",
@@ -338,7 +354,8 @@
       },
       "gloss_example": {
         "en": "I left you a message."
-      }
+      },
+      "conceptId": "es.mensaje"
     },
     {
       "id": "sentence_prayer",
@@ -374,7 +391,8 @@
           },
           "audioSlug": "frase"
         }
-      ]
+      ],
+      "conceptId": "es.sentence_prayer"
     }
   ]
 }

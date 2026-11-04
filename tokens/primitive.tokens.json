@@ -1,0 +1,2045 @@
+{
+  "color": {
+    "primitive": {
+      "blue-100": {
+        "$type": "color",
+        "$value": "#DBEAFE",
+        "$description": "Azul de acción (Tailwind blue-600, valor actual de --color-action)",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--blue-100"
+          }
+        }
+      },
+      "blue-300": {
+        "$type": "color",
+        "$value": "#93C5FD",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--blue-300"
+          }
+        }
+      },
+      "blue-500": {
+        "$type": "color",
+        "$value": "#3B82F6",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--blue-500"
+          }
+        }
+      },
+      "blue-600": {
+        "$type": "color",
+        "$value": "#2563EB",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--blue-600"
+          }
+        }
+      },
+      "blue-700": {
+        "$type": "color",
+        "$value": "#1D4ED8",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--blue-700"
+          }
+        }
+      },
+      "blue-900": {
+        "$type": "color",
+        "$value": "#1E3A8A",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--blue-900"
+          }
+        }
+      },
+      "amber-050": {
+        "$type": "color",
+        "$value": "#FFFBEB",
+        "$description": "Ámbar de acento (Tailwind amber-500, valor actual de --color-accent)",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--amber-050"
+          }
+        }
+      },
+      "amber-100": {
+        "$type": "color",
+        "$value": "#FEF3C7",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--amber-100"
+          }
+        }
+      },
+      "amber-500": {
+        "$type": "color",
+        "$value": "#F59E0B",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--amber-500"
+          }
+        }
+      },
+      "amber-600": {
+        "$type": "color",
+        "$value": "#D97706",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--amber-600"
+          }
+        }
+      },
+      "amber-700": {
+        "$type": "color",
+        "$value": "#B45309",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--amber-700"
+          }
+        }
+      },
+      "amber-800": {
+        "$type": "color",
+        "$value": "#92400E",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--amber-800"
+          }
+        }
+      },
+      "gold-050": {
+        "$type": "color",
+        "$value": "#FDF3DC",
+        "$description": "Oro del camino de aprendizaje (--color-category-path).",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--gold-050"
+          }
+        }
+      },
+      "gold-600": {
+        "$type": "color",
+        "$value": "#8A6107",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--gold-600"
+          }
+        }
+      },
+      "gold-700": {
+        "$type": "color",
+        "$value": "#6E4D06",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--gold-700"
+          }
+        }
+      },
+      "violet-100": {
+        "$type": "color",
+        "$value": "#EDE9FE",
+        "$description": "Violeta de categoría Gramática (--color-category-grammar)",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--violet-100"
+          }
+        }
+      },
+      "violet-600": {
+        "$type": "color",
+        "$value": "#7C3AED",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--violet-600"
+          }
+        }
+      },
+      "cat-green-100": {
+        "$type": "color",
+        "$value": "#DCFCE7",
+        "$description": "Paleta de categorias CEFR (un par fondo/texto por nivel).",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--cat-green-100"
+          }
+        }
+      },
+      "cat-cyan-100": {
+        "$type": "color",
+        "$value": "#CFFAFE",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--cat-cyan-100"
+          }
+        }
+      },
+      "cyan-700": {
+        "$type": "color",
+        "$value": "#0E7490",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--cyan-700"
+          }
+        }
+      },
+      "cat-rose-100": {
+        "$type": "color",
+        "$value": "#FFE4E6",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--cat-rose-100"
+          }
+        }
+      },
+      "cat-rose-700": {
+        "$type": "color",
+        "$value": "#BE123C",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--cat-rose-700"
+          }
+        }
+      },
+      "pink-500": {
+        "$type": "color",
+        "$value": "#EC4899",
+        "$description": "Identidad de cada actividad (--activity-clr en el <style> de su pagina).",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--pink-500"
+          }
+        }
+      },
+      "indigo-500": {
+        "$type": "color",
+        "$value": "#6366F1",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--indigo-500"
+          }
+        }
+      },
+      "emerald-500": {
+        "$type": "color",
+        "$value": "#10B981",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--emerald-500"
+          }
+        }
+      },
+      "sky-500": {
+        "$type": "color",
+        "$value": "#0EA5E9",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--sky-500"
+          }
+        }
+      },
+      "cyan-100": {
+        "$type": "color",
+        "$value": "#CFFAFE",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--cyan-100"
+          }
+        }
+      },
+      "rose-100": {
+        "$type": "color",
+        "$value": "#FFE4E6",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--rose-100"
+          }
+        }
+      },
+      "green-100": {
+        "$type": "color",
+        "$value": "#D1FAE5",
+        "$description": "Verde semántico",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--green-100"
+          }
+        }
+      },
+      "green-600": {
+        "$type": "color",
+        "$value": "#059669",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--green-600"
+          }
+        }
+      },
+      "green-700": {
+        "$type": "color",
+        "$value": "#16A34A",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--green-700"
+          }
+        }
+      },
+      "green-800": {
+        "$type": "color",
+        "$value": "#166534",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--green-800"
+          }
+        }
+      },
+      "red-100": {
+        "$type": "color",
+        "$value": "#FEE2E2",
+        "$description": "Rojo semántico",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--red-100"
+          }
+        }
+      },
+      "red-600": {
+        "$type": "color",
+        "$value": "#DC2626",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--red-600"
+          }
+        }
+      },
+      "red-800": {
+        "$type": "color",
+        "$value": "#991B1B",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--red-800"
+          }
+        }
+      },
+      "white": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--white"
+          }
+        }
+      },
+      "gray-050": {
+        "$type": "color",
+        "$value": "#FAFBFC",
+        "$description": "Neutros. Una sola rampa; el contenido lleva el color, no los fondos.",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--gray-050"
+          }
+        }
+      },
+      "gray-100": {
+        "$type": "color",
+        "$value": "#F3F5F7",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--gray-100"
+          }
+        }
+      },
+      "gray-150": {
+        "$type": "color",
+        "$value": "#F1F3F5",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--gray-150"
+          }
+        }
+      },
+      "gray-200": {
+        "$type": "color",
+        "$value": "#DEE2E8",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--gray-200"
+          }
+        }
+      },
+      "gray-300": {
+        "$type": "color",
+        "$value": "#C8CDD6",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--gray-300"
+          }
+        }
+      },
+      "gray-500": {
+        "$type": "color",
+        "$value": "#8595A4",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--gray-500"
+          }
+        }
+      },
+      "gray-600": {
+        "$type": "color",
+        "$value": "#5E6B7A",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--gray-600"
+          }
+        }
+      },
+      "gray-900": {
+        "$type": "color",
+        "$value": "#1A1D23",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--gray-900"
+          }
+        }
+      }
+    }
+  },
+  "font": {
+    "base": {
+      "$type": "fontFamily",
+      "$value": "'Raleway', system-ui, -apple-system, sans-serif",
+      "$description": "Capa 3 · Tipografía",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--font-family-base"
+        }
+      }
+    },
+    "mono": {
+      "$type": "fontFamily",
+      "$value": "ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, monospace",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--font-family-mono"
+        }
+      }
+    }
+  },
+  "text": {
+    "display-lg": {
+      "$type": "cssValue",
+      "$value": "clamp(2.1rem, 4.5vw, 3.5rem)",
+      "$description": "display-lg · hero del landing (33.6px movil - 56px escritorio)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-display-lg"
+        }
+      }
+    },
+    "display-lg-leading": {
+      "$type": "number",
+      "$value": 1.1,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-display-lg-leading"
+        }
+      }
+    },
+    "display-lg-tracking": {
+      "$type": "dimension",
+      "$value": {
+        "value": -0.02,
+        "unit": "em"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-display-lg-tracking"
+        }
+      }
+    },
+    "display-md": {
+      "$type": "cssValue",
+      "$value": "clamp(1.7rem, 3.5vw, 2.4rem)",
+      "$description": "display-md · H1 de pagina (27.2px movil - 38.4px escritorio)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-display-md"
+        }
+      }
+    },
+    "display-md-weight": {
+      "$type": "fontWeight",
+      "$value": "{weight.semibold}",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-display-md-weight"
+        }
+      }
+    },
+    "display-md-leading": {
+      "$type": "number",
+      "$value": 1.15,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-display-md-leading"
+        }
+      }
+    },
+    "display-md-tracking": {
+      "$type": "dimension",
+      "$value": {
+        "value": -0.01,
+        "unit": "em"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-display-md-tracking"
+        }
+      }
+    },
+    "headline": {
+      "$type": "cssValue",
+      "$value": "clamp(1.4rem, 3vw, 1.9rem)",
+      "$description": "headline · H2 de seccion (22.4px movil - 30.4px escritorio)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-headline"
+        }
+      }
+    },
+    "headline-weight": {
+      "$type": "fontWeight",
+      "$value": "{weight.medium}",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-headline-weight"
+        }
+      }
+    },
+    "headline-leading": {
+      "$type": "number",
+      "$value": 1.25,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-headline-leading"
+        }
+      }
+    },
+    "headline-tracking": {
+      "$type": "number",
+      "$value": 0,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-headline-tracking"
+        }
+      }
+    },
+    "title": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1.25,
+        "unit": "rem"
+      },
+      "$description": "title · H3 / titulo de card",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-title"
+        }
+      }
+    },
+    "title-leading": {
+      "$type": "number",
+      "$value": 1.3,
+      "$description": "20px",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-title-leading"
+        }
+      }
+    },
+    "body-lg": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1,
+        "unit": "rem"
+      },
+      "$description": "body-lg · cuerpo de texto corrido. USWDS: minimo 16px para lectura.",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-body-lg"
+        }
+      }
+    },
+    "body-lg-weight": {
+      "$type": "fontWeight",
+      "$value": "{weight.regular}",
+      "$description": "16px",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-body-lg-weight"
+        }
+      }
+    },
+    "body-lg-leading": {
+      "$type": "number",
+      "$value": 1.6,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-body-lg-leading"
+        }
+      }
+    },
+    "body-lg-tracking": {
+      "$type": "number",
+      "$value": 0,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-body-lg-tracking"
+        }
+      }
+    },
+    "body": {
+      "$type": "dimension",
+      "$value": {
+        "value": 0.875,
+        "unit": "rem"
+      },
+      "$description": "body · texto secundario, descripcion de card",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-body"
+        }
+      }
+    },
+    "body-leading": {
+      "$type": "number",
+      "$value": 1.55,
+      "$description": "14px",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-body-leading"
+        }
+      }
+    },
+    "label": {
+      "$type": "dimension",
+      "$value": {
+        "value": 0.75,
+        "unit": "rem"
+      },
+      "$description": "label · labels y botones. Sentence case, nunca uppercase.",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-label"
+        }
+      }
+    },
+    "label-weight": {
+      "$type": "fontWeight",
+      "$value": "{weight.medium}",
+      "$description": "12px",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-label-weight"
+        }
+      }
+    },
+    "label-leading": {
+      "$type": "number",
+      "$value": 1.4,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-label-leading"
+        }
+      }
+    },
+    "label-tracking": {
+      "$type": "dimension",
+      "$value": {
+        "value": 0.02,
+        "unit": "em"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-label-tracking"
+        }
+      }
+    },
+    "caption": {
+      "$type": "dimension",
+      "$value": {
+        "value": 0.75,
+        "unit": "rem"
+      },
+      "$description": "caption · metadatos y contadores",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-caption"
+        }
+      }
+    },
+    "numeric": {
+      "$type": "cssValue",
+      "$value": "clamp(1.5rem, 4vw, 2rem)",
+      "$description": "numeric · cifras. Siempre con tabular-nums.",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-numeric"
+        }
+      }
+    },
+    "numeric-leading": {
+      "$type": "number",
+      "$value": 1,
+      "$description": "Rol overline: etiquetas en mayusculas con tracking amplio",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--text-numeric-leading"
+        }
+      }
+    }
+  },
+  "icon": {
+    "sm": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$description": "Iconos",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--icon-sm"
+        }
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": {
+        "value": 18,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--icon-md"
+        }
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--icon-lg"
+        }
+      }
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--icon-xl"
+        }
+      }
+    },
+    "display": {
+      "$type": "dimension",
+      "$value": {
+        "value": 44.8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--icon-display"
+        }
+      }
+    },
+    "2xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 10,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--icon-2xs"
+        }
+      }
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 11,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--icon-xs"
+        }
+      }
+    }
+  },
+  "measure": {
+    "base": {
+      "$type": "dimension",
+      "$value": {
+        "value": 66,
+        "unit": "ch"
+      },
+      "$description": "Medida de linea. USWDS: 45-90 caracteres, objetivo 66.",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--measure"
+        }
+      }
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 320,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--measure-xs"
+        }
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": {
+        "value": 340,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--measure-sm"
+        }
+      }
+    },
+    "sm2": {
+      "$type": "dimension",
+      "$value": {
+        "value": 360,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--measure-sm2"
+        }
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": {
+        "value": 380,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--measure-md"
+        }
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": {
+        "value": 400,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--measure-lg"
+        }
+      }
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 560,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--measure-xl"
+        }
+      }
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 640,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--measure-2xl"
+        }
+      }
+    }
+  },
+  "space": {
+    "1": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$description": "Espaciado · base 4pt",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-1"
+        }
+      }
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-2"
+        }
+      }
+    },
+    "3": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-3"
+        }
+      }
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-4"
+        }
+      }
+    },
+    "5": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-5"
+        }
+      }
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-6"
+        }
+      }
+    },
+    "7": {
+      "$type": "dimension",
+      "$value": {
+        "value": 28,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-7"
+        }
+      }
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-8"
+        }
+      }
+    },
+    "9": {
+      "$type": "dimension",
+      "$value": {
+        "value": 36,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-9"
+        }
+      }
+    },
+    "10": {
+      "$type": "dimension",
+      "$value": {
+        "value": 40,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-10"
+        }
+      }
+    },
+    "11": {
+      "$type": "dimension",
+      "$value": {
+        "value": 44,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-11"
+        }
+      }
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-12"
+        }
+      }
+    },
+    "14": {
+      "$type": "dimension",
+      "$value": {
+        "value": 56,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-14"
+        }
+      }
+    },
+    "15": {
+      "$type": "dimension",
+      "$value": {
+        "value": 60,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-15"
+        }
+      }
+    },
+    "16": {
+      "$type": "dimension",
+      "$value": {
+        "value": 64,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-16"
+        }
+      }
+    },
+    "20": {
+      "$type": "dimension",
+      "$value": {
+        "value": 80,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-20"
+        }
+      }
+    },
+    "24": {
+      "$type": "dimension",
+      "$value": {
+        "value": 96,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-24"
+        }
+      }
+    },
+    "1-5": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--space-1-5"
+        }
+      }
+    }
+  },
+  "radius": {
+    "2xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 3,
+        "unit": "px"
+      },
+      "$description": "Radios por rol. Escala: 4 · 8 · 10 · 12 · 16 · 24 · pill.",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--radius-2xs"
+        }
+      }
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$description": "marca de dato: bandera, celda de heatmap, conector",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--radius-xs"
+        }
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--radius-sm"
+        }
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": {
+        "value": 10,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--radius-md"
+        }
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$description": "control",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--radius-lg"
+        }
+      }
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$description": "fila",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--radius-xl"
+        }
+      }
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$description": "tarjeta",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--radius-2xl"
+        }
+      }
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      },
+      "$description": "panel",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--radius-full"
+        }
+      }
+    }
+  },
+  "size": {
+    "215": {
+      "$type": "dimension",
+      "$value": {
+        "value": 215,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--size-215"
+        }
+      }
+    },
+    "chip-h": {
+      "$type": "dimension",
+      "$value": {
+        "value": 52,
+        "unit": "px"
+      },
+      "$description": "Geometria de componente (tamanos que no son espaciado)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--size-chip-h"
+        }
+      }
+    },
+    "label-w": {
+      "$type": "dimension",
+      "$value": {
+        "value": 130,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--size-label-w"
+        }
+      }
+    },
+    "badge": {
+      "$type": "dimension",
+      "$value": {
+        "value": 22,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--size-badge"
+        }
+      }
+    },
+    "dot": {
+      "$type": "dimension",
+      "$value": {
+        "value": 26,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--size-dot"
+        }
+      }
+    },
+    "chip-w": {
+      "$type": "dimension",
+      "$value": {
+        "value": 168,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--size-chip-w"
+        }
+      }
+    }
+  },
+  "offset": {
+    "3xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 9,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--offset-3xs"
+        }
+      }
+    },
+    "4xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 10,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--offset-4xs"
+        }
+      }
+    },
+    "5xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 13,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--offset-5xs"
+        }
+      }
+    },
+    "2xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 5,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--offset-2xs"
+        }
+      }
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 7,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--offset-xs"
+        }
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": {
+        "value": 14,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--offset-sm"
+        }
+      }
+    }
+  },
+  "layout": {
+    "dialog-w": {
+      "$type": "dimension",
+      "$value": {
+        "value": 460,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--dialog-w"
+        }
+      }
+    },
+    "panel-w": {
+      "$type": "dimension",
+      "$value": {
+        "value": 340,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--panel-w"
+        }
+      }
+    },
+    "progress-h": {
+      "$type": "dimension",
+      "$value": {
+        "value": 5,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--progress-h"
+        }
+      }
+    },
+    "control-h": {
+      "$type": "dimension",
+      "$value": {
+        "value": 44,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--control-h"
+        }
+      }
+    },
+    "block": {
+      "$type": "cssValue",
+      "$value": "var(--space-8) var(--space-16)",
+      "$description": "Ritmo de pagina y medidas de layout (uniformes en todas las pantallas)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--page-pad-block"
+        }
+      }
+    },
+    "block-mobile": {
+      "$type": "cssValue",
+      "$value": "var(--space-5) var(--space-12)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--page-pad-block-mobile"
+        }
+      }
+    },
+    "gap": {
+      "$value": "{space.9}",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--section-gap"
+        }
+      }
+    },
+    "panel-min-h": {
+      "$type": "dimension",
+      "$value": {
+        "value": 280,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--panel-min-h"
+        }
+      }
+    },
+    "matrix-max-h": {
+      "$type": "dimension",
+      "$value": {
+        "value": 720,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--matrix-max-h"
+        }
+      }
+    },
+    "card-min": {
+      "$type": "dimension",
+      "$value": {
+        "value": 220,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--card-min"
+        }
+      }
+    },
+    "glow-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 440,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--glow-size"
+        }
+      }
+    },
+    "scrollbar-w": {
+      "$type": "dimension",
+      "$value": {
+        "value": 7,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--scrollbar-w"
+        }
+      }
+    },
+    "flip-perspective": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1000,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--flip-perspective"
+        }
+      }
+    },
+    "header-h": {
+      "$type": "dimension",
+      "$value": {
+        "value": 76,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--header-h"
+        }
+      }
+    },
+    "max-w": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1200,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--max-w",
+          "media": [
+            {
+              "query": "(min-width: 1920px)",
+              "value": "1440px"
+            },
+            {
+              "query": "(min-width: 2560px)",
+              "value": "1600px"
+            }
+          ]
+        }
+      }
+    },
+    "max": {
+      "$value": "{layout.max-w}",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--content-max"
+        }
+      }
+    },
+    "narrow": {
+      "$type": "dimension",
+      "$value": {
+        "value": 720,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--content-narrow"
+        }
+      }
+    },
+    "x": {
+      "$type": "cssValue",
+      "$value": "clamp(16px, 5vw, 24px)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--page-pad-x"
+        }
+      }
+    }
+  },
+  "grid": {
+    "xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 140,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--grid-min-xs"
+        }
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": {
+        "value": 160,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--grid-min-lg"
+        }
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": {
+        "value": 150,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--grid-min-sm"
+        }
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": {
+        "value": 220,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--grid-min-md"
+        }
+      }
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": {
+        "value": 320,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--grid-min-xl"
+        }
+      }
+    }
+  },
+  "duration": {
+    "fast": {
+      "$type": "duration",
+      "$value": {
+        "value": 150,
+        "unit": "ms"
+      },
+      "$description": "Movimiento",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--duration-fast"
+        }
+      }
+    },
+    "base": {
+      "$type": "duration",
+      "$value": {
+        "value": 200,
+        "unit": "ms"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--duration-base"
+        }
+      }
+    },
+    "slow": {
+      "$type": "duration",
+      "$value": {
+        "value": 300,
+        "unit": "ms"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--duration-slow"
+        }
+      }
+    },
+    "instant": {
+      "$type": "duration",
+      "$value": {
+        "value": 100,
+        "unit": "ms"
+      },
+      "$description": "Micro-transición de estado (barridos de color).",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--duration-instant"
+        }
+      }
+    },
+    "enter": {
+      "$type": "duration",
+      "$value": {
+        "value": 250,
+        "unit": "ms"
+      },
+      "$description": "Entrada de bloque o overlay corto.",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--duration-enter"
+        }
+      }
+    },
+    "xslow": {
+      "$type": "duration",
+      "$value": {
+        "value": 400,
+        "unit": "ms"
+      },
+      "$description": "Transformaciones largas: barras de progreso, imagen del hero.",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--duration-xslow"
+        }
+      }
+    },
+    "draw": {
+      "$type": "duration",
+      "$value": {
+        "value": 600,
+        "unit": "ms"
+      },
+      "$description": "Dibujo de conectores y trazos de la ruta.",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--duration-draw"
+        }
+      }
+    },
+    "shimmer": {
+      "$type": "duration",
+      "$value": {
+        "value": 1300,
+        "unit": "ms"
+      },
+      "$description": "Bucle de carga del skeleton.",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--duration-shimmer"
+        }
+      }
+    }
+  },
+  "easing": {
+    "standard": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--easing-standard"
+        }
+      }
+    },
+    "out": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.2,
+        0,
+        0,
+        1
+      ],
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--easing-out"
+        }
+      }
+    }
+  },
+  "z": {
+    "below": {
+      "$type": "number",
+      "$description": "Capa por debajo del contenido del propio elemento (fondo de la píldora activa)",
+      "$value": -1,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--z-below"
+        }
+      }
+    },
+    "overlay": {
+      "$type": "number",
+      "$value": 300,
+      "$description": "Capas",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--z-overlay"
+        }
+      }
+    },
+    "toast": {
+      "$type": "number",
+      "$value": 500,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--z-toast"
+        }
+      }
+    },
+    "header": {
+      "$type": "number",
+      "$description": "Cabecera fija",
+      "$value": 100,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--z-header"
+        }
+      }
+    },
+    "raised": {
+      "$type": "number",
+      "$description": "Elemento elevado dentro de un componente (flechas de scroll, controles superpuestos)",
+      "$value": 2,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--z-raised"
+        }
+      }
+    },
+    "nav": {
+      "$type": "number",
+      "$description": "Barra de modos",
+      "$value": 90,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--z-nav"
+        }
+      }
+    },
+    "sticky-bar": {
+      "$type": "number",
+      "$description": "Barra de índice fija bajo la nav",
+      "$value": 80,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--z-sticky-bar"
+        }
+      }
+    },
+    "skip": {
+      "$type": "number",
+      "$description": "Enlace de salto (siempre encima)",
+      "$value": 9999,
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--z-skip"
+        }
+      }
+    },
+    "network": {
+      "$type": "cssValue",
+      "$description": "Aviso de conexión sobre los toasts",
+      "$value": "calc(var(--z-toast) + 10)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--z-network"
+        }
+      }
+    }
+  },
+  "shadow": {
+    "xs": {
+      "$type": "cssValue",
+      "$value": "0 1px 2px color-mix(in srgb, black 6%, transparent)",
+      "$description": "Capa 4b · Base de layout y efectos",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-xs"
+        }
+      }
+    },
+    "sm": {
+      "$type": "cssValue",
+      "$value": "0 1px 3px color-mix(in srgb, black 8%, transparent), 0 1px 2px color-mix(in srgb, black 5%, transparent)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-sm"
+        }
+      }
+    },
+    "md": {
+      "$type": "cssValue",
+      "$value": "0 4px 12px color-mix(in srgb, black 8%, transparent), 0 2px 4px color-mix(in srgb, black 4%, transparent)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-md"
+        }
+      }
+    },
+    "lg": {
+      "$type": "cssValue",
+      "$value": "0 10px 30px color-mix(in srgb, black 10%, transparent), 0 4px 8px color-mix(in srgb, black 5%, transparent)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-lg"
+        }
+      }
+    },
+    "xl": {
+      "$type": "cssValue",
+      "$value": "0 24px 48px color-mix(in srgb, black 14%, transparent)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-xl"
+        }
+      }
+    }
+  },
+  "opacity": {
+    "40": {
+      "$type": "number",
+      "$value": 0.4,
+      "$description": "Tinte muy tenue (fondo decorativo)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--opacity-40"
+        }
+      }
+    },
+    "45": {
+      "$type": "number",
+      "$value": 0.45,
+      "$description": "Tinte tenue",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--opacity-45"
+        }
+      }
+    },
+    "50": {
+      "$type": "number",
+      "$value": 0.5,
+      "$description": "Deshabilitado / atenuado",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--opacity-50"
+        }
+      }
+    },
+    "55": {
+      "$type": "number",
+      "$value": 0.55,
+      "$description": "Deshabilitado en campos",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--opacity-55"
+        }
+      }
+    },
+    "60": {
+      "$type": "number",
+      "$value": 0.6,
+      "$description": "Suave",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--opacity-60"
+        }
+      }
+    },
+    "65": {
+      "$type": "number",
+      "$value": 0.65,
+      "$description": "Atenuado",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--opacity-65"
+        }
+      }
+    },
+    "70": {
+      "$type": "number",
+      "$value": 0.7,
+      "$description": "Atenuado fuerte",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--opacity-70"
+        }
+      }
+    },
+    "75": {
+      "$type": "number",
+      "$value": 0.75,
+      "$description": "Medio",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--opacity-75"
+        }
+      }
+    },
+    "85": {
+      "$type": "number",
+      "$value": 0.85,
+      "$description": "Casi opaco",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--opacity-85"
+        }
+      }
+    },
+    "90": {
+      "$type": "number",
+      "$value": 0.9,
+      "$description": "Casi opaco (máximo)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--opacity-90"
+        }
+      }
+    }
+  },
+  "weight": {
+    "regular": {
+      "$type": "fontWeight",
+      "$value": 400,
+      "$description": "Texto corrido",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--weight-regular"
+        }
+      }
+    },
+    "medium": {
+      "$type": "fontWeight",
+      "$value": 500,
+      "$description": "Énfasis y etiquetas",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--weight-medium"
+        }
+      }
+    },
+    "semibold": {
+      "$type": "fontWeight",
+      "$value": 600,
+      "$description": "Títulos",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--weight-semibold"
+        }
+      }
+    }
+  }
+}

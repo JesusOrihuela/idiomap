@@ -1,0 +1,131 @@
+{
+  "$description": "Escala de breakpoints usada por las media queries. No se emite como var CSS: fija los valores permitidos.",
+  "breakpoint": {
+    "w400": {
+      "$type": "dimension",
+      "$value": {
+        "value": 400,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "emit": false,
+          "role": "canonical"
+        }
+      },
+      "$description": "canonical · Corte de teléfono pequeño."
+    },
+    "w480": {
+      "$type": "dimension",
+      "$value": {
+        "value": 480,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "emit": false,
+          "role": "canonical"
+        }
+      },
+      "$description": "canonical · Corte de teléfono grande."
+    },
+    "w640": {
+      "$type": "dimension",
+      "$value": {
+        "value": 640,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "emit": false,
+          "role": "canonical"
+        }
+      },
+      "$description": "canonical · Corte de tablet pequeña y nav móvil."
+    },
+    "w768": {
+      "$type": "dimension",
+      "$value": {
+        "value": 768,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "emit": false,
+          "role": "canonical"
+        }
+      },
+      "$description": "canonical · Corte de tablet."
+    },
+    "w900": {
+      "$type": "dimension",
+      "$value": {
+        "value": 900,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "emit": false,
+          "role": "canonical"
+        }
+      },
+      "$description": "canonical · Corte de escritorio pequeño (hero apilado)."
+    },
+    "w1920": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1920,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "emit": false,
+          "role": "canonical"
+        }
+      },
+      "$description": "canonical · Ultrapanorámica: el contenido crece a 1440."
+    },
+    "w2560": {
+      "$type": "dimension",
+      "$value": {
+        "value": 2560,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "emit": false,
+          "role": "canonical"
+        }
+      },
+      "$description": "canonical · Ultrapanorámica grande: el contenido crece a 1600."
+    },
+    "w641": {
+      "$type": "dimension",
+      "$value": {
+        "value": 641,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "emit": false,
+          "role": "inverse"
+        }
+      },
+      "$description": "inverse · Complemento min-width de 640."
+    },
+    "w769": {
+      "$type": "dimension",
+      "$value": {
+        "value": 769,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.idiomap": {
+          "emit": false,
+          "role": "inverse"
+        }
+      },
+      "$description": "inverse · Complemento min-width de 768."
+    }
+  }
+}

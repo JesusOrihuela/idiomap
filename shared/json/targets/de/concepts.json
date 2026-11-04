@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "concepts": [
+    {
+      "conceptId": "de.calendario_i_arrive_in_january",
+      "id": "calendario_i_arrive_in_january",
+      "target": [
+        {
+          "text": "Ich komme im Januar an.",
+          "labels": {
+            "region": "Deutschland"
+          },
+          "audioSlug": "ich_komme_im_januar_an"
+        },
+        {
+          "text": "Ich komme im Jänner an.",
+          "labels": {
+            "region": "Österreich"
+          },
+          "audioSlug": "ich_komme_im_janner_an"
+        }
+      ],
+      "pairs": [
+        "en-de"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.daily_routine_i_get_up_early",
+      "id": "daily_routine_i_get_up_early",
+      "target": [
+        {
+          "text": "Ich stehe früh auf.",
+          "audioSlug": "ich_stehe_fruh_auf"
+        }
+      ],
+      "pairs": [
+        "en-de"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.descripciones_the_street_is_big",
+      "id": "descripciones_the_street_is_big",
+      "target": [
+        {
+          "text": "Die Straße ist sehr groß.",
+          "audioSlug": "die_stra_e_ist_sehr_gro"
+        }
+      ],
+      "pairs": [
+        "en-de"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.economia_the_insurance_is_important",
+      "id": "economia_the_insurance_is_important",
+      "target": [
+        {
+          "text": "Die Kraftfahrzeughaftpflichtversicherung ist sehr wichtig.",
+          "audioSlug": "die_kraftfahrzeughaftpflichtversicherung_ist_sehr_wichtig"
+        }
+      ],
+      "pairs": [
+        "en-de"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.family_i_have_a_brother",
+      "id": "family_i_have_a_brother",
+      "target": [
+        {
+          "text": "Ich habe einen Bruder.",
+          "audioSlug": "ich_habe_einen_bruder"
+        }
+      ],
+      "pairs": [
+        "en-de"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.personal_info_i_am_a_student",
+      "id": "personal_info_i_am_a_student",
+      "target": [
+        {
+          "text": "Ich bin Student.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "ich_bin_student"
+        },
+        {
+          "text": "Ich bin Studentin.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "ich_bin_studentin"
+        }
+      ],
+      "pairs": [
+        "en-de"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.piloto_buenos_dias",
+      "id": "piloto_buenos_dias",
+      "target": [
+        {
+          "text": "Guten Morgen.",
+          "audioSlug": "buenos_dias"
+        }
+      ],
+      "pairs": [
+        "es-de"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.piloto_cuanto_cuesta",
+      "id": "piloto_cuanto_cuesta",
+      "target": [
+        {
+          "text": "Wie viel kostet das?",
+          "audioSlug": "cuanto_cuesta"
+        }
+      ],
+      "pairs": [
+        "es-de"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.piloto_donde_esta_la_estacion",
+      "id": "piloto_donde_esta_la_estacion",
+      "target": [
+        {
+          "text": "Wo ist der Bahnhof?",
+          "audioSlug": "donde_esta_la_estacion"
+        }
+      ],
+      "pairs": [
+        "es-de"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.piloto_gracias_por_tu_ayuda",
+      "id": "piloto_gracias_por_tu_ayuda",
+      "target": [
+        {
+          "text": "Danke für deine Hilfe.",
+          "audioSlug": "gracias_por_tu_ayuda"
+        }
+      ],
+      "pairs": [
+        "es-de"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.piloto_hablo_un_poco_de_aleman",
+      "id": "piloto_hablo_un_poco_de_aleman",
+      "target": [
+        {
+          "text": "Ich spreche ein wenig Deutsch.",
+          "audioSlug": "hablo_un_poco_de_aleman"
+        }
+      ],
+      "pairs": [
+        "es-de"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.piloto_hasta_luego",
+      "id": "piloto_hasta_luego",
+      "target": [
+        {
+          "text": "Bis später.",
+          "audioSlug": "hasta_luego"
+        }
+      ],
+      "pairs": [
+        "es-de"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.piloto_hola_como_estas",
+      "id": "piloto_hola_como_estas",
+      "target": [
+        {
+          "text": "Hallo, wie geht es dir?",
+          "audioSlug": "hola_como_estas"
+        }
+      ],
+      "pairs": [
+        "es-de"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.piloto_no_entiendo",
+      "id": "piloto_no_entiendo",
+      "target": [
+        {
+          "text": "Ich verstehe nicht.",
+          "audioSlug": "no_entiendo"
+        }
+      ],
+      "pairs": [
+        "es-de"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.piloto_puedes_repetir",
+      "id": "piloto_puedes_repetir",
+      "target": [
+        {
+          "text": "Kannst du das wiederholen?",
+          "audioSlug": "puedes_repetir"
+        }
+      ],
+      "pairs": [
+        "es-de"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.piloto_quiero_un_cafe_por_favor",
+      "id": "piloto_quiero_un_cafe_por_favor",
+      "target": [
+        {
+          "text": "Ich möchte einen Kaffee, bitte.",
+          "audioSlug": "quiero_un_cafe_por_favor"
+        }
+      ],
+      "pairs": [
+        "es-de"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.restaurant_i_take_a_bread_roll",
+      "id": "restaurant_i_take_a_bread_roll",
+      "target": [
+        {
+          "text": "Ich nehme ein Brötchen.",
+          "labels": {
+            "region": "Deutschland"
+          },
+          "audioSlug": "ich_nehme_ein_brotchen"
+        },
+        {
+          "text": "Ich nehme eine Semmel.",
+          "labels": {
+            "region": "Österreich"
+          },
+          "audioSlug": "ich_nehme_eine_semmel"
+        },
+        {
+          "text": "Ich nehme ein Brötli.",
+          "labels": {
+            "region": "Schweiz"
+          },
+          "audioSlug": "ich_nehme_ein_brotli"
+        }
+      ],
+      "pairs": [
+        "en-de"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.survival_can_you_help_me",
+      "id": "survival_can_you_help_me",
+      "target": [
+        {
+          "text": "Kannst du mir helfen?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "kannst_du_mir_helfen"
+        },
+        {
+          "text": "Können Sie mir helfen?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "konnen_sie_mir_helfen"
+        }
+      ],
+      "pairs": [
+        "en-de"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.survival_do_you_speak_english",
+      "id": "survival_do_you_speak_english",
+      "target": [
+        {
+          "text": "Entschuldigung, sprichst du Englisch?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "entschuldigung_sprichst_du_englisch"
+        },
+        {
+          "text": "Entschuldigung, sprechen Sie Englisch?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "entschuldigung_sprechen_sie_englisch"
+        }
+      ],
+      "pairs": [
+        "en-de"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.survival_i_do_not_understand",
+      "id": "survival_i_do_not_understand",
+      "target": [
+        {
+          "text": "Ich verstehe nicht.",
+          "audioSlug": "ich_verstehe_nicht"
+        }
+      ],
+      "pairs": [
+        "en-de"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.survival_where_is_the_bathroom",
+      "id": "survival_where_is_the_bathroom",
+      "target": [
+        {
+          "text": "Wo ist die Toilette?",
+          "audioSlug": "wo_ist_die_toilette"
+        }
+      ],
+      "pairs": [
+        "en-de"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "de.technology_my_cell_phone_is_broken",
+      "id": "technology_my_cell_phone_is_broken",
+      "target": [
+        {
+          "text": "Mein Handy ist kaputt.",
+          "labels": {
+            "loanword": "Anglizismus"
+          },
+          "audioSlug": "mein_handy_ist_kaputt"
+        },
+        {
+          "text": "Mein Mobiltelefon ist kaputt.",
+          "labels": {
+            "synonym": "sinónimo"
+          },
+          "audioSlug": "mein_mobiltelefon_ist_kaputt"
+        }
+      ],
+      "pairs": [
+        "en-de"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    }
+  ]
+}

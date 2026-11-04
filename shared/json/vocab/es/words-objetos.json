@@ -18,7 +18,8 @@
       },
       "gloss_example": {
         "en": "What is that thing on the table?"
-      }
+      },
+      "conceptId": "es.thing"
     },
     {
       "id": "imagen",
@@ -38,7 +39,8 @@
       },
       "gloss_example": {
         "en": "It is a nice image."
-      }
+      },
+      "conceptId": "es.imagen"
     },
     {
       "id": "sonido",
@@ -58,7 +60,8 @@
       },
       "gloss_example": {
         "en": "I heard a strange sound."
-      }
+      },
+      "conceptId": "es.sonido"
     },
     {
       "id": "nombre",
@@ -78,7 +81,8 @@
       },
       "gloss_example": {
         "en": "What is your name?"
-      }
+      },
+      "conceptId": "es.nombre"
     },
     {
       "id": "carta",
@@ -98,7 +102,8 @@
       },
       "gloss_example": {
         "en": "I wrote a letter."
-      }
+      },
+      "conceptId": "es.carta"
     },
     {
       "id": "caja",
@@ -118,7 +123,8 @@
       },
       "gloss_example": {
         "en": "The box is heavy."
-      }
+      },
+      "conceptId": "es.caja"
     },
     {
       "id": "llave",
@@ -138,7 +144,8 @@
       },
       "gloss_example": {
         "en": "I lost my keys."
-      }
+      },
+      "conceptId": "es.llave"
     },
     {
       "id": "tarjeta",
@@ -158,7 +165,8 @@
       },
       "gloss_example": {
         "en": "Here is my card."
-      }
+      },
+      "conceptId": "es.tarjeta"
     },
     {
       "id": "cuadro",
@@ -178,7 +186,8 @@
       },
       "gloss_example": {
         "en": "It is a nice painting."
-      }
+      },
+      "conceptId": "es.cuadro"
     },
     {
       "id": "papel",
@@ -198,7 +207,8 @@
       },
       "gloss_example": {
         "en": "I need a sheet of paper."
-      }
+      },
+      "conceptId": "es.papel"
     },
     {
       "id": "bolsa",
@@ -218,7 +228,8 @@
       },
       "gloss_example": {
         "en": "This bag is heavy."
-      }
+      },
+      "conceptId": "es.bolsa"
     },
     {
       "id": "objeto",
@@ -238,7 +249,8 @@
       },
       "gloss_example": {
         "en": "There is a strange object on the table."
-      }
+      },
+      "conceptId": "es.objeto"
     },
     {
       "id": "ventana",
@@ -258,7 +270,8 @@
       },
       "gloss_example": {
         "en": "Open the window, please."
-      }
+      },
+      "conceptId": "es.ventana"
     },
     {
       "id": "regalo",
@@ -278,7 +291,8 @@
       },
       "gloss_example": {
         "en": "I bought her a gift."
-      }
+      },
+      "conceptId": "es.regalo"
     },
     {
       "id": "wall",
@@ -298,7 +312,8 @@
       },
       "gloss_example": {
         "en": "She hung a picture on the wall."
-      }
+      },
+      "conceptId": "es.wall"
     },
     {
       "id": "mesa",
@@ -318,7 +333,8 @@
       },
       "gloss_example": {
         "en": "Put the glass on the table."
-      }
+      },
+      "conceptId": "es.mesa"
     },
     {
       "id": "pencil",
@@ -338,7 +354,8 @@
       },
       "gloss_example": {
         "en": "She drew a map with a pencil."
-      }
+      },
+      "conceptId": "es.pencil"
     },
     {
       "id": "pen",
@@ -388,7 +405,8 @@
           },
           "audioSlug": "birome"
         }
-      ]
+      ],
+      "conceptId": "es.pen"
     },
     {
       "id": "eraser",
@@ -408,7 +426,8 @@
       },
       "gloss_example": {
         "en": "Use the eraser to remove the mistake."
-      }
+      },
+      "conceptId": "es.eraser"
     },
     {
       "id": "soap",
@@ -428,7 +447,8 @@
       },
       "gloss_example": {
         "en": "He washed his hands with soap and water."
-      }
+      },
+      "conceptId": "es.soap"
     },
     {
       "id": "wallet",
@@ -464,7 +484,8 @@
           },
           "audioSlug": "billetera"
         }
-      ]
+      ],
+      "conceptId": "es.wallet"
     },
     {
       "id": "handbag",
@@ -484,7 +505,8 @@
       },
       "gloss_example": {
         "en": "She put the phone in her handbag."
-      }
+      },
+      "conceptId": "es.handbag"
     },
     {
       "id": "watch",
@@ -504,7 +526,8 @@
       },
       "gloss_example": {
         "en": "He looked at his watch to check the time."
-      }
+      },
+      "conceptId": "es.watch"
     },
     {
       "id": "chair",
@@ -524,7 +547,8 @@
       },
       "gloss_example": {
         "en": "There are four chairs around the table."
-      }
+      },
+      "conceptId": "es.chair"
     },
     {
       "id": "map",
@@ -544,7 +568,8 @@
       },
       "gloss_example": {
         "en": "We looked at the map to find the way."
-      }
+      },
+      "conceptId": "es.map"
     },
     {
       "id": "drinking_glass",
@@ -564,7 +589,8 @@
       },
       "gloss_example": {
         "en": "I drank a glass of cold water."
-      }
+      },
+      "conceptId": "es.drinking_glass"
     },
     {
       "id": "cup_mug",
@@ -584,7 +610,8 @@
       },
       "gloss_example": {
         "en": "I have a cup of coffee in the morning."
-      }
+      },
+      "conceptId": "es.cup_mug"
     },
     {
       "id": "wine_glass",
@@ -604,7 +631,8 @@
       },
       "gloss_example": {
         "en": "We toasted with a glass of wine."
-      }
+      },
+      "conceptId": "es.wine_glass"
     },
     {
       "id": "backpack",
@@ -624,7 +652,8 @@
       },
       "gloss_example": {
         "en": "I keep the books in the backpack."
-      }
+      },
+      "conceptId": "es.backpack"
     },
     {
       "id": "brush_tool",
@@ -644,7 +673,8 @@
       },
       "gloss_example": {
         "en": "I need a new toothbrush."
-      }
+      },
+      "conceptId": "es.brush_tool"
     },
     {
       "id": "metal",
@@ -664,7 +694,8 @@
       },
       "gloss_example": {
         "en": "The box is made of metal."
-      }
+      },
+      "conceptId": "es.metal"
     },
     {
       "id": "plastic",
@@ -684,7 +715,8 @@
       },
       "gloss_example": {
         "en": "These chairs are made of plastic."
-      }
+      },
+      "conceptId": "es.plastic"
     },
     {
       "id": "glass_material",
@@ -720,7 +752,8 @@
           },
           "audioSlug": "vidrio"
         }
-      ]
+      ],
+      "conceptId": "es.glass_material"
     },
     {
       "id": "fabric_cloth",
@@ -740,7 +773,8 @@
       },
       "gloss_example": {
         "en": "This shirt is made of a very soft fabric."
-      }
+      },
+      "conceptId": "es.fabric_cloth"
     },
     {
       "id": "package",
@@ -760,7 +794,8 @@
       },
       "gloss_example": {
         "en": "A package arrived for you by mail."
-      }
+      },
+      "conceptId": "es.package"
     },
     {
       "id": "planner_agenda",
@@ -780,7 +815,8 @@
       },
       "gloss_example": {
         "en": "I wrote the meeting in my planner."
-      }
+      },
+      "conceptId": "es.planner_agenda"
     },
     {
       "id": "cross_shape",
@@ -800,7 +836,8 @@
       },
       "gloss_example": {
         "en": "She marked the answer with a cross."
-      }
+      },
+      "conceptId": "es.cross_shape"
     },
     {
       "id": "can_tin",
@@ -820,7 +857,8 @@
       },
       "gloss_example": {
         "en": "I opened a can of tuna for the salad."
-      }
+      },
+      "conceptId": "es.can_tin"
     },
     {
       "id": "drawing",
@@ -840,7 +878,8 @@
       },
       "gloss_example": {
         "en": "The child made a drawing of his family."
-      }
+      },
+      "conceptId": "es.drawing"
     },
     {
       "id": "tool",
@@ -860,7 +899,8 @@
       },
       "gloss_example": {
         "en": "I need a tool to tighten the screw."
-      }
+      },
+      "conceptId": "es.tool"
     },
     {
       "id": "stamp",
@@ -880,7 +920,8 @@
       },
       "gloss_example": {
         "en": "I put a stamp on the envelope before sending it."
-      }
+      },
+      "conceptId": "es.stamp"
     }
   ]
 }

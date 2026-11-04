@@ -1,0 +1,31 @@
+{
+  "id": "en-pt",
+  "source": {
+    "code": "en",
+    "flags": [
+      "us",
+      "gb"
+    ],
+    "name": "English",
+    "localName": "English"
+  },
+  "target": {
+    "code": "pt",
+    "flags": [
+      "br",
+      "pt"
+    ],
+    "name": "Português",
+    "localName": "Portuguese"
+  },
+  "sourceLocale": "en-US",
+  "targetLocale": "pt-BR",
+  "label": "English → Português",
+  "ttsVoices": [
+    "pf_dora",
+    "pm_alex"
+  ],
+  "sttLanguage": "portuguese",
+  "status": "stress",
+  "stressTest": true
+}

@@ -12,11 +12,13 @@
   var MILESTONES = [
     {
       id: 'first_streak',
+    icon: 'i-flame',
       emoji: '🌱',
       check: function (cards, sessions, streak) { return streak.current >= 1; }
     },
     {
       id: 'phrases_10',
+    icon: 'i-book-open',
       emoji: '📖',
       check: function (cards) {
         return Object.entries(cards).filter(function (kv) {
@@ -26,6 +28,7 @@
     },
     {
       id: 'all_activities',
+    icon: 'i-layout-grid',
       emoji: '🎯',
       check: function (cards) {
         var hasSpeaking  = Object.entries(cards).some(function (kv) {
@@ -41,6 +44,7 @@
     },
     {
       id: 'topic_unlocked',
+    icon: 'i-lock-open',
       emoji: '🗝️',
       check: function (cards) {
         var next = ['restaurant_', 'supermarket_', 'kitchen_', 'transportation_', 'airport_', 'accommodation_', 'movies_', 'music_', 'theater_', 'gym_', 'technology_', 'accountability_'];
@@ -53,6 +57,7 @@
     },
     {
       id: 'speaking_50',
+    icon: 'i-mic',
       emoji: '🗣️',
       check: function (cards) {
         return Object.entries(cards).filter(function (kv) {
@@ -62,6 +67,7 @@
     },
     {
       id: 'perfect_session',
+    icon: 'i-star',
       emoji: '✨',
       check: function (cards, sessions) {
         return sessions.some(function (s) { return s.total >= 5 && s.correct === s.total; });
@@ -69,6 +75,7 @@
     },
     {
       id: 'grammar_first',
+    icon: 'i-ruler',
       emoji: '🏆',
       check: function (cards) {
         return Object.entries(cards).some(function (kv) {
@@ -78,11 +85,13 @@
     },
     {
       id: 'streak_7',
+    icon: 'i-calendar-check',
       emoji: '🔥',
       check: function (cards, sessions, streak) { return streak.current >= 7; }
     },
     {
       id: 'first_mastered',
+    icon: 'i-medal',
       emoji: '⭐',
       check: function (cards) {
         return Object.keys(cards).some(function (key) {
@@ -93,6 +102,7 @@
     },
     {
       id: 'mastered_50',
+    icon: 'i-trophy',
       emoji: '💡',
       check: function (cards) {
         if (typeof Progress === 'undefined') return false;
@@ -103,11 +113,13 @@
     },
     {
       id: 'streak_30',
+    icon: 'i-calendar-days',
       emoji: '💎',
       check: function (cards, sessions, streak) { return streak.best >= 30; }
     },
     {
       id: 'mastered_100',
+    icon: 'i-gem',
       emoji: '🌟',
       check: function (cards) {
         if (typeof Progress === 'undefined') return false;
@@ -129,15 +141,15 @@
     if (document.getElementById('milestone-toast')) return;
     var el = document.createElement('div');
     el.id        = 'milestone-toast';
-    el.className = 'milestone-toast hidden';
+    el.className = 'toast milestone-toast hidden';
     el.setAttribute('role', 'alert');
     el.setAttribute('aria-live', 'assertive');
     var inner = document.createElement('div');
     inner.className = 'milestone-toast__inner';
 
-    var emoji = document.createElement('span');
-    emoji.className = 'milestone-toast__emoji';
-    emoji.id = 'mt-emoji';
+    var icon = document.createElement('span');
+    icon.className = 'milestone-toast__icon';
+    icon.id = 'mt-icon';
 
     var body = document.createElement('div');
     body.className = 'milestone-toast__body';
@@ -153,17 +165,17 @@
     shareBtn.id = 'mt-share';
     shareBtn.setAttribute('aria-label', AppLang.t('milestone_share'));
     shareBtn.title = AppLang.t('milestone_share');
-    shareBtn.textContent = '📤';
+    shareBtn.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-upload"/></svg>';
 
     var closeBtn = document.createElement('button');
     closeBtn.className = 'milestone-toast__close';
     closeBtn.id = 'mt-close';
     closeBtn.setAttribute('aria-label', AppLang.t('close_btn'));
-    closeBtn.textContent = '✕';
+    closeBtn.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>';
 
     body.appendChild(title);
     body.appendChild(desc);
-    inner.appendChild(emoji);
+    inner.appendChild(icon);
     inner.appendChild(body);
     inner.appendChild(shareBtn);
     inner.appendChild(closeBtn);
@@ -181,7 +193,7 @@
 
     var title = (typeof AppLang !== 'undefined') ? AppLang.t('milestone_' + current.id + '_title') : current.id;
     var desc  = (typeof AppLang !== 'undefined') ? AppLang.t('milestone_' + current.id + '_desc')  : '';
-    document.getElementById('mt-emoji').textContent = current.emoji;
+    document.getElementById('mt-icon').innerHTML = '<svg class="icon" aria-hidden="true"><use href="#' + (current.icon || 'i-star') + '"/></svg>';
     document.getElementById('mt-title').textContent = title;
     document.getElementById('mt-desc').textContent  = desc;
 

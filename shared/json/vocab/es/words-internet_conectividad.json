@@ -18,7 +18,8 @@
       },
       "gloss_example": {
         "en": "I looked up the recipe on the internet."
-      }
+      },
+      "conceptId": "es.internet"
     },
     {
       "id": "browser",
@@ -38,7 +39,8 @@
       },
       "gloss_example": {
         "en": "Chrome and Firefox are the most popular web browsers."
-      }
+      },
+      "conceptId": "es.browser"
     },
     {
       "id": "correo",
@@ -58,7 +60,8 @@
       },
       "gloss_example": {
         "en": "I sent you an email yesterday."
-      }
+      },
+      "conceptId": "es.correo"
     },
     {
       "id": "network",
@@ -78,7 +81,8 @@
       },
       "gloss_example": {
         "en": "The office network was down all morning."
-      }
+      },
+      "conceptId": "es.network"
     },
     {
       "id": "wireless",
@@ -98,7 +102,8 @@
       },
       "gloss_example": {
         "en": "The hotel offers free wireless internet throughout the building."
-      }
+      },
+      "conceptId": "es.wireless"
     },
     {
       "id": "upload",
@@ -134,7 +139,8 @@
           },
           "audioSlug": "cargar"
         }
-      ]
+      ],
+      "conceptId": "es.upload"
     },
     {
       "id": "download",
@@ -154,7 +160,8 @@
       },
       "gloss_example": {
         "en": "You can download the app for free from the store."
-      }
+      },
+      "conceptId": "es.download"
     },
     {
       "id": "bandwidth",
@@ -174,7 +181,8 @@
       },
       "gloss_example": {
         "en": "Streaming videos in 4K requires a lot of bandwidth."
-      }
+      },
+      "conceptId": "es.bandwidth"
     },
     {
       "id": "latency",
@@ -194,7 +202,8 @@
       },
       "gloss_example": {
         "en": "High latency makes video calls feel laggy and unnatural."
-      }
+      },
+      "conceptId": "es.latency"
     },
     {
       "id": "link",
@@ -214,7 +223,8 @@
       },
       "gloss_example": {
         "en": "Click the link to continue."
-      }
+      },
+      "conceptId": "es.link"
     },
     {
       "id": "server",
@@ -234,7 +244,8 @@
       },
       "gloss_example": {
         "en": "The server is down this morning."
-      }
+      },
+      "conceptId": "es.server"
     },
     {
       "id": "connection",
@@ -254,7 +265,8 @@
       },
       "gloss_example": {
         "en": "The connection is slow today."
-      }
+      },
+      "conceptId": "es.connection"
     }
   ]
 }

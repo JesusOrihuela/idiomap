@@ -46,7 +46,11 @@ if ('serviceWorker' in navigator && !_isDevHost) {
     window.location.reload();
   });
 
-  navigator.serviceWorker.register('../../service-worker.js', { updateViaCache: 'none' })
+  // Absolute SW URL derived from this script, so it works at any page depth
+  // (root deploy or subpath) without hardcoding ../../ per page.
+  const _swSrc = typeof document !== 'undefined' && document.currentScript && document.currentScript.src;
+  const _swUrl = _swSrc ? new URL('../../service-worker.js', _swSrc).href : '../service-worker.js';
+  navigator.serviceWorker.register(_swUrl, { updateViaCache: 'none' })
     .then(reg => {
       // Belt-and-suspenders: some browsers activate without firing
       // controllerchange for the current page — reload on activation too.

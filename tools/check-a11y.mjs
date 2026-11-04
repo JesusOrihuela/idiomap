@@ -3,7 +3,7 @@
    check-a11y.mjs — Deterministic accessibility gate for the app's HTML pages.
 
    Complements check-i18n (which enforces externalized UI text). Pages are
-   DISCOVERED from the filesystem (every {activity}/html/*.html) — no hardcoded list.
+   DISCOVERED from the filesystem (home + every {section}/index.html) - no hardcoded list.
    High-precision, zero-false-positive checks suitable for CI:
 
      • <html> carries a lang attribute
@@ -26,13 +26,11 @@ import { fileURLToPath } from 'url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
-// Discover every {activity}/html/*.html page from the filesystem.
-const pages = [];
+// Discover the home page and every top-level {section}/index.html (clean URLs).
+const pages = ['index.html'];
 for (const d of readdirSync(ROOT, { withFileTypes: true })) {
-  if (!d.isDirectory()) continue;
-  const htmlDir = join(ROOT, d.name, 'html');
-  if (!existsSync(htmlDir)) continue;
-  for (const f of readdirSync(htmlDir)) if (f.endsWith('.html')) pages.push(`${d.name}/html/${f}`);
+  if (!d.isDirectory() || /^(node_modules|docs|tools|soon|shared|lang|index)$/.test(d.name)) continue;
+  if (existsSync(join(ROOT, d.name, 'index.html'))) pages.push(`${d.name}/index.html`);
 }
 
 const issues = [];

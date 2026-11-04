@@ -9,7 +9,7 @@
 // forever would pin the old one permanently. They are served
 // stale-while-revalidate instead, and the cache name carries a version so a
 // bump force-purges stale images when one is intentionally replaced.
-const IMG_CACHE   = 'pe-images-v8'; // photos/icons: stale-while-revalidate (bumped: aurariola.com signature — new logo/og)
+const IMG_CACHE   = 'pe-images-v9'; // photos/icons: stale-while-revalidate (bumped: banderas reimportadas a su razón real)
 const AUDIO_CACHE = 'pe-audio';     // pre-generated WAV: cache-first forever (slug-named, immutable)
 const APP_CACHE   = 'pe-app';       // HTML/JS/CSS/JSON: network-first, cached for offline
 const APP_CACHE_MAX = 250;          // cap network-first growth (all visited JSON would accumulate otherwise)
@@ -46,9 +46,14 @@ const SHELL = [
   './',                               // root navigation (GET /)
   './index.html',                     // direct navigation + offline fallback target
   './manifest.json',
-  './index/css/generalities.css',
+  './shared/css/tokens.css',
+  './shared/css/layout.css',
+  './shared/css/components.css',
   './index/css/index.css',
   './shared/js/progress.js',
+  './shared/js/pairs.js',
+  './shared/js/languages.js',
+  './shared/js/content.js',
   './shared/json/common/id-map.json',   // externalized from progress.js — needed by SRS/path offline
   './shared/js/network-status.js',
   './shared/js/theme.js',

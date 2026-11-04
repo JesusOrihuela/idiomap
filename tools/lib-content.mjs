@@ -11,6 +11,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { resolveTopic } from './lib-resolve.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PAIRS_DIR = path.join(ROOT, 'shared/json/pairs');
@@ -32,6 +33,17 @@ export function pairMeta(pair) {
 export function phraseTopicsFor(pair) {
   return JSON.parse(fs.readFileSync(path.join(PAIRS_DIR, pair, 'topics.json'), 'utf8'))
     .topics.filter(t => t.phrase).map(t => t.id);
+}
+
+/**
+ * Load one phrase topic as the runtime serves it.
+ * Uses the layered resolver when the pair has a content order file; falls back to
+ * the legacy pair file during the F3→F7 window.
+ */
+export function loadTopic(pair, topic) {
+  const order = path.join(PAIRS_DIR, pair, 'content', `${topic}.json`);
+  if (fs.existsSync(order)) return resolveTopic(pair, topic);
+  return JSON.parse(fs.readFileSync(path.join(PAIRS_DIR, pair, `${topic}.json`), 'utf8'));
 }
 
 /** Union of phrase topics across all pairs (sorted). */

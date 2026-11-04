@@ -1,0 +1,13 @@
+# Cloudflare Pages: old .html paths -> clean directory URLs
+/index.html / 301
+/speaking/html/speaking.html /speaking/ 301
+/dictation/html/dictation.html /dictation/ 301
+/cloze/html/cloze.html /cloze/ 301
+/translation/html/translation.html /translation/ 301
+/scramble/html/scramble.html /scramble/ 301
+/vocabulary/html/vocabulary.html /vocabulary/ 301
+/quiz/html/quiz.html /quiz/ 301
+/grammar/html/grammar.html /grammar/ 301
+/my-learning/html/my-learning.html /my-learning/ 301
+/progress/html/progress.html /progress/ 301
+/placement/html/placement.html /placement/ 301

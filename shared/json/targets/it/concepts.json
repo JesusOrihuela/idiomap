@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "tag": "it",
+  "concepts": [
+    {
+      "conceptId": "it.piloto_buenos_dias",
+      "id": "piloto_buenos_dias",
+      "target": [
+        {
+          "text": "Buongiorno.",
+          "audioSlug": "buenos_dias"
+        }
+      ],
+      "pairs": [
+        "es-it"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "it.piloto_cuanto_cuesta",
+      "id": "piloto_cuanto_cuesta",
+      "target": [
+        {
+          "text": "Quanto costa?",
+          "audioSlug": "cuanto_cuesta"
+        }
+      ],
+      "pairs": [
+        "es-it"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "it.piloto_donde_esta_la_estacion",
+      "id": "piloto_donde_esta_la_estacion",
+      "target": [
+        {
+          "text": "Dov'è la stazione?",
+          "audioSlug": "donde_esta_la_estacion"
+        }
+      ],
+      "pairs": [
+        "es-it"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "it.piloto_gracias_por_tu_ayuda",
+      "id": "piloto_gracias_por_tu_ayuda",
+      "target": [
+        {
+          "text": "Grazie per il tuo aiuto.",
+          "audioSlug": "gracias_por_tu_ayuda"
+        }
+      ],
+      "pairs": [
+        "es-it"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "it.piloto_hablo_un_poco_de_italiano",
+      "id": "piloto_hablo_un_poco_de_italiano",
+      "target": [
+        {
+          "text": "Parlo un po' di italiano.",
+          "audioSlug": "hablo_un_poco_de_italiano"
+        }
+      ],
+      "pairs": [
+        "es-it"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "it.piloto_hasta_luego",
+      "id": "piloto_hasta_luego",
+      "target": [
+        {
+          "text": "A dopo.",
+          "audioSlug": "hasta_luego"
+        }
+      ],
+      "pairs": [
+        "es-it"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "it.piloto_hola_como_estas",
+      "id": "piloto_hola_como_estas",
+      "target": [
+        {
+          "text": "Ciao, come stai?",
+          "audioSlug": "hola_como_estas"
+        }
+      ],
+      "pairs": [
+        "es-it"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "it.piloto_no_entiendo",
+      "id": "piloto_no_entiendo",
+      "target": [
+        {
+          "text": "Non capisco.",
+          "audioSlug": "no_entiendo"
+        }
+      ],
+      "pairs": [
+        "es-it"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "it.piloto_puedes_repetir",
+      "id": "piloto_puedes_repetir",
+      "target": [
+        {
+          "text": "Puoi ripetere?",
+          "audioSlug": "puedes_repetir"
+        }
+      ],
+      "pairs": [
+        "es-it"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "it.piloto_quiero_un_cafe_por_favor",
+      "id": "piloto_quiero_un_cafe_por_favor",
+      "target": [
+        {
+          "text": "Vorrei un caffè, per favore.",
+          "audioSlug": "quiero_un_cafe_por_favor"
+        }
+      ],
+      "pairs": [
+        "es-it"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    }
+  ]
+}

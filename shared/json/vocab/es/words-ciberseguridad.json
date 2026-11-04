@@ -18,7 +18,8 @@
       },
       "gloss_example": {
         "en": "Never share your password with anyone."
-      }
+      },
+      "conceptId": "es.password"
     },
     {
       "id": "biometric",
@@ -38,7 +39,8 @@
       },
       "gloss_example": {
         "en": "Most modern smartphones support biometric login."
-      }
+      },
+      "conceptId": "es.biometric"
     },
     {
       "id": "encryption",
@@ -58,7 +60,8 @@
       },
       "gloss_example": {
         "en": "End-to-end encryption keeps your messages private and secure."
-      }
+      },
+      "conceptId": "es.encryption"
     },
     {
       "id": "malware",
@@ -78,7 +81,8 @@
       },
       "gloss_example": {
         "en": "The antivirus program detected malware on the computer."
-      }
+      },
+      "conceptId": "es.malware"
     },
     {
       "id": "ransomware",
@@ -98,7 +102,8 @@
       },
       "gloss_example": {
         "en": "The hospital was forced offline for days after a ransomware attack."
-      }
+      },
+      "conceptId": "es.ransomware"
     },
     {
       "id": "phishing",
@@ -118,7 +123,8 @@
       },
       "gloss_example": {
         "en": "She almost clicked a phishing link that looked like a message from her bank."
-      }
+      },
+      "conceptId": "es.phishing"
     },
     {
       "id": "vulnerability",
@@ -138,7 +144,8 @@
       },
       "gloss_example": {
         "en": "The team patched a critical vulnerability before it was discovered publicly."
-      }
+      },
+      "conceptId": "es.vulnerability"
     },
     {
       "id": "data_breach",
@@ -158,7 +165,8 @@
       },
       "gloss_example": {
         "en": "The company notified users after a data breach exposed their passwords."
-      }
+      },
+      "conceptId": "es.data_breach"
     },
     {
       "id": "cybersecurity",
@@ -178,7 +186,8 @@
       },
       "gloss_example": {
         "en": "The company hired a cybersecurity firm after the ransomware attack."
-      }
+      },
+      "conceptId": "es.cybersecurity"
     },
     {
       "id": "surveillance",
@@ -198,7 +207,8 @@
       },
       "gloss_example": {
         "en": "Activists raised concerns about mass surveillance enabled by facial recognition software."
-      }
+      },
+      "conceptId": "es.surveillance"
     },
     {
       "id": "dark_pattern",
@@ -218,7 +228,8 @@
       },
       "gloss_example": {
         "en": "Hiding the unsubscribe button is a classic dark pattern."
-      }
+      },
+      "conceptId": "es.dark_pattern"
     },
     {
       "id": "algorithmic_bias",
@@ -238,7 +249,8 @@
       },
       "gloss_example": {
         "en": "Researchers found algorithmic bias in the hiring tool, which penalized women's résumés."
-      }
+      },
+      "conceptId": "es.algorithmic_bias"
     }
   ]
 }

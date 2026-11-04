@@ -1,0 +1,46 @@
+{
+  "tag": "it",
+  "name": "Italian",
+  "status": "pilot",
+  "grammaticalGender": false,
+  "sourceGender": {
+    "nounsCapitalized": true,
+    "fixWords": []
+  },
+  "voices": [
+    "if_sara",
+    "im_nicola"
+  ],
+  "tts": {
+    "engine": "edge",
+    "voices": [
+      "if_sara",
+      "im_nicola"
+    ]
+  },
+  "foldPreserve": "",
+  "nativeChars": "àèéìòù",
+  "clozeStopWords": [
+    "il", "lo", "la", "i", "gli", "le", "un", "uno", "una", "di", "a", "da", "in", "con", "su",
+    "per", "tra", "fra", "e", "o", "ma", "che", "chi", "cui", "non", "più", "come", "dove", "quando",
+    "essere", "avere", "sono", "sei", "è", "siamo", "siete", "ho", "hai", "ha", "abbiamo", "avete"
+  ],
+  "functionWords": [
+    "il", "lo", "la", "i", "gli", "le", "un", "uno", "una", "di", "a", "da", "in", "con", "su",
+    "per", "tra", "fra", "e", "o", "ma", "che", "chi", "cui", "non", "più", "come", "dove", "quando",
+    "essere", "avere", "sono", "sei", "è", "siamo", "siete", "ho", "hai", "ha", "abbiamo", "avete",
+    "questo", "questa", "questi", "queste", "quello", "quella", "quelli", "quelle", "mio", "mia",
+    "tuo", "tua", "suo", "sua", "nostro", "nostra", "vostro", "vostra", "si", "ci", "vi", "mi", "ti"
+  ],
+  "ignoreTokens": [],
+  "grammarTipLabels": [],
+  "frequency": {
+    "list": "pendiente",
+    "cefrGraded": true,
+    "committed": false,
+    "stressTest": true,
+    "gateIndex": null,
+    "gateFloor": 0,
+    "note": "Piloto es-it: sin pack completo todavía."
+  }
+}

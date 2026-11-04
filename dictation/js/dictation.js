@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     AppUI.addPathBackLink('exercise-area', function () { return _lastCorrect; });
   }
 
-  AppAudio.setBase('../../shared/audio/' + AppLangPair.getActive().id + '/');
+  AppAudio.setBase('../shared/audio/' + AppLangPair.getActive().id + '/');
   AppAudio.warmup();
 });
 
@@ -128,6 +128,9 @@ function _beginExercise(idx) {
   AppSessionBar.updateStreak('dict-streak');
   loadPhrase(currentIndex);
   updateCounter();
+  // Cambio de pantalla: el foco entra en el título para que se anuncie (WCAG 2.4.3).
+  const title = document.querySelector('#exercise-area .dict-title');
+  if (title) { title.tabIndex = -1; title.focus({ preventScroll: true }); }
 }
 
 // ---- Phrase Management ----
@@ -217,7 +220,7 @@ function updateGrammarChip(index) {
   const info = AppGrammarChip.choose({ tip: grammarTips[index], id: phraseIds[index], pathMode: _pathModeActive });
   if (!info || !info.ruleId) { wrap.classList.add('hidden'); return; }
   document.getElementById('grammar-chip-label').textContent = info.label;
-  document.getElementById('grammar-chip').href = '../../grammar/html/grammar.html?rule=' + info.ruleId;
+  document.getElementById('grammar-chip').href = '../grammar/?rule=' + info.ruleId;
   wrap.classList.remove('hidden');
 }
 
@@ -308,7 +311,7 @@ function nextPhrase() {
   if (_pathModeActive && typeof PathSession !== 'undefined') {
     const nextHref = PathSession.advance();
     if (nextHref) {
-      window.location.href = '../../' + nextHref;
+      window.location.href = '../' + nextHref;
     } else {
       _showPathSessionComplete();
     }

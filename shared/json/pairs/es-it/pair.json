@@ -1,0 +1,31 @@
+{
+  "id": "es-it",
+  "source": {
+    "code": "es",
+    "flags": [
+      "ar",
+      "mx",
+      "es"
+    ],
+    "name": "Español",
+    "localName": "español"
+  },
+  "target": {
+    "code": "it",
+    "flags": [
+      "it"
+    ],
+    "name": "Italiano",
+    "localName": "italiano"
+  },
+  "sourceLocale": "es-419",
+  "targetLocale": "it-IT",
+  "label": "Español → Italiano",
+  "ttsVoices": [
+    "if_sara",
+    "im_nicola"
+  ],
+  "sttLanguage": "italian",
+  "status": "stress",
+  "stressTest": true
+}

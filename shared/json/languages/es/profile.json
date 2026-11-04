@@ -1,0 +1,516 @@
+{
+  "tag": "es",
+  "name": "Spanish",
+  "status": "complete",
+  "grammaticalGender": true,
+  "sourceGender": null,
+  "voices": [
+    "ef_dora",
+    "em_alex",
+    "em_santa"
+  ],
+  "tts": {
+    "engine": "edge"
+  },
+  "foldPreserve": "ñ",
+  "nativeChars": "áéíóúüñ¿¡",
+  "clozeStopWords": [
+    "los",
+    "las",
+    "una",
+    "unos",
+    "unas",
+    "del",
+    "con",
+    "por",
+    "para",
+    "sin",
+    "sobre",
+    "entre",
+    "hasta",
+    "desde",
+    "hacia",
+    "que",
+    "como",
+    "cuando",
+    "donde",
+    "porque",
+    "pero",
+    "sino",
+    "pues",
+    "aunque",
+    "sus",
+    "mis",
+    "tus",
+    "nos",
+    "les",
+    "esta",
+    "estan",
+    "ser",
+    "estar",
+    "hay",
+    "muy",
+    "mas",
+    "tan",
+    "solo",
+    "este",
+    "estos",
+    "estas",
+    "ese",
+    "esa",
+    "esos",
+    "esas",
+    "esto",
+    "eso",
+    "ella",
+    "ellos",
+    "ellas",
+    "usted",
+    "ustedes",
+    "nosotros",
+    "vosotros",
+    "quien",
+    "cual",
+    "cuanto",
+    "cuantos"
+  ],
+  "functionWords": [
+    "el",
+    "la",
+    "los",
+    "las",
+    "un",
+    "una",
+    "unos",
+    "unas",
+    "lo",
+    "uno",
+    "este",
+    "esta",
+    "estos",
+    "estas",
+    "ese",
+    "esa",
+    "esos",
+    "esas",
+    "aquel",
+    "aquella",
+    "aquellos",
+    "aquellas",
+    "esto",
+    "eso",
+    "aquello",
+    "todo",
+    "toda",
+    "todos",
+    "todas",
+    "otro",
+    "otra",
+    "otros",
+    "otras",
+    "mismo",
+    "misma",
+    "mismos",
+    "mismas",
+    "cada",
+    "alguno",
+    "alguna",
+    "algunos",
+    "algunas",
+    "ninguno",
+    "ninguna",
+    "ningún",
+    "cualquier",
+    "cualquiera",
+    "tanto",
+    "tanta",
+    "tantos",
+    "tantas",
+    "mucho",
+    "mucha",
+    "muchos",
+    "muchas",
+    "poco",
+    "poca",
+    "pocos",
+    "pocas",
+    "demasiado",
+    "demasiada",
+    "demasiados",
+    "demasiadas",
+    "varios",
+    "varias",
+    "tal",
+    "tales",
+    "demás",
+    "ambos",
+    "ambas",
+    "bastante",
+    "mi",
+    "mis",
+    "tu",
+    "tus",
+    "su",
+    "sus",
+    "nuestro",
+    "nuestra",
+    "nuestros",
+    "nuestras",
+    "vuestro",
+    "vuestra",
+    "vuestros",
+    "vuestras",
+    "mío",
+    "mía",
+    "míos",
+    "mías",
+    "tuyo",
+    "tuya",
+    "tuyos",
+    "tuyas",
+    "suyo",
+    "suya",
+    "suyos",
+    "suyas",
+    "yo",
+    "tú",
+    "él",
+    "ella",
+    "ello",
+    "ellos",
+    "ellas",
+    "nosotros",
+    "nosotras",
+    "vosotros",
+    "vosotras",
+    "usted",
+    "ustedes",
+    "me",
+    "te",
+    "se",
+    "nos",
+    "os",
+    "le",
+    "les",
+    "mí",
+    "ti",
+    "sí",
+    "conmigo",
+    "contigo",
+    "consigo",
+    "vos",
+    "alguien",
+    "nadie",
+    "algo",
+    "nada",
+    "quien",
+    "quienes",
+    "cuyo",
+    "cuya",
+    "cuyos",
+    "cuyas",
+    "qué",
+    "quién",
+    "quiénes",
+    "cuál",
+    "cuáles",
+    "cómo",
+    "cuándo",
+    "dónde",
+    "cuánto",
+    "cuánta",
+    "cuántos",
+    "cuántas",
+    "de",
+    "a",
+    "en",
+    "con",
+    "por",
+    "para",
+    "sobre",
+    "sin",
+    "desde",
+    "hasta",
+    "entre",
+    "hacia",
+    "según",
+    "tras",
+    "ante",
+    "contra",
+    "durante",
+    "bajo",
+    "mediante",
+    "salvo",
+    "excepto",
+    "junto",
+    "y",
+    "e",
+    "o",
+    "u",
+    "que",
+    "pero",
+    "si",
+    "porque",
+    "como",
+    "cuando",
+    "aunque",
+    "mientras",
+    "pues",
+    "ni",
+    "sino",
+    "mas",
+    "embargo",
+    "además",
+    "haber",
+    "poder",
+    "deber",
+    "no",
+    "sí",
+    "más",
+    "menos",
+    "muy",
+    "ya",
+    "ahora",
+    "aquí",
+    "allí",
+    "ahí",
+    "allá",
+    "acá",
+    "arriba",
+    "abajo",
+    "siempre",
+    "nunca",
+    "jamás",
+    "también",
+    "tampoco",
+    "así",
+    "tan",
+    "casi",
+    "luego",
+    "entonces",
+    "después",
+    "antes",
+    "todavía",
+    "aún",
+    "quizá",
+    "quizás",
+    "incluso",
+    "solo",
+    "sólo",
+    "bien",
+    "apenas",
+    "adelante",
+    "atrás",
+    "pronto",
+    "enseguida",
+    "encima",
+    "debajo",
+    "delante",
+    "detrás",
+    "dentro",
+    "fuera",
+    "cerca",
+    "lejos",
+    "alrededor"
+  ],
+  "ignoreTokens": [
+    "b",
+    "c",
+    "d",
+    "requena",
+    "raulito",
+    "san",
+    "don",
+    "doña",
+    "vos",
+    "inca"
+  ],
+  "grammarTipLabels": [
+    [
+      {
+        "source": "subjuntivo imperfecto|imperfecto de subjuntivo|gustara|subjuntivo perfecto|haya \\+ participio|haya [a-z]+(ado|ido)",
+        "flags": "i"
+      },
+      "Subjuntivo (imperfecto/perfecto)",
+      "imperfecto_subjuntivo"
+    ],
+    [
+      {
+        "source": "aunque \\+ subjuntivo|para que \\+ subjuntivo|a menos que|con tal de que|sin que|hay algo que \\+ subjuntivo",
+        "flags": "i"
+      },
+      "Subjuntivo (avanzado)",
+      "subjuntivo_avanzado"
+    ],
+    [
+      {
+        "source": "subjuntivo",
+        "flags": "i"
+      },
+      "Subjuntivo",
+      "subjunctive_present_wishes"
+    ],
+    [
+      {
+        "source": "pasiva",
+        "flags": "i"
+      },
+      "Voz pasiva",
+      "voz_pasiva"
+    ],
+    [
+      {
+        "source": "pluscuamperfecto",
+        "flags": "i"
+      },
+      "Pluscuamperfecto",
+      "pluscuamperfecto"
+    ],
+    [
+      {
+        "source": "pret[eé]rito perfecto|he estado|he tenido",
+        "flags": "i"
+      },
+      "Pretérito perfecto",
+      "preterito_perfecto"
+    ],
+    [
+      {
+        "source": "futuro perfecto",
+        "flags": "i"
+      },
+      "Futuro perfecto",
+      "futuro_perfecto"
+    ],
+    [
+      {
+        "source": "(pret[eé]rito )?imperfecto",
+        "flags": "i"
+      },
+      "Pretérito imperfecto",
+      "imperfect_habits_descriptions"
+    ],
+    [
+      {
+        "source": "pret[eé]rito",
+        "flags": "i"
+      },
+      "Pretérito",
+      "preterite_regular"
+    ],
+    [
+      {
+        "source": "condicional|deber[ií]a|deber[ií]amos",
+        "flags": "i"
+      },
+      "Condicional",
+      "condicional_simple"
+    ],
+    [
+      {
+        "source": "futuro",
+        "flags": "i"
+      },
+      "Futuro",
+      "futuro_simple"
+    ],
+    [
+      {
+        "source": "reflexiv|encl[ií]tico|levantarse|sentirse|inscribirse|parecerse|llevarse bien|me siento|me levanto|lávate",
+        "flags": "i"
+      },
+      "Verbos reflexivos",
+      "reflexive_verbs_daily_routine"
+    ],
+    [
+      {
+        "source": "gustar|doler funciona como|me duele",
+        "flags": "i"
+      },
+      "Verbo como gustar",
+      "gustar_structure"
+    ],
+    [
+      {
+        "source": "'lo que'|nominaliza|cl[aá]usula relativa|relativo|cuyo|'que' introduce",
+        "flags": "i"
+      },
+      "Cláusulas de relativo",
+      "clausulas_relativo"
+    ],
+    [
+      {
+        "source": "para \\+ infinitivo|'para que'|finalidad|prop[oó]sito",
+        "flags": "i"
+      },
+      "'para' (finalidad)",
+      "para_purpose_destination"
+    ],
+    [
+      {
+        "source": "'por' (expresa|indica)|por (causa|medio|duraci)",
+        "flags": "i"
+      },
+      "'por' (causa/medio)",
+      "por_cause_means_duration"
+    ],
+    [
+      {
+        "source": "marcador|no solo\\.\\.\\. sino|sin embargo|por lo tanto",
+        "flags": "i"
+      },
+      "Marcadores del discurso",
+      "marcadores_discursivos"
+    ],
+    [
+      {
+        "source": "estilo indirecto|discurso indirecto",
+        "flags": "i"
+      },
+      "Estilo indirecto",
+      "estilo_indirecto"
+    ],
+    [
+      {
+        "source": "'estar'.*estado|'estar' expresa|estar \\+ participio|'estás?'",
+        "flags": "i"
+      },
+      "'estar'",
+      "estar_location_states"
+    ],
+    [
+      {
+        "source": "'ser'.*(cualidad|identidad)|'ser' expresa|'es' expresa|'ser de'|se usa 'ser'|con 'ser'|'ser' sin art[ií]culo|para profesiones",
+        "flags": "i"
+      },
+      "'ser'",
+      "ser_estar_adjectives"
+    ],
+    [
+      {
+        "source": "interrogativ|'cu[aá]l'|palabras? de pregunta",
+        "flags": "i"
+      },
+      "Interrogativos",
+      "question_words"
+    ],
+    [
+      {
+        "source": "g[eé]nero|concuerda en (g[eé]nero|singular|plural)",
+        "flags": "i"
+      },
+      "Concordancia",
+      "gender_adjective_agreement"
+    ]
+  ],
+  "frequency": {
+    "list": "PCIC (Instituto Cervantes)",
+    "cefrGraded": true,
+    "committed": true,
+    "note": "PCIC Inventario de nociones (A1-B2), membresía + grado CEFR (referencia pública Instituto Cervantes); orden intra-nivel por FrequencyWords (CC BY-SA). Build: tools/sources/build-pcic-core.py. Es la única lista curada+committeable+CEFR del es.",
+    "gateIndex": "es-core.json",
+    "gateFloor": 86,
+    "targetFloor": 88,
+    "localIndex": "elelex-es.json"
+  }
+}

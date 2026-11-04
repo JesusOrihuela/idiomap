@@ -39,7 +39,7 @@
 import { readFileSync, readdirSync, existsSync } from 'fs';
 import { join, dirname, basename } from 'path';
 import { fileURLToPath } from 'url';
-import { discoverPairs, pairMeta, allPhraseTopics, allVocabDecks, vocabLangs } from './lib-content.mjs';
+import { discoverPairs, pairMeta, allPhraseTopics, allVocabDecks, vocabLangs, loadTopic } from './lib-content.mjs';
 import AppLangProfiles from '../shared/js/lang-profiles.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -315,10 +315,10 @@ function checkRegionalTerms(text, file, id, field, rules, isAlternatives = false
 function auditPhraseFile(topic, pairId, sourceLang, targetLang) {
   const file = `shared/json/pairs/${pairId}/${topic}.json`;
   const absPath = join(ROOT, file);
-  if (!existsSync(absPath)) return;
+  if (!existsSync(absPath) && !existsSync(join(ROOT, 'shared/json/pairs', pairId, 'content', `${topic}.json`))) return;
 
   let data;
-  try { data = JSON.parse(readFileSync(absPath, 'utf8')); }
+  try { data = loadTopic(pairId, topic); }
   catch (e) { issue(file, null, 'JSON', `syntax error: ${e.message}`); return; }
 
   const phrases = data.phrases ?? [];
@@ -511,9 +511,9 @@ function auditPlacementFile(pairId) {
 function checkPhraseAudioAlignment(topic, pairId, targetLangCode) {
   const jsonPath  = join(JSON_DIR, 'pairs', pairId, `${topic}.json`);
   const audioPath = join(AUDIO_DIR, pairId, topic);
-  if (!existsSync(jsonPath) || !existsSync(audioPath)) return;
+  if (!existsSync(audioPath)) return;
 
-  const data    = JSON.parse(readFileSync(jsonPath, 'utf8'));
+  const data    = loadTopic(pairId, topic);
   const phrases = data.phrases ?? [];
   const fileRef = `shared/json/pairs/${pairId}/${topic}.json`;
 

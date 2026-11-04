@@ -1,0 +1,30 @@
+{
+  "id": "en-fi",
+  "source": {
+    "code": "en",
+    "flags": [
+      "us",
+      "gb"
+    ],
+    "name": "English",
+    "localName": "English"
+  },
+  "target": {
+    "code": "fi",
+    "flags": [
+      "fi"
+    ],
+    "name": "Suomi",
+    "localName": "Finnish"
+  },
+  "sourceLocale": "en-US",
+  "targetLocale": "fi-FI",
+  "label": "English → Suomi",
+  "ttsVoices": [
+    "fif_noora",
+    "fim_harri"
+  ],
+  "sttLanguage": "finnish",
+  "status": "stress",
+  "stressTest": true
+}

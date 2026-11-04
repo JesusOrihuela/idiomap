@@ -19,6 +19,7 @@ const AppFeedback = (() => {
 
     const wordsWrap = document.createElement('div');
     wordsWrap.className = 'uf-words';
+    if (typeof AppLang !== 'undefined') wordsWrap.lang = AppLang.targetCode();
     words.forEach(w => {
       const s = document.createElement('span');
       s.className = w.cls;
@@ -39,8 +40,8 @@ const AppFeedback = (() => {
       ? AppText.normalise(s, contractionMap || {})
       : s.toLowerCase().trim();
 
-    const expOrig  = correctText.trim().split(/\s+/).filter(Boolean);
-    const hearOrig = userText.trim().split(/\s+/).filter(Boolean);
+    const expOrig  = (typeof AppText !== 'undefined' ? AppText.tokens(correctText) : correctText.trim().split(/\s+/u)).filter(Boolean);
+    const hearOrig = (typeof AppText !== 'undefined' ? AppText.tokens(userText) : userText.trim().split(/\s+/u)).filter(Boolean);
     const expW     = expOrig.map(w => norm(w));
     const hearW    = hearOrig.map(w => norm(w));
 
@@ -70,15 +71,25 @@ const AppFeedback = (() => {
   }
 
   /* Incorrect: YOUR ANSWER row (colored per word) + EXPECTED row (all green).
+     YOUR ANSWER shows only what the user wrote: matches green, extras red, and one
+     muted "…" per run of missing words — the expected words belong to the second row.
      Returns a .uf-diff-wrap DOM node. */
   function buildDiff(userText, correctText, contractionMap) {
     const steps = _align(userText, correctText, contractionMap);
 
-    const yourWords = steps.map(s => {
-      if (s.type === 'match') return { cls: 'uf-word-ok',   text: s.hearWord };
-      if (s.type === 'extra') return { cls: 'uf-word-err',  text: s.hearWord };
-      return                         { cls: 'uf-word-miss', text: '[' + s.expWord + ']' };
-    });
+    const yourWords = [];
+    let inGap = false;
+    for (const s of steps) {
+      if (s.type === 'miss') {
+        if (!inGap) yourWords.push({ cls: 'uf-word-miss', text: '…' });
+        inGap = true;
+      } else {
+        inGap = false;
+        yourWords.push(s.type === 'match'
+          ? { cls: 'uf-word-ok',  text: s.hearWord }
+          : { cls: 'uf-word-err', text: s.hearWord });
+      }
+    }
 
     const expWords = steps
       .filter(s => s.type !== 'extra')
@@ -94,7 +105,7 @@ const AppFeedback = (() => {
   /* Correct: YOUR ANSWER row only, all words green.
      Returns a .uf-diff-wrap DOM node. */
   function buildCorrect(correctText) {
-    const words = correctText.trim().split(/\s+/).filter(Boolean)
+    const words = (typeof AppText !== 'undefined' ? AppText.tokens(correctText) : correctText.trim().split(/\s+/u)).filter(Boolean)
       .map(w => ({ cls: 'uf-word-ok', text: w }));
 
     const wrap = document.createElement('div');
@@ -108,12 +119,13 @@ const AppFeedback = (() => {
      EXPECTED row (only on incorrect): all words green with the correct word in the blank position.
      blankedPhrase contains '___' where the blank is. */
   function buildCloze(blankedPhrase, userWord, correctWord, isCorrect) {
-    const tokens = blankedPhrase.trim().split(/\s+/);
+    const tokens = (typeof AppText !== 'undefined' ? AppText.tokens(blankedPhrase) : blankedPhrase.trim().split(/\s+/u));
     const blankIdx = tokens.indexOf('___');
 
     function makeWords(word, correct) {
       return tokens.map((t, i) => {
-        if (i !== blankIdx) return { cls: 'uf-word-ok', text: t };
+        // Contexto en neutro: el color marca solo la palabra que se evaluó.
+        if (i !== blankIdx) return { cls: 'uf-word-neutral', text: t };
         return { cls: correct ? 'uf-word-ok' : 'uf-word-err', text: word };
       });
     }
@@ -287,21 +299,21 @@ const AppFeedback = (() => {
   // "floating". Keep new icons balanced the same way.
   const _ICON = {
     gender: {
-      femenino:  _svg('<circle cx="8" cy="5.8" r="3"/><path d="M8 8.8V13.5M5.8 11.4h4.4"/>', '#DB2777'),
-      masculino: _svg('<circle cx="7" cy="9.2" r="3"/><path d="M9.1 7.1 12.5 3.7M9.8 3.5H13V6.7"/>', '#2563EB'),
-      neutro:    _svg('<circle cx="8" cy="6.5" r="3"/><path d="M8 9.5V13.5"/>', '#7C3AED'),
+      femenino:  _svg('<circle cx="8" cy="5.8" r="3"/><path d="M8 8.8V13.5M5.8 11.4h4.4"/>', 'var(--pink-500)'),
+      masculino: _svg('<circle cx="7" cy="9.2" r="3"/><path d="M9.1 7.1 12.5 3.7M9.8 3.5H13V6.7"/>', 'var(--color-action)'),
+      neutro:    _svg('<circle cx="8" cy="6.5" r="3"/><path d="M8 9.5V13.5"/>', 'var(--violet-600)'),
     },
     register: {
-      formal:   _svg('<path d="M5 11V6C5 5.4 5.5 5 6 5h4c.5 0 1 .4 1 1v5"/><path d="M2.7 11.3h10.6M5 9h6"/>', '#4F46E5'),
-      neutral:  _svg('<rect x="2.7" y="4" width="10.6" height="8" rx="1.5"/><path d="M5.2 7.3h5.6M5.2 9.6h3.6"/>', '#6B7280'),
-      informal: _svg('<rect x="2.5" y="3.5" width="11" height="7" rx="2"/><path d="M6 10.5 5.2 13 8.4 10.5"/>', '#0D9488'),
+      formal:   _svg('<path d="M5 11V6C5 5.4 5.5 5 6 5h4c.5 0 1 .4 1 1v5"/><path d="M2.7 11.3h10.6M5 9h6"/>', 'var(--indigo-500)'),
+      neutral:  _svg('<rect x="2.7" y="4" width="10.6" height="8" rx="1.5"/><path d="M5.2 7.3h5.6M5.2 9.6h3.6"/>', 'var(--gray-500)'),
+      informal: _svg('<rect x="2.5" y="3.5" width="11" height="7" rx="2"/><path d="M6 10.5 5.2 13 8.4 10.5"/>', 'var(--emerald-500)'),
     },
-    number:   _svg('<path d="M6 3.2 5 12.8M11 3.2 10 12.8M3.2 6.4h9.6M2.7 9.6h9.6"/>', '#D97706'),
-    definiteness: _svg('<rect x="2.7" y="4.5" width="10.6" height="7" rx="1.5"/><path d="M5.3 8h5.4"/>', '#0EA5E9'),
-    standard: _svg('<path d="M8 4.2c-1.4-1-3.6-1-5 0v7.6c1.4-1 3.6-1 5 0 1.4-1 3.6-1 5 0V4.2c-1.4-1-3.6-1-5 0zM8 4.2v7.6"/>', '#7C3AED'),
-    case:     _svg('<circle cx="8" cy="8" r="5.3"/><circle cx="8" cy="8" r="2.7"/><circle cx="8" cy="8" r="0.7" fill="currentColor" stroke="none"/>', '#2563EB'),
-    loanword: _svg('<circle cx="8" cy="8" r="5.3"/><path d="M2.7 8h10.6M8 2.7c2 1.9 2 8.7 0 10.6M8 2.7c-2 1.9-2 8.7 0 10.6"/>', '#059669'),
-    synonym:  _svg('<path d="M4 6.6A4 4 0 0 1 11.4 5"/><path d="M11 2.4 11.6 5.3 8.7 4.9"/><path d="M12 9.4A4 4 0 0 1 4.6 11"/><path d="M5 13.6 4.4 10.7 7.3 11.1"/>', '#7C3AED'),
+    number:   _svg('<path d="M6 3.2 5 12.8M11 3.2 10 12.8M3.2 6.4h9.6M2.7 9.6h9.6"/>', 'var(--amber-600)'),
+    definiteness: _svg('<rect x="2.7" y="4.5" width="10.6" height="7" rx="1.5"/><path d="M5.3 8h5.4"/>', 'var(--sky-500)'),
+    standard: _svg('<path d="M8 4.2c-1.4-1-3.6-1-5 0v7.6c1.4-1 3.6-1 5 0 1.4-1 3.6-1 5 0V4.2c-1.4-1-3.6-1-5 0zM8 4.2v7.6"/>', 'var(--violet-600)'),
+    case:     _svg('<circle cx="8" cy="8" r="5.3"/><circle cx="8" cy="8" r="2.7"/><circle cx="8" cy="8" r="0.7" fill="currentColor" stroke="none"/>', 'var(--color-action)'),
+    loanword: _svg('<circle cx="8" cy="8" r="5.3"/><path d="M2.7 8h10.6M8 2.7c2 1.9 2 8.7 0 10.6M8 2.7c-2 1.9-2 8.7 0 10.6"/>', 'var(--emerald-500)'),
+    synonym:  _svg('<path d="M4 6.6A4 4 0 0 1 11.4 5"/><path d="M11 2.4 11.6 5.3 8.7 4.9"/><path d="M12 9.4A4 4 0 0 1 4.6 11"/><path d="M5 13.6 4.4 10.7 7.3 11.1"/>', 'var(--violet-600)'),
   };
   function _iconMarkup(dim, val) {
     const e = _ICON[dim];

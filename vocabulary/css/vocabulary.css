@@ -1,3 +1,5 @@
+@layer page {
+/* Idiomap · vocabulary/css/vocabulary.css · 2026-10-31 · sistema: docs/UI-SYSTEM.md */
 /* ============================================================
    vocabulary.css — Flashcard Vocabulary Trainer
    ============================================================ */
@@ -6,7 +8,7 @@
 #main-content {
   width: 100%;
   max-width: var(--max-w);
-  padding: 36px var(--page-pad-x) 72px;
+  padding: var(--page-pad-block) var(--page-pad-x);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,28 +16,27 @@
   flex: 1;
 }
 
-#vocab-content { width: 100%; max-width: var(--max-w); display: flex; flex-direction: column; align-items: center; }
+#vocab-content { display: flex; flex-direction: column; align-items: center; }
 
 
 
-/* ---- Stats Bar ---- */
 
 
 /* ---- Flashcard (3-D flip) ---- */
 .flashcard-scene {
   width: 100%;
-  max-width: 640px;            /* a proper centered card, not a full-width box the content floats in */
-  margin: 0 auto 24px;
-  perspective: 1000px;
+  max-width: var(--measure-2xl);
+  margin: 0 auto var(--space-6);
+  perspective: var(--flip-perspective);
   cursor: pointer;
-  animation: fadeInScale 0.6s 0.2s ease-out both;
+  animation: fadeInScale var(--duration-base) var(--transition-emphasis) both;
 }
 
 .flashcard {
   width: 100%;
   display: grid;
   transform-style: preserve-3d;
-  transition: transform 0.5s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform var(--duration-slow) cubic-bezier(0.4, 0.2, 0.2, 1);
 }
 
 .flashcard.flipped {
@@ -47,31 +48,31 @@
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-sm);
   overflow: hidden;
 }
 
 /* Front face */
 .flashcard-front {
   position: relative;
-  background: var(--clr-surface);
-  border: 1px solid var(--clr-border);
-  padding: 34px 28px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: var(--space-8) var(--space-7);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 280px;
+  min-height: var(--panel-min-h);
 }
 
 /* Back face — grid-stacked, flipped 180° so it shows when parent rotates */
 .flashcard-back {
   position: relative;
   transform: rotateY(180deg);
-  background: var(--clr-surface);
-  border: 1px solid var(--clr-border);
-  padding: 24px 28px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: var(--space-6) var(--space-7);
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -81,113 +82,113 @@
 .fc-front-top {
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 24px;
+  gap: var(--space-2);
+  margin-bottom: var(--space-6);
 }
 
 .word-category {
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--clr-text-muted);
+  font-size: var(--text-label);
+  font-weight: var(--weight-medium);
+  letter-spacing: var(--text-label-tracking);
+  color: var(--color-text-muted);
 }
 
 
 .word-text {
-  font-size: 2.6rem;
-  font-weight: 800;
-  color: var(--clr-text);
-  line-height: 1.1;
-  margin-bottom: 20px;
+  font-size: var(--text-display-md);
+  font-weight: var(--weight-semibold);
+  color: var(--color-text);
+  line-height: var(--text-display-md-leading);
+  margin-bottom: var(--space-5);
   /* word + its region/register badge on one row (badge stays small beside the large word) */
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: var(--space-3);
 }
 /* When the front shows the word's FORMS (all variants, each tagged) instead of a single large word:
    a centered, normal-size stack of the grouped tagged chips. */
 .word-text.word-text--variants {
-  font-size: 1.05rem;
-  font-weight: 600;
+  font-size: var(--text-body-lg);
+  font-weight: var(--weight-semibold);
   width: 100%;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: var(--space-4);
   justify-content: center;
-  margin-bottom: 22px;
+  margin-bottom: var(--space-5);
 }
-.word-text--variants .word-variants,
-.word-text--variants .alt-group { align-items: center; }
-.word-text--variants .alt-group-row { justify-content: center; }
-.word-text--variants .alt-group-label { text-align: center; }
+
+
 
 .listen-btn {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 8px 18px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--clr-text-muted);
-  background: var(--clr-surface-2);
-  border: 1px solid var(--clr-border);
-  border-radius: var(--radius-full);
-  cursor: pointer;
-  margin-bottom: 16px;
-  transition: background var(--transition), color var(--transition);
+  gap: var(--space-1);
+  margin-bottom: var(--space-4);
 }
 
-.listen-btn:hover { background: var(--clr-accent-light); color: var(--clr-accent-dark); border-color: var(--clr-accent); }
 
 .flip-hint {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: #fff;
-  background: var(--clr-primary);
-  padding: 11px 28px;
+  font-size: var(--text-body);
+  font-weight: var(--weight-medium);
+  color: var(--color-on-action);
+  background: var(--color-action);
+  padding: var(--space-3) var(--space-7);
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
   border-radius: var(--radius-full);
-  box-shadow: 0 4px 14px rgba(37,99,235,0.28);
-  transition: transform var(--transition-bounce), box-shadow var(--transition);
+  box-shadow: var(--shadow-hint);
+  transition: transform var(--transition-emphasis), box-shadow var(--transition);
+}
+/* Girada la tarjeta, el fondo ya no es un botón: el puntero no debe sugerirlo. */
+.flashcard-scene.is-flipped { cursor: default; }
+
+@media (hover: hover) and (pointer: fine) {
+  .flashcard-scene:hover .flip-hint {
+  box-shadow: var(--shadow-hint-hover);
+  }
 }
 
-.flashcard-scene:hover .flip-hint {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(37,99,235,0.36);
-}
 
 /* ---- Back Content ---- */
 .fc-back-word {
-  font-size: 1rem;
-  font-weight: 800;
-  color: var(--clr-primary);
-  margin-bottom: 12px;
-  letter-spacing: 0.01em;
+  font-size: var(--text-body-lg);
+  font-weight: var(--weight-medium);
+  color: var(--color-action);
+  margin-bottom: var(--space-3);
+  letter-spacing: var(--text-body-lg-tracking);
   /* word + its region/register badge sit on one baseline-aligned row */
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: var(--space-2);
+  /* Es un botón (volver al frente), pero se lee como el título de la cara. */
+  background: none;
+  border: 0;
+  padding: 0;
+  font-family: inherit;
+  text-align: start;
+  cursor: pointer;
 }
+.fc-back-word:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 2px; }
 
 /* The shown form's own variant tag (region flag / register pill), inline next to the word — so the
    learner sees WHICH variety the headword is (e.g. "Ordenador · España"), not only the others. */
 .fc-word-badge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: var(--space-1);
 }
 
 .fc-label {
   display: block;
-  font-size: 0.65rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--clr-text-muted);
-  margin-bottom: 4px;
+  font-size: var(--text-label);
+  font-weight: var(--weight-medium);
+  letter-spacing: var(--text-label-tracking);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-1);
 }
 
 /* Definition row: the definition text (left) + a two-flag language switch (right), vertically
@@ -196,124 +197,103 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: var(--space-3);
 }
 .fc-def-row .word-definition { flex: 1; }
+/* El foco entra aquí para que el lector anuncie la palabra; no es un control y no lleva anillo. */
+.fc-back-word:focus,
+.fc-back-word:focus-visible { outline: none; }
 .fc-def-switch {
   flex-shrink: 0;
   display: inline-flex;
   gap: 2px;
   padding: 2px;
-  background: var(--clr-surface-2);
-  border: 1px solid var(--clr-border);
-  border-radius: var(--radius-full, 999px);
+  background: var(--color-surface-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
 }
 .fc-def-switch.hidden { display: none; }
-.fc-def-side {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3px 7px;
-  border: none;
-  background: none;
-  border-radius: var(--radius-full, 999px);
-  cursor: pointer;
-  opacity: 0.4;
-  transition: opacity var(--transition, .2s), background var(--transition, .2s);
-}
+
 /* Smaller flags in the compact toggle: scale the whole stack down (flags + overlap together),
-   and pull the layout box in so the pill hugs them instead of feeling cramped. */
-.fc-def-side .flag-stack { transform: scale(0.7); transform-origin: center; margin: -3px -5px; }
-.fc-def-side img { display: block; border-radius: 2px; }
-.fc-def-side:hover { opacity: 0.75; }
-.fc-def-side--active { opacity: 1; background: var(--clr-surface); box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,0.12)); }
+   and pull the layout box in so the pill hugs them instead of feeling cramped. The fixed
+   frame keeps both language buttons the same width regardless of 1/2/3 flags. */
+.fc-def-side .flag-frame { --flag-frame-w: var(--space-9); --flag-frame-h: var(--icon-sm); }
+.fc-def-side .flag-stack { transform: scale(0.7); transform-origin: center; margin: -3px -var(--offset-2xs); }
+.fc-def-side img { display: block; border-radius: var(--radius-2xs); }
+
+
 
 .fc-definition-block {
-  margin-bottom: 12px;
+  margin-bottom: var(--space-3);
 }
 
 .word-definition {
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--clr-text);
-  line-height: 1.45;
+  font-size: var(--text-body-lg);
+  font-weight: var(--weight-medium);
+  color: var(--color-text);
+  line-height: var(--text-body-lg-leading);
 }
 
 .fc-divider {
   height: 1px;
-  background: var(--clr-border);
-  margin-bottom: 12px;
+  background: var(--color-border);
+  margin-bottom: var(--space-3);
 }
 
 .fc-example-block {
-  margin-bottom: 12px;
+  margin-bottom: var(--space-3);
 }
 
 .word-example {
-  font-size: 0.88rem;
+  font-size: var(--text-body);
   font-style: italic;
-  color: var(--clr-text-muted);
-  font-weight: 500;
-  line-height: 1.5;
+  color: var(--color-text-muted);
+  font-weight: var(--weight-medium);
+  line-height: var(--text-body-leading);
 }
 
 .fc-translation-block {
-  padding-top: 12px;
-  border-top: 1px solid var(--clr-border);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-border);
 }
 
 .word-translation {
-  font-size: 0.95rem;
-  font-weight: 400;
-  color: var(--clr-text-muted);
+  font-size: var(--text-body-lg);
+  font-weight: var(--weight-regular);
+  color: var(--color-text-muted);
 }
 
 /* Other regional/register forms (recognition strip). A clean, separated, LEFT-aligned section —
    not a lone centred pill glued under the translation. */
 .fc-variants-block {
-  margin-top: 12px;
-  padding-top: 12px;
-  border-top: 1px solid var(--clr-border);
-}
-.word-variants {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 12px;
-  margin-top: 6px;
+  margin-top: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-border);
 }
 /* Variants are grouped by KIND so the learner sees WHY they differ: grammatical FORMS of one word
    (case/number/gender) vs ALTERNATIVE WORDS for the same meaning (region/register/loanword). */
-.alt-group { display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
-.alt-group-label {
-  font-size: 0.6rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--clr-text-muted);
-}
-.alt-group-row { display: flex; flex-wrap: wrap; gap: 8px; }
+
+
+
 
 .listen-btn-back {
-  margin-bottom: 12px;
+  margin-bottom: var(--space-3);
   align-self: flex-start;
 }
 
 
 /* ---- Responsive ---- */
 @media (max-width: 480px) {
-  #main-content { padding: 24px var(--page-pad-x) 56px; }
-  .word-text { font-size: 2rem; }
-  .flashcard-front { padding: 24px 20px 22px; }
-  .flashcard-back  { padding: 20px; }
-  .rating-btn { padding: 9px 16px; font-size: 0.85rem; }
-}
+  #main-content { padding: var(--space-6) var(--page-pad-x) var(--space-14); }
+  .word-text { font-size: var(--text-numeric); }
+  .flashcard-front { padding: var(--space-6) var(--space-5) var(--size-badge); }
+  .flashcard-back  { padding: var(--space-5); }}
 
-#topic-picker { width: 100%; }
 
-#vocab-content .next-btn {
-  margin-top: 8px;
+#vocab-content #next-btn {
+  margin-top: var(--space-2);
   width: 100%;
-  padding: 14px;
-  animation: fadeInScale 0.3s ease-out both;
+  padding: var(--space-3);
+  animation: fadeInScale var(--duration-base) var(--transition-emphasis) both;
+}
 }

@@ -1,0 +1,714 @@
+{
+  "tag": "en",
+  "name": "English",
+  "status": "complete",
+  "grammaticalGender": false,
+  "sourceGender": {
+    "nounsCapitalized": false,
+    "fixWords": [
+      "he",
+      "him",
+      "his",
+      "she",
+      "her",
+      "hers",
+      "son",
+      "daughter",
+      "brother",
+      "sister",
+      "uncle",
+      "aunt",
+      "husband",
+      "wife",
+      "boyfriend",
+      "girlfriend",
+      "grandmother",
+      "grandfather",
+      "grandma",
+      "grandpa",
+      "grandson",
+      "granddaughter",
+      "granny",
+      "mother",
+      "father",
+      "mom",
+      "mum",
+      "dad",
+      "nephew",
+      "niece",
+      "king",
+      "queen",
+      "prince",
+      "princess",
+      "actor",
+      "actress",
+      "waiter",
+      "waitress",
+      "host",
+      "hostess",
+      "widow",
+      "widower",
+      "groom",
+      "bride",
+      "boy",
+      "girl",
+      "man",
+      "men",
+      "woman",
+      "women",
+      "lady",
+      "ladies",
+      "gentleman",
+      "guy",
+      "sir",
+      "madam",
+      "mister",
+      "mrs",
+      "mr",
+      "ms",
+      "monk",
+      "nun"
+    ]
+  },
+  "voices": [
+    "af_bella",
+    "af_heart",
+    "am_michael",
+    "bf_emma"
+  ],
+  "tts": {
+    "engine": "kokoro"
+  },
+  "foldPreserve": "",
+  "nativeChars": "",
+  "clozeStopWords": [
+    "a",
+    "an",
+    "the",
+    "in",
+    "on",
+    "at",
+    "to",
+    "of",
+    "is",
+    "are",
+    "was",
+    "were",
+    "be",
+    "been",
+    "have",
+    "has",
+    "had",
+    "do",
+    "does",
+    "did",
+    "will",
+    "would",
+    "could",
+    "should",
+    "may",
+    "might",
+    "must",
+    "shall",
+    "and",
+    "or",
+    "but",
+    "if",
+    "so",
+    "yet",
+    "for",
+    "nor",
+    "i",
+    "you",
+    "he",
+    "she",
+    "we",
+    "they",
+    "me",
+    "him",
+    "her",
+    "us",
+    "them",
+    "my",
+    "your",
+    "his",
+    "its",
+    "our",
+    "their",
+    "this",
+    "that",
+    "these",
+    "those",
+    "with",
+    "from",
+    "by",
+    "as",
+    "not",
+    "no",
+    "up",
+    "out",
+    "it",
+    "what",
+    "when",
+    "where",
+    "why",
+    "who",
+    "whom",
+    "whose",
+    "which",
+    "how"
+  ],
+  "functionWords": [
+    "a",
+    "an",
+    "the",
+    "this",
+    "that",
+    "these",
+    "those",
+    "each",
+    "every",
+    "either",
+    "neither",
+    "another",
+    "other",
+    "such",
+    "all",
+    "both",
+    "some",
+    "any",
+    "no",
+    "none",
+    "much",
+    "many",
+    "more",
+    "most",
+    "less",
+    "least",
+    "few",
+    "several",
+    "enough",
+    "half",
+    "i",
+    "me",
+    "my",
+    "mine",
+    "myself",
+    "you",
+    "your",
+    "yours",
+    "yourself",
+    "yourselves",
+    "he",
+    "him",
+    "his",
+    "himself",
+    "she",
+    "her",
+    "hers",
+    "herself",
+    "it",
+    "its",
+    "itself",
+    "we",
+    "us",
+    "our",
+    "ours",
+    "ourselves",
+    "they",
+    "them",
+    "their",
+    "theirs",
+    "themselves",
+    "who",
+    "whom",
+    "whose",
+    "which",
+    "what",
+    "whatever",
+    "whoever",
+    "whichever",
+    "one",
+    "ones",
+    "someone",
+    "somebody",
+    "something",
+    "anyone",
+    "anybody",
+    "anything",
+    "everyone",
+    "everybody",
+    "everything",
+    "nobody",
+    "nothing",
+    "else",
+    "of",
+    "to",
+    "in",
+    "for",
+    "on",
+    "with",
+    "at",
+    "by",
+    "from",
+    "about",
+    "into",
+    "onto",
+    "over",
+    "under",
+    "above",
+    "below",
+    "between",
+    "among",
+    "through",
+    "during",
+    "before",
+    "after",
+    "since",
+    "until",
+    "till",
+    "against",
+    "toward",
+    "towards",
+    "upon",
+    "within",
+    "without",
+    "throughout",
+    "despite",
+    "except",
+    "besides",
+    "beyond",
+    "behind",
+    "beneath",
+    "beside",
+    "across",
+    "along",
+    "around",
+    "round",
+    "off",
+    "out",
+    "up",
+    "down",
+    "near",
+    "per",
+    "via",
+    "than",
+    "as",
+    "unto",
+    "and",
+    "or",
+    "but",
+    "nor",
+    "so",
+    "yet",
+    "if",
+    "because",
+    "while",
+    "whereas",
+    "although",
+    "though",
+    "unless",
+    "whether",
+    "once",
+    "when",
+    "whenever",
+    "where",
+    "wherever",
+    "why",
+    "how",
+    "plus",
+    "be",
+    "am",
+    "is",
+    "are",
+    "was",
+    "were",
+    "been",
+    "being",
+    "have",
+    "has",
+    "had",
+    "do",
+    "does",
+    "did",
+    "will",
+    "would",
+    "shall",
+    "should",
+    "can",
+    "could",
+    "may",
+    "might",
+    "must",
+    "ought",
+    "dare",
+    "used",
+    "not",
+    "yes",
+    "yeah",
+    "yep",
+    "nope",
+    "there",
+    "here",
+    "now",
+    "then",
+    "very",
+    "just",
+    "only",
+    "also",
+    "even",
+    "too",
+    "still",
+    "quite",
+    "rather",
+    "already",
+    "almost",
+    "always",
+    "never",
+    "ever",
+    "often",
+    "sometimes",
+    "usually",
+    "seldom",
+    "rarely",
+    "however",
+    "therefore",
+    "thus",
+    "hence",
+    "perhaps",
+    "maybe",
+    "instead",
+    "indeed",
+    "anyway",
+    "anyhow",
+    "moreover",
+    "furthermore",
+    "nevertheless",
+    "again",
+    "soon",
+    "otherwise",
+    "meanwhile",
+    "likewise",
+    "somewhat",
+    "somehow",
+    "everywhere",
+    "anywhere",
+    "somewhere",
+    "nowhere",
+    "elsewhere"
+  ],
+  "ignoreTokens": [
+    "'s",
+    "'t",
+    "'m",
+    "'re",
+    "'ll",
+    "'ve",
+    "'d",
+    "s",
+    "t",
+    "m",
+    "re",
+    "ll",
+    "ve",
+    "d",
+    "don",
+    "doesn",
+    "didn",
+    "isn",
+    "aren",
+    "wasn",
+    "won",
+    "can",
+    "couldn",
+    "wouldn",
+    "shouldn",
+    "oh",
+    "uh",
+    "ah",
+    "eh",
+    "mmm",
+    "hmm",
+    "yeah",
+    "yep",
+    "nope",
+    "huh",
+    "wow",
+    "ok",
+    "okay"
+  ],
+  "grammarTipLabels": [
+    [
+      {
+        "source": "present perfect continuous",
+        "flags": "i"
+      },
+      "Present Perfect Continuous",
+      null
+    ],
+    [
+      {
+        "source": "present perfect",
+        "flags": "i"
+      },
+      "Present Perfect",
+      "present_perfect_experience"
+    ],
+    [
+      {
+        "source": "past perfect",
+        "flags": "i"
+      },
+      "Past Perfect",
+      "past_perfect"
+    ],
+    [
+      {
+        "source": "past continuous",
+        "flags": "i"
+      },
+      "Past Continuous",
+      "past_continuous"
+    ],
+    [
+      {
+        "source": "present continuous",
+        "flags": "i"
+      },
+      "Present Continuous",
+      "present_continuous_now"
+    ],
+    [
+      {
+        "source": "present simple",
+        "flags": "i"
+      },
+      "Present Simple",
+      "present_simple_habits"
+    ],
+    [
+      {
+        "source": "simple past",
+        "flags": "i"
+      },
+      "Simple Past",
+      "simple_past"
+    ],
+    [
+      {
+        "source": "will\\b.*going to|going to.*\\bwill",
+        "flags": "i"
+      },
+      "will vs. going to",
+      "future_will_going_to"
+    ],
+    [
+      {
+        "source": "first conditional",
+        "flags": "i"
+      },
+      "First Conditional",
+      "conditional_first"
+    ],
+    [
+      {
+        "source": "second conditional",
+        "flags": "i"
+      },
+      "Second Conditional",
+      "conditional_second"
+    ],
+    [
+      {
+        "source": "third conditional",
+        "flags": "i"
+      },
+      "Third Conditional",
+      "conditional_third"
+    ],
+    [
+      {
+        "source": "zero conditional",
+        "flags": "i"
+      },
+      "Zero Conditional",
+      "conditional_zero"
+    ],
+    [
+      {
+        "source": "conditional",
+        "flags": "i"
+      },
+      "Conditionals",
+      "conditional_first"
+    ],
+    [
+      {
+        "source": "passive",
+        "flags": "i"
+      },
+      "Passive Voice",
+      "passive_present_simple"
+    ],
+    [
+      {
+        "source": "'would'",
+        "flags": "i"
+      },
+      "Modal: would",
+      null
+    ],
+    [
+      {
+        "source": "could be better",
+        "flags": "i"
+      },
+      "Idiomatic expression",
+      null
+    ],
+    [
+      {
+        "source": "intensifier",
+        "flags": "i"
+      },
+      "Intensifier",
+      null
+    ],
+    [
+      {
+        "source": "must\\b|have to",
+        "flags": "i"
+      },
+      "must / have to",
+      "modal_must_obligation"
+    ],
+    [
+      {
+        "source": "should",
+        "flags": "i"
+      },
+      "should",
+      "modal_should_advice"
+    ],
+    [
+      {
+        "source": "\\bcan\\b|\\bcould\\b",
+        "flags": "i"
+      },
+      "can / could",
+      "modal_can_ability"
+    ],
+    [
+      {
+        "source": "modal",
+        "flags": "i"
+      },
+      "Modal Verbs",
+      "modal_can_ability"
+    ],
+    [
+      {
+        "source": "idiomatic phrasal",
+        "flags": "i"
+      },
+      "Idiomatic Phrasal Verbs",
+      "phrasal_idiomatic"
+    ],
+    [
+      {
+        "source": "phrasal verb",
+        "flags": "i"
+      },
+      "Phrasal Verbs",
+      "phrasal_common"
+    ],
+    [
+      {
+        "source": "gerund",
+        "flags": "i"
+      },
+      "Verb + Gerund",
+      "verb_gerund"
+    ],
+    [
+      {
+        "source": "infinitive",
+        "flags": "i"
+      },
+      "Verb + Infinitive",
+      "verb_infinitive"
+    ],
+    [
+      {
+        "source": "wh.question",
+        "flags": "i"
+      },
+      "Wh- Questions",
+      "questions_wh"
+    ],
+    [
+      {
+        "source": "comparative",
+        "flags": "i"
+      },
+      "Comparatives",
+      "comparatives_short"
+    ],
+    [
+      {
+        "source": "preposition.*time",
+        "flags": "i"
+      },
+      "Prepositions of Time",
+      "prepositions_time"
+    ],
+    [
+      {
+        "source": "preposition.*place",
+        "flags": "i"
+      },
+      "Prepositions of Place",
+      "prepositions_place"
+    ],
+    [
+      {
+        "source": "preposition",
+        "flags": "i"
+      },
+      "Prepositions",
+      "prepositions_time"
+    ],
+    [
+      {
+        "source": "\\ba\\/an\\b|article.*a\\b",
+        "flags": "i"
+      },
+      "A / An",
+      "article_a_an"
+    ],
+    [
+      {
+        "source": "\\bthe\\b.*article|article.*\\bthe\\b",
+        "flags": "i"
+      },
+      "The",
+      "article_the"
+    ],
+    [
+      {
+        "source": "zero article",
+        "flags": "i"
+      },
+      "Zero Article",
+      "article_zero"
+    ]
+  ],
+  "frequency": {
+    "list": "NGSL",
+    "cefrGraded": false,
+    "committed": true,
+    "note": "New General Service List (Browne et al.), 2801 curated learner lemmas.",
+    "gateIndex": "ngsl-en.json",
+    "gateFloor": 86
+  }
+}

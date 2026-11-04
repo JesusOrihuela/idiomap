@@ -7,14 +7,20 @@
    ============================================================ */
 (function () {
 
+
   // ── Path-mode highlight ────────────────────────────────────────
   if (new URLSearchParams(location.search).get('path') === '1') {
     document.body.classList.add('path-mode');
-    document.querySelectorAll('.mode-switcher .mode-btn.active').forEach(function (el) {
+    document.querySelectorAll('.mode-switcher .nav-item--active').forEach(function (el) {
       el.classList.remove('active');
+      el.classList.remove('nav-item--active');
+      el.removeAttribute('aria-current');
     });
     var ml = document.querySelector('.mode-switcher [data-nav="my-learning"]');
-    if (ml) { ml.classList.add('active'); ml.classList.add('active--path'); }
+    if (ml) {
+      ml.classList.add('nav-item--active-path');
+      ml.setAttribute('aria-current', 'true');
+    }
   }
 
   // ── i18n label injection ───────────────────────────────────────
@@ -41,12 +47,12 @@
     'progress':    'progress_page_title',
     'placement':   'placement_page_title',
   };
-  var _parts = location.pathname.split('/');
-  var _htmlIdx = _parts.indexOf('html');
-  var _activity = _htmlIdx > 0 ? _parts[_htmlIdx - 1] : null;
+  var _parts = location.pathname.split('/').filter(Boolean);
+  if (_parts[_parts.length - 1] === 'index.html') _parts.pop();
+  var _activity = _parts.length ? _parts[_parts.length - 1] : null;
   var _pageTxt = (_activity && _PAGE_TITLE_MAP[_activity]) ? AppLang.t(_PAGE_TITLE_MAP[_activity]) : null;
   if (_pageTxt && _pageTxt !== _PAGE_TITLE_MAP[_activity]) {
-    document.title = _pageTxt.replace(/<[^>]*>/g, '') + ' — Idiomap';
+    document.title = _pageTxt.replace(/<[^>]*>/g, '') + ' · Idiomap';
   }
 
   // 3. Footer — built from i18n for ALL pairs. The name is invariant; only the
@@ -57,12 +63,28 @@
     if (_devTxt !== 'footer_developed_by') {
       var _yrEl = _footerP.querySelector('#footer-year');
       var _yr = _yrEl ? _yrEl.textContent : new Date().getFullYear();
-      _footerP.innerHTML = '© <span id="footer-year">' + _yr + '</span> ' + _devTxt + ' aurariola<span style="color:var(--clr-accent)">.</span>com';
+      _footerP.innerHTML = '© <span id="footer-year">' + _yr + '</span> ' + _devTxt + ' aurariola<span style="color:var(--color-action)">.</span>com';
     }
   }
 
   // NOTE: buttons, exercise titles and page-header h1 are no longer special-cased
   // here — they carry data-i18n / data-i18n-html in the HTML and are filled by the
   // generic passes above, for every language pair (no hardcoded text anywhere).
+
+  // Nav fits in ONE row at every width. Start with full labels; if the row would
+  // overflow, collapse to icon-only, then to icon-only without the active label.
+  function _fitNav() {
+    var nav = document.querySelector('.mode-switcher');
+    if (!nav) return;
+    nav.classList.remove('mode-switcher--compact', 'mode-switcher--tight');
+    if (nav.scrollWidth > nav.clientWidth + 1) {
+      nav.classList.add('mode-switcher--compact');
+      if (nav.scrollWidth > nav.clientWidth + 1) nav.classList.add('mode-switcher--tight');
+    }
+  }
+  _fitNav();
+  document.addEventListener('DOMContentLoaded', _fitNav);
+  window.addEventListener('resize', _fitNav);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(_fitNav);
 
 }());

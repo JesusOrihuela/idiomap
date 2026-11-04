@@ -1,0 +1,12 @@
+{
+  "_comment": "Clases que solo sirven de enganche (JS, grid o prefijo de modificador). No deben tener declaraciones propias.",
+  "allowed": {
+    "activities-section": "seccion del landing; el estilo vive en .activities-intro/.activity-grid",
+    "ex-matrix": "contenedor de filas dentro de .ex-matrix-wrap",
+    "ml-trail": "base del modificador .ml-trail--snake",
+    "ob-quiz-fill": "enganche sobre .progress-bar__fill",
+    "pb-track-fill": "enganche sobre .progress-bar__fill",
+    "session-progress-fill": "enganche sobre .progress-bar__fill",
+    "express-next-btn": "enganche del boton dinamico (lleva .btn)"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "en-de",
+  "source": {
+    "code": "en",
+    "flags": [
+      "us",
+      "gb"
+    ],
+    "name": "English",
+    "localName": "English"
+  },
+  "target": {
+    "code": "de",
+    "flags": [
+      "at",
+      "de"
+    ],
+    "name": "Deutsch",
+    "localName": "German"
+  },
+  "sourceLocale": "en-US",
+  "targetLocale": "de-DE",
+  "label": "English → Deutsch",
+  "ttsVoices": [
+    "df_hedda",
+    "dm_conrad"
+  ],
+  "sttLanguage": "german",
+  "status": "stress",
+  "stressTest": true
+}

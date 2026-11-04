@@ -77,7 +77,7 @@ const AppPath = (() => {
       emoji: '🎙️',
       label: 'Pronunciación',
       skill: 'speaking',
-      href: topicId => `speaking/html/speaking.html?topic=${topicId}`,
+      href: topicId => `speaking/?topic=${topicId}`,
       actPrefix: '',
     },
     {
@@ -85,7 +85,7 @@ const AppPath = (() => {
       emoji: '✍️',
       label: 'Dictado',
       skill: 'listening',
-      href: topicId => `dictation/html/dictation.html?topic=${topicId}`,
+      href: topicId => `dictation/?topic=${topicId}`,
       actPrefix: 'dict_',
     },
     {
@@ -93,7 +93,7 @@ const AppPath = (() => {
       emoji: '🔤',
       label: 'Cloze',
       skill: 'reading',
-      href: topicId => `cloze/html/cloze.html?topic=${topicId}`,
+      href: topicId => `cloze/?topic=${topicId}`,
       actPrefix: 'cloze_',
     },
     {
@@ -101,7 +101,7 @@ const AppPath = (() => {
       emoji: '🧩',
       label: 'Secuencia',
       skill: 'writing',
-      href: topicId => `scramble/html/scramble.html?topic=${topicId}`,
+      href: topicId => `scramble/?topic=${topicId}`,
       actPrefix: 'scramble_',
     },
     {
@@ -109,7 +109,7 @@ const AppPath = (() => {
       emoji: '🔄',
       label: 'Traducción',
       skill: 'writing',
-      href: topicId => `translation/html/translation.html?topic=${topicId}`,
+      href: topicId => `translation/?topic=${topicId}`,
       actPrefix: 'trans_',
     },
   ];
@@ -120,7 +120,7 @@ const AppPath = (() => {
       id: 'quiz',
       emoji: '🧠',
       label: 'Quiz',
-      href: topicId => `quiz/html/quiz.html?topic=${topicId}`,
+      href: topicId => `quiz/?topic=${topicId}`,
       cardPrefix: topicId => 'quiz_' + topicId,
       total: 15,
     },
@@ -128,7 +128,7 @@ const AppPath = (() => {
       id: 'vocabulary',
       emoji: '📚',
       label: 'Vocabulario',
-      href: topicId => `vocabulary/html/vocabulary.html?topic=${topicId}`,
+      href: topicId => `vocabulary/?topic=${topicId}`,
       cardPrefix: topicId => 'vocab_' + topicId,
       total: 15,
     },
@@ -523,7 +523,7 @@ const AppPath = (() => {
         ..._stats(function (id) { return scrAct.actPrefix + id; }, phraseIds) },
     ].concat(grammarRules.length > 0
       ? [{ actId: 'grammar', emoji: '📐', label: 'Gramática',
-           href: 'grammar/html/grammar.html',
+           href: 'grammar/',
            mastered: gMastered, due: gDue, total: grammarRules.length }]
       : []);
 

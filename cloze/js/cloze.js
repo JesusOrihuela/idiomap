@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     AppUI.addPathBackLink('exercise-area', function () { return _lastCorrect; });
   }
 
-  AppAudio.setBase('../../shared/audio/' + AppLangPair.getActive().id + '/');
+  AppAudio.setBase('../shared/audio/' + AppLangPair.getActive().id + '/');
   AppAudio.warmup();
 });
 
@@ -164,7 +164,7 @@ function selectBlankWord(phrase) {
   const p = AppCloze.pick(phrase);
   if (!p) return null;
   return {
-    blank:        p.word.replace(/[^a-zA-Z'-]/g, ''),
+    blank:        AppText.normaliseSingle(p.word),
     blankClean:   p.clean,
     blankDisplay: p.word,
     blankedPhrase: p.tokens.map((w, i) => i === p.idx ? '___' : w).join(' '),
@@ -203,7 +203,7 @@ function showPhrase(startIndex) {
     const _picker = document.getElementById('topic-picker');
     if (_picker) {
       const _msg = document.createElement('p');
-      _msg.style.cssText = 'color:var(--clr-danger);font-size:0.9rem;margin:0 0 12px;text-align:center;';
+      _msg.style.cssText = 'color:var(--color-danger);font-size:0.9rem;margin:0 0 12px;text-align:center;';
       _msg.textContent = AppLang.t('no_cloze_exercises');
       _picker.prepend(_msg);
       setTimeout(() => _msg.remove(), 4000);
@@ -219,8 +219,10 @@ function showPhrase(startIndex) {
     host.textContent = '';
     host.appendChild(document.createTextNode(parts[0] || ''));
     var blank = document.createElement('span');
+    blank.className = 'cloze-blank';
+    blank.setAttribute('role', 'img');
     blank.setAttribute('aria-label', AppLang.t('cloze_blank_word_aria'));
-    blank.textContent = '[___]';
+    blank.textContent = '\u00A0';
     host.appendChild(blank);
     if (parts.length > 1) host.appendChild(document.createTextNode(parts.slice(1).join('___')));
   })();
@@ -269,7 +271,7 @@ function checkAnswer() {
   input.disabled    = true;
   document.getElementById('check-btn').disabled = true;
 
-  const guess = raw.toLowerCase().replace(/['']/g, "'").replace(/[^a-z'\- ]/g, '').replace(/\s+/g, ' ').trim();
+  const guess = AppText.normaliseSingle(raw);
   const isCorrect = guess === currentBlank.blankClean || _equivalentMatch(guess, currentBlank.blankClean);
   _lastCorrect = isCorrect;
 
@@ -299,7 +301,7 @@ function checkAnswer() {
       : null;
     if (info && info.ruleId) {
       document.getElementById('grammar-chip-label').textContent = info.label;
-      document.getElementById('grammar-chip').href = '../../grammar/html/grammar.html?rule=' + info.ruleId;
+      document.getElementById('grammar-chip').href = '../grammar/?rule=' + info.ruleId;
       chipWrap.classList.remove('hidden');
     } else {
       chipWrap.classList.add('hidden');
@@ -321,7 +323,7 @@ function rateAndNext(quality) {
   if (_pathModeActive && typeof PathSession !== 'undefined') {
     const nextHref = PathSession.advance();
     if (nextHref) {
-      window.location.href = '../../' + nextHref;
+      window.location.href = '../' + nextHref;
     } else {
       _showPathSessionComplete();
     }

@@ -46,6 +46,32 @@ jobs:
       - name: Content rule checks (check-content.mjs)
         run: node tools/check-content.mjs
 
+      - name: No em/en dashes in user-facing text
+        run: node tools/check-dashes.mjs
+
+      # Layered language model: 18 active languages, pair manifests and generated
+      # pairs.js/languages.js must be in sync with the JSON sources.
+      - name: Language model (build --check + check-language-model.mjs)
+        run: node tools/build-language-model.mjs --check && node tools/check-language-model.mjs
+
+      - name: Language profiles + UI bundles in sync
+        run: node tools/build-lang-profiles.mjs --check && node tools/build-ui-bundles.mjs --check
+
+      - name: Logical CSS properties
+        run: node tools/migrate-logical-css.mjs --check && node tools/check-lang-attrs.mjs
+
+      - name: Text precision golden tests
+        run: node tests/text-golden.mjs
+
+      - name: Layered content
+        run: node tools/check-layered-content.mjs
+
+      - name: Audio references
+        run: node tools/check-audio-refs.mjs
+
+      - name: Audio duplicates + signal
+        run: node tools/dedupe-audio.mjs --gate && node tools/build-audio-manifest.mjs --check && node tools/check-audio.mjs
+
       - name: Content audit (audit.mjs --quick)
         run: node tools/audit.mjs --quick
 
@@ -111,6 +137,40 @@ jobs:
       # source of truth for every category's scope; it must stay in sync with the
       # actual content (no orphan scopes, no unscoped category) and every phrase id
       # must respect its topic prefix. Anchors the semantic content-quality audit.
+      # Design tokens: tokens/*.tokens.json (DTCG 2025.10) is the single source;
+      # shared/css/tokens.css is generated. Fails if the CSS was edited by hand or
+      # the JSON no longer produces it.
+      - name: Design tokens in sync + contrast contract
+        run: node tools/build-tokens.mjs --check && node tools/check-tokens.mjs
+
+      # UI system gate (check-ui-system.mjs)
+      - name: UI system gate (check-ui-system.mjs)
+        run: node tools/check-ui-system.mjs
+
+      # Component standardization: no page-level overrides of canonical components,
+      # a single base rule per component, required states, no unstyled classes,
+      # no !important outside utilities/reduced-motion.
+      - name: Component gate (check-components.mjs)
+        run: node tools/check-components.mjs
+
+      # Flags: real imported assets (no SVG drawn in JS), aspect ratio = FLAG_AR,
+      # no orphan files, every referenced code has its asset.
+      - name: Flag gate (check-flags.mjs)
+        run: node tools/check-flags.mjs
+
+      # Links: internal hrefs resolve, no href="#" or javascript:, active nav has
+      # aria-current, target=_blank has rel + new-tab disclosure, icon-only links named.
+      - name: Link gate (check-links.mjs)
+        run: node tools/check-links.mjs
+
+      # Origin/canonical/sitemap/robots/manifest come from site.json (single source).
+      - name: Site metadata (site.json)
+        run: node tools/build-site-meta.mjs --check
+
+      # Nav bar is generated from shared/json/nav.json (no drift across pages).
+      - name: Nav (shared/json/nav.json)
+        run: node tools/build-nav.mjs --check
+
       - name: Category taxonomy conforms (check-taxonomy.mjs)
         run: node tools/check-taxonomy.mjs
 
@@ -256,6 +316,7 @@ jobs:
             progress
             placement
             tests
+            tools
           sparse-checkout-cone-mode: true
       - name: Set up Node
         uses: actions/setup-node@v5
@@ -271,3 +332,13 @@ jobs:
         env:
           PW_CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
           PW_CHANNEL: chrome   # fallback if the action's path output is empty
+      - name: Phrase index contract (chip, variants, hover)
+        run: npm run test:index
+        env:
+          PW_CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
+          PW_CHANNEL: chrome
+      - name: Hardware states (permissions, audio error, completed session)
+        run: npm run test:states
+        env:
+          PW_CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
+          PW_CHANNEL: chrome

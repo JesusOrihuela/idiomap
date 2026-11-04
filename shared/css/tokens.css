@@ -1,0 +1,421 @@
+/* Idiomap · shared/css/tokens.css · GENERADO por tools/build-tokens.mjs · sistema: docs/UI-SYSTEM.md */
+/* NO EDITAR A MANO: la fuente es tokens/*.tokens.json. */
+
+@layer reset, tokens, page, components, utilities;
+
+@layer tokens {
+/* ============================================================================
+   Capa 1 · Primitivos   → color, tipografía, espacio, tamaño, radio, sombra,
+                           movimiento, capas y medidas de layout.
+   Capa 2 · Semánticos   → el vocabulario que consumen componentes y páginas.
+   Fuente: tokens/primitive.tokens.json + tokens/semantic.tokens.json (DTCG 2025.10)
+   ============================================================================ */
+
+:root {
+
+  /* ── color.primitive ─────────────────────────────── */
+  /* Azul de acción (Tailwind blue-600, valor actual de --color-action) */
+  --blue-100: #DBEAFE;
+  --blue-300: #93C5FD;
+  --blue-500: #3B82F6;
+  --blue-600: #2563EB;
+  --blue-700: #1D4ED8;
+  --blue-900: #1E3A8A;
+  /* Ámbar de acento (Tailwind amber-500, valor actual de --color-accent) */
+  --amber-050: #FFFBEB;
+  --amber-100: #FEF3C7;
+  --amber-500: #F59E0B;
+  --amber-600: #D97706;
+  --amber-700: #B45309;
+  --amber-800: #92400E;
+  /* Oro del camino de aprendizaje (--color-category-path). */
+  --gold-050: #FDF3DC;
+  --gold-600: #8A6107;
+  --gold-700: #6E4D06;
+  /* Violeta de categoría Gramática (--color-category-grammar) */
+  --violet-100: #EDE9FE;
+  --violet-600: #7C3AED;
+  /* Paleta de categorias CEFR (un par fondo/texto por nivel). */
+  --cat-green-100: #DCFCE7;
+  --cat-cyan-100: #CFFAFE;
+  --cyan-700: #0E7490;
+  --cat-rose-100: #FFE4E6;
+  --cat-rose-700: #BE123C;
+  /* Identidad de cada actividad (--activity-clr en el <style> de su pagina). */
+  --pink-500: #EC4899;
+  --indigo-500: #6366F1;
+  --emerald-500: #10B981;
+  --sky-500: #0EA5E9;
+  --cyan-100: #CFFAFE;
+  --rose-100: #FFE4E6;
+  /* Verde semántico */
+  --green-100: #D1FAE5;
+  --green-600: #059669;
+  --green-700: #16A34A;
+  --green-800: #166534;
+  /* Rojo semántico */
+  --red-100: #FEE2E2;
+  --red-600: #DC2626;
+  --red-800: #991B1B;
+  --white: #FFFFFF;
+  /* Neutros. Una sola rampa; el contenido lleva el color, no los fondos. */
+  --gray-050: #FAFBFC;
+  --gray-100: #F3F5F7;
+  --gray-150: #F1F3F5;
+  --gray-200: #DEE2E8;
+  --gray-300: #C8CDD6;
+  --gray-500: #8595A4;
+  --gray-600: #5E6B7A;
+  --gray-900: #1A1D23;
+
+  /* ── font ────────────────────────────────────────── */
+  /* Capa 3 · Tipografía */
+  --font-family-base: 'Raleway', system-ui, -apple-system, sans-serif;
+  --font-family-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, monospace;
+
+  /* ── text ────────────────────────────────────────── */
+  /* display-lg · hero del landing (33.6px movil - 56px escritorio) */
+  --text-display-lg: clamp(2.1rem, 4.5vw, 3.5rem);
+  --text-display-lg-leading: 1.1;
+  --text-display-lg-tracking: -0.02em;
+  /* display-md · H1 de pagina (27.2px movil - 38.4px escritorio) */
+  --text-display-md: clamp(1.7rem, 3.5vw, 2.4rem);
+  --text-display-md-weight: var(--weight-semibold);
+  --text-display-md-leading: 1.15;
+  --text-display-md-tracking: -0.01em;
+  /* headline · H2 de seccion (22.4px movil - 30.4px escritorio) */
+  --text-headline: clamp(1.4rem, 3vw, 1.9rem);
+  --text-headline-weight: var(--weight-medium);
+  --text-headline-leading: 1.25;
+  --text-headline-tracking: 0;
+  /* title · H3 / titulo de card */
+  --text-title: 1.25rem;
+  /* 20px */
+  --text-title-leading: 1.3;
+  /* body-lg · cuerpo de texto corrido. USWDS: minimo 16px para lectura. */
+  --text-body-lg: 1rem;
+  /* 16px */
+  --text-body-lg-weight: var(--weight-regular);
+  --text-body-lg-leading: 1.6;
+  --text-body-lg-tracking: 0;
+  /* body · texto secundario, descripcion de card */
+  --text-body: 0.875rem;
+  /* 14px */
+  --text-body-leading: 1.55;
+  /* label · labels y botones. Sentence case, nunca uppercase. */
+  --text-label: 0.75rem;
+  /* 12px */
+  --text-label-weight: var(--weight-medium);
+  --text-label-leading: 1.4;
+  --text-label-tracking: 0.02em;
+  /* caption · metadatos y contadores */
+  --text-caption: 0.75rem;
+  /* numeric · cifras. Siempre con tabular-nums. */
+  --text-numeric: clamp(1.5rem, 4vw, 2rem);
+  /* Rol overline: etiquetas en mayusculas con tracking amplio */
+  --text-numeric-leading: 1;
+
+  /* ── icon ────────────────────────────────────────── */
+  /* Iconos */
+  --icon-sm: 16px;
+  --icon-md: 18px;
+  --icon-lg: 24px;
+  --icon-xl: 32px;
+  --icon-display: 44.8px;
+  --icon-2xs: 10px;
+  --icon-xs: 11px;
+
+  /* ── measure ─────────────────────────────────────── */
+  /* Medida de linea. USWDS: 45-90 caracteres, objetivo 66. */
+  --measure: 66ch;
+  --measure-xs: 320px;
+  --measure-sm: 340px;
+  --measure-sm2: 360px;
+  --measure-md: 380px;
+  --measure-lg: 400px;
+  --measure-xl: 560px;
+  --measure-2xl: 640px;
+
+  /* ── space ───────────────────────────────────────── */
+  /* Espaciado · base 4pt */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-9: 36px;
+  --space-10: 40px;
+  --space-11: 44px;
+  --space-12: 48px;
+  --space-14: 56px;
+  --space-15: 60px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-1-5: 6px;
+
+  /* ── radius ──────────────────────────────────────── */
+  /* Radios por rol. Escala: 4 · 8 · 10 · 12 · 16 · 24 · pill. */
+  --radius-2xs: 3px;
+  /* marca de dato: bandera, celda de heatmap, conector */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  /* control */
+  --radius-lg: 12px;
+  /* fila */
+  --radius-xl: 16px;
+  /* tarjeta */
+  --radius-2xl: 24px;
+  /* panel */
+  --radius-full: 9999px;
+
+  /* ── size ────────────────────────────────────────── */
+  --size-215: 215px;
+  /* Geometria de componente (tamanos que no son espaciado) */
+  --size-chip-h: 52px;
+  --size-label-w: 130px;
+  --size-badge: 22px;
+  --size-dot: 26px;
+  --size-chip-w: 168px;
+
+  /* ── offset ──────────────────────────────────────── */
+  --offset-3xs: 9px;
+  --offset-4xs: 10px;
+  --offset-5xs: 13px;
+  --offset-2xs: 5px;
+  --offset-xs: 7px;
+  --offset-sm: 14px;
+
+  /* ── layout ──────────────────────────────────────── */
+  --dialog-w: 460px;
+  --panel-w: 340px;
+  --progress-h: 5px;
+  --control-h: 44px;
+  /* Ritmo de pagina y medidas de layout (uniformes en todas las pantallas) */
+  --page-pad-block: var(--space-8) var(--space-16);
+  --page-pad-block-mobile: var(--space-5) var(--space-12);
+  --section-gap: var(--space-9);
+  --panel-min-h: 280px;
+  --matrix-max-h: 720px;
+  --card-min: 220px;
+  --glow-size: 440px;
+  --scrollbar-w: 7px;
+  --flip-perspective: 1000px;
+  --header-h: 76px;
+  --max-w: 1200px;
+  --content-max: var(--max-w);
+  --content-narrow: 720px;
+  --page-pad-x: clamp(16px, 5vw, 24px);
+
+  /* ── grid ────────────────────────────────────────── */
+  --grid-min-xs: 140px;
+  --grid-min-lg: 160px;
+  --grid-min-sm: 150px;
+  --grid-min-md: 220px;
+  --grid-min-xl: 320px;
+
+  /* ── duration ────────────────────────────────────── */
+  /* Movimiento */
+  --duration-fast: 150ms;
+  --duration-base: 200ms;
+  --duration-slow: 300ms;
+  /* Micro-transición de estado (barridos de color). */
+  --duration-instant: 100ms;
+  /* Entrada de bloque o overlay corto. */
+  --duration-enter: 250ms;
+  /* Transformaciones largas: barras de progreso, imagen del hero. */
+  --duration-xslow: 400ms;
+  /* Dibujo de conectores y trazos de la ruta. */
+  --duration-draw: 600ms;
+  /* Bucle de carga del skeleton. */
+  --duration-shimmer: 1300ms;
+
+  /* ── easing ──────────────────────────────────────── */
+  --easing-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --easing-out: cubic-bezier(0.2, 0, 0, 1);
+
+  /* ── z ───────────────────────────────────────────── */
+  /* Capa por debajo del contenido del propio elemento (fondo de la píldora activa) */
+  --z-below: -1;
+  /* Capas */
+  --z-overlay: 300;
+  --z-toast: 500;
+  /* Cabecera fija */
+  --z-header: 100;
+  /* Elemento elevado dentro de un componente (flechas de scroll, controles superpuestos) */
+  --z-raised: 2;
+  /* Barra de modos */
+  --z-nav: 90;
+  /* Barra de índice fija bajo la nav */
+  --z-sticky-bar: 80;
+  /* Enlace de salto (siempre encima) */
+  --z-skip: 9999;
+  /* Aviso de conexión sobre los toasts */
+  --z-network: calc(var(--z-toast) + 10);
+
+  /* ── shadow ──────────────────────────────────────── */
+  /* Capa 4b · Base de layout y efectos */
+  --shadow-xs: 0 1px 2px color-mix(in srgb, black 6%, transparent);
+  --shadow-sm: 0 1px 3px color-mix(in srgb, black 8%, transparent), 0 1px 2px color-mix(in srgb, black 5%, transparent);
+  --shadow-md: 0 4px 12px color-mix(in srgb, black 8%, transparent), 0 2px 4px color-mix(in srgb, black 4%, transparent);
+  --shadow-lg: 0 10px 30px color-mix(in srgb, black 10%, transparent), 0 4px 8px color-mix(in srgb, black 5%, transparent);
+  --shadow-xl: 0 24px 48px color-mix(in srgb, black 14%, transparent);
+
+  /* ── opacity ─────────────────────────────────────── */
+  /* Tinte muy tenue (fondo decorativo) */
+  --opacity-40: 0.4;
+  /* Tinte tenue */
+  --opacity-45: 0.45;
+  /* Deshabilitado / atenuado */
+  --opacity-50: 0.5;
+  /* Deshabilitado en campos */
+  --opacity-55: 0.55;
+  /* Suave */
+  --opacity-60: 0.6;
+  /* Atenuado */
+  --opacity-65: 0.65;
+  /* Atenuado fuerte */
+  --opacity-70: 0.7;
+  /* Medio */
+  --opacity-75: 0.75;
+  /* Casi opaco */
+  --opacity-85: 0.85;
+  /* Casi opaco (máximo) */
+  --opacity-90: 0.9;
+
+  /* ── weight ──────────────────────────────────────── */
+  /* Texto corrido */
+  --weight-regular: 400;
+  /* Énfasis y etiquetas */
+  --weight-medium: 500;
+  /* Títulos */
+  --weight-semibold: 600;
+
+  /* ── color.semantic ──────────────────────────────── */
+  /* Superficies */
+  --color-bg: var(--gray-150);
+  --color-surface: var(--gray-050);
+  --color-surface-alt: var(--gray-100);
+  /* Bordes */
+  --color-border: var(--gray-200);
+  --color-border-strong: var(--gray-300);
+  /* Texto: tres roles, no diez lavandas */
+  --color-text: var(--gray-900);
+  --color-text-muted: var(--gray-600);
+  /* Acción: un acento en el chrome, usado poco */
+  --color-on-action: var(--white);
+  --color-overlay: color-mix(in srgb, black 55%, transparent);
+  --color-action: var(--blue-600);
+  --color-action-hover: var(--blue-700);
+  --color-action-subtle: var(--blue-100);
+  /* Acento secundario (ámbar). Sobre blanco no llega a 4.5:1: usar -strong. */
+  --color-accent: var(--amber-500);
+  --color-accent-strong: var(--amber-700);
+  --color-accent-subtle: var(--amber-100);
+  --color-warning-strong: var(--amber-700);
+  --color-warning-subtle: var(--amber-100);
+  /* Borde/relleno de aviso; el texto va en warning-strong. */
+  --color-warning: var(--amber-600);
+  /* Fondo tenue de paneles de aviso. */
+  --color-warning-bg: var(--amber-050);
+  --color-action-on-subtle: var(--blue-700);
+  /* texto de acento sobre --color-action-subtle (AA) */
+  --color-action-strong: var(--blue-900);
+  --color-viz-1: var(--color-action-subtle);
+  --color-viz-2: var(--blue-300);
+  --color-viz-3: var(--color-action);
+  --color-success: var(--green-600);
+  --color-success-strong: var(--green-800);
+  --color-success-subtle: var(--green-100);
+  --color-danger: var(--red-600);
+  --color-danger-strong: var(--red-800);
+  --color-danger-subtle: var(--red-100);
+  /* Categorías del producto */
+  --color-category-path: var(--gold-600);
+  --color-category-grammar: var(--violet-600);
+  /* Foco: un solo anillo, siempre visible, nunca transicionado */
+  --color-focus: var(--blue-600);
+  /* Capa 4 · Semanticos completados en la migracion */
+  --color-accent-hover: var(--amber-600);
+  --color-category-path-strong: var(--gold-700);
+  --color-category-path-subtle: var(--gold-050);
+  --color-category-grammar-subtle: var(--violet-100);
+  /* Equivalentes de los nombres intermedios que quedaron en el CSS. */
+  --color-action-light: var(--color-action-subtle);
+
+  /* ── motion ──────────────────────────────────────── */
+  --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-emphasis: 0.2s cubic-bezier(0.2, 0, 0, 1);
+
+  /* ── gradient ────────────────────────────────────── */
+  --gradient-hero: linear-gradient(135deg, #EBEEF2 0%, #F1F3F5 50%, #ECEEF2 100%);
+  /* Barrido del skeleton de carga. */
+  --gradient-shimmer: linear-gradient(90deg, transparent, color-mix(in srgb, white 28%, transparent), transparent);
+  /* Tinte del encabezado de gramática */
+  --gradient-grammar: linear-gradient(135deg, color-mix(in srgb, var(--color-category-grammar) 15%, transparent) 0%, color-mix(in srgb, var(--color-action) 10%, transparent) 100%);
+  /* Halo decorativo del hero */
+  --gradient-glow: radial-gradient(ellipse at center, color-mix(in srgb, var(--color-action) 6%, transparent) 0%, transparent 70%);
+  /* Botón principal de Pronunciación */
+  --gradient-action: linear-gradient(135deg, var(--color-action) 0%, var(--color-action-hover) 100%);
+
+  /* ── shadow ──────────────────────────────────────── */
+  /* Anillo de 1 px sobre banderas y piezas pequeñas */
+  --shadow-ring: 0 0 0 1px color-mix(in srgb, black 8%, transparent);
+  /* Sombra de la capa de banderas */
+  --shadow-flag: 0 1px 3px color-mix(in srgb, black 28%, transparent), 0 0 0 1px color-mix(in srgb, white 30%, transparent);
+  /* Elevación al pasar sobre un nodo de la ruta */
+  --shadow-hover: 0 2px 6px color-mix(in srgb, black 7%, transparent);
+  /* Elevación al pasar sobre un nodo de Mi Ruta */
+  --shadow-hover-lg: 0 2px 8px color-mix(in srgb, black 7%, transparent);
+  /* Halo de la celda de actividad intensa */
+  --shadow-heat-glow: 0 0 4px color-mix(in srgb, var(--color-action) 40%, transparent);
+  /* Sombra del aviso de giro */
+  --shadow-hint: 0 4px 14px color-mix(in srgb, var(--color-action) 28%, transparent);
+  /* Sombra del aviso de giro al pasar */
+  --shadow-hint-hover: 0 8px 20px color-mix(in srgb, var(--color-action) 36%, transparent);
+  /* Anillo del nodo de ruta */
+  --shadow-path-ring: 0 0 0 3px var(--color-category-path-subtle);
+  /* Anillo del nodo activo de la ruta */
+  --shadow-path-ring-strong: 0 0 0 5px var(--color-category-path-subtle);
+  /* Separador interior de 1 px */
+  --shadow-inset: inset 0 0 0 1px var(--color-border);
+
+  /* ── feedback ────────────────────────────────────── */
+  /* Fondo del aviso de acierto. */
+  --feedback-correct-bg: var(--color-success-subtle);
+  /* Borde izquierdo del aviso de acierto. */
+  --feedback-correct-border: var(--color-success);
+  /* Texto de acierto (AA sobre el fondo). */
+  --feedback-correct-text: var(--color-success-strong);
+  /* Fondo del aviso de fallo. */
+  --feedback-error-bg: var(--color-danger-subtle);
+  /* Borde izquierdo del aviso de fallo. */
+  --feedback-error-border: var(--color-danger);
+  /* Texto de fallo (AA sobre el fondo). */
+  --feedback-error-text: var(--color-danger-strong);
+  /* Tinte de la palabra acertada; sigue al rol semántico. */
+  --feedback-word-ok-bg: color-mix(in srgb, var(--color-success) 13%, transparent);
+  --feedback-word-ok-text: var(--color-success-strong);
+  /* Tinte de la palabra fallada; sigue al rol semántico. */
+  --feedback-word-err-bg: color-mix(in srgb, var(--color-danger) 12%, transparent);
+  --feedback-word-err-text: var(--color-danger-strong);
+  /* Contexto no evaluado de la frase. */
+  --feedback-word-neutral-text: var(--color-text-muted);
+}
+}
+
+@media (min-width: 1920px) {
+  :root {
+    --max-w: 1440px;
+  }
+}
+
+@media (min-width: 2560px) {
+  :root {
+    --max-w: 1600px;
+  }
+}

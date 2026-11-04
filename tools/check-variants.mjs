@@ -44,6 +44,7 @@ const WIP_PAIRS = new Set(AppLangPair.getAll().filter(p => p.wip).map(p => p.id)
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PAIRS_DIR = path.join(ROOT, 'shared/json/pairs');
 const GATE = process.argv.includes('--gate');
+import { loadTopic } from './lib-content.mjs';
 
 // Source languages that learn a given TARGET — DERIVED from the pairs dir (e.g. target "pl" is
 // learned by de-pl ⇒ source "de"). Used so target-centric vocab checks read the RIGHT source gloss
@@ -264,16 +265,16 @@ for (const pair of fs.readdirSync(PAIRS_DIR)) {
   // inflectional dimension (gender/number/case…) the registry declares for it. Don't skip a gendered
   // or case/number language just because it has no region lexicon yet.
   if (!lex.length && !G && !inflDimsFor(lang).length) continue;
-  for (const f of fs.readdirSync(dir)) {
-    if (!f.endsWith('.json') || ['grammar-rules.json', 'placement.json', 'topics.json'].includes(f)) continue;
+  const phraseTopics = JSON.parse(fs.readFileSync(path.join(dir, 'topics.json'), 'utf8')).topics.filter((t) => t.phrase);
+  for (const t of phraseTopics) {
     let data;
-    try { data = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')); } catch { continue; }
+    try { data = loadTopic(pair, t.id); } catch { continue; }
     for (const p of (data.phrases || [])) {
       const forms = (p.target || []);
       const allText = forms.map(t => t.text || '').join('  ');
       const hasGender = forms.some(t => t.labels && t.labels.gender !== undefined);
       const hasRegion = forms.some(t => t.labels && t.labels.region !== undefined);
-      const base = { pair, topic: f.replace('.json', ''), id: p.id };
+      const base = { pair, topic: t.id, id: p.id };
       // A set may be TOPIC-ANCHORED (`anchorTopics`) when its words are polysemous across senses
       // that only some topics carry — e.g. "ticket": boleto/billete only in transport topics, and
       // "billete" alone (banknote) in economía must NOT be flagged. Anchoring by topic is safer than

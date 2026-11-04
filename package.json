@@ -5,7 +5,11 @@
   "description": "Idiomap — static language-learning PWA. Root deps are the Playwright browser smoke suite only (the app itself ships no build step).",
   "scripts": {
     "test": "node tests/smoke.mjs",
-    "test:voice": "node tests/smoke-voice.mjs"
+    "test:index": "node tools/check-phrase-index.mjs",
+    "test:voice": "node tests/smoke-voice.mjs",
+    "test:states": "node tests/hardware-states.mjs",
+    "tokens:build": "node tools/build-tokens.mjs",
+    "tokens:check": "node tools/build-tokens.mjs --check && node tools/check-tokens.mjs"
   },
   "devDependencies": {
     "playwright-core": "^1.62.1"

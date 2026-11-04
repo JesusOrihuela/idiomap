@@ -1,3 +1,5 @@
+@layer page {
+/* Idiomap · my-learning/css/my-learning.css · 2026-10-31 · sistema: docs/UI-SYSTEM.md */
 /* ============================================================
    my-learning.css — My Learning Path page
    ============================================================ */
@@ -6,19 +8,15 @@
    page and topic pickers); the content itself keeps a readable 700px
    column via the child cap below. */
 .ml-page {
-  width: 100%;
-  max-width: var(--max-w);
-  margin: 0 auto;
-  padding: 32px var(--page-pad-x) 64px;
+  padding-block: var(--page-pad-block);
+  gap: var(--section-gap);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
 }
 
 .ml-page > * {
   width: 100%;
-  max-width: var(--max-w);
 }
 
 /* ── Header ── */
@@ -26,26 +24,29 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: var(--space-3);
 }
 
 .ml-header h1 {
-  font-size: clamp(1.5rem, 4vw, 2rem);
-  font-weight: 800;
-  color: var(--clr-text);
-  line-height: 1.15;
+  font-size: var(--text-numeric);
+  font-weight: var(--weight-semibold);
+  color: var(--color-text);
+  line-height: var(--text-numeric-leading);
 }
 
 .ml-header h1 span {
-  color: var(--clr-primary);
+  color: var(--color-action);
 }
 
+/* Sin racha no se pinta el hueco (el div queda vacio). */
+.ml-streak:empty { display: none; }
+
 .ml-streak {
-  font-size: 0.82rem;
-  font-weight: 700;
-  color: var(--clr-accent-dark, #b45309);
-  background: var(--clr-accent-light, #fef3c7);
-  padding: 5px 12px;
+  font-size: var(--text-body);
+  font-weight: var(--weight-medium);
+  color: var(--color-accent-strong);
+  background: var(--color-accent-subtle);
+  padding: var(--space-1) var(--space-3);
   border-radius: var(--radius-full);
   white-space: nowrap;
   flex-shrink: 0;
@@ -53,122 +54,87 @@
 
 /* ── Session CTA card ── */
 .ml-session-card {
-  background: var(--clr-surface);
-  border: 1px solid var(--clr-border);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-xs);
   overflow: hidden;
 }
 
 .ml-cta__bar {
-  height: 4px;
-  background: var(--clr-border);
+  height: var(--space-1);
+  background: var(--color-border);
 }
 
 .ml-cta__bar-fill {
   height: 100%;
-  background: var(--clr-path);
-  border-radius: 0 2px 2px 0;
-  transition: width 0.6s ease;
-  min-width: 12px;
+  background: var(--color-category-path);
+  border-radius: 0 var(--radius-2xs) var(--radius-2xs) 0;
+  transition: transform var(--duration-draw) ease; transform-origin: left center;
+  min-width: var(--space-3);
 }
 
 .ml-cta__row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  padding: 14px 18px;
-  min-height: 56px;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  min-height: var(--space-14);
 }
 
-.ml-cta__stats {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
+
 
 .ml-cta__body {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: var(--space-1);
   min-width: 0;
 }
 
 .ml-cta__title {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--clr-text);
-  line-height: 1.2;
+  font-size: var(--text-body-lg);
+  font-weight: var(--weight-medium);
+  color: var(--color-text);
+  line-height: var(--text-body-lg-leading);
 }
 
 .ml-cta__sub {
-  font-size: 0.8rem;
-  font-weight: 500;
-  color: var(--clr-text-muted);
-  line-height: 1.3;
+  font-size: var(--text-label);
+  font-weight: var(--weight-medium);
+  color: var(--color-text-muted);
+  line-height: var(--text-label-leading);
 }
 
-.ml-cta__count {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--clr-text);
-  line-height: 1;
-}
 
-.ml-cta__total {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--clr-text-muted);
-}
 
-.ml-cta__time {
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--clr-text-muted);
-  white-space: nowrap;
-}
 
-.ml-cta__chip {
-  display: inline-flex;
-  align-items: center;
-  font-size: 0.78rem;
-  font-weight: 700;
-  padding: 3px 10px;
-  border-radius: var(--radius-full);
-  white-space: nowrap;
-}
 
-.ml-cta__chip--review { background: #fef3c7; color: #b45309; }
-.ml-cta__chip--new    { background: var(--clr-path-light); color: var(--clr-path-dark); }
+
+
+
+
+
+
 
 .ml-cta__btn {
   display: inline-block;
-  padding: 9px 22px;
-  background: var(--clr-path);
-  color: #fff;
-  font-family: 'Raleway', sans-serif;
-  font-size: 0.88rem;
-  font-weight: 700;
-  border: none;
-  border-radius: var(--radius-full);
   text-decoration: none;
-  cursor: pointer;
   white-space: nowrap;
   flex-shrink: 0;
-  transition: background var(--transition), transform var(--transition-bounce);
 }
 
-.ml-cta__btn:hover {
-  background: var(--clr-path-dark);
-  transform: translateY(-1px);
+@media (hover: hover) and (pointer: fine) {
+  .ml-cta__btn:hover {
+  background: var(--color-category-path-strong);
+  }
 }
+
 
 .ml-cta__done {
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--clr-success);
+  font-size: var(--text-body);
+  font-weight: var(--weight-medium);
+  color: var(--color-success);
 }
 
 /* ══════════════════════════════════════════════════════════
@@ -177,157 +143,169 @@
 .ml-trail-section {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: var(--space-4);
 }
 
 .ml-section-title {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--clr-text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+  font-size: var(--text-body-lg);
+  font-weight: var(--weight-medium);
+  color: var(--color-text-muted);
+  letter-spacing: var(--text-label-tracking);
 }
 
 .ml-trail-wrap { width: 100%; }
 
-/* ── Snake trail container ──
-   Absolute positioning: JS places every node and connector at exact coordinates. */
-.ml-trail--snake {
+/* ── Trail: diagonal zigzag ──
+   One step per row, alternating columns: every connector is a diagonal, so the
+   stroke never crosses the topic pill above the bubble nor the label and the
+   Nuevo/Repasar chip below it. The step is shorter than the node, so the path
+   stays compact; nodes of the same column end up two steps apart. */
+.ml-trail {
   position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: calc(var(--space-20) - var(--space-2));
   width: 100%;
-  /* height set by JS */
+  max-width: var(--content-narrow);
+  margin-inline: auto;
+  /* The last node overflows its row (pill + bubble + label + chip). */
+  padding-bottom: var(--space-15);
 }
 
-/* ── Diagonal connector ── */
-.ml-h-conn {
+/* SVG connectors: one overlay for the whole trail, drawn from circle edge to
+   circle edge. Nodes sit above it. */
+.ml-connectors {
   position: absolute;
-  height: 3px;
-  background: var(--clr-border);
-  border-radius: 2px;
-  transition: background 0.3s;
-  transform-origin: left center;
-  /* left, top, width, transform set by JS */
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 0;
 }
-.ml-h-conn--done { background: var(--clr-success, #16a34a); }
+.ml-connector {
+  stroke: var(--color-border);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+.ml-connector--done { stroke: var(--color-success); }
 
 /* ── Node ── */
 .ml-snode {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  /* left, top, width set by JS */
+  gap: var(--space-1-5);
+  min-width: 0;
+  /* Always render above connectors so the bubble is never obscured */
+  z-index: 1;
 }
 
-/* Topic pin — always shown on every node */
+/* Topic pin — full name on the first step of each topic; the repeats keep the
+   same slot so the bubbles stay aligned. */
 .ml-snode__topic {
-  font-size: 0.55rem;
-  font-weight: 700;
-  color: var(--clr-text-muted);
-  background: var(--clr-bg);
-  border: 1px solid var(--clr-border);
+  font-size: var(--text-label);
+  font-weight: var(--weight-medium);
+  color: var(--color-text-muted);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
-  padding: 1px 6px;
+  padding: 1px var(--space-1);
   white-space: nowrap;
-  letter-spacing: 0.03em;
-  max-width: 100%;
-  overflow: visible;
+  letter-spacing: var(--text-label-tracking);
   text-align: center;
-  /* Sits above bubble; gap: 10px on .ml-snode keeps clear of active glow */
+  /* Sits above bubble; the diagonal connector passes beside it, not through it. */
 }
 
 /* Bubble */
 .ml-snode__bubble {
-  width: 64px;
-  height: 64px;
+  width: var(--space-14);
+  height: var(--space-14);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.6rem;
+  font-size: var(--text-headline);
   line-height: 1;
-  background: var(--clr-surface);
-  border: 3px solid var(--clr-border);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  background: var(--color-surface);
+  border: 3px solid var(--color-border);
+  box-shadow: var(--shadow-hover-lg);
   text-decoration: none;
-  transition: transform 0.18s, box-shadow 0.18s;
+  transition: transform var(--duration-base), box-shadow var(--duration-base);
   cursor: default;
   user-select: none;
   flex-shrink: 0;
 }
 
 .ml-snode--done .ml-snode__bubble {
-  background: var(--clr-success, #16a34a);
-  border-color: var(--clr-success, #16a34a);
-  color: #fff;
+  background: var(--color-success);
+  border-color: var(--color-success);
+  color: var(--color-on-action);
+  cursor: pointer;
+}
+@media (hover: hover) and (pointer: fine) {
+  .ml-snode--done .ml-snode__bubble:hover { transform: scale(1.06); }
 }
 .ml-snode--active .ml-snode__bubble {
-  background: var(--clr-path);
-  border-color: var(--clr-path);
-  color: #fff;
+  background: var(--color-category-path);
+  border-color: var(--color-category-path);
+  color: var(--color-on-action);
   cursor: pointer;
-  box-shadow: 0 0 0 6px rgba(201,146,10,0.22), 0 4px 16px rgba(201,146,10,0.32);
-  animation: ml-snake-pulse 2s ease-in-out infinite;
+  box-shadow: var(--shadow-path-ring);
 }
-.ml-snode--active .ml-snode__bubble:hover { transform: scale(1.06); }
-.ml-snode--pending .ml-snode__bubble { opacity: 0.45; }
+@media (hover: hover) and (pointer: fine) { .ml-snode--active .ml-snode__bubble:hover { transform: scale(1.06); } }
+.ml-snode--pending .ml-snode__bubble { opacity: var(--opacity-45); }
 
-@keyframes ml-snake-pulse {
-  0%, 100% { box-shadow: 0 0 0 6px rgba(201,146,10,0.22), 0 4px 16px rgba(201,146,10,0.30); }
-  50%       { box-shadow: 0 0 0 10px rgba(201,146,10,0.10), 0 6px 22px rgba(201,146,10,0.18); }
-}
 
-.ml-snode__check { font-size: 1.4rem; font-weight: 900; line-height: 1; }
 
 /* Groups label + badge with no gap between them */
 .ml-snode__info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3px;
+  gap: var(--space-1);
 }
 
-.ml-snode__label-row {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 .ml-snode__label {
-  font-size: 0.68rem;
-  font-weight: 700;
-  color: var(--clr-text-muted);
+  font-size: var(--text-label);
+  font-weight: var(--weight-medium);
+  color: var(--color-text-muted);
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--text-label-tracking);
+  white-space: nowrap;
 }
-.ml-snode--done .ml-snode__label   { color: var(--clr-success, #16a34a); }
-.ml-snode--active .ml-snode__label { color: var(--clr-path); font-weight: 800; }
+.ml-snode--done .ml-snode__label   { color: var(--color-success); }
+.ml-snode--active .ml-snode__label { color: var(--color-category-path); font-weight: var(--weight-medium); }
 
 .ml-snode__new-badge,
 .ml-snode__review-badge {
-  font-size: 0.52rem;
-  font-weight: 800;
+  font-size: var(--text-label);
+  font-weight: var(--weight-medium);
   border-radius: var(--radius-full);
-  padding: 2px 6px;
+  padding: 2px var(--space-1);
   white-space: nowrap;
-  /* Always full opacity — badge must be readable even on pending (faded) nodes */
-  opacity: 1 !important;
+  /* siempre legible: el nodo pendiente no se atenúa */
 }
 
 .ml-snode__new-badge {
-  color: #fff;
-  background: var(--clr-path);
+  color: var(--color-on-action);
+  background: var(--color-category-path);
 }
 
 .ml-snode__review-badge {
-  color: #92400e;
-  background: #fde68a;
+  color: var(--color-warning-strong);
+  background: var(--color-warning-subtle);
 }
 
 /* ── Responsive ── */
 @media (max-width: 480px) {
-  .ml-page { padding: 24px var(--page-pad-x) 48px; }
-  .ml-snode__bubble { width: 56px; height: 56px; font-size: 1.4rem; }
+  .ml-page { padding: var(--space-6) var(--page-pad-x) var(--space-12); }
+  .ml-snode__bubble { width: var(--space-14); height: var(--space-14); font-size: var(--text-title); }
+  /* La tarjeta de sesión apila texto y CTA: el botón deja de competir con el título. */
+  .ml-cta__row { flex-direction: column; align-items: stretch; gap: var(--space-3); }
+  .ml-cta__btn { width: 100%; text-align: center; }}
 }

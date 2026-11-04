@@ -1,31 +1,91 @@
 /* ============================================================
    text-utils.js — Shared text normalisation + cloze-gap utilities
-   Single source of truth for expandContractions, normalise, AppCloze.
+   Single source of truth for normalise, tokenisation and AppCloze.
    Used by: translation, scramble, dictation, grammar, global-review, cloze
+
+   Precision rules (docs/LANGUAGE-PLAN.md):
+   - NFC first. Diacritics are letters: canción ≠ cancion.
+   - Case and external punctuation are ignored in strict/meaning.
+   - No ASCII folding, no fuzzy matching, no letter equivalences (ß≠ss, ø≠o).
+   - Speech (STT) is the only profile that folds accents, because the
+     recogniser cannot be expected to return them.
    ============================================================ */
 
 const AppText = (() => {
 
+  function _locale() {
+    try {
+      if (typeof AppLangPair === 'undefined') return undefined;
+      const p = AppLangPair.getActive();
+      return (p && (p.targetLocale || p.target?.code)) || undefined;
+    } catch (_) { return undefined; }
+  }
+
+  const _segCache = new Map();
+  function _segmenter() {
+    if (typeof Intl === 'undefined' || !Intl.Segmenter) return null;
+    const loc = _locale() || 'en';
+    if (!_segCache.has(loc)) _segCache.set(loc, new Intl.Segmenter(loc, { granularity: 'word' }));
+    return _segCache.get(loc);
+  }
+
+  /** Locale-aware case fold. NFC first so composed/decomposed input compares equal. */
+  function casefold(s) {
+    const x = String(s ?? '').normalize('NFC');
+    try { return x.toLocaleLowerCase(_locale() || 'en'); }
+    catch (_) { return x.toLowerCase(); }
+  }
+
+  /** Word-like segments, punctuation excluded. This is the comparison unit. */
+  function words(s) {
+    const x = String(s ?? '').normalize('NFC');
+    const seg = _segmenter();
+    if (seg) return [...seg.segment(x)].filter((p) => p.isWordLike).map((p) => p.segment);
+    return x.match(/[\p{L}\p{N}\p{M}]+(?:['’\-][\p{L}\p{N}\p{M}]+)*/gu) || [];
+  }
+
+  /**
+   * Display tokens: words keep their surrounding punctuation, whitespace is
+   * collapsed to single spaces. Used by cloze/scramble/diff so a token is the
+   * unit the learner sees, not an ASCII-only slice.
+   */
+  function tokens(s) {
+    const x = String(s ?? '').normalize('NFC').trim();
+    if (!x) return [];
+    const seg = _segmenter();
+    if (!seg) return x.split(/\s+/u);
+    const out = [];
+    let buf = '';
+    for (const part of seg.segment(x)) {
+      if (part.isWordLike) {
+        if (buf && /\s$/u.test(buf)) { out.push(buf.trim()); buf = ''; }
+        buf += part.segment;
+      } else if (/\s/u.test(part.segment)) {
+        if (buf) { out.push(buf.trim()); buf = ''; }
+      } else {
+        buf += part.segment;
+      }
+    }
+    if (buf.trim()) out.push(buf.trim());
+    return out;
+  }
+
   /**
    * Expand contractions in a lowercase string.
    * First pass: single-token expansion via regex (e.g. "don't" → "do not").
-   * Second pass: multi-word phrase expansion (e.g. "it is" → "it's") using
-   * patterns collected in map._multi by buildEquivalenceMaps().
-   * @param {string} s   - Already-lowercased input.
-   * @param {Object} map - { "don't": "do not", … } lookup table, optionally
-   *                       with a _multi array of { pattern, canonical } entries.
+   * Second pass: multi-word phrase expansion using map._multi.
    */
   function expandContractions(s, map) {
     if (!map) return s;
-    // First pass: single-token expansion
-    let result = s.replace(/[a-z][a-z']*[a-z]/g, token => map[token] || token);
-    // Second pass: multi-word phrase expansion (longest patterns first)
+    let result = s.replace(/[\p{L}\p{M}][\p{L}\p{M}'’]*[\p{L}\p{M}]/gu, (token) => {
+      const hit = map[token] ?? map[token.toLowerCase()];
+      return hit || token;
+    });
     const multi = map._multi;
     if (multi && multi.length > 0) {
       for (const { pattern, canonical } of multi) {
-        // Replace whole-word occurrences only (not in the middle of a word)
         result = result.replace(
-          new RegExp('(^|\\s)' + pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?=\\s|$)', 'g'),
+          new RegExp('(^|\\s)' + pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?=\\s|$)', 'gu'),
           (_, prefix) => prefix + canonical
         );
       }
@@ -34,153 +94,93 @@ const AppText = (() => {
   }
 
   /**
-   * The active target language's fold-preserve set: graphemes that must survive
-   * accent-folding because they are DISTINCT LETTERS, not accented vowels
-   * (Spanish 'ñ': año ≠ ano). Read from the language profile — no language code
-   * is hardcoded here. Empty string ('' = fold everything to ASCII) when there is
-   * no profile or the language preserves nothing (English).
-   */
-  function _foldPreserve() {
-    if (typeof AppLangProfiles === "undefined" || typeof AppLangPair === "undefined") return "";
-    return AppLangProfiles.foldPreserve(AppLangPair.getActive().target.code);
-  }
-
-  /**
-   * Fold a string for comparison: lowercase → NFD decompose → strip diacritics
-   * → strip non-alphanumeric (except apostrophe and preserved graphemes) →
-   * collapse spaces. NFD splits accented letters into base + combining mark
-   * (é → e + ◌́); the strip removes the mark, leaving the base letter, so
-   * keyboard users type "é" or "e" interchangeably. Any grapheme in `preserve`
-   * is shielded from decomposition (e.g. ñ, which NFD would split into n + ◌̃).
-   * @param {string} s        - Raw input (any case).
-   * @param {string} preserve - Distinct letters to keep intact (e.g. "ñ").
-   */
-  function _fold(s, preserve) {
-    let x = (s || "").toLowerCase();
-    const restore = [];
-    for (let i = 0; i < preserve.length; i++) {
-      const tok = "" + i + "";
-      restore.push([tok, preserve[i]]);
-      x = x.split(preserve[i]).join(tok);          // shield before NFD
-    }
-    x = x.normalize("NFD").replace(/[̀-ͯ]/g, "");
-    for (const [tok, ch] of restore) x = x.split(tok).join(ch);   // unshield
-    const cls = preserve.replace(/[\\\]^-]/g, "\\$&");            // escape for char class
-    return x.replace(new RegExp("[^a-z0-9" + cls + "\\s']", "g"), "")
-      .replace(/\s+/g, " ").trim();
-  }
-
-  /**
-   * Normalise a phrase for comparison. Folds the active target language's accents
-   * (preserving its distinct letters), then optionally expands contractions.
-   * @param {string}  s    - Raw input (any case).
-   * @param {Object} [map] - Contraction map; omit or pass null to skip expansion.
+   * Normalise a phrase for strict/meaning comparison.
+   * NFC + locale casefold + words only + optional contraction expansion.
+   * Accents and distinct letters are preserved.
    */
   function normalise(s, map) {
-    const stripped = _fold(s, _foldPreserve());
-    if (!map) return stripped;
-    return expandContractions(stripped, map).replace(/\s+/g, " ").trim();
+    let x = words(s).map(casefold).join(' ');
+    if (map) x = expandContractions(x, map);
+    return x.replace(/\s+/g, ' ').trim();
+  }
+
+  /** Normalise a single word/token, preserving letters and marks. */
+  function normaliseSingle(s) {
+    return casefold(s).replace(/[^\p{L}\p{M}'’\-]/gu, '').trim();
   }
 
   /**
-   * Normalise a single word for comparison
-   * (strips everything except letters, apostrophes, hyphens).
-   * Applies the same NFD diacritic-stripping as normalise().
-   * @param {string} s - Raw word.
+   * STT-only normalisation: ignore accents because the recogniser may omit
+   * them. Distinct letters (ß, ø, ł) are not accents and stay distinct.
    */
-  function normaliseSingle(s) {
-    return (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim().replace(/[^a-z'-]/g, '');
+  function normaliseSpeech(s) {
+    return words(s)
+      .map((w) => casefold(w).normalize('NFD').replace(/\p{M}/gu, ''))
+      .join(' ')
+      .replace(/\s+/g, ' ')
+      .trim();
   }
 
   /**
    * Build equivalence maps from a word-equivalents groups array.
-   *
-   * Returns:
-   *  flatMap  — { word: canonical } where canonical = first item in the group.
-   *             Used by expandContractions / normalise for full-phrase comparison.
-   *             Single-token keys only (no spaces) so the regex can match them.
-   *  groupMap — Map<word, Set<all_forms>> for single-word set-intersection checks
-   *             (Cloze). Multi-word entries like "it is" are also keyed here.
-   *
-   * @param {Array<string[]>} groups
    */
   function buildEquivalenceMaps(groups) {
     const flatMap  = {};
     const groupMap = new Map();
-    const _multi   = []; // multi-word patterns for phrase-level expansion
+    const _multi   = [];
 
     for (const group of groups) {
-      const canonical = group[0].toLowerCase().replace(/['']/g, "'");
-      const set = new Set(group.map(w => w.toLowerCase().replace(/['']/g, "'")));
+      const canonical = casefold(group[0]).replace(/[‘’]/g, "'");
+      const set = new Set(group.map((w) => casefold(w).replace(/[‘’]/g, "'")));
 
       for (const form of set) {
         if (!form.includes(' ')) {
-          // flatMap: single-token forms for expandContractions first pass
           flatMap[form] = canonical;
         } else if (!canonical.includes(' ')) {
-          // _multi: multi-word form → single-token canonical mapping
           _multi.push({ pattern: form, canonical });
         }
-        // groupMap: all forms, including multi-word
         if (!groupMap.has(form)) groupMap.set(form, new Set());
         for (const v of set) groupMap.get(form).add(v);
       }
     }
 
-    // Sort by descending length so longer patterns are tried first
     _multi.sort((a, b) => b.pattern.length - a.pattern.length);
     flatMap._multi = _multi;
-
     return { flatMap, groupMap };
   }
 
-  /**
-   * From a list of candidate phrases (main + alternatives), return the one
-   * with the most normalized words in common with the user's raw input.
-   * Used to pick the best reference phrase for the diff display.
-   * @param {string}   raw        - Raw user input.
-   * @param {string[]} candidates - [mainPhrase, ...alternatives]
-   * @param {Object}  [map]       - Contraction map.
-   */
+  /** Pick the candidate with the most normalised words in common with the input. */
   function closestPhrase(raw, candidates, map) {
     if (!candidates || candidates.length === 0) return '';
     if (candidates.length === 1) return candidates[0];
-    const normWords = normalise(raw, map).split(' ');
+    const normWords = new Set(words(normalise(raw, map)));
     let best = candidates[0], bestScore = -1;
     for (const c of candidates) {
-      const cSet = new Set(normalise(c, map).split(' '));
-      const score = normWords.filter(w => cSet.has(w)).length;
+      const cSet = new Set(words(normalise(c, map)));
+      const score = [...normWords].filter((w) => cSet.has(w)).length;
       if (score > bestScore) { bestScore = score; best = c; }
     }
     return best;
   }
 
-  /**
-   * Normalise an alternative entry to a typed object.
-   * Strings (legacy format) become { text, type: 'style' }.
-   * Objects are returned as-is.
-   * @param {string|Object} alt
-   * @returns {{ text: string, type: string, hint?: string, region?: string, note?: string }}
-   */
+  /** Strings (legacy) become { text, type: 'style' }; objects pass through. */
   function normaliseAlt(alt) {
     return typeof alt === 'string' ? { text: alt, type: 'style' } : alt;
   }
 
-  return { expandContractions, normalise, normaliseSingle, buildEquivalenceMaps, closestPhrase, normaliseAlt };
+  return {
+    casefold, words, tokens, expandContractions,
+    normalise, normaliseSingle, normaliseSpeech,
+    buildEquivalenceMaps, closestPhrase, normaliseAlt,
+  };
 })();
 
 /* ============================================================
    AppCloze — shared blank-word selection for cloze exercises
-   Used by: cloze.js, global-review.js
    ============================================================ */
 
 const AppCloze = (() => {
 
-  // Words unsuitable as a blank (function words, pronouns, wh-words) are read from
-  // the active TARGET language's profile — the blank is in the target language, so
-  // a Spanish target doesn't leave the gap on "de"/"la"/"que". Defined per language
-  // in shared/js/lang-profiles.js (clozeStopWords); no language code is hardcoded
-  // here. 1–2-letter words are already dropped by the length filter below.
   function _stopWords() {
     if (typeof AppLangProfiles === 'undefined' || typeof AppLangPair === 'undefined') return new Set();
     return AppLangProfiles.clozeStopWords(AppLangPair.getActive().target.code);
@@ -188,29 +188,26 @@ const AppCloze = (() => {
 
   /**
    * Select the word to blank in a phrase.
-   * Deterministic: always picks the middle content-word candidate so the
-   * same card shows the same gap on every review session.
-   *
-   * @param {string} phrase - The full English phrase.
+   * Deterministic: middle content-word candidate.
    * @returns {{ word: string, clean: string, idx: number, tokens: string[] } | null}
-   *   `word`   — original token (may include trailing punctuation)
-   *   `clean`  — lowercase, stripped to [a-z'-] only — use for comparison
-   *   `idx`    — position in `tokens` array
-   *   `tokens` — phrase.split(' ')
-   *   Returns null when no blankable word exists in the phrase.
    */
   function pick(phrase) {
     const stop = _stopWords();
-    const tokens = phrase.split(' ');
-    const candidates = tokens
-      .map((w, i) => ({ word: w, idx: i, clean: w.toLowerCase().replace(/[^a-z'-]/g, '') }))
-      .filter(t => t.clean.length > 2 && !stop.has(t.clean));
+    const toks = AppText.tokens(phrase);
+    const candidates = toks
+      .map((w, i) => ({ word: w, idx: i, clean: AppText.normaliseSingle(w) }))
+      .filter((t) => [...t.clean].length > 2 && !stop.has(t.clean));
 
     if (candidates.length === 0) return null;
-
     const chosen = candidates[Math.floor(candidates.length / 2)];
-    return { ...chosen, tokens };
+    return { ...chosen, tokens: toks };
   }
 
   return { pick };
 })();
+
+if (typeof globalThis !== 'undefined') {
+  globalThis.AppText = AppText;
+  globalThis.AppCloze = AppCloze;
+}
+if (typeof module !== 'undefined' && module.exports) module.exports = { AppText, AppCloze };

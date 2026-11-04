@@ -179,7 +179,7 @@ function showQuestion(index) {
   document.getElementById('quiz-word').textContent     = (word.term || '').replace(/(^|\/\s*)(\p{L})/gu, (m, p, c) => p + c.toUpperCase());
   const _POS_Q = { Noun: 'pos_noun', Verb: 'pos_verb', Adjective: 'pos_adjective', Adverb: 'pos_adverb' };
   document.getElementById('quiz-category').textContent = word.category ? AppLang.t(_POS_Q[word.category] || word.category) : '';
-  document.getElementById('word-card').className       = 'word-card';
+  document.getElementById('word-card').className       = 'card word-card';
 
   document.getElementById('quiz-feedback').classList.add('hidden');
   document.getElementById('quiz-diff').textContent = '';
@@ -189,9 +189,16 @@ function showQuestion(index) {
   document.getElementById('back-to-path')?.classList.add('hidden');
 
   _showCefrBadge(word.level, 'word-card');
+  const promptEl = document.getElementById('quiz-prompt');
+  if (promptEl) {
+    promptEl.textContent = AppLang.t(_translationMode ? 'quiz_prompt_translation' : 'quiz_prompt_definition');
+  }
   const choices = buildChoices(index);
   renderChoices(choices, index);
-  // Don't auto-focus first option — it triggers a visible border that looks like a selection
+  // Don't auto-focus first option — it triggers a visible border that looks like a selection.
+  // El foco va a la palabra: se anuncia la pregunta sin marcar ninguna opción.
+  const qw = document.getElementById('quiz-word');
+  if (qw) qw.focus({ preventScroll: true });
 }
 
 function _showCefrBadge(level, containerId) {
@@ -234,16 +241,19 @@ function renderChoices(choices, correctIdx) {
   grid.innerHTML = '';
   choices.forEach(choice => {
     const btn = document.createElement('button');
-    btn.className = 'choice-btn';
+    btn.className = 'option';
     btn.textContent = _quizText(choice);
-    btn.addEventListener('click', () => handleAnswer(choice.isCorrect, choice, correctIdx));
+    // La opción correcta se marca por dato, no por texto: dos opciones iguales
+    // marcarían ambas (DP-07).
+    if (choice.isCorrect) btn.dataset.correct = 'true';
+    btn.addEventListener('click', () => handleAnswer(choice.isCorrect, choice, correctIdx, btn));
     grid.appendChild(btn);
   });
 }
 
 // ---- Answer Handling ----
 
-function handleAnswer(isCorrect, chosenWord, correctIdx) {
+function handleAnswer(isCorrect, chosenWord, correctIdx, chosenBtn) {
   if (answered) return;
   answered = true;
   _lastCorrect = isCorrect;
@@ -253,15 +263,12 @@ function handleAnswer(isCorrect, chosenWord, correctIdx) {
   Progress.recordSession(quizTopicKey, isCorrect ? 1 : 0, 1);
   if (isCorrect) updateCounter();
 
-  const btns = document.querySelectorAll('.choice-btn');
+  const btns = document.querySelectorAll('.option');
   btns.forEach(btn => {
     btn.disabled = true;
-    if (btn.textContent === _quizText(words[correctIdx])) {
-      btn.classList.add('correct');
-    } else if (btn.textContent === _quizText(chosenWord) && !isCorrect) {
-      btn.classList.add('incorrect');
-    }
+    if (btn.dataset.correct === 'true') btn.classList.add('option--correct');
   });
+  if (!isCorrect && chosenBtn) chosenBtn.classList.add('option--wrong');
 
   const feedbackEl = document.getElementById('quiz-feedback');
   const resultEl   = document.getElementById('feedback-result');
@@ -290,7 +297,7 @@ function rateAndNext(quality) {
   if (_pathModeActive && typeof PathSession !== 'undefined') {
     const nextHref = PathSession.advance();
     if (nextHref) {
-      window.location.href = '../../' + nextHref;
+      window.location.href = '../' + nextHref;
     } else {
       _showPathSessionComplete();
     }

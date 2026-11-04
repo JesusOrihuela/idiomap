@@ -1,0 +1,33 @@
+{
+  "id": "de-es",
+  "source": {
+    "code": "de",
+    "flags": [
+      "at",
+      "de"
+    ],
+    "name": "Deutsch",
+    "localName": "Deutsch"
+  },
+  "target": {
+    "code": "es",
+    "flags": [
+      "ar",
+      "mx",
+      "es"
+    ],
+    "name": "Español",
+    "localName": "Spanisch"
+  },
+  "sourceLocale": "de-DE",
+  "targetLocale": "es-419",
+  "label": "Deutsch → Español",
+  "ttsVoices": [
+    "ef_dora",
+    "em_alex",
+    "em_santa"
+  ],
+  "sttLanguage": "spanish",
+  "status": "shippable",
+  "stressTest": false
+}

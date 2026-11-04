@@ -18,7 +18,8 @@
       },
       "gloss_example": {
         "en": "My phone is new."
-      }
+      },
+      "conceptId": "es.telefono"
     },
     {
       "id": "foto",
@@ -38,7 +39,8 @@
       },
       "gloss_example": {
         "en": "I'll take a photo of you."
-      }
+      },
+      "conceptId": "es.foto"
     },
     {
       "id": "device",
@@ -58,7 +60,8 @@
       },
       "gloss_example": {
         "en": "My device ran out of battery during the meeting."
-      }
+      },
+      "conceptId": "es.device"
     },
     {
       "id": "television",
@@ -94,7 +97,8 @@
           },
           "audioSlug": "televisor"
         }
-      ]
+      ],
+      "conceptId": "es.television"
     },
     {
       "id": "radio",
@@ -114,7 +118,8 @@
       },
       "gloss_example": {
         "en": "I listen to the news on the radio."
-      }
+      },
+      "conceptId": "es.radio"
     },
     {
       "id": "video",
@@ -134,7 +139,8 @@
       },
       "gloss_example": {
         "en": "I recorded a video of the party with my phone."
-      }
+      },
+      "conceptId": "es.video"
     },
     {
       "id": "cellphone_device",
@@ -170,7 +176,8 @@
           },
           "audioSlug": "movil"
         }
-      ]
+      ],
+      "conceptId": "es.cellphone_device"
     },
     {
       "id": "computer_device",
@@ -206,7 +213,8 @@
           },
           "audioSlug": "ordenador"
         }
-      ]
+      ],
+      "conceptId": "es.computer_device"
     },
     {
       "id": "laptop",
@@ -242,7 +250,8 @@
           },
           "audioSlug": "laptop"
         }
-      ]
+      ],
+      "conceptId": "es.laptop"
     },
     {
       "id": "camera",
@@ -262,7 +271,8 @@
       },
       "gloss_example": {
         "en": "I bought a new camera for the trip."
-      }
+      },
+      "conceptId": "es.camera"
     },
     {
       "id": "program_tv",
@@ -282,7 +292,8 @@
       },
       "gloss_example": {
         "en": "We watch a cooking program on Sundays."
-      }
+      },
+      "conceptId": "es.program_tv"
     }
   ]
 }

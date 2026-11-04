@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <script src="../shared/js/icons.js?v=bf0d48f8"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://esm.sh blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://cdn.jsdelivr.net https://esm.sh https://huggingface.co https://*.huggingface.co; media-src 'self' blob:; worker-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; child-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gramática · Idiomap</title>
+    <link rel="canonical" href="https://jesusorihuela.github.io/idiomap/grammar/">
+    <meta name="description" content="Learn grammar through context, noticing, and production. Research-based six-phase exercises with SRS.">
+    <meta property="og:title" content="Grammar · Idiomap">
+    <meta property="og:description" content="Learn grammar through context, noticing, and production. Research-based six-phase exercises with SRS.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Idiomap">
+    <meta name="twitter:description" content="Research-based six-phase grammar exercises with spaced repetition · learn through context.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../shared/css/tokens.css?v=c503fc77">
+    <link rel="stylesheet" href="../shared/css/layout.css?v=19bc9d12">
+    <link rel="stylesheet" href="../shared/css/components.css?v=ea5c27b8">
+    <link rel="stylesheet" href="css/grammar.css?v=c1ca61c7">
+    <style>:root { --activity-clr: var(--violet-600); }</style>
+    <link rel="icon" href="../index/img/ico/favicon.ico">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Idiomap">
+
+    <!-- Language scripts: must be in <head> so LangUI is set before body renders -->
+    <script src="../shared/js/pairs.js?v=d0d87bca"></script>
+    <script src="../shared/js/languages.js?v=e2f2f8aa"></script>
+    <script src="../shared/js/lang-pair.js?v=bd479fdf"></script>
+    <script src="../shared/js/lang-profiles.js?v=19ba2b2c"></script>
+    <script src="../lang/ui.js?v=45820f61"></script>
+    <script src="../lang/target/en.js?v=22e1b310"></script>
+    <script src="../shared/js/lang.js?v=aaf848f7"></script>
+    <script src="../shared/js/i18n-dom.js?v=3ac48a81"></script>
+    <script src="../shared/js/page-title.js?v=bdfe900b"></script>
+
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content" data-i18n="skip_to_main">Ir al contenido principal</a>
+    <header>
+        <a href="../" aria-label="Idiomap · Home" data-i18n-aria="nav_home_aria">
+            <img src="../index/img/ico/logo.webp" alt="Idiomap" width="228" height="88" fetchpriority="high">
+        </a>
+    </header>
+
+    <nav class="mode-switcher" aria-label="Modos de práctica" data-i18n-aria="nav_modes_aria">
+        <a href="../" class="nav-item" data-nav="home" aria-label="Inicio" data-i18n-aria="nav_home_aria"><svg class="icon" aria-hidden="true"><use href="#i-house"/></svg></a>
+        <a href="../my-learning/" class="nav-item" data-nav="my-learning"><svg class="icon" aria-hidden="true"><use href="#i-map"/></svg> <span class="btn-label" data-i18n="nav_my_learning">Mi Aprendizaje</span></a>
+        <a href="../speaking/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-mic"/></svg> <span class="btn-label" data-i18n="nav_speaking">Pronunciación</span></a>
+        <a href="../dictation/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-pen"/></svg> <span class="btn-label" data-i18n="nav_dictation">Dictado</span></a>
+        <a href="../cloze/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-type"/></svg> <span class="btn-label" data-i18n="nav_cloze">Cloze</span></a>
+        <a href="../translation/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-languages"/></svg> <span class="btn-label" data-i18n="nav_translation">Traducción</span></a>
+        <a href="../scramble/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-puzzle"/></svg> <span class="btn-label" data-i18n="nav_scramble">Secuencia</span></a>
+        <a href="../vocabulary/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg> <span class="btn-label" data-i18n="nav_vocabulary">Vocabulario</span></a>
+        <a href="../quiz/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-brain"/></svg> <span class="btn-label" data-i18n="nav_quiz">Quiz</span></a>
+        <a href="../grammar/" class="nav-item nav-item--active active" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-ruler"/></svg> <span class="btn-label" data-i18n="nav_grammar">Gramática</span></a>
+        <a href="../progress/" class="nav-item" data-nav="settings" data-i18n-aria="nav_settings_aria"><svg class="icon" aria-hidden="true"><use href="#i-settings"/></svg></a>
+    <script>(function(){if(typeof AppLang==='undefined')return;document.querySelectorAll('.mode-switcher .btn-label[data-i18n]').forEach(function(e){var k=e.getAttribute('data-i18n'),t=AppLang.t(k);if(t!==k)e.textContent=t;});}());</script>
+        </nav>
+
+    <main class="grammar-page container" id="main-content">
+
+        <!-- ══════════════════════════════════════════
+             SCREEN 1 · Category Picker
+        ══════════════════════════════════════════ -->
+        <div id="screen-categories">
+            <div class="grammar-header page-header">
+                <h1 class="page-header__title" data-i18n-html="grammar_page_title"></h1>
+                <p class="page-header__sub" data-i18n="grammar_picker_sub"></p>
+            </div>
+
+            <div class="category-grid" id="category-grid">
+                <!-- Filled by JS -->
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════
+             SCREEN 2 · Rule List (within a category)
+        ══════════════════════════════════════════ -->
+        <div id="screen-rules" class="hidden">
+            <div class="session-info-bar">
+                <button class="btn btn--ghost btn--sm btn--back" id="back-to-categories" data-i18n="back_to_categories"></button>
+                <span id="rule-category-label" class="category-label-badge"></span>
+            </div>
+            <div class="rule-list" id="rule-list">
+                <!-- Filled by JS -->
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════
+             SCREEN 3 · Exercise (6 phases)
+        ══════════════════════════════════════════ -->
+        <div id="screen-exercise" class="hidden">
+
+            <!-- Session bar -->
+            <div class="session-info-bar session-info-bar--grid">
+                <button class="btn btn--ghost btn--sm btn--back" id="back-to-rules" data-i18n="back_to_rules"></button>
+                <span id="exercise-rule-title" class="rule-title-badge"></span>
+                <span id="exercise-cefr-badge" class="cefr-badge"></span>
+            </div>
+
+            <!-- Phase progress indicator -->
+            <div class="phase-progress" id="phase-progress" aria-label="Fases del ejercicio" role="status" data-i18n-aria="phase_progress_aria">
+                <div class="phase-dot" data-phase="0" data-label="Contexto" aria-label="Fase 1: Contexto" data-i18n-aria="phase_0_aria"><span class="phase-dot-num">1</span><span class="phase-dot-label" data-i18n="phase_0_short">Contexto</span></div>
+                <div class="phase-sep" aria-hidden="true">›</div>
+                <div class="phase-dot" data-phase="1" data-label="Observa" aria-label="Fase 2: Observa" data-i18n-aria="phase_1_aria"><span class="phase-dot-num">2</span><span class="phase-dot-label" data-i18n="phase_1_short">Observa</span></div>
+                <div class="phase-sep" aria-hidden="true">›</div>
+                <div class="phase-dot" data-phase="2" data-label="La Regla" aria-label="Fase 3: La Regla" data-i18n-aria="phase_2_aria"><span class="phase-dot-num">3</span><span class="phase-dot-label" data-i18n="phase_2_short">La Regla</span></div>
+                <div class="phase-sep" aria-hidden="true">›</div>
+                <div class="phase-dot" data-phase="3" data-label="Comprensión" aria-label="Fase 4: Comprensión" data-i18n-aria="phase_3_aria"><span class="phase-dot-num">4</span><span class="phase-dot-label" data-i18n="phase_3_short">Comprensión</span></div>
+                <div class="phase-sep" aria-hidden="true">›</div>
+                <div class="phase-dot" data-phase="4" data-label="Producción" aria-label="Fase 5: Producción" data-i18n-aria="phase_4_aria"><span class="phase-dot-num">5</span><span class="phase-dot-label" data-i18n="phase_4_short">Producción</span></div>
+                <div class="phase-sep" aria-hidden="true">›</div>
+                <div class="phase-dot" data-phase="5" data-label="Expresión" aria-label="Fase 6: Expresión" data-i18n-aria="phase_5_aria"><span class="phase-dot-num">6</span><span class="phase-dot-label" data-i18n="phase_5_short">Expresión</span></div>
+            </div>
+
+            <!-- Step-back: return to a previous phase (e.g. re-read the rule) at any point -->
+            <button class="btn btn--ghost btn--sm phase-back-btn hidden" id="phase-back-btn" data-i18n="phase_back_btn" data-i18n-aria="phase_back_aria" aria-label="Paso anterior">← Paso anterior</button>
+
+            <!-- ── PHASE 1: Context Input ── -->
+            <section id="phase-context" class="phase-section hidden" aria-label="Fase 1: Contexto" data-i18n-aria="phase_0_aria">
+                <div class="phase-label">
+                    <span class="phase-num">1</span>
+                    <span class="phase-name" data-i18n="phase_0_short">Contexto</span>
+                    <span class="phase-hint" data-i18n="phase_context_hint">Lee el diálogo. Observa las partes resaltadas.</span>
+                </div>
+                <div class="card dialogue-card" id="dialogue-card">
+                    <!-- Filled by JS -->
+                </div>
+                <div class="phase-actions">
+                    <button class="btn btn--primary primary-btn" id="context-next-btn" data-i18n="context_next_btn">¿Qué observas? →</button>
+                </div>
+            </section>
+
+            <!-- ── PHASE 2: Noticing ── -->
+            <section id="phase-noticing" class="phase-section hidden" aria-label="Fase 2: Observa" data-i18n-aria="phase_1_aria">
+                <div class="phase-label">
+                    <span class="phase-num">2</span>
+                    <span class="phase-name" data-i18n="phase_1_short">Observa</span>
+                    <span class="phase-hint" data-i18n="phase_noticing_hint">Escribe tu respuesta antes de continuar.</span>
+                </div>
+                <div class="card noticing-card" id="noticing-card">
+                    <!-- Filled by JS -->
+                </div>
+                <div class="phase-actions">
+                    <span class="noticing-progress" id="noticing-progress" aria-live="polite"></span>
+                    <button class="btn btn--primary primary-btn" id="noticing-show-btn" disabled data-i18n="noticing_show_btn">Ver explicación</button>
+                </div>
+            </section>
+
+            <!-- ── PHASE 3: Rule Confirmation ── -->
+            <section id="phase-rule" class="phase-section hidden" aria-label="Fase 3: La Regla" data-i18n-aria="phase_2_aria">
+                <div class="phase-label">
+                    <span class="phase-num">3</span>
+                    <span class="phase-name" data-i18n="phase_2_short">La Regla</span>
+                    <span class="phase-hint" data-i18n="phase_rule_hint">Confirma lo que observaste.</span>
+                </div>
+                <div class="card card--accent rule-card" id="rule-card">
+                    <!-- Filled by JS -->
+                </div>
+                <div class="phase-actions">
+                    <button class="btn btn--primary primary-btn" id="rule-next-btn" data-i18n="rule_next_btn">Practicar reconocimiento →</button>
+                </div>
+            </section>
+
+            <!-- ── PHASE 4: Structured Input ── -->
+            <section id="phase-structured" class="phase-section hidden" aria-label="Fase 4: Comprensión" data-i18n-aria="phase_3_aria">
+                <div class="phase-label">
+                    <span class="phase-num">4</span>
+                    <span class="phase-name" data-i18n="phase_3_short">Comprensión</span>
+                    <span class="phase-hint" data-i18n="phase_structured_hint">Elige la opción correcta.</span>
+                </div>
+                <div class="structured-counter" id="structured-counter" role="status" aria-live="polite"></div>
+                <div class="card structured-card" id="structured-card">
+                    <!-- Filled by JS -->
+                </div>
+                <div class="phase-actions" id="structured-actions"><!-- back + dynamic next --></div>
+            </section>
+
+            <!-- ── PHASE 5: FITB Production ── -->
+            <section id="phase-production" class="phase-section hidden" aria-label="Fase 5: Producción" data-i18n-aria="phase_4_aria">
+                <div class="phase-label">
+                    <span class="phase-num">5</span>
+                    <span class="phase-name" data-i18n="phase_4_short">Producción</span>
+                    <span class="phase-hint" data-i18n="phase_production_hint">Escribe la forma correcta en el espacio.</span>
+                </div>
+                <div class="production-counter" id="production-counter" role="status" aria-live="polite"></div>
+                <div class="card production-card" id="production-card">
+                    <!-- Filled by JS -->
+                </div>
+                <div class="phase-actions" id="production-actions"><!-- back + dynamic next --></div>
+            </section>
+
+            <!-- ── PHASE 6: Express (communicative / meaningful production, self-assessed) ── -->
+            <section id="phase-express" class="phase-section hidden" aria-label="Fase 6: Expresión" data-i18n-aria="phase_5_aria">
+                <div class="phase-label">
+                    <span class="phase-num">6</span>
+                    <span class="phase-name" data-i18n="phase_5_short">Expresión</span>
+                    <span class="phase-hint" data-i18n="phase_express_hint">Crea tu propia oración con la estructura y compárala con el modelo.</span>
+                </div>
+                <div class="express-counter" id="express-counter" role="status" aria-live="polite"></div>
+                <div class="card express-card" id="express-card">
+                    <!-- Filled by JS -->
+                </div>
+                <div class="phase-actions" id="express-actions"><!-- back + dynamic next --></div>
+            </section>
+
+            <!-- ── Complete / Rating ── -->
+            <section id="phase-complete" class="phase-section hidden" aria-label="Ejercicio completado" data-i18n-aria="phase_complete_aria">
+                <div class="card complete-card" id="complete-card">
+                    <div class="complete-icon"><svg class="icon" aria-hidden="true"><use href="#i-party"/></svg></div>
+                    <h2 class="complete-title" data-i18n="exercise_complete_h2">Ejercicio completado</h2>
+                    <p class="complete-score" id="complete-score"></p>
+
+                    <button class="btn btn--primary auto-save-btn" id="rate-auto" data-i18n="grammar_continue_btn">Continuar →</button>
+                    <!-- Related phrases from Speaking/other activities -->
+                    <div id="related-phrases" class="related-phrases hidden" role="region" aria-label="Frases de práctica relacionadas" data-i18n-aria="related_phrases_aria"></div>
+                </div>
+            </section>
+
+        </div><!-- /screen-exercise -->
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p></p>
+            <a href="https://github.com/JesusOrihuela/idiomap" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository" data-i18n-aria="nav_github_aria">
+                <svg class="icon icon--sm icon--brand" aria-hidden="true"><use href="#i-github"/></svg>
+            </a>
+        </div>
+    </footer>
+
+    <script src="../shared/js/flags.js?v=527c7259"></script>
+    <script src="../shared/js/cefr.js?v=4737c1d0"></script>
+    <script src="../shared/js/proficiency.js?v=5fd50d9f"></script>
+    <script src="../shared/js/progress.js?v=651f6d16"></script>
+    <script src="../shared/js/text-utils.js?v=6b441086"></script>
+    <script src="../shared/js/content.js?v=a9ebe9f2"></script>
+    <script src="../shared/js/topic-data.js?v=5bf39a02"></script>
+    <script src="../shared/js/topics.js?v=4b06b99c"></script>
+    <script src="../shared/js/grammar-chip.js?v=39eb9da2"></script>
+    <script src="../shared/js/network-status.js?v=bb7c0f56"></script>
+    <script src="../shared/js/theme.js?v=80cf2218"></script>
+    <script src="../shared/js/path.js?v=424ff18b"></script>
+    <script src="../shared/js/path-session.js?v=f54a2937"></script>
+    <script src="js/grammar.js?v=dfca1695"></script>
+    <script src="../shared/js/milestones.js?v=f3a74ec2"></script>
+    <script src="../shared/js/nav.js?v=0988494a"></script>
+    <script src="../shared/js/sw-register.js?v=f3fe7a26"></script>
+</body>
+
+</html>

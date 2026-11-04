@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <script src="../shared/js/icons.js?v=bf0d48f8"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://esm.sh blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://cdn.jsdelivr.net https://esm.sh https://huggingface.co https://*.huggingface.co; media-src 'self' blob:; worker-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; child-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Nivel · Idiomap</title>
+    <link rel="canonical" href="https://jesusorihuela.github.io/idiomap/placement/">
+    <meta name="description" content="Find your English level (CEFR A1-C2) with 14 questions and start with the content that fits you best.">
+    <meta property="og:title" content="Placement Test · Idiomap">
+    <meta property="og:description" content="Find your English level (CEFR A1-C2) with 14 questions and start with the content that fits you best.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Idiomap">
+    <meta name="twitter:description" content="14 questions to find your English level (CEFR A1-C2) and start with the right content.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../shared/css/tokens.css?v=c503fc77">
+    <link rel="stylesheet" href="../shared/css/layout.css?v=19bc9d12">
+    <link rel="stylesheet" href="../shared/css/components.css?v=ea5c27b8">
+    <link rel="stylesheet" href="css/placement.css?v=cfa25c5b">
+    <link rel="icon" href="../index/img/ico/favicon.ico">
+    <meta name="theme-color" content="">
+    <meta name="robots" content="noindex">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content" data-i18n="skip_to_main"></a>
+
+    <header>
+        <a href="../" aria-label="Idiomap · Home" data-i18n-aria="nav_home_aria">
+            <img src="../index/img/ico/logo.webp" alt="Idiomap" width="228" height="88" fetchpriority="high">
+        </a>
+    </header>
+
+    <main class="placement-page container" id="main-content">
+
+        <!-- ══ SCREEN 1: Intro ══ -->
+        <div id="screen-intro">
+            <div class="placement-card">
+                <div class="placement-icon" aria-hidden="true"><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg></div>
+                <h1 class="page-header__title placement-title" data-i18n-html="placement_page_h1"></h1>
+                <p class="page-header__sub placement-subtitle" data-i18n="placement_subtitle"></p>
+                <div class="placement-info-pills" aria-label="" data-i18n-aria="placement_details_aria">
+                    <span class="info-pill" data-i18n="placement_pill_time"></span>
+                    <span class="info-pill" data-i18n="placement_pill_questions"></span>
+                    <span class="info-pill" data-i18n="placement_pill_result"></span>
+                </div>
+                <div class="placement-actions">
+                    <button id="start-btn" class="btn btn--primary btn--block" data-i18n="placement_start_btn"></button>
+                    <button id="skip-btn" class="btn btn--ghost btn--block" data-i18n="placement_skip_btn"></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ══ SCREEN 2: Quiz ══ -->
+        <div id="screen-quiz" class="hidden">
+            <div class="placement-quiz-wrap">
+
+                <!-- Progress bar -->
+                <div class="placement-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="placement-progress">
+                    <div class="placement-progress-fill" id="placement-progress-fill"></div>
+                </div>
+
+                <!-- Counter + level badge -->
+                <div class="quiz-meta">
+                    <span class="placement-counter" id="placement-counter" aria-live="polite"></span>
+                    <span class="placement-level-badge" id="placement-level-badge">A1</span>
+                </div>
+
+                <!-- Question -->
+                <div class="question-card">
+                    <p class="question-text" id="question-text"></p>
+                    <div class="options-grid" id="options-grid"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ══ SCREEN 3: Results ══ -->
+        <div id="screen-result" class="hidden">
+            <div class="result-card">
+                <div class="result-icon" id="result-emoji" aria-hidden="true"></div>
+                <h2 class="result-level-label" id="result-level-label"></h2>
+                <p class="result-score" id="result-score" role="status" aria-live="polite"></p>
+                <p class="result-message" id="result-message"></p>
+
+                <div class="result-suggestions-label" data-i18n="placement_suggestions_label"></div>
+                <div class="result-suggestions" id="result-suggestions"></div>
+
+                <a href="../" class="btn btn--primary btn--block result-cta" id="result-cta" data-i18n="placement_result_cta"></a>
+                <button id="retake-btn" class="btn btn--ghost btn--block" data-i18n="placement_retake_btn"></button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p></p>
+            <a href="https://github.com/JesusOrihuela/idiomap" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository" data-i18n-aria="nav_github_aria">
+                <svg class="icon icon--sm icon--brand" aria-hidden="true"><use href="#i-github"/></svg>
+            </a>
+        </div>
+    </footer>
+
+    <script src="../shared/js/flags.js?v=527c7259"></script>
+    <script src="../shared/js/cefr.js?v=4737c1d0"></script>
+    <script src="../shared/js/pairs.js?v=d0d87bca"></script>
+    <script src="../shared/js/languages.js?v=e2f2f8aa"></script>
+    <script src="../shared/js/lang-pair.js?v=bd479fdf"></script>
+    <script src="../shared/js/proficiency.js?v=5fd50d9f"></script>
+    <script src="../lang/ui.js?v=45820f61"></script>
+    <script src="../lang/target/en.js?v=22e1b310"></script>
+    <script src="../shared/js/lang.js?v=aaf848f7"></script>
+    <script src="../shared/js/i18n-dom.js?v=3ac48a81"></script>
+    <script src="../shared/js/page-title.js?v=bdfe900b"></script>
+    <script>
+      /* Footer: invariant name + translatable "developed by" + dynamic year
+         (placement doesn't load nav.js, which builds it on other pages). */
+      (function () {
+        var fp = document.querySelector('footer .footer-content p');
+        if (fp && typeof AppLang !== 'undefined') {
+          var dev = AppLang.t('footer_developed_by');
+          if (dev !== 'footer_developed_by') {
+            fp.innerHTML = '© <span id="footer-year">' + new Date().getFullYear() + '</span> ' + dev + ' aurariola<span style="color:var(--color-action)">.</span>com';
+          }
+        }
+      })();
+    </script>
+    <script src="../shared/js/content.js?v=a9ebe9f2"></script>
+    <script src="../shared/js/topic-data.js?v=5bf39a02"></script>
+    <script src="js/placement.js?v=f966b8f0"></script>
+    <script src="../shared/js/network-status.js?v=bb7c0f56"></script>
+    <script src="../shared/js/theme.js?v=80cf2218"></script>
+</body>
+
+</html>

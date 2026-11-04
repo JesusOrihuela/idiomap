@@ -31,7 +31,7 @@ tools/apply-de-glosses.mjs
 !tools/sources/derived/es-core.json
 !tools/sources/derived/image-credits.json
 
-# ── Audio files (pre-generated, ~399 MB) ──────────────────────
+# ── Audio files (pre-generated, ~3.2 GB) ──────────────────────
 # Generated locally with: node tools/generate-audio.mjs
 # Included in the repo so users get instant playback without downloading the TTS model.
 # shared/audio/
@@ -44,7 +44,6 @@ tools/apply-de-glosses.mjs
 # ── Claude Code ───────────────────────────────────────────────
 .claude/
 CLAUDE.md
-CLAUDE.md.bak
 AGENTS.md
 tools/gate-run.mjs
 
@@ -79,18 +78,23 @@ tools/img-probe.py
 tools/lib-embed.mjs
 tools/image-audit-waivers.json
 tools/semantic-audit-waivers.json
-docs/CONTENT-QUALITY.md
-docs/IMAGE-QUALITY.md
-docs/LANGUAGE-PROFILES.md
 tools/audio-asr-audit.mjs
 tools/audio-audit-waivers.json
 tools/audio-embeddings-cache.json
-docs/AUDIO-QUALITY.md
 tools/gloss-audit.mjs
 tools/gloss-embeddings-cache.json
 
 # Audio text-hash manifest (staleness safeguard; local dev tooling, like .manifest.json)
 shared/audio/.text-hashes.json
+shared/json/.resolved/
 tools/bump-assets.mjs
 tools/grammar-translate.mjs
 tools/grammar-practice-patch.mjs
+
+# --- Documentacion interna: local, no publicada ------------------------------
+# GitHub Pages sirve todo el arbol desde main: los archivos con punto inicial no
+# se sirven, el resto si. Lo que no hace falta para que la pagina funcione ni
+# para los tests se queda fuera del indice de git, que es lo que ya se hace con
+# AGENTS.md, CLAUDE.md y lefthook.yml. Ver docs/UI-PLAN.md seccion 14.
+# Los archivos siguen en disco; solo dejan de publicarse.
+docs/

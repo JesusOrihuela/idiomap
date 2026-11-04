@@ -1,0 +1,30 @@
+{
+  "id": "en-sv",
+  "source": {
+    "code": "en",
+    "flags": [
+      "us",
+      "gb"
+    ],
+    "name": "English",
+    "localName": "English"
+  },
+  "target": {
+    "code": "sv",
+    "flags": [
+      "se"
+    ],
+    "name": "Svenska",
+    "localName": "Swedish"
+  },
+  "sourceLocale": "en-US",
+  "targetLocale": "sv-SE",
+  "label": "English → Svenska",
+  "ttsVoices": [
+    "svf_sofie",
+    "svm_mattias"
+  ],
+  "sttLanguage": "swedish",
+  "status": "stress",
+  "stressTest": true
+}

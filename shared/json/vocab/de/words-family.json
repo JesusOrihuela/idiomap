@@ -8,13 +8,34 @@
       "difficulty": "easy",
       "definition": "Ein junger Mensch, der noch nicht erwachsen ist.",
       "example": "Das Kind spielt im Garten.",
-      "translations": { "en": "child" },
-      "gloss": { "en": "A young human being who is not yet an adult." },
-      "gloss_example": { "en": "The child plays in the garden." },
+      "translations": {
+        "en": "child",
+        "es": "niño / niña"
+      },
+      "gloss": {
+        "en": "A young human being who is not yet an adult.",
+        "es": "Persona joven."
+      },
+      "gloss_example": {
+        "en": "The child plays in the garden."
+      },
       "variants": [
-        { "text": "das Kind", "labels": { "number": "singular" }, "audioSlug": "das_kind" },
-        { "text": "die Kinder", "labels": { "number": "plural" }, "audioSlug": "die_kinder" }
-      ]
+        {
+          "text": "das Kind",
+          "labels": {
+            "number": "singular"
+          },
+          "audioSlug": "das_kind"
+        },
+        {
+          "text": "die Kinder",
+          "labels": {
+            "number": "plural"
+          },
+          "audioSlug": "die_kinder"
+        }
+      ],
+      "conceptId": "de.kind"
     },
     {
       "id": "bruder",
@@ -24,13 +45,34 @@
       "difficulty": "easy",
       "definition": "Ein männliches Geschwister.",
       "example": "Mein Bruder wohnt in Berlin.",
-      "translations": { "en": "brother" },
-      "gloss": { "en": "A male sibling." },
-      "gloss_example": { "en": "My brother lives in Berlin." },
+      "translations": {
+        "en": "brother",
+        "es": "hermano"
+      },
+      "gloss": {
+        "en": "A male sibling.",
+        "es": "Hijo varón de los mismos padres."
+      },
+      "gloss_example": {
+        "en": "My brother lives in Berlin."
+      },
       "variants": [
-        { "text": "der Bruder", "labels": { "number": "singular" }, "audioSlug": "der_bruder" },
-        { "text": "die Brüder", "labels": { "number": "plural" }, "audioSlug": "die_brueder" }
-      ]
+        {
+          "text": "der Bruder",
+          "labels": {
+            "number": "singular"
+          },
+          "audioSlug": "der_bruder"
+        },
+        {
+          "text": "die Brüder",
+          "labels": {
+            "number": "plural"
+          },
+          "audioSlug": "die_brueder"
+        }
+      ],
+      "conceptId": "de.bruder"
     },
     {
       "id": "frau",
@@ -40,13 +82,34 @@
       "difficulty": "easy",
       "definition": "Ein erwachsener weiblicher Mensch.",
       "example": "Die Frau arbeitet im Büro.",
-      "translations": { "en": "woman" },
-      "gloss": { "en": "An adult female human being." },
-      "gloss_example": { "en": "The woman works in the office." },
+      "translations": {
+        "en": "woman",
+        "es": "mujer"
+      },
+      "gloss": {
+        "en": "An adult female human being.",
+        "es": "Persona adulta de sexo femenino."
+      },
+      "gloss_example": {
+        "en": "The woman works in the office."
+      },
       "variants": [
-        { "text": "die Frau", "labels": { "number": "singular" }, "audioSlug": "die_frau" },
-        { "text": "die Frauen", "labels": { "number": "plural" }, "audioSlug": "die_frauen" }
-      ]
+        {
+          "text": "die Frau",
+          "labels": {
+            "number": "singular"
+          },
+          "audioSlug": "die_frau"
+        },
+        {
+          "text": "die Frauen",
+          "labels": {
+            "number": "plural"
+          },
+          "audioSlug": "die_frauen"
+        }
+      ],
+      "conceptId": "de.frau"
     },
     {
       "id": "vater",
@@ -56,13 +119,34 @@
       "difficulty": "easy",
       "definition": "Ein männlicher Elternteil.",
       "example": "Der Vater liest ein Buch.",
-      "translations": { "en": "father" },
-      "gloss": { "en": "A male parent." },
-      "gloss_example": { "en": "The father reads a book." },
+      "translations": {
+        "en": "father",
+        "es": "padre"
+      },
+      "gloss": {
+        "en": "A male parent.",
+        "es": "Hombre que tiene hijos."
+      },
+      "gloss_example": {
+        "en": "The father reads a book."
+      },
       "variants": [
-        { "text": "der Vater", "labels": { "number": "singular" }, "audioSlug": "der_vater" },
-        { "text": "die Väter", "labels": { "number": "plural" }, "audioSlug": "die_vaeter" }
-      ]
+        {
+          "text": "der Vater",
+          "labels": {
+            "number": "singular"
+          },
+          "audioSlug": "der_vater"
+        },
+        {
+          "text": "die Väter",
+          "labels": {
+            "number": "plural"
+          },
+          "audioSlug": "die_vaeter"
+        }
+      ],
+      "conceptId": "de.vater"
     },
     {
       "id": "mann",
@@ -72,15 +156,48 @@
       "difficulty": "easy",
       "definition": "Ein erwachsener männlicher Mensch.",
       "example": "Der Mann liest eine Zeitung.",
-      "translations": { "en": "man" },
-      "gloss": { "en": "An adult male human being." },
-      "gloss_example": { "en": "The man reads a newspaper." },
+      "translations": {
+        "en": "man",
+        "es": "hombre"
+      },
+      "gloss": {
+        "en": "An adult male human being.",
+        "es": "Persona adulta de sexo masculino."
+      },
+      "gloss_example": {
+        "en": "The man reads a newspaper."
+      },
       "variants": [
-        { "text": "der Mann", "labels": { "case": "nominativ" }, "audioSlug": "der_mann" },
-        { "text": "den Mann", "labels": { "case": "akkusativ" }, "audioSlug": "den_mann" },
-        { "text": "dem Mann", "labels": { "case": "dativ" }, "audioSlug": "dem_mann" },
-        { "text": "des Mannes", "labels": { "case": "genitiv" }, "audioSlug": "des_mannes" }
-      ]
+        {
+          "text": "der Mann",
+          "labels": {
+            "case": "nominativ"
+          },
+          "audioSlug": "der_mann"
+        },
+        {
+          "text": "den Mann",
+          "labels": {
+            "case": "akkusativ"
+          },
+          "audioSlug": "den_mann"
+        },
+        {
+          "text": "dem Mann",
+          "labels": {
+            "case": "dativ"
+          },
+          "audioSlug": "dem_mann"
+        },
+        {
+          "text": "des Mannes",
+          "labels": {
+            "case": "genitiv"
+          },
+          "audioSlug": "des_mannes"
+        }
+      ],
+      "conceptId": "de.mann"
     }
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "tag": "fr",
+  "name": "French",
+  "status": "stub",
+  "grammaticalGender": false,
+  "sourceGender": {
+    "nounsCapitalized": true,
+    "fixWords": []
+  },
+  "voices": [
+    "ff_siwis",
+    "fm_gaston"
+  ],
+  "tts": {
+    "engine": "edge",
+    "voices": []
+  },
+  "foldPreserve": "",
+  "nativeChars": "",
+  "clozeStopWords": [],
+  "functionWords": [],
+  "ignoreTokens": [],
+  "grammarTipLabels": [],
+  "frequency": {
+    "list": "pendiente",
+    "cefrGraded": true,
+    "committed": false,
+    "stressTest": true,
+    "gateIndex": null,
+    "gateFloor": 0,
+    "note": "Sin pack todavía. Completar antes de publicar contenido."
+  }
+}

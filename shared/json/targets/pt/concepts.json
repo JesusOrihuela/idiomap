@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "tag": "pt",
+  "concepts": [
+    {
+      "conceptId": "pt.personal_info_i_am_a_student",
+      "id": "personal_info_i_am_a_student",
+      "target": [
+        {
+          "text": "Sou aluno.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "sou_aluno"
+        },
+        {
+          "text": "Sou aluna.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "sou_aluna"
+        }
+      ],
+      "pairs": [
+        "en-pt"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.personal_info_i_am_from_brazil",
+      "id": "personal_info_i_am_from_brazil",
+      "target": [
+        {
+          "text": "Sou do Brasil.",
+          "audioSlug": "sou_do_brasil"
+        }
+      ],
+      "pairs": [
+        "en-pt"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.personal_info_my_name_is",
+      "id": "personal_info_my_name_is",
+      "target": [
+        {
+          "text": "Meu nome é Ana.",
+          "audioSlug": "meu_nome_e_ana"
+        }
+      ],
+      "pairs": [
+        "en-pt"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.piloto_buenos_dias",
+      "id": "piloto_buenos_dias",
+      "target": [
+        {
+          "text": "Bom dia.",
+          "audioSlug": "buenos_dias"
+        }
+      ],
+      "pairs": [
+        "es-pt"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.piloto_cuanto_cuesta",
+      "id": "piloto_cuanto_cuesta",
+      "target": [
+        {
+          "text": "Quanto custa?",
+          "audioSlug": "cuanto_cuesta"
+        }
+      ],
+      "pairs": [
+        "es-pt"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.piloto_donde_esta_la_estacion",
+      "id": "piloto_donde_esta_la_estacion",
+      "target": [
+        {
+          "text": "Onde fica a estação?",
+          "audioSlug": "donde_esta_la_estacion"
+        }
+      ],
+      "pairs": [
+        "es-pt"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.piloto_gracias_por_tu_ayuda",
+      "id": "piloto_gracias_por_tu_ayuda",
+      "target": [
+        {
+          "text": "Obrigado pela sua ajuda.",
+          "audioSlug": "gracias_por_tu_ayuda"
+        }
+      ],
+      "pairs": [
+        "es-pt"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.piloto_hablo_un_poco_de_portugues",
+      "id": "piloto_hablo_un_poco_de_portugues",
+      "target": [
+        {
+          "text": "Falo um pouco de português.",
+          "audioSlug": "hablo_un_poco_de_portugues"
+        }
+      ],
+      "pairs": [
+        "es-pt"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.piloto_hasta_luego",
+      "id": "piloto_hasta_luego",
+      "target": [
+        {
+          "text": "Até logo.",
+          "audioSlug": "hasta_luego"
+        }
+      ],
+      "pairs": [
+        "es-pt"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.piloto_hola_como_estas",
+      "id": "piloto_hola_como_estas",
+      "target": [
+        {
+          "text": "Olá, como você está?",
+          "audioSlug": "hola_como_estas"
+        }
+      ],
+      "pairs": [
+        "es-pt"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.piloto_no_entiendo",
+      "id": "piloto_no_entiendo",
+      "target": [
+        {
+          "text": "Não entendo.",
+          "audioSlug": "no_entiendo"
+        }
+      ],
+      "pairs": [
+        "es-pt"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.piloto_puedes_repetir",
+      "id": "piloto_puedes_repetir",
+      "target": [
+        {
+          "text": "Pode repetir?",
+          "audioSlug": "puedes_repetir"
+        }
+      ],
+      "pairs": [
+        "es-pt"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.piloto_quiero_un_cafe_por_favor",
+      "id": "piloto_quiero_un_cafe_por_favor",
+      "target": [
+        {
+          "text": "Quero um café, por favor.",
+          "audioSlug": "quiero_un_cafe_por_favor"
+        }
+      ],
+      "pairs": [
+        "es-pt"
+      ],
+      "sources": [
+        "es"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.survival_can_you_help_me",
+      "id": "survival_can_you_help_me",
+      "target": [
+        {
+          "text": "Tu podes me ajudar?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "tu_podes_me_ajudar"
+        },
+        {
+          "text": "Você pode me ajudar?",
+          "labels": {
+            "register": "neutral"
+          },
+          "audioSlug": "voce_pode_me_ajudar"
+        },
+        {
+          "text": "O senhor pode me ajudar?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "o_senhor_pode_me_ajudar"
+        }
+      ],
+      "pairs": [
+        "en-pt"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.survival_do_you_speak_english",
+      "id": "survival_do_you_speak_english",
+      "target": [
+        {
+          "text": "Com licença, tu falas inglês?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "com_licenca_tu_falas_ingles"
+        },
+        {
+          "text": "Com licença, você fala inglês?",
+          "labels": {
+            "register": "neutral"
+          },
+          "audioSlug": "com_licenca_voce_fala_ingles"
+        },
+        {
+          "text": "Com licença, o senhor fala inglês?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "com_licenca_o_senhor_fala_ingles"
+        }
+      ],
+      "pairs": [
+        "en-pt"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "pt.survival_i_do_not_understand",
+      "id": "survival_i_do_not_understand",
+      "target": [
+        {
+          "text": "Não entendo.",
+          "audioSlug": "nao_entendo"
+        }
+      ],
+      "pairs": [
+        "en-pt"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    }
+  ]
+}

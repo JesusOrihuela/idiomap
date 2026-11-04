@@ -20,6 +20,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { loadTopic } from './lib-content.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PAIRS_DIR = path.join(ROOT, 'shared/json/pairs');
@@ -70,9 +71,9 @@ for (const id of scopeVocab.keys()) if (!vocabDecks.has(id)) fail(`scope vocab:"
 for (const pair of pairs) {
   const tj = JSON.parse(fs.readFileSync(path.join(PAIRS_DIR, pair, 'topics.json'), 'utf8'));
   for (const t of tj.topics.filter(x => x.phrase)) {
-    const file = path.join(PAIRS_DIR, pair, `${t.id}.json`);
-    if (!fs.existsSync(file)) continue;
-    const phrases = JSON.parse(fs.readFileSync(file, 'utf8')).phrases || [];
+    let data;
+    try { data = loadTopic(pair, t.id); } catch { continue; }
+    const phrases = data.phrases || [];
     for (const p of phrases)
       if (!p.id.startsWith(t.id + '_')) fail(`${pair}/${t.id}: phrase id "${p.id}" does not start with "${t.id}_"`);
   }

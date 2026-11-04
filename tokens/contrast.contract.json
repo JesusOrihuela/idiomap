@@ -1,0 +1,22 @@
+{
+  "$description": "Contraste mínimo por par de roles (WCAG 2.1 AA). Validado por tools/check-tokens.mjs.",
+  "pairs": [
+    { "fg": "color.semantic.text", "bg": "color.semantic.surface", "min": 4.5, "use": "texto sobre superficie" },
+    { "fg": "color.semantic.text", "bg": "color.semantic.bg", "min": 4.5, "use": "texto sobre fondo" },
+    { "fg": "color.semantic.text-muted", "bg": "color.semantic.surface", "min": 4.5, "use": "texto secundario" },
+    { "fg": "color.semantic.text-muted", "bg": "color.semantic.bg", "min": 4.5, "use": "texto secundario sobre fondo" },
+    { "fg": "color.semantic.action", "bg": "color.semantic.surface", "min": 4.5, "use": "enlace/acento como texto" },
+    { "fg": "color.semantic.on-action", "bg": "color.semantic.action", "min": 4.5, "use": "texto de botón primario" },
+    { "fg": "color.semantic.on-action", "bg": "color.semantic.danger", "min": 4.5, "use": "texto de botón de peligro" },
+    { "fg": "color.semantic.on-action", "bg": "color.semantic.success-strong", "min": 4.5, "use": "banner conectado" },
+    { "fg": "color.semantic.on-action", "bg": "color.semantic.category-path", "min": 4.5, "use": "CTA de la ruta" },
+    { "fg": "color.semantic.action-on-subtle", "bg": "color.semantic.action-subtle", "min": 4.5, "use": "acento sobre tinte" },
+    { "fg": "color.semantic.danger-strong", "bg": "color.semantic.danger-subtle", "min": 4.5, "use": "error sobre tinte" },
+    { "fg": "color.semantic.success-strong", "bg": "color.semantic.success-subtle", "min": 4.5, "use": "acierto sobre tinte" },
+    { "fg": "color.semantic.warning-strong", "bg": "color.semantic.warning-subtle", "min": 4.5, "use": "aviso sobre tinte" },
+    { "fg": "color.semantic.warning-strong", "bg": "color.semantic.warning-bg", "min": 4.5, "use": "aviso sobre fondo tenue" },
+    { "fg": "color.semantic.accent-strong", "bg": "color.semantic.accent-subtle", "min": 4.5, "use": "acento sobre tinte" },
+    { "fg": "color.semantic.focus", "bg": "color.semantic.surface", "min": 3, "use": "anillo de foco (no texto)" },
+    { "fg": "color.semantic.focus", "bg": "color.semantic.bg", "min": 3, "use": "anillo de foco sobre fondo" }
+  ]
+}

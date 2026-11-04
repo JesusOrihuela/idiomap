@@ -1,0 +1,496 @@
+{
+  "color": {
+    "semantic": {
+      "bg": {
+        "$value": "{color.primitive.gray-150}",
+        "$description": "Superficies",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-bg"
+          }
+        }
+      },
+      "surface": {
+        "$value": "{color.primitive.gray-050}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-surface"
+          }
+        }
+      },
+      "surface-alt": {
+        "$value": "{color.primitive.gray-100}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-surface-alt"
+          }
+        }
+      },
+      "border": {
+        "$value": "{color.primitive.gray-200}",
+        "$description": "Bordes",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-border"
+          }
+        }
+      },
+      "border-strong": {
+        "$value": "{color.primitive.gray-300}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-border-strong"
+          }
+        }
+      },
+      "text": {
+        "$value": "{color.primitive.gray-900}",
+        "$description": "Texto: tres roles, no diez lavandas",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-text"
+          }
+        }
+      },
+      "text-muted": {
+        "$value": "{color.primitive.gray-600}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-text-muted"
+          }
+        }
+      },
+      "on-action": {
+        "$value": "{color.primitive.white}",
+        "$description": "Acción: un acento en el chrome, usado poco",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-on-action"
+          }
+        }
+      },
+      "overlay": {
+        "$type": "cssValue",
+        "$value": "color-mix(in srgb, black 55%, transparent)",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-overlay"
+          }
+        }
+      },
+      "action": {
+        "$value": "{color.primitive.blue-600}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-action"
+          }
+        }
+      },
+      "action-hover": {
+        "$value": "{color.primitive.blue-700}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-action-hover"
+          }
+        }
+      },
+      "action-subtle": {
+        "$value": "{color.primitive.blue-100}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-action-subtle"
+          }
+        }
+      },
+      "accent": {
+        "$value": "{color.primitive.amber-500}",
+        "$description": "Acento secundario (ámbar). Sobre blanco no llega a 4.5:1: usar -strong.",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-accent"
+          }
+        }
+      },
+      "accent-strong": {
+        "$value": "{color.primitive.amber-700}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-accent-strong"
+          }
+        }
+      },
+      "accent-subtle": {
+        "$value": "{color.primitive.amber-100}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-accent-subtle"
+          }
+        }
+      },
+      "warning-strong": {
+        "$value": "{color.primitive.amber-700}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-warning-strong"
+          }
+        }
+      },
+      "warning-subtle": {
+        "$value": "{color.primitive.amber-100}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-warning-subtle"
+          }
+        }
+      },
+      "warning": {
+        "$value": "{color.primitive.amber-600}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-warning"
+          }
+        },
+        "$description": "Borde/relleno de aviso; el texto va en warning-strong."
+      },
+      "warning-bg": {
+        "$value": "{color.primitive.amber-050}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-warning-bg"
+          }
+        },
+        "$description": "Fondo tenue de paneles de aviso."
+      },
+      "action-on-subtle": {
+        "$value": "{color.primitive.blue-700}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-action-on-subtle"
+          }
+        }
+      },
+      "action-strong": {
+        "$value": "{color.primitive.blue-900}",
+        "$description": "texto de acento sobre --color-action-subtle (AA)",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-action-strong"
+          }
+        }
+      },
+      "viz-1": {
+        "$value": "{color.semantic.action-subtle}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-viz-1"
+          }
+        }
+      },
+      "viz-2": {
+        "$value": "{color.primitive.blue-300}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-viz-2"
+          }
+        }
+      },
+      "viz-3": {
+        "$value": "{color.semantic.action}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-viz-3"
+          }
+        }
+      },
+      "success": {
+        "$value": "{color.primitive.green-600}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-success"
+          }
+        }
+      },
+      "success-strong": {
+        "$value": "{color.primitive.green-800}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-success-strong"
+          }
+        }
+      },
+      "success-subtle": {
+        "$value": "{color.primitive.green-100}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-success-subtle"
+          }
+        }
+      },
+      "danger": {
+        "$value": "{color.primitive.red-600}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-danger"
+          }
+        }
+      },
+      "danger-strong": {
+        "$value": "{color.primitive.red-800}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-danger-strong"
+          }
+        }
+      },
+      "danger-subtle": {
+        "$value": "{color.primitive.red-100}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-danger-subtle"
+          }
+        }
+      },
+      "category-path": {
+        "$value": "{color.primitive.gold-600}",
+        "$description": "Categorías del producto",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-category-path"
+          }
+        }
+      },
+      "category-grammar": {
+        "$value": "{color.primitive.violet-600}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-category-grammar"
+          }
+        }
+      },
+      "focus": {
+        "$value": "{color.primitive.blue-600}",
+        "$description": "Foco: un solo anillo, siempre visible, nunca transicionado",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-focus"
+          }
+        }
+      },
+      "accent-hover": {
+        "$value": "{color.primitive.amber-600}",
+        "$description": "Capa 4 · Semanticos completados en la migracion",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-accent-hover"
+          }
+        }
+      },
+      "category-path-strong": {
+        "$value": "{color.primitive.gold-700}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-category-path-strong"
+          }
+        }
+      },
+      "category-path-subtle": {
+        "$value": "{color.primitive.gold-050}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-category-path-subtle"
+          }
+        }
+      },
+      "category-grammar-subtle": {
+        "$value": "{color.primitive.violet-100}",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-category-grammar-subtle"
+          }
+        }
+      },
+      "action-light": {
+        "$value": "{color.semantic.action-subtle}",
+        "$description": "Equivalentes de los nombres intermedios que quedaron en el CSS.",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--color-action-light"
+          }
+        }
+      }
+    }
+  },
+  "motion": {
+    "transition": {
+      "$type": "cssValue",
+      "$value": "0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--transition"
+        }
+      }
+    },
+    "transition-emphasis": {
+      "$type": "cssValue",
+      "$value": "0.2s cubic-bezier(0.2, 0, 0, 1)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--transition-emphasis"
+        }
+      }
+    }
+  },
+  "gradient": {
+    "hero": {
+      "$type": "cssValue",
+      "$value": "linear-gradient(135deg, #EBEEF2 0%, #F1F3F5 50%, #ECEEF2 100%)",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--gradient-hero"
+        }
+      }
+    },
+    "shimmer": {
+      "$type": "cssValue",
+      "$value": "linear-gradient(90deg, transparent, color-mix(in srgb, white 28%, transparent), transparent)",
+      "$description": "Barrido del skeleton de carga.",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--gradient-shimmer"
+        }
+      }
+    },
+    "grammar": {
+      "$type": "cssValue",
+      "$value": "linear-gradient(135deg, color-mix(in srgb, var(--color-category-grammar) 15%, transparent) 0%, color-mix(in srgb, var(--color-action) 10%, transparent) 100%)",
+      "$description": "Tinte del encabezado de gramática",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--gradient-grammar"
+        }
+      }
+    },
+    "glow": {
+      "$type": "cssValue",
+      "$value": "radial-gradient(ellipse at center, color-mix(in srgb, var(--color-action) 6%, transparent) 0%, transparent 70%)",
+      "$description": "Halo decorativo del hero",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--gradient-glow"
+        }
+      }
+    },
+    "action": {
+      "$type": "cssValue",
+      "$value": "linear-gradient(135deg, var(--color-action) 0%, var(--color-action-hover) 100%)",
+      "$description": "Botón principal de Pronunciación",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--gradient-action"
+        }
+      }
+    }
+  },
+  "shadow": {
+    "ring": {
+      "$type": "cssValue",
+      "$value": "0 0 0 1px color-mix(in srgb, black 8%, transparent)",
+      "$description": "Anillo de 1 px sobre banderas y piezas pequeñas",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-ring"
+        }
+      }
+    },
+    "flag": {
+      "$type": "cssValue",
+      "$value": "0 1px 3px color-mix(in srgb, black 28%, transparent), 0 0 0 1px color-mix(in srgb, white 30%, transparent)",
+      "$description": "Sombra de la capa de banderas",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-flag"
+        }
+      }
+    },
+    "hover": {
+      "$type": "cssValue",
+      "$value": "0 2px 6px color-mix(in srgb, black 7%, transparent)",
+      "$description": "Elevación al pasar sobre un nodo de la ruta",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-hover"
+        }
+      }
+    },
+    "hover-lg": {
+      "$type": "cssValue",
+      "$value": "0 2px 8px color-mix(in srgb, black 7%, transparent)",
+      "$description": "Elevación al pasar sobre un nodo de Mi Ruta",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-hover-lg"
+        }
+      }
+    },
+    "heat-glow": {
+      "$type": "cssValue",
+      "$value": "0 0 4px color-mix(in srgb, var(--color-action) 40%, transparent)",
+      "$description": "Halo de la celda de actividad intensa",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-heat-glow"
+        }
+      }
+    },
+    "hint": {
+      "$type": "cssValue",
+      "$value": "0 4px 14px color-mix(in srgb, var(--color-action) 28%, transparent)",
+      "$description": "Sombra del aviso de giro",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-hint"
+        }
+      }
+    },
+    "hint-hover": {
+      "$type": "cssValue",
+      "$value": "0 8px 20px color-mix(in srgb, var(--color-action) 36%, transparent)",
+      "$description": "Sombra del aviso de giro al pasar",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-hint-hover"
+        }
+      }
+    },
+    "path-ring": {
+      "$type": "cssValue",
+      "$value": "0 0 0 3px var(--color-category-path-subtle)",
+      "$description": "Anillo del nodo de ruta",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-path-ring"
+        }
+      }
+    },
+    "path-ring-strong": {
+      "$type": "cssValue",
+      "$value": "0 0 0 5px var(--color-category-path-subtle)",
+      "$description": "Anillo del nodo activo de la ruta",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-path-ring-strong"
+        }
+      }
+    },
+    "inset": {
+      "$type": "cssValue",
+      "$value": "inset 0 0 0 1px var(--color-border)",
+      "$description": "Separador interior de 1 px",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-inset"
+        }
+      }
+    }
+  }
+}

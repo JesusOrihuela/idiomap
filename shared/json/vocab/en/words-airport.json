@@ -16,7 +16,8 @@
       },
       "gloss_example": {
         "es": "Nuestro vuelo a Miami sale a las siete de la mañana."
-      }
+      },
+      "conceptId": "en.flight"
     },
     {
       "id": "passport",
@@ -34,7 +35,8 @@
       },
       "gloss_example": {
         "es": "No puedes abordar el avión sin un pasaporte válido."
-      }
+      },
+      "conceptId": "en.passport"
     },
     {
       "id": "gate",
@@ -52,7 +54,8 @@
       },
       "gloss_example": {
         "es": "Por favor, dirígete a la puerta B14. El embarque empieza en veinte minutos."
-      }
+      },
+      "conceptId": "en.gate"
     },
     {
       "id": "luggage",
@@ -70,7 +73,8 @@
       },
       "gloss_example": {
         "es": "Por favor, pon tu equipaje en la báscula antes de facturarlo."
-      }
+      },
+      "conceptId": "en.luggage"
     },
     {
       "id": "ticket",
@@ -88,7 +92,8 @@
       },
       "gloss_example": {
         "es": "Compré mi boleto de avión por internet."
-      }
+      },
+      "conceptId": "en.ticket"
     },
     {
       "id": "boarding",
@@ -106,7 +111,8 @@
       },
       "gloss_example": {
         "es": "El embarque comienza cuarenta y cinco minutos antes de la salida programada."
-      }
+      },
+      "conceptId": "en.boarding"
     },
     {
       "id": "check_in",
@@ -124,7 +130,8 @@
       },
       "gloss_example": {
         "es": "El registro en línea se abre 24 horas antes de la salida del vuelo."
-      }
+      },
+      "conceptId": "en.check_in"
     },
     {
       "id": "delay",
@@ -142,7 +149,8 @@
       },
       "gloss_example": {
         "es": "El retraso fue causado por el mal tiempo en el aeropuerto de destino."
-      }
+      },
+      "conceptId": "en.delay"
     },
     {
       "id": "currency",
@@ -160,7 +168,8 @@
       },
       "gloss_example": {
         "es": "Asegúrate de cambiar tu moneda antes de llegar a tu destino."
-      }
+      },
+      "conceptId": "en.currency"
     },
     {
       "id": "destination",
@@ -178,7 +187,8 @@
       },
       "gloss_example": {
         "es": "París es uno de los destinos turísticos más visitados del mundo."
-      }
+      },
+      "conceptId": "en.destination"
     },
     {
       "id": "customs",
@@ -196,7 +206,8 @@
       },
       "gloss_example": {
         "es": "Debes declarar cualquier alimento o producto vegetal al pasar por la aduana."
-      }
+      },
+      "conceptId": "en.customs"
     },
     {
       "id": "layover",
@@ -214,7 +225,8 @@
       },
       "gloss_example": {
         "es": "Tuvimos una escala de seis horas en Ámsterdam antes de nuestro vuelo de conexión."
-      }
+      },
+      "conceptId": "en.layover"
     },
     {
       "id": "transit",
@@ -232,7 +244,8 @@
       },
       "gloss_example": {
         "es": "Los pasajeros en tránsito no necesitan recoger su equipaje entre vuelos."
-      }
+      },
+      "conceptId": "en.transit"
     },
     {
       "id": "turbulence",
@@ -250,7 +263,8 @@
       },
       "gloss_example": {
         "es": "El piloto pidió a todos que se abrocharan el cinturón debido a la turbulencia."
-      }
+      },
+      "conceptId": "en.turbulence"
     },
     {
       "id": "jet_lag",
@@ -268,7 +282,8 @@
       },
       "gloss_example": {
         "es": "Le llevó tres días recuperarse del desfase horario después de volar a Tokio."
-      }
+      },
+      "conceptId": "en.jet_lag"
     },
     {
       "id": "immigration",
@@ -286,7 +301,8 @@
       },
       "gloss_example": {
         "es": "Las colas de control migratorio pueden ser muy largas en los aeropuertos internacionales concurridos."
-      }
+      },
+      "conceptId": "en.immigration"
     },
     {
       "id": "baggage_claim",
@@ -304,7 +320,8 @@
       },
       "gloss_example": {
         "es": "Nuestras maletas deben llegar a la cinta número 4 de recogida de equipaje."
-      }
+      },
+      "conceptId": "en.baggage_claim"
     },
     {
       "id": "overbooked",
@@ -322,7 +339,8 @@
       },
       "gloss_example": {
         "es": "Como el vuelo estaba sobrevendido, le pidieron a un pasajero tomar el siguiente a cambio de un bono."
-      }
+      },
+      "conceptId": "en.overbooked"
     },
     {
       "id": "upgrade",
@@ -340,7 +358,8 @@
       },
       "gloss_example": {
         "es": "Usó sus millas de viajera frecuente para pedir una mejora a clase ejecutiva."
-      }
+      },
+      "conceptId": "en.upgrade"
     },
     {
       "id": "voucher",
@@ -358,7 +377,8 @@
       },
       "gloss_example": {
         "es": "Cada pasajero afectado recibió un vale de comida para el restaurante del aeropuerto."
-      }
+      },
+      "conceptId": "en.voucher"
     },
     {
       "id": "duty_free",
@@ -376,7 +396,8 @@
       },
       "gloss_example": {
         "es": "Compró perfume y chocolate en la tienda libre de impuestos antes de embarcar."
-      }
+      },
+      "conceptId": "en.duty_free"
     },
     {
       "id": "biometrics",
@@ -394,7 +415,8 @@
       },
       "gloss_example": {
         "es": "Las nuevas puertas electrónicas usan biometría para verificar la identidad de los viajeros en segundos."
-      }
+      },
+      "conceptId": "en.biometrics"
     },
     {
       "id": "prohibited",
@@ -412,7 +434,8 @@
       },
       "gloss_example": {
         "es": "Los líquidos de más de 100 ml están prohibidos en el equipaje de mano en la mayoría de los aeropuertos."
-      }
+      },
+      "conceptId": "en.prohibited"
     },
     {
       "id": "carrier",
@@ -430,7 +453,8 @@
       },
       "gloss_example": {
         "es": "La ruta está operada por tres aerolíneas distintas, incluida una de bajo costo."
-      }
+      },
+      "conceptId": "en.carrier"
     },
     {
       "id": "overbooking",
@@ -448,7 +472,8 @@
       },
       "gloss_example": {
         "es": "El overbooking es habitual en la industria aérea, pero puede dejar sin asiento a pasajeros con reserva confirmada."
-      }
+      },
+      "conceptId": "en.overbooking"
     },
     {
       "id": "repatriation",
@@ -466,7 +491,8 @@
       },
       "gloss_example": {
         "es": "Los viajeros varados esperaban vuelos de repatriación tras el cierre repentino de la frontera."
-      }
+      },
+      "conceptId": "en.repatriation"
     },
     {
       "id": "asylum",
@@ -484,7 +510,8 @@
       },
       "gloss_example": {
         "es": "Solicitó asilo en el aeropuerto alegando persecución política en su país de origen."
-      }
+      },
+      "conceptId": "en.asylum"
     },
     {
       "id": "contraband",
@@ -502,7 +529,8 @@
       },
       "gloss_example": {
         "es": "El perro rastreador detectó contrabando escondido dentro de una maleta facturada."
-      }
+      },
+      "conceptId": "en.contraband"
     },
     {
       "id": "manifest",
@@ -520,7 +548,8 @@
       },
       "gloss_example": {
         "es": "El capitán revisó la lista de pasajeros para confirmar que todos estaban a bordo."
-      }
+      },
+      "conceptId": "en.manifest"
     },
     {
       "id": "force_majeure",
@@ -538,7 +567,8 @@
       },
       "gloss_example": {
         "es": "La aerolínea se negó a pagar compensación alegando fuerza mayor por la erupción volcánica."
-      }
+      },
+      "conceptId": "en.force_majeure"
     }
   ]
 }

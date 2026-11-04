@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   AppTTS.warmup();
-  AppAudio.setBase('../../shared/audio/' + AppLangPair.getActive().id + '/');
+  AppAudio.setBase('../shared/audio/' + AppLangPair.getActive().id + '/');
   AppAudio.warmup();
   if (HAS_STT) _getSttWorker();
 });
@@ -187,6 +187,9 @@ function _beginExercise(idx) {
   AppSessionBar.updateStreak('streak-badge');
   showPhrase(currentIndex);
   updateSessionCounter();
+  // Cambio de pantalla: el foco entra en el título para que se anuncie (WCAG 2.4.3).
+  const title = document.querySelector('#exercise-area .listening-title');
+  if (title) { title.tabIndex = -1; title.focus({ preventScroll: true }); }
 }
 
 function _buildPool(forms) {
@@ -233,7 +236,7 @@ function updateGrammarChip(index) {
   const info = AppGrammarChip.choose({ tip: grammarTips[index], id: cardIds[index], pathMode: _pathModeActive });
   if (!info || !info.ruleId) { wrap.classList.add('hidden'); return; }
   document.getElementById('grammar-chip-label').textContent = info.label;
-  document.getElementById('grammar-chip').href = '../../grammar/html/grammar.html?rule=' + info.ruleId;
+  document.getElementById('grammar-chip').href = '../grammar/?rule=' + info.ruleId;
   wrap.classList.remove('hidden');
 }
 
@@ -284,7 +287,7 @@ function nextPhrase() {
   if (_pathModeActive && typeof PathSession !== 'undefined') {
     const nextHref = PathSession.advance();
     if (nextHref) {
-      window.location.href = '../../' + nextHref;
+      window.location.href = '../' + nextHref;
     } else {
       _showPathSessionComplete();
     }
@@ -570,7 +573,7 @@ function _onSttError(errMsg) {
 
 function displayResult(text, confidence) {
   const originalPhrase = document.getElementById('Phrase').textContent.trim();
-  const _norm = s => AppText.normalise(s, contractionMap);
+  const _norm = s => AppText.normaliseSpeech(s, contractionMap);
   const forms = formPools[currentIndex] || [];
   // Speaking: only the specific displayed/played form is acceptable — not any other variant.
   const isCorrect = _norm(text) === _norm(originalPhrase);

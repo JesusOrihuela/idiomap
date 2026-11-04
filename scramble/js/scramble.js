@@ -102,7 +102,7 @@ function startTopic(topicId, pathMode, pathCard) {
           forms:        p.target || [],
           level: p.level || null, id: p.id, grammar: p.grammar || null,
         }))
-        .filter(p => p.practiceText.split(' ').length > 2)
+        .filter(p => AppText.tokens(p.practiceText).length > 2)
         .sort((a, b) => (_order[a.level] ?? 99) - (_order[b.level] ?? 99));
 
       if (valid.length === 0) {
@@ -110,7 +110,7 @@ function startTopic(topicId, pathMode, pathCard) {
         const _picker = document.getElementById('topic-picker');
         if (_picker) {
           const _msg = document.createElement('p');
-          _msg.style.cssText = 'color:var(--clr-danger);font-size:0.9rem;margin:0 0 12px;text-align:center;';
+          _msg.style.cssText = 'color:var(--color-danger);font-size:0.9rem;margin:0 0 12px;text-align:center;';
           _msg.textContent = AppLang.t('no_scramble_exercises');
           _picker.prepend(_msg);
           setTimeout(() => _msg.remove(), 4000);
@@ -164,7 +164,7 @@ function _beginExercise(idx) {
 // ---- Scramble Display ----
 
 function scrambleWords(phrase) {
-  const words = phrase.split(' ');
+  const words = AppText.tokens(phrase);
   // Create tiles with unique IDs (handle duplicate words)
   const tiles = words.map((w, i) => ({ tileId: 'tile_' + i, word: w }));
 
@@ -187,7 +187,7 @@ function scrambleWords(phrase) {
 function _buildPool(forms) {
   // Only forms with audio; prefer those with > 2 words (degenerate scrambles are useless)
   const withAudio  = forms.filter(f => f.audioSlug !== undefined);
-  const longEnough = withAudio.filter(f => f.text.split(' ').length > 2);
+  const longEnough = withAudio.filter(f => AppText.tokens(f.text).length > 2);
   return longEnough.length > 0 ? longEnough : withAudio;
 }
 
@@ -210,8 +210,6 @@ function showPhrase(index) {
   document.getElementById('back-to-path')?.classList.add('hidden');
   document.getElementById('grammar-chip-wrap')?.classList.add('hidden');
   document.getElementById('construction-area').classList.remove('construction-area--answered');
-  document.getElementById('check-btn').disabled = false;
-  document.getElementById('clear-btn').disabled = false;
 
   _showCefrBadge(cefrLevels[index], 'hint-card');
   AppFeedback.applyVariantBadge('hint-card', _activeForm);
@@ -260,6 +258,28 @@ function renderTiles() {
       if (tile) buildEl.appendChild(createTileBtn(tile, true));
     });
   }
+
+  // No se puede verificar una frase a medias; borrar solo tiene sentido si hay algo.
+  const check = document.getElementById('check-btn');
+  if (check) check.disabled = builtSentence.length !== shuffledTiles.length;
+  const status = document.getElementById('scramble-status');
+  // Microcopy para el botón deshabilitado: dice qué falta, no solo que no se puede (DP-07).
+  if (status) {
+    status.textContent = (builtSentence.length > 0 && check && check.disabled)
+      ? AppLang.t('scramble_need_all')
+      : '';
+  }
+  const clear = document.getElementById('clear-btn');
+  if (clear) clear.disabled = builtSentence.length === 0;
+  // Sin palabras pendientes, el banco no deja una caja vacía.
+  const zone = document.getElementById('word-bank-zone');
+  if (zone) zone.hidden = remaining.length === 0;
+}
+
+// Tras reconstruir el DOM, el foco se quedaba en BODY. Se devuelve a la misma pieza.
+function focusTile(tileId) {
+  const el = document.querySelector('.word-tile[data-tile-id="' + tileId + '"]');
+  if (el) el.focus({ preventScroll: true });
 }
 
 function createTileBtn(tile, placed) {
@@ -274,16 +294,20 @@ function createTileBtn(tile, placed) {
 function addTile(tileId) {
   builtSentence.push(tileId);
   renderTiles();
+  focusTile(tileId);
 }
 
 function removeTile(tileId) {
   builtSentence = builtSentence.filter(id => id !== tileId);
   renderTiles();
+  focusTile(tileId);
 }
 
 function clearSentence() {
   builtSentence = [];
   renderTiles();
+  const first = document.querySelector('#word-bank .word-tile');
+  if (first) first.focus({ preventScroll: true });
 }
 
 // ---- Answer Check ----
@@ -298,7 +322,7 @@ function checkAnswer() {
   document.getElementById('clear-btn').disabled = true;
 
   // Mark placed tiles correct/incorrect by position
-  const correctWords = (_activeForm ? _activeForm.text : phrases[currentIndex]).split(' ');
+  const correctWords = AppText.tokens(_activeForm ? _activeForm.text : phrases[currentIndex]);
   const builtWords   = builtSentence.map(id => { const t = shuffledTiles.find(x => x.tileId === id); return t ? t.word : ''; });
 
   const buildEl = document.getElementById('construction-area');
@@ -355,7 +379,7 @@ function updateGrammarChip(isCorrect) {
     : null;
   if (!info || !info.ruleId) { wrap.classList.add('hidden'); return; }
   document.getElementById('grammar-chip-label').textContent = info.label;
-  document.getElementById('grammar-chip').href = '../../grammar/html/grammar.html?rule=' + info.ruleId;
+  document.getElementById('grammar-chip').href = '../grammar/?rule=' + info.ruleId;
   wrap.classList.remove('hidden');
 }
 
@@ -367,7 +391,7 @@ function rateAndNext(quality) {
   if (_pathModeActive && typeof PathSession !== 'undefined') {
     const nextHref = PathSession.advance();
     if (nextHref) {
-      window.location.href = '../../' + nextHref;
+      window.location.href = '../' + nextHref;
     } else {
       _showPathSessionComplete();
     }

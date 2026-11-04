@@ -76,9 +76,9 @@ try {
   //    deliberately wrong answer so Try-again is the focused button — reverting the
   //    deferred-focus fix would re-fire it and reset the round.
   for (const a of [
-    { name: 'cloze',       url: '/cloze/html/cloze.html',             input: '#cloze-input', fb: '#cloze-feedback' },
-    { name: 'translation', url: '/translation/html/translation.html', input: '#trans-input', fb: '#trans-feedback' },
-    { name: 'dictation',   url: '/dictation/html/dictation.html',     input: '#dict-input',  fb: '#dict-feedback'  },
+    { name: 'cloze',       url: '/cloze/',             input: '#cloze-input', fb: '#cloze-feedback' },
+    { name: 'translation', url: '/translation/', input: '#trans-input', fb: '#trans-feedback' },
+    { name: 'dictation',   url: '/dictation/',     input: '#dict-input',  fb: '#dict-feedback'  },
   ]) {
     console.log(`Enter regression — ${a.name}`);
     const page = await browser.newPage();
@@ -100,7 +100,7 @@ try {
   {
     console.log('Enter regression — cloze correct path');
     const page = await browser.newPage();
-    await openExercise(page, '/cloze/html/cloze.html', '#cloze-input');
+    await openExercise(page, '/cloze/', '#cloze-input');
     const answer = await page.evaluate(() => (typeof currentBlank !== 'undefined' && currentBlank) ? currentBlank.blankClean : null);
     if (!answer) { console.log('  ~ skipped (could not read answer from app state)'); }
     else {
@@ -118,6 +118,52 @@ try {
     await page.close();
   }
 
+  // ── 2c. Layered content resolver (F3): ?content=layered must serve the same
+  //    phrase shape as legacy and complete a cloze round.
+  {
+    console.log('Layered content — cloze');
+    const page = await browser.newPage();
+    const errs = []; page.on('pageerror', e => errs.push(e.message));
+    await openExercise(page, '/cloze/?content=layered', '#cloze-input');
+    const layered = await page.evaluate(async () => {
+      const d = await AppData.get('greetings');
+      return { enabled: AppContent.enabled(), count: d.phrases.length, conceptId: d.phrases[0]?.conceptId };
+    });
+    check(layered.enabled === true, `layered: resolver enabled (${layered.enabled})`);
+    check(layered.count > 0,       `layered: greetings resolved (${layered.count})`);
+    check(!!layered.conceptId,     `layered: first phrase has conceptId (${layered.conceptId})`);
+    const answer = await page.evaluate(() => (typeof currentBlank !== 'undefined' && currentBlank) ? currentBlank.blankClean : null);
+    if (answer) {
+      await page.fill('#cloze-input', answer);
+      await page.press('#cloze-input', 'Enter');
+      await page.waitForTimeout(350);
+      check(/correct|correcto/i.test((await page.textContent('#feedback-result')) || ''), 'layered cloze: correct answer matches');
+    } else { console.log('  ~ layered correct-path skipped (no readable answer)'); }
+    check(errs.length === 0, `layered: no page errors (${errs[0] || ''})`);
+    await page.close();
+  }
+
+  // ── 2d. Flag slots: 1/2/3 flags must occupy the same width everywhere.
+  {
+    console.log('Flag frames — fixed slots');
+    const page = await browser.newPage();
+    await page.addInitScript(() => { localStorage.setItem('pe_onboarded', '1'); });
+    await page.goto(BASE + '/index.html', { waitUntil: 'domcontentloaded' });
+    const badgeWidths = [];
+    for (const pair of ['es-en', 'de-pl', 'en-fi']) {
+      await page.evaluate((p) => localStorage.setItem('pe_active_pair', p), pair);
+      await page.reload({ waitUntil: 'domcontentloaded' });
+      await page.waitForSelector('.lp-badge');
+      badgeWidths.push((await page.locator('.lp-badge').boundingBox()).width);
+    }
+    check(new Set(badgeWidths.map((w) => Math.round(w))).size === 1, `flag slots: header badge width stable (${badgeWidths.map((w) => Math.round(w)).join(' / ')})`);
+    await page.goto(BASE + '/progress/', { waitUntil: 'domcontentloaded' });
+    await page.waitForSelector('.lp-card__flags');
+    const cardWidths = await page.$$eval('.lp-card__flags', (els) => els.map((e) => Math.round(e.getBoundingClientRect().width)));
+    check(new Set(cardWidths).size === 1, `flag slots: profile rows width stable (${[...new Set(cardWidths)].join(' / ')})`);
+    await page.close();
+  }
+
   // ── 2b. Language profile in a NON-DEFAULT target (Spanish, en-es pair): the
   //    ñ-preserving accent fold and the Spanish cloze stop-words come from
   //    shared/js/lang-profiles.js. Assert the profile is wired for Spanish and
@@ -126,18 +172,18 @@ try {
     console.log('Language profile — en-es (Spanish target)');
     const page = await browser.newPage();
     const errs = []; page.on('pageerror', e => errs.push(e.message));
-    await openExercise(page, '/cloze/html/cloze.html', '#cloze-input', 'en-es');
+    await openExercise(page, '/cloze/', '#cloze-input', 'en-es');
     const prof = await page.evaluate(() => ({
       pair: AppLangPair.getActive().id,
       preserve: AppLangProfiles.foldPreserve('es'),
       stops: AppLangProfiles.clozeStopWords('es').size,
-      // ñ must survive the fold (año ≠ ano); accents must not.
+      // ñ and accents are letters (precision policy): neither is folded away.
       folded: AppText.normalise('Año pingüino ESTÁ'),
     }));
     check(prof.pair === 'en-es',        `en-es: active pair is Spanish target (${prof.pair})`);
     check(prof.preserve === 'ñ',        `en-es: profile preserves ñ (${prof.preserve})`);
     check(prof.stops > 0,               `en-es: Spanish cloze stop-words loaded (${prof.stops})`);
-    check(prof.folded === 'año pinguino esta', `en-es: fold keeps ñ, drops accents ("${prof.folded}")`);
+    check(prof.folded === 'año pingüino está', `en-es: keeps ñ and accents ("${prof.folded}")`);
     const answer = await page.evaluate(() => (typeof currentBlank !== 'undefined' && currentBlank) ? currentBlank.blankClean : null);
     if (answer) {
       await page.fill('#cloze-input', answer);
@@ -152,9 +198,9 @@ try {
   // ── 3. Smoke-load every page: no uncaught JS errors on load.
   console.log('Smoke load — all pages');
   for (const url of [
-    '/index.html', '/speaking/html/speaking.html', '/scramble/html/scramble.html',
-    '/vocabulary/html/vocabulary.html', '/quiz/html/quiz.html', '/grammar/html/grammar.html',
-    '/my-learning/html/my-learning.html', '/progress/html/progress.html', '/placement/html/placement.html',
+    '/index.html', '/speaking/', '/scramble/',
+    '/vocabulary/', '/quiz/', '/grammar/',
+    '/my-learning/', '/progress/', '/placement/',
   ]) {
     const page = await browser.newPage();
     const errs = []; page.on('pageerror', e => errs.push(e.message));
@@ -170,9 +216,9 @@ try {
   for (const pair of ['en-de', 'en-fi']) {
     console.log(`Stress-test pair — ${pair}`);
     for (const url of [
-      '/index.html', '/my-learning/html/my-learning.html', '/progress/html/progress.html',
-      '/grammar/html/grammar.html', '/vocabulary/html/vocabulary.html', '/placement/html/placement.html',
-      '/speaking/html/speaking.html',
+      '/index.html', '/my-learning/', '/progress/',
+      '/grammar/', '/vocabulary/', '/placement/',
+      '/speaking/',
     ]) {
       const page = await browser.newPage();
       const errs = []; page.on('pageerror', e => errs.push(e.message));
@@ -193,7 +239,7 @@ try {
     const page = await browser.newPage();
     const errs = []; page.on('pageerror', e => errs.push(e.message));
     await page.addInitScript(() => { localStorage.setItem('pe_active_pair', 'en-de'); }, null);
-    await page.goto(BASE + '/vocabulary/html/vocabulary.html?topic=family', { waitUntil: 'domcontentloaded' });
+    await page.goto(BASE + '/vocabulary/?topic=family', { waitUntil: 'domcontentloaded' });
     await page.waitForTimeout(300);
     const r = await page.evaluate(() => {
       if (typeof AppFeedback === 'undefined' || !AppFeedback.buildWordVariants) return { skip: true };
@@ -224,7 +270,7 @@ try {
     const page = await browser.newPage();
     const errs = []; page.on('pageerror', e => errs.push(e.message));
     await page.addInitScript(() => localStorage.setItem('pe_active_pair', 'en-de'));
-    await page.goto(BASE + '/vocabulary/html/vocabulary.html?topic=family', { waitUntil: 'load' });
+    await page.goto(BASE + '/vocabulary/?topic=family', { waitUntil: 'load' });
     await page.waitForSelector('.pb-chip', { timeout: 8000 }).catch(() => {});
     await page.click('.pb-chip').catch(() => {});          // open the first card (das Kind — 2 forms)
     await page.waitForTimeout(400);

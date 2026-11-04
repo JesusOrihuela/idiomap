@@ -33,6 +33,18 @@ const Progress = (() => {
   const EF_EASY_BOOST   = 0.1;
   const EF_EASY_BONUS   = 1.3;
 
+  // Base absoluta de shared/. Este script se sirve desde shared/js/, asi que su
+  // propio src da la raiz correcta tanto en localhost como en el subpath de
+  // GitHub Pages. El fallback relativo anterior ("shared/json/...") se resolvia
+  // contra la pagina y daba 404 en cualquier subpagina.
+  const _SHARED_BASE = (function () {
+    try {
+      const s = document.currentScript && document.currentScript.src;
+      if (s) return s.replace(/js\/[^/]*$/, '');
+    } catch (e) { /* noop */ }
+    return 'shared/';
+  })();
+
   // ── Migration from pe_srs (old key) ───────────────────────────────────
 
   function _migrateLegacy() {
@@ -85,7 +97,7 @@ const Progress = (() => {
     if (_idMapPromise) return _idMapPromise;
     var loader = (typeof AppData !== "undefined" && AppData.get)
       ? AppData.get("id-map")
-      : fetch("shared/json/common/id-map.json").then(function (r) { return r.json(); });
+      : fetch(_SHARED_BASE + "json/common/id-map.json").then(function (r) { return r.json(); });
     _idMapPromise = loader.then(function (m) {
       // Only COMMIT a map that actually loaded. An early call — before AppData is
       // defined (progress.js parses before topic-data.js), on a sub-page where the
@@ -226,13 +238,7 @@ const Progress = (() => {
     _quotaWarned = true;
     const t = document.createElement('div');
     t.setAttribute('role', 'alert');
-    Object.assign(t.style, {
-      position: 'fixed', bottom: '1.25rem', left: '50%', transform: 'translateX(-50%)',
-      background: '#b91c1c', color: '#fff', borderRadius: '0.5rem',
-      padding: '0.6rem 1.1rem', fontSize: '0.85rem', fontWeight: '600',
-      zIndex: '10000', boxShadow: '0 4px 16px rgba(0,0,0,.25)',
-      maxWidth: '90vw', textAlign: 'center',
-    });
+    t.className = 'quota-toast';
     t.textContent = AppLang.t('storage_full');
     document.body?.appendChild(t);
     setTimeout(() => t.remove(), 8000);
@@ -315,9 +321,23 @@ const Progress = (() => {
 
   // Return the audio-eligible form the learner has practiced least for this card
   // (ties broken randomly). Falls back to the first form for single-form phrases.
+  // Variant mode (F6): 'all' rotates through every declared form (default, current
+  // behaviour); 'canonical' always uses the first form. Presentation only — SRS and
+  // per-form coverage are unchanged.
+  const VARIANT_MODE_KEY = 'pe_variant_mode';
+  function getVariantMode() {
+    try { return localStorage.getItem(AppLangPair.storageKey(VARIANT_MODE_KEY)) || 'all'; }
+    catch (_) { return 'all'; }
+  }
+  function setVariantMode(mode) {
+    if (!['canonical', 'all'].includes(mode)) return;
+    try { localStorage.setItem(AppLangPair.storageKey(VARIANT_MODE_KEY), mode); } catch (_) {}
+  }
+
   function pickVariant(id, forms) {
     const pool = (forms || []).filter(f => f && f.audioSlug);
     if (pool.length <= 1) return pool[0] || (forms || [])[0] || null;
+    if (getVariantMode() === 'canonical') return pool[0];
     const card   = _load().cards[id];
     const counts = (card && card.variants) || {};
     let min = Infinity;
@@ -575,6 +595,8 @@ const Progress = (() => {
     getCard,
     rate,
     pickVariant,
+    getVariantMode,
+    setVariantMode,
     recordVariant,
     getVariantCoverage,
     getMastery,

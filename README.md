@@ -13,15 +13,17 @@ A free, installable **language-learning PWA** that teaches a target language thr
 
 ## What it is
 
-Idiomap is a static Progressive Web App for language learners. It guides you through 13 everyday topics (greetings, restaurant, airport, technology, …) in CEFR order and builds a daily study session automatically using a custom **SM-2 spaced-repetition** engine. Everything — progress, placement, preferences — lives in your browser's `localStorage`; nothing is sent to a server.
+Idiomap is a static Progressive Web App for language learners. It guides you through up to **66 topics per pair** (greetings, restaurant, airport, technology, …) in CEFR order and builds a daily study session automatically using a custom **SM-2 spaced-repetition** engine. Everything — progress, placement, preferences — lives in your browser's `localStorage`; nothing is sent to a server.
 
-It ships as three independent language pairs:
+It ships as three production language pairs:
 
 | Pair | You speak | You learn |
 |------|-----------|-----------|
 | `es-en` | Spanish | English |
 | `en-es` | English | Spanish (neutral) |
 | `de-es` | German  | Spanish (neutral) |
+
+Six more **stress-test pairs** (`en-de`, `en-fi`, `en-pt`, `en-sv`, `en-no`, `de-pl`) exercise the same content model on other languages and are exempt from the coverage gate.
 
 Each pair has its own independent content, and switching pairs is a completely separate session — no data is shared or lost.
 
@@ -64,23 +66,26 @@ python -m http.server 8000
 # then open http://localhost:8000/
 ```
 
-> **Note:** the repository includes the pre-generated audio, so the clone is large (~1 GB+). This is intentional — it gives users instant playback without downloading the TTS model.
+> **Note:** the repository includes the pre-generated audio, so the clone is large (~3.4 GB). This is intentional — it gives users instant playback without downloading the TTS model.
 
 ## Project structure
 
 ```
-├── index.html                 # Landing page
+├── index.html                 # Landing page (language-pair picker)
 ├── {activity}/                # speaking, dictation, cloze, translation, scramble,
-│   ├── html/ css/ js/         #   vocabulary, quiz, grammar, my-learning, placement, progress
+│   └── html/ css/ js/         #   vocabulary, quiz, grammar, my-learning, placement, progress
 ├── shared/
-│   ├── js/                    # Shared modules (SRS engine, TTS/STT, data cache, i18n, learning path…)
+│   ├── css/                   # tokens + canonical components + layout
+│   ├── js/                    # shared modules (SRS, audio, i18n, path, icon sprite…)
 │   ├── json/
-│   │   ├── pairs/{pairId}/    # Pair-specific content (phrases, grammar, placement)
-│   │   └── common/            # Shared content (vocabulary, word-equivalents, onboarding)
-│   └── audio/                 # Pre-generated WAV files, per pair + shared vocab
-├── lang/                      # UI strings (source language) + target-language labels
-├── tools/                     # Content-audit + audio-generation scripts (Node/Python)
-└── .github/workflows/         # CI (content checks + Lighthouse)
+│   │   ├── pairs/{pairId}/    # pair content: phrases, grammar, placement, topics
+│   │   ├── vocab/{lang}/      # per-language vocabulary lists
+│   │   └── common/            # shared content (categories, word equivalents…)
+│   ├── img/                   # topic photos, real flags, region maps
+│   └── audio/                 # pre-generated WAV, per pair + shared vocabulary
+├── lang/                      # UI strings + target-language labels
+├── tools/                     # content, UI and asset gates + generators
+└── .github/workflows/         # CI (content + UI gates, Lighthouse)
 ```
 
 ## Content & tooling
@@ -96,8 +101,11 @@ Adding a new language pair is data-only: create `shared/json/pairs/{pairId}/`, a
 
 ## CI/CD
 
-- **Content checks** ([`ci.yml`](.github/workflows/ci.yml)) run `check-content` + `audit` on every push and pull request to `main`; the check is required before a PR can merge.
-- **Lighthouse** ([`lighthouse.yml`](.github/workflows/lighthouse.yml)) audits the live site after each deploy (report-only) to track performance, accessibility, best practices, and SEO.
+- **Gates** ([`ci.yml`](.github/workflows/ci.yml)) run on every push and pull request to `main`:
+  content (`check-content`, `audit`, `check-variants`, `coverage`, taxonomy, pair completeness) and
+  UI (`check-ui-system`, `check-components`, `check-flags`, `check-a11y`, `check-i18n`), plus the
+  Playwright smoke suite.
+- **Lighthouse** ([`lighthouse.yml`](.github/workflows/lighthouse.yml)) audits the live site after each deploy (report-only).
 - Deployment is handled by GitHub Pages on every push to `main` — there is no build step.
 
 ## License

@@ -18,7 +18,8 @@
       },
       "gloss_example": {
         "en": "She played her favorite song on repeat all morning."
-      }
+      },
+      "conceptId": "es.song"
     },
     {
       "id": "singer",
@@ -38,7 +39,8 @@
       },
       "gloss_example": {
         "en": "My favorite singer is performing live in the city next month."
-      }
+      },
+      "conceptId": "es.singer"
     },
     {
       "id": "concert",
@@ -58,7 +60,8 @@
       },
       "gloss_example": {
         "en": "We bought tickets to a concert at the outdoor amphitheater."
-      }
+      },
+      "conceptId": "es.concert"
     },
     {
       "id": "playlist",
@@ -94,7 +97,8 @@
           },
           "audioSlug": "playlist"
         }
-      ]
+      ],
+      "conceptId": "es.playlist"
     },
     {
       "id": "band",
@@ -130,7 +134,8 @@
           },
           "audioSlug": "grupo_musical"
         }
-      ]
+      ],
+      "conceptId": "es.band"
     },
     {
       "id": "album",
@@ -166,7 +171,8 @@
           },
           "audioSlug": "disco"
         }
-      ]
+      ],
+      "conceptId": "es.album"
     },
     {
       "id": "lyrics",
@@ -186,7 +192,8 @@
       },
       "gloss_example": {
         "en": "I looked up the lyrics online because I couldn't understand what he was saying."
-      }
+      },
+      "conceptId": "es.lyrics"
     },
     {
       "id": "instrument",
@@ -206,7 +213,8 @@
       },
       "gloss_example": {
         "en": "Learning a musical instrument requires daily practice and patience."
-      }
+      },
+      "conceptId": "es.instrument"
     },
     {
       "id": "beat",
@@ -242,7 +250,8 @@
           },
           "audioSlug": "beat"
         }
-      ]
+      ],
+      "conceptId": "es.beat"
     },
     {
       "id": "genre",
@@ -262,7 +271,8 @@
       },
       "gloss_example": {
         "en": "What genre of music do you prefer, rock or pop?"
-      }
+      },
+      "conceptId": "es.genre"
     },
     {
       "id": "chorus",
@@ -298,7 +308,8 @@
           },
           "audioSlug": "estribillo"
         }
-      ]
+      ],
+      "conceptId": "es.chorus"
     },
     {
       "id": "melody",
@@ -318,7 +329,8 @@
       },
       "gloss_example": {
         "en": "The melody was so catchy that I couldn't get it out of my head."
-      }
+      },
+      "conceptId": "es.melody"
     },
     {
       "id": "acoustic",
@@ -338,7 +350,8 @@
       },
       "gloss_example": {
         "en": "He played an acoustic version of his biggest hit at the intimate venue."
-      }
+      },
+      "conceptId": "es.acoustic"
     },
     {
       "id": "tour",
@@ -358,7 +371,8 @@
       },
       "gloss_example": {
         "en": "The band announced a world tour to promote their new album."
-      }
+      },
+      "conceptId": "es.tour"
     },
     {
       "id": "sampling",
@@ -394,7 +408,8 @@
           },
           "audioSlug": "sampleo"
         }
-      ]
+      ],
+      "conceptId": "es.sampling"
     },
     {
       "id": "pitch",
@@ -430,7 +445,8 @@
           },
           "audioSlug": "altura_tonal"
         }
-      ]
+      ],
+      "conceptId": "es.pitch"
     },
     {
       "id": "setlist",
@@ -450,7 +466,8 @@
       },
       "gloss_example": {
         "en": "The band's setlist included all their classics plus three new songs."
-      }
+      },
+      "conceptId": "es.setlist"
     },
     {
       "id": "venue",
@@ -486,7 +503,8 @@
           },
           "audioSlug": "sala_de_conciertos"
         }
-      ]
+      ],
+      "conceptId": "es.venue"
     },
     {
       "id": "remix",
@@ -522,7 +540,8 @@
           },
           "audioSlug": "remezcla"
         }
-      ]
+      ],
+      "conceptId": "es.remix"
     },
     {
       "id": "virtuoso",
@@ -542,7 +561,8 @@
       },
       "gloss_example": {
         "en": "The young pianist is considered a virtuoso. She performed Chopin at age eleven."
-      }
+      },
+      "conceptId": "es.virtuoso"
     },
     {
       "id": "canon",
@@ -562,7 +582,8 @@
       },
       "gloss_example": {
         "en": "Debates about the jazz canon often reflect whose contributions have been historically recognized."
-      }
+      },
+      "conceptId": "es.canon"
     },
     {
       "id": "improvisation",
@@ -582,7 +603,8 @@
       },
       "gloss_example": {
         "en": "Jazz is built on improvisation, and musicians respond to each other in real time."
-      }
+      },
+      "conceptId": "es.improvisation"
     },
     {
       "id": "dissonance",
@@ -602,7 +624,8 @@
       },
       "gloss_example": {
         "en": "The composer used dissonance deliberately to evoke unease and conflict."
-      }
+      },
+      "conceptId": "es.dissonance"
     },
     {
       "id": "arrangement",
@@ -622,7 +645,8 @@
       },
       "gloss_example": {
         "en": "The orchestral arrangement of the pop song transformed it into something entirely new."
-      }
+      },
+      "conceptId": "es.arrangement"
     },
     {
       "id": "timbre",
@@ -642,7 +666,8 @@
       },
       "gloss_example": {
         "en": "Her timbre is instantly recognizable. No other singer sounds quite like her."
-      }
+      },
+      "conceptId": "es.timbre"
     },
     {
       "id": "counterpoint",
@@ -662,7 +687,8 @@
       },
       "gloss_example": {
         "en": "Bach's use of counterpoint in his fugues is still studied in conservatories worldwide."
-      }
+      },
+      "conceptId": "es.counterpoint"
     },
     {
       "id": "erasure",
@@ -698,7 +724,8 @@
           },
           "audioSlug": "invisibilizacion"
         }
-      ]
+      ],
+      "conceptId": "es.erasure"
     },
     {
       "id": "polyrhythm",
@@ -718,7 +745,8 @@
       },
       "gloss_example": {
         "en": "West African drumming traditions are built on complex polyrhythmic structures."
-      }
+      },
+      "conceptId": "es.polyrhythm"
     },
     {
       "id": "leitmotif",
@@ -738,7 +766,8 @@
       },
       "gloss_example": {
         "en": "Wagner developed the leitmotif technique to represent characters without words."
-      }
+      },
+      "conceptId": "es.leitmotif"
     },
     {
       "id": "atonal",
@@ -758,7 +787,8 @@
       },
       "gloss_example": {
         "en": "Schoenberg's atonal compositions divided audiences between admiration and confusion."
-      }
+      },
+      "conceptId": "es.atonal"
     },
     {
       "id": "syncopation",
@@ -778,7 +808,8 @@
       },
       "gloss_example": {
         "en": "The jazz pianist's syncopation gave even a simple melody a compelling sense of forward momentum."
-      }
+      },
+      "conceptId": "es.syncopation"
     },
     {
       "id": "appropriation",
@@ -798,7 +829,8 @@
       },
       "gloss_example": {
         "en": "The debate over cultural appropriation in music continues to divide critics and artists alike."
-      }
+      },
+      "conceptId": "es.appropriation"
     },
     {
       "id": "sing",
@@ -818,7 +850,8 @@
       },
       "gloss_example": {
         "en": "She sings in a local choir."
-      }
+      },
+      "conceptId": "es.sing"
     },
     {
       "id": "dance",
@@ -838,7 +871,8 @@
       },
       "gloss_example": {
         "en": "They danced all night at the party."
-      }
+      },
+      "conceptId": "es.dance"
     },
     {
       "id": "musician",
@@ -874,7 +908,8 @@
           },
           "audioSlug": "musica"
         }
-      ]
+      ],
+      "conceptId": "es.musician"
     },
     {
       "id": "baile",
@@ -894,7 +929,8 @@
       },
       "gloss_example": {
         "en": "The dance lasted all night."
-      }
+      },
+      "conceptId": "es.baile"
     },
     {
       "id": "concurso",
@@ -914,7 +950,8 @@
       },
       "gloss_example": {
         "en": "She took part in a singing contest."
-      }
+      },
+      "conceptId": "es.concurso"
     },
     {
       "id": "guitar",
@@ -934,7 +971,8 @@
       },
       "gloss_example": {
         "en": "I learned to play the guitar as a child."
-      }
+      },
+      "conceptId": "es.guitar"
     },
     {
       "id": "piano",
@@ -954,7 +992,8 @@
       },
       "gloss_example": {
         "en": "She plays the piano in a jazz band."
-      }
+      },
+      "conceptId": "es.piano"
     },
     {
       "id": "violin",
@@ -974,7 +1013,8 @@
       },
       "gloss_example": {
         "en": "The violin is hard to learn."
-      }
+      },
+      "conceptId": "es.violin"
     },
     {
       "id": "artist",
@@ -994,7 +1034,8 @@
       },
       "gloss_example": {
         "en": "That artist paints very original pictures."
-      }
+      },
+      "conceptId": "es.artist"
     }
   ]
 }

@@ -14,53 +14,37 @@
     _banner.setAttribute('role', 'status');
     _banner.setAttribute('aria-live', 'assertive'); // interrupts — losing connection is urgent
     _banner.setAttribute('aria-atomic', 'true');
-    Object.assign(_banner.style, {
-      position:   'fixed',
-      top:        '0',
-      left:       '0',
-      right:      '0',
-      zIndex:     '10001',
-      padding:    '0.55rem 1rem',
-      textAlign:  'center',
-      fontSize:   '0.84rem',
-      fontWeight: '600',
-      fontFamily: 'inherit',
-      color:      '#fff',
-      transition: 'transform 0.25s ease, opacity 0.25s ease',
-      transform:  'translateY(-100%)',
-      opacity:    '0',
-    });
+    _banner.className = 'network-banner';
     // Append after body is available
     (document.body || document.documentElement).appendChild(_banner);
     return _banner;
   }
 
-  function _show(text, bg) {
+  function _show(text, variant) {
     clearTimeout(_hideTimer);
     const b = _ensureBanner();
-    b.textContent       = text;
-    b.style.background  = bg;
+    b.textContent = text;
+    b.classList.remove('network-banner--offline', 'network-banner--online');
+    b.classList.add('network-banner--' + variant);
     // Force a reflow so the transition plays even if the element was just created
     b.getBoundingClientRect();
-    b.style.transform = 'translateY(0)';
-    b.style.opacity   = '1';
+    b.classList.add('network-banner--visible');
   }
 
   function _hide(delayMs) {
     clearTimeout(_hideTimer);
     _hideTimer = setTimeout(() => {
       if (!_banner) return;
-      _banner.style.transform = 'translateY(-100%)';
-      _banner.style.opacity   = '0';
+      _banner.classList.remove('network-banner--visible');
     }, delayMs);
   }
 
   function _onOffline() {
-    _show((typeof AppLang !== 'undefined' ? AppLang.t('network_offline') : '📶 No connection'), '#b91c1c');
+    _show((typeof AppLang !== 'undefined' ? AppLang.t('network_offline') : 'No connection'), 'offline');
   }
 
   function _onOnline() {
-    _show((typeof AppLang !== 'undefined' ? AppLang.t('network_online') : '✓ Connection restored'), '#15803d');
+    _show((typeof AppLang !== 'undefined' ? AppLang.t('network_online') : '✓ Connection restored'), 'online');
     _hide(3000);
   }
 

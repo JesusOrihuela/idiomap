@@ -1,0 +1,220 @@
+@layer reset {
+/* Idiomap · shared/css/layout.css · 2026-10-31 · sistema: docs/UI-SYSTEM.md */
+/* ============================================================================
+   Idiomap · Layout
+   ----------------------------------------------------------------------------
+   Reset, base, accesibilidad, header, footer, scrollbar y utilidades globales.
+   Orden de cascada: tokens.css -> layout.css -> components.css -> { agina}.css
+   Origen: generalities.css (dividido en F2, 2026-10-31). Valores sin cambios.
+   ============================================================================ */
+
+/* ---- Custom Properties (Design Tokens) ---- */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+/* Ningun elemento decorativo debe provocar scroll horizontal en la pagina.
+   Los contenedores con scroll propio (.path-trail, tablas) lo declaran ellos.
+   Solo <body>: el clip en <html> rompe position: sticky (header, nav, barra del índice). */
+/* El foco no debe quedar bajo la cabecera y la nav fijas (WCAG 2.4.11). */
+html { scroll-padding-top: calc(var(--header-h) + var(--space-14)); }
+
+body { overflow-x: clip; }
+
+body {
+  font-family: var(--font-family-base);
+  background: var(--gradient-hero);
+  color: var(--color-text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  line-height: var(--text-body-lg-leading);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- Visually Hidden (screen-reader only) ---- */
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}
+
+/* ---- Skip to Main Content (Accessibility) ---- */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  inset-inline-start: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  min-height: var(--control-h);
+  background: var(--color-action);
+  color: var(--color-on-action);
+  padding: var(--space-2) var(--space-6);
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  font-weight: var(--weight-medium);
+  font-size: var(--text-body);
+  text-decoration: none;
+  z-index: var(--z-skip);
+  white-space: nowrap;
+  transition: top var(--duration-fast) ease;
+}
+.skip-link:focus { top: 0; }
+
+/* ---- Focus Ring (WCAG 2.1 AA) ---- */
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+}
+
+@layer components {
+/* ---- Header ---- */
+header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  width: 100%;
+  height: var(--header-h);
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--space-6);
+}
+
+@media (max-width: 640px) {
+  header { justify-content: flex-start; padding-inline: var(--space-4); }}
+
+header a { display: flex; align-items: center; text-decoration: none; }
+
+header img {
+  height: calc(var(--space-12) + var(--space-3));
+  width: auto;
+  transition: transform var(--transition);
+}
+
+@media (max-width: 640px) {
+  header img { height: var(--size-chip-h); }
+}
+
+@media (hover: hover) and (pointer: fine) { header img:hover { transform: scale(1.05); } }
+
+
+/* ── Language pair badge (injected by lang-pair.js) ── */
+.lp-badge {
+  position: absolute;
+  inset-inline-end: var(--space-6);
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 7.8rem;                 /* 2 × 48px flag frames + separator + padding */
+  min-height: var(--control-h);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: var(--space-1) var(--space-2);
+  text-decoration: none;
+  line-height: 1;
+  transition: background var(--transition), border-color var(--transition);
+  cursor: pointer;
+}
+@media (max-width: 640px) {
+  .lp-badge { inset-inline-end: var(--space-4); }
+}
+@media (hover: hover) and (pointer: fine) {
+  .lp-badge:hover {
+  background: var(--color-bg);
+  border-color: var(--color-action);
+  }
+}
+
+.lp-badge__sep {
+  font-size: var(--text-label);
+  color: var(--color-text-muted);
+  margin: 0 2px;
+}
+
+/* ---- Footer ---- */
+footer {
+  width: 100%;
+  margin-top: auto;
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  padding: var(--space-4) var(--space-8);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  gap: var(--space-4);
+}
+
+.footer-content p { font-size: var(--text-body); font-weight: var(--weight-medium); margin: 0; }
+@media (hover: hover) and (pointer: fine) { .footer-content a:hover { color: var(--color-text); } }
+
+.footer-content a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* Área táctil mínima AA (24) y recomendada (44); el icono sigue a 16 px. */
+  min-width: var(--control-h);
+  min-height: var(--control-h);
+  color: var(--color-text-muted);
+  transition: color var(--duration-fast) var(--easing-standard);
+}
+.footer-content a svg { display: block; }
+
+
+
+
+
+
+/* ---- Scrollbar ---- */
+::-webkit-scrollbar { width: var(--scrollbar-w); }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: var(--radius-full);
+  border: 2px solid var(--color-bg);
+}
+@media (hover: hover) and (pointer: fine) { ::-webkit-scrollbar-thumb:hover { background: var(--color-action); } }
+
+
+/* ---- Global Animations ---- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(var(--space-3)); }
+  to   { opacity: 1; transform: translateY(0); }}
+@keyframes fadeInScale {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }}
+@keyframes revealUp {
+  from { opacity: 0; transform: translateY(var(--space-4)); }
+  to   { opacity: 1; transform: none; }}
+
+@media (max-width: 480px) {
+  .footer-content { flex-direction: column; text-align: center; gap: var(--space-2); }}
+
+/* ---- Global Utility: Hidden ---- */
+.hidden { display: none !important; }
+
+/* ---- i18n cloak (FOUC prevention for non-Spanish-source pairs) ----
+   The HTML text is hardcoded in Spanish (the original source language).
+   For a pair whose source is another language (e.g. en-es), page-title.js
+   adds `lang-cloak` to <html> in the <head> so no Spanish text is painted;
+   nav.js removes it at end of body once every element has been translated.
+   Spanish-source pairs (es-en) never get the class, so they render instantly.
+   `visibility` keeps layout intact (no reflow) and lets the page background show. */
+html.lang-cloak body { visibility: hidden; }
+}

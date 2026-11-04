@@ -1,0 +1,34 @@
+{
+  "id": "es-en",
+  "source": {
+    "code": "es",
+    "flags": [
+      "ar",
+      "mx",
+      "es"
+    ],
+    "name": "Español",
+    "localName": "español"
+  },
+  "target": {
+    "code": "en",
+    "flags": [
+      "us",
+      "gb"
+    ],
+    "name": "English",
+    "localName": "inglés"
+  },
+  "sourceLocale": "es-419",
+  "targetLocale": "en-US",
+  "label": "Español → English",
+  "ttsVoices": [
+    "af_heart",
+    "af_bella",
+    "bf_emma",
+    "am_michael"
+  ],
+  "sttLanguage": "english",
+  "status": "shippable",
+  "stressTest": false
+}

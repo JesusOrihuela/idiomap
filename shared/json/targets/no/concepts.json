@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "tag": "no",
+  "concepts": [
+    {
+      "conceptId": "no.personal_info_i_am_a_student",
+      "id": "personal_info_i_am_a_student",
+      "target": [
+        {
+          "text": "Jeg er student.",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "jeg_er_student"
+        },
+        {
+          "text": "Eg er student.",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "eg_er_student"
+        }
+      ],
+      "pairs": [
+        "en-no"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "no.personal_info_i_am_from_norway",
+      "id": "personal_info_i_am_from_norway",
+      "target": [
+        {
+          "text": "Jeg er fra Norge.",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "jeg_er_fra_norge"
+        },
+        {
+          "text": "Eg er frå Noreg.",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "eg_er_fra_noreg"
+        }
+      ],
+      "pairs": [
+        "en-no"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "no.personal_info_my_name_is",
+      "id": "personal_info_my_name_is",
+      "target": [
+        {
+          "text": "Jeg heter Kari.",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "jeg_heter_kari"
+        },
+        {
+          "text": "Eg heiter Kari.",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "eg_heiter_kari"
+        }
+      ],
+      "pairs": [
+        "en-no"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "no.survival_do_you_speak_english",
+      "id": "survival_do_you_speak_english",
+      "target": [
+        {
+          "text": "Unnskyld, snakker du engelsk?",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "unnskyld_snakker_du_engelsk"
+        },
+        {
+          "text": "Orsak, snakkar du engelsk?",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "orsak_snakkar_du_engelsk"
+        }
+      ],
+      "pairs": [
+        "en-no"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "no.survival_i_do_not_understand",
+      "id": "survival_i_do_not_understand",
+      "target": [
+        {
+          "text": "Jeg forstår ikke.",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "jeg_forstar_ikke"
+        },
+        {
+          "text": "Eg forstår ikkje.",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "eg_forstar_ikkje"
+        }
+      ],
+      "pairs": [
+        "en-no"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    },
+    {
+      "conceptId": "no.survival_what_is_this",
+      "id": "survival_what_is_this",
+      "target": [
+        {
+          "text": "Hva er dette?",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "hva_er_dette"
+        },
+        {
+          "text": "Kva er dette?",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "kva_er_dette"
+        }
+      ],
+      "pairs": [
+        "en-no"
+      ],
+      "sources": [
+        "en"
+      ],
+      "status": "pair-only"
+    }
+  ]
+}
