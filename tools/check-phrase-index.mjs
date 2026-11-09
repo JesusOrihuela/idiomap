@@ -102,8 +102,10 @@ const measure = () => {
     const cov = c.querySelector('.pb-chip-cov');
     if (t) { textMin = Math.min(textMin, r(t).width); langs.add(t.getAttribute('lang') || '-'); }
     if (s && getComputedStyle(s).display !== 'none') subShown++;
-    if (cefr && (r(cefr).right > cb.right + 0.5 || r(cefr).left < cb.left - 0.5)) cefrOut++;
-    if (cov && (r(cov).right > cb.right + 0.5 || r(cov).left < cb.left - 0.5)) covOut++;
+    // Los pips/sub se ocultan a proposito en movil: solo se comprueba lo visible.
+    const shown = el => el && getComputedStyle(el).display !== 'none';
+    if (shown(cefr) && (r(cefr).right > cb.right + 0.5 || r(cefr).left < cb.left - 0.5)) cefrOut++;
+    if (shown(cov) && (r(cov).right > cb.right + 0.5 || r(cov).left < cb.left - 0.5)) covOut++;
     if (c.scrollWidth > c.clientWidth + 1) chipOver++;
   }
   const bar = document.querySelector('.pb-bar');

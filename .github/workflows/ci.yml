@@ -27,10 +27,12 @@ jobs:
       # because fix-phrase-ids.js --check reads shared/js/progress.js (the _ID_MAP);
       # shared/img/flags is needed because check-pair-completeness.mjs verifies every
       # flag code a pair declares has a real SVG asset (small — just the flag SVGs).
-      - name: Checkout (JSON + JS + tools + flags)
+      - name: Checkout (JSON + JS + tools + flags + lang)
         uses: actions/checkout@v5
         with:
+          # check-dashes.mjs walks lang/ (UI strings) in this job.
           sparse-checkout: |
+            lang
             shared/json
             shared/js
             shared/img/flags
