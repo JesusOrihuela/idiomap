@@ -22,37 +22,11 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      # Sparse checkout: the validators only read JSON + tool scripts, so we
-      # skip the ~400 MB of audio for a fast, cheap run. shared/js is needed
-      # because fix-phrase-ids.js --check reads shared/js/progress.js (the _ID_MAP);
-      # shared/img/flags is needed because check-pair-completeness.mjs verifies every
-      # flag code a pair declares has a real SVG asset (small — just the flag SVGs).
-      - name: Checkout (pages + shared + tools)
+      # Full checkout: this job runs the CSS/LANG scanners (every page and
+      # stylesheet) and the audio reference gates (they compare content with
+      # the audio tree), so a sparse list silently breaks as gates are added.
+      - name: Checkout (full)
         uses: actions/checkout@v5
-        with:
-          # This job also runs the CSS/LANG-attr scanners, which open every
-          # page and stylesheet; audio and images stay out of the checkout.
-          sparse-checkout: |
-            cloze
-            dictation
-            grammar
-            index
-            lang
-            my-learning
-            placement
-            progress
-            quiz
-            scramble
-            shared/css
-            shared/img/flags
-            shared/js
-            shared/json
-            speaking
-            tests
-            tools
-            translation
-            vocabulary
-          sparse-checkout-cone-mode: true
 
       - name: Set up Node
         uses: actions/setup-node@v5
