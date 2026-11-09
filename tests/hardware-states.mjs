@@ -11,7 +11,7 @@
 import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
-import { chromium } from 'file:///C:/Users/juanj/Downloads/PracticeEnglish/practice_english.github.io/node_modules/playwright-core/index.mjs';
+import { chromium } from 'playwright-core';
 
 const ROOT = path.resolve(new URL('..', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1'));
 const PORT = 8190;
@@ -27,7 +27,7 @@ await new Promise(r => server.listen(PORT, r));
 const launch = async () => {
   if (process.env.PW_CHROME_PATH) return chromium.launch({ executablePath: process.env.PW_CHROME_PATH });
   if (process.env.PW_CHANNEL) return chromium.launch({ channel: process.env.PW_CHANNEL });
-  return chromium.launch({ executablePath: 'C:/Users/juanj/AppData/Local/ms-playwright/chromium-1248/chrome-win64/chrome.exe' });
+  return chromium.launch({ channel: 'msedge' });   // local dev: installed Edge
 };
 const browser = await launch();
 
