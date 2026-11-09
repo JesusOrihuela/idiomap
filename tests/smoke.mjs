@@ -195,6 +195,60 @@ try {
     await page.close();
   }
 
+  // ── 2e. Placement: the last answer must open the result screen and render the
+  //    CEFR badge + descriptor (regression: _getLevelConfig threw on _plParams and
+  //    the screen never appeared).
+  {
+    console.log('Placement — result screen');
+    const page = await browser.newPage();
+    const errs = []; page.on('pageerror', e => errs.push(e.message));
+    await page.addInitScript(() => localStorage.setItem('pe_onboarded', '1'));
+    await page.goto(BASE + '/placement/', { waitUntil: 'domcontentloaded' });
+    await page.click('#start-btn');
+    await page.waitForTimeout(400);
+    for (let i = 0; i < 16; i++) {
+      if (await page.isVisible('#screen-result')) break;
+      const btn = await page.$('.option-btn:not([disabled])');
+      if (!btn) break;
+      await btn.click({ timeout: 3000 }).catch(() => {});
+      await page.waitForTimeout(1000);
+    }
+    const r = await page.evaluate(() => {
+      const label = document.getElementById('result-level-label');
+      const cta = document.getElementById('result-cta');
+      return {
+        visible: !document.getElementById('screen-result').classList.contains('hidden'),
+        badge: label && label.querySelector('.cefr-badge') ? label.querySelector('.cefr-badge').textContent : null,
+        text: label ? label.textContent.trim() : '',
+        ctaArrow: cta ? cta.textContent.includes('→') : null,
+      };
+    });
+    check(errs.length === 0, `placement: no page errors (${errs[0] || ''})`);
+    check(r.visible, 'placement: result screen opens after the last answer');
+    check(!!r.badge && /^[ABC][12]$/.test(r.badge), `placement: CEFR badge (${r.badge})`);
+    check(r.text.length > (r.badge || '').length && !r.text.includes('·'), `placement: badge + descriptor, no middle dot ("${r.text}")`);
+    check(r.ctaArrow === false, 'placement: result CTA has no text arrow');
+    await page.close();
+  }
+
+  // ── 2f. Session history keeps the 60-day chart honest: the old 100-session
+  //    cap dropped whole days at 2-3 sessions/day. Record 150 today and check
+  //    none are evicted (the retention window is date-based).
+  {
+    console.log('Progress — session history');
+    const page = await browser.newPage();
+    const errs = []; page.on('pageerror', e => errs.push(e.message));
+    await page.goto(BASE + '/progress/', { waitUntil: 'domcontentloaded' });
+    await page.waitForTimeout(600);
+    const n = await page.evaluate(() => {
+      for (let i = 0; i < 150; i++) Progress.recordSession('history_test', 1, 1);
+      return Progress.getSessions().length;
+    });
+    check(errs.length === 0, `history: no page errors (${errs[0] || ''})`);
+    check(n >= 150, `history: keeps >100 sessions (${n})`);
+    await page.close();
+  }
+
   // ── 3. Smoke-load every page: no uncaught JS errors on load.
   console.log('Smoke load — all pages');
   for (const url of [

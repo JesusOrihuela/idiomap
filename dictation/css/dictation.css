@@ -14,7 +14,6 @@
 
 /* ---- Topic Picker ---- */
 
-
 .dict-header {
   text-align: center;
   margin-bottom: var(--space-8);
@@ -30,16 +29,6 @@
   margin: 0 auto;
   line-height: var(--text-body-leading);}
 
-
-
-
-
-
-
-
-
-
-
 /* ---- Title ---- */
 .dict-title {
   margin-bottom: var(--space-1);
@@ -49,20 +38,53 @@
 .dict-title span { color: var(--color-action); }
 
 .dict-subtitle {
-  margin-bottom: var(--space-7);
+  margin-bottom: var(--space-6);
   animation: fadeIn var(--duration-base) var(--transition-emphasis) both;}
 
-/* ---- Audio Controls — large and impressive ---- */
-.audio-controls {
+/* ---- Audio Card + Listen action ---- */
+.dict-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+}
+
+.dict-slots-wrap {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
   gap: var(--space-2);
-  margin-bottom: var(--space-5);
+}
+
+.dict-slots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2);
+  max-width: 100%;
+}
+
+.dict-slots span {
+  width: var(--space-9);
+  height: 2px;
+  border-radius: var(--radius-full);
+  background: var(--color-border-strong);
+}
+
+.dict-word-count {
+  font-size: var(--text-label);
+  /* Linea unica: el interlineado 1.6 heredado dejaba mas aire abajo que arriba;
+     con 1.2 el bloque ranuras+contador queda optico en el centro. */
+  line-height: 1.2;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.dict-listen-row {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  /* Agrupa las insignias (registro/nivel) con el botón en vez de dejarlas en los bordes. */
-  max-width: var(--measure-sm2);
-  margin-inline: auto;
+  margin-bottom: var(--space-4);
   animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
 }
 
@@ -89,7 +111,7 @@
   transition: 0s;
 }
 
-@media (hover: hover) and (pointer: fine) { .play-btn:hover  { background: var(--color-action-hover); } }
+@media (hover: hover) and (pointer: fine) { .play-btn:hover::before  { background: var(--color-action-hover); } }
 
 .play-btn:active { transform: scale(0.97); }
 .play-btn:disabled { opacity: var(--opacity-55); cursor: not-allowed; transform: none; box-shadow: none; }
@@ -107,34 +129,33 @@
   flex: 1;
 }
 
-
 #dict-input:disabled { opacity: var(--opacity-55); cursor: not-allowed; }
 
-#check-btn { padding: var(--space-4) var(--space-6); }
-
+#check-btn { padding: 0 var(--space-6); }
 
 /* ---- Feedback ---- */
 .dict-feedback {
   width: 100%;
-  padding: var(--space-4) var(--space-5);
+  padding: var(--space-3) var(--space-4);
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-inline-start: 3px solid var(--color-border);
   border-radius: var(--radius-lg);
   margin-bottom: var(--space-4);
+  font-size: var(--text-body);
+  line-height: var(--text-body-leading);
+  color: var(--color-text);
   animation: fadeInScale var(--duration-base) var(--transition-emphasis) both;
 }
 
-.dict-feedback.correct  { background: var(--feedback-correct-bg); border-inline-start-color: var(--feedback-correct-border); }
-.dict-feedback.incorrect { background: var(--feedback-error-bg); border-inline-start-color: var(--feedback-error-border); }
-
+.dict-feedback.correct  { background: var(--feedback-correct-bg); border-color: var(--feedback-correct-border); }
+.dict-feedback.incorrect { background: var(--feedback-error-bg); border-color: var(--feedback-error-border); }
 
 /* ---- Grammar chip spacing ---- */
 /* ---- Responsive ---- */
 @media (max-width: 480px) {
   .dictation-page { padding: var(--space-6) var(--page-pad-x) var(--space-14); }
-  .audio-controls { gap: var(--space-2); }
-  .play-btn { padding: var(--offset-sm) var(--space-6); font-size: var(--text-body-lg); }
+  .play-btn { padding: 0 var(--space-6); }
   .dict-input-wrapper { flex-direction: column; }
-  #check-btn { width: 100%; padding: var(--offset-sm); }}
+  #dict-input { flex: 0 0 auto; width: 100%; }
+  #check-btn { width: 100%; padding: 0 var(--offset-sm); }}
 }

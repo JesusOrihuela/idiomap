@@ -9,11 +9,24 @@
    Origen: generalities.css (dividido en F2, 2026-10-31). Valores sin cambios.
    ============================================================================ */
 
+/* ---- Activity accents -----------------------------------------------------
+   Single source for the accent each activity uses on its own page and in the
+   profile matrix. Set data-activity on <body> (activity page) or on the
+   element (profile column); descendants inherit --activity-clr. */
+[data-activity="speaking"]    { --activity-clr: var(--orange-600); }
+[data-activity="dictation"]   { --activity-clr: var(--amber-700); }
+[data-activity="vocabulary"]  { --activity-clr: var(--pink-500); }
+[data-activity="cloze"]       { --activity-clr: var(--teal-600); }
+[data-activity="translation"] { --activity-clr: var(--fuchsia-600); }
+[data-activity="scramble"]    { --activity-clr: var(--lime-700); }
+[data-activity="quiz"]        { --activity-clr: var(--cyan-700); }
+[data-activity="grammar"]     { --activity-clr: var(--color-category-grammar); }
+
 /* ---- Boton de volver ------------------------------------------------------
    Mismo cuerpo que .btn--ghost + .btn--sm; solo anade el tinte del borde al
    pasar. La clase existe para nombrar el rol y para scopear ese estado. */
 @media (hover: hover) and (pointer: fine) {
-  .btn--back:hover:not(:disabled) {
+  .btn--back:hover:not(:disabled)::before {
   border-color: var(--color-action-subtle);
   }
 }
@@ -21,11 +34,14 @@
 
 /* ---- Shared Component: Streak Badge ---- */
 .streak-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--space-8);
   font-size: var(--text-body);
   font-weight: var(--weight-medium);
   color: var(--color-accent-strong);
   background: var(--color-accent-subtle);
-  padding: var(--space-1) var(--space-3);
+  padding: 0 var(--space-3);
   border-radius: var(--radius-full);
   white-space: nowrap;
 }
@@ -33,23 +49,40 @@
 /* ---- Shared Component: Session Info Bar ---- */
 .session-info-bar {
   width: 100%;
-  display: flex;
+  /* Tres pistas: el contador queda centrado en la columna, no en el hueco que
+     dejan los laterales, que miden distinto. */
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: var(--space-7);
+  /* La barra de volver pertenece al titulo: 28 px la dejaban demasiado lejos. */
+  margin-bottom: var(--space-3);
   gap: var(--space-2);
   opacity: 0;
   animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
 }
+.session-info-bar > :first-child { justify-self: start; }
+.session-info-bar > :last-child { justify-self: end; }
+/* Columnas fijas: si el contador falta, la racha no cae en el centro. */
+.session-info-bar > .btn--back { grid-column: 1; justify-self: start; }
+.session-info-bar > .session-counter { grid-column: 2; justify-self: center; }
+.session-info-bar > .streak-badge { grid-column: 3; justify-self: end; }
 
 /* ---- Shared Component: Session Counter Pill ---- */
+/* `display: inline-flex` gana al atributo `hidden` del navegador: se repone
+   para que una racha de 0 no deje una pastilla vacia. */
+.session-counter[hidden],
+.streak-badge[hidden] { display: none; }
+
 .session-counter {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--space-8);
   font-size: var(--text-body);
   font-weight: var(--weight-medium);
   color: var(--color-text-muted);
   background: var(--color-surface-alt);
   border: 1px solid var(--color-border);
-  padding: var(--space-1) var(--space-3);
+  padding: 0 var(--space-3);
   border-radius: var(--radius-full);
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
@@ -57,8 +90,14 @@
 
 /* ---- Shared Component: Session Progress Bar ---- */
 .session-progress-bar {
-  margin-top: calc(-1 * var(--space-5));
-  margin-bottom: var(--space-6);
+  /* Sin width se quedaba en 0 px: la barra de sesion no se veia. */
+  width: 100%;
+  opacity: 0;
+  animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
+  /* Debajo de las pastillas, no encima: 8 px arriba y 8 abajo. El hueco total
+     hasta el titulo no cambia (era -20 + 5 + 24). */
+  margin-top: calc(-1 * var(--space-1));
+  margin-bottom: var(--space-2);
   overflow: hidden;
 }
 
@@ -67,7 +106,7 @@
 /* Accion de sesion: el par avanzar / reintentar. */
 @media (hover: hover) and (pointer: fine) { .action-row > .btn:hover:not(:disabled) { filter: brightness(1.1);} }
 
-@media (hover: hover) and (pointer: fine) { .action-row > .btn--secondary:hover:not(:disabled) { border-color: var(--color-action); color: var(--color-action); } }
+@media (hover: hover) and (pointer: fine) { .action-row > .btn--secondary:hover:not(:disabled) { color: var(--color-action); } .action-row > .btn--secondary:hover:not(:disabled)::before { border-color: var(--color-action); } }
 
 
 /* ---- Shared Component: Post-session notification prompt ---- */
@@ -159,7 +198,7 @@
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
   box-shadow: var(--shadow-xs);
-  padding: var(--space-1-5) var(--space-4);
+  padding: var(--space-1) var(--space-4);
   width: 100%;
   position: sticky;
   top: var(--header-h);
@@ -168,7 +207,7 @@
   scrollbar-width: none;
 }
 .mode-switcher::-webkit-scrollbar { display: none; }
-.mode-switcher .nav-item { flex: 0 0 auto; min-height: calc(var(--control-h) - var(--space-1)); }
+.mode-switcher .nav-item { flex: 0 0 auto; min-height: var(--control-h); }
 .mode-switcher .nav-item .icon { width: var(--icon-sm); height: var(--icon-sm); }
 .mode-switcher .nav-item { font-size: var(--text-label); }
 
@@ -226,6 +265,9 @@ body.path-mode {
     gap: 0;
     padding: var(--space-1-5) var(--space-2);
   }
+  /* 26x44 en la nav es una excepcion declarada: los 10 destinos deben caber
+     en una fila sin scroll a 320; se mantiene el minimo AA de 24x24 y 44 de alto.
+     La alternativa (44x44) exige scroll horizontal o un menu «Mas». */
 
   /* Icon-only mode still needs presence: 18 px reads better than 16. */
   .mode-switcher .nav-item .icon { width: var(--icon-md); height: var(--icon-md); }
@@ -233,8 +275,9 @@ body.path-mode {
   /* Hide home button — redundant on mobile, saves space */
   .mode-switcher [data-nav="home"] { display: none; }
 
-  /* Visually hide label text but keep it available to screen readers */
-  .btn-label {
+  /* Visually hide label text but keep it available to screen readers.
+     Solo en la nav: los botones de audio tambien usan .btn-label. */
+  .mode-switcher .btn-label {
     position: absolute;
     width: 1px; height: 1px;
     padding: 0; margin: -1px;
@@ -275,7 +318,7 @@ body.path-mode {
   .mode-switcher .nav-item.active { padding-inline: var(--space-1-5); }
   .mode-switcher .nav-item--active::before,
   .mode-switcher .nav-item--active-path::before {
-    inset: var(--space-1) calc(var(--space-1) / 2);
+    inset: var(--space-1-5) calc(var(--space-1) / 2);
   }
 }
 
@@ -303,17 +346,28 @@ body.path-mode {
   white-space: nowrap;
   border: 0;
 }
-/* Last resort on very narrow screens: even the active label becomes icon-only. */
-.mode-switcher--tight .nav-item { padding: var(--space-2) var(--space-1); }
+/* Last resort on very narrow screens: the destinations shrink (16 px icon,
+   4 px padding) so the active label still fits in the row. */
+.mode-switcher--tight .nav-item { padding: var(--space-1); }
+.mode-switcher--tight .nav-item .icon { width: var(--icon-xs); height: var(--icon-xs); }
 .mode-switcher--tight { gap: 0; }
-.mode-switcher--tight .btn-label,
-.mode-switcher--tight .nav-item--active .btn-label,
-.mode-switcher--tight .nav-item.active .btn-label {
+.mode-switcher--tight .btn-label {
   position: absolute;
   width: 1px; height: 1px;
   padding: 0; margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+/* La seccion activa conserva su etiqueta tambien en el modo mas estrecho. */
+.mode-switcher--tight .nav-item--active .btn-label,
+.mode-switcher--tight .nav-item.active .btn-label {
+  position: static;
+  width: auto; height: auto;
+  padding: 0; margin: 0;
+  overflow: visible;
+  clip: auto;
   white-space: nowrap;
   border: 0;
 }
@@ -479,16 +533,10 @@ body.path-mode {
 }
 
 /* Chevron de afordancia de las categorías de gramática (DP-04). */
-.card-chevron {
-  flex-shrink: 0;
-  font-size: var(--text-body-lg);
-  line-height: 1;
-  color: var(--color-text-muted);
-}
-
 .img-topic-card__title {
   font-size: var(--text-body);
   font-weight: var(--weight-medium);
+  line-height: var(--text-body-leading);
   color: var(--color-text);
   /* Dos líneas: en móvil "Describiendo Personas" y "Pensamientos y Opiniones"
      se cortaban con ellipsis y el tema quedaba ilegible. */
@@ -511,16 +559,13 @@ body.path-mode {
 /* ---- Phrase Browser ---- */
 /* Fills the standard page container (--max-w + 24px gutters) so the
    two-column chip grid gets wide, readable columns like the topic grid. */
+/* El indice es un cambio de vista, no una carga: aparece ya montado. La
+   entrada con fade hacia que se viera primero estatico y luego "recargado". */
 .pb-section {
   width: 100%;
   margin: 0 auto;
   padding: 0 0 var(--space-8);
-  animation: pb-fade-in var(--duration-base) var(--transition-emphasis);
 }
-
-@keyframes pb-fade-in {
-  from { opacity: 0; transform: translateY(var(--space-2)); }
-  to   { opacity: 1; transform: translateY(0); }}
 
 /* Top bar: back button + title/count + variant mode. Wraps on narrow screens;
    on desktop the select shares the row so the bar stays one line (~76 px). */
@@ -529,7 +574,7 @@ body.path-mode {
   flex-wrap: wrap;
   align-items: center;
   gap: var(--space-3);
-  padding: var(--space-5) var(--space-1) var(--space-3);
+  padding: var(--space-5) var(--space-1) var(--space-4);
   /* La barra de volver + progreso acompaña al bajar por una lista larga (DP-04). */
   position: sticky;
   top: calc(var(--header-h) + var(--nav-sticky-h, var(--space-12)));
@@ -560,30 +605,7 @@ body.path-mode {
   color: var(--color-text-muted);
 }
 
-.pb-mode-select {
-  /* A control, not a field: it keeps its own width and sits at the end of the
-     bar (wraps to its own row on narrow screens). */
-  width: fit-content;
-  max-width: 100%;
-  align-self: flex-start;
-  margin-inline-start: auto;
-  padding: var(--space-1) var(--space-2);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  background: var(--color-surface);
-  color: var(--color-text);
-  font: inherit;
-  font-size: var(--text-label);
-  min-height: var(--control-h);
-}
-
 /* Progress track */
-.pb-hint {
-  margin: 0 0 var(--space-4);
-  font-size: var(--text-body);
-  color: var(--color-text-muted);
-}
-
 .pb-track {
   margin: 0 0 var(--space-5);
   overflow: hidden;
@@ -594,6 +616,7 @@ body.path-mode {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--grid-min-xl), 1fr));
   gap: var(--space-2);
+  margin-top: var(--space-2);
   margin-bottom: var(--space-6);
 }
 
@@ -601,14 +624,25 @@ body.path-mode {
    full-width column instead of showing cut-off text. */
 /* Un chip por fila solo en pantallas estrechas: a 768 (tablet) caben dos. */
 @media (max-width: 640px) {
-  .pb-grid { grid-template-columns: 1fr; }}
+  .pb-grid { grid-template-columns: 1fr; }
+  /* Una columna: la altura ya no empareja tarjetas, asi que caben dos lineas. */
+  .pb-chip-text { -webkit-line-clamp: 2; }
+  /* Indice de palabras: son cortas, caben dos columnas. Se quita el subtitulo
+     de categoria y la fila de pips (el borde verde ya marca "vista") para que
+     la palabra no se corte. */
+  .pb-grid--words { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pb-grid--words .pb-chip-text { -webkit-line-clamp: 1; }
+  .pb-grid--words .pb-chip-sub,
+  .pb-grid--words .pb-chip-cov { display: none; }
+}
 
 .pb-chip {
   display: flex;
   align-items: center;
   gap: var(--space-2);
   min-height: var(--size-chip-h);
-  padding: var(--space-1) var(--space-3);
+  /* 8 px vertical: a dos lineas el texto respira y el chip crece (DP-04). */
+  padding: var(--space-2) var(--space-3);
   background: var(--color-surface);
   border: 2px solid var(--color-border);
   border-radius: var(--radius-md);
@@ -652,12 +686,14 @@ body.path-mode {
 .pb-chip-text {
   font-size: var(--text-body);
   font-weight: var(--weight-semibold);
+  line-height: var(--text-body-leading);
   color: var(--color-text);
-  /* Dos líneas: 35 de 72 frases quedaban cortadas a 390 px. El mínimo garantiza
-     que el texto principal nunca cede su sitio al sub (variantes) ni a los badges. */
+  /* Una línea en la rejilla de dos columnas: una frase larga hacia su fila mas
+     alta que la de al lado. En una columna (movil) se permiten dos para no
+     cortar 35 de 72 frases. */
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   overflow: hidden;
   flex: 1 1 auto;
   /* 120 px en tokens (80 + 40): el texto nunca cede su sitio al sub. */
@@ -772,7 +808,7 @@ body.path-mode {
 
 
 /* ---- Unified Feedback Diff (AppFeedback — shared across all exercises) ---- */
-.uf-diff-wrap { display: flex; flex-direction: column; gap: var(--space-2); }
+.uf-diff-wrap { display: flex; flex-direction: column; gap: var(--space-1); }
 
 .uf-diff-row {
   display: flex;
@@ -788,7 +824,7 @@ body.path-mode {
   flex-shrink: 0;
   font-style: normal;
   padding-inline-end: var(--space-2);
-  padding-top: var(--space-1);
+  padding-top: 0;
   border-inline-end: 1px solid color-mix(in srgb, black 15%, transparent);
   margin-inline-end: var(--space-3);
   text-align: end;
@@ -809,7 +845,7 @@ body.path-mode {
 .uf-word-miss { font-size: var(--text-body); color: var(--color-text-muted); font-style: italic; }
 
 /* ---- Feedback divider + note (shared: Quiz example, Translation grammar tip) ---- */
-.feedback-divider { border: none; border-top: 1px solid color-mix(in srgb, black 8%, transparent); margin: var(--space-3) 0 0; }
+.feedback-divider { border: none; border-top: 1px solid color-mix(in srgb, black 8%, transparent); margin: var(--space-2) 0 0; }
 
 .feedback-note {
   display: flex;
@@ -833,7 +869,7 @@ body.path-mode {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-1);
-  margin-top: var(--space-2);
+  margin-top: var(--space-1-5);
 }
 
 .alt-chip {
@@ -868,7 +904,7 @@ display: flex;
 .alt-chip-text { font-style: italic; }
 
 .alt-chip-text + .alt-chip-text::before {
-  content: '·';
+  content: ',';
   font-style: normal;
   color: var(--color-border);
   margin-inline-end: var(--space-1);
@@ -921,40 +957,56 @@ display: flex;
 
 /* ---- Related Phrases (Grammar Workshop completion) ---- */
 .related-phrases {
-width: 100%;
-  margin-top: var(--space-6);
-  border-top: 1px solid var(--color-border);
-  padding-top: var(--space-5);
+  width: 100%;
   text-align: start;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--measure-xs), 1fr));
+  gap: var(--space-3);
   animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
 }
 
 .related-heading {
-font-size: var(--text-body);
+  grid-column: 1 / -1;
+  font-size: var(--text-title);
   font-weight: var(--weight-medium);
-  letter-spacing: var(--text-label-tracking);
+  line-height: var(--text-title-leading);
+  color: var(--color-text);
+  margin-bottom: 0;
+}
+
+.related-sub {
+  grid-column: 1 / -1;
+  font-size: var(--text-body);
+  line-height: var(--text-body-leading);
   color: var(--color-text-muted);
-  margin-bottom: var(--space-3);
+  margin-top: calc(var(--space-2) * -1);
 }
 
 .related-phrase-item {
-background: var(--color-surface-alt);
+  background: var(--color-surface-alt);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  padding: var(--space-3) var(--space-3);
-  margin-bottom: var(--space-2);
+  padding: var(--space-4);
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
+  height: 100%;
 }
 
 .related-phrase-text {
-font-size: var(--text-body);
+  font-size: var(--text-body);
   font-weight: var(--weight-medium);
   color: var(--color-text);
   line-height: var(--text-body-leading);
-  border-inline-start: 3px solid var(--activity-clr, var(--color-action));
-  padding-inline-start: var(--space-2);
+}
+
+/* Las acciones quedan al pie de la tarjeta, alineadas entre frases de distinto largo. */
+.related-activity-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1-5);
+  margin-top: auto;
+  padding-top: var(--space-1);
 }
 
 /* ---- Milestone Toast ---- */
@@ -1062,6 +1114,8 @@ font-size: var(--text-body);
   pointer-events: none;
 }
 
+/* Dictado: el nivel va en la misma fila que Escuchar, no flotando encima. */
+
 /* Gender-of-the-shown-variant badge (multi-gender targets) — floats
    top-left, mirroring the CEFR badge on the right */
 /* Top-left flex wrap holding the adaptive variant pills (gender and/or region). */
@@ -1163,7 +1217,6 @@ font-size: var(--text-body);
 .variant-compact-tag .variant-ico { width: 0.95em; height: 0.95em; }
 .variant-compact-tag .flag-img,
 .variant-compact-tag .region-globe { height: var(--icon-2xs); width: auto; border-radius: var(--radius-2xs); box-shadow: var(--shadow-ring); }
-.variant-compact-sep { color: var(--color-text-muted); opacity: var(--opacity-45); }
 .variant-form {
   font-size: var(--text-title);
   font-weight: var(--weight-medium);
@@ -1182,7 +1235,6 @@ font-size: var(--text-body);
   letter-spacing: var(--text-label-tracking);
 }
 .variant-meta-item { display: inline-flex; align-items: center; gap: var(--space-1); white-space: nowrap; }
-.variant-meta-item + .variant-meta-item::before { content: "·"; margin-inline-end: var(--space-3); opacity: var(--opacity-50); }
 .variant-meta-item .variant-ico { width: 1em; height: 1em; }
 /* Region flag/globe/cluster inside a tag stays TINY (never the full-size globe map — no overflow). */
 .variant-meta-item .flag-img,
@@ -1232,46 +1284,25 @@ font-size: var(--text-body);
    long phrase never crowds the absolute badge) and a bit more BELOW the translation. Only
    applied on variant phrases, so non-variant phrases keep their normal padding. */
 .phrase-card.has-variant-badge {
-  padding-top: var(--space-12);
-  padding-bottom: var(--space-12);   /* match the top space (above phrase == below translation) */
+  /* Arriba se reserva el badge; abajo el mismo aire, para que el bloque de
+     texto quede centrado en la tarjeta. */
+  padding-block: var(--space-11);
+}
+
+/* Variante compacta: cuando la tarjeta solo lleva la pista (Secuencia), el
+   badge sigue libre con 32 px y el aire sobrante pasa al titulo. */
+.phrase-card.phrase-card--compact { padding-block: var(--space-8); }
+
+/* Variante optica: el contenido baja 8 px para compensar la fila de insignias
+   del borde superior (Dictado: ranuras + contador). */
+.phrase-card.phrase-card--optical {
+  padding-block: calc(var(--space-11) + var(--space-2)) calc(var(--space-11) - var(--space-2));
 }
 
 /* Compact flex cards (Scramble hint row, Dictation controls) have no room for an absolute
    top-left overlay — there the badges flow as a full-width top row instead, so they never
    cover the text and wrap responsively on narrow screens. Tall cards (Speaking/Cloze
    phrase-card) keep the absolute top-left placement, where there is space. */
-.hint-card {
-width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: var(--space-2);
-  padding: var(--space-3) var(--space-4);
-  margin-bottom: var(--space-4);
-  opacity: 0;
-  animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
-}
-
-/* Dictation: the CEFR badge is absolute top-right on audio-controls. When there's NO variant
-   row to create top space, reserve room so the CEFR badge doesn't overlap the Listen button. */
-.audio-controls:not(.has-variant-badge) {
-  padding-top: var(--space-9);
-}
-
-.hint-card .variant-badges,
-.audio-controls .variant-badges {
-  position: static;
-  order: -1;
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: var(--space-3);   /* Dictation: clear separation from the Listen button below */
-}
-
-/* Scramble's hint row is tighter — minimal gap between the tags and the hint text. */
-.hint-card .variant-badges {
-  margin-bottom: var(--space-1);
-}
-
 /* ── Consolidado en F3 ──────────────────────────────────────────────────
    Copias identicas que vivian duplicadas en las paginas de actividad.
    Mismo cuerpo, misma especificidad; solo se mueven antes en la cascada. */
@@ -1280,18 +1311,19 @@ width: 100%;
 
 .phrase-card--incorrect { border-inline-start-color: var(--color-danger); }
 
-@media (hover: hover) and (pointer: fine) { .listen-btn:hover { background: var(--color-action-subtle); color: var(--color-action-on-subtle); border-color: var(--color-action); } }
+@media (hover: hover) and (pointer: fine) { .listen-btn:hover { color: var(--color-action-on-subtle); } .listen-btn:hover::before { background: var(--color-action-subtle); border-color: var(--color-action); } }
 
 .listen-btn:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 2px; }
 .listen-btn:disabled { opacity: var(--opacity-55); cursor: not-allowed; }
 
-.feedback-result { font-size: var(--text-body-lg); font-weight: var(--weight-medium); margin-bottom: var(--space-2); }
+.feedback-result { display: flex; align-items: center; gap: var(--space-1-5); font-size: var(--text-body); font-weight: var(--weight-semibold); line-height: var(--text-body-leading); margin-bottom: var(--space-1); }
+.feedback-result .icon { width: var(--icon-sm); height: var(--icon-sm); flex-shrink: 0; }
 
 .feedback-result.correct { color: var(--feedback-correct-text); }
 
 .feedback-result.incorrect { color: var(--feedback-error-text); }
 
-#exercise-area .action-row > .btn { flex: 1; padding: var(--offset-sm); margin-top: 0; animation: fadeInScale var(--duration-base) var(--transition-emphasis) both; }
+#exercise-area .action-row > .btn { flex: 1; padding: 0 var(--offset-sm); margin-top: 0; animation: fadeInScale var(--duration-base) var(--transition-emphasis) both; }
 
 #topic-picker { width: 100%; }
 
@@ -1300,12 +1332,103 @@ width: 100%;
 /* ── Consolidado en F3-B ────────────────────────────────────────────────
    Definicion unica de componentes que estaban duplicados con deriva en las
    paginas de actividad. La version canonica es la mayoritaria. */
-#exercise-area { width: 100%; max-width: var(--max-w); display: flex; flex-direction: column; align-items: center; gap: 0; }
+/* Tres zonas: la barra de sesion queda a una distancia fija del header, las
+   acciones a una distancia fija del footer y el contenido se centra entre
+   ambas. Los dos margenes automaticos reparten el aire sobrante por igual. */
+#exercise-area { width: 100%; max-width: var(--max-w); flex: 1; display: flex; flex-direction: column; align-items: center; gap: 0; }
+
+#exercise-area > .session-progress-bar + *,
+#quiz-content > .session-progress-bar + * { margin-top: auto; }
+#exercise-area > #action-row,
+#quiz-content > #action-row { margin-top: auto; }
+
+/* Con el resultado visible los margenes automaticos pueden quedar a 0. El aire
+   superior es siempre un minimo; el inferior se suma al padding de la pagina
+   solo en ventanas bajas, donde ese padding se acorta. */
+#exercise-area:has(#action-row > .btn:not(.hidden)) > .session-progress-bar + .page-header__title,
+#quiz-content:has(#action-row > .btn:not(.hidden)) > .session-progress-bar + .page-header__title {
+  padding-top: var(--space-6);
+}
+@media (max-height: 860px) {
+  #exercise-area:has(#action-row > .btn:not(.hidden)) > .session-progress-bar + .page-header__title,
+  #quiz-content:has(#action-row > .btn:not(.hidden)) > .session-progress-bar + .page-header__title {
+    padding-top: var(--space-5);
+  }
+  #exercise-area:has(#action-row > .btn:not(.hidden)) > #action-row,
+  #quiz-content:has(#action-row > .btn:not(.hidden)) > #action-row {
+    margin-bottom: var(--space-3);
+  }
+}
+@media (max-height: 800px) {
+  #exercise-area:has(#action-row > .btn:not(.hidden)) > .session-progress-bar + .page-header__title,
+  #quiz-content:has(#action-row > .btn:not(.hidden)) > .session-progress-bar + .page-header__title {
+    padding-top: var(--space-7);
+  }
+}
+
+/* El indice de frases y el ejercicio comparten relleno: la fila de atras
+   queda a la misma distancia del header en las ocho pantallas. */
+@media (min-width: 641px) {
+  main:has(> #exercise-area:not(.hidden)),
+  main:has(> #quiz-content:not(.hidden)),
+  main:has(> #vocab-content:not(.hidden)),
+  main:has(> #pb-section),
+  main:has(> #screen-rules:not(.hidden)),
+  main:has(> #screen-exercise:not(.hidden)) { padding-block: var(--space-8); }
+}
+/* Ventanas bajas: el relleno se acorta para que el contenido quepa sin scroll.
+   Solo con el ejercicio abierto: el indice de temas conserva su relleno. */
+@media (max-height: 860px) {
+  main:has(> #exercise-area:not(.hidden)),
+  main:has(> #quiz-content:not(.hidden)),
+  main:has(> #vocab-content:not(.hidden)),
+  main:has(> #pb-section),
+  main:has(> #screen-rules:not(.hidden)),
+  main:has(> #screen-exercise:not(.hidden)) { padding-block: var(--space-6); }
+}
+
+/* Densidad compacta estandar para cualquier ejercicio con la ventana a 800 px
+   o menos: mismo recorte de aire en las ocho actividades, sin reglas por pagina. */
+@media (max-height: 800px) {
+  main:has(> #exercise-area:not(.hidden)),
+  main:has(> #quiz-content:not(.hidden)),
+  main:has(> #vocab-content:not(.hidden)),
+  main:has(> #screen-rules:not(.hidden)),
+  main:has(> #screen-exercise:not(.hidden)) {
+    padding-block: var(--space-4);
+  }
+  main:has(> #exercise-area:not(.hidden)) .session-info-bar,
+  main:has(> #quiz-content:not(.hidden)) .session-info-bar,
+  main:has(> #vocab-content:not(.hidden)) .session-info-bar,
+  main:has(> #screen-rules:not(.hidden)) .session-info-bar,
+  main:has(> #screen-exercise:not(.hidden)) .session-info-bar {
+    margin-bottom: var(--space-2);
+  }
+  main:has(> #exercise-area:not(.hidden)) .session-progress-bar,
+  main:has(> #quiz-content:not(.hidden)) .session-progress-bar,
+  main:has(> #vocab-content:not(.hidden)) .session-progress-bar,
+  main:has(> #screen-rules:not(.hidden)) .session-progress-bar,
+  main:has(> #screen-exercise:not(.hidden)) .session-progress-bar {
+    margin-bottom: 0;
+  }
+  main:has(> #exercise-area:not(.hidden)) .page-header__title,
+  main:has(> #quiz-content:not(.hidden)) .page-header__title,
+  main:has(> #vocab-content:not(.hidden)) .page-header__title,
+  main:has(> #screen-rules:not(.hidden)) .page-header__title,
+  main:has(> #screen-exercise:not(.hidden)) .page-header__title {
+    margin-bottom: 0;
+  }
+}
+
+/* 683x384 (1/4 de pantalla dividida) no es un viewport soportado: no hay
+   modo compacto; el scroll vertical es la salida. No añadir reglas específicas. */
 
 /* En ultrapanorámica la superficie de ejercicio no se estira: un campo de 800 px
    no se lee mejor que uno de 720. Los índices y paneles sí usan el ancho extra. */
 @media (min-width: 1920px) {
-  #exercise-area { max-width: var(--content-narrow); }
+  #exercise-area,
+  #quiz-content,
+  #screen-exercise { max-width: var(--content-narrow); }
 }
 
 #exercise-area .action-row { display: flex; gap: var(--space-3); width: 100%; }
@@ -1313,8 +1436,10 @@ width: 100%;
 .phrase-card { width: 100%; background: var(--color-surface); border: 1px solid var(--color-border); border-inline-start: 1px solid var(--color-border);border-radius: var(--radius-xl); padding: var(--space-8) var(--space-7); text-align: center; margin-bottom: var(--space-4); box-shadow: var(--shadow-xs); opacity: 0; animation: fadeInScale var(--duration-base) var(--transition-emphasis) both; transition: border-inline-start-color var(--transition), box-shadow var(--transition); }
 
 .post-feedback-row { display: flex; align-items: center; justify-content: center; gap: var(--offset-4xs); flex-wrap: wrap; margin: 0; }
+/* La fila solo separa cuando tiene algo visible: vacia, el margen duplicaria el hueco. */
+.post-feedback-row:has(.listen-btn:not(.hidden), .grammar-chip-wrap:not(.hidden)) { margin-bottom: var(--space-4); }
 
-.stat-label { font-size: var(--text-label); color: var(--color-text-muted); font-weight: var(--weight-semibold); letter-spacing: var(--text-label-tracking); }
+.stat-label { font-size: var(--text-label); line-height: var(--text-label-leading); color: var(--color-text-muted); font-weight: var(--weight-semibold); letter-spacing: var(--text-label-tracking); }
 
 /* F3-B */
 @media (max-width: 480px) {
@@ -1339,6 +1464,7 @@ width: 100%;
 }
 .icon--brand { fill: currentColor; stroke: none; }
 .icon--sm { width: var(--icon-sm); height: var(--icon-sm); }
+.icon--xs { width: var(--icon-xs); height: var(--icon-xs); }
 .icon--lg { width: var(--icon-lg); height: var(--icon-lg); }
 .icon--xl { width: var(--icon-xl); height: var(--icon-xl); }
 
@@ -1354,7 +1480,6 @@ width: 100%;
 .ex-grid-th .icon,
 .milestone-badge__icon .icon { width: 1em; height: 1em; }
 
-.ob-close .icon,
 .path-node__bubble .icon,
 .path-session-complete__icon .icon { width: 1em; height: 1em; }
 
@@ -1392,59 +1517,168 @@ width: 100%;
   margin-inline: auto;
 }
 
-/* Boton. Variantes de color x tamanos. */
+/* Encabezado de sección de página (portada): mismo rol en toda la app. */
+.section-heading {
+  font-size: var(--text-headline);
+  font-weight: var(--text-headline-weight);
+  line-height: var(--text-headline-leading);
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+}
+.section-subheading {
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+  line-height: var(--text-body-leading);
+  color: var(--color-text-muted);
+}
+
+/* Título de sección dentro de una tarjeta: 20/500 con hairline al centro óptico. */
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: var(--text-title);
+  font-weight: var(--weight-medium);
+  line-height: var(--text-title-leading);
+  color: var(--color-text);
+  margin-bottom: var(--space-5);
+}
+h2.section-title::after {
+  content: '';
+  flex: 1;
+  block-size: 1px;
+  background: var(--color-border);
+}
+.section-title--tight { margin-bottom: var(--offset-4xs); }
+@media (max-width: 480px) {
+  h2.section-title::after { display: none; }
+}
+
+/* Título de pantalla terminal (resultado, ejercicio completado). */
+.screen-title {
+  font-size: var(--text-headline);
+  font-weight: var(--text-headline-weight);
+  line-height: var(--text-headline-leading);
+}
+
+/* Título de paso en un diálogo/onboarding. */
+.dialog-title {
+  font-size: var(--text-title);
+  font-weight: var(--weight-semibold);
+  line-height: var(--text-title-leading);
+}
+
+/* Subtítulo de una sección de tarjeta. */
+.section-subtitle {
+  max-width: var(--measure);
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+  line-height: var(--text-body-leading);
+  color: var(--color-text-muted);
+  margin-top: calc(-1 * var(--space-3));
+  margin-bottom: var(--space-3);
+}
+
+/* ---- Exercise surface type ----
+   Todos los ejercicios comparten estos dos roles: el enunciado que se
+   practica (headline 30.4/500) y su traduccion o pista (body-lg 16/400). */
+.exercise-prompt {
+  font-size: var(--text-headline);
+  font-weight: var(--weight-medium);
+  line-height: var(--text-headline-leading);
+  color: var(--color-text);
+}
+.exercise-sub {
+  font-size: var(--text-body-lg);
+  font-weight: var(--weight-regular);
+  line-height: var(--text-body-lg-leading);
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+@media (max-width: 480px) {
+  .exercise-prompt { font-size: var(--text-title); line-height: var(--text-title-leading); }
+}
+
+/* Boton. Un solo tamano: objetivo tactil de 44 px, superficie visible de 36.
+   La superficie vive en ::before para reducir el alto aparente sin perder el
+   area pulsable, igual que las capsulas de Temas (DP-04). */
 .btn {
+  position: relative;
+  isolation: isolate;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: var(--space-2);
   min-height: var(--control-h);
-  padding: var(--space-3) var(--space-8);
+  padding: 0 var(--space-5);
   font-family: var(--font-family-base);
-  font-size: var(--text-body-lg);
+  font-size: var(--text-body);
   font-weight: var(--weight-medium);
-  line-height: var(--text-body-lg-leading);
-  border: 2px solid transparent;
+  line-height: var(--text-body-leading);
+  color: var(--color-text);
+  background: transparent;
+  border: 0;
   border-radius: var(--radius-md);
   cursor: pointer;
   white-space: nowrap;
   text-decoration: none;
-  transition: background var(--duration-base) var(--easing-standard),
-              border-color var(--duration-base) var(--easing-standard),
-              color var(--duration-base) var(--easing-standard),
+  transition: color var(--duration-base) var(--easing-standard),
               transform var(--duration-base) var(--easing-standard);
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  inset: var(--space-1) 0;
+  z-index: var(--z-below);
+  border: 2px solid transparent;
+  border-radius: var(--radius-md);
+  background: transparent;
+  transition: background var(--duration-base) var(--easing-standard),
+              border-color var(--duration-base) var(--easing-standard);
 }
 .btn:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 2px; }
 .btn:active:not(:disabled) { transform: translateY(1px); }
 .btn:disabled { opacity: var(--opacity-50); cursor: not-allowed; }
+.btn[hidden] { display: none; }
 
-.btn--primary { background: var(--color-action); color: var(--color-on-action); }
-@media (hover: hover) and (pointer: fine) { .btn--primary:hover:not(:disabled) { background: var(--color-action-hover); } }
-
-
-.btn--check { background: var(--color-action); color: var(--color-on-action); }
-@media (hover: hover) and (pointer: fine) { .btn--check:hover:not(:disabled) { background: var(--color-action-hover); transform: scale(1.03); } }
+.btn--primary { color: var(--color-on-action); }
+.btn--primary::before { background: var(--color-action); }
+@media (hover: hover) and (pointer: fine) { .btn--primary:hover:not(:disabled)::before { background: var(--color-action-hover); } }
 
 
-.btn--secondary {
-  background: var(--color-surface);
-  color: var(--color-text-muted);
-  border-color: var(--color-border);
-}
-@media (hover: hover) and (pointer: fine) { .btn--secondary:hover:not(:disabled) { background: var(--color-surface-alt); border-color: var(--color-border-strong); } }
+.btn--check { color: var(--color-on-action); }
+.btn--check::before { background: var(--color-action); }
+@media (hover: hover) and (pointer: fine) { .btn--check:hover:not(:disabled) { transform: scale(1.03); } .btn--check:hover:not(:disabled)::before { background: var(--color-action-hover); } }
 
 
-.btn--ghost { background: transparent; color: var(--color-text-muted); }
-.btn--path { background: var(--color-category-path); color: var(--color-on-action); }
-@media (hover: hover) and (pointer: fine) { .btn--path:hover:not(:disabled) { background: var(--color-category-path-strong); } }
-
-@media (hover: hover) and (pointer: fine) { .btn--ghost:hover:not(:disabled) { background: var(--color-surface-alt); } }
-
-.btn--danger { background: var(--color-danger); color: var(--color-on-action); }
-@media (hover: hover) and (pointer: fine) { .btn--danger:hover:not(:disabled) { background: var(--color-danger); filter: brightness(1.1); } }
+.btn--secondary { color: var(--color-text-muted); }
+.btn--secondary::before { background: var(--color-surface); border-color: var(--color-border); }
+@media (hover: hover) and (pointer: fine) { .btn--secondary:hover:not(:disabled)::before { background: var(--color-surface-alt); border-color: var(--color-border-strong); } }
 
 
-.btn--sm { padding: var(--space-2) var(--space-4); font-size: var(--text-body); }
+.btn--ghost { color: var(--color-text-muted); }
+.btn--path { color: var(--color-on-action); }
+.btn--path::before { background: var(--color-category-path); }
+@media (hover: hover) and (pointer: fine) { .btn--path:hover:not(:disabled)::before { background: var(--color-category-path-strong); } }
+
+@media (hover: hover) and (pointer: fine) { .btn--ghost:hover:not(:disabled)::before { background: var(--color-surface-alt); } }
+
+.btn--danger { color: var(--color-on-action); }
+.btn--danger::before { background: var(--color-danger); }
+@media (hover: hover) and (pointer: fine) { .btn--danger:hover:not(:disabled) { filter: brightness(1.1); } }
+
+/* Semantica de accion: avanzar (verde) y reintentar (ambar). Asi las dos
+   filas de un ejercicio no repiten el mismo par azul/neutro. */
+.btn--next { color: var(--color-on-action); }
+.btn--next::before { background: var(--color-success-strong); border-color: var(--color-success-strong); }
+@media (hover: hover) and (pointer: fine) { .btn--next:hover:not(:disabled) { filter: brightness(1.08); } }
+
+.btn--retry { color: var(--color-warning-strong); }
+.btn--retry::before { background: var(--color-surface); border-color: var(--color-warning); }
+@media (hover: hover) and (pointer: fine) { .btn--retry:hover:not(:disabled)::before { background: var(--color-warning-bg); border-color: var(--color-warning-strong); } }
+
+
+.btn--sm { padding: 0 var(--space-3); font-size: var(--text-label); line-height: var(--text-label-leading); }
 .btn--block { width: 100%; }
 
 /* Boton solo-icono. Objetivo tactil de 32px; exige aria-label. */
@@ -1465,16 +1699,6 @@ width: 100%;
   cursor: pointer;
 }
 @media (hover: hover) and (pointer: fine) { .icon-btn:hover { background: var(--color-surface-alt); } }
-
-.icon-btn--overlay {
-  width: var(--space-8);
-  height: var(--space-8);
-  border-color: transparent;
-  border-radius: 50%;
-  background: color-mix(in srgb, black 6%, transparent);
-}
-@media (hover: hover) and (pointer: fine) { .icon-btn--overlay:hover { background: color-mix(in srgb, black 10%, transparent); } }
-
 
 .icon-btn:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 2px; }
 .icon-btn:active { transform: scale(0.94); }
@@ -1498,6 +1722,10 @@ width: 100%;
   background: var(--color-danger-subtle);
   border-color: var(--color-danger);
   color: var(--color-danger);
+}
+/* On small screens a banner nested in a section card drops its own surface. */
+@media (max-width: 640px) {
+  .banner--flush { background: transparent; border: 0; padding-inline: 0; }
 }
 
 /* Pantalla terminal de una sesion de la Ruta de Aprendizaje. */
@@ -1561,6 +1789,12 @@ width: 100%;
   cursor: pointer;
 }
 
+/* En ultrapanoramica las descripciones cortas dejaban tarjetas de 144 frente a
+   165: una altura comun mantiene la rejilla regular (auditoria 8 nov 2026). */
+@media (min-width: 1920px) {
+  .card--feature { min-height: calc(var(--space-16) * 2 + var(--space-10)); }
+}
+
 @media (hover: hover) and (pointer: fine) {
   .card--feature:hover {
   box-shadow: var(--shadow-md);
@@ -1575,15 +1809,20 @@ width: 100%;
   gap: var(--space-2);
   font-size: var(--text-body-lg);
   font-weight: var(--weight-semibold);
+  line-height: var(--text-body-lg-leading);
   color: var(--color-text);
 }
-.card__title .icon { color: var(--color-action); flex-shrink: 0; }
+.card__title .icon { color: var(--activity-clr, var(--color-action)); flex-shrink: 0; }
 
 .card--feature p {
   font-size: var(--text-body);
   color: var(--color-text-muted);
-  font-weight: var(--weight-medium);
+  font-weight: var(--weight-regular);
   line-height: var(--text-body-leading);
+}
+.card--feature p strong {
+  color: var(--color-text);
+  font-weight: var(--weight-semibold);
 }
 
 /* Etiqueta compacta. */
@@ -1614,22 +1853,78 @@ width: 100%;
   border: 2px solid var(--color-border);
   border-radius: var(--radius-md);
 }
+/* Inputs de una linea: mismo alto que los botones (44), sin relleno vertical.
+   La superficie visible tambien coincide: 4 px de borde transparente dejan el
+   campo en 36, como el ::before de .btn, y el borde real es el box-shadow
+   interior. Los textareas conservan el padding normal porque no llevan esta regla. */
+input.field__input {
+  height: var(--control-h);
+  padding-block: 0;
+  /* Misma letra que el boton de al lado: el campo no es un titular. */
+  font-size: var(--text-body);
+  line-height: var(--text-body-leading);
+  border: var(--space-1) solid transparent;
+  border-radius: calc(var(--radius-md) + var(--space-1));
+  background-clip: padding-box;
+  box-shadow: var(--shadow-field);
+}
+/* Los textareas son cuerpo, no titulares: misma letra que los campos de una linea. */
+textarea.field__input {
+  font-size: var(--text-body);
+  line-height: var(--text-body-leading);
+}
+/* El foco lo marca el anillo exterior de `.field__input:focus-visible`: el
+   borde interior se queda como en reposo para no dibujar dos aros azules. */
+input.field__input:focus-visible {
+  border-color: transparent;
+  box-shadow: var(--shadow-field);
+  /* El aro pega al campo visible: con el offset por defecto quedaba a 6 px
+     del borde y parecia un segundo marco. */
+  outline-offset: calc(-1 * var(--space-1));
+}
+input.field__input--inline {
+  box-sizing: border-box;
+  height: var(--space-8);
+  padding: 0 var(--space-2);
+  /* El hueco va dentro de una frase: misma letra que el resto de campos. */
+  font-size: var(--text-body);
+  line-height: var(--text-body-leading);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background-clip: border-box;
+  box-shadow: none;
+}
 .field__input::placeholder { color: var(--color-text-muted); }
 .field__input:focus-visible {
   outline: 3px solid var(--color-focus);
   outline-offset: 2px;
   border-color: var(--color-action);
 }
+/* Textareas: un solo anillo. El borde se vuelve transparente y el foco se
+   dibuja encima, sin el borde azul interior que hacia doble marco. */
+textarea.field__input:focus-visible {
+  border-color: transparent;
+  outline: 3px solid var(--color-focus);
+  outline-offset: calc(-1 * var(--space-1));
+}
 .field__input:disabled { opacity: var(--opacity-60); cursor: not-allowed; }
-/* Hueco de relleno dentro de una frase: mismo campo, tamano reducido. */
+/* Hueco de relleno dentro de una frase. Ancho fijo: si midiera lo que mide la
+   respuesta, el tamaño del campo delataria cuantas letras tiene. 192 px cubre
+   la respuesta mas larga del contenido (22 caracteres a 16 px). */
 .field__input--inline {
   display: inline-block;
-  width: auto;
+  width: calc(var(--space-16) * 3);
   flex: 0 0 auto;
   padding: var(--space-1) var(--space-2);
 }
 /* Variante sobre superficie hundida. */
 .field__input--alt { background: var(--color-surface-alt); }
+/* En tactil todos los campos vuelven a 16: iOS amplia la pagina al enfocar uno menor. */
+@media (pointer: coarse), (max-width: 640px) {
+  input.field__input,
+  input.field__input--inline,
+  textarea.field__input { font-size: var(--text-body-lg); line-height: var(--text-body-lg-leading); }
+}
 
 /* --- Dialog, Toast, Table, ProgressBar, ChoiceList (F7b) -------------------
    Las cinco piezas que faltaban de la capa canonica. Aditivas: ninguna pagina
@@ -1679,6 +1974,8 @@ width: 100%;
 /* Tira de estado de modelos (descarga de voz y de reconocimiento). Va en el flujo,
    bajo la barra de sesión: una línea por modelo, sin tapar controles ni feedback. */
 .model-strip {
+  opacity: 0;
+  animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
@@ -1743,6 +2040,8 @@ width: 100%;
   transform: scaleX(0);
   transition: transform var(--duration-slow) var(--easing-standard);
 }
+/* Variante de acierto: el relleno mide lo correcto, no una accion. */
+.progress-bar--success .progress-bar__fill { background: var(--color-success); }
 .choice {
   display: flex;
   flex-direction: column;
@@ -1762,36 +2061,30 @@ width: 100%;
 
 .choice:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 2px; }
 .choice:disabled, .choice[aria-disabled="true"] { opacity: var(--opacity-50); cursor: not-allowed; transform: none; }
-.choice--row {
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: var(--space-2);
-  padding: var(--space-3) var(--space-4);
-  border-radius: var(--radius-md);
-  text-align: start;
-}
-/* Selector de par: la tarjeta interior es concéntrica con el diálogo (24 − 12 = 12, DP-06). */
-.lp-picker-card {
-  font-size: var(--text-body-lg);
-  font-family: inherit;
-  color: var(--color-text);
-  border-radius: var(--radius-lg);
-}
-@media (hover: hover) and (pointer: fine) {
-  .lp-picker-card:hover {
-    border-color: var(--color-action);
-    box-shadow: var(--shadow-sm);
-  }
+/* Dense choice for tight grids (language-pair cards): keeps the shared
+   focus/hover/selected states but halves the vertical padding. */
+.choice--compact {
+  padding: var(--space-3) var(--space-2);
+  gap: var(--space-1-5);
 }
 .choice--selected {
   border-color: var(--color-action-on-subtle);
   background: var(--color-action-subtle);
 }
 
+/* Perfil movil: el par activo manda y la lista se abre con #lang-pair-toggle.
+   Vive en la capa components porque .choice fija display:flex aqui. */
+@media (max-width: 640px) {
+  #lang-pair-grid:not(.lang-pair-grid--open) .lp-card:not(.choice--selected) { display: none; }
+}
+
 /* ---- Componente: ficha de palabra (secuencia) ---- */
 .word-tile {
-  padding: var(--space-1) var(--space-3);
-  min-height: var(--space-8);
+  display: inline-flex;
+  align-items: center;
+  line-height: var(--text-body-leading);
+  padding: 0 var(--space-3);
+  min-height: var(--space-7);
   box-sizing: border-box;
   font-family: var(--font-family-base);
   font-size: var(--text-body);
@@ -1869,7 +2162,7 @@ width: 100%;
 .nav-item::before {
   content: "";
   position: absolute;
-  inset: var(--space-1);
+  inset: var(--space-1-5);
   border-radius: var(--radius-full);
   background: transparent;
   z-index: var(--z-below);
@@ -1925,16 +2218,6 @@ width: 100%;
 .option--wrong   { border-color: var(--color-danger);  background: var(--color-danger-subtle);  color: var(--color-danger-strong); }
 .option--chosen  { border-color: var(--color-action-on-subtle);  background: var(--color-action-subtle); }
 
-/* Beneficio de tarjeta: linea destacada bajo el titulo. */
-.card__benefit  {
-  display: block;
-  font-size: var(--text-label);
-  font-weight: var(--weight-medium);
-  color: var(--color-action);
-  letter-spacing: var(--text-label-tracking);
-  line-height: var(--text-label-leading);
-}
-
 /* Auto-evaluacion de la regla: facil, correcta, dificil. */
 .pill--easy {
   background: var(--color-success-subtle);
@@ -1960,29 +2243,21 @@ width: 100%;
 @media (hover: hover) and (pointer: fine) { .ob-step > .btn--ghost:hover { color: var(--color-text); } }
 
 
-.ob-bubble .icon { width: 1em; height: 1em; color: var(--color-text-muted); margin-inline-end: var(--space-1); vertical-align: -2px; }
-
 .result-icon .icon { width: 1em; height: 1em; }
 
 .result-suggestion__icon .icon { width: 1em; height: 1em; }
 
 .ex-grid-topic-emoji .icon { width: var(--offset-sm); height: var(--offset-sm); color: var(--color-text-muted); }
 
-.speaking-feedback .feedback-result { font-size: var(--text-body-lg); font-weight: var(--weight-medium); margin: 0; }
+.speaking-feedback .feedback-result { margin: 0; }
 
 .speaking-feedback .feedback-result.not-understood { color: var(--color-warning-strong); margin-bottom: 0; }
 
 .word-text--variants .word-variants { align-items: center; }
 
-.session-info-bar--grid {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
-}
-
 .action-row--quiz > .btn {
   flex: 1;
-  padding: var(--space-3) var(--space-4);
+  padding: 0 var(--space-4);
   margin-top: 0;
   animation: fadeInScale var(--duration-base) var(--transition-emphasis) both;
 }
@@ -2027,9 +2302,11 @@ width: 100%;
   box-shadow: var(--shadow-lg);
 }
 
+.related-practice-btn { border-radius: var(--radius-full); }
+.related-practice-btn::before { border-radius: var(--radius-full); }
 .related-practice-btn:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 2px; }
 
-.btn--switch { border-radius: var(--radius-full); }
+
 
 .chip {
   padding: var(--space-2) var(--space-3);
@@ -2049,6 +2326,70 @@ width: 100%;
 .chip:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 2px; }
 .chip--on { background: var(--color-action); border-color: var(--color-action); color: var(--color-on-action); transform: scale(1.04); }
 .chip--on .icon { color: var(--color-on-action); }
+
+/* ---- Capsula de tema (Mi Perfil y onboarding) -----------------------------
+   El mismo componente en las dos superficies: capsula visible de 32 px dentro
+   de un objetivo tactil de 44, icono de 16 y etiqueta 12/500 en una linea. */
+.prog-bubbles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Sin hueco de fila: los 6 px invisibles de arriba/abajo de cada capsula
+     ya dejan 12 px entre superficies; con 8 extra la fila se veia suelta. */
+  gap: 0 var(--space-2);
+}
+
+.prog-bubble {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1-5);
+  padding: 0 var(--space-3);
+  min-height: var(--control-h);
+  border: 0;
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--color-text);
+  font-family: var(--font-family-base);
+  font-size: var(--text-label);
+  font-weight: var(--weight-medium);
+  line-height: var(--text-label-leading);
+  cursor: pointer;
+  transition: color var(--duration-fast);
+}
+
+.prog-bubble::before {
+  content: '';
+  position: absolute;
+  inset: var(--space-1-5) 0;
+  z-index: var(--z-below);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-surface);
+  transition: background var(--duration-fast), border-color var(--duration-fast);
+}
+
+.prog-bubble-icon {
+  display: inline-flex;
+  color: var(--color-action);
+}
+.prog-bubble-icon .icon {
+  width: var(--icon-sm);
+  height: var(--icon-sm);
+}
+.prog-bubble-label { white-space: nowrap; }
+
+@media (hover: hover) and (pointer: fine) { .prog-bubble:hover::before { border-color: var(--color-action); } }
+
+.prog-bubble--on {
+  color: var(--color-on-action);
+}
+.prog-bubble--on::before {
+  background: var(--color-action);
+  border-color: var(--color-action);
+}
+.prog-bubble--on .prog-bubble-icon { color: var(--color-on-action); }
 
 .segmented { display: inline-flex; gap: var(--space-1); }
 .segmented__item {
@@ -2079,9 +2420,7 @@ width: 100%;
 /* Contenedores interactivos: un solo anillo de foco. */
 .card--interactive:focus-visible,
 .img-topic-card:focus-visible,
-.category-card:focus-visible,
-.lp-card:focus-visible,
-.lp-picker-card:focus-visible {
+.lp-card:focus-visible {
   outline: 3px solid var(--color-focus);
   outline-offset: 2px;
 }
@@ -2093,7 +2432,7 @@ width: 100%;
   align-items: center;
   justify-content: center;
   gap: var(--space-2);
-  padding: var(--space-1) var(--space-4);
+  padding: 0 var(--space-4);
   min-height: var(--control-h);
   font-size: var(--text-body);
   font-weight: var(--weight-semibold);
@@ -2103,9 +2442,6 @@ width: 100%;
   flex-shrink: 0;
 }
 .path-cta__arrow { width: var(--icon-sm); height: var(--icon-sm); }
-@media (hover: hover) and (pointer: fine) {
-  .path-cta__btn:hover { background: var(--color-category-path-strong); }
-}
 
 .path-scroll-btn {
   position: relative;
@@ -2138,4 +2474,23 @@ width: 100%;
 @media (hover: hover) and (pointer: fine) {
   .path-scroll-btn:hover { color: var(--color-on-action); }
   .path-scroll-btn:hover::before { background: var(--color-action); }
+}
+
+/* ---- Ventanas de 540 px de alto: modo compacto (auditoria 8 nov 2026) ----
+   El header de logo, el footer y el subtitulo de instruccion son prescindibles
+   en un cuarto de pantalla; el ejercicio y sus acciones se quedan. */
+@media (max-height: 600px) {
+  :root { --header-h: var(--control-h); }
+  header { height: var(--header-h); }
+  header img { height: var(--icon-lg); }
+  .mode-switcher { padding-block: var(--space-1); }
+  footer { display: none; }
+  .model-strip { display: none; }
+  .page-header__sub { display: none; }
+  main:has(> #exercise-area:not(.hidden)),
+  main:has(> #quiz-content:not(.hidden)),
+  main:has(> #vocab-content:not(.hidden)),
+  main:has(> #pb-section),
+  main:has(> #screen-rules:not(.hidden)),
+  main:has(> #screen-exercise:not(.hidden)) { padding-block: var(--space-3); }
 }

@@ -51,12 +51,17 @@ const _LEVEL_SUGGESTIONS = {
   ],
 };
 
+function _pairParams() {
+  var p = AppLangPair.getActive();
+  return { target: p.target.localName, targetName: p.target.name, source: p.source.localName, sourceName: p.source.name };
+}
+
 function _getLevelConfig(level) {
   var lk = level.toLowerCase();
   return {
     label:   AppLang.t('placement_result_' + lk + '_label'),
     icon: _LEVEL_ICONS[level],
-    message: AppLang.t('placement_result_' + lk + '_msg', _plParams),
+    message: AppLang.t('placement_result_' + lk + '_msg', _pairParams()),
     suggestions: (_LEVEL_SUGGESTIONS[level] || []).map(function (s) {
       return { icon: s.icon, label: AppLang.t(s.labelKey), url: s.url };
     }),
@@ -85,8 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (AppLangPair.getActive().source.code !== 'es' &&
       typeof AppLang !== 'undefined') {
-    const _plPair = AppLangPair.getActive();
-    const _plParams = { target: _plPair.target.localName, targetName: _plPair.target.name, source: _plPair.source.localName, sourceName: _plPair.source.name };
+    const _plParams = _pairParams();
     const _t = key => { const v = AppLang.t(key, _plParams); return v !== key ? v : null; };
     const _s = (sel, key) => { const el = document.querySelector(sel); const v = _t(key); if (el && v) el.textContent = v; };
     const _i = (id,  key) => { const el = document.getElementById(id);  const v = _t(key); if (el && v) el.textContent = v; };
@@ -212,7 +216,8 @@ function showResults() {
 
   emojiEl.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#' + config.icon + '"/></svg>';
 
-  levelEl.textContent  = config.label;
+  levelEl.innerHTML = '<span class="cefr-badge cefr-badge--' + level.toLowerCase() + '">' + level + '</span>' +
+    '<span class="result-level-text">' + config.label + '</span>';
   const _isEnSrc = AppLangPair.getActive().source.code === 'en';
   scoreEl.textContent  = score + ' / ' + QUESTIONS.length + AppLang.t('placement_score_suffix');
   msgEl.textContent    = config.message;

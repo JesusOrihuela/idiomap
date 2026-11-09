@@ -9,7 +9,9 @@
    column via the child cap below. */
 .ml-page {
   padding-block: var(--page-pad-block);
-  gap: var(--section-gap);
+  /* La tarjeta de sesion y su ruta forman un bloque: mismo aire arriba que
+     entre la tarjeta y las pildoras (24), no 36/16. */
+  gap: var(--space-6);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,18 +23,15 @@
 
 /* ── Header ── */
 .ml-header {
+  position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--space-3);
+  justify-content: center;
+  text-align: center;
+  gap: var(--space-2);
 }
-
-.ml-header h1 {
-  font-size: var(--text-numeric);
-  font-weight: var(--weight-semibold);
-  color: var(--color-text);
-  line-height: var(--text-numeric-leading);
-}
+.ml-header .page-header__sub { margin: 0; }
 
 .ml-header h1 span {
   color: var(--color-action);
@@ -42,11 +41,17 @@
 .ml-streak:empty { display: none; }
 
 .ml-streak {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--space-8);
+  position: absolute;
+  top: 0;
+  inset-inline-end: 0;
   font-size: var(--text-body);
   font-weight: var(--weight-medium);
   color: var(--color-accent-strong);
   background: var(--color-accent-subtle);
-  padding: var(--space-1) var(--space-3);
+  padding: 0 var(--space-3);
   border-radius: var(--radius-full);
   white-space: nowrap;
   flex-shrink: 0;
@@ -125,7 +130,7 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .ml-cta__btn:hover {
+  .ml-cta__btn:hover::before {
   background: var(--color-category-path-strong);
   }
 }
@@ -143,33 +148,24 @@
 .ml-trail-section {
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
-}
-
-.ml-section-title {
-  font-size: var(--text-body-lg);
-  font-weight: var(--weight-medium);
-  color: var(--color-text-muted);
-  letter-spacing: var(--text-label-tracking);
+  gap: var(--space-6);
 }
 
 .ml-trail-wrap { width: 100%; }
 
-/* ── Trail: diagonal zigzag ──
-   One step per row, alternating columns: every connector is a diagonal, so the
-   stroke never crosses the topic pill above the bubble nor the label and the
-   Nuevo/Repasar chip below it. The step is shorter than the node, so the path
-   stays compact; nodes of the same column end up two steps apart. */
+/* ── Trail: serpentine grid ──
+   The session fills the width in rows of steps; the column count comes from JS
+   (--cols: 1-6, one step never narrower than ~170 px). Rows read in opposite
+   directions and the connector turns at the outer edge, outside the topic pills
+   and state chips, so no stroke crosses them. */
 .ml-trail {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  grid-auto-rows: calc(var(--space-20) - var(--space-2));
+  grid-template-columns: repeat(var(--cols, 5), minmax(0, 1fr));
+  /* 40 px entre filas: el chip de estado de una fila y la píldora de tema de la
+     siguiente no deben leerse como un bloque. */
+  gap: var(--space-10) var(--space-2);
   width: 100%;
-  max-width: var(--content-narrow);
-  margin-inline: auto;
-  /* The last node overflows its row (pill + bubble + label + chip). */
-  padding-bottom: var(--space-15);
 }
 
 /* SVG connectors: one overlay for the whole trail, drawn from circle edge to
@@ -200,13 +196,20 @@
   align-items: center;
   gap: var(--space-1-5);
   min-width: 0;
+  /* Zona del pin de tema reservada en todos los nodos: solo se pinta cuando
+     cambia el tema, pero las burbujas siguen alineadas. */
+  padding-top: var(--space-8);
   /* Always render above connectors so the bubble is never obscured */
   z-index: 1;
 }
 
-/* Topic pin — full name on the first step of each topic; the repeats keep the
-   same slot so the bubbles stay aligned. */
+/* Pin de tema — solo en el primer nodo de cada grupo. */
 .ml-snode__topic {
+  position: absolute;
+  top: 0;
+  inset-inline-start: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
   font-size: var(--text-label);
   font-weight: var(--weight-medium);
   color: var(--color-text-muted);
@@ -247,7 +250,7 @@
   cursor: pointer;
 }
 @media (hover: hover) and (pointer: fine) {
-  .ml-snode--done .ml-snode__bubble:hover { transform: scale(1.06); }
+  .ml-snode--done .ml-snode__bubble:hover { box-shadow: var(--shadow-hover); }
 }
 .ml-snode--active .ml-snode__bubble {
   background: var(--color-category-path);
@@ -256,7 +259,6 @@
   cursor: pointer;
   box-shadow: var(--shadow-path-ring);
 }
-@media (hover: hover) and (pointer: fine) { .ml-snode--active .ml-snode__bubble:hover { transform: scale(1.06); } }
 .ml-snode--pending .ml-snode__bubble { opacity: var(--opacity-45); }
 
 
@@ -273,6 +275,7 @@
 .ml-snode__label {
   font-size: var(--text-label);
   font-weight: var(--weight-medium);
+  line-height: var(--text-label-leading);
   color: var(--color-text-muted);
   text-align: center;
   letter-spacing: var(--text-label-tracking);
@@ -282,7 +285,8 @@
 .ml-snode--active .ml-snode__label { color: var(--color-category-path); font-weight: var(--weight-medium); }
 
 .ml-snode__new-badge,
-.ml-snode__review-badge {
+.ml-snode__review-badge,
+.ml-snode__done-badge {
   font-size: var(--text-label);
   font-weight: var(--weight-medium);
   border-radius: var(--radius-full);
@@ -301,6 +305,17 @@
   background: var(--color-warning-subtle);
 }
 
+.ml-snode__done-badge {
+  color: var(--color-success-strong);
+  background: var(--color-success-subtle);
+}
+
+/* A ≤400 px dos columnas miden 140-170 px: la píldora se ajusta a la celda y
+   los nombres más largos llevan elipsis (el completo está en el title). */
+@media (max-width: 400px) {
+  .ml-snode__topic { max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+}
+
 /* ── Responsive ── */
 @media (max-width: 480px) {
   .ml-page { padding: var(--space-6) var(--page-pad-x) var(--space-12); }
@@ -308,4 +323,9 @@
   /* La tarjeta de sesión apila texto y CTA: el botón deja de competir con el título. */
   .ml-cta__row { flex-direction: column; align-items: stretch; gap: var(--space-3); }
   .ml-cta__btn { width: 100%; text-align: center; }}
+}
+
+@media (max-width: 768px) {
+  /* Sin sitio al lado del titulo: la racha se alinea a la derecha bajo el subtitulo. */
+  .ml-streak { position: static; align-self: flex-end; }
 }

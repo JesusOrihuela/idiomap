@@ -42,11 +42,30 @@ var AppSessionBar = (function () {
       return;
     }
     var stats = Progress.getStatsForCards(cardIds || []);
-    // Sin tarjetas vistas no hay «0 / N Aprendidas» (DP-03); el contador aparece con la primera.
-    el.hidden = stats.seen === 0;
-    if (stats.seen > 0) el.textContent = AppLang.t('topic_learned', { seen: stats.seen, total: stats.total });
+    // El contador se ve desde el principio (0 / N): su ausencia centraba la
+    // racha por accidente y escondia el progreso del tema.
+    el.hidden = stats.total === 0;
+    if (stats.total > 0) {
+      var full = AppLang.t('topic_learned', { seen: stats.seen, total: stats.total });
+      // En movil el texto completo no cabe junto a la racha: "0 / 72" y el
+      // nombre largo queda en el aria-label.
+      var narrow = typeof window.matchMedia === 'function' &&
+        window.matchMedia('(max-width: 400px)').matches;
+      el.textContent = narrow ? (stats.seen + ' / ' + stats.total) : full;
+      el.setAttribute('aria-label', full);
+    }
     _setProgress(stats.total > 0 ? Math.min(100, Math.round((stats.seen / stats.total) * 100)) : 0);
   }
 
-  return { updateStreak: updateStreak, updateCounter: updateCounter };
+  // Etiqueta del boton atras dentro de un ejercicio: el destino real es el
+  // indice del tema (frases o palabras), no el selector de temas.
+  function setBackTarget(backId, kind) {
+    var el = document.getElementById(backId);
+    if (!el) return;
+    var key = kind === 'words' ? 'back_to_words' : 'back_to_phrases';
+    el.setAttribute('data-i18n', key);
+    el.textContent = AppLang.t(key);
+  }
+
+  return { updateStreak: updateStreak, updateCounter: updateCounter, setBackTarget: setBackTarget };
 })();

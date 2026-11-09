@@ -13,13 +13,6 @@
   flex: 1;
 }
 
-
-
-
-
-
-
-
 /* ---- Page Title ---- */
 .listening-title {
   margin-bottom: var(--space-1);
@@ -30,43 +23,35 @@
 .listening-title span { color: var(--color-action); }
 
 .listening-subtitle {
-  margin-bottom: var(--space-7);
+  margin-bottom: var(--space-6);
   opacity: 0;
   animation: fadeIn var(--duration-base) var(--transition-emphasis) both;}
 
 /* ---- Phrase Card ---- */
 
-
 #Phrase {
-  font-size: var(--text-headline);
-  font-weight: var(--weight-semibold);
-  color: var(--color-text);
-  line-height: var(--text-headline-leading);
   margin-bottom: var(--space-3);
-}
-
-#Traduction {
-  font-size: var(--text-body-lg);
-  font-style: italic;
-  color: var(--color-text-muted);
-  font-weight: var(--weight-medium);
 }
 
 /* ---- Listening Pulse ---- */
 
-.actions-row:first-of-type {
+.actions-row {
+  display: flex;
+  gap: var(--space-3);
+  width: 100%;
+}
+.actions-row > .btn { flex: 1; }
+
+.actions-row {
   opacity: 0;
   animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
 }
 
-
 /* Listen button */
 #listenButton {
   gap: var(--space-2);
-  min-width: var(--size-chip-w);
   justify-content: center;
 }
-
 
 /* Speak button */
 #speakButton {
@@ -74,7 +59,6 @@
   min-width: var(--size-chip-w);
   justify-content: center;
 }
-
 
 #listenButton:disabled,
 #speakButton:disabled {
@@ -98,12 +82,9 @@
    (DP-05): desaparece y vuelve al reintentar o al cargar otra frase. */
 .text-fallback:has(~ #speaking-feedback:not(.hidden)) { display: none; }
 
-
-
 #text-input {
   flex: 1;
 }
-
 
 #text-input:disabled { opacity: var(--opacity-55); cursor: not-allowed; }
 
@@ -113,7 +94,7 @@
   font-size: var(--text-body);
   font-weight: var(--weight-medium);
   color: var(--color-on-action);
-  background: var(--gradient-action);
+  background: var(--color-action);
   border: none;
   border-radius: var(--radius-md);
   cursor: pointer;
@@ -122,7 +103,6 @@
 }
 
 @media (hover: hover) and (pointer: fine) { #text-submit:hover { filter: brightness(1.1); transform: scale(1.03); } }
-
 
 /* ---- Recording Status ---- */
 #recognizedText {
@@ -138,6 +118,8 @@
   animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
   transition: color var(--transition);
 }
+/* Sin transcripcion no reserva el hueco: el Error quedaba 40 px mas abajo. */
+#recognizedText:empty { display: none; }
 
 #recognizedText.vad-active { color: var(--color-success); font-style: normal; font-weight: var(--weight-medium); }
 #recognizedText.incorrect  { color: var(--color-danger);  font-style: normal; font-weight: var(--weight-semibold); }
@@ -145,23 +127,24 @@
 /* ---- Feedback Card ---- */
 .speaking-feedback {
   width: 100%;
-  padding: var(--space-4) var(--space-5);
+  padding: var(--space-3) var(--space-4);
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-inline-start: 3px solid var(--color-border);
   border-radius: var(--radius-lg);
-  margin-top: var(--space-2);
+  margin-top: var(--space-4);
   margin-bottom: var(--space-4);
+  font-size: var(--text-body);
+  line-height: var(--text-body-leading);
+  color: var(--color-text);
   animation: fadeInScale var(--duration-base) var(--transition-emphasis) both;
   display: flex;
   flex-direction: column;
-  gap: var(--space-2);
+  gap: var(--space-1);
 }
 
-.speaking-feedback.correct       { background: var(--feedback-correct-bg); border-inline-start-color: var(--feedback-correct-border); }
-.speaking-feedback.incorrect     { background: var(--feedback-error-bg); border-inline-start-color: var(--feedback-error-border); }
-.speaking-feedback.not-understood { background: var(--color-warning-bg); border-inline-start-color: var(--color-warning); min-height: var(--space-16); justify-content: center; align-items: flex-start; }
-
+.speaking-feedback.correct       { background: var(--feedback-correct-bg); border-color: var(--feedback-correct-border); }
+.speaking-feedback.incorrect     { background: var(--feedback-error-bg); border-color: var(--feedback-error-border); }
+.speaking-feedback.not-understood { background: var(--color-warning-bg); border-color: var(--color-warning); align-items: flex-start; }
 
 /* .uf-* classes live in components.css (shared via AppFeedback) */
 
@@ -181,7 +164,7 @@
 /* ---- Responsive ---- */
 @media (max-width: 480px) {
   .speaking-page { padding: var(--space-6) var(--page-pad-x) var(--space-14); }
-  #Phrase { font-size: var(--text-title); }
-  #listenButton, #speakButton { min-width: var(--grid-min-xs); padding: var(--space-3) var(--space-5); }
-  .text-fallback { flex-direction: column; }}
+  #listenButton, #speakButton { min-width: 0; padding: 0 var(--space-4); }
+  .text-fallback { flex-direction: column; }
+  #text-input { flex: 0 0 auto; width: 100%; }}
 }

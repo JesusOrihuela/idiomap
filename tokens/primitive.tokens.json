@@ -111,6 +111,15 @@
           }
         }
       },
+      "orange-600": {
+        "$type": "color",
+        "$value": "#EA580C",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--orange-600"
+          }
+        }
+      },
       "gold-050": {
         "$type": "color",
         "$value": "#FDF3DC",
@@ -158,6 +167,15 @@
           }
         }
       },
+      "fuchsia-600": {
+        "$type": "color",
+        "$value": "#C026D3",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--fuchsia-600"
+          }
+        }
+      },
       "cat-green-100": {
         "$type": "color",
         "$value": "#DCFCE7",
@@ -183,6 +201,24 @@
         "$extensions": {
           "com.idiomap": {
             "cssVar": "--cyan-700"
+          }
+        }
+      },
+      "lime-700": {
+        "$type": "color",
+        "$value": "#65A30D",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--lime-700"
+          }
+        }
+      },
+      "teal-600": {
+        "$type": "color",
+        "$value": "#0D9488",
+        "$extensions": {
+          "com.idiomap": {
+            "cssVar": "--teal-600"
           }
         }
       },
@@ -816,18 +852,6 @@
         }
       }
     },
-    "sm": {
-      "$type": "dimension",
-      "$value": {
-        "value": 340,
-        "unit": "px"
-      },
-      "$extensions": {
-        "com.idiomap": {
-          "cssVar": "--measure-sm"
-        }
-      }
-    },
     "sm2": {
       "$type": "dimension",
       "$value": {
@@ -1429,14 +1453,6 @@
         }
       }
     },
-    "gap": {
-      "$value": "{space.9}",
-      "$extensions": {
-        "com.idiomap": {
-          "cssVar": "--section-gap"
-        }
-      }
-    },
     "panel-min-h": {
       "$type": "dimension",
       "$value": {
@@ -1470,18 +1486,6 @@
       "$extensions": {
         "com.idiomap": {
           "cssVar": "--card-min"
-        }
-      }
-    },
-    "glow-size": {
-      "$type": "dimension",
-      "$value": {
-        "value": 440,
-        "unit": "px"
-      },
-      "$extensions": {
-        "com.idiomap": {
-          "cssVar": "--glow-size"
         }
       }
     },

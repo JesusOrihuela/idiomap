@@ -56,9 +56,9 @@ const AppTopicGrid = (() => {
       resolveCount(topic)
         .then(total => {
           const keyPrefix = resolveSrsKey(topic) + '_';
-          const seen = Object.keys(cards).filter(k => k.startsWith(keyPrefix) && cards[k].reps > 0).length;
+          const seen = Object.keys(cards).filter(k => k.startsWith(keyPrefix) && Progress.isLearnedCard(cards[k])).length;
           const el = document.getElementById('tp-' + topic.id);
-          // El contador se muestra siempre, también en «0 / N» (DP-03 revisado).
+          // Decisión de producto: el 0 / N se muestra también al empezar.
           if (el) el.textContent = AppLang.t('topic_learned', { seen, total });
         })
         .catch(() => {});

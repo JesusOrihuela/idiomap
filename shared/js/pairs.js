@@ -330,7 +330,7 @@ const AppPairs = [
         "de"
       ],
       "name": "Deutsch",
-      "localName": "Deutsch"
+      "localName": "alemán"
     },
     "label": "Español → Deutsch",
     "ttsVoices": [

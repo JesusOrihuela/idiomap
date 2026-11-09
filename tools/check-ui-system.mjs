@@ -311,8 +311,9 @@ const counts = {};
       const val = m[1].trim().replace(/\s+/g, ' ');
       if (/^none$/.test(val)) {
         // Quitar el anillo en un estado de foco deja el control sin señal visible.
-        // .fc-back-word, .quiz-word y .phase-label son destinos de foco programático (texto, no control): sin anillo.
-        if (/:focus/.test(selectorAt(m.index)) && !/\.(fc-back-word|quiz-word|phase-label)\b/.test(selectorAt(m.index))) {
+        // .fc-back-word, .quiz-word, .phase-label y los titulos con tabindex=-1 son
+        // destinos de foco programatico (texto, no control): sin anillo.
+        if (/:focus/.test(selectorAt(m.index)) && !/\.(fc-back-word|quiz-word|phase-label)\b/.test(selectorAt(m.index)) && !/\[tabindex="-1"\]/.test(selectorAt(m.index))) {
           focus++;
           problems.push(`focus-ring  ${rel}  ${selectorAt(m.index).slice(0, 50)}  outline: none`);
         }
@@ -324,9 +325,14 @@ const counts = {};
       }
     }
     for (const m of s.matchAll(/outline-offset\s*:\s*([^;{}]+);/g)) {
-      if (m[1].trim() !== '2px') {
+      const val = m[1].trim();
+      // Los campos de una linea y los textareas pintan su superficie dentro de
+      // la caja: el anillo baja con ella para no quedar como un segundo marco.
+      const fieldRing = /^(input|textarea)\.field__input/.test(selectorAt(m.index)) &&
+        val === 'calc(-1 * var(--space-1))';
+      if (val !== '2px' && !fieldRing) {
         focus++;
-        problems.push(`focus-ring  ${rel}  outline-offset: ${m[1].trim()}`);
+        problems.push(`focus-ring  ${rel}  outline-offset: ${val}`);
       }
     }
   }

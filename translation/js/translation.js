@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const titleEl = document.querySelector('.trans-title');
   if (titleEl) {
     // Sin dos tonos: el nombre del idioma va en el mismo color que el resto (D3).
-    titleEl.textContent = AppLang.t('translation_title', { lang: pair.target.localName });
+    titleEl.innerHTML = AppLang.t('translation_title', { lang: pair.target.localName });
   }
   const subEl = document.querySelector('.trans-subtitle');
   if (subEl) {
@@ -177,6 +177,7 @@ function startTopic(topicId, pathMode, pathCard) {
         onStart: idx => _beginExercise(idx),
       };
       _openPhraseBrowser = () => PhraseBrowser.show(_pbArgs);
+    AppSessionBar.setBackTarget('back-btn', 'phrases');
       if (_pathModeActive) {
         _beginExercise(0);
       } else {
@@ -287,7 +288,7 @@ function checkAnswer() {
 
   Progress.rate(cardIds[currentIndex], PathSession.getQualityFromResult(isCorrect));
   // Translation accepts any form — record the variant the user actually produced
-  if (_matchedForm?.audioSlug) Progress.recordVariant(cardIds[currentIndex], _matchedForm.audioSlug);
+  if (isCorrect && _matchedForm?.audioSlug) Progress.recordVariant(cardIds[currentIndex], _matchedForm.audioSlug);
   if (typeof AppProficiency !== 'undefined') AppProficiency.update(cefrLevels[currentIndex], isCorrect, 'translation');
   Progress.recordSession('trans_' + currentTopic, isCorrect ? 1 : 0, 1);
   if (isCorrect) updateCounter();
@@ -305,7 +306,9 @@ function checkAnswer() {
   diffEl.appendChild(
     isCorrect
       ? AppFeedback.buildCorrect(_matchedText)
-      : AppFeedback.buildDiff(raw, AppText.closestPhrase(raw, forms.map(f => f.text), contractionMap), contractionMap)
+      // La respuesta correcta es la que corresponde a la frase mostrada, no la
+      // variante mas cercana a lo escrito por el usuario.
+      : AppFeedback.buildDiff(raw, _currentExpected, contractionMap)
   );
 
   feedback.className = 'trans-feedback ' + (isCorrect ? 'correct' : 'incorrect');

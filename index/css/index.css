@@ -34,22 +34,6 @@
   align-self: flex-start;
 }
 
-/* Subtle decorative gradient blob behind left column */
-.hero-left::before {
-  content: '';
-  position: absolute;
-  top: calc(-1 * var(--space-15));
-  inset-inline-start: calc(-1 * var(--space-20));
-  width: var(--glow-size);
-  height: var(--glow-size);
-  background: var(--gradient-glow);
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.hero-left > * { position: relative; z-index: 1; }
-
 
 .hero-title {
   text-wrap: balance;
@@ -89,12 +73,8 @@
 }
 
 .stat {
-  padding-inline-start: var(--space-3);
-  border-inline-start: 3px solid var(--color-action);
-  transition: border-color var(--transition);
+  padding-inline-start: 0;
 }
-
-@media (hover: hover) and (pointer: fine) { .stat:hover { border-inline-start-color: var(--color-action); } }
 
 
 .stat-divider {
@@ -130,15 +110,130 @@
   position: relative;
 }
 
-#skewingImage {
-  position: relative;
+/* Mapa del recorrido: la pieza visual del hero. Los temas son paradas,
+   la altura es el nivel y los ocho rayos del tema actual son los ocho
+   ejercicios. Sin tarjetas ni controles: es una ilustración, no una UI. */
+.hero-preview {
   width: 100%;
-  max-width: var(--measure-lg);
-  height: auto;
-  object-fit: contain;
-  filter: drop-shadow(0 24px 40px color-mix(in srgb, var(--color-action) 18%, transparent));
-  transition: transform var(--duration-xslow) ease-out;
+  max-width: var(--measure-xl);
   animation: fadeInScale var(--duration-base) var(--transition-emphasis) both;
+}
+.hero-map {
+  width: 100%;
+  aspect-ratio: 5 / 4;
+}
+.hero-map svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  font-family: var(--font-family-base);
+}
+.hero-map__contour {
+  fill: none;
+  stroke: var(--color-border-strong);
+}
+.hero-map__route {
+  fill: none;
+  stroke: var(--color-category-path);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+}
+.hero-map__compass {
+  stroke: var(--color-text-muted);
+  stroke-width: 1.2;
+  stroke-linecap: round;
+}
+.hero-map__compass-label {
+  fill: var(--color-text-muted);
+  font-size: var(--text-caption);
+}
+.hero-map__flag-pole,
+.hero-map__flag {
+  fill: none;
+  stroke: var(--color-category-path);
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.hero-map__stop--summit .hero-map__node { fill: var(--color-category-path); }
+.hero-map__stop {
+  transition: opacity var(--transition);
+}
+.hero-map__hit { fill: transparent; }
+.hero-map__rays {
+  opacity: 0;
+  transform: scale(0.72);
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: opacity var(--transition), transform var(--transition);
+}
+.hero-map__stop--current .hero-map__rays {
+  opacity: 1;
+  transform: scale(1);
+}
+.hero-map__node {
+  fill: var(--color-bg);
+  stroke: var(--color-category-path);
+  stroke-width: 2;
+  transition: fill var(--transition);
+}
+.hero-map__stop--current .hero-map__node { stroke: var(--color-action); }
+.hero-map__label {
+  fill: var(--color-text-muted);
+  font-size: var(--text-body-lg);
+}
+.hero-map__label-ability {
+  font-size: var(--text-body-lg);
+}
+.hero-map__label-level {
+  fill: var(--color-text-muted);
+  font-size: var(--text-body);
+  font-weight: var(--weight-medium);
+  opacity: var(--opacity-70);
+}
+.hero-map__stop--current .hero-map__label-level { fill: var(--color-action); }
+.hero-map__stop--summit .hero-map__label-level { fill: var(--color-category-path); }
+.hero-map__stop--current .hero-map__label,
+.hero-map__stop--summit .hero-map__label {
+  fill: var(--color-text);
+  font-weight: var(--weight-semibold);
+}
+.hero-map__ray {
+  stroke: var(--color-category-path);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  opacity: var(--opacity-75);
+}
+.hero-map__stop--current .hero-map__ray {
+  stroke: var(--color-action);
+  opacity: var(--opacity-90);
+}
+@media (hover: hover) and (pointer: fine) {
+  .hero-map__stop:hover .hero-map__rays {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .hero-map__stop:hover .hero-map__node { fill: var(--color-category-path); }
+  .hero-map__stop--current:hover .hero-map__node { fill: var(--color-action); }
+  .hero-map__stop:hover .hero-map__label { fill: var(--color-text); }
+  .hero-map:has(.hero-map__stop:hover) .hero-map__stop:not(:hover) { opacity: var(--opacity-55); }
+  .hero-map:has(.hero-map__stop:hover) .hero-map__stop--current:not(:hover) { opacity: var(--opacity-85); }
+}
+/* En táctil no hay hover: un toque abre los rayos del tema. */
+.hero-map__stop--open .hero-map__rays {
+  opacity: 1;
+  transform: scale(1);
+}
+.hero-map__stop--open .hero-map__node { fill: var(--color-category-path); }
+.hero-map__stop--current.hero-map__stop--open .hero-map__node { fill: var(--color-action); }
+.hero-map__stop--open .hero-map__label { fill: var(--color-text); }
+.hero-map:has(.hero-map__stop--open) .hero-map__stop:not(.hero-map__stop--open) { opacity: var(--opacity-55); }
+.hero-map:has(.hero-map__stop--open) .hero-map__stop--current:not(.hero-map__stop--open) { opacity: var(--opacity-85); }
+@media (prefers-reduced-motion: reduce) {
+  .hero-map__stop,
+  .hero-map__rays,
+  .hero-map__node { transition: none; }
 }
 
 
@@ -153,17 +248,7 @@
   animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
 }
 
-.activities-heading {
-  font-size: var(--text-headline);
-  font-weight: var(--weight-medium);
-  color: var(--color-text);
-  margin-bottom: var(--space-1);
-}
-
 .activities-subheading {
-  font-size: var(--text-body);
-  color: var(--color-text-muted);
-  font-weight: var(--weight-medium);
   max-width: var(--dialog-w);
   margin: 0 auto;
 }
@@ -182,7 +267,7 @@
   display: flex;
   align-items: center;
   gap: var(--space-3);
-  margin-bottom: var(--space-3);
+  margin-bottom: var(--space-5);
 }
 .group-label::after {
   content: "";
@@ -191,15 +276,17 @@
   background: var(--color-border);
 }
 
+/* Mismo rol que .section-title de Mi Perfil: el grupo es una seccion, no
+   una etiqueta pequena; la linea la sigue aportando .group-label::after. */
 .group-badge {
   display: inline-flex;
   align-items: center;
   gap: var(--space-1);
-  font-size: var(--text-label);
-  font-weight: var(--weight-semibold);
-  letter-spacing: var(--text-label-tracking);
-  text-transform: uppercase;
-  color: var(--color-action-on-subtle);
+  font-size: var(--text-title);
+  line-height: var(--text-title-leading);
+  font-weight: var(--weight-medium);
+  letter-spacing: normal;
+  color: var(--color-text);
   background: transparent;
   padding: 0;
   border-radius: 0;
@@ -208,6 +295,9 @@
 /* ---- Activity Grids ---- */
 .activity-grid {
   display: grid;
+  /* Filas iguales: una descripcion que envuelve una linea mas no deja
+     tarjetas de alturas distintas. */
+  grid-auto-rows: 1fr;
   gap: var(--space-4);
   animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
 }
@@ -258,21 +348,6 @@
   text-align: center;
   margin-bottom: var(--space-5);
 }
-
-.path-heading {
-  font-size: var(--text-headline);
-  font-weight: var(--weight-medium);
-  color: var(--color-text);
-  margin-bottom: var(--space-1);
-}
-
-.path-subheading {
-  font-size: var(--text-body);
-  color: var(--color-text-muted);
-  font-weight: var(--weight-medium);
-}
-
-
 
 /* ── Unified path card ── */
 .path-card {
@@ -458,7 +533,6 @@
 
 @media (hover: hover) and (pointer: fine) {
   .path-node--active .path-node__bubble:hover {
-  transform: scale(1.08);
   box-shadow: var(--shadow-path-ring-strong);
   }
 }
@@ -484,6 +558,7 @@
 .path-node__label {
   font-size: var(--text-label);
   font-weight: var(--weight-medium);
+  line-height: var(--text-label-leading);
   color: var(--color-text-muted);
   text-align: center;
   letter-spacing: var(--text-label-tracking);
@@ -515,12 +590,13 @@
   padding: 2px var(--space-1);
   white-space: nowrap;
   letter-spacing: var(--text-label-tracking);
-  pointer-events: none;
+  /* Sin pointer-events para que el title (nombre completo si se elide) funcione. */
 }
 
-/* NEW / review badge below the activity label. */
+/* State badge below the activity label: Hecho / Nuevo / Repasar on every step. */
 .path-node__new-badge,
-.path-node__review-badge {
+.path-node__review-badge,
+.path-node__done-badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -541,6 +617,11 @@
 .path-node__review-badge {
   color: var(--color-warning-strong);
   background: var(--color-warning-subtle);
+}
+
+.path-node__done-badge {
+  color: var(--color-success-strong);
+  background: var(--color-success-subtle);
 }
 
 
@@ -583,11 +664,18 @@
     gap: var(--space-10);
   }
   .hero-left { padding: 0; align-self: stretch; }
-  .hero-left::before { display: none; }
   .hero-subtitle { margin-inline-start: auto; margin-inline-end: auto; }
   .hero-stats { justify-content: center; }
-  .hero-right { width: 100%; max-width: var(--measure-sm); }
+  .hero-right { width: 100%; max-width: var(--measure-lg); }
   .stat { border-inline-start: none; padding-inline-start: 0; }}
+
+/* Móvil: el mapa cambia a su composición de cuatro paradas. */
+@media (max-width: 640px) {
+  .hero-right { max-width: var(--measure-sm2); }
+  .hero-map { aspect-ratio: 360 / 300; }
+  /* La brújula choca con la escala de niveles en el mapa estrecho. */
+  .hero-map__compass, .hero-map__compass-label { display: none; }
+}
 
 /* Tablet/Small laptop: the auto-fill grid already drops to two columns. */
 @media (max-width: 768px) {
@@ -598,9 +686,6 @@
   .index { padding-bottom: var(--space-8); }
   .hero { padding: var(--space-8) 0; }
   .hero-stats { gap: var(--space-5); }
-  /* La ilustración decorativa (340 px) empujaba la sesión del día fuera del
-     pliegue: en móvil manda la tarjeta de sesión (DP-04). */
-  .hero-right { display: none; }
 
   /* Single-column activity grids on mobile */
   .activity-grid--2, .activity-grid--3 {
@@ -608,6 +693,10 @@
   }
   .activities-intro { margin-bottom: var(--space-5); }
   .activity-group { margin-bottom: var(--space-5); }}
+
+/* ======================================================
+   Onboarding Modal
+   ====================================================== */
 
 /* ======================================================
    Onboarding Modal
@@ -625,16 +714,19 @@
 @keyframes obFadeOut { from { opacity: 1; } to { opacity: 0; }}
 
 .ob-modal {
-  /* Cap to the viewport (overlay adds 16px padding each side) and lay the modal
-     out as a column so a tall step (e.g. the topic list) scrolls INSIDE it via
-     .ob-inner instead of overflowing the screen. */
+  width: 100%;
   max-height: calc(100vh - var(--space-8));
   max-height: calc(100dvh - var(--space-8));
+  max-width: var(--measure-2xl);
   display: flex;
   flex-direction: column;
   padding: 0;
   overflow: hidden;
   position: relative;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-xl);
   animation: obSlideUp var(--duration-slow) cubic-bezier(0.2,0,0,1) both;
 }
 
@@ -642,101 +734,87 @@
   from { opacity: 0; transform: translateY(var(--offset-sm)) scale(0.97); }
   to   { opacity: 1; transform: none; }}
 
+.ob-progress {
+  display: flex;
+  gap: var(--space-1);
+  height: var(--space-1);
+  flex-shrink: 0;
+  background: var(--color-border);
+}
+
+.ob-progress__seg {
+  flex: 1;
+  background: var(--color-border);
+}
+
+.ob-progress__seg.is-on { background: var(--color-action); }
+
 .ob-close {
   position: absolute;
   top: var(--space-3);
-  inset-inline-end: var(--offset-sm);
+  inset-inline-end: var(--space-3);
   z-index: 2;
 }
 
-@media (hover: hover) and (pointer: fine) { .ob-close:hover { background: color-mix(in srgb, black 12%, transparent); color: var(--color-text); } }
-
-
-/* ---- Footer stripe ---- */
-.ob-footer-stripe {
-  height: var(--space-1-5);
-  background: var(--color-action);
-  width: 100%;
-}
-
-/* ---- Inner content wrapper ---- */
 .ob-inner {
-  padding: var(--space-7) var(--space-7) var(--space-6);
-  /* Scroll the content here (not the modal) when a step is taller than the
-     viewport; flex:1 + min-height:0 lets it shrink so any footer stripe stays put. */
+  padding: var(--space-6) var(--space-7) var(--space-5);
   flex: 1 1 auto;
   min-height: 0;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
 
-/* ---- Progress dots ---- */
-.ob-dots {
-  display: flex;
-  justify-content: center;
-  gap: var(--space-1);
-  margin-bottom: var(--space-5);
-}
-
-.ob-dot {
-  width: var(--offset-xs);
-  height: var(--offset-xs);
-  border-radius: 50%;
-  background: var(--color-border);
-  transition: background var(--transition), transform var(--transition);
-}
-
-.ob-dot.active {
-  background: var(--color-action);
-  transform: scale(1.3);
+.ob-step-count {
+  margin: 0 0 var(--space-5);
+  font-size: var(--text-label);
+  font-weight: var(--weight-semibold);
+  color: var(--color-text-muted);
 }
 
 /* ---- Step shared ---- */
-.ob-step { display: flex; flex-direction: column; align-items: center; text-align: center; width: 100%; }
+.ob-step {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  width: 100%;
+}
 
-.ob-hero-icon {
-  font-size: var(--icon-display);
-  line-height: 1;
-  margin-bottom: var(--space-3);
+.ob-mark {
+  margin-bottom: var(--space-4);
+  color: var(--color-category-path);
 }
 
 .ob-title {
-  font-size: var(--text-title);
-  font-weight: var(--weight-semibold);
+  max-width: var(--measure-sm2);
+  margin: 0 0 var(--space-2);
+  font-size: var(--text-headline);
+  font-weight: var(--text-headline-weight);
+  line-height: var(--text-headline-leading);
+  letter-spacing: var(--text-headline-tracking);
   color: var(--color-text);
-  margin-bottom: var(--space-3);
 }
 
 .ob-body {
-  font-size: var(--text-body);
-  color: var(--color-text-muted);
-  font-weight: var(--weight-medium);
-  line-height: var(--text-body-leading);
   max-width: var(--measure-sm2);
-  margin-bottom: var(--space-6);
+  margin: 0;
+  font-size: var(--text-body-lg);
+  font-weight: var(--weight-regular);
+  line-height: var(--text-body-lg-leading);
+  color: var(--color-text-muted);
 }
+.ob-body--sm { font-size: var(--text-body); }
 
-.ob-body--sm { font-size: var(--text-body); margin-bottom: var(--icon-md); }
+.ob-step > .btn--ghost { margin-top: var(--space-2); }
 
-/* ---- Primary button ---- */
-
-.ob-step > .btn--ghost {
-  margin-top: var(--space-2);
+/* ---- Topic preferences ---- */
+.ob-search {
+  width: 100%;
+  margin: var(--space-5) 0 var(--space-4);
 }
-.ob-step > .btn--primary {
-  gap: var(--space-1);
-}
+#ob-topic-bubbles { margin-block-end: var(--space-5); }
 
-
-/* ---- Topic preference bubbles (Step 3) ---- */
-.ob-topic-bubbles {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-  justify-content: center;
-  margin: var(--space-1) 0 var(--space-5);
-}
-/* ---- Quiz step: left-aligned layout ---- */
+/* ---- Quiz ---- */
 .ob-step--quiz { align-items: stretch; text-align: start; }
 
 .ob-quiz-meta {
@@ -753,21 +831,18 @@
 .ob-quiz-lvbadge {
   font-size: var(--text-label);
   font-weight: var(--weight-medium);
-  padding: 2px var(--space-2);
+  padding: var(--space-1) var(--space-2);
   border-radius: var(--radius-full);
   background: var(--color-action-subtle);
   color: var(--color-action-on-subtle);
 }
-.ob-quiz-bar {
-  margin-bottom: var(--space-4);
-  overflow: hidden;
-}
+.ob-quiz-bar { margin-bottom: var(--space-4); overflow: hidden; }
 .ob-quiz-q {
+  margin: 0 0 var(--space-3);
   font-size: var(--text-body-lg);
   font-weight: var(--weight-semibold);
-  color: var(--color-text);
-  margin-bottom: var(--space-3);
   line-height: var(--text-body-lg-leading);
+  color: var(--color-text);
 }
 .ob-quiz-opts {
   display: flex;
@@ -777,106 +852,253 @@
   width: 100%;
 }
 .ob-opt-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--space-3);
   width: 100%;
+  min-height: var(--control-h);
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  font-family: var(--font-family-base);
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+  line-height: var(--text-body-leading);
   text-align: start;
+  text-decoration: none;
+  white-space: normal;
+  cursor: pointer;
+}
+.ob-opt-btn:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+.ob-opt-btn:disabled {
+  opacity: var(--opacity-50);
+  cursor: not-allowed;
+}
+.ob-opt-btn:disabled.ob-opt-btn--correct,
+.ob-opt-btn:disabled.ob-opt-btn--wrong { opacity: 1; }
+.ob-opt-btn::before { display: none; }
+.ob-opt-btn .ob-opt-idx {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--space-6);
+  height: var(--space-6);
+  flex-shrink: 0;
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-full);
+  font-size: var(--text-label);
+  font-weight: var(--weight-semibold);
+  color: var(--color-text-muted);
 }
 @media (hover: hover) and (pointer: fine) {
   .ob-opt-btn:hover:not(:disabled) {
-  border-color: var(--color-action-on-subtle);
-  background: var(--color-action-subtle);
+    border-color: var(--color-action);
+    background: var(--color-surface-alt);
   }
 }
-
 .ob-opt-btn.ob-opt-btn--correct {
   border-color: var(--color-success);
   background: var(--color-success-subtle);
-  color: var(--color-success);
-  font-weight: var(--weight-medium);
+  color: var(--color-success-strong);
+}
+.ob-opt-btn.ob-opt-btn--correct .ob-opt-idx {
+  border-color: var(--color-success);
+  color: var(--color-success-strong);
 }
 .ob-opt-btn.ob-opt-btn--wrong {
   border-color: var(--color-danger);
   background: var(--color-danger-subtle);
-  color: var(--color-danger);
+  color: var(--color-danger-strong);
+}
+.ob-opt-btn.ob-opt-btn--wrong .ob-opt-idx {
+  border-color: var(--color-danger);
+  color: var(--color-danger-strong);
 }
 .ob-quiz-skip {
+  align-self: flex-start;
+  padding: var(--space-1) 0;
+  margin: 0;
   font-size: var(--text-label);
   color: var(--color-text-muted);
-  align-self: center;
-  padding: var(--space-1) 0;
-  margin-bottom: 0;
 }
-.ob-quiz-manual { width: 100%; }
+.ob-quiz-manual { width: 100%; margin-top: var(--space-4); }
 .ob-quiz-manual-label {
+  margin: 0 0 var(--space-2);
   font-size: var(--text-body);
   font-weight: var(--weight-semibold);
   color: var(--color-text-muted);
-  margin-bottom: var(--space-2);
-  text-align: center;
+  text-align: start;
 }
 .ob-manual-btn {
-  display: block;
+  display: flex;
   width: 100%;
-  text-align: start;
+  min-height: var(--control-h);
   margin-bottom: var(--space-2);
-}
-@media (hover: hover) and (pointer: fine) {
-  .ob-manual-btn:hover {
-  border-color: var(--color-action-on-subtle);
-  background: var(--color-action-subtle);
-  }
+  text-align: start;
 }
 
+/* ---- Footer action ---- */
+.ob-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-7) var(--space-4);
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+}
+.ob-actions[hidden],
+.ob-actions [hidden] { display: none; }
+.ob-actions .btn--primary { flex: 1 1 auto; max-width: none; }
+.ob-actions .btn--ghost { flex: 0 1 auto; }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---- Mobile ---- */
 @media (max-width: 480px) {
-  .ob-inner { padding: var(--space-6) var(--space-5) var(--size-badge); }
-  .ob-title { font-size: var(--text-body-lg); }}
+  .ob-inner { padding: var(--space-6) var(--space-5) var(--space-4); }
+  .ob-actions { padding-inline: var(--space-5); }
+  .ob-title { font-size: var(--text-title); }
+  .ob-close { top: var(--space-2); inset-inline-end: var(--space-2); }
+}
 
 /* ======================================================
    Pair Picker (first-visit language selection)
    ====================================================== */
 
-.lp-picker-cards {
+/* Primer paso del alta: dialogo sobre la landing, no una pagina aparte. */
+.lp-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-overlay);
   display: flex;
-  flex-direction: column;
-  gap: var(--space-3);
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  background: var(--color-overlay);
+  animation: obFadeIn var(--duration-enter) ease-out both;
+}
+
+/* .ob-modal aporta tamano, superficie y animacion; el selector solo fija el
+   mismo ancho que el onboarding. */
+.lp-modal { max-width: var(--measure-2xl); }
+
+.lp-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
   width: 100%;
   margin-top: var(--space-5);
 }
 
-/* Mismo relleno lateral que el radio interior para que los bordes sean concéntricos. */
-#lp-picker .ob-inner { padding-inline-start: var(--space-3); padding-inline-end: var(--space-3); }
-
-
-
-.lp-picker-card__arrow {
-  font-size: var(--text-body-lg);
-  color: var(--color-border);
-  flex-shrink: 0;
+.lp-pair {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-1-5);
+  min-height: var(--control-h);
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-xs);
+  font-family: inherit;
+  color: inherit;
+  text-align: start;
+  cursor: pointer;
+  transition: border-color var(--duration-base) var(--easing-standard),
+              box-shadow var(--duration-base) var(--easing-standard);
 }
 
-.lp-picker-card__label {
-  flex: 1;
+@media (hover: hover) and (pointer: fine) {
+  .lp-pair:hover { border-color: var(--color-action); box-shadow: var(--shadow-md); }
+  .lp-pair:hover .lp-pair__chevron { color: var(--color-action); }
+}
+
+.lp-pair:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.lp-pair__row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-1-5);
+  min-width: 0;
+}
+
+.lp-pair__lang {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  min-width: 0;
+}
+
+.lp-pair__name {
+  font-size: var(--text-body);
+  line-height: var(--text-body-leading);
+  color: var(--color-text-muted);
+}
+
+.lp-pair__lang--target .lp-pair__name {
+  font-size: var(--text-body-lg);
   font-weight: var(--weight-semibold);
+  line-height: var(--text-body-lg-leading);
+  color: var(--color-text);
+}
+
+.lp-pair__lang--target .lp-flag { height: var(--icon-md); }
+
+.lp-pair__sep {
+  font-size: var(--text-body);
+  color: var(--color-text-muted);
+}
+
+.lp-flag {
+  height: var(--offset-sm);
+  width: auto;
+  border-radius: var(--radius-2xs);
+  box-shadow: var(--shadow-ring);
+}
+
+.lp-pair__chevron {
+  width: var(--icon-sm);
+  height: var(--icon-sm);
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+  transition: color var(--transition);
+}
+
+.lp-modal .ob-inner { padding-inline: var(--space-5); }
+
+@media (max-width: 480px) {
+  .lp-overlay { padding: var(--space-2); }
+  .lp-grid { grid-template-columns: 1fr; }
+}
+
+/* Ultrapanoramica: los grupos no pasan de 3 columnas. Los de 2 tarjetas se
+   centran con el ancho de 2/3 para que cada tarjeta mida lo mismo que las de
+   un grupo de 3 y no queden huecos de media fila. */
+@media (min-width: 1920px) {
+  .activity-grid--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .activity-grid--2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: calc((2 * 100% - var(--space-4)) / 3);
+    margin-inline: auto;
+  }
+  /* El grupo de una tarjeta (Gramatica) se centra con el mismo ancho de las
+     tarjetas de un grupo de 3. */
+  .activity-grid--3:has(> :only-child) {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: calc((100% - 2 * var(--space-4)) / 3);
+    margin-inline: auto;
+  }
+  /* La altura comun entre grupos la fija index.js: la tarjeta mas alta
+     manda en las ocho (las rejillas son independientes). */
 }
 }

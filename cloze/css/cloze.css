@@ -13,8 +13,6 @@
   flex: 1;
 }
 
-
-
 /* ---- Header ---- */
 .cloze-header {
   text-align: center;
@@ -29,12 +27,6 @@
 
 .cloze-header p {
   margin: 0 auto;}
-
-
-
-
-
-
 
 /* ---- Page Title ---- */
 .cloze-title {
@@ -52,12 +44,7 @@
 
 /* ---- Phrase Card ---- */
 
-
 .phrase-text {
-  font-size: var(--text-headline);
-  font-weight: var(--weight-semibold);
-  color: var(--color-text);
-  line-height: var(--text-headline-leading);
   margin-bottom: var(--space-2);
 }
 
@@ -73,23 +60,15 @@
   word-break: break-word;
 }
 
-.translation-text {
-  font-size: var(--text-body-lg);
-  font-style: italic;
-  color: var(--color-text-muted);
-  font-weight: var(--weight-medium);
-}
-
 /* ---- Listen Button ---- */
 .listen-btn {
   display: inline-flex;
   align-items: center;
   gap: var(--space-1);
-  margin-bottom: var(--space-5);
+  margin-bottom: var(--space-4);
   opacity: 0;
   animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
 }
-
 
 /* ---- Input Row ---- */
 .cloze-input-row {
@@ -105,33 +84,30 @@
   flex: 1;
 }
 
-
 #cloze-input:disabled { opacity: var(--opacity-60); cursor: not-allowed; }
-
-
 
 /* ---- Feedback ---- */
 .cloze-feedback {
   width: 100%;
-  padding: var(--space-4) var(--space-5);
+  padding: var(--space-3) var(--space-4);
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-inline-start: 3px solid var(--color-border);
   border-radius: var(--radius-lg);
   margin-bottom: var(--space-4);
+  font-size: var(--text-body);
+  line-height: var(--text-body-leading);
+  color: var(--color-text);
   animation: fadeInScale var(--duration-base) var(--transition-emphasis) both;
 }
 
-.cloze-feedback.correct   { background: var(--feedback-correct-bg); border-inline-start-color: var(--feedback-correct-border); }
-.cloze-feedback.incorrect  { background: var(--feedback-error-bg); border-inline-start-color: var(--feedback-error-border); }
-
-
-
+.cloze-feedback.correct   { background: var(--feedback-correct-bg); border-color: var(--feedback-correct-border); }
+.cloze-feedback.incorrect  { background: var(--feedback-error-bg); border-color: var(--feedback-error-border); }
 
 /* ---- Grammar chip spacing ---- */
 /* ---- Responsive ---- */
 @media (max-width: 480px) {
   .cloze-page { padding: var(--page-pad-block-mobile) var(--page-pad-x); }
-  .phrase-text { font-size: var(--text-body-lg); }
-  .cloze-input-row { flex-direction: column; }}
+  .cloze-input-row { flex-direction: column; }
+  /* En columna, flex:1 (basis 0) colapsaba el campo a 27 px. */
+  #cloze-input { flex: 0 0 auto; width: 100%; }}
 }

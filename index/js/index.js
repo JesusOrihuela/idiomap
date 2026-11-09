@@ -1,34 +1,16 @@
 document.addEventListener('DOMContentLoaded', async function () {
   // Part B: load the active pair's topics before reading topic lists.
   await AppTopics.load();
+
+  _renderHeroMap();
+  const heroMapMQ = window.matchMedia('(max-width: 640px)');
+  if (heroMapMQ.addEventListener) heroMapMQ.addEventListener('change', _renderHeroMap);
+
   // The id-map (phrase/vocab counts the path nodes need) is now fetched lazily; wait for
   // it so the "Mi Aprendizaje" preview renders with correct progress. Below the fold →
   // no effect on FCP/LCP. SW-precached, so ~instant for returning users.
   if (typeof Progress !== 'undefined' && Progress.ensureIdMap) await Progress.ensureIdMap();
   if (typeof AppPath !== 'undefined' && AppPath.load) await AppPath.load();
-
-  /* ── Hero image skew effect (solo con puntero y sin reduced-motion) ── */
-  const image = document.getElementById('skewingImage');
-  const _fine = window.matchMedia('(hover: hover) and (pointer: fine)');
-  const _still = window.matchMedia('(prefers-reduced-motion: reduce)');
-  if (image && _fine.matches && !_still.matches) {
-    let rect = null, frame = 0;
-    image.addEventListener('pointerenter', function () { rect = image.getBoundingClientRect(); });
-    image.addEventListener('pointermove', function (e) {
-      if (!rect) rect = image.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
-      cancelAnimationFrame(frame);
-      frame = requestAnimationFrame(function () {
-        image.style.transform = `skew(${(x - rect.width / 2) / 150}deg, ${(y - rect.height / 2) / 150}deg)`;
-      });
-    });
-    image.addEventListener('pointerleave', function () {
-      cancelAnimationFrame(frame);
-      rect = null;
-      image.style.transform = 'skew(0deg, 0deg)';
-    });
-  }
 
   /* ── Learning Path ── */
   if (typeof AppPath === 'undefined' || typeof Progress === 'undefined') return;
@@ -41,6 +23,166 @@ document.addEventListener('DOMContentLoaded', async function () {
 });
 
 /* ═══════════════════════════════════════════════
+   ZONE 0 — Hero map
+   ═══════════════════════════════════════════════ */
+
+function _renderHeroMap() {
+  const host = document.getElementById('hero-map');
+  if (!host) return;
+  const NS = 'http://www.w3.org/2000/svg';
+  const make = (tag, attrs) => {
+    const n = document.createElementNS(NS, tag);
+    for (const k in attrs) n.setAttribute(k, attrs[k]);
+    return n;
+  };
+  let svg = host.querySelector('svg');
+  if (!svg) {
+    svg = make('svg', { viewBox: '0 0 600 480', fill: 'none' });
+    ['hero-map-contours', 'hero-map-route', 'hero-map-stops'].forEach((id) => {
+      svg.appendChild(make('g', { id }));
+    });
+    svg.appendChild(make('path', { class: 'hero-map__compass', d: 'M50 82 v-30 m0 0 -7 11 m7 -11 7 11' }));
+    const north = make('text', { class: 'hero-map__compass-label', x: 44, y: 100 });
+    north.textContent = 'N';
+    svg.appendChild(north);
+    host.appendChild(svg);
+  }
+  const t = (key) => (typeof AppLang !== 'undefined' ? AppLang.t(key) : key);
+  const mobile = window.matchMedia('(max-width: 640px)').matches;
+  const touch = window.matchMedia('(hover: none)').matches;
+
+  // Dos composiciones: el mapa ancho de escritorio y cuatro paradas en móvil.
+  const cfg = mobile ? {
+    w: 360, h: 300, contours: 12, step: 25, base: 18,
+    ampA: 7, ampB: 3, freqA: 50, freqB: 24, sample: 10,
+    routePoints: [
+      { x: 50, y: 245 }, { x: 145, y: 225 }, { x: 105, y: 185 },
+      { x: 210, y: 172 }, { x: 170, y: 132 }, { x: 250, y: 112 }, { x: 305, y: 80 }
+    ],
+    stops: [
+      { x: 50, y: 245, key: 'hero_path_greet', level: 'A1', anchor: 'middle', dy: 30, current: true },
+      { x: 145, y: 225, key: 'hero_path_talk', level: 'A2', anchor: 'start', dx: 14, dy: 24 },
+      { x: 210, y: 172, key: 'hero_path_argue', level: 'B2', anchor: 'start', dx: 8, dy: 30 },
+      { x: 305, y: 80, key: 'hero_path_master', level: 'C2', anchor: 'middle', dx: -6, dy: -44, summit: true }
+    ]
+  } : {
+    w: 600, h: 480, contours: 16, step: 28, base: 34,
+    ampA: 11, ampB: 4, freqA: 82, freqB: 37, sample: 14,
+    routePoints: [
+      { x: 90, y: 404 }, { x: 210, y: 376 }, { x: 155, y: 326 },
+      { x: 300, y: 304 }, { x: 245, y: 254 }, { x: 390, y: 232 },
+      { x: 335, y: 182 }, { x: 470, y: 160 }, { x: 425, y: 121 },
+      { x: 520, y: 100 }
+    ],
+    stops: [
+      { x: 90, y: 404, key: 'hero_path_greet', level: 'A1', anchor: 'middle', dy: 30, current: true },
+      { x: 210, y: 376, key: 'hero_path_talk', level: 'A2', anchor: 'start', dx: 14, dy: 24 },
+      { x: 300, y: 304, key: 'hero_path_opinion', level: 'B1', anchor: 'start', dx: 8, dy: 36 },
+      { x: 390, y: 232, key: 'hero_path_argue', level: 'B2', anchor: 'start', dx: 14, dy: 28 },
+      { x: 470, y: 160, key: 'hero_path_nuance', level: 'C1', anchor: 'start', dx: 10, dy: 34 },
+      { x: 520, y: 100, key: 'hero_path_master', level: 'C2', anchor: 'middle', dx: -6, dy: -44, summit: true }
+    ]
+  };
+
+  svg.setAttribute('viewBox', `0 0 ${cfg.w} ${cfg.h}`);
+  ['hero-map-contours', 'hero-map-route', 'hero-map-stops'].forEach((id) => {
+    const g = document.getElementById(id);
+    while (g && g.firstChild) g.removeChild(g.firstChild);
+  });
+
+  // Curvas de nivel
+  const contours = document.getElementById('hero-map-contours');
+  for (let i = 0; i < cfg.contours; i++) {
+    let d = '';
+    for (let x = -20; x <= cfg.w + 20; x += cfg.sample) {
+      const y = cfg.base + i * cfg.step
+        + Math.sin(x / cfg.freqA + i * 0.65) * cfg.ampA
+        + Math.sin(x / cfg.freqB + i * 0.4) * cfg.ampB;
+      d += (x === -20 ? 'M' : 'L') + x + ' ' + y.toFixed(1);
+    }
+    contours.appendChild(make('path', {
+      d,
+      class: 'hero-map__contour',
+      'stroke-width': i % 4 === 0 ? 1.25 : 0.9,
+      opacity: i % 4 === 0 ? 0.8 : 0.45
+    }));
+  }
+
+  const smoothPath = (points) => {
+    let d = `M ${points[0].x} ${points[0].y}`;
+    for (let i = 0; i < points.length - 1; i++) {
+      const p0 = points[i - 1] || points[i];
+      const p1 = points[i];
+      const p2 = points[i + 1];
+      const p3 = points[i + 2] || p2;
+      d += ` C ${p1.x + (p2.x - p0.x) / 6} ${p1.y + (p2.y - p0.y) / 6}, ${p2.x - (p3.x - p1.x) / 6} ${p2.y - (p3.y - p1.y) / 6}, ${p2.x} ${p2.y}`;
+    }
+    return d;
+  };
+
+  document.getElementById('hero-map-route').appendChild(make('path', {
+    d: smoothPath(cfg.routePoints),
+    class: 'hero-map__route'
+  }));
+
+  const stopsG = document.getElementById('hero-map-stops');
+  cfg.stops.forEach((s) => {
+    const summit = !!s.summit;
+    const g = make('g', {
+      class: 'hero-map__stop'
+        + (s.current ? ' hero-map__stop--current' : '')
+        + (summit ? ' hero-map__stop--summit' : '')
+    });
+    // Diana invisible: el hover es cómodo sin dibujar un control.
+    g.appendChild(make('circle', { class: 'hero-map__hit', cx: s.x, cy: s.y, r: mobile ? 20 : 24 }));
+
+    if (!summit) {
+      const rays = make('g', { class: 'hero-map__rays' });
+      for (let k = 0; k < 8; k++) {
+        const a = (k / 8) * Math.PI * 2 - Math.PI / 2;
+        rays.appendChild(make('line', {
+          class: 'hero-map__ray',
+          x1: (s.x + Math.cos(a) * 10).toFixed(1),
+          y1: (s.y + Math.sin(a) * 10).toFixed(1),
+          x2: (s.x + Math.cos(a) * 18).toFixed(1),
+          y2: (s.y + Math.sin(a) * 18).toFixed(1)
+        }));
+      }
+      g.appendChild(rays);
+    } else {
+      g.appendChild(make('path', { class: 'hero-map__flag-pole', d: `M ${s.x} ${s.y} V ${s.y - 24}` }));
+      g.appendChild(make('path', { class: 'hero-map__flag', d: `M ${s.x} ${s.y - 24} l 18 6 -18 6` }));
+    }
+    g.appendChild(make('circle', { class: 'hero-map__node', cx: s.x, cy: s.y, r: 4.2 }));
+
+    const label = make('text', {
+      class: 'hero-map__label',
+      x: s.x + (s.dx || 0),
+      y: s.y + s.dy,
+      'text-anchor': s.anchor
+    });
+    const ability = make('tspan', { class: 'hero-map__label-ability', 'data-i18n': s.key });
+    ability.textContent = t(s.key);
+    const level = make('tspan', { class: 'hero-map__label-level', dx: 3 });
+    level.textContent = '· ' + s.level;
+    label.appendChild(ability);
+    label.appendChild(level);
+    g.appendChild(label);
+    // Táctil: el toque hace lo que el hover en escritorio.
+    if (touch && !summit) {
+      g.addEventListener('click', () => {
+        const open = g.classList.contains('hero-map__stop--open');
+        stopsG.querySelectorAll('.hero-map__stop--open').forEach((n) => n.classList.remove('hero-map__stop--open'));
+        if (!open) g.classList.add('hero-map__stop--open');
+      });
+    }
+    stopsG.appendChild(g);
+  });
+
+  if (typeof AppI18nDom !== 'undefined') AppI18nDom.apply(svg);
+}
+
+/* ═══════════════════════════════════════════════
    ZONE 1 — Daily session CTA card
    ═══════════════════════════════════════════════ */
 
@@ -50,7 +192,7 @@ function _ctaSubtitle(summary) {
   if (summary.newCount > 0)    parts.push(AppLang.t(summary.newCount === 1 ? 'cta_new_one' : 'cta_new_many', { n: summary.newCount }));
   if (summary.estimatedMinutes) parts.push(AppLang.t('cta_min_left', { n: summary.estimatedMinutes }));
   if (summary.skippedReviews > 0) parts.push(AppLang.t('cta_deferred', { n: summary.skippedReviews }));
-  return parts.join(' · ');
+  return parts.join(', ');
 }
 
 function _ctaArrow() {
@@ -76,10 +218,10 @@ function _renderSessionCta() {
       '<div class="path-cta__row">' +
         '<div class="path-cta__body">' +
           '<div class="path-cta__title">' + AppLang.t('cta_keep_going') + '</div>' +
-          '<div class="path-cta__sub">' + AppLang.t('cta_exercise_n', { cur: prog.current, total: prog.total }) + (remMins ? ' · ' + AppLang.t('cta_min_left', { n: remMins }) : '') + '</div>' +
+          '<div class="path-cta__sub">' + AppLang.t('cta_exercise_n', { cur: prog.current, total: prog.total }) + (remMins ? ', ' + AppLang.t('cta_min_left', { n: remMins }) : '') + '</div>' +
         '</div>' +
         (href
-          ? '<a href="my-learning/" class="btn btn--path path-cta__btn">' + AppLang.t('cta_continue') + _ctaArrow() + '</a>'
+          ? '<a href="' + _esc(href) + '" class="btn btn--path path-cta__btn">' + AppLang.t('cta_continue') + _ctaArrow() + '</a>'
           : '<span class="path-cta__done">' + AppLang.t('done_today_status') + '</span>') +
       '</div>';
     return;
@@ -113,8 +255,21 @@ function _renderSessionCta() {
         '<div class="path-cta__title">' + AppLang.t('cta_ready') + '</div>' +
         '<div class="path-cta__sub">' + _ctaSubtitle(summary) + '</div>' +
       '</div>' +
-      '<a href="my-learning/" class="btn btn--path path-cta__btn">' + AppLang.t('cta_start') + _ctaArrow() + '</a>' +
+      '<button type="button" class="btn btn--path path-cta__btn" id="path-start-btn">' + AppLang.t('cta_start') + _ctaArrow() + '</button>' +
     '</div>';
+
+  var startBtn = document.getElementById('path-start-btn');
+  if (startBtn) startBtn.addEventListener('click', _startPathSession);
+}
+
+// Start the day's session from the landing: no second "Empezar" on Mi Aprendizaje.
+function _startPathSession() {
+  var s = PathSession.getSession();
+  if (!s) s = PathSession.buildAndSave();
+  if (s && s.queue.length > 0) {
+    PathSession.start();
+    window.location.href = s.queue[s.position].href;
+  }
 }
 
 /* ═══════════════════════════════════════════════
@@ -123,7 +278,7 @@ function _renderSessionCta() {
 
 const _ACT_ICON = {
   speaking: 'mic', grammar: 'ruler', vocabulary: 'book', quiz: 'brain',
-  cloze: 'type', dictation: 'pen', translation: 'languages', scramble: 'puzzle',
+  cloze: 'pen', dictation: 'type', translation: 'languages', scramble: 'puzzle',
 };
 function _actLabel(id)   { return AppLang.t('act_' + id) || id; }
 function _topicLabel(id) {
@@ -256,24 +411,24 @@ function _buildTrailNodes(container, queue, position) {
   trail.setAttribute('role', 'presentation');
 
   // One row per page, no vertical wave: every bubble sits on the same line and
-  // the connector reads as a single rail. The topic pill is repeated only when
-  // the topic changes, so a same-topic session does not stamp it on every step.
+  // the connector reads as a single rail. Every step shows its topic pill and
+  // its state chip (the same contract as Mi Aprendizaje).
   visible.forEach(function (item, i) {
     const idx = start + i;
     const isDone = idx < position;
     const isActive = idx === position;
-    const showTopic = i === 0 || visible[i - 1].topic !== item.topic;
 
     const node = document.createElement('div');
     node.className = 'path-node' +
       (isDone ? ' path-node--done' : isActive ? ' path-node--active' : ' path-node--pending');
     node.setAttribute('role', 'listitem');
 
-    // Topic pill above the bubble, inside the reserved pin zone.
-    if (showTopic) {
+    // Pin de tema solo cuando cambia: repetirlo en cada nodo no agrupa.
+    if (i === 0 || item.topic !== visible[i - 1].topic) {
       const pin = document.createElement('div');
       pin.className = 'path-node__topic';
       pin.textContent = _topicLabel(item.topic);
+      pin.title = pin.textContent;
       node.appendChild(pin);
     }
 
@@ -298,19 +453,19 @@ function _buildTrailNodes(container, queue, position) {
     label.textContent = _actLabel(item.activityId);
     node.appendChild(label);
 
-    // Status chip below the activity label: Nuevo for the active new step,
-    // Repasar for a pending review. Steps without one keep no chip.
-    if (isActive && item.isNew) {
-      const badge = document.createElement('span');
-      badge.className = 'path-node__new-badge';
-      badge.textContent = AppLang.t('badge_new');
-      node.appendChild(badge);
-    } else if (!isDone && !item.isNew) {
-      const badge = document.createElement('span');
+    // Cada paso lleva su estado; "Nuevo" solo en el paso activo.
+    const badge = document.createElement('span');
+    if (isDone) {
+      badge.className = 'path-node__done-badge';
+      badge.textContent = AppLang.t('badge_done');
+    } else if (!item.isNew) {
       badge.className = 'path-node__review-badge';
       badge.textContent = AppLang.t('badge_review');
-      node.appendChild(badge);
+    } else if (isActive) {
+      badge.className = 'path-node__new-badge';
+      badge.textContent = AppLang.t('badge_new');
     }
+    if (badge.className) node.appendChild(badge);
 
     trail.appendChild(node);
   });
@@ -357,4 +512,27 @@ window.addEventListener('resize', function () {
     _trailStart = null;
     if (typeof _renderSessionTrail === 'function') _renderSessionTrail();
   }, 150);
+});
+
+/* Las cuatro rejillas de actividades son grids distintos, asi que
+   `grid-auto-rows: 1fr` solo iguala dentro de cada grupo. La tarjeta mas alta
+   de la pagina fija la altura de las ocho. */
+function _equalizeFeatureCards() {
+  var cards = document.querySelectorAll('.card--feature');
+  if (!cards.length) return;
+  cards.forEach(function (c) { c.style.minHeight = ''; });
+  var max = 0;
+  cards.forEach(function (c) { max = Math.max(max, c.getBoundingClientRect().height); });
+  cards.forEach(function (c) { c.style.minHeight = max + 'px'; });
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  _equalizeFeatureCards();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(_equalizeFeatureCards);
+});
+
+let _cardResizeTimer = 0;
+window.addEventListener('resize', function () {
+  clearTimeout(_cardResizeTimer);
+  _cardResizeTimer = setTimeout(_equalizeFeatureCards, 150);
 });

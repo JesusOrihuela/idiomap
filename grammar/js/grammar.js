@@ -177,16 +177,23 @@ function buildCategoryGrid() {
     // failed round rates Hard and leaves lapses ≥ 1, so it does NOT count here.
     const seen       = cardIds.filter(id => { const c = _cards && _cards[id]; return c && c.reps > 0 && (c.lapses || 0) === 0; }).length;
 
-    // Una categoría sin reglas vistas no anuncia «0 / N» (DP-03): el dato aparece al estudiarla.
-    const progressText = seen > 0 ? AppLang.t('topic_learned', { seen, total: rulesInCat.length }) : '';
+    // Misma tarjeta que el resto de actividades: panel 16:9, titulo y contador.
+    // Sin foto: el panel lleva el icono de la categoria sobre el tinte violeta.
+    const progressText = AppLang.t(rulesInCat.length === 1 ? 'grammar_topic_progress_one' : 'grammar_topic_progress',
+      { seen, total: rulesInCat.length });
     const btn = document.createElement('button');
-    btn.className = 'card card--interactive category-card';
-    btn.setAttribute('aria-label', progressText ? _catLabel(cat) + ' · ' + progressText : _catLabel(cat));
+    btn.className = 'img-topic-card';
+    btn.setAttribute('aria-label', _catLabel(cat) + ', ' + progressText);
     btn.innerHTML =
-      '<span class="category-icon"><svg class="icon" aria-hidden="true"><use href="#' + _catIcon(cat.id) + '"/></svg></span>' +
-      '<span class="category-label">' + _catLabel(cat) + '</span>' +
-      (progressText ? '<span class="category-progress">' + progressText + '</span>' : '') +
-      '<span class="card-chevron" aria-hidden="true">→</span>';
+      '<div class="img-topic-card__img-wrap category-media">' +
+        '<span class="category-icon"><svg class="icon" aria-hidden="true"><use href="#' + _catIcon(cat.id) + '"/></svg></span>' +
+      '</div>' +
+      '<div class="img-topic-card__body">' +
+        '<span class="img-topic-card__text">' +
+          '<span class="img-topic-card__title">' + _catLabel(cat) + '</span>' +
+          '<span class="img-topic-card__progress">' + progressText + '</span>' +
+        '</span>' +
+      '</div>';
 
     btn.addEventListener('click', () => showRules(cat.id));
     grid.appendChild(btn);
@@ -274,7 +281,7 @@ function showRules(categoryId) {
 
     const statusHtml = isDone
       ? '<span class="rule-row__status rule-row__status--done">' + AppLang.t('done_status') + '</span>'
-      : '<span class="rule-row__status">→</span>';
+      : '';
 
     btn.innerHTML =
       '<span class="rule-row__cefr cefr-badge cefr-badge--' + rule.level.toLowerCase() + '">' + rule.level + '</span>' +
@@ -399,8 +406,9 @@ function updatePhaseDots() {
   document.querySelectorAll('.phase-dot').forEach(dot => {
     const dp = parseInt(dot.dataset.phase, 10);
     dot.classList.toggle('phase-dot--active', dp === phase);
-    // Mark as done: either naturally passed, or skipped via re-entry
-    dot.classList.toggle('phase-dot--done', dp < phase && phase <= 5);
+    // Mark as done: either naturally passed, or skipped via re-entry. En el
+    // cierre (fase 6) las seis quedan completas.
+    dot.classList.toggle('phase-dot--done', dp < phase);
   });
 }
 
@@ -448,6 +456,7 @@ function buildPhase1() {
    PHASE 2 — Noticing Questions (interactive)
 ══════════════════════════════════════════ */
 const MIN_NOTICING_CHARS = 3; // minimum chars per answer to count as engaged
+const MIN_EXPRESS_WORDS = 3;  // produccion minima antes de ver el modelo o continuar
 
 function buildPhase2() {
   const card    = document.getElementById('noticing-card');
@@ -513,7 +522,9 @@ function checkNoticingGate(inputs, btn, progEl, total) {
 function updateNoticingProgress(el, answered, total) {
   if (!el) return;
   if (answered === 0) {
-    el.textContent = AppLang.t('answer_questions_n', { n: total });
+    // La instruccion vive en la cabecera del paso; el pie solo muestra avance
+    // cuando ya hay alguna respuesta.
+    el.textContent = '';
     el.className   = 'noticing-progress';
   } else if (answered < total) {
     el.textContent = AppLang.t('answered_n', { done: answered, total });
@@ -676,11 +687,17 @@ function showStructuredItem(idx) {
         if (!isCorrect) {
           optsEl.querySelectorAll('.option-btn')[item.correct].classList.add('option--correct');
         }
-        // Show feedback
+        // Mismo aviso que el resto: veredicto coloreado + explicacion.
         const fb = document.createElement('div');
         fb.className = 'structured-feedback' + (isCorrect ? '' : ' structured-feedback--wrong');
-        fb.innerHTML = '<span class="structured-feedback__icon"><svg class="icon" aria-hidden="true"><use href="#' + (isCorrect ? 'i-check' : 'i-close') + '"/></svg></span>';
-        fb.appendChild(document.createTextNode(item.feedback));
+        const verdict = document.createElement('p');
+        verdict.className = 'feedback-result ' + (isCorrect ? 'correct' : 'incorrect');
+        verdict.textContent = AppLang.t(isCorrect ? 'feedback_correct' : 'feedback_incorrect');
+        const why = document.createElement('span');
+        why.className = 'feedback-why';
+        why.textContent = item.feedback;
+        fb.appendChild(verdict);
+        fb.appendChild(why);
         card.appendChild(fb);
       }
 
@@ -741,7 +758,6 @@ function showProductionItem(idx) {
   // Detect number of blanks — multi-blank needs inline inputs
   const blankParts  = item.sentence.split(/_+/);
   const blankCount  = blankParts.length - 1;
-  const answerParts = (item.answer || '').split(' / ');
 
   // Always render inputs inline inside the sentence text
   const sentEl = document.createElement('div');
@@ -762,8 +778,6 @@ function showProductionItem(idx) {
       inp.autocomplete = 'off';
       inp.spellcheck   = false;
       inp.setAttribute('aria-label', AppLang.t('grammar_production_blank_n', { n: i + 1 }));
-      const hint = answerParts[i] || '';
-      inp.style.width  = Math.max(52, hint.length * 11 + 16) + 'px';
       inputs.push(inp);
       sentEl.appendChild(inp);
     }
@@ -781,26 +795,18 @@ function showProductionItem(idx) {
   }
   card.appendChild(prompt);
 
-  // Check button in its own row below the sentence
-  const checkBtn = document.createElement('button');
-  checkBtn.className   = 'btn btn--check production-check-btn';
-  checkBtn.textContent = AppLang.t('btn_verify');
-  const btnRow = document.createElement('div');
-  btnRow.className = 'production-input-row production-input-row--check-only';
-  btnRow.appendChild(checkBtn);
-  card.appendChild(btnRow);
-
   // Feedback area
   const fbEl = document.createElement('div');
   fbEl.className = 'production-feedback';
   card.appendChild(fbEl);
 
-  // Next button — in the action bar (same row as back), hidden until the answer is checked.
+  // Un solo boton en el pie: primero verifica y despues avanza. No se puede
+  // saltar la correccion.
   const pBar = document.getElementById('production-actions');
   pBar.querySelectorAll('.production-next-btn').forEach(x => x.remove());
   const nextBtn = document.createElement('button');
   nextBtn.className   = 'btn btn--primary production-next-btn';
-  nextBtn.textContent = idx + 1 < total ? AppLang.t('btn_next') : AppLang.t('btn_results');
+  nextBtn.textContent = AppLang.t('btn_verify');
   pBar.appendChild(nextBtn);
 
   // Focus first input
@@ -814,40 +820,45 @@ function showProductionItem(idx) {
     prodAnswered = true;
 
     inputs.forEach(i => { i.disabled = true; });
-    checkBtn.disabled = true;
 
     const accepted = (item.accepted || [item.answer]).map(a => AppText.normalise(a));
     const isCorrect = accepted.includes(AppText.normalise(raw));
 
-    if (isCorrect) {
-      prodCorrect++;
-      inputs.forEach(i => i.classList.add('production-input--correct'));
-      fbEl.className = 'production-feedback production-feedback--correct visible';
-      fbEl.innerHTML =
-        '<span class="feedback-answer">' + AppLang.t('correct_answer_msg', { answer: escapeHTML(item.answer) }) + '</span>' +
-        '<span class="feedback-why">' + escapeHTML(item.feedback_why) + '</span>' +
-        (item.contrast
-          ? '<span class="feedback-contrast">' + escapeHTML(item.contrast) + '</span>'
-          : '');
-    } else {
-      inputs.forEach(i => i.classList.add('production-input--wrong'));
-      fbEl.className = 'production-feedback production-feedback--wrong visible';
-      fbEl.innerHTML =
-        '<span class="feedback-answer">' + AppLang.t('incorrect_answer_msg', { answer: escapeHTML(item.answer) }) + '</span>' +
-        '<span class="feedback-why">' + escapeHTML(item.feedback_why) + '</span>' +
-        (item.contrast
-          ? '<span class="feedback-contrast">' + escapeHTML(item.contrast) + '</span>'
-          : '');
+    if (isCorrect) prodCorrect++;
+
+    // Mismo aviso que Cloze/Traduccion: veredicto + explicacion + contraste.
+    fbEl.className = 'production-feedback ' + (isCorrect ? 'correct' : 'incorrect') + ' visible';
+    fbEl.textContent = '';
+
+    const verdict = document.createElement('p');
+    verdict.className = 'feedback-result ' + (isCorrect ? 'correct' : 'incorrect');
+    verdict.textContent = AppLang.t(isCorrect ? 'correct_answer_msg' : 'incorrect_answer_msg', { answer: item.answer });
+    fbEl.appendChild(verdict);
+
+    const why = document.createElement('span');
+    why.className = 'feedback-why';
+    why.textContent = item.feedback_why;
+    fbEl.appendChild(why);
+
+    if (item.contrast) {
+      const rule = document.createElement('hr');
+      rule.className = 'feedback-divider';
+      const contrast = document.createElement('span');
+      contrast.className = 'feedback-contrast';
+      contrast.textContent = item.contrast;
+      fbEl.appendChild(rule);
+      fbEl.appendChild(contrast);
     }
 
-    nextBtn.classList.add('visible');
+    nextBtn.textContent = idx + 1 < total ? AppLang.t('btn_next') : AppLang.t('btn_results');
     nextBtn.focus();
   };
 
-  checkBtn.addEventListener('click', submit);
   inputs.forEach(inp => inp.addEventListener('keydown', e => { if (e.key === 'Enter') submit(); }));
 
   nextBtn.addEventListener('click', () => {
+    // El mismo boton hace las dos cosas: verifica primero y avanza despues.
+    if (!prodAnswered) { submit(); return; }
     prodIndex++;
     showProductionItem(prodIndex);
   });
@@ -911,9 +922,26 @@ function showExpressItem(idx) {
   const bar = document.getElementById('express-actions');
   bar.querySelectorAll('.express-next-btn').forEach(x => x.remove());
 
+  // La accion principal vive siempre en el footer: se habilita al producir,
+  // no al ver el modelo. El ejemplo es apoyo, no un peaje.
+  const nextBtn = document.createElement('button');
+  nextBtn.className = 'btn btn--primary express-next-btn';
+  nextBtn.textContent = idx + 1 < total ? AppLang.t('btn_next') : AppLang.t('btn_results');
+  nextBtn.disabled = true;
+  nextBtn.addEventListener('click', () => { expIndex++; showExpressItem(expIndex); });
+  bar.appendChild(nextBtn);
+
+  const syncExpress = () => {
+    const words = ta.value.trim().split(/\s+/).filter(Boolean).length;
+    const ready = words >= MIN_EXPRESS_WORDS;
+    nextBtn.disabled = !ready;
+    showBtn.disabled = !ready || !!card.querySelector('.express-model');
+  };
+  ta.addEventListener('input', syncExpress);
+  syncExpress();
+
   showBtn.addEventListener('click', () => {
     showBtn.disabled = true;
-    ta.readOnly = true;
 
     const model = document.createElement('div');
     model.className = 'express-model';
@@ -937,12 +965,8 @@ function showExpressItem(idx) {
     model.appendChild(self);
     card.appendChild(model);
 
-    const nextBtn = document.createElement('button');
-    nextBtn.className = 'btn btn--primary express-next-btn';
-    nextBtn.textContent = idx + 1 < total ? AppLang.t('btn_next') : AppLang.t('btn_results');
-    nextBtn.addEventListener('click', () => { expIndex++; showExpressItem(expIndex); });
-    bar.appendChild(nextBtn);
-    nextBtn.focus();
+    // El campo sigue editable: comparar sirve para corregir la propia oracion.
+    ta.focus({ preventScroll: true });
   });
 
   ta.focus();
@@ -992,9 +1016,11 @@ function buildPhaseComplete() {
     Progress.recordSession('grammar_' + currentRule.category, prodCorrect, total);
   }
 
-  // Score line
+  // Score line + barra: el texto ya da el numero, la barra solo lo refuerza.
   document.getElementById('complete-score').textContent =
     AppLang.t('score_n', { correct: prodCorrect, total, pct });
+  const _fill = document.getElementById('complete-progress');
+  if (_fill) _fill.style.transform = 'scaleX(' + (pct / 100) + ')';
 
   // Icon + title
   const iconEl  = document.querySelector('.complete-icon');
@@ -1073,6 +1099,11 @@ function buildRelatedPhrases(rule) {
     heading.textContent = AppLang.t('related_phrases');
     container.appendChild(heading);
 
+    var sub = document.createElement('p');
+    sub.className = 'related-sub';
+    sub.textContent = AppLang.t('related_phrases_sub');
+    container.appendChild(sub);
+
     var activities = [
       { href: '../cloze/',            label: AppLang.t('act_cloze') },
       { href: '../translation/', label: AppLang.t('translate_btn') },
@@ -1096,7 +1127,7 @@ function buildRelatedPhrases(rule) {
 
       activities.forEach(function(act) {
         var link = document.createElement('a');
-        link.className = 'btn btn--ghost btn--sm related-practice-btn';
+        link.className = 'btn btn--secondary btn--sm related-practice-btn';
         link.href = act.href + '?topic=' + m.topicId;
         link.textContent = act.label;
         linksEl.appendChild(link);

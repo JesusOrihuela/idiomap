@@ -302,7 +302,7 @@
         }
       },
       "category-grammar-subtle": {
-        "$value": "{color.primitive.violet-100}",
+        "$value": "{color.primitive.gray-100}",
         "$extensions": {
           "com.idiomap": {
             "cssVar": "--color-category-grammar-subtle"
@@ -359,36 +359,6 @@
           "cssVar": "--gradient-shimmer"
         }
       }
-    },
-    "grammar": {
-      "$type": "cssValue",
-      "$value": "linear-gradient(135deg, color-mix(in srgb, var(--color-category-grammar) 15%, transparent) 0%, color-mix(in srgb, var(--color-action) 10%, transparent) 100%)",
-      "$description": "Tinte del encabezado de gramática",
-      "$extensions": {
-        "com.idiomap": {
-          "cssVar": "--gradient-grammar"
-        }
-      }
-    },
-    "glow": {
-      "$type": "cssValue",
-      "$value": "radial-gradient(ellipse at center, color-mix(in srgb, var(--color-action) 6%, transparent) 0%, transparent 70%)",
-      "$description": "Halo decorativo del hero",
-      "$extensions": {
-        "com.idiomap": {
-          "cssVar": "--gradient-glow"
-        }
-      }
-    },
-    "action": {
-      "$type": "cssValue",
-      "$value": "linear-gradient(135deg, var(--color-action) 0%, var(--color-action-hover) 100%)",
-      "$description": "Botón principal de Pronunciación",
-      "$extensions": {
-        "com.idiomap": {
-          "cssVar": "--gradient-action"
-        }
-      }
     }
   },
   "shadow": {
@@ -432,20 +402,10 @@
         }
       }
     },
-    "heat-glow": {
-      "$type": "cssValue",
-      "$value": "0 0 4px color-mix(in srgb, var(--color-action) 40%, transparent)",
-      "$description": "Halo de la celda de actividad intensa",
-      "$extensions": {
-        "com.idiomap": {
-          "cssVar": "--shadow-heat-glow"
-        }
-      }
-    },
     "hint": {
       "$type": "cssValue",
-      "$value": "0 4px 14px color-mix(in srgb, var(--color-action) 28%, transparent)",
-      "$description": "Sombra del aviso de giro",
+      "$value": "var(--shadow-md)",
+      "$description": "Sombra neutra del aviso de giro",
       "$extensions": {
         "com.idiomap": {
           "cssVar": "--shadow-hint"
@@ -454,8 +414,8 @@
     },
     "hint-hover": {
       "$type": "cssValue",
-      "$value": "0 8px 20px color-mix(in srgb, var(--color-action) 36%, transparent)",
-      "$description": "Sombra del aviso de giro al pasar",
+      "$value": "var(--shadow-lg)",
+      "$description": "Sombra neutra del aviso de giro al pasar",
       "$extensions": {
         "com.idiomap": {
           "cssVar": "--shadow-hint-hover"
@@ -489,6 +449,16 @@
       "$extensions": {
         "com.idiomap": {
           "cssVar": "--shadow-inset"
+        }
+      }
+    },
+    "field": {
+      "$type": "cssValue",
+      "$value": "inset 0 0 0 2px var(--color-border)",
+      "$description": "Borde interior de un campo de una linea",
+      "$extensions": {
+        "com.idiomap": {
+          "cssVar": "--shadow-field"
         }
       }
     }

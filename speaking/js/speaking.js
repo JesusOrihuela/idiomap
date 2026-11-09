@@ -38,6 +38,14 @@ let _vadIntervalId   = null;
 let _vadAudioCtx     = null;
 const _STT_TIMEOUT_MS = 30000;
 
+// Cambia solo la etiqueta: el icono del boton (micro) se conserva.
+function _setSpeakLabel(text) {
+  const btn = document.getElementById('speakButton');
+  const label = btn && btn.querySelector('.btn-label');
+  if (label) label.textContent = text;
+  else if (btn) btn.textContent = text;
+}
+
 AppData.get('word-equivalents')
   .then(data => {
     const { flatMap } = AppText.buildEquivalenceMaps(data.groups || []);
@@ -167,6 +175,7 @@ function loadPhrases(topicId) {
         onStart: idx => _beginExercise(idx),
       };
       _openPhraseBrowser = () => PhraseBrowser.show(_pbArgs);
+    AppSessionBar.setBackTarget('back-btn', 'phrases');
       if (_pathModeActive) {
         _beginExercise(0); // _beginExercise overrides idx using _pathCardId
       } else {
@@ -252,7 +261,7 @@ function resetAttempt() {
   document.getElementById('listenButton').disabled = false;
   if (HAS_STT) {
     document.getElementById('speakButton').disabled  = false;
-    document.getElementById('speakButton').textContent = AppLang.t('speak_btn');
+    _setSpeakLabel(AppLang.t('speak_btn'));
     document.getElementById('speakButton').setAttribute('aria-label', AppLang.t('speak_btn_label'));
   }
   document.getElementById('tryAgainButton').classList.add('hidden');
@@ -396,7 +405,7 @@ async function _startRecording() {
     _isRecording = true;
 
     document.getElementById('listenButton').disabled = true;
-    document.getElementById('speakButton').textContent = AppLang.t('stop_recording');
+    _setSpeakLabel(AppLang.t('stop_recording'));
     document.getElementById('speakButton').setAttribute('aria-label', AppLang.t('stop_recording_label'));
     { document.getElementById('recognizedText').textContent = AppLang.t('recording_prompt'); document.getElementById('recognizedText').className = ''; }
 
@@ -446,7 +455,10 @@ async function _startRecording() {
     document.getElementById('recognizedText').textContent = '';
     document.getElementById('recognizedText').className = '';
     const _fbr = document.getElementById('speaking-feedback-result');
-    if (_fbr) { _fbr.textContent = '✗ Error'; _fbr.className = 'feedback-result incorrect'; }
+    if (_fbr) {
+      _fbr.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-close"/></svg><span>' + AppLang.t('feedback_error_label') + '</span>';
+      _fbr.className = 'feedback-result incorrect';
+    }
     const _sd = document.getElementById('speaking-diff');
     if (_sd) _sd.textContent = errMsg;
     const _fb = document.getElementById('speaking-feedback');
@@ -466,7 +478,7 @@ function _stopRecording() {
   if (_vadAudioCtx) { _vadAudioCtx.close().catch(() => {}); _vadAudioCtx = null; }
 
   document.getElementById('speakButton').disabled  = true;
-  document.getElementById('speakButton').textContent = AppLang.t('transcribing');
+  _setSpeakLabel(AppLang.t('transcribing'));
   document.getElementById('speakButton').setAttribute('aria-label', AppLang.t('transcribing_label'));
 
   _mediaRecorder.onstop = async () => {
@@ -510,7 +522,7 @@ function _isBlankAudio(text) {
 function _onTranscript(text) {
   clearTimeout(_sttTimeoutId);
   document.getElementById('speakButton').disabled  = false;
-  document.getElementById('speakButton').textContent = AppLang.t('speak_btn');
+  _setSpeakLabel(AppLang.t('speak_btn'));
   document.getElementById('speakButton').setAttribute('aria-label', AppLang.t('speak_btn_label'));
 
   if (_isBlankAudio(text)) {
@@ -540,7 +552,7 @@ function _showNotUnderstood() {
   document.getElementById('listenButton').disabled = false;
   if (HAS_STT) {
     document.getElementById('speakButton').disabled   = false;
-    document.getElementById('speakButton').textContent = AppLang.t('speak_btn');
+    _setSpeakLabel(AppLang.t('speak_btn'));
   }
   document.getElementById('tryAgainButton').classList.remove('hidden');
   document.getElementById('tryAgainButton').disabled = false;
@@ -551,14 +563,17 @@ function _onSttError(errMsg) {
   _isRecording = false;
   document.getElementById('listenButton').disabled = false;
   document.getElementById('speakButton').disabled  = false;
-  document.getElementById('speakButton').textContent = AppLang.t('speak_btn');
+  _setSpeakLabel(AppLang.t('speak_btn'));
   document.getElementById('speakButton').setAttribute('aria-label', AppLang.t('speak_btn_label'));
   document.getElementById('recognizedText').textContent = '';
   document.getElementById('recognizedText').className = '';
   const fbr = document.getElementById('speaking-feedback-result');
-  if (fbr) { fbr.textContent = '✗ Error'; fbr.className = 'feedback-result incorrect'; }
+  if (fbr) {
+    fbr.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-close"/></svg><span>' + AppLang.t('feedback_error_label') + '</span>';
+    fbr.className = 'feedback-result incorrect';
+  }
   const sd = document.getElementById('speaking-diff');
-  if (sd) sd.textContent = errMsg || AppLang.t('generic_error');
+  if (sd) { sd.classList.remove('hidden'); sd.textContent = errMsg || AppLang.t('generic_error'); }
   const fb = document.getElementById('speaking-feedback');
   if (fb) { fb.className = 'speaking-feedback incorrect'; fb.classList.remove('hidden'); }
   // A transcription failure is NOT a completed attempt — offer RETRY, not "Siguiente".
@@ -583,7 +598,7 @@ function displayResult(text, confidence) {
   sessionTotal++;
 
   Progress.rate(cardIds[currentIndex], PathSession.getQualityFromResult(isCorrect));
-  if (_activeAudioSlug) Progress.recordVariant(cardIds[currentIndex], _activeAudioSlug);
+  if (isCorrect && _activeAudioSlug) Progress.recordVariant(cardIds[currentIndex], _activeAudioSlug);
   if (typeof AppProficiency !== 'undefined') AppProficiency.update(cefrLevels[currentIndex], isCorrect, 'speaking');
 
   const fbr = document.getElementById('speaking-feedback-result');
@@ -591,6 +606,9 @@ function displayResult(text, confidence) {
   const fb  = document.getElementById('speaking-feedback');
 
   const card = document.getElementById('phrase-card');
+  // Un "no entendido" previo oculta el contenedor del diff: al volver a
+  // intentarlo hay que mostrarlo otra vez.
+  if (sd) sd.classList.remove('hidden');
   if (isCorrect) {
     sessionCorrect++;
     let confettiCount = 100;
@@ -631,7 +649,9 @@ function displayResult(text, confidence) {
     document.getElementById('recognizedText').textContent = '';
     document.getElementById('recognizedText').className   = '';
     if (fbr)  { fbr.textContent = AppLang.t('feedback_incorrect'); fbr.className = 'feedback-result incorrect'; }
-    if (sd)   { sd.textContent = ''; sd.appendChild(AppFeedback.buildDiff(text, AppText.closestPhrase(text, forms.map(f => f.text), contractionMap), contractionMap)); }
+    // La respuesta correcta es la forma que se esta practicando, no la variante
+    // mas parecida a lo que dijo el usuario (formal/informal).
+    if (sd)   { sd.textContent = ''; sd.appendChild(AppFeedback.buildDiff(text, _activePicked ? _activePicked.text : originalPhrase, contractionMap)); }
     if (fb)   { fb.className = 'speaking-feedback incorrect'; fb.classList.remove('hidden'); }
     if (card) { card.classList.add('phrase-card--incorrect'); }
     // document.getElementById('tryAnotherButton') stays disabled — user must Try Again
@@ -640,7 +660,7 @@ function displayResult(text, confidence) {
   document.getElementById('listenButton').disabled = false; // keep enabled so learner can replay for comparison
   if (HAS_STT) {
     document.getElementById('speakButton').disabled  = true;
-    document.getElementById('speakButton').textContent = AppLang.t('speak_btn');
+    _setSpeakLabel(AppLang.t('speak_btn'));
     document.getElementById('speakButton').setAttribute('aria-label', AppLang.t('speak_btn_label'));
   }
   const ti = document.getElementById('text-input');

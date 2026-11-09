@@ -2,27 +2,27 @@
 <html lang="es">
 
 <head>
-    <script src="../shared/js/icons.js?v=bf0d48f8"></script>
+    <script src="../shared/js/icons.js?v=b2ae20a0"></script>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://esm.sh blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://cdn.jsdelivr.net https://esm.sh https://huggingface.co https://*.huggingface.co; media-src 'self' blob:; worker-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; child-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloze · Idiomap</title>
     <link rel="canonical" href="https://jesusorihuela.github.io/idiomap/cloze/">
-    <meta name="description" content="Fill in the missing word in English phrases. Based on the generation effect · actively producing words builds 40% stronger memory than reading.">
+    <meta name="description" content="Fill in the missing word in English phrases. Based on the generation effect: actively producing words builds 40% stronger memory than reading.">
     <meta property="og:title" content="Cloze · Idiomap">
-    <meta property="og:description" content="Fill in the missing word in English phrases. Based on the generation effect · actively producing words builds 40% stronger memory than reading.">
+    <meta property="og:description" content="Fill in the missing word in English phrases. Based on the generation effect: actively producing words builds 40% stronger memory than reading.">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Idiomap">
-    <meta name="twitter:description" content="Fill-in-the-blank English phrases · the generation effect builds 40% stronger memory.">
+    <meta name="twitter:description" content="Fill-in-the-blank English phrases. The generation effect builds 40% stronger memory.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../shared/css/tokens.css?v=c503fc77">
-    <link rel="stylesheet" href="../shared/css/layout.css?v=19bc9d12">
-    <link rel="stylesheet" href="../shared/css/components.css?v=ea5c27b8">
-    <link rel="stylesheet" href="css/cloze.css?v=fa34a803">
-    <style>:root { --activity-clr: var(--amber-500); }</style>
+    <link rel="stylesheet" href="../shared/css/tokens.css?v=8620d0fa">
+    <link rel="stylesheet" href="../shared/css/layout.css?v=f77c4fc8">
+    <link rel="stylesheet" href="../shared/css/components.css?v=0bc4e4ad">
+    <link rel="stylesheet" href="css/cloze.css?v=8dc8d13f">
+
     <link rel="icon" href="../index/img/ico/favicon.ico">
     <link rel="manifest" href="../manifest.json">
     <meta name="theme-color" content="">
@@ -31,19 +31,19 @@
     <meta name="apple-mobile-web-app-title" content="Idiomap">
 
     <!-- Language scripts: must be in <head> so LangUI is set before body renders -->
-    <script src="../shared/js/pairs.js?v=d0d87bca"></script>
+    <script src="../shared/js/pairs.js?v=b16990ec"></script>
     <script src="../shared/js/languages.js?v=e2f2f8aa"></script>
-    <script src="../shared/js/lang-pair.js?v=bd479fdf"></script>
+    <script src="../shared/js/lang-pair.js?v=f205505a"></script>
     <script src="../shared/js/lang-profiles.js?v=19ba2b2c"></script>
-    <script src="../lang/ui.js?v=45820f61"></script>
+    <script src="../lang/ui.js?v=a49440fd"></script>
     <script src="../lang/target/en.js?v=22e1b310"></script>
-    <script src="../shared/js/lang.js?v=aaf848f7"></script>
+    <script src="../shared/js/lang.js?v=d5b0b751"></script>
     <script src="../shared/js/i18n-dom.js?v=3ac48a81"></script>
     <script src="../shared/js/page-title.js?v=bdfe900b"></script>
 
 </head>
 
-<body>
+<body data-activity="cloze">
     <a class="skip-link" href="#main-content" data-i18n="skip_to_main">Ir al contenido principal</a>
     <header>
         <a href="../" aria-label="Idiomap · Home" data-i18n-aria="nav_home_aria">
@@ -53,10 +53,10 @@
 
     <nav class="mode-switcher" aria-label="Modos de práctica" data-i18n-aria="nav_modes_aria">
         <a href="../" class="nav-item" data-nav="home" aria-label="Inicio" data-i18n-aria="nav_home_aria"><svg class="icon" aria-hidden="true"><use href="#i-house"/></svg></a>
-        <a href="../my-learning/" class="nav-item" data-nav="my-learning"><svg class="icon" aria-hidden="true"><use href="#i-map"/></svg> <span class="btn-label" data-i18n="nav_my_learning">Mi Aprendizaje</span></a>
+        <a href="../my-learning/" class="nav-item" data-nav="my-learning"><svg class="icon" aria-hidden="true"><use href="#i-map"/></svg> <span class="btn-label" data-i18n="nav_my_learning">Mi Ruta</span></a>
         <a href="../speaking/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-mic"/></svg> <span class="btn-label" data-i18n="nav_speaking">Pronunciación</span></a>
-        <a href="../dictation/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-pen"/></svg> <span class="btn-label" data-i18n="nav_dictation">Dictado</span></a>
-        <a href="../cloze/" class="nav-item nav-item--active active" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-type"/></svg> <span class="btn-label" data-i18n="nav_cloze">Cloze</span></a>
+        <a href="../dictation/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-type"/></svg> <span class="btn-label" data-i18n="nav_dictation">Dictado</span></a>
+        <a href="../cloze/" class="nav-item nav-item--active active" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-pen"/></svg> <span class="btn-label" data-i18n="nav_cloze">Cloze</span></a>
         <a href="../translation/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-languages"/></svg> <span class="btn-label" data-i18n="nav_translation">Traducción</span></a>
         <a href="../scramble/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-puzzle"/></svg> <span class="btn-label" data-i18n="nav_scramble">Secuencia</span></a>
         <a href="../vocabulary/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg> <span class="btn-label" data-i18n="nav_vocabulary">Vocabulario</span></a>
@@ -96,12 +96,15 @@
 
             <!-- Phrase card with blank -->
             <div class="phrase-card" id="phrase-card">
-                <div class="phrase-text" id="phrase-text" data-lang-target> · </div>
-                <div class="translation-text" id="translation-text"></div>
+                <div class="phrase-text exercise-prompt" id="phrase-text" data-lang-target></div>
+                <div class="exercise-sub" id="translation-text"></div>
             </div>
 
             <!-- Listen button (optional hint) -->
-            <button class="btn btn--secondary btn--sm listen-btn" id="listen-btn" aria-label="Escuchar la frase completa" data-i18n-aria="listen_full_phrase_aria" data-i18n="listen_btn_label"></button>
+            <button class="btn btn--secondary listen-btn" id="listen-btn" aria-label="Escuchar la frase completa" data-i18n-aria="listen_full_phrase_aria">
+                <svg class="icon" aria-hidden="true"><use href="#i-volume-2"/></svg>
+                <span class="btn-label" data-i18n="listen_btn_label"></span>
+            </button>
 
             <!-- Input row -->
             <div class="cloze-input-row">
@@ -121,14 +124,13 @@
             </div>
             <div id="grammar-chip-wrap" class="grammar-chip-wrap hidden">
                 <a id="grammar-chip" class="grammar-chip" href="../grammar/" aria-label="Abrir Taller de Gramática para esta regla" data-i18n-aria="grammar_chip_aria">
-                    <svg class="icon icon--sm" aria-hidden="true"><use href="#i-ruler"/></svg> <span id="grammar-chip-label"></span> →
-                </a>
+                    <svg class="icon icon--sm" aria-hidden="true"><use href="#i-ruler"/></svg> <span id="grammar-chip-label"></span></a>
             </div>
 
             <!-- Next / Try Again (shown after answer) -->
             <div class="action-row" id="action-row">
-                <button class="btn btn--primary hidden" id="next-btn" aria-label="Continuar a la siguiente pregunta" data-i18n-aria="next_question_aria" data-i18n="btn_next"></button>
-                <button class="btn btn--secondary hidden" id="try-again-btn" aria-label="Intentar esta pregunta de nuevo" data-i18n-aria="try_again_question_aria" data-i18n="btn_try_again"></button>
+                <button class="btn btn--next hidden" id="next-btn" aria-label="Continuar a la siguiente pregunta" data-i18n-aria="next_question_aria" data-i18n="btn_next"></button>
+                <button class="btn btn--retry hidden" id="try-again-btn" aria-label="Intentar esta pregunta de nuevo" data-i18n-aria="try_again_question_aria" data-i18n="btn_try_again"></button>
             </div>
 
         </div>
@@ -147,30 +149,30 @@
     <script src="../shared/js/flags.js?v=527c7259"></script>
     <script src="../shared/js/cefr.js?v=4737c1d0"></script>
     <script src="../shared/js/proficiency.js?v=5fd50d9f"></script>
-    <script src="../shared/js/progress.js?v=651f6d16"></script>
+    <script src="../shared/js/progress.js?v=bcc55825"></script>
     <script src="../shared/js/content.js?v=a9ebe9f2"></script>
     <script src="../shared/js/topic-data.js?v=5bf39a02"></script>
-    <script src="../shared/js/topics.js?v=4b06b99c"></script>
+    <script src="../shared/js/topics.js?v=8f5c9dae"></script>
     <script src="../shared/js/text-utils.js?v=6b441086"></script>
-    <script src="../shared/js/topic-grid.js?v=4854c2ce"></script>
+    <script src="../shared/js/topic-grid.js?v=5badb710"></script>
     <script src="../shared/js/download-panel.js?v=a19b0afb"></script>
     <script src="../shared/js/tts.js?v=820866fb"></script>
     <script src="../shared/js/audio-player.js?v=ee77eb1e"></script>
     <script src="../shared/js/grammar-chip.js?v=39eb9da2"></script>
     <script src="../shared/js/notifications.js?v=e0d3b795"></script>
-    <script src="../shared/js/phrase-browser.js?v=0e4783d3"></script>
+    <script src="../shared/js/phrase-browser.js?v=d2662e85"></script>
     <script src="../shared/js/variant-dimensions.js?v=202f6d53"></script>
-    <script src="../shared/js/feedback.js?v=2c241893"></script>
-    <script src="../shared/js/path.js?v=424ff18b"></script>
+    <script src="../shared/js/feedback.js?v=4b545bc7"></script>
+    <script src="../shared/js/path.js?v=41eb41ed"></script>
     <script src="../shared/js/path-session.js?v=f54a2937"></script>
     <script src="../shared/js/activity.js?v=25f417d6"></script>
-    <script src="../shared/js/session-bar.js?v=f3845838"></script>
+    <script src="../shared/js/session-bar.js?v=4adef2e0"></script>
     <script src="../shared/js/app-ui.js?v=c7da7d5b"></script>
-    <script src="js/cloze.js?v=53ac8393"></script>
+    <script src="js/cloze.js?v=5bb12ffb"></script>
     <script src="../shared/js/network-status.js?v=bb7c0f56"></script>
     <script src="../shared/js/theme.js?v=80cf2218"></script>
     <script src="../shared/js/milestones.js?v=f3a74ec2"></script>
-    <script src="../shared/js/nav.js?v=0988494a"></script>
+    <script src="../shared/js/nav.js?v=c9362b4e"></script>
     <script src="../shared/js/sw-register.js?v=f3fe7a26"></script>
 </body>
 

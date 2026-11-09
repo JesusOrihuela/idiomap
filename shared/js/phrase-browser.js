@@ -18,7 +18,7 @@ const PhraseBrowser = (() => {
     const trigger = document.activeElement;
     const cards     = Progress.getAllCards();
     const total     = cardIds.length;
-    const seenCount = cardIds.filter(id => { const c = cards[id]; return c && c.reps > 0; }).length;
+    const seenCount = cardIds.filter(id => Progress.isLearnedCard(cards[id])).length;
     const isWordList = total > 0 && typeof items[0] === 'object';
     const pct = total > 0 ? Math.round((seenCount / total) * 100) : 0;
 
@@ -31,7 +31,7 @@ const PhraseBrowser = (() => {
     const section = document.createElement('section');
     section.id = 'pb-section';
     section.className = 'pb-section';
-    section.setAttribute('aria-label', topicLabel + ' · ' + AppLang.t(isWordList ? 'pb_word' : 'pb_phrase'));
+    section.setAttribute('aria-label', topicLabel + ', ' + AppLang.t(isWordList ? 'pb_word' : 'pb_phrase'));
 
     /* ── Top bar ── */
     const bar = document.createElement('div');
@@ -54,37 +54,12 @@ const PhraseBrowser = (() => {
     barCount.className = 'pb-bar-count';
 
     barMeta.appendChild(barTitle);
-    // Un tema sin empezar no anuncia «0 / N Aprendidas» (DP-03).
-    if (seenCount > 0) {
-      barCount.textContent = AppLang.t('topic_learned', { seen: seenCount, total });
-      barMeta.appendChild(barCount);
-    }
-    // Variant presentation mode (F6): only when the topic actually has variants.
-    const _hasVariants = !isWordList && Array.isArray(forms) && forms.some((f) => Array.isArray(f) && f.length > 1);
-    let mode = null;
-    if (_hasVariants && typeof Progress.getVariantMode === 'function') {
-      mode = document.createElement('select');
-      mode.className = 'pb-mode-select';
-      mode.setAttribute('aria-label', AppLang.t('variant_mode_label'));
-      for (const [value, key] of [['all', 'variant_mode_all'], ['canonical', 'variant_mode_canonical']]) {
-        const opt = document.createElement('option');
-        opt.value = value;
-        opt.textContent = AppLang.t(key);
-        mode.appendChild(opt);
-      }
-      mode.value = Progress.getVariantMode();
-      // Repaint the open list in place: same section, same scroll, same focus.
-      mode.addEventListener('change', () => {
-        const y = window.scrollY;
-        Progress.setVariantMode(mode.value);
-        renderChips();
-        window.scrollTo(0, y);
-        mode.focus({ preventScroll: true });
-      });
-    }
+    // Decisión de producto: el 0 / N se muestra también al empezar.
+    barCount.textContent = AppLang.t('topic_learned', { seen: seenCount, total });
+    barMeta.appendChild(barCount);
+    // Every declared variant is practiced; the index does not offer a mode switch.
     bar.appendChild(backBtn);
     bar.appendChild(barMeta);
-    if (mode) bar.appendChild(mode);
 
     // La barra queda fija al bajar por una lista larga (DP-04).
     const nav = document.querySelector('.mode-switcher');
@@ -105,12 +80,12 @@ const PhraseBrowser = (() => {
 
     /* ── Grid ── */
     const grid = document.createElement('div');
-    grid.className = 'pb-grid';
+    grid.className = 'pb-grid' + (isWordList ? ' pb-grid--words' : '');
 
     function renderChips() {
       grid.innerHTML = '';
       items.forEach((item, i) => {
-        const seen = !!(cards[cardIds[i]] && cards[cardIds[i]].reps > 0);
+        const seen = Progress.isLearnedCard(cards[cardIds[i]]);
         let mainText;
         let subText = null;
         let variantsText = null;
@@ -127,16 +102,17 @@ const PhraseBrowser = (() => {
           // exactly where the chip actually runs out of width at each viewport.
           mainText = (traductions && traductions[i]) ? traductions[i] : item;
           const _forms = Array.isArray(forms) ? forms[i] : null;
-          if (Array.isArray(_forms) && _forms.length > 1 && typeof Progress.getVariantMode === 'function' && Progress.getVariantMode() === 'all') {
-            variantsText = _forms.map((f) => f.text).join(' · ');
+          if (Array.isArray(_forms) && _forms.length > 1) {
+            variantsText = _forms.map((f) => f.text).join(', ');
           }
-          subText = variantsText;
+          // The index shows the phrase only: the variants stay in the chip title,
+          // the aria-label and the exercise itself.
         }
 
         const chip = document.createElement('button');
         chip.className = 'pb-chip' + (seen ? ' pb-chip--seen' : '');
-        chip.title = mainText + (variantsText ? ' · ' + variantsText : '');
-        chip.setAttribute('aria-label', AppLang.t(isWordList ? 'pb_word' : 'pb_phrase') + ' ' + (i + 1) + ': ' + mainText + (variantsText ? ' · ' + variantsText : '') + (seen ? ' ' + AppLang.t('pb_learned') : ''));
+        chip.title = mainText + (variantsText ? ', ' + variantsText : '');
+        chip.setAttribute('aria-label', AppLang.t(isWordList ? 'pb_word' : 'pb_phrase') + ' ' + (i + 1) + ': ' + mainText + (variantsText ? ', ' + variantsText : '') + (seen ? ' ' + AppLang.t('pb_learned') : ''));
 
         const num = document.createElement('span');
         num.className = 'pb-chip-num';
@@ -203,14 +179,8 @@ const PhraseBrowser = (() => {
     renderChips();
 
     /* ── Assemble ── */
-    const hint = document.createElement('p');
-    hint.className = 'pb-hint';
-    hint.textContent = AppLang.t(isWordList ? 'pb_hint_words' : 'pb_hint_phrases');
-
     section.appendChild(bar);
     if (seenCount > 0) section.appendChild(track);
-
-    section.appendChild(hint);
     section.appendChild(grid);
 
     const main = document.querySelector('main');

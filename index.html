@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <script src="shared/js/icons.js?v=bf0d48f8"></script>
+    <script src="shared/js/icons.js?v=b2ae20a0"></script>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://esm.sh blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://cdn.jsdelivr.net https://esm.sh https://huggingface.co https://*.huggingface.co; media-src 'self' blob:; worker-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; child-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,10 +18,10 @@
     <meta property="og:image" content="https://jesusorihuela.github.io/idiomap/index/img/og-image.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Idiomap · learn to speak and build vocabulary">
+    <meta property="og:image:alt" content="Idiomap, learn to speak and build vocabulary">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Idiomap">
-    <meta name="twitter:description" content="Free interactive language learning · speaking, dictation, vocabulary with spaced repetition.">
+    <meta name="twitter:description" content="Free interactive language learning: speaking, dictation, and vocabulary with spaced repetition.">
     <meta name="twitter:image" content="https://jesusorihuela.github.io/idiomap/index/img/og-image.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,13 +34,13 @@
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&display=optional">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&display=optional" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&display=optional"></noscript>
-    <link rel="stylesheet" href="shared/css/tokens.css?v=c503fc77">
-    <link rel="stylesheet" href="shared/css/layout.css?v=19bc9d12">
-    <link rel="stylesheet" href="shared/css/components.css?v=ea5c27b8">
-    <link rel="stylesheet" href="index/css/index.css?v=66e3eb8d">
+    <link rel="stylesheet" href="shared/css/tokens.css?v=8620d0fa">
+    <link rel="stylesheet" href="shared/css/layout.css?v=f77c4fc8">
+    <link rel="stylesheet" href="shared/css/components.css?v=0bc4e4ad">
+    <link rel="stylesheet" href="index/css/index.css?v=36106812">
     <!-- LCP image on the landing hero - fetch it early and at high priority so mobile
          (Slow 4G) discovers it before scripts instead of after CSS+parse. -->
-    <link rel="preload" as="image" href="index/img/learn.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="index/img/ico/logo.webp" fetchpriority="high">
     <link rel="icon" href="index/img/ico/favicon.svg" type="image/svg+xml">
     <link rel="icon" href="index/img/ico/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="index/img/ico/favicon-32x32.png">
@@ -119,9 +119,11 @@
                 </div>
             </div>
 
-            <!-- Right Column -->
+            <!-- Right Column: el mapa del recorrido -->
             <div class="hero-right">
-                <img id="skewingImage" src="index/img/learn.webp" alt="Language learning illustration" width="640" height="640" fetchpriority="high" decoding="async" />
+                <div class="hero-preview" id="hero-preview" aria-hidden="true">
+                    <div class="hero-map" id="hero-map"></div>
+                </div>
             </div>
         </section>
 
@@ -129,8 +131,8 @@
         <!-- -- Learning Path -- -->
         <section class="path-section" id="path-section">
           <div class="path-intro">
-            <h2 class="path-heading" data-i18n="index_path_heading"></h2>
-            <p class="path-subheading" data-i18n="index_path_sub"></p>
+            <h2 class="section-heading" data-i18n="index_path_heading"></h2>
+            <p class="section-subheading" data-i18n="index_path_sub"></p>
           </div>
           <div class="path-card">
             <div class="path-session-cta" id="path-session-cta"><!-- JS --></div>
@@ -149,8 +151,8 @@
         <section class="activities-section">
 
             <div class="activities-intro">
-                <h2 class="activities-heading" data-i18n="index_activities_heading"></h2>
-                <p class="activities-subheading" data-i18n="index_activities_sub"></p>
+                <h2 class="section-heading" data-i18n="index_activities_heading"></h2>
+                <p class="section-subheading activities-subheading" data-i18n="index_activities_sub"></p>
             </div>
 
             <!-- Group A: Habla y Escucha -->
@@ -160,17 +162,15 @@
                 </div>
                 <div class="activity-grid activity-grid--2">
                     <a href="speaking/" class="feature-card-link" data-i18n-aria="act_speaking">
-                        <div class="card card--feature">
+                        <div class="card card--feature" data-activity="speaking">
                             <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-mic"/></svg><span data-i18n="act_speaking"></span></h4>
-                            <span class="card__benefit" data-i18n="index_card_speaking_benefit"></span>
-                            <p data-i18n="index_card_speaking_desc"></p>
+                            <p data-i18n-html="index_card_speaking_desc"></p>
                         </div>
                     </a>
                     <a href="dictation/" class="feature-card-link" data-i18n-aria="act_dictation">
-                        <div class="card card--feature">
-                            <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-pen"/></svg><span data-i18n="act_dictation"></span></h4>
-                            <span class="card__benefit" data-i18n="index_card_dictation_benefit"></span>
-                            <p data-i18n="index_card_dictation_desc"></p>
+                        <div class="card card--feature" data-activity="dictation">
+                            <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-type"/></svg><span data-i18n="act_dictation"></span></h4>
+                            <p data-i18n-html="index_card_dictation_desc"></p>
                         </div>
                     </a>
                 </div>
@@ -183,24 +183,21 @@
                 </div>
                 <div class="activity-grid activity-grid--3">
                     <a href="cloze/" class="feature-card-link" data-i18n-aria="act_cloze">
-                        <div class="card card--feature">
-                            <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-type"/></svg><span data-i18n="act_cloze"></span></h4>
-                            <span class="card__benefit" data-i18n="index_card_cloze_benefit"></span>
-                            <p data-i18n="index_card_cloze_desc"></p>
+                        <div class="card card--feature" data-activity="cloze">
+                            <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-pen"/></svg><span data-i18n="act_cloze"></span></h4>
+                            <p data-i18n-html="index_card_cloze_desc"></p>
                         </div>
                     </a>
                     <a href="translation/" class="feature-card-link" data-i18n-aria="act_translation">
-                        <div class="card card--feature">
+                        <div class="card card--feature" data-activity="translation">
                             <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-languages"/></svg><span data-i18n="act_translation"></span></h4>
-                            <span class="card__benefit" data-i18n="index_card_translation_benefit"></span>
-                            <p data-i18n="index_card_translation_desc"></p>
+                            <p data-i18n-html="index_card_translation_desc"></p>
                         </div>
                     </a>
                     <a href="scramble/" class="feature-card-link" data-i18n-aria="act_scramble">
-                        <div class="card card--feature">
+                        <div class="card card--feature" data-activity="scramble">
                             <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-puzzle"/></svg><span data-i18n="act_scramble"></span></h4>
-                            <span class="card__benefit" data-i18n="index_card_scramble_benefit"></span>
-                            <p data-i18n="index_card_scramble_desc"></p>
+                            <p data-i18n-html="index_card_scramble_desc"></p>
                         </div>
                     </a>
                 </div>
@@ -213,17 +210,15 @@
                 </div>
                 <div class="activity-grid activity-grid--2">
                     <a href="vocabulary/" class="feature-card-link" data-i18n-aria="act_vocabulary">
-                        <div class="card card--feature">
+                        <div class="card card--feature" data-activity="vocabulary">
                             <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg><span data-i18n="act_vocabulary"></span></h4>
-                            <span class="card__benefit" data-i18n="index_card_vocabulary_benefit"></span>
-                            <p data-i18n="index_card_vocabulary_desc"></p>
+                            <p data-i18n-html="index_card_vocabulary_desc"></p>
                         </div>
                     </a>
                     <a href="quiz/" class="feature-card-link" data-i18n-aria="act_quiz">
-                        <div class="card card--feature">
+                        <div class="card card--feature" data-activity="quiz">
                             <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-brain"/></svg><span data-i18n="act_quiz"></span></h4>
-                            <span class="card__benefit" data-i18n="index_card_quiz_benefit"></span>
-                            <p data-i18n="index_card_quiz_desc"></p>
+                            <p data-i18n-html="index_card_quiz_desc"></p>
                         </div>
                     </a>
                 </div>
@@ -236,10 +231,9 @@
                 </div>
                 <div class="activity-grid activity-grid--3">
                     <a href="grammar/" class="feature-card-link" data-i18n-aria="act_grammar">
-                        <div class="card card--feature">
+                        <div class="card card--feature" data-activity="grammar">
                             <h4 class="card__title"><svg class="icon" aria-hidden="true"><use href="#i-ruler"/></svg><span data-i18n="act_grammar"></span></h4>
-                            <span class="card__benefit" data-i18n="index_card_grammar_benefit"></span>
-                            <p data-i18n="index_card_grammar_desc"></p>
+                            <p data-i18n-html="index_card_grammar_desc"></p>
                         </div>
                     </a>
                 </div>
@@ -252,34 +246,33 @@
 
     <!-- -- Onboarding Modal -- -->
     <div id="ob-overlay" class="dialog-overlay ob-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="ob-title">
-        <div class="dialog ob-modal">
+        <div class="ob-modal">
+            <div class="ob-progress" aria-hidden="true">
+                <span class="ob-progress__seg is-on"></span>
+                <span class="ob-progress__seg"></span>
+                <span class="ob-progress__seg"></span>
+                <span class="ob-progress__seg"></span>
+                <span class="ob-progress__seg"></span>
+            </div>
 
- <button class="icon-btn icon-btn--overlay ob-close" id="ob-close" aria-label="" data-i18n-aria="ob_close_aria"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+ <button class="icon-btn ob-close" id="ob-close" aria-label="" data-i18n-aria="ob_close_aria"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
 
             <div class="ob-inner">
-
-            <!-- Progress dots -->
-            <div class="ob-dots" aria-hidden="true">
-                <span class="ob-dot active"></span>
-                <span class="ob-dot"></span>
-                <span class="ob-dot"></span>
-                <span class="ob-dot"></span>
-            </div>
+            <p class="ob-step-count" id="ob-step-count">2 / 5</p>
 
             <!-- -- Step 0: How it works -- -->
             <div class="ob-step" id="ob-step-0">
-                <div class="ob-hero-icon"><svg class="icon" aria-hidden="true"><use href="#i-megaphone"/></svg></div>
-                <h2 class="ob-title" id="ob-title" data-i18n="ob_title_how"></h2>
+                <div class="ob-mark"><svg class="icon icon--xl" aria-hidden="true"><use href="#i-compass"/></svg></div>
+                <h2 class="ob-title" id="ob-title" tabindex="-1" data-i18n="ob_title_how"></h2>
                 <p class="ob-body" data-i18n-html="ob_body_how"></p>
-                <button class="btn btn--primary" id="ob-next-0" data-i18n="ob_btn_find_level"></button>
             </div>
 
             <!-- -- Step 1: Topic Preferences -- -->
             <div class="ob-step hidden" id="ob-step-1">
-                <h2 class="ob-title" data-i18n="ob_title_topics"></h2>
+                <h2 class="ob-title" id="ob-title-1" tabindex="-1" data-i18n="ob_title_topics"></h2>
                 <p class="ob-body ob-body--sm" data-i18n="ob_body_topics"></p>
-                <div class="ob-topic-bubbles" id="ob-topic-bubbles"></div>
-                <button class="btn btn--primary" id="ob-topics-done" type="button" data-i18n="ob_btn_topics_done"></button>
+                <input class="field__input ob-search" id="ob-topic-search" type="search" autocomplete="off" data-i18n-placeholder="ob_search_ph" data-i18n-aria="ob_search_aria">
+                <div class="prog-bubbles" id="ob-topic-bubbles"></div>
             </div>
 
             <!-- -- Step 2: Placement Quiz -- -->
@@ -292,7 +285,7 @@
                     <div class="progress-bar__fill ob-quiz-fill" id="ob-quiz-fill"></div>
                 </div>
                 <p class="ob-quiz-q" id="ob-quiz-q"></p>
-                <div class="ob-quiz-opts" id="ob-quiz-opts"></div>
+                <div class="ob-quiz-opts" id="ob-quiz-opts" role="group" aria-labelledby="ob-quiz-q"></div>
                 <button class="btn btn--ghost btn--sm ob-quiz-skip" id="ob-quiz-skip" data-i18n="ob_quiz_skip"></button>
                 <div class="ob-quiz-manual hidden" id="ob-quiz-manual">
                     <p class="ob-quiz-manual-label" data-i18n="ob_manual_label"></p>
@@ -305,15 +298,18 @@
 
             <!-- -- Step 3: Welcome -- -->
             <div class="ob-step hidden" id="ob-step-3">
-                <div class="ob-hero-icon"><svg class="icon" aria-hidden="true"><use href="#i-party"/></svg></div>
-                <h2 class="ob-title" data-i18n="ob_title_done"></h2>
+                <div class="ob-mark"><svg class="icon icon--xl" aria-hidden="true"><use href="#i-mountain"/></svg></div>
+                <h2 class="ob-title" id="ob-title-3" tabindex="-1" data-i18n="ob_title_done"></h2>
                 <p class="ob-body ob-body--sm" id="ob-welcome-msg"></p>
-                <button class="btn btn--primary" id="ob-go-path" type="button" data-i18n="ob_btn_go_path"></button>
-                <button class="btn btn--ghost btn--sm" id="ob-go-free" type="button" data-i18n="ob_btn_explore"></button>
             </div>
 
             </div><!-- /ob-inner -->
-            <div class="ob-footer-stripe" aria-hidden="true"></div>
+            <div class="ob-actions" id="ob-actions" hidden>
+                <button class="btn btn--primary" id="ob-next-0" type="button" data-i18n="ob_btn_find_level" hidden></button>
+                <button class="btn btn--primary" id="ob-topics-done" type="button" data-i18n="ob_btn_topics_done" hidden></button>
+                <button class="btn btn--primary" id="ob-go-path" type="button" data-i18n="ob_btn_go_path" hidden></button>
+                <button class="btn btn--ghost btn--sm" id="ob-go-free" type="button" data-i18n="ob_btn_explore" hidden></button>
+            </div>
         </div>
     </div>
 
@@ -328,13 +324,13 @@
 
     <script src="shared/js/flags.js?v=527c7259"></script>
     <script src="shared/js/cefr.js?v=4737c1d0"></script>
-    <script src="shared/js/pairs.js?v=d0d87bca"></script>
+    <script src="shared/js/pairs.js?v=b16990ec"></script>
     <script src="shared/js/languages.js?v=e2f2f8aa"></script>
-    <script src="shared/js/lang-pair.js?v=bd479fdf"></script>
+    <script src="shared/js/lang-pair.js?v=f205505a"></script>
     <script src="shared/js/proficiency.js?v=5fd50d9f"></script>
-    <script src="lang/ui.js?v=45820f61"></script>
+    <script src="lang/ui.js?v=a49440fd"></script>
     <script src="lang/target/en.js?v=22e1b310"></script>
-    <script src="shared/js/lang.js?v=aaf848f7"></script>
+    <script src="shared/js/lang.js?v=d5b0b751"></script>
     <script src="shared/js/i18n-dom.js?v=3ac48a81"></script>
     <script>
       /* -- Pair Selection + Onboarding Modal + Embedded Placement Quiz -- */
@@ -445,7 +441,17 @@
           if (goPathBtn)  goPathBtn.textContent  = AppLang.t('ob_btn_go_path');
           if (goFreeBtn)  goFreeBtn.textContent  = AppLang.t('ob_btn_explore');
           overlay.classList.remove('hidden');
-          document.getElementById('ob-close').focus();
+          goStep(0);
+        }
+
+        function syncActions(n) {
+          var actions = document.getElementById('ob-actions');
+          if (!actions) return;
+          actions.hidden = n === 2;
+          document.getElementById('ob-next-0').hidden = n !== 0;
+          document.getElementById('ob-topics-done').hidden = n !== 1;
+          document.getElementById('ob-go-path').hidden = n !== 3;
+          document.getElementById('ob-go-free').hidden = n !== 3;
         }
 
         function dismiss() {
@@ -458,9 +464,24 @@
         function goStep(n) {
           document.querySelectorAll('.ob-step').forEach(function (el) { el.classList.add('hidden'); });
           document.getElementById('ob-step-' + n).classList.remove('hidden');
-          document.querySelectorAll('.ob-dot').forEach(function (dot, i) {
-            dot.classList.toggle('active', i === n);
+          var labels = ['ob-title', 'ob-title-1', 'ob-quiz-q', 'ob-title-3'];
+          overlay.setAttribute('aria-labelledby', labels[n] || 'ob-title');
+          document.querySelectorAll('.ob-progress__seg').forEach(function (seg, i) {
+            seg.classList.toggle('is-on', i <= n + 1);
           });
+          var count = document.getElementById('ob-step-count');
+          if (count) count.textContent = (n + 2) + ' / 5';
+          syncActions(n);
+          setTimeout(function () {
+            if (n === 2) {
+              var opt = document.querySelector('#ob-quiz-opts .ob-opt-btn');
+              if (opt) opt.focus();
+              return;
+            }
+            var id = n === 1 ? 'ob-title-1' : n === 3 ? 'ob-title-3' : 'ob-title';
+            var target = document.getElementById(id);
+            if (target) target.focus();
+          }, 0);
         }
 
         // Score ? CEFR, proportional to the question count (pairs differ: 14 vs 6), so the same
@@ -506,9 +527,14 @@
           quizAnswered = false;
           q.options.forEach(function (opt, idx) {
             var btn = document.createElement('button');
-            btn.className = 'btn btn--secondary ob-opt-btn';
-            btn.textContent = opt;
-            btn.setAttribute('role', 'listitem');
+            btn.type = 'button';
+            btn.className = 'ob-opt-btn';
+            var letter = document.createElement('span');
+            letter.className = 'ob-opt-idx';
+            letter.setAttribute('aria-hidden', 'true');
+            letter.textContent = String.fromCharCode(65 + idx);
+            btn.appendChild(letter);
+            btn.appendChild(document.createTextNode(opt));
             btn.addEventListener('click', function () { selectOption(idx); });
             optsEl.appendChild(btn);
           });
@@ -551,22 +577,48 @@
         function renderTopicBubbles() {
           var container = document.getElementById('ob-topic-bubbles');
           if (container.children.length) return;
+          var saved = new Set();
+          try {
+            saved = new Set(JSON.parse(localStorage.getItem(AppLangPair.storageKey('pe_topic_preferences')) || '[]'));
+          } catch (e) { /* preferencias ilegibles: empieza sin seleccion */ }
           (typeof AppTopics !== 'undefined' ? AppTopics.PHRASE_TOPICS : []).forEach(function (t) {
             var btn = document.createElement('button');
-            btn.className = 'chip ob-bubble';
+            var isOn = saved.has(t.id);
+            btn.className = 'prog-bubble' + (isOn ? ' prog-bubble--on' : '');
             btn.type = 'button';
             var _label = (typeof AppTopics !== 'undefined' && AppTopics.getLabel)
               ? AppTopics.getLabel(t)
               : ((_isEnSrc && t.labelEn) ? t.labelEn : t.label);
-            btn.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#' + AppTopicIcon.of(t.id) + '"/></svg><span>' + _label + '</span>';
+            var icon = document.createElement('span');
+            icon.className = 'prog-bubble-icon';
+            icon.setAttribute('aria-hidden', 'true');
+            icon.innerHTML = '<svg class="icon"><use href="#' + AppTopicIcon.of(t.id) + '"/></svg>';
+            var text = document.createElement('span');
+            text.className = 'prog-bubble-label';
+            text.textContent = _label;
+            btn.replaceChildren(icon, text);
             btn.dataset.id = t.id;
-            btn.addEventListener('click', function () { btn.classList.toggle('chip--on'); });
+            btn.setAttribute('aria-pressed', isOn ? 'true' : 'false');
+            btn.addEventListener('click', function () {
+              var on = btn.classList.toggle('prog-bubble--on');
+              btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+            });
             container.appendChild(btn);
           });
+          var search = document.getElementById('ob-topic-search');
+          if (search && !search.dataset.bound) {
+            search.dataset.bound = '1';
+            search.addEventListener('input', function () {
+              var q = search.value.trim().toLowerCase();
+              Array.from(container.children).forEach(function (b) {
+                b.hidden = q !== '' && b.textContent.toLowerCase().indexOf(q) === -1;
+              });
+            });
+          }
         }
 
         document.getElementById('ob-topics-done').addEventListener('click', function () {
-          var on = Array.from(document.querySelectorAll('#ob-topic-bubbles .chip--on'))
+          var on = Array.from(document.querySelectorAll('#ob-topic-bubbles .prog-bubble--on'))
                        .map(function (b) { return b.dataset.id; });
           localStorage.setItem(AppLangPair.storageKey('pe_topic_preferences'), JSON.stringify(on));
           quizIdx = 0; quizScore = 0;
@@ -669,60 +721,143 @@
           var _lang  = _PICKER_UI[_navCode] ? _navCode : 'en';
           var _s     = _PICKER_UI[_lang];
           var _pairs = AppLangPair.getShippable();
+          // El par que se previsualiza y los del idioma base del navegador van
+          // primero; el resto conserva su orden.
+          var _activeId = AppLangPair.getActive().id;
+          _pairs.sort(function (a, b) {
+            if (a.id === _activeId) return -1;
+            if (b.id === _activeId) return 1;
+            var am = a.source.code === _navCode ? 0 : 1;
+            var bm = b.source.code === _navCode ? 0 : 1;
+            return am - bm;
+          });
 
           var picker = document.createElement('div');
           picker.id  = 'lp-picker';
-          picker.className = 'dialog-overlay dialog-overlay--solid ob-overlay';
+          picker.className = 'lp-overlay';
           picker.setAttribute('role', 'dialog');
           picker.setAttribute('aria-modal', 'true');
-          picker.setAttribute('aria-label', _s.title);
+          picker.setAttribute('aria-labelledby', 'lp-title');
+
+          function _icon(name, cls) {
+            var NS = 'http://www.w3.org/2000/svg';
+            var svg = document.createElementNS(NS, 'svg');
+            svg.setAttribute('class', 'icon' + (cls ? ' ' + cls : ''));
+            svg.setAttribute('aria-hidden', 'true');
+            var use = document.createElementNS(NS, 'use');
+            use.setAttribute('href', '#i-' + name);
+            svg.appendChild(use);
+            return svg;
+          }
+
+          var _FLAG_PREF = {
+            es: 'es', en: 'gb', de: 'de', pl: 'pl', fi: 'fi', no: 'no',
+            sv: 'se', pt: 'pt', it: 'it', fr: 'fr', nl: 'nl',
+            cs: 'cz', da: 'dk', et: 'ee', lv: 'lv', lt: 'lt'
+          };
+
+          function _langItem(lang, target) {
+            var wrap = document.createElement('span');
+            wrap.className = 'lp-pair__lang' + (target ? ' lp-pair__lang--target' : '');
+            var flag = _FLAG_PREF[lang.code];
+            if (!flag) {
+              var list = lang.flags || [];
+              flag = list.length ? list[list.length - 1] : '';
+            }
+            if (flag && typeof AppFlags !== 'undefined') {
+              try {
+                var img = AppFlags.flagImg(flag);
+                img.className = 'lp-flag';
+                wrap.appendChild(img);
+              } catch (e) { /* sin bandera */ }
+            }
+            var name = document.createElement('span');
+            name.className = 'lp-pair__name';
+            name.textContent = lang.name;
+            wrap.appendChild(name);
+            return wrap;
+          }
 
           var modal = document.createElement('div');
-          modal.className = 'dialog ob-modal';
+          modal.className = 'ob-modal lp-modal';
+
+          var progress = document.createElement('div');
+          progress.className = 'ob-progress';
+          progress.setAttribute('aria-hidden', 'true');
+          for (var i = 0; i < 5; i++) {
+            var seg = document.createElement('span');
+            seg.className = 'ob-progress__seg' + (i === 0 ? ' is-on' : '');
+            progress.appendChild(seg);
+          }
+          modal.appendChild(progress);
+
+          var close = document.createElement('button');
+          close.type = 'button';
+          close.className = 'icon-btn ob-close';
+          close.id = 'lp-close';
+          var _closeLabel = (typeof AppLang !== 'undefined') ? AppLang.t('ob_close_aria') : '';
+          if (!_closeLabel || _closeLabel === 'ob_close_aria') _closeLabel = 'Close';
+          close.setAttribute('aria-label', _closeLabel);
+          close.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>';
+          close.addEventListener('click', function () {
+            // Cerrar = usar el par previsualizado y saltar la introduccion.
+            AppLangPair.setActive(AppLangPair.getActive().id);
+            if (typeof AppProficiency !== 'undefined') AppProficiency.initDefault();
+            localStorage.setItem(AppLangPair.storageKey('pe_onboarded'), '1');
+            location.reload();
+          });
+          modal.appendChild(close);
 
           var inner = document.createElement('div');
           inner.className = 'ob-inner';
 
-          var icon = document.createElement('div');
-          icon.className = 'ob-hero-icon';
- icon.textContent = '';
-          inner.appendChild(icon);
+          var step = document.createElement('div');
+          step.className = 'ob-step';
+
+          var count = document.createElement('p');
+          count.className = 'ob-step-count';
+          count.textContent = '1 / 5';
+          step.appendChild(count);
+
+          var mark = document.createElement('div');
+          mark.className = 'ob-mark';
+          mark.innerHTML = '<svg class="icon icon--xl" aria-hidden="true"><use href="#i-compass"/></svg>';
+          step.appendChild(mark);
 
           var title = document.createElement('h2');
           title.className = 'ob-title';
-          title.id = 'ob-title';
+          title.id = 'lp-title';
+          title.tabIndex = -1;
           title.textContent = _s.title;
-          inner.appendChild(title);
+          step.appendChild(title);
 
           var sub = document.createElement('p');
-          sub.className = 'ob-body ob-body--sm';
+          sub.className = 'ob-body';
           sub.textContent = _s.subtitle;
-          inner.appendChild(sub);
+          step.appendChild(sub);
 
           var cards = document.createElement('div');
-          cards.className = 'lp-picker-cards';
+          cards.className = 'lp-grid';
 
           _pairs.forEach(function (pair) {
             var card = document.createElement('button');
             card.type = 'button';
-            card.className = 'choice choice--row lp-picker-card';
+            card.className = 'lp-pair';
             card.setAttribute('aria-label', pair.label);
-            if (pair.source.code === _lang) card.classList.add('choice--selected');
 
-            if (typeof AppFlags !== 'undefined') {
-              card.appendChild(AppFlags.langFlags(pair.source.flags));
-              var arrow = document.createElement('span');
-              arrow.className = 'lp-picker-card__arrow';
-              arrow.setAttribute('aria-hidden', 'true');
-              arrow.textContent = '?';
-              card.appendChild(arrow);
-              card.appendChild(AppFlags.langFlags(pair.target.flags));
-            }
+            var row = document.createElement('span');
+            row.className = 'lp-pair__row';
+            row.appendChild(_langItem(pair.source, false));
 
-            var label = document.createElement('span');
-            label.className = 'lp-picker-card__label';
-            label.textContent = pair.label;
-            card.appendChild(label);
+            var arrow = document.createElement('span');
+            arrow.className = 'lp-pair__sep';
+            arrow.setAttribute('aria-hidden', 'true');
+            arrow.textContent = '→';
+            row.appendChild(arrow);
+
+            row.appendChild(_langItem(pair.target, true));
+            card.appendChild(row);
+            card.appendChild(_icon('chevron-right', 'lp-pair__chevron'));
 
             card.addEventListener('click', function () {
               AppLangPair.setActive(pair.id);
@@ -732,14 +867,9 @@
             cards.appendChild(card);
           });
 
-          inner.appendChild(cards);
-
-          var stripe = document.createElement('div');
-          stripe.className = 'ob-footer-stripe';
-          stripe.setAttribute('aria-hidden', 'true');
-
+          step.appendChild(cards);
+          inner.appendChild(step);
           modal.appendChild(inner);
-          modal.appendChild(stripe);
           picker.appendChild(modal);
           document.body.appendChild(picker);
 
@@ -749,8 +879,7 @@
             if (el !== picker && 'inert' in el) el.inert = true;
           });
 
-          var firstCard = picker.querySelector('.lp-picker-card');
-          if (firstCard) setTimeout(function () { firstCard.focus(); }, 50);
+          setTimeout(function () { title.focus(); }, 50);
         }
       })();
     </script>
@@ -760,15 +889,15 @@
          stopping to fetch each one sequentially - the big win on Slow 4G. They still run
          in document order before DOMContentLoaded (which reveals the cloak), so the path
          preview, theme and stat are all filled before first paint. -->
-    <script defer src="shared/js/progress.js?v=651f6d16"></script>
+    <script defer src="shared/js/progress.js?v=bcc55825"></script>
     <script defer src="shared/js/content.js?v=a9ebe9f2"></script>
     <script defer src="shared/js/topic-data.js?v=5bf39a02"></script>
-    <script defer src="shared/js/topics.js?v=4b06b99c"></script>
-    <script defer src="shared/js/path.js?v=424ff18b"></script>
+    <script defer src="shared/js/topics.js?v=8f5c9dae"></script>
+    <script defer src="shared/js/path.js?v=41eb41ed"></script>
     <script defer src="shared/js/path-session.js?v=f54a2937"></script>
     <script defer src="shared/js/milestones.js?v=f3a74ec2"></script>
     <script defer src="shared/js/notifications.js?v=e0d3b795"></script>
-    <script defer src="index/js/index.js?v=2618e64f"></script>
+    <script defer src="index/js/index.js?v=9d2a34df"></script>
     <script defer src="shared/js/network-status.js?v=bb7c0f56"></script>
     <script defer src="shared/js/theme.js?v=80cf2218"></script>
     <script>

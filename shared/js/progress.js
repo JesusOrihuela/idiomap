@@ -321,23 +321,10 @@ const Progress = (() => {
 
   // Return the audio-eligible form the learner has practiced least for this card
   // (ties broken randomly). Falls back to the first form for single-form phrases.
-  // Variant mode (F6): 'all' rotates through every declared form (default, current
-  // behaviour); 'canonical' always uses the first form. Presentation only — SRS and
-  // per-form coverage are unchanged.
-  const VARIANT_MODE_KEY = 'pe_variant_mode';
-  function getVariantMode() {
-    try { return localStorage.getItem(AppLangPair.storageKey(VARIANT_MODE_KEY)) || 'all'; }
-    catch (_) { return 'all'; }
-  }
-  function setVariantMode(mode) {
-    if (!['canonical', 'all'].includes(mode)) return;
-    try { localStorage.setItem(AppLangPair.storageKey(VARIANT_MODE_KEY), mode); } catch (_) {}
-  }
-
+  // Every declared form is practiced (there is no "canonical only" mode).
   function pickVariant(id, forms) {
     const pool = (forms || []).filter(f => f && f.audioSlug);
     if (pool.length <= 1) return pool[0] || (forms || [])[0] || null;
-    if (getVariantMode() === 'canonical') return pool[0];
     const card   = _load().cards[id];
     const counts = (card && card.variants) || {};
     let min = Infinity;
@@ -418,6 +405,12 @@ const Progress = (() => {
     return 'mastered';
   }
 
+  // "Aprendida" en la UI = aprobada al menos una vez y sin un fallo pendiente.
+  // Un intento fallido (reps 1 + lapses 1) no debe pintarse en verde.
+  function isLearnedCard(card) {
+    return !!card && card.reps > 0 && (card.lapses || 0) === 0;
+  }
+
   // ── Scheduling ────────────────────────────────────────────────────────
 
   /**
@@ -478,7 +471,13 @@ const Progress = (() => {
       correct,
       total
     });
-    if (data._sessions.length > 100) data._sessions.shift();
+    // The profile chart covers 60 days; keep 90 days of sessions so a few
+    // sessions per day cannot drop whole days from the chart (the old
+    // 100-session cap did). 2000 is a storage safety net.
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - 90);
+    const minDate = cutoff.toLocaleDateString('sv');
+    data._sessions = data._sessions.filter(s => s.date >= minDate).slice(-2000);
 
     const today = new Date().toLocaleDateString('sv');
     const yd = new Date(); yd.setDate(yd.getDate() - 1);
@@ -582,7 +581,7 @@ const Progress = (() => {
    */
   function getStatsForCards(ids) {
     const data = _load();
-    const seen = ids.filter(id => { const c = data.cards[id]; return c && c.reps > 0; }).length;
+    const seen = ids.filter(id => isLearnedCard(data.cards[id])).length;
     return { seen, total: ids.length };
   }
 
@@ -595,11 +594,10 @@ const Progress = (() => {
     getCard,
     rate,
     pickVariant,
-    getVariantMode,
-    setVariantMode,
     recordVariant,
     getVariantCoverage,
     getMastery,
+    isLearnedCard,
     getNextIndex,
     getPhraseIds,
     getVocabIds,

@@ -16,17 +16,34 @@
   flex: 1;
 }
 
-#vocab-content { display: flex; flex-direction: column; align-items: center; }
+/* Ancho fijo: sin `width: 100%` la columna se encogia al contenido y la
+   tarjeta cambiaba de ancho con la definicion de cada palabra. */
+#vocab-content { width: 100%; flex: 1; display: flex; flex-direction: column; align-items: center; }
 
-
-
-
+/* ---- Title + instruction ---- */
+.vocab-title {
+  margin-top: var(--space-8);
+  margin-bottom: var(--space-1);
+  opacity: 0;
+  animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
+}
+.vocab-title span { color: var(--color-action); }
+.vocab-subtitle {
+  /* Sin margen inferior: la ficha se centra entre la instruccion y el fondo
+     con dos margenes automaticos iguales. */
+  margin-bottom: 0;
+  opacity: 0;
+  animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
+}
 
 /* ---- Flashcard (3-D flip) ---- */
 .flashcard-scene {
   width: 100%;
-  max-width: var(--measure-2xl);
-  margin: 0 auto var(--space-6);
+  max-width: var(--measure-xl);
+  /* Centrada verticalmente entre la instruccion y el boton Siguiente; el
+     relleno superior garantiza aire cuando el contenido es largo. */
+  margin: auto;
+  padding-top: var(--space-3);
   perspective: var(--flip-perspective);
   cursor: pointer;
   animation: fadeInScale var(--duration-base) var(--transition-emphasis) both;
@@ -34,7 +51,10 @@
 
 .flashcard {
   width: 100%;
+  position: relative;
   display: grid;
+  /* Ambas caras ocupan la misma celda: el alto lo fija la mas alta y girar no
+     cambia el tamano de la tarjeta (sin saltos ni scroll interno). */
   transform-style: preserve-3d;
   transition: transform var(--duration-slow) cubic-bezier(0.4, 0.2, 0.2, 1);
 }
@@ -66,17 +86,30 @@
   min-height: var(--panel-min-h);
 }
 
-/* Back face — grid-stacked, flipped 180° so it shows when parent rotates */
+/* Back face - grid-stacked, flipped 180° so it shows when parent rotates.
+   En flujo, como la cara frontal: si el contenido crece (definicion larga,
+   ejemplo, variantes) lo hace la tarjeta, no un scroll dentro de la cara. */
 .flashcard-back {
   position: relative;
   transform: rotateY(180deg);
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  padding: var(--space-6) var(--space-7);
+  padding: var(--space-5) var(--space-7) var(--space-4);
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: var(--space-3);
 }
+
+/* Dorso a una columna, como el resto de ejercicios: palabra + Escuchar en la
+   primera fila; definicion, ejemplo y traduccion a ancho completo. */
+.fc-back-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  min-width: 0;
+}
+.fc-back-head .fc-back-word { margin-bottom: 0; min-width: 0; }
 
 /* ---- Front Content ---- */
 .fc-front-top {
@@ -93,12 +126,11 @@
   color: var(--color-text-muted);
 }
 
-
 .word-text {
-  font-size: var(--text-display-md);
-  font-weight: var(--weight-semibold);
+  font-size: var(--text-headline);
+  font-weight: var(--weight-medium);
   color: var(--color-text);
-  line-height: var(--text-display-md-leading);
+  line-height: var(--text-headline-leading);
   margin-bottom: var(--space-5);
   /* word + its region/register badge on one row (badge stays small beside the large word) */
   display: flex;
@@ -110,7 +142,7 @@
    a centered, normal-size stack of the grouped tagged chips. */
 .word-text.word-text--variants {
   font-size: var(--text-body-lg);
-  font-weight: var(--weight-semibold);
+  font-weight: var(--weight-medium);
   width: 100%;
   flex-direction: column;
   align-items: center;
@@ -119,15 +151,12 @@
   margin-bottom: var(--space-5);
 }
 
-
-
 .listen-btn {
   display: inline-flex;
   align-items: center;
   gap: var(--space-1);
   margin-bottom: var(--space-4);
 }
-
 
 .flip-hint {
   font-size: var(--text-body);
@@ -150,7 +179,6 @@
   box-shadow: var(--shadow-hint-hover);
   }
 }
-
 
 /* ---- Back Content ---- */
 .fc-back-word {
@@ -193,13 +221,6 @@
 
 /* Definition row: the definition text (left) + a two-flag language switch (right), vertically
    centered on the SAME line as the definition. */
-.fc-def-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-3);
-}
-.fc-def-row .word-definition { flex: 1; }
 /* El foco entra aquí para que el lector anuncie la palabra; no es un control y no lleva anillo. */
 .fc-back-word:focus,
 .fc-back-word:focus-visible { outline: none; }
@@ -221,10 +242,19 @@
 .fc-def-side .flag-stack { transform: scale(0.7); transform-origin: center; margin: -3px -var(--offset-2xs); }
 .fc-def-side img { display: block; border-radius: var(--radius-2xs); }
 
-
+.fc-def-head {
+  display: flex;
+  align-items: center;
+  /* El selector de idioma va junto a la etiqueta, no en la esquina: la
+     esquina superior derecha es del badge CEFR. */
+  justify-content: flex-start;
+  gap: var(--space-2);
+  margin-bottom: var(--space-1);
+}
+.fc-def-head .fc-label { margin-bottom: 0; }
 
 .fc-definition-block {
-  margin-bottom: var(--space-3);
+  margin-bottom: 0;
 }
 
 .word-definition {
@@ -234,14 +264,8 @@
   line-height: var(--text-body-lg-leading);
 }
 
-.fc-divider {
-  height: 1px;
-  background: var(--color-border);
-  margin-bottom: var(--space-3);
-}
-
 .fc-example-block {
-  margin-bottom: var(--space-3);
+  margin-bottom: 0;
 }
 
 .word-example {
@@ -258,42 +282,86 @@
 }
 
 .word-translation {
+  /* Equivalente en el idioma origen: mismo estilo que la traduccion de las
+     tarjetas de frase (16 / 400 / italica / atenuado). */
   font-size: var(--text-body-lg);
   font-weight: var(--weight-regular);
+  font-style: italic;
+  line-height: var(--text-body-lg-leading);
   color: var(--color-text-muted);
 }
 
 /* Other regional/register forms (recognition strip). A clean, separated, LEFT-aligned section —
    not a lone centred pill glued under the translation. */
 .fc-variants-block {
-  margin-top: var(--space-3);
+  margin-top: 0;
   padding-top: var(--space-3);
   border-top: 1px solid var(--color-border);
 }
 /* Variants are grouped by KIND so the learner sees WHY they differ: grammatical FORMS of one word
    (case/number/gender) vs ALTERNATIVE WORDS for the same meaning (region/register/loanword). */
 
-
-
-
 .listen-btn-back {
-  margin-bottom: var(--space-3);
-  align-self: flex-start;
+  margin-bottom: 0;
 }
 
-
 /* ---- Responsive ---- */
+@media (max-height: 860px) {
+  /* Ventanas bajas: la ficha se aprieta para dejar aire real entre la
+     instruccion y la tarjeta (a 715 px de alto el centrado daba 5 px). */
+  .flashcard-front { min-height: 0; padding-block: var(--space-6); }
+  .fc-front-top { margin-bottom: var(--space-4); }
+  .flashcard-front .word-text { margin-bottom: var(--space-3); }
+  .flashcard-front .listen-btn { margin-bottom: var(--space-3); }
+}
+
+/* Cuarto de pantalla (600 px de alto o menos): dorso compacto. Mantiene la
+   columna unica, el Siguiente fuera y la ficha sin scroll interno; solo
+   recorta rellenos y separaciones para que el ejercicio quepa entero. */
+@media (max-height: 600px) {
+  .vocab-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  .flashcard-scene { max-width: var(--content-narrow); padding-top: 0; }
+  .flashcard-back {
+    padding: var(--space-3) var(--space-5);
+    gap: var(--space-2);
+  }
+  #vocab-content #next-btn {
+    max-width: var(--content-narrow);
+    margin-top: var(--space-2);
+  }
+}
+
 @media (max-width: 480px) {
   #main-content { padding: var(--space-6) var(--page-pad-x) var(--space-14); }
   .word-text { font-size: var(--text-numeric); }
   .flashcard-front { padding: var(--space-6) var(--space-5) var(--size-badge); }
   .flashcard-back  { padding: var(--space-5); }}
 
-
 #vocab-content #next-btn {
-  margin-top: var(--space-2);
+  /* Fuera de la tarjeta, como el resto de ejercicios. Reserva su sitio desde
+     el principio (visibility) para que girar no mueva la ficha. */
+  margin-top: var(--space-6);
   width: 100%;
-  padding: var(--space-3);
+  max-width: var(--measure-xl);
+  visibility: hidden;
   animation: fadeInScale var(--duration-base) var(--transition-emphasis) both;
+}
+#vocab-content #next-btn.is-visible {
+  visibility: visible;
+}
+
+/* "Volver a mi ruta" vive fuera de la ficha, bajo el avance. */
+#vocab-content #back-to-path {
+  align-self: center;
 }
 }

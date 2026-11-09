@@ -39,7 +39,18 @@ const AppLangPair = (() => {
   function getActive() {
     // localStorage is absent in Node (the pair-completeness gate loads this module) → default pair.
     var stored = (typeof localStorage !== 'undefined') ? localStorage.getItem(ACTIVE_KEY) : null;
-    return PAIRS.find(function (p) { return p.id === stored; }) || PAIRS[0];
+    var found = PAIRS.find(function (p) { return p.id === stored; });
+    if (found) return found;
+    // Primer acceso: el fondo y la pantalla de eleccion comparten el idioma del
+    // navegador. Si hay un par con ese idioma base, es el que se previsualiza.
+    if (typeof navigator !== 'undefined') {
+      var nav = (navigator.language || 'en').toLowerCase().split('-')[0];
+      var base = PAIRS.find(function (p) {
+        return p.source.code === nav && !p.stressTest && !p.wip;
+      });
+      if (base) return base;
+    }
+    return PAIRS[0];
   }
 
   function setActive(id) {
@@ -125,6 +136,8 @@ const AppLangPair = (() => {
   }
 
   function _injectBadge() {
+    // Sin par elegido no hay insignia que mostrar; el selector ya esta abierto.
+    if (document.getElementById('lp-picker')) return;
     var header = document.querySelector('header');
     if (!header || header.querySelector('.lp-badge') || typeof AppFlags === 'undefined') return;
     var pair = getActive();

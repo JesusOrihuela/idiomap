@@ -70,7 +70,7 @@
 
 
 @media (hover: hover) and (pointer: fine) {
-  .placement-page .btn--ghost:hover:not(:disabled) {
+  .placement-page .btn--ghost:hover:not(:disabled)::before {
   border-color: var(--color-border-strong);
   }
 }
@@ -189,9 +189,12 @@
 .level-C2 { --level-color: var(--red-600); }
 
 .result-level-label {
-  font-size: var(--text-headline);
-  font-weight: var(--weight-medium);
   color: var(--level-color, var(--color-text));
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
 }
 
 .result-score {

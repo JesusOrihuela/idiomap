@@ -110,6 +110,7 @@ async function startTopic(topicKey, pathMode, pathCard) {
     onStart: idx => _beginExercise(idx),
   };
   _openPhraseBrowser = () => PhraseBrowser.show(_pbArgs);
+    AppSessionBar.setBackTarget('back-btn', 'phrases');
   if (_pathModeActive) {
     _beginExercise(0);
   } else {
@@ -166,8 +167,24 @@ function loadPhrase(index, keepPicked = false) {
   document.getElementById('back-to-path')?.classList.add('hidden');
   const wrap = document.getElementById('grammar-chip-wrap');
   if (wrap) wrap.classList.add('hidden');
-  _showCefrBadge(cefrLevels[index], 'audio-controls');
-  AppFeedback.applyVariantBadge('audio-controls', _activePicked);
+  _showCefrBadge(cefrLevels[index], 'dict-card');
+  AppFeedback.applyVariantBadge('dict-card', _activePicked);
+  _renderDictCard(_activePicked ? _activePicked.text : (phrases[index] || ''));
+}
+
+/* Una ranura por palabra + el total: andamio de segmentacion sin revelar la
+   frase (el dictado se resuelve escuchando). */
+function _renderDictCard(text) {
+  const slots = document.getElementById('dict-slots');
+  const count = document.getElementById('dict-word-count');
+  if (!slots || !count) return;
+  const words = (text || '').trim().split(/\s+/).filter(Boolean);
+  slots.textContent = '';
+  for (let i = 0; i < words.length; i++) slots.appendChild(document.createElement('span'));
+  count.textContent = AppLang.t(
+    words.length === 1 ? 'dictation_word_count_one' : 'dictation_word_count',
+    { n: words.length }
+  );
 }
 
 function _showCefrBadge(level, containerId) {
@@ -244,7 +261,7 @@ function checkAnswer() {
   _lastCorrect = isCorrect;
 
   Progress.rate(cardIds[currentIndex], PathSession.getQualityFromResult(isCorrect));
-  if (_activeAudioSlug) Progress.recordVariant(cardIds[currentIndex], _activeAudioSlug);
+  if (isCorrect && _activeAudioSlug) Progress.recordVariant(cardIds[currentIndex], _activeAudioSlug);
   if (typeof AppProficiency !== 'undefined') AppProficiency.update(cefrLevels[currentIndex], isCorrect, 'dictation');
   Progress.recordSession(DICT_PREFIX + currentTopic, isCorrect ? 1 : 0, 1);
   if (isCorrect) updateCounter();

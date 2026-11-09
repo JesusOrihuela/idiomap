@@ -92,6 +92,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   if (_pathMode) {
     AppUI.addPathBackLink('vocab-content', function () { return isFlipped; });
+    // Visible desde el principio: forma parte del layout y girar no la mueve.
+    document.getElementById('back-to-path')?.classList.remove('hidden');
   }
 
   AppAudio.setBase('../shared/audio/' + AppLangPair.getActive().target.code + '/');
@@ -145,6 +147,7 @@ function startTopic(topicId, pathMode, pathCard) {
         onStart: idx => _beginExercise(idx),
       };
       _openPhraseBrowser = () => PhraseBrowser.show(_pbArgs);
+    AppSessionBar.setBackTarget('back-btn', 'words');
       if (_pathModeActive) {
         _beginExercise(0);
       } else {
@@ -286,8 +289,7 @@ function showCard(index) {
   if (_vBack && _vHost) { _vHost.appendChild(_vBack); _vBlock && _vBlock.classList.remove('hidden'); }
   else if (_vBlock) { _vBlock.classList.add('hidden'); }
 
-  document.getElementById('next-btn').classList.add('hidden');
-  document.getElementById('back-to-path')?.classList.add('hidden');
+  document.getElementById('next-btn').classList.remove('is-visible');
   _showCefrBadge(word.level, 'flashcard-front');
   _showCefrBadge(word.level, 'flashcard-back');
 
@@ -335,7 +337,9 @@ function _showCefrBadge(level, containerId) {
   let badge = container.querySelector('.cefr-phrase-badge');
   if (!badge) {
     badge = document.createElement('span');
-    container.style.position = 'relative';
+    // Solo si la cara no esta posicionada ya: el dorso es absolute/relative
+    // por CSS y un inline relative lo devolveria al flujo.
+    if (getComputedStyle(container).position === 'static') container.style.position = 'relative';
     container.appendChild(badge);
   }
   if (!level) { badge.className = 'cefr-phrase-badge'; badge.textContent = ''; return; }
@@ -358,8 +362,7 @@ function flipCard() {
   back.inert = false;
   back.removeAttribute('aria-hidden');
   setTimeout(() => {
-    document.getElementById('next-btn').classList.remove('hidden');
-    document.getElementById('back-to-path')?.classList.remove('hidden');
+    document.getElementById('next-btn').classList.add('is-visible');
     const bw = document.getElementById('fc-back-word');
     if (bw) bw.focus({ preventScroll: true });
   }, 350);
@@ -380,8 +383,7 @@ function unflipCard() {
   front.removeAttribute('aria-hidden');
   // Volver al frente es volver al estado "sin valorar": la acción de avance
   // reaparece al girar de nuevo.
-  document.getElementById('next-btn')?.classList.add('hidden');
-  document.getElementById('back-to-path')?.classList.add('hidden');
+  document.getElementById('next-btn')?.classList.remove('is-visible');
   const flip = document.getElementById('flip-btn');
   if (flip) flip.focus({ preventScroll: true });
 }

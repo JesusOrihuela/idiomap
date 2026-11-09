@@ -197,9 +197,27 @@ if (bareButtons.length) {
   console.log(`  FALLO  button-class  ${bareButtons.length}  (0 obligatorio)`);
 }
 
+// 7 · cada CSS abre y cierra sus bloques: un @layer sin cerrar compila igual
+// y el fallo se cuela hasta que alguien borra una regla y todo el archivo cae.
+const unbalanced = [];
+for (const f of CSS_FILES) {
+  const text = read(f).replace(/"(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)*'/g, '');
+  let depth = 0, broke = false;
+  for (const ch of text) {
+    if (ch === '{') depth++;
+    else if (ch === '}') { depth--; if (depth < 0) broke = true; }
+  }
+  if (depth !== 0 || broke) unbalanced.push(`${f} (${depth})`);
+}
+if (unbalanced.length) {
+  fail++;
+  console.log(`  FALLO  braces        ${unbalanced.length}  (0 obligatorio)`);
+}
+
 if (fail) {
   console.log('\nDetalle:');
   if (bareButtons.length) console.log('  botones sin clase de control: ' + bareButtons.join(' · '));
+  if (unbalanced.length) console.log('  css desbalanceado: ' + unbalanced.join(' | '));
   if (overrides.length) {
     console.log('  overrides:');
     for (const o of overrides) console.log(`    ${o.file}  .${o.cls}`);

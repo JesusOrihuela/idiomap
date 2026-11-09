@@ -69,6 +69,14 @@ body {
   outline-offset: 2px;
   border-radius: var(--radius-sm);
 }
+
+/* Títulos enfocados por script (Speaking/Dictado, índice de frases/palabras):
+   no son controles y el anillo los hacía parecer campos. El foco de teclado de
+   los controles conserva su anillo. */
+h1[tabindex="-1"]:focus,
+h1[tabindex="-1"]:focus-visible,
+h2[tabindex="-1"]:focus,
+h2[tabindex="-1"]:focus-visible { outline: none; }
 }
 
 @layer components {
@@ -91,19 +99,18 @@ header {
 @media (max-width: 640px) {
   header { justify-content: flex-start; padding-inline: var(--space-4); }}
 
-header a { display: flex; align-items: center; text-decoration: none; }
+header a { display: flex; align-items: center; min-height: var(--control-h); text-decoration: none; }
 
 header img {
   height: calc(var(--space-12) + var(--space-3));
   width: auto;
-  transition: transform var(--transition);
 }
 
 @media (max-width: 640px) {
   header img { height: var(--size-chip-h); }
 }
 
-@media (hover: hover) and (pointer: fine) { header img:hover { transform: scale(1.05); } }
+
 
 
 /* ── Language pair badge (injected by lang-pair.js) ── */
@@ -112,25 +119,41 @@ header img {
   inset-inline-end: var(--space-6);
   top: 50%;
   transform: translateY(-50%);
+  isolation: isolate;
   display: flex;
   align-items: center;
   justify-content: center;
   inline-size: 7.8rem;                 /* 2 × 48px flag frames + separator + padding */
   min-height: var(--control-h);
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
+  background: transparent;
+  border: 0;
   border-radius: var(--radius-full);
-  padding: var(--space-1) var(--space-2);
+  padding: 0 var(--space-2);
   text-decoration: none;
   line-height: 1;
-  transition: background var(--transition), border-color var(--transition);
   cursor: pointer;
+}
+/* Misma capsula visual que pestañas y etiquetas: 32 px dentro de 44. */
+.lp-badge::before {
+  content: '';
+  position: absolute;
+  inset: var(--space-1-5) 0;
+  z-index: var(--z-below);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-surface);
+  transition: background var(--transition), border-color var(--transition);
 }
 @media (max-width: 640px) {
   .lp-badge { inset-inline-end: var(--space-4); }
 }
+/* Ultrapanoramica: el par se alinea con el borde de la columna de contenido,
+   no con el borde del viewport. */
+@media (min-width: 2560px) {
+  .lp-badge { inset-inline-end: calc((100vw - var(--max-w)) / 2 + var(--space-6)); }
+}
 @media (hover: hover) and (pointer: fine) {
-  .lp-badge:hover {
+  .lp-badge:hover::before {
   background: var(--color-bg);
   border-color: var(--color-action);
   }

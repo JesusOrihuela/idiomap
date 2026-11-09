@@ -225,7 +225,7 @@ const AppFeedback = (() => {
         else if (dim === 'synonym') parts.push(t('alt_note_synonym'));
         else parts.push(_capitalize(v));   // gender, region, number, + any future axis
       }
-      return parts.join(' · ');  // '' for an unlabeled form → chip shows text only
+      return parts.join(', ');  // '' for an unlabeled form → chip shows text only
     }
 
     /* One chip per DISTINCT combined label, so all combinations appear (no cross-dimension
@@ -463,15 +463,14 @@ const AppFeedback = (() => {
   }
 
   // Compact forms for the card BACK: each variant as "form (label)" so you can tell WHICH variant it is,
-  // joined by "·" — a small reference, not the whole boxed table. Returns a span, or null.
+  // spaced as its own item, a small reference, not the whole boxed table. Returns a span, or null.
   function buildWordVariantsCompact(variants, currentText, t) {
     if (!Array.isArray(variants) || variants.length === 0) return null;
     const shown = variants.filter(v => !(currentText && v && v.text === currentText));
     if (shown.length === 0) return null;
     const wrap = document.createElement('span');
     wrap.className = 'variant-compact';
-    shown.forEach((v, i) => {
-      if (i) { const sep = document.createElement('span'); sep.className = 'variant-compact-sep'; sep.textContent = '·'; wrap.appendChild(sep); }
+    shown.forEach((v) => {
       const item = document.createElement('span');
       item.className = 'variant-compact-item';
       const f = document.createElement('span'); f.className = 'variant-compact-form'; f.textContent = _capitalize((v && v.text) || ''); item.appendChild(f);

@@ -31,6 +31,13 @@
   var _i18nParams = AppI18nDom.params();
   AppI18nDom.apply(document, _i18nParams);
 
+  // Icon-only mode (<=1024): native tooltip with the same translated label.
+  document.querySelectorAll('.mode-switcher .nav-item').forEach(function (item) {
+    var label = item.querySelector('.btn-label');
+    var text = label ? label.textContent.trim() : (item.getAttribute('aria-label') || '').trim();
+    if (text) item.title = text;
+  });
+
   // 2. Browser tab title — runs for ALL language pairs
   // AppLang.t() returns the correct source-language string regardless of pair.
   // Strip <span> tags (present in non-source-lang values) before setting document.title.

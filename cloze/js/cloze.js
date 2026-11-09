@@ -137,6 +137,7 @@ function startTopic(topicId, pathMode, pathCard) {
         onStart: idx => _beginExercise(idx),
       };
       _openPhraseBrowser = () => PhraseBrowser.show(_pbArgs);
+    AppSessionBar.setBackTarget('back-btn', 'phrases');
       if (_pathModeActive) {
         _beginExercise(0);
       } else {
@@ -277,7 +278,7 @@ function checkAnswer() {
 
   // Save progress immediately — so navigating away without pressing Next still records the result
   Progress.rate(cardIds[currentIndex], PathSession.getQualityFromResult(isCorrect));
-  if (_activeAudioSlug) Progress.recordVariant(cardIds[currentIndex], _activeAudioSlug);
+  if (isCorrect && _activeAudioSlug) Progress.recordVariant(cardIds[currentIndex], _activeAudioSlug);
   if (typeof AppProficiency !== 'undefined') AppProficiency.update(cefrLevels[currentIndex], isCorrect, 'cloze');
   Progress.recordSession('cloze_' + currentTopic, isCorrect ? 1 : 0, 1);
   if (isCorrect) updateCounter();

@@ -16,38 +16,25 @@
   flex: 1;
 }
 
-
 /* ---- Page Header ---- */
 .prog-header {
   text-align: center;
   animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
 }
 
-.prog-header h1 {
-  font-size: var(--text-display-md);
-  font-weight: var(--weight-semibold);
-  color: var(--color-text);
-  margin-bottom: var(--space-2);
-}
-
 .prog-header h1 span { color: var(--color-action); }
-
-.prog-header p {
-  font-size: var(--text-body);
-  color: var(--color-text-muted);
-  font-weight: var(--weight-medium);
-}
 
 /* ---- Hero Stats Row ---- */
 .stats-row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--space-3);
+  width: 100%;
+  max-width: var(--content-max);
   animation: fadeIn var(--duration-base) var(--transition-emphasis) both;
 }
 
 .stat-card {
-  flex: 1 1 calc(var(--space-12) * 2 + var(--space-1));
   min-width: 0;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
@@ -61,9 +48,6 @@
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
-
-
-
 .stat-card:nth-child(1) .stat-value { color: var(--color-accent-strong); }
 .stat-card:nth-child(2) .stat-value { color: var(--color-text); }
 .stat-card:nth-child(3) .stat-value { color: var(--color-text); }
@@ -76,15 +60,14 @@
   gap: 2px;
   min-width: 0;
 }
-.stat-label { overflow-wrap: anywhere; }
+.stat-label { white-space: nowrap; }
 
 .stat-value {
-  font-size: var(--text-headline);
+  font-size: var(--text-numeric);
   font-weight: var(--weight-semibold);
   color: var(--color-action);
-  line-height: 1;
+  line-height: var(--text-numeric-leading);
 }
-
 
 .stat-best {
   font-size: var(--text-label);
@@ -93,6 +76,12 @@
   text-transform: none;
   letter-spacing: var(--text-label-tracking);
   opacity: var(--opacity-75);
+}
+
+/* One card per row before the three-column grid gets too tight for the
+   labels ("Tarjetas Dominadas" etc.), which must stay on one line. */
+@media (max-width: 768px) {
+  .stats-row { grid-template-columns: 1fr; }
 }
 
 /* ---- Section Blocks ---- */
@@ -108,190 +97,83 @@
   transition: box-shadow var(--transition);
 }
 
-
-.section-title {
-  font-size: var(--text-body-lg);
-  font-weight: var(--weight-medium);
-  color: var(--color-text);
-  margin-bottom: var(--space-5);
-  padding-bottom: var(--space-3);
-  padding-inline-start: var(--space-3);
-  border-bottom: 1px solid var(--color-border);
-  border-inline-start: 3px solid var(--color-action);
-}
-
-.section-subtitle {
-  font-size: var(--text-body);
-  color: var(--color-text-muted);
-  margin-top: calc(-1 * var(--space-3));
-  margin-bottom: var(--space-3);
-  font-weight: var(--weight-medium);
-}
-
-/* ---- Topic Preference Bubbles ---- */
-.prog-bubbles {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-}
-
-.prog-bubble {
-  padding: var(--space-1) var(--space-3);
-  min-height: var(--control-h);
-  border-radius: var(--radius-full);
-  border: 2px solid var(--color-border);
-  background: var(--color-surface);
-  color: var(--color-text);
-  font-family: var(--font-family-base);
-  font-size: var(--text-body);
-  font-weight: var(--weight-semibold);
-  cursor: pointer;
-  transition: background var(--duration-fast), border-color var(--duration-fast), color var(--duration-fast), transform var(--duration-instant);
-}
-
-@media (hover: hover) and (pointer: fine) { .prog-bubble:hover { border-color: var(--color-action); } }
-
-
-.prog-bubble--on {
-  background: var(--color-action);
-  border-color: var(--color-action);
-  color: var(--color-on-action);
-  transform: scale(1.04);
-}
-
-
-
-
-
-
-
 /* ---- Path scroll container ---- */
-
-
-
-
-
 
 /* Remove fade when fully scrolled (JS not needed — CSS trick via :hover) */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Secondary activity pills + separator */
-
-
 
 /* Grammar chip — per topic node */
 
-
-
-
-
-
-
-
-
 /* CEFR badge colors */
 
-
-
-
-
-/* ---- Activity Heatmap ---- */
-.heatmap {
+/* ---- Activity chart (last 60 days) ---- */
+.activity {
   display: block;
 }
 
-.heatmap-grid {
+.activity-chart { --activity-gap: var(--space-1); width: 100%; }
+
+.activity-bars {
   display: grid;
-  grid-template-columns: minmax(var(--space-8), auto) repeat(var(--weeks, 9), var(--space-5));
-  grid-template-rows: auto repeat(7, var(--space-5));
-  gap: var(--space-1);
-  align-items: center;
-  justify-content: start;
-  margin-inline: auto;
-  width: fit-content;
+  grid-template-columns: repeat(var(--days, 60), minmax(0, 1fr));
+  gap: var(--activity-gap, var(--space-1));
+  align-items: end;
+  height: calc(var(--space-24) + var(--space-6));
+  border-bottom: 1px solid var(--color-border);
 }
 
-.heatmap-label {
-  min-height: var(--space-5);
+.activity-bar {
+  width: 100%;
+  min-height: 3px;
+  border-radius: var(--radius-2xs) var(--radius-2xs) 0 0;
+  background: var(--color-viz-2);
+  transform-origin: bottom;
+  transition: transform var(--duration-instant) var(--easing-standard);
+}
+
+
+.activity-bar.l0 { background: var(--color-surface-alt); }
+.activity-bar.l1 { background: var(--color-viz-1); }
+.activity-bar.l2 { background: var(--color-viz-2); }
+.activity-bar.l3 { background: var(--color-viz-3); }
+
+/* Same 60-column grid as the bars, so each month starts over its first day. */
+.activity-months {
+  display: grid;
+  grid-template-columns: repeat(var(--days, 60), minmax(0, 1fr));
+  gap: var(--activity-gap, var(--space-1));
+  margin-top: var(--space-2);
+}
+
+.activity-month {
   font-size: var(--text-caption);
   line-height: var(--space-5);
   color: var(--color-text-muted);
-}
-
-.heatmap-day { text-align: center; }
-
-.heatmap-month {
-  text-align: center;
   text-transform: capitalize;
   white-space: nowrap;
 }
 
-.heatmap-cell--empty { background: transparent; border-color: transparent; }
-
-.heatmap-cell {
-  width: var(--offset-sm);
-  height: var(--offset-sm);
-  border-radius: var(--radius-2xs);
+.activity-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: calc(var(--space-24) + var(--space-6));
+  padding: var(--space-4);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-lg);
   background: var(--color-surface-alt);
-  border: 1px solid var(--color-border);
-  cursor: default;
-  transition: transform var(--transition);
-  flex-shrink: 0;
+  color: var(--color-text-muted);
+  font-size: var(--text-body);
+  text-align: center;
 }
+.activity-empty .icon { width: var(--icon-lg); height: var(--icon-lg); color: var(--color-action); }
+.activity-empty p { margin: 0; }
+.activity.is-empty + .activity-legend { display: none; }
 
-@media (hover: hover) and (pointer: fine) { .heatmap-cell:hover { transform: scale(1.3); } }
-
-
-.heatmap-cell.l0 { background: var(--color-surface-alt); }
-.heatmap-cell.l1 { background: var(--color-viz-1); border-color: transparent; }
-.heatmap-cell.l2 { background: var(--color-viz-2); border-color: transparent; }
-.heatmap-cell.l3 {
-  background: var(--color-viz-3);
-  border-color: transparent;
-  box-shadow: var(--shadow-heat-glow);
-}
-
-.heatmap-legend {
+.activity-legend {
   justify-content: center;
   display: flex;
   align-items: center;
@@ -368,8 +250,9 @@
 
 /* ---- Notification Settings ---- */
 .notif-status {
-  font-size: var(--text-body);
-  font-weight: var(--weight-semibold);
+  font-size: var(--text-label);
+  font-weight: var(--weight-medium);
+  line-height: var(--text-label-leading);
   color: var(--color-text-muted);
   margin-bottom: var(--space-3);
 }
@@ -389,16 +272,20 @@
 
 @media (hover: hover) and (pointer: fine) {
   .notif-toggle:hover:not(:disabled) {
+  color: var(--color-action-on-subtle);
+  }
+  .notif-toggle:hover:not(:disabled)::before {
   border-color: var(--color-action-on-subtle);
   background: var(--color-action-subtle);
   }
 }
 
-
 .notif-toggle[aria-pressed="true"] {
+  color: var(--color-on-action);
+}
+.notif-toggle[aria-pressed="true"]::before {
   border-color: var(--color-action);
   background: var(--color-action);
-  color: var(--color-on-action);
 }
 
 .notif-toggle:disabled {
@@ -422,12 +309,12 @@
 .notif-time-input { padding: var(--space-2) var(--space-3); }
 
 .notif-hint {
+  max-width: var(--measure);
   font-size: var(--text-label);
   color: var(--color-text-muted);
   margin-top: var(--space-3);
   line-height: var(--text-label-leading);
 }
-
 
 /* ---- Collapsible section blocks (<details>) ---- */
 details.section-block > summary.section-title {
@@ -465,10 +352,9 @@ details.section-block:not([open]) > summary.section-title {
 
 /* ---- Responsive ---- */
 @media (max-width: 640px) {
-  .heatmap-grid {
-    grid-template-columns: minmax(var(--space-8), auto) repeat(var(--weeks, 9), var(--offset-4xs));
-  }
-  .heatmap-cell { width: var(--offset-4xs); height: var(--offset-4xs); }}
+  .activity-chart { --activity-gap: calc(var(--space-1) / 2); }
+  .activity-bars { height: var(--space-24); }
+}
 
 @media (max-width: 480px) {
   .stats-row { gap: var(--space-2); }
@@ -507,6 +393,8 @@ details.section-block:not([open]) > summary.section-title {
   max-width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  /* Reserva el carril del scroll: la ultima columna no queda debajo. */
+  scrollbar-gutter: stable;
   scrollbar-width: thin;
   scrollbar-color: var(--color-border-strong) transparent;
 }
@@ -519,7 +407,6 @@ details.section-block:not([open]) > summary.section-title {
 }
 @media (hover: hover) and (pointer: fine) { .ex-matrix-wrap::-webkit-scrollbar-thumb:hover { background: var(--color-action); } }
 
-
 @media (hover: none) and (pointer: coarse) {
   .ex-matrix-wrap {
     scrollbar-width: none;
@@ -529,17 +416,17 @@ details.section-block:not([open]) > summary.section-title {
   .ex-matrix-wrap::-webkit-scrollbar { display: none; }}
 
 /* Tighter title gap when no subtitle */
-#exercises-block .section-title { margin-bottom: var(--offset-4xs); }
-
-
 .ex-grid-row {
   display: grid;
   /* Long topic names (es/de) need slightly more than --grid-min-lg.
      Calc keeps the shared token untouched for other grids. */
-  grid-template-columns: minmax(var(--size-label-w), calc(var(--grid-min-lg) + var(--space-7))) repeat(8, 1fr);
+  /* 96 px minimos por actividad (140 - 44): a 1024 caben las 8; por debajo
+     la matriz pasa a scroll horizontal en vez de comprimir las etiquetas. */
+  grid-template-columns: minmax(var(--size-label-w), calc(var(--grid-min-lg) + var(--space-7))) repeat(8, minmax(calc(var(--grid-min-xs) - var(--space-11)), 1fr));
   align-items: stretch;
   border-bottom: 1px solid var(--color-border);
   min-width: var(--measure-xl);
+  padding-inline-end: var(--space-2);
 }
 
 .ex-grid-row:last-child { border-bottom: none; }
@@ -559,13 +446,22 @@ details.section-block:not([open]) > summary.section-title {
   font-size: var(--text-body-lg);
   text-align: center;
   cursor: default;
+  /* The icon keeps the accent the activity uses on its own page; the label
+     below stays in text colour so the header does not become a rainbow. */
+  color: var(--activity-clr, var(--color-text-muted));
 }
 
 .ex-grid-th-label {
+  max-width: 100%;
+  min-width: 0;
   font-size: var(--text-label);
   font-weight: var(--weight-medium);
-  color: var(--color-text-muted);
+  line-height: var(--text-label-leading);
+  color: var(--color-text);
   letter-spacing: var(--text-label-tracking);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Topic label cell */
@@ -577,7 +473,7 @@ details.section-block:not([open]) > summary.section-title {
   min-width: 0;
 }
 
-.ex-grid-topic-emoji { font-size: var(--text-body-lg); flex-shrink: 0; display: inline-flex; }
+.ex-grid-topic-emoji { font-size: var(--text-body-lg); flex-shrink: 0; display: inline-flex; color: var(--color-action); }
 
 .ex-grid-topic-name {
   font-size: var(--text-label);
@@ -604,7 +500,7 @@ details.section-block:not([open]) > summary.section-title {
 .ex-cell-counts {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 0;
   font-size: var(--text-label);
   font-weight: var(--weight-medium);
   line-height: 1;
@@ -613,21 +509,23 @@ details.section-block:not([open]) > summary.section-title {
 .ex-count--m  { color: var(--color-success-strong); }
 .ex-count--l  { color: var(--color-action); }
 .ex-count--n  { color: var(--color-text-muted); }
-.ex-count-sep { color: var(--color-text-muted); font-weight: var(--weight-regular); }
+.ex-count-sep { color: var(--color-text-muted); font-weight: var(--weight-regular); padding-inline-end: var(--space-1); }
 
 .ex-cell-na {
   font-size: var(--text-label);
+  line-height: 1;  /* misma caja que .ex-cell-counts: la barra queda a la misma altura */
   color: var(--color-text-muted);
 }
 
 /* Legend */
+/* La leyenda va antes de la matriz: se lee antes que los tres numeros. */
 .ex-acc-legend {
   display: flex;
   gap: var(--space-4);
   flex-wrap: wrap;
-  margin-top: 0;
-  padding-top: var(--space-2);
-  border-top: 1px solid var(--color-border);
+  margin-bottom: var(--space-2);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .ex-acc-legend-item {
@@ -651,192 +549,112 @@ details.section-block:not([open]) > summary.section-title {
 
 /* ---- Language Pair Grid ---- */
 .lang-pair-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  /* Fill the card: equal columns, no fixed-width row leaving a gap on the right.
+     167 px = 215 - 48 keeps the old card width at 3 columns and adds a 6th
+     column on wide screens instead of stretching the cards. */
+  grid-template-columns: repeat(auto-fit, minmax(calc(var(--size-215) - var(--space-12)), 1fr));
   gap: var(--space-2);
-  align-items: flex-start;
-  justify-content: flex-start;   /* fila sin hueco final: la tarjeta suelta no se centra sola */
 }
 
 .lp-card {
   font-family: var(--font-family-base);
-  /* Uniform width for every pair card (no more content-based irregular widths). Sized for the
-     worst case across the 16 supported languages: the longest label "Nederlands → Nederlands"
-     measures ~163px in this font; + 40px horizontal padding + 4px border = ~207px, rounded up to
-     215px for margin. The widest flag row (~127px at 3+3 flags) fits well inside. */
-  width: var(--size-215);
+  width: 100%;
 }
 
 @media (hover: hover) and (pointer: fine) { .lp-card:hover { border-color: var(--color-action); box-shadow: var(--shadow-sm); } }
 
-
-
-.lp-card__flags {
-  display: flex;
-  align-items: center;
-  gap: var(--space-1);
-  line-height: 1;
+/* Movil: el par activo manda; la lista completa se abre bajo demanda.
+   La visibilidad la controla .hidden (utility) desde progress-page.js. */
+.lang-pair-toggle {
+  margin-top: var(--space-2);
 }
+
+/* Both rows use the same 3-column grid: the arrow sits on the card centre in
+   the flags row and in the names row, whatever the language-name widths. */
+.lp-card__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  justify-items: center;
+  column-gap: var(--space-1);
+  inline-size: 100%;
+}
+
+.lp-card__flags { line-height: 1; }
+
 .lp-card__arrow {
-  font-size: var(--text-label);
   color: var(--color-text-muted);
 }
 
-.lp-card__label {
+.lp-card__name {
+  max-inline-size: 100%;
   font-size: var(--text-label);
   font-weight: var(--weight-medium);
+  line-height: var(--text-label-leading);
   color: var(--color-text);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-
-
-
-
-/* ---- Backup Section ---- */
+/* ---- Backup Section ----
+   Tres niveles: seccion (20/500), accion y explicacion (14 y 12). El estado y
+   la ayuda comparten tamano; la jerarquia dentro del nivel la lleva el peso. */
 .backup-actions {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
-  margin-bottom: var(--space-3);
+  margin-bottom: var(--space-2);
 }
-
-/* Recordatorio de respaldo (DP-05): banner en el flujo de la sección, no un toast
-   flotante que tape el resumen. */
-.backup-banner {
-  display: flex;
-  align-items: center;
-  gap: var(--space-3);
-  margin-bottom: var(--space-4);
-  padding: var(--space-3) var(--space-4);
-  background: var(--color-surface-alt);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-}
-.backup-banner__text {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-1);
-  flex: 1 1 auto;
-  min-width: 0;
-  font-size: var(--text-label);
-  color: var(--color-text-muted);
-}
-.backup-banner__text strong { color: var(--color-text); font-weight: var(--weight-medium); }
-.backup-banner__close { margin-inline-start: auto; }
-
-.backup-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-1);
-  text-decoration: none;
-}
-
-@media (hover: hover) and (pointer: fine) { .backup-btn:hover { opacity: var(--opacity-85);} }
-
-
-
-
-@media (hover: hover) and (pointer: fine) { .backup-btn--import:hover { border-color: var(--color-action); } }
-
 
 .backup-status {
-  font-size: var(--text-body);
-  font-weight: var(--weight-semibold);
+  max-width: var(--measure);
+  font-size: var(--text-label);
+  font-weight: var(--weight-medium);
+  line-height: var(--text-label-leading);
   color: var(--color-text-muted);
-  margin-bottom: var(--space-3);
+  margin: 0 0 var(--space-1);
   min-height: 1.2em;
 }
 
 .backup-status:empty { display: none; }
-.backup-status--ok  { color: var(--color-success); }
-.backup-status--err { color: var(--color-danger); }
+.backup-status--ok   { color: var(--color-success); }
+.backup-status--err  { color: var(--color-danger); }
+.backup-status--warn { color: var(--color-warning-strong); }
 
-.backup-instructions {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-1);
-}
-
-.backup-instructions p {
+.backup-hint {
+  max-width: var(--measure);
   font-size: var(--text-label);
-  color: var(--color-text-muted);
+  font-weight: var(--weight-regular);
   line-height: var(--text-label-leading);
-  font-weight: var(--weight-medium);
+  color: var(--color-text-muted);
+  margin: 0;
 }
-/* Escritorio: panel acotado con cabecera y tema fijos; el dato sigue completo. */
-@media (min-width: 641px) {
-  .ex-matrix-wrap { max-height: var(--matrix-max-h); overflow: auto; }
-  .ex-grid-row--header { position: sticky; top: 0; z-index: 2; background: var(--color-surface); }
-  .ex-grid-topic { position: sticky; inset-inline-start: 0; z-index: 1; background: var(--color-surface); }
+/* Panel acotado con cabecera y tema fijos; el dato sigue completo. Se aplica
+   tambien en movil: la tabla de 9 columnas se recorre en horizontal como a 768
+   en vez de convertirse en una lista de 16.000 px (auditoria 8 nov 2026). */
+.ex-matrix-wrap {
+  /* En pantalla dividida el panel no puede medir 720 fijos: el scroll
+     horizontal queda por debajo del viewport. Se limita a la altura visible. */
+  max-height: min(var(--matrix-max-h), calc(100vh - var(--header-h) - var(--space-14) - var(--space-12)));
+  max-height: min(var(--matrix-max-h), calc(100dvh - var(--header-h) - var(--space-14) - var(--space-12)));
+  overflow: auto;
 }
-
-/* Móvil: la tabla de 9 columnas no cabe. Cada tema pasa a tarjeta con sus
-   8 actividades en dos columnas, rotuladas con data-label. */
-@media (max-width: 640px) {
-  .ex-grid-row--header { display: none; }
-  .ex-matrix-wrap { overflow: visible; }
-  .ex-grid-row {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    min-width: 0;
-    gap: var(--space-1);
-    padding: var(--space-3);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-lg);
-    background: var(--color-surface);
-    margin-bottom: var(--space-2);
-  }
-  /* El resumen móvil no añade una tarjeta alrededor de las tarjetas: el bloque
-     pierde superficie y borde, y las celdas dejan de ser cajas (DP-04). */
-  #exercises-block {
-    background: transparent;
-    border: 0;
-    box-shadow: none;
-  }
-  .ex-grid-cell { background: transparent; }
-  /* El banner de respaldo ya vive dentro de la tarjeta de sección: sin borde propio. */
-  .backup-banner { background: transparent; border: 0; padding-inline-start: 0; padding-inline-end: 0; }
-  .ex-grid-topic {
-    grid-column: 1 / -1;
-    border-bottom: 1px solid var(--color-border);
-    padding-bottom: var(--space-2);
-    margin-bottom: var(--space-1);
-  }
-  .ex-grid-cell {
-    align-items: flex-start;
-    gap: var(--space-1);
-    padding: var(--space-1) var(--space-2);
-    border-radius: var(--radius-sm);
-    background: var(--color-bg);
-  }
-  .ex-grid-cell { flex-direction: row; align-items: center; justify-content: space-between; }
-  .ex-seg-bar { display: none; }
-  .ex-cell-counts { flex-shrink: 0; }
-  .ex-grid-cell::before {
-    content: attr(data-label);
-    font-size: var(--text-label);
-    color: var(--color-text-muted);
-    line-height: var(--text-label-leading);
-  }
+.ex-grid-row--header { position: sticky; top: 0; z-index: 2; background: var(--color-surface); }
+/* Cada cabecera pinta su propio fondo: con la fila sola, las celdas de datos
+   se veian por detras de Quiz y Gramatica al hacer scroll. */
+.ex-grid-th { background: var(--color-surface); }
+.ex-grid-topic { position: sticky; inset-inline-start: 0; z-index: 1; background: var(--color-surface); }
+/* La esquina vacia se fija con la columna de temas: sin esto las cabeceras
+   pasan por encima del nombre del tema y dejan de coincidir con su columna. */
+.ex-grid-corner {
+  position: sticky;
+  inset-inline-start: 0;
+  z-index: var(--z-raised);
+  align-self: stretch;      /* la fila centra sus hijos; la esquina necesita su alto */
+  background: var(--color-surface);
 }
-
-/* 320 px: la celda de 2 columnas no cabe con etiqueta + tres contadores. */
-@media (max-width: 400px) {
-  .ex-grid-cell {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--space-1);
-    gap: 0;
-    font-size: var(--text-caption);
-  }
-  .ex-grid-cell::before {
-    font-size: var(--text-caption);
-    white-space: nowrap;
-    overflow: visible;
-    text-overflow: clip;
-  }
-  .ex-cell-counts { font-size: var(--text-caption); }
-}
-
 
 }

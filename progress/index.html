@@ -2,15 +2,15 @@
 <html lang="es">
 
 <head>
-    <script src="../shared/js/icons.js?v=bf0d48f8"></script>
+    <script src="../shared/js/icons.js?v=b2ae20a0"></script>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://esm.sh blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://cdn.jsdelivr.net https://esm.sh https://huggingface.co https://*.huggingface.co; media-src 'self' blob:; worker-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; child-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Perfil · Idiomap</title>
     <link rel="canonical" href="https://jesusorihuela.github.io/idiomap/progress/">
-    <meta name="description" content="Track your language learning progress · streaks, topics mastered, skill pillars, and activity history all in one place.">
+    <meta name="description" content="Track your language learning progress: streaks, topics mastered, skill pillars, and activity history all in one place.">
     <meta property="og:title" content="Mi Perfil · Idiomap">
-    <meta property="og:description" content="Track your language learning progress · topics mastered, skill pillars, and activity history.">
+    <meta property="og:description" content="Track your language learning progress: topics mastered, skill pillars, and activity history.">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Idiomap">
@@ -18,10 +18,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../shared/css/tokens.css?v=c503fc77">
-    <link rel="stylesheet" href="../shared/css/layout.css?v=19bc9d12">
-    <link rel="stylesheet" href="../shared/css/components.css?v=ea5c27b8">
-    <link rel="stylesheet" href="css/progress.css?v=2cc54a93">
+    <link rel="stylesheet" href="../shared/css/tokens.css?v=8620d0fa">
+    <link rel="stylesheet" href="../shared/css/layout.css?v=f77c4fc8">
+    <link rel="stylesheet" href="../shared/css/components.css?v=0bc4e4ad">
+    <link rel="stylesheet" href="css/progress.css?v=c29dbf05">
     <link rel="icon" href="../index/img/ico/favicon.ico">
     <link rel="manifest" href="../manifest.json">
     <meta name="theme-color" content="">
@@ -30,12 +30,12 @@
     <meta name="apple-mobile-web-app-title" content="Idiomap">
 
     <!-- Language scripts: must be in <head> so LangUI is set before body renders -->
-    <script src="../shared/js/pairs.js?v=d0d87bca"></script>
+    <script src="../shared/js/pairs.js?v=b16990ec"></script>
     <script src="../shared/js/languages.js?v=e2f2f8aa"></script>
-    <script src="../shared/js/lang-pair.js?v=bd479fdf"></script>
-    <script src="../lang/ui.js?v=45820f61"></script>
+    <script src="../shared/js/lang-pair.js?v=f205505a"></script>
+    <script src="../lang/ui.js?v=a49440fd"></script>
     <script src="../lang/target/en.js?v=22e1b310"></script>
-    <script src="../shared/js/lang.js?v=aaf848f7"></script>
+    <script src="../shared/js/lang.js?v=d5b0b751"></script>
     <script src="../shared/js/i18n-dom.js?v=3ac48a81"></script>
     <script src="../shared/js/page-title.js?v=bdfe900b"></script>
 
@@ -51,10 +51,10 @@
 
     <nav class="mode-switcher" aria-label="Modos de práctica" data-i18n-aria="nav_modes_aria">
         <a href="../" class="nav-item" data-nav="home" aria-label="Inicio" data-i18n-aria="nav_home_aria"><svg class="icon" aria-hidden="true"><use href="#i-house"/></svg></a>
-        <a href="../my-learning/" class="nav-item" data-nav="my-learning"><svg class="icon" aria-hidden="true"><use href="#i-map"/></svg> <span class="btn-label" data-i18n="nav_my_learning">Mi Aprendizaje</span></a>
+        <a href="../my-learning/" class="nav-item" data-nav="my-learning"><svg class="icon" aria-hidden="true"><use href="#i-map"/></svg> <span class="btn-label" data-i18n="nav_my_learning">Mi Ruta</span></a>
         <a href="../speaking/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-mic"/></svg> <span class="btn-label" data-i18n="nav_speaking">Pronunciación</span></a>
-        <a href="../dictation/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-pen"/></svg> <span class="btn-label" data-i18n="nav_dictation">Dictado</span></a>
-        <a href="../cloze/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-type"/></svg> <span class="btn-label" data-i18n="nav_cloze">Cloze</span></a>
+        <a href="../dictation/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-type"/></svg> <span class="btn-label" data-i18n="nav_dictation">Dictado</span></a>
+        <a href="../cloze/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-pen"/></svg> <span class="btn-label" data-i18n="nav_cloze">Cloze</span></a>
         <a href="../translation/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-languages"/></svg> <span class="btn-label" data-i18n="nav_translation">Traducción</span></a>
         <a href="../scramble/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-puzzle"/></svg> <span class="btn-label" data-i18n="nav_scramble">Secuencia</span></a>
         <a href="../vocabulary/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg> <span class="btn-label" data-i18n="nav_vocabulary">Vocabulario</span></a>
@@ -68,67 +68,71 @@
 
         <!-- Page Header -->
         <div class="prog-header">
-            <h1 data-i18n-html="progress_page_h1"></h1>
-            <p data-i18n="progress_page_subtitle">Tus ejercicios y dominio de un vistazo.</p>
+            <h1 class="page-header__title" data-i18n-html="progress_page_h1"></h1>
+            <p class="page-header__sub" data-i18n="progress_page_subtitle">Tu progreso, tus rachas y lo que ya dominas.</p>
         </div>
 
         <!-- Language Pair Selector -->
         <div class="section-block" id="lang-pair">
  <h2 class="section-title" data-i18n="progress_lang_section"> Idioma</h2>
+            <p class="section-subtitle" data-i18n="progress_lang_sub">Elige el par de idiomas que quieres practicar.</p>
             <div id="lang-pair-grid" class="lang-pair-grid"><!-- JS --></div>
+            <button class="btn btn--secondary btn--sm lang-pair-toggle hidden" id="lang-pair-toggle" type="button"
+                    aria-expanded="false" aria-controls="lang-pair-grid"
+                    data-i18n="progress_lang_change">Cambiar idioma</button>
         </div>
 
         <!-- Hero Stats Row -->
-        <div class="stats-row">
+        <div class="stats-row" id="stats-row">
             <div class="stat-card">
                 <div class="stat-icon"><svg class="icon" aria-hidden="true"><use href="#i-flame"/></svg></div>
                 <div class="stat-body">
                     <div class="stat-value" id="stat-streak">0</div>
-                    <div class="stat-label"><span data-i18n="stat_streak_days">Días de Racha</span> <span class="stat-best" id="stat-best-streak"></span></div>
+                    <div class="stat-label"><span data-i18n="stat_streak_days">Días de racha</span> <span class="stat-best" id="stat-best-streak"></span></div>
                 </div>
             </div>
             <div class="stat-card">
                 <div class="stat-icon"><svg class="icon" aria-hidden="true"><use href="#i-star"/></svg></div>
                 <div class="stat-body">
                     <div class="stat-value" id="stat-mastered">0</div>
-                    <div class="stat-label" data-i18n="stat_mastered_cards">Tarjetas Dominadas</div>
+                    <div class="stat-label" data-i18n="stat_mastered_cards">Tarjetas dominadas</div>
                 </div>
             </div>
             <div class="stat-card">
                 <div class="stat-icon"><svg class="icon" aria-hidden="true"><use href="#i-map"/></svg></div>
                 <div class="stat-body">
                     <div class="stat-value" id="stat-topics">0</div>
-                    <div class="stat-label" data-i18n="stat_lessons_started">Lecciones Iniciadas</div>
+                    <div class="stat-label" data-i18n="stat_lessons_started">Lecciones iniciadas</div>
                 </div>
             </div>
         </div>
 
         <!-- Exercise Overview -->
         <div class="section-block" id="exercises-block">
- <h2 class="section-title" data-i18n="progress_exercises_section"> Resumen de Ejercicios</h2>
+ <h2 class="section-title section-title--tight" data-i18n="progress_exercises_section"> Resumen de Ejercicios</h2>
 <div class="ex-matrix-wrap">
                 <div class="ex-matrix" id="ex-matrix" role="table" aria-label="Exercise progress by topic" data-i18n-aria="exercise_matrix_aria"><!-- JS --></div>
             </div>
         </div>
 
         <!-- Topic Preferences -->
-        <div class="section-block">
+        <div class="section-block" id="topics-block">
  <h2 class="section-title" data-i18n="progress_topics_section"> Temas de Interés</h2>
             <p class="section-subtitle" data-i18n="progress_topics_sub">Los temas que elijas aparecerán con más frecuencia en tu ruta.</p>
             <div class="prog-bubbles" id="prog-prefs-bubbles"></div>
         </div>
 
-        <!-- Activity Heatmap (last 60 days) -->
+        <!-- Activity chart (last 60 days) -->
         <div class="section-block">
-            <h2 class="section-title" data-i18n="progress_heatmap_section">Actividad · Últimos 60 Días</h2>
-            <div class="heatmap" id="heatmap"></div>
-            <div class="heatmap-legend">
-                <span data-i18n="heatmap_less">Menos</span>
+            <h2 class="section-title" data-i18n="progress_activity_section">Actividad de los Últimos 60 Días</h2>
+            <div class="activity" id="activity-chart"></div>
+            <div class="activity-legend">
+                <span data-i18n="activity_less">Menos</span>
                 <div class="legend-dot l0"></div>
                 <div class="legend-dot l1"></div>
                 <div class="legend-dot l2"></div>
                 <div class="legend-dot l3"></div>
-                <span data-i18n="heatmap_more">Más</span>
+                <span data-i18n="activity_more">Más</span>
             </div>
         </div>
 
@@ -145,19 +149,16 @@
  <h2 class="section-title" data-i18n="progress_backup_section"> Respaldo de Progreso</h2>
             <p class="section-subtitle" data-i18n="progress_backup_sub">Guarda una copia de todo tu avance para no perderlo si el navegador limpia el almacenamiento.</p>
             <div class="backup-actions">
-                <button class="btn btn--primary backup-btn" id="backup-export-btn" type="button">
+                <button class="btn btn--primary btn--sm" id="backup-export-btn" type="button">
                     <span data-i18n="backup_export_btn">Exportar progreso</span>
                 </button>
-                <label class="btn btn--secondary backup-btn backup-btn--import" for="backup-import-input" role="button" tabindex="0">
+                <label class="btn btn--secondary btn--sm" for="backup-import-input" role="button" tabindex="0">
                     <span data-i18n="backup_import_btn">Importar backup</span>
                 </label>
                 <input type="file" id="backup-import-input" accept=".json" class="visually-hidden" aria-label="Importar archivo de backup" data-i18n-aria="backup_import_aria">
             </div>
-            <div class="backup-status" id="backup-status" role="status" aria-live="polite"></div>
-            <div class="backup-instructions">
- <p data-i18n="backup_instructions_export"> Descarga un archivo .json con todo tu progreso.</p>
- <p data-i18n="backup_instructions_import"> Para restaurar, selecciona el archivo .json que descargaste anteriormente.</p>
-            </div>
+            <p class="backup-status" id="backup-status" role="status" aria-live="polite"></p>
+            <p class="backup-hint" data-i18n="backup_hint">El archivo .json incluye todo tu avance. Al importar, se reemplaza el progreso actual.</p>
         </div>
 
         <!-- Reminders -->
@@ -166,7 +167,7 @@
             <p class="section-subtitle" data-i18n="progress_reminders_sub">Recordatorio diario cuando tu racha esté en riesgo.</p>
             <div id="notif-status" class="notif-status" role="status" aria-live="polite"></div>
             <div class="notif-controls">
-                <button class="btn btn--secondary btn--sm btn--switch notif-toggle" id="notif-toggle" aria-pressed="false" aria-label="Activar recordatorios diarios" data-i18n-aria="notif_prompt_aria"></button>
+                <button class="btn btn--secondary btn--sm notif-toggle" id="notif-toggle" aria-pressed="false" aria-label="Activar recordatorios diarios" data-i18n-aria="notif_prompt_aria"></button>
                 <div class="notif-time-row hidden" id="notif-time-row">
                     <label for="notif-time" class="notif-time-label" data-i18n="notif_time_label">Recuérdame a las</label>
                     <input type="time" id="notif-time" class="field__input notif-time-input" value="20:00">
@@ -189,18 +190,18 @@
     <script src="../shared/js/flags.js?v=527c7259"></script>
     <script src="../shared/js/cefr.js?v=4737c1d0"></script>
     <script src="../shared/js/proficiency.js?v=5fd50d9f"></script>
-    <script src="../shared/js/progress.js?v=651f6d16"></script>
+    <script src="../shared/js/progress.js?v=bcc55825"></script>
     <script src="../shared/js/content.js?v=a9ebe9f2"></script>
     <script src="../shared/js/topic-data.js?v=5bf39a02"></script>
-    <script src="../shared/js/topics.js?v=4b06b99c"></script>
-    <script src="../shared/js/path.js?v=424ff18b"></script>
+    <script src="../shared/js/topics.js?v=8f5c9dae"></script>
+    <script src="../shared/js/path.js?v=41eb41ed"></script>
     <script src="../shared/js/notifications.js?v=e0d3b795"></script>
-    <script src="../shared/js/backup-reminder.js?v=44e24105"></script>
-    <script src="js/progress-page.js?v=905a3a67"></script>
+    <script src="../shared/js/backup-reminder.js?v=0b167394"></script>
+    <script src="js/progress-page.js?v=6e7091b8"></script>
     <script src="../shared/js/network-status.js?v=bb7c0f56"></script>
     <script src="../shared/js/theme.js?v=80cf2218"></script>
     <script src="../shared/js/milestones.js?v=f3a74ec2"></script>
-    <script src="../shared/js/nav.js?v=0988494a"></script>
+    <script src="../shared/js/nav.js?v=c9362b4e"></script>
     <script src="../shared/js/sw-register.js?v=f3fe7a26"></script>
 </body>
 

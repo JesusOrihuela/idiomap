@@ -139,6 +139,7 @@ function startTopic(topicId, pathMode, pathCard) {
         onStart: idx => _beginExercise(idx),
       };
       _openPhraseBrowser = () => PhraseBrowser.show(_pbArgs);
+    AppSessionBar.setBackTarget('back-btn', 'phrases');
       if (_pathModeActive) {
         _beginExercise(0);
       } else {
@@ -262,13 +263,6 @@ function renderTiles() {
   // No se puede verificar una frase a medias; borrar solo tiene sentido si hay algo.
   const check = document.getElementById('check-btn');
   if (check) check.disabled = builtSentence.length !== shuffledTiles.length;
-  const status = document.getElementById('scramble-status');
-  // Microcopy para el botón deshabilitado: dice qué falta, no solo que no se puede (DP-07).
-  if (status) {
-    status.textContent = (builtSentence.length > 0 && check && check.disabled)
-      ? AppLang.t('scramble_need_all')
-      : '';
-  }
   const clear = document.getElementById('clear-btn');
   if (clear) clear.disabled = builtSentence.length === 0;
   // Sin palabras pendientes, el banco no deja una caja vacía.
@@ -341,7 +335,7 @@ function checkAnswer() {
   _lastCorrect = isCorrect;
 
   Progress.rate(cardIds[currentIndex], PathSession.getQualityFromResult(isCorrect));
-  if (_activeForm && _activeForm.audioSlug) Progress.recordVariant(cardIds[currentIndex], _activeForm.audioSlug);
+  if (isCorrect && _activeForm && _activeForm.audioSlug) Progress.recordVariant(cardIds[currentIndex], _activeForm.audioSlug);
   if (typeof AppProficiency !== 'undefined') AppProficiency.update(cefrLevels[currentIndex], isCorrect, 'scramble');
   Progress.recordSession('scramble_' + currentTopic, isCorrect ? 1 : 0, 1);
   if (isCorrect) updateCounter();

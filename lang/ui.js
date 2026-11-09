@@ -13,13 +13,13 @@
 
     es: {
       // ── Títulos del área de ejercicio ──────────────────────────
-      speaking_title:         '¿Cómo se pronuncia?',
+      speaking_title:         '¿Cómo se <span>pronuncia</span>?',
       speaking_sub:           'Escucha con atención y luego pronuncia la frase en voz alta.',
-      dictation_title:        'Escucha y escribe',
-      cloze_title:            'Completa el espacio',
-      translation_title:      'Traduce al {lang}',
+      dictation_title:        'Escucha y <span>escribe</span>',
+      cloze_title:            'Completa el <span>espacio</span>',
+      translation_title:      '<span>Traduce</span> al {lang}',
       translation_sub:        'Lee la frase en {source} y escribe la versión en {lang}.',
-      scramble_title:         'Construye la oración',
+      scramble_title:         'Construye la <span>oración</span>',
 
       // ── TTS / STT ───────────────────────────────────────────────
  tts_loading:'Cargando modelo de voz…',
@@ -48,6 +48,7 @@
 
       // ── Feedback ────────────────────────────────────────────────
  feedback_correct:'Correcto',
+      feedback_error_label:   'Error',
  feedback_incorrect:'Incorrecto',
       feedback_your_answer:   'Tu Respuesta',
       feedback_correct_answer: 'Respuesta Correcta',
@@ -84,7 +85,7 @@
 
       // ── Errores de carga ────────────────────────────────────────
  error_loading:'Error al cargar el tema. Revisa tu conexión.',
-      retry:                  'Reintentar →',
+      retry:                  'Reintentar',
       grammar_data_error:     'Error al cargar los datos de gramática.',
 
       // ── Mensajes vacíos ─────────────────────────────────────────
@@ -107,8 +108,6 @@
       cta_new_one:            '{n} ejercicio nuevo',
       cta_new_many:           '{n} ejercicios nuevos',
       cta_deferred:           '+{n} diferidos',
-      trail_today:            'Sesión de Hoy',
-      trail_empty:            'Nada pendiente hoy',
       session_complete:       'Sesión completada',
  done_today_status:'Listo por hoy',
 
@@ -119,14 +118,9 @@
       pb_variants:            '{done}/{total} variantes practicadas',
       pb_not_practiced:       'sin practicar',
       pb_pct_learned:         '{pct}% de {topic} Aprendidas',
-    pb_hint_phrases:        'Elige una frase para practicarla.',
-    pb_hint_words:          'Elige una palabra para practicarla.',
 
       // ── Contadores / progreso ───────────────────────────────────
       topic_learned:          '{seen} / {total} Aprendidas',
-      variant_mode_label:     'Variantes',
-      variant_mode_all:       'Ver todas las variantes',
-      variant_mode_canonical: 'Solo forma canónica',
       answered_n:             '{done} / {total} respondidas',
       score_n:                '{correct} / {total} correctas ({pct}%)',
 
@@ -136,20 +130,21 @@
 
       // ── Navegación ──────────────────────────────────────────────
       back_to_path:           '← Volver a la ruta',
-      my_learning_link:       'Mi Aprendizaje →',
-      my_learning_path_link:  'Mi Ruta de Aprendizaje →',
+      my_learning_link:       'Mi Aprendizaje',
+      my_learning_path_link:  'Mi Ruta de Aprendizaje',
 
       // ── Badges de estado ────────────────────────────────────────
  badge_new:'Nuevo',
  badge_review:'Repasar',
+ badge_done:'Hecho',
       badge_studied:          'Estudiado',
       badge_new_plain:        'Nuevo',
 
       // ── Botones de ejercicio ────────────────────────────────────
-      btn_next:               'Siguiente →',
+      btn_next:               'Siguiente',
       btn_try_again:          '↩ Intentar de nuevo',
  btn_verify:'Verificar',
-      btn_results:            'Ver resultados →',
+      btn_results:            'Ver resultados',
  done_status:'Hecho',
  ready_status:'Listo',
 
@@ -167,7 +162,6 @@
       grammar_production_blank_n:  'Espacio en blanco {n}',
 
       // ── Scramble ────────────────────────────────────────────────
-      scramble_need_all:       'Coloca todas las palabras para poder verificar',
       word_bank_prompt:       'Toca las palabras de abajo para empezar…',
       remove_word:            'Quitar: {word}',
       add_word:               'Agregar: {word}',
@@ -176,6 +170,8 @@
       grammar_note_label:     'Nota de gramática',
       reentry_banner_msg:     'Ya viste la intro y la regla, <strong>vas directo a practicar</strong>',
       grammar_topic_label:    'Gramática para este tema',
+      grammar_topic_progress:     '{seen} / {total} reglas',
+      grammar_topic_progress_one: '{seen} / 1 regla',
       coming_soon:            'Próximamente',
       coming_soon_body:       'Estamos preparando contenido para esta categoría.',
       rule_mastered:          'Regla dominada',
@@ -183,10 +179,10 @@
       keep_practicing:        'Sigue practicando',
       hypothesis:             'Tu hipótesis',
       noticing_placeholder:   'Escribe tu observación…',
-      answer_questions_n:     'Responde las {n} preguntas para continuar',
- correct_answer_msg:'Correcto {answer}',
+ correct_answer_msg:'Correcto. Respuesta: {answer}',
  incorrect_answer_msg:'Incorrecto. Respuesta: {answer}',
- related_phrases:'Frases reales usando esta regla, practica en contexto',
+ related_phrases:'Practica en contexto',
+ related_phrases_sub:'Frases reales que usan esta regla.',
       path_complete_summary:  'Repasaste {review} tarjetas y aprendiste {new} nuevas hoy.',
 
       // ── Speaking ────────────────────────────────────────────────
@@ -197,6 +193,8 @@
 
       // ── Navegación / botones comunes ─────────────────────────────
       back_to_topics:         '← Temas',
+      back_to_phrases:        '← Frases',
+      back_to_words:          '← Palabras',
       close_btn:              'Cerrar',
       aria_continue:          'Continuar: {label}',
     aria_review:            'Repasar: {label}',
@@ -208,9 +206,9 @@
       placement_score_suffix: ' respuestas correctas',
 
       // ── Progreso ─────────────────────────────────────────────────
-      streak_best:            '· Récord: {n}',
+      streak_best:            'Récord: {n}',
       cell_na:                '{act}, no aplica para este tema',
-      cell_stats:             '{act}: {mastered} dominadas · {learning} en progreso · {unseen} sin iniciar',
+      cell_stats:             '{act}: {mastered} dominadas, {learning} en progreso, {unseen} sin iniciar',
 
       // ── Recordatorios (toggle en progress-page) ──────────────────
  notif_on:'Desactivar recordatorios',
@@ -260,7 +258,7 @@
       milestone_streak_7_desc:         'Una semana de práctica constante, hábito formado',
       milestone_first_mastered_title:  'Primera Tarjeta Dominada',
       milestone_first_mastered_desc:   'Alcanzaste dominio total en una frase, constante y preciso',
-      milestone_mastered_50_title:     '50 Tarjetas Dominadas',
+      milestone_mastered_50_title:     '50 Tarjetas dominadas',
       milestone_mastered_50_desc:      '50 frases con dominio total, tu inglés se está fijando',
       milestone_streak_30_title:       'Hábito de Hierro',
       milestone_streak_30_desc:        '30 días de práctica constante. El inglés ya es parte de tu vida.',
@@ -279,7 +277,7 @@
  translate_btn:'Traducir',
 
       // ── Barra de modos ──────────────────────────────────────────
-      nav_my_learning:        'Mi Aprendizaje',
+      nav_my_learning:        'Mi Ruta',
       nav_speaking:           'Pronunciación',
       nav_dictation:          'Dictado',
       nav_vocabulary:         'Vocabulario',
@@ -301,11 +299,13 @@
 
       // ── Onboarding ───────────────────────────────────────────────
       ob_title_how:           'Tu {target}, en conversaciones reales',
-      ob_body_how:            'Practica pronunciación, escritura y comprensión con frases de la vida diaria, restaurantes, viajes, trabajo y más.<br><br>El sistema aprende contigo: te muestra exactamente lo que necesitas en el momento justo.',
-      ob_btn_find_level:      'Empezar →',
+      ob_body_how:            'Practica pronunciación, escritura y comprensión con frases de la vida diaria, restaurantes, viajes, trabajo y más.<br><br>El repaso espaciado elige lo que toca hoy.',
+      ob_btn_find_level:      'Empezar',
       ob_title_topics:        '¿Qué te interesa?',
       ob_body_topics:         'Elige los temas que más te interesan. Los verás con más frecuencia en tu ruta, puedes cambiarlo después.',
-      ob_btn_topics_done:     'Encontrar mi nivel →',
+  ob_search_ph:           'Buscar tema',
+  ob_search_aria:         'Buscar temas por nombre',
+      ob_btn_topics_done:     'Encontrar mi nivel',
       ob_quiz_skip:           'Saltar, ya sé mi nivel',
       ob_manual_label:        'Elige tu nivel:',
  manual_level_beginner:'A1-A2 \u00a0 Principiante',
@@ -313,7 +313,7 @@
  manual_level_advanced:'C1-C2 \u00a0 Competente',
       ob_title_done:          'Todo listo',
  ob_btn_go_path:'Ir a Mi Ruta',
-      ob_btn_explore:         'Explorar por mi cuenta →',
+      ob_btn_explore:         'Explorar por mi cuenta',
       ob_welcome_msg:         'Tu nivel es {level}. Tu ruta personalizada está lista, empieza la práctica guiada o explora libremente.',
 
       // ── Botones de ejercicio ─────────────────────────────────────
@@ -321,6 +321,8 @@
       cloze_sub:              'Escribe la palabra que falta, luego presiona Enter o Verificar.',
       dictation_sub:          'Presiona Escuchar, luego escribe lo que escuchas. Presiona Enter para verificar.',
     dictation_input_label:  'Escribe lo que escuchas',
+    dictation_word_count:   '{n} palabras',
+    dictation_word_count_one: '1 palabra',
       back_to_categories:     '← Categorías',
       back_to_rules:          '← Reglas',
 
@@ -340,6 +342,14 @@
       // ── Nombres de temas ──────────────────────────────────────
       topic_general:        'Conceptos',
       topic_greetings:      'Saludos',
+
+      // ── Hitos del recorrido (hero) ─────────────────────────────
+      hero_path_greet:      'Saludar',
+      hero_path_talk:       'Conversar',
+      hero_path_opinion:    'Opinar',
+      hero_path_argue:      'Argumentar',
+      hero_path_nuance:     'Matizar',
+      hero_path_master:     'Dominar',
       topic_emociones:      'Emociones',
       topic_restaurant:     'Restaurante',
       topic_supermarket:    'Supermercado',
@@ -347,33 +357,33 @@
       topic_transportation: 'Transporte',
       topic_airport:        'Aeropuerto',
       topic_accommodation:  'Alojamiento',
-      topic_movies:         'Películas & Series',
+      topic_movies:         'Películas y series',
       topic_music:          'Música',
       topic_theater:        'Teatro',
-      topic_museums:        'Museos & Arte',
+      topic_museums:        'Museos y arte',
       topic_gym:            'Gimnasio',
       topic_technology:     'Tecnología',
       topic_accountability: 'Contabilidad',
-      topic_personal_info:  'Información Personal',
+      topic_personal_info:  'Información personal',
       topic_family:         'Familia',
-      topic_daily_routine:  'Rutina Diaria',
+      topic_daily_routine:  'Rutina diaria',
       topic_health:         'Salud',
       topic_weather:        'Clima',
       topic_directions:     'Direcciones',
-      topic_survival:       'Sobrevivir el Idioma',
+      topic_survival:       'Sobrevivir el idioma',
       topic_cotidianidad:        'Cotidianidad',
       topic_descripciones:       'Descripciones',
-      topic_describiendo_personas: 'Describiendo Personas',
+      topic_describiendo_personas: 'Describiendo personas',
       topic_profesiones:         'Profesiones',
       topic_estudios:            'Educación',
       topic_conversacion:        'Comunicación',
-      topic_pensamientos_opiniones: 'Pensamientos y Opiniones',
+      topic_pensamientos_opiniones: 'Pensamientos y opiniones',
       topic_planes:              'Decisiones',
       topic_viajes:              'Viajes',
       topic_sitios:              'Lugares',
       topic_vestimenta:          'Ropa',
       topic_hogar:               'Hogar',
-      topic_calendario:          'La Hora y la Fecha',
+      topic_calendario:          'La hora y la fecha',
       topic_emergencias:         'Emergencias',
       topic_naturaleza_lugares:  'Naturaleza',
       topic_animales:            'Animales',
@@ -384,19 +394,19 @@
       topic_economia:            'Economía',
       topic_oficina:             'Oficina',
       topic_politica:            'Política',
-      topic_verbos_basicos:      'Verbos Básicos',
-      topic_verbos_avanzados:    'Verbos Avanzados',
-      topic_adjetivos_basicos:   'Adjetivos Básicos',
-      topic_adjetivos_avanzados: 'Adjetivos Avanzados',
+      topic_verbos_basicos:      'Verbos básicos',
+      topic_verbos_avanzados:    'Verbos avanzados',
+      topic_adjetivos_basicos:   'Adjetivos básicos',
+      topic_adjetivos_avanzados: 'Adjetivos avanzados',
       topic_colores:             'Colores',
       topic_naturaleza:          'Naturaleza',
       topic_tiempo:              'Tiempo',
       topic_lugares:             'Lugares',
-      topic_cantidad:            'Cantidad y Medida',
-      topic_juegos:              'Juegos y Ocio',
-      topic_ropa:                'Ropa y Moda',
-      topic_lengua:              'Lengua y Comunicación',
-      topic_sociedad_politica:   'Sociedad y Política',
+      topic_cantidad:            'Cantidad y medida',
+      topic_juegos:              'Juegos y ocio',
+      topic_ropa:                'Ropa y moda',
+      topic_lengua:              'Lengua y comunicación',
+      topic_sociedad_politica:   'Sociedad y política',
       topic_trabajo:             'Trabajo y Economía',
       topic_educacion:           'Educación',
       topic_objetos:             'Objetos y cosas',
@@ -415,32 +425,23 @@
       index_stat_activities:    'Actividades',
       index_stat_phrases:       'Frases',
       index_stat_levels:        'Niveles',
-      index_path_heading:       'Tu Ruta de Aprendizaje',
+      index_path_heading:       'Mi Ruta de Aprendizaje',
       index_path_sub:           'Tu sesión diaria, guiada por repetición espaciada.',
       index_activities_heading: 'Elige tu actividad',
       index_activities_sub:     '{count} ejercicios, cada uno enfocado en un aspecto distinto del idioma.',
- index_group_speaking:'Habla y Escucha',
- index_group_sentences:'Práctica de Oraciones',
+ index_group_speaking:'Habla y escucha',
+ index_group_sentences:'Práctica de oraciones',
  index_group_vocab:'Vocabulario',
  index_group_grammar:'Gramática',
-      // Card benefits (taglines under h3)
-      index_card_speaking_benefit:    'Habla y recibe feedback de pronunciación',
-      index_card_dictation_benefit:   'Escucha y escribe, entrena la comprensión auditiva',
-      index_card_cloze_benefit:       'Produce la palabra que falta',
-      index_card_translation_benefit: '{sourceName} → {targetName}',
-      index_card_scramble_benefit:    'Reconstruye el orden de las palabras',
-      index_card_vocabulary_benefit:  'Tarjetas con repetición espaciada',
-      index_card_quiz_benefit:        'Aprende con recuerdo activo',
-      index_card_grammar_benefit:     'Aprende reglas de forma inductiva en 5 fases',
-      // Card descriptions (body paragraph)
-      index_card_speaking_desc:    'Usa tu micrófono para hablar y recibe retroalimentación instantánea sobre tu pronunciación en tiempo real.',
-      index_card_dictation_desc:   'Escucha con atención y escribe lo que oyes; entrenas la escucha y la ortografía al mismo tiempo en cada frase.',
-      index_card_cloze_desc:       'Completa la palabra que falta en la frase. Producirla tú mismo la fija mejor que solo reconocerla y refuerza el contexto.',
-      index_card_translation_desc: 'Lee en {source} y escribe en {target}. La producción activa L1→L2 profundiza la retención de gramática y vocabulario con el tiempo.',
-      index_card_scramble_desc:    'Toca las palabras desordenadas en el orden correcto. Entrena el orden de las palabras en {target} de forma natural y activa.',
-      index_card_vocabulary_desc:  'Más de 100 palabras en tarjetas con repetición espaciada, que vuelven justo antes de que las olvides y las fijan en memoria.',
-      index_card_quiz_desc:        'Preguntas de opción múltiple que fuerzan el recuerdo activo y fijan lo aprendido a largo plazo, no solo en el momento.',
-      index_card_grammar_desc:     'Contexto → Observación → Regla → Comprensión → Producción. Cinco fases con repetición espaciada para fijar cada regla.',
+      // Card descriptions (body paragraph, strong marks the key benefit)
+      index_card_speaking_desc:    'Habla con tu micrófono y recibe <strong>corrección de pronunciación al instante</strong>, frase por frase.',
+      index_card_dictation_desc:   'Escucha cada frase y escribe lo que oyes: entrenas <strong>oído y ortografía</strong> al mismo tiempo.',
+      index_card_cloze_desc:       'Completa la palabra que falta y <strong>fíjala produciéndola tú</strong>, no solo reconociéndola.',
+      index_card_translation_desc: 'Lee en {source} y escribe en {target}. La producción activa <strong>fija gramática y vocabulario</strong> con el tiempo.',
+      index_card_scramble_desc:    'Ordena las palabras y entrena <strong>la estructura de {target}</strong> de forma natural y activa.',
+      index_card_vocabulary_desc:  'Más de 100 palabras en tarjetas que vuelven <strong>justo antes de que las olvides</strong> y se fijan en memoria.',
+      index_card_quiz_desc:        'Preguntas de opción múltiple que fuerzan <strong>recuerdo activo</strong> y fijan lo aprendido a largo plazo.',
+      index_card_grammar_desc:     'Cinco fases, de observar la regla a <strong>producirla tú mismo</strong>, con repetición espaciada.',
 
       // ── Leyenda del progreso ─────────────────────────────────────
       progress_legend_unseen:   'Sin iniciar',
@@ -465,8 +466,11 @@
       scramble_picker_sub:        'Toca las palabras para agregarlas. Toca las colocadas para quitarlas.',
       vocab_picker_sub:           'Elige un tema, voltea cada tarjeta para ver su significado y califica qué tan bien la conoces.',
       quiz_picker_sub:            'Elige un tema para poner a prueba tu vocabulario.',
-    quiz_prompt_definition:     'Elige la definición',
-    quiz_prompt_translation:    'Elige la traducción',
+    quiz_prompt_definition:     'Elige la <span>definición</span>',
+    quiz_prompt_translation:    'Elige la <span>traducción</span>',
+    quiz_sub:                   'Toca la opción correcta.',
+    vocab_ex_title:             'Aprende la <span>palabra</span>',
+    vocab_ex_sub:               'Toca para ver el significado.',
       grammar_picker_sub:         'Aprende gramática de {target} a través de contexto real y práctica activa.',
       // Speaking interactive
       listen_phrase_aria:         'Escuchar la frase',
@@ -529,11 +533,11 @@
       phase_5_short:              'Expresión',
       phase_5_aria:               'Fase 6: Expresión',
       phase_context_hint:         'Lee el diálogo. Observa las partes resaltadas.',
-      context_next_btn:           '¿Qué observas? →',
-      phase_noticing_hint:        'Escribe tu respuesta antes de continuar.',
+      context_next_btn:           '¿Qué observas?',
+      phase_noticing_hint:        'Escribe tu respuesta en cada pregunta para continuar.',
       noticing_show_btn:          'Ver explicación',
       phase_rule_hint:            'Confirma lo que observaste.',
-      rule_next_btn:              'Practicar reconocimiento →',
+      rule_next_btn:              'Practicar reconocimiento',
       phase_structured_hint:      'Elige la opción correcta.',
       phase_production_hint:      'Escribe la forma correcta en el espacio.',
       phase_express_hint:         'Crea tu propia oración con la estructura y compárala con el modelo.',
@@ -544,23 +548,26 @@
       grammar_express_selfcheck:  '¿Tu oración usa la estructura y expresa algo verdadero para ti?',
       phase_complete_aria:        'Ejercicio completado',
       exercise_complete_h2:       'Ejercicio completado',
-      grammar_continue_btn:       'Continuar →',
+      grammar_continue_btn:       'Continuar',
       related_phrases_aria:       'Frases de práctica relacionadas',
       // My learning
       ml_page_h1:                 'Mi <span>Ruta de Aprendizaje</span>',
       // Progress page
       progress_page_h1:           'Mi Perfil',
-      progress_page_subtitle:     'Tus ejercicios y dominio de un vistazo.',
+      progress_page_subtitle:     'Tu progreso, tus rachas y lo que ya dominas.',
  progress_lang_section:'Idioma',
+      progress_lang_sub:          'Elige el par de idiomas que quieres practicar.',
+      progress_lang_change:       'Cambiar idioma',
  progress_exercises_section:'Resumen de Ejercicios',
       exercise_matrix_aria:       'Progreso por ejercicio y tema',
  progress_topics_section:'Temas de Interés',
       progress_topics_sub:        'Los temas que elijas aparecerán con más frecuencia en tu ruta.',
-      progress_heatmap_section:   'Actividad, Últimos 60 Días',
-      heatmap_less:               'Menos',
-      heatmap_more:               'Más',
-      heatmap_session_singular:   'sesión',
-      heatmap_session_plural:     'sesiones',
+      progress_activity_section:   'Actividad de los Últimos 60 Días',
+      activity_less:               'Menos',
+      activity_more:               'Más',
+      activity_session_singular:   'sesión',
+      activity_session_plural:     'sesiones',
+      activity_empty:              'Aún no hay actividad. Tus sesiones aparecerán aquí.',
  progress_achievements_section:'Logros',
  progress_reminders_section:'Recordatorios',
       progress_reminders_sub:     'Recordatorio diario cuando tu racha esté en riesgo.',
@@ -574,14 +581,11 @@
  backup_import_success:'Progreso restaurado. Recargando…',
       backup_import_error:        'Archivo inválido. Verifica que sea un respaldo de Idiomap.',
       backup_import_confirm:      'Esto reemplazará tu progreso actual con el del archivo. ¿Continuar?',
- backup_instructions_export:'Descarga un archivo .json con todo tu progreso. Guárdalo en Google Drive, iCloud o envíatelo por correo.',
- backup_instructions_import:'Para restaurar, selecciona el archivo .json que descargaste anteriormente.',
- backup_reminder_title:'¿Cuándo fue tu último respaldo?',
+      backup_hint:                'El archivo .json incluye todo tu avance. Al importar, se reemplaza el progreso actual.',
       backup_reminder_body:       'Han pasado más de 30 días. Exporta tu progreso para no perderlo.',
-      backup_reminder_close:      'Cerrar',
-      stat_streak_days:           'Días de Racha',
-      stat_mastered_cards:        'Tarjetas Dominadas',
-      stat_lessons_started:       'Lecciones Iniciadas',
+      stat_streak_days:           'Días de racha',
+      stat_mastered_cards:        'Tarjetas dominadas',
+      stat_lessons_started:       'Lecciones iniciadas',
       notif_time_label:           'Recuérdame a las',
       // Placement
       placement_title:            'Prueba de Nivel',
@@ -591,28 +595,28 @@
  placement_pill_questions:'14 preguntas',
  placement_pill_result:'Resultado CEFR',
       placement_suggestions_label:'Actividades recomendadas para tu nivel:',
-      placement_result_cta:       'Empezar a practicar →',
+      placement_result_cta:       'Empezar a practicar',
       placement_page_h1:          'Prueba de Nivel',
       placement_subtitle_enes:    '14 preguntas para encontrar tu nivel de {target} (A1-C2) y sugerirte el mejor punto de partida.',
       placement_time_pill:        '⏱️ ~3 minutos',
  placement_questions_pill:'14 preguntas',
  placement_result_pill:'Resultado CEFR',
-      placement_start_btn:        'Comenzar →',
+      placement_start_btn:        'Comenzar',
       placement_skip_btn:         'Saltar, empezar desde cero',
       placement_suggestions_label:'Actividades recomendadas para tu nivel:',
-      placement_result_cta:       'Empezar a practicar →',
+      placement_result_cta:       'Empezar a practicar',
       placement_retake_btn:       'Repetir la prueba',
-      placement_result_a1_label:  'A1 · Principiante',
+      placement_result_a1_label:  'Principiante',
       placement_result_a1_msg: 'Punto de partida ideal. Comienza con vocabulario esencial y frases del día a día.',
-      placement_result_a2_label:  'A2 · Elemental',
+      placement_result_a2_label:  'Elemental',
       placement_result_a2_msg: 'Buena base. Practica vocabulario variado y empieza a producir tus propias oraciones.',
-      placement_result_b1_label:  'B1 · Intermedio',
+      placement_result_b1_label:  'Intermedio',
       placement_result_b1_msg: 'Buen nivel. Enfócate en gramática y producción activa para consolidar tu {target}.',
-      placement_result_b2_label:  'B2 · Avanzado',
+      placement_result_b2_label:  'Avanzado',
       placement_result_b2_msg: 'Nivel avanzado. Trabaja gramática compleja y producción sin apoyo.',
-      placement_result_c1_label:  'C1 · Competente',
+      placement_result_c1_label:  'Competente',
       placement_result_c1_msg: 'Nivel competente. Usa el {target} con fluidez y precisión en contextos académicos y profesionales.',
-      placement_result_c2_label:  'C2 · Maestría',
+      placement_result_c2_label:  'Maestría',
       placement_result_c2_msg: 'Nivel de maestría. Comprende y produce {target} con la precisión de un hablante culto nativo.',
       placement_speaking_greetings: 'Pronunciación: Saludos',
       placement_speaking_advanced:  'Pronunciación: Avanzado',
@@ -620,13 +624,13 @@
 
     en: {
       // ── Exercise area titles ───────────────────────────────────
-      speaking_title:         'How do you pronounce it?',
+      speaking_title:         'How do you <span>pronounce</span> it?',
       speaking_sub:           'Listen carefully, then say the phrase out loud.',
-      dictation_title:        'Listen and write',
-      cloze_title:            'Fill in the blank',
-      translation_title:      'Translate to {lang}',
+      dictation_title:        '<span>Listen</span> and write',
+      cloze_title:            'Fill in the <span>blank</span>',
+      translation_title:      '<span>Translate</span> to {lang}',
       translation_sub:        'Read the phrase in {source} and write it in {lang}.',
-      scramble_title:         'Build the sentence',
+      scramble_title:         '<span>Build</span> the sentence',
 
       // ── TTS / STT ─────────────────────────────────────────────
  tts_loading:'Loading voice model…',
@@ -655,6 +659,7 @@
 
       // ── Feedback ──────────────────────────────────────────────
  feedback_correct:'Correct',
+      feedback_error_label:   'Error',
  feedback_incorrect:'Incorrect',
       feedback_your_answer:   'Your Answer',
       feedback_correct_answer: 'Correct Answer',
@@ -691,7 +696,7 @@
 
       // ── Load errors ───────────────────────────────────────────
  error_loading:'Error loading topic. Check your connection.',
-      retry:                  'Retry →',
+      retry:                  'Retry',
       grammar_data_error:     'Error loading grammar data.',
 
       // ── Empty states ──────────────────────────────────────────
@@ -714,8 +719,6 @@
       cta_new_one:            '{n} new exercise',
       cta_new_many:           '{n} new exercises',
       cta_deferred:           '+{n} deferred',
-      trail_today:            'Today\'s Session',
-      trail_empty:            'Nothing due today',
       session_complete:       'Session complete',
  done_today_status:'Done for today',
 
@@ -726,14 +729,9 @@
       pb_variants:            '{done}/{total} variants practiced',
       pb_not_practiced:       'not practiced',
       pb_pct_learned:         '{pct}% of {topic} Learned',
-    pb_hint_phrases:        'Pick a phrase to practise it.',
-    pb_hint_words:          'Pick a word to practise it.',
 
       // ── Counters / progress ───────────────────────────────────
       topic_learned:          '{seen} / {total} Learned',
-      variant_mode_label:     'Variants',
-      variant_mode_all:       'Show all variants',
-      variant_mode_canonical: 'Canonical form only',
       answered_n:             '{done} / {total} answered',
       score_n:                '{correct} / {total} correct ({pct}%)',
 
@@ -743,20 +741,21 @@
 
       // ── Navigation ────────────────────────────────────────────
       back_to_path:           '← Back to path',
-      my_learning_link:       'My Learning →',
-      my_learning_path_link:  'My Learning Path →',
+      my_learning_link:       'My Learning',
+      my_learning_path_link:  'My Learning Path',
 
       // ── Status badges ─────────────────────────────────────────
  badge_new:'New',
  badge_review:'Review',
+ badge_done:'Done',
       badge_studied:          'Studied',
       badge_new_plain:        'New',
 
       // ── Exercise buttons ──────────────────────────────────────
-      btn_next:               'Next →',
+      btn_next:               'Next',
       btn_try_again:          '↩ Try again',
  btn_verify:'Verify',
-      btn_results:            'See results →',
+      btn_results:            'See results',
  done_status:'Done',
  ready_status:'Ready',
 
@@ -774,7 +773,6 @@
       grammar_production_blank_n:  'Blank {n}',
 
       // ── Scramble ──────────────────────────────────────────────
-      scramble_need_all:       'Place all the words to check your answer',
       word_bank_prompt:       'Tap the words below to start…',
       remove_word:            'Remove: {word}',
       add_word:               'Add: {word}',
@@ -783,6 +781,8 @@
       grammar_note_label:     'Grammar note',
       reentry_banner_msg:     'You already saw the intro and the rule, <strong>going straight to practice</strong>',
       grammar_topic_label:    'Grammar for this topic',
+      grammar_topic_progress:     '{seen} / {total} rules',
+      grammar_topic_progress_one: '{seen} / 1 rule',
       coming_soon:            'Coming Soon',
       coming_soon_body:       'We\'re preparing content for this category.',
       rule_mastered:          'Rule mastered',
@@ -790,10 +790,10 @@
       keep_practicing:        'Keep practicing',
       hypothesis:             'Your hypothesis',
       noticing_placeholder:   'Write your observation…',
-      answer_questions_n:     'Answer {n} questions to continue',
- correct_answer_msg:'Correct {answer}',
+ correct_answer_msg:'Correct. Answer: {answer}',
  incorrect_answer_msg:'Incorrect. Answer: {answer}',
- related_phrases:'Real phrases using this rule, practice in context',
+ related_phrases:'Practice in context',
+ related_phrases_sub:'Real phrases that use this rule.',
       path_complete_summary:  'You reviewed {review} cards and learned {new} new ones today.',
 
       // ── Speaking ──────────────────────────────────────────────
@@ -804,6 +804,8 @@
 
       // ── Common navigation / buttons ───────────────────────────
       back_to_topics:         '← Topics',
+      back_to_phrases:        '← Phrases',
+      back_to_words:          '← Words',
       close_btn:              'Close',
       aria_continue:          'Continue: {label}',
     aria_review:            'Review: {label}',
@@ -815,9 +817,9 @@
       placement_score_suffix: ' correct answers',
 
       // ── Progress ──────────────────────────────────────────────
-      streak_best:            '· Best: {n}',
+      streak_best:            'Best: {n}',
       cell_na:                '{act}, not applicable for this topic',
-      cell_stats:             '{act}: {mastered} mastered · {learning} in progress · {unseen} not started',
+      cell_stats:             '{act}: {mastered} mastered, {learning} in progress, {unseen} not started',
 
       // ── Reminders (toggle in progress-page) ───────────────────
  notif_on:'Disable reminders',
@@ -886,7 +888,7 @@
  translate_btn:'Translate',
 
       // ── Mode bar ──────────────────────────────────────────────
-      nav_my_learning:        'My Learning',
+      nav_my_learning:        'My Path',
       nav_speaking:           'Speaking',
       nav_dictation:          'Dictation',
       nav_vocabulary:         'Vocabulary',
@@ -908,11 +910,13 @@
 
       // ── Onboarding ────────────────────────────────────────────
       ob_title_how:           'Your {target}, in real conversations',
-      ob_body_how:            'Practice speaking, listening and writing with phrases from everyday life, restaurants, travel, work and more.<br><br>The system learns with you: shows you exactly what you need, right when you need it.',
-      ob_btn_find_level:      'Get started →',
+      ob_body_how:            'Practice speaking, listening and writing with phrases from everyday life, restaurants, travel, work and more.<br><br>Spaced repetition picks what to review today.',
+      ob_btn_find_level:      'Get started',
       ob_title_topics:        'What interests you?',
       ob_body_topics:         'Choose the topics you\'re most interested in. You\'ll see them more often in your path, you can change this later.',
-      ob_btn_topics_done:     'Find my level →',
+  ob_search_ph:           'Search topics',
+  ob_search_aria:         'Search topics by name',
+      ob_btn_topics_done:     'Find my level',
       ob_quiz_skip:           'Skip, I already know my level',
       ob_manual_label:        'Choose your level:',
  manual_level_beginner:'A1-A2 \u00a0 Beginner',
@@ -920,7 +924,7 @@
  manual_level_advanced:'C1-C2 \u00a0 Advanced',
       ob_title_done:          'All set',
  ob_btn_go_path:'Go to My Path',
-      ob_btn_explore:         'Explore on my own →',
+      ob_btn_explore:         'Explore on my own',
       ob_welcome_msg:         'Your level is {level}. Your personalized path is ready, start guided practice or explore freely.',
 
       // ── Exercise buttons ──────────────────────────────────────
@@ -928,6 +932,8 @@
       cloze_sub:              'Type the missing word, then press Enter or Verify.',
       dictation_sub:          'Press Listen, then type what you hear. Press Enter to verify.',
     dictation_input_label:  'Type what you hear',
+    dictation_word_count:   '{n} words',
+    dictation_word_count_one: '1 word',
       back_to_categories:     '← Categories',
       back_to_rules:          '← Rules',
 
@@ -947,6 +953,14 @@
       // ── Topic names ───────────────────────────────────────────
       topic_general:        'Concepts',
       topic_greetings:      'Greetings',
+
+      // ── Journey milestones (hero) ──────────────────────────────
+      hero_path_greet:      'Greet',
+      hero_path_talk:       'Converse',
+      hero_path_opinion:    'Opine',
+      hero_path_argue:      'Argue',
+      hero_path_nuance:     'Nuance',
+      hero_path_master:     'Master',
       topic_emociones:      'Emotions',
       topic_restaurant:     'Restaurant',
       topic_supermarket:    'Supermarket',
@@ -1022,32 +1036,23 @@
       index_stat_activities:    'Activities',
       index_stat_phrases:       'Phrases',
       index_stat_levels:        'Levels',
-      index_path_heading:       'Your Learning Path',
+      index_path_heading:       'My Learning Path',
       index_path_sub:           'Your daily session, guided by spaced repetition.',
       index_activities_heading: 'Choose your activity',
       index_activities_sub:     '{count} exercises, each focused on a different part of the language.',
- index_group_speaking:'Speaking & Listening',
+ index_group_speaking:'Speaking & listening',
  index_group_sentences:'Sentence Practice',
  index_group_vocab:'Vocabulary',
  index_group_grammar:'Grammar',
-      // Card benefits (taglines under h3)
-      index_card_speaking_benefit:    'Speak and get pronunciation feedback',
-      index_card_dictation_benefit:   'Listen and write, train listening comprehension',
-      index_card_cloze_benefit:       'Produce the missing word',
-      index_card_translation_benefit: '{sourceName} → {targetName}',
-      index_card_scramble_benefit:    'Rebuild word order',
-      index_card_vocabulary_benefit:  'Flashcards with spaced repetition',
-      index_card_quiz_benefit:        'Learn with active recall',
-      index_card_grammar_benefit:     'Learn rules inductively in 5 phases',
-      // Card descriptions (body paragraph)
-      index_card_speaking_desc:    'Use your microphone to speak and get instant feedback on your pronunciation in real time, phrase by phrase.',
-      index_card_dictation_desc:   'Listen carefully and write what you hear; you train listening and spelling at the same time, phrase by phrase.',
-      index_card_cloze_desc:       'Fill in the missing word in the sentence. Producing it yourself fixes it better than only recognising it and reinforces context.',
-      index_card_translation_desc: 'Read in {source}, write in {target}. Active L1→L2 production deepens grammar and vocabulary retention over time.',
-      index_card_scramble_desc:    'Tap the jumbled words in the right order. Trains {target} word order naturally and actively, one sentence at a time.',
-      index_card_vocabulary_desc:  'Over 100 words on flashcards with spaced repetition, returning just before you forget them and keeping them in memory.',
-      index_card_quiz_desc:        'Multiple-choice questions that force active recall and make what you learn stick for the long term, not just today.',
-      index_card_grammar_desc:     'Context → Observation → Rule → Understanding → Production. Five phases with spaced repetition to lock in each rule.',
+      // Card descriptions (body paragraph, strong marks the key benefit)
+      index_card_speaking_desc:    'Speak into your microphone and get <strong>instant pronunciation feedback</strong>, phrase by phrase.',
+      index_card_dictation_desc:   'Listen to each phrase and write what you hear: you train <strong>listening and spelling</strong> at the same time.',
+      index_card_cloze_desc:       'Fill in the missing word and <strong>lock it in by producing it</strong>, not just recognising it.',
+      index_card_translation_desc: 'Read in {source} and write in {target}. Active production <strong>cements grammar and vocabulary</strong> over time.',
+      index_card_scramble_desc:    'Put the words in order and train <strong>{target} sentence structure</strong> naturally and actively.',
+      index_card_vocabulary_desc:  'Over 100 words on flashcards that return <strong>just before you forget them</strong> and stay in memory.',
+      index_card_quiz_desc:        'Multiple-choice questions that force <strong>active recall</strong> and make learning stick for the long term.',
+      index_card_grammar_desc:     'Five phases, from noticing the rule to <strong>producing it yourself</strong>, with spaced repetition.',
 
       // ── Progress legend ───────────────────────────────────────
       progress_legend_unseen:   'Not started',
@@ -1072,8 +1077,11 @@
       scramble_picker_sub:        'Tap words to add them. Tap placed words to remove them.',
       vocab_picker_sub:           'Choose a topic, flip each card to see its meaning, and rate how well you know it.',
       quiz_picker_sub:            'Choose a topic to test your vocabulary.',
-    quiz_prompt_definition:     'Choose the definition',
-    quiz_prompt_translation:    'Choose the translation',
+    quiz_prompt_definition:     'Choose the <span>definition</span>',
+    quiz_prompt_translation:    'Choose the <span>translation</span>',
+    quiz_sub:                   'Tap the correct option.',
+    vocab_ex_title:             'Learn the <span>word</span>',
+    vocab_ex_sub:               'Tap to see the meaning.',
       grammar_picker_sub:         'Learn {target} grammar through real context and active practice.',
       // Speaking interactive
       listen_phrase_aria:         'Listen to the phrase',
@@ -1136,11 +1144,11 @@
       phase_5_short:              'Express',
       phase_5_aria:               'Phase 6: Express',
       phase_context_hint:         'Read the dialogue. Notice the highlighted parts.',
-      context_next_btn:           'What do you notice? →',
-      phase_noticing_hint:        'Write your response before continuing.',
+      context_next_btn:           'What do you notice?',
+      phase_noticing_hint:        'Write your answer in each question to continue.',
       noticing_show_btn:          'See explanation',
       phase_rule_hint:            'Confirm what you noticed.',
-      rule_next_btn:              'Practice recognition →',
+      rule_next_btn:              'Practice recognition',
       phase_structured_hint:      'Choose the correct option.',
       phase_production_hint:      'Write the correct form in the blank.',
       phase_express_hint:         'Create your own sentence with the structure and compare it to the model.',
@@ -1151,23 +1159,26 @@
       grammar_express_selfcheck:  'Does your sentence use the structure and say something true for you?',
       phase_complete_aria:        'Exercise complete',
       exercise_complete_h2:       'Exercise complete',
-      grammar_continue_btn:       'Continue →',
+      grammar_continue_btn:       'Continue',
       related_phrases_aria:       'Related practice phrases',
       // My learning
       ml_page_h1:                 'My <span>Learning</span> Path',
       // Progress page
       progress_page_h1:           'My Profile',
-      progress_page_subtitle:     'Your exercises and mastery at a glance.',
+      progress_page_subtitle:     'Your progress, your streaks, and what you have mastered.',
  progress_lang_section:'Language',
+      progress_lang_sub:          'Choose the language pair you want to practise.',
+      progress_lang_change:       'Change language',
  progress_exercises_section:'Exercise Summary',
       exercise_matrix_aria:       'Exercise and topic progress',
  progress_topics_section:'Topics of Interest',
       progress_topics_sub:        'The topics you choose will appear more often in your path.',
-      progress_heatmap_section:   'Activity, Last 60 Days',
-      heatmap_less:               'Less',
-      heatmap_more:               'More',
-      heatmap_session_singular:   'session',
-      heatmap_session_plural:     'sessions',
+      progress_activity_section:   'Last 60 Days of Activity',
+      activity_less:               'Less',
+      activity_more:               'More',
+      activity_session_singular:   'session',
+      activity_session_plural:     'sessions',
+      activity_empty:              'No activity yet. Your sessions will show up here.',
  progress_achievements_section:'Achievements',
  progress_reminders_section:'Reminders',
       progress_reminders_sub:     'Daily reminder when your streak is at risk.',
@@ -1181,11 +1192,8 @@
  backup_import_success:'Progress restored. Reloading…',
       backup_import_error:        'Invalid file. Make sure it\'s a Idiomap backup.',
       backup_import_confirm:      'This will replace your current progress with the file\'s. Continue?',
- backup_instructions_export:'Download a .json file with all your progress. Save it to Google Drive, iCloud, or email it to yourself.',
- backup_instructions_import:'To restore, select the .json file you previously downloaded.',
- backup_reminder_title:'Time to back up?',
+      backup_hint:                'The .json file includes all your progress. Importing replaces your current progress.',
       backup_reminder_body:       'It\'s been over 30 days. Export your progress so you don\'t lose it.',
-      backup_reminder_close:      'Close',
       stat_streak_days:           'Streak Days',
       stat_mastered_cards:        'Cards Mastered',
       stat_lessons_started:       'Lessons Started',
@@ -1198,28 +1206,28 @@
  placement_pill_questions:'14 questions',
  placement_pill_result:'CEFR result',
       placement_suggestions_label:'Recommended activities for your level:',
-      placement_result_cta:       'Start practicing →',
+      placement_result_cta:       'Start practicing',
       placement_page_h1:          'Level Test',
       placement_subtitle_enes:    '14 questions to find your {target} level (A1-C2) and suggest the best starting point.',
       placement_time_pill:        '⏱️ ~3 minutes',
  placement_questions_pill:'14 questions',
  placement_result_pill:'CEFR Result',
-      placement_start_btn:        'Start →',
+      placement_start_btn:        'Start',
       placement_skip_btn:         'Skip, start from scratch',
       placement_suggestions_label:'Recommended activities for your level:',
-      placement_result_cta:       'Start practicing →',
+      placement_result_cta:       'Start practicing',
       placement_retake_btn:       'Retake the test',
-      placement_result_a1_label:  'A1 · Beginner',
+      placement_result_a1_label:  'Beginner',
       placement_result_a1_msg: 'Perfect starting point. Begin with essential vocabulary and everyday phrases.',
-      placement_result_a2_label:  'A2 · Elementary',
+      placement_result_a2_label:  'Elementary',
       placement_result_a2_msg: 'Good foundation. Practice varied vocabulary and start producing your own sentences.',
-      placement_result_b1_label:  'B1 · Intermediate',
+      placement_result_b1_label:  'Intermediate',
       placement_result_b1_msg: 'Nice level. Focus on grammar and active production to consolidate your {target}.',
-      placement_result_b2_label:  'B2 · Upper Intermediate',
+      placement_result_b2_label:  'Upper Intermediate',
       placement_result_b2_msg: 'Advanced level. Work on complex grammar and unaided production.',
-      placement_result_c1_label:  'C1 · Advanced',
+      placement_result_c1_label:  'Advanced',
       placement_result_c1_msg: 'Advanced. Use {target} fluently and precisely in academic and professional contexts.',
-      placement_result_c2_label:  'C2 · Mastery',
+      placement_result_c2_label:  'Mastery',
       placement_result_c2_msg: 'Mastery level. Understand and produce {target} with near-native accuracy.',
       placement_speaking_greetings: 'Speaking: Greetings',
       placement_speaking_advanced:  'Speaking: Advanced',
@@ -1228,13 +1236,13 @@
     // ══ German (source for de-pl) ══════════════════════════════════
     de: {
       // ── Exercise area titles ───────────────────────────────────
-      speaking_title:         'Wie spricht man das aus?',
+      speaking_title:         'Wie <span>spricht</span> man das aus?',
       speaking_sub:           'Hör gut zu und sprich den Satz dann laut aus.',
-      dictation_title:        'Hören und schreiben',
-      cloze_title:            'Fülle die Lücke aus',
-      translation_title:      'Übersetze ins {lang}',
+      dictation_title:        '<span>Hören</span> und schreiben',
+      cloze_title:            'Fülle die <span>Lücke</span> aus',
+      translation_title:      '<span>Übersetze</span> ins {lang}',
       translation_sub:        'Lies den Satz auf {source} und schreib ihn auf {lang}.',
-      scramble_title:         'Bilde den Satz',
+      scramble_title:         'Bilde den <span>Satz</span>',
 
       // ── TTS / STT ─────────────────────────────────────────────
  tts_loading:'Sprachmodell wird geladen…',
@@ -1263,6 +1271,7 @@
 
       // ── Feedback ──────────────────────────────────────────────
  feedback_correct:'Richtig',
+      feedback_error_label:   'Fehler',
  feedback_incorrect:'Falsch',
       feedback_your_answer:   'Deine Antwort',
       feedback_correct_answer: 'Richtige Antwort',
@@ -1299,7 +1308,7 @@
 
       // ── Load errors ───────────────────────────────────────────
  error_loading:'Fehler beim Laden des Themas. Prüfe deine Verbindung.',
-      retry:                  'Erneut versuchen →',
+      retry:                  'Erneut versuchen',
       grammar_data_error:     'Fehler beim Laden der Grammatikdaten.',
 
       // ── Empty states ──────────────────────────────────────────
@@ -1322,8 +1331,6 @@
       cta_new_one:            '{n} neue Übung',
       cta_new_many:           '{n} neue Übungen',
       cta_deferred:           '+{n} verschoben',
-      trail_today:            'Heutige Sitzung',
-      trail_empty:            'Heute nichts fällig',
       session_complete:       'Sitzung abgeschlossen',
  done_today_status:'Für heute erledigt',
 
@@ -1334,14 +1341,9 @@
       pb_variants:            '{done}/{total} Varianten geübt',
       pb_not_practiced:       'nicht geübt',
       pb_pct_learned:         '{pct}% von {topic} gelernt',
-    pb_hint_phrases:        'Wähle einen Satz zum Üben.',
-    pb_hint_words:          'Wähle ein Wort zum Üben.',
 
       // ── Counters / progress ───────────────────────────────────
       topic_learned:          '{seen} / {total} gelernt',
-      variant_mode_label:     'Varianten',
-      variant_mode_all:       'Alle Varianten anzeigen',
-      variant_mode_canonical: 'Nur kanonische Form',
       answered_n:             '{done} / {total} beantwortet',
       score_n:                '{correct} / {total} richtig ({pct}%)',
 
@@ -1351,20 +1353,21 @@
 
       // ── Navigation ────────────────────────────────────────────
       back_to_path:           '← Zurück zum Pfad',
-      my_learning_link:       'Mein Lernen →',
-      my_learning_path_link:  'Mein Lernpfad →',
+      my_learning_link:       'Mein Lernen',
+      my_learning_path_link:  'Mein Lernpfad',
 
       // ── Status badges ─────────────────────────────────────────
  badge_new:'Neu',
  badge_review:'Wiederholung',
+ badge_done:'Erledigt',
       badge_studied:          'Geübt',
       badge_new_plain:        'Neu',
 
       // ── Exercise buttons ──────────────────────────────────────
-      btn_next:               'Weiter →',
+      btn_next:               'Weiter',
       btn_try_again:          '↩ Nochmal versuchen',
  btn_verify:'Prüfen',
-      btn_results:            'Ergebnisse ansehen →',
+      btn_results:            'Ergebnisse ansehen',
  done_status:'Erledigt',
  ready_status:'Bereit',
 
@@ -1382,7 +1385,6 @@
       grammar_production_blank_n:  'Lücke {n}',
 
       // ── Scramble ──────────────────────────────────────────────
-      scramble_need_all:       'Setze alle Wörter ein, um zu prüfen',
       word_bank_prompt:       'Tippe unten auf die Wörter, um zu beginnen…',
       remove_word:            'Entfernen: {word}',
       add_word:               'Hinzufügen: {word}',
@@ -1391,6 +1393,8 @@
       grammar_note_label:     'Grammatikhinweis',
       reentry_banner_msg:     'Du hast die Einführung und die Regel schon gesehen, <strong>weiter direkt zum Üben</strong>',
       grammar_topic_label:    'Grammatik zu diesem Thema',
+      grammar_topic_progress:     '{seen} / {total} Regeln',
+      grammar_topic_progress_one: '{seen} / 1 Regel',
       coming_soon:            'Demnächst',
       coming_soon_body:       'Wir bereiten Inhalte für diese Kategorie vor.',
       rule_mastered:          'Regel gemeistert',
@@ -1398,10 +1402,10 @@
       keep_practicing:        'Weiter üben',
       hypothesis:             'Deine Hypothese',
       noticing_placeholder:   'Schreib deine Beobachtung…',
-      answer_questions_n:     'Beantworte {n} Fragen, um fortzufahren',
- correct_answer_msg:'Richtig {answer}',
+ correct_answer_msg:'Richtig. Antwort: {answer}',
  incorrect_answer_msg:'Falsch. Antwort: {answer}',
- related_phrases:'Echte Sätze mit dieser Regel, übe im Kontext',
+ related_phrases:'Im Kontext üben',
+ related_phrases_sub:'Echte Sätze mit dieser Regel.',
       path_complete_summary:  'Du hast heute {review} Karten wiederholt und {new} neue gelernt.',
 
       // ── Speaking ──────────────────────────────────────────────
@@ -1412,6 +1416,8 @@
 
       // ── Common navigation / buttons ───────────────────────────
       back_to_topics:         '← Themen',
+      back_to_phrases:        '← Sätze',
+      back_to_words:          '← Wörter',
       close_btn:              'Schließen',
       aria_continue:          'Weiter: {label}',
     aria_review:            'Wiederholen: {label}',
@@ -1423,9 +1429,9 @@
       placement_score_suffix: ' richtige Antworten',
 
       // ── Progress ──────────────────────────────────────────────
-      streak_best:            '· Beste: {n}',
+      streak_best:            'Beste: {n}',
       cell_na:                '{act}, für dieses Thema nicht verfügbar',
-      cell_stats:             '{act}: {mastered} gemeistert · {learning} in Arbeit · {unseen} nicht begonnen',
+      cell_stats:             '{act}: {mastered} gemeistert, {learning} in Arbeit, {unseen} nicht begonnen',
 
       // ── Reminders ─────────────────────────────────────────────
  notif_on:'Erinnerungen deaktivieren',
@@ -1490,7 +1496,7 @@
  translate_btn:'Übersetzen',
 
       // ── Mode bar ──────────────────────────────────────────────
-      nav_my_learning:        'Mein Lernen',
+      nav_my_learning:        'Mein Pfad',
       nav_speaking:           'Sprechen',
       nav_dictation:          'Diktat',
       nav_vocabulary:         'Vokabeln',
@@ -1512,11 +1518,13 @@
 
       // ── Onboarding ────────────────────────────────────────────
       ob_title_how:           'Dein {target} in echten Gesprächen',
-      ob_body_how:            'Übe Sprechen, Hören und Schreiben mit Sätzen aus dem Alltag: Restaurant, Reisen, Arbeit und mehr.<br><br>Das System lernt mit dir: Es zeigt dir genau, was du brauchst, genau dann, wenn du es brauchst.',
-      ob_btn_find_level:      'Los geht\'s →',
+      ob_body_how:            'Übe Sprechen, Hören und Schreiben mit Sätzen aus dem Alltag: Restaurant, Reisen, Arbeit und mehr.<br><br>Die verteilte Wiederholung wählt, was heute dran ist.',
+      ob_btn_find_level:      'Los geht\'s',
       ob_title_topics:        'Was interessiert dich?',
       ob_body_topics:         'Wähle die Themen, die dich am meisten interessieren. Du siehst sie öfter in deinem Pfad, du kannst das später ändern.',
-      ob_btn_topics_done:     'Mein Niveau finden →',
+  ob_search_ph:           'Thema suchen',
+  ob_search_aria:         'Themen nach Namen suchen',
+      ob_btn_topics_done:     'Mein Niveau finden',
       ob_quiz_skip:           'Überspringen, ich kenne mein Niveau schon',
       ob_manual_label:        'Wähle dein Niveau:',
  manual_level_beginner:'A1-A2   Anfänger',
@@ -1524,7 +1532,7 @@
  manual_level_advanced:'C1-C2   Fortgeschritten',
       ob_title_done:          'Alles bereit',
  ob_btn_go_path:'Zu meinem Pfad',
-      ob_btn_explore:         'Auf eigene Faust erkunden →',
+      ob_btn_explore:         'Auf eigene Faust erkunden',
       ob_welcome_msg:         'Dein Niveau ist {level}. Dein persönlicher Pfad ist bereit, starte geführtes Üben oder erkunde frei.',
 
       // ── Exercise buttons ──────────────────────────────────────
@@ -1532,6 +1540,8 @@
       cloze_sub:              'Tippe das fehlende Wort ein und drück dann Enter oder Prüfen.',
       dictation_sub:          'Drück Anhören und tippe dann, was du hörst. Drück Enter zum Prüfen.',
     dictation_input_label:  'Tippe, was du hörst',
+    dictation_word_count:   '{n} Wörter',
+    dictation_word_count_one: '1 Wort',
       back_to_categories:     '← Kategorien',
       back_to_rules:          '← Regeln',
 
@@ -1540,7 +1550,7 @@
       dictation_page_title:   'Diktat-Übung',
       cloze_page_title:       'Lückentext-Übung',
       translation_page_title: 'Rückübersetzung',
-      scramble_page_title:    'Bilde den Satz',
+      scramble_page_title:    'Bilde den <span>Satz</span>',
       vocab_page_title:       'Interaktive Vokabeln',
       quiz_page_title:        'Vokabel-Quiz',
       grammar_page_title:     'Grammatik-Werkstatt',
@@ -1551,6 +1561,14 @@
       // ── Topic names ───────────────────────────────────────────
       topic_general:        'Konzepte',
       topic_greetings:      'Begrüßungen',
+
+      // ── Meilensteine der Reise (Hero) ──────────────────────────
+      hero_path_greet:      'Begrüßen',
+      hero_path_talk:       'Unterhalten',
+      hero_path_opinion:    'Meinung äußern',
+      hero_path_argue:      'Argumentieren',
+      hero_path_nuance:     'Differenzieren',
+      hero_path_master:     'Beherrschen',
       topic_emociones:      'Gefühle',
       topic_restaurant:     'Restaurant',
       topic_supermarket:    'Supermarkt',
@@ -1626,7 +1644,7 @@
       index_stat_activities:    'Aktivitäten',
       index_stat_phrases:       'Sätze',
       index_stat_levels:        'Niveaus',
-      index_path_heading:       'Dein Lernpfad',
+      index_path_heading:       'Mein Lernpfad',
       index_path_sub:           'Deine tägliche Sitzung, gesteuert durch verteilte Wiederholung.',
       index_activities_heading: 'Wähle deine Aktivität',
       index_activities_sub:     '{count} Übungen, jede auf einen anderen Teil der Sprache ausgerichtet.',
@@ -1634,22 +1652,14 @@
  index_group_sentences:'Satzübungen',
  index_group_vocab:'Vokabeln',
  index_group_grammar:'Grammatik',
-      index_card_speaking_benefit:    'Sprich und erhalte Aussprache-Feedback',
-      index_card_dictation_benefit:   'Hören und schreiben, Hörverstehen trainieren',
-      index_card_cloze_benefit:       'Erzeuge das fehlende Wort',
-      index_card_translation_benefit: '{sourceName} → {targetName}',
-      index_card_scramble_benefit:    'Wortstellung neu bauen',
-      index_card_vocabulary_benefit:  'Karteikarten mit verteilter Wiederholung',
-      index_card_quiz_benefit:        'Lerne mit aktivem Abrufen',
-      index_card_grammar_benefit:     'Regeln induktiv in 6 Phasen lernen',
-      index_card_speaking_desc:    'Nutze dein Mikrofon zum Sprechen und erhalte sofortiges Feedback zu deiner Aussprache in Echtzeit, Satz für Satz.',
-      index_card_dictation_desc:   'Hör genau zu und schreib, was du hörst; du trainierst Hören und Rechtschreibung zugleich, Satz für Satz.',
-      index_card_cloze_desc:       'Ergänze das fehlende Wort im Satz. Selbst produzieren prägt besser als nur wiedererkennen und festigt den Kontext.',
-      index_card_translation_desc: 'Lies auf {source}, schreib auf {target}. Aktive L1→L2-Produktion vertieft Grammatik und Wortschatz mit der Zeit.',
-      index_card_scramble_desc:    'Tippe die durcheinandergewürfelten Wörter in der richtigen Reihenfolge. Trainiert die {target} Wortstellung natürlich und aktiv.',
-      index_card_vocabulary_desc:  'Über 100 Wörter auf Karteikarten mit verteilter Wiederholung, die kurz vor dem Vergessen zurückkehren und im Gedächtnis bleiben.',
-      index_card_quiz_desc:        'Multiple-Choice-Fragen, die aktives Abrufen erzwingen und das Gelernte langfristig festigen, nicht nur im Moment.',
-      index_card_grammar_desc:     'Kontext → Beobachtung → Regel → Verständnis → Produktion. Fünf Phasen mit verteilter Wiederholung für jede Regel.',
+      index_card_speaking_desc:    'Sprich in dein Mikrofon und erhalte <strong>sofortiges Aussprache-Feedback</strong>, Satz für Satz.',
+      index_card_dictation_desc:   'Höre jeden Satz und schreibe, was du hörst: Du trainierst <strong>Hören und Rechtschreibung</strong> gleichzeitig.',
+      index_card_cloze_desc:       'Ergänze das fehlende Wort und <strong>präge es dir selbst ein</strong>, nicht nur durch Erkennen.',
+      index_card_translation_desc: 'Lies auf {source} und schreibe auf {target}. Aktive Produktion <strong>festigt Grammatik und Wortschatz</strong> mit der Zeit.',
+      index_card_scramble_desc:    'Bring die Wörter in die richtige Reihenfolge und trainiere <strong>die {target} Satzstruktur</strong> aktiv.',
+      index_card_vocabulary_desc:  'Über 100 Wörter auf Karteikarten, die <strong>kurz vor dem Vergessen</strong> zurückkehren und im Gedächtnis bleiben.',
+      index_card_quiz_desc:        'Multiple-Choice-Fragen, die <strong>aktives Abrufen</strong> erzwingen und das Gelernte langfristig festigen.',
+      index_card_grammar_desc:     'Fünf Phasen, vom Erkennen der Regel bis zum <strong>eigenen Produzieren</strong>, mit verteilter Wiederholung.',
 
       // ── Progress legend ───────────────────────────────────────
       progress_legend_unseen:   'Nicht begonnen',
@@ -1673,8 +1683,11 @@
       scramble_picker_sub:        'Tippe Wörter an, um sie hinzuzufügen. Tippe platzierte Wörter an, um sie zu entfernen.',
       vocab_picker_sub:           'Wähle ein Thema, dreh jede Karte um, um ihre Bedeutung zu sehen, und bewerte, wie gut du sie kennst.',
       quiz_picker_sub:            'Wähle ein Thema, um deinen Wortschatz zu testen.',
-    quiz_prompt_definition:     'Wähle die Definition',
-    quiz_prompt_translation:    'Wähle die Übersetzung',
+    quiz_prompt_definition:     'Wähle die <span>Definition</span>',
+    quiz_prompt_translation:    'Wähle die <span>Übersetzung</span>',
+    quiz_sub:                   'Tippe die richtige Option an.',
+    vocab_ex_title:             'Lerne das <span>Wort</span>',
+    vocab_ex_sub:               'Tippe, um die Bedeutung zu sehen.',
       grammar_picker_sub:         'Lerne {target} Grammatik durch echten Kontext und aktives Üben.',
       listen_phrase_aria:         'Den Satz anhören',
       speak_phrase_aria:          'Den Satz laut aussprechen',
@@ -1729,11 +1742,11 @@
       phase_5_short:              'Ausdruck',
       phase_5_aria:               'Phase 6: Ausdruck',
       phase_context_hint:         'Lies den Dialog. Achte auf die hervorgehobenen Teile.',
-      context_next_btn:           'Was fällt dir auf? →',
-      phase_noticing_hint:        'Schreib deine Antwort, bevor du fortfährst.',
+      context_next_btn:           'Was fällt dir auf?',
+      phase_noticing_hint:        'Schreib deine Antwort auf jede Frage, um fortzufahren.',
       noticing_show_btn:          'Erklärung ansehen',
       phase_rule_hint:            'Bestätige, was du beobachtet hast.',
-      rule_next_btn:              'Erkennen üben →',
+      rule_next_btn:              'Erkennen üben',
       phase_structured_hint:      'Wähle die richtige Option.',
       phase_production_hint:      'Schreib die richtige Form in die Lücke.',
       phase_express_hint:         'Bilde deinen eigenen Satz mit der Struktur und vergleich ihn mit dem Modell.',
@@ -1744,21 +1757,24 @@
       grammar_express_selfcheck:  'Benutzt dein Satz die Struktur und sagt er etwas, das für dich wahr ist?',
       phase_complete_aria:        'Übung abgeschlossen',
       exercise_complete_h2:       'Übung abgeschlossen',
-      grammar_continue_btn:       'Weiter →',
+      grammar_continue_btn:       'Weiter',
       related_phrases_aria:       'Verwandte Übungssätze',
       ml_page_h1:                 'Mein <span>Lernpfad</span>',
       progress_page_h1:           'Mein Profil',
-      progress_page_subtitle:     'Deine Übungen und dein Fortschritt auf einen Blick.',
+      progress_page_subtitle:     'Dein Fortschritt, deine Serien und was du schon beherrschst.',
  progress_lang_section:'Sprache',
+      progress_lang_sub:          'Wähle das Sprachpaar, das du üben möchtest.',
+      progress_lang_change:       'Sprache ändern',
  progress_exercises_section:'Übungsübersicht',
       exercise_matrix_aria:       'Übungs- und Themenfortschritt',
  progress_topics_section:'Interessante Themen',
       progress_topics_sub:        'Die Themen, die du wählst, erscheinen öfter in deinem Pfad.',
-      progress_heatmap_section:   'Aktivität, letzte 60 Tage',
-      heatmap_less:               'Weniger',
-      heatmap_more:               'Mehr',
-      heatmap_session_singular:   'Sitzung',
-      heatmap_session_plural:     'Sitzungen',
+      progress_activity_section:   'Aktivität der letzten 60 Tage',
+      activity_less:               'Weniger',
+      activity_more:               'Mehr',
+      activity_session_singular:   'Sitzung',
+      activity_session_plural:     'Sitzungen',
+      activity_empty:              'Noch keine Aktivität. Deine Sitzungen erscheinen hier.',
  progress_achievements_section:'Erfolge',
  progress_reminders_section:'Erinnerungen',
       progress_reminders_sub:     'Tägliche Erinnerung, wenn deine Serie in Gefahr ist.',
@@ -1771,11 +1787,8 @@
  backup_import_success:'Fortschritt wiederhergestellt. Wird neu geladen…',
       backup_import_error:        'Ungültige Datei. Stell sicher, dass es eine Practice-English-Sicherung ist.',
       backup_import_confirm:      'Dies ersetzt deinen aktuellen Fortschritt durch den der Datei. Fortfahren?',
- backup_instructions_export:'Lade eine .json-Datei mit deinem gesamten Fortschritt herunter. Speichere sie in Google Drive, iCloud oder schick sie dir per E-Mail.',
- backup_instructions_import:'Zum Wiederherstellen wähle die zuvor heruntergeladene .json-Datei.',
- backup_reminder_title:'Zeit für eine Sicherung?',
+      backup_hint:                'Die .json-Datei enthält deinen gesamten Fortschritt. Beim Importieren wird der aktuelle Fortschritt ersetzt.',
       backup_reminder_body:       'Es ist über 30 Tage her. Exportiere deinen Fortschritt, damit du ihn nicht verlierst.',
-      backup_reminder_close:      'Schließen',
       stat_streak_days:           'Serientage',
       stat_mastered_cards:        'Gemeisterte Karten',
       stat_lessons_started:       'Begonnene Lektionen',
@@ -1787,26 +1800,26 @@
  placement_pill_questions:'14 Fragen',
  placement_pill_result:'GER-Ergebnis',
       placement_suggestions_label:'Empfohlene Aktivitäten für dein Niveau:',
-      placement_result_cta:       'Mit dem Üben beginnen →',
+      placement_result_cta:       'Mit dem Üben beginnen',
       placement_page_h1:          'Niveau-Test',
       placement_subtitle_enes:    '14 Fragen, um dein {target}-Niveau (A1-C2) zu finden und den besten Startpunkt vorzuschlagen.',
       placement_time_pill:        '⏱️ ~3 Minuten',
  placement_questions_pill:'14 Fragen',
  placement_result_pill:'GER-Ergebnis',
-      placement_start_btn:        'Starten →',
+      placement_start_btn:        'Starten',
       placement_skip_btn:         'Überspringen, bei null anfangen',
       placement_retake_btn:       'Test wiederholen',
-      placement_result_a1_label:  'A1 · Anfänger',
+      placement_result_a1_label:  'Anfänger',
       placement_result_a1_msg: 'Perfekter Startpunkt. Beginne mit dem wichtigsten Wortschatz und Alltagssätzen.',
-      placement_result_a2_label:  'A2 · Grundstufe',
+      placement_result_a2_label:  'Grundstufe',
       placement_result_a2_msg: 'Gute Grundlage. Übe abwechslungsreichen Wortschatz und beginne, eigene Sätze zu bilden.',
-      placement_result_b1_label:  'B1 · Mittelstufe',
+      placement_result_b1_label:  'Mittelstufe',
       placement_result_b1_msg: 'Schönes Niveau. Konzentriere dich auf Grammatik und aktive Produktion, um dein {target} zu festigen.',
-      placement_result_b2_label:  'B2 · Obere Mittelstufe',
+      placement_result_b2_label:  'Obere Mittelstufe',
       placement_result_b2_msg: 'Fortgeschrittenes Niveau. Arbeite an komplexer Grammatik und freier Produktion.',
-      placement_result_c1_label:  'C1 · Fortgeschritten',
+      placement_result_c1_label:  'Fortgeschritten',
       placement_result_c1_msg: 'Fortgeschritten. Benutze {target} fließend und präzise in akademischen und beruflichen Kontexten.',
-      placement_result_c2_label:  'C2 · Meisterschaft',
+      placement_result_c2_label:  'Meisterschaft',
       placement_result_c2_msg: 'Meisterschaftsniveau. Verstehe und produziere {target} mit nahezu muttersprachlicher Genauigkeit.',
       placement_speaking_greetings: 'Sprechen: Begrüßungen',
       placement_speaking_advanced:  'Sprechen: Fortgeschritten',
@@ -1817,13 +1830,15 @@
 
   };
 
-  // El idioma de la UI sigue al par activo. Sin par guardado, getActive() ya
-  // devuelve el par por defecto, así que UI y contenido nunca se mezclan.
+  // Con par guardado, la UI sigue a su idioma base. En el primer acceso aun no
+  // hay par: la pantalla de eleccion y el fondo usan el idioma del navegador.
+  var _nav = (navigator.language || 'en').toLowerCase().split('-')[0];
+  var _stored = null;
+  try { _stored = localStorage.getItem('pe_active_pair'); } catch (e) { /* sin storage */ }
   var _code;
-  if (typeof AppLangPair !== 'undefined') {
+  if (typeof AppLangPair !== 'undefined' && _stored) {
     _code = AppLangPair.getActive().source.code;
   } else {
-    var _nav = (navigator.language || 'en').toLowerCase().split('-')[0];
     _code = _DATA[_nav] ? _nav : 'en';
   }
 

@@ -141,6 +141,7 @@ function startTopic(topicId, pathMode, pathCard) {
         onStart: idx => _beginExercise(idx),
       };
       _openPhraseBrowser = () => PhraseBrowser.show(_pbArgs);
+    AppSessionBar.setBackTarget('back-btn', 'words');
       if (_pathModeActive) {
         _beginExercise(0);
       } else {
@@ -191,7 +192,8 @@ function showQuestion(index) {
   _showCefrBadge(word.level, 'word-card');
   const promptEl = document.getElementById('quiz-prompt');
   if (promptEl) {
-    promptEl.textContent = AppLang.t(_translationMode ? 'quiz_prompt_translation' : 'quiz_prompt_definition');
+    // El enunciado es el titulo del ejercicio y resalta la palabra clave.
+    promptEl.innerHTML = AppLang.t(_translationMode ? 'quiz_prompt_translation' : 'quiz_prompt_definition');
   }
   const choices = buildChoices(index);
   renderChoices(choices, index);

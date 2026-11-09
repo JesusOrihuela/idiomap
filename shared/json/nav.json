@@ -16,7 +16,7 @@
       "match": "my-learning/",
       "icon": "map",
       "i18n": "nav_my_learning",
-      "label": "Mi Aprendizaje",
+      "label": "Mi Ruta",
       "dataNav": "my-learning"
     },
     {
@@ -31,7 +31,7 @@
       "id": "dictation",
       "href": "dictation/",
       "match": "dictation/",
-      "icon": "pen",
+      "icon": "type",
       "i18n": "nav_dictation",
       "label": "Dictado"
     },
@@ -39,7 +39,7 @@
       "id": "cloze",
       "href": "cloze/",
       "match": "cloze/",
-      "icon": "type",
+      "icon": "pen",
       "i18n": "nav_cloze",
       "label": "Cloze"
     },

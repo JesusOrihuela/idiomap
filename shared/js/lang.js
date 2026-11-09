@@ -46,6 +46,10 @@ const AppLang = (() => {
   /** Set <html lang/dir> for the source UI. */
   function applyDocumentLang() {
     if (typeof document === 'undefined' || !document.documentElement) return;
+    // Sin par guardado manda el idioma del navegador que fijo lang/ui.js.
+    var stored = null;
+    try { stored = localStorage.getItem('pe_active_pair'); } catch (_) { /* sin storage */ }
+    if (!stored) return;
     document.documentElement.lang = sourceCode() || document.documentElement.lang || 'en';
     document.documentElement.dir = dirFor(sourceCode());
   }

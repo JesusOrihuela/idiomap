@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedBy": "tools/build-audio-manifest.mjs",
-  "count": 28579,
+  "count": 28583,
   "files": [
     {
       "path": "shared/audio/de-es/accommodation/a_que_hora_abre_el_restaurante_del_hotel-ef_dora.wav",
@@ -176042,6 +176042,46 @@
       "voice": "bf_emma",
       "bytes": 108044,
       "sha256": "c0f4144ad904b4bb4990ffacdf6640e79fd2059e94bfb5a51f197dc944129498"
+    },
+    {
+      "path": "shared/audio/es-en/greetings/hey_how_are_you_today-af_bella.wav",
+      "pair": "es-en",
+      "target": "en",
+      "dir": "greetings",
+      "slug": "hey_how_are_you_today",
+      "voice": "af_bella",
+      "bytes": 109244,
+      "sha256": "7776652f17e4a4b168155164e2b8c1587f241547cbf35b82b5af2564c14518a0"
+    },
+    {
+      "path": "shared/audio/es-en/greetings/hey_how_are_you_today-af_heart.wav",
+      "pair": "es-en",
+      "target": "en",
+      "dir": "greetings",
+      "slug": "hey_how_are_you_today",
+      "voice": "af_heart",
+      "bytes": 97244,
+      "sha256": "6439404b197f8c18d29afb35b9303ed0d8b22231836ef9f0407f262221b8b34c"
+    },
+    {
+      "path": "shared/audio/es-en/greetings/hey_how_are_you_today-am_michael.wav",
+      "pair": "es-en",
+      "target": "en",
+      "dir": "greetings",
+      "slug": "hey_how_are_you_today",
+      "voice": "am_michael",
+      "bytes": 110444,
+      "sha256": "a1831c960a584d794e013dcb3eaaad49d30bf97fef0104586c1a55bd9cf21cd5"
+    },
+    {
+      "path": "shared/audio/es-en/greetings/hey_how_are_you_today-bf_emma.wav",
+      "pair": "es-en",
+      "target": "en",
+      "dir": "greetings",
+      "slug": "hey_how_are_you_today",
+      "voice": "bf_emma",
+      "bytes": 110444,
+      "sha256": "6df128d333e81f13c67e13ddda791579259298536d3f7efb1ac24a470fe78960"
     },
     {
       "path": "shared/audio/es-en/greetings/hey_how_s_everything_with_you-af_bella.wav",

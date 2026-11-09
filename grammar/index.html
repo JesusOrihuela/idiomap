@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 
 <head>
-    <script src="../shared/js/icons.js?v=bf0d48f8"></script>
+    <script src="../shared/js/icons.js?v=b2ae20a0"></script>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net https://esm.sh blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://cdn.jsdelivr.net https://esm.sh https://huggingface.co https://*.huggingface.co; media-src 'self' blob:; worker-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; child-src 'self' blob: https://cdn.jsdelivr.net https://esm.sh; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,15 +14,15 @@
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Idiomap">
-    <meta name="twitter:description" content="Research-based six-phase grammar exercises with spaced repetition · learn through context.">
+    <meta name="twitter:description" content="Research-based six-phase grammar exercises with spaced repetition. Learn through context.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../shared/css/tokens.css?v=c503fc77">
-    <link rel="stylesheet" href="../shared/css/layout.css?v=19bc9d12">
-    <link rel="stylesheet" href="../shared/css/components.css?v=ea5c27b8">
-    <link rel="stylesheet" href="css/grammar.css?v=c1ca61c7">
-    <style>:root { --activity-clr: var(--violet-600); }</style>
+    <link rel="stylesheet" href="../shared/css/tokens.css?v=8620d0fa">
+    <link rel="stylesheet" href="../shared/css/layout.css?v=f77c4fc8">
+    <link rel="stylesheet" href="../shared/css/components.css?v=0bc4e4ad">
+    <link rel="stylesheet" href="css/grammar.css?v=d191e8f8">
+
     <link rel="icon" href="../index/img/ico/favicon.ico">
     <link rel="manifest" href="../manifest.json">
     <meta name="theme-color" content="">
@@ -31,19 +31,19 @@
     <meta name="apple-mobile-web-app-title" content="Idiomap">
 
     <!-- Language scripts: must be in <head> so LangUI is set before body renders -->
-    <script src="../shared/js/pairs.js?v=d0d87bca"></script>
+    <script src="../shared/js/pairs.js?v=b16990ec"></script>
     <script src="../shared/js/languages.js?v=e2f2f8aa"></script>
-    <script src="../shared/js/lang-pair.js?v=bd479fdf"></script>
+    <script src="../shared/js/lang-pair.js?v=f205505a"></script>
     <script src="../shared/js/lang-profiles.js?v=19ba2b2c"></script>
-    <script src="../lang/ui.js?v=45820f61"></script>
+    <script src="../lang/ui.js?v=a49440fd"></script>
     <script src="../lang/target/en.js?v=22e1b310"></script>
-    <script src="../shared/js/lang.js?v=aaf848f7"></script>
+    <script src="../shared/js/lang.js?v=d5b0b751"></script>
     <script src="../shared/js/i18n-dom.js?v=3ac48a81"></script>
     <script src="../shared/js/page-title.js?v=bdfe900b"></script>
 
 </head>
 
-<body>
+<body data-activity="grammar">
     <a class="skip-link" href="#main-content" data-i18n="skip_to_main">Ir al contenido principal</a>
     <header>
         <a href="../" aria-label="Idiomap · Home" data-i18n-aria="nav_home_aria">
@@ -53,10 +53,10 @@
 
     <nav class="mode-switcher" aria-label="Modos de práctica" data-i18n-aria="nav_modes_aria">
         <a href="../" class="nav-item" data-nav="home" aria-label="Inicio" data-i18n-aria="nav_home_aria"><svg class="icon" aria-hidden="true"><use href="#i-house"/></svg></a>
-        <a href="../my-learning/" class="nav-item" data-nav="my-learning"><svg class="icon" aria-hidden="true"><use href="#i-map"/></svg> <span class="btn-label" data-i18n="nav_my_learning">Mi Aprendizaje</span></a>
+        <a href="../my-learning/" class="nav-item" data-nav="my-learning"><svg class="icon" aria-hidden="true"><use href="#i-map"/></svg> <span class="btn-label" data-i18n="nav_my_learning">Mi Ruta</span></a>
         <a href="../speaking/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-mic"/></svg> <span class="btn-label" data-i18n="nav_speaking">Pronunciación</span></a>
-        <a href="../dictation/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-pen"/></svg> <span class="btn-label" data-i18n="nav_dictation">Dictado</span></a>
-        <a href="../cloze/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-type"/></svg> <span class="btn-label" data-i18n="nav_cloze">Cloze</span></a>
+        <a href="../dictation/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-type"/></svg> <span class="btn-label" data-i18n="nav_dictation">Dictado</span></a>
+        <a href="../cloze/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-pen"/></svg> <span class="btn-label" data-i18n="nav_cloze">Cloze</span></a>
         <a href="../translation/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-languages"/></svg> <span class="btn-label" data-i18n="nav_translation">Traducción</span></a>
         <a href="../scramble/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-puzzle"/></svg> <span class="btn-label" data-i18n="nav_scramble">Secuencia</span></a>
         <a href="../vocabulary/" class="nav-item"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg> <span class="btn-label" data-i18n="nav_vocabulary">Vocabulario</span></a>
@@ -77,7 +77,7 @@
                 <p class="page-header__sub" data-i18n="grammar_picker_sub"></p>
             </div>
 
-            <div class="category-grid" id="category-grid">
+            <div class="img-topic-grid" id="category-grid">
                 <!-- Filled by JS -->
             </div>
         </div>
@@ -101,7 +101,7 @@
         <div id="screen-exercise" class="hidden">
 
             <!-- Session bar -->
-            <div class="session-info-bar session-info-bar--grid">
+            <div class="session-info-bar">
                 <button class="btn btn--ghost btn--sm btn--back" id="back-to-rules" data-i18n="back_to_rules"></button>
                 <span id="exercise-rule-title" class="rule-title-badge"></span>
                 <span id="exercise-cefr-badge" class="cefr-badge"></span>
@@ -136,7 +136,7 @@
                     <!-- Filled by JS -->
                 </div>
                 <div class="phase-actions">
-                    <button class="btn btn--primary primary-btn" id="context-next-btn" data-i18n="context_next_btn">¿Qué observas? →</button>
+                    <button class="btn btn--primary primary-btn" id="context-next-btn" data-i18n="context_next_btn">¿Qué observas?</button>
                 </div>
             </section>
 
@@ -163,11 +163,11 @@
                     <span class="phase-name" data-i18n="phase_2_short">La Regla</span>
                     <span class="phase-hint" data-i18n="phase_rule_hint">Confirma lo que observaste.</span>
                 </div>
-                <div class="card card--accent rule-card" id="rule-card">
+                <div class="card rule-card" id="rule-card">
                     <!-- Filled by JS -->
                 </div>
                 <div class="phase-actions">
-                    <button class="btn btn--primary primary-btn" id="rule-next-btn" data-i18n="rule_next_btn">Practicar reconocimiento →</button>
+                    <button class="btn btn--primary primary-btn" id="rule-next-btn" data-i18n="rule_next_btn">Practicar reconocimiento</button>
                 </div>
             </section>
 
@@ -217,13 +217,16 @@
             <section id="phase-complete" class="phase-section hidden" aria-label="Ejercicio completado" data-i18n-aria="phase_complete_aria">
                 <div class="card complete-card" id="complete-card">
                     <div class="complete-icon"><svg class="icon" aria-hidden="true"><use href="#i-party"/></svg></div>
-                    <h2 class="complete-title" data-i18n="exercise_complete_h2">Ejercicio completado</h2>
+                    <h2 class="screen-title complete-title" data-i18n="exercise_complete_h2">Ejercicio completado</h2>
                     <p class="complete-score" id="complete-score"></p>
+                    <div class="complete-meter" aria-hidden="true">
+                        <div class="progress-bar progress-bar--success"><div class="progress-bar__fill" id="complete-progress"></div></div>
+                    </div>
 
-                    <button class="btn btn--primary auto-save-btn" id="rate-auto" data-i18n="grammar_continue_btn">Continuar →</button>
-                    <!-- Related phrases from Speaking/other activities -->
-                    <div id="related-phrases" class="related-phrases hidden" role="region" aria-label="Frases de práctica relacionadas" data-i18n-aria="related_phrases_aria"></div>
+                    <button class="btn btn--primary auto-save-btn" id="rate-auto" data-i18n="grammar_continue_btn">Continuar</button>
                 </div>
+                <!-- Related phrases from Speaking/other activities -->
+                <div id="related-phrases" class="related-phrases hidden" role="region" aria-label="Frases de práctica relacionadas" data-i18n-aria="related_phrases_aria"></div>
             </section>
 
         </div><!-- /screen-exercise -->
@@ -242,19 +245,19 @@
     <script src="../shared/js/flags.js?v=527c7259"></script>
     <script src="../shared/js/cefr.js?v=4737c1d0"></script>
     <script src="../shared/js/proficiency.js?v=5fd50d9f"></script>
-    <script src="../shared/js/progress.js?v=651f6d16"></script>
+    <script src="../shared/js/progress.js?v=bcc55825"></script>
     <script src="../shared/js/text-utils.js?v=6b441086"></script>
     <script src="../shared/js/content.js?v=a9ebe9f2"></script>
     <script src="../shared/js/topic-data.js?v=5bf39a02"></script>
-    <script src="../shared/js/topics.js?v=4b06b99c"></script>
+    <script src="../shared/js/topics.js?v=8f5c9dae"></script>
     <script src="../shared/js/grammar-chip.js?v=39eb9da2"></script>
     <script src="../shared/js/network-status.js?v=bb7c0f56"></script>
     <script src="../shared/js/theme.js?v=80cf2218"></script>
-    <script src="../shared/js/path.js?v=424ff18b"></script>
+    <script src="../shared/js/path.js?v=41eb41ed"></script>
     <script src="../shared/js/path-session.js?v=f54a2937"></script>
-    <script src="js/grammar.js?v=dfca1695"></script>
+    <script src="js/grammar.js?v=d3fb4b09"></script>
     <script src="../shared/js/milestones.js?v=f3a74ec2"></script>
-    <script src="../shared/js/nav.js?v=0988494a"></script>
+    <script src="../shared/js/nav.js?v=c9362b4e"></script>
     <script src="../shared/js/sw-register.js?v=f3fe7a26"></script>
 </body>
 

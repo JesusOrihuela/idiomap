@@ -28,6 +28,7 @@
   --amber-600: #D97706;
   --amber-700: #B45309;
   --amber-800: #92400E;
+  --orange-600: #EA580C;
   /* Oro del camino de aprendizaje (--color-category-path). */
   --gold-050: #FDF3DC;
   --gold-600: #8A6107;
@@ -35,10 +36,13 @@
   /* Violeta de categoría Gramática (--color-category-grammar) */
   --violet-100: #EDE9FE;
   --violet-600: #7C3AED;
+  --fuchsia-600: #C026D3;
   /* Paleta de categorias CEFR (un par fondo/texto por nivel). */
   --cat-green-100: #DCFCE7;
   --cat-cyan-100: #CFFAFE;
   --cyan-700: #0E7490;
+  --lime-700: #65A30D;
+  --teal-600: #0D9488;
   --cat-rose-100: #FFE4E6;
   --cat-rose-700: #BE123C;
   /* Identidad de cada actividad (--activity-clr en el <style> de su pagina). */
@@ -129,7 +133,6 @@
   /* Medida de linea. USWDS: 45-90 caracteres, objetivo 66. */
   --measure: 66ch;
   --measure-xs: 320px;
-  --measure-sm: 340px;
   --measure-sm2: 360px;
   --measure-md: 380px;
   --measure-lg: 400px;
@@ -198,11 +201,9 @@
   /* Ritmo de pagina y medidas de layout (uniformes en todas las pantallas) */
   --page-pad-block: var(--space-8) var(--space-16);
   --page-pad-block-mobile: var(--space-5) var(--space-12);
-  --section-gap: var(--space-9);
   --panel-min-h: 280px;
   --matrix-max-h: 720px;
   --card-min: 220px;
-  --glow-size: 440px;
   --scrollbar-w: 7px;
   --flip-perspective: 1000px;
   --header-h: 76px;
@@ -343,7 +344,7 @@
   --color-accent-hover: var(--amber-600);
   --color-category-path-strong: var(--gold-700);
   --color-category-path-subtle: var(--gold-050);
-  --color-category-grammar-subtle: var(--violet-100);
+  --color-category-grammar-subtle: var(--gray-100);
   /* Equivalentes de los nombres intermedios que quedaron en el CSS. */
   --color-action-light: var(--color-action-subtle);
 
@@ -355,12 +356,6 @@
   --gradient-hero: linear-gradient(135deg, #EBEEF2 0%, #F1F3F5 50%, #ECEEF2 100%);
   /* Barrido del skeleton de carga. */
   --gradient-shimmer: linear-gradient(90deg, transparent, color-mix(in srgb, white 28%, transparent), transparent);
-  /* Tinte del encabezado de gramática */
-  --gradient-grammar: linear-gradient(135deg, color-mix(in srgb, var(--color-category-grammar) 15%, transparent) 0%, color-mix(in srgb, var(--color-action) 10%, transparent) 100%);
-  /* Halo decorativo del hero */
-  --gradient-glow: radial-gradient(ellipse at center, color-mix(in srgb, var(--color-action) 6%, transparent) 0%, transparent 70%);
-  /* Botón principal de Pronunciación */
-  --gradient-action: linear-gradient(135deg, var(--color-action) 0%, var(--color-action-hover) 100%);
 
   /* ── shadow ──────────────────────────────────────── */
   /* Anillo de 1 px sobre banderas y piezas pequeñas */
@@ -371,18 +366,18 @@
   --shadow-hover: 0 2px 6px color-mix(in srgb, black 7%, transparent);
   /* Elevación al pasar sobre un nodo de Mi Ruta */
   --shadow-hover-lg: 0 2px 8px color-mix(in srgb, black 7%, transparent);
-  /* Halo de la celda de actividad intensa */
-  --shadow-heat-glow: 0 0 4px color-mix(in srgb, var(--color-action) 40%, transparent);
-  /* Sombra del aviso de giro */
-  --shadow-hint: 0 4px 14px color-mix(in srgb, var(--color-action) 28%, transparent);
-  /* Sombra del aviso de giro al pasar */
-  --shadow-hint-hover: 0 8px 20px color-mix(in srgb, var(--color-action) 36%, transparent);
+  /* Sombra neutra del aviso de giro */
+  --shadow-hint: var(--shadow-md);
+  /* Sombra neutra del aviso de giro al pasar */
+  --shadow-hint-hover: var(--shadow-lg);
   /* Anillo del nodo de ruta */
   --shadow-path-ring: 0 0 0 3px var(--color-category-path-subtle);
   /* Anillo del nodo activo de la ruta */
   --shadow-path-ring-strong: 0 0 0 5px var(--color-category-path-subtle);
   /* Separador interior de 1 px */
   --shadow-inset: inset 0 0 0 1px var(--color-border);
+  /* Borde interior de un campo de una linea */
+  --shadow-field: inset 0 0 0 2px var(--color-border);
 
   /* ── feedback ────────────────────────────────────── */
   /* Fondo del aviso de acierto. */

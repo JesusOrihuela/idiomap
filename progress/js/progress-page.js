@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderBackupSection();
   renderHeroStats();
   renderTopicPrefs();
-  renderHeatmap();
+  renderActivityChart();
   renderMilestones();
   await renderExerciseMatrix();
 
@@ -25,6 +25,25 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 // ---- Language Pair ----
+
+// Direction arrow as an icon: the same glyph in the flags row and the names row,
+// so both sit on the card's centre line (text arrows drift with the name widths).
+function _pairArrow() {
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('class', 'icon icon--xs lp-card__arrow');
+  svg.setAttribute('aria-hidden', 'true');
+  const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
+  use.setAttribute('href', '#i-arrow-right');
+  svg.appendChild(use);
+  return svg;
+}
+
+function _pairName(text) {
+  const span = document.createElement('span');
+  span.className = 'lp-card__name';
+  span.textContent = text;
+  return span;
+}
 
 function renderLangPair() {
   const grid = document.getElementById('lang-pair-grid');
@@ -43,29 +62,28 @@ function renderLangPair() {
   all.forEach(function (pair) {
     const card = document.createElement('button');
     card.type = 'button';
-    card.className = 'choice lp-card' + (pair.id === active.id ? ' choice--selected' : '');
+    card.className = 'choice choice--compact lp-card' + (pair.id === active.id ? ' choice--selected' : '');
     card.setAttribute('aria-pressed', pair.id === active.id ? 'true' : 'false');
     card.setAttribute('aria-label', pair.label);
 
-    // Flag row
+    // Flag row: source / arrow / target share a 3-column grid, so the arrow
+    // stays at the card centre even when a language carries several flags.
     const flagRow = document.createElement('span');
-    flagRow.className = 'lp-card__flags';
+    flagRow.className = 'lp-card__row lp-card__flags';
     if (typeof AppFlags !== 'undefined') {
       flagRow.appendChild(AppFlags.langFlags(pair.source.flags));
-      const arrow = document.createElement('span');
-      arrow.className   = 'lp-card__arrow';
-      arrow.setAttribute('aria-hidden', 'true');
-      arrow.textContent = '→';
-      flagRow.appendChild(arrow);
+      flagRow.appendChild(_pairArrow());
       flagRow.appendChild(AppFlags.langFlags(pair.target.flags));
     }
     card.appendChild(flagRow);
 
-    // Label
-    const lbl = document.createElement('span');
-    lbl.className   = 'lp-card__label';
-    lbl.textContent = pair.label;
-    card.appendChild(lbl);
+    // Name row: same grid and the same arrow icon, so it lines up with the flags.
+    const nameRow = document.createElement('span');
+    nameRow.className = 'lp-card__row';
+    nameRow.appendChild(_pairName(pair.source.name));
+    nameRow.appendChild(_pairArrow());
+    nameRow.appendChild(_pairName(pair.target.name));
+    card.appendChild(nameRow);
 
     card.addEventListener('click', function () {
       AppLangPair.setActive(pair.id);
@@ -75,6 +93,25 @@ function renderLangPair() {
 
     grid.appendChild(card);
   });
+
+  // Movil: solo el par activo; el resto se revela con el boton.
+  const toggle = document.getElementById('lang-pair-toggle');
+  if (toggle) {
+    const mq = window.matchMedia('(max-width: 640px)');
+    const sync = function () {
+      const mobile = mq.matches;
+      const open = grid.classList.contains('lang-pair-grid--open');
+      toggle.classList.toggle('hidden', !mobile);
+      toggle.setAttribute('aria-expanded', mobile && open ? 'true' : 'false');
+      if (!mobile) grid.classList.remove('lang-pair-grid--open');
+    };
+    toggle.addEventListener('click', function () {
+      grid.classList.toggle('lang-pair-grid--open');
+      sync();
+    });
+    if (mq.addEventListener) mq.addEventListener('change', sync);
+    sync();
+  }
 }
 
 // ---- Topic Preferences ----
@@ -89,8 +126,15 @@ function renderTopicPrefs() {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'prog-bubble' + (saved.has(t.id) ? ' prog-bubble--on' : '');
-    btn.textContent = AppTopics.getLabel(t);
     btn.dataset.id = t.id;
+    const icon = document.createElement('span');
+    icon.className = 'prog-bubble-icon';
+    icon.setAttribute('aria-hidden', 'true');
+    icon.innerHTML = '<svg class="icon"><use href="#' + AppTopicIcon.of(t.id) + '"/></svg>';
+    const text = document.createElement('span');
+    text.className = 'prog-bubble-label';
+    text.textContent = AppTopics.getLabel(t);
+    btn.replaceChildren(icon, text);
     btn.setAttribute('aria-pressed', saved.has(t.id) ? 'true' : 'false');
     btn.addEventListener('click', () => {
       btn.classList.toggle('prog-bubble--on');
@@ -209,9 +253,9 @@ async function renderExerciseMatrix() {
 
   const ACT_ORDER = [
     { id: 'speaking',    icon: 'mic', label: AppLang.t('act_speaking')    },
-    { id: 'dictation',   icon: 'pen', label: AppLang.t('act_dictation')   },
+    { id: 'dictation',   icon: 'type', label: AppLang.t('act_dictation')   },
     { id: 'vocabulary',  icon: 'book', label: AppLang.t('act_vocabulary')  },
-    { id: 'cloze',       icon: 'type', label: AppLang.t('act_cloze')       },
+    { id: 'cloze',       icon: 'pen', label: AppLang.t('act_cloze')       },
     { id: 'translation', icon: 'languages', label: AppLang.t('act_translation') },
     { id: 'scramble',    icon: 'puzzle', label: AppLang.t('act_scramble')    },
     { id: 'quiz',        icon: 'brain', label: AppLang.t('act_quiz')        },
@@ -224,13 +268,16 @@ async function renderExerciseMatrix() {
   const hdrRow = document.createElement('div');
   hdrRow.className = 'ex-grid-row ex-grid-row--header';
   hdrRow.setAttribute('role', 'row');
-  // Empty corner cell
+  // Empty corner cell: pinned like the topic column so the headers keep
+  // aligned with their columns when the matrix scrolls sideways.
   const corner = document.createElement('div');
+  corner.className = 'ex-grid-corner';
   corner.setAttribute('role', 'columnheader');
   hdrRow.appendChild(corner);
   ACT_ORDER.forEach(function (a) {
     const th = document.createElement('div');
     th.className = 'ex-grid-th';
+    th.dataset.activity = a.id;
     th.setAttribute('role', 'columnheader');
     th.setAttribute('aria-label', a.label);
     const emojiEl = document.createElement('span');
@@ -280,7 +327,7 @@ async function renderExerciseMatrix() {
       const stats = _getActStats(topic.id, act.id, allCards, phraseIds, vocabIds, grammarRules);
 
       if (!stats) {
-        td.innerHTML = '<div class="ex-seg-bar ex-seg-bar--na"></div><span class="ex-cell-na">n/a</span>';
+        td.innerHTML = '<div class="ex-seg-bar ex-seg-bar--na"></div><span class="ex-cell-na">N/A</span>';
         td.title = AppLang.t('cell_na', { act: act.label });
         row.appendChild(td);
         return;
@@ -293,9 +340,9 @@ async function renderExerciseMatrix() {
         '<div class="ex-seg-bar">' + _segBar(stats.mastered, stats.learning, stats.total) + '</div>' +
         '<div class="ex-cell-counts">' +
           '<span class="ex-count--n">' + ns + '</span>' +
-          '<span class="ex-count-sep">·</span>' +
+          '<span class="ex-count-sep">,</span>' +
           '<span class="ex-count--l">' + stats.learning + '</span>' +
-          '<span class="ex-count-sep">·</span>' +
+          '<span class="ex-count-sep">,</span>' +
           '<span class="ex-count--m">' + stats.mastered + '</span>' +
         '</div>';
 
@@ -321,24 +368,29 @@ async function renderExerciseMatrix() {
       '<span class="' + li.countCls + '">' + li.label + '</span>';
     legend.appendChild(el);
   });
-  document.getElementById('exercises-block').appendChild(legend);
+  const block = document.getElementById('exercises-block');
+  const wrap = container.parentElement;
+  if (block && wrap && wrap.parentElement === block) block.insertBefore(legend, wrap);
+  else if (block) block.appendChild(legend);
 
 }
 
-// ---- Activity Heatmap (last 60 days) ----
-// Rejilla 7 filas (L-D) x N semanas, con meses encima y dias a la izquierda.
+// ---- Activity chart (last 60 days) ----
+// 60 daily bars filling the card width; months below. The 60-day window fits
+// inside the 90-day session history, so the chart never shows false zeros.
 
-function renderHeatmap() {
+function renderActivityChart() {
   const sessions  = Progress.getSessions();
-  const container = document.getElementById('heatmap');
+  const container = document.getElementById('activity-chart');
   if (!container) return;
 
   const counts = {};
   sessions.forEach(s => { counts[s.date] = (counts[s.date] || 0) + 1; });
 
-  const lang   = document.documentElement.lang || 'es';
-  const dayFmt = new Intl.DateTimeFormat(lang, { weekday: 'narrow' });
-  const monFmt = new Intl.DateTimeFormat(lang, { month: 'short' });
+  const lang    = document.documentElement.lang || 'es';
+  const monFmt  = new Intl.DateTimeFormat(lang, { month: 'short' });
+  const dateFmt = new Intl.DateTimeFormat(lang, { day: 'numeric', month: 'short' });
+  const keyOf   = d => d.toLocaleDateString('sv');   // same local key as recordSession
 
   const today = new Date();
   const days  = [];
@@ -348,80 +400,74 @@ function renderHeatmap() {
     days.push(d);
   }
 
-  // Semanas que empiezan en lunes
-  const lead  = (days[0].getDay() + 6) % 7;
-  const cells = new Array(lead).fill(null).concat(days);
-  const weeks = [];
-  for (let i = 0; i < cells.length; i += 7) weeks.push(cells.slice(i, i + 7));
-
-  const monday = new Date(days[0]);
-  monday.setDate(monday.getDate() - lead);
+  const values = days.map(d => counts[keyOf(d)] || 0);
+  const max    = Math.max(4, ...values);
+  const total  = values.reduce((a, b) => a + b, 0);
 
   container.innerHTML = '';
-  const grid = document.createElement('div');
-  grid.className = 'heatmap-grid';
-  grid.style.setProperty('--weeks', weeks.length);
+  container.classList.toggle('is-empty', total === 0);
 
-  const label = (text, cls) => {
-    const el = document.createElement('span');
-    el.className = 'heatmap-label' + (cls ? ' ' + cls : '');
-    el.textContent = text;
-    return el;
-  };
-
-  // Meses: una etiqueta por tramo, arriba y abarcando sus semanas
-  let monthStart = 0, monthName = '';
-  const flushMonth = endIdx => {
-    if (!monthName) return;
-    const el = label(monthName, 'heatmap-month');
-    el.style.gridRow = '1';
-    el.style.gridColumn = (monthStart + 2) + ' / span ' + (endIdx - monthStart);
-    grid.appendChild(el);
-  };
-  weeks.forEach((week, wi) => {
-    const first = week.find(Boolean);
-    if (!first) return;
-    const name = monFmt.format(first);
-    if (name !== monthName) {
-      flushMonth(wi);
-      monthName = name;
-      monthStart = wi;
-    }
-  });
-  flushMonth(weeks.length);
-
-  // Dias a la izquierda
-  for (let d = 0; d < 7; d++) {
-    const day = new Date(monday);
-    day.setDate(day.getDate() + d);
-    const el = label(dayFmt.format(day), 'heatmap-day');
-    el.style.gridRow = String(d + 2);
-    el.style.gridColumn = '1';
-    grid.appendChild(el);
+  if (total === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'activity-empty';
+    const icon = document.createElement('span');
+    icon.setAttribute('aria-hidden', 'true');
+    icon.innerHTML = '<svg class="icon"><use href="#i-calendar-days"/></svg>';
+    const text = document.createElement('p');
+    text.textContent = AppLang.t('activity_empty');
+    empty.replaceChildren(icon, text);
+    container.appendChild(empty);
+    return;
   }
 
-  // Celdas: fila = dia de la semana, columna = semana
-  weeks.forEach((week, wi) => {
-    week.forEach((day, di) => {
-      if (!day) return;
-      const dateStr = day.toISOString().slice(0, 10);
-      const count   = counts[dateStr] || 0;
-      const level   = count === 0 ? 'l0' : count === 1 ? 'l1' : count <= 3 ? 'l2' : 'l3';
+  const chart = document.createElement('div');
+  chart.className = 'activity-chart';
+  chart.style.setProperty('--days', days.length);
 
-      const cell = document.createElement('span');
-      cell.className = 'heatmap-cell ' + level;
-      cell.style.gridRow = String(di + 2);
-      cell.style.gridColumn = String(wi + 2);
-      cell.setAttribute('role', 'img');
-      cell.setAttribute('aria-label', dateStr + (count > 0
-        ? ', ' + count + ' ' + (count > 1 ? AppLang.t('heatmap_session_plural') : AppLang.t('heatmap_session_singular'))
-        : ''));
-      cell.title = cell.getAttribute('aria-label');
-      grid.appendChild(cell);
-    });
+  const bars = document.createElement('div');
+  bars.className = 'activity-bars';
+  bars.setAttribute('role', 'group');
+
+  days.forEach((day, i) => {
+    const count = values[i];
+    const level = count === 0 ? 'l0' : count === 1 ? 'l1' : count <= 3 ? 'l2' : 'l3';
+    const bar = document.createElement('span');
+    bar.className = 'activity-bar ' + level;
+    bar.style.height = count ? Math.max(10, Math.round((count / max) * 100)) + '%' : '3px';
+    const label = dateFmt.format(day) + (count > 0
+      ? ', ' + count + ' ' + (count > 1 ? AppLang.t('activity_session_plural') : AppLang.t('activity_session_singular'))
+      : '');
+    bar.setAttribute('role', 'img');
+    bar.setAttribute('aria-label', label);
+    bar.title = label;
+    bars.appendChild(bar);
   });
+  chart.appendChild(bars);
 
-  container.appendChild(grid);
+  // Months: one label per month, spanning its days in the 60-column grid.
+  const months = document.createElement('div');
+  months.className = 'activity-months';
+  let start = 0, current = '';
+  const flush = end => {
+    if (!current || end - start < 3) return;
+    const el = document.createElement('span');
+    el.className = 'activity-month';
+    el.style.gridColumn = (start + 1) + ' / span ' + (end - start);
+    el.textContent = current;
+    months.appendChild(el);
+  };
+  days.forEach((day, i) => {
+    const name = monFmt.format(day);
+    if (name !== current) {
+      flush(i);
+      current = name;
+      start = i;
+    }
+  });
+  flush(days.length);
+  chart.appendChild(months);
+
+  container.appendChild(chart);
 }
 
 // ---- Milestones ----
@@ -592,7 +638,7 @@ function _updateBackupStatus() {
 function renderBackupSection() {
   var exportBtn   = document.getElementById('backup-export-btn');
   var importInput = document.getElementById('backup-import-input');
-  var importLabel = exportBtn && exportBtn.parentNode && exportBtn.parentNode.querySelector('.backup-btn--import');
+  var importLabel = exportBtn && exportBtn.parentNode && exportBtn.parentNode.querySelector('label[for="backup-import-input"]');
 
   if (exportBtn) {
     exportBtn.addEventListener('click', _exportProgress);

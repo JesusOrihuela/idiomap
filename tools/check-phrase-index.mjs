@@ -8,8 +8,8 @@
    - the main text never collapses (>= 40 px) and no chip overflows;
    - the CEFR badge and the coverage pips stay inside the chip;
    - the variant category chip is hidden at <= 400 px and shown above;
-   - lang is correct per part (source phrase, target variants, target word);
-   - the variant mode repaints the open list, keeping scroll and focus;
+   - lang is correct per part (source phrase, target word);
+   - there is no variant-mode switch (every declared form is practiced);
    - hover paints the four borders with the same color (normal and seen chip);
    - chip -> exercise and the empty/absent variants topic keep working.
 
@@ -92,7 +92,7 @@ async function openTopic(page, act, theme) {
 const measure = () => {
   const chips = [...document.querySelectorAll('.pb-chip')];
   const r = e => e.getBoundingClientRect();
-  let textMin = Infinity, cefrOut = 0, covOut = 0, chipOver = 0, subShown = 0, subLang = null;
+  let textMin = Infinity, cefrOut = 0, covOut = 0, chipOver = 0, subShown = 0;
   const langs = new Set();
   for (const c of chips) {
     const cb = r(c);
@@ -101,24 +101,19 @@ const measure = () => {
     const cefr = c.querySelector('.pb-chip-cefr');
     const cov = c.querySelector('.pb-chip-cov');
     if (t) { textMin = Math.min(textMin, r(t).width); langs.add(t.getAttribute('lang') || '-'); }
-    if (s && getComputedStyle(s).display !== 'none') {
-      subShown++;
-      subLang = s.getAttribute('lang');
-    }
+    if (s && getComputedStyle(s).display !== 'none') subShown++;
     if (cefr && (r(cefr).right > cb.right + 0.5 || r(cefr).left < cb.left - 0.5)) cefrOut++;
     if (cov && (r(cov).right > cb.right + 0.5 || r(cov).left < cb.left - 0.5)) covOut++;
     if (c.scrollWidth > c.clientWidth + 1) chipOver++;
   }
   const bar = document.querySelector('.pb-bar');
-  const sel = document.querySelector('.pb-mode-select');
   return {
     chips: chips.length,
     textMin: Math.round(textMin),
-    subShown, subLang,
+    subShown,
     langs: [...langs].sort().join(','),
     cefrOut, covOut, chipOver,
     barH: bar ? Math.round(r(bar).height) : null,
-    selW: sel ? Math.round(r(sel).width) : null,
     doc: document.documentElement.scrollWidth + '/' + document.documentElement.clientWidth,
   };
 };
@@ -146,12 +141,9 @@ for (const [act, kind] of ACTIVITIES) {
       check(m.doc.split('/')[0] === m.doc.split('/')[1], `${tag}: desborde ${m.doc}`);
       if (kind === 'phrases') {
         check(m.langs.includes('es'), `${tag}: lang del texto (${m.langs})`);
-        if (w <= 400) {
-          check(m.subShown === 0, `${tag}: sub visible a ${w}px (${m.subShown})`);
-        } else {
-          check(m.subShown > 0, `${tag}: sin variantes visibles`);
-          check(m.subLang === 'en', `${tag}: lang del sub (${m.subLang})`);
-        }
+        // The index shows the phrase only; the variants live in title/aria and
+        // in the variant-mode control, never as a visible chip.
+        check(m.subShown === 0, `${tag}: ${m.subShown} variantes visibles en el chip`);
       } else {
         check(m.langs.includes('en'), `${tag}: lang de la palabra (${m.langs})`);
         check(w <= 400 ? m.subShown === 0 : m.subShown > 0, `${tag}: categoría de palabra (${m.subShown})`);
@@ -159,9 +151,7 @@ for (const [act, kind] of ACTIVITIES) {
       if (w >= 768) {
         check(m.barH !== null && m.barH <= 84, `${tag}: barra de ${m.barH}px`);
       }
-      if (kind === 'phrases' && m.selW !== null) {
-        check(m.selW <= 240, `${tag}: select de ${m.selW}px`);
-      }
+      check((await page.$('.pb-mode-select')) === null, `${tag}: selector de variantes inesperado`);
       check(errors.length === 0, `${tag}: errores JS ${errors.join('; ')}`);
     }
     await ctx.close();
@@ -189,40 +179,8 @@ for (const [act, kind] of ACTIVITIES) {
   check(opened, 'de-es directions: el índice no abre');
   if (opened) {
     const m = await page.evaluate(measure);
-    check(m.subShown > 0, 'de-es: sin variantes visibles');
-    check(m.subLang === 'es', `de-es: lang del sub (${m.subLang})`);
+    check(m.subShown === 0, `de-es: ${m.subShown} variantes visibles`);
     check(m.chipOver === 0 && m.cefrOut === 0 && m.covOut === 0, 'de-es: chip roto con 4 formas');
-  }
-  await ctx.close();
-}
-
-// Variant mode repaints the open list: subs 24 -> 0, same scroll, focus on select.
-for (const w of [1440, 390]) {
-  const { ctx, page } = await newPage(w);
-  const opened = await openTopic(page, 'speaking', 'greetings');
-  check(opened, `modo ${w}: el índice no abre`);
-  if (opened) {
-    const sel = await page.$('.pb-mode-select');
-    check(sel !== null, `modo ${w}: sin select`);
-    if (sel) {
-      const before = await page.evaluate(() => [...document.querySelectorAll('.pb-chip-sub')].filter(s => getComputedStyle(s).display !== 'none').length);
-      await page.evaluate(() => window.scrollTo(0, 500));
-      await sel.selectOption('canonical');
-      await page.waitForTimeout(500);
-      const after = await page.evaluate(() => ({
-        subs: [...document.querySelectorAll('.pb-chip-sub')].filter(s => getComputedStyle(s).display !== 'none').length,
-        focus: document.activeElement === document.querySelector('.pb-mode-select'),
-        scrollY: Math.round(window.scrollY),
-        value: document.querySelector('.pb-mode-select').value,
-      }));
-      check(w <= 400 || before > 0, `modo ${w}: sin subs antes (${before})`);
-      check(after.subs === 0, `modo ${w}: ${after.subs} subs tras canónica`);
-      check(after.focus, `modo ${w}: el foco no vuelve al select`);
-      check(Math.abs(after.scrollY - 500) <= 2, `modo ${w}: scroll ${after.scrollY}`);
-      check(after.value === 'canonical', `modo ${w}: valor ${after.value}`);
-      await sel.selectOption('all');
-      await page.waitForTimeout(400);
-    }
   }
   await ctx.close();
 }
@@ -233,6 +191,8 @@ for (const w of [1440, 390]) {
   const opened = await openTopic(page, 'speaking', 'greetings');
   check(opened, 'hover: el índice no abre');
   if (opened) {
+    // Border color transitions race the reads below: settle them instantly.
+    await page.addStyleTag({ content: '.pb-chip { transition: none !important; }' });
     const read = async (idx, seen) => page.evaluate(({ idx, seen }) => {
       const c = document.querySelectorAll('.pb-chip')[idx];
       if (seen) c.classList.add('pb-chip--seen');
