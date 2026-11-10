@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "73",
+  "concepts": {
+    "es.accommodation_hotel_services": {
+      "conceptId": "es.accommodation_hotel_services",
+      "id": "accommodation_hotel_services",
+      "target": [
+        {
+          "text": "¿Qué servicios tiene el hotel?",
+          "audioSlug": "que_servicios_tiene_el_hotel"
+        }
+      ]
+    },
+    "es.conversacion_dame_un_ejemplo": {
+      "conceptId": "es.conversacion_dame_un_ejemplo",
+      "id": "conversacion_dame_un_ejemplo",
+      "target": [
+        {
+          "text": "Dame un ejemplo.",
+          "audioSlug": "dame_un_ejemplo",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Deme un ejemplo.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "deme_un_ejemplo"
+        }
+      ]
+    },
+    "es.conversacion_me_resulta_dificil_expresarme": {
+      "conceptId": "es.conversacion_me_resulta_dificil_expresarme",
+      "id": "conversacion_me_resulta_dificil_expresarme",
+      "target": [
+        {
+          "text": "Me resulta difícil expresarme.",
+          "audioSlug": "me_resulta_dificil_expresarme"
+        }
+      ]
+    },
+    "es.daily_routine_me_lavo_la_cara": {
+      "conceptId": "es.daily_routine_me_lavo_la_cara",
+      "id": "daily_routine_me_lavo_la_cara",
+      "target": [
+        {
+          "text": "Me lavo la cara con agua fría.",
+          "audioSlug": "me_lavo_la_cara_con_agua_fria"
+        }
+      ]
+    },
+    "es.emociones_why_are_you_nervous": {
+      "conceptId": "es.emociones_why_are_you_nervous",
+      "id": "emociones_why_are_you_nervous",
+      "target": [
+        {
+          "text": "¿Por qué estás nervioso?",
+          "audioSlug": "por_que_estas_nervioso",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás nerviosa?",
+          "audioSlug": "por_que_estas_nerviosa",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.family_mi_prima_es_argentina": {
+      "conceptId": "es.family_mi_prima_es_argentina",
+      "id": "family_mi_prima_es_argentina",
+      "target": [
+        {
+          "text": "Mi prima es argentina.",
+          "audioSlug": "mi_prima_es_argentina"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_cada_accion_tiene_una_reaccion": {
+      "conceptId": "es.pensamientos_opiniones_cada_accion_tiene_una_reaccion",
+      "id": "pensamientos_opiniones_cada_accion_tiene_una_reaccion",
+      "target": [
+        {
+          "text": "Cada acción tiene una reacción.",
+          "audioSlug": "cada_accion_tiene_una_reaccion"
+        }
+      ]
+    },
+    "es.politica_el_ministro_anuncio_una_medida": {
+      "conceptId": "es.politica_el_ministro_anuncio_una_medida",
+      "id": "politica_el_ministro_anuncio_una_medida",
+      "target": [
+        {
+          "text": "El ministro anunció una medida.",
+          "audioSlug": "el_ministro_anuncio_una_medida"
+        }
+      ]
+    },
+    "es.restaurant_este_plato_es_muy_popular": {
+      "conceptId": "es.restaurant_este_plato_es_muy_popular",
+      "id": "restaurant_este_plato_es_muy_popular",
+      "target": [
+        {
+          "text": "Este plato es muy popular.",
+          "audioSlug": "este_plato_es_muy_popular"
+        }
+      ]
+    }
+  }
+}

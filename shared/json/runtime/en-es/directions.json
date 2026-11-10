@@ -1,0 +1,565 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "directions",
+  "phrases": [
+    {
+      "id": "directions_how_to_get_to",
+      "conceptId": "es.directions_how_to_get_to",
+      "sourceId": "en.s.2d4a9540d4c916a3",
+      "source": "How do I get to the station?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo llego a la estación?",
+          "audioSlug": "como_llego_a_la_estacion"
+        }
+      ]
+    },
+    {
+      "id": "directions_where_is_the_bank",
+      "conceptId": "es.directions_where_is_the_bank",
+      "sourceId": "en.s.52cf5bbf86902b45",
+      "source": "Where is the bank?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está el banco?",
+          "audioSlug": "donde_esta_el_banco"
+        }
+      ]
+    },
+    {
+      "id": "directions_is_it_far",
+      "conceptId": "es.directions_is_it_far",
+      "sourceId": "en.s.73ec87b761722e7c",
+      "source": "Is it far from here?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Está lejos de aquí?",
+          "audioSlug": "esta_lejos_de_aqui"
+        }
+      ]
+    },
+    {
+      "id": "directions_go_straight",
+      "conceptId": "es.directions_go_straight",
+      "sourceId": "en.s.fd4d15e649aa5899",
+      "source": "Go straight ahead.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sigue todo recto.",
+          "audioSlug": "sigue_todo_recto"
+        }
+      ]
+    },
+    {
+      "id": "directions_turn_left_en",
+      "conceptId": "es.directions_turn_left.en-es",
+      "sourceId": "en.s.12df3b6db3de34b2",
+      "source": "Turn left at the corner.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Gira a la izquierda en la esquina.",
+          "audioSlug": "gira_a_la_izquierda_en_la_esquina"
+        }
+      ]
+    },
+    {
+      "id": "directions_turn_right",
+      "conceptId": "es.directions_turn_right",
+      "sourceId": "en.s.5046d268df0024c0",
+      "source": "Turn right.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Gira a la derecha.",
+          "audioSlug": "gira_a_la_derecha"
+        }
+      ]
+    },
+    {
+      "id": "directions_its_next_to",
+      "conceptId": "es.directions_its_next_to",
+      "sourceId": "en.s.8938262b2c5acfc8",
+      "source": "It's next to the supermarket.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está al lado del supermercado.",
+          "audioSlug": "esta_al_lado_del_supermercado"
+        }
+      ]
+    },
+    {
+      "id": "directions_its_on_the_corner",
+      "conceptId": "es.directions_its_on_the_corner",
+      "sourceId": "en.s.f42a15c6d679afeb",
+      "source": "It's on the corner.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está en la esquina.",
+          "audioSlug": "esta_en_la_esquina"
+        }
+      ]
+    },
+    {
+      "id": "directions_how_far",
+      "conceptId": "es.directions_how_far",
+      "sourceId": "en.s.22f421c6fb1f175d",
+      "source": "How far is it?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿A qué distancia está?",
+          "audioSlug": "a_que_distancia_esta"
+        }
+      ]
+    },
+    {
+      "id": "directions_im_lost",
+      "conceptId": "es.directions_im_lost",
+      "sourceId": "en.s.40ce9cc441881e4e",
+      "source": "I'm lost.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy perdida.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_perdida"
+        },
+        {
+          "text": "Estoy perdido.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_perdido"
+        }
+      ]
+    },
+    {
+      "id": "directions_can_you_show_map",
+      "conceptId": "es.directions_can_you_show_map",
+      "sourceId": "en.s.404e56ce11320f44",
+      "source": "Can you show me on the map?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me lo puedes mostrar en el mapa?",
+          "audioSlug": "me_lo_puedes_mostrar_en_el_mapa",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Me lo puede mostrar en el mapa?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "me_lo_puede_mostrar_en_el_mapa"
+        }
+      ]
+    },
+    {
+      "id": "directions_is_there_nearby",
+      "conceptId": "es.directions_is_there_nearby",
+      "sourceId": "en.s.ac76e73eaa05f7f1",
+      "source": "Is there a supermarket nearby?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Hay un supermercado cerca?",
+          "audioSlug": "hay_un_supermercado_cerca"
+        }
+      ]
+    },
+    {
+      "id": "directions_across_from",
+      "conceptId": "es.directions_across_from",
+      "sourceId": "en.s.2352d79312051b61",
+      "source": "It's across from the park.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está enfrente del parque.",
+          "audioSlug": "esta_enfrente_del_parque"
+        }
+      ]
+    },
+    {
+      "id": "directions_behind",
+      "conceptId": "es.directions_behind",
+      "sourceId": "en.s.e2fae6b5e48c7dfc",
+      "source": "It's behind the church.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está detrás de la iglesia.",
+          "audioSlug": "esta_detras_de_la_iglesia"
+        }
+      ]
+    },
+    {
+      "id": "directions_two_blocks",
+      "conceptId": "es.directions_two_blocks",
+      "sourceId": "en.s.9298f81b81c1fc1c",
+      "source": "It's two blocks from here.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está a dos cuadras de aquí.",
+          "audioSlug": "esta_a_dos_cuadras_de_aqui"
+        }
+      ]
+    },
+    {
+      "id": "directions_which_way",
+      "conceptId": "es.directions_which_way",
+      "sourceId": "en.s.aa3b7ba42781c90f",
+      "source": "Which way is the center?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por dónde se va al centro?",
+          "audioSlug": "por_donde_se_va_al_centro"
+        }
+      ]
+    },
+    {
+      "id": "directions_take_first_street",
+      "conceptId": "es.directions_take_first_street",
+      "sourceId": "en.s.93918996bbae3eda",
+      "source": "Take the first street on the right.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Toma la primera calle a la derecha.",
+          "audioSlug": "toma_la_primera_calle_a_la_derecha"
+        }
+      ]
+    },
+    {
+      "id": "directions_how_long_walk",
+      "conceptId": "es.directions_how_long_walk",
+      "sourceId": "en.s.9870bb0f5068ecb6",
+      "source": "How long does it take on foot?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuánto se tarda a pie?",
+          "audioSlug": "cuanto_se_tarda_a_pie"
+        }
+      ]
+    },
+    {
+      "id": "directions_where_is_the_bus_stop",
+      "conceptId": "es.directions_where_is_the_bus_stop",
+      "sourceId": "en.s.0b46596eff4419f7",
+      "source": "Where is the bus stop?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la parada de autobús?",
+          "labels": {
+            "region": "General"
+          },
+          "audioSlug": "donde_esta_la_parada_de_autobus"
+        },
+        {
+          "text": "¿Dónde está la parada del camión?",
+          "labels": {
+            "region": "México"
+          },
+          "audioSlug": "donde_esta_la_parada_del_camion"
+        },
+        {
+          "text": "¿Dónde está la parada del colectivo?",
+          "labels": {
+            "region": "Argentina"
+          },
+          "audioSlug": "donde_esta_la_parada_del_colectivo"
+        },
+        {
+          "text": "¿Dónde está la parada de la guagua?",
+          "labels": {
+            "region": "Caribe"
+          },
+          "audioSlug": "donde_esta_la_parada_de_la_guagua"
+        }
+      ]
+    },
+    {
+      "id": "directions_the_museum_is_near_here",
+      "conceptId": "es.directions_the_museum_is_near_here",
+      "sourceId": "en.s.49914f26a234beab",
+      "source": "The museum is near here.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El museo está cerca de aquí.",
+          "audioSlug": "el_museo_esta_cerca_de_aqui"
+        }
+      ]
+    },
+    {
+      "id": "directions_cross_the_street_carefully",
+      "conceptId": "es.directions_cross_the_street_carefully",
+      "sourceId": "en.s.0fc8f9daaa0f9069",
+      "source": "Cross the street carefully.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cruza la calle con cuidado.",
+          "audioSlug": "cruza_la_calle_con_cuidado"
+        }
+      ]
+    },
+    {
+      "id": "directions_walk_to_the_end_of_the_street",
+      "conceptId": "es.directions_walk_to_the_end_of_the_street",
+      "sourceId": "en.s.69b72a7fbef353f8",
+      "source": "Walk to the end of the street.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Camina hasta el final de la calle.",
+          "audioSlug": "camina_hasta_el_final_de_la_calle"
+        }
+      ]
+    },
+    {
+      "id": "directions_it_is_five_minutes_on_foot",
+      "conceptId": "es.directions_it_is_five_minutes_on_foot",
+      "sourceId": "en.s.c8e1def931834536",
+      "source": "It's five minutes on foot.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está a cinco minutos a pie.",
+          "audioSlug": "esta_a_cinco_minutos_a_pie"
+        }
+      ]
+    },
+    {
+      "id": "directions_follow_the_signs",
+      "conceptId": "es.directions_follow_the_signs",
+      "sourceId": "en.s.4993921b40b7be32",
+      "source": "Follow the signs.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sigue las señales.",
+          "audioSlug": "sigue_las_senales"
+        }
+      ]
+    },
+    {
+      "id": "directions_can_you_show_me_the_way_en",
+      "conceptId": "es.directions_can_you_show_me_the_way.en-es",
+      "sourceId": "en.s.9fb48140fa68089f",
+      "source": "Can you show me the way?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puede indicarme el camino?",
+          "audioSlug": "puede_indicarme_el_camino"
+        }
+      ]
+    },
+    {
+      "id": "directions_turn_at_the_second_traffic_light",
+      "conceptId": "es.directions_turn_at_the_second_traffic_light",
+      "sourceId": "en.s.a363ee59bbea761f",
+      "source": "Turn at the second traffic light.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Gira en el segundo semáforo.",
+          "audioSlug": "gira_en_el_segundo_semaforo"
+        }
+      ]
+    },
+    {
+      "id": "directions_donde_esta_la_salida",
+      "conceptId": "es.directions_donde_esta_la_salida",
+      "sourceId": "en.s.14c624f7babef6b6",
+      "source": "Where is the exit?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la salida?",
+          "audioSlug": "donde_esta_la_salida"
+        }
+      ]
+    },
+    {
+      "id": "directions_vamos_al_norte",
+      "conceptId": "es.directions_vamos_al_norte",
+      "sourceId": "en.s.61c46f60db9408b1",
+      "source": "We are going north.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos al norte.",
+          "audioSlug": "vamos_al_norte"
+        }
+      ]
+    },
+    {
+      "id": "directions_da_un_paso_atras",
+      "conceptId": "es.directions_da_un_paso_atras",
+      "sourceId": "en.s.a244b315f2c45041",
+      "source": "Step back.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Da un paso atrás.",
+          "audioSlug": "da_un_paso_atras"
+        }
+      ]
+    },
+    {
+      "id": "directions_el_sur_del_pais_es_calido",
+      "conceptId": "es.directions_el_sur_del_pais_es_calido",
+      "sourceId": "en.s.23fe503d158abb16",
+      "source": "The south of the country is warmer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El sur del país es más cálido.",
+          "audioSlug": "el_sur_del_pais_es_mas_calido"
+        }
+      ]
+    },
+    {
+      "id": "directions_el_sol_se_pone_por_el_oeste",
+      "conceptId": "es.directions_el_sol_se_pone_por_el_oeste",
+      "sourceId": "en.s.397b04d86e47fbf6",
+      "source": "The sun sets in the west.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El sol se pone por el oeste.",
+          "audioSlug": "el_sol_se_pone_por_el_oeste"
+        }
+      ]
+    },
+    {
+      "id": "directions_el_gato_esta_encima_de_la_mesa",
+      "conceptId": "es.directions_el_gato_esta_encima_de_la_mesa",
+      "sourceId": "en.s.31e2edaf94a40ed6",
+      "source": "The cat is on top of the table.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El gato está encima de la mesa.",
+          "audioSlug": "el_gato_esta_encima_de_la_mesa"
+        }
+      ]
+    },
+    {
+      "id": "directions_hay_arboles_alrededor_de_la_casa",
+      "conceptId": "es.directions_hay_arboles_alrededor_de_la_casa",
+      "sourceId": "en.s.5e5c30ae7d5e819d",
+      "source": "There are trees around the house.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay árboles alrededor de la casa.",
+          "audioSlug": "hay_arboles_alrededor_de_la_casa"
+        }
+      ]
+    },
+    {
+      "id": "directions_ponte_delante_de_mi",
+      "conceptId": "es.directions_ponte_delante_de_mi",
+      "sourceId": "en.s.e5252bf1da2a5d00",
+      "source": "Stand in front of me.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ponte delante de mí.",
+          "audioSlug": "ponte_delante_de_mi"
+        }
+      ]
+    },
+    {
+      "id": "directions_vivo_por_alla_cerca_del_rio",
+      "conceptId": "es.directions_vivo_por_alla_cerca_del_rio",
+      "sourceId": "en.s.943d4aaa0b1753e9",
+      "source": "I live over there, near the river.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vivo por allá, cerca del río.",
+          "audioSlug": "vivo_por_alla_cerca_del_rio"
+        }
+      ]
+    },
+    {
+      "id": "directions_ven_aca_por_favor",
+      "conceptId": "es.directions_ven_aca_por_favor",
+      "sourceId": "en.s.c85298d20942285d",
+      "source": "Come here, please.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ven acá, por favor.",
+          "audioSlug": "ven_aca_por_favor",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Venga acá, por favor.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "venga_aca_por_favor"
+        }
+      ]
+    }
+  ]
+}

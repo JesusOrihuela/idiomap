@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "5b",
+  "concepts": {
+    "en.daily_routine_morning_go_to_gym": {
+      "conceptId": "en.daily_routine_morning_go_to_gym",
+      "id": "daily_routine_morning_go_to_gym",
+      "target": [
+        {
+          "text": "In the morning I go to the gym.",
+          "audioSlug": "in_the_morning_i_go_to_the_gym"
+        }
+      ]
+    },
+    "en.deportes_the_race_is_over": {
+      "conceptId": "en.deportes_the_race_is_over",
+      "id": "deportes_the_race_is_over",
+      "target": [
+        {
+          "text": "The race is over.",
+          "audioSlug": "the_race_is_over"
+        }
+      ]
+    },
+    "en.health_i_have_been_sick_since_yesterday": {
+      "conceptId": "en.health_i_have_been_sick_since_yesterday",
+      "id": "health_i_have_been_sick_since_yesterday",
+      "target": [
+        {
+          "text": "I have been sick since yesterday.",
+          "audioSlug": "i_have_been_sick_since_yesterday"
+        }
+      ]
+    },
+    "en.music_love_this_song_who_sings": {
+      "conceptId": "en.music_love_this_song_who_sings",
+      "id": "music_love_this_song_who_sings",
+      "target": [
+        {
+          "text": "I love this song. Who sings it?",
+          "audioSlug": "i_love_this_song_who_sings_it"
+        }
+      ]
+    }
+  }
+}

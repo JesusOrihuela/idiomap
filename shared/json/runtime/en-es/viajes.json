@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "viajes",
+  "phrases": [
+    {
+      "id": "viajes_sueno_con_viajar_por_el_mundo",
+      "conceptId": "es.viajes_sueno_con_viajar_por_el_mundo",
+      "sourceId": "en.s.33ef5a398f581993",
+      "source": "I dream of traveling the world.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sueño con viajar por el mundo.",
+          "audioSlug": "sueno_con_viajar_por_el_mundo"
+        }
+      ]
+    },
+    {
+      "id": "viajes_vamos_a_planear_el_viaje",
+      "conceptId": "es.viajes_vamos_a_planear_el_viaje",
+      "sourceId": "en.s.1a51a99fb320a80f",
+      "source": "Let's plan the trip.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos a planear el viaje.",
+          "audioSlug": "vamos_a_planear_el_viaje"
+        }
+      ]
+    },
+    {
+      "id": "viajes_me_encanta_viajar",
+      "conceptId": "es.viajes_me_encanta_viajar",
+      "sourceId": "en.s.96cbfe5621937074",
+      "source": "I love traveling.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me encanta viajar.",
+          "audioSlug": "me_encanta_viajar"
+        }
+      ]
+    },
+    {
+      "id": "viajes_estoy_de_vacaciones",
+      "conceptId": "es.viajes_estoy_de_vacaciones",
+      "sourceId": "en.s.67051d80a25f22ca",
+      "source": "I am on vacation.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy de vacaciones.",
+          "audioSlug": "estoy_de_vacaciones"
+        }
+      ]
+    },
+    {
+      "id": "viajes_la_aventura_comienza",
+      "conceptId": "es.viajes_la_aventura_comienza",
+      "sourceId": "en.s.d79b5d1dcb611a4a",
+      "source": "The adventure begins.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La aventura comienza.",
+          "audioSlug": "la_aventura_comienza"
+        }
+      ]
+    },
+    {
+      "id": "viajes_viaje_por_america",
+      "conceptId": "es.viajes_viaje_por_america",
+      "sourceId": "en.s.68f90cb0f2e64add",
+      "source": "I traveled through America.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Viajé por América.",
+          "audioSlug": "viaje_por_america"
+        }
+      ]
+    },
+    {
+      "id": "viajes_tuviste_un_buen_viaje",
+      "conceptId": "es.viajes_tuviste_un_buen_viaje",
+      "sourceId": "en.s.d95f85eb0f6d8897",
+      "source": "Did you have a good trip?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Tuviste un buen viaje?",
+          "audioSlug": "tuviste_un_buen_viaje"
+        }
+      ]
+    },
+    {
+      "id": "viajes_quiero_viajar_al_extranjero",
+      "conceptId": "es.viajes_quiero_viajar_al_extranjero",
+      "sourceId": "en.s.c9827759864f7abe",
+      "source": "I want to travel abroad.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero viajar al extranjero.",
+          "audioSlug": "quiero_viajar_al_extranjero"
+        }
+      ]
+    },
+    {
+      "id": "viajes_donde_vas_a_pasar_las_vacaciones",
+      "conceptId": "es.viajes_donde_vas_a_pasar_las_vacaciones",
+      "sourceId": "en.s.8b1329155331d333",
+      "source": "Where will you spend your vacation?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde vas a pasar las vacaciones?",
+          "audioSlug": "donde_vas_a_pasar_las_vacaciones"
+        }
+      ]
+    },
+    {
+      "id": "viajes_necesito_hacer_la_maleta",
+      "conceptId": "es.viajes_necesito_hacer_la_maleta",
+      "sourceId": "en.s.c00adbc123f545f5",
+      "source": "I need to pack my suitcase.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito hacer la maleta.",
+          "audioSlug": "necesito_hacer_la_maleta"
+        }
+      ]
+    },
+    {
+      "id": "viajes_donde_esta_la_oficina_de_turismo",
+      "conceptId": "es.viajes_donde_esta_la_oficina_de_turismo",
+      "sourceId": "en.s.348685c055a1c760",
+      "source": "Where is the tourist office?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la oficina de turismo?",
+          "audioSlug": "donde_esta_la_oficina_de_turismo"
+        }
+      ]
+    },
+    {
+      "id": "viajes_disfruta_tu_viaje",
+      "conceptId": "es.viajes_disfruta_tu_viaje",
+      "sourceId": "en.s.cc4a99805ec39cf0",
+      "source": "Enjoy your trip.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Disfruta tu viaje.",
+          "audioSlug": "disfruta_tu_viaje",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Disfrute su viaje.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "disfrute_su_viaje"
+        }
+      ]
+    },
+    {
+      "id": "viajes_voy_a_alquilar_un_carro",
+      "conceptId": "es.viajes_voy_a_alquilar_un_carro",
+      "sourceId": "en.s.384119399c5524c3",
+      "source": "I'm going to rent a car.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Voy a alquilar un carro.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "voy_a_alquilar_un_carro"
+        },
+        {
+          "text": "Voy a alquilar un coche.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "voy_a_alquilar_un_coche"
+        },
+        {
+          "text": "Voy a alquilar un auto.",
+          "labels": {
+            "region": "Cono Sur"
+          },
+          "audioSlug": "voy_a_alquilar_un_auto"
+        }
+      ]
+    },
+    {
+      "id": "viajes_es_un_boleto_de_ida_y_vuelta",
+      "conceptId": "es.viajes_es_un_boleto_de_ida_y_vuelta",
+      "sourceId": "en.s.102403fb01d4be60",
+      "source": "Is it a round-trip ticket?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Es un boleto de ida y vuelta?",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "es_un_boleto_de_ida_y_vuelta"
+        },
+        {
+          "text": "¿Es un billete de ida y vuelta?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "es_un_billete_de_ida_y_vuelta"
+        }
+      ]
+    },
+    {
+      "id": "viajes_estoy_planeando_mis_proximas_vacaciones",
+      "conceptId": "es.viajes_estoy_planeando_mis_proximas_vacaciones",
+      "sourceId": "en.s.678fe57a5a702059",
+      "source": "I'm planning my next vacation.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy planeando mis próximas vacaciones.",
+          "audioSlug": "estoy_planeando_mis_proximas_vacaciones"
+        }
+      ]
+    },
+    {
+      "id": "viajes_me_encanta_conocer_lugares_nuevos",
+      "conceptId": "es.viajes_me_encanta_conocer_lugares_nuevos",
+      "sourceId": "en.s.19abbaef42ee44ef",
+      "source": "I love visiting new places.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me encanta conocer lugares nuevos.",
+          "audioSlug": "me_encanta_conocer_lugares_nuevos"
+        }
+      ]
+    },
+    {
+      "id": "viajes_cuanto_pesa_tu_maleta",
+      "conceptId": "es.viajes_cuanto_pesa_tu_maleta",
+      "sourceId": "en.s.3b79b964eedfbbc6",
+      "source": "How much does your suitcase weigh?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuánto pesa tu maleta?",
+          "audioSlug": "cuanto_pesa_tu_maleta",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cuánto pesa su maleta?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "cuanto_pesa_su_maleta"
+        }
+      ]
+    },
+    {
+      "id": "viajes_guarda_tu_pasaporte_en_un_lugar_seguro",
+      "conceptId": "es.viajes_guarda_tu_pasaporte_en_un_lugar_seguro",
+      "sourceId": "en.s.a5828c2c175084b9",
+      "source": "Keep your passport in a safe place.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Guarda tu pasaporte en un lugar seguro.",
+          "audioSlug": "guarda_tu_pasaporte_en_un_lugar_seguro",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Guarde su pasaporte en un lugar seguro.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "guarde_su_pasaporte_en_un_lugar_seguro"
+        }
+      ]
+    },
+    {
+      "id": "viajes_hay_que_deshacer_las_maletas",
+      "conceptId": "es.viajes_hay_que_deshacer_las_maletas",
+      "sourceId": "en.s.eeeb1aefa6ff45a1",
+      "source": "We have to unpack the suitcases.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que deshacer las maletas.",
+          "audioSlug": "hay_que_deshacer_las_maletas"
+        }
+      ]
+    },
+    {
+      "id": "viajes_reserve_el_viaje_en_una_agencia",
+      "conceptId": "es.viajes_reserve_el_viaje_en_una_agencia",
+      "sourceId": "en.s.c37ce75ecc088d39",
+      "source": "I booked the trip at a travel agency.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Reservé el viaje en una agencia.",
+          "audioSlug": "reserve_el_viaje_en_una_agencia"
+        }
+      ]
+    },
+    {
+      "id": "viajes_hicimos_una_excursion_al_campo",
+      "conceptId": "es.viajes_hicimos_una_excursion_al_campo",
+      "sourceId": "en.s.838708d03c87d13d",
+      "source": "We took a trip to the countryside.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hicimos una excursión al campo.",
+          "audioSlug": "hicimos_una_excursion_al_campo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,81 +1,969 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "accountability",
-  "conceptIds": [
-    "en.accountability_the_financial_reports_have_been_reviewed",
-    "en.accountability_we_need_to_adjust_the_budget",
-    "en.accountability_the_sales_figures_have_increased",
-    "en.accountability_we_are_facing_a_cash_flow",
-    "en.accountability_we_need_to_audit_the_accounts",
-    "en.accountability_the_tax_returns_are_pending",
-    "en.accountability_the_inventory_needs_to_be_updated",
-    "en.accountability_we_are_closing_the_fiscal_year",
-    "en.accountability_we_need_to_reconcile_the_bank",
-    "en.accountability_the_payroll_is_paid",
-    "en.accountability_the_balance_sheet_is_ready",
-    "en.accountability_the_financial_statements_are_up_to",
-    "en.accountability_accounting_staff_will_be_here_tomorrow",
-    "en.accountability_the_accountant_needs_additional_information",
-    "en.accountability_everything_went_well_during_the_tax",
-    "en.accountability_the_financial_forecast_is_positive",
-    "en.accountability_have_the_contracts_with_the_suppliers",
-    "en.accountability_when_was_the_budget_review_scheduled",
-    "en.accountability_what_are_the_projections_for_the",
-    "en.accountability_the_sales_projection_for_the_next",
-    "en.accountability_accounts_payable_has_already_closed_its",
-    "en.accountability_the_accounting_department_has_already_delivered",
-    "en.accountability_the_human_resources_department_has_already",
-    "en.accountability_accounting_records_for_the_tax_return",
-    "en.accountability_the_presentation_of_the_financial_reports",
-    "en.accountability_all_the_money_a_person_receives",
-    "en.accountability_salary_is_paid_in_cash_check",
-    "en.accountability_salary_is_paid_weekly_biweekly_or",
-    "en.accountability_the_purchasing_department_will_receive_a",
-    "en.accountability_has_the_intern_already_registered_with",
-    "en.accountability_the_balance_sheet_shows_the_assets",
-    "en.accountability_i_think_this_is_a_good",
-    "en.accountability_the_company_had_higher_sales_and",
-    "en.accountability_if_the_company_buys_new_assets",
-    "en.accountability_the_inventory_that_arrived_yesterday_is",
-    "en.accountability_what_was_the_net_profit_from",
-    "en.accountability_what_was_the_gross_loss_from",
-    "en.accountability_a_companys_fiscal_year_does_not",
-    "en.accountability_the_companys_income_in_the_past",
-    "en.accountability_the_variance_between_projected_and",
-    "en.accountability_we_should_hedge_our_foreign",
-    "en.accountability_the_audit_committee_has_raised",
-    "en.accountability_depreciation_must_be_calculated_using",
-    "en.accountability_the_accounts_receivable_turnover_ratio",
-    "en.accountability_the_consolidated_financial_statements_reflect",
-    "en.accountability_revenue_recognition_must_comply_with",
-    "en.accountability_the_impairment_of_goodwill_has",
-    "en.accountability_any_contingent_liability_must_be",
-    "en.accountability_operating_expenses_exceeded_budget",
-    "en.accountability_cost_benefit_analysis_before_approval",
-    "en.accountability_outstanding_invoices_month_end_close",
-    "en.accountability_write_off_bad_debt_quarter",
-    "en.accountability_gross_margin_declined_supply_chain",
-    "en.accountability_expense_receipts_submitted_reimbursement",
-    "en.accountability_external_auditors_requesting_documentation",
-    "en.accountability_liquidity_ratios_short_term_obligations",
-    "en.accountability_provision_litigation_claim",
-    "en.accountability_transfer_pricing_documented_tax_authorities",
-    "en.accountability_deferred_tax_assets_reassessed_tax_rate",
-    "en.accountability_walk_through_reconciliation_management_statutory",
-    "en.accountability_board_approved_share_buyback_shareholders",
-    "en.accountability_restatement_prior_period_accounting_standard",
-    "en.accountability_earnings_per_share_basic_diluted_disclosure",
-    "en.accountability_materiality_threshold_consolidated_net_assets",
-    "en.accountability_pay_invoice",
-    "en.accountability_deadline",
-    "en.accountability_send_invoice",
-    "en.accountability_total_amount",
-    "en.accountability_over_budget",
-    "en.accountability_file_taxes",
-    "en.accountability_keep_receipt",
-    "en.accountability_how_much_owe",
-    "en.accountability_payment_due",
-    "en.accountability_check_numbers"
+  "phrases": [
+    {
+      "conceptId": "en.accountability_the_financial_reports_have_been_reviewed",
+      "level": "B1",
+      "grammar": "Present perfect passive reports a completed action without specifying who performed it.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.298b66518535fa3e"
+    },
+    {
+      "conceptId": "en.accountability_we_need_to_adjust_the_budget",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.79c7ec6c5e559a6b"
+    },
+    {
+      "conceptId": "en.accountability_the_sales_figures_have_increased",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2e4f00dd93a42d1f"
+    },
+    {
+      "conceptId": "en.accountability_we_are_facing_a_cash_flow",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7e953e9e84e6583e"
+    },
+    {
+      "conceptId": "en.accountability_we_need_to_audit_the_accounts",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0387dba54b4d1d1d"
+    },
+    {
+      "conceptId": "en.accountability_the_tax_returns_are_pending",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9c293020915b1873"
+    },
+    {
+      "conceptId": "en.accountability_the_inventory_needs_to_be_updated",
+      "level": "B1",
+      "grammar": "'Needs to be + past participle' expresses a passive obligation for an impersonal task.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1e1e01ce1c3e643d"
+    },
+    {
+      "conceptId": "en.accountability_we_are_closing_the_fiscal_year",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b926d9403a20ce9e"
+    },
+    {
+      "conceptId": "en.accountability_we_need_to_reconcile_the_bank",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7149bed787114a4d"
+    },
+    {
+      "conceptId": "en.accountability_the_payroll_is_paid",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d8a8bac57e6b042e"
+    },
+    {
+      "conceptId": "en.accountability_the_balance_sheet_is_ready",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.50b9c4c324c8f96a"
+    },
+    {
+      "conceptId": "en.accountability_the_financial_statements_are_up_to",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7499b9f45626f01b"
+    },
+    {
+      "conceptId": "en.accountability_accounting_staff_will_be_here_tomorrow",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.09be3d965041b5ee"
+    },
+    {
+      "conceptId": "en.accountability_the_accountant_needs_additional_information",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8b0be11d2d58a91f"
+    },
+    {
+      "conceptId": "en.accountability_everything_went_well_during_the_tax",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a6b579b731815199"
+    },
+    {
+      "conceptId": "en.accountability_the_financial_forecast_is_positive",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2c7509fbbb59c367"
+    },
+    {
+      "conceptId": "en.accountability_have_the_contracts_with_the_suppliers",
+      "level": "B1",
+      "grammar": "Passive 'have been signed' focuses on the action, not on who signed the contracts.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a3fa73e814ec692c"
+    },
+    {
+      "conceptId": "en.accountability_when_was_the_budget_review_scheduled",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b60be68508aa95ad"
+    },
+    {
+      "conceptId": "en.accountability_what_are_the_projections_for_the",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4d2ac3d1b6c3f72f"
+    },
+    {
+      "conceptId": "en.accountability_the_sales_projection_for_the_next",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.952c0b65db9a0ff2"
+    },
+    {
+      "conceptId": "en.accountability_accounts_payable_has_already_closed_its",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ec4c2f2ebb08f145"
+    },
+    {
+      "conceptId": "en.accountability_the_accounting_department_has_already_delivered",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ae78cbfcdb8e9c04"
+    },
+    {
+      "conceptId": "en.accountability_the_human_resources_department_has_already",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.21ceb50bf0441640"
+    },
+    {
+      "conceptId": "en.accountability_accounting_records_for_the_tax_return",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4dd123aa2cd70c8c"
+    },
+    {
+      "conceptId": "en.accountability_the_presentation_of_the_financial_reports",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dbb6ac1354797c9c"
+    },
+    {
+      "conceptId": "en.accountability_all_the_money_a_person_receives",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8d6db9a5d3cc2802"
+    },
+    {
+      "conceptId": "en.accountability_salary_is_paid_in_cash_check",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e7b5b57faa8deb0f"
+    },
+    {
+      "conceptId": "en.accountability_salary_is_paid_weekly_biweekly_or",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ae1a41094bc709e8"
+    },
+    {
+      "conceptId": "en.accountability_the_purchasing_department_will_receive_a",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.32e3d05bed32c0d5"
+    },
+    {
+      "conceptId": "en.accountability_has_the_intern_already_registered_with",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3b735fbb880c7493"
+    },
+    {
+      "conceptId": "en.accountability_the_balance_sheet_shows_the_assets",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.541598ca1437735c"
+    },
+    {
+      "conceptId": "en.accountability_i_think_this_is_a_good",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bcd324006d82d56b"
+    },
+    {
+      "conceptId": "en.accountability_the_company_had_higher_sales_and",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fd76647049bdc118"
+    },
+    {
+      "conceptId": "en.accountability_if_the_company_buys_new_assets",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.47f0e67c4531516b"
+    },
+    {
+      "conceptId": "en.accountability_the_inventory_that_arrived_yesterday_is",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b29702fba649f919"
+    },
+    {
+      "conceptId": "en.accountability_what_was_the_net_profit_from",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6a158d1a15d51765"
+    },
+    {
+      "conceptId": "en.accountability_what_was_the_gross_loss_from",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1f7fcb5446b14ba5"
+    },
+    {
+      "conceptId": "en.accountability_a_companys_fiscal_year_does_not",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0d45e28c5050392f"
+    },
+    {
+      "conceptId": "en.accountability_the_companys_income_in_the_past",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3fe3665ce2784e33"
+    },
+    {
+      "conceptId": "en.accountability_the_variance_between_projected_and",
+      "level": "C1",
+      "grammar": "Passive modal 'must be analyzed' states a formal obligation without naming who is responsible.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.513c464a10410c79"
+    },
+    {
+      "conceptId": "en.accountability_we_should_hedge_our_foreign",
+      "level": "C1",
+      "grammar": "'Should' marks a professional recommendation: stronger than 'could' but not a strict obligation.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2c90ebb826b95f4d"
+    },
+    {
+      "conceptId": "en.accountability_the_audit_committee_has_raised",
+      "level": "C1",
+      "grammar": "Present perfect 'has raised' shows the concern is recent and still relevant now.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4d3ec297f1d3e997"
+    },
+    {
+      "conceptId": "en.accountability_depreciation_must_be_calculated_using",
+      "level": "C1",
+      "grammar": "Passive modal 'must be calculated' gives an impersonal instruction about a required procedure.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8af1f18528746464"
+    },
+    {
+      "conceptId": "en.accountability_the_accounts_receivable_turnover_ratio",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.96362c921d96fee1"
+    },
+    {
+      "conceptId": "en.accountability_the_consolidated_financial_statements_reflect",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a594a25cf25bcbcc"
+    },
+    {
+      "conceptId": "en.accountability_revenue_recognition_must_comply_with",
+      "level": "C2",
+      "grammar": "'Must comply with' signals a non-negotiable legal or regulatory obligation.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b7a037ef520a2232"
+    },
+    {
+      "conceptId": "en.accountability_the_impairment_of_goodwill_has",
+      "level": "C2",
+      "grammar": "Present perfect passive 'has been recognized' formally reports a completed accounting action.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3df898a19554ee0d"
+    },
+    {
+      "conceptId": "en.accountability_any_contingent_liability_must_be",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.56d1537e6710da02"
+    },
+    {
+      "conceptId": "en.accountability_operating_expenses_exceeded_budget",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c1cdf6de52246200"
+    },
+    {
+      "conceptId": "en.accountability_cost_benefit_analysis_before_approval",
+      "level": "B2",
+      "grammar": "'Could you + infinitive' is the standard form for a polite professional request.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f31d5b70995b39da"
+    },
+    {
+      "conceptId": "en.accountability_outstanding_invoices_month_end_close",
+      "level": "B2",
+      "grammar": "'Need to be + past participle' expresses a passive obligation for a procedural task.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c3ac89eace2eb57c"
+    },
+    {
+      "conceptId": "en.accountability_write_off_bad_debt_quarter",
+      "level": "B2",
+      "grammar": "'Write off' means to remove an unrecoverable debt or asset from the accounting records.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b1e265cd81bdb9b5"
+    },
+    {
+      "conceptId": "en.accountability_gross_margin_declined_supply_chain",
+      "level": "B2",
+      "grammar": "Present perfect 'has declined' shows a recent trend with direct impact on current performance.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8b01006e24db52be"
+    },
+    {
+      "conceptId": "en.accountability_expense_receipts_submitted_reimbursement",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a2586b64b35736e4"
+    },
+    {
+      "conceptId": "en.accountability_external_auditors_requesting_documentation",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c1daaf1af4c09e77"
+    },
+    {
+      "conceptId": "en.accountability_liquidity_ratios_short_term_obligations",
+      "level": "C1",
+      "grammar": "'May + infinitive' hedges a professional assessment, signaling possibility rather than certainty.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f015e120be47a472"
+    },
+    {
+      "conceptId": "en.accountability_provision_litigation_claim",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e65db43a7c12f14a"
+    },
+    {
+      "conceptId": "en.accountability_transfer_pricing_documented_tax_authorities",
+      "level": "C1",
+      "grammar": "Passive 'must be documented' states a compliance obligation without naming who must act.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.eedd6cd57cacf715"
+    },
+    {
+      "conceptId": "en.accountability_deferred_tax_assets_reassessed_tax_rate",
+      "level": "C1",
+      "grammar": "Present perfect passive 'have been reassessed' formally reports a completed technical review.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.13b4e3a4818eb1c5"
+    },
+    {
+      "conceptId": "en.accountability_walk_through_reconciliation_management_statutory",
+      "level": "C1",
+      "grammar": "'Walk through' means to guide someone step by step through a complex process.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8b4593eb3a1ac894"
+    },
+    {
+      "conceptId": "en.accountability_board_approved_share_buyback_shareholders",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a54276b770c2dea8"
+    },
+    {
+      "conceptId": "en.accountability_restatement_prior_period_accounting_standard",
+      "level": "C2",
+      "grammar": "'Was necessitated by' is formal passive voice, typical in regulatory compliance writing.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1a6725bdbd8c5f8c"
+    },
+    {
+      "conceptId": "en.accountability_earnings_per_share_basic_diluted_disclosure",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.903e84e20424a8ec"
+    },
+    {
+      "conceptId": "en.accountability_materiality_threshold_consolidated_net_assets",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4c560ee52245f4ec"
+    },
+    {
+      "conceptId": "en.accountability_pay_invoice",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d628d7e3cd0557a4"
+    },
+    {
+      "conceptId": "en.accountability_deadline",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.69726a11f2ebe2b5"
+    },
+    {
+      "conceptId": "en.accountability_send_invoice",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bca62e24e71cd289"
+    },
+    {
+      "conceptId": "en.accountability_total_amount",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fcb0106cbe353d72"
+    },
+    {
+      "conceptId": "en.accountability_over_budget",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6d51791edebb4794"
+    },
+    {
+      "conceptId": "en.accountability_file_taxes",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.546112ffc6d16294"
+    },
+    {
+      "conceptId": "en.accountability_keep_receipt",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f92b27261428aeb5"
+    },
+    {
+      "conceptId": "en.accountability_how_much_owe",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4c96a61caed3e48b"
+    },
+    {
+      "conceptId": "en.accountability_payment_due",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.12ece73efc2bbd44"
+    },
+    {
+      "conceptId": "en.accountability_check_numbers",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0cd31f598d5a260c"
+    }
   ]
 }

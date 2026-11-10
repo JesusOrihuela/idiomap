@@ -1,64 +1,748 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "conversacion",
-  "conceptIds": [
-    "en.conversacion_talk_to_me",
-    "en.conversacion_ask_tom",
-    "en.conversacion_answer_me",
-    "en.conversacion_let_me_explain",
-    "en.conversacion_please_speak_up",
-    "en.conversacion_please_do_not_shout",
-    "en.conversacion_i_dont_like_to_argue",
-    "en.conversacion_did_tom_mention_me",
-    "en.conversacion_we_have_nothing_to_discuss",
-    "en.conversacion_i_have_no_comment",
-    "en.conversacion_i_cant_hear_you",
-    "en.conversacion_try_to_guess",
-    "en.conversacion_i_cant_express_it",
-    "en.conversacion_dont_laugh_at_me",
-    "en.conversacion_i_believe_you",
-    "en.conversacion_i_mean_it",
-    "en.conversacion_i_understand_you",
-    "en.conversacion_can_you_repeat_that",
-    "en.conversacion_i_admit_my_mistake",
-    "en.conversacion_dont_complain_so_much",
-    "en.conversacion_i_want_to_warn_you",
-    "en.conversacion_i_want_to_thank_you",
-    "en.conversacion_dont_lie_to_me",
-    "en.conversacion_i_refer_to_this_book",
-    "en.conversacion_can_you_define_it",
-    "en.conversacion_i_have_nothing_particular_to_say",
-    "en.conversacion_please_be_patient",
-    "en.conversacion_let_s_change_the_subject",
-    "en.conversacion_tell_me_the_truth",
-    "en.conversacion_they_had_an_argument",
-    "en.conversacion_he_gave_a_speech",
-    "en.conversacion_write_me_a_note",
-    "en.conversacion_i_respect_you",
-    "en.conversacion_what_s_on_your_mind",
-    "en.conversacion_is_there_anything_i_can_do_for_you",
-    "en.conversacion_i_need_your_help",
-    "en.conversacion_i_want_to_encourage_you",
-    "en.conversacion_give_me_an_example",
-    "en.conversacion_is_it_good_news",
-    "en.conversacion_get_to_the_point",
-    "en.conversacion_this_is_a_newspaper",
-    "en.conversacion_i_bought_a_magazine",
-    "en.conversacion_this_news_is_official",
-    "en.conversacion_however_also_continue",
-    "en.conversacion_such_a_good_idea",
-    "en.conversacion_at_least_we_tried",
-    "en.conversacion_a_major_concern",
-    "en.conversacion_discuss_it_further",
-    "en.conversacion_quite_true",
-    "en.conversacion_had_already_left",
-    "en.conversacion_had_never_seen_angry",
-    "en.conversacion_if_known_would_called",
-    "en.conversacion_if_asked_would_helped",
-    "en.conversacion_ran_into_old_friend",
-    "en.conversacion_come_up_with_idea",
-    "en.conversacion_love_coffee_so_does_she",
-    "en.conversacion_can_swim_so_can_i"
+  "phrases": [
+    {
+      "conceptId": "en.conversacion_talk_to_me",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fd45d83e4733c0f7"
+    },
+    {
+      "conceptId": "en.conversacion_ask_tom",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8672436440de261d"
+    },
+    {
+      "conceptId": "en.conversacion_answer_me",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.557c8b49f4e13017"
+    },
+    {
+      "conceptId": "en.conversacion_let_me_explain",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a61e2a43c6bd93da"
+    },
+    {
+      "conceptId": "en.conversacion_please_speak_up",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.217a2807f2fc474e"
+    },
+    {
+      "conceptId": "en.conversacion_please_do_not_shout",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.42446110fdb5dfbc"
+    },
+    {
+      "conceptId": "en.conversacion_i_dont_like_to_argue",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.745e4394fe9a4b4b"
+    },
+    {
+      "conceptId": "en.conversacion_did_tom_mention_me",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2eeae5995c4e006d"
+    },
+    {
+      "conceptId": "en.conversacion_we_have_nothing_to_discuss",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6cbd724889a22af7"
+    },
+    {
+      "conceptId": "en.conversacion_i_have_no_comment",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a74fe374a6c70c66"
+    },
+    {
+      "conceptId": "en.conversacion_i_cant_hear_you",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.df7d9bc087ae28d0"
+    },
+    {
+      "conceptId": "en.conversacion_try_to_guess",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.acf1b72d198a55de"
+    },
+    {
+      "conceptId": "en.conversacion_i_cant_express_it",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3f168238c0a741de"
+    },
+    {
+      "conceptId": "en.conversacion_dont_laugh_at_me",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.05de19a74ca1d84a"
+    },
+    {
+      "conceptId": "en.conversacion_i_believe_you",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7f8336ef6f2d17fe"
+    },
+    {
+      "conceptId": "en.conversacion_i_mean_it",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2a285adfe6bcb027"
+    },
+    {
+      "conceptId": "en.conversacion_i_understand_you",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8aaee151d67f7380"
+    },
+    {
+      "conceptId": "en.conversacion_can_you_repeat_that",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.906f46d0e0a7d509"
+    },
+    {
+      "conceptId": "en.conversacion_i_admit_my_mistake",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ff6906ea721d6810"
+    },
+    {
+      "conceptId": "en.conversacion_dont_complain_so_much",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9478bc0c3aa830bb"
+    },
+    {
+      "conceptId": "en.conversacion_i_want_to_warn_you",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.987b8d0260d5413f"
+    },
+    {
+      "conceptId": "en.conversacion_i_want_to_thank_you",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3d797d6778f0f558"
+    },
+    {
+      "conceptId": "en.conversacion_dont_lie_to_me",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.21157241028b5f06"
+    },
+    {
+      "conceptId": "en.conversacion_i_refer_to_this_book",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fef5df9cdf8b0c43"
+    },
+    {
+      "conceptId": "en.conversacion_can_you_define_it",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5f13cf241fa70deb"
+    },
+    {
+      "conceptId": "en.conversacion_i_have_nothing_particular_to_say",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4de816c0bf9e67e5"
+    },
+    {
+      "conceptId": "en.conversacion_please_be_patient",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.de9f49c794dceaa2"
+    },
+    {
+      "conceptId": "en.conversacion_let_s_change_the_subject",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7550511d70b78fd9"
+    },
+    {
+      "conceptId": "en.conversacion_tell_me_the_truth",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a12827be389bb563"
+    },
+    {
+      "conceptId": "en.conversacion_they_had_an_argument",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.10bf8f950f2aa184"
+    },
+    {
+      "conceptId": "en.conversacion_he_gave_a_speech",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.72f6c900a3b704fa"
+    },
+    {
+      "conceptId": "en.conversacion_write_me_a_note",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.db9365587f5db61a"
+    },
+    {
+      "conceptId": "en.conversacion_i_respect_you",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e158f0e9b332d3fa"
+    },
+    {
+      "conceptId": "en.conversacion_what_s_on_your_mind",
+      "level": "A2",
+      "grammar": "'What's on your mind?' is an idiom for 'What are you thinking about?'",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.393b5cc667bf46fb"
+    },
+    {
+      "conceptId": "en.conversacion_is_there_anything_i_can_do_for_you",
+      "level": "A2",
+      "grammar": "A polite offer of help; 'Can I help you?' is the less formal version.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b9ffa54b451086d4"
+    },
+    {
+      "conceptId": "en.conversacion_i_need_your_help",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.05b50f7c3b6b8adf"
+    },
+    {
+      "conceptId": "en.conversacion_i_want_to_encourage_you",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8c4784017e10c49f"
+    },
+    {
+      "conceptId": "en.conversacion_give_me_an_example",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.01b44754399c594f"
+    },
+    {
+      "conceptId": "en.conversacion_is_it_good_news",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.995529336b27195d"
+    },
+    {
+      "conceptId": "en.conversacion_get_to_the_point",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0f6a6d6402a48a7c"
+    },
+    {
+      "conceptId": "en.conversacion_this_is_a_newspaper",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8af84ac782b7e3a8"
+    },
+    {
+      "conceptId": "en.conversacion_i_bought_a_magazine",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9f78d2851bb048df"
+    },
+    {
+      "conceptId": "en.conversacion_this_news_is_official",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b118bec4ace1ea14"
+    },
+    {
+      "conceptId": "en.conversacion_however_also_continue",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.407c0d14c96fb701"
+    },
+    {
+      "conceptId": "en.conversacion_such_a_good_idea",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5b00a7c7818d0343"
+    },
+    {
+      "conceptId": "en.conversacion_at_least_we_tried",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5176bcfc8080cc18"
+    },
+    {
+      "conceptId": "en.conversacion_a_major_concern",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d95ef94685061444"
+    },
+    {
+      "conceptId": "en.conversacion_discuss_it_further",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c91cf9d5fb2bbe5d"
+    },
+    {
+      "conceptId": "en.conversacion_quite_true",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d23e9a1f0c89cbdb"
+    },
+    {
+      "conceptId": "en.conversacion_had_already_left",
+      "level": "B2",
+      "grammar": "The past perfect (had + past participle) marks an action completed before another past action.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ec62f9f166de6e6c"
+    },
+    {
+      "conceptId": "en.conversacion_had_never_seen_angry",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8fa8b3839f255ab4"
+    },
+    {
+      "conceptId": "en.conversacion_if_known_would_called",
+      "level": "B2",
+      "grammar": "The third conditional (if + past perfect, would have) describes an unreal past.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.19c6058e6097b134"
+    },
+    {
+      "conceptId": "en.conversacion_if_asked_would_helped",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e5e89eb9e6029f8a"
+    },
+    {
+      "conceptId": "en.conversacion_ran_into_old_friend",
+      "level": "B2",
+      "grammar": "'Run into' is an idiomatic phrasal verb meaning to meet someone by chance.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f4a81b9d114a55ce"
+    },
+    {
+      "conceptId": "en.conversacion_come_up_with_idea",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.68c63767891b3d54"
+    },
+    {
+      "conceptId": "en.conversacion_love_coffee_so_does_she",
+      "level": "C2",
+      "grammar": "'So do/does + subject' avoids repeating the verb (substitution).",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bc4a95a2fba9919e"
+    },
+    {
+      "conceptId": "en.conversacion_can_swim_so_can_i",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8e960cc5ca9d5768"
+    }
   ]
 }

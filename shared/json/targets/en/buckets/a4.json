@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "a4",
+  "concepts": {
+    "en.calendario_see_you_next_week": {
+      "conceptId": "en.calendario_see_you_next_week",
+      "id": "calendario_see_you_next_week",
+      "target": [
+        {
+          "text": "See you next week.",
+          "audioSlug": "see_you_next_week"
+        }
+      ]
+    },
+    "en.health_my_stomach_hurts": {
+      "conceptId": "en.health_my_stomach_hurts",
+      "id": "health_my_stomach_hurts",
+      "target": [
+        {
+          "text": "My stomach hurts.",
+          "audioSlug": "my_stomach_hurts"
+        }
+      ]
+    },
+    "en.kitchen_the_best_side_dish_for_pasta": {
+      "conceptId": "en.kitchen_the_best_side_dish_for_pasta",
+      "id": "kitchen_the_best_side_dish_for_pasta",
+      "target": [
+        {
+          "text": "The best side dish for pasta is garlic bread.",
+          "audioSlug": "the_best_side_dish_for_pasta_is_garlic_bread"
+        }
+      ]
+    },
+    "en.supermarket_expiration_date": {
+      "conceptId": "en.supermarket_expiration_date",
+      "id": "supermarket_expiration_date",
+      "target": [
+        {
+          "text": "When does this expire?",
+          "audioSlug": "when_does_this_expire"
+        }
+      ]
+    }
+  }
+}

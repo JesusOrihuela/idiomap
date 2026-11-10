@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "3e",
+  "concepts": {
+    "es.estudios_tengo_un_examen_el_lunes": {
+      "conceptId": "es.estudios_tengo_un_examen_el_lunes",
+      "id": "estudios_tengo_un_examen_el_lunes",
+      "target": [
+        {
+          "text": "Tengo un examen el lunes.",
+          "audioSlug": "tengo_un_examen_el_lunes"
+        }
+      ]
+    },
+    "es.health_do_you_have_any_pain": {
+      "conceptId": "es.health_do_you_have_any_pain",
+      "id": "health_do_you_have_any_pain",
+      "target": [
+        {
+          "text": "¿Tienes algún dolor?",
+          "audioSlug": "tienes_algun_dolor",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Tiene algún dolor?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "tiene_algun_dolor"
+        }
+      ]
+    },
+    "es.kitchen_dinner_is_ready": {
+      "conceptId": "es.kitchen_dinner_is_ready",
+      "id": "kitchen_dinner_is_ready",
+      "target": [
+        {
+          "text": "La cena está lista.",
+          "audioSlug": "la_cena_esta_lista"
+        }
+      ]
+    },
+    "es.politica_cada_voto_cuenta": {
+      "conceptId": "es.politica_cada_voto_cuenta",
+      "id": "politica_cada_voto_cuenta",
+      "target": [
+        {
+          "text": "Cada voto cuenta.",
+          "audioSlug": "cada_voto_cuenta"
+        }
+      ]
+    },
+    "es.restaurant_de_postre_hay_crema": {
+      "conceptId": "es.restaurant_de_postre_hay_crema",
+      "id": "restaurant_de_postre_hay_crema",
+      "target": [
+        {
+          "text": "De postre hay crema de chocolate.",
+          "audioSlug": "de_postre_hay_crema_de_chocolate"
+        }
+      ]
+    },
+    "es.tiempo_libre_jugamos_al_ajedrez": {
+      "conceptId": "es.tiempo_libre_jugamos_al_ajedrez",
+      "id": "tiempo_libre_jugamos_al_ajedrez",
+      "target": [
+        {
+          "text": "Jugamos al ajedrez después de comer.",
+          "audioSlug": "jugamos_al_ajedrez_despues_de_comer"
+        }
+      ]
+    }
+  }
+}

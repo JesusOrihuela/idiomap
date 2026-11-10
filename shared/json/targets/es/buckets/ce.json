@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "ce",
+  "concepts": {
+    "es.animales_un_mosquito_me_pico": {
+      "conceptId": "es.animales_un_mosquito_me_pico",
+      "id": "animales_un_mosquito_me_pico",
+      "target": [
+        {
+          "text": "Un mosquito me picó en el brazo.",
+          "audioSlug": "un_mosquito_me_pico_en_el_brazo"
+        }
+      ]
+    },
+    "es.conversacion_quiero_comentar_algo": {
+      "conceptId": "es.conversacion_quiero_comentar_algo",
+      "id": "conversacion_quiero_comentar_algo",
+      "target": [
+        {
+          "text": "Quiero comentar algo.",
+          "audioSlug": "quiero_comentar_algo"
+        }
+      ]
+    },
+    "es.deportes_el_deporte_es_bueno_para_la_salud": {
+      "conceptId": "es.deportes_el_deporte_es_bueno_para_la_salud",
+      "id": "deportes_el_deporte_es_bueno_para_la_salud",
+      "target": [
+        {
+          "text": "El deporte es bueno para la salud.",
+          "audioSlug": "el_deporte_es_bueno_para_la_salud"
+        }
+      ]
+    },
+    "es.directions_can_you_show_me_the_way.en-es": {
+      "conceptId": "es.directions_can_you_show_me_the_way.en-es",
+      "id": "directions_can_you_show_me_the_way_en",
+      "target": [
+        {
+          "text": "¿Puede indicarme el camino?",
+          "audioSlug": "puede_indicarme_el_camino"
+        }
+      ]
+    },
+    "es.estudios_apunto_la_tarea_en_el_cuaderno": {
+      "conceptId": "es.estudios_apunto_la_tarea_en_el_cuaderno",
+      "id": "estudios_apunto_la_tarea_en_el_cuaderno",
+      "target": [
+        {
+          "text": "Apunto la tarea en el cuaderno.",
+          "audioSlug": "apunto_la_tarea_en_el_cuaderno"
+        }
+      ]
+    },
+    "es.gym_periodization_hypertrophy_strength": {
+      "conceptId": "es.gym_periodization_hypertrophy_strength",
+      "id": "gym_periodization_hypertrophy_strength",
+      "target": [
+        {
+          "text": "Mi entrenador me recomendó periodización con fases de hipertrofia y fuerza.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "mi_entrenador_me_recomendo_periodizacion_con_fases_de_hipertrofia_y_fuerza"
+        },
+        {
+          "text": "Mi entrenadora me recomendó periodización con fases de hipertrofia y fuerza.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "mi_entrenadora_me_recomendo_periodizacion_con_fases_de_hipertrofia_y_fuerza"
+        }
+      ]
+    },
+    "es.kitchen_i_prefer_to_use_the_electric": {
+      "conceptId": "es.kitchen_i_prefer_to_use_the_electric",
+      "id": "kitchen_i_prefer_to_use_the_electric",
+      "target": [
+        {
+          "text": "Prefiero el horno eléctrico al microondas para calentar.",
+          "audioSlug": "prefiero_el_horno_electrico_al_microondas_para_calentar"
+        }
+      ]
+    },
+    "es.kitchen_the_best_side_dish_for_pasta": {
+      "conceptId": "es.kitchen_the_best_side_dish_for_pasta",
+      "id": "kitchen_the_best_side_dish_for_pasta",
+      "target": [
+        {
+          "text": "La mejor guarnición para la pasta es la salsa.",
+          "audioSlug": "la_mejor_guarnicion_para_la_pasta_es_la_salsa"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_ternero_sigue_a_su_madre": {
+      "conceptId": "es.naturaleza_lugares_el_ternero_sigue_a_su_madre",
+      "id": "naturaleza_lugares_el_ternero_sigue_a_su_madre",
+      "target": [
+        {
+          "text": "El ternero sigue a su madre.",
+          "audioSlug": "el_ternero_sigue_a_su_madre"
+        }
+      ]
+    },
+    "es.restaurant_could_i_have_my_salad_with": {
+      "conceptId": "es.restaurant_could_i_have_my_salad_with",
+      "id": "restaurant_could_i_have_my_salad_with",
+      "target": [
+        {
+          "text": "¿Podría servirme la ensalada con el aderezo aparte?",
+          "audioSlug": "podria_servirme_la_ensalada_con_el_aderezo_aparte"
+        }
+      ]
+    },
+    "es.restaurant_how_much_is_it_all": {
+      "conceptId": "es.restaurant_how_much_is_it_all",
+      "id": "restaurant_how_much_is_it_all",
+      "target": [
+        {
+          "text": "¿Cuánto es todo?",
+          "audioSlug": "cuanto_es_todo"
+        }
+      ]
+    },
+    "es.survival_can_you_repeat.en-es": {
+      "conceptId": "es.survival_can_you_repeat.en-es",
+      "id": "survival_can_you_repeat_en",
+      "target": [
+        {
+          "text": "¿Puedes repetir, por favor?",
+          "audioSlug": "puedes_repetir_por_favor",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Puede repetir, por favor?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_repetir_por_favor"
+        }
+      ]
+    },
+    "es.technology_scan_this_qr_code_for_more": {
+      "conceptId": "es.technology_scan_this_qr_code_for_more",
+      "id": "technology_scan_this_qr_code_for_more",
+      "target": [
+        {
+          "text": "Escanea este código QR para obtener más información.",
+          "audioSlug": "escanea_este_codigo_qr_para_obtener_mas_informacion"
+        }
+      ]
+    },
+    "es.vestimenta_en_invierno_uso_gorro_y_bufanda": {
+      "conceptId": "es.vestimenta_en_invierno_uso_gorro_y_bufanda",
+      "id": "vestimenta_en_invierno_uso_gorro_y_bufanda",
+      "target": [
+        {
+          "text": "En invierno uso gorro y bufanda.",
+          "audioSlug": "en_invierno_uso_gorro_y_bufanda"
+        }
+      ]
+    },
+    "es.viajes_donde_vas_a_pasar_las_vacaciones": {
+      "conceptId": "es.viajes_donde_vas_a_pasar_las_vacaciones",
+      "id": "viajes_donde_vas_a_pasar_las_vacaciones",
+      "target": [
+        {
+          "text": "¿Dónde vas a pasar las vacaciones?",
+          "audioSlug": "donde_vas_a_pasar_las_vacaciones"
+        }
+      ]
+    }
+  }
+}

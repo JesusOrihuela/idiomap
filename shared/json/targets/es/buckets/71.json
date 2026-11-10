@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "71",
+  "concepts": {
+    "es.airport_refused_entry_return_carrier": {
+      "conceptId": "es.airport_refused_entry_return_carrier",
+      "id": "airport_refused_entry_return_carrier",
+      "target": [
+        {
+          "text": "Me han negado la entrada, ¿qué aerolínea está legalmente obligada a devolverme al punto de salida?",
+          "audioSlug": "me_han_negado_la_entrada_que_aerolinea_esta_legalmente_obligada_a_devolverme_al_punto_de_salida"
+        }
+      ]
+    },
+    "es.conversacion_no_supe_que_responder": {
+      "conceptId": "es.conversacion_no_supe_que_responder",
+      "id": "conversacion_no_supe_que_responder",
+      "target": [
+        {
+          "text": "No supe qué responder.",
+          "audioSlug": "no_supe_que_responder"
+        }
+      ]
+    },
+    "es.deportes_corro_en_el_parque_por_las_mananas": {
+      "conceptId": "es.deportes_corro_en_el_parque_por_las_mananas",
+      "id": "deportes_corro_en_el_parque_por_las_mananas",
+      "target": [
+        {
+          "text": "Corro en el parque por las mañanas.",
+          "audioSlug": "corro_en_el_parque_por_las_mananas"
+        }
+      ]
+    },
+    "es.descripciones_el_cielo_esta_gris_esta_manana": {
+      "conceptId": "es.descripciones_el_cielo_esta_gris_esta_manana",
+      "id": "descripciones_el_cielo_esta_gris_esta_manana",
+      "target": [
+        {
+          "text": "El cielo está gris esta mañana.",
+          "audioSlug": "el_cielo_esta_gris_esta_manana"
+        }
+      ]
+    },
+    "es.economia_ese_billete_es_falso": {
+      "conceptId": "es.economia_ese_billete_es_falso",
+      "id": "economia_ese_billete_es_falso",
+      "target": [
+        {
+          "text": "Ese billete es falso.",
+          "audioSlug": "ese_billete_es_falso"
+        }
+      ]
+    },
+    "es.greetings_hey_hows_life_treating_you": {
+      "conceptId": "es.greetings_hey_hows_life_treating_you",
+      "id": "greetings_hey_hows_life_treating_you",
+      "target": [
+        {
+          "text": "Oye, ¿cómo te trata la vida?",
+          "audioSlug": "oye_como_te_trata_la_vida"
+        }
+      ]
+    },
+    "es.greetings_te_invito_a_mi_casa_el_sabado": {
+      "conceptId": "es.greetings_te_invito_a_mi_casa_el_sabado",
+      "id": "greetings_te_invito_a_mi_casa_el_sabado",
+      "target": [
+        {
+          "text": "Te invito a mi casa el sábado.",
+          "audioSlug": "te_invito_a_mi_casa_el_sabado"
+        }
+      ]
+    },
+    "es.health_abre_la_boca_por_favor": {
+      "conceptId": "es.health_abre_la_boca_por_favor",
+      "id": "health_abre_la_boca_por_favor",
+      "target": [
+        {
+          "text": "Abre la boca, por favor.",
+          "audioSlug": "abre_la_boca_por_favor"
+        }
+      ]
+    },
+    "es.health_tengo_gripe_y_mucha_tos": {
+      "conceptId": "es.health_tengo_gripe_y_mucha_tos",
+      "id": "health_tengo_gripe_y_mucha_tos",
+      "target": [
+        {
+          "text": "Tengo gripe y mucha tos.",
+          "audioSlug": "tengo_gripe_y_mucha_tos"
+        }
+      ]
+    },
+    "es.kitchen_im_going_to_make_chicken_and": {
+      "conceptId": "es.kitchen_im_going_to_make_chicken_and",
+      "id": "kitchen_im_going_to_make_chicken_and",
+      "target": [
+        {
+          "text": "Voy a preparar arroz con pollo, es mi receta favorita.",
+          "audioSlug": "voy_a_preparar_arroz_con_pollo_es_mi_receta_favorita"
+        }
+      ]
+    },
+    "es.kitchen_the_pan_is_too_hot_lower": {
+      "conceptId": "es.kitchen_the_pan_is_too_hot_lower",
+      "id": "kitchen_the_pan_is_too_hot_lower",
+      "target": [
+        {
+          "text": "Baja el fuego porque la sartén está muy caliente.",
+          "audioSlug": "baja_el_fuego_porque_la_sarten_esta_muy_caliente"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_puedes_adivinar_el_regalo": {
+      "conceptId": "es.pensamientos_opiniones_puedes_adivinar_el_regalo",
+      "id": "pensamientos_opiniones_puedes_adivinar_el_regalo",
+      "target": [
+        {
+          "text": "¿Puedes adivinar qué regalo es?",
+          "audioSlug": "puedes_adivinar_que_regalo_es"
+        }
+      ]
+    },
+    "es.personal_info_me_dedico_a_la_ensenanza": {
+      "conceptId": "es.personal_info_me_dedico_a_la_ensenanza",
+      "id": "personal_info_me_dedico_a_la_ensenanza",
+      "target": [
+        {
+          "text": "Me dedico a la enseñanza.",
+          "audioSlug": "me_dedico_a_la_ensenanza"
+        }
+      ]
+    },
+    "es.planes_quizas_llueva_manana": {
+      "conceptId": "es.planes_quizas_llueva_manana",
+      "id": "planes_quizas_llueva_manana",
+      "target": [
+        {
+          "text": "Quizás llueva mañana.",
+          "audioSlug": "quizas_llueva_manana"
+        }
+      ]
+    },
+    "es.restaurant_could_i_have_some_extra_napkins": {
+      "conceptId": "es.restaurant_could_i_have_some_extra_napkins",
+      "id": "restaurant_could_i_have_some_extra_napkins",
+      "target": [
+        {
+          "text": "¿Podría darme más servilletas, por favor?",
+          "audioSlug": "podria_darme_mas_servilletas_por_favor"
+        }
+      ]
+    },
+    "es.restaurant_do_you_offer_any_childrens_menus": {
+      "conceptId": "es.restaurant_do_you_offer_any_childrens_menus",
+      "id": "restaurant_do_you_offer_any_childrens_menus",
+      "target": [
+        {
+          "text": "¿Ofrecen menús infantiles?",
+          "audioSlug": "ofrecen_menus_infantiles"
+        }
+      ]
+    },
+    "es.supermarket_hay_mucha_fila_en_la_caja": {
+      "conceptId": "es.supermarket_hay_mucha_fila_en_la_caja",
+      "id": "supermarket_hay_mucha_fila_en_la_caja",
+      "target": [
+        {
+          "text": "Hay mucha fila en la caja.",
+          "audioSlug": "hay_mucha_fila_en_la_caja"
+        }
+      ]
+    },
+    "es.supermarket_necesito_una_bolsa_por_favor": {
+      "conceptId": "es.supermarket_necesito_una_bolsa_por_favor",
+      "id": "supermarket_necesito_una_bolsa_por_favor",
+      "target": [
+        {
+          "text": "Necesito una bolsa, por favor.",
+          "audioSlug": "necesito_una_bolsa_por_favor"
+        }
+      ]
+    },
+    "es.weather_im_hot": {
+      "conceptId": "es.weather_im_hot",
+      "id": "weather_im_hot",
+      "target": [
+        {
+          "text": "Tengo calor.",
+          "audioSlug": "tengo_calor"
+        }
+      ]
+    }
+  }
+}

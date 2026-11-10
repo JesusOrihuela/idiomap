@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "b5",
+  "concepts": {
+    "es.animales_hay_un_pez_en_el_agua": {
+      "conceptId": "es.animales_hay_un_pez_en_el_agua",
+      "id": "animales_hay_un_pez_en_el_agua",
+      "target": [
+        {
+          "text": "Hay un pez en el agua.",
+          "audioSlug": "hay_un_pez_en_el_agua"
+        }
+      ]
+    },
+    "es.conversacion_te_doy_un_consejo_sincero": {
+      "conceptId": "es.conversacion_te_doy_un_consejo_sincero",
+      "id": "conversacion_te_doy_un_consejo_sincero",
+      "target": [
+        {
+          "text": "Te doy un consejo sincero.",
+          "audioSlug": "te_doy_un_consejo_sincero"
+        }
+      ]
+    },
+    "es.directions_necesito_indicaciones_para_llegar": {
+      "conceptId": "es.directions_necesito_indicaciones_para_llegar",
+      "id": "directions_necesito_indicaciones_para_llegar",
+      "target": [
+        {
+          "text": "Necesito indicaciones para llegar allí.",
+          "audioSlug": "necesito_indicaciones_para_llegar_alli"
+        }
+      ]
+    },
+    "es.emociones_why_are_you_worried": {
+      "conceptId": "es.emociones_why_are_you_worried",
+      "id": "emociones_why_are_you_worried",
+      "target": [
+        {
+          "text": "¿Por qué estás preocupado?",
+          "audioSlug": "por_que_estas_preocupado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás preocupada?",
+          "audioSlug": "por_que_estas_preocupada",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.family_my_grandparents_live_in_berlin": {
+      "conceptId": "es.family_my_grandparents_live_in_berlin",
+      "id": "family_my_grandparents_live_in_berlin",
+      "target": [
+        {
+          "text": "Mis abuelos viven en Berlín.",
+          "audioSlug": "mis_abuelos_viven_en_berlin"
+        }
+      ]
+    },
+    "es.gym_could_you_demonstrate_how_to_do": {
+      "conceptId": "es.gym_could_you_demonstrate_how_to_do",
+      "id": "gym_could_you_demonstrate_how_to_do",
+      "target": [
+        {
+          "text": "¿Podrías demostrarme cómo hacer una sentadilla correctamente?",
+          "audioSlug": "podrias_demostrarme_como_hacer_una_sentadilla_correctamente"
+        }
+      ]
+    },
+    "es.health_i_have_been_sick_since_yesterday": {
+      "conceptId": "es.health_i_have_been_sick_since_yesterday",
+      "id": "health_i_have_been_sick_since_yesterday",
+      "target": [
+        {
+          "text": "Estoy enferma desde ayer.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_enferma_desde_ayer"
+        },
+        {
+          "text": "Estoy enfermo desde ayer.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_enfermo_desde_ayer"
+        }
+      ]
+    },
+    "es.kitchen_la_comida_esta_demasiado_salada": {
+      "conceptId": "es.kitchen_la_comida_esta_demasiado_salada",
+      "id": "kitchen_la_comida_esta_demasiado_salada",
+      "target": [
+        {
+          "text": "La comida está demasiado salada.",
+          "audioSlug": "la_comida_esta_demasiado_salada"
+        }
+      ]
+    },
+    "es.kitchen_we_need_to_replace_the_baking": {
+      "conceptId": "es.kitchen_we_need_to_replace_the_baking",
+      "id": "kitchen_we_need_to_replace_the_baking",
+      "target": [
+        {
+          "text": "Hay que sustituir la levadura en polvo.",
+          "audioSlug": "hay_que_sustituir_la_levadura_en_polvo"
+        }
+      ]
+    },
+    "es.museums_arrive_early_installation": {
+      "conceptId": "es.museums_arrive_early_installation",
+      "id": "museums_arrive_early_installation",
+      "target": [
+        {
+          "text": "Recomiendo llegar temprano para ver la instalación antes de que lleguen todos.",
+          "audioSlug": "recomiendo_llegar_temprano_para_ver_la_instalacion_antes_de_que_lleguen_todos"
+        }
+      ]
+    },
+    "es.oficina_trabajo_para_una_organizacion": {
+      "conceptId": "es.oficina_trabajo_para_una_organizacion",
+      "id": "oficina_trabajo_para_una_organizacion",
+      "target": [
+        {
+          "text": "Trabajo para una organización.",
+          "audioSlug": "trabajo_para_una_organizacion"
+        }
+      ]
+    },
+    "es.planes_voy_a_esperar": {
+      "conceptId": "es.planes_voy_a_esperar",
+      "id": "planes_voy_a_esperar",
+      "target": [
+        {
+          "text": "Voy a esperar.",
+          "audioSlug": "voy_a_esperar"
+        }
+      ]
+    },
+    "es.restaurant_los_ninos_toman_la_merienda": {
+      "conceptId": "es.restaurant_los_ninos_toman_la_merienda",
+      "id": "restaurant_los_ninos_toman_la_merienda",
+      "target": [
+        {
+          "text": "Los niños toman la merienda a las cinco.",
+          "audioSlug": "los_ninos_toman_la_merienda_a_las_cinco"
+        }
+      ]
+    },
+    "es.technology_the_app_was_requesting_access_to": {
+      "conceptId": "es.technology_the_app_was_requesting_access_to",
+      "id": "technology_the_app_was_requesting_access_to",
+      "target": [
+        {
+          "text": "No instalé la aplicación porque pedía mis contactos y ubicación.",
+          "audioSlug": "no_instale_la_aplicacion_porque_pedia_mis_contactos_y_ubicacion"
+        }
+      ]
+    }
+  }
+}

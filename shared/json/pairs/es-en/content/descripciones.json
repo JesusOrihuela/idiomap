@@ -1,32 +1,332 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "descripciones",
-  "conceptIds": [
-    "en.descripciones_this_is_easy",
-    "en.descripciones_this_is_difficult",
-    "en.descripciones_this_place_is_huge",
-    "en.descripciones_the_cup_is_full",
-    "en.descripciones_it_is_dangerous",
-    "en.descripciones_this_is_very_strange",
-    "en.descripciones_this_is_serious",
-    "en.descripciones_is_it_free",
-    "en.descripciones_this_one_is_different",
-    "en.descripciones_the_task_is_simple",
-    "en.descripciones_it_looks_normal",
-    "en.descripciones_the_story_is_true",
-    "en.descripciones_is_this_real",
-    "en.descripciones_is_it_safe",
-    "en.descripciones_i_am_ready",
-    "en.descripciones_i_am_very_busy",
-    "en.descripciones_this_bag_is_heavy",
-    "en.descripciones_the_box_is_light",
-    "en.descripciones_it_is_very_common",
-    "en.descripciones_is_this_photo_recent",
-    "en.descripciones_is_it_private",
-    "en.descripciones_this_is_very_special",
-    "en.descripciones_it_is_a_strange_object",
-    "en.descripciones_what_color_is_it",
-    "en.descripciones_i_like_your_style"
+  "phrases": [
+    {
+      "conceptId": "en.descripciones_this_is_easy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c655d464b3a907db"
+    },
+    {
+      "conceptId": "en.descripciones_this_is_difficult",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.53c990063abbeef9"
+    },
+    {
+      "conceptId": "en.descripciones_this_place_is_huge",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8b7f339b26f029bf"
+    },
+    {
+      "conceptId": "en.descripciones_the_cup_is_full",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.88f334f129c30790"
+    },
+    {
+      "conceptId": "en.descripciones_it_is_dangerous",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d47fe476f7abcaad"
+    },
+    {
+      "conceptId": "en.descripciones_this_is_very_strange",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a305bc328b3bbd3c"
+    },
+    {
+      "conceptId": "en.descripciones_this_is_serious",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.72c620ea8574c1ca"
+    },
+    {
+      "conceptId": "en.descripciones_is_it_free",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6a56fe4f8aafd7b4"
+    },
+    {
+      "conceptId": "en.descripciones_this_one_is_different",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dc07496510ea9f61"
+    },
+    {
+      "conceptId": "en.descripciones_the_task_is_simple",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b677459a74dccae9"
+    },
+    {
+      "conceptId": "en.descripciones_it_looks_normal",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.587ae1313533f3a7"
+    },
+    {
+      "conceptId": "en.descripciones_the_story_is_true",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.47baaeb7ff427122"
+    },
+    {
+      "conceptId": "en.descripciones_is_this_real",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.045ba516957967c3"
+    },
+    {
+      "conceptId": "en.descripciones_is_it_safe",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.577c6162b5c61d75"
+    },
+    {
+      "conceptId": "en.descripciones_i_am_ready",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5e63fa27c969061e"
+    },
+    {
+      "conceptId": "en.descripciones_i_am_very_busy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ac0dd6c499fc3602"
+    },
+    {
+      "conceptId": "en.descripciones_this_bag_is_heavy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3a6650db7399e4ba"
+    },
+    {
+      "conceptId": "en.descripciones_the_box_is_light",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6ebee81487d530a0"
+    },
+    {
+      "conceptId": "en.descripciones_it_is_very_common",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f93301f065d9cde6"
+    },
+    {
+      "conceptId": "en.descripciones_is_this_photo_recent",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.261acd6a129f0d29"
+    },
+    {
+      "conceptId": "en.descripciones_is_it_private",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b84335aa562f83d4"
+    },
+    {
+      "conceptId": "en.descripciones_this_is_very_special",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cbcd1ed0c4a09866"
+    },
+    {
+      "conceptId": "en.descripciones_it_is_a_strange_object",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7d396928e557afc4"
+    },
+    {
+      "conceptId": "en.descripciones_what_color_is_it",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.19c956674a506ce5"
+    },
+    {
+      "conceptId": "en.descripciones_i_like_your_style",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dabef984463f0a6e"
+    }
   ]
 }

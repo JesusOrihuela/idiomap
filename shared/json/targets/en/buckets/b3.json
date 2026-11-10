@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "b3",
+  "concepts": {
+    "en.family_grandparents_countryside": {
+      "conceptId": "en.family_grandparents_countryside",
+      "id": "family_grandparents_countryside",
+      "target": [
+        {
+          "text": "My grandparents live in the countryside.",
+          "audioSlug": "my_grandparents_live_in_the_countryside"
+        }
+      ]
+    },
+    "en.family_this_is_my_family": {
+      "conceptId": "en.family_this_is_my_family",
+      "id": "family_this_is_my_family",
+      "target": [
+        {
+          "text": "This is my family.",
+          "audioSlug": "this_is_my_family"
+        }
+      ]
+    },
+    "en.kitchen_lower_the_temperature_of_the_freezer": {
+      "conceptId": "en.kitchen_lower_the_temperature_of_the_freezer",
+      "id": "kitchen_lower_the_temperature_of_the_freezer",
+      "target": [
+        {
+          "text": "Lower the temperature of the freezer.",
+          "audioSlug": "lower_the_temperature_of_the_freezer"
+        }
+      ]
+    },
+    "en.kitchen_where_do_we_keep_the_measuring": {
+      "conceptId": "en.kitchen_where_do_we_keep_the_measuring",
+      "id": "kitchen_where_do_we_keep_the_measuring",
+      "target": [
+        {
+          "text": "Where do we keep the measuring cups?",
+          "audioSlug": "where_do_we_keep_the_measuring_cups"
+        }
+      ]
+    }
+  }
+}

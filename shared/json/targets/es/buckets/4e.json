@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "4e",
+  "concepts": {
+    "es.conversacion_puedo_preguntar_algo": {
+      "conceptId": "es.conversacion_puedo_preguntar_algo",
+      "id": "conversacion_puedo_preguntar_algo",
+      "target": [
+        {
+          "text": "¿Puedo preguntar algo?",
+          "audioSlug": "puedo_preguntar_algo"
+        }
+      ]
+    },
+    "es.estudios_dame_un_ejemplo_concreto_por_favor": {
+      "conceptId": "es.estudios_dame_un_ejemplo_concreto_por_favor",
+      "id": "estudios_dame_un_ejemplo_concreto_por_favor",
+      "target": [
+        {
+          "text": "Dame un ejemplo concreto, por favor.",
+          "audioSlug": "dame_un_ejemplo_concreto_por_favor"
+        }
+      ]
+    },
+    "es.family_how_many_children_do_you_have": {
+      "conceptId": "es.family_how_many_children_do_you_have",
+      "id": "family_how_many_children_do_you_have",
+      "target": [
+        {
+          "text": "¿Cuántos hijos tienes?",
+          "audioSlug": "cuantos_hijos_tienes"
+        }
+      ]
+    },
+    "es.family_tenemos_una_relacion": {
+      "conceptId": "es.family_tenemos_una_relacion",
+      "id": "family_tenemos_una_relacion",
+      "target": [
+        {
+          "text": "Tenemos una relación.",
+          "audioSlug": "tenemos_una_relacion"
+        }
+      ]
+    },
+    "es.gym_could_you_recommend_a_stretching_routine": {
+      "conceptId": "es.gym_could_you_recommend_a_stretching_routine",
+      "id": "gym_could_you_recommend_a_stretching_routine",
+      "target": [
+        {
+          "text": "¿Podrías recomendarme una rutina de estiramientos?",
+          "audioSlug": "podrias_recomendarme_una_rutina_de_estiramientos"
+        }
+      ]
+    },
+    "es.health_el_dolor_desaparece_con_el_descanso": {
+      "conceptId": "es.health_el_dolor_desaparece_con_el_descanso",
+      "id": "health_el_dolor_desaparece_con_el_descanso",
+      "target": [
+        {
+          "text": "El dolor desaparece con el descanso.",
+          "audioSlug": "el_dolor_desaparece_con_el_descanso"
+        }
+      ]
+    },
+    "es.hogar_hay_un_sillon_junto_a_la_ventana": {
+      "conceptId": "es.hogar_hay_un_sillon_junto_a_la_ventana",
+      "id": "hogar_hay_un_sillon_junto_a_la_ventana",
+      "target": [
+        {
+          "text": "Hay un sillón junto a la ventana.",
+          "audioSlug": "hay_un_sillon_junto_a_la_ventana"
+        }
+      ]
+    },
+    "es.hogar_sientete_como_en_tu_casa": {
+      "conceptId": "es.hogar_sientete_como_en_tu_casa",
+      "id": "hogar_sientete_como_en_tu_casa",
+      "target": [
+        {
+          "text": "Siéntete como en tu casa.",
+          "audioSlug": "sientete_como_en_tu_casa"
+        }
+      ]
+    },
+    "es.kitchen_set_the_table": {
+      "conceptId": "es.kitchen_set_the_table",
+      "id": "kitchen_set_the_table",
+      "target": [
+        {
+          "text": "¿Puedes poner la mesa?",
+          "audioSlug": "puedes_poner_la_mesa"
+        }
+      ]
+    },
+    "es.museums_how_much_admission": {
+      "conceptId": "es.museums_how_much_admission",
+      "id": "museums_how_much_admission",
+      "target": [
+        {
+          "text": "¿Cuánto cuesta la entrada?",
+          "audioSlug": "cuanto_cuesta_la_entrada"
+        }
+      ]
+    },
+    "es.music_overproduction_works_against_core": {
+      "conceptId": "es.music_overproduction_works_against_core",
+      "id": "music_overproduction_works_against_core",
+      "target": [
+        {
+          "text": "La sobreproducción va en detrimento del núcleo emocional de la canción.",
+          "audioSlug": "la_sobreproduccion_va_en_detrimento_del_nucleo_emocional_de_la_cancion"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_la_vida_es_corta": {
+      "conceptId": "es.pensamientos_opiniones_la_vida_es_corta",
+      "id": "pensamientos_opiniones_la_vida_es_corta",
+      "target": [
+        {
+          "text": "La vida es corta, hay que disfrutarla.",
+          "audioSlug": "la_vida_es_corta_hay_que_disfrutarla"
+        }
+      ]
+    },
+    "es.personal_info_whats_your_email": {
+      "conceptId": "es.personal_info_whats_your_email",
+      "id": "personal_info_whats_your_email",
+      "target": [
+        {
+          "text": "¿Cuál es tu correo electrónico?",
+          "audioSlug": "cual_es_tu_correo_electronico",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cuál es su correo electrónico?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "cual_es_su_correo_electronico"
+        }
+      ]
+    },
+    "es.planes_what_are_you_doing_tomorrow": {
+      "conceptId": "es.planes_what_are_you_doing_tomorrow",
+      "id": "planes_what_are_you_doing_tomorrow",
+      "target": [
+        {
+          "text": "¿Qué vas a hacer mañana?",
+          "audioSlug": "que_vas_a_hacer_manana"
+        }
+      ]
+    },
+    "es.weather_love_spring": {
+      "conceptId": "es.weather_love_spring",
+      "id": "weather_love_spring",
+      "target": [
+        {
+          "text": "Me encanta la primavera.",
+          "audioSlug": "me_encanta_la_primavera"
+        }
+      ]
+    }
+  }
+}

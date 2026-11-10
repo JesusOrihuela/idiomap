@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "c4",
+  "concepts": {
+    "en.accountability_the_human_resources_department_has_already": {
+      "conceptId": "en.accountability_the_human_resources_department_has_already",
+      "id": "accountability_the_human_resources_department_has_already",
+      "target": [
+        {
+          "text": "The Human Resources department has already delivered the payroll reports.",
+          "audioSlug": "the_human_resources_department_has_already_delivered_the_payroll_reports"
+        }
+      ]
+    },
+    "en.cuerpo_his_hands_are_big": {
+      "conceptId": "en.cuerpo_his_hands_are_big",
+      "id": "cuerpo_his_hands_are_big",
+      "target": [
+        {
+          "text": "His hands are big.",
+          "audioSlug": "his_hands_are_big"
+        }
+      ]
+    },
+    "en.politica_people_are_protesting_in_the_street": {
+      "conceptId": "en.politica_people_are_protesting_in_the_street",
+      "id": "politica_people_are_protesting_in_the_street",
+      "target": [
+        {
+          "text": "People are protesting in the street.",
+          "audioSlug": "people_are_protesting_in_the_street"
+        }
+      ]
+    }
+  }
+}

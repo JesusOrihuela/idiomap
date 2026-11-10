@@ -19,7 +19,13 @@
       "gloss_example": {
         "en": "We ordered some appetizers while waiting for our table."
       },
-      "conceptId": "es.appetizer"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "reservation",
@@ -40,7 +46,13 @@
       "gloss_example": {
         "en": "I made a table reservation for eight o'clock."
       },
-      "conceptId": "es.reservation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "menu",
@@ -61,7 +73,13 @@
       "gloss_example": {
         "en": "Could we see the menu, please?"
       },
-      "conceptId": "es.menu"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "waiter",
@@ -98,7 +116,13 @@
           "audioSlug": "camarero"
         }
       ],
-      "conceptId": "es.waiter"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "tip",
@@ -119,7 +143,13 @@
       "gloss_example": {
         "en": "We left a generous tip for the excellent service."
       },
-      "conceptId": "es.tip"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bill",
@@ -140,7 +170,13 @@
       "gloss_example": {
         "en": "Could we have the bill, please?"
       },
-      "conceptId": "es.bill"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "portion",
@@ -161,7 +197,13 @@
       "gloss_example": {
         "en": "The portions here are quite large."
       },
-      "conceptId": "es.portion"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cuisine",
@@ -182,7 +224,13 @@
       "gloss_example": {
         "en": "Italian cuisine is famous for its pasta and pizza."
       },
-      "conceptId": "es.cuisine"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "entr_e",
@@ -203,7 +251,13 @@
       "gloss_example": {
         "en": "For my entrée, I will have the grilled chicken."
       },
-      "conceptId": "es.entr_e"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "dietary",
@@ -224,7 +278,13 @@
       "gloss_example": {
         "en": "Do you have any dietary restrictions I should know about?"
       },
-      "conceptId": "es.dietary"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "seasoning",
@@ -245,7 +305,13 @@
       "gloss_example": {
         "en": "The chef added more seasoning to bring out the flavour."
       },
-      "conceptId": "es.seasoning"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "garnish",
@@ -266,7 +332,13 @@
       "gloss_example": {
         "en": "The soup came with a garnish of fresh parsley."
       },
-      "conceptId": "es.garnish"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ambiance",
@@ -287,7 +359,13 @@
       "gloss_example": {
         "en": "The restaurant had a romantic ambiance with soft lighting."
       },
-      "conceptId": "es.ambiance"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "sommelier",
@@ -308,7 +386,13 @@
       "gloss_example": {
         "en": "The sommelier recommended a local red wine to pair with the steak."
       },
-      "conceptId": "es.sommelier"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "delicacy",
@@ -329,7 +413,13 @@
       "gloss_example": {
         "en": "Oysters are considered a delicacy in many countries."
       },
-      "conceptId": "es.delicacy"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "pairing",
@@ -350,7 +440,13 @@
       "gloss_example": {
         "en": "The sommelier suggested a classic pairing of Burgundy with the duck confit."
       },
-      "conceptId": "es.pairing"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "palate",
@@ -371,7 +467,13 @@
       "gloss_example": {
         "en": "He has a refined palate and can identify most grape varieties by taste alone."
       },
-      "conceptId": "es.palate"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "tasting_menu",
@@ -392,7 +494,13 @@
       "gloss_example": {
         "en": "We opted for the tasting menu to try the full range of the chef's seasonal creations."
       },
-      "conceptId": "es.tasting_menu"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "accompaniment",
@@ -413,7 +521,13 @@
       "gloss_example": {
         "en": "The duck arrived with a cherry reduction and a seasonal vegetable accompaniment."
       },
-      "conceptId": "es.accompaniment"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "corkage",
@@ -434,7 +548,13 @@
       "gloss_example": {
         "en": "The corkage fee was thirty dollars per bottle, which made it worthwhile to bring a special wine."
       },
-      "conceptId": "es.corkage"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "terroir",
@@ -466,12 +586,18 @@
         {
           "text": "terroir",
           "labels": {
-            "loanword": ""
+            "loanword": "galicismo"
           },
           "audioSlug": "terroir"
         }
       ],
-      "conceptId": "es.terroir"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "gastronomy",
@@ -492,7 +618,13 @@
       "gloss_example": {
         "en": "The city has become a center of gastronomy, attracting chefs from around the world."
       },
-      "conceptId": "es.gastronomy"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "oenology",
@@ -513,7 +645,13 @@
       "gloss_example": {
         "en": "She studied oenology in Bordeaux before joining a winery in the Napa Valley."
       },
-      "conceptId": "es.oenology"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "mouthfeel",
@@ -550,7 +688,13 @@
           "audioSlug": "sensacion_en_boca"
         }
       ],
-      "conceptId": "es.mouthfeel"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "beer",
@@ -571,7 +715,13 @@
       "gloss_example": {
         "en": "He ordered a cold beer."
       },
-      "conceptId": "es.beer"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "tomato",
@@ -592,7 +742,13 @@
       "gloss_example": {
         "en": "This sauce is made with fresh tomatoes."
       },
-      "conceptId": "es.tomato"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bar",
@@ -613,7 +769,13 @@
       "gloss_example": {
         "en": "We met some friends at the bar."
       },
-      "conceptId": "es.bar"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "sweet_candy",
@@ -634,7 +796,13 @@
       "gloss_example": {
         "en": "The children asked for sweets."
       },
-      "conceptId": "es.sweet_candy"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "alimento",
@@ -655,7 +823,13 @@
       "gloss_example": {
         "en": "Fruit is a healthy food."
       },
-      "conceptId": "es.alimento"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "beber",
@@ -676,7 +850,13 @@
       "gloss_example": {
         "en": "It is good to drink a lot of water."
       },
-      "conceptId": "es.beber"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cena",
@@ -697,7 +877,13 @@
       "gloss_example": {
         "en": "Dinner is ready."
       },
-      "conceptId": "es.cena"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "desayuno",
@@ -718,7 +904,13 @@
       "gloss_example": {
         "en": "Breakfast is included."
       },
-      "conceptId": "es.desayuno"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "vino",
@@ -739,7 +931,13 @@
       "gloss_example": {
         "en": "A glass of red wine."
       },
-      "conceptId": "es.vino"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "restaurant_place",
@@ -760,7 +958,13 @@
       "gloss_example": {
         "en": "We had dinner at an Italian restaurant downtown."
       },
-      "conceptId": "es.restaurant_place"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "soup",
@@ -781,7 +985,13 @@
       "gloss_example": {
         "en": "In winter I like to have hot soup."
       },
-      "conceptId": "es.soup"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "salad",
@@ -802,7 +1012,13 @@
       "gloss_example": {
         "en": "I ordered a tomato and lettuce salad."
       },
-      "conceptId": "es.salad"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "dessert",
@@ -823,7 +1039,13 @@
       "gloss_example": {
         "en": "For dessert there is ice cream or fruit."
       },
-      "conceptId": "es.dessert"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "burger",
@@ -844,7 +1066,13 @@
       "gloss_example": {
         "en": "The child ordered a burger with fries."
       },
-      "conceptId": "es.burger"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "filled_roll",
@@ -865,7 +1093,13 @@
       "gloss_example": {
         "en": "For breakfast I had a cheese roll."
       },
-      "conceptId": "es.filled_roll"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "omelette",
@@ -886,7 +1120,13 @@
       "gloss_example": {
         "en": "My mother makes a delicious potato omelette."
       },
-      "conceptId": "es.omelette"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "steak_fillet",
@@ -907,7 +1147,13 @@
       "gloss_example": {
         "en": "I ordered a fillet with fries."
       },
-      "conceptId": "es.steak_fillet"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "paella_dish",
@@ -928,7 +1174,13 @@
       "gloss_example": {
         "en": "On Sunday we had a huge paella with the family."
       },
-      "conceptId": "es.paella_dish"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cream_food",
@@ -949,7 +1201,13 @@
       "gloss_example": {
         "en": "For dessert we ordered a chocolate cream."
       },
-      "conceptId": "es.cream_food"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "champagne",
@@ -970,7 +1228,13 @@
       "gloss_example": {
         "en": "We opened a bottle of champagne at the party."
       },
-      "conceptId": "es.champagne"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "pasta",
@@ -991,7 +1255,13 @@
       "gloss_example": {
         "en": "For the first course I had pasta with tomato sauce."
       },
-      "conceptId": "es.pasta"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "rum",
@@ -1012,7 +1282,13 @@
       "gloss_example": {
         "en": "They made a cocktail with rum and lime."
       },
-      "conceptId": "es.rum"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "gin",
@@ -1033,7 +1309,13 @@
       "gloss_example": {
         "en": "She ordered a gin with tonic water."
       },
-      "conceptId": "es.gin"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "red_wine",
@@ -1070,7 +1352,13 @@
           "audioSlug": "vino_tinto"
         }
       ],
-      "conceptId": "es.red_wine"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "tapa_snack",
@@ -1091,7 +1379,13 @@
       "gloss_example": {
         "en": "We ordered some tapas to share."
       },
-      "conceptId": "es.tapa_snack"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

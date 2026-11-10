@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "85",
+  "concepts": {
+    "en.accountability_have_the_contracts_with_the_suppliers": {
+      "conceptId": "en.accountability_have_the_contracts_with_the_suppliers",
+      "id": "accountability_have_the_contracts_with_the_suppliers",
+      "target": [
+        {
+          "text": "Have the contracts with the suppliers been signed?",
+          "audioSlug": "have_the_contracts_with_the_suppliers_been_signed"
+        }
+      ]
+    },
+    "en.animales_cats_sleep_most_day": {
+      "conceptId": "en.animales_cats_sleep_most_day",
+      "id": "animales_cats_sleep_most_day",
+      "target": [
+        {
+          "text": "Cats sleep most of the day.",
+          "audioSlug": "cats_sleep_most_of_the_day"
+        }
+      ]
+    },
+    "en.kitchen_do_we_have_vanilla_extract_for": {
+      "conceptId": "en.kitchen_do_we_have_vanilla_extract_for",
+      "id": "kitchen_do_we_have_vanilla_extract_for",
+      "target": [
+        {
+          "text": "Do we have vanilla extract for the cake?",
+          "audioSlug": "do_we_have_vanilla_extract_for_the_cake"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_if_studied_would_be": {
+      "conceptId": "en.pensamientos_opiniones_if_studied_would_be",
+      "id": "pensamientos_opiniones_if_studied_would_be",
+      "target": [
+        {
+          "text": "If I had studied more, I would be an engineer today.",
+          "audioSlug": "if_i_had_studied_more_i_would_be_an_engineer_today"
+        }
+      ]
+    },
+    "en.supermarket_i_like_to_use_the_self_checkout": {
+      "conceptId": "en.supermarket_i_like_to_use_the_self_checkout",
+      "id": "supermarket_i_like_to_use_the_self_checkout",
+      "target": [
+        {
+          "text": "I like to use the self-checkout.",
+          "audioSlug": "i_like_to_use_the_self_checkout"
+        }
+      ]
+    }
+  }
+}

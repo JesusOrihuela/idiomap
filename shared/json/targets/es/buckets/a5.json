@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "a5",
+  "concepts": {
+    "es.conversacion_vivo_en_una_comunidad_muy_tranquila": {
+      "conceptId": "es.conversacion_vivo_en_una_comunidad_muy_tranquila",
+      "id": "conversacion_vivo_en_una_comunidad_muy_tranquila",
+      "target": [
+        {
+          "text": "Vivo en una comunidad muy tranquila.",
+          "audioSlug": "vivo_en_una_comunidad_muy_tranquila"
+        }
+      ]
+    },
+    "es.deportes_entreno_todos_los_dias": {
+      "conceptId": "es.deportes_entreno_todos_los_dias",
+      "id": "deportes_entreno_todos_los_dias",
+      "target": [
+        {
+          "text": "Entreno todos los días.",
+          "audioSlug": "entreno_todos_los_dias"
+        }
+      ]
+    },
+    "es.deportes_juego_tenis_los_martes": {
+      "conceptId": "es.deportes_juego_tenis_los_martes",
+      "id": "deportes_juego_tenis_los_martes",
+      "target": [
+        {
+          "text": "Juego tenis los martes.",
+          "audioSlug": "juego_tenis_los_martes"
+        }
+      ]
+    },
+    "es.descripciones_es_un_producto_aleman": {
+      "conceptId": "es.descripciones_es_un_producto_aleman",
+      "id": "descripciones_es_un_producto_aleman",
+      "target": [
+        {
+          "text": "Es un producto alemán.",
+          "audioSlug": "es_un_producto_aleman"
+        }
+      ]
+    },
+    "es.descripciones_su_voz_es_parecida_a_la_tuya": {
+      "conceptId": "es.descripciones_su_voz_es_parecida_a_la_tuya",
+      "id": "descripciones_su_voz_es_parecida_a_la_tuya",
+      "target": [
+        {
+          "text": "Su voz es parecida a la tuya.",
+          "audioSlug": "su_voz_es_parecida_a_la_tuya"
+        }
+      ]
+    },
+    "es.directions_vivo_por_alla_cerca_del_rio": {
+      "conceptId": "es.directions_vivo_por_alla_cerca_del_rio",
+      "id": "directions_vivo_por_alla_cerca_del_rio",
+      "target": [
+        {
+          "text": "Vivo por allá, cerca del río.",
+          "audioSlug": "vivo_por_alla_cerca_del_rio"
+        }
+      ]
+    },
+    "es.family_mi_hija_es_la_menor": {
+      "conceptId": "es.family_mi_hija_es_la_menor",
+      "id": "family_mi_hija_es_la_menor",
+      "target": [
+        {
+          "text": "Mi hija es la menor de la familia.",
+          "audioSlug": "mi_hija_es_la_menor_de_la_familia"
+        }
+      ]
+    },
+    "es.family_my_mother_is_a_doctor": {
+      "conceptId": "es.family_my_mother_is_a_doctor",
+      "id": "family_my_mother_is_a_doctor",
+      "target": [
+        {
+          "text": "Mi madre es médica.",
+          "audioSlug": "mi_madre_es_medica"
+        }
+      ]
+    },
+    "es.hogar_el_bano_esta_al_final_del_pasillo": {
+      "conceptId": "es.hogar_el_bano_esta_al_final_del_pasillo",
+      "id": "hogar_el_bano_esta_al_final_del_pasillo",
+      "target": [
+        {
+          "text": "El baño está al final del pasillo.",
+          "audioSlug": "el_bano_esta_al_final_del_pasillo"
+        }
+      ]
+    },
+    "es.kitchen_voy_a_freir_unos_huevos": {
+      "conceptId": "es.kitchen_voy_a_freir_unos_huevos",
+      "id": "kitchen_voy_a_freir_unos_huevos",
+      "target": [
+        {
+          "text": "Voy a freír unos huevos.",
+          "audioSlug": "voy_a_freir_unos_huevos"
+        }
+      ]
+    },
+    "es.personal_info_what_do_you_do": {
+      "conceptId": "es.personal_info_what_do_you_do",
+      "id": "personal_info_what_do_you_do",
+      "target": [
+        {
+          "text": "¿A qué te dedicas?",
+          "audioSlug": "a_que_te_dedicas",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿A qué se dedica?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "a_que_se_dedica"
+        }
+      ]
+    },
+    "es.supermarket_dont_forget_to_buy_fruits_and": {
+      "conceptId": "es.supermarket_dont_forget_to_buy_fruits_and",
+      "id": "supermarket_dont_forget_to_buy_fruits_and",
+      "target": [
+        {
+          "text": "¡No olvides comprar frutas y verduras!",
+          "audioSlug": "no_olvides_comprar_frutas_y_verduras"
+        }
+      ]
+    },
+    "es.technology_i_need_a_new_usb_cable": {
+      "conceptId": "es.technology_i_need_a_new_usb_cable",
+      "id": "technology_i_need_a_new_usb_cable",
+      "target": [
+        {
+          "text": "Necesito un nuevo cable USB.",
+          "audioSlug": "necesito_un_nuevo_cable_usb"
+        }
+      ]
+    },
+    "es.theater_opera_surprised": {
+      "conceptId": "es.theater_opera_surprised",
+      "id": "theater_opera_surprised",
+      "target": [
+        {
+          "text": "No pensé que la ópera me gustaría tanto.",
+          "audioSlug": "no_pense_que_la_opera_me_gustaria_tanto"
+        }
+      ]
+    },
+    "es.transportation_call_cab_station": {
+      "conceptId": "es.transportation_call_cab_station",
+      "id": "transportation_call_cab_station",
+      "target": [
+        {
+          "text": "¿Podría llamarme un taxi para salir en veinte minutos?",
+          "audioSlug": "podria_llamarme_un_taxi_para_salir_en_veinte_minutos"
+        }
+      ]
+    },
+    "es.transportation_does_this_bus_go": {
+      "conceptId": "es.transportation_does_this_bus_go",
+      "id": "transportation_does_this_bus_go",
+      "target": [
+        {
+          "text": "¿Este autobús va al centro?",
+          "audioSlug": "este_autobus_va_al_centro"
+        }
+      ]
+    }
+  }
+}

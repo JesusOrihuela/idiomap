@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "b1",
+  "concepts": {
+    "es.conversacion_claro_que_puedo_ayudarte": {
+      "conceptId": "es.conversacion_claro_que_puedo_ayudarte",
+      "id": "conversacion_claro_que_puedo_ayudarte",
+      "target": [
+        {
+          "text": "Claro que puedo ayudarte.",
+          "audioSlug": "claro_que_puedo_ayudarte"
+        }
+      ]
+    },
+    "es.describiendo_personas_es_pobre": {
+      "conceptId": "es.describiendo_personas_es_pobre",
+      "id": "describiendo_personas_es_pobre",
+      "target": [
+        {
+          "text": "Es pobre.",
+          "audioSlug": "es_pobre"
+        }
+      ]
+    },
+    "es.describiendo_personas_mi_abuela_quedo_viuda": {
+      "conceptId": "es.describiendo_personas_mi_abuela_quedo_viuda",
+      "id": "describiendo_personas_mi_abuela_quedo_viuda",
+      "target": [
+        {
+          "text": "Mi abuela quedó viuda.",
+          "audioSlug": "mi_abuela_quedo_viuda"
+        }
+      ]
+    },
+    "es.greetings_como_te_va": {
+      "conceptId": "es.greetings_como_te_va",
+      "id": "greetings_como_te_va",
+      "target": [
+        {
+          "text": "¿Cómo te va?",
+          "audioSlug": "como_te_va",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cómo le va?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "como_le_va"
+        }
+      ]
+    },
+    "es.health_i_feel_dizzy": {
+      "conceptId": "es.health_i_feel_dizzy",
+      "id": "health_i_feel_dizzy",
+      "target": [
+        {
+          "text": "Estoy mareada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_mareada"
+        },
+        {
+          "text": "Estoy mareado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_mareado"
+        }
+      ]
+    },
+    "es.health_me_duele_un_diente": {
+      "conceptId": "es.health_me_duele_un_diente",
+      "id": "health_me_duele_un_diente",
+      "target": [
+        {
+          "text": "Me duele un diente.",
+          "audioSlug": "me_duele_un_diente"
+        }
+      ]
+    },
+    "es.kitchen_me_pasas_la_sal": {
+      "conceptId": "es.kitchen_me_pasas_la_sal",
+      "id": "kitchen_me_pasas_la_sal",
+      "target": [
+        {
+          "text": "¿Me pasas la sal?",
+          "audioSlug": "me_pasas_la_sal"
+        }
+      ]
+    },
+    "es.restaurant_de_postre_un_helado_de_chocolate": {
+      "conceptId": "es.restaurant_de_postre_un_helado_de_chocolate",
+      "id": "restaurant_de_postre_un_helado_de_chocolate",
+      "target": [
+        {
+          "text": "De postre pedimos un helado de chocolate.",
+          "audioSlug": "de_postre_pedimos_un_helado_de_chocolate"
+        }
+      ]
+    },
+    "es.restaurant_la_mesa_ya_esta_reservada": {
+      "conceptId": "es.restaurant_la_mesa_ya_esta_reservada",
+      "id": "restaurant_la_mesa_ya_esta_reservada",
+      "target": [
+        {
+          "text": "La mesa ya está reservada.",
+          "audioSlug": "la_mesa_ya_esta_reservada"
+        }
+      ]
+    }
+  }
+}

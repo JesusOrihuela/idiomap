@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "0e",
+  "concepts": {
+    "es.accountability_the_financial_reports_have_been_reviewed": {
+      "conceptId": "es.accountability_the_financial_reports_have_been_reviewed",
+      "id": "accountability_the_financial_reports_have_been_reviewed",
+      "target": [
+        {
+          "text": "Se han revisado los informes financieros.",
+          "audioSlug": "se_han_revisado_los_informes_financieros"
+        }
+      ]
+    },
+    "es.calendario_ya_son_las_tres_y_media": {
+      "conceptId": "es.calendario_ya_son_las_tres_y_media",
+      "id": "calendario_ya_son_las_tres_y_media",
+      "target": [
+        {
+          "text": "Ya son las tres y media.",
+          "audioSlug": "ya_son_las_tres_y_media"
+        }
+      ]
+    },
+    "es.conversacion_agradezco_tu_interes": {
+      "conceptId": "es.conversacion_agradezco_tu_interes",
+      "id": "conversacion_agradezco_tu_interes",
+      "target": [
+        {
+          "text": "Agradezco tu interés.",
+          "audioSlug": "agradezco_tu_interes",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Agradezco su interés.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "agradezco_su_interes"
+        }
+      ]
+    },
+    "es.conversacion_i_want_to_ask_something": {
+      "conceptId": "es.conversacion_i_want_to_ask_something",
+      "id": "conversacion_i_want_to_ask_something",
+      "target": [
+        {
+          "text": "Quiero preguntar algo.",
+          "audioSlug": "quiero_preguntar_algo"
+        }
+      ]
+    },
+    "es.daily_routine_lunch_at_one": {
+      "conceptId": "es.daily_routine_lunch_at_one",
+      "id": "daily_routine_lunch_at_one",
+      "target": [
+        {
+          "text": "Almuerzo a la una.",
+          "audioSlug": "almuerzo_a_la_una"
+        }
+      ]
+    },
+    "es.descripciones_estoy_lista": {
+      "conceptId": "es.descripciones_estoy_lista",
+      "id": "descripciones_estoy_lista",
+      "target": [
+        {
+          "text": "Estoy lista.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_lista"
+        },
+        {
+          "text": "Estoy listo.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_listo"
+        }
+      ]
+    },
+    "es.economia_el_banco_me_ofrecio_un_prestamo": {
+      "conceptId": "es.economia_el_banco_me_ofrecio_un_prestamo",
+      "id": "economia_el_banco_me_ofrecio_un_prestamo",
+      "target": [
+        {
+          "text": "El banco me ofreció un préstamo.",
+          "audioSlug": "el_banco_me_ofrecio_un_prestamo"
+        }
+      ]
+    },
+    "es.fiesta_quiero_jugar": {
+      "conceptId": "es.fiesta_quiero_jugar",
+      "id": "fiesta_quiero_jugar",
+      "target": [
+        {
+          "text": "Quiero jugar.",
+          "audioSlug": "quiero_jugar"
+        }
+      ]
+    },
+    "es.gym_strength_imbalance_dominant_side": {
+      "conceptId": "es.gym_strength_imbalance_dominant_side",
+      "id": "gym_strength_imbalance_dominant_side",
+      "target": [
+        {
+          "text": "Estoy tratando de corregir un desequilibrio de fuerza entre mi lado dominante y el no dominante.",
+          "audioSlug": "estoy_tratando_de_corregir_un_desequilibrio_de_fuerza_entre_mi_lado_dominante_y_el_no_dominante"
+        }
+      ]
+    },
+    "es.hogar_en_invierno_enciendo_la_calefaccion": {
+      "conceptId": "es.hogar_en_invierno_enciendo_la_calefaccion",
+      "id": "hogar_en_invierno_enciendo_la_calefaccion",
+      "target": [
+        {
+          "text": "En invierno enciendo la calefacción.",
+          "audioSlug": "en_invierno_enciendo_la_calefaccion"
+        }
+      ]
+    },
+    "es.movies_binge_watching_cant_stop": {
+      "conceptId": "es.movies_binge_watching_cant_stop",
+      "id": "movies_binge_watching_cant_stop",
+      "target": [
+        {
+          "text": "Llevo toda la semana viendo esta serie y simplemente no puedo parar.",
+          "audioSlug": "llevo_toda_la_semana_viendo_esta_serie_y_simplemente_no_puedo_parar"
+        }
+      ]
+    },
+    "es.profesiones_ella_es_vendedora": {
+      "conceptId": "es.profesiones_ella_es_vendedora",
+      "id": "profesiones_ella_es_vendedora",
+      "target": [
+        {
+          "text": "Ella es vendedora en una tienda.",
+          "audioSlug": "ella_es_vendedora_en_una_tienda"
+        }
+      ]
+    },
+    "es.restaurant_el_queso_esta_delicioso": {
+      "conceptId": "es.restaurant_el_queso_esta_delicioso",
+      "id": "restaurant_el_queso_esta_delicioso",
+      "target": [
+        {
+          "text": "El queso está delicioso.",
+          "audioSlug": "el_queso_esta_delicioso"
+        }
+      ]
+    },
+    "es.restaurant_la_carne_esta_muy_tierna": {
+      "conceptId": "es.restaurant_la_carne_esta_muy_tierna",
+      "id": "restaurant_la_carne_esta_muy_tierna",
+      "target": [
+        {
+          "text": "La carne está muy tierna.",
+          "audioSlug": "la_carne_esta_muy_tierna"
+        }
+      ]
+    },
+    "es.supermarket_do_you_have_almond_milk": {
+      "conceptId": "es.supermarket_do_you_have_almond_milk",
+      "id": "supermarket_do_you_have_almond_milk",
+      "target": [
+        {
+          "text": "¿Tienen leche de almendras?",
+          "audioSlug": "tienen_leche_de_almendras"
+        }
+      ]
+    },
+    "es.technology_i_enabled_twofactor_authentication_on": {
+      "conceptId": "es.technology_i_enabled_twofactor_authentication_on",
+      "id": "technology_i_enabled_twofactor_authentication_on",
+      "target": [
+        {
+          "text": "Activé la autenticación de dos factores en todas mis cuentas después de la filtración.",
+          "audioSlug": "active_la_autenticacion_de_dos_factores_en_todas_mis_cuentas_despues_de_la_filtracion"
+        }
+      ]
+    },
+    "es.theater_outdoor_atmosphere_different": {
+      "conceptId": "es.theater_outdoor_atmosphere_different",
+      "id": "theater_outdoor_atmosphere_different",
+      "target": [
+        {
+          "text": "Ver una obra al aire libre tiene algo especial, la atmósfera es completamente diferente.",
+          "audioSlug": "ver_una_obra_al_aire_libre_tiene_algo_especial_la_atmosfera_es_completamente_diferente"
+        }
+      ]
+    },
+    "es.tiempo_libre_los_ninos_se_van_a_divertir_en_la_feria": {
+      "conceptId": "es.tiempo_libre_los_ninos_se_van_a_divertir_en_la_feria",
+      "id": "tiempo_libre_los_ninos_se_van_a_divertir_en_la_feria",
+      "target": [
+        {
+          "text": "Los niños se van a divertir en la feria.",
+          "audioSlug": "los_ninos_se_van_a_divertir_en_la_feria"
+        }
+      ]
+    }
+  }
+}

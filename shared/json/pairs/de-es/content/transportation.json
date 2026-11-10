@@ -1,30 +1,306 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "transportation",
-  "conceptIds": [
-    "es.transportation_where_is_the_bus_stop",
-    "es.transportation_i_want_to_rent_a_car",
-    "es.transportation_i_want_to_buy_a_ticket",
-    "es.transportation_when_does_the_next_train_leave",
-    "es.transportation_i_take_a_taxi",
-    "es.transportation_does_this_bus_go_downtown",
-    "es.transportation_the_train_is_delayed",
-    "es.transportation_how_much_is_the_fare",
-    "es.transportation_tengo_que_subir_al_tren",
-    "es.transportation_baja_en_la_proxima_parada",
-    "es.transportation_el_autobus_tarda_diez_minutos",
-    "es.transportation_cual_es_la_mejor_forma_de_llegar",
-    "es.transportation_necesito_un_mapa_de_la_ciudad",
-    "es.transportation_el_viaje_en_tren_es_comodo",
-    "es.transportation_los_domingos_hay_menos_gente",
-    "es.transportation_este_tren_para_en_todas_las_estaciones",
-    "es.transportation_hay_que_conducir_con_mucho_cuidado",
-    "es.transportation_este_es_un_buen_sitio_para_aparcar",
-    "es.transportation_voy_al_trabajo_en_moto",
-    "es.transportation_el_transporte_publico_es_barato_aqui",
-    "es.transportation_la_rueda_de_la_bici_esta_pinchada",
-    "es.transportation_el_taxista_conoce_bien_la_ciudad",
-    "es.transportation_el_mecanico_revisa_el_motor"
+  "phrases": [
+    {
+      "conceptId": "es.transportation_where_is_the_bus_stop",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.578319a4206fdd8f"
+    },
+    {
+      "conceptId": "es.transportation_i_want_to_rent_a_car",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.06fa5c70b4b8cec4"
+    },
+    {
+      "conceptId": "es.transportation_i_want_to_buy_a_ticket",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.07033c8cd558bdf4"
+    },
+    {
+      "conceptId": "es.transportation_when_does_the_next_train_leave",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1129ff0d3e4e194f"
+    },
+    {
+      "conceptId": "es.transportation_i_take_a_taxi",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.923f826bd0e98994"
+    },
+    {
+      "conceptId": "es.transportation_does_this_bus_go_downtown",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.947d02f4bc2e3908"
+    },
+    {
+      "conceptId": "es.transportation_the_train_is_delayed",
+      "level": "A2",
+      "grammar": "Un estado del momento usa estar, está retrasado.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3f5440f30dbe5f5c"
+    },
+    {
+      "conceptId": "es.transportation_how_much_is_the_fare",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bb992baba50b384d"
+    },
+    {
+      "conceptId": "es.transportation_tengo_que_subir_al_tren",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7e608ffb9d992a80"
+    },
+    {
+      "conceptId": "es.transportation_baja_en_la_proxima_parada",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.089d1ff25cc45589"
+    },
+    {
+      "conceptId": "es.transportation_el_autobus_tarda_diez_minutos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8e97d7650fcca8f7"
+    },
+    {
+      "conceptId": "es.transportation_cual_es_la_mejor_forma_de_llegar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.41ed47ae1ab9fa24"
+    },
+    {
+      "conceptId": "es.transportation_necesito_un_mapa_de_la_ciudad",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a76a055d9a017990"
+    },
+    {
+      "conceptId": "es.transportation_el_viaje_en_tren_es_comodo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a28ea969c9d55ef7"
+    },
+    {
+      "conceptId": "es.transportation_los_domingos_hay_menos_gente",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8386b6340a7978fb"
+    },
+    {
+      "conceptId": "es.transportation_este_tren_para_en_todas_las_estaciones",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.00d2eb2343fbf450"
+    },
+    {
+      "conceptId": "es.transportation_hay_que_conducir_con_mucho_cuidado",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.af91255b8188f50c"
+    },
+    {
+      "conceptId": "es.transportation_este_es_un_buen_sitio_para_aparcar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.75984babb85318c9"
+    },
+    {
+      "conceptId": "es.transportation_voy_al_trabajo_en_moto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.af15e62201f4718f"
+    },
+    {
+      "conceptId": "es.transportation_el_transporte_publico_es_barato_aqui",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8e16a453e86908d0"
+    },
+    {
+      "conceptId": "es.transportation_la_rueda_de_la_bici_esta_pinchada",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d18e2b490528f801"
+    },
+    {
+      "conceptId": "es.transportation_el_taxista_conoce_bien_la_ciudad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4f5942aa500e0423"
+    },
+    {
+      "conceptId": "es.transportation_el_mecanico_revisa_el_motor",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1a6d5101b893433d"
+    }
   ]
 }

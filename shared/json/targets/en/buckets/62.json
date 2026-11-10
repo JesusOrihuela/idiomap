@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "62",
+  "concepts": {
+    "en.airport_carryon_size_limit": {
+      "conceptId": "en.airport_carryon_size_limit",
+      "id": "airport_carryon_size_limit",
+      "target": [
+        {
+          "text": "Carry-on luggage must be a specific size.",
+          "audioSlug": "carry_on_luggage_must_be_a_specific_size"
+        }
+      ]
+    }
+  }
+}

@@ -17,7 +17,13 @@
       "gloss_example": {
         "es": "Chrome y Firefox son los navegadores web más populares."
       },
-      "conceptId": "en.browser"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "search",
@@ -36,7 +42,13 @@
       "gloss_example": {
         "es": "Buscó una receta en internet."
       },
-      "conceptId": "en.search"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "network",
@@ -55,7 +67,13 @@
       "gloss_example": {
         "es": "La red de la oficina estuvo caída toda la mañana."
       },
-      "conceptId": "en.network"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "link",
@@ -74,7 +92,13 @@
       "gloss_example": {
         "es": "Haz clic en el enlace para abrir el artículo."
       },
-      "conceptId": "en.link"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "site",
@@ -93,7 +117,13 @@
       "gloss_example": {
         "es": "El sitio web carga rápido en mi teléfono."
       },
-      "conceptId": "en.site"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "wireless",
@@ -112,7 +142,13 @@
       "gloss_example": {
         "es": "El hotel ofrece internet inalámbrico gratuito en todo el edificio."
       },
-      "conceptId": "en.wireless"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "upload",
@@ -131,7 +167,13 @@
       "gloss_example": {
         "es": "Necesito subir el documento a la carpeta compartida."
       },
-      "conceptId": "en.upload"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "download",
@@ -150,7 +192,13 @@
       "gloss_example": {
         "es": "Puedes descargar la aplicación gratis desde la tienda."
       },
-      "conceptId": "en.download"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bandwidth",
@@ -169,7 +217,13 @@
       "gloss_example": {
         "es": "Ver videos en 4K en línea requiere mucho ancho de banda."
       },
-      "conceptId": "en.bandwidth"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "latency",
@@ -188,7 +242,13 @@
       "gloss_example": {
         "es": "Una latencia alta hace que las videollamadas se sientan lentas y poco naturales."
       },
-      "conceptId": "en.latency"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

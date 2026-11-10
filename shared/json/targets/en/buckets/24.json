@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "24",
+  "concepts": {
+    "en.descripciones_the_box_is_light": {
+      "conceptId": "en.descripciones_the_box_is_light",
+      "id": "descripciones_the_box_is_light",
+      "target": [
+        {
+          "text": "The box is light.",
+          "audioSlug": "the_box_is_light"
+        }
+      ]
+    },
+    "en.economia_it_is_important_to_consider_the_new_market_trends": {
+      "conceptId": "en.economia_it_is_important_to_consider_the_new_market_trends",
+      "id": "economia_it_is_important_to_consider_the_new_market_trends",
+      "target": [
+        {
+          "text": "It is important to consider the new market trends.",
+          "audioSlug": "it_is_important_to_consider_the_new_market_trends"
+        }
+      ]
+    },
+    "en.greetings_see_you_tomorrow": {
+      "conceptId": "en.greetings_see_you_tomorrow",
+      "id": "greetings_see_you_tomorrow",
+      "target": [
+        {
+          "text": "See you tomorrow!",
+          "audioSlug": "see_you_tomorrow"
+        }
+      ]
+    },
+    "en.gym_rpe_scale_autoregulation": {
+      "conceptId": "en.gym_rpe_scale_autoregulation",
+      "id": "gym_rpe_scale_autoregulation",
+      "target": [
+        {
+          "text": "I've switched to the RPE scale to autoregulate intensity based on my actual recovery.",
+          "audioSlug": "i_ve_switched_to_the_rpe_scale_to_autoregulate_intensity_based_on_my_actual_recovery"
+        }
+      ]
+    },
+    "en.technology_i_forgot_my_password": {
+      "conceptId": "en.technology_i_forgot_my_password",
+      "id": "technology_i_forgot_my_password",
+      "target": [
+        {
+          "text": "I forgot my password.",
+          "audioSlug": "i_forgot_my_password"
+        }
+      ]
+    },
+    "en.technology_we_need_to_buy_more_ink": {
+      "conceptId": "en.technology_we_need_to_buy_more_ink",
+      "id": "technology_we_need_to_buy_more_ink",
+      "target": [
+        {
+          "text": "We need to buy more ink for the printer.",
+          "audioSlug": "we_need_to_buy_more_ink_for_the_printer"
+        }
+      ]
+    }
+  }
+}

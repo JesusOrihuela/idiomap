@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "ab",
+  "concepts": {
+    "es.airport_aisle_seat": {
+      "conceptId": "es.airport_aisle_seat",
+      "id": "airport_aisle_seat",
+      "target": [
+        {
+          "text": "Quisiera un asiento de pasillo, por favor.",
+          "audioSlug": "quisiera_un_asiento_de_pasillo_por_favor"
+        }
+      ]
+    },
+    "es.airport_el_vuelo_se_cancelo_por_el_mal_tiempo": {
+      "conceptId": "es.airport_el_vuelo_se_cancelo_por_el_mal_tiempo",
+      "id": "airport_el_vuelo_se_cancelo_por_el_mal_tiempo",
+      "target": [
+        {
+          "text": "El vuelo se canceló por el mal tiempo.",
+          "audioSlug": "el_vuelo_se_cancelo_por_el_mal_tiempo"
+        }
+      ]
+    },
+    "es.cuerpo_el_corazon_bombea_sangre": {
+      "conceptId": "es.cuerpo_el_corazon_bombea_sangre",
+      "id": "cuerpo_el_corazon_bombea_sangre",
+      "target": [
+        {
+          "text": "El corazón bombea sangre.",
+          "audioSlug": "el_corazon_bombea_sangre"
+        }
+      ]
+    },
+    "es.family_mi_nieta_vive_muy_lejos": {
+      "conceptId": "es.family_mi_nieta_vive_muy_lejos",
+      "id": "family_mi_nieta_vive_muy_lejos",
+      "target": [
+        {
+          "text": "Mi nieta vive muy lejos.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Meine Enkelin wohnt sehr weit weg.",
+          "audioSlug": "mi_nieta_vive_muy_lejos"
+        },
+        {
+          "text": "Mi nieto vive muy lejos.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Mein Enkel wohnt sehr weit weg.",
+          "audioSlug": "mi_nieto_vive_muy_lejos"
+        }
+      ]
+    },
+    "es.greetings_y_tu_como_estas": {
+      "conceptId": "es.greetings_y_tu_como_estas",
+      "id": "greetings_y_tu_como_estas",
+      "target": [
+        {
+          "text": "Y tú, ¿cómo estás?",
+          "audioSlug": "y_tu_como_estas",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Y usted, ¿cómo está?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "y_usted_como_esta"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_ser_humano_depende_de_la_naturaleza": {
+      "conceptId": "es.naturaleza_lugares_el_ser_humano_depende_de_la_naturaleza",
+      "id": "naturaleza_lugares_el_ser_humano_depende_de_la_naturaleza",
+      "target": [
+        {
+          "text": "El ser humano depende de la naturaleza.",
+          "audioSlug": "el_ser_humano_depende_de_la_naturaleza"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_la_vida_social_es_importante": {
+      "conceptId": "es.pensamientos_opiniones_la_vida_social_es_importante",
+      "id": "pensamientos_opiniones_la_vida_social_es_importante",
+      "target": [
+        {
+          "text": "La vida social es importante para mí.",
+          "audioSlug": "la_vida_social_es_importante_para_mi"
+        }
+      ]
+    },
+    "es.personal_info_el_bombero_apaga_el_fuego": {
+      "conceptId": "es.personal_info_el_bombero_apaga_el_fuego",
+      "id": "personal_info_el_bombero_apaga_el_fuego",
+      "target": [
+        {
+          "text": "La bombera apaga el fuego.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Feuerwehrfrau löscht das Feuer.",
+          "audioSlug": "la_bombera_apaga_el_fuego"
+        },
+        {
+          "text": "El bombero apaga el fuego.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Feuerwehrmann löscht das Feuer.",
+          "audioSlug": "el_bombero_apaga_el_fuego"
+        }
+      ]
+    },
+    "es.restaurant_es_un_plato_sano": {
+      "conceptId": "es.restaurant_es_un_plato_sano",
+      "id": "restaurant_es_un_plato_sano",
+      "target": [
+        {
+          "text": "Es un plato sano.",
+          "audioSlug": "es_un_plato_sano"
+        }
+      ]
+    },
+    "es.restaurant_personalized_dessert_occasion": {
+      "conceptId": "es.restaurant_personalized_dessert_occasion",
+      "id": "restaurant_personalized_dessert_occasion",
+      "target": [
+        {
+          "text": "Estamos celebrando una ocasión especial, ¿podrían preparar un postre personalizado?",
+          "audioSlug": "estamos_celebrando_una_ocasion_especial_podrian_preparar_un_postre_personalizado"
+        }
+      ]
+    },
+    "es.supermarket_el_yogur_esta_en_el_refrigerador": {
+      "conceptId": "es.supermarket_el_yogur_esta_en_el_refrigerador",
+      "id": "supermarket_el_yogur_esta_en_el_refrigerador",
+      "target": [
+        {
+          "text": "El yogur está en el refrigerador.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "el_yogur_esta_en_el_refrigerador"
+        },
+        {
+          "text": "El yogur está en el frigorífico.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "el_yogur_esta_en_el_frigorifico"
+        },
+        {
+          "text": "El yogur está en la heladera.",
+          "labels": {
+            "region": "Río de la Plata"
+          },
+          "audioSlug": "el_yogur_esta_en_la_heladera"
+        }
+      ]
+    },
+    "es.supermarket_store_brand_less_expensive": {
+      "conceptId": "es.supermarket_store_brand_less_expensive",
+      "id": "supermarket_store_brand_less_expensive",
+      "target": [
+        {
+          "text": "¿Hay una opción de marca propia que sea más económica?",
+          "audioSlug": "hay_una_opcion_de_marca_propia_que_sea_mas_economica"
+        }
+      ]
+    },
+    "es.supermarket_where_is_the_checkout": {
+      "conceptId": "es.supermarket_where_is_the_checkout",
+      "id": "supermarket_where_is_the_checkout",
+      "target": [
+        {
+          "text": "¿Dónde está la caja?",
+          "audioSlug": "donde_esta_la_caja"
+        }
+      ]
+    }
+  }
+}

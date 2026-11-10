@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "38",
+  "concepts": {
+    "en.airport_which_gate": {
+      "conceptId": "en.airport_which_gate",
+      "id": "airport_which_gate",
+      "target": [
+        {
+          "text": "Which gate does my flight leave from?",
+          "audioSlug": "which_gate_does_my_flight_leave_from"
+        }
+      ]
+    },
+    "en.calendario_my_birthday_is_in_march": {
+      "conceptId": "en.calendario_my_birthday_is_in_march",
+      "id": "calendario_my_birthday_is_in_march",
+      "target": [
+        {
+          "text": "My birthday is in March.",
+          "audioSlug": "my_birthday_is_in_march"
+        }
+      ]
+    },
+    "en.calendario_the_meeting_is_on_tuesday": {
+      "conceptId": "en.calendario_the_meeting_is_on_tuesday",
+      "id": "calendario_the_meeting_is_on_tuesday",
+      "target": [
+        {
+          "text": "The meeting is on Tuesday.",
+          "audioSlug": "the_meeting_is_on_tuesday"
+        }
+      ]
+    },
+    "en.gym_progressive_overload_adaptations": {
+      "conceptId": "en.gym_progressive_overload_adaptations",
+      "id": "gym_progressive_overload_adaptations",
+      "target": [
+        {
+          "text": "My plan uses progressive overload to keep driving adaptations.",
+          "audioSlug": "my_plan_uses_progressive_overload_to_keep_driving_adaptations"
+        }
+      ]
+    },
+    "en.health_you_need_to_rest": {
+      "conceptId": "en.health_you_need_to_rest",
+      "id": "health_you_need_to_rest",
+      "target": [
+        {
+          "text": "You need to rest.",
+          "audioSlug": "you_need_to_rest"
+        }
+      ]
+    },
+    "en.museums_audio_guide": {
+      "conceptId": "en.museums_audio_guide",
+      "id": "museums_audio_guide",
+      "target": [
+        {
+          "text": "Is there an audio guide?",
+          "audioSlug": "is_there_an_audio_guide"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_we_have_an_advantage": {
+      "conceptId": "en.pensamientos_opiniones_we_have_an_advantage",
+      "id": "pensamientos_opiniones_we_have_an_advantage",
+      "target": [
+        {
+          "text": "We have an advantage.",
+          "audioSlug": "we_have_an_advantage"
+        }
+      ]
+    },
+    "en.restaurant_is_there_a_service_charge_for": {
+      "conceptId": "en.restaurant_is_there_a_service_charge_for",
+      "id": "restaurant_is_there_a_service_charge_for",
+      "target": [
+        {
+          "text": "Is there a service charge for large parties?",
+          "audioSlug": "is_there_a_service_charge_for_large_parties"
+        }
+      ]
+    },
+    "en.transportation_accessible_wheelchair_vehicle": {
+      "conceptId": "en.transportation_accessible_wheelchair_vehicle",
+      "id": "transportation_accessible_wheelchair_vehicle",
+      "target": [
+        {
+          "text": "I need to arrange accessible transport. Do you have vehicles adapted for wheelchair users?",
+          "audioSlug": "i_need_to_arrange_accessible_transport_do_you_have_vehicles_adapted_for_wheelchair_users"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "fc",
+  "concepts": {
+    "es.accountability_how_much_owe": {
+      "conceptId": "es.accountability_how_much_owe",
+      "id": "accountability_how_much_owe",
+      "target": [
+        {
+          "text": "¿Cuánto debemos?",
+          "audioSlug": "cuanto_debemos"
+        }
+      ]
+    },
+    "es.airport_donde_puedo_recoger_mi_equipaje": {
+      "conceptId": "es.airport_donde_puedo_recoger_mi_equipaje",
+      "id": "airport_donde_puedo_recoger_mi_equipaje",
+      "target": [
+        {
+          "text": "¿Dónde puedo recoger mi equipaje?",
+          "audioSlug": "donde_puedo_recoger_mi_equipaje"
+        }
+      ]
+    },
+    "es.calendario_el_plazo_termina_el_viernes": {
+      "conceptId": "es.calendario_el_plazo_termina_el_viernes",
+      "id": "calendario_el_plazo_termina_el_viernes",
+      "target": [
+        {
+          "text": "El plazo termina el viernes.",
+          "audioSlug": "el_plazo_termina_el_viernes"
+        }
+      ]
+    },
+    "es.calendario_espera_un_segundo_por_favor": {
+      "conceptId": "es.calendario_espera_un_segundo_por_favor",
+      "id": "calendario_espera_un_segundo_por_favor",
+      "target": [
+        {
+          "text": "Espera un segundo, por favor.",
+          "audioSlug": "espera_un_segundo_por_favor"
+        }
+      ]
+    },
+    "es.conversacion_hay_algo_que_pueda_hacer_por_ti": {
+      "conceptId": "es.conversacion_hay_algo_que_pueda_hacer_por_ti",
+      "id": "conversacion_hay_algo_que_pueda_hacer_por_ti",
+      "target": [
+        {
+          "text": "¿Hay algo que pueda hacer por ti?",
+          "audioSlug": "hay_algo_que_pueda_hacer_por_ti"
+        }
+      ]
+    },
+    "es.descripciones_es_un_plato_mexicano": {
+      "conceptId": "es.descripciones_es_un_plato_mexicano",
+      "id": "descripciones_es_un_plato_mexicano",
+      "target": [
+        {
+          "text": "Es un plato mexicano.",
+          "audioSlug": "es_un_plato_mexicano"
+        }
+      ]
+    },
+    "es.emociones_nunca_habia_sentido_tanto_amor": {
+      "conceptId": "es.emociones_nunca_habia_sentido_tanto_amor",
+      "id": "emociones_nunca_habia_sentido_tanto_amor",
+      "target": [
+        {
+          "text": "Nunca había sentido tanto amor.",
+          "audioSlug": "nunca_habia_sentido_tanto_amor"
+        }
+      ]
+    },
+    "es.emociones_why_are_you_stressed": {
+      "conceptId": "es.emociones_why_are_you_stressed",
+      "id": "emociones_why_are_you_stressed",
+      "target": [
+        {
+          "text": "¿Por qué estás estresado?",
+          "audioSlug": "por_que_estas_estresado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás estresada?",
+          "audioSlug": "por_que_estas_estresada",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.greetings_hi_how_are_you_holding_up": {
+      "conceptId": "es.greetings_hi_how_are_you_holding_up",
+      "id": "greetings_hi_how_are_you_holding_up",
+      "target": [
+        {
+          "text": "Hola, ¿cómo lo estás llevando?",
+          "audioSlug": "hola_como_lo_estas_llevando"
+        }
+      ]
+    },
+    "es.gym_dont_forget_to_hydrate": {
+      "conceptId": "es.gym_dont_forget_to_hydrate",
+      "id": "gym_dont_forget_to_hydrate",
+      "target": [
+        {
+          "text": "No te olvides de hidratarte.",
+          "audioSlug": "no_te_olvides_de_hidratarte"
+        }
+      ]
+    },
+    "es.planes_debo_tomar_una_decision": {
+      "conceptId": "es.planes_debo_tomar_una_decision",
+      "id": "planes_debo_tomar_una_decision",
+      "target": [
+        {
+          "text": "Debo tomar una decisión pronto.",
+          "audioSlug": "debo_tomar_una_decision_pronto"
+        }
+      ]
+    },
+    "es.restaurant_could_i_have_some_extra_sauce": {
+      "conceptId": "es.restaurant_could_i_have_some_extra_sauce",
+      "id": "restaurant_could_i_have_some_extra_sauce",
+      "target": [
+        {
+          "text": "¿Podría servirme un poco más de salsa?",
+          "audioSlug": "podria_servirme_un_poco_mas_de_salsa"
+        }
+      ]
+    },
+    "es.supermarket_nut_allergy_processed_facility": {
+      "conceptId": "es.supermarket_nut_allergy_processed_facility",
+      "id": "supermarket_nut_allergy_processed_facility",
+      "target": [
+        {
+          "text": "Tengo alergia a los frutos secos, ¿este producto se procesó con nueces?",
+          "audioSlug": "tengo_alergia_a_los_frutos_secos_este_producto_se_proceso_con_nueces"
+        }
+      ]
+    },
+    "es.vestimenta_llevo_calcetines_de_lana_en_invierno": {
+      "conceptId": "es.vestimenta_llevo_calcetines_de_lana_en_invierno",
+      "id": "vestimenta_llevo_calcetines_de_lana_en_invierno",
+      "target": [
+        {
+          "text": "Llevo calcetines de lana en invierno.",
+          "audioSlug": "llevo_calcetines_de_lana_en_invierno"
+        }
+      ]
+    }
+  }
+}

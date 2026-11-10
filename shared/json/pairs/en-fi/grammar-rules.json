@@ -100,7 +100,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [],
       "communicative_production": [
         {
@@ -109,7 +108,12 @@
           "model_translation": "I drink coffee every morning.",
           "hint": "An unbounded or uncountable object takes the partitive (-a / -ä)."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

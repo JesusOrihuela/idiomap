@@ -21,7 +21,7 @@ const files = [];
     if (e.name === 'manifest.json') continue;
     const p = path.join(d, e.name);
     if (e.isDirectory()) walk(p);
-    else if (/\.wav$/i.test(e.name)) files.push(p);
+    else if (/\.(wav|mp3|m4a)$/i.test(e.name)) files.push(p);
   }
 })(AUDIO);
 
@@ -30,7 +30,8 @@ const entries = files.sort().map((f) => {
   const parts = rel.split('/');
   const top = parts[0];
   const dir = parts[1] || '';
-  const base = path.basename(f).replace(/\.wav$/i, '');
+  const format = path.extname(f).slice(1).toLowerCase();
+  const base = path.basename(f, path.extname(f));
   const m = base.match(/^(.*)-([a-z]{2,3}_[a-z0-9]+)$/i);
   const slug = m ? m[1] : base;
   const voice = m ? m[2] : null;
@@ -42,12 +43,13 @@ const entries = files.sort().map((f) => {
     dir,
     slug,
     voice,
+    format,
     bytes: fs.statSync(f).size,
     sha256: sha(fs.readFileSync(f)),
   };
 });
 
-const out = JSON.stringify({ schemaVersion: 1, generatedBy: 'tools/build-audio-manifest.mjs', count: entries.length, files: entries }, null, 2) + '\n';
+const out = JSON.stringify({ schemaVersion: 2, generatedBy: 'tools/build-audio-manifest.mjs', count: entries.length, files: entries }, null, 2) + '\n';
 if (CHECK) {
   const cur = fs.existsSync(OUT) ? fs.readFileSync(OUT, 'utf8') : null;
   if (cur !== out) { console.error('DRIFT shared/audio/manifest.json'); process.exit(1); }

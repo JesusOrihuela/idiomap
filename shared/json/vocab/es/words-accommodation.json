@@ -19,7 +19,13 @@
       "gloss_example": {
         "en": "We stayed at a hotel near the beach for our vacation."
       },
-      "conceptId": "es.hotel"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "room",
@@ -40,7 +46,13 @@
       "gloss_example": {
         "en": "Our hotel room had a view of the sea."
       },
-      "conceptId": "es.room"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "reservation",
@@ -61,7 +73,13 @@
       "gloss_example": {
         "en": "I made a reservation for two nights at a hotel near the airport."
       },
-      "conceptId": "es.reservation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "hostel",
@@ -98,7 +116,13 @@
           "audioSlug": "albergue"
         }
       ],
-      "conceptId": "es.hostel"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "key",
@@ -135,7 +159,13 @@
           "audioSlug": "tarjeta_llave"
         }
       ],
-      "conceptId": "es.key"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "checkout",
@@ -156,7 +186,13 @@
       "gloss_example": {
         "en": "Checkout is at noon. Please return your key to reception before then."
       },
-      "conceptId": "es.checkout"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "reception",
@@ -177,7 +213,13 @@
       "gloss_example": {
         "en": "Go to reception if you need extra towels or a wake-up call."
       },
-      "conceptId": "es.reception"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "balcony",
@@ -198,7 +240,13 @@
       "gloss_example": {
         "en": "Our room had a balcony with a beautiful view of the sea."
       },
-      "conceptId": "es.balcony"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "parking",
@@ -235,7 +283,13 @@
           "audioSlug": "aparcamiento"
         }
       ],
-      "conceptId": "es.parking"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "towel",
@@ -256,7 +310,13 @@
       "gloss_example": {
         "en": "We called reception to ask for extra towels for the room."
       },
-      "conceptId": "es.towel"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "accommodation",
@@ -277,7 +337,13 @@
       "gloss_example": {
         "en": "We booked accommodation close to the city centre for three nights."
       },
-      "conceptId": "es.accommodation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "amenities",
@@ -314,7 +380,13 @@
           "audioSlug": "servicios"
         }
       ],
-      "conceptId": "es.amenities"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "complimentary",
@@ -351,7 +423,13 @@
           "audioSlug": "de_cortesia"
         }
       ],
-      "conceptId": "es.complimentary"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "suite",
@@ -372,7 +450,13 @@
       "gloss_example": {
         "en": "They upgraded us to a suite on the top floor with a spectacular view."
       },
-      "conceptId": "es.suite"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "housekeeping",
@@ -393,7 +477,13 @@
       "gloss_example": {
         "en": "Please call housekeeping if you need clean towels or your room tidied."
       },
-      "conceptId": "es.housekeeping"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "tariff",
@@ -430,7 +520,13 @@
           "audioSlug": "arancel"
         }
       ],
-      "conceptId": "es.tariff"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "concierge",
@@ -451,7 +547,13 @@
       "gloss_example": {
         "en": "The concierge arranged restaurant reservations and museum tickets for our trip."
       },
-      "conceptId": "es.concierge"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "deposit",
@@ -488,7 +590,13 @@
           "audioSlug": "fianza"
         }
       ],
-      "conceptId": "es.deposit"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "occupancy",
@@ -509,7 +617,13 @@
       "gloss_example": {
         "en": "The hotel reached full occupancy during the international conference."
       },
-      "conceptId": "es.occupancy"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "refund",
@@ -530,7 +644,13 @@
       "gloss_example": {
         "en": "She requested a full refund after the hotel failed to provide the room she had booked."
       },
-      "conceptId": "es.refund"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "invoice",
@@ -551,7 +671,13 @@
       "gloss_example": {
         "en": "Please provide an itemized invoice. I need it for my company's accounting."
       },
-      "conceptId": "es.invoice"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "complaint",
@@ -588,7 +714,13 @@
           "audioSlug": "reclamacion"
         }
       ],
-      "conceptId": "es.complaint"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "liability",
@@ -609,7 +741,13 @@
       "gloss_example": {
         "en": "The hotel disclaimed liability for valuables left outside the safe."
       },
-      "conceptId": "es.liability"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "waiver",
@@ -646,7 +784,13 @@
           "audioSlug": "renuncia_de_responsabilidad"
         }
       ],
-      "conceptId": "es.waiver"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "corporate_rate",
@@ -667,7 +811,13 @@
       "gloss_example": {
         "en": "Our company has a corporate rate with the hotel chain that saves us 20% per night."
       },
-      "conceptId": "es.corporate_rate"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "indemnify",
@@ -688,7 +838,13 @@
       "gloss_example": {
         "en": "The contract stipulates that the hotel will indemnify guests for losses caused by staff negligence."
       },
-      "conceptId": "es.indemnify"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "misrepresentation",
@@ -725,7 +881,13 @@
           "audioSlug": "engano_publicitario"
         }
       ],
-      "conceptId": "es.misrepresentation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "arbitration",
@@ -746,7 +908,13 @@
       "gloss_example": {
         "en": "The hotel's terms of service require disputes to be settled by arbitration."
       },
-      "conceptId": "es.arbitration"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "discretion",
@@ -783,7 +951,13 @@
           "audioSlug": "potestad"
         }
       ],
-      "conceptId": "es.discretion"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "remittance",
@@ -827,7 +1001,13 @@
           "audioSlug": "remision_de_pago"
         }
       ],
-      "conceptId": "es.remittance"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bed",
@@ -848,7 +1028,13 @@
       "gloss_example": {
         "en": "The hotel bed was very comfortable."
       },
-      "conceptId": "es.bed"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "building",
@@ -869,7 +1055,13 @@
       "gloss_example": {
         "en": "They live in a tall building downtown."
       },
-      "conceptId": "es.building"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "garden",
@@ -890,7 +1082,13 @@
       "gloss_example": {
         "en": "They grow vegetables in the garden."
       },
-      "conceptId": "es.garden"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "living_room",
@@ -927,7 +1125,13 @@
           "audioSlug": "sala"
         }
       ],
-      "conceptId": "es.living_room"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "madera",
@@ -948,7 +1152,13 @@
       "gloss_example": {
         "en": "The table is made of wood."
       },
-      "conceptId": "es.madera"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "hogar",
@@ -969,7 +1179,13 @@
       "gloss_example": {
         "en": "There is no place like home."
       },
-      "conceptId": "es.hogar"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cuarto",
@@ -1006,7 +1222,13 @@
           "audioSlug": "cuarto"
         }
       ],
-      "conceptId": "es.cuarto"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bathroom",
@@ -1027,7 +1249,13 @@
       "gloss_example": {
         "en": "The bathroom is at the end of the hall."
       },
-      "conceptId": "es.bathroom"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "staircase",
@@ -1048,7 +1276,13 @@
       "gloss_example": {
         "en": "We went up the stairs to the third floor."
       },
-      "conceptId": "es.staircase"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "shower",
@@ -1069,7 +1303,13 @@
       "gloss_example": {
         "en": "I take a quick shower in the morning."
       },
-      "conceptId": "es.shower"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "sofa",
@@ -1090,7 +1330,13 @@
       "gloss_example": {
         "en": "We watch television on the sofa."
       },
-      "conceptId": "es.sofa"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "armchair",
@@ -1111,7 +1357,13 @@
       "gloss_example": {
         "en": "My grandfather reads in his armchair."
       },
-      "conceptId": "es.armchair"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "wardrobe",
@@ -1132,7 +1384,13 @@
       "gloss_example": {
         "en": "I keep my clothes in the wardrobe."
       },
-      "conceptId": "es.wardrobe"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bedroom",
@@ -1153,7 +1411,13 @@
       "gloss_example": {
         "en": "The bedroom has a big bed."
       },
-      "conceptId": "es.bedroom"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "terrace",
@@ -1174,7 +1438,13 @@
       "gloss_example": {
         "en": "We have breakfast on the terrace when it is sunny."
       },
-      "conceptId": "es.terrace"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "garage",
@@ -1195,7 +1465,13 @@
       "gloss_example": {
         "en": "She left the car in the garage."
       },
-      "conceptId": "es.garage"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "elevator",
@@ -1216,7 +1492,13 @@
       "gloss_example": {
         "en": "The elevator is not working today."
       },
-      "conceptId": "es.elevator"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "heating",
@@ -1237,7 +1519,13 @@
       "gloss_example": {
         "en": "In winter we turn on the heating."
       },
-      "conceptId": "es.heating"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "fridge",
@@ -1258,7 +1546,13 @@
       "gloss_example": {
         "en": "Keep the milk in the fridge."
       },
-      "conceptId": "es.fridge"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "washing_machine",
@@ -1279,7 +1573,13 @@
       "gloss_example": {
         "en": "Put the dirty clothes in the washing machine."
       },
-      "conceptId": "es.washing_machine"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "microwave",
@@ -1300,7 +1600,13 @@
       "gloss_example": {
         "en": "Heat the soup in the microwave."
       },
-      "conceptId": "es.microwave"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bookshelf",
@@ -1321,7 +1627,13 @@
       "gloss_example": {
         "en": "The books are on the bookshelf."
       },
-      "conceptId": "es.bookshelf"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bathtub",
@@ -1342,7 +1654,13 @@
       "gloss_example": {
         "en": "The child plays in the bathtub."
       },
-      "conceptId": "es.bathtub"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "washbasin",
@@ -1363,7 +1681,13 @@
       "gloss_example": {
         "en": "She washed her hands in the washbasin."
       },
-      "conceptId": "es.washbasin"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "apartment_place",
@@ -1400,7 +1724,13 @@
           "audioSlug": "departamento"
         }
       ],
-      "conceptId": "es.apartment_place"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ceiling_roof",
@@ -1421,7 +1751,13 @@
       "gloss_example": {
         "en": "The lamp hangs from the ceiling of the living room."
       },
-      "conceptId": "es.ceiling_roof"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "floor_ground",
@@ -1442,7 +1778,13 @@
       "gloss_example": {
         "en": "He fell to the floor but was not hurt."
       },
-      "conceptId": "es.floor_ground"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "swimming_pool",
@@ -1463,7 +1805,13 @@
       "gloss_example": {
         "en": "The children swim in the hotel pool."
       },
-      "conceptId": "es.swimming_pool"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "guesthouse",
@@ -1484,7 +1832,13 @@
       "gloss_example": {
         "en": "We stayed in a small guesthouse downtown."
       },
-      "conceptId": "es.guesthouse"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

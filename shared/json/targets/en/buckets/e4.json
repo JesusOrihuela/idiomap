@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "e4",
+  "concepts": {
+    "en.accommodation_early_checkin_early_flight": {
+      "conceptId": "en.accommodation_early_checkin_early_flight",
+      "id": "accommodation_early_checkin_early_flight",
+      "target": [
+        {
+          "text": "Could you arrange an early check-in? My flight lands at six in the morning.",
+          "audioSlug": "could_you_arrange_an_early_check_in_my_flight_lands_at_six_in_the_morning"
+        }
+      ]
+    },
+    "en.deportes_i_like_sport": {
+      "conceptId": "en.deportes_i_like_sport",
+      "id": "deportes_i_like_sport",
+      "target": [
+        {
+          "text": "I like sport.",
+          "audioSlug": "i_like_sport"
+        }
+      ]
+    },
+    "en.describiendo_personas_he_is_a_national_hero": {
+      "conceptId": "en.describiendo_personas_he_is_a_national_hero",
+      "id": "describiendo_personas_he_is_a_national_hero",
+      "target": [
+        {
+          "text": "He is a national hero.",
+          "audioSlug": "he_is_a_national_hero"
+        }
+      ]
+    },
+    "en.music_catchy": {
+      "conceptId": "en.music_catchy",
+      "id": "music_catchy",
+      "target": [
+        {
+          "text": "This song is really catchy.",
+          "audioSlug": "this_song_is_really_catchy"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_plants_die_without_water": {
+      "conceptId": "en.naturaleza_lugares_plants_die_without_water",
+      "id": "naturaleza_lugares_plants_die_without_water",
+      "target": [
+        {
+          "text": "Plants die without water.",
+          "audioSlug": "plants_die_without_water"
+        }
+      ]
+    }
+  }
+}

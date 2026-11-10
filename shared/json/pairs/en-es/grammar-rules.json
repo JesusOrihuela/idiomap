@@ -247,7 +247,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "profesiones",
         "personal_info",
@@ -262,7 +261,12 @@
           "model_translation": "I'm curious and I like to learn.",
           "hint": "ser (soy/eres/es) for identity and lasting traits."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ser_time_events",
@@ -390,7 +394,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "calendario"
       ],
@@ -402,7 +405,12 @@
           "model_translation": "The party is on Saturday at eight.",
           "hint": "ser for the time or date of an event."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "estar_location_states",
@@ -523,7 +531,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "emociones",
         "gym",
@@ -555,7 +562,12 @@
           "model_translation": "I'm at home after work.",
           "hint": "estar for location and temporary states."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "present_ar_verbs",
@@ -676,7 +688,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "technology",
         "daily_routine",
@@ -711,7 +722,12 @@
           "model_translation": "I work in the morning and study in the afternoon.",
           "hint": "-ar present: -o, -as, -a, -amos, -an."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "present_er_ir_verbs",
@@ -838,7 +854,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "weather",
         "daily_routine",
@@ -867,7 +882,12 @@
           "model_translation": "I live in a small city and eat at home.",
           "hint": "-er: -o,-es,-e,-emos,-en. -ir: -o,-es,-e,-imos,-en."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "gender_nouns_articles",
@@ -991,7 +1011,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "descripciones",
         "supermarket"
@@ -1004,7 +1023,12 @@
           "model_translation": "The computer is on the table.",
           "hint": "Learn each noun with its article: el / la."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "gender_adjective_agreement",
@@ -1125,7 +1149,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "descripciones",
         "describiendo_personas",
@@ -1139,7 +1162,12 @@
           "model_translation": "My house is small but very comfortable.",
           "hint": "The adjective matches the noun: casa pequeña, libro pequeño."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "preterite_regular",
@@ -1260,7 +1288,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "movies",
         "accountability",
@@ -1290,7 +1317,12 @@
           "model_translation": "Yesterday I finished an important project.",
           "hint": "-ar: -é,-aste,-ó. -er/-ir: -í,-iste,-ió."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "preterite_irregular",
@@ -1411,7 +1443,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "greetings",
         "accountability",
@@ -1432,7 +1463,12 @@
           "model_translation": "Last weekend I went to the beach and was with friends.",
           "hint": "Irregular stems: fui, tuve, hice, estuve, dije."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "imperfect_habits_descriptions",
@@ -1559,7 +1595,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "greetings",
         "supermarket",
@@ -1574,7 +1609,12 @@
           "model_translation": "As a child, I spent the summers with my grandparents.",
           "hint": "Imperfect for repeated past actions: -aba / -ía."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "imperfect_vs_preterite",
@@ -1701,7 +1741,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "greetings",
         "supermarket",
@@ -1716,7 +1755,12 @@
           "model_translation": "I was reading quietly when someone knocked on the door.",
           "hint": "Imperfect (background) + preterite (the event)."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "subjunctive_present_wishes",
@@ -1837,7 +1881,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "greetings"
       ],
@@ -1849,7 +1892,12 @@
           "model_translation": "I hope this year brings good news.",
           "hint": "espero/quiero que + subjunctive (salga, tenga, sea)."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "reflexive_verbs_daily_routine",
@@ -1970,7 +2018,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "daily_routine"
       ],
@@ -1982,7 +2029,12 @@
           "model_translation": "I get up at seven and make myself a coffee.",
           "hint": "me/te/se + verb: me levanto, te levantas, se levanta."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "reflexive_verbs_emotions",
@@ -2103,7 +2155,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "emociones",
         "health"
@@ -2116,7 +2167,12 @@
           "model_translation": "I get very happy when I learn something new.",
           "hint": "me alegro, me enojo, me pongo... (reflexive emotion verbs)."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "por_cause_means_duration",
@@ -2237,7 +2293,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "restaurant",
         "daily_routine",
@@ -2260,7 +2315,12 @@
           "model_translation": "I walk to work in the morning for my health.",
           "hint": "por = cause, means, or duration."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "para_purpose_destination",
@@ -2387,7 +2447,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "kitchen",
         "technology",
@@ -2409,7 +2468,12 @@
           "model_translation": "I'm saving money to travel next year.",
           "hint": "para = purpose, destination, or deadline."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "direct_object_pronouns",
@@ -2536,7 +2600,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "movies",
         "kitchen",
@@ -2550,7 +2613,12 @@
           "model_translation": "The report? I'll finish it this afternoon.",
           "hint": "lo/la/los/las replace the direct object."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "indirect_object_pronouns",
@@ -2672,7 +2740,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "accommodation"
       ],
@@ -2684,7 +2751,12 @@
           "model_translation": "I give my mother flowers on her birthday.",
           "hint": "le/les mark to whom something is given or said."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "question_words",
@@ -2814,7 +2886,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "gym",
         "greetings",
@@ -2850,7 +2921,12 @@
           "model_translation": "What is your favorite food?",
           "hint": "cómo, dónde, cuándo, qué, cuál at the start."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "question_cual_vs_que",
@@ -2980,7 +3056,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "accommodation",
         "gym",
@@ -2996,7 +3071,12 @@
           "model_translation": "Which do you prefer, tea or coffee?",
           "hint": "qué + noun or definition, cuál to choose among options."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "gustar_structure",
@@ -3112,7 +3192,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "music",
         "supermarket",
@@ -3130,7 +3209,12 @@
           "model_translation": "I like books and I love music.",
           "hint": "gusta + singular or infinitive, gustan + plural."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "hay_existence",
@@ -3246,7 +3330,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "restaurant",
         "kitchen",
@@ -3272,7 +3355,12 @@
           "model_translation": "In my neighborhood there is a square and several cafés.",
           "hint": "hay = there is / there are (invariable)."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ser_estar_adjectives",
@@ -3388,7 +3476,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "emociones",
         "describiendo_personas",
@@ -3411,7 +3498,12 @@
           "model_translation": "My job is interesting, but today I'm tired.",
           "hint": "ser = trait, estar = current state (aburrido: boring vs bored)."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "stem_changing_eie",
@@ -3526,7 +3618,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "planes",
         "movies",
@@ -3553,7 +3644,12 @@
           "model_translation": "I prefer to walk when the weather is nice.",
           "hint": "e→ie in the stressed syllable: quiero, prefiero, empiezo."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "futuro_simple",
@@ -3669,7 +3765,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "kitchen",
         "airport",
@@ -3694,7 +3789,12 @@
           "model_translation": "Next year I'll start studying another language.",
           "hint": "infinitive + é/ás/á/emos/án."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "condicional_simple",
@@ -3810,7 +3910,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "restaurant",
         "accommodation",
@@ -3833,7 +3932,12 @@
           "model_translation": "With more free time, I would learn to play the piano.",
           "hint": "infinitive + ía/ías/ía/íamos/ían."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "preterito_perfecto",
@@ -3949,7 +4053,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "greetings",
         "accountability",
@@ -3965,7 +4068,12 @@
           "model_translation": "Today I finished a book that I loved.",
           "hint": "he/has/ha + participle (-ado/-ido)."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "imperfecto_subjuntivo",
@@ -4083,7 +4191,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "airport",
         "accommodation",
@@ -4097,7 +4204,12 @@
           "model_translation": "If I lived in another country, I would learn the language fast.",
           "hint": "-ara/-iera: tuviera, fuera, pudiera."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "voz_pasiva",
@@ -4213,7 +4325,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "accountability",
         "technology"
@@ -4226,7 +4337,12 @@
           "model_translation": "In this region a lot of fruit is produced.",
           "hint": "se + verb, or ser + participle (fue construido)."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "clausulas_relativo",
@@ -4341,7 +4457,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "greetings",
         "pensamientos_opiniones",
@@ -4355,7 +4470,12 @@
           "model_translation": "I work at a company that values creativity.",
           "hint": "que (general), quien (people), cuyo (whose)."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "pluscuamperfecto",
@@ -4471,7 +4591,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "conversacion"
       ],
@@ -4483,7 +4602,12 @@
           "model_translation": "When you called, I had already left home.",
           "hint": "había/habías/había + participle."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "futuro_perfecto",
@@ -4598,7 +4722,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "planes"
       ],
@@ -4610,7 +4733,12 @@
           "model_translation": "By next summer, I will have learned to swim better.",
           "hint": "habré/habrás/habrá + participle."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "subjuntivo_avanzado",
@@ -4727,7 +4855,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "kitchen",
         "technology"
@@ -4740,7 +4867,12 @@
           "model_translation": "Even if it rains tomorrow, I'll go out for a walk.",
           "hint": "aunque/hasta que/por mucho que + subjunctive."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "marcadores_discursivos",
@@ -4861,7 +4993,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "pensamientos_opiniones"
       ],
@@ -4873,7 +5004,12 @@
           "model_translation": "The project was hard. Nevertheless, I learned a lot.",
           "hint": "sin embargo, por lo tanto, además, en resumen."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "estilo_indirecto",
@@ -4989,7 +5125,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [
         "conversacion"
       ],
@@ -5001,7 +5136,12 @@
           "model_translation": "My friend said he would come to visit me on Sunday.",
           "hint": "Present→imperfect, future→conditional (dijo que llegaría)."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

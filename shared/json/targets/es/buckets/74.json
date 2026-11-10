@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "74",
+  "concepts": {
+    "es.accountability_we_need_to_audit_the_accounts": {
+      "conceptId": "es.accountability_we_need_to_audit_the_accounts",
+      "id": "accountability_we_need_to_audit_the_accounts",
+      "target": [
+        {
+          "text": "Necesitamos auditar las cuentas.",
+          "audioSlug": "necesitamos_auditar_las_cuentas"
+        }
+      ]
+    },
+    "es.descripciones_el_servicio_de_hoy_fue_bastante_regular": {
+      "conceptId": "es.descripciones_el_servicio_de_hoy_fue_bastante_regular",
+      "id": "descripciones_el_servicio_de_hoy_fue_bastante_regular",
+      "target": [
+        {
+          "text": "El servicio de hoy fue bastante regular.",
+          "audioSlug": "el_servicio_de_hoy_fue_bastante_regular"
+        }
+      ]
+    },
+    "es.descripciones_mi_amigo_es_europeo": {
+      "conceptId": "es.descripciones_mi_amigo_es_europeo",
+      "id": "descripciones_mi_amigo_es_europeo",
+      "target": [
+        {
+          "text": "Mi amigo es europeo.",
+          "audioSlug": "mi_amigo_es_europeo"
+        }
+      ]
+    },
+    "es.emociones_te_voy_a_echar_de_menos": {
+      "conceptId": "es.emociones_te_voy_a_echar_de_menos",
+      "id": "emociones_te_voy_a_echar_de_menos",
+      "target": [
+        {
+          "text": "Te voy a echar de menos.",
+          "audioSlug": "te_voy_a_echar_de_menos"
+        }
+      ]
+    },
+    "es.family_el_nacimiento_de_su_hija": {
+      "conceptId": "es.family_el_nacimiento_de_su_hija",
+      "id": "family_el_nacimiento_de_su_hija",
+      "target": [
+        {
+          "text": "El nacimiento de su hija fue en marzo.",
+          "audioSlug": "el_nacimiento_de_su_hija_fue_en_marzo"
+        }
+      ]
+    },
+    "es.music_learning_guitar_six_months": {
+      "conceptId": "es.music_learning_guitar_six_months",
+      "id": "music_learning_guitar_six_months",
+      "target": [
+        {
+          "text": "Llevo unos seis meses aprendiendo a tocar la guitarra.",
+          "audioSlug": "llevo_unos_seis_meses_aprendiendo_a_tocar_la_guitarra"
+        }
+      ]
+    },
+    "es.politica_muchos_jovenes_votan_por_primera_vez": {
+      "conceptId": "es.politica_muchos_jovenes_votan_por_primera_vez",
+      "id": "politica_muchos_jovenes_votan_por_primera_vez",
+      "target": [
+        {
+          "text": "Muchos jóvenes votan por primera vez.",
+          "audioSlug": "muchos_jovenes_votan_por_primera_vez"
+        }
+      ]
+    },
+    "es.restaurant_is_there_a_minimum_order_for": {
+      "conceptId": "es.restaurant_is_there_a_minimum_order_for",
+      "id": "restaurant_is_there_a_minimum_order_for",
+      "target": [
+        {
+          "text": "¿Hay un pedido mínimo para entrega a domicilio?",
+          "audioSlug": "hay_un_pedido_minimo_para_entrega_a_domicilio"
+        }
+      ]
+    },
+    "es.tiempo_libre_me_gusta_imaginar_historias_nuevas": {
+      "conceptId": "es.tiempo_libre_me_gusta_imaginar_historias_nuevas",
+      "id": "tiempo_libre_me_gusta_imaginar_historias_nuevas",
+      "target": [
+        {
+          "text": "Me gusta imaginar historias nuevas.",
+          "audioSlug": "me_gusta_imaginar_historias_nuevas"
+        }
+      ]
+    },
+    "es.tiempo_libre_me_gusta_leer_poesia_por_la_noche": {
+      "conceptId": "es.tiempo_libre_me_gusta_leer_poesia_por_la_noche",
+      "id": "tiempo_libre_me_gusta_leer_poesia_por_la_noche",
+      "target": [
+        {
+          "text": "Me gusta leer poesía por la noche.",
+          "audioSlug": "me_gusta_leer_poesia_por_la_noche"
+        }
+      ]
+    },
+    "es.transportation_el_autobus_tarda_diez_minutos": {
+      "conceptId": "es.transportation_el_autobus_tarda_diez_minutos",
+      "id": "transportation_el_autobus_tarda_diez_minutos",
+      "target": [
+        {
+          "text": "El autobús tarda diez minutos.",
+          "audioSlug": "el_autobus_tarda_diez_minutos"
+        }
+      ]
+    },
+    "es.transportation_subway_single_fare": {
+      "conceptId": "es.transportation_subway_single_fare",
+      "id": "transportation_subway_single_fare",
+      "target": [
+        {
+          "text": "¿Cuánto cuesta un boleto de viaje sencillo para el metro?",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "cuanto_cuesta_un_boleto_de_viaje_sencillo_para_el_metro"
+        },
+        {
+          "text": "¿Cuánto cuesta un billete de viaje sencillo para el metro?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "cuanto_cuesta_un_billete_de_viaje_sencillo_para_el_metro"
+        }
+      ]
+    },
+    "es.weather_its_sunny": {
+      "conceptId": "es.weather_its_sunny",
+      "id": "weather_its_sunny",
+      "target": [
+        {
+          "text": "Hace sol.",
+          "audioSlug": "hace_sol"
+        }
+      ]
+    }
+  }
+}

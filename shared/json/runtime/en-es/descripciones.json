@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "descripciones",
+  "phrases": [
+    {
+      "id": "descripciones_es_dificil",
+      "conceptId": "es.descripciones_es_dificil",
+      "sourceId": "en.s.1fdda9bee4b12446",
+      "source": "It is difficult.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es difícil.",
+          "audioSlug": "es_dificil"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_enorme",
+      "conceptId": "es.descripciones_es_enorme",
+      "sourceId": "en.s.9be50d59117bf0da",
+      "source": "It is enormous.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es enorme.",
+          "audioSlug": "es_enorme"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_libro_antiguo",
+      "conceptId": "es.descripciones_es_un_libro_antiguo",
+      "sourceId": "en.s.d35e966fe5564969",
+      "source": "It is an old book.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un libro antiguo.",
+          "audioSlug": "es_un_libro_antiguo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_esta_lleno",
+      "conceptId": "es.descripciones_esta_lleno",
+      "sourceId": "en.s.1a3e0f208666cbb2",
+      "source": "It is full.",
+      "level": "A1",
+      "grammar": "'Estar' expresa un estado o resultado, no una cualidad.",
+      "target": [
+        {
+          "text": "Está lleno.",
+          "audioSlug": "esta_lleno"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_peligroso",
+      "conceptId": "es.descripciones_es_peligroso",
+      "sourceId": "en.s.1159143acc732dad",
+      "source": "It is dangerous.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es peligroso.",
+          "audioSlug": "es_peligroso"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_una_historia_verdadera",
+      "conceptId": "es.descripciones_es_una_historia_verdadera",
+      "sourceId": "en.s.c66e7cfdf9011109",
+      "source": "It is a true story.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una historia verdadera.",
+          "audioSlug": "es_una_historia_verdadera"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_este_es_distinto",
+      "conceptId": "es.descripciones_este_es_distinto",
+      "sourceId": "en.s.c157a86e18e21b55",
+      "source": "This one is different.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este es distinto.",
+          "audioSlug": "este_es_distinto"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_cuarto_esta_limpio",
+      "conceptId": "es.descripciones_el_cuarto_esta_limpio",
+      "sourceId": "en.s.461bb3f428fd6038",
+      "source": "The room is clean.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El cuarto está limpio.",
+          "audioSlug": "el_cuarto_esta_limpio"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_la_habitacion_esta_oscura",
+      "conceptId": "es.descripciones_la_habitacion_esta_oscura",
+      "sourceId": "en.s.a03de0ebbbe6bbf0",
+      "source": "The room is dark.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La habitación está oscura.",
+          "audioSlug": "la_habitacion_esta_oscura"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_esta_bolsa_es_muy_pesada",
+      "conceptId": "es.descripciones_esta_bolsa_es_muy_pesada",
+      "sourceId": "en.s.d2faa97540968ca0",
+      "source": "This bag is very heavy.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Esta bolsa es muy pesada.",
+          "audioSlug": "esta_bolsa_es_muy_pesada"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_la_caja_es_muy_ligera",
+      "conceptId": "es.descripciones_la_caja_es_muy_ligera",
+      "sourceId": "en.s.7691ff42bc67705e",
+      "source": "The box is very light.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La caja es muy ligera.",
+          "audioSlug": "la_caja_es_muy_ligera"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_muy_facil",
+      "conceptId": "es.descripciones_es_muy_facil",
+      "sourceId": "en.s.4ed16d03bf20997d",
+      "source": "It is very easy.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es muy fácil.",
+          "audioSlug": "es_muy_facil"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_estoy_lista",
+      "conceptId": "es.descripciones_estoy_lista",
+      "sourceId": "en.s.5fc3fc215d0a774c",
+      "source": "I am ready.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy lista.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_lista"
+        },
+        {
+          "text": "Estoy listo.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_listo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_estoy_ocupada",
+      "conceptId": "es.descripciones_estoy_ocupada",
+      "sourceId": "en.s.b726944d11d47085",
+      "source": "I am busy.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy ocupada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_ocupada"
+        },
+        {
+          "text": "Estoy ocupado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_ocupado"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_dia_especial",
+      "conceptId": "es.descripciones_es_un_dia_especial",
+      "sourceId": "en.s.9fe651323858aa68",
+      "source": "It is a special day.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un día especial.",
+          "audioSlug": "es_un_dia_especial"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_vino_frances",
+      "conceptId": "es.descripciones_es_un_vino_frances",
+      "sourceId": "en.s.53f69cf1c7e7410f",
+      "source": "It is a French wine.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un vino francés.",
+          "audioSlug": "es_un_vino_frances"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_comida_italiana",
+      "conceptId": "es.descripciones_es_comida_italiana",
+      "sourceId": "en.s.5650f0bdb3b3875e",
+      "source": "It is Italian food.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es comida italiana.",
+          "audioSlug": "es_comida_italiana"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_producto_aleman",
+      "conceptId": "es.descripciones_es_un_producto_aleman",
+      "sourceId": "en.s.ce4f5a4ecf7ac831",
+      "source": "It is a German product.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un producto alemán.",
+          "audioSlug": "es_un_producto_aleman"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_carro_japones",
+      "conceptId": "es.descripciones_es_un_carro_japones",
+      "sourceId": "en.s.c561612f4b144bc5",
+      "source": "It is a Japanese car.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un carro japonés.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "es_un_carro_japones"
+        },
+        {
+          "text": "Es un coche japonés.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "es_un_coche_japones"
+        },
+        {
+          "text": "Es un auto japonés.",
+          "labels": {
+            "region": "Cono Sur"
+          },
+          "audioSlug": "es_un_auto_japones"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_plato_mexicano",
+      "conceptId": "es.descripciones_es_un_plato_mexicano",
+      "sourceId": "en.s.11671da3c5aff109",
+      "source": "It is a Mexican dish.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un plato mexicano.",
+          "audioSlug": "es_un_plato_mexicano"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_musica_cubana",
+      "conceptId": "es.descripciones_es_musica_cubana",
+      "sourceId": "en.s.fdf4955e764f6b80",
+      "source": "It is Cuban music.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es música cubana.",
+          "audioSlug": "es_musica_cubana"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_vino_chileno",
+      "conceptId": "es.descripciones_es_un_vino_chileno",
+      "sourceId": "en.s.8134f21567a7988c",
+      "source": "It is a Chilean wine.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un vino chileno.",
+          "audioSlug": "es_un_vino_chileno"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_comida_peruana",
+      "conceptId": "es.descripciones_es_comida_peruana",
+      "sourceId": "en.s.848995f33d89d7e2",
+      "source": "It is Peruvian food.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es comida peruana.",
+          "audioSlug": "es_comida_peruana"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_pais_arabe",
+      "conceptId": "es.descripciones_es_un_pais_arabe",
+      "sourceId": "en.s.dafdca3c5913fbb8",
+      "source": "It is an Arab country.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un país árabe.",
+          "audioSlug": "es_un_pais_arabe"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_producto_americano",
+      "conceptId": "es.descripciones_es_un_producto_americano",
+      "sourceId": "en.s.4ac9f859a5ea9840",
+      "source": "It is an American product.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un producto americano.",
+          "audioSlug": "es_un_producto_americano"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_una_lengua_indigena",
+      "conceptId": "es.descripciones_es_una_lengua_indigena",
+      "sourceId": "en.s.686c9a0887763778",
+      "source": "It is an indigenous language.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una lengua indígena.",
+          "audioSlug": "es_una_lengua_indigena"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_su_color_es_rojo",
+      "conceptId": "es.descripciones_su_color_es_rojo",
+      "sourceId": "en.s.cf06c24d5e2679c8",
+      "source": "Its color is red.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su color es rojo.",
+          "audioSlug": "su_color_es_rojo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_no_es_natural",
+      "conceptId": "es.descripciones_no_es_natural",
+      "sourceId": "en.s.196158440d1e6a5f",
+      "source": "It's not natural.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No es natural.",
+          "audioSlug": "no_es_natural"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_sol_es_amarillo",
+      "conceptId": "es.descripciones_el_sol_es_amarillo",
+      "sourceId": "en.s.f2cf6656fd407fd2",
+      "source": "The sun is yellow.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El sol es amarillo.",
+          "audioSlug": "el_sol_es_amarillo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_la_flor_es_naranja",
+      "conceptId": "es.descripciones_la_flor_es_naranja",
+      "sourceId": "en.s.59d3997b596a0247",
+      "source": "The flower is orange.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La flor es naranja.",
+          "audioSlug": "la_flor_es_naranja"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_gato_es_gris",
+      "conceptId": "es.descripciones_el_gato_es_gris",
+      "sourceId": "en.s.ccf74bd856fb9966",
+      "source": "The cat is grey.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El gato es gris.",
+          "audioSlug": "el_gato_es_gris"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_los_zapatos_son_marrones",
+      "conceptId": "es.descripciones_los_zapatos_son_marrones",
+      "sourceId": "en.s.180b1c7ca836caf2",
+      "source": "The shoes are brown.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los zapatos son marrones.",
+          "audioSlug": "los_zapatos_son_marrones"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_ese_edificio_es_feo",
+      "conceptId": "es.descripciones_ese_edificio_es_feo",
+      "sourceId": "en.s.f4dc4639a32a3602",
+      "source": "That building is very ugly.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese edificio es muy feo.",
+          "audioSlug": "ese_edificio_es_muy_feo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_rio_es_ancho",
+      "conceptId": "es.descripciones_el_rio_es_ancho",
+      "sourceId": "en.s.4d7dd41fda92045c",
+      "source": "The river is very wide.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El río es muy ancho.",
+          "audioSlug": "el_rio_es_muy_ancho"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_la_calle_es_estrecha",
+      "conceptId": "es.descripciones_la_calle_es_estrecha",
+      "sourceId": "en.s.83107361dac252bc",
+      "source": "The street is narrow.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La calle es estrecha.",
+          "audioSlug": "la_calle_es_estrecha"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_quiero_un_cafe_mediano",
+      "conceptId": "es.descripciones_quiero_un_cafe_mediano",
+      "sourceId": "en.s.ede9d9b1178d01d8",
+      "source": "I want a medium coffee.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero un café mediano.",
+          "audioSlug": "quiero_un_cafe_mediano"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_la_mesa_es_de_cristal",
+      "conceptId": "es.descripciones_la_mesa_es_de_cristal",
+      "sourceId": "en.s.fcd718ce118c82c5",
+      "source": "The table is made of glass.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La mesa es de cristal.",
+          "audioSlug": "la_mesa_es_de_cristal"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_puente_es_de_metal",
+      "conceptId": "es.descripciones_el_puente_es_de_metal",
+      "sourceId": "en.s.e0ebff32c69f1533",
+      "source": "The bridge is made of metal.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El puente es de metal.",
+          "audioSlug": "el_puente_es_de_metal"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_material_de_la_mesa_es_madera",
+      "conceptId": "es.descripciones_el_material_de_la_mesa_es_madera",
+      "sourceId": "en.s.137f80e270d87e4b",
+      "source": "The material of the table is wood.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El material de la mesa es madera.",
+          "audioSlug": "el_material_de_la_mesa_es_madera"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_la_caja_es_cuadrada",
+      "conceptId": "es.descripciones_la_caja_es_cuadrada",
+      "sourceId": "en.s.88281de9b0db9f6f",
+      "source": "The box is square.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La caja es cuadrada.",
+          "audioSlug": "la_caja_es_cuadrada"
+        }
+      ]
+    }
+  ]
+}

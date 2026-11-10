@@ -1,59 +1,683 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "emociones",
-  "conceptIds": [
-    "es.emociones_im_sad",
-    "es.emociones_im_happy",
-    "es.emociones_im_excited",
-    "es.emociones_im_bored",
-    "es.emociones_im_tired",
-    "es.emociones_im_angry",
-    "es.emociones_im_surprised",
-    "es.emociones_im_confused",
-    "es.emociones_im_worried",
-    "es.emociones_im_nervous",
-    "es.emociones_im_scared",
-    "es.emociones_im_relaxed",
-    "es.emociones_im_stressed",
-    "es.emociones_why_are_you_sad",
-    "es.emociones_why_are_you_so_happy",
-    "es.emociones_why_are_you_excited",
-    "es.emociones_why_are_you_bored",
-    "es.emociones_why_are_you_tired",
-    "es.emociones_why_are_you_angry",
-    "es.emociones_why_are_you_surprised",
-    "es.emociones_why_are_you_confused",
-    "es.emociones_why_are_you_worried",
-    "es.emociones_why_are_you_nervous",
-    "es.emociones_why_are_you_scared",
-    "es.emociones_why_are_you_relaxed",
-    "es.emociones_why_are_you_stressed",
-    "es.emociones_how_do_you_feel",
-    "es.emociones_i_feel_fine",
-    "es.emociones_are_you_okay",
-    "es.emociones_im_embarrassed",
-    "es.emociones_im_proud",
-    "es.emociones_im_disappointed",
-    "es.emociones_i_love_you_very_much",
-    "es.emociones_i_miss_you_a_lot",
-    "es.emociones_flying_scares_me",
-    "es.emociones_noise_bothers_me",
-    "es.emociones_i_feel_something_is_wrong",
-    "es.emociones_im_glad_to_see_you",
-    "es.emociones_that_news_makes_me_sad",
-    "es.emociones_esta_de_buen_humor",
-    "es.emociones_salte_de_alegria",
-    "es.emociones_te_voy_a_echar_de_menos",
-    "es.emociones_senti_una_gran_emocion",
-    "es.emociones_estoy_contenta",
-    "es.emociones_me_hace_reir",
-    "es.emociones_eres_feliz",
-    "es.emociones_estoy_tranquila",
-    "es.emociones_debes_mantener_la_calma",
-    "es.emociones_no_mi_amor",
-    "es.emociones_dame_un_beso",
-    "es.emociones_llore",
-    "es.emociones_no_quiero_sufrir"
+  "phrases": [
+    {
+      "conceptId": "es.emociones_im_sad",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6e96d59955b9dea2"
+    },
+    {
+      "conceptId": "es.emociones_im_happy",
+      "level": "A1",
+      "grammar": "Con estados de ánimo y emociones se usa 'estar', no 'ser'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5251665e192eb502"
+    },
+    {
+      "conceptId": "es.emociones_im_excited",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.adb0d13c254a0730"
+    },
+    {
+      "conceptId": "es.emociones_im_bored",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7b4dfa5604e203a8"
+    },
+    {
+      "conceptId": "es.emociones_im_tired",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4a839c033ddc454a"
+    },
+    {
+      "conceptId": "es.emociones_im_angry",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a8e3800a475581de"
+    },
+    {
+      "conceptId": "es.emociones_im_surprised",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8885b632bcf5c2dd"
+    },
+    {
+      "conceptId": "es.emociones_im_confused",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.dca626a17b79a7da"
+    },
+    {
+      "conceptId": "es.emociones_im_worried",
+      "level": "A1",
+      "grammar": "Con estados de ánimo y emociones se usa 'estar', no 'ser'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2b43e270e483fc63"
+    },
+    {
+      "conceptId": "es.emociones_im_nervous",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0f7bb15796b40d07"
+    },
+    {
+      "conceptId": "es.emociones_im_scared",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e7e6e31cf43f8473"
+    },
+    {
+      "conceptId": "es.emociones_im_relaxed",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.49ece5b958f614ef"
+    },
+    {
+      "conceptId": "es.emociones_im_stressed",
+      "level": "A2",
+      "grammar": "Con estados de ánimo y emociones se usa 'estar', no 'ser'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a686a8b14b8f39df"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_sad",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.649210f552a5331e"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_so_happy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d4704f567132eb05"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_excited",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.719e1b3bc19acb76"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_bored",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d30cc14ed5de8cd8"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_tired",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bc687abc7f71fae3"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_angry",
+      "level": "A1",
+      "grammar": "'¿Por qué estás...?' usa 'estar' para preguntar por un estado de ánimo.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.98ca1a31982f3ec5"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_surprised",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.af38a9d58c70b98b"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_confused",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4e06d7b408701e5a"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_worried",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b11facf6b7990bc3"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_nervous",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e1812bf4273bc22f"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_scared",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5f356c52b16b110a"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_relaxed",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.098b5f6a7b3b5cd3"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_stressed",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e77d83afa690d5ba"
+    },
+    {
+      "conceptId": "es.emociones_how_do_you_feel",
+      "level": "A1",
+      "grammar": "'¿Cómo te sientes?' usa el verbo reflexivo 'sentirse' para preguntar por el estado.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5a0ae02142077c83"
+    },
+    {
+      "conceptId": "es.emociones_i_feel_fine",
+      "level": "A1",
+      "grammar": "'Me siento' es el reflexivo 'sentirse'; se usa con adverbios (bien, mal).",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.05ad46c6724336d0"
+    },
+    {
+      "conceptId": "es.emociones_are_you_okay",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.45719d73424c8a0b"
+    },
+    {
+      "conceptId": "es.emociones_im_embarrassed",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e12f2c153c71a2f6"
+    },
+    {
+      "conceptId": "es.emociones_im_proud",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.917127a1e61f633d"
+    },
+    {
+      "conceptId": "es.emociones_im_disappointed",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9d01cb6f6bcac503"
+    },
+    {
+      "conceptId": "es.emociones_i_love_you_very_much",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a7f778bb225b4155"
+    },
+    {
+      "conceptId": "es.emociones_i_miss_you_a_lot",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2122acc2452e78cd"
+    },
+    {
+      "conceptId": "es.emociones_flying_scares_me",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5a3f1da032929f52"
+    },
+    {
+      "conceptId": "es.emociones_noise_bothers_me",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7dd803d4ecc3a94d"
+    },
+    {
+      "conceptId": "es.emociones_i_feel_something_is_wrong",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.406cf93ed8f64a3c"
+    },
+    {
+      "conceptId": "es.emociones_im_glad_to_see_you",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ae039cd5aecc0873"
+    },
+    {
+      "conceptId": "es.emociones_that_news_makes_me_sad",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0aebcf9e6b103661"
+    },
+    {
+      "conceptId": "es.emociones_esta_de_buen_humor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b30daad5fa13b706"
+    },
+    {
+      "conceptId": "es.emociones_salte_de_alegria",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9f0a143156c6d682"
+    },
+    {
+      "conceptId": "es.emociones_te_voy_a_echar_de_menos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.060bcd3a52da5f24"
+    },
+    {
+      "conceptId": "es.emociones_senti_una_gran_emocion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d7e02ded766a2ad4"
+    },
+    {
+      "conceptId": "es.emociones_estoy_contenta",
+      "level": "A1",
+      "grammar": "Con estados de ánimo se usa 'estar', no 'ser'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cffbf6f088504d22"
+    },
+    {
+      "conceptId": "es.emociones_me_hace_reir",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.36a40eca8b0c242a"
+    },
+    {
+      "conceptId": "es.emociones_eres_feliz",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4a3098f1669f6312"
+    },
+    {
+      "conceptId": "es.emociones_estoy_tranquila",
+      "level": "A2",
+      "grammar": "Usa 'estar' para describir cómo te sientes en este momento.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f03a90fb1066c1d6"
+    },
+    {
+      "conceptId": "es.emociones_debes_mantener_la_calma",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.92f02879981a65b2"
+    },
+    {
+      "conceptId": "es.emociones_no_mi_amor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fa2cce9ea4537959"
+    },
+    {
+      "conceptId": "es.emociones_dame_un_beso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b4200300b5e3ad68"
+    },
+    {
+      "conceptId": "es.emociones_llore",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f0532f2b3ba65347"
+    },
+    {
+      "conceptId": "es.emociones_no_quiero_sufrir",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0fae98308597fe10"
+    }
   ]
 }

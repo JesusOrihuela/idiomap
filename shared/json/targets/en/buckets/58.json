@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "58",
+  "concepts": {
+    "en.airport_carryon_over_limit": {
+      "conceptId": "en.airport_carryon_over_limit",
+      "id": "airport_carryon_over_limit",
+      "target": [
+        {
+          "text": "My carry-on is over the weight limit. What are my options?",
+          "audioSlug": "my_carry_on_is_over_the_weight_limit_what_are_my_options"
+        }
+      ]
+    },
+    "en.conversacion_i_admit_my_mistake": {
+      "conceptId": "en.conversacion_i_admit_my_mistake",
+      "id": "conversacion_i_admit_my_mistake",
+      "target": [
+        {
+          "text": "I admit my mistake.",
+          "audioSlug": "i_admit_my_mistake"
+        }
+      ]
+    },
+    "en.conversacion_we_have_nothing_to_discuss": {
+      "conceptId": "en.conversacion_we_have_nothing_to_discuss",
+      "id": "conversacion_we_have_nothing_to_discuss",
+      "target": [
+        {
+          "text": "We have nothing to discuss.",
+          "audioSlug": "we_have_nothing_to_discuss"
+        }
+      ]
+    },
+    "en.emociones_i_have_no_fear": {
+      "conceptId": "en.emociones_i_have_no_fear",
+      "id": "emociones_i_have_no_fear",
+      "target": [
+        {
+          "text": "I have no fear.",
+          "audioSlug": "i_have_no_fear"
+        }
+      ]
+    },
+    "en.fiesta_come_and_dance_with_me": {
+      "conceptId": "en.fiesta_come_and_dance_with_me",
+      "id": "fiesta_come_and_dance_with_me",
+      "target": [
+        {
+          "text": "Come and dance with me.",
+          "audioSlug": "come_and_dance_with_me"
+        }
+      ]
+    },
+    "en.movies_favorite_movie": {
+      "conceptId": "en.movies_favorite_movie",
+      "id": "movies_favorite_movie",
+      "target": [
+        {
+          "text": "What's your favorite movie?",
+          "audioSlug": "what_s_your_favorite_movie"
+        }
+      ]
+    },
+    "en.supermarket_there_is_an_offer_on_the": {
+      "conceptId": "en.supermarket_there_is_an_offer_on_the",
+      "id": "supermarket_there_is_an_offer_on_the",
+      "target": [
+        {
+          "text": "There is an offer on the detergent, let's buy two.",
+          "audioSlug": "there_is_an_offer_on_the_detergent_let_s_buy_two"
+        }
+      ]
+    },
+    "en.vestimenta_his_shirt_is_blue": {
+      "conceptId": "en.vestimenta_his_shirt_is_blue",
+      "id": "vestimenta_his_shirt_is_blue",
+      "target": [
+        {
+          "text": "His shirt is blue.",
+          "audioSlug": "his_shirt_is_blue"
+        }
+      ]
+    },
+    "en.weather_very_cold_today": {
+      "conceptId": "en.weather_very_cold_today",
+      "id": "weather_very_cold_today",
+      "target": [
+        {
+          "text": "It's very cold today.",
+          "audioSlug": "it_s_very_cold_today"
+        }
+      ]
+    }
+  }
+}

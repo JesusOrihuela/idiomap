@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "27",
+  "concepts": {
+    "es.airport_donde_entrego_el_equipaje": {
+      "conceptId": "es.airport_donde_entrego_el_equipaje",
+      "id": "airport_donde_entrego_el_equipaje",
+      "target": [
+        {
+          "text": "¿Dónde entrego el equipaje?",
+          "audioSlug": "donde_entrego_el_equipaje"
+        }
+      ]
+    },
+    "es.conversacion_se_que_lo_puedes_lograr": {
+      "conceptId": "es.conversacion_se_que_lo_puedes_lograr",
+      "id": "conversacion_se_que_lo_puedes_lograr",
+      "target": [
+        {
+          "text": "Sé que lo puedes lograr.",
+          "audioSlug": "se_que_lo_puedes_lograr"
+        }
+      ]
+    },
+    "es.daily_routine_i_go_to_work_at_nine": {
+      "conceptId": "es.daily_routine_i_go_to_work_at_nine",
+      "id": "daily_routine_i_go_to_work_at_nine",
+      "target": [
+        {
+          "text": "Voy al trabajo a las nueve.",
+          "audioSlug": "voy_al_trabajo_a_las_nueve"
+        }
+      ]
+    },
+    "es.economia_consiguio_un_buen_puesto_de_trabajo": {
+      "conceptId": "es.economia_consiguio_un_buen_puesto_de_trabajo",
+      "id": "economia_consiguio_un_buen_puesto_de_trabajo",
+      "target": [
+        {
+          "text": "Consiguió un buen puesto de trabajo.",
+          "audioSlug": "consiguio_un_buen_puesto_de_trabajo"
+        }
+      ]
+    },
+    "es.estudios_llevo_la_mochila_al_colegio": {
+      "conceptId": "es.estudios_llevo_la_mochila_al_colegio",
+      "id": "estudios_llevo_la_mochila_al_colegio",
+      "target": [
+        {
+          "text": "Llevo la mochila al colegio.",
+          "audioSlug": "llevo_la_mochila_al_colegio"
+        }
+      ]
+    },
+    "es.gym_pre_workout_meal_timing": {
+      "conceptId": "es.gym_pre_workout_meal_timing",
+      "id": "gym_pre_workout_meal_timing",
+      "target": [
+        {
+          "text": "¿Qué debería comer antes de entrenar y cuánto tiempo antes?",
+          "audioSlug": "que_deberia_comer_antes_de_entrenar_y_cuanto_tiempo_antes"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_el_mundo_cambia_rapido": {
+      "conceptId": "es.pensamientos_opiniones_el_mundo_cambia_rapido",
+      "id": "pensamientos_opiniones_el_mundo_cambia_rapido",
+      "target": [
+        {
+          "text": "El mundo cambia muy rápido.",
+          "audioSlug": "el_mundo_cambia_muy_rapido"
+        }
+      ]
+    },
+    "es.restaurant_el_mesero_es_muy_amable": {
+      "conceptId": "es.restaurant_el_mesero_es_muy_amable",
+      "id": "restaurant_el_mesero_es_muy_amable",
+      "target": [
+        {
+          "text": "El mesero es muy amable.",
+          "source": "The waiter is very nice.",
+          "labels": {
+            "gender": "masculino",
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "el_mesero_es_muy_amable"
+        },
+        {
+          "text": "La mesera es muy amable.",
+          "source": "The waitress is very nice.",
+          "labels": {
+            "gender": "femenino",
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "la_mesera_es_muy_amable"
+        },
+        {
+          "text": "El camarero es muy amable.",
+          "source": "The waiter is very nice.",
+          "labels": {
+            "gender": "masculino",
+            "region": "España"
+          },
+          "audioSlug": "el_camarero_es_muy_amable"
+        },
+        {
+          "text": "La camarera es muy amable.",
+          "source": "The waitress is very nice.",
+          "labels": {
+            "gender": "femenino",
+            "region": "España"
+          },
+          "audioSlug": "la_camarera_es_muy_amable"
+        }
+      ]
+    },
+    "es.sitios_el_museo_esta_al_sur_de_la_ciudad": {
+      "conceptId": "es.sitios_el_museo_esta_al_sur_de_la_ciudad",
+      "id": "sitios_el_museo_esta_al_sur_de_la_ciudad",
+      "target": [
+        {
+          "text": "El museo está al sur de la ciudad.",
+          "audioSlug": "el_museo_esta_al_sur_de_la_ciudad"
+        }
+      ]
+    },
+    "es.technology_este_icono_puede_representar_un_error": {
+      "conceptId": "es.technology_este_icono_puede_representar_un_error",
+      "id": "technology_este_icono_puede_representar_un_error",
+      "target": [
+        {
+          "text": "Este icono puede representar un error.",
+          "audioSlug": "este_icono_puede_representar_un_error"
+        }
+      ]
+    },
+    "es.weather_it_is_going_to_rain_this_afternoon": {
+      "conceptId": "es.weather_it_is_going_to_rain_this_afternoon",
+      "id": "weather_it_is_going_to_rain_this_afternoon",
+      "target": [
+        {
+          "text": "Va a llover por la tarde.",
+          "audioSlug": "va_a_llover_por_la_tarde"
+        }
+      ]
+    }
+  }
+}

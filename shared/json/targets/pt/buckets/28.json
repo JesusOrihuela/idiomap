@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "pt",
+  "bucket": "28",
+  "concepts": {
+    "pt.piloto_cuanto_cuesta": {
+      "conceptId": "pt.piloto_cuanto_cuesta",
+      "id": "piloto_cuanto_cuesta",
+      "target": [
+        {
+          "text": "Quanto custa?",
+          "audioSlug": "cuanto_cuesta"
+        }
+      ]
+    }
+  }
+}

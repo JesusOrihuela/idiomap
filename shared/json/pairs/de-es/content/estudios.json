@@ -1,58 +1,670 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "estudios",
-  "conceptIds": [
-    "es.estudios_estudio_en_la_universidad",
-    "es.estudios_tengo_un_examen_el_lunes",
-    "es.estudios_tengo_que_hacer_la_tarea",
-    "es.estudios_el_profesor_explica_la_leccion",
-    "es.estudios_me_gusta_aprender_idiomas",
-    "es.estudios_saque_una_buena_nota",
-    "es.estudios_la_biblioteca_esta_abierta",
-    "es.estudios_estudio_para_ser_ingeniera",
-    "es.estudios_que_carrera_estudias",
-    "es.estudios_escribo_en_mi_cuaderno",
-    "es.estudios_leo_un_libro_nuevo_cada_mes",
-    "es.estudios_mi_clase_empieza_a_las_nueve",
-    "es.estudios_estudio_con_mis_companeros",
-    "es.estudios_estudio_la_lengua_espanola",
-    "es.estudios_mi_hermano_mayor_va_a_la_universidad",
-    "es.estudios_necesito_varios_libros_para_el_curso",
-    "es.estudios_el_senor_perez_es_mi_profesor",
-    "es.estudios_este_tema_es_mas_dificil_que_el_anterior",
-    "es.estudios_mis_hijos_van_a_la_escuela",
-    "es.estudios_quiero_crear_un_proyecto_nuevo",
-    "es.estudios_pasamos_al_siguiente_ejercicio",
-    "es.estudios_no_entiendo_este_punto",
-    "es.estudios_aprender_idiomas_forma_el_caracter",
-    "es.estudios_necesito_una_imagen_para_mi_presentacion",
-    "es.estudios_la_educacion_es_un_derecho",
-    "es.estudios_cada_estudiante_tiene_un_horario",
-    "es.estudios_el_alumno_estudia_para_el_examen",
-    "es.estudios_me_gusta_ensenar_a_los_mas_jovenes",
-    "es.estudios_la_prueba_final_fue_muy_dificil",
-    "es.estudios_dame_un_ejemplo_concreto_por_favor",
-    "es.estudios_la_literatura_espanola_es_muy_rica",
-    "es.estudios_guarde_todos_los_datos_del_estudio",
-    "es.estudios_me_gustan_las_novelas_de_detective",
-    "es.estudios_ese_cuento_infantil_es_precioso",
-    "es.estudios_sigue_el_modelo_del_libro",
-    "es.estudios_escribo_en_mi_diario_cada_noche",
-    "es.estudios_casi_no_entiendo_tu_letra",
-    "es.estudios_escribo_con_un_boligrafo_azul",
-    "es.estudios_dibujo_con_lapiz_y_goma",
-    "es.estudios_busco_la_palabra_en_el_diccionario",
-    "es.estudios_el_profesor_escribe_en_la_pizarra",
-    "es.estudios_los_libros_estan_en_la_estanteria",
-    "es.estudios_meto_los_cuadernos_en_la_cartera",
-    "es.estudios_espero_aprobar_todos_los_examenes",
-    "es.estudios_no_quiero_suspender_esta_asignatura",
-    "es.estudios_ya_pague_la_matricula_del_curso",
-    "es.estudios_necesito_un_certificado_de_estudios",
-    "es.estudios_la_gramatica_alemana_es_dificil",
-    "es.estudios_escribe_una_oracion_completa",
-    "es.estudios_me_interesa_mucho_la_ciencia",
-    "es.estudios_la_clase_de_ciencias_es_mi_favorita"
+  "phrases": [
+    {
+      "conceptId": "es.estudios_estudio_en_la_universidad",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b278a49b483bf194"
+    },
+    {
+      "conceptId": "es.estudios_tengo_un_examen_el_lunes",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a16304ccc21e5f3c"
+    },
+    {
+      "conceptId": "es.estudios_tengo_que_hacer_la_tarea",
+      "level": "A2",
+      "grammar": "tener que más infinitivo expresa una obligación, tengo que hacer.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9e4dade47bad45e1"
+    },
+    {
+      "conceptId": "es.estudios_el_profesor_explica_la_leccion",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3682579ab812ba9a"
+    },
+    {
+      "conceptId": "es.estudios_me_gusta_aprender_idiomas",
+      "level": "A2",
+      "grammar": "me gusta más infinitivo, me gusta aprender.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d9cba76b75167238"
+    },
+    {
+      "conceptId": "es.estudios_saque_una_buena_nota",
+      "level": "B1",
+      "grammar": "saqué es pretérito indefinido, una acción terminada.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4e1ac3cda2a704d5"
+    },
+    {
+      "conceptId": "es.estudios_la_biblioteca_esta_abierta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.45b6e14dafeef788"
+    },
+    {
+      "conceptId": "es.estudios_estudio_para_ser_ingeniera",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9ee5c1420e02d03e"
+    },
+    {
+      "conceptId": "es.estudios_que_carrera_estudias",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a58da8b5bb664e6b"
+    },
+    {
+      "conceptId": "es.estudios_escribo_en_mi_cuaderno",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4760767f4b946421"
+    },
+    {
+      "conceptId": "es.estudios_leo_un_libro_nuevo_cada_mes",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.643ffa8fa9d02d61"
+    },
+    {
+      "conceptId": "es.estudios_mi_clase_empieza_a_las_nueve",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5358fa0bad24523e"
+    },
+    {
+      "conceptId": "es.estudios_estudio_con_mis_companeros",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4e25e8c7bd77b020"
+    },
+    {
+      "conceptId": "es.estudios_estudio_la_lengua_espanola",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8a985b6e49cf06e7"
+    },
+    {
+      "conceptId": "es.estudios_mi_hermano_mayor_va_a_la_universidad",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.123e8f748b6e409d"
+    },
+    {
+      "conceptId": "es.estudios_necesito_varios_libros_para_el_curso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e2018f57db79c773"
+    },
+    {
+      "conceptId": "es.estudios_el_senor_perez_es_mi_profesor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2533f87eb1d7c5df"
+    },
+    {
+      "conceptId": "es.estudios_este_tema_es_mas_dificil_que_el_anterior",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.093adff6cb96cdcc"
+    },
+    {
+      "conceptId": "es.estudios_mis_hijos_van_a_la_escuela",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e30dc3d155b0a41d"
+    },
+    {
+      "conceptId": "es.estudios_quiero_crear_un_proyecto_nuevo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8db25567eb0ac209"
+    },
+    {
+      "conceptId": "es.estudios_pasamos_al_siguiente_ejercicio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.94aaf585bbc14ce5"
+    },
+    {
+      "conceptId": "es.estudios_no_entiendo_este_punto",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2cf82d24131b248d"
+    },
+    {
+      "conceptId": "es.estudios_aprender_idiomas_forma_el_caracter",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.131a77a49b85d1bc"
+    },
+    {
+      "conceptId": "es.estudios_necesito_una_imagen_para_mi_presentacion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.64e959e33658d1cb"
+    },
+    {
+      "conceptId": "es.estudios_la_educacion_es_un_derecho",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5f9e7cb58beeaba3"
+    },
+    {
+      "conceptId": "es.estudios_cada_estudiante_tiene_un_horario",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.727d2f9640c49362"
+    },
+    {
+      "conceptId": "es.estudios_el_alumno_estudia_para_el_examen",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.777e72cc45e4f345"
+    },
+    {
+      "conceptId": "es.estudios_me_gusta_ensenar_a_los_mas_jovenes",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.22c18922ed49129e"
+    },
+    {
+      "conceptId": "es.estudios_la_prueba_final_fue_muy_dificil",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3238d368331a6a3e"
+    },
+    {
+      "conceptId": "es.estudios_dame_un_ejemplo_concreto_por_favor",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9170f468241c172a"
+    },
+    {
+      "conceptId": "es.estudios_la_literatura_espanola_es_muy_rica",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.141efa9ba0ec545e"
+    },
+    {
+      "conceptId": "es.estudios_guarde_todos_los_datos_del_estudio",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.81328123bbdf4df3"
+    },
+    {
+      "conceptId": "es.estudios_me_gustan_las_novelas_de_detective",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3d29f96a10bd0187"
+    },
+    {
+      "conceptId": "es.estudios_ese_cuento_infantil_es_precioso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cd60da5e47bf730e"
+    },
+    {
+      "conceptId": "es.estudios_sigue_el_modelo_del_libro",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3a0646abea246f8c"
+    },
+    {
+      "conceptId": "es.estudios_escribo_en_mi_diario_cada_noche",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b824e7ddbb243887"
+    },
+    {
+      "conceptId": "es.estudios_casi_no_entiendo_tu_letra",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d0a4f83abebf5bff"
+    },
+    {
+      "conceptId": "es.estudios_escribo_con_un_boligrafo_azul",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2bf45033f818cdf1"
+    },
+    {
+      "conceptId": "es.estudios_dibujo_con_lapiz_y_goma",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.eb2a903e26f4ad48"
+    },
+    {
+      "conceptId": "es.estudios_busco_la_palabra_en_el_diccionario",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b5a3f85a0a1a7f57"
+    },
+    {
+      "conceptId": "es.estudios_el_profesor_escribe_en_la_pizarra",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.44526b2115f2bd62"
+    },
+    {
+      "conceptId": "es.estudios_los_libros_estan_en_la_estanteria",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.adc1077896ceefcd"
+    },
+    {
+      "conceptId": "es.estudios_meto_los_cuadernos_en_la_cartera",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6a5ff0683dd19345"
+    },
+    {
+      "conceptId": "es.estudios_espero_aprobar_todos_los_examenes",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.65f74906c7a50dcd"
+    },
+    {
+      "conceptId": "es.estudios_no_quiero_suspender_esta_asignatura",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b8a4b3e8552f2c77"
+    },
+    {
+      "conceptId": "es.estudios_ya_pague_la_matricula_del_curso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.39fc47b61192bbaf"
+    },
+    {
+      "conceptId": "es.estudios_necesito_un_certificado_de_estudios",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f4c33cdd5517b33e"
+    },
+    {
+      "conceptId": "es.estudios_la_gramatica_alemana_es_dificil",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.35e1fddaacabca97"
+    },
+    {
+      "conceptId": "es.estudios_escribe_una_oracion_completa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6d47e31c63682523"
+    },
+    {
+      "conceptId": "es.estudios_me_interesa_mucho_la_ciencia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7f08bf89e8b95cc7"
+    },
+    {
+      "conceptId": "es.estudios_la_clase_de_ciencias_es_mi_favorita",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.68db1b6f3cd4ca1c"
+    }
   ]
 }

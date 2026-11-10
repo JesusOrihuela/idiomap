@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "f3",
+  "concepts": {
+    "es.airport_boarding_pass_gate": {
+      "conceptId": "es.airport_boarding_pass_gate",
+      "id": "airport_boarding_pass_gate",
+      "target": [
+        {
+          "text": "Debo mostrar mi pase de abordar en la puerta.",
+          "audioSlug": "debo_mostrar_mi_pase_de_abordar_en_la_puerta"
+        }
+      ]
+    },
+    "es.cotidianidad_es_tarde_tengo_que_irme": {
+      "conceptId": "es.cotidianidad_es_tarde_tengo_que_irme",
+      "id": "cotidianidad_es_tarde_tengo_que_irme",
+      "target": [
+        {
+          "text": "Es tarde, tengo que irme.",
+          "audioSlug": "es_tarde_tengo_que_irme"
+        }
+      ]
+    },
+    "es.describiendo_personas_es_una_mujer_muy_fuerte": {
+      "conceptId": "es.describiendo_personas_es_una_mujer_muy_fuerte",
+      "id": "describiendo_personas_es_una_mujer_muy_fuerte",
+      "target": [
+        {
+          "text": "Es una mujer muy fuerte.",
+          "audioSlug": "es_una_mujer_muy_fuerte"
+        }
+      ]
+    },
+    "es.descripciones_su_ropa_es_siempre_elegante": {
+      "conceptId": "es.descripciones_su_ropa_es_siempre_elegante",
+      "id": "descripciones_su_ropa_es_siempre_elegante",
+      "target": [
+        {
+          "text": "Su ropa es siempre elegante.",
+          "audioSlug": "su_ropa_es_siempre_elegante"
+        }
+      ]
+    },
+    "es.directions_el_colegio_esta_al_final_de_la_calle": {
+      "conceptId": "es.directions_el_colegio_esta_al_final_de_la_calle",
+      "id": "directions_el_colegio_esta_al_final_de_la_calle",
+      "target": [
+        {
+          "text": "El colegio está al final de la calle.",
+          "audioSlug": "el_colegio_esta_al_final_de_la_calle"
+        }
+      ]
+    },
+    "es.gym_are_group_classes_available": {
+      "conceptId": "es.gym_are_group_classes_available",
+      "id": "gym_are_group_classes_available",
+      "target": [
+        {
+          "text": "¿Hay clases grupales disponibles?",
+          "audioSlug": "hay_clases_grupales_disponibles"
+        }
+      ]
+    },
+    "es.kitchen_me_encanta_el_chocolate_negro": {
+      "conceptId": "es.kitchen_me_encanta_el_chocolate_negro",
+      "id": "kitchen_me_encanta_el_chocolate_negro",
+      "target": [
+        {
+          "text": "Me encanta el chocolate negro.",
+          "audioSlug": "me_encanta_el_chocolate_negro"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_la_luna_brilla_en_el_cielo": {
+      "conceptId": "es.naturaleza_lugares_la_luna_brilla_en_el_cielo",
+      "id": "naturaleza_lugares_la_luna_brilla_en_el_cielo",
+      "target": [
+        {
+          "text": "La luna brilla en el cielo.",
+          "audioSlug": "la_luna_brilla_en_el_cielo"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_todo_esta_relacionado": {
+      "conceptId": "es.pensamientos_opiniones_todo_esta_relacionado",
+      "id": "pensamientos_opiniones_todo_esta_relacionado",
+      "target": [
+        {
+          "text": "Todo está relacionado con todo.",
+          "audioSlug": "todo_esta_relacionado_con_todo"
+        }
+      ]
+    },
+    "es.survival_can_you_help_me": {
+      "conceptId": "es.survival_can_you_help_me",
+      "id": "survival_can_you_help_me",
+      "target": [
+        {
+          "text": "¿Puedes ayudarme?",
+          "source": "Kannst du mir helfen?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "puedes_ayudarme"
+        },
+        {
+          "text": "¿Puede ayudarme?",
+          "source": "Können Sie mir helfen?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_ayudarme"
+        }
+      ]
+    },
+    "es.transportation_taxi_fare_city": {
+      "conceptId": "es.transportation_taxi_fare_city",
+      "id": "transportation_taxi_fare_city",
+      "target": [
+        {
+          "text": "¿Cuál es la tarifa de un taxi al centro?",
+          "audioSlug": "cual_es_la_tarifa_de_un_taxi_al_centro"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "16",
+  "concepts": {
+    "en.cotidianidad_i_m_running_late": {
+      "conceptId": "en.cotidianidad_i_m_running_late",
+      "id": "cotidianidad_i_m_running_late",
+      "target": [
+        {
+          "text": "I'm running late.",
+          "audioSlug": "i_m_running_late"
+        }
+      ]
+    },
+    "en.economia_the_stock_market_is_up": {
+      "conceptId": "en.economia_the_stock_market_is_up",
+      "id": "economia_the_stock_market_is_up",
+      "target": [
+        {
+          "text": "The stock market is up.",
+          "audioSlug": "the_stock_market_is_up"
+        }
+      ]
+    },
+    "en.emociones_why_are_you_so_happy": {
+      "conceptId": "en.emociones_why_are_you_so_happy",
+      "id": "emociones_why_are_you_so_happy",
+      "target": [
+        {
+          "text": "Why are you so happy?",
+          "audioSlug": "why_are_you_so_happy"
+        }
+      ]
+    },
+    "en.estudios_i_have_to_do_my_homework": {
+      "conceptId": "en.estudios_i_have_to_do_my_homework",
+      "id": "estudios_i_have_to_do_my_homework",
+      "target": [
+        {
+          "text": "I have to do my homework.",
+          "audioSlug": "i_have_to_do_my_homework"
+        }
+      ]
+    },
+    "en.kitchen_dinner_is_ready": {
+      "conceptId": "en.kitchen_dinner_is_ready",
+      "id": "kitchen_dinner_is_ready",
+      "target": [
+        {
+          "text": "Dinner is ready.",
+          "audioSlug": "dinner_is_ready"
+        }
+      ]
+    },
+    "en.kitchen_the_rolling_pin_to_flatten_the": {
+      "conceptId": "en.kitchen_the_rolling_pin_to_flatten_the",
+      "id": "kitchen_the_rolling_pin_to_flatten_the",
+      "target": [
+        {
+          "text": "The rolling pin is in the drawer.",
+          "audioSlug": "the_rolling_pin_is_in_the_drawer"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_this_situation_is_funny": {
+      "conceptId": "en.pensamientos_opiniones_this_situation_is_funny",
+      "id": "pensamientos_opiniones_this_situation_is_funny",
+      "target": [
+        {
+          "text": "This situation is funny.",
+          "audioSlug": "this_situation_is_funny"
+        }
+      ]
+    },
+    "en.transportation_how_get_bus_stop": {
+      "conceptId": "en.transportation_how_get_bus_stop",
+      "id": "transportation_how_get_bus_stop",
+      "target": [
+        {
+          "text": "How do I get to the bus stop?",
+          "audioSlug": "how_do_i_get_to_the_bus_stop"
+        }
+      ]
+    },
+    "en.weather_im_cold": {
+      "conceptId": "en.weather_im_cold",
+      "id": "weather_im_cold",
+      "target": [
+        {
+          "text": "I'm cold.",
+          "audioSlug": "i_m_cold"
+        }
+      ]
+    }
+  }
+}

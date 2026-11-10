@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "92",
+  "concepts": {
+    "es.accountability_operating_expenses_exceeded_budget": {
+      "conceptId": "es.accountability_operating_expenses_exceeded_budget",
+      "id": "accountability_operating_expenses_exceeded_budget",
+      "target": [
+        {
+          "text": "Los gastos operativos superaron el presupuesto en un doce por ciento el trimestre pasado.",
+          "audioSlug": "los_gastos_operativos_superaron_el_presupuesto_en_un_doce_por_ciento_el_trimestre_pasado"
+        }
+      ]
+    },
+    "es.directions_entra_por_la_puerta_principal": {
+      "conceptId": "es.directions_entra_por_la_puerta_principal",
+      "id": "directions_entra_por_la_puerta_principal",
+      "target": [
+        {
+          "text": "Entra por la puerta principal.",
+          "audioSlug": "entra_por_la_puerta_principal"
+        }
+      ]
+    },
+    "es.directions_sube_por_la_escalera_hasta_el_tercer_piso": {
+      "conceptId": "es.directions_sube_por_la_escalera_hasta_el_tercer_piso",
+      "id": "directions_sube_por_la_escalera_hasta_el_tercer_piso",
+      "target": [
+        {
+          "text": "Sube por la escalera hasta el tercer piso.",
+          "audioSlug": "sube_por_la_escalera_hasta_el_tercer_piso"
+        }
+      ]
+    },
+    "es.economia_el_desarrollo_del_negocio_fue_lento": {
+      "conceptId": "es.economia_el_desarrollo_del_negocio_fue_lento",
+      "id": "economia_el_desarrollo_del_negocio_fue_lento",
+      "target": [
+        {
+          "text": "El desarrollo del negocio fue lento.",
+          "audioSlug": "el_desarrollo_del_negocio_fue_lento"
+        }
+      ]
+    },
+    "es.economia_el_sueldo_minimo_subio_este_ano": {
+      "conceptId": "es.economia_el_sueldo_minimo_subio_este_ano",
+      "id": "economia_el_sueldo_minimo_subio_este_ano",
+      "target": [
+        {
+          "text": "El sueldo mínimo subió este año.",
+          "audioSlug": "el_sueldo_minimo_subio_este_ano"
+        }
+      ]
+    },
+    "es.emociones_esta_de_buen_humor": {
+      "conceptId": "es.emociones_esta_de_buen_humor",
+      "id": "emociones_esta_de_buen_humor",
+      "target": [
+        {
+          "text": "Está de buen humor.",
+          "audioSlug": "esta_de_buen_humor"
+        }
+      ]
+    },
+    "es.kitchen_la_comida_esta_en_el_horno": {
+      "conceptId": "es.kitchen_la_comida_esta_en_el_horno",
+      "id": "kitchen_la_comida_esta_en_el_horno",
+      "target": [
+        {
+          "text": "La comida está en el horno.",
+          "audioSlug": "la_comida_esta_en_el_horno"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_la_isla_esta_rodeada_de_mar": {
+      "conceptId": "es.naturaleza_lugares_la_isla_esta_rodeada_de_mar",
+      "id": "naturaleza_lugares_la_isla_esta_rodeada_de_mar",
+      "target": [
+        {
+          "text": "La isla está rodeada de mar.",
+          "audioSlug": "la_isla_esta_rodeada_de_mar"
+        }
+      ]
+    },
+    "es.personal_info_i_live_with_my_family": {
+      "conceptId": "es.personal_info_i_live_with_my_family",
+      "id": "personal_info_i_live_with_my_family",
+      "target": [
+        {
+          "text": "Vivo con mi familia.",
+          "audioSlug": "vivo_con_mi_familia"
+        }
+      ]
+    },
+    "es.restaurant_de_primero_una_ensalada_mixta": {
+      "conceptId": "es.restaurant_de_primero_una_ensalada_mixta",
+      "id": "restaurant_de_primero_una_ensalada_mixta",
+      "target": [
+        {
+          "text": "De primero, una ensalada mixta.",
+          "audioSlug": "de_primero_una_ensalada_mixta"
+        }
+      ]
+    },
+    "es.sitios_este_es_mi_sitio": {
+      "conceptId": "es.sitios_este_es_mi_sitio",
+      "id": "sitios_este_es_mi_sitio",
+      "target": [
+        {
+          "text": "Este es mi sitio.",
+          "audioSlug": "este_es_mi_sitio"
+        }
+      ]
+    },
+    "es.theater_lighting_sound_immersive": {
+      "conceptId": "es.theater_lighting_sound_immersive",
+      "id": "theater_lighting_sound_immersive",
+      "target": [
+        {
+          "text": "La iluminación y el sonido logran una inmersión rara en el teatro en vivo.",
+          "audioSlug": "la_iluminacion_y_el_sonido_logran_una_inmersion_rara_en_el_teatro_en_vivo"
+        }
+      ]
+    }
+  }
+}

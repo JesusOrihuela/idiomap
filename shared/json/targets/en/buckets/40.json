@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "40",
+  "concepts": {
+    "en.conversacion_if_asked_would_helped": {
+      "conceptId": "en.conversacion_if_asked_would_helped",
+      "id": "conversacion_if_asked_would_helped",
+      "target": [
+        {
+          "text": "If they had asked, I would have helped them.",
+          "audioSlug": "if_they_had_asked_i_would_have_helped_them"
+        }
+      ]
+    },
+    "en.economia_business_is_slow": {
+      "conceptId": "en.economia_business_is_slow",
+      "id": "economia_business_is_slow",
+      "target": [
+        {
+          "text": "Business is slow.",
+          "audioSlug": "business_is_slow"
+        }
+      ]
+    },
+    "en.emociones_im_angry": {
+      "conceptId": "en.emociones_im_angry",
+      "id": "emociones_im_angry",
+      "target": [
+        {
+          "text": "I'm angry.",
+          "audioSlug": "i_m_angry"
+        }
+      ]
+    },
+    "en.movies_second_half_pacing_rushed": {
+      "conceptId": "en.movies_second_half_pacing_rushed",
+      "id": "movies_second_half_pacing_rushed",
+      "target": [
+        {
+          "text": "The second half felt rushed compared to the slow build-up of the first act.",
+          "audioSlug": "the_second_half_felt_rushed_compared_to_the_slow_build_up_of_the_first_act"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_i_have_a_good_idea": {
+      "conceptId": "en.pensamientos_opiniones_i_have_a_good_idea",
+      "id": "pensamientos_opiniones_i_have_a_good_idea",
+      "target": [
+        {
+          "text": "I have a good idea.",
+          "audioSlug": "i_have_a_good_idea"
+        }
+      ]
+    },
+    "en.theater_outdoor_atmosphere_different": {
+      "conceptId": "en.theater_outdoor_atmosphere_different",
+      "id": "theater_outdoor_atmosphere_different",
+      "target": [
+        {
+          "text": "There is something special about watching a play outdoors.",
+          "audioSlug": "there_is_something_special_about_watching_a_play_outdoors"
+        }
+      ]
+    }
+  }
+}

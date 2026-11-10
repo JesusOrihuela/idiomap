@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "a9",
+  "concepts": {
+    "en.greetings_been_ages_how_keeping": {
+      "conceptId": "en.greetings_been_ages_how_keeping",
+      "id": "greetings_been_ages_how_keeping",
+      "target": [
+        {
+          "text": "It's been ages! How have you been keeping?",
+          "audioSlug": "it_s_been_ages_how_have_you_been_keeping"
+        }
+      ]
+    },
+    "en.profesiones_chef_prepared_meal": {
+      "conceptId": "en.profesiones_chef_prepared_meal",
+      "id": "profesiones_chef_prepared_meal",
+      "target": [
+        {
+          "text": "The chef prepared a delicious meal.",
+          "audioSlug": "the_chef_prepared_a_delicious_meal"
+        }
+      ]
+    },
+    "en.profesiones_wants_to_become_doctor": {
+      "conceptId": "en.profesiones_wants_to_become_doctor",
+      "id": "profesiones_wants_to_become_doctor",
+      "target": [
+        {
+          "text": "He wants to become a doctor.",
+          "audioSlug": "he_wants_to_become_a_doctor"
+        }
+      ]
+    }
+  }
+}

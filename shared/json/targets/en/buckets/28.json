@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "28",
+  "concepts": {
+    "en.accountability_the_accounting_department_has_already_delivered": {
+      "conceptId": "en.accountability_the_accounting_department_has_already_delivered",
+      "id": "accountability_the_accounting_department_has_already_delivered",
+      "target": [
+        {
+          "text": "The Accounting department has already delivered the financial reports.",
+          "audioSlug": "the_accounting_department_has_already_delivered_the_financial_reports"
+        }
+      ]
+    },
+    "en.family_parents_divorced": {
+      "conceptId": "en.family_parents_divorced",
+      "id": "family_parents_divorced",
+      "target": [
+        {
+          "text": "My parents are divorced.",
+          "audioSlug": "my_parents_are_divorced"
+        }
+      ]
+    },
+    "en.gym_how_much_cardio_time_do_i": {
+      "conceptId": "en.gym_how_much_cardio_time_do_i",
+      "id": "gym_how_much_cardio_time_do_i",
+      "target": [
+        {
+          "text": "How much cardio time do I have today?",
+          "audioSlug": "how_much_cardio_time_do_i_have_today"
+        }
+      ]
+    },
+    "en.movies_character_arc_fully_earned": {
+      "conceptId": "en.movies_character_arc_fully_earned",
+      "id": "movies_character_arc_fully_earned",
+      "target": [
+        {
+          "text": "By the final act, the character's transformation felt fully earned. Nothing seemed forced.",
+          "audioSlug": "by_the_final_act_the_character_s_transformation_felt_fully_earned_nothing_seemed_forced"
+        }
+      ]
+    },
+    "en.oficina_sign_here": {
+      "conceptId": "en.oficina_sign_here",
+      "id": "oficina_sign_here",
+      "target": [
+        {
+          "text": "Sign here.",
+          "audioSlug": "sign_here"
+        }
+      ]
+    },
+    "en.vestimenta_i_need_to_buy_new_clothes": {
+      "conceptId": "en.vestimenta_i_need_to_buy_new_clothes",
+      "id": "vestimenta_i_need_to_buy_new_clothes",
+      "target": [
+        {
+          "text": "I need to buy new clothes.",
+          "audioSlug": "i_need_to_buy_new_clothes"
+        }
+      ]
+    }
+  }
+}

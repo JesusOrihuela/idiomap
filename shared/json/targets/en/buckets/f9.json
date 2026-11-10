@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "f9",
+  "concepts": {
+    "en.accommodation_room_service_wrong_order": {
+      "conceptId": "en.accommodation_room_service_wrong_order",
+      "id": "accommodation_room_service_wrong_order",
+      "target": [
+        {
+          "text": "My room service arrived with the wrong items. Please send the correct meal up.",
+          "audioSlug": "my_room_service_arrived_with_the_wrong_items_please_send_the_correct_meal_up"
+        }
+      ]
+    },
+    "en.cotidianidad_i_need_to_go_to_the_bathroom": {
+      "conceptId": "en.cotidianidad_i_need_to_go_to_the_bathroom",
+      "id": "cotidianidad_i_need_to_go_to_the_bathroom",
+      "target": [
+        {
+          "text": "I need to go to the bathroom.",
+          "audioSlug": "i_need_to_go_to_the_bathroom"
+        }
+      ]
+    },
+    "en.describiendo_personas_he_is_a_good_boy": {
+      "conceptId": "en.describiendo_personas_he_is_a_good_boy",
+      "id": "describiendo_personas_he_is_a_good_boy",
+      "target": [
+        {
+          "text": "He is a good boy.",
+          "audioSlug": "he_is_a_good_boy"
+        }
+      ]
+    },
+    "en.economia_country_development_slow": {
+      "conceptId": "en.economia_country_development_slow",
+      "id": "economia_country_development_slow",
+      "target": [
+        {
+          "text": "The country's development is slow.",
+          "audioSlug": "the_country_s_development_is_slow"
+        }
+      ]
+    },
+    "en.emergencias_i_can_t_find_my_phone": {
+      "conceptId": "en.emergencias_i_can_t_find_my_phone",
+      "id": "emergencias_i_can_t_find_my_phone",
+      "target": [
+        {
+          "text": "I can't find my phone.",
+          "audioSlug": "i_can_t_find_my_phone"
+        }
+      ]
+    },
+    "en.family_they_are_a_nice_couple": {
+      "conceptId": "en.family_they_are_a_nice_couple",
+      "id": "family_they_are_a_nice_couple",
+      "target": [
+        {
+          "text": "They are a nice couple.",
+          "audioSlug": "they_are_a_nice_couple"
+        }
+      ]
+    },
+    "en.greetings_dont_believe_formally_introduced": {
+      "conceptId": "en.greetings_dont_believe_formally_introduced",
+      "id": "greetings_dont_believe_formally_introduced",
+      "target": [
+        {
+          "text": "I don't believe we've been formally introduced. I'm here representing the European delegation.",
+          "audioSlug": "i_don_t_believe_we_ve_been_formally_introduced_i_m_here_representing_the_european_delegation"
+        }
+      ]
+    },
+    "en.kitchen_do_we_have_parchment_paper_to": {
+      "conceptId": "en.kitchen_do_we_have_parchment_paper_to",
+      "id": "kitchen_do_we_have_parchment_paper_to",
+      "target": [
+        {
+          "text": "Do we have parchment paper to line the baking sheet?",
+          "audioSlug": "do_we_have_parchment_paper_to_line_the_baking_sheet"
+        }
+      ]
+    },
+    "en.kitchen_the_forks_and_knives_are_in": {
+      "conceptId": "en.kitchen_the_forks_and_knives_are_in",
+      "id": "kitchen_the_forks_and_knives_are_in",
+      "target": [
+        {
+          "text": "The forks and knives are in the drawer.",
+          "audioSlug": "the_forks_and_knives_are_in_the_drawer"
+        }
+      ]
+    },
+    "en.kitchen_the_sandwich_maker_is_in_the": {
+      "conceptId": "en.kitchen_the_sandwich_maker_is_in_the",
+      "id": "kitchen_the_sandwich_maker_is_in_the",
+      "target": [
+        {
+          "text": "The sandwich maker is in the cabinet.",
+          "audioSlug": "the_sandwich_maker_is_in_the_cabinet"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_don_t_forget_it": {
+      "conceptId": "en.pensamientos_opiniones_don_t_forget_it",
+      "id": "pensamientos_opiniones_don_t_forget_it",
+      "target": [
+        {
+          "text": "Don't forget it.",
+          "audioSlug": "don_t_forget_it"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_therefore_different_approach": {
+      "conceptId": "en.pensamientos_opiniones_therefore_different_approach",
+      "id": "pensamientos_opiniones_therefore_different_approach",
+      "target": [
+        {
+          "text": "Therefore, we chose a different approach.",
+          "audioSlug": "therefore_we_chose_a_different_approach"
+        }
+      ]
+    },
+    "en.supermarket_can_you_give_me_a_bag": {
+      "conceptId": "en.supermarket_can_you_give_me_a_bag",
+      "id": "supermarket_can_you_give_me_a_bag",
+      "target": [
+        {
+          "text": "Can you give me a bag, please?",
+          "audioSlug": "can_you_give_me_a_bag_please"
+        }
+      ]
+    },
+    "en.technology_is_there_a_way_to_block": {
+      "conceptId": "en.technology_is_there_a_way_to_block",
+      "id": "technology_is_there_a_way_to_block",
+      "target": [
+        {
+          "text": "Is there a way to block this number?",
+          "audioSlug": "is_there_a_way_to_block_this_number"
+        }
+      ]
+    }
+  }
+}

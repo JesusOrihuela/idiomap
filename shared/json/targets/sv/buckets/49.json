@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "sv",
+  "bucket": "49",
+  "concepts": {
+    "sv.survival_do_you_speak_english": {
+      "conceptId": "sv.survival_do_you_speak_english",
+      "id": "survival_do_you_speak_english",
+      "target": [
+        {
+          "text": "Ursäkta, talar du engelska?",
+          "audioSlug": "ursakta_talar_du_engelska"
+        }
+      ]
+    }
+  }
+}

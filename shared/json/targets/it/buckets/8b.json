@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "it",
+  "bucket": "8b",
+  "concepts": {
+    "it.piloto_donde_esta_la_estacion": {
+      "conceptId": "it.piloto_donde_esta_la_estacion",
+      "id": "piloto_donde_esta_la_estacion",
+      "target": [
+        {
+          "text": "Dov'è la stazione?",
+          "audioSlug": "donde_esta_la_estacion"
+        }
+      ]
+    }
+  }
+}

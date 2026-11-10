@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "6f",
+  "concepts": {
+    "es.accountability_the_tax_returns_are_pending": {
+      "conceptId": "es.accountability_the_tax_returns_are_pending",
+      "id": "accountability_the_tax_returns_are_pending",
+      "target": [
+        {
+          "text": "Las declaraciones de impuestos están pendientes.",
+          "audioSlug": "las_declaraciones_de_impuestos_estan_pendientes"
+        }
+      ]
+    },
+    "es.animales_birds_fly_south": {
+      "conceptId": "es.animales_birds_fly_south",
+      "id": "animales_birds_fly_south",
+      "target": [
+        {
+          "text": "Los pájaros vuelan al sur en invierno.",
+          "audioSlug": "los_pajaros_vuelan_al_sur_en_invierno"
+        }
+      ]
+    },
+    "es.describiendo_personas_el_nino_es_listo": {
+      "conceptId": "es.describiendo_personas_el_nino_es_listo",
+      "id": "describiendo_personas_el_nino_es_listo",
+      "target": [
+        {
+          "text": "El niño es listo.",
+          "source": "The boy is smart.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "el_nino_es_listo"
+        },
+        {
+          "text": "La niña es lista.",
+          "source": "The girl is smart.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "la_nina_es_lista"
+        }
+      ]
+    },
+    "es.descripciones_su_color_es_rojo": {
+      "conceptId": "es.descripciones_su_color_es_rojo",
+      "id": "descripciones_su_color_es_rojo",
+      "target": [
+        {
+          "text": "Su color es rojo.",
+          "audioSlug": "su_color_es_rojo"
+        }
+      ]
+    },
+    "es.directions_el_patio_interior_es_muy_tranquilo": {
+      "conceptId": "es.directions_el_patio_interior_es_muy_tranquilo",
+      "id": "directions_el_patio_interior_es_muy_tranquilo",
+      "target": [
+        {
+          "text": "El patio interior es muy tranquilo.",
+          "audioSlug": "el_patio_interior_es_muy_tranquilo"
+        }
+      ]
+    },
+    "es.music_indie_influence_underestimated": {
+      "conceptId": "es.music_indie_influence_underestimated",
+      "id": "music_indie_influence_underestimated",
+      "target": [
+        {
+          "text": "La influencia de esta banda en la música indie de la última década ha sido subestimada.",
+          "audioSlug": "la_influencia_de_esta_banda_en_la_musica_indie_de_la_ultima_decada_ha_sido_subestimada"
+        }
+      ]
+    },
+    "es.restaurant_could_you_turn_down_the_music": {
+      "conceptId": "es.restaurant_could_you_turn_down_the_music",
+      "id": "restaurant_could_you_turn_down_the_music",
+      "target": [
+        {
+          "text": "¿Podría bajar un poco la música, por favor?",
+          "audioSlug": "podria_bajar_un_poco_la_musica_por_favor"
+        }
+      ]
+    },
+    "es.supermarket_do_you_have_larger_size": {
+      "conceptId": "es.supermarket_do_you_have_larger_size",
+      "id": "supermarket_do_you_have_larger_size",
+      "target": [
+        {
+          "text": "¿Tiene este producto en un tamaño más grande?",
+          "audioSlug": "tiene_este_producto_en_un_tamano_mas_grande"
+        }
+      ]
+    },
+    "es.technology_what_cell_phone_do_you_recommend": {
+      "conceptId": "es.technology_what_cell_phone_do_you_recommend",
+      "id": "technology_what_cell_phone_do_you_recommend",
+      "target": [
+        {
+          "text": "¿Qué celular me recomiendas?",
+          "audioSlug": "que_celular_me_recomiendas",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "¿Qué móvil me recomiendas?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "que_movil_me_recomiendas"
+        }
+      ]
+    }
+  }
+}

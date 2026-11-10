@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "2b",
+  "concepts": {
+    "en.accountability_file_taxes": {
+      "conceptId": "en.accountability_file_taxes",
+      "id": "accountability_file_taxes",
+      "target": [
+        {
+          "text": "I need to file my taxes.",
+          "audioSlug": "i_need_to_file_my_taxes"
+        }
+      ]
+    },
+    "en.daily_routine_breakfast_at_eight": {
+      "conceptId": "en.daily_routine_breakfast_at_eight",
+      "id": "daily_routine_breakfast_at_eight",
+      "target": [
+        {
+          "text": "I have breakfast at eight.",
+          "audioSlug": "i_have_breakfast_at_eight"
+        }
+      ]
+    },
+    "en.kitchen_pass_me_the_salt_from_the": {
+      "conceptId": "en.kitchen_pass_me_the_salt_from_the",
+      "id": "kitchen_pass_me_the_salt_from_the",
+      "target": [
+        {
+          "text": "Pass me the salt from the pantry.",
+          "audioSlug": "pass_me_the_salt_from_the_pantry"
+        }
+      ]
+    },
+    "en.oficina_recommends_that_he_arrive": {
+      "conceptId": "en.oficina_recommends_that_he_arrive",
+      "id": "oficina_recommends_that_he_arrive",
+      "target": [
+        {
+          "text": "The manager recommends that he arrive early.",
+          "audioSlug": "the_manager_recommends_that_he_arrive_early"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_did_you_notice_that": {
+      "conceptId": "en.pensamientos_opiniones_did_you_notice_that",
+      "id": "pensamientos_opiniones_did_you_notice_that",
+      "target": [
+        {
+          "text": "Did you notice that?",
+          "audioSlug": "did_you_notice_that"
+        }
+      ]
+    },
+    "en.supermarket_i_need_to_buy_milk_bread": {
+      "conceptId": "en.supermarket_i_need_to_buy_milk_bread",
+      "id": "supermarket_i_need_to_buy_milk_bread",
+      "target": [
+        {
+          "text": "I need to buy milk, bread and eggs.",
+          "audioSlug": "i_need_to_buy_milk_bread_and_eggs"
+        }
+      ]
+    },
+    "en.viajes_i_m_going_to_rent_a_car": {
+      "conceptId": "en.viajes_i_m_going_to_rent_a_car",
+      "id": "viajes_i_m_going_to_rent_a_car",
+      "target": [
+        {
+          "text": "I'm going to rent a car.",
+          "audioSlug": "i_m_going_to_rent_a_car"
+        }
+      ]
+    }
+  }
+}

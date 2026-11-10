@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "2f",
+  "concepts": {
+    "es.deportes_en_invierno_vamos_a_esquiar": {
+      "conceptId": "es.deportes_en_invierno_vamos_a_esquiar",
+      "id": "deportes_en_invierno_vamos_a_esquiar",
+      "target": [
+        {
+          "text": "En invierno vamos a esquiar.",
+          "audioSlug": "en_invierno_vamos_a_esquiar"
+        }
+      ]
+    },
+    "es.descripciones_he_is_very_nice": {
+      "conceptId": "es.descripciones_he_is_very_nice",
+      "id": "descripciones_he_is_very_nice",
+      "target": [
+        {
+          "text": "Él es muy simpático.",
+          "audioSlug": "el_es_muy_simpatico"
+        }
+      ]
+    },
+    "es.economia_firme_un_contrato_de_trabajo": {
+      "conceptId": "es.economia_firme_un_contrato_de_trabajo",
+      "id": "economia_firme_un_contrato_de_trabajo",
+      "target": [
+        {
+          "text": "Firmé un contrato de trabajo.",
+          "audioSlug": "firme_un_contrato_de_trabajo"
+        }
+      ]
+    },
+    "es.family_live_with_partner": {
+      "conceptId": "es.family_live_with_partner",
+      "id": "family_live_with_partner",
+      "target": [
+        {
+          "text": "Vivo con mi pareja.",
+          "audioSlug": "vivo_con_mi_pareja"
+        }
+      ]
+    },
+    "es.greetings_gracias_senor": {
+      "conceptId": "es.greetings_gracias_senor",
+      "id": "greetings_gracias_senor",
+      "target": [
+        {
+          "text": "Gracias, señor.",
+          "audioSlug": "gracias_senor"
+        }
+      ]
+    },
+    "es.health_tomo_vitaminas_todas_las_mananas": {
+      "conceptId": "es.health_tomo_vitaminas_todas_las_mananas",
+      "id": "health_tomo_vitaminas_todas_las_mananas",
+      "target": [
+        {
+          "text": "Tomo vitaminas todas las mañanas.",
+          "audioSlug": "tomo_vitaminas_todas_las_mananas"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_la_hoja_es_verde": {
+      "conceptId": "es.naturaleza_lugares_la_hoja_es_verde",
+      "id": "naturaleza_lugares_la_hoja_es_verde",
+      "target": [
+        {
+          "text": "La hoja es verde.",
+          "audioSlug": "la_hoja_es_verde"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_i_prefer_coffee": {
+      "conceptId": "es.pensamientos_opiniones_i_prefer_coffee",
+      "id": "pensamientos_opiniones_i_prefer_coffee",
+      "target": [
+        {
+          "text": "Prefiero el café.",
+          "audioSlug": "prefiero_el_cafe"
+        }
+      ]
+    },
+    "es.planes_el_proyecto_se_va_a_convertir_en_algo_grande": {
+      "conceptId": "es.planes_el_proyecto_se_va_a_convertir_en_algo_grande",
+      "id": "planes_el_proyecto_se_va_a_convertir_en_algo_grande",
+      "target": [
+        {
+          "text": "El proyecto se va a convertir en algo grande.",
+          "audioSlug": "el_proyecto_se_va_a_convertir_en_algo_grande"
+        }
+      ]
+    },
+    "es.restaurant_recommendations_for_cocktails": {
+      "conceptId": "es.restaurant_recommendations_for_cocktails",
+      "id": "restaurant_recommendations_for_cocktails",
+      "target": [
+        {
+          "text": "¿Tiene alguna recomendación de cócteles?",
+          "audioSlug": "tiene_alguna_recomendacion_de_cocteles"
+        }
+      ]
+    },
+    "es.supermarket_can_i_pay_in_cash": {
+      "conceptId": "es.supermarket_can_i_pay_in_cash",
+      "id": "supermarket_can_i_pay_in_cash",
+      "target": [
+        {
+          "text": "¿Puedo pagar en efectivo?",
+          "audioSlug": "puedo_pagar_en_efectivo"
+        }
+      ]
+    },
+    "es.supermarket_where_is_the_personal_hygiene_products": {
+      "conceptId": "es.supermarket_where_is_the_personal_hygiene_products",
+      "id": "supermarket_where_is_the_personal_hygiene_products",
+      "target": [
+        {
+          "text": "¿Dónde está la sección de productos de higiene personal?",
+          "audioSlug": "donde_esta_la_seccion_de_productos_de_higiene_personal"
+        }
+      ]
+    },
+    "es.technology_apaga_la_tele_antes_de_dormir": {
+      "conceptId": "es.technology_apaga_la_tele_antes_de_dormir",
+      "id": "technology_apaga_la_tele_antes_de_dormir",
+      "target": [
+        {
+          "text": "Apaga la tele antes de dormir.",
+          "audioSlug": "apaga_la_tele_antes_de_dormir"
+        }
+      ]
+    },
+    "es.weather_thirty_degrees": {
+      "conceptId": "es.weather_thirty_degrees",
+      "id": "weather_thirty_degrees",
+      "target": [
+        {
+          "text": "Estamos a treinta grados.",
+          "audioSlug": "estamos_a_treinta_grados"
+        }
+      ]
+    }
+  }
+}

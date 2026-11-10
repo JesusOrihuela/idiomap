@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "97",
+  "concepts": {
+    "es.accommodation_me_da_la_llave_de_la_habitacion": {
+      "conceptId": "es.accommodation_me_da_la_llave_de_la_habitacion",
+      "id": "accommodation_me_da_la_llave_de_la_habitacion",
+      "target": [
+        {
+          "text": "¿Me da la llave de la habitación?",
+          "audioSlug": "me_da_la_llave_de_la_habitacion"
+        }
+      ]
+    },
+    "es.airport_aqui_esta_mi_pasaporte": {
+      "conceptId": "es.airport_aqui_esta_mi_pasaporte",
+      "id": "airport_aqui_esta_mi_pasaporte",
+      "target": [
+        {
+          "text": "Aquí está mi pasaporte.",
+          "audioSlug": "aqui_esta_mi_pasaporte"
+        }
+      ]
+    },
+    "es.conversacion_esa_es_la_historia": {
+      "conceptId": "es.conversacion_esa_es_la_historia",
+      "id": "conversacion_esa_es_la_historia",
+      "target": [
+        {
+          "text": "Esa es la historia.",
+          "audioSlug": "esa_es_la_historia"
+        }
+      ]
+    },
+    "es.conversacion_i_agree": {
+      "conceptId": "es.conversacion_i_agree",
+      "id": "conversacion_i_agree",
+      "target": [
+        {
+          "text": "Estoy de acuerdo.",
+          "audioSlug": "estoy_de_acuerdo"
+        }
+      ]
+    },
+    "es.conversacion_si_eso_es_justo_lo_que_pienso": {
+      "conceptId": "es.conversacion_si_eso_es_justo_lo_que_pienso",
+      "id": "conversacion_si_eso_es_justo_lo_que_pienso",
+      "target": [
+        {
+          "text": "Sí, eso es justo lo que pienso.",
+          "audioSlug": "si_eso_es_justo_lo_que_pienso"
+        }
+      ]
+    },
+    "es.conversacion_yo_tambien_quiero_decir_algo": {
+      "conceptId": "es.conversacion_yo_tambien_quiero_decir_algo",
+      "id": "conversacion_yo_tambien_quiero_decir_algo",
+      "target": [
+        {
+          "text": "Yo también quiero decir algo.",
+          "audioSlug": "yo_tambien_quiero_decir_algo"
+        }
+      ]
+    },
+    "es.cuerpo_levanta_la_mano_si_tienes_una_pregunta": {
+      "conceptId": "es.cuerpo_levanta_la_mano_si_tienes_una_pregunta",
+      "id": "cuerpo_levanta_la_mano_si_tienes_una_pregunta",
+      "target": [
+        {
+          "text": "Levanta la mano si tienes una pregunta.",
+          "audioSlug": "levanta_la_mano_si_tienes_una_pregunta"
+        }
+      ]
+    },
+    "es.daily_routine_get_home_at_six": {
+      "conceptId": "es.daily_routine_get_home_at_six",
+      "id": "daily_routine_get_home_at_six",
+      "target": [
+        {
+          "text": "Llego a casa a las seis.",
+          "audioSlug": "llego_a_casa_a_las_seis"
+        }
+      ]
+    },
+    "es.estudios_estudio_para_el_examen": {
+      "conceptId": "es.estudios_estudio_para_el_examen",
+      "id": "estudios_estudio_para_el_examen",
+      "target": [
+        {
+          "text": "Estudio para el examen.",
+          "audioSlug": "estudio_para_el_examen"
+        }
+      ]
+    },
+    "es.greetings_por_favor": {
+      "conceptId": "es.greetings_por_favor",
+      "id": "greetings_por_favor",
+      "target": [
+        {
+          "text": "Por favor.",
+          "audioSlug": "por_favor"
+        }
+      ]
+    },
+    "es.gym_what_is_the_best_way_to": {
+      "conceptId": "es.gym_what_is_the_best_way_to",
+      "id": "gym_what_is_the_best_way_to",
+      "target": [
+        {
+          "text": "¿Cuál es la mejor manera de trabajar los músculos abdominales?",
+          "audioSlug": "cual_es_la_mejor_manera_de_trabajar_los_musculos_abdominales"
+        }
+      ]
+    },
+    "es.kitchen_we_need_to_finely_chop_the": {
+      "conceptId": "es.kitchen_we_need_to_finely_chop_the",
+      "id": "kitchen_we_need_to_finely_chop_the",
+      "target": [
+        {
+          "text": "Hay que picar las cebollas finamente.",
+          "audioSlug": "hay_que_picar_las_cebollas_finamente"
+        }
+      ]
+    },
+    "es.kitchen_while_i_remove_the_fish_bones": {
+      "conceptId": "es.kitchen_while_i_remove_the_fish_bones",
+      "id": "kitchen_while_i_remove_the_fish_bones",
+      "target": [
+        {
+          "text": "¿Puedes precalentar el horno mientras limpio el pescado?",
+          "audioSlug": "puedes_precalentar_el_horno_mientras_limpio_el_pescado"
+        }
+      ]
+    }
+  }
+}

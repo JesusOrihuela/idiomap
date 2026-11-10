@@ -1,0 +1,1401 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "gym",
+  "phrases": [
+    {
+      "id": "gym_can_you_show_me_how_to",
+      "conceptId": "en.gym_can_you_show_me_how_to",
+      "sourceId": "es.s.63a0aae13a55e0b2",
+      "source": "¿Puedes mostrarme cómo usar correctamente esta máquina?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Can you show me how to properly use this machine?",
+          "audioSlug": "can_you_show_me_how_to_properly_use_this_machine",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Could you show me how to properly use this machine?",
+          "audioSlug": "could_you_show_me_how_to_properly_use_this_machine",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gym_what_is_the_correct_form_for",
+      "conceptId": "en.gym_what_is_the_correct_form_for",
+      "sourceId": "es.s.c4e463034bb9946c",
+      "source": "¿Cuál es la forma correcta para hacer este ejercicio?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What is the correct form for doing this exercise?",
+          "audioSlug": "what_is_the_correct_form_for_doing_this_exercise"
+        }
+      ]
+    },
+    {
+      "id": "gym_increase_the_elevation_of_the_treadmill",
+      "conceptId": "en.gym_increase_the_elevation_of_the_treadmill",
+      "sourceId": "es.s.f746f765944b5fb1",
+      "source": "Aumenta la inclinación de la caminadora.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Increase the elevation of the treadmill.",
+          "audioSlug": "increase_the_elevation_of_the_treadmill"
+        }
+      ]
+    },
+    {
+      "id": "gym_increase_the_speed_of_the_treadmill",
+      "conceptId": "en.gym_increase_the_speed_of_the_treadmill",
+      "sourceId": "es.s.56cf5c897dfc1b82",
+      "source": "Aumenta la velocidad de la caminadora.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Increase the speed of the treadmill.",
+          "audioSlug": "increase_the_speed_of_the_treadmill"
+        }
+      ]
+    },
+    {
+      "id": "gym_how_many_repetitions_should_i_do",
+      "conceptId": "en.gym_how_many_repetitions_should_i_do",
+      "sourceId": "es.s.0c7eba3bfd58c2cc",
+      "source": "¿Cuántas repeticiones debería hacer para este ejercicio?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How many repetitions should I do for this exercise?",
+          "audioSlug": "how_many_repetitions_should_i_do_for_this_exercise"
+        }
+      ]
+    },
+    {
+      "id": "gym_could_you_demonstrate_how_to_do",
+      "conceptId": "en.gym_could_you_demonstrate_how_to_do",
+      "sourceId": "es.s.0847b67429229717",
+      "source": "¿Podrías demostrarme cómo hacer una sentadilla correctamente?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you demonstrate how to do a squat correctly?",
+          "audioSlug": "could_you_demonstrate_how_to_do_a_squat_correctly",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you demonstrate how to do a squat correctly?",
+          "audioSlug": "can_you_demonstrate_how_to_do_a_squat_correctly",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gym_can_you_recommend_an_appropriate_weight",
+      "conceptId": "en.gym_can_you_recommend_an_appropriate_weight",
+      "sourceId": "es.s.93ad6b5171643795",
+      "source": "¿Puedes recomendarme un peso adecuado para empezar?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Can you recommend an appropriate weight to start with?",
+          "audioSlug": "can_you_recommend_an_appropriate_weight_to_start_with",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Could you recommend an appropriate weight to start with?",
+          "audioSlug": "could_you_recommend_an_appropriate_weight_to_start_with",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gym_is_there_a_warmup_i_should",
+      "conceptId": "en.gym_is_there_a_warmup_i_should",
+      "sourceId": "es.s.659c9af294d6bea9",
+      "source": "¿Hay algún calentamiento que debería seguir?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is there a warm-up I should follow?",
+          "audioSlug": "is_there_a_warm_up_i_should_follow"
+        }
+      ]
+    },
+    {
+      "id": "gym_how_do_i_adjust_the_seat",
+      "conceptId": "en.gym_how_do_i_adjust_the_seat",
+      "sourceId": "es.s.e6cb9b424378b8bd",
+      "source": "¿Cómo ajusto la altura del asiento en esta máquina?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How do I adjust the seat height on this machine?",
+          "audioSlug": "how_do_i_adjust_the_seat_height_on_this_machine"
+        }
+      ]
+    },
+    {
+      "id": "gym_can_you_give_me_some_tips",
+      "conceptId": "en.gym_can_you_give_me_some_tips",
+      "sourceId": "es.s.9fe4010b9fcd75af",
+      "source": "¿Puedes darme consejos para mejorar mi técnica?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you give me tips to improve my technique?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "could_you_give_me_tips_to_improve_my_technique"
+        },
+        {
+          "text": "Can you give me tips to improve my technique?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "can_you_give_me_tips_to_improve_my_technique"
+        }
+      ]
+    },
+    {
+      "id": "gym_what_exercises_do_you_recommend_for",
+      "conceptId": "en.gym_what_exercises_do_you_recommend_for",
+      "sourceId": "es.s.98b57e90be58e9a4",
+      "source": "¿Qué ejercicios recomiendas para fortalecer mi espalda baja?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What exercises do you recommend for strengthening my lower back?",
+          "audioSlug": "what_exercises_do_you_recommend_for_strengthening_my_lower_back"
+        }
+      ]
+    },
+    {
+      "id": "gym_could_you_tell_me_if_im",
+      "conceptId": "en.gym_could_you_tell_me_if_im",
+      "sourceId": "es.s.8ca587d97026d4aa",
+      "source": "¿Podrías decirme si estoy haciendo este ejercicio correctamente?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you tell me if I'm doing this exercise correctly?",
+          "audioSlug": "could_you_tell_me_if_i_m_doing_this_exercise_correctly",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you tell me if I'm doing this exercise correctly?",
+          "audioSlug": "can_you_tell_me_if_i_m_doing_this_exercise_correctly",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gym_today_is_leg_day",
+      "conceptId": "en.gym_today_is_leg_day",
+      "sourceId": "es.s.b2482b1fde7437f4",
+      "source": "Hoy entreno piernas.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Today is leg day.",
+          "audioSlug": "today_is_leg_day"
+        }
+      ]
+    },
+    {
+      "id": "gym_tomorrow_is_arm_day",
+      "conceptId": "en.gym_tomorrow_is_arm_day",
+      "sourceId": "es.s.bea8c2f47cc9b461",
+      "source": "Mañana entreno brazos.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tomorrow is arm day.",
+          "audioSlug": "tomorrow_is_arm_day"
+        }
+      ]
+    },
+    {
+      "id": "gym_is_it_okay_if_i_work",
+      "conceptId": "en.gym_is_it_okay_if_i_work",
+      "sourceId": "es.s.2211009b345f76e2",
+      "source": "¿Está bien si uso esta máquina después de ti?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is it okay if I use this machine after you?",
+          "audioSlug": "is_it_okay_if_i_use_this_machine_after_you"
+        }
+      ]
+    },
+    {
+      "id": "gym_could_you_explain_the_benefits_of",
+      "conceptId": "en.gym_could_you_explain_the_benefits_of",
+      "sourceId": "es.s.1d6b8398895a04cf",
+      "source": "¿Podrías explicarme los beneficios de usar pesas?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you explain the benefits of using weights?",
+          "audioSlug": "could_you_explain_the_benefits_of_using_weights",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you explain the benefits of using weights?",
+          "audioSlug": "can_you_explain_the_benefits_of_using_weights",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gym_what_is_the_proper_breathing_technique",
+      "conceptId": "en.gym_what_is_the_proper_breathing_technique",
+      "sourceId": "es.s.ad795b450d7a8328",
+      "source": "¿Cuál es la técnica de respiración adecuada para este ejercicio?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What is the proper breathing technique for this exercise?",
+          "audioSlug": "what_is_the_proper_breathing_technique_for_this_exercise"
+        }
+      ]
+    },
+    {
+      "id": "gym_do_you_have_any_suggestions_for",
+      "conceptId": "en.gym_do_you_have_any_suggestions_for",
+      "sourceId": "es.s.74442a88aa98ef1a",
+      "source": "¿Tienes alguna sugerencia para aumentar la intensidad de mi entrenamiento?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do you have any suggestions for increasing the intensity of my workout?",
+          "audioSlug": "do_you_have_any_suggestions_for_increasing_the_intensity_of_my_workout"
+        }
+      ]
+    },
+    {
+      "id": "gym_should_i_follow_any_kind_of",
+      "conceptId": "en.gym_should_i_follow_any_kind_of",
+      "sourceId": "es.s.758e66336c146e8d",
+      "source": "¿Debo seguir una rutina para terminar mi entrenamiento?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Should I follow a routine to finish my workout?",
+          "audioSlug": "should_i_follow_a_routine_to_finish_my_workout"
+        }
+      ]
+    },
+    {
+      "id": "gym_we_all_must_properly_disinfect_the",
+      "conceptId": "en.gym_we_all_must_properly_disinfect_the",
+      "sourceId": "es.s.92e9f2af8b2a2de3",
+      "source": "Todos debemos desinfectar correctamente el equipo después de usarlo.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We all must properly disinfect the equipment after using it.",
+          "audioSlug": "we_all_must_properly_disinfect_the_equipment_after_using_it"
+        }
+      ]
+    },
+    {
+      "id": "gym_could_you_recommend_a_stretching_routine",
+      "conceptId": "en.gym_could_you_recommend_a_stretching_routine",
+      "sourceId": "es.s.92e10ddbcd69e706",
+      "source": "¿Podrías recomendarme una rutina de estiramientos?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you recommend a stretching routine?",
+          "audioSlug": "could_you_recommend_a_stretching_routine",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you recommend a stretching routine?",
+          "audioSlug": "can_you_recommend_a_stretching_routine",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gym_do_you_have_any_advice_for",
+      "conceptId": "en.gym_do_you_have_any_advice_for",
+      "sourceId": "es.s.cc1b8d619df28a7e",
+      "source": "¿Tienes algún consejo para prevenir lesiones?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do you have any advice for preventing injuries?",
+          "audioSlug": "do_you_have_any_advice_for_preventing_injuries"
+        }
+      ]
+    },
+    {
+      "id": "gym_show_me_adjust_resistance",
+      "conceptId": "en.gym_show_me_adjust_resistance",
+      "sourceId": "es.s.f705bb6453f86b9e",
+      "source": "¿Puedes mostrarme cómo ajustar la resistencia?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you show me how to adjust the resistance?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "could_you_show_me_how_to_adjust_the_resistance"
+        },
+        {
+          "text": "Can you show me how to adjust the resistance?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "can_you_show_me_how_to_adjust_the_resistance"
+        }
+      ]
+    },
+    {
+      "id": "gym_what_routine_should_i_follow",
+      "conceptId": "en.gym_what_routine_should_i_follow",
+      "sourceId": "es.s.42a823e836e0f22e",
+      "source": "¿Qué rutina debo seguir?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What routine should I follow?",
+          "audioSlug": "what_routine_should_i_follow"
+        }
+      ]
+    },
+    {
+      "id": "gym_what_is_the_best_way_to",
+      "conceptId": "en.gym_what_is_the_best_way_to",
+      "sourceId": "es.s.3665dff88b511d75",
+      "source": "¿Cuál es la mejor manera de trabajar los músculos abdominales?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What is the best way to work the abdominal muscles?",
+          "audioSlug": "what_is_the_best_way_to_work_the_abdominal_muscles"
+        }
+      ]
+    },
+    {
+      "id": "gym_how_much_cardio_time_do_i",
+      "conceptId": "en.gym_how_much_cardio_time_do_i",
+      "sourceId": "es.s.d0d5e7557c483e8f",
+      "source": "¿Cuánto tiempo de cardio me corresponde hoy?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How much cardio time do I have today?",
+          "audioSlug": "how_much_cardio_time_do_i_have_today"
+        }
+      ]
+    },
+    {
+      "id": "gym_is_there_a_specific_order_i",
+      "conceptId": "en.gym_is_there_a_specific_order_i",
+      "sourceId": "es.s.4b6bba953c2898da",
+      "source": "¿Hay un orden específico para las máquinas?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is there a specific order for the machines?",
+          "audioSlug": "is_there_a_specific_order_for_the_machines"
+        }
+      ]
+    },
+    {
+      "id": "gym_what_is_the_correct_posture_for",
+      "conceptId": "en.gym_what_is_the_correct_posture_for",
+      "sourceId": "es.s.98e37dee1552664d",
+      "source": "¿Cuál es la postura correcta para usar esta máquina?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What is the correct posture for using this machine?",
+          "audioSlug": "what_is_the_correct_posture_for_using_this_machine"
+        }
+      ]
+    },
+    {
+      "id": "gym_how_much_rest_time_do_you",
+      "conceptId": "en.gym_how_much_rest_time_do_you",
+      "sourceId": "es.s.79e37091f35c568a",
+      "source": "¿Cuánto tiempo de descanso recomiendas entre series para este ejercicio?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How much rest time do you recommend between sets for this exercise?",
+          "audioSlug": "how_much_rest_time_do_you_recommend_between_sets_for_this_exercise"
+        }
+      ]
+    },
+    {
+      "id": "gym_do_you_have_any_tips_for",
+      "conceptId": "en.gym_do_you_have_any_tips_for",
+      "sourceId": "es.s.52f0963052824447",
+      "source": "¿Tienes algunos consejos para mejorar mi equilibrio?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do you have any tips for improving my balance?",
+          "audioSlug": "do_you_have_any_tips_for_improving_my_balance"
+        }
+      ]
+    },
+    {
+      "id": "gym_could_you_demonstrate_how_to_use",
+      "conceptId": "en.gym_could_you_demonstrate_how_to_use",
+      "sourceId": "es.s.7b6babbb0e63766a",
+      "source": "¿Podrías demostrarme cómo usar las bandas de resistencia?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you demonstrate how to use resistance bands?",
+          "audioSlug": "could_you_demonstrate_how_to_use_resistance_bands",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you demonstrate how to use resistance bands?",
+          "audioSlug": "can_you_demonstrate_how_to_use_resistance_bands",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gym_is_it_okay_if_i_use",
+      "conceptId": "en.gym_is_it_okay_if_i_use",
+      "sourceId": "es.s.69da992fbea58280",
+      "source": "¿Está bien si uso este banco?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is it okay if I use this bench?",
+          "audioSlug": "is_it_okay_if_i_use_this_bench"
+        }
+      ]
+    },
+    {
+      "id": "gym_im_going_to_do_cardio_and",
+      "conceptId": "en.gym_im_going_to_do_cardio_and",
+      "sourceId": "es.s.bc138e6b0daf7389",
+      "source": "Voy a hacer cardio y pesas.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm going to do cardio and weights.",
+          "audioSlug": "i_m_going_to_do_cardio_and_weights"
+        }
+      ]
+    },
+    {
+      "id": "gym_i_dont_know_how_to_use",
+      "conceptId": "en.gym_i_dont_know_how_to_use",
+      "sourceId": "es.s.d61632824f521779",
+      "source": "No sé cómo usar esta máquina.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I don't know how to use this machine.",
+          "audioSlug": "i_don_t_know_how_to_use_this_machine"
+        }
+      ]
+    },
+    {
+      "id": "gym_where_can_i_find_towels",
+      "conceptId": "en.gym_where_can_i_find_towels",
+      "sourceId": "es.s.d10ef71676618af9",
+      "source": "¿Dónde puedo encontrar toallas?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where can I find towels?",
+          "audioSlug": "where_can_i_find_towels"
+        }
+      ]
+    },
+    {
+      "id": "gym_could_you_help_me_create_a",
+      "conceptId": "en.gym_could_you_help_me_create_a",
+      "sourceId": "es.s.e049e5dcb1a298b6",
+      "source": "¿Podrías ayudarme a crear una rutina de entrenamiento personalizada?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you help me create a personalized training routine?",
+          "audioSlug": "could_you_help_me_create_a_personalized_training_routine",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you help me create a personalized training routine?",
+          "audioSlug": "can_you_help_me_create_a_personalized_training_routine",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gym_what_type_of_membership_do_you",
+      "conceptId": "en.gym_what_type_of_membership_do_you",
+      "sourceId": "es.s.7539edd679555dfc",
+      "source": "¿Qué tipo de membresía ofrecen?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What type of membership do you offer?",
+          "audioSlug": "what_type_of_membership_do_you_offer"
+        }
+      ]
+    },
+    {
+      "id": "gym_is_there_a_personal_trainer_available",
+      "conceptId": "en.gym_is_there_a_personal_trainer_available",
+      "sourceId": "es.s.7c5a54ce10b0bdaa",
+      "source": "¿Hay algún entrenador personal disponible?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is there a personal trainer available?",
+          "audioSlug": "is_there_a_personal_trainer_available"
+        }
+      ]
+    },
+    {
+      "id": "gym_are_group_classes_available",
+      "conceptId": "en.gym_are_group_classes_available",
+      "sourceId": "es.s.cf3f5de839f7f27a",
+      "source": "¿Hay clases grupales disponibles?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Are group classes available?",
+          "audioSlug": "are_group_classes_available"
+        }
+      ]
+    },
+    {
+      "id": "gym_how_can_i_book_a_class",
+      "conceptId": "en.gym_how_can_i_book_a_class",
+      "sourceId": "es.s.f5c92759c2f99d20",
+      "source": "¿Cómo puedo reservar una clase?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How can I book a class?",
+          "audioSlug": "how_can_i_book_a_class"
+        }
+      ]
+    },
+    {
+      "id": "gym_what_is_the_gyms_schedule",
+      "conceptId": "en.gym_what_is_the_gyms_schedule",
+      "sourceId": "es.s.65184f1d65fbb802",
+      "source": "¿Cuál es el horario del gimnasio?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What is the gym's schedule?",
+          "audioSlug": "what_is_the_gym_s_schedule"
+        }
+      ]
+    },
+    {
+      "id": "gym_what_muscles_are_worked_with_this",
+      "conceptId": "en.gym_what_muscles_are_worked_with_this",
+      "sourceId": "es.s.dc634acaadcfa06c",
+      "source": "¿Qué músculos se trabajan con esta máquina?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What muscles are worked with this machine?",
+          "audioSlug": "what_muscles_are_worked_with_this_machine"
+        }
+      ]
+    },
+    {
+      "id": "gym_i_feel_a_pain_in_my",
+      "conceptId": "en.gym_i_feel_a_pain_in_my",
+      "sourceId": "es.s.d19316272e42506f",
+      "source": "Siento un dolor en la pantorrilla.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I feel a pain in my calf.",
+          "audioSlug": "i_feel_a_pain_in_my_calf"
+        }
+      ]
+    },
+    {
+      "id": "gym_the_gyms_music_is_too_loud",
+      "conceptId": "en.gym_the_gyms_music_is_too_loud",
+      "sourceId": "es.s.0c92c3b7e1769948",
+      "source": "La música del gimnasio está demasiado alta.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The gym's music is too loud.",
+          "audioSlug": "the_gym_s_music_is_too_loud"
+        }
+      ]
+    },
+    {
+      "id": "gym_im_motivated",
+      "conceptId": "en.gym_im_motivated",
+      "sourceId": "es.s.cf4ffed7b7865f88",
+      "source": "¡Estoy motivado/a!",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm motivated!",
+          "audioSlug": "i_m_motivated"
+        }
+      ]
+    },
+    {
+      "id": "gym_could_you_inform_me_about_the",
+      "conceptId": "en.gym_could_you_inform_me_about_the",
+      "sourceId": "es.s.a1045f37297e9869",
+      "source": "¿Me podrían informar sobre los planes de membresía que ofrecen?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you inform me about the membership plans you offer?",
+          "audioSlug": "could_you_inform_me_about_the_membership_plans_you_offer",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you inform me about the membership plans you offer?",
+          "audioSlug": "can_you_inform_me_about_the_membership_plans_you_offer",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gym_that_effort_was_worth_it",
+      "conceptId": "en.gym_that_effort_was_worth_it",
+      "sourceId": "es.s.cae792c7329a94ec",
+      "source": "Ese esfuerzo valió la pena.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "That effort was worth it.",
+          "audioSlug": "that_effort_was_worth_it"
+        }
+      ]
+    },
+    {
+      "id": "gym_is_there_an_alternative_for_that",
+      "conceptId": "en.gym_is_there_an_alternative_for_that",
+      "sourceId": "es.s.e3a8719ac15c18af",
+      "source": "¿Hay alguna alternativa para ese ejercicio?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is there an alternative for that exercise?",
+          "audioSlug": "is_there_an_alternative_for_that_exercise"
+        }
+      ]
+    },
+    {
+      "id": "gym_i_need_to_work_on_my",
+      "conceptId": "en.gym_i_need_to_work_on_my",
+      "sourceId": "es.s.25f674cc6bdbfdcc",
+      "source": "Tengo que trabajar en mi resistencia.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I need to work on my endurance.",
+          "audioSlug": "i_need_to_work_on_my_endurance"
+        }
+      ]
+    },
+    {
+      "id": "gym_i_need_to_rest_a_bit",
+      "conceptId": "en.gym_i_need_to_rest_a_bit",
+      "sourceId": "es.s.a94be7018ebe8c17",
+      "source": "Tengo que descansar un poco.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I need to rest a bit.",
+          "audioSlug": "i_need_to_rest_a_bit"
+        }
+      ]
+    },
+    {
+      "id": "gym_how_long_should_i_rest_between",
+      "conceptId": "en.gym_how_long_should_i_rest_between",
+      "sourceId": "es.s.15f1e8c35b853f0d",
+      "source": "¿Cuánto tiempo debo descansar entre sesiones de entrenamiento?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How long should I rest between training sessions?",
+          "audioSlug": "how_long_should_i_rest_between_training_sessions"
+        }
+      ]
+    },
+    {
+      "id": "gym_i_would_like_to_work_on",
+      "conceptId": "en.gym_i_would_like_to_work_on",
+      "sourceId": "es.s.929bb9d67908d34d",
+      "source": "Me gustaría trabajar en la fuerza de piernas.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I would like to work on leg strength.",
+          "audioSlug": "i_would_like_to_work_on_leg_strength",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "I'd like to work on leg strength.",
+          "audioSlug": "i_d_like_to_work_on_leg_strength",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gym_this_exercise_will_help_me_strengthen",
+      "conceptId": "en.gym_this_exercise_will_help_me_strengthen",
+      "sourceId": "es.s.e90458e46c4148f3",
+      "source": "Este ejercicio me ayudará a fortalecer los bíceps.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This exercise will help me strengthen my biceps.",
+          "audioSlug": "this_exercise_will_help_me_strengthen_my_biceps"
+        }
+      ]
+    },
+    {
+      "id": "gym_this_routine_is_designed_to_work",
+      "conceptId": "en.gym_this_routine_is_designed_to_work",
+      "sourceId": "es.s.ae72f1be72912642",
+      "source": "Esta rutina está diseñada para trabajar en los tríceps.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This routine is designed to work on the triceps.",
+          "audioSlug": "this_routine_is_designed_to_work_on_the_triceps"
+        }
+      ]
+    },
+    {
+      "id": "gym_keep_your_back_straight",
+      "conceptId": "en.gym_keep_your_back_straight",
+      "sourceId": "es.s.a3fcad66aee092a2",
+      "source": "Mantén la espalda recta.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Keep your back straight.",
+          "audioSlug": "keep_your_back_straight"
+        }
+      ]
+    },
+    {
+      "id": "gym_push_with_your_heels_not_with",
+      "conceptId": "en.gym_push_with_your_heels_not_with",
+      "sourceId": "es.s.fb27cf6045a67897",
+      "source": "Empuja con los talones, no con las puntas.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Push with your heels, not your toes.",
+          "audioSlug": "push_with_your_heels_not_your_toes"
+        }
+      ]
+    },
+    {
+      "id": "gym_keep_your_elbows_close_to_your",
+      "conceptId": "en.gym_keep_your_elbows_close_to_your",
+      "sourceId": "es.s.f6ee684545b231ab",
+      "source": "Mantén los codos cerca del cuerpo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Keep your elbows close to your body.",
+          "audioSlug": "keep_your_elbows_close_to_your_body"
+        }
+      ]
+    },
+    {
+      "id": "gym_dont_lift_your_shoulders_towards_your",
+      "conceptId": "en.gym_dont_lift_your_shoulders_towards_your",
+      "sourceId": "es.s.af51e7edf03d86f9",
+      "source": "No levantes los hombros hacia las orejas.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Don't lift your shoulders towards your ears.",
+          "audioSlug": "don_t_lift_your_shoulders_towards_your_ears"
+        }
+      ]
+    },
+    {
+      "id": "gym_keep_your_abs_contracted",
+      "conceptId": "en.gym_keep_your_abs_contracted",
+      "sourceId": "es.s.b738c76a083ac29b",
+      "source": "Mantén los abdominales contraídos.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Keep your abs contracted.",
+          "audioSlug": "keep_your_abs_contracted"
+        }
+      ]
+    },
+    {
+      "id": "gym_dont_arch_your_back",
+      "conceptId": "en.gym_dont_arch_your_back",
+      "sourceId": "es.s.847445f1ef3ce464",
+      "source": "No arquees la espalda.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Don't arch your back.",
+          "audioSlug": "don_t_arch_your_back"
+        }
+      ]
+    },
+    {
+      "id": "gym_maintain_a_steady_pace",
+      "conceptId": "en.gym_maintain_a_steady_pace",
+      "sourceId": "es.s.736b67561c8ee356",
+      "source": "Mantén un ritmo constante.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Maintain a steady pace.",
+          "audioSlug": "maintain_a_steady_pace"
+        }
+      ]
+    },
+    {
+      "id": "gym_breathe_deeply_and_through_your_nose",
+      "conceptId": "en.gym_breathe_deeply_and_through_your_nose",
+      "sourceId": "es.s.31c71aae587edd2f",
+      "source": "Respira profundo y por la nariz.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Breathe deeply and through your nose.",
+          "audioSlug": "breathe_deeply_and_through_your_nose"
+        }
+      ]
+    },
+    {
+      "id": "gym_dont_forget_to_hydrate",
+      "conceptId": "en.gym_dont_forget_to_hydrate",
+      "sourceId": "es.s.190fa6a05750d27d",
+      "source": "No te olvides de hidratarte.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Don't forget to hydrate.",
+          "audioSlug": "don_t_forget_to_hydrate"
+        }
+      ]
+    },
+    {
+      "id": "gym_eat_healthily_to_get_better_results",
+      "conceptId": "en.gym_eat_healthily_to_get_better_results",
+      "sourceId": "es.s.d62f898dcaca32ec",
+      "source": "Aliméntate de forma saludable para obtener mejores resultados.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Eat healthily to get better results.",
+          "audioSlug": "eat_healthily_to_get_better_results"
+        }
+      ]
+    },
+    {
+      "id": "gym_rest_enough_for_your_body_to",
+      "conceptId": "en.gym_rest_enough_for_your_body_to",
+      "sourceId": "es.s.df81801ae6826a89",
+      "source": "Descansa lo suficiente para que tu cuerpo se recupere.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Rest enough for your body to recover.",
+          "audioSlug": "rest_enough_for_your_body_to_recover"
+        }
+      ]
+    },
+    {
+      "id": "gym_dont_overdo_it_with_the_weight",
+      "conceptId": "en.gym_dont_overdo_it_with_the_weight",
+      "sourceId": "es.s.fa9a523c5bb99731",
+      "source": "No te excedas con el peso.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Don't overdo it with the weight.",
+          "audioSlug": "don_t_overdo_it_with_the_weight"
+        }
+      ]
+    },
+    {
+      "id": "gym_they_are_cleaning_the_locker_rooms",
+      "conceptId": "en.gym_they_are_cleaning_the_locker_rooms",
+      "sourceId": "es.s.bec2caf658673c47",
+      "source": "Están aseando los vestidores.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "They are cleaning the locker rooms.",
+          "audioSlug": "they_are_cleaning_the_locker_rooms"
+        }
+      ]
+    },
+    {
+      "id": "gym_shoulder_discomfort_overhead_press",
+      "conceptId": "en.gym_shoulder_discomfort_overhead_press",
+      "sourceId": "es.s.b6f6a7785e6ee2b0",
+      "source": "He estado sintiendo molestia en el hombro izquierdo cada vez que hago press por encima de la cabeza.",
+      "level": "B2",
+      "grammar": "Present perfect continuous: 'I've been experiencing' for a recurring problem ongoing up to now",
+      "target": [
+        {
+          "text": "I've been experiencing discomfort in my left shoulder whenever I do overhead presses.",
+          "audioSlug": "i_ve_been_experiencing_discomfort_in_my_left_shoulder_whenever_i_do_overhead_presses"
+        }
+      ]
+    },
+    {
+      "id": "gym_cable_machine_seated_row",
+      "conceptId": "en.gym_cable_machine_seated_row",
+      "sourceId": "es.s.176ac0bccf3c56ff",
+      "source": "¿Podrías mostrarme cómo ajustar correctamente la máquina de cable para el remo sentado?",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you show me how to adjust the cable machine for a seated row?",
+          "audioSlug": "could_you_show_me_how_to_adjust_the_cable_machine_for_a_seated_row"
+        }
+      ]
+    },
+    {
+      "id": "gym_progress_plateaued_modify_program",
+      "conceptId": "en.gym_progress_plateaued_modify_program",
+      "sourceId": "es.s.a245d213f364246e",
+      "source": "Mi progreso se ha estancado. Creo que necesito modificar mi programa de entrenamiento.",
+      "level": "B2",
+      "grammar": "Present perfect 'has plateaued' describes a change that recently occurred and still holds.",
+      "target": [
+        {
+          "text": "My progress has plateaued. I think I need to modify my training program.",
+          "audioSlug": "my_progress_has_plateaued_i_think_i_need_to_modify_my_training_program"
+        }
+      ]
+    },
+    {
+      "id": "gym_hiit_cardiovascular_endurance",
+      "conceptId": "en.gym_hiit_cardiovascular_endurance",
+      "sourceId": "es.s.86a09014c954ce9d",
+      "source": "Incorporé HIIT a mi rutina para mejorar mi resistencia cardiovascular.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I added HIIT to my routine to improve cardiovascular endurance.",
+          "audioSlug": "i_added_hiit_to_my_routine_to_improve_cardiovascular_endurance"
+        }
+      ]
+    },
+    {
+      "id": "gym_knee_injury_high_impact_avoid",
+      "conceptId": "en.gym_knee_injury_high_impact_avoid",
+      "sourceId": "es.s.74de3c910c996041",
+      "source": "Me recupero de una lesión de rodilla y debo evitar el alto impacto.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I am recovering from a knee injury and must avoid high-impact exercise.",
+          "audioSlug": "i_am_recovering_from_a_knee_injury_and_must_avoid_high_impact_exercise"
+        }
+      ]
+    },
+    {
+      "id": "gym_periodization_hypertrophy_strength",
+      "conceptId": "en.gym_periodization_hypertrophy_strength",
+      "sourceId": "es.s.f32a4877836b3886",
+      "source": "Mi entrenador me recomendó un enfoque de periodización, alternando entre fases de hipertrofia y de fuerza.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My coach recommended a periodization approach, alternating between hypertrophy and strength phases.",
+          "audioSlug": "my_coach_recommended_a_periodization_approach_alternating_between_hypertrophy_and_strength_phases"
+        }
+      ]
+    },
+    {
+      "id": "gym_macronutrients_protein_training_load",
+      "conceptId": "en.gym_macronutrients_protein_training_load",
+      "sourceId": "es.s.51cb20535902f39a",
+      "source": "Ajusto mi consumo de proteínas según la carga de entrenamiento.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I adjust my protein intake based on the training load.",
+          "audioSlug": "i_adjust_my_protein_intake_based_on_the_training_load"
+        }
+      ]
+    },
+    {
+      "id": "gym_strength_imbalance_dominant_side",
+      "conceptId": "en.gym_strength_imbalance_dominant_side",
+      "sourceId": "es.s.58f771d549bd00b1",
+      "source": "Estoy tratando de corregir un desequilibrio de fuerza entre mi lado dominante y el no dominante.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm trying to address a strength imbalance between my dominant and non-dominant side.",
+          "audioSlug": "i_m_trying_to_address_a_strength_imbalance_between_my_dominant_and_non_dominant_side"
+        }
+      ]
+    },
+    {
+      "id": "gym_overtraining_recovery_as_important",
+      "conceptId": "en.gym_overtraining_recovery_as_important",
+      "sourceId": "es.s.b1519d0ca12baa8b",
+      "source": "La recuperación es tan importante como el propio entrenamiento.",
+      "level": "C1",
+      "grammar": "'Just as + adjective + as' for expressing equal importance",
+      "target": [
+        {
+          "text": "Recovery is just as important as the training itself.",
+          "audioSlug": "recovery_is_just_as_important_as_the_training_itself"
+        }
+      ]
+    },
+    {
+      "id": "gym_progressive_overload_adaptations",
+      "conceptId": "en.gym_progressive_overload_adaptations",
+      "sourceId": "es.s.7317c576cdaad279",
+      "source": "Mi plan usa sobrecarga progresiva para seguir provocando adaptaciones.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My plan uses progressive overload to keep driving adaptations.",
+          "audioSlug": "my_plan_uses_progressive_overload_to_keep_driving_adaptations"
+        }
+      ]
+    },
+    {
+      "id": "gym_doms_few_days_after_leg_day",
+      "conceptId": "en.gym_doms_few_days_after_leg_day",
+      "sourceId": "es.s.d27fd0ef5f8a3905",
+      "source": "Me duelen las piernas dos días después del día de piernas. ¿Es normal?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My legs are sore two days after leg day. Is that normal?",
+          "audioSlug": "my_legs_are_sore_two_days_after_leg_day_is_that_normal"
+        }
+      ]
+    },
+    {
+      "id": "gym_pre_workout_meal_timing",
+      "conceptId": "en.gym_pre_workout_meal_timing",
+      "sourceId": "es.s.b2c7e8156c1d08b0",
+      "source": "¿Qué debería comer antes de entrenar y cuánto tiempo antes?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What should I eat before a workout, and how long before?",
+          "audioSlug": "what_should_i_eat_before_a_workout_and_how_long_before"
+        }
+      ]
+    },
+    {
+      "id": "gym_deload_week_overreaching",
+      "conceptId": "en.gym_deload_week_overreaching",
+      "sourceId": "es.s.bee0435320101aa0",
+      "source": "Mi entrenador me sugirió una semana de descarga. Creo que he estado sobrepasando mis límites últimamente.",
+      "level": "B2",
+      "grammar": "Present perfect continuous: 'I've been overreaching' for a recurring pattern up to the present.",
+      "target": [
+        {
+          "text": "My trainer suggested a deload week. I think I've been overreaching lately.",
+          "audioSlug": "my_trainer_suggested_a_deload_week_i_think_i_ve_been_overreaching_lately"
+        }
+      ]
+    },
+    {
+      "id": "gym_free_weights_vs_machines_stability",
+      "conceptId": "en.gym_free_weights_vs_machines_stability",
+      "sourceId": "es.s.0931b5ad1baf1079",
+      "source": "Prefiero el peso libre a las máquinas porque requieren más estabilidad del tronco.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I prefer free weights over machines because they require more core stability.",
+          "audioSlug": "i_prefer_free_weights_over_machines_because_they_require_more_core_stability"
+        }
+      ]
+    },
+    {
+      "id": "gym_rpe_scale_autoregulation",
+      "conceptId": "en.gym_rpe_scale_autoregulation",
+      "sourceId": "es.s.49091267023525a5",
+      "source": "Cambié a la escala RPE para autorregular la intensidad según mi recuperación real.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I've switched to the RPE scale to autoregulate intensity based on my actual recovery.",
+          "audioSlug": "i_ve_switched_to_the_rpe_scale_to_autoregulate_intensity_based_on_my_actual_recovery"
+        }
+      ]
+    },
+    {
+      "id": "gym_mobility_end_range_strength",
+      "conceptId": "en.gym_mobility_end_range_strength",
+      "sourceId": "es.s.b4081cabd9c2af9a",
+      "source": "El trabajo de movilidad desarrolla fuerza y control en rangos extremos.",
+      "level": "C1",
+      "grammar": "'Not just X, it's about + gerund' reframes a misconception to show the broader purpose.",
+      "target": [
+        {
+          "text": "Mobility work builds strength and control at end-range positions.",
+          "audioSlug": "mobility_work_builds_strength_and_control_at_end_range_positions"
+        }
+      ]
+    },
+    {
+      "id": "gym_sport_specific_transfer_performance",
+      "conceptId": "en.gym_sport_specific_transfer_performance",
+      "sourceId": "es.s.4fd7049b8d4be03d",
+      "source": "Mi entrenamiento tiene que ser específico a las exigencias de mi deporte si quiero que se transfiera al rendimiento real.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My training must match my sport's demands if I want it to transfer to actual performance.",
+          "audioSlug": "my_training_must_match_my_sport_s_demands_if_i_want_it_to_transfer_to_actual_performance"
+        }
+      ]
+    },
+    {
+      "id": "gym_signup_membership",
+      "conceptId": "en.gym_signup_membership",
+      "sourceId": "es.s.9d8c2b0b6db41e15",
+      "source": "Quisiera inscribirme en el gimnasio.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'd like to sign up for a membership.",
+          "audioSlug": "i_d_like_to_sign_up_for_a_membership"
+        }
+      ]
+    },
+    {
+      "id": "gym_monthly_membership_price",
+      "conceptId": "en.gym_monthly_membership_price",
+      "sourceId": "es.s.121dcbd0d15a0832",
+      "source": "¿Cuánto cuesta la mensualidad?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How much is a monthly membership?",
+          "audioSlug": "how_much_is_a_monthly_membership"
+        }
+      ]
+    },
+    {
+      "id": "gym_where_locker_room",
+      "conceptId": "en.gym_where_locker_room",
+      "sourceId": "es.s.fd02542510747d1f",
+      "source": "¿Dónde están los vestidores?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where is the locker room?",
+          "audioSlug": "where_is_the_locker_room"
+        }
+      ]
+    },
+    {
+      "id": "gym_can_you_spot_me",
+      "conceptId": "en.gym_can_you_spot_me",
+      "sourceId": "es.s.7a0081542de4d19c",
+      "source": "¿Me puedes cuidar mientras levanto?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Can you spot me?",
+          "audioSlug": "can_you_spot_me"
+        }
+      ]
+    },
+    {
+      "id": "gym_where_dumbbells",
+      "conceptId": "en.gym_where_dumbbells",
+      "sourceId": "es.s.190b99c79e60157c",
+      "source": "¿Dónde están las mancuernas?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where are the dumbbells?",
+          "audioSlug": "where_are_the_dumbbells"
+        }
+      ]
+    },
+    {
+      "id": "gym_how_many_sets_reps",
+      "conceptId": "en.gym_how_many_sets_reps",
+      "sourceId": "es.s.8cb3ef98e9dab7dd",
+      "source": "¿Cuántas series y repeticiones hago?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How many sets and reps should I do?",
+          "audioSlug": "how_many_sets_and_reps_should_i_do"
+        }
+      ]
+    },
+    {
+      "id": "gym_im_sore",
+      "conceptId": "en.gym_im_sore",
+      "sourceId": "es.s.77a1403cf1bf9f6c",
+      "source": "Hoy estoy muy adolorido/a.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm really sore today.",
+          "audioSlug": "i_m_really_sore_today"
+        }
+      ]
+    }
+  ]
+}

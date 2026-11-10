@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "df",
+  "concepts": {
+    "es.airport_connection_time_enough": {
+      "conceptId": "es.airport_connection_time_enough",
+      "id": "airport_connection_time_enough",
+      "target": [
+        {
+          "text": "Tengo una conexión, ¿hay tiempo para llegar a la siguiente puerta?",
+          "audioSlug": "tengo_una_conexion_hay_tiempo_para_llegar_a_la_siguiente_puerta"
+        }
+      ]
+    },
+    "es.airport_duty_free_shop": {
+      "conceptId": "es.airport_duty_free_shop",
+      "id": "airport_duty_free_shop",
+      "target": [
+        {
+          "text": "¿Dónde está la tienda libre de impuestos?",
+          "audioSlug": "donde_esta_la_tienda_libre_de_impuestos"
+        }
+      ]
+    },
+    "es.airport_secondary_screening_rights": {
+      "conceptId": "es.airport_secondary_screening_rights",
+      "id": "airport_secondary_screening_rights",
+      "target": [
+        {
+          "text": "Me han seleccionado para una revisión adicional, ¿podría explicarme el motivo y mis derechos?",
+          "audioSlug": "me_han_seleccionado_para_una_revision_adicional_podria_explicarme_el_motivo_y_mis_derechos"
+        }
+      ]
+    },
+    "es.kitchen_can_you_pass_me_the_colander": {
+      "conceptId": "es.kitchen_can_you_pass_me_the_colander",
+      "id": "kitchen_can_you_pass_me_the_colander",
+      "target": [
+        {
+          "text": "¿Puedes pasarme el escurridor para escurrir la pasta?",
+          "audioSlug": "puedes_pasarme_el_escurridor_para_escurrir_la_pasta"
+        }
+      ]
+    },
+    "es.music_live_spontaneity_studio_cant_capture": {
+      "conceptId": "es.music_live_spontaneity_studio_cant_capture",
+      "id": "music_live_spontaneity_studio_cant_capture",
+      "target": [
+        {
+          "text": "Las grabaciones en vivo tienen una espontaneidad que el estudio rara vez captura.",
+          "audioSlug": "las_grabaciones_en_vivo_tienen_una_espontaneidad_que_el_estudio_rara_vez_captura"
+        }
+      ]
+    },
+    "es.music_song_special_memory": {
+      "conceptId": "es.music_song_special_memory",
+      "id": "music_song_special_memory",
+      "target": [
+        {
+          "text": "Esta canción me recuerda un momento especial de mi vida.",
+          "audioSlug": "esta_cancion_me_recuerda_un_momento_especial_de_mi_vida"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_no_quiero_cometer_el_mismo_error": {
+      "conceptId": "es.pensamientos_opiniones_no_quiero_cometer_el_mismo_error",
+      "id": "pensamientos_opiniones_no_quiero_cometer_el_mismo_error",
+      "target": [
+        {
+          "text": "No quiero cometer el mismo error.",
+          "audioSlug": "no_quiero_cometer_el_mismo_error"
+        }
+      ]
+    },
+    "es.personal_info_mi_numero_de_telefono_es_facil": {
+      "conceptId": "es.personal_info_mi_numero_de_telefono_es_facil",
+      "id": "personal_info_mi_numero_de_telefono_es_facil",
+      "target": [
+        {
+          "text": "Mi número de teléfono es fácil.",
+          "audioSlug": "mi_numero_de_telefono_es_facil"
+        }
+      ]
+    },
+    "es.personal_info_vivo_cerca_del_centro": {
+      "conceptId": "es.personal_info_vivo_cerca_del_centro",
+      "id": "personal_info_vivo_cerca_del_centro",
+      "target": [
+        {
+          "text": "Vivo cerca del centro.",
+          "audioSlug": "vivo_cerca_del_centro"
+        }
+      ]
+    },
+    "es.supermarket_aqui_venden_fruta_fresca": {
+      "conceptId": "es.supermarket_aqui_venden_fruta_fresca",
+      "id": "supermarket_aqui_venden_fruta_fresca",
+      "target": [
+        {
+          "text": "Aquí venden fruta fresca.",
+          "audioSlug": "aqui_venden_fruta_fresca"
+        }
+      ]
+    },
+    "es.supermarket_you_have_to_go_to_the": {
+      "conceptId": "es.supermarket_you_have_to_go_to_the",
+      "id": "supermarket_you_have_to_go_to_the",
+      "target": [
+        {
+          "text": "Hay que ir al supermercado temprano para evitar las filas.",
+          "audioSlug": "hay_que_ir_al_supermercado_temprano_para_evitar_las_filas"
+        }
+      ]
+    },
+    "es.transportation_rental_car_location": {
+      "conceptId": "es.transportation_rental_car_location",
+      "id": "transportation_rental_car_location",
+      "target": [
+        {
+          "text": "No sé dónde conseguir un carro de alquiler.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "no_se_donde_conseguir_un_carro_de_alquiler"
+        },
+        {
+          "text": "No sé dónde conseguir un coche de alquiler.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "no_se_donde_conseguir_un_coche_de_alquiler"
+        },
+        {
+          "text": "No sé dónde conseguir un auto de alquiler.",
+          "labels": {
+            "region": "Cono Sur"
+          },
+          "audioSlug": "no_se_donde_conseguir_un_auto_de_alquiler"
+        }
+      ]
+    },
+    "es.weather_parece_que_va_a_llover": {
+      "conceptId": "es.weather_parece_que_va_a_llover",
+      "id": "weather_parece_que_va_a_llover",
+      "target": [
+        {
+          "text": "Parece que va a llover, mejor lleva paraguas.",
+          "audioSlug": "parece_que_va_a_llover_mejor_lleva_paraguas"
+        }
+      ]
+    }
+  }
+}

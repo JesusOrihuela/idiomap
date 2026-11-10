@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "a5",
+  "concepts": {
+    "en.family_the_baby_is_asleep": {
+      "conceptId": "en.family_the_baby_is_asleep",
+      "id": "family_the_baby_is_asleep",
+      "target": [
+        {
+          "text": "The baby is asleep.",
+          "audioSlug": "the_baby_is_asleep"
+        }
+      ]
+    }
+  }
+}

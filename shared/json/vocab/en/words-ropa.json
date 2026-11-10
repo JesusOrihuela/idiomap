@@ -17,7 +17,13 @@
       "gloss_example": {
         "es": "Compré ropa nueva."
       },
-      "conceptId": "en.clothes"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "shirt",
@@ -36,7 +42,13 @@
       "gloss_example": {
         "es": "Planchó su camisa."
       },
-      "conceptId": "en.shirt"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "pants",
@@ -55,7 +67,13 @@
       "gloss_example": {
         "es": "Este pantalón es muy largo."
       },
-      "conceptId": "en.pants"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "dress",
@@ -74,7 +92,13 @@
       "gloss_example": {
         "es": "Compró un vestido rojo."
       },
-      "conceptId": "en.dress"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "jacket",
@@ -93,7 +117,13 @@
       "gloss_example": {
         "es": "Lleva una chaqueta, hace frío."
       },
-      "conceptId": "en.jacket"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "hat",
@@ -112,7 +142,13 @@
       "gloss_example": {
         "es": "Usa un sombrero bajo el sol."
       },
-      "conceptId": "en.hat"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "sock",
@@ -131,7 +167,13 @@
       "gloss_example": {
         "es": "No encuentro el otro calcetín."
       },
-      "conceptId": "en.sock"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "shoe",
@@ -150,7 +192,13 @@
       "gloss_example": {
         "es": "Necesito un par de zapatos nuevos."
       },
-      "conceptId": "en.shoe"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "skirt",
@@ -169,7 +217,13 @@
       "gloss_example": {
         "es": "Ella llevaba una falda larga."
       },
-      "conceptId": "en.skirt"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "glove",
@@ -188,7 +242,13 @@
       "gloss_example": {
         "es": "Usa guantes en la nieve."
       },
-      "conceptId": "en.glove"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "scarf",
@@ -207,7 +267,13 @@
       "gloss_example": {
         "es": "Se envolvió una bufanda en el cuello."
       },
-      "conceptId": "en.scarf"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "belt",
@@ -226,7 +292,13 @@
       "gloss_example": {
         "es": "Este cinturón está muy apretado."
       },
-      "conceptId": "en.belt"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

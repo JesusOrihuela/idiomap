@@ -1,35 +1,371 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "supermarket",
-  "conceptIds": [
-    "es.supermarket_necesito_leche_pan_huevos",
-    "es.supermarket_donde_estan_frutas_verduras",
-    "es.supermarket_quiero_comprar_papas",
-    "es.supermarket_cuanto_cuesta_el_kilo_de_manzanas",
-    "es.supermarket_hay_una_oferta_en_el_cafe",
-    "es.supermarket_puedo_pagar_con_tarjeta",
-    "es.supermarket_no_encuentro_el_arroz",
-    "es.supermarket_donde_esta_la_seccion_de_limpieza",
-    "es.supermarket_necesito_una_bolsa_por_favor",
-    "es.supermarket_me_podria_decir_donde_esta_la_panaderia",
-    "es.supermarket_aqui_venden_fruta_fresca",
-    "es.supermarket_hay_una_oferta_en_el_arroz",
-    "es.supermarket_necesito_hacer_una_lista",
-    "es.supermarket_cuanto_pesa_esta_bolsa",
-    "es.supermarket_prefiero_esta_marca_de_cafe",
-    "es.supermarket_hay_mucha_fila_en_la_caja",
-    "es.supermarket_los_productos_frescos_estan_al_fondo",
-    "es.supermarket_este_supermercado_es_economico",
-    "es.supermarket_un_paquete_de_galletas_de_chocolate",
-    "es.supermarket_compra_un_yogur_natural",
-    "es.supermarket_prefiero_el_zumo_de_naranja",
-    "es.supermarket_los_platanos_estan_muy_maduros",
-    "es.supermarket_las_fresas_son_de_temporada",
-    "es.supermarket_los_ninos_desayunan_cereales",
-    "es.supermarket_necesito_un_paquete_de_pasta",
-    "es.supermarket_compra_una_docena_de_huevos",
-    "es.supermarket_un_litro_de_leche_por_favor",
-    "es.supermarket_pon_un_bote_de_tomate_frito"
+  "phrases": [
+    {
+      "conceptId": "es.supermarket_necesito_leche_pan_huevos",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7f7b18db31a32f36"
+    },
+    {
+      "conceptId": "es.supermarket_donde_estan_frutas_verduras",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.208df47449ae5f6e"
+    },
+    {
+      "conceptId": "es.supermarket_quiero_comprar_papas",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.adde04a1b0e037b0"
+    },
+    {
+      "conceptId": "es.supermarket_cuanto_cuesta_el_kilo_de_manzanas",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d6df26dec146d675"
+    },
+    {
+      "conceptId": "es.supermarket_hay_una_oferta_en_el_cafe",
+      "level": "A2",
+      "grammar": "hay expresa que algo existe, hay una oferta.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c1feef8c6dcd40ff"
+    },
+    {
+      "conceptId": "es.supermarket_puedo_pagar_con_tarjeta",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a93fee934dd1f382"
+    },
+    {
+      "conceptId": "es.supermarket_no_encuentro_el_arroz",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9ee11d22d21570a0"
+    },
+    {
+      "conceptId": "es.supermarket_donde_esta_la_seccion_de_limpieza",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.482a5faa619b2739"
+    },
+    {
+      "conceptId": "es.supermarket_necesito_una_bolsa_por_favor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6b6592349c1c1732"
+    },
+    {
+      "conceptId": "es.supermarket_me_podria_decir_donde_esta_la_panaderia",
+      "level": "B1",
+      "grammar": "podría es el condicional de cortesía, más suave que puede.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.95a7dedd59538f09"
+    },
+    {
+      "conceptId": "es.supermarket_aqui_venden_fruta_fresca",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.efc13d69ac08be5a"
+    },
+    {
+      "conceptId": "es.supermarket_hay_una_oferta_en_el_arroz",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.44148d763f4cd67a"
+    },
+    {
+      "conceptId": "es.supermarket_necesito_hacer_una_lista",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3e8dd35c066944c5"
+    },
+    {
+      "conceptId": "es.supermarket_cuanto_pesa_esta_bolsa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dc8a43abb7f5083f"
+    },
+    {
+      "conceptId": "es.supermarket_prefiero_esta_marca_de_cafe",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2c1b5e5923a55ae4"
+    },
+    {
+      "conceptId": "es.supermarket_hay_mucha_fila_en_la_caja",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d1cc6900c258178d"
+    },
+    {
+      "conceptId": "es.supermarket_los_productos_frescos_estan_al_fondo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d245c856d8a2cfba"
+    },
+    {
+      "conceptId": "es.supermarket_este_supermercado_es_economico",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.28f8b6adf72be1b0"
+    },
+    {
+      "conceptId": "es.supermarket_un_paquete_de_galletas_de_chocolate",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.86910ac31765a03d"
+    },
+    {
+      "conceptId": "es.supermarket_compra_un_yogur_natural",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.04904b6c87cbf065"
+    },
+    {
+      "conceptId": "es.supermarket_prefiero_el_zumo_de_naranja",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.77225adab3ec5a7b"
+    },
+    {
+      "conceptId": "es.supermarket_los_platanos_estan_muy_maduros",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.da925d1956c26a46"
+    },
+    {
+      "conceptId": "es.supermarket_las_fresas_son_de_temporada",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9d9d55933067e394"
+    },
+    {
+      "conceptId": "es.supermarket_los_ninos_desayunan_cereales",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cacc74ae8d0df54f"
+    },
+    {
+      "conceptId": "es.supermarket_necesito_un_paquete_de_pasta",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.659df3677bff4f96"
+    },
+    {
+      "conceptId": "es.supermarket_compra_una_docena_de_huevos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a3ab676206e3d601"
+    },
+    {
+      "conceptId": "es.supermarket_un_litro_de_leche_por_favor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.783659a0f3a829f2"
+    },
+    {
+      "conceptId": "es.supermarket_pon_un_bote_de_tomate_frito",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8b5391ca23960e94"
+    }
   ]
 }

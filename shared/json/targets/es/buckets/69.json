@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "69",
+  "concepts": {
+    "es.conversacion_un_momento": {
+      "conceptId": "es.conversacion_un_momento",
+      "id": "conversacion_un_momento",
+      "target": [
+        {
+          "text": "Un momento.",
+          "audioSlug": "un_momento"
+        }
+      ]
+    },
+    "es.cuerpo_sus_piernas_son_largas": {
+      "conceptId": "es.cuerpo_sus_piernas_son_largas",
+      "id": "cuerpo_sus_piernas_son_largas",
+      "target": [
+        {
+          "text": "Sus piernas son largas.",
+          "audioSlug": "sus_piernas_son_largas"
+        }
+      ]
+    },
+    "es.deportes_es_dificil_marcar_un_gol_asi": {
+      "conceptId": "es.deportes_es_dificil_marcar_un_gol_asi",
+      "id": "deportes_es_dificil_marcar_un_gol_asi",
+      "target": [
+        {
+          "text": "Es difícil marcar un gol así.",
+          "audioSlug": "es_dificil_marcar_un_gol_asi"
+        }
+      ]
+    },
+    "es.descripciones_mi_color_favorito_es_el_azul": {
+      "conceptId": "es.descripciones_mi_color_favorito_es_el_azul",
+      "id": "descripciones_mi_color_favorito_es_el_azul",
+      "target": [
+        {
+          "text": "Mi color favorito es el azul.",
+          "audioSlug": "mi_color_favorito_es_el_azul"
+        }
+      ]
+    },
+    "es.directions_turn_at_the_second_traffic_light": {
+      "conceptId": "es.directions_turn_at_the_second_traffic_light",
+      "id": "directions_turn_at_the_second_traffic_light",
+      "target": [
+        {
+          "text": "Gira en el segundo semáforo.",
+          "audioSlug": "gira_en_el_segundo_semaforo"
+        }
+      ]
+    },
+    "es.economia_la_entrada_cuesta_cien_euros": {
+      "conceptId": "es.economia_la_entrada_cuesta_cien_euros",
+      "id": "economia_la_entrada_cuesta_cien_euros",
+      "target": [
+        {
+          "text": "La entrada cuesta cien euros.",
+          "audioSlug": "la_entrada_cuesta_cien_euros"
+        }
+      ]
+    },
+    "es.family_how_is_your_family": {
+      "conceptId": "es.family_how_is_your_family",
+      "id": "family_how_is_your_family",
+      "target": [
+        {
+          "text": "¿Cómo está tu familia?",
+          "audioSlug": "como_esta_tu_familia"
+        }
+      ]
+    },
+    "es.gym_maintain_a_steady_pace": {
+      "conceptId": "es.gym_maintain_a_steady_pace",
+      "id": "gym_maintain_a_steady_pace",
+      "target": [
+        {
+          "text": "Mantén un ritmo constante.",
+          "audioSlug": "manten_un_ritmo_constante"
+        }
+      ]
+    },
+    "es.hogar_la_banera_es_muy_grande": {
+      "conceptId": "es.hogar_la_banera_es_muy_grande",
+      "id": "hogar_la_banera_es_muy_grande",
+      "target": [
+        {
+          "text": "La bañera es muy grande.",
+          "audioSlug": "la_banera_es_muy_grande"
+        }
+      ]
+    },
+    "es.movies_seen_horror_movie": {
+      "conceptId": "es.movies_seen_horror_movie",
+      "id": "movies_seen_horror_movie",
+      "target": [
+        {
+          "text": "¿Ya viste la nueva película de terror?",
+          "audioSlug": "ya_viste_la_nueva_pelicula_de_terror"
+        }
+      ]
+    },
+    "es.personal_info_es_un_buen_matematico": {
+      "conceptId": "es.personal_info_es_un_buen_matematico",
+      "id": "personal_info_es_un_buen_matematico",
+      "target": [
+        {
+          "text": "Es una buena matemática.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie ist eine gute Mathematikerin.",
+          "audioSlug": "es_una_buena_matematica"
+        },
+        {
+          "text": "Es un buen matemático.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er ist ein guter Mathematiker.",
+          "audioSlug": "es_un_buen_matematico"
+        }
+      ]
+    },
+    "es.restaurant_could_i_have_some_extra_cheese": {
+      "conceptId": "es.restaurant_could_i_have_some_extra_cheese",
+      "id": "restaurant_could_i_have_some_extra_cheese",
+      "target": [
+        {
+          "text": "¿Podría ponerle más queso a mi pasta, por favor?",
+          "audioSlug": "podria_ponerle_mas_queso_a_mi_pasta_por_favor"
+        }
+      ]
+    },
+    "es.technology_help_install_app": {
+      "conceptId": "es.technology_help_install_app",
+      "id": "technology_help_install_app",
+      "target": [
+        {
+          "text": "¿Me ayudas a instalar esta aplicación?",
+          "audioSlug": "me_ayudas_a_instalar_esta_aplicacion"
+        }
+      ]
+    },
+    "es.technology_im_looking_for_software_to_record": {
+      "conceptId": "es.technology_im_looking_for_software_to_record",
+      "id": "technology_im_looking_for_software_to_record",
+      "target": [
+        {
+          "text": "Estoy buscando un software para grabar la pantalla de mi computadora.",
+          "audioSlug": "estoy_buscando_un_software_para_grabar_la_pantalla_de_mi_computadora",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "Estoy buscando un software para grabar la pantalla de mi ordenador.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "estoy_buscando_un_software_para_grabar_la_pantalla_de_mi_ordenador"
+        }
+      ]
+    },
+    "es.technology_the_battery_of_this_phone_could": {
+      "conceptId": "es.technology_the_battery_of_this_phone_could",
+      "id": "technology_the_battery_of_this_phone_could",
+      "target": [
+        {
+          "text": "La batería de este celular podría ser mejor.",
+          "audioSlug": "la_bateria_de_este_celular_podria_ser_mejor",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "La batería de este móvil podría ser mejor.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "la_bateria_de_este_movil_podria_ser_mejor"
+        }
+      ]
+    }
+  }
+}

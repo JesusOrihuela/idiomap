@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "vestimenta",
+  "phrases": [
+    {
+      "id": "vestimenta_su_camisa_es_azul",
+      "conceptId": "es.vestimenta_su_camisa_es_azul",
+      "sourceId": "en.s.440b2815d526c27c",
+      "source": "His shirt is blue.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su camisa es azul.",
+          "audioSlug": "su_camisa_es_azul"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_es_un_vestido_lindo",
+      "conceptId": "es.vestimenta_es_un_vestido_lindo",
+      "sourceId": "en.s.810c7793bc08e9ef",
+      "source": "It is a lovely dress.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un vestido lindo.",
+          "audioSlug": "es_un_vestido_lindo"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_ponte_los_zapatos",
+      "conceptId": "es.vestimenta_ponte_los_zapatos",
+      "sourceId": "en.s.2ee10fa09cc10815",
+      "source": "Put on your shoes.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ponte los zapatos.",
+          "audioSlug": "ponte_los_zapatos"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_quitate_el_abrigo",
+      "conceptId": "es.vestimenta_quitate_el_abrigo",
+      "sourceId": "en.s.94518bd110abd0e9",
+      "source": "Take off your coat.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quítate el abrigo.",
+          "audioSlug": "quitate_el_abrigo"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_me_gusta_esa_camisa_azul",
+      "conceptId": "es.vestimenta_me_gusta_esa_camisa_azul",
+      "sourceId": "en.s.488edbdee7d8c926",
+      "source": "I like that blue shirt.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gusta esa camisa azul.",
+          "audioSlug": "me_gusta_esa_camisa_azul"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_que_talla_usas",
+      "conceptId": "es.vestimenta_que_talla_usas",
+      "sourceId": "en.s.ba9907d3ec7dc96c",
+      "source": "What size do you wear?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué talla usas?",
+          "audioSlug": "que_talla_usas"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_este_vestido_es_muy_bonito",
+      "conceptId": "es.vestimenta_este_vestido_es_muy_bonito",
+      "sourceId": "en.s.a3e683582950a31d",
+      "source": "This dress is very pretty.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este vestido es muy bonito.",
+          "audioSlug": "este_vestido_es_muy_bonito"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_necesito_comprar_ropa_nueva",
+      "conceptId": "es.vestimenta_necesito_comprar_ropa_nueva",
+      "sourceId": "en.s.982c76028419be14",
+      "source": "I need to buy new clothes.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito comprar ropa nueva.",
+          "audioSlug": "necesito_comprar_ropa_nueva"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_lleva_un_sombrero_negro",
+      "conceptId": "es.vestimenta_lleva_un_sombrero_negro",
+      "sourceId": "en.s.d663b741470dadd8",
+      "source": "She's wearing a black hat.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Lleva un sombrero negro.",
+          "audioSlug": "lleva_un_sombrero_negro"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_puedo_probarme_esta_chaqueta",
+      "conceptId": "es.vestimenta_puedo_probarme_esta_chaqueta",
+      "sourceId": "en.s.e3c8b2f47a55291d",
+      "source": "Can I try on this jacket?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedo probarme esta chaqueta?",
+          "audioSlug": "puedo_probarme_esta_chaqueta"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_los_zapatos_me_quedan_apretados",
+      "conceptId": "es.vestimenta_los_zapatos_me_quedan_apretados",
+      "sourceId": "en.s.df812102d449a57d",
+      "source": "The shoes are too tight.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los zapatos me quedan apretados.",
+          "audioSlug": "los_zapatos_me_quedan_apretados"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_cuelga_tu_abrigo_por_favor",
+      "conceptId": "es.vestimenta_cuelga_tu_abrigo_por_favor",
+      "sourceId": "en.s.32d6a440c841cb9a",
+      "source": "Hang up your coat, please.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cuelga tu abrigo, por favor.",
+          "audioSlug": "cuelga_tu_abrigo_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_me_pondre_una_camiseta",
+      "conceptId": "es.vestimenta_me_pondre_una_camiseta",
+      "sourceId": "en.s.fa51bdbf1cc36ff8",
+      "source": "I'll wear a T-shirt.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me pondré una camiseta.",
+          "audioSlug": "me_pondre_una_camiseta"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_tu_corbata_combina_con_el_traje",
+      "conceptId": "es.vestimenta_tu_corbata_combina_con_el_traje",
+      "sourceId": "en.s.82e8ac6b6a9c9852",
+      "source": "Your tie matches the suit.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tu corbata combina con el traje.",
+          "audioSlug": "tu_corbata_combina_con_el_traje"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_se_ha_pasado_de_moda",
+      "conceptId": "es.vestimenta_se_ha_pasado_de_moda",
+      "sourceId": "en.s.037e1eabf5247b37",
+      "source": "It has gone out of fashion.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Se ha pasado de moda.",
+          "audioSlug": "se_ha_pasado_de_moda"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_me_quito_el_sombrero",
+      "conceptId": "es.vestimenta_me_quito_el_sombrero",
+      "sourceId": "en.s.a94b2b9bf67a1bc2",
+      "source": "I take off my hat.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me quito el sombrero.",
+          "audioSlug": "me_quito_el_sombrero"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_llevo_un_pantalon_negro",
+      "conceptId": "es.vestimenta_llevo_un_pantalon_negro",
+      "sourceId": "en.s.effeee71333ad35d",
+      "source": "I am wearing black trousers.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Llevo un pantalón negro.",
+          "audioSlug": "llevo_un_pantalon_negro"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_su_falda_es_roja",
+      "conceptId": "es.vestimenta_su_falda_es_roja",
+      "sourceId": "en.s.b887f9fa9b07e52a",
+      "source": "Her skirt is red.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su falda es roja.",
+          "audioSlug": "su_falda_es_roja"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_necesito_un_sueter",
+      "conceptId": "es.vestimenta_necesito_un_sueter",
+      "sourceId": "en.s.8c8690c33f503cc0",
+      "source": "I need a sweater for winter.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito un suéter para el invierno.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "necesito_un_sueter_para_el_invierno"
+        },
+        {
+          "text": "Necesito un jersey para el invierno.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "necesito_un_jersey_para_el_invierno"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_los_calcetines_son_blancos",
+      "conceptId": "es.vestimenta_los_calcetines_son_blancos",
+      "sourceId": "en.s.86451d98fe212584",
+      "source": "The socks are white.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los calcetines son blancos.",
+          "audioSlug": "los_calcetines_son_blancos"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_lleva_una_gorra_azul",
+      "conceptId": "es.vestimenta_lleva_una_gorra_azul",
+      "sourceId": "en.s.0907c5ac1fe6ecb7",
+      "source": "He is wearing a blue cap.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Lleva una gorra azul.",
+          "audioSlug": "lleva_una_gorra_azul"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_llevo_botas_para_la_lluvia",
+      "conceptId": "es.vestimenta_llevo_botas_para_la_lluvia",
+      "sourceId": "en.s.6867e9fd84a16202",
+      "source": "I wear boots for the rain.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Llevo botas para la lluvia.",
+          "audioSlug": "llevo_botas_para_la_lluvia"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_necesito_guantes_en_invierno",
+      "conceptId": "es.vestimenta_necesito_guantes_en_invierno",
+      "sourceId": "en.s.1eec388a4215627c",
+      "source": "I need gloves in winter.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito guantes en invierno.",
+          "audioSlug": "necesito_guantes_en_invierno"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_su_blusa_es_blanca",
+      "conceptId": "es.vestimenta_su_blusa_es_blanca",
+      "sourceId": "en.s.a185dd85bfce1d19",
+      "source": "Her blouse is white.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su blusa es blanca.",
+          "audioSlug": "su_blusa_es_blanca"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_lleva_un_gorro_de_lana",
+      "conceptId": "es.vestimenta_lleva_un_gorro_de_lana",
+      "sourceId": "en.s.c1bfe04d914f58a1",
+      "source": "He wears a wool hat.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Lleva un gorro de lana.",
+          "audioSlug": "lleva_un_gorro_de_lana"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_me_pongo_la_bufanda",
+      "conceptId": "es.vestimenta_me_pongo_la_bufanda",
+      "sourceId": "en.s.ff3a0acb782e2c9e",
+      "source": "I put on the scarf when it is cold.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me pongo la bufanda cuando hace frío.",
+          "audioSlug": "me_pongo_la_bufanda_cuando_hace_frio"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_los_ninos_estan_en_pijama",
+      "conceptId": "es.vestimenta_los_ninos_estan_en_pijama",
+      "sourceId": "en.s.23d962bb2da20a07",
+      "source": "The children are already in pyjamas.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los niños ya están en pijama.",
+          "audioSlug": "los_ninos_ya_estan_en_pijama"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_guardo_los_calzoncillos",
+      "conceptId": "es.vestimenta_guardo_los_calzoncillos",
+      "sourceId": "en.s.746a09e9228f0870",
+      "source": "I keep the underpants in the drawer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Guardo los calzoncillos en el cajón.",
+          "audioSlug": "guardo_los_calzoncillos_en_el_cajon"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_llevo_el_bolso_al_hombro",
+      "conceptId": "es.vestimenta_llevo_el_bolso_al_hombro",
+      "sourceId": "en.s.ec44cc3b66506033",
+      "source": "I carry the bag on my shoulder.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Llevo el bolso al hombro.",
+          "audioSlug": "llevo_el_bolso_al_hombro"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_la_camisa_es_de_tela_suave",
+      "conceptId": "es.vestimenta_la_camisa_es_de_tela_suave",
+      "sourceId": "en.s.17699a9445533d37",
+      "source": "The shirt is made of soft fabric.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La camisa es de una tela suave.",
+          "audioSlug": "la_camisa_es_de_una_tela_suave"
+        }
+      ]
+    },
+    {
+      "id": "vestimenta_saque_un_panuelo_del_bolsillo",
+      "conceptId": "es.vestimenta_saque_un_panuelo_del_bolsillo",
+      "sourceId": "en.s.1c6ae4a4833f44f2",
+      "source": "I took a handkerchief out of my pocket.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Saqué un pañuelo del bolsillo.",
+          "audioSlug": "saque_un_panuelo_del_bolsillo"
+        }
+      ]
+    }
+  ]
+}

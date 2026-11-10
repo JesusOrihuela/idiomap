@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "f6",
+  "concepts": {
+    "es.airport_transit_zone_restrictions": {
+      "conceptId": "es.airport_transit_zone_restrictions",
+      "id": "airport_transit_zone_restrictions",
+      "target": [
+        {
+          "text": "Viajo con exención de visa de tránsito, ¿qué restricciones hay para salir de esa zona?",
+          "audioSlug": "viajo_con_exencion_de_visa_de_transito_que_restricciones_hay_para_salir_de_esa_zona"
+        }
+      ]
+    },
+    "es.conversacion_cada_persona_piensa_distinto": {
+      "conceptId": "es.conversacion_cada_persona_piensa_distinto",
+      "id": "conversacion_cada_persona_piensa_distinto",
+      "target": [
+        {
+          "text": "Cada persona piensa distinto.",
+          "audioSlug": "cada_persona_piensa_distinto"
+        }
+      ]
+    },
+    "es.economia_manana_tengo_una_entrevista_de_trabajo": {
+      "conceptId": "es.economia_manana_tengo_una_entrevista_de_trabajo",
+      "id": "economia_manana_tengo_una_entrevista_de_trabajo",
+      "target": [
+        {
+          "text": "Mañana tengo una entrevista de trabajo.",
+          "audioSlug": "manana_tengo_una_entrevista_de_trabajo"
+        }
+      ]
+    },
+    "es.emociones_why_are_you_so_happy": {
+      "conceptId": "es.emociones_why_are_you_so_happy",
+      "id": "emociones_why_are_you_so_happy",
+      "target": [
+        {
+          "text": "¿Por qué estás tan feliz?",
+          "audioSlug": "por_que_estas_tan_feliz"
+        }
+      ]
+    },
+    "es.estudios_ese_cuento_infantil_es_precioso": {
+      "conceptId": "es.estudios_ese_cuento_infantil_es_precioso",
+      "id": "estudios_ese_cuento_infantil_es_precioso",
+      "target": [
+        {
+          "text": "Ese cuento infantil es precioso.",
+          "audioSlug": "ese_cuento_infantil_es_precioso"
+        }
+      ]
+    },
+    "es.music_chord_progression_unsettling": {
+      "conceptId": "es.music_chord_progression_unsettling",
+      "id": "music_chord_progression_unsettling",
+      "target": [
+        {
+          "text": "La progresión de acordes poco convencional da a la pista su cualidad inquietante.",
+          "audioSlug": "la_progresion_de_acordes_poco_convencional_da_a_la_pista_su_cualidad_inquietante"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_en_la_selva_llueve_casi_todos_los_dias": {
+      "conceptId": "es.naturaleza_lugares_en_la_selva_llueve_casi_todos_los_dias",
+      "id": "naturaleza_lugares_en_la_selva_llueve_casi_todos_los_dias",
+      "target": [
+        {
+          "text": "En la selva llueve casi todos los días.",
+          "audioSlug": "en_la_selva_llueve_casi_todos_los_dias"
+        }
+      ]
+    },
+    "es.theater_original_much_stronger_revival": {
+      "conceptId": "es.theater_original_much_stronger_revival",
+      "id": "theater_original_much_stronger_revival",
+      "target": [
+        {
+          "text": "La versión original era mucho más sólida que la nueva producción.",
+          "audioSlug": "la_version_original_era_mucho_mas_solida_que_la_nueva_produccion"
+        }
+      ]
+    },
+    "es.tiempo_libre_leo_el_periodico_todas_las_mananas": {
+      "conceptId": "es.tiempo_libre_leo_el_periodico_todas_las_mananas",
+      "id": "tiempo_libre_leo_el_periodico_todas_las_mananas",
+      "target": [
+        {
+          "text": "Leo el periódico todas las mañanas.",
+          "audioSlug": "leo_el_periodico_todas_las_mananas"
+        }
+      ]
+    }
+  }
+}

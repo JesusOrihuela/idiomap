@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "f1",
+  "concepts": {
+    "es.airport_luggage_lost_claim": {
+      "conceptId": "es.airport_luggage_lost_claim",
+      "id": "airport_luggage_lost_claim",
+      "target": [
+        {
+          "text": "Mi equipaje no llegó y me gustaría presentar un reporte de equipaje perdido.",
+          "audioSlug": "mi_equipaje_no_llego_y_me_gustaria_presentar_un_reporte_de_equipaje_perdido"
+        }
+      ]
+    },
+    "es.cuerpo_ella_tiene_el_pelo_rizado": {
+      "conceptId": "es.cuerpo_ella_tiene_el_pelo_rizado",
+      "id": "cuerpo_ella_tiene_el_pelo_rizado",
+      "target": [
+        {
+          "text": "Ella tiene el pelo rizado.",
+          "audioSlug": "ella_tiene_el_pelo_rizado"
+        }
+      ]
+    },
+    "es.deportes_todo_ese_esfuerzo_va_a_valer_la_pena": {
+      "conceptId": "es.deportes_todo_ese_esfuerzo_va_a_valer_la_pena",
+      "id": "deportes_todo_ese_esfuerzo_va_a_valer_la_pena",
+      "target": [
+        {
+          "text": "Todo ese esfuerzo va a valer la pena.",
+          "audioSlug": "todo_ese_esfuerzo_va_a_valer_la_pena"
+        }
+      ]
+    },
+    "es.descripciones_es_un_pais_arabe": {
+      "conceptId": "es.descripciones_es_un_pais_arabe",
+      "id": "descripciones_es_un_pais_arabe",
+      "target": [
+        {
+          "text": "Es un país árabe.",
+          "audioSlug": "es_un_pais_arabe"
+        }
+      ]
+    },
+    "es.family_grandparents_countryside": {
+      "conceptId": "es.family_grandparents_countryside",
+      "id": "family_grandparents_countryside",
+      "target": [
+        {
+          "text": "Mis abuelos viven en el campo.",
+          "audioSlug": "mis_abuelos_viven_en_el_campo"
+        }
+      ]
+    },
+    "es.fiesta_en_navidad_nos_reunimos_en_familia": {
+      "conceptId": "es.fiesta_en_navidad_nos_reunimos_en_familia",
+      "id": "fiesta_en_navidad_nos_reunimos_en_familia",
+      "target": [
+        {
+          "text": "En Navidad nos reunimos en familia.",
+          "audioSlug": "en_navidad_nos_reunimos_en_familia"
+        }
+      ]
+    },
+    "es.health_i_have_a_cough": {
+      "conceptId": "es.health_i_have_a_cough",
+      "id": "health_i_have_a_cough",
+      "target": [
+        {
+          "text": "Tengo tos.",
+          "audioSlug": "tengo_tos"
+        }
+      ]
+    },
+    "es.health_im_allergic": {
+      "conceptId": "es.health_im_allergic",
+      "id": "health_im_allergic",
+      "target": [
+        {
+          "text": "Soy alérgica a la penicilina.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "soy_alergica_a_la_penicilina"
+        },
+        {
+          "text": "Soy alérgico a la penicilina.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "soy_alergico_a_la_penicilina"
+        }
+      ]
+    },
+    "es.kitchen_temper_eggs_hot_liquid": {
+      "conceptId": "es.kitchen_temper_eggs_hot_liquid",
+      "id": "kitchen_temper_eggs_hot_liquid",
+      "target": [
+        {
+          "text": "Para temperar los huevos, añade despacio un cucharón de líquido caliente y luego mezcla.",
+          "audioSlug": "para_temperar_los_huevos_anade_despacio_un_cucharon_de_liquido_caliente_y_luego_mezcla"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_no_tiene_importancia": {
+      "conceptId": "es.pensamientos_opiniones_no_tiene_importancia",
+      "id": "pensamientos_opiniones_no_tiene_importancia",
+      "target": [
+        {
+          "text": "No tiene importancia.",
+          "audioSlug": "no_tiene_importancia"
+        }
+      ]
+    },
+    "es.supermarket_return_seal_broken_spoiled": {
+      "conceptId": "es.supermarket_return_seal_broken_spoiled",
+      "id": "supermarket_return_seal_broken_spoiled",
+      "target": [
+        {
+          "text": "Quisiera devolver esto porque el sello estaba roto y el producto se ha estropeado.",
+          "audioSlug": "quisiera_devolver_esto_porque_el_sello_estaba_roto_y_el_producto_se_ha_estropeado"
+        }
+      ]
+    },
+    "es.technology_i_received_a_phishing_email": {
+      "conceptId": "es.technology_i_received_a_phishing_email",
+      "id": "technology_i_received_a_phishing_email",
+      "target": [
+        {
+          "text": "Recibí un correo de phishing que suplantaba a mi banco y pedía que verificara mi cuenta.",
+          "audioSlug": "recibi_un_correo_de_phishing_que_suplantaba_a_mi_banco_y_pedia_que_verificara_mi_cuenta"
+        }
+      ]
+    },
+    "es.tiempo_libre_el_director_de_la_pelicula_es_famoso": {
+      "conceptId": "es.tiempo_libre_el_director_de_la_pelicula_es_famoso",
+      "id": "tiempo_libre_el_director_de_la_pelicula_es_famoso",
+      "target": [
+        {
+          "text": "El director de la película es famoso.",
+          "audioSlug": "el_director_de_la_pelicula_es_famoso"
+        }
+      ]
+    },
+    "es.transportation_nearest_metro": {
+      "conceptId": "es.transportation_nearest_metro",
+      "id": "transportation_nearest_metro",
+      "target": [
+        {
+          "text": "¿Dónde está la estación de metro más cercana?",
+          "audioSlug": "donde_esta_la_estacion_de_metro_mas_cercana"
+        }
+      ]
+    }
+  }
+}

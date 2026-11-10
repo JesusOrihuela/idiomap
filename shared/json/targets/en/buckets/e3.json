@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "e3",
+  "concepts": {
+    "en.descripciones_it_is_a_strange_object": {
+      "conceptId": "en.descripciones_it_is_a_strange_object",
+      "id": "descripciones_it_is_a_strange_object",
+      "target": [
+        {
+          "text": "It is a strange object.",
+          "audioSlug": "it_is_a_strange_object"
+        }
+      ]
+    },
+    "en.greetings_excuse_me": {
+      "conceptId": "en.greetings_excuse_me",
+      "id": "greetings_excuse_me",
+      "target": [
+        {
+          "text": "Excuse me.",
+          "audioSlug": "excuse_me"
+        }
+      ]
+    },
+    "en.gym_rest_enough_for_your_body_to": {
+      "conceptId": "en.gym_rest_enough_for_your_body_to",
+      "id": "gym_rest_enough_for_your_body_to",
+      "target": [
+        {
+          "text": "Rest enough for your body to recover.",
+          "audioSlug": "rest_enough_for_your_body_to_recover"
+        }
+      ]
+    },
+    "en.kitchen_where_do_we_keep_the_plastic": {
+      "conceptId": "en.kitchen_where_do_we_keep_the_plastic",
+      "id": "kitchen_where_do_we_keep_the_plastic",
+      "target": [
+        {
+          "text": "Where do we keep the plastic wrap?",
+          "audioSlug": "where_do_we_keep_the_plastic_wrap"
+        }
+      ]
+    },
+    "en.movies_subtext_more_powerful_than_dialogue": {
+      "conceptId": "en.movies_subtext_more_powerful_than_dialogue",
+      "id": "movies_subtext_more_powerful_than_dialogue",
+      "target": [
+        {
+          "text": "The most powerful moments rely on subtext. What's left unsaid carries more weight than dialogue.",
+          "audioSlug": "the_most_powerful_moments_rely_on_subtext_what_s_left_unsaid_carries_more_weight_than_dialogue"
+        }
+      ]
+    },
+    "en.supermarket_where_is_the_personal_hygiene_products": {
+      "conceptId": "en.supermarket_where_is_the_personal_hygiene_products",
+      "id": "supermarket_where_is_the_personal_hygiene_products",
+      "target": [
+        {
+          "text": "Where is the personal hygiene products section?",
+          "audioSlug": "where_is_the_personal_hygiene_products_section"
+        }
+      ]
+    },
+    "en.survival_a_little": {
+      "conceptId": "en.survival_a_little",
+      "id": "survival_a_little",
+      "target": [
+        {
+          "text": "I speak a little Spanish.",
+          "audioSlug": "i_speak_a_little_spanish"
+        }
+      ]
+    }
+  }
+}

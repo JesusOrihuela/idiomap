@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "af",
+  "concepts": {
+    "en.airport_request_seat_front": {
+      "conceptId": "en.airport_request_seat_front",
+      "id": "airport_request_seat_front",
+      "target": [
+        {
+          "text": "I would like a seat near the front, please.",
+          "audioSlug": "i_would_like_a_seat_near_the_front_please"
+        }
+      ]
+    },
+    "en.family_shes_my_best_friend": {
+      "conceptId": "en.family_shes_my_best_friend",
+      "id": "family_shes_my_best_friend",
+      "target": [
+        {
+          "text": "She's my best friend.",
+          "audioSlug": "she_s_my_best_friend"
+        }
+      ]
+    },
+    "en.hogar_the_room_is_dark": {
+      "conceptId": "en.hogar_the_room_is_dark",
+      "id": "hogar_the_room_is_dark",
+      "target": [
+        {
+          "text": "The room is dark.",
+          "audioSlug": "the_room_is_dark"
+        }
+      ]
+    },
+    "en.oficina_i_work_from_monday_to_friday": {
+      "conceptId": "en.oficina_i_work_from_monday_to_friday",
+      "id": "oficina_i_work_from_monday_to_friday",
+      "target": [
+        {
+          "text": "I work from Monday to Friday.",
+          "audioSlug": "i_work_from_monday_to_friday"
+        }
+      ]
+    },
+    "en.oficina_let_s_start_the_meeting": {
+      "conceptId": "en.oficina_let_s_start_the_meeting",
+      "id": "oficina_let_s_start_the_meeting",
+      "target": [
+        {
+          "text": "Let's start the meeting.",
+          "audioSlug": "let_s_start_the_meeting",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Let's begin the meeting.",
+          "audioSlug": "let_s_begin_the_meeting",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.politica_money_is_power": {
+      "conceptId": "en.politica_money_is_power",
+      "id": "politica_money_is_power",
+      "target": [
+        {
+          "text": "Money is power.",
+          "audioSlug": "money_is_power"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "74",
+  "concepts": {
+    "en.music_live_better_than_studio": {
+      "conceptId": "en.music_live_better_than_studio",
+      "id": "music_live_better_than_studio",
+      "target": [
+        {
+          "text": "The live performance was far better than the studio recording.",
+          "audioSlug": "the_live_performance_was_far_better_than_the_studio_recording"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_the_water_is_deep": {
+      "conceptId": "en.naturaleza_lugares_the_water_is_deep",
+      "id": "naturaleza_lugares_the_water_is_deep",
+      "target": [
+        {
+          "text": "The water is deep.",
+          "audioSlug": "the_water_is_deep"
+        }
+      ]
+    },
+    "en.sitios_i_love_my_country": {
+      "conceptId": "en.sitios_i_love_my_country",
+      "id": "sitios_i_love_my_country",
+      "target": [
+        {
+          "text": "I love my country.",
+          "audioSlug": "i_love_my_country"
+        }
+      ]
+    },
+    "en.technology_the_battery_of_my_smartwatch_doesnt": {
+      "conceptId": "en.technology_the_battery_of_my_smartwatch_doesnt",
+      "id": "technology_the_battery_of_my_smartwatch_doesnt",
+      "target": [
+        {
+          "text": "The battery of my smartwatch doesn't last at all.",
+          "audioSlug": "the_battery_of_my_smartwatch_doesn_t_last_at_all"
+        }
+      ]
+    },
+    "en.transportation_bus_late_connection": {
+      "conceptId": "en.transportation_bus_late_connection",
+      "id": "transportation_bus_late_connection",
+      "target": [
+        {
+          "text": "The bus is late. Is there a connection at the next stop?",
+          "audioSlug": "the_bus_is_late_is_there_a_connection_at_the_next_stop"
+        }
+      ]
+    },
+    "en.transportation_order_taxi_morning": {
+      "conceptId": "en.transportation_order_taxi_morning",
+      "id": "transportation_order_taxi_morning",
+      "target": [
+        {
+          "text": "Order a taxi for tomorrow morning.",
+          "audioSlug": "order_a_taxi_for_tomorrow_morning",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Call a taxi for tomorrow morning.",
+          "audioSlug": "call_a_taxi_for_tomorrow_morning",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    }
+  }
+}

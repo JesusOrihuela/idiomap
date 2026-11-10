@@ -1,47 +1,527 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "daily_routine",
-  "conceptIds": [
-    "es.daily_routine_i_get_up_at_seven",
-    "es.daily_routine_i_have_breakfast_at_eight",
-    "es.daily_routine_i_go_to_work_at_nine",
-    "es.daily_routine_i_have_lunch_at_two",
-    "es.daily_routine_i_come_home_at_six",
-    "es.daily_routine_i_cook_dinner",
-    "es.daily_routine_i_watch_tv_at_night",
-    "es.daily_routine_i_go_to_bed_at_eleven",
-    "es.daily_routine_pongo_la_mesa_antes_de_cenar",
-    "es.daily_routine_salgo_de_casa_a_las_ocho",
-    "es.daily_routine_nunca_llego_tarde",
-    "es.daily_routine_trabajo_desde_las_nueve",
-    "es.daily_routine_dejo_las_llaves_en_la_mesa",
-    "es.daily_routine_empiezo_el_dia_con_un_cafe",
-    "es.daily_routine_solo_descanso_los_domingos",
-    "es.daily_routine_conozco_a_mucha_gente",
-    "es.daily_routine_camino_entre_el_parque_y_mi_casa",
-    "es.daily_routine_no_salgo_porque_llueve",
-    "es.daily_routine_tomo_cafe_o_te",
-    "es.daily_routine_termino_de_trabajar_a_las_seis",
-    "es.daily_routine_me_visto_rapido_por_la_manana",
-    "es.daily_routine_suelo_organizar_mi_dia",
-    "es.daily_routine_acompano_a_mis_hijos_a_la_escuela",
-    "es.daily_routine_tengo_que_recordar_comprar_pan",
-    "es.daily_routine_sirvo_el_desayuno_a_mis_hijos",
-    "es.daily_routine_saco_la_basura_cada_noche",
-    "es.daily_routine_apago_las_luces_antes_de_dormir",
-    "es.daily_routine_me_gusta_sentir_el_aire_al_despertar",
-    "es.daily_routine_necesito_sacar_dinero_del_banco",
-    "es.daily_routine_tengo_que_echar_una_carta_al_buzon",
-    "es.daily_routine_siempre_me_falta_tiempo_por_la_manana",
-    "es.daily_routine_por_la_manana_ayudo_a_vestir_a_los_ninos",
-    "es.daily_routine_es_importante_levantarse_temprano",
-    "es.daily_routine_hay_que_ducharse_antes_de_salir",
-    "es.daily_routine_conviene_lavarse_bien_las_manos",
-    "es.daily_routine_es_mejor_sentarse_a_desayunar_con_calma",
-    "es.daily_routine_los_ninos_deben_acostarse_pronto",
-    "es.daily_routine_antes_de_salir_hay_que_ponerse_el_abrigo",
-    "es.daily_routine_a_veces_es_bueno_quedarse_en_casa",
-    "es.daily_routine_en_verano_es_genial_banarse_en_el_mar"
+  "phrases": [
+    {
+      "conceptId": "es.daily_routine_i_get_up_at_seven",
+      "level": "A2",
+      "grammar": "Los verbos reflexivos llevan me, me levanto.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1389870809469d88"
+    },
+    {
+      "conceptId": "es.daily_routine_i_have_breakfast_at_eight",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e46e5b33388aa505"
+    },
+    {
+      "conceptId": "es.daily_routine_i_go_to_work_at_nine",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0a6d8f7ad8a63a64"
+    },
+    {
+      "conceptId": "es.daily_routine_i_have_lunch_at_two",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.16e4b17972a45ac4"
+    },
+    {
+      "conceptId": "es.daily_routine_i_come_home_at_six",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ebf527cfd731bbfb"
+    },
+    {
+      "conceptId": "es.daily_routine_i_cook_dinner",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.136cb8f7ca110710"
+    },
+    {
+      "conceptId": "es.daily_routine_i_watch_tv_at_night",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.475ac7fbe8de49fd"
+    },
+    {
+      "conceptId": "es.daily_routine_i_go_to_bed_at_eleven",
+      "level": "A2",
+      "grammar": "Acostarse es reflexivo, me acuesto.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2df5f41f08c4821f"
+    },
+    {
+      "conceptId": "es.daily_routine_pongo_la_mesa_antes_de_cenar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.96073c2967c592fb"
+    },
+    {
+      "conceptId": "es.daily_routine_salgo_de_casa_a_las_ocho",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.feeb01b7e2ad281a"
+    },
+    {
+      "conceptId": "es.daily_routine_nunca_llego_tarde",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6c38718e854486a2"
+    },
+    {
+      "conceptId": "es.daily_routine_trabajo_desde_las_nueve",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.56227040b4181959"
+    },
+    {
+      "conceptId": "es.daily_routine_dejo_las_llaves_en_la_mesa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dd5e46ccc97c0d69"
+    },
+    {
+      "conceptId": "es.daily_routine_empiezo_el_dia_con_un_cafe",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2903377f297b6839"
+    },
+    {
+      "conceptId": "es.daily_routine_solo_descanso_los_domingos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2ea84fb3efa9acc4"
+    },
+    {
+      "conceptId": "es.daily_routine_conozco_a_mucha_gente",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.17017d9c5a06e9c6"
+    },
+    {
+      "conceptId": "es.daily_routine_camino_entre_el_parque_y_mi_casa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f3273f88a472024d"
+    },
+    {
+      "conceptId": "es.daily_routine_no_salgo_porque_llueve",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.57947b4db397fb77"
+    },
+    {
+      "conceptId": "es.daily_routine_tomo_cafe_o_te",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2f542c06ca73cfd5"
+    },
+    {
+      "conceptId": "es.daily_routine_termino_de_trabajar_a_las_seis",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.745dce5c849e0821"
+    },
+    {
+      "conceptId": "es.daily_routine_me_visto_rapido_por_la_manana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5bebc92ca3ae909a"
+    },
+    {
+      "conceptId": "es.daily_routine_suelo_organizar_mi_dia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a39292b298b810b7"
+    },
+    {
+      "conceptId": "es.daily_routine_acompano_a_mis_hijos_a_la_escuela",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.91058c529be59481"
+    },
+    {
+      "conceptId": "es.daily_routine_tengo_que_recordar_comprar_pan",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6b216bd93b09b104"
+    },
+    {
+      "conceptId": "es.daily_routine_sirvo_el_desayuno_a_mis_hijos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.91b3b58f6d46d977"
+    },
+    {
+      "conceptId": "es.daily_routine_saco_la_basura_cada_noche",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.81d6915af59fdfd3"
+    },
+    {
+      "conceptId": "es.daily_routine_apago_las_luces_antes_de_dormir",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c39a5d18bf4bb095"
+    },
+    {
+      "conceptId": "es.daily_routine_me_gusta_sentir_el_aire_al_despertar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7966e1194b2297d1"
+    },
+    {
+      "conceptId": "es.daily_routine_necesito_sacar_dinero_del_banco",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fa707c58146bce9e"
+    },
+    {
+      "conceptId": "es.daily_routine_tengo_que_echar_una_carta_al_buzon",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b3338d20e66949e7"
+    },
+    {
+      "conceptId": "es.daily_routine_siempre_me_falta_tiempo_por_la_manana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fd7a79ba6bfdd37c"
+    },
+    {
+      "conceptId": "es.daily_routine_por_la_manana_ayudo_a_vestir_a_los_ninos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bdc5b702d4afcf66"
+    },
+    {
+      "conceptId": "es.daily_routine_es_importante_levantarse_temprano",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.eedff6ccae8f9bc7"
+    },
+    {
+      "conceptId": "es.daily_routine_hay_que_ducharse_antes_de_salir",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5603169e2ad49fd5"
+    },
+    {
+      "conceptId": "es.daily_routine_conviene_lavarse_bien_las_manos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.775c66b902cde2db"
+    },
+    {
+      "conceptId": "es.daily_routine_es_mejor_sentarse_a_desayunar_con_calma",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d8fcc42f6fcb3e7c"
+    },
+    {
+      "conceptId": "es.daily_routine_los_ninos_deben_acostarse_pronto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d88546104f1ab247"
+    },
+    {
+      "conceptId": "es.daily_routine_antes_de_salir_hay_que_ponerse_el_abrigo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.045a0df7b537bf19"
+    },
+    {
+      "conceptId": "es.daily_routine_a_veces_es_bueno_quedarse_en_casa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d632598a535b3256"
+    },
+    {
+      "conceptId": "es.daily_routine_en_verano_es_genial_banarse_en_el_mar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4fa7de51d6ca6876"
+    }
   ]
 }

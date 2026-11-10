@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "e3",
+  "concepts": {
+    "es.calendario_celebro_mi_cumpleanos_con_amigos": {
+      "conceptId": "es.calendario_celebro_mi_cumpleanos_con_amigos",
+      "id": "calendario_celebro_mi_cumpleanos_con_amigos",
+      "target": [
+        {
+          "text": "Siempre celebro mi cumpleaños con amigos.",
+          "audioSlug": "siempre_celebro_mi_cumpleanos_con_amigos"
+        }
+      ]
+    },
+    "es.personal_info_mi_apellido_es_dificil_de_pronunciar": {
+      "conceptId": "es.personal_info_mi_apellido_es_dificil_de_pronunciar",
+      "id": "personal_info_mi_apellido_es_dificil_de_pronunciar",
+      "target": [
+        {
+          "text": "Mi apellido es difícil de pronunciar.",
+          "audioSlug": "mi_apellido_es_dificil_de_pronunciar"
+        }
+      ]
+    },
+    "es.profesiones_es_un_musico_talentoso": {
+      "conceptId": "es.profesiones_es_un_musico_talentoso",
+      "id": "profesiones_es_un_musico_talentoso",
+      "target": [
+        {
+          "text": "Es un músico talentoso.",
+          "audioSlug": "es_un_musico_talentoso"
+        }
+      ]
+    },
+    "es.sitios_la_estatua_es_de_bronce": {
+      "conceptId": "es.sitios_la_estatua_es_de_bronce",
+      "id": "sitios_la_estatua_es_de_bronce",
+      "target": [
+        {
+          "text": "La estatua es de bronce.",
+          "audioSlug": "la_estatua_es_de_bronce"
+        }
+      ]
+    },
+    "es.sitios_me_mude_a_una_ciudad_nueva": {
+      "conceptId": "es.sitios_me_mude_a_una_ciudad_nueva",
+      "id": "sitios_me_mude_a_una_ciudad_nueva",
+      "target": [
+        {
+          "text": "Me mudé a una ciudad nueva el año pasado.",
+          "audioSlug": "me_mude_a_una_ciudad_nueva_el_ano_pasado"
+        }
+      ]
+    },
+    "es.survival_how_spell": {
+      "conceptId": "es.survival_how_spell",
+      "id": "survival_how_spell",
+      "target": [
+        {
+          "text": "¿Cómo se escribe?",
+          "audioSlug": "como_se_escribe"
+        }
+      ]
+    },
+    "es.technology_how_do_i_take_a_screenshot": {
+      "conceptId": "es.technology_how_do_i_take_a_screenshot",
+      "id": "technology_how_do_i_take_a_screenshot",
+      "target": [
+        {
+          "text": "¿Cómo hago una captura de pantalla en mi celular?",
+          "audioSlug": "como_hago_una_captura_de_pantalla_en_mi_celular",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "¿Cómo hago una captura de pantalla en mi móvil?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "como_hago_una_captura_de_pantalla_en_mi_movil"
+        }
+      ]
+    },
+    "es.theater_moving_play": {
+      "conceptId": "es.theater_moving_play",
+      "id": "theater_moving_play",
+      "target": [
+        {
+          "text": "La obra de teatro fue muy conmovedora.",
+          "audioSlug": "la_obra_de_teatro_fue_muy_conmovedora"
+        }
+      ]
+    },
+    "es.transportation_delayed_apply_compensation": {
+      "conceptId": "es.transportation_delayed_apply_compensation",
+      "id": "transportation_delayed_apply_compensation",
+      "target": [
+        {
+          "text": "Mi tren se retrasó más de una hora, ¿puedo solicitar una compensación?",
+          "audioSlug": "mi_tren_se_retraso_mas_de_una_hora_puedo_solicitar_una_compensacion"
+        }
+      ]
+    },
+    "es.vestimenta_su_falda_es_roja": {
+      "conceptId": "es.vestimenta_su_falda_es_roja",
+      "id": "vestimenta_su_falda_es_roja",
+      "target": [
+        {
+          "text": "Su falda es roja.",
+          "audioSlug": "su_falda_es_roja"
+        }
+      ]
+    },
+    "es.viajes_vamos_a_planear_el_viaje": {
+      "conceptId": "es.viajes_vamos_a_planear_el_viaje",
+      "id": "viajes_vamos_a_planear_el_viaje",
+      "target": [
+        {
+          "text": "Vamos a planear el viaje.",
+          "audioSlug": "vamos_a_planear_el_viaje"
+        }
+      ]
+    }
+  }
+}

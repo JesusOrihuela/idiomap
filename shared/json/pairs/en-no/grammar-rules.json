@@ -114,8 +114,12 @@
           "hint": "Bokmål jeg / fra / Norge, Nynorsk eg / frå / Noreg."
         }
       ],
-      "related_phrases": [],
-      "topics": []
+      "topics": [],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "definite_suffix",
@@ -213,8 +217,12 @@
           "hint": "en-words take -en (byen), et-words take -et (huset)."
         }
       ],
-      "related_phrases": [],
-      "topics": []
+      "topics": [],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

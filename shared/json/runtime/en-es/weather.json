@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "weather",
+  "phrases": [
+    {
+      "id": "weather_whats_the_weather",
+      "conceptId": "es.weather_whats_the_weather",
+      "sourceId": "en.s.2156921fd0a0df30",
+      "source": "What's the weather like?",
+      "level": "A1",
+      "grammar": "El clima se expresa con 'hacer' impersonal: 'hace sol', 'hace frío'.",
+      "target": [
+        {
+          "text": "¿Qué tiempo hace?",
+          "audioSlug": "que_tiempo_hace"
+        }
+      ]
+    },
+    {
+      "id": "weather_its_sunny",
+      "conceptId": "es.weather_its_sunny",
+      "sourceId": "en.s.47737223851a76b8",
+      "source": "It's sunny.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hace sol.",
+          "audioSlug": "hace_sol"
+        }
+      ]
+    },
+    {
+      "id": "weather_its_raining",
+      "conceptId": "es.weather_its_raining",
+      "sourceId": "en.s.29e6dfbdde281f70",
+      "source": "It's raining.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está lloviendo.",
+          "audioSlug": "esta_lloviendo"
+        }
+      ]
+    },
+    {
+      "id": "weather_very_cold_today",
+      "conceptId": "es.weather_very_cold_today",
+      "sourceId": "en.s.dc0d13a56ed81dc1",
+      "source": "It's very cold today.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hoy hace mucho frío.",
+          "audioSlug": "hoy_hace_mucho_frio"
+        }
+      ]
+    },
+    {
+      "id": "weather_its_hot",
+      "conceptId": "es.weather_its_hot",
+      "sourceId": "en.s.fbdc703e23a447ef",
+      "source": "It's hot.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hace calor.",
+          "audioSlug": "hace_calor"
+        }
+      ]
+    },
+    {
+      "id": "weather_its_windy",
+      "conceptId": "es.weather_its_windy",
+      "sourceId": "en.s.357f031000c2af5d",
+      "source": "It's windy.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hace viento.",
+          "audioSlug": "hace_viento"
+        }
+      ]
+    },
+    {
+      "id": "weather_its_cloudy",
+      "conceptId": "es.weather_its_cloudy",
+      "sourceId": "en.s.f316e553de68294a",
+      "source": "It's cloudy.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está nublado.",
+          "audioSlug": "esta_nublado"
+        }
+      ]
+    },
+    {
+      "id": "weather_its_snowing",
+      "conceptId": "es.weather_its_snowing",
+      "sourceId": "en.s.d46425cd24879ceb",
+      "source": "It's snowing.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está nevando.",
+          "audioSlug": "esta_nevando"
+        }
+      ]
+    },
+    {
+      "id": "weather_whats_temperature",
+      "conceptId": "es.weather_whats_temperature",
+      "sourceId": "en.s.9edf7d3f617f4908",
+      "source": "What's the temperature?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué temperatura hace?",
+          "audioSlug": "que_temperatura_hace"
+        }
+      ]
+    },
+    {
+      "id": "weather_thirty_degrees",
+      "conceptId": "es.weather_thirty_degrees",
+      "sourceId": "en.s.d91cc398f3afd422",
+      "source": "It's thirty degrees.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estamos a treinta grados.",
+          "audioSlug": "estamos_a_treinta_grados"
+        }
+      ]
+    },
+    {
+      "id": "weather_take_umbrella",
+      "conceptId": "es.weather_take_umbrella",
+      "sourceId": "en.s.a5b09ae7dbc87870",
+      "source": "Take an umbrella, it's going to rain.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Lleva un paraguas, va a llover.",
+          "audioSlug": "lleva_un_paraguas_va_a_llover"
+        }
+      ]
+    },
+    {
+      "id": "weather_nice_today",
+      "conceptId": "es.weather_nice_today",
+      "sourceId": "en.s.715f76e2a719d424",
+      "source": "The weather is nice today.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hoy hace buen tiempo.",
+          "audioSlug": "hoy_hace_buen_tiempo"
+        }
+      ]
+    },
+    {
+      "id": "weather_bad_weather",
+      "conceptId": "es.weather_bad_weather",
+      "sourceId": "en.s.75ba4ecf0186ad0a",
+      "source": "The weather is bad.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hace mal tiempo.",
+          "audioSlug": "hace_mal_tiempo"
+        }
+      ]
+    },
+    {
+      "id": "weather_love_spring",
+      "conceptId": "es.weather_love_spring",
+      "sourceId": "en.s.a8029fe4ebbbbc6f",
+      "source": "I love spring.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me encanta la primavera.",
+          "audioSlug": "me_encanta_la_primavera"
+        }
+      ]
+    },
+    {
+      "id": "weather_cold_in_winter",
+      "conceptId": "es.weather_cold_in_winter",
+      "sourceId": "en.s.468ceff1b0979340",
+      "source": "It's cold in winter.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En invierno hace frío.",
+          "audioSlug": "en_invierno_hace_frio"
+        }
+      ]
+    },
+    {
+      "id": "weather_forecast_tomorrow",
+      "conceptId": "es.weather_forecast_tomorrow",
+      "sourceId": "en.s.fe5e1d0259e7761a",
+      "source": "What's the forecast for tomorrow?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuál es el pronóstico para mañana?",
+          "audioSlug": "cual_es_el_pronostico_para_manana"
+        }
+      ]
+    },
+    {
+      "id": "weather_beautiful_day",
+      "conceptId": "es.weather_beautiful_day",
+      "sourceId": "en.s.311c9e3c81530cf9",
+      "source": "It's a beautiful day.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un día precioso.",
+          "audioSlug": "es_un_dia_precioso"
+        }
+      ]
+    },
+    {
+      "id": "weather_im_cold",
+      "conceptId": "es.weather_im_cold",
+      "sourceId": "en.s.39027813f4a6ec20",
+      "source": "I'm cold.",
+      "level": "A1",
+      "grammar": "Las personas 'tienen' frío/calor ('tengo frío'); el clima 'hace' frío/calor.",
+      "target": [
+        {
+          "text": "Tengo frío.",
+          "audioSlug": "tengo_frio"
+        }
+      ]
+    },
+    {
+      "id": "weather_im_hot",
+      "conceptId": "es.weather_im_hot",
+      "sourceId": "en.s.f204dfa47b23bbae",
+      "source": "I'm hot.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo calor.",
+          "audioSlug": "tengo_calor"
+        }
+      ]
+    },
+    {
+      "id": "weather_in_summer_it_is_very_hot",
+      "conceptId": "es.weather_in_summer_it_is_very_hot",
+      "sourceId": "en.s.f18865dcc01f612c",
+      "source": "In summer it's very hot.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En verano hace mucho calor.",
+          "audioSlug": "en_verano_hace_mucho_calor"
+        }
+      ]
+    },
+    {
+      "id": "weather_it_is_cool_in_the_morning",
+      "conceptId": "es.weather_it_is_cool_in_the_morning",
+      "sourceId": "en.s.4cc82eeb409a48e3",
+      "source": "It's cool in the morning.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hace fresco por la mañana.",
+          "audioSlug": "hace_fresco_por_la_manana"
+        }
+      ]
+    },
+    {
+      "id": "weather_the_sky_is_clear",
+      "conceptId": "es.weather_the_sky_is_clear",
+      "sourceId": "en.s.141af06129c2cf61",
+      "source": "The sky is clear.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El cielo está despejado.",
+          "audioSlug": "el_cielo_esta_despejado"
+        }
+      ]
+    },
+    {
+      "id": "weather_it_is_going_to_rain_this_afternoon",
+      "conceptId": "es.weather_it_is_going_to_rain_this_afternoon",
+      "sourceId": "en.s.043c48b20b0fe2bb",
+      "source": "It's going to rain in the afternoon.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Va a llover por la tarde.",
+          "audioSlug": "va_a_llover_por_la_tarde"
+        }
+      ]
+    },
+    {
+      "id": "weather_the_temperature_drops_at_night",
+      "conceptId": "es.weather_the_temperature_drops_at_night",
+      "sourceId": "en.s.477aac94217b89d0",
+      "source": "The temperature drops at night.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La temperatura baja por la noche.",
+          "audioSlug": "la_temperatura_baja_por_la_noche"
+        }
+      ]
+    },
+    {
+      "id": "weather_it_will_be_sunny_tomorrow",
+      "conceptId": "es.weather_it_will_be_sunny_tomorrow",
+      "sourceId": "en.s.cb1832be2a7ffd85",
+      "source": "It will be sunny tomorrow.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mañana estará soleado.",
+          "audioSlug": "manana_estara_soleado"
+        }
+      ]
+    },
+    {
+      "id": "weather_the_climate_is_changing",
+      "conceptId": "es.weather_the_climate_is_changing",
+      "sourceId": "en.s.4ae7a8eeb43f4dcc",
+      "source": "The climate is changing.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El clima está cambiando.",
+          "audioSlug": "el_clima_esta_cambiando"
+        }
+      ]
+    },
+    {
+      "id": "weather_it_rains_a_lot_this_time_of_year",
+      "conceptId": "es.weather_it_rains_a_lot_this_time_of_year",
+      "sourceId": "en.s.bf9b9fe72033ee72",
+      "source": "It rains a lot this time of year.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Llueve mucho en esta época.",
+          "audioSlug": "llueve_mucho_en_esta_epoca"
+        }
+      ]
+    },
+    {
+      "id": "weather_siento_mucho_frio",
+      "conceptId": "es.weather_siento_mucho_frio",
+      "sourceId": "en.s.8b15c20c41306260",
+      "source": "I feel very cold.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Siento mucho frío.",
+          "audioSlug": "siento_mucho_frio"
+        }
+      ]
+    },
+    {
+      "id": "weather_la_nieve_cubrio_las_montanas",
+      "conceptId": "es.weather_la_nieve_cubrio_las_montanas",
+      "sourceId": "en.s.645d5f5ae66b3f1a",
+      "source": "The snow covered the mountains.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La nieve cubrió las montañas.",
+          "audioSlug": "la_nieve_cubrio_las_montanas"
+        }
+      ]
+    },
+    {
+      "id": "weather_habia_niebla_en_la_carretera",
+      "conceptId": "es.weather_habia_niebla_en_la_carretera",
+      "sourceId": "en.s.c5b44dfc5cd586b4",
+      "source": "There was fog on the road.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Había niebla en la carretera.",
+          "audioSlug": "habia_niebla_en_la_carretera"
+        }
+      ]
+    },
+    {
+      "id": "weather_la_tormenta_duro_toda_la_noche",
+      "conceptId": "es.weather_la_tormenta_duro_toda_la_noche",
+      "sourceId": "en.s.3cd99af65216c309",
+      "source": "The storm lasted all night.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La tormenta duró toda la noche.",
+          "audioSlug": "la_tormenta_duro_toda_la_noche"
+        }
+      ]
+    }
+  ]
+}

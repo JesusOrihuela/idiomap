@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "27",
+  "concepts": {
+    "en.accommodation_pet_policy": {
+      "conceptId": "en.accommodation_pet_policy",
+      "id": "accommodation_pet_policy",
+      "target": [
+        {
+          "text": "What is the hotel's pet policy?",
+          "audioSlug": "what_is_the_hotel_s_pet_policy"
+        }
+      ]
+    },
+    "en.accommodation_unexplained_charge_bill": {
+      "conceptId": "en.accommodation_unexplained_charge_bill",
+      "id": "accommodation_unexplained_charge_bill",
+      "target": [
+        {
+          "text": "I noticed a charge on my bill that I wasn't informed about at check-in.",
+          "audioSlug": "i_noticed_a_charge_on_my_bill_that_i_wasn_t_informed_about_at_check_in"
+        }
+      ]
+    },
+    "en.emociones_why_are_you_tired": {
+      "conceptId": "en.emociones_why_are_you_tired",
+      "id": "emociones_why_are_you_tired",
+      "target": [
+        {
+          "text": "Why are you tired?",
+          "audioSlug": "why_are_you_tired"
+        }
+      ]
+    },
+    "en.museums_arrive_early_installation": {
+      "conceptId": "en.museums_arrive_early_installation",
+      "id": "museums_arrive_early_installation",
+      "target": [
+        {
+          "text": "I'd recommend arriving early to see the installation before the crowd arrives.",
+          "audioSlug": "i_d_recommend_arriving_early_to_see_the_installation_before_the_crowd_arrives"
+        }
+      ]
+    },
+    "en.restaurant_personalized_dessert_occasion": {
+      "conceptId": "en.restaurant_personalized_dessert_occasion",
+      "id": "restaurant_personalized_dessert_occasion",
+      "target": [
+        {
+          "text": "We're celebrating a special occasion. Could you arrange for a personalized dessert?",
+          "audioSlug": "we_re_celebrating_a_special_occasion_could_you_arrange_for_a_personalized_dessert"
+        }
+      ]
+    },
+    "en.sitios_it_is_a_public_place": {
+      "conceptId": "en.sitios_it_is_a_public_place",
+      "id": "sitios_it_is_a_public_place",
+      "target": [
+        {
+          "text": "It is a public place.",
+          "audioSlug": "it_is_a_public_place"
+        }
+      ]
+    },
+    "en.technology_the_router_needs_to_be_placed": {
+      "conceptId": "en.technology_the_router_needs_to_be_placed",
+      "id": "technology_the_router_needs_to_be_placed",
+      "target": [
+        {
+          "text": "The router needs to be placed centrally for better coverage throughout the house.",
+          "audioSlug": "the_router_needs_to_be_placed_centrally_for_better_coverage_throughout_the_house"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "12",
+  "concepts": {
+    "es.calendario_es_mediodia": {
+      "conceptId": "es.calendario_es_mediodia",
+      "id": "calendario_es_mediodia",
+      "target": [
+        {
+          "text": "Es mediodía.",
+          "audioSlug": "es_mediodia"
+        }
+      ]
+    },
+    "es.cotidianidad_no_queda_ninguno": {
+      "conceptId": "es.cotidianidad_no_queda_ninguno",
+      "id": "cotidianidad_no_queda_ninguno",
+      "target": [
+        {
+          "text": "No queda ninguno.",
+          "audioSlug": "no_queda_ninguno"
+        }
+      ]
+    },
+    "es.daily_routine_go_to_bed_at_eleven": {
+      "conceptId": "es.daily_routine_go_to_bed_at_eleven",
+      "id": "daily_routine_go_to_bed_at_eleven",
+      "target": [
+        {
+          "text": "Me acuesto a las once.",
+          "audioSlug": "me_acuesto_a_las_once"
+        }
+      ]
+    },
+    "es.describiendo_personas_ese_muchacho_es_muy_listo": {
+      "conceptId": "es.describiendo_personas_ese_muchacho_es_muy_listo",
+      "id": "describiendo_personas_ese_muchacho_es_muy_listo",
+      "target": [
+        {
+          "text": "Ese muchacho es muy listo.",
+          "audioSlug": "ese_muchacho_es_muy_listo"
+        }
+      ]
+    },
+    "es.descripciones_es_un_tema_muy_actual": {
+      "conceptId": "es.descripciones_es_un_tema_muy_actual",
+      "id": "descripciones_es_un_tema_muy_actual",
+      "target": [
+        {
+          "text": "Es un tema muy actual.",
+          "audioSlug": "es_un_tema_muy_actual"
+        }
+      ]
+    },
+    "es.estudios_sigue_el_modelo_del_libro": {
+      "conceptId": "es.estudios_sigue_el_modelo_del_libro",
+      "id": "estudios_sigue_el_modelo_del_libro",
+      "target": [
+        {
+          "text": "Sigue el modelo del libro.",
+          "audioSlug": "sigue_el_modelo_del_libro"
+        }
+      ]
+    },
+    "es.gym_this_exercise_will_help_me_strengthen": {
+      "conceptId": "es.gym_this_exercise_will_help_me_strengthen",
+      "id": "gym_this_exercise_will_help_me_strengthen",
+      "target": [
+        {
+          "text": "Este ejercicio me ayudará a fortalecer los bíceps.",
+          "audioSlug": "este_ejercicio_me_ayudara_a_fortalecer_los_biceps"
+        }
+      ]
+    },
+    "es.politica_la_guerra_continua": {
+      "conceptId": "es.politica_la_guerra_continua",
+      "id": "politica_la_guerra_continua",
+      "target": [
+        {
+          "text": "La guerra continúa.",
+          "audioSlug": "la_guerra_continua"
+        }
+      ]
+    },
+    "es.restaurant_el_pescado_esta_muy_rico": {
+      "conceptId": "es.restaurant_el_pescado_esta_muy_rico",
+      "id": "restaurant_el_pescado_esta_muy_rico",
+      "target": [
+        {
+          "text": "El pescado está muy rico.",
+          "audioSlug": "el_pescado_esta_muy_rico"
+        }
+      ]
+    },
+    "es.supermarket_there_is_a_long_line_at": {
+      "conceptId": "es.supermarket_there_is_a_long_line_at",
+      "id": "supermarket_there_is_a_long_line_at",
+      "target": [
+        {
+          "text": "Hay mucha fila en las cajas.",
+          "audioSlug": "hay_mucha_fila_en_las_cajas"
+        }
+      ]
+    },
+    "es.survival_write_it_down": {
+      "conceptId": "es.survival_write_it_down",
+      "id": "survival_write_it_down",
+      "target": [
+        {
+          "text": "¿Me lo puedes escribir?",
+          "audioSlug": "me_lo_puedes_escribir",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Me lo puede escribir?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "me_lo_puede_escribir"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "72",
+  "concepts": {
+    "en.cotidianidad_i_can_finally_rest": {
+      "conceptId": "en.cotidianidad_i_can_finally_rest",
+      "id": "cotidianidad_i_can_finally_rest",
+      "target": [
+        {
+          "text": "I can finally rest.",
+          "audioSlug": "i_can_finally_rest"
+        }
+      ]
+    },
+    "en.greetings_hi_its_been_a_while_how": {
+      "conceptId": "en.greetings_hi_its_been_a_while_how",
+      "id": "greetings_hi_its_been_a_while_how",
+      "target": [
+        {
+          "text": "Hi, it's been a while, how are you?",
+          "audioSlug": "hi_it_s_been_a_while_how_are_you",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Hello, it's been a while, how are you?",
+          "audioSlug": "hello_it_s_been_a_while_how_are_you",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.health_i_feel_much_better_today": {
+      "conceptId": "en.health_i_feel_much_better_today",
+      "id": "health_i_feel_much_better_today",
+      "target": [
+        {
+          "text": "I feel much better today.",
+          "audioSlug": "i_feel_much_better_today"
+        }
+      ]
+    },
+    "en.health_the_doctor_says_im_fine": {
+      "conceptId": "en.health_the_doctor_says_im_fine",
+      "id": "health_the_doctor_says_im_fine",
+      "target": [
+        {
+          "text": "The doctor says I'm fine.",
+          "audioSlug": "the_doctor_says_i_m_fine"
+        }
+      ]
+    },
+    "en.personal_info_how_old_are_you": {
+      "conceptId": "en.personal_info_how_old_are_you",
+      "id": "personal_info_how_old_are_you",
+      "target": [
+        {
+          "text": "How old are you?",
+          "audioSlug": "how_old_are_you"
+        }
+      ]
+    },
+    "en.restaurant_how_long_will_the_food_take": {
+      "conceptId": "en.restaurant_how_long_will_the_food_take",
+      "id": "restaurant_how_long_will_the_food_take",
+      "target": [
+        {
+          "text": "How long will the food take to arrive?",
+          "audioSlug": "how_long_will_the_food_take_to_arrive"
+        }
+      ]
+    },
+    "en.restaurant_private_dining_business": {
+      "conceptId": "en.restaurant_private_dining_business",
+      "id": "restaurant_private_dining_business",
+      "target": [
+        {
+          "text": "I'd like to reserve a private dining area for a business dinner. Is anything available?",
+          "audioSlug": "i_d_like_to_reserve_a_private_dining_area_for_a_business_dinner_is_anything_available"
+        }
+      ]
+    }
+  }
+}

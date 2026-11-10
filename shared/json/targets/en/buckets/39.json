@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "39",
+  "concepts": {
+    "en.airport_connection_time_enough": {
+      "conceptId": "en.airport_connection_time_enough",
+      "id": "airport_connection_time_enough",
+      "target": [
+        {
+          "text": "I have a connection. Is there time to reach the next gate?",
+          "audioSlug": "i_have_a_connection_is_there_time_to_reach_the_next_gate"
+        }
+      ]
+    },
+    "en.airport_nothing_to_declare": {
+      "conceptId": "en.airport_nothing_to_declare",
+      "id": "airport_nothing_to_declare",
+      "target": [
+        {
+          "text": "I have nothing to declare.",
+          "audioSlug": "i_have_nothing_to_declare"
+        }
+      ]
+    },
+    "en.fiesta_we_danced_all_night": {
+      "conceptId": "en.fiesta_we_danced_all_night",
+      "id": "fiesta_we_danced_all_night",
+      "target": [
+        {
+          "text": "We danced all night.",
+          "audioSlug": "we_danced_all_night"
+        }
+      ]
+    },
+    "en.gym_can_you_give_me_some_tips": {
+      "conceptId": "en.gym_can_you_give_me_some_tips",
+      "id": "gym_can_you_give_me_some_tips",
+      "target": [
+        {
+          "text": "Could you give me tips to improve my technique?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "could_you_give_me_tips_to_improve_my_technique"
+        },
+        {
+          "text": "Can you give me tips to improve my technique?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "can_you_give_me_tips_to_improve_my_technique"
+        }
+      ]
+    },
+    "en.gym_keep_your_back_straight": {
+      "conceptId": "en.gym_keep_your_back_straight",
+      "id": "gym_keep_your_back_straight",
+      "target": [
+        {
+          "text": "Keep your back straight.",
+          "audioSlug": "keep_your_back_straight"
+        }
+      ]
+    },
+    "en.health_i_have_a_fever": {
+      "conceptId": "en.health_i_have_a_fever",
+      "id": "health_i_have_a_fever",
+      "target": [
+        {
+          "text": "I have a fever.",
+          "audioSlug": "i_have_a_fever"
+        }
+      ]
+    },
+    "en.movies_character_motivations_hard_to_believe": {
+      "conceptId": "en.movies_character_motivations_hard_to_believe",
+      "id": "movies_character_motivations_hard_to_believe",
+      "target": [
+        {
+          "text": "The characters motivations were hard to believe.",
+          "audioSlug": "the_characters_motivations_were_hard_to_believe"
+        }
+      ]
+    },
+    "en.movies_dubbed_or_subtitled": {
+      "conceptId": "en.movies_dubbed_or_subtitled",
+      "id": "movies_dubbed_or_subtitled",
+      "target": [
+        {
+          "text": "Is the movie dubbed or subtitled?",
+          "audioSlug": "is_the_movie_dubbed_or_subtitled"
+        }
+      ]
+    },
+    "en.restaurant_steak_wrong_doneness": {
+      "conceptId": "en.restaurant_steak_wrong_doneness",
+      "id": "restaurant_steak_wrong_doneness",
+      "target": [
+        {
+          "text": "I ordered this steak medium-rare but it came well-done.",
+          "audioSlug": "i_ordered_this_steak_medium_rare_but_it_came_well_done"
+        }
+      ]
+    },
+    "en.technology_this_powerpoint_presentation_is_very_boring": {
+      "conceptId": "en.technology_this_powerpoint_presentation_is_very_boring",
+      "id": "technology_this_powerpoint_presentation_is_very_boring",
+      "target": [
+        {
+          "text": "This PowerPoint presentation is very boring.",
+          "audioSlug": "this_powerpoint_presentation_is_very_boring"
+        }
+      ]
+    },
+    "en.tiempo_libre_do_you_have_hobbies": {
+      "conceptId": "en.tiempo_libre_do_you_have_hobbies",
+      "id": "tiempo_libre_do_you_have_hobbies",
+      "target": [
+        {
+          "text": "Do you have any hobbies?",
+          "audioSlug": "do_you_have_any_hobbies"
+        }
+      ]
+    }
+  }
+}

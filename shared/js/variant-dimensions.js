@@ -55,6 +55,13 @@
                          // Polish (de-pl): the 7-case system (a minimal slice authored for the stress-test).
                          'mianownik', 'dopełniacz', 'celownik', 'biernik', 'narzędnik', 'miejscownik', 'wołacz'],
                 priority: 4, badge: 'pill', appliesTo: ['de', 'fi', 'pl'],
+                // Per-language values: the union above lets a German form use a Finnish
+                // case name if only `values` is checked. valuesByLang closes that.
+                valuesByLang: {
+                  de: ['nominativ', 'akkusativ', 'dativ', 'genitiv'],
+                  fi: ['nominatiivi', 'partitiivi', 'genetiivi', 'inessiivi', 'elatiivi', 'illatiivi'],
+                  pl: ['mianownik', 'dopełniacz', 'celownik', 'biernik', 'narzędnik', 'miejscownik', 'wołacz'],
+                },
                 agreement: ['artikel', 'adjektiv', 'pronomen'] },
     // REGISTER — forms of address / formality. Binary (formal/informal) for most languages, but a
     // 3-WAY politeness cline where a language marks three tiers of address: Portuguese tu (informal) /
@@ -109,10 +116,12 @@
       });
     },
     /** Is a value valid for a dimension? (open dims accept any non-empty string.) */
-    isValidValue: function (d, v) {
-      if (!DIMENSIONS[d]) return false;
-      if (DIMENSIONS[d].open) return typeof v === 'string' && v.trim() !== '';
-      return (DIMENSIONS[d].values || []).indexOf(v) !== -1;
+    isValidValue: function (d, v, lang) {
+      const def = DIMENSIONS[d];
+      if (!def) return false;
+      if (def.open) return typeof v === 'string' && v.trim() !== '';
+      const allowed = (lang && def.valuesByLang && def.valuesByLang[lang]) || def.values || [];
+      return allowed.indexOf(v) !== -1;
     },
     /** Validate a labels object against the registry — the ONE validator both check-content and
         the openness test call, so a dimension added here is accepted with zero validator code.
@@ -125,7 +134,9 @@
         const value = labels[key];
         if (!this.has(key)) { errs.push({ key: key, value: value, code: 'unknown-key' }); continue; }
         if (lang && !this.appliesTo(key, lang)) { errs.push({ key: key, value: value, code: 'not-applicable' }); continue; }
-        if (!this.isOpen(key) && !this.isValidValue(key, value)) errs.push({ key: key, value: value, code: 'invalid-value' });
+        // Open dims accept any NON-EMPTY string; closed dims use values / valuesByLang.
+        // The old `!isOpen` guard skipped open values entirely, so "" and null passed.
+        if (!this.isValidValue(key, value, lang)) errs.push({ key: key, value: value, code: 'invalid-value' });
       }
       return errs;
     },

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "e6",
+  "concepts": {
+    "en.directions_how_long_walk": {
+      "conceptId": "en.directions_how_long_walk",
+      "id": "directions_how_long_walk",
+      "target": [
+        {
+          "text": "How long does it take on foot?",
+          "audioSlug": "how_long_does_it_take_on_foot"
+        }
+      ]
+    },
+    "en.kitchen_put_the_leftovers_in_plastic_containers": {
+      "conceptId": "en.kitchen_put_the_leftovers_in_plastic_containers",
+      "id": "kitchen_put_the_leftovers_in_plastic_containers",
+      "target": [
+        {
+          "text": "Put the leftovers in plastic containers.",
+          "audioSlug": "put_the_leftovers_in_plastic_containers"
+        }
+      ]
+    },
+    "en.kitchen_the_glasses_are_hanging_on_the": {
+      "conceptId": "en.kitchen_the_glasses_are_hanging_on_the",
+      "id": "kitchen_the_glasses_are_hanging_on_the",
+      "target": [
+        {
+          "text": "The glasses are hanging on the shelf.",
+          "audioSlug": "the_glasses_are_hanging_on_the_shelf"
+        }
+      ]
+    },
+    "en.restaurant_could_i_have_my_salad_with": {
+      "conceptId": "en.restaurant_could_i_have_my_salad_with",
+      "id": "restaurant_could_i_have_my_salad_with",
+      "target": [
+        {
+          "text": "Could I have the dressing on the side, please?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "could_i_have_the_dressing_on_the_side_please"
+        },
+        {
+          "text": "Can I have the dressing on the side?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "can_i_have_the_dressing_on_the_side"
+        }
+      ]
+    },
+    "en.transportation_missed_train_next_one": {
+      "conceptId": "en.transportation_missed_train_next_one",
+      "id": "transportation_missed_train_next_one",
+      "target": [
+        {
+          "text": "I missed my train. When does the next one leave?",
+          "audioSlug": "i_missed_my_train_when_does_the_next_one_leave"
+        }
+      ]
+    }
+  }
+}

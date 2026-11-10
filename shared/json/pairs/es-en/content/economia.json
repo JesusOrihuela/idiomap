@@ -1,24 +1,228 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "economia",
-  "conceptIds": [
-    "en.economia_i_have_no_money",
-    "en.economia_business_is_slow",
-    "en.economia_i_want_to_buy_it",
-    "en.economia_let_me_pay",
-    "en.economia_we_have_free_trade",
-    "en.economia_economic_growth_is_slow",
-    "en.economia_they_want_to_raise_money",
-    "en.economia_we_must_save_money",
-    "en.economia_it_is_an_economic_crisis",
-    "en.economia_they_made_a_good_offer",
-    "en.economia_you_will_gain_a_lot",
-    "en.economia_can_you_estimate_the_cost",
-    "en.economia_it_is_important_to_consider_the_new_market_trends",
-    "en.economia_the_property_is_mine",
-    "en.economia_the_market_is_big",
-    "en.economia_the_stock_market_is_up",
-    "en.economia_country_development_slow"
+  "phrases": [
+    {
+      "conceptId": "en.economia_i_have_no_money",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2f55f7edf50a6b3f"
+    },
+    {
+      "conceptId": "en.economia_business_is_slow",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.247e52ad42ab0641"
+    },
+    {
+      "conceptId": "en.economia_i_want_to_buy_it",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0b6890ab8c9fdea0"
+    },
+    {
+      "conceptId": "en.economia_let_me_pay",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9bdbe5d0eb7278ab"
+    },
+    {
+      "conceptId": "en.economia_we_have_free_trade",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a49b196d96ee7a9a"
+    },
+    {
+      "conceptId": "en.economia_economic_growth_is_slow",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.90a58e20541c53f0"
+    },
+    {
+      "conceptId": "en.economia_they_want_to_raise_money",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.515c9da3f8fd66dc"
+    },
+    {
+      "conceptId": "en.economia_we_must_save_money",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.de3aafcf1138831e"
+    },
+    {
+      "conceptId": "en.economia_it_is_an_economic_crisis",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.010fa34f22f67ce4"
+    },
+    {
+      "conceptId": "en.economia_they_made_a_good_offer",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1b49eb6b239d4190"
+    },
+    {
+      "conceptId": "en.economia_you_will_gain_a_lot",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.65e43ccd85230791"
+    },
+    {
+      "conceptId": "en.economia_can_you_estimate_the_cost",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5fc8b245a914e191"
+    },
+    {
+      "conceptId": "en.economia_it_is_important_to_consider_the_new_market_trends",
+      "level": "B1",
+      "grammar": "'It is + adjective + to-infinitive' is an impersonal way to make a recommendation.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b56a36118cea7ad1"
+    },
+    {
+      "conceptId": "en.economia_the_property_is_mine",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.37447ee19bec8bcb"
+    },
+    {
+      "conceptId": "en.economia_the_market_is_big",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.40be4144fea1baa3"
+    },
+    {
+      "conceptId": "en.economia_the_stock_market_is_up",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ebdfdc4fecc0054e"
+    },
+    {
+      "conceptId": "en.economia_country_development_slow",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a5829bf8f992e299"
+    }
   ]
 }

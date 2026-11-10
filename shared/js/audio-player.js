@@ -1,7 +1,7 @@
 /* ============================================================
    audio-player.js — Static audio file player with Kokoro fallback
 
-   Primary path: fetches pre-generated WAV files from disk.
+   Primary path: fetches pre-generated AAC/M4A files from disk.
    Fallback: Kokoro (AppTTS) for any phrase not yet pre-generated.
 
    Usage:
@@ -16,7 +16,7 @@ const AppAudio = (() => {
   // Fallback voice pool (English) used when AppLangPair is not yet available.
   const _VOICES_FALLBACK = ['af_heart', 'af_bella', 'bf_emma', 'am_michael'];
 
-  let _base          = '../audio/';   // path to {topic}/{audioSlug}-{voice}.wav, relative to the page
+  let _base          = '../audio/';   // path to {topic}/{audioSlug}-{voice}.m4a, relative to the page
   let _audioCtx      = null;
   let _currentSource = null;
   let _cancelId      = 0;             // incremented on every play()/cancel() call
@@ -36,6 +36,17 @@ const AppAudio = (() => {
     return voices[Math.floor(Math.random() * voices.length)];
   }
 
+  // Version de cache por texto: un texto editado produce otra URL y el SW no
+  // sirve el audio viejo. FNV-1a de 32 bits; suficiente para invalidar cache.
+  function _version(text) {
+    var h = 2166136261;
+    for (var i = 0; i < text.length; i++) {
+      h ^= text.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    return (h >>> 0).toString(16);
+  }
+
   /**
    * Play pre-generated audio for a phrase.
    * @param {string}  topic       - e.g. 'greetings'
@@ -48,7 +59,7 @@ const AppAudio = (() => {
     const myId  = ++_cancelId;
     const speed = rate || 1.0;
     const voice = _randomVoice();
-    const url   = _base + topic + '/' + slug + '-' + voice + '.wav';
+    const url   = _base + topic + '/' + slug + '-' + voice + '.m4a?v=' + _version(text || slug);
 
     try {
       const res = await fetch(url);

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "f8",
+  "concepts": {
+    "es.accountability_restatement_prior_period_accounting_standard": {
+      "conceptId": "es.accountability_restatement_prior_period_accounting_standard",
+      "id": "accountability_restatement_prior_period_accounting_standard",
+      "target": [
+        {
+          "text": "La nueva norma contable exigió reexpresar los comparativos de periodos anteriores.",
+          "audioSlug": "la_nueva_norma_contable_exigio_reexpresar_los_comparativos_de_periodos_anteriores"
+        }
+      ]
+    },
+    "es.calendario_la_fiesta_es_el_sabado_por_la_tarde": {
+      "conceptId": "es.calendario_la_fiesta_es_el_sabado_por_la_tarde",
+      "id": "calendario_la_fiesta_es_el_sabado_por_la_tarde",
+      "target": [
+        {
+          "text": "La fiesta es el sábado por la tarde.",
+          "audioSlug": "la_fiesta_es_el_sabado_por_la_tarde"
+        }
+      ]
+    },
+    "es.daily_routine_i_watch_the_news_in_the_morning": {
+      "conceptId": "es.daily_routine_i_watch_the_news_in_the_morning",
+      "id": "daily_routine_i_watch_the_news_in_the_morning",
+      "target": [
+        {
+          "text": "Miro las noticias por la mañana.",
+          "audioSlug": "miro_las_noticias_por_la_manana"
+        }
+      ]
+    },
+    "es.kitchen_the_sandwich_maker_is_in_the": {
+      "conceptId": "es.kitchen_the_sandwich_maker_is_in_the",
+      "id": "kitchen_the_sandwich_maker_is_in_the",
+      "target": [
+        {
+          "text": "La sandwichera está en el armario.",
+          "audioSlug": "la_sandwichera_esta_en_el_armario"
+        }
+      ]
+    },
+    "es.planes_no_voy_a_abandonar": {
+      "conceptId": "es.planes_no_voy_a_abandonar",
+      "id": "planes_no_voy_a_abandonar",
+      "target": [
+        {
+          "text": "No voy a abandonar.",
+          "audioSlug": "no_voy_a_abandonar"
+        }
+      ]
+    },
+    "es.restaurant_brindamos_con_champan": {
+      "conceptId": "es.restaurant_brindamos_con_champan",
+      "id": "restaurant_brindamos_con_champan",
+      "target": [
+        {
+          "text": "Brindamos con champán.",
+          "audioSlug": "brindamos_con_champan"
+        }
+      ]
+    },
+    "es.restaurant_could_i_have_my_steak_cooked": {
+      "conceptId": "es.restaurant_could_i_have_my_steak_cooked",
+      "id": "restaurant_could_i_have_my_steak_cooked",
+      "target": [
+        {
+          "text": "¿Me trae el filete a término medio, por favor?",
+          "audioSlug": "me_trae_el_filete_a_termino_medio_por_favor"
+        }
+      ]
+    },
+    "es.restaurant_wine_acidity_fish_pairing": {
+      "conceptId": "es.restaurant_wine_acidity_fish_pairing",
+      "id": "restaurant_wine_acidity_fish_pairing",
+      "target": [
+        {
+          "text": "Busco un vino con buena acidez para maridar con el pescado.",
+          "audioSlug": "busco_un_vino_con_buena_acidez_para_maridar_con_el_pescado"
+        }
+      ]
+    },
+    "es.technology_este_dispositivo_es_muy_moderno": {
+      "conceptId": "es.technology_este_dispositivo_es_muy_moderno",
+      "id": "technology_este_dispositivo_es_muy_moderno",
+      "target": [
+        {
+          "text": "Este dispositivo es muy moderno.",
+          "audioSlug": "este_dispositivo_es_muy_moderno"
+        }
+      ]
+    },
+    "es.tiempo_libre_ese_actor_es_muy_conocido": {
+      "conceptId": "es.tiempo_libre_ese_actor_es_muy_conocido",
+      "id": "tiempo_libre_ese_actor_es_muy_conocido",
+      "target": [
+        {
+          "text": "Esa actriz es muy conocida.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Diese Schauspielerin ist sehr bekannt.",
+          "audioSlug": "esa_actriz_es_muy_conocida"
+        },
+        {
+          "text": "Ese actor es muy conocido.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Dieser Schauspieler ist sehr bekannt.",
+          "audioSlug": "ese_actor_es_muy_conocido"
+        }
+      ]
+    },
+    "es.tiempo_libre_estoy_leyendo_el_ultimo_capitulo": {
+      "conceptId": "es.tiempo_libre_estoy_leyendo_el_ultimo_capitulo",
+      "id": "tiempo_libre_estoy_leyendo_el_ultimo_capitulo",
+      "target": [
+        {
+          "text": "Estoy leyendo el último capítulo.",
+          "audioSlug": "estoy_leyendo_el_ultimo_capitulo"
+        }
+      ]
+    }
+  }
+}

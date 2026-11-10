@@ -1,25 +1,241 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "viajes",
-  "conceptIds": [
-    "es.viajes_me_gusta_viajar_en_verano",
-    "es.viajes_voy_a_reservar_un_hotel",
-    "es.viajes_que_lugares_me_recomiendas",
-    "es.viajes_quiero_conocer_la_cultura",
-    "es.viajes_necesito_cambiar_dinero",
-    "es.viajes_es_un_boleto_de_ida_y_vuelta",
-    "es.viajes_cuanto_dura_el_viaje",
-    "es.viajes_viajo_con_poco_equipaje",
-    "es.viajes_todavia_no_he_decidido_adonde_ir",
-    "es.viajes_tomo_muchas_fotos_cuando_viajo",
-    "es.viajes_el_paisaje_de_las_montanas_es_hermoso",
-    "es.viajes_cruzamos_la_frontera_sin_problemas",
-    "es.viajes_viajar_es_una_gran_aventura",
-    "es.viajes_los_turistas_visitan_la_catedral",
-    "es.viajes_guardo_buenos_recuerdos_de_ese_viaje",
-    "es.viajes_necesito_cambiar_euros_por_dolares",
-    "es.viajes_reservamos_una_excursion_por_la_ciudad",
-    "es.viajes_siempre_llevo_una_camara"
+  "phrases": [
+    {
+      "conceptId": "es.viajes_me_gusta_viajar_en_verano",
+      "level": "A1",
+      "grammar": "me gusta más infinitivo, me gusta viajar.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9e6ad03537cd554b"
+    },
+    {
+      "conceptId": "es.viajes_voy_a_reservar_un_hotel",
+      "level": "A2",
+      "grammar": "ir a más infinitivo expresa un plan, voy a reservar.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5cf08d5283b3a0cc"
+    },
+    {
+      "conceptId": "es.viajes_que_lugares_me_recomiendas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e3863e4b2ffc3092"
+    },
+    {
+      "conceptId": "es.viajes_quiero_conocer_la_cultura",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.749a16ec8baa7712"
+    },
+    {
+      "conceptId": "es.viajes_necesito_cambiar_dinero",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.26f44ce35fb258f0"
+    },
+    {
+      "conceptId": "es.viajes_es_un_boleto_de_ida_y_vuelta",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1b6c5392b8a9d968"
+    },
+    {
+      "conceptId": "es.viajes_cuanto_dura_el_viaje",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.28b0c992186e8c82"
+    },
+    {
+      "conceptId": "es.viajes_viajo_con_poco_equipaje",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cbdd5479fa616c4e"
+    },
+    {
+      "conceptId": "es.viajes_todavia_no_he_decidido_adonde_ir",
+      "level": "B1",
+      "grammar": "no he decidido es pretérito perfecto, para algo aún no cerrado.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4aa6263a31171434"
+    },
+    {
+      "conceptId": "es.viajes_tomo_muchas_fotos_cuando_viajo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b0c85b497ebfe193"
+    },
+    {
+      "conceptId": "es.viajes_el_paisaje_de_las_montanas_es_hermoso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e652e04eed41ca73"
+    },
+    {
+      "conceptId": "es.viajes_cruzamos_la_frontera_sin_problemas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.488e9ad554a62831"
+    },
+    {
+      "conceptId": "es.viajes_viajar_es_una_gran_aventura",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d70c37505736a04a"
+    },
+    {
+      "conceptId": "es.viajes_los_turistas_visitan_la_catedral",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.773422d25e8b114b"
+    },
+    {
+      "conceptId": "es.viajes_guardo_buenos_recuerdos_de_ese_viaje",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0f14a0da6d2bff26"
+    },
+    {
+      "conceptId": "es.viajes_necesito_cambiar_euros_por_dolares",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0e27bc9c74421dd9"
+    },
+    {
+      "conceptId": "es.viajes_reservamos_una_excursion_por_la_ciudad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c4c8b933802f8c67"
+    },
+    {
+      "conceptId": "es.viajes_siempre_llevo_una_camara",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.eb725c3f6071ea36"
+    }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "2f",
+  "concepts": {
+    "en.family_how_many_children_do_you_have": {
+      "conceptId": "en.family_how_many_children_do_you_have",
+      "id": "family_how_many_children_do_you_have",
+      "target": [
+        {
+          "text": "How many children do you have?",
+          "audioSlug": "how_many_children_do_you_have"
+        }
+      ]
+    },
+    "en.family_my_aunt_lives_in_the_city": {
+      "conceptId": "en.family_my_aunt_lives_in_the_city",
+      "id": "family_my_aunt_lives_in_the_city",
+      "target": [
+        {
+          "text": "My aunt lives in the city.",
+          "audioSlug": "my_aunt_lives_in_the_city"
+        }
+      ]
+    }
+  }
+}

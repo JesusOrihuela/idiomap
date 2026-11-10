@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "e2",
+  "concepts": {
+    "es.airport_carryon_size_limit": {
+      "conceptId": "es.airport_carryon_size_limit",
+      "id": "airport_carryon_size_limit",
+      "target": [
+        {
+          "text": "El equipaje de mano debe ser de un tamaño específico.",
+          "audioSlug": "el_equipaje_de_mano_debe_ser_de_un_tamano_especifico"
+        }
+      ]
+    },
+    "es.calendario_que_hora_tienes": {
+      "conceptId": "es.calendario_que_hora_tienes",
+      "id": "calendario_que_hora_tienes",
+      "target": [
+        {
+          "text": "¿Qué hora tienes?",
+          "audioSlug": "que_hora_tienes"
+        }
+      ]
+    },
+    "es.economia_ahorro_dinero_cada_mes": {
+      "conceptId": "es.economia_ahorro_dinero_cada_mes",
+      "id": "economia_ahorro_dinero_cada_mes",
+      "target": [
+        {
+          "text": "Ahorro dinero cada mes.",
+          "audioSlug": "ahorro_dinero_cada_mes"
+        }
+      ]
+    },
+    "es.economia_tenemos_una_buena_relacion_con_el_banco": {
+      "conceptId": "es.economia_tenemos_una_buena_relacion_con_el_banco",
+      "id": "economia_tenemos_una_buena_relacion_con_el_banco",
+      "target": [
+        {
+          "text": "Tenemos una buena relación con el banco.",
+          "audioSlug": "tenemos_una_buena_relacion_con_el_banco"
+        }
+      ]
+    },
+    "es.gym_can_you_show_me_how_to": {
+      "conceptId": "es.gym_can_you_show_me_how_to",
+      "id": "gym_can_you_show_me_how_to",
+      "target": [
+        {
+          "text": "¿Puedes mostrarme cómo usar correctamente esta máquina?",
+          "audioSlug": "puedes_mostrarme_como_usar_correctamente_esta_maquina"
+        }
+      ]
+    },
+    "es.gym_hiit_cardiovascular_endurance": {
+      "conceptId": "es.gym_hiit_cardiovascular_endurance",
+      "id": "gym_hiit_cardiovascular_endurance",
+      "target": [
+        {
+          "text": "Incorporé HIIT a mi rutina para mejorar mi resistencia cardiovascular.",
+          "audioSlug": "incorpore_hiit_a_mi_rutina_para_mejorar_mi_resistencia_cardiovascular"
+        }
+      ]
+    },
+    "es.gym_what_is_the_gyms_schedule": {
+      "conceptId": "es.gym_what_is_the_gyms_schedule",
+      "id": "gym_what_is_the_gyms_schedule",
+      "target": [
+        {
+          "text": "¿Cuál es el horario del gimnasio?",
+          "audioSlug": "cual_es_el_horario_del_gimnasio"
+        }
+      ]
+    },
+    "es.gym_what_type_of_membership_do_you": {
+      "conceptId": "es.gym_what_type_of_membership_do_you",
+      "id": "gym_what_type_of_membership_do_you",
+      "target": [
+        {
+          "text": "¿Qué tipo de membresía ofrecen?",
+          "audioSlug": "que_tipo_de_membresia_ofrecen"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_cerdo_vive_en_la_granja": {
+      "conceptId": "es.naturaleza_lugares_el_cerdo_vive_en_la_granja",
+      "id": "naturaleza_lugares_el_cerdo_vive_en_la_granja",
+      "target": [
+        {
+          "text": "El cerdo vive en la granja.",
+          "audioSlug": "el_cerdo_vive_en_la_granja"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_i_dont_know_if_thats_true": {
+      "conceptId": "es.pensamientos_opiniones_i_dont_know_if_thats_true",
+      "id": "pensamientos_opiniones_i_dont_know_if_thats_true",
+      "target": [
+        {
+          "text": "No sé si eso es cierto.",
+          "audioSlug": "no_se_si_eso_es_cierto"
+        }
+      ]
+    },
+    "es.restaurant_a_table_for_two_please": {
+      "conceptId": "es.restaurant_a_table_for_two_please",
+      "id": "restaurant_a_table_for_two_please",
+      "target": [
+        {
+          "text": "Una mesa para dos, por favor.",
+          "audioSlug": "una_mesa_para_dos_por_favor"
+        }
+      ]
+    },
+    "es.technology_el_telefono_sono": {
+      "conceptId": "es.technology_el_telefono_sono",
+      "id": "technology_el_telefono_sono",
+      "target": [
+        {
+          "text": "El teléfono sonó.",
+          "audioSlug": "el_telefono_sono"
+        }
+      ]
+    }
+  }
+}

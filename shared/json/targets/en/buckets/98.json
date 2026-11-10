@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "98",
+  "concepts": {
+    "en.theater_staging_final_scene": {
+      "conceptId": "en.theater_staging_final_scene",
+      "id": "theater_staging_final_scene",
+      "target": [
+        {
+          "text": "The director's staging of the final scene was unconventional but remarkably effective.",
+          "audioSlug": "the_director_s_staging_of_the_final_scene_was_unconventional_but_remarkably_effective"
+        }
+      ]
+    },
+    "en.transportation_bike_brakes_faulty": {
+      "conceptId": "en.transportation_bike_brakes_faulty",
+      "id": "transportation_bike_brakes_faulty",
+      "target": [
+        {
+          "text": "The rental bike wasn't in the advertised condition. The brakes were faulty.",
+          "audioSlug": "the_rental_bike_wasn_t_in_the_advertised_condition_the_brakes_were_faulty"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "oficina",
+  "phrases": [
+    {
+      "id": "oficina_let_s_start_the_meeting",
+      "conceptId": "en.oficina_let_s_start_the_meeting",
+      "sourceId": "es.s.b2834908feddb662",
+      "source": "Empecemos la reunión.",
+      "level": "A2",
+      "grammar": "'Let's + infinitive' is the standard way to make an inclusive suggestion.",
+      "target": [
+        {
+          "text": "Let's start the meeting.",
+          "audioSlug": "let_s_start_the_meeting",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Let's begin the meeting.",
+          "audioSlug": "let_s_begin_the_meeting",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oficina_when_is_the_meeting_scheduled",
+      "conceptId": "en.oficina_when_is_the_meeting_scheduled",
+      "sourceId": "es.s.c0dbe72e9114c250",
+      "source": "¿Cuándo está programada la reunión?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "When is the meeting scheduled?",
+          "audioSlug": "when_is_the_meeting_scheduled",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "When is the meeting planned?",
+          "audioSlug": "when_is_the_meeting_planned",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oficina_we_have_a_new_client",
+      "conceptId": "en.oficina_we_have_a_new_client",
+      "sourceId": "es.s.c5c4964c004d7134",
+      "source": "Tenemos un nuevo cliente.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We have a new client.",
+          "audioSlug": "we_have_a_new_client",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "We have a new customer.",
+          "audioSlug": "we_have_a_new_customer",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oficina_this_is_my_office",
+      "conceptId": "en.oficina_this_is_my_office",
+      "sourceId": "es.s.b4457754659ad391",
+      "source": "Esta es mi oficina.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This is my office.",
+          "audioSlug": "this_is_my_office"
+        }
+      ]
+    },
+    {
+      "id": "oficina_he_is_my_boss",
+      "conceptId": "en.oficina_he_is_my_boss",
+      "sourceId": "es.s.0246ef39f3e76c8c",
+      "source": "Él es mi jefe.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "He is my boss.",
+          "audioSlug": "he_is_my_boss"
+        }
+      ]
+    },
+    {
+      "id": "oficina_he_works_in_industry",
+      "conceptId": "en.oficina_he_works_in_industry",
+      "sourceId": "es.s.77d41ec0dd792942",
+      "source": "Él trabaja en la industria.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "He works in industry.",
+          "audioSlug": "he_works_in_industry"
+        }
+      ]
+    },
+    {
+      "id": "oficina_i_will_attend_the_meeting",
+      "conceptId": "en.oficina_i_will_attend_the_meeting",
+      "sourceId": "es.s.6a09e21c614ad2ba",
+      "source": "Asistiré a la reunión.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I will attend the meeting.",
+          "audioSlug": "i_will_attend_the_meeting"
+        }
+      ]
+    },
+    {
+      "id": "oficina_the_work_is_complete",
+      "conceptId": "en.oficina_the_work_is_complete",
+      "sourceId": "es.s.e72d7fd35c23098b",
+      "source": "El trabajo está completo.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The work is complete.",
+          "audioSlug": "the_work_is_complete"
+        }
+      ]
+    },
+    {
+      "id": "oficina_i_have_an_interview_today",
+      "conceptId": "en.oficina_i_have_an_interview_today",
+      "sourceId": "es.s.c6d1144a7f1da036",
+      "source": "Tengo una entrevista hoy.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have an interview today.",
+          "audioSlug": "i_have_an_interview_today"
+        }
+      ]
+    },
+    {
+      "id": "oficina_i_need_a_new_job",
+      "conceptId": "en.oficina_i_need_a_new_job",
+      "sourceId": "es.s.a82e00def73a977a",
+      "source": "Necesito un nuevo trabajo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I need a new job.",
+          "audioSlug": "i_need_a_new_job"
+        }
+      ]
+    },
+    {
+      "id": "oficina_i_work_from_monday_to_friday",
+      "conceptId": "en.oficina_i_work_from_monday_to_friday",
+      "sourceId": "es.s.81f52b2452dfb0b7",
+      "source": "Trabajo de lunes a viernes.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I work from Monday to Friday.",
+          "audioSlug": "i_work_from_monday_to_friday"
+        }
+      ]
+    },
+    {
+      "id": "oficina_he_is_sure_of_success",
+      "conceptId": "en.oficina_he_is_sure_of_success",
+      "sourceId": "es.s.01d44debfb5aae20",
+      "source": "Está seguro del éxito.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "He is sure of success.",
+          "audioSlug": "he_is_sure_of_success"
+        }
+      ]
+    },
+    {
+      "id": "oficina_everyone_has_a_role_to_play",
+      "conceptId": "en.oficina_everyone_has_a_role_to_play",
+      "sourceId": "es.s.3d0a04a86a2c079b",
+      "source": "Todos tienen un papel que desempeñar.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Everyone has a role to play.",
+          "audioSlug": "everyone_has_a_role_to_play"
+        }
+      ]
+    },
+    {
+      "id": "oficina_sign_here",
+      "conceptId": "en.oficina_sign_here",
+      "sourceId": "es.s.4623de36f0063005",
+      "source": "Firma aquí.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sign here.",
+          "audioSlug": "sign_here"
+        }
+      ]
+    },
+    {
+      "id": "oficina_i_need_to_organize_this",
+      "conceptId": "en.oficina_i_need_to_organize_this",
+      "sourceId": "es.s.d8fdc8a642fb7aea",
+      "source": "Necesito organizar esto.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I need to organize this.",
+          "audioSlug": "i_need_to_organize_this"
+        }
+      ]
+    },
+    {
+      "id": "oficina_please_fill_the_form",
+      "conceptId": "en.oficina_please_fill_the_form",
+      "sourceId": "es.s.20c4f4c7178079a7",
+      "source": "Llena el formulario, por favor.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Please fill the form.",
+          "audioSlug": "please_fill_the_form"
+        }
+      ]
+    },
+    {
+      "id": "oficina_everyone_was_present",
+      "conceptId": "en.oficina_everyone_was_present",
+      "sourceId": "es.s.b85cad1bbf7faa68",
+      "source": "Todos estaban presentes, aunque algunos se fueron temprano.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Everyone was present, though a few left early.",
+          "audioSlug": "everyone_was_present_though_a_few_left_early"
+        }
+      ]
+    },
+    {
+      "id": "oficina_recommends_that_he_arrive",
+      "conceptId": "en.oficina_recommends_that_he_arrive",
+      "sourceId": "es.s.0a0a602e512472fa",
+      "source": "El gerente recomienda que llegue temprano.",
+      "level": "C1",
+      "grammar": "After 'recommend that', use the base form (formal subjunctive): 'that he arrive'.",
+      "target": [
+        {
+          "text": "The manager recommends that he arrive early.",
+          "audioSlug": "the_manager_recommends_that_he_arrive_early"
+        }
+      ]
+    },
+    {
+      "id": "oficina_essential_everyone_be_on_time",
+      "conceptId": "en.oficina_essential_everyone_be_on_time",
+      "sourceId": "es.s.1220a8d990315d65",
+      "source": "Es esencial que todos lleguen a tiempo.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It is essential that everyone be on time.",
+          "audioSlug": "it_is_essential_that_everyone_be_on_time"
+        }
+      ]
+    }
+  ]
+}

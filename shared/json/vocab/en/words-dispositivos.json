@@ -17,7 +17,13 @@
       "gloss_example": {
         "es": "Mi teléfono se quedó sin batería."
       },
-      "conceptId": "en.phone"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "device",
@@ -36,7 +42,13 @@
       "gloss_example": {
         "es": "Mi dispositivo se quedó sin batería durante la reunión."
       },
-      "conceptId": "en.device"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "screen",
@@ -55,7 +67,13 @@
       "gloss_example": {
         "es": "La pantalla está demasiado brillante."
       },
-      "conceptId": "en.screen"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "computer",
@@ -74,7 +92,13 @@
       "gloss_example": {
         "es": "Compró una computadora nueva para sus estudios."
       },
-      "conceptId": "en.computer"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "television",
@@ -93,7 +117,13 @@
       "gloss_example": {
         "es": "Vieron las noticias en la televisión."
       },
-      "conceptId": "en.television"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "charger",
@@ -112,7 +142,13 @@
       "gloss_example": {
         "es": "Olvidé el cargador del teléfono en casa."
       },
-      "conceptId": "en.charger"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "keyboard",
@@ -131,7 +167,13 @@
       "gloss_example": {
         "es": "Este teclado es muy silencioso."
       },
-      "conceptId": "en.keyboard"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "mouse_device",
@@ -150,7 +192,13 @@
       "gloss_example": {
         "es": "Haz clic en el botón izquierdo del ratón."
       },
-      "conceptId": "en.mouse_device"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "speaker_device",
@@ -169,7 +217,13 @@
       "gloss_example": {
         "es": "El altavoz de esta laptop suena fuerte."
       },
-      "conceptId": "en.speaker_device"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "camera",
@@ -188,7 +242,13 @@
       "gloss_example": {
         "es": "Mi teléfono tiene una gran cámara."
       },
-      "conceptId": "en.camera"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "printer",
@@ -207,7 +267,13 @@
       "gloss_example": {
         "es": "La impresora se quedó sin tinta."
       },
-      "conceptId": "en.printer"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

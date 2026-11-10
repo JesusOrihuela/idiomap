@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "eb",
+  "concepts": {
+    "es.accommodation_donde_esta_el_ascensor": {
+      "conceptId": "es.accommodation_donde_esta_el_ascensor",
+      "id": "accommodation_donde_esta_el_ascensor",
+      "target": [
+        {
+          "text": "¿Dónde está el ascensor?",
+          "audioSlug": "donde_esta_el_ascensor"
+        }
+      ]
+    },
+    "es.accountability_the_payroll_is_paid": {
+      "conceptId": "es.accountability_the_payroll_is_paid",
+      "id": "accountability_the_payroll_is_paid",
+      "target": [
+        {
+          "text": "La nómina está pagada.",
+          "audioSlug": "la_nomina_esta_pagada"
+        }
+      ]
+    },
+    "es.conversacion_te_entiendo_aunque_no_estoy_de_acuerdo": {
+      "conceptId": "es.conversacion_te_entiendo_aunque_no_estoy_de_acuerdo",
+      "id": "conversacion_te_entiendo_aunque_no_estoy_de_acuerdo",
+      "target": [
+        {
+          "text": "Te entiendo aunque no estoy de acuerdo.",
+          "audioSlug": "te_entiendo_aunque_no_estoy_de_acuerdo"
+        }
+      ]
+    },
+    "es.cuerpo_abre_la_boca_por_favor": {
+      "conceptId": "es.cuerpo_abre_la_boca_por_favor",
+      "id": "cuerpo_abre_la_boca_por_favor",
+      "target": [
+        {
+          "text": "Abre la boca, por favor.",
+          "audioSlug": "abre_la_boca_por_favor"
+        }
+      ]
+    },
+    "es.daily_routine_me_siento_a_leer_un_rato": {
+      "conceptId": "es.daily_routine_me_siento_a_leer_un_rato",
+      "id": "daily_routine_me_siento_a_leer_un_rato",
+      "target": [
+        {
+          "text": "Me siento a leer un rato.",
+          "audioSlug": "me_siento_a_leer_un_rato"
+        }
+      ]
+    },
+    "es.directions_turn_left.en-es": {
+      "conceptId": "es.directions_turn_left.en-es",
+      "id": "directions_turn_left_en",
+      "target": [
+        {
+          "text": "Gira a la izquierda en la esquina.",
+          "audioSlug": "gira_a_la_izquierda_en_la_esquina"
+        }
+      ]
+    },
+    "es.gym_overtraining_recovery_as_important": {
+      "conceptId": "es.gym_overtraining_recovery_as_important",
+      "id": "gym_overtraining_recovery_as_important",
+      "target": [
+        {
+          "text": "La recuperación es tan importante como el propio entrenamiento.",
+          "audioSlug": "la_recuperacion_es_tan_importante_como_el_propio_entrenamiento"
+        }
+      ]
+    },
+    "es.planes_no_quiero_complicar_las_cosas": {
+      "conceptId": "es.planes_no_quiero_complicar_las_cosas",
+      "id": "planes_no_quiero_complicar_las_cosas",
+      "target": [
+        {
+          "text": "No quiero complicar las cosas.",
+          "audioSlug": "no_quiero_complicar_las_cosas"
+        }
+      ]
+    },
+    "es.restaurant_is_there_a_fee_for_using": {
+      "conceptId": "es.restaurant_is_there_a_fee_for_using",
+      "id": "restaurant_is_there_a_fee_for_using",
+      "target": [
+        {
+          "text": "¿Hay que pagar por usar tarjeta de crédito?",
+          "audioSlug": "hay_que_pagar_por_usar_tarjeta_de_credito"
+        }
+      ]
+    },
+    "es.sitios_el_bar_esta_cerrado": {
+      "conceptId": "es.sitios_el_bar_esta_cerrado",
+      "id": "sitios_el_bar_esta_cerrado",
+      "target": [
+        {
+          "text": "El bar está cerrado.",
+          "audioSlug": "el_bar_esta_cerrado"
+        }
+      ]
+    },
+    "es.technology_i_need_to_charge_my_phone": {
+      "conceptId": "es.technology_i_need_to_charge_my_phone",
+      "id": "technology_i_need_to_charge_my_phone",
+      "target": [
+        {
+          "text": "Necesito cargar mi teléfono, ¿tienes un cargador?",
+          "audioSlug": "necesito_cargar_mi_telefono_tienes_un_cargador"
+        }
+      ]
+    }
+  }
+}

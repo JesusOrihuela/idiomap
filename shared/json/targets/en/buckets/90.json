@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "90",
+  "concepts": {
+    "en.emociones_im_surprised": {
+      "conceptId": "en.emociones_im_surprised",
+      "id": "emociones_im_surprised",
+      "target": [
+        {
+          "text": "I'm surprised.",
+          "audioSlug": "i_m_surprised"
+        }
+      ]
+    },
+    "en.gym_doms_few_days_after_leg_day": {
+      "conceptId": "en.gym_doms_few_days_after_leg_day",
+      "id": "gym_doms_few_days_after_leg_day",
+      "target": [
+        {
+          "text": "My legs are sore two days after leg day. Is that normal?",
+          "audioSlug": "my_legs_are_sore_two_days_after_leg_day_is_that_normal"
+        }
+      ]
+    },
+    "en.movies_binge_watching_cant_stop": {
+      "conceptId": "en.movies_binge_watching_cant_stop",
+      "id": "movies_binge_watching_cant_stop",
+      "target": [
+        {
+          "text": "I've been watching this series all week and I just can't stop.",
+          "audioSlug": "i_ve_been_watching_this_series_all_week_and_i_just_can_t_stop"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_can_you_imagine_that": {
+      "conceptId": "en.pensamientos_opiniones_can_you_imagine_that",
+      "id": "pensamientos_opiniones_can_you_imagine_that",
+      "target": [
+        {
+          "text": "Can you imagine that?",
+          "audioSlug": "can_you_imagine_that"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_that_is_a_good_point": {
+      "conceptId": "en.pensamientos_opiniones_that_is_a_good_point",
+      "id": "pensamientos_opiniones_that_is_a_good_point",
+      "target": [
+        {
+          "text": "That is a good point.",
+          "audioSlug": "that_is_a_good_point"
+        }
+      ]
+    },
+    "en.personal_info_im_a_teacher": {
+      "conceptId": "en.personal_info_im_a_teacher",
+      "id": "personal_info_im_a_teacher",
+      "target": [
+        {
+          "text": "I'm a teacher.",
+          "audioSlug": "i_m_a_teacher"
+        }
+      ]
+    }
+  }
+}

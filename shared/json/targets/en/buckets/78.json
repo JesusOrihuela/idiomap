@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "78",
+  "concepts": {
+    "en.greetings_hello_how_are_you_today": {
+      "conceptId": "en.greetings_hello_how_are_you_today",
+      "id": "greetings_hello_how_are_you_today",
+      "target": [
+        {
+          "text": "Hello, how are you today?",
+          "audioSlug": "hello_how_are_you_today",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Hi, how are you today?",
+          "audioSlug": "hi_how_are_you_today",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Hey, how are you today?",
+          "audioSlug": "hey_how_are_you_today",
+          "labels": {
+            "register": "informal",
+            "synonym": "sinónimo"
+          }
+        }
+      ]
+    },
+    "en.kitchen_season_throughout_not_just_end": {
+      "conceptId": "en.kitchen_season_throughout_not_just_end",
+      "id": "kitchen_season_throughout_not_just_end",
+      "target": [
+        {
+          "text": "Don't wait until the end to season. Taste and adjust throughout cooking.",
+          "audioSlug": "don_t_wait_until_the_end_to_season_taste_and_adjust_throughout_cooking"
+        }
+      ]
+    },
+    "en.restaurant_how_much_is_it_all": {
+      "conceptId": "en.restaurant_how_much_is_it_all",
+      "id": "restaurant_how_much_is_it_all",
+      "target": [
+        {
+          "text": "How much is it all together?",
+          "audioSlug": "how_much_is_it_all_together"
+        }
+      ]
+    }
+  }
+}

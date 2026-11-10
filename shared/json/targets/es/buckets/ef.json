@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "ef",
+  "concepts": {
+    "es.accommodation_la_cama_es_muy_comoda": {
+      "conceptId": "es.accommodation_la_cama_es_muy_comoda",
+      "id": "accommodation_la_cama_es_muy_comoda",
+      "target": [
+        {
+          "text": "La cama es muy cómoda.",
+          "audioSlug": "la_cama_es_muy_comoda"
+        }
+      ]
+    },
+    "es.accountability_we_need_to_reconcile_the_bank": {
+      "conceptId": "es.accountability_we_need_to_reconcile_the_bank",
+      "id": "accountability_we_need_to_reconcile_the_bank",
+      "target": [
+        {
+          "text": "Necesitamos conciliar las cuentas bancarias.",
+          "audioSlug": "necesitamos_conciliar_las_cuentas_bancarias"
+        }
+      ]
+    },
+    "es.cotidianidad_se_me_olvido_comprar_pan": {
+      "conceptId": "es.cotidianidad_se_me_olvido_comprar_pan",
+      "id": "cotidianidad_se_me_olvido_comprar_pan",
+      "target": [
+        {
+          "text": "Se me olvidó comprar pan.",
+          "audioSlug": "se_me_olvido_comprar_pan"
+        }
+      ]
+    },
+    "es.daily_routine_i_play_for_a_while_in_the_afternoon": {
+      "conceptId": "es.daily_routine_i_play_for_a_while_in_the_afternoon",
+      "id": "daily_routine_i_play_for_a_while_in_the_afternoon",
+      "target": [
+        {
+          "text": "Juego un rato por la tarde.",
+          "audioSlug": "juego_un_rato_por_la_tarde"
+        }
+      ]
+    },
+    "es.descripciones_su_familia_es_rica": {
+      "conceptId": "es.descripciones_su_familia_es_rica",
+      "id": "descripciones_su_familia_es_rica",
+      "target": [
+        {
+          "text": "Su familia es bastante rica.",
+          "audioSlug": "su_familia_es_bastante_rica"
+        }
+      ]
+    },
+    "es.emociones_why_are_you_excited": {
+      "conceptId": "es.emociones_why_are_you_excited",
+      "id": "emociones_why_are_you_excited",
+      "target": [
+        {
+          "text": "¿Por qué estás emocionado?",
+          "audioSlug": "por_que_estas_emocionado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás emocionada?",
+          "audioSlug": "por_que_estas_emocionada",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.family_my_whole_family_is_fine": {
+      "conceptId": "es.family_my_whole_family_is_fine",
+      "id": "family_my_whole_family_is_fine",
+      "target": [
+        {
+          "text": "Toda mi familia está bien.",
+          "audioSlug": "toda_mi_familia_esta_bien"
+        }
+      ]
+    },
+    "es.greetings_we_should_do_this_again_sometime": {
+      "conceptId": "es.greetings_we_should_do_this_again_sometime",
+      "id": "greetings_we_should_do_this_again_sometime",
+      "target": [
+        {
+          "text": "Deberíamos repetirlo pronto.",
+          "audioSlug": "deberiamos_repetirlo_pronto"
+        }
+      ]
+    },
+    "es.kitchen_compre_una_docena_de_huevos": {
+      "conceptId": "es.kitchen_compre_una_docena_de_huevos",
+      "id": "kitchen_compre_una_docena_de_huevos",
+      "target": [
+        {
+          "text": "Compré una docena de huevos.",
+          "audioSlug": "compre_una_docena_de_huevos"
+        }
+      ]
+    },
+    "es.planes_vamos_a_continuar": {
+      "conceptId": "es.planes_vamos_a_continuar",
+      "id": "planes_vamos_a_continuar",
+      "target": [
+        {
+          "text": "Vamos a continuar.",
+          "audioSlug": "vamos_a_continuar"
+        }
+      ]
+    },
+    "es.supermarket_cuanto_pesa_esta_bolsa": {
+      "conceptId": "es.supermarket_cuanto_pesa_esta_bolsa",
+      "id": "supermarket_cuanto_pesa_esta_bolsa",
+      "target": [
+        {
+          "text": "¿Cuánto pesa esta bolsa?",
+          "audioSlug": "cuanto_pesa_esta_bolsa"
+        }
+      ]
+    },
+    "es.technology_be_careful_with_that_link_it": {
+      "conceptId": "es.technology_be_careful_with_that_link_it",
+      "id": "technology_be_careful_with_that_link_it",
+      "target": [
+        {
+          "text": "Cuidado con ese enlace, podría ser un virus.",
+          "audioSlug": "cuidado_con_ese_enlace_podria_ser_un_virus"
+        }
+      ]
+    },
+    "es.technology_i_love_the_camera_on_this": {
+      "conceptId": "es.technology_i_love_the_camera_on_this",
+      "id": "technology_i_love_the_camera_on_this",
+      "target": [
+        {
+          "text": "Me encanta la cámara de este teléfono.",
+          "audioSlug": "me_encanta_la_camara_de_este_telefono"
+        }
+      ]
+    },
+    "es.technology_we_need_to_buy_more_ink": {
+      "conceptId": "es.technology_we_need_to_buy_more_ink",
+      "id": "technology_we_need_to_buy_more_ink",
+      "target": [
+        {
+          "text": "Hay que comprar más tinta para la impresora.",
+          "audioSlug": "hay_que_comprar_mas_tinta_para_la_impresora"
+        }
+      ]
+    },
+    "es.tiempo_libre_me_dedico_a_la_fotografia": {
+      "conceptId": "es.tiempo_libre_me_dedico_a_la_fotografia",
+      "id": "tiempo_libre_me_dedico_a_la_fotografia",
+      "target": [
+        {
+          "text": "Me dedico a la fotografía los domingos.",
+          "audioSlug": "me_dedico_a_la_fotografia_los_domingos"
+        }
+      ]
+    },
+    "es.transportation_order_taxi_morning": {
+      "conceptId": "es.transportation_order_taxi_morning",
+      "id": "transportation_order_taxi_morning",
+      "target": [
+        {
+          "text": "Pide un taxi para mañana por la mañana.",
+          "audioSlug": "pide_un_taxi_para_manana_por_la_manana"
+        }
+      ]
+    }
+  }
+}

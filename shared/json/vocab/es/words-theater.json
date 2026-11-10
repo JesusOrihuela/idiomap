@@ -19,7 +19,13 @@
       "gloss_example": {
         "en": "We went to the theater to see a musical comedy last Saturday."
       },
-      "conceptId": "es.theater"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "play",
@@ -40,7 +46,13 @@
       "gloss_example": {
         "en": "We saw a play about Shakespeare's life at the local theater."
       },
-      "conceptId": "es.play"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "museum",
@@ -61,7 +73,13 @@
       "gloss_example": {
         "en": "The natural history museum has a new dinosaur exhibition this month."
       },
-      "conceptId": "es.museum"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "exhibition",
@@ -82,7 +100,13 @@
       "gloss_example": {
         "en": "The photography exhibition attracted over fifty thousand visitors in its first week."
       },
-      "conceptId": "es.exhibition"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "stage",
@@ -103,7 +127,13 @@
       "gloss_example": {
         "en": "The actors stepped onto the stage to thunderous applause."
       },
-      "conceptId": "es.stage"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "performance",
@@ -140,7 +170,13 @@
           "audioSlug": "funcion"
         }
       ],
-      "conceptId": "es.performance"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "gallery",
@@ -161,7 +197,13 @@
       "gloss_example": {
         "en": "The gallery was showing a collection of contemporary sculpture from local artists."
       },
-      "conceptId": "es.gallery"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "opera",
@@ -182,7 +224,13 @@
       "gloss_example": {
         "en": "It was her first time at the opera, and she was surprised by how moving it was."
       },
-      "conceptId": "es.opera"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "audience",
@@ -219,7 +267,13 @@
           "audioSlug": "audiencia"
         }
       ],
-      "conceptId": "es.audience"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ticket",
@@ -256,7 +310,13 @@
           "audioSlug": "boleto"
         }
       ],
-      "conceptId": "es.ticket"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "intermission",
@@ -277,7 +337,13 @@
       "gloss_example": {
         "en": "During the intermission, we went to the bar and talked about the first act."
       },
-      "conceptId": "es.intermission"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "set",
@@ -309,12 +375,18 @@
         {
           "text": "set",
           "labels": {
-            "loanword": ""
+            "loanword": "anglicismo"
           },
           "audioSlug": "set"
         }
       ],
-      "conceptId": "es.set"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "rehearsal",
@@ -335,7 +407,13 @@
       "gloss_example": {
         "en": "The director called an extra rehearsal the night before opening night."
       },
-      "conceptId": "es.rehearsal"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "curtain_call",
@@ -372,7 +450,13 @@
           "audioSlug": "saludo_final"
         }
       ],
-      "conceptId": "es.curtain_call"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "retrospective",
@@ -393,7 +477,13 @@
       "gloss_example": {
         "en": "The gallery is hosting a retrospective of the sculptor's forty-year career."
       },
-      "conceptId": "es.retrospective"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "revival",
@@ -414,7 +504,13 @@
       "gloss_example": {
         "en": "The revival of the classic 1950s musical was far more political than the original."
       },
-      "conceptId": "es.revival"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "monologue",
@@ -435,7 +531,13 @@
       "gloss_example": {
         "en": "The opening monologue set the entire emotional tone for the rest of the play."
       },
-      "conceptId": "es.monologue"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "nostalgia",
@@ -456,7 +558,13 @@
       "gloss_example": {
         "en": "The exhibit's black-and-white photos filled the room with a gentle nostalgia."
       },
-      "conceptId": "es.nostalgia"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "staging",
@@ -493,7 +601,13 @@
           "audioSlug": "montaje"
         }
       ],
-      "conceptId": "es.staging"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "playwright",
@@ -530,7 +644,13 @@
           "audioSlug": "dramaturga"
         }
       ],
-      "conceptId": "es.playwright"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "script",
@@ -567,7 +687,13 @@
           "audioSlug": "libreto"
         }
       ],
-      "conceptId": "es.script"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "curator",
@@ -604,7 +730,13 @@
           "audioSlug": "conservador"
         }
       ],
-      "conceptId": "es.curator"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "immersive",
@@ -625,7 +757,13 @@
       "gloss_example": {
         "en": "The immersive theater piece had no fixed stage. Audience members moved through different rooms."
       },
-      "conceptId": "es.immersive"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "complicit",
@@ -646,7 +784,13 @@
       "gloss_example": {
         "en": "The play implicates the audience as complicit in the events unfolding on stage."
       },
-      "conceptId": "es.complicit"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "dramaturgy",
@@ -667,7 +811,13 @@
       "gloss_example": {
         "en": "The dramaturgy of the piece was experimental, blending spoken word with live music."
       },
-      "conceptId": "es.dramaturgy"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "subversive",
@@ -688,7 +838,13 @@
       "gloss_example": {
         "en": "The play was called subversive for its unflattering portrayal of political leaders."
       },
-      "conceptId": "es.subversive"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "installation",
@@ -709,7 +865,13 @@
       "gloss_example": {
         "en": "The artist's installation filled the entire hall with suspended mirrors and colored light."
       },
-      "conceptId": "es.installation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "catharsis",
@@ -730,7 +892,13 @@
       "gloss_example": {
         "en": "The final act provided a profound catharsis that left many audience members in tears."
       },
-      "conceptId": "es.catharsis"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "liminal",
@@ -751,7 +919,13 @@
       "gloss_example": {
         "en": "The performance occupied a liminal space between dance and theater that resisted easy classification."
       },
-      "conceptId": "es.liminal"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "post_dramatic",
@@ -772,7 +946,13 @@
       "gloss_example": {
         "en": "Post-dramatic theater challenges the idea that a play must tell a linear story."
       },
-      "conceptId": "es.post_dramatic"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "alienation_effect",
@@ -793,7 +973,13 @@
       "gloss_example": {
         "en": "Actors breaking the fourth wall is a classic use of the alienation effect."
       },
-      "conceptId": "es.alienation_effect"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "commodification",
@@ -830,7 +1016,13 @@
           "audioSlug": "cosificacion"
         }
       ],
-      "conceptId": "es.commodification"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "postmodern",
@@ -851,7 +1043,13 @@
       "gloss_example": {
         "en": "The postmodern production deliberately mixed classical text with pop music and TV aesthetics."
       },
-      "conceptId": "es.postmodern"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "provenance",
@@ -888,7 +1086,13 @@
           "audioSlug": "historial_de_propiedad"
         }
       ],
-      "conceptId": "es.provenance"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

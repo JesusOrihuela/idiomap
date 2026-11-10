@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "5e",
+  "concepts": {
+    "en.oficina_everyone_was_present": {
+      "conceptId": "en.oficina_everyone_was_present",
+      "id": "oficina_everyone_was_present",
+      "target": [
+        {
+          "text": "Everyone was present, though a few left early.",
+          "audioSlug": "everyone_was_present_though_a_few_left_early"
+        }
+      ]
+    },
+    "en.tiempo_libre_i_like_to_draw": {
+      "conceptId": "en.tiempo_libre_i_like_to_draw",
+      "id": "tiempo_libre_i_like_to_draw",
+      "target": [
+        {
+          "text": "I like to draw.",
+          "audioSlug": "i_like_to_draw"
+        }
+      ]
+    }
+  }
+}

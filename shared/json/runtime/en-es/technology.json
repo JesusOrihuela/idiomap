@@ -1,0 +1,1579 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "technology",
+  "phrases": [
+    {
+      "id": "technology_could_you_send_me_that_document",
+      "conceptId": "es.technology_could_you_send_me_that_document",
+      "sourceId": "en.s.a5cc8c54275c8ead",
+      "source": "Could you send me that document by email?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Podrías enviarme ese documento por correo electrónico?",
+          "audioSlug": "podrias_enviarme_ese_documento_por_correo_electronico",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Podría enviarme ese documento por correo electrónico?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "podria_enviarme_ese_documento_por_correo_electronico"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_need_to_charge_my_phone",
+      "conceptId": "es.technology_i_need_to_charge_my_phone",
+      "sourceId": "en.s.dc33e42b3a2e9f51",
+      "source": "I need to charge my phone, do you have a charger?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito cargar mi teléfono, ¿tienes un cargador?",
+          "audioSlug": "necesito_cargar_mi_telefono_tienes_un_cargador"
+        }
+      ]
+    },
+    {
+      "id": "technology_can_you_help_me_set_up",
+      "conceptId": "es.technology_can_you_help_me_set_up",
+      "sourceId": "en.s.d31da6faf9598f9b",
+      "source": "Can you help me set up my new printer?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedes ayudarme a configurar mi nueva impresora?",
+          "audioSlug": "puedes_ayudarme_a_configurar_mi_nueva_impresora",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Puede ayudarme a configurar mi nueva impresora?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_ayudarme_a_configurar_mi_nueva_impresora"
+        }
+      ]
+    },
+    {
+      "id": "technology_what_is_the_wifi_password",
+      "conceptId": "es.technology_what_is_the_wifi_password",
+      "sourceId": "en.s.42d6c663fbaf78f8",
+      "source": "What is the WiFi password?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuál es la contraseña del WiFi?",
+          "audioSlug": "cual_es_la_contrasena_del_wifi"
+        }
+      ]
+    },
+    {
+      "id": "technology_wait_my_computer_is_updating",
+      "conceptId": "es.technology_wait_my_computer_is_updating",
+      "sourceId": "en.s.e658b5d7da157846",
+      "source": "Wait, my computer is updating.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Espera, mi computadora se está actualizando.",
+          "audioSlug": "espera_mi_computadora_se_esta_actualizando",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "Espera, mi ordenador se está actualizando.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "espera_mi_ordenador_se_esta_actualizando"
+        }
+      ]
+    },
+    {
+      "id": "technology_tomorrow_we_are_going_to_have",
+      "conceptId": "es.technology_tomorrow_we_are_going_to_have",
+      "sourceId": "en.s.eea1bf828063ef4c",
+      "source": "Tomorrow we are going to have a video call with the family.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mañana vamos a hacer una videollamada con la familia.",
+          "audioSlug": "manana_vamos_a_hacer_una_videollamada_con_la_familia"
+        }
+      ]
+    },
+    {
+      "id": "technology_do_you_know_how_i_can",
+      "conceptId": "es.technology_do_you_know_how_i_can",
+      "sourceId": "en.s.c16d2d665e5984e0",
+      "source": "Do you know how to transfer photos from the phone to the computer?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Sabes cómo transferir fotos del teléfono a la computadora?",
+          "audioSlug": "sabes_como_transferir_fotos_del_telefono_a_la_computadora",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "¿Sabes cómo transferir fotos del teléfono al ordenador?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "sabes_como_transferir_fotos_del_telefono_al_ordenador"
+        }
+      ]
+    },
+    {
+      "id": "technology_can_you_copy_me_on_that",
+      "conceptId": "es.technology_can_you_copy_me_on_that",
+      "sourceId": "en.s.3d632d07b8fc5001",
+      "source": "Can you copy me on that email?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedes copiarme en ese correo electrónico?",
+          "audioSlug": "puedes_copiarme_en_ese_correo_electronico",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Puede copiarme en ese correo electrónico?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_copiarme_en_ese_correo_electronico"
+        }
+      ]
+    },
+    {
+      "id": "technology_send_me_that_file_via_whatsapp",
+      "conceptId": "es.technology_send_me_that_file_via_whatsapp",
+      "sourceId": "en.s.fc613dc9bc4d3343",
+      "source": "Send me that file via WhatsApp.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Envíame ese archivo por WhatsApp.",
+          "audioSlug": "enviame_ese_archivo_por_whatsapp"
+        }
+      ]
+    },
+    {
+      "id": "technology_can_you_share_your_location",
+      "conceptId": "es.technology_can_you_share_your_location",
+      "sourceId": "en.s.58a837fa4b7514dd",
+      "source": "Can you share your location?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedes compartir tu ubicación?",
+          "audioSlug": "puedes_compartir_tu_ubicacion"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_need_to_back_up_my",
+      "conceptId": "es.technology_i_need_to_back_up_my",
+      "sourceId": "en.s.0164978db70f7e12",
+      "source": "I need to back up my data.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito hacer una copia de seguridad de mis datos.",
+          "audioSlug": "necesito_hacer_una_copia_de_seguridad_de_mis_datos"
+        }
+      ]
+    },
+    {
+      "id": "technology_is_there_a_way_to_block",
+      "conceptId": "es.technology_is_there_a_way_to_block",
+      "sourceId": "en.s.7564f90551f2e981",
+      "source": "Is there a way to block this number?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Hay alguna forma de bloquear este número?",
+          "audioSlug": "hay_alguna_forma_de_bloquear_este_numero"
+        }
+      ]
+    },
+    {
+      "id": "technology_how_do_i_delete_this_app",
+      "conceptId": "es.technology_how_do_i_delete_this_app",
+      "sourceId": "en.s.97b662e14546d79a",
+      "source": "How do I delete this app from my phone?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo elimino esta aplicación de mi teléfono?",
+          "audioSlug": "como_elimino_esta_aplicacion_de_mi_telefono"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_forgot_my_password",
+      "conceptId": "es.technology_i_forgot_my_password",
+      "sourceId": "en.s.d4b0aba4c738e338",
+      "source": "I forgot my password.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Olvidé mi contraseña.",
+          "audioSlug": "olvide_mi_contrasena"
+        }
+      ]
+    },
+    {
+      "id": "technology_is_there_an_app_to_scan",
+      "conceptId": "es.technology_is_there_an_app_to_scan",
+      "sourceId": "en.s.7ced4debfefca114",
+      "source": "Is there an app to scan documents?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Existe una aplicación para escanear documentos?",
+          "audioSlug": "existe_una_aplicacion_para_escanear_documentos"
+        }
+      ]
+    },
+    {
+      "id": "technology_do_you_have_a_cable_you",
+      "conceptId": "es.technology_do_you_have_a_cable_you",
+      "sourceId": "en.s.1b875bf82f728aa6",
+      "source": "Do you have a cable you can lend me?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Tienes un cable que puedas prestarme?",
+          "audioSlug": "tienes_un_cable_que_puedas_prestarme"
+        }
+      ]
+    },
+    {
+      "id": "technology_how_do_i_save_this_file",
+      "conceptId": "es.technology_how_do_i_save_this_file",
+      "sourceId": "en.s.83f66269423185f2",
+      "source": "How do I save this file to the cloud?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo guardo este archivo en la nube?",
+          "audioSlug": "como_guardo_este_archivo_en_la_nube"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_want_to_buy_a_camera",
+      "conceptId": "es.technology_i_want_to_buy_a_camera",
+      "sourceId": "en.s.6aad04224c3fdfe9",
+      "source": "I want to buy a camera, what is the best option?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero comprar una cámara, ¿cuál es la mejor opción?",
+          "audioSlug": "quiero_comprar_una_camara_cual_es_la_mejor_opcion"
+        }
+      ]
+    },
+    {
+      "id": "technology_can_i_turn_off_notifications_for",
+      "conceptId": "es.technology_can_i_turn_off_notifications_for",
+      "sourceId": "en.s.5ab7115fb34c5215",
+      "source": "Can I turn off notifications for this app?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedo desactivar las notificaciones de esta aplicación?",
+          "audioSlug": "puedo_desactivar_las_notificaciones_de_esta_aplicacion"
+        }
+      ]
+    },
+    {
+      "id": "technology_how_do_i_take_a_screenshot",
+      "conceptId": "es.technology_how_do_i_take_a_screenshot",
+      "sourceId": "en.s.07c4910f3c5d3302",
+      "source": "How do I take a screenshot on my phone?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo hago una captura de pantalla en mi celular?",
+          "audioSlug": "como_hago_una_captura_de_pantalla_en_mi_celular",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "¿Cómo hago una captura de pantalla en mi móvil?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "como_hago_una_captura_de_pantalla_en_mi_movil"
+        }
+      ]
+    },
+    {
+      "id": "technology_make_sure_your_internet_connection_is",
+      "conceptId": "es.technology_make_sure_your_internet_connection_is",
+      "sourceId": "en.s.502a8a305d73759a",
+      "source": "Make sure your internet connection is stable.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Verifica que tu conexión a internet sea estable.",
+          "audioSlug": "verifica_que_tu_conexion_a_internet_sea_estable"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_recommend_using_a_strong_and",
+      "conceptId": "es.technology_i_recommend_using_a_strong_and",
+      "sourceId": "en.s.0696e3915f954c2c",
+      "source": "Use a strong, unique password for each account.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Usa una contraseña segura y única para cada cuenta.",
+          "audioSlug": "usa_una_contrasena_segura_y_unica_para_cada_cuenta"
+        }
+      ]
+    },
+    {
+      "id": "technology_can_i_connect_the_speaker_to",
+      "conceptId": "es.technology_can_i_connect_the_speaker_to",
+      "sourceId": "en.s.74d680a76105f3bc",
+      "source": "Can I connect the speaker to Bluetooth?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedo conectar la bocina al Bluetooth?",
+          "audioSlug": "puedo_conectar_la_bocina_al_bluetooth"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_suggest_you_use_a_vpn",
+      "conceptId": "es.technology_i_suggest_you_use_a_vpn",
+      "sourceId": "en.s.d6fa7cf705096bda",
+      "source": "I suggest you use a VPN to protect your privacy online.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te sugiero que uses una VPN para proteger tu privacidad en línea.",
+          "audioSlug": "te_sugiero_que_uses_una_vpn_para_proteger_tu_privacidad_en_linea"
+        }
+      ]
+    },
+    {
+      "id": "technology_where_is_the_tv_remote_control",
+      "conceptId": "es.technology_where_is_the_tv_remote_control",
+      "sourceId": "en.s.950ebf8b1f5af45b",
+      "source": "Where is the TV remote control?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está el control remoto de la televisión?",
+          "audioSlug": "donde_esta_el_control_remoto_de_la_television"
+        }
+      ]
+    },
+    {
+      "id": "technology_we_need_to_buy_more_ink",
+      "conceptId": "es.technology_we_need_to_buy_more_ink",
+      "sourceId": "en.s.62434e2c048c139c",
+      "source": "We need to buy more ink for the printer.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que comprar más tinta para la impresora.",
+          "audioSlug": "hay_que_comprar_mas_tinta_para_la_impresora"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_really_liked_this_image_im",
+      "conceptId": "es.technology_i_really_liked_this_image_im",
+      "sourceId": "en.s.c815bff03a024eb0",
+      "source": "I am going to set this image as my wallpaper.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Voy a poner esta imagen de fondo de pantalla.",
+          "audioSlug": "voy_a_poner_esta_imagen_de_fondo_de_pantalla"
+        }
+      ]
+    },
+    {
+      "id": "technology_have_you_seen_my_message_in",
+      "conceptId": "es.technology_have_you_seen_my_message_in",
+      "sourceId": "en.s.19d47237a0591b19",
+      "source": "Have you seen my message in the group?",
+      "level": "A2",
+      "grammar": "'Ya + pretérito' expresa una acción completada donde el inglés usaría el presente perfecto.",
+      "target": [
+        {
+          "text": "¿Ya viste mi mensaje en el grupo?",
+          "audioSlug": "ya_viste_mi_mensaje_en_el_grupo"
+        }
+      ]
+    },
+    {
+      "id": "technology_check_your_spam_the_email_might",
+      "conceptId": "es.technology_check_your_spam_the_email_might",
+      "sourceId": "en.s.beb3c5427c356af3",
+      "source": "Check your spam, the email might have arrived there.",
+      "level": "B1",
+      "grammar": "'Tal vez' acepta indicativo o subjuntivo; el subjuntivo añade más incertidumbre.",
+      "target": [
+        {
+          "text": "Revisa tu spam, tal vez llegó ahí el correo.",
+          "audioSlug": "revisa_tu_spam_tal_vez_llego_ahi_el_correo"
+        }
+      ]
+    },
+    {
+      "id": "technology_do_you_have_coverage_in_this",
+      "conceptId": "es.technology_do_you_have_coverage_in_this",
+      "sourceId": "en.s.c9c67edfc81916ae",
+      "source": "Do you have coverage in this place?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Tienes cobertura en este lugar?",
+          "audioSlug": "tienes_cobertura_en_este_lugar"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_battery_of_my_smartwatch_doesnt",
+      "conceptId": "es.technology_the_battery_of_my_smartwatch_doesnt",
+      "sourceId": "en.s.7131d3b9c635ef11",
+      "source": "The battery of my smartwatch doesn't last at all.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La batería de mi reloj inteligente no dura nada.",
+          "audioSlug": "la_bateria_de_mi_reloj_inteligente_no_dura_nada"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_cant_connect_my_device_to",
+      "conceptId": "es.technology_i_cant_connect_my_device_to",
+      "sourceId": "en.s.8e21c374cc41cdbd",
+      "source": "I can't connect my device to Bluetooth.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No puedo conectar mi dispositivo al Bluetooth.",
+          "audioSlug": "no_puedo_conectar_mi_dispositivo_al_bluetooth"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_need_a_new_usb_cable",
+      "conceptId": "es.technology_i_need_a_new_usb_cable",
+      "sourceId": "en.s.370738752b3cfa58",
+      "source": "I need a new USB cable.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito un nuevo cable USB.",
+          "audioSlug": "necesito_un_nuevo_cable_usb"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_wifi_is_not_working_can",
+      "conceptId": "es.technology_the_wifi_is_not_working_can",
+      "sourceId": "en.s.6a448220601e4caa",
+      "source": "The WiFi is not working, can you restart it?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No funciona el WiFi, ¿lo puedes reiniciar?",
+          "audioSlug": "no_funciona_el_wifi_lo_puedes_reiniciar",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "No funciona el WiFi, ¿lo puede reiniciar?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "no_funciona_el_wifi_lo_puede_reiniciar"
+        }
+      ]
+    },
+    {
+      "id": "technology_be_careful_with_that_link_it",
+      "conceptId": "es.technology_be_careful_with_that_link_it",
+      "sourceId": "en.s.67612570255e2ec8",
+      "source": "Be careful with that link, it could be a virus.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cuidado con ese enlace, podría ser un virus.",
+          "audioSlug": "cuidado_con_ese_enlace_podria_ser_un_virus"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_app_works_better_than_the",
+      "conceptId": "es.technology_the_app_works_better_than_the",
+      "sourceId": "en.s.3a1b9a570086983b",
+      "source": "The app works better than the website.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La aplicación funciona mejor que el sitio web.",
+          "audioSlug": "la_aplicacion_funciona_mejor_que_el_sitio_web"
+        }
+      ]
+    },
+    {
+      "id": "technology_lets_look_for_an_internet_tutorial",
+      "conceptId": "es.technology_lets_look_for_an_internet_tutorial",
+      "sourceId": "en.s.0547d6dc2f2f3371",
+      "source": "Let's look for an internet tutorial to solve this.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Busquemos un tutorial en internet para solucionar esto.",
+          "audioSlug": "busquemos_un_tutorial_en_internet_para_solucionar_esto"
+        }
+      ]
+    },
+    {
+      "id": "technology_what_cell_phone_do_you_recommend",
+      "conceptId": "es.technology_what_cell_phone_do_you_recommend",
+      "sourceId": "en.s.8e357f076da485c4",
+      "source": "What cell phone do you recommend?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué celular me recomiendas?",
+          "audioSlug": "que_celular_me_recomiendas",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "¿Qué móvil me recomiendas?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "que_movil_me_recomiendas"
+        }
+      ]
+    },
+    {
+      "id": "technology_scan_this_qr_code_for_more",
+      "conceptId": "es.technology_scan_this_qr_code_for_more",
+      "sourceId": "en.s.3dab503a9bbe6331",
+      "source": "Scan this QR code for more information.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Escanea este código QR para obtener más información.",
+          "audioSlug": "escanea_este_codigo_qr_para_obtener_mas_informacion"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_cant_open_this_file_what",
+      "conceptId": "es.technology_i_cant_open_this_file_what",
+      "sourceId": "en.s.020fb3adb56138e7",
+      "source": "I can't open this file, what format is it in?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No puedo abrir este archivo, ¿en qué formato está?",
+          "audioSlug": "no_puedo_abrir_este_archivo_en_que_formato_esta"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_need_to_download_this_program",
+      "conceptId": "es.technology_i_need_to_download_this_program",
+      "sourceId": "en.s.0362f843e44002c3",
+      "source": "I need to download this program for my work.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito descargar este programa para mi trabajo.",
+          "audioSlug": "necesito_descargar_este_programa_para_mi_trabajo"
+        }
+      ]
+    },
+    {
+      "id": "technology_how_can_i_recover_a_deleted",
+      "conceptId": "es.technology_how_can_i_recover_a_deleted",
+      "sourceId": "en.s.36e1428ddc75d279",
+      "source": "How can I recover a deleted file?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo puedo recuperar un archivo borrado?",
+          "audioSlug": "como_puedo_recuperar_un_archivo_borrado"
+        }
+      ]
+    },
+    {
+      "id": "technology_you_should_look_it_up_on",
+      "conceptId": "es.technology_you_should_look_it_up_on",
+      "sourceId": "en.s.e6f7647cd0d9c19d",
+      "source": "You should look it up on the internet, you'll probably find the answer.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Deberías buscarlo en internet, seguro encuentras la respuesta.",
+          "audioSlug": "deberias_buscarlo_en_internet_seguro_encuentras_la_respuesta"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_accidentally_deleted_the_conversation_can",
+      "conceptId": "es.technology_i_accidentally_deleted_the_conversation_can",
+      "sourceId": "en.s.89beb0d29014aac2",
+      "source": "I accidentally deleted the conversation, can you forward me the message?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Eliminé accidentalmente la conversación, ¿puedes reenviarme el mensaje?",
+          "audioSlug": "elimine_accidentalmente_la_conversacion_puedes_reenviarme_el_mensaje"
+        }
+      ]
+    },
+    {
+      "id": "technology_dont_trust_all_the_information_you",
+      "conceptId": "es.technology_dont_trust_all_the_information_you",
+      "sourceId": "en.s.dc825e3366167c7e",
+      "source": "Don't trust all the information you find on the internet.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No confíes en toda la información que encuentras en internet.",
+          "audioSlug": "no_confies_en_toda_la_informacion_que_encuentras_en_internet"
+        }
+      ]
+    },
+    {
+      "id": "technology_do_you_know_how_to_use",
+      "conceptId": "es.technology_do_you_know_how_to_use",
+      "sourceId": "en.s.2ff2e3484cbb04a4",
+      "source": "Do you know how to use Photoshop to edit this image?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Sabes cómo usar Photoshop para editar esta imagen?",
+          "audioSlug": "sabes_como_usar_photoshop_para_editar_esta_imagen",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Sabe cómo usar Photoshop para editar esta imagen?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "sabe_como_usar_photoshop_para_editar_esta_imagen"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_cant_open_this_pdf_file",
+      "conceptId": "es.technology_i_cant_open_this_pdf_file",
+      "sourceId": "en.s.ca63b3b9892f4136",
+      "source": "I can't open this PDF file, do I need a special program?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No puedo abrir este archivo PDF, ¿necesito un programa especial?",
+          "audioSlug": "no_puedo_abrir_este_archivo_pdf_necesito_un_programa_especial"
+        }
+      ]
+    },
+    {
+      "id": "technology_im_looking_for_software_to_record",
+      "conceptId": "es.technology_im_looking_for_software_to_record",
+      "sourceId": "en.s.89faab7fffcc3c8d",
+      "source": "I'm looking for software to record my computer screen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy buscando un software para grabar la pantalla de mi computadora.",
+          "audioSlug": "estoy_buscando_un_software_para_grabar_la_pantalla_de_mi_computadora",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "Estoy buscando un software para grabar la pantalla de mi ordenador.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "estoy_buscando_un_software_para_grabar_la_pantalla_de_mi_ordenador"
+        }
+      ]
+    },
+    {
+      "id": "technology_what_is_this_formula_in_excel",
+      "conceptId": "es.technology_what_is_this_formula_in_excel",
+      "sourceId": "en.s.f4e97d9aca801088",
+      "source": "What is this formula in Excel for?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Para qué sirve esta fórmula en Excel?",
+          "audioSlug": "para_que_sirve_esta_formula_en_excel"
+        }
+      ]
+    },
+    {
+      "id": "technology_this_powerpoint_presentation_is_very_boring",
+      "conceptId": "es.technology_this_powerpoint_presentation_is_very_boring",
+      "sourceId": "en.s.94fa38b70f971689",
+      "source": "This PowerPoint presentation is very boring.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Esta presentación de PowerPoint está muy aburrida.",
+          "audioSlug": "esta_presentacion_de_powerpoint_esta_muy_aburrida"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_information_is_in_the_attached",
+      "conceptId": "es.technology_the_information_is_in_the_attached",
+      "sourceId": "en.s.b06295bde62fbc43",
+      "source": "The information is in the attached file.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La información está en el archivo adjunto.",
+          "audioSlug": "la_informacion_esta_en_el_archivo_adjunto"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_want_to_increase_the_brightness",
+      "conceptId": "es.technology_i_want_to_increase_the_brightness",
+      "sourceId": "en.s.7cf402186eb47157",
+      "source": "I want to increase the brightness of the screen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero subir el brillo de la pantalla.",
+          "audioSlug": "quiero_subir_el_brillo_de_la_pantalla"
+        }
+      ]
+    },
+    {
+      "id": "technology_turn_on_the_scanner_i_need",
+      "conceptId": "es.technology_turn_on_the_scanner_i_need",
+      "sourceId": "en.s.83229d2d00d02bc8",
+      "source": "Turn on the scanner, I need to digitize this document.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Prende el escáner, necesito digitalizar este documento.",
+          "audioSlug": "prende_el_escaner_necesito_digitalizar_este_documento"
+        }
+      ]
+    },
+    {
+      "id": "technology_you_should_buy_a_better_mouse",
+      "conceptId": "es.technology_you_should_buy_a_better_mouse",
+      "sourceId": "en.s.9ca1a6e993c78b44",
+      "source": "You should buy a better mouse and keyboard.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Deberías comprar un mejor ratón y teclado.",
+          "audioSlug": "deberias_comprar_un_mejor_raton_y_teclado"
+        }
+      ]
+    },
+    {
+      "id": "technology_these_wireless_headphones_are_very_comfortable",
+      "conceptId": "es.technology_these_wireless_headphones_are_very_comfortable",
+      "sourceId": "en.s.813cdb7acd057897",
+      "source": "These wireless headphones are very comfortable.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estos audífonos inalámbricos son muy cómodos.",
+          "audioSlug": "estos_audifonos_inalambricos_son_muy_comodos"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_virtual_assistant_has_been_failing",
+      "conceptId": "es.technology_the_virtual_assistant_has_been_failing",
+      "sourceId": "en.s.1bccb59f8340ddb4",
+      "source": "The virtual assistant has been failing.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El asistente virtual ha estado fallando.",
+          "audioSlug": "el_asistente_virtual_ha_estado_fallando"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_battery_of_this_phone_could",
+      "conceptId": "es.technology_the_battery_of_this_phone_could",
+      "sourceId": "en.s.ff564b1b69deaa45",
+      "source": "The battery of this phone could be better.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La batería de este celular podría ser mejor.",
+          "audioSlug": "la_bateria_de_este_celular_podria_ser_mejor",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "La batería de este móvil podría ser mejor.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "la_bateria_de_este_movil_podria_ser_mejor"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_love_the_camera_on_this",
+      "conceptId": "es.technology_i_love_the_camera_on_this",
+      "sourceId": "en.s.a876a141295f4f1c",
+      "source": "I love the camera on this phone.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me encanta la cámara de este teléfono.",
+          "audioSlug": "me_encanta_la_camara_de_este_telefono"
+        }
+      ]
+    },
+    {
+      "id": "technology_how_can_i_change_the_language",
+      "conceptId": "es.technology_how_can_i_change_the_language",
+      "sourceId": "en.s.b9a355bd3faa4a6b",
+      "source": "How can I change the language of the computer keyboard?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo puedo cambiar el idioma del teclado de la computadora?",
+          "audioSlug": "como_puedo_cambiar_el_idioma_del_teclado_de_la_computadora",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "¿Cómo puedo cambiar el idioma del teclado del ordenador?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "como_puedo_cambiar_el_idioma_del_teclado_del_ordenador"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_dont_know_where_the_portable",
+      "conceptId": "es.technology_i_dont_know_where_the_portable",
+      "sourceId": "en.s.d7fd49cb57bc169a",
+      "source": "I don't know where the portable battery is.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No sé dónde está la batería portátil.",
+          "audioSlug": "no_se_donde_esta_la_bateria_portatil"
+        }
+      ]
+    },
+    {
+      "id": "technology_look_for_the_file_in_the",
+      "conceptId": "es.technology_look_for_the_file_in_the",
+      "sourceId": "en.s.ea3f451d45ae655a",
+      "source": "Look for the file in the downloads folder.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Busca el archivo en la carpeta de descargas.",
+          "audioSlug": "busca_el_archivo_en_la_carpeta_de_descargas"
+        }
+      ]
+    },
+    {
+      "id": "technology_are_you_sure_you_are_connected",
+      "conceptId": "es.technology_are_you_sure_you_are_connected",
+      "sourceId": "en.s.7544ce26487e108f",
+      "source": "Are you sure you are connected to the internet?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Estás seguro de que estás conectado a internet?",
+          "audioSlug": "estas_seguro_de_que_estas_conectado_a_internet",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Estás segura de que estás conectada a internet?",
+          "audioSlug": "estas_segura_de_que_estas_conectada_a_internet",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "technology_please_turn_on_the_printer",
+      "conceptId": "es.technology_please_turn_on_the_printer",
+      "sourceId": "en.s.5f9bad2773ced4e6",
+      "source": "Please turn on the printer.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Por favor, prende la impresora.",
+          "audioSlug": "por_favor_prende_la_impresora"
+        }
+      ]
+    },
+    {
+      "id": "technology_how_do_you_do_this_in",
+      "conceptId": "es.technology_how_do_you_do_this_in",
+      "sourceId": "en.s.f7f5da9015c180be",
+      "source": "How do you do this in Excel?",
+      "level": "A1",
+      "grammar": "'Se + verbo' forma la pasiva refleja o impersonal, sin especificar quién actúa.",
+      "target": [
+        {
+          "text": "¿Cómo se hace esto en Excel?",
+          "audioSlug": "como_se_hace_esto_en_excel"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_app_was_requesting_access_to",
+      "conceptId": "es.technology_the_app_was_requesting_access_to",
+      "sourceId": "en.s.81ea9811b0250d90",
+      "source": "I did not install the app because it requested my contacts and location.",
+      "level": "B2",
+      "grammar": "'Pedía' es pretérito imperfecto; describe una acción en curso que motivó una decisión.",
+      "target": [
+        {
+          "text": "No instalé la aplicación porque pedía mis contactos y ubicación.",
+          "audioSlug": "no_instale_la_aplicacion_porque_pedia_mis_contactos_y_ubicacion"
+        }
+      ]
+    },
+    {
+      "id": "technology_my_storage_is_almost_full_so",
+      "conceptId": "es.technology_my_storage_is_almost_full_so",
+      "sourceId": "en.s.b1d919e41cc7b41a",
+      "source": "My storage is almost full and I need to delete files.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi almacenamiento está casi lleno y necesito borrar archivos.",
+          "audioSlug": "mi_almacenamiento_esta_casi_lleno_y_necesito_borrar_archivos"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_switched_to_a_monthly_subscription",
+      "conceptId": "es.technology_i_switched_to_a_monthly_subscription",
+      "sourceId": "en.s.47a2f37ae6d202b9",
+      "source": "I switched to a monthly subscription because it includes updates.",
+      "level": "B2",
+      "grammar": "'En lugar de + infinitivo' contrasta alternativas; no lleva gerundio en español.",
+      "target": [
+        {
+          "text": "Cambié a suscripción mensual porque incluye actualizaciones.",
+          "audioSlug": "cambie_a_suscripcion_mensual_porque_incluye_actualizaciones"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_battery_life_significantly_improved_after",
+      "conceptId": "es.technology_the_battery_life_significantly_improved_after",
+      "sourceId": "en.s.b67cdf8ab363c3a6",
+      "source": "The battery improved after disabling background apps.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La batería mejoró tras desactivar las aplicaciones en segundo plano.",
+          "audioSlug": "la_bateria_mejoro_tras_desactivar_las_aplicaciones_en_segundo_plano"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_enabled_dark_mode_to_reduce",
+      "conceptId": "es.technology_i_enabled_dark_mode_to_reduce",
+      "sourceId": "en.s.c7bf8ea4f5cf2e89",
+      "source": "I enabled dark mode to reduce eye strain and save battery on my OLED.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Activé el modo oscuro para reducir la fatiga visual y consumo de batería.",
+          "audioSlug": "active_el_modo_oscuro_para_reducir_la_fatiga_visual_y_consumo_de_bateria"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_router_needs_to_be_placed",
+      "conceptId": "es.technology_the_router_needs_to_be_placed",
+      "sourceId": "en.s.2e6be2d0a5bd9a82",
+      "source": "The router needs to be placed centrally for better coverage throughout the house.",
+      "level": "B2",
+      "grammar": "'Debe estar' expresa una recomendación impersonal sin usar la voz pasiva.",
+      "target": [
+        {
+          "text": "El router debe estar en un lugar central para dar buena cobertura en casa.",
+          "audioSlug": "el_router_debe_estar_en_un_lugar_central_para_dar_buena_cobertura_en_casa"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_use_a_separate_browser_profile",
+      "conceptId": "es.technology_i_use_a_separate_browser_profile",
+      "sourceId": "en.s.fd75c7475b125d3c",
+      "source": "I keep a separate browser profile for work to avoid mixing personal data.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo un perfil de navegador separado para el trabajo y no mezclar datos personales.",
+          "audioSlug": "tengo_un_perfil_de_navegador_separado_para_el_trabajo_y_no_mezclar_datos_personales"
+        }
+      ]
+    },
+    {
+      "id": "technology_my_phone_keeps_overheating_when",
+      "conceptId": "es.technology_my_phone_keeps_overheating_when",
+      "sourceId": "en.s.644034bb14031545",
+      "source": "My phone overheats when I have several apps open.",
+      "level": "B2",
+      "grammar": "'Sigue + gerundio' equivale al inglés 'keeps + gerund'; expresa acción que continúa.",
+      "target": [
+        {
+          "text": "Mi teléfono se sobrecalienta cuando tengo varias aplicaciones abiertas.",
+          "audioSlug": "mi_telefono_se_sobrecalienta_cuando_tengo_varias_aplicaciones_abiertas"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_new_operating_system_update",
+      "conceptId": "es.technology_the_new_operating_system_update",
+      "sourceId": "en.s.8ff2150a3d7d586e",
+      "source": "The operating system update broke compatibility with several apps.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La actualización del sistema operativo rompió la compatibilidad con varias aplicaciones.",
+          "audioSlug": "la_actualizacion_del_sistema_operativo_rompio_la_compatibilidad_con_varias_aplicaciones"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_enabled_twofactor_authentication_on",
+      "conceptId": "es.technology_i_enabled_twofactor_authentication_on",
+      "sourceId": "en.s.b7c5c58a24f99a4b",
+      "source": "I enabled two-factor authentication on all my accounts after the data breach.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Activé la autenticación de dos factores en todas mis cuentas después de la filtración.",
+          "audioSlug": "active_la_autenticacion_de_dos_factores_en_todas_mis_cuentas_despues_de_la_filtracion"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_streaming_quality_drops_when",
+      "conceptId": "es.technology_the_streaming_quality_drops_when",
+      "sourceId": "en.s.720be0ec10417a8d",
+      "source": "The streaming quality drops whenever someone else uses the internet at home.",
+      "level": "B2",
+      "grammar": "'Cada vez que + presente' equivale al inglés 'whenever'.",
+      "target": [
+        {
+          "text": "La transmisión pierde calidad cada vez que otro usa internet en casa.",
+          "audioSlug": "la_transmision_pierde_calidad_cada_vez_que_otro_usa_internet_en_casa"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_set_up_automatic_cloud_backups",
+      "conceptId": "es.technology_i_set_up_automatic_cloud_backups",
+      "sourceId": "en.s.9540557c89f472be",
+      "source": "I set up automatic cloud backups so I never lose my photos or files.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Configuré copias de seguridad automáticas en la nube para no perder fotos ni archivos.",
+          "audioSlug": "configure_copias_de_seguridad_automaticas_en_la_nube_para_no_perder_fotos_ni_archivos"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_algorithm_keeps_recommending_content",
+      "conceptId": "es.technology_the_algorithm_keeps_recommending_content",
+      "sourceId": "en.s.f8496a58de048377",
+      "source": "The algorithm only recommends content based on my past behavior.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El algoritmo solo me recomienda contenido según mi comportamiento pasado.",
+          "audioSlug": "el_algoritmo_solo_me_recomienda_contenido_segun_mi_comportamiento_pasado"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_enabled_biometric_authentication_so",
+      "conceptId": "es.technology_i_enabled_biometric_authentication_so",
+      "sourceId": "en.s.12f08e1b6bdc0d00",
+      "source": "I enabled biometric authentication so that unlocking my device is both faster and more secure.",
+      "level": "C1",
+      "grammar": "'Para que + subjuntivo' expresa propósito cuando el sujeto cambia en la oración.",
+      "target": [
+        {
+          "text": "Activé la autenticación biométrica para que desbloquear mi dispositivo sea más rápido y seguro.",
+          "audioSlug": "active_la_autenticacion_biometrica_para_que_desbloquear_mi_dispositivo_sea_mas_rapido_y_seguro"
+        }
+      ]
+    },
+    {
+      "id": "technology_after_the_ransomware_attack_the_company",
+      "conceptId": "es.technology_after_the_ransomware_attack_the_company",
+      "sourceId": "en.s.6f2f4afbffcb4464",
+      "source": "After the ransomware attack, the company had no choice but to restore from their last backup.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Después del ataque de ransomware, la empresa solo pudo restaurar desde su copia de seguridad.",
+          "audioSlug": "despues_del_ataque_de_ransomware_la_empresa_solo_pudo_restaurar_desde_su_copia_de_seguridad"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_requested_a_copy_of_all_data",
+      "conceptId": "es.technology_i_requested_a_copy_of_all_data",
+      "sourceId": "en.s.efb3a1eb90c73a17",
+      "source": "I requested all the data the platform had collected about me, and the results were unsettling.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Solicité una copia de todos mis datos de la plataforma y los resultados fueron inquietantes.",
+          "audioSlug": "solicite_una_copia_de_todos_mis_datos_de_la_plataforma_y_los_resultados_fueron_inquietantes"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_app_uses_dark_patterns_to",
+      "conceptId": "es.technology_the_app_uses_dark_patterns_to",
+      "sourceId": "en.s.dde5d393cd76cafb",
+      "source": "The app uses dark patterns to make canceling the subscription confusing.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La aplicación usa patrones engañosos para que cancelar la suscripción sea confuso.",
+          "audioSlug": "la_aplicacion_usa_patrones_enganosos_para_que_cancelar_la_suscripcion_sea_confuso"
+        }
+      ]
+    },
+    {
+      "id": "technology_working_remotely_requires_not_just",
+      "conceptId": "es.technology_working_remotely_requires_not_just",
+      "sourceId": "en.s.02f65cc6e2a34ed3",
+      "source": "Remote work requires good connection and tools for asynchronous collaboration.",
+      "level": "C1",
+      "grammar": "'No solo... sino (también)' agrega énfasis aditivo; equivale al inglés 'not just... but also'.",
+      "target": [
+        {
+          "text": "El trabajo remoto requiere buena conexión y herramientas para la colaboración asíncrona.",
+          "audioSlug": "el_trabajo_remoto_requiere_buena_conexion_y_herramientas_para_la_colaboracion_asincrona"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_platform_monetizes_user_attention",
+      "conceptId": "es.technology_the_platform_monetizes_user_attention",
+      "sourceId": "en.s.7f5cb115e9ad74a6",
+      "source": "The platform monetizes attention by selling behavior-targeted ads.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La plataforma monetiza la atención vendiendo publicidad dirigida por comportamiento.",
+          "audioSlug": "la_plataforma_monetiza_la_atencion_vendiendo_publicidad_dirigida_por_comportamiento"
+        }
+      ]
+    },
+    {
+      "id": "technology_my_privacy_settings_dont_seem",
+      "conceptId": "es.technology_my_privacy_settings_dont_seem",
+      "sourceId": "en.s.733c3016a4ea6a5c",
+      "source": "My privacy settings don't seem to be working. My location is still being tracked.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mis ajustes de privacidad no parecen funcionar, mi ubicación sigue siendo rastreada.",
+          "audioSlug": "mis_ajustes_de_privacidad_no_parecen_funcionar_mi_ubicacion_sigue_siendo_rastreada"
+        }
+      ]
+    },
+    {
+      "id": "technology_i_received_a_phishing_email",
+      "conceptId": "es.technology_i_received_a_phishing_email",
+      "sourceId": "en.s.e9e26a149e2812c1",
+      "source": "I received a phishing email pretending to be my bank, asking me to verify my account.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Recibí un correo de phishing que suplantaba a mi banco y pedía que verificara mi cuenta.",
+          "audioSlug": "recibi_un_correo_de_phishing_que_suplantaba_a_mi_banco_y_pedia_que_verificara_mi_cuenta"
+        }
+      ]
+    },
+    {
+      "id": "technology_clearing_the_cache_usually_fixes",
+      "conceptId": "es.technology_clearing_the_cache_usually_fixes",
+      "sourceId": "en.s.adaeb6aaf1e436b4",
+      "source": "Clearing the cache usually fixes loading problems but they keep coming back.",
+      "level": "C1",
+      "grammar": "El infinitivo actúa como sujeto en español donde el inglés usa el gerundio.",
+      "target": [
+        {
+          "text": "Limpiar la caché suele solucionar los problemas de carga pero siguen volviendo.",
+          "audioSlug": "limpiar_la_cache_suele_solucionar_los_problemas_de_carga_pero_siguen_volviendo"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_devices_firmware_needs_to",
+      "conceptId": "es.technology_the_devices_firmware_needs_to",
+      "sourceId": "en.s.22b1be52daee9769",
+      "source": "The device firmware needs updating to fix a known vulnerability.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El firmware del dispositivo necesita actualizarse para corregir una vulnerabilidad conocida.",
+          "audioSlug": "el_firmware_del_dispositivo_necesita_actualizarse_para_corregir_una_vulnerabilidad_conocida"
+        }
+      ]
+    },
+    {
+      "id": "technology_im_considering_switching_ecosystems_but",
+      "conceptId": "es.technology_im_considering_switching_ecosystems_but",
+      "sourceId": "en.s.18a8f6d0c08502ed",
+      "source": "I am considering switching ecosystems but transferring my data worries me.",
+      "level": "C1",
+      "grammar": "'Estar pensando en + infinitivo' equivale al inglés 'be considering + gerund'.",
+      "target": [
+        {
+          "text": "Pienso cambiar de ecosistema pero transferir mis datos me preocupa mucho.",
+          "audioSlug": "pienso_cambiar_de_ecosistema_pero_transferir_mis_datos_me_preocupa_mucho"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_company_acknowledged_a_data",
+      "conceptId": "es.technology_the_company_acknowledged_a_data",
+      "sourceId": "en.s.e15be69e67895602",
+      "source": "The company acknowledged a data breach but hasn't disclosed how many accounts were compromised.",
+      "level": "C2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La empresa reconoció una filtración de datos pero no ha revelado cuántas cuentas fueron comprometidas.",
+          "audioSlug": "la_empresa_reconocio_una_filtracion_de_datos_pero_no_ha_revelado_cuantas_cuentas_fueron_com_25336199"
+        }
+      ]
+    },
+    {
+      "id": "technology_the_legacy_system_is_no_longer",
+      "conceptId": "es.technology_the_legacy_system_is_no_longer",
+      "sourceId": "en.s.7b0643f51afb9488",
+      "source": "The legacy system no longer receives maintenance or security fixes.",
+      "level": "C2",
+      "grammar": "'Lo que + verbo' nominaliza una idea y equivale al inglés 'what + verbo'.",
+      "target": [
+        {
+          "text": "El sistema heredado ya no recibe mantenimiento ni correcciones de seguridad.",
+          "audioSlug": "el_sistema_heredado_ya_no_recibe_mantenimiento_ni_correcciones_de_seguridad"
+        }
+      ]
+    },
+    {
+      "id": "technology_phone_froze",
+      "conceptId": "es.technology_phone_froze",
+      "sourceId": "en.s.483d6621509b00a7",
+      "source": "My phone froze.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Se me congeló el teléfono.",
+          "audioSlug": "se_me_congelo_el_telefono"
+        }
+      ]
+    },
+    {
+      "id": "technology_battery_low",
+      "conceptId": "es.technology_battery_low",
+      "sourceId": "en.s.0cc068cc132d0efc",
+      "source": "My battery is almost dead.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Casi no me queda batería.",
+          "audioSlug": "casi_no_me_queda_bateria"
+        }
+      ]
+    },
+    {
+      "id": "technology_app_crashing",
+      "conceptId": "es.technology_app_crashing",
+      "sourceId": "en.s.c21f1e0a21fed16c",
+      "source": "The app keeps crashing.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La aplicación se cierra sola todo el tiempo.",
+          "audioSlug": "la_aplicacion_se_cierra_sola_todo_el_tiempo"
+        }
+      ]
+    },
+    {
+      "id": "technology_how_connect_wifi",
+      "conceptId": "es.technology_how_connect_wifi",
+      "sourceId": "en.s.743e03ae9348f1fa",
+      "source": "How do I connect to the WiFi?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo me conecto al WiFi?",
+          "audioSlug": "como_me_conecto_al_wifi"
+        }
+      ]
+    },
+    {
+      "id": "technology_help_install_app",
+      "conceptId": "es.technology_help_install_app",
+      "sourceId": "en.s.116e84afcc646ce0",
+      "source": "Can you help me install this app?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me ayudas a instalar esta aplicación?",
+          "audioSlug": "me_ayudas_a_instalar_esta_aplicacion"
+        }
+      ]
+    },
+    {
+      "id": "technology_el_telefono_sono",
+      "conceptId": "es.technology_el_telefono_sono",
+      "sourceId": "en.s.62452962d5446a56",
+      "source": "The phone rang.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El teléfono sonó.",
+          "audioSlug": "el_telefono_sono"
+        }
+      ]
+    },
+    {
+      "id": "technology_este_telefono_es_barato",
+      "conceptId": "es.technology_este_telefono_es_barato",
+      "sourceId": "en.s.96d7b6f5aff532f5",
+      "source": "This phone is cheap.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este teléfono es barato.",
+          "audioSlug": "este_telefono_es_barato"
+        }
+      ]
+    },
+    {
+      "id": "technology_debes_marcar_el_numero",
+      "conceptId": "es.technology_debes_marcar_el_numero",
+      "sourceId": "en.s.6e286ed28e5947fb",
+      "source": "You must dial the number.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Debes marcar el número.",
+          "audioSlug": "debes_marcar_el_numero"
+        }
+      ]
+    },
+    {
+      "id": "technology_worried_lost_cell_phone",
+      "conceptId": "es.technology_worried_lost_cell_phone",
+      "sourceId": "en.s.3ef6806de5f96ab4",
+      "source": "I am worried because I lost my cell phone.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy preocupada porque perdí mi celular.",
+          "labels": {
+            "region": "Latinoamérica",
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_preocupada_porque_perdi_mi_celular"
+        },
+        {
+          "text": "Estoy preocupado porque perdí mi celular.",
+          "labels": {
+            "region": "Latinoamérica",
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_preocupado_porque_perdi_mi_celular"
+        },
+        {
+          "text": "Estoy preocupada porque perdí mi móvil.",
+          "labels": {
+            "region": "España",
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_preocupada_porque_perdi_mi_movil"
+        },
+        {
+          "text": "Estoy preocupado porque perdí mi móvil.",
+          "labels": {
+            "region": "España",
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_preocupado_porque_perdi_mi_movil"
+        }
+      ]
+    },
+    {
+      "id": "technology_me_gusta_navegar_por_internet",
+      "conceptId": "es.technology_me_gusta_navegar_por_internet",
+      "sourceId": "en.s.949363e7ddf54924",
+      "source": "I like to browse the internet.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gusta navegar por internet.",
+          "audioSlug": "me_gusta_navegar_por_internet"
+        }
+      ]
+    },
+    {
+      "id": "technology_escucho_la_radio_en_el_carro",
+      "conceptId": "es.technology_escucho_la_radio_en_el_carro",
+      "sourceId": "en.s.9be208d6c26b8819",
+      "source": "I listen to the radio in the mornings.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Escucho la radio por las mañanas.",
+          "audioSlug": "escucho_la_radio_por_las_mananas"
+        }
+      ]
+    }
+  ]
+}

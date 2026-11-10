@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "bd",
+  "concepts": {
+    "en.daily_routine_i_check_email_at_work": {
+      "conceptId": "en.daily_routine_i_check_email_at_work",
+      "id": "daily_routine_i_check_email_at_work",
+      "target": [
+        {
+          "text": "I check my email when I get to work.",
+          "audioSlug": "i_check_my_email_when_i_get_to_work"
+        }
+      ]
+    },
+    "en.directions_how_far": {
+      "conceptId": "en.directions_how_far",
+      "id": "directions_how_far",
+      "target": [
+        {
+          "text": "How far is it?",
+          "audioSlug": "how_far_is_it"
+        }
+      ]
+    },
+    "en.gym_show_me_adjust_resistance": {
+      "conceptId": "en.gym_show_me_adjust_resistance",
+      "id": "gym_show_me_adjust_resistance",
+      "target": [
+        {
+          "text": "Could you show me how to adjust the resistance?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "could_you_show_me_how_to_adjust_the_resistance"
+        },
+        {
+          "text": "Can you show me how to adjust the resistance?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "can_you_show_me_how_to_adjust_the_resistance"
+        }
+      ]
+    },
+    "en.health_my_back_hurts": {
+      "conceptId": "en.health_my_back_hurts",
+      "id": "health_my_back_hurts",
+      "target": [
+        {
+          "text": "My back hurts.",
+          "audioSlug": "my_back_hurts"
+        }
+      ]
+    },
+    "en.museums_i_love_this_painting": {
+      "conceptId": "en.museums_i_love_this_painting",
+      "id": "museums_i_love_this_painting",
+      "target": [
+        {
+          "text": "I love this painting.",
+          "audioSlug": "i_love_this_painting"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_i_know_the_solution": {
+      "conceptId": "en.pensamientos_opiniones_i_know_the_solution",
+      "id": "pensamientos_opiniones_i_know_the_solution",
+      "target": [
+        {
+          "text": "I know the solution.",
+          "audioSlug": "i_know_the_solution"
+        }
+      ]
+    },
+    "en.personal_info_i_live_with_my_family": {
+      "conceptId": "en.personal_info_i_live_with_my_family",
+      "id": "personal_info_i_live_with_my_family",
+      "target": [
+        {
+          "text": "I live with my family.",
+          "audioSlug": "i_live_with_my_family"
+        }
+      ]
+    },
+    "en.weather_im_hot": {
+      "conceptId": "en.weather_im_hot",
+      "id": "weather_im_hot",
+      "target": [
+        {
+          "text": "I'm hot.",
+          "audioSlug": "i_m_hot"
+        }
+      ]
+    }
+  }
+}

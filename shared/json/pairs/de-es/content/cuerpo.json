@@ -1,30 +1,306 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "cuerpo",
-  "conceptIds": [
-    "es.cuerpo_tengo_el_pelo_largo",
-    "es.cuerpo_tengo_los_ojos_oscuros",
-    "es.cuerpo_el_corazon_late_rapido",
-    "es.cuerpo_tengo_las_manos_frias",
-    "es.cuerpo_tengo_los_hombros_anchos",
-    "es.cuerpo_su_piel_es_muy_suave",
-    "es.cuerpo_abre_la_boca_por_favor",
-    "es.cuerpo_tengo_las_piernas_largas",
-    "es.cuerpo_muevo_los_dedos",
-    "es.cuerpo_levanta_la_mano_si_tienes_una_pregunta",
-    "es.cuerpo_tengo_las_unas_largas",
-    "es.cuerpo_tengo_los_pies_frios",
-    "es.cuerpo_levanta_el_brazo_derecho",
-    "es.cuerpo_tiene_la_espalda_ancha",
-    "es.cuerpo_tiene_los_dientes_muy_blancos",
-    "es.cuerpo_tiene_el_cabello_rizado",
-    "es.cuerpo_el_corazon_bombea_sangre",
-    "es.cuerpo_tiene_una_sonrisa_bonita",
-    "es.cuerpo_me_duele_la_nariz_por_el_resfriado",
-    "es.cuerpo_mi_tio_tiene_barba_y_bigote",
-    "es.cuerpo_me_duele_el_cuello_de_dormir_mal",
-    "es.cuerpo_me_duele_el_estomago_despues_de_comer",
-    "es.cuerpo_el_oido_izquierdo_me_molesta_un_poco"
+  "phrases": [
+    {
+      "conceptId": "es.cuerpo_tengo_el_pelo_largo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c930583cc8af1132"
+    },
+    {
+      "conceptId": "es.cuerpo_tengo_los_ojos_oscuros",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b28592380f38270f"
+    },
+    {
+      "conceptId": "es.cuerpo_el_corazon_late_rapido",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c299ca7ef0aa7ba4"
+    },
+    {
+      "conceptId": "es.cuerpo_tengo_las_manos_frias",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0bbaaf2a3f6217b9"
+    },
+    {
+      "conceptId": "es.cuerpo_tengo_los_hombros_anchos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e0a7fd1765a17737"
+    },
+    {
+      "conceptId": "es.cuerpo_su_piel_es_muy_suave",
+      "level": "A2",
+      "grammar": "una cualidad de la piel usa ser, la piel es suave.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f87deaca2ed0b9b5"
+    },
+    {
+      "conceptId": "es.cuerpo_abre_la_boca_por_favor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3eddf9d18826f174"
+    },
+    {
+      "conceptId": "es.cuerpo_tengo_las_piernas_largas",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.056798d6368c14b6"
+    },
+    {
+      "conceptId": "es.cuerpo_muevo_los_dedos",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cdd83d1154473cbb"
+    },
+    {
+      "conceptId": "es.cuerpo_levanta_la_mano_si_tienes_una_pregunta",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.deac214621774597"
+    },
+    {
+      "conceptId": "es.cuerpo_tengo_las_unas_largas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1e305e8d25cafa84"
+    },
+    {
+      "conceptId": "es.cuerpo_tengo_los_pies_frios",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.64f9e7b644e33c79"
+    },
+    {
+      "conceptId": "es.cuerpo_levanta_el_brazo_derecho",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9c4f2a9bb4ae1c14"
+    },
+    {
+      "conceptId": "es.cuerpo_tiene_la_espalda_ancha",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a788e97faede0747"
+    },
+    {
+      "conceptId": "es.cuerpo_tiene_los_dientes_muy_blancos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f14ce23c991ff215"
+    },
+    {
+      "conceptId": "es.cuerpo_tiene_el_cabello_rizado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.83cfe3b515e81e07"
+    },
+    {
+      "conceptId": "es.cuerpo_el_corazon_bombea_sangre",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.627e81f711b60edb"
+    },
+    {
+      "conceptId": "es.cuerpo_tiene_una_sonrisa_bonita",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c4cd30b41f05f85a"
+    },
+    {
+      "conceptId": "es.cuerpo_me_duele_la_nariz_por_el_resfriado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8c19d9050e01c4bc"
+    },
+    {
+      "conceptId": "es.cuerpo_mi_tio_tiene_barba_y_bigote",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b7f67d431107e396"
+    },
+    {
+      "conceptId": "es.cuerpo_me_duele_el_cuello_de_dormir_mal",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b2a2e7f3a596f93f"
+    },
+    {
+      "conceptId": "es.cuerpo_me_duele_el_estomago_despues_de_comer",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c712c817bc7fb9c0"
+    },
+    {
+      "conceptId": "es.cuerpo_el_oido_izquierdo_me_molesta_un_poco",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8d76e654ce110a22"
+    }
   ]
 }

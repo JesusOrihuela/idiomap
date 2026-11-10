@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "sources": {
+    "legacy": {
+      "type": "internal",
+      "title": "Contenido anterior a la politica de evidencia por item",
+      "verified": false,
+      "license": "internal",
+      "redistributable": false,
+      "note": "Waiver visible: no se publica como nuevo y debe backfillearse."
+    },
+    "attested": {
+      "type": "project-attestation",
+      "title": "Atestacion por tema en tools/sources/derived/*-attestation.json",
+      "verified": true,
+      "license": "internal",
+      "redistributable": false,
+      "note": "Registro frase por frase con funcion, nivel y fuentes del tema."
+    },
+    "PCIC-2006": {
+      "type": "official-inventory",
+      "title": "Plan Curricular del Instituto Cervantes",
+      "year": 2006,
+      "url": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/",
+      "verified": true,
+      "license": "reference",
+      "redistributable": false
+    },
+    "NGSL-2013": {
+      "type": "frequency-list",
+      "title": "New General Service List (Browne, Culligan & Phillips)",
+      "year": 2013,
+      "url": "https://www.newgeneralservicelist.com/",
+      "verified": true,
+      "license": "CC BY-SA 4.0",
+      "redistributable": true
+    },
+    "ELELEX-2014": {
+      "type": "cefr-lexicon",
+      "title": "ELELex / CEFRLex (Francois et al.)",
+      "year": 2014,
+      "url": "https://cental.uclouvain.be/cefrlex/elelex/",
+      "verified": true,
+      "license": "CC BY-NC-SA 4.0",
+      "nonCommercial": true,
+      "localOnly": true,
+      "redistributable": false,
+      "note": "Local calibration report only; never used as content evidence or committed."
+    },
+    "FREQWORDS-2018": {
+      "type": "frequency-list",
+      "title": "FrequencyWords / OpenSubtitles 2018",
+      "year": 2018,
+      "url": "https://github.com/hermitdave/FrequencyWords",
+      "verified": true,
+      "license": "CC BY-SA 4.0",
+      "redistributable": true
+    },
+    "TATOEBA-CC-BY": {
+      "type": "corpus",
+      "title": "Tatoeba via OPUS (CC BY 2.0 FR)",
+      "url": "https://tatoeba.org",
+      "verified": true,
+      "license": "CC BY 2.0 FR",
+      "redistributable": true,
+      "note": "Audio licences are per contributor; audio is not redistributed here."
+    },
+    "DAMER-ASALE": {
+      "type": "regional-lexicon",
+      "title": "Diccionario de americanismos (ASALE)",
+      "url": "https://www.asale.org/damer/",
+      "verified": true,
+      "license": "reference",
+      "redistributable": false
+    },
+    "RAE-NGLE": {
+      "type": "reference-grammar",
+      "title": "Nueva gramatica de la lengua espanola (RAE & ASALE)",
+      "verified": true,
+      "license": "reference",
+      "redistributable": false
+    },
+    "KOKORO-82M": {
+      "type": "tts-engine",
+      "title": "Kokoro-82M (hexgrad)",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "verified": true,
+      "license": "Apache-2.0",
+      "redistributable": true,
+      "note": "English pre-generated audio."
+    },
+    "EDGE-TTS": {
+      "type": "tts-service",
+      "title": "Microsoft Edge online TTS",
+      "url": "https://learn.microsoft.com/azure/ai-services/speech-service/",
+      "verified": true,
+      "license": "Microsoft Edge Terms of Service",
+      "redistributable": false,
+      "note": "Generated non-English audio; verify redistribution terms before commercial launch."
+    }
+  }
+}

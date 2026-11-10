@@ -17,7 +17,13 @@
       "gloss_example": {
         "es": "Mi abuelo nos contó un cuento divertido."
       },
-      "conceptId": "en.story"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "novel",
@@ -36,7 +42,13 @@
       "gloss_example": {
         "es": "Ella está leyendo una novela de misterio."
       },
-      "conceptId": "en.novel"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "painter",
@@ -55,7 +67,13 @@
       "gloss_example": {
         "es": "El pintor vendió tres obras este mes."
       },
-      "conceptId": "en.painter"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "art",
@@ -74,7 +92,13 @@
       "gloss_example": {
         "es": "Me encanta el arte moderno."
       },
-      "conceptId": "en.art"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "paint",
@@ -93,7 +117,13 @@
       "gloss_example": {
         "es": "A ella le gusta pintar paisajes."
       },
-      "conceptId": "en.paint"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "sculpture",
@@ -112,7 +142,13 @@
       "gloss_example": {
         "es": "El museo tiene una famosa escultura de mármol."
       },
-      "conceptId": "en.sculpture"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "artist",
@@ -131,7 +167,13 @@
       "gloss_example": {
         "es": "El artista pintó durante horas."
       },
-      "conceptId": "en.artist"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "portrait",
@@ -150,7 +192,13 @@
       "gloss_example": {
         "es": "Ella posó para un retrato."
       },
-      "conceptId": "en.portrait"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "sketch",
@@ -169,7 +217,13 @@
       "gloss_example": {
         "es": "Hizo un boceto del edificio."
       },
-      "conceptId": "en.sketch"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "frame_art",
@@ -188,7 +242,13 @@
       "gloss_example": {
         "es": "El cuadro tiene un marco dorado."
       },
-      "conceptId": "en.frame_art"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "mural",
@@ -207,7 +267,13 @@
       "gloss_example": {
         "es": "El mural cubre toda la pared."
       },
-      "conceptId": "en.mural"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

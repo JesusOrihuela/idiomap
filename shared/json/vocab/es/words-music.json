@@ -19,7 +19,13 @@
       "gloss_example": {
         "en": "She played her favorite song on repeat all morning."
       },
-      "conceptId": "es.song"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "singer",
@@ -40,7 +46,13 @@
       "gloss_example": {
         "en": "My favorite singer is performing live in the city next month."
       },
-      "conceptId": "es.singer"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "concert",
@@ -61,7 +73,13 @@
       "gloss_example": {
         "en": "We bought tickets to a concert at the outdoor amphitheater."
       },
-      "conceptId": "es.concert"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "playlist",
@@ -93,12 +111,18 @@
         {
           "text": "playlist",
           "labels": {
-            "loanword": ""
+            "loanword": "anglicismo"
           },
           "audioSlug": "playlist"
         }
       ],
-      "conceptId": "es.playlist"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "band",
@@ -135,7 +159,13 @@
           "audioSlug": "grupo_musical"
         }
       ],
-      "conceptId": "es.band"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "album",
@@ -172,7 +202,13 @@
           "audioSlug": "disco"
         }
       ],
-      "conceptId": "es.album"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "lyrics",
@@ -193,7 +229,13 @@
       "gloss_example": {
         "en": "I looked up the lyrics online because I couldn't understand what he was saying."
       },
-      "conceptId": "es.lyrics"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "instrument",
@@ -214,7 +256,13 @@
       "gloss_example": {
         "en": "Learning a musical instrument requires daily practice and patience."
       },
-      "conceptId": "es.instrument"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "beat",
@@ -246,12 +294,18 @@
         {
           "text": "beat",
           "labels": {
-            "loanword": ""
+            "loanword": "anglicismo"
           },
           "audioSlug": "beat"
         }
       ],
-      "conceptId": "es.beat"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "genre",
@@ -272,7 +326,13 @@
       "gloss_example": {
         "en": "What genre of music do you prefer, rock or pop?"
       },
-      "conceptId": "es.genre"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "chorus",
@@ -309,7 +369,13 @@
           "audioSlug": "estribillo"
         }
       ],
-      "conceptId": "es.chorus"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "melody",
@@ -330,7 +396,13 @@
       "gloss_example": {
         "en": "The melody was so catchy that I couldn't get it out of my head."
       },
-      "conceptId": "es.melody"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "acoustic",
@@ -351,7 +423,13 @@
       "gloss_example": {
         "en": "He played an acoustic version of his biggest hit at the intimate venue."
       },
-      "conceptId": "es.acoustic"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "tour",
@@ -372,7 +450,13 @@
       "gloss_example": {
         "en": "The band announced a world tour to promote their new album."
       },
-      "conceptId": "es.tour"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "sampling",
@@ -397,19 +481,25 @@
         {
           "text": "sampling",
           "labels": {
-            "loanword": ""
+            "loanword": "anglicismo"
           },
           "audioSlug": "sampling"
         },
         {
           "text": "sampleo",
           "labels": {
-            "loanword": ""
+            "loanword": "anglicismo"
           },
           "audioSlug": "sampleo"
         }
       ],
-      "conceptId": "es.sampling"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "pitch",
@@ -446,7 +536,13 @@
           "audioSlug": "altura_tonal"
         }
       ],
-      "conceptId": "es.pitch"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "setlist",
@@ -467,7 +563,13 @@
       "gloss_example": {
         "en": "The band's setlist included all their classics plus three new songs."
       },
-      "conceptId": "es.setlist"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "venue",
@@ -504,7 +606,13 @@
           "audioSlug": "sala_de_conciertos"
         }
       ],
-      "conceptId": "es.venue"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "remix",
@@ -529,7 +637,7 @@
         {
           "text": "remix",
           "labels": {
-            "loanword": ""
+            "loanword": "anglicismo"
           },
           "audioSlug": "remix"
         },
@@ -541,7 +649,13 @@
           "audioSlug": "remezcla"
         }
       ],
-      "conceptId": "es.remix"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "virtuoso",
@@ -562,7 +676,13 @@
       "gloss_example": {
         "en": "The young pianist is considered a virtuoso. She performed Chopin at age eleven."
       },
-      "conceptId": "es.virtuoso"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "canon",
@@ -583,7 +703,13 @@
       "gloss_example": {
         "en": "Debates about the jazz canon often reflect whose contributions have been historically recognized."
       },
-      "conceptId": "es.canon"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "improvisation",
@@ -604,7 +730,13 @@
       "gloss_example": {
         "en": "Jazz is built on improvisation, and musicians respond to each other in real time."
       },
-      "conceptId": "es.improvisation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "dissonance",
@@ -625,7 +757,13 @@
       "gloss_example": {
         "en": "The composer used dissonance deliberately to evoke unease and conflict."
       },
-      "conceptId": "es.dissonance"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "arrangement",
@@ -646,7 +784,13 @@
       "gloss_example": {
         "en": "The orchestral arrangement of the pop song transformed it into something entirely new."
       },
-      "conceptId": "es.arrangement"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "timbre",
@@ -667,7 +811,13 @@
       "gloss_example": {
         "en": "Her timbre is instantly recognizable. No other singer sounds quite like her."
       },
-      "conceptId": "es.timbre"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "counterpoint",
@@ -688,7 +838,13 @@
       "gloss_example": {
         "en": "Bach's use of counterpoint in his fugues is still studied in conservatories worldwide."
       },
-      "conceptId": "es.counterpoint"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "erasure",
@@ -725,7 +881,13 @@
           "audioSlug": "invisibilizacion"
         }
       ],
-      "conceptId": "es.erasure"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "polyrhythm",
@@ -746,7 +908,13 @@
       "gloss_example": {
         "en": "West African drumming traditions are built on complex polyrhythmic structures."
       },
-      "conceptId": "es.polyrhythm"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "leitmotif",
@@ -767,7 +935,13 @@
       "gloss_example": {
         "en": "Wagner developed the leitmotif technique to represent characters without words."
       },
-      "conceptId": "es.leitmotif"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "atonal",
@@ -788,7 +962,13 @@
       "gloss_example": {
         "en": "Schoenberg's atonal compositions divided audiences between admiration and confusion."
       },
-      "conceptId": "es.atonal"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "syncopation",
@@ -809,7 +989,13 @@
       "gloss_example": {
         "en": "The jazz pianist's syncopation gave even a simple melody a compelling sense of forward momentum."
       },
-      "conceptId": "es.syncopation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "appropriation",
@@ -830,7 +1016,13 @@
       "gloss_example": {
         "en": "The debate over cultural appropriation in music continues to divide critics and artists alike."
       },
-      "conceptId": "es.appropriation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "sing",
@@ -851,7 +1043,13 @@
       "gloss_example": {
         "en": "She sings in a local choir."
       },
-      "conceptId": "es.sing"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "dance",
@@ -872,7 +1070,13 @@
       "gloss_example": {
         "en": "They danced all night at the party."
       },
-      "conceptId": "es.dance"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "musician",
@@ -909,7 +1113,13 @@
           "audioSlug": "musica"
         }
       ],
-      "conceptId": "es.musician"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "baile",
@@ -930,7 +1140,13 @@
       "gloss_example": {
         "en": "The dance lasted all night."
       },
-      "conceptId": "es.baile"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "concurso",
@@ -951,7 +1167,13 @@
       "gloss_example": {
         "en": "She took part in a singing contest."
       },
-      "conceptId": "es.concurso"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "guitar",
@@ -972,7 +1194,13 @@
       "gloss_example": {
         "en": "I learned to play the guitar as a child."
       },
-      "conceptId": "es.guitar"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "piano",
@@ -993,7 +1221,13 @@
       "gloss_example": {
         "en": "She plays the piano in a jazz band."
       },
-      "conceptId": "es.piano"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "violin",
@@ -1014,7 +1248,13 @@
       "gloss_example": {
         "en": "The violin is hard to learn."
       },
-      "conceptId": "es.violin"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "artist",
@@ -1035,7 +1275,13 @@
       "gloss_example": {
         "en": "That artist paints very original pictures."
       },
-      "conceptId": "es.artist"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

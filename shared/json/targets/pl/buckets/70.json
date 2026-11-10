@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "tag": "pl",
+  "bucket": "70",
+  "concepts": {
+    "pl.personal_info_i_am_a_student": {
+      "conceptId": "pl.personal_info_i_am_a_student",
+      "id": "personal_info_i_am_a_student",
+      "target": [
+        {
+          "text": "Jestem studentem.",
+          "source": "Ich bin Student.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "jestem_studentem"
+        },
+        {
+          "text": "Jestem studentką.",
+          "source": "Ich bin Studentin.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "jestem_studentka"
+        }
+      ]
+    }
+  }
+}

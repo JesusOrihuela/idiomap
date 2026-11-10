@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "57",
+  "concepts": {
+    "en.descripciones_it_looks_normal": {
+      "conceptId": "en.descripciones_it_looks_normal",
+      "id": "descripciones_it_looks_normal",
+      "target": [
+        {
+          "text": "It looks normal.",
+          "audioSlug": "it_looks_normal"
+        }
+      ]
+    },
+    "en.gym_where_dumbbells": {
+      "conceptId": "en.gym_where_dumbbells",
+      "id": "gym_where_dumbbells",
+      "target": [
+        {
+          "text": "Where are the dumbbells?",
+          "audioSlug": "where_are_the_dumbbells"
+        }
+      ]
+    },
+    "en.movies_documentary_streaming": {
+      "conceptId": "en.movies_documentary_streaming",
+      "id": "movies_documentary_streaming",
+      "target": [
+        {
+          "text": "I heard that documentary is excellent. Is it on any streaming platform?",
+          "audioSlug": "i_heard_that_documentary_is_excellent_is_it_on_any_streaming_platform"
+        }
+      ]
+    },
+    "en.personal_info_can_i_have_your_number": {
+      "conceptId": "en.personal_info_can_i_have_your_number",
+      "id": "personal_info_can_i_have_your_number",
+      "target": [
+        {
+          "text": "Can I have your number?",
+          "audioSlug": "can_i_have_your_number"
+        }
+      ]
+    },
+    "en.restaurant_what_do_you_recommend_as_a": {
+      "conceptId": "en.restaurant_what_do_you_recommend_as_a",
+      "id": "restaurant_what_do_you_recommend_as_a",
+      "target": [
+        {
+          "text": "What do you recommend as a specialty of the house?",
+          "audioSlug": "what_do_you_recommend_as_a_specialty_of_the_house"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,541 @@
+{
+  "_doc": "Atestiguacion frase por frase — topic transportation. Actos de VIAJERO/USUARIO (preguntar ruta/destino/horario, comprar boleto, taxi, quejas de tarifa/retraso/reembolso, necesidades especiales), atestiguados en materiales ESL/ELE de transporte publico + inventario PCIC/Core Inventory. Retirada la prosa de POLITICA urbana (modal shift, congestion pricing, deregulation).",
+  "sources_en": [
+    "ESLpals / Linguahouse — Public Transport",
+    "ESLinfo — transportation expressions",
+    "test-english — Transport B1"
+  ],
+  "sources_es": [
+    "PCIC nociones (Viajes y transporte)",
+    "recursos ELE de transporte"
+  ],
+  "retired_policy_prose": [
+    "transportation_ridesharing_liability_gray_area",
+    "transportation_accessibility_core_planning_principle",
+    "transportation_no_cycle_lanes_dangerous",
+    "transportation_modal_shift_policy_framework",
+    "transportation_last_mile_barrier_mobility",
+    "transportation_congestion_pricing_city_center",
+    "transportation_taxi_deregulation_standards",
+    "transportation_intermodal_urban_emissions"
+  ],
+  "gap_fill_added": [
+    "¿Este autobús va a...?",
+    "Un boleto a..., por favor",
+    "¿De qué andén...?",
+    "Pare aquí, por favor",
+    "Lléveme a esta dirección",
+    "¿Cuándo pasa el próximo autobús?",
+    "¿Es este el autobús para...?",
+    "estación de metro más cercana",
+    "¿Cuánto se tarda...?",
+    "poner el taxímetro"
+  ],
+  "phrases": {
+    "en.transportation_accessible_wheelchair_vehicle": {
+      "level": "C1",
+      "function": "necesidades_especiales",
+      "attested": true,
+      "intent": "I need to arrange accessible transport. Do you have vehicles adapted for wheelchair users?"
+    },
+    "en.transportation_avoid_peak_hours": {
+      "level": "B2",
+      "function": "transporte_general",
+      "attested": true,
+      "intent": "I try to avoid traveling during peak hours because the metro is unbearably crowded."
+    },
+    "en.transportation_bike_brakes_faulty": {
+      "level": "B2",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "The rental bike wasn't in the advertised condition. The brakes were faulty."
+    },
+    "en.transportation_boat_arrive_port": {
+      "level": "A1",
+      "function": "transporte_general",
+      "attested": true,
+      "intent": "What time does our boat arrive at the port?"
+    },
+    "en.transportation_bus_late_connection": {
+      "level": "B1",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "The bus is late. Is there a connection at the next stop?"
+    },
+    "en.transportation_buy_train_ticket": {
+      "level": "A2",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "I need to buy a ticket for the high-speed train."
+    },
+    "en.transportation_call_cab_station": {
+      "level": "A2",
+      "function": "taxi",
+      "attested": true,
+      "intent": "Could you call me a cab? I must leave in twenty minutes."
+    },
+    "en.transportation_cancelled_train_refund": {
+      "level": "B2",
+      "function": "queja/reclamo",
+      "attested": true,
+      "intent": "The train was cancelled without prior notice. Am I entitled to a full refund?"
+    },
+    "en.transportation_carpooling_cuts_commute_costs": {
+      "level": "B2",
+      "function": "transporte_general",
+      "attested": true,
+      "intent": "My colleagues and I have started carpooling to work, which cuts our commute costs."
+    },
+    "en.transportation_cycling_lane_shared_road": {
+      "level": "C1",
+      "function": "necesidades_especiales",
+      "attested": true,
+      "intent": "Is there a dedicated cycling lane on this route, or do cyclists share the road?"
+    },
+    "en.transportation_delayed_apply_compensation": {
+      "level": "B2",
+      "function": "queja/reclamo",
+      "attested": true,
+      "intent": "My train was delayed by over an hour. Can I apply for compensation?"
+    },
+    "en.transportation_does_this_bus_go": {
+      "level": "A1",
+      "function": "destino/horario",
+      "attested": true,
+      "intent": "Does this bus go to the center?"
+    },
+    "en.transportation_driver_overcharged_complaint": {
+      "level": "B2",
+      "function": "queja/reclamo",
+      "attested": true,
+      "intent": "The driver overcharged me compared to the meter. I'd like to file a complaint."
+    },
+    "en.transportation_how_get_bus_stop": {
+      "level": "A1",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "How do I get to the bus stop from here?"
+    },
+    "en.transportation_how_long_to_get": {
+      "level": "A2",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "How long does it take to get to the center?"
+    },
+    "en.transportation_luggage_locker_station": {
+      "level": "B2",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "Can I rent a luggage locker at the station before my train?"
+    },
+    "en.transportation_metro_faster_than_bus": {
+      "level": "A2",
+      "function": "transporte_general",
+      "attested": true,
+      "intent": "Is the metro faster than the bus at this time of day?"
+    },
+    "en.transportation_metro_map_navigate": {
+      "level": "B2",
+      "function": "transporte_general",
+      "attested": true,
+      "intent": "I'm struggling with the metro map. Could you show me how to read it?"
+    },
+    "en.transportation_missed_train_next_one": {
+      "level": "A2",
+      "function": "destino/horario",
+      "attested": true,
+      "intent": "I missed my train. When does the next one leave?"
+    },
+    "en.transportation_monthly_multimodal_pass": {
+      "level": "C1",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "I'd like a monthly pass that covers all modes of public transport in the city."
+    },
+    "en.transportation_nearest_bus_stop": {
+      "level": "A2",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "Where is the nearest bus stop?"
+    },
+    "en.transportation_nearest_metro": {
+      "level": "A1",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "Where is the nearest metro station?"
+    },
+    "en.transportation_one_ticket_to": {
+      "level": "A1",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "One ticket to the airport, please."
+    },
+    "en.transportation_order_taxi_morning": {
+      "level": "A1",
+      "function": "taxi",
+      "attested": true,
+      "intent": "Order a taxi for tomorrow morning."
+    },
+    "en.transportation_payment_airport_transfer": {
+      "level": "B1",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "I will pay extra to include the transfer to the airport."
+    },
+    "en.transportation_penalty_charge_signage": {
+      "level": "C2",
+      "function": "queja/reclamo",
+      "attested": true,
+      "intent": "I'd like to formally dispute this penalty charge. The parking restriction signage was inadequate."
+    },
+    "en.transportation_reduced_fare_students": {
+      "level": "B2",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "Is there a reduced fare for senior citizens or students on this route?"
+    },
+    "en.transportation_rental_car_location": {
+      "level": "A2",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "I don't know where to get a rental car."
+    },
+    "en.transportation_rental_liability_provisions": {
+      "level": "C2",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "I'd like to review the liability provisions in the rental agreement before signing."
+    },
+    "en.transportation_rideshare_late_arrival": {
+      "level": "B2",
+      "function": "taxi",
+      "attested": true,
+      "intent": "The driver is seven minutes away, but I need to leave in five."
+    },
+    "en.transportation_right_bus_for": {
+      "level": "A1",
+      "function": "destino/horario",
+      "attested": true,
+      "intent": "Is this the right bus for the museum?"
+    },
+    "en.transportation_stop_here_please": {
+      "level": "A1",
+      "function": "taxi",
+      "attested": true,
+      "intent": "Stop here, please."
+    },
+    "en.transportation_subway_single_fare": {
+      "level": "A2",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "How much is a single-journey ticket for the subway?"
+    },
+    "en.transportation_take_me_to_address": {
+      "level": "A1",
+      "function": "taxi",
+      "attested": true,
+      "intent": "Take me to this address, please."
+    },
+    "en.transportation_taxi_fare_city": {
+      "level": "A2",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "What is the taxi fare to the city center?"
+    },
+    "en.transportation_taxi_longer_route_fare": {
+      "level": "C1",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "The driver took a noticeably longer route. I believe the fare should be adjusted accordingly."
+    },
+    "en.transportation_turn_on_meter": {
+      "level": "A2",
+      "function": "taxi",
+      "attested": true,
+      "intent": "Can you turn on the meter, please?"
+    },
+    "en.transportation_weekly_travel_pass": {
+      "level": "A2",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "I'd like to buy a weekly travel pass for the city."
+    },
+    "en.transportation_when_next_bus": {
+      "level": "A1",
+      "function": "destino/horario",
+      "attested": true,
+      "intent": "When is the next bus?"
+    },
+    "en.transportation_where_rent_bike": {
+      "level": "A1",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "Where can I rent a bike?"
+    },
+    "en.transportation_where_taxi_stand": {
+      "level": "A1",
+      "function": "taxi",
+      "attested": true,
+      "intent": "Where is the taxi stand?"
+    },
+    "en.transportation_which_platform": {
+      "level": "A2",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "Which platform does the train to Madrid leave from?"
+    },
+    "es.transportation_accessible_wheelchair_vehicle": {
+      "level": "C1",
+      "function": "necesidades_especiales",
+      "attested": true,
+      "intent": "I need to arrange accessible transport. Do you have vehicles adapted for wheelchair users?"
+    },
+    "es.transportation_avoid_peak_hours": {
+      "level": "B2",
+      "function": "transporte_general",
+      "attested": true,
+      "intent": "I try to avoid traveling during peak hours because the metro is unbearably crowded."
+    },
+    "es.transportation_bike_brakes_faulty": {
+      "level": "B2",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "The rental bike wasn't in the advertised condition. The brakes were faulty."
+    },
+    "es.transportation_boat_arrive_port": {
+      "level": "A1",
+      "function": "transporte_general",
+      "attested": true,
+      "intent": "What time does our boat arrive at the port?"
+    },
+    "es.transportation_bus_late_connection": {
+      "level": "B1",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "The bus is late. Is there a connection at the next stop?"
+    },
+    "es.transportation_buy_train_ticket": {
+      "level": "A2",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "I need to buy a ticket for the high-speed train."
+    },
+    "es.transportation_call_cab_station": {
+      "level": "A2",
+      "function": "taxi",
+      "attested": true,
+      "intent": "Could you call me a cab? I must leave in twenty minutes."
+    },
+    "es.transportation_cancelled_train_refund": {
+      "level": "B2",
+      "function": "queja/reclamo",
+      "attested": true,
+      "intent": "The train was cancelled without prior notice. Am I entitled to a full refund?"
+    },
+    "es.transportation_carpooling_cuts_commute_costs": {
+      "level": "B2",
+      "function": "transporte_general",
+      "attested": true,
+      "intent": "My colleagues and I have started carpooling to work, which cuts our commute costs."
+    },
+    "es.transportation_cycling_lane_shared_road": {
+      "level": "C1",
+      "function": "necesidades_especiales",
+      "attested": true,
+      "intent": "Is there a dedicated cycling lane on this route, or do cyclists share the road?"
+    },
+    "es.transportation_delayed_apply_compensation": {
+      "level": "B2",
+      "function": "queja/reclamo",
+      "attested": true,
+      "intent": "My train was delayed by over an hour. Can I apply for compensation?"
+    },
+    "es.transportation_does_this_bus_go": {
+      "level": "A1",
+      "function": "destino/horario",
+      "attested": true,
+      "intent": "Does this bus go to the center?"
+    },
+    "es.transportation_driver_overcharged_complaint": {
+      "level": "B2",
+      "function": "queja/reclamo",
+      "attested": true,
+      "intent": "The driver overcharged me compared to the meter. I'd like to file a complaint."
+    },
+    "es.transportation_how_get_bus_stop": {
+      "level": "A1",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "How do I get to the bus stop from here?"
+    },
+    "es.transportation_how_long_to_get": {
+      "level": "A2",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "How long does it take to get to the center?"
+    },
+    "es.transportation_luggage_locker_station": {
+      "level": "B2",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "Can I rent a luggage locker at the station before my train?"
+    },
+    "es.transportation_metro_faster_than_bus": {
+      "level": "A2",
+      "function": "transporte_general",
+      "attested": true,
+      "intent": "Is the metro faster than the bus at this time of day?"
+    },
+    "es.transportation_metro_map_navigate": {
+      "level": "B2",
+      "function": "transporte_general",
+      "attested": true,
+      "intent": "I'm struggling with the metro map. Could you show me how to read it?"
+    },
+    "es.transportation_missed_train_next_one": {
+      "level": "A2",
+      "function": "destino/horario",
+      "attested": true,
+      "intent": "I missed my train. When does the next one leave?"
+    },
+    "es.transportation_monthly_multimodal_pass": {
+      "level": "C1",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "I'd like a monthly pass that covers all modes of public transport in the city."
+    },
+    "es.transportation_nearest_bus_stop": {
+      "level": "A2",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "Where is the nearest bus stop?"
+    },
+    "es.transportation_nearest_metro": {
+      "level": "A1",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "Where is the nearest metro station?"
+    },
+    "es.transportation_one_ticket_to": {
+      "level": "A1",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "One ticket to the airport, please."
+    },
+    "es.transportation_order_taxi_morning": {
+      "level": "A1",
+      "function": "taxi",
+      "attested": true,
+      "intent": "Order a taxi for tomorrow morning."
+    },
+    "es.transportation_payment_airport_transfer": {
+      "level": "B1",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "I will pay extra to include the transfer to the airport."
+    },
+    "es.transportation_penalty_charge_signage": {
+      "level": "C2",
+      "function": "queja/reclamo",
+      "attested": true,
+      "intent": "I'd like to formally dispute this penalty charge. The parking restriction signage was inadequate."
+    },
+    "es.transportation_reduced_fare_students": {
+      "level": "B2",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "Is there a reduced fare for senior citizens or students on this route?"
+    },
+    "es.transportation_rental_car_location": {
+      "level": "A2",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "I don't know where to get a rental car."
+    },
+    "es.transportation_rental_liability_provisions": {
+      "level": "C2",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "I'd like to review the liability provisions in the rental agreement before signing."
+    },
+    "es.transportation_rideshare_late_arrival": {
+      "level": "B2",
+      "function": "taxi",
+      "attested": true,
+      "intent": "The driver is seven minutes away, but I need to leave in five."
+    },
+    "es.transportation_right_bus_for": {
+      "level": "A1",
+      "function": "destino/horario",
+      "attested": true,
+      "intent": "Is this the right bus for the museum?"
+    },
+    "es.transportation_stop_here_please": {
+      "level": "A1",
+      "function": "taxi",
+      "attested": true,
+      "intent": "Stop here, please."
+    },
+    "es.transportation_subway_single_fare": {
+      "level": "A2",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "How much is a single-journey ticket for the subway?"
+    },
+    "es.transportation_take_me_to_address": {
+      "level": "A1",
+      "function": "taxi",
+      "attested": true,
+      "intent": "Take me to this address, please."
+    },
+    "es.transportation_taxi_fare_city": {
+      "level": "A2",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "What is the taxi fare to the city center?"
+    },
+    "es.transportation_taxi_longer_route_fare": {
+      "level": "C1",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "The driver took a noticeably longer route. I believe the fare should be adjusted accordingly."
+    },
+    "es.transportation_turn_on_meter": {
+      "level": "A2",
+      "function": "taxi",
+      "attested": true,
+      "intent": "Can you turn on the meter, please?"
+    },
+    "es.transportation_weekly_travel_pass": {
+      "level": "A2",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "I'd like to buy a weekly travel pass for the city."
+    },
+    "es.transportation_when_next_bus": {
+      "level": "A1",
+      "function": "destino/horario",
+      "attested": true,
+      "intent": "When is the next bus?"
+    },
+    "es.transportation_where_rent_bike": {
+      "level": "A1",
+      "function": "ruta/ubicación",
+      "attested": true,
+      "intent": "Where can I rent a bike?"
+    },
+    "es.transportation_where_taxi_stand": {
+      "level": "A1",
+      "function": "taxi",
+      "attested": true,
+      "intent": "Where is the taxi stand?"
+    },
+    "es.transportation_which_platform": {
+      "level": "A2",
+      "function": "boleto/tarifa",
+      "attested": true,
+      "intent": "Which platform does the train to Madrid leave from?"
+    }
+  },
+  "_keyFormat": "target.conceptSlug"
+}

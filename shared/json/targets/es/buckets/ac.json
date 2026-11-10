@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "ac",
+  "concepts": {
+    "es.conversacion_i_agree_with_you": {
+      "conceptId": "es.conversacion_i_agree_with_you",
+      "id": "conversacion_i_agree_with_you",
+      "target": [
+        {
+          "text": "Estoy de acuerdo contigo.",
+          "audioSlug": "estoy_de_acuerdo_contigo"
+        }
+      ]
+    },
+    "es.cotidianidad_odio_esperar_en_la_fila": {
+      "conceptId": "es.cotidianidad_odio_esperar_en_la_fila",
+      "id": "cotidianidad_odio_esperar_en_la_fila",
+      "target": [
+        {
+          "text": "Odio esperar en la fila.",
+          "audioSlug": "odio_esperar_en_la_fila"
+        }
+      ]
+    },
+    "es.deportes_en_invierno_vamos_a_esquiar_a_la_montana": {
+      "conceptId": "es.deportes_en_invierno_vamos_a_esquiar_a_la_montana",
+      "id": "deportes_en_invierno_vamos_a_esquiar_a_la_montana",
+      "target": [
+        {
+          "text": "En invierno vamos a esquiar a la montaña.",
+          "audioSlug": "en_invierno_vamos_a_esquiar_a_la_montana"
+        }
+      ]
+    },
+    "es.descripciones_es_un_dia_especial": {
+      "conceptId": "es.descripciones_es_un_dia_especial",
+      "id": "descripciones_es_un_dia_especial",
+      "target": [
+        {
+          "text": "Es un día especial.",
+          "audioSlug": "es_un_dia_especial"
+        }
+      ]
+    },
+    "es.health_llama_a_una_ambulancia_por_favor": {
+      "conceptId": "es.health_llama_a_una_ambulancia_por_favor",
+      "id": "health_llama_a_una_ambulancia_por_favor",
+      "target": [
+        {
+          "text": "Llama a una ambulancia, por favor.",
+          "audioSlug": "llama_a_una_ambulancia_por_favor"
+        }
+      ]
+    },
+    "es.personal_info_mi_cancion_favorita_es_alegre": {
+      "conceptId": "es.personal_info_mi_cancion_favorita_es_alegre",
+      "id": "personal_info_mi_cancion_favorita_es_alegre",
+      "target": [
+        {
+          "text": "Mi canción favorita es muy alegre.",
+          "audioSlug": "mi_cancion_favorita_es_muy_alegre"
+        }
+      ]
+    },
+    "es.planes_quiero_mejorar_mi_nivel_de_espanol": {
+      "conceptId": "es.planes_quiero_mejorar_mi_nivel_de_espanol",
+      "id": "planes_quiero_mejorar_mi_nivel_de_espanol",
+      "target": [
+        {
+          "text": "Quiero mejorar mi nivel de español.",
+          "audioSlug": "quiero_mejorar_mi_nivel_de_espanol"
+        }
+      ]
+    },
+    "es.restaurant_could_you_recommend_a_dish_for": {
+      "conceptId": "es.restaurant_could_you_recommend_a_dish_for",
+      "id": "restaurant_could_you_recommend_a_dish_for",
+      "target": [
+        {
+          "text": "¿Podría recomendarme un plato para alguien con intolerancia al gluten?",
+          "audioSlug": "podria_recomendarme_un_plato_para_alguien_con_intolerancia_al_gluten"
+        }
+      ]
+    },
+    "es.survival_one_moment": {
+      "conceptId": "es.survival_one_moment",
+      "id": "survival_one_moment",
+      "target": [
+        {
+          "text": "Un momento, por favor.",
+          "audioSlug": "un_momento_por_favor"
+        }
+      ]
+    },
+    "es.tiempo_libre_leo_una_novela": {
+      "conceptId": "es.tiempo_libre_leo_una_novela",
+      "id": "tiempo_libre_leo_una_novela",
+      "target": [
+        {
+          "text": "Leo una novela.",
+          "audioSlug": "leo_una_novela"
+        }
+      ]
+    },
+    "es.tiempo_libre_los_domingos_me_gusta_jugar_a_las_cartas": {
+      "conceptId": "es.tiempo_libre_los_domingos_me_gusta_jugar_a_las_cartas",
+      "id": "tiempo_libre_los_domingos_me_gusta_jugar_a_las_cartas",
+      "target": [
+        {
+          "text": "Los domingos me gusta jugar a las cartas.",
+          "audioSlug": "los_domingos_me_gusta_jugar_a_las_cartas"
+        }
+      ]
+    },
+    "es.tiempo_libre_toco_el_piano_desde_hace_anos": {
+      "conceptId": "es.tiempo_libre_toco_el_piano_desde_hace_anos",
+      "id": "tiempo_libre_toco_el_piano_desde_hace_anos",
+      "target": [
+        {
+          "text": "Toco el piano desde hace años.",
+          "audioSlug": "toco_el_piano_desde_hace_anos"
+        }
+      ]
+    },
+    "es.transportation_where_rent_bike": {
+      "conceptId": "es.transportation_where_rent_bike",
+      "id": "transportation_where_rent_bike",
+      "target": [
+        {
+          "text": "¿Dónde puedo alquilar una bicicleta?",
+          "audioSlug": "donde_puedo_alquilar_una_bicicleta"
+        }
+      ]
+    }
+  }
+}

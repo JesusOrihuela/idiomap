@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "d0",
+  "concepts": {
+    "en.cuerpo_i_have_a_small_nose": {
+      "conceptId": "en.cuerpo_i_have_a_small_nose",
+      "id": "cuerpo_i_have_a_small_nose",
+      "target": [
+        {
+          "text": "I have a small nose.",
+          "audioSlug": "i_have_a_small_nose"
+        }
+      ]
+    },
+    "en.kitchen_the_glasses_and_cups_are_in": {
+      "conceptId": "en.kitchen_the_glasses_and_cups_are_in",
+      "id": "kitchen_the_glasses_and_cups_are_in",
+      "target": [
+        {
+          "text": "The glasses and cups are in the cabinet.",
+          "audioSlug": "the_glasses_and_cups_are_in_the_cabinet"
+        }
+      ]
+    },
+    "en.restaurant_can_i_get_a_refill_on": {
+      "conceptId": "en.restaurant_can_i_get_a_refill_on",
+      "id": "restaurant_can_i_get_a_refill_on",
+      "target": [
+        {
+          "text": "Can I get a refill on my drink?",
+          "audioSlug": "can_i_get_a_refill_on_my_drink",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Could I get a refill on my drink?",
+          "audioSlug": "could_i_get_a_refill_on_my_drink",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.supermarket_you_have_to_go_to_the": {
+      "conceptId": "en.supermarket_you_have_to_go_to_the",
+      "id": "supermarket_you_have_to_go_to_the",
+      "target": [
+        {
+          "text": "Go to the supermarket early to avoid the lines.",
+          "audioSlug": "go_to_the_supermarket_early_to_avoid_the_lines"
+        }
+      ]
+    }
+  }
+}

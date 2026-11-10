@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "d3",
+  "concepts": {
+    "es.accommodation_i_have_a_reservation": {
+      "conceptId": "es.accommodation_i_have_a_reservation",
+      "id": "accommodation_i_have_a_reservation",
+      "target": [
+        {
+          "text": "Tengo una reserva a nombre de Smith.",
+          "audioSlug": "tengo_una_reserva_a_nombre_de_smith"
+        }
+      ]
+    },
+    "es.accommodation_tienen_habitaciones_libres": {
+      "conceptId": "es.accommodation_tienen_habitaciones_libres",
+      "id": "accommodation_tienen_habitaciones_libres",
+      "target": [
+        {
+          "text": "¿Tienen habitaciones libres?",
+          "audioSlug": "tienen_habitaciones_libres"
+        }
+      ]
+    },
+    "es.daily_routine_usually_coffee": {
+      "conceptId": "es.daily_routine_usually_coffee",
+      "id": "daily_routine_usually_coffee",
+      "target": [
+        {
+          "text": "Suelo tomar café por la mañana.",
+          "audioSlug": "suelo_tomar_cafe_por_la_manana"
+        }
+      ]
+    },
+    "es.describiendo_personas_es_muy_rico": {
+      "conceptId": "es.describiendo_personas_es_muy_rico",
+      "id": "describiendo_personas_es_muy_rico",
+      "target": [
+        {
+          "text": "Es muy rico.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "es_muy_rico"
+        },
+        {
+          "text": "Es muy rica.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "es_muy_rica"
+        }
+      ]
+    },
+    "es.descripciones_el_vestido_es_muy_tradicional": {
+      "conceptId": "es.descripciones_el_vestido_es_muy_tradicional",
+      "id": "descripciones_el_vestido_es_muy_tradicional",
+      "target": [
+        {
+          "text": "El vestido es muy tradicional.",
+          "audioSlug": "el_vestido_es_muy_tradicional"
+        }
+      ]
+    },
+    "es.descripciones_es_un_producto_americano": {
+      "conceptId": "es.descripciones_es_un_producto_americano",
+      "id": "descripciones_es_un_producto_americano",
+      "target": [
+        {
+          "text": "Es un producto americano.",
+          "audioSlug": "es_un_producto_americano"
+        }
+      ]
+    },
+    "es.descripciones_tiene_un_aspecto_fisico_atletico": {
+      "conceptId": "es.descripciones_tiene_un_aspecto_fisico_atletico",
+      "id": "descripciones_tiene_un_aspecto_fisico_atletico",
+      "target": [
+        {
+          "text": "Tiene un aspecto físico atlético.",
+          "audioSlug": "tiene_un_aspecto_fisico_atletico"
+        }
+      ]
+    },
+    "es.kitchen_necesito_un_cuchillo_afilado": {
+      "conceptId": "es.kitchen_necesito_un_cuchillo_afilado",
+      "id": "kitchen_necesito_un_cuchillo_afilado",
+      "target": [
+        {
+          "text": "Necesito un cuchillo afilado.",
+          "audioSlug": "necesito_un_cuchillo_afilado"
+        }
+      ]
+    },
+    "es.music_lyrics_political_commentary": {
+      "conceptId": "es.music_lyrics_political_commentary",
+      "id": "music_lyrics_political_commentary",
+      "target": [
+        {
+          "text": "Las letras son engañosamente sencillas, con mucho comentario político por debajo de la superficie.",
+          "audioSlug": "las_letras_son_enganosamente_sencillas_con_mucho_comentario_politico_por_debajo_de_la_superficie"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_el_respeto_es_la_base_de_todo": {
+      "conceptId": "es.pensamientos_opiniones_el_respeto_es_la_base_de_todo",
+      "id": "pensamientos_opiniones_el_respeto_es_la_base_de_todo",
+      "target": [
+        {
+          "text": "El respeto es la base de todo.",
+          "audioSlug": "el_respeto_es_la_base_de_todo"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_vale_mas_la_calidad_que_la_cantidad": {
+      "conceptId": "es.pensamientos_opiniones_vale_mas_la_calidad_que_la_cantidad",
+      "id": "pensamientos_opiniones_vale_mas_la_calidad_que_la_cantidad",
+      "target": [
+        {
+          "text": "Vale más la calidad que la cantidad.",
+          "audioSlug": "vale_mas_la_calidad_que_la_cantidad"
+        }
+      ]
+    }
+  }
+}

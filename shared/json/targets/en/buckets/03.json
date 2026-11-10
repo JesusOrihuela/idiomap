@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "03",
+  "concepts": {
+    "en.accountability_the_financial_forecast_is_positive": {
+      "conceptId": "en.accountability_the_financial_forecast_is_positive",
+      "id": "accountability_the_financial_forecast_is_positive",
+      "target": [
+        {
+          "text": "The financial forecast is positive.",
+          "audioSlug": "the_financial_forecast_is_positive"
+        }
+      ]
+    },
+    "en.daily_routine_i_leave_home_at_eight": {
+      "conceptId": "en.daily_routine_i_leave_home_at_eight",
+      "id": "daily_routine_i_leave_home_at_eight",
+      "target": [
+        {
+          "text": "I leave home at eight.",
+          "audioSlug": "i_leave_home_at_eight"
+        }
+      ]
+    },
+    "en.describiendo_personas_he_is_young": {
+      "conceptId": "en.describiendo_personas_he_is_young",
+      "id": "describiendo_personas_he_is_young",
+      "target": [
+        {
+          "text": "He is young.",
+          "audioSlug": "he_is_young"
+        }
+      ]
+    },
+    "en.economia_the_market_is_big": {
+      "conceptId": "en.economia_the_market_is_big",
+      "id": "economia_the_market_is_big",
+      "target": [
+        {
+          "text": "The market is big.",
+          "audioSlug": "the_market_is_big"
+        }
+      ]
+    },
+    "en.greetings_lovely_see_you_looking_well": {
+      "conceptId": "en.greetings_lovely_see_you_looking_well",
+      "id": "greetings_lovely_see_you_looking_well",
+      "target": [
+        {
+          "text": "It's lovely to see you looking so well.",
+          "audioSlug": "it_s_lovely_to_see_you_looking_so_well"
+        }
+      ]
+    },
+    "en.kitchen_i_need_a_tablespoon_of_butter": {
+      "conceptId": "en.kitchen_i_need_a_tablespoon_of_butter",
+      "id": "kitchen_i_need_a_tablespoon_of_butter",
+      "target": [
+        {
+          "text": "I need a tablespoon of butter for this recipe.",
+          "audioSlug": "i_need_a_tablespoon_of_butter_for_this_recipe"
+        }
+      ]
+    },
+    "en.kitchen_im_hungry": {
+      "conceptId": "en.kitchen_im_hungry",
+      "id": "kitchen_im_hungry",
+      "target": [
+        {
+          "text": "I'm hungry.",
+          "audioSlug": "i_m_hungry"
+        }
+      ]
+    },
+    "en.kitchen_the_fruit_bowl_is_on_the": {
+      "conceptId": "en.kitchen_the_fruit_bowl_is_on_the",
+      "id": "kitchen_the_fruit_bowl_is_on_the",
+      "target": [
+        {
+          "text": "The fruit bowl is on the table.",
+          "audioSlug": "the_fruit_bowl_is_on_the_table"
+        }
+      ]
+    },
+    "en.sitios_the_bridge_is_low": {
+      "conceptId": "en.sitios_the_bridge_is_low",
+      "id": "sitios_the_bridge_is_low",
+      "target": [
+        {
+          "text": "The bridge is low.",
+          "audioSlug": "the_bridge_is_low"
+        }
+      ]
+    },
+    "en.technology_my_phone_keeps_overheating_when": {
+      "conceptId": "en.technology_my_phone_keeps_overheating_when",
+      "id": "technology_my_phone_keeps_overheating_when",
+      "target": [
+        {
+          "text": "My phone keeps overheating when I run multiple apps at the same time.",
+          "audioSlug": "my_phone_keeps_overheating_when_i_run_multiple_apps_at_the_same_time"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,783 @@
+{
+  "_doc": "Atestiguacion frase por frase — topic accommodation. Actos de HUESPED; el hotel llega a C1-C2 por transacciones reales; retirada solo la jerga legal.",
+  "sources_en": [
+    "hotel/accommodation ESL guides",
+    "Core Inventory"
+  ],
+  "sources_es": [
+    "PCIC nociones (alojamiento)",
+    "recursos ELE de hotel"
+  ],
+  "retired": [
+    "accommodation_arbitration_clause_consumer_rights",
+    "accommodation_force_majeure_cancellation",
+    "accommodation_damages_assessment_criteria"
+  ],
+  "phrases": {
+    "en.accommodation_ac_not_working": {
+      "level": "A2",
+      "function": "quejas/incidencias",
+      "attested": true,
+      "intent": "The air conditioning isn't working."
+    },
+    "en.accommodation_accessible_level_access": {
+      "level": "C1",
+      "function": "peticiones",
+      "attested": true,
+      "intent": "I require level-access facilities. Could you confirm which rooms are fully adapted?"
+    },
+    "en.accommodation_aircon_maintenance": {
+      "level": "B2",
+      "function": "quejas/incidencias",
+      "attested": true,
+      "intent": "The air conditioning isn't working properly. Could you send someone from maintenance?"
+    },
+    "en.accommodation_airport_shuttle": {
+      "level": "A2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Do you have airport shuttle service?"
+    },
+    "en.accommodation_atm_hotel": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is there an ATM in the hotel?"
+    },
+    "en.accommodation_book_room_two_nights": {
+      "level": "A2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "Could you help me book a hotel room for two nights?"
+    },
+    "en.accommodation_breakfast_included": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is breakfast included?"
+    },
+    "en.accommodation_cancellation_policy": {
+      "level": "B1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "What is the hotel's reservation cancellation policy?"
+    },
+    "en.accommodation_checkin_time": {
+      "level": "A1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "What time is check-in?"
+    },
+    "en.accommodation_checkout_time": {
+      "level": "A1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "What time is check-out?"
+    },
+    "en.accommodation_closest_restaurant": {
+      "level": "A2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "What is the closest restaurant to the hotel?"
+    },
+    "en.accommodation_confirm_reservation": {
+      "level": "B1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I would like to confirm my reservation for tomorrow night."
+    },
+    "en.accommodation_corporate_rate_booking": {
+      "level": "C1",
+      "function": "precio/disponibilidad",
+      "attested": true,
+      "intent": "I'd like to discuss a corporate rate for future bookings on behalf of my company."
+    },
+    "en.accommodation_could_i_have_the_key": {
+      "level": "A1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "Could I have the key, please?"
+    },
+    "en.accommodation_do_not_disturb": {
+      "level": "A2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "The do not disturb sign is on."
+    },
+    "en.accommodation_drinks_included": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Are drinks included?"
+    },
+    "en.accommodation_early_checkin_early_flight": {
+      "level": "B2",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "Could you arrange an early check-in? My flight lands at six in the morning."
+    },
+    "en.accommodation_early_checkin_policy": {
+      "level": "B1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "What is the early check-in policy?"
+    },
+    "en.accommodation_extend_stay_price": {
+      "level": "B1",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "What is the extra charge to extend my stay one night?"
+    },
+    "en.accommodation_extend_stay_same_rate": {
+      "level": "B2",
+      "function": "precio/disponibilidad",
+      "attested": true,
+      "intent": "Can I extend my stay two nights at the same rate?"
+    },
+    "en.accommodation_extra_pillow": {
+      "level": "A2",
+      "function": "peticiones",
+      "attested": true,
+      "intent": "Could you provide an extra pillow, please?"
+    },
+    "en.accommodation_extra_towels": {
+      "level": "A2",
+      "function": "peticiones",
+      "attested": true,
+      "intent": "Could you provide extra towels in the room?"
+    },
+    "en.accommodation_formal_complaint_noise": {
+      "level": "C1",
+      "function": "quejas/incidencias",
+      "attested": true,
+      "intent": "I need to file a formal complaint about the noise disturbance from upstairs last night."
+    },
+    "en.accommodation_group_discount_block": {
+      "level": "B2",
+      "function": "precio/disponibilidad",
+      "attested": true,
+      "intent": "We're twelve guests. Is there a group discount or a block rate?"
+    },
+    "en.accommodation_guest_access": {
+      "level": "A2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "What do I have access to as a hotel guest?"
+    },
+    "en.accommodation_gym_hotel": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is there a gym in the hotel?"
+    },
+    "en.accommodation_help_luggage": {
+      "level": "A2",
+      "function": "peticiones",
+      "attested": true,
+      "intent": "Could you help me with my luggage?"
+    },
+    "en.accommodation_hotel_services": {
+      "level": "A1",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "What services does the hotel have?"
+    },
+    "en.accommodation_how_much_per_night": {
+      "level": "A1",
+      "function": "precio/disponibilidad",
+      "attested": true,
+      "intent": "How much is it per night?"
+    },
+    "en.accommodation_i_have_a_reservation": {
+      "level": "A1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I have a reservation under Smith."
+    },
+    "en.accommodation_id_like_to_check_in": {
+      "level": "A1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I'd like to check in, please."
+    },
+    "en.accommodation_id_like_to_check_out": {
+      "level": "A1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I'd like to check out, please."
+    },
+    "en.accommodation_itemize_bill_expense": {
+      "level": "C1",
+      "function": "negocios/facturacion",
+      "attested": true,
+      "intent": "Could you itemize the bill? I need a detailed receipt for my company's expense report."
+    },
+    "en.accommodation_late_checkout_policy": {
+      "level": "B1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "What is the late check-out policy?"
+    },
+    "en.accommodation_late_checkout_request": {
+      "level": "A2",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "Could I have a late check-out?"
+    },
+    "en.accommodation_longstay_discount_negotiation": {
+      "level": "C2",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I'd like to negotiate a long-stay rate for a month-long reservation beginning next Monday."
+    },
+    "en.accommodation_loyalty_tier_benefits": {
+      "level": "C2",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "Could you confirm whether my loyalty status entitles me to complimentary breakfast and late checkout?"
+    },
+    "en.accommodation_minibar_room": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is there a minibar in the room?"
+    },
+    "en.accommodation_noisy_neighbors_keep_it_down": {
+      "level": "B2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "The guests next door are noisy. Could you ask them to keep it down?"
+    },
+    "en.accommodation_nonsmoking_room": {
+      "level": "A2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "Could you give me a non-smoking room, please?"
+    },
+    "en.accommodation_pet_policy": {
+      "level": "B1",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "What is the hotel's pet policy?"
+    },
+    "en.accommodation_pool_hotel": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is there a pool in the hotel?"
+    },
+    "en.accommodation_power_adapters": {
+      "level": "B1",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "Do you have power adapters for international devices?"
+    },
+    "en.accommodation_recommend_restaurant": {
+      "level": "A2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Could you recommend a good restaurant nearby?"
+    },
+    "en.accommodation_refund_policy": {
+      "level": "B1",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "What is the refund policy in case of cancellation?"
+    },
+    "en.accommodation_restaurant_closing": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "What time does the hotel restaurant close?"
+    },
+    "en.accommodation_retrieve_valuables_safe": {
+      "level": "C1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I submitted a valuables declaration at check-in. I'd like to retrieve them from the safe."
+    },
+    "en.accommodation_room_doesnt_match_manager": {
+      "level": "C1",
+      "function": "quejas/incidencias",
+      "attested": true,
+      "intent": "The room assigned to me doesn't match my booking. I'd like to speak with the manager."
+    },
+    "en.accommodation_room_misrepresented_listing": {
+      "level": "C2",
+      "function": "quejas/incidencias",
+      "attested": true,
+      "intent": "The room was misrepresented in the listing. The photos showed a sea view that didn't exist."
+    },
+    "en.accommodation_room_not_cleaned_discount": {
+      "level": "B2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "My room wasn't cleaned during my stay. I'd like to request a partial refund."
+    },
+    "en.accommodation_room_sea_view": {
+      "level": "B1",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "I'd prefer a sea-view room, even if it costs more."
+    },
+    "en.accommodation_room_service_24h": {
+      "level": "A2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is there 24-hour room service?"
+    },
+    "en.accommodation_room_service_wrong_order": {
+      "level": "B2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "My room service arrived with the wrong items. Please send the correct meal up."
+    },
+    "en.accommodation_safe_room": {
+      "level": "A1",
+      "function": "peticiones",
+      "attested": true,
+      "intent": "Is there a safe in the room?"
+    },
+    "en.accommodation_security_deposit_return": {
+      "level": "C1",
+      "function": "quejas/incidencias",
+      "attested": true,
+      "intent": "When will the security deposit be returned, and what deductions are permissible under the contract?"
+    },
+    "en.accommodation_single_room_availability": {
+      "level": "A2",
+      "function": "precio/disponibilidad",
+      "attested": true,
+      "intent": "Is there availability for a single room?"
+    },
+    "en.accommodation_spa_service": {
+      "level": "A2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is there a spa or massage service in the hotel?"
+    },
+    "en.accommodation_store_luggage": {
+      "level": "A2",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "Is there a place to store luggage after check-out?"
+    },
+    "en.accommodation_transport_options": {
+      "level": "A2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "What transportation options are there to get to the hotel?"
+    },
+    "en.accommodation_unexplained_charge_bill": {
+      "level": "B2",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I noticed a charge on my bill that I wasn't informed about at check-in."
+    },
+    "en.accommodation_upgrade_special_occasion": {
+      "level": "B2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "Are there any room upgrades available for my stay? I'm celebrating a special occasion."
+    },
+    "en.accommodation_vat_invoice_accounting": {
+      "level": "C1",
+      "function": "negocios/facturacion",
+      "attested": true,
+      "intent": "Could you issue the invoice with our business name and VAT number for accounting?"
+    },
+    "en.accommodation_wake_up_call": {
+      "level": "A2",
+      "function": "peticiones",
+      "attested": true,
+      "intent": "Could I have a wake-up call at seven?"
+    },
+    "es.accommodation_ac_not_working": {
+      "level": "A2",
+      "function": "quejas/incidencias",
+      "attested": true,
+      "intent": "The air conditioning isn't working."
+    },
+    "es.accommodation_accessible_level_access": {
+      "level": "C1",
+      "function": "peticiones",
+      "attested": true,
+      "intent": "I require level-access facilities. Could you confirm which rooms are fully adapted?"
+    },
+    "es.accommodation_aircon_maintenance": {
+      "level": "B2",
+      "function": "quejas/incidencias",
+      "attested": true,
+      "intent": "The air conditioning isn't working properly. Could you send someone from maintenance?"
+    },
+    "es.accommodation_airport_shuttle": {
+      "level": "A2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Do you have airport shuttle service?"
+    },
+    "es.accommodation_atm_hotel": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is there an ATM in the hotel?"
+    },
+    "es.accommodation_book_room_two_nights": {
+      "level": "A2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "Could you help me book a hotel room for two nights?"
+    },
+    "es.accommodation_breakfast_included": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is breakfast included?"
+    },
+    "es.accommodation_cancellation_policy": {
+      "level": "B1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "What is the hotel's reservation cancellation policy?"
+    },
+    "es.accommodation_checkin_time": {
+      "level": "A1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "What time is check-in?"
+    },
+    "es.accommodation_checkout_time": {
+      "level": "A1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "What time is check-out?"
+    },
+    "es.accommodation_closest_restaurant": {
+      "level": "A2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "What is the closest restaurant to the hotel?"
+    },
+    "es.accommodation_confirm_reservation": {
+      "level": "B1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I would like to confirm my reservation for tomorrow night."
+    },
+    "es.accommodation_corporate_rate_booking": {
+      "level": "C1",
+      "function": "precio/disponibilidad",
+      "attested": true,
+      "intent": "I'd like to discuss a corporate rate for future bookings on behalf of my company."
+    },
+    "es.accommodation_could_i_have_the_key": {
+      "level": "A1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "Could I have the key, please?"
+    },
+    "es.accommodation_do_not_disturb": {
+      "level": "A2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "The do not disturb sign is on."
+    },
+    "es.accommodation_drinks_included": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Are drinks included?"
+    },
+    "es.accommodation_early_checkin_early_flight": {
+      "level": "B2",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "Could you arrange an early check-in? My flight lands at six in the morning."
+    },
+    "es.accommodation_early_checkin_policy": {
+      "level": "B1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "What is the early check-in policy?"
+    },
+    "es.accommodation_extend_stay_price": {
+      "level": "B1",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "What is the extra charge to extend my stay one night?"
+    },
+    "es.accommodation_extend_stay_same_rate": {
+      "level": "B2",
+      "function": "precio/disponibilidad",
+      "attested": true,
+      "intent": "Can I extend my stay two nights at the same rate?"
+    },
+    "es.accommodation_extra_pillow": {
+      "level": "A2",
+      "function": "peticiones",
+      "attested": true,
+      "intent": "Could you provide an extra pillow, please?"
+    },
+    "es.accommodation_extra_towels": {
+      "level": "A2",
+      "function": "peticiones",
+      "attested": true,
+      "intent": "Could you provide extra towels in the room?"
+    },
+    "es.accommodation_formal_complaint_noise": {
+      "level": "C1",
+      "function": "quejas/incidencias",
+      "attested": true,
+      "intent": "I need to file a formal complaint about the noise disturbance from upstairs last night."
+    },
+    "es.accommodation_group_discount_block": {
+      "level": "B2",
+      "function": "precio/disponibilidad",
+      "attested": true,
+      "intent": "We're twelve guests. Is there a group discount or a block rate?"
+    },
+    "es.accommodation_guest_access": {
+      "level": "A2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "What do I have access to as a hotel guest?"
+    },
+    "es.accommodation_gym_hotel": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is there a gym in the hotel?"
+    },
+    "es.accommodation_help_luggage": {
+      "level": "A2",
+      "function": "peticiones",
+      "attested": true,
+      "intent": "Could you help me with my luggage?"
+    },
+    "es.accommodation_hotel_services": {
+      "level": "A1",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "What services does the hotel have?"
+    },
+    "es.accommodation_how_much_per_night": {
+      "level": "A1",
+      "function": "precio/disponibilidad",
+      "attested": true,
+      "intent": "How much is it per night?"
+    },
+    "es.accommodation_i_have_a_reservation": {
+      "level": "A1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I have a reservation under Smith."
+    },
+    "es.accommodation_id_like_to_check_in": {
+      "level": "A1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I'd like to check in, please."
+    },
+    "es.accommodation_id_like_to_check_out": {
+      "level": "A1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I'd like to check out, please."
+    },
+    "es.accommodation_itemize_bill_expense": {
+      "level": "C1",
+      "function": "negocios/facturacion",
+      "attested": true,
+      "intent": "Could you itemize the bill? I need a detailed receipt for my company's expense report."
+    },
+    "es.accommodation_late_checkout_policy": {
+      "level": "B1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "What is the late check-out policy?"
+    },
+    "es.accommodation_late_checkout_request": {
+      "level": "A2",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "Could I have a late check-out?"
+    },
+    "es.accommodation_longstay_discount_negotiation": {
+      "level": "C2",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I'd like to negotiate a long-stay rate for a month-long reservation beginning next Monday."
+    },
+    "es.accommodation_loyalty_tier_benefits": {
+      "level": "C2",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "Could you confirm whether my loyalty status entitles me to complimentary breakfast and late checkout?"
+    },
+    "es.accommodation_minibar_room": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is there a minibar in the room?"
+    },
+    "es.accommodation_noisy_neighbors_keep_it_down": {
+      "level": "B2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "The guests next door are noisy. Could you ask them to keep it down?"
+    },
+    "es.accommodation_nonsmoking_room": {
+      "level": "A2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "Could you give me a non-smoking room, please?"
+    },
+    "es.accommodation_pet_policy": {
+      "level": "B1",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "What is the hotel's pet policy?"
+    },
+    "es.accommodation_pool_hotel": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is there a pool in the hotel?"
+    },
+    "es.accommodation_power_adapters": {
+      "level": "B1",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "Do you have power adapters for international devices?"
+    },
+    "es.accommodation_recommend_restaurant": {
+      "level": "A2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Could you recommend a good restaurant nearby?"
+    },
+    "es.accommodation_refund_policy": {
+      "level": "B1",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "What is the refund policy in case of cancellation?"
+    },
+    "es.accommodation_restaurant_closing": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "What time does the hotel restaurant close?"
+    },
+    "es.accommodation_retrieve_valuables_safe": {
+      "level": "C1",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I submitted a valuables declaration at check-in. I'd like to retrieve them from the safe."
+    },
+    "es.accommodation_room_doesnt_match_manager": {
+      "level": "C1",
+      "function": "quejas/incidencias",
+      "attested": true,
+      "intent": "The room assigned to me doesn't match my booking. I'd like to speak with the manager."
+    },
+    "es.accommodation_room_misrepresented_listing": {
+      "level": "C2",
+      "function": "quejas/incidencias",
+      "attested": true,
+      "intent": "The room was misrepresented in the listing. The photos showed a sea view that didn't exist."
+    },
+    "es.accommodation_room_not_cleaned_discount": {
+      "level": "B2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "My room wasn't cleaned during my stay. I'd like to request a partial refund."
+    },
+    "es.accommodation_room_sea_view": {
+      "level": "B1",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "I'd prefer a sea-view room, even if it costs more."
+    },
+    "es.accommodation_room_service_24h": {
+      "level": "A2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is there 24-hour room service?"
+    },
+    "es.accommodation_room_service_wrong_order": {
+      "level": "B2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "My room service arrived with the wrong items. Please send the correct meal up."
+    },
+    "es.accommodation_safe_room": {
+      "level": "A1",
+      "function": "peticiones",
+      "attested": true,
+      "intent": "Is there a safe in the room?"
+    },
+    "es.accommodation_security_deposit_return": {
+      "level": "C1",
+      "function": "quejas/incidencias",
+      "attested": true,
+      "intent": "When will the security deposit be returned, and what deductions are permissible under the contract?"
+    },
+    "es.accommodation_single_room_availability": {
+      "level": "A2",
+      "function": "precio/disponibilidad",
+      "attested": true,
+      "intent": "Is there availability for a single room?"
+    },
+    "es.accommodation_spa_service": {
+      "level": "A2",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "Is there a spa or massage service in the hotel?"
+    },
+    "es.accommodation_store_luggage": {
+      "level": "A2",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "Is there a place to store luggage after check-out?"
+    },
+    "es.accommodation_transport_options": {
+      "level": "A2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "What transportation options are there to get to the hotel?"
+    },
+    "es.accommodation_unexplained_charge_bill": {
+      "level": "B2",
+      "function": "registro/salida",
+      "attested": true,
+      "intent": "I noticed a charge on my bill that I wasn't informed about at check-in."
+    },
+    "es.accommodation_upgrade_special_occasion": {
+      "level": "B2",
+      "function": "alojamiento_general",
+      "attested": true,
+      "intent": "Are there any room upgrades available for my stay? I'm celebrating a special occasion."
+    },
+    "es.accommodation_vat_invoice_accounting": {
+      "level": "C1",
+      "function": "negocios/facturacion",
+      "attested": true,
+      "intent": "Could you issue the invoice with our business name and VAT number for accounting?"
+    },
+    "es.accommodation_wake_up_call": {
+      "level": "A2",
+      "function": "peticiones",
+      "attested": true,
+      "intent": "Could I have a wake-up call at seven?"
+    }
+  },
+  "_unmatched": {
+    "accommodation_wifi_password": {
+      "level": "A1",
+      "function": "servicios/instalaciones",
+      "attested": true,
+      "intent": "What is the WiFi password?"
+    }
+  },
+  "_keyFormat": "target.conceptSlug"
+}

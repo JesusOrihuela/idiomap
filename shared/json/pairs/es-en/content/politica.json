@@ -1,33 +1,345 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "politica",
-  "conceptIds": [
-    "en.politica_it_is_a_political_issue",
-    "en.politica_it_is_a_free_state",
-    "en.politica_it_was_a_long_campaign",
-    "en.politica_is_this_legal",
-    "en.politica_i_want_to_apply",
-    "en.politica_i_m_going_to_vote_tomorrow",
-    "en.politica_the_president_gave_a_speech",
-    "en.politica_there_are_elections_this_year",
-    "en.politica_the_government_passed_a_law",
-    "en.politica_the_party_won_the_election",
-    "en.politica_people_are_protesting_in_the_street",
-    "en.politica_the_mayor_visited_the_town",
-    "en.politica_many_young_people_vote_for_the_first_time",
-    "en.politica_politics_interests_me_a_lot",
-    "en.politica_every_vote_counts",
-    "en.politica_the_war_goes_on",
-    "en.politica_we_need_a_leader",
-    "en.politica_the_nation_was_at_peace",
-    "en.politica_silence_in_the_court",
-    "en.politica_society_is_changing",
-    "en.politica_are_you_a_member_of_this_society",
-    "en.politica_the_capital_is_in_the_south",
-    "en.politica_for_the_good_of_the_community",
-    "en.politica_leader_of_the_movement",
-    "en.politica_money_is_power",
-    "en.politica_we_were_under_attack"
+  "phrases": [
+    {
+      "conceptId": "en.politica_it_is_a_political_issue",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2d2d9e0e693ffe75"
+    },
+    {
+      "conceptId": "en.politica_it_is_a_free_state",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ab999d7b08e369e3"
+    },
+    {
+      "conceptId": "en.politica_it_was_a_long_campaign",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1dffee7a85ce2faf"
+    },
+    {
+      "conceptId": "en.politica_is_this_legal",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8b57e4be1014cd6f"
+    },
+    {
+      "conceptId": "en.politica_i_want_to_apply",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a2852ae2f8cec09e"
+    },
+    {
+      "conceptId": "en.politica_i_m_going_to_vote_tomorrow",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8f0ab918f3b1bbaf"
+    },
+    {
+      "conceptId": "en.politica_the_president_gave_a_speech",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4dc91beb8cdbe99d"
+    },
+    {
+      "conceptId": "en.politica_there_are_elections_this_year",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.021523c2021c8400"
+    },
+    {
+      "conceptId": "en.politica_the_government_passed_a_law",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.aaf7625299e4fbf7"
+    },
+    {
+      "conceptId": "en.politica_the_party_won_the_election",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.59c4083d627e0391"
+    },
+    {
+      "conceptId": "en.politica_people_are_protesting_in_the_street",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2f8baf7ece439197"
+    },
+    {
+      "conceptId": "en.politica_the_mayor_visited_the_town",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dfd7acd46b24b1d7"
+    },
+    {
+      "conceptId": "en.politica_many_young_people_vote_for_the_first_time",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a6f755b0c0b776d1"
+    },
+    {
+      "conceptId": "en.politica_politics_interests_me_a_lot",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.515fd1a84e0b5ee9"
+    },
+    {
+      "conceptId": "en.politica_every_vote_counts",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ef494d1dfb679c38"
+    },
+    {
+      "conceptId": "en.politica_the_war_goes_on",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a11a2b3c636403fa"
+    },
+    {
+      "conceptId": "en.politica_we_need_a_leader",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9880a3fda936fe7c"
+    },
+    {
+      "conceptId": "en.politica_the_nation_was_at_peace",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2d3477a166c78dcb"
+    },
+    {
+      "conceptId": "en.politica_silence_in_the_court",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ff175e355eb20e1d"
+    },
+    {
+      "conceptId": "en.politica_society_is_changing",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d749f49f3a85ff21"
+    },
+    {
+      "conceptId": "en.politica_are_you_a_member_of_this_society",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2234155363a88e0b"
+    },
+    {
+      "conceptId": "en.politica_the_capital_is_in_the_south",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fd606f7c0c8c4a00"
+    },
+    {
+      "conceptId": "en.politica_for_the_good_of_the_community",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8c4a39371677e035"
+    },
+    {
+      "conceptId": "en.politica_leader_of_the_movement",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6bc0f0ab20df4862"
+    },
+    {
+      "conceptId": "en.politica_money_is_power",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1ea702e360b174e4"
+    },
+    {
+      "conceptId": "en.politica_we_were_under_attack",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.379d99f2d5e77ae8"
+    }
   ]
 }

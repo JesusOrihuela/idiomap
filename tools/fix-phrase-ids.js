@@ -65,9 +65,9 @@ for (const pair of PAIRS) {
       const target = pair.split('-')[1];
       const pack = JSON.parse(fs.readFileSync(path.join(root, 'shared', 'json', 'targets', target, 'concepts.json'), 'utf8'));
       const byId = new Map(pack.concepts.map((c) => [c.conceptId, c]));
-      phrases[pair][topic] = order.conceptIds.map((cid) => {
-        const c = byId.get(cid);
-        if (!c) throw new Error(`${pair}/${topic}: concept ${cid} missing from targets/${target}`);
+      phrases[pair][topic] = order.phrases.map((row) => {
+        const c = byId.get(row.conceptId);
+        if (!c) throw new Error(`${pair}/${topic}: concept ${row.conceptId} missing from targets/${target}`);
         return c.id;
       });
       continue;

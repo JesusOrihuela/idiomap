@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "6b",
+  "concepts": {
+    "es.conversacion_te_creo": {
+      "conceptId": "es.conversacion_te_creo",
+      "id": "conversacion_te_creo",
+      "target": [
+        {
+          "text": "Te creo.",
+          "audioSlug": "te_creo"
+        }
+      ]
+    },
+    "es.deportes_odio_perder": {
+      "conceptId": "es.deportes_odio_perder",
+      "id": "deportes_odio_perder",
+      "target": [
+        {
+          "text": "Odio perder.",
+          "audioSlug": "odio_perder"
+        }
+      ]
+    },
+    "es.family_this_is_my_family": {
+      "conceptId": "es.family_this_is_my_family",
+      "id": "family_this_is_my_family",
+      "target": [
+        {
+          "text": "Esta es mi familia.",
+          "audioSlug": "esta_es_mi_familia"
+        }
+      ]
+    },
+    "es.health_es_una_enfermedad_poco_comun": {
+      "conceptId": "es.health_es_una_enfermedad_poco_comun",
+      "id": "health_es_una_enfermedad_poco_comun",
+      "target": [
+        {
+          "text": "Es una enfermedad poco común.",
+          "audioSlug": "es_una_enfermedad_poco_comun"
+        }
+      ]
+    },
+    "es.health_necesito_una_cita_con_el_especialista": {
+      "conceptId": "es.health_necesito_una_cita_con_el_especialista",
+      "id": "health_necesito_una_cita_con_el_especialista",
+      "target": [
+        {
+          "text": "Necesito una cita con el especialista.",
+          "audioSlug": "necesito_una_cita_con_el_especialista"
+        }
+      ]
+    },
+    "es.restaurant_could_i_have_the_bill_please": {
+      "conceptId": "es.restaurant_could_i_have_the_bill_please",
+      "id": "restaurant_could_i_have_the_bill_please",
+      "target": [
+        {
+          "text": "¿Podría darme la cuenta, por favor?",
+          "audioSlug": "podria_darme_la_cuenta_por_favor"
+        }
+      ]
+    },
+    "es.restaurant_esta_incluida_la_propina": {
+      "conceptId": "es.restaurant_esta_incluida_la_propina",
+      "id": "restaurant_esta_incluida_la_propina",
+      "target": [
+        {
+          "text": "¿Está incluida la propina?",
+          "audioSlug": "esta_incluida_la_propina"
+        }
+      ]
+    },
+    "es.supermarket_compre_media_libra_de_queso": {
+      "conceptId": "es.supermarket_compre_media_libra_de_queso",
+      "id": "supermarket_compre_media_libra_de_queso",
+      "target": [
+        {
+          "text": "Compré media libra de queso.",
+          "audioSlug": "compre_media_libra_de_queso"
+        }
+      ]
+    },
+    "es.supermarket_un_paquete_de_galletas_de_chocolate": {
+      "conceptId": "es.supermarket_un_paquete_de_galletas_de_chocolate",
+      "id": "supermarket_un_paquete_de_galletas_de_chocolate",
+      "target": [
+        {
+          "text": "Un paquete de galletas de chocolate.",
+          "audioSlug": "un_paquete_de_galletas_de_chocolate"
+        }
+      ]
+    },
+    "es.survival_i_dont_know.de-es": {
+      "conceptId": "es.survival_i_dont_know.de-es",
+      "id": "survival_i_dont_know_de",
+      "target": [
+        {
+          "text": "No sé.",
+          "audioSlug": "no_se"
+        }
+      ]
+    },
+    "es.transportation_nearest_bus_stop": {
+      "conceptId": "es.transportation_nearest_bus_stop",
+      "id": "transportation_nearest_bus_stop",
+      "target": [
+        {
+          "text": "¿Dónde está la parada de autobús más cercana?",
+          "audioSlug": "donde_esta_la_parada_de_autobus_mas_cercana"
+        }
+      ]
+    }
+  }
+}

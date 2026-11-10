@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "02",
+  "concepts": {
+    "en.airport_secondary_screening_rights": {
+      "conceptId": "en.airport_secondary_screening_rights",
+      "id": "airport_secondary_screening_rights",
+      "target": [
+        {
+          "text": "I've been flagged for secondary screening. Could you explain the basis for this and my rights?",
+          "audioSlug": "i_ve_been_flagged_for_secondary_screening_could_you_explain_the_basis_for_this_and_my_rights"
+        }
+      ]
+    },
+    "en.estudios_the_library_closes_late": {
+      "conceptId": "en.estudios_the_library_closes_late",
+      "id": "estudios_the_library_closes_late",
+      "target": [
+        {
+          "text": "The library closes late.",
+          "audioSlug": "the_library_closes_late"
+        }
+      ]
+    },
+    "en.music_concert_tickets": {
+      "conceptId": "en.music_concert_tickets",
+      "id": "music_concert_tickets",
+      "target": [
+        {
+          "text": "I have tickets for the concert.",
+          "audioSlug": "i_have_tickets_for_the_concert"
+        }
+      ]
+    },
+    "en.theater_play_was_great": {
+      "conceptId": "en.theater_play_was_great",
+      "id": "theater_play_was_great",
+      "target": [
+        {
+          "text": "The play was great.",
+          "audioSlug": "the_play_was_great"
+        }
+      ]
+    },
+    "en.vestimenta_i_have_a_ring": {
+      "conceptId": "en.vestimenta_i_have_a_ring",
+      "id": "vestimenta_i_have_a_ring",
+      "target": [
+        {
+          "text": "I have a ring.",
+          "audioSlug": "i_have_a_ring"
+        }
+      ]
+    }
+  }
+}

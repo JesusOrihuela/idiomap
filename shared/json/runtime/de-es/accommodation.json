@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "accommodation",
+  "phrases": [
+    {
+      "id": "accommodation_tengo_una_reserva",
+      "conceptId": "es.accommodation_tengo_una_reserva",
+      "sourceId": "de.s.e98b0ce88a9fdedf",
+      "source": "Ich habe eine Reservierung auf den Namen Ana.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo una reserva a nombre de Ana.",
+          "audioSlug": "tengo_una_reserva_a_nombre_de_ana"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_tienen_habitaciones_libres",
+      "conceptId": "es.accommodation_tienen_habitaciones_libres",
+      "sourceId": "de.s.e5bbf06ee9e5860a",
+      "source": "Haben Sie freie Zimmer?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Tienen habitaciones libres?",
+          "audioSlug": "tienen_habitaciones_libres"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_quisiera_una_habitacion_doble",
+      "conceptId": "es.accommodation_quisiera_una_habitacion_doble",
+      "sourceId": "de.s.d971e049df3d8491",
+      "source": "Ich hätte gern ein Doppelzimmer.",
+      "level": "A2",
+      "grammar": "quisiera es una forma cortés para pedir, más suave que quiero.",
+      "target": [
+        {
+          "text": "Quisiera una habitación doble.",
+          "audioSlug": "quisiera_una_habitacion_doble"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_a_que_hora_dejar_la_habitacion",
+      "conceptId": "es.accommodation_a_que_hora_dejar_la_habitacion",
+      "sourceId": "de.s.5bcfb35df60bdca7",
+      "source": "Wann muss ich das Zimmer verlassen?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿A qué hora tengo que dejar la habitación?",
+          "audioSlug": "a_que_hora_tengo_que_dejar_la_habitacion"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_el_desayuno_esta_incluido",
+      "conceptId": "es.accommodation_el_desayuno_esta_incluido",
+      "sourceId": "de.s.bbdf6856bf998f86",
+      "source": "Das Frühstück ist inbegriffen.",
+      "level": "A2",
+      "grammar": "estar más participio expresa un resultado, está incluido.",
+      "target": [
+        {
+          "text": "El desayuno está incluido.",
+          "audioSlug": "el_desayuno_esta_incluido"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_donde_esta_el_ascensor",
+      "conceptId": "es.accommodation_donde_esta_el_ascensor",
+      "sourceId": "de.s.e2be4f0af9ba6b79",
+      "source": "Wo ist der Aufzug?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está el ascensor?",
+          "audioSlug": "donde_esta_el_ascensor"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_el_aire_acondicionado_no_funciona",
+      "conceptId": "es.accommodation_el_aire_acondicionado_no_funciona",
+      "sourceId": "de.s.8ae2ca5d2db7f3d1",
+      "source": "Die Klimaanlage funktioniert nicht.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El aire acondicionado no funciona.",
+          "audioSlug": "el_aire_acondicionado_no_funciona"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_hay_wifi_en_la_habitacion",
+      "conceptId": "es.accommodation_hay_wifi_en_la_habitacion",
+      "sourceId": "de.s.5f7528504cf0cf92",
+      "source": "Gibt es WLAN im Zimmer?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Hay wifi en la habitación?",
+          "audioSlug": "hay_wifi_en_la_habitacion"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_quisiera_quedarme_una_noche_mas",
+      "conceptId": "es.accommodation_quisiera_quedarme_una_noche_mas",
+      "sourceId": "de.s.94e490e91be3965d",
+      "source": "Ich möchte eine Nacht länger bleiben.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quisiera quedarme una noche más.",
+          "audioSlug": "quisiera_quedarme_una_noche_mas"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_la_habitacion_esta_sucia",
+      "conceptId": "es.accommodation_la_habitacion_esta_sucia",
+      "sourceId": "de.s.a05b19bd4e02de6a",
+      "source": "Das Zimmer ist schmutzig, können Sie es putzen?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La habitación está sucia, ¿pueden limpiarla?",
+          "audioSlug": "la_habitacion_esta_sucia_pueden_limpiarla"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_la_recepcion_esta_en_la_planta_baja",
+      "conceptId": "es.accommodation_la_recepcion_esta_en_la_planta_baja",
+      "sourceId": "de.s.2b9ce87354ea7038",
+      "source": "Die Rezeption ist im Erdgeschoss.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La recepción está en la planta baja.",
+          "audioSlug": "la_recepcion_esta_en_la_planta_baja"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_necesito_otra_toalla",
+      "conceptId": "es.accommodation_necesito_otra_toalla",
+      "sourceId": "de.s.f8e1126134e41582",
+      "source": "Ich brauche noch ein Handtuch, bitte.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito otra toalla, por favor.",
+          "audioSlug": "necesito_otra_toalla_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_la_cama_es_muy_comoda",
+      "conceptId": "es.accommodation_la_cama_es_muy_comoda",
+      "sourceId": "de.s.8c138a826f8f8c7b",
+      "source": "Das Bett ist sehr bequem.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La cama es muy cómoda.",
+          "audioSlug": "la_cama_es_muy_comoda"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_me_da_la_llave_de_la_habitacion",
+      "conceptId": "es.accommodation_me_da_la_llave_de_la_habitacion",
+      "sourceId": "de.s.ed49d4db7982b0c1",
+      "source": "Geben Sie mir den Zimmerschlüssel?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me da la llave de la habitación?",
+          "audioSlug": "me_da_la_llave_de_la_habitacion"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_el_hotel_ofrece_servicio_de_limpieza",
+      "conceptId": "es.accommodation_el_hotel_ofrece_servicio_de_limpieza",
+      "sourceId": "de.s.214cef65cb996cac",
+      "source": "Das Hotel bietet Reinigungsservice.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El hotel ofrece servicio de limpieza.",
+          "audioSlug": "el_hotel_ofrece_servicio_de_limpieza"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_los_huespedes_pueden_usar_la_piscina",
+      "conceptId": "es.accommodation_los_huespedes_pueden_usar_la_piscina",
+      "sourceId": "de.s.af0b9e216beac616",
+      "source": "Die Gäste dürfen den Pool benutzen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los huéspedes pueden usar la piscina.",
+          "audioSlug": "los_huespedes_pueden_usar_la_piscina"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_el_precio_incluye_el_desayuno",
+      "conceptId": "es.accommodation_el_precio_incluye_el_desayuno",
+      "sourceId": "de.s.730fce4457754b3d",
+      "source": "Der Preis schließt das Frühstück ein.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El precio incluye el desayuno.",
+          "audioSlug": "el_precio_incluye_el_desayuno"
+        }
+      ]
+    },
+    {
+      "id": "accommodation_a_que_hora_abre_el_restaurante",
+      "conceptId": "es.accommodation_a_que_hora_abre_el_restaurante",
+      "sourceId": "de.s.502a4d10db56cb84",
+      "source": "Um wie viel Uhr öffnet das Hotelrestaurant?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿A qué hora abre el restaurante del hotel?",
+          "audioSlug": "a_que_hora_abre_el_restaurante_del_hotel"
+        }
+      ]
+    }
+  ]
+}

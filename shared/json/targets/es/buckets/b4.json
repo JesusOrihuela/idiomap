@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "b4",
+  "concepts": {
+    "es.accountability_total_amount": {
+      "conceptId": "es.accountability_total_amount",
+      "id": "accountability_total_amount",
+      "target": [
+        {
+          "text": "¿Cuál es el monto total?",
+          "audioSlug": "cual_es_el_monto_total"
+        }
+      ]
+    },
+    "es.calendario_el_despertador_va_a_sonar_muy_temprano": {
+      "conceptId": "es.calendario_el_despertador_va_a_sonar_muy_temprano",
+      "id": "calendario_el_despertador_va_a_sonar_muy_temprano",
+      "target": [
+        {
+          "text": "El despertador va a sonar muy temprano.",
+          "audioSlug": "el_despertador_va_a_sonar_muy_temprano"
+        }
+      ]
+    },
+    "es.deportes_escucho_musica_mientras_entreno": {
+      "conceptId": "es.deportes_escucho_musica_mientras_entreno",
+      "id": "deportes_escucho_musica_mientras_entreno",
+      "target": [
+        {
+          "text": "Escucho música mientras entreno.",
+          "audioSlug": "escucho_musica_mientras_entreno"
+        }
+      ]
+    },
+    "es.describiendo_personas_soy_vieja": {
+      "conceptId": "es.describiendo_personas_soy_vieja",
+      "id": "describiendo_personas_soy_vieja",
+      "target": [
+        {
+          "text": "Soy vieja.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "soy_vieja"
+        },
+        {
+          "text": "Soy viejo.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "soy_viejo"
+        }
+      ]
+    },
+    "es.emergencias_llama_a_la_policia": {
+      "conceptId": "es.emergencias_llama_a_la_policia",
+      "id": "emergencias_llama_a_la_policia",
+      "target": [
+        {
+          "text": "¡Llama a la policía!",
+          "audioSlug": "llama_a_la_policia"
+        }
+      ]
+    },
+    "es.estudios_mi_hermano_mayor_va_a_la_universidad": {
+      "conceptId": "es.estudios_mi_hermano_mayor_va_a_la_universidad",
+      "id": "estudios_mi_hermano_mayor_va_a_la_universidad",
+      "target": [
+        {
+          "text": "Mi hermano mayor va a la universidad.",
+          "audioSlug": "mi_hermano_mayor_va_a_la_universidad"
+        }
+      ]
+    },
+    "es.greetings_bienvenidos_a_nuestra_casa": {
+      "conceptId": "es.greetings_bienvenidos_a_nuestra_casa",
+      "id": "greetings_bienvenidos_a_nuestra_casa",
+      "target": [
+        {
+          "text": "Bienvenidos a nuestra casa.",
+          "audioSlug": "bienvenidos_a_nuestra_casa"
+        }
+      ]
+    },
+    "es.planes_habre_terminado_manana": {
+      "conceptId": "es.planes_habre_terminado_manana",
+      "id": "planes_habre_terminado_manana",
+      "target": [
+        {
+          "text": "Para mañana habré terminado el informe.",
+          "audioSlug": "para_manana_habre_terminado_el_informe"
+        }
+      ]
+    },
+    "es.technology_have_you_seen_my_message_in": {
+      "conceptId": "es.technology_have_you_seen_my_message_in",
+      "id": "technology_have_you_seen_my_message_in",
+      "target": [
+        {
+          "text": "¿Ya viste mi mensaje en el grupo?",
+          "audioSlug": "ya_viste_mi_mensaje_en_el_grupo"
+        }
+      ]
+    },
+    "es.tiempo_libre_colecciono_monedas_antiguas": {
+      "conceptId": "es.tiempo_libre_colecciono_monedas_antiguas",
+      "id": "tiempo_libre_colecciono_monedas_antiguas",
+      "target": [
+        {
+          "text": "Colecciono monedas antiguas.",
+          "audioSlug": "colecciono_monedas_antiguas"
+        }
+      ]
+    },
+    "es.tiempo_libre_gano_el_concurso_de_talentos": {
+      "conceptId": "es.tiempo_libre_gano_el_concurso_de_talentos",
+      "id": "tiempo_libre_gano_el_concurso_de_talentos",
+      "target": [
+        {
+          "text": "Ganó el concurso de talentos.",
+          "audioSlug": "gano_el_concurso_de_talentos"
+        }
+      ]
+    },
+    "es.tiempo_libre_la_montana_rusa_es_la_mejor_atraccion": {
+      "conceptId": "es.tiempo_libre_la_montana_rusa_es_la_mejor_atraccion",
+      "id": "tiempo_libre_la_montana_rusa_es_la_mejor_atraccion",
+      "target": [
+        {
+          "text": "La montaña rusa es la mejor atracción.",
+          "audioSlug": "la_montana_rusa_es_la_mejor_atraccion"
+        }
+      ]
+    },
+    "es.weather_siento_mucho_frio": {
+      "conceptId": "es.weather_siento_mucho_frio",
+      "id": "weather_siento_mucho_frio",
+      "target": [
+        {
+          "text": "Siento mucho frío.",
+          "audioSlug": "siento_mucho_frio"
+        }
+      ]
+    }
+  }
+}

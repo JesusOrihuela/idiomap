@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "fb",
+  "concepts": {
+    "es.conversacion_debemos_comenzar_de_nuevo": {
+      "conceptId": "es.conversacion_debemos_comenzar_de_nuevo",
+      "id": "conversacion_debemos_comenzar_de_nuevo",
+      "target": [
+        {
+          "text": "Debemos comenzar de nuevo.",
+          "audioSlug": "debemos_comenzar_de_nuevo"
+        }
+      ]
+    },
+    "es.describiendo_personas_son_buena_gente": {
+      "conceptId": "es.describiendo_personas_son_buena_gente",
+      "id": "describiendo_personas_son_buena_gente",
+      "target": [
+        {
+          "text": "Son buena gente.",
+          "audioSlug": "son_buena_gente"
+        }
+      ]
+    },
+    "es.descripciones_es_probable_que_llueva_manana": {
+      "conceptId": "es.descripciones_es_probable_que_llueva_manana",
+      "id": "descripciones_es_probable_que_llueva_manana",
+      "target": [
+        {
+          "text": "Es probable que llueva mañana.",
+          "audioSlug": "es_probable_que_llueva_manana"
+        }
+      ]
+    },
+    "es.directions_el_hotel_queda_hacia_el_norte": {
+      "conceptId": "es.directions_el_hotel_queda_hacia_el_norte",
+      "id": "directions_el_hotel_queda_hacia_el_norte",
+      "target": [
+        {
+          "text": "El hotel queda hacia el norte.",
+          "audioSlug": "el_hotel_queda_hacia_el_norte"
+        }
+      ]
+    },
+    "es.directions_where_is_the_station": {
+      "conceptId": "es.directions_where_is_the_station",
+      "id": "directions_where_is_the_station",
+      "target": [
+        {
+          "text": "Perdón, ¿dónde está la estación?",
+          "audioSlug": "perdon_donde_esta_la_estacion"
+        }
+      ]
+    },
+    "es.directions_which_way": {
+      "conceptId": "es.directions_which_way",
+      "id": "directions_which_way",
+      "target": [
+        {
+          "text": "¿Por dónde se va al centro?",
+          "audioSlug": "por_donde_se_va_al_centro"
+        }
+      ]
+    },
+    "es.estudios_la_biblioteca_esta_abierta": {
+      "conceptId": "es.estudios_la_biblioteca_esta_abierta",
+      "id": "estudios_la_biblioteca_esta_abierta",
+      "target": [
+        {
+          "text": "La biblioteca está abierta hasta las diez.",
+          "audioSlug": "la_biblioteca_esta_abierta_hasta_las_diez"
+        }
+      ]
+    },
+    "es.greetings_ive_had_better_days": {
+      "conceptId": "es.greetings_ive_had_better_days",
+      "id": "greetings_ive_had_better_days",
+      "target": [
+        {
+          "text": "He tenido días mejores.",
+          "audioSlug": "he_tenido_dias_mejores"
+        }
+      ]
+    },
+    "es.health_el_ejercicio_fortalece_el_cuerpo": {
+      "conceptId": "es.health_el_ejercicio_fortalece_el_cuerpo",
+      "id": "health_el_ejercicio_fortalece_el_cuerpo",
+      "target": [
+        {
+          "text": "El ejercicio fortalece el cuerpo.",
+          "audioSlug": "el_ejercicio_fortalece_el_cuerpo"
+        }
+      ]
+    },
+    "es.kitchen_put_the_leftovers_in_plastic_containers": {
+      "conceptId": "es.kitchen_put_the_leftovers_in_plastic_containers",
+      "id": "kitchen_put_the_leftovers_in_plastic_containers",
+      "target": [
+        {
+          "text": "Pon las sobras en recipientes de plástico.",
+          "audioSlug": "pon_las_sobras_en_recipientes_de_plastico"
+        }
+      ]
+    },
+    "es.profesiones_mi_hermano_es_fotografo": {
+      "conceptId": "es.profesiones_mi_hermano_es_fotografo",
+      "id": "profesiones_mi_hermano_es_fotografo",
+      "target": [
+        {
+          "text": "Mi hermano es fotógrafo.",
+          "audioSlug": "mi_hermano_es_fotografo"
+        }
+      ]
+    },
+    "es.sitios_compre_una_alfombra_marroqui": {
+      "conceptId": "es.sitios_compre_una_alfombra_marroqui",
+      "id": "sitios_compre_una_alfombra_marroqui",
+      "target": [
+        {
+          "text": "Compré una alfombra marroquí.",
+          "audioSlug": "compre_una_alfombra_marroqui"
+        }
+      ]
+    },
+    "es.supermarket_im_looking_for_a_cake_for": {
+      "conceptId": "es.supermarket_im_looking_for_a_cake_for",
+      "id": "supermarket_im_looking_for_a_cake_for",
+      "target": [
+        {
+          "text": "Busco un pastel para una fiesta de cumpleaños.",
+          "labels": {
+            "region": "México y Centroamérica"
+          },
+          "audioSlug": "busco_un_pastel_para_una_fiesta_de_cumpleanos"
+        },
+        {
+          "text": "Busco una tarta para una fiesta de cumpleaños.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "busco_una_tarta_para_una_fiesta_de_cumpleanos"
+        },
+        {
+          "text": "Busco una torta para una fiesta de cumpleaños.",
+          "labels": {
+            "region": "Sudamérica"
+          },
+          "audioSlug": "busco_una_torta_para_una_fiesta_de_cumpleanos"
+        }
+      ]
+    },
+    "es.weather_el_clima_esta_muy_humedo": {
+      "conceptId": "es.weather_el_clima_esta_muy_humedo",
+      "id": "weather_el_clima_esta_muy_humedo",
+      "target": [
+        {
+          "text": "El clima está muy húmedo hoy.",
+          "audioSlug": "el_clima_esta_muy_humedo_hoy"
+        }
+      ]
+    }
+  }
+}

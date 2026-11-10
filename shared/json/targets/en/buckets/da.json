@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "da",
+  "concepts": {
+    "en.airport_baggage_claim_flight": {
+      "conceptId": "en.airport_baggage_claim_flight",
+      "id": "airport_baggage_claim_flight",
+      "target": [
+        {
+          "text": "Where is the baggage claim area for this flight?",
+          "audioSlug": "where_is_the_baggage_claim_area_for_this_flight"
+        }
+      ]
+    }
+  }
+}

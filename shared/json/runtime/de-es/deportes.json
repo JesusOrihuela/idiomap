@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "deportes",
+  "phrases": [
+    {
+      "id": "deportes_me_gusta_el_futbol",
+      "conceptId": "es.deportes_me_gusta_el_futbol",
+      "sourceId": "de.s.91a3c9bf411bcb65",
+      "source": "Ich mag Fußball.",
+      "level": "A1",
+      "grammar": "me gusta más sustantivo, me gusta el fútbol.",
+      "target": [
+        {
+          "text": "Me gusta el fútbol.",
+          "audioSlug": "me_gusta_el_futbol"
+        }
+      ]
+    },
+    {
+      "id": "deportes_juego_tenis_los_martes",
+      "conceptId": "es.deportes_juego_tenis_los_martes",
+      "sourceId": "de.s.2340750b1c514ba3",
+      "source": "Dienstags spiele ich Tennis.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Juego tenis los martes.",
+          "audioSlug": "juego_tenis_los_martes"
+        }
+      ]
+    },
+    {
+      "id": "deportes_nuestro_equipo_gano_el_partido",
+      "conceptId": "es.deportes_nuestro_equipo_gano_el_partido",
+      "sourceId": "de.s.8907315a14c3616c",
+      "source": "Unsere Mannschaft hat das Spiel gewonnen.",
+      "level": "A2",
+      "grammar": "ganó es pretérito indefinido, una acción terminada.",
+      "target": [
+        {
+          "text": "Nuestro equipo ganó el partido.",
+          "audioSlug": "nuestro_equipo_gano_el_partido"
+        }
+      ]
+    },
+    {
+      "id": "deportes_quiero_ganar_el_torneo",
+      "conceptId": "es.deportes_quiero_ganar_el_torneo",
+      "sourceId": "de.s.498b3463bda38cc1",
+      "source": "Ich will dieses Jahr das Turnier gewinnen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero ganar el torneo este año.",
+          "audioSlug": "quiero_ganar_el_torneo_este_ano"
+        }
+      ]
+    },
+    {
+      "id": "deportes_el_partido_empieza_a_las_ocho",
+      "conceptId": "es.deportes_el_partido_empieza_a_las_ocho",
+      "sourceId": "de.s.ec96d3bd492d0451",
+      "source": "Das Spiel beginnt um acht.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El partido empieza a las ocho.",
+          "audioSlug": "el_partido_empieza_a_las_ocho"
+        }
+      ]
+    },
+    {
+      "id": "deportes_entreno_todos_los_dias",
+      "conceptId": "es.deportes_entreno_todos_los_dias",
+      "sourceId": "de.s.fe9fb07b2216ef91",
+      "source": "Ich trainiere jeden Tag.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Entreno todos los días.",
+          "audioSlug": "entreno_todos_los_dias"
+        }
+      ]
+    },
+    {
+      "id": "deportes_quien_gano_el_partido_de_ayer",
+      "conceptId": "es.deportes_quien_gano_el_partido_de_ayer",
+      "sourceId": "de.s.4afc5d339f0482a3",
+      "source": "Wer hat das gestrige Spiel gewonnen?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Quién ganó el partido de ayer?",
+          "audioSlug": "quien_gano_el_partido_de_ayer"
+        }
+      ]
+    },
+    {
+      "id": "deportes_perdimos_por_dos_goles",
+      "conceptId": "es.deportes_perdimos_por_dos_goles",
+      "sourceId": "de.s.30cf129e03f5a7ea",
+      "source": "Wir haben mit zwei Toren verloren.",
+      "level": "B1",
+      "grammar": "perdimos es pretérito indefinido, una acción terminada.",
+      "target": [
+        {
+          "text": "Perdimos por dos goles.",
+          "audioSlug": "perdimos_por_dos_goles"
+        }
+      ]
+    },
+    {
+      "id": "deportes_me_gusta_nadar",
+      "conceptId": "es.deportes_me_gusta_nadar",
+      "sourceId": "de.s.26278c676f0f4351",
+      "source": "Ich schwimme gern.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gusta nadar.",
+          "audioSlug": "me_gusta_nadar"
+        }
+      ]
+    },
+    {
+      "id": "deportes_el_equipo_juega_muy_bien",
+      "conceptId": "es.deportes_el_equipo_juega_muy_bien",
+      "sourceId": "de.s.14fc58cdfe0045e7",
+      "source": "Die Mannschaft spielt sehr gut.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El equipo juega muy bien.",
+          "audioSlug": "el_equipo_juega_muy_bien"
+        }
+      ]
+    },
+    {
+      "id": "deportes_el_deporte_es_bueno_para_la_salud",
+      "conceptId": "es.deportes_el_deporte_es_bueno_para_la_salud",
+      "sourceId": "de.s.41e9fc4df0b9a5f5",
+      "source": "Sport ist gut für die Gesundheit.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El deporte es bueno para la salud.",
+          "audioSlug": "el_deporte_es_bueno_para_la_salud"
+        }
+      ]
+    },
+    {
+      "id": "deportes_este_deporte_es_muy_competitivo",
+      "conceptId": "es.deportes_este_deporte_es_muy_competitivo",
+      "sourceId": "de.s.30b89635de70684c",
+      "source": "Dieser Sport ist sehr wettbewerbsintensiv.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este deporte es muy competitivo.",
+          "audioSlug": "este_deporte_es_muy_competitivo"
+        }
+      ]
+    },
+    {
+      "id": "deportes_hago_actividad_fisica_cada_dia",
+      "conceptId": "es.deportes_hago_actividad_fisica_cada_dia",
+      "sourceId": "de.s.ab30cb1d6780dbbf",
+      "source": "Ich mache jeden Tag körperliche Aktivität.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hago actividad física cada día.",
+          "audioSlug": "hago_actividad_fisica_cada_dia"
+        }
+      ]
+    },
+    {
+      "id": "deportes_corro_demasiado_rapido_a_veces",
+      "conceptId": "es.deportes_corro_demasiado_rapido_a_veces",
+      "sourceId": "de.s.cc4e9481a3769fb6",
+      "source": "Manchmal laufe ich zu schnell.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Corro demasiado rápido a veces.",
+          "audioSlug": "corro_demasiado_rapido_a_veces"
+        }
+      ]
+    },
+    {
+      "id": "deportes_escucho_musica_mientras_entreno",
+      "conceptId": "es.deportes_escucho_musica_mientras_entreno",
+      "sourceId": "de.s.507048a013b2f018",
+      "source": "Ich höre Musik, während ich trainiere.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Escucho música mientras entreno.",
+          "audioSlug": "escucho_musica_mientras_entreno"
+        }
+      ]
+    },
+    {
+      "id": "deportes_ningun_equipo_gano_el_torneo",
+      "conceptId": "es.deportes_ningun_equipo_gano_el_torneo",
+      "sourceId": "de.s.0d16c5c40eccbb43",
+      "source": "Keine Mannschaft hat das Turnier gewonnen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ningún equipo ganó el torneo.",
+          "audioSlug": "ningun_equipo_gano_el_torneo"
+        }
+      ]
+    },
+    {
+      "id": "deportes_este_juego_requiere_practica",
+      "conceptId": "es.deportes_este_juego_requiere_practica",
+      "sourceId": "de.s.b77aa2ce41fd3552",
+      "source": "Dieses Spiel erfordert viel Übung.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este juego requiere mucha práctica.",
+          "audioSlug": "este_juego_requiere_mucha_practica"
+        }
+      ]
+    },
+    {
+      "id": "deportes_el_entrenador_cambio_la_estrategia",
+      "conceptId": "es.deportes_el_entrenador_cambio_la_estrategia",
+      "sourceId": "de.s.a3bdbf26b4487ae6",
+      "source": "Der Trainer hat die Strategie geändert.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El entrenador cambió la estrategia.",
+          "audioSlug": "el_entrenador_cambio_la_estrategia"
+        }
+      ]
+    },
+    {
+      "id": "deportes_salgo_a_montar_en_bicicleta_los_domingos",
+      "conceptId": "es.deportes_salgo_a_montar_en_bicicleta_los_domingos",
+      "sourceId": "de.s.61143c8c5d358ab2",
+      "source": "Sonntags fahre ich mit dem Fahrrad.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Salgo a montar en bicicleta los domingos.",
+          "audioSlug": "salgo_a_montar_en_bicicleta_los_domingos"
+        }
+      ]
+    },
+    {
+      "id": "deportes_todo_ese_esfuerzo_va_a_valer_la_pena",
+      "conceptId": "es.deportes_todo_ese_esfuerzo_va_a_valer_la_pena",
+      "sourceId": "de.s.80d37acc5ab865c1",
+      "source": "Diese ganze Anstrengung wird sich lohnen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Todo ese esfuerzo va a valer la pena.",
+          "audioSlug": "todo_ese_esfuerzo_va_a_valer_la_pena"
+        }
+      ]
+    },
+    {
+      "id": "deportes_sigo_el_partido_con_mucho_interes",
+      "conceptId": "es.deportes_sigo_el_partido_con_mucho_interes",
+      "sourceId": "de.s.7dfa8eb09eb79047",
+      "source": "Ich verfolge das Spiel mit großem Interesse.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sigo el partido con mucho interés.",
+          "audioSlug": "sigo_el_partido_con_mucho_interes"
+        }
+      ]
+    },
+    {
+      "id": "deportes_es_dificil_marcar_un_gol_asi",
+      "conceptId": "es.deportes_es_dificil_marcar_un_gol_asi",
+      "sourceId": "de.s.58c1d12116550e78",
+      "source": "Es ist schwer, so ein Tor zu schießen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es difícil marcar un gol así.",
+          "audioSlug": "es_dificil_marcar_un_gol_asi"
+        }
+      ]
+    },
+    {
+      "id": "deportes_quiere_destacar_en_su_equipo",
+      "conceptId": "es.deportes_quiere_destacar_en_su_equipo",
+      "sourceId": "de.s.b0b904e0b4ab9057",
+      "source": "Sie will in ihrer Mannschaft herausstechen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiere destacar en su equipo.",
+          "audioSlug": "quiere_destacar_en_su_equipo"
+        }
+      ]
+    },
+    {
+      "id": "deportes_en_invierno_vamos_a_esquiar_a_la_montana",
+      "conceptId": "es.deportes_en_invierno_vamos_a_esquiar_a_la_montana",
+      "sourceId": "de.s.0eb0be1d054db449",
+      "source": "Im Winter fahren wir zum Skifahren in die Berge.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En invierno vamos a esquiar a la montaña.",
+          "audioSlug": "en_invierno_vamos_a_esquiar_a_la_montana"
+        }
+      ]
+    },
+    {
+      "id": "deportes_me_encanta_navegar_en_el_lago",
+      "conceptId": "es.deportes_me_encanta_navegar_en_el_lago",
+      "sourceId": "de.s.3b8eb0a7bc21e610",
+      "source": "Ich segle sehr gern auf dem See.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me encanta navegar en el lago.",
+          "audioSlug": "me_encanta_navegar_en_el_lago"
+        }
+      ]
+    }
+  ]
+}

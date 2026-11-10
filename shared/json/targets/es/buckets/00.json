@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "00",
+  "concepts": {
+    "es.accommodation_closest_restaurant": {
+      "conceptId": "es.accommodation_closest_restaurant",
+      "id": "accommodation_closest_restaurant",
+      "target": [
+        {
+          "text": "¿Cuál es el restaurante más cercano al hotel?",
+          "audioSlug": "cual_es_el_restaurante_mas_cercano_al_hotel"
+        }
+      ]
+    },
+    "es.airport_immigration_before_bags": {
+      "conceptId": "es.airport_immigration_before_bags",
+      "id": "airport_immigration_before_bags",
+      "target": [
+        {
+          "text": "Debes pasar por inmigración antes de poder recoger tu equipaje.",
+          "audioSlug": "debes_pasar_por_inmigracion_antes_de_poder_recoger_tu_equipaje",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Debe pasar por inmigración antes de poder recoger su equipaje.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "debe_pasar_por_inmigracion_antes_de_poder_recoger_su_equipaje"
+        }
+      ]
+    },
+    "es.airport_multi_entry_visa_duration": {
+      "conceptId": "es.airport_multi_entry_visa_duration",
+      "id": "airport_multi_entry_visa_duration",
+      "target": [
+        {
+          "text": "Tengo una visa de entradas múltiples, ¿cada entrada renueva el período de estancia permitido?",
+          "audioSlug": "tengo_una_visa_de_entradas_multiples_cada_entrada_renueva_el_periodo_de_estancia_permitido"
+        }
+      ]
+    },
+    "es.conversacion_es_un_buen_plan_y_ademas_barato": {
+      "conceptId": "es.conversacion_es_un_buen_plan_y_ademas_barato",
+      "id": "conversacion_es_un_buen_plan_y_ademas_barato",
+      "target": [
+        {
+          "text": "Es un buen plan y además es barato.",
+          "audioSlug": "es_un_buen_plan_y_ademas_es_barato"
+        }
+      ]
+    },
+    "es.daily_routine_me_gusta_sentir_el_aire_al_despertar": {
+      "conceptId": "es.daily_routine_me_gusta_sentir_el_aire_al_despertar",
+      "id": "daily_routine_me_gusta_sentir_el_aire_al_despertar",
+      "target": [
+        {
+          "text": "Me gusta sentir el aire fresco al despertar.",
+          "audioSlug": "me_gusta_sentir_el_aire_fresco_al_despertar"
+        }
+      ]
+    },
+    "es.daily_routine_tomo_cafe_o_te": {
+      "conceptId": "es.daily_routine_tomo_cafe_o_te",
+      "id": "daily_routine_tomo_cafe_o_te",
+      "target": [
+        {
+          "text": "Tomo café o té por la mañana.",
+          "audioSlug": "tomo_cafe_o_te_por_la_manana"
+        }
+      ]
+    },
+    "es.economia_la_publicidad_influye_en_la_compra": {
+      "conceptId": "es.economia_la_publicidad_influye_en_la_compra",
+      "id": "economia_la_publicidad_influye_en_la_compra",
+      "target": [
+        {
+          "text": "La publicidad influye en la compra.",
+          "audioSlug": "la_publicidad_influye_en_la_compra"
+        }
+      ]
+    },
+    "es.emociones_im_surprised": {
+      "conceptId": "es.emociones_im_surprised",
+      "id": "emociones_im_surprised",
+      "target": [
+        {
+          "text": "Estoy sorprendida.",
+          "audioSlug": "estoy_sorprendida",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy sorprendido.",
+          "audioSlug": "estoy_sorprendido",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.estudios_la_biblioteca_cierra_tarde": {
+      "conceptId": "es.estudios_la_biblioteca_cierra_tarde",
+      "id": "estudios_la_biblioteca_cierra_tarde",
+      "target": [
+        {
+          "text": "La biblioteca cierra tarde.",
+          "audioSlug": "la_biblioteca_cierra_tarde"
+        }
+      ]
+    },
+    "es.gym_do_you_have_any_advice_for": {
+      "conceptId": "es.gym_do_you_have_any_advice_for",
+      "id": "gym_do_you_have_any_advice_for",
+      "target": [
+        {
+          "text": "¿Tienes algún consejo para prevenir lesiones?",
+          "audioSlug": "tienes_algun_consejo_para_prevenir_lesiones"
+        }
+      ]
+    },
+    "es.gym_how_much_rest_time_do_you": {
+      "conceptId": "es.gym_how_much_rest_time_do_you",
+      "id": "gym_how_much_rest_time_do_you",
+      "target": [
+        {
+          "text": "¿Cuánto tiempo de descanso recomiendas entre series para este ejercicio?",
+          "audioSlug": "cuanto_tiempo_de_descanso_recomiendas_entre_series_para_este_ejercicio"
+        }
+      ]
+    },
+    "es.personal_info_where_were_you_born": {
+      "conceptId": "es.personal_info_where_were_you_born",
+      "id": "personal_info_where_were_you_born",
+      "target": [
+        {
+          "text": "¿Dónde naciste?",
+          "audioSlug": "donde_naciste"
+        }
+      ]
+    },
+    "es.survival_a_little": {
+      "conceptId": "es.survival_a_little",
+      "id": "survival_a_little",
+      "target": [
+        {
+          "text": "Hablo un poco de español.",
+          "audioSlug": "hablo_un_poco_de_espanol"
+        }
+      ]
+    },
+    "es.technology_how_connect_wifi": {
+      "conceptId": "es.technology_how_connect_wifi",
+      "id": "technology_how_connect_wifi",
+      "target": [
+        {
+          "text": "¿Cómo me conecto al WiFi?",
+          "audioSlug": "como_me_conecto_al_wifi"
+        }
+      ]
+    },
+    "es.theater_ambiguous_ending_interpretations": {
+      "conceptId": "es.theater_ambiguous_ending_interpretations",
+      "id": "theater_ambiguous_ending_interpretations",
+      "target": [
+        {
+          "text": "El final ambiguo invita a múltiples interpretaciones.",
+          "audioSlug": "el_final_ambiguo_invita_a_multiples_interpretaciones"
+        }
+      ]
+    }
+  }
+}

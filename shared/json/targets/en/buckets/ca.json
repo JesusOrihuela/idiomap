@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "ca",
+  "concepts": {
+    "en.accommodation_airport_shuttle": {
+      "conceptId": "en.accommodation_airport_shuttle",
+      "id": "accommodation_airport_shuttle",
+      "target": [
+        {
+          "text": "Do you have airport shuttle service?",
+          "audioSlug": "do_you_have_airport_shuttle_service"
+        }
+      ]
+    },
+    "en.cotidianidad_today_was_a_long_day": {
+      "conceptId": "en.cotidianidad_today_was_a_long_day",
+      "id": "cotidianidad_today_was_a_long_day",
+      "target": [
+        {
+          "text": "Today was a long day.",
+          "audioSlug": "today_was_a_long_day"
+        }
+      ]
+    },
+    "en.descripciones_this_bag_is_heavy": {
+      "conceptId": "en.descripciones_this_bag_is_heavy",
+      "id": "descripciones_this_bag_is_heavy",
+      "target": [
+        {
+          "text": "This bag is heavy.",
+          "audioSlug": "this_bag_is_heavy"
+        }
+      ]
+    },
+    "en.family_my_father_is_a_doctor": {
+      "conceptId": "en.family_my_father_is_a_doctor",
+      "id": "family_my_father_is_a_doctor",
+      "target": [
+        {
+          "text": "My father is a doctor.",
+          "audioSlug": "my_father_is_a_doctor"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_i_agree_with_you": {
+      "conceptId": "en.pensamientos_opiniones_i_agree_with_you",
+      "id": "pensamientos_opiniones_i_agree_with_you",
+      "target": [
+        {
+          "text": "I agree with you.",
+          "audioSlug": "i_agree_with_you"
+        }
+      ]
+    }
+  }
+}

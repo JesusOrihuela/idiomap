@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "ad",
+  "concepts": {
+    "en.describiendo_personas_she_has_a_soft_voice": {
+      "conceptId": "en.describiendo_personas_she_has_a_soft_voice",
+      "id": "describiendo_personas_she_has_a_soft_voice",
+      "target": [
+        {
+          "text": "She has a soft voice.",
+          "audioSlug": "she_has_a_soft_voice"
+        }
+      ]
+    },
+    "en.emociones_im_bored": {
+      "conceptId": "en.emociones_im_bored",
+      "id": "emociones_im_bored",
+      "target": [
+        {
+          "text": "I'm bored.",
+          "audioSlug": "i_m_bored"
+        }
+      ]
+    },
+    "en.family_my_husband_is_called": {
+      "conceptId": "en.family_my_husband_is_called",
+      "id": "family_my_husband_is_called",
+      "target": [
+        {
+          "text": "My husband's name is Juan.",
+          "audioSlug": "my_husband_s_name_is_juan"
+        }
+      ]
+    },
+    "en.kitchen_the_soup_is_hot": {
+      "conceptId": "en.kitchen_the_soup_is_hot",
+      "id": "kitchen_the_soup_is_hot",
+      "target": [
+        {
+          "text": "The soup is hot.",
+          "audioSlug": "the_soup_is_hot"
+        }
+      ]
+    },
+    "en.museums_photography_exhibition": {
+      "conceptId": "en.museums_photography_exhibition",
+      "id": "museums_photography_exhibition",
+      "target": [
+        {
+          "text": "The photography exhibition was very interesting.",
+          "audioSlug": "the_photography_exhibition_was_very_interesting"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_my_garden_is_small": {
+      "conceptId": "en.naturaleza_lugares_my_garden_is_small",
+      "id": "naturaleza_lugares_my_garden_is_small",
+      "target": [
+        {
+          "text": "My garden is small.",
+          "audioSlug": "my_garden_is_small"
+        }
+      ]
+    },
+    "en.planes_it_depends_on_you": {
+      "conceptId": "en.planes_it_depends_on_you",
+      "id": "planes_it_depends_on_you",
+      "target": [
+        {
+          "text": "It depends on you.",
+          "audioSlug": "it_depends_on_you"
+        }
+      ]
+    },
+    "en.restaurant_is_this_food_local": {
+      "conceptId": "en.restaurant_is_this_food_local",
+      "id": "restaurant_is_this_food_local",
+      "target": [
+        {
+          "text": "Is this food local?",
+          "audioSlug": "is_this_food_local"
+        }
+      ]
+    },
+    "en.technology_im_looking_for_software_to_record": {
+      "conceptId": "en.technology_im_looking_for_software_to_record",
+      "id": "technology_im_looking_for_software_to_record",
+      "target": [
+        {
+          "text": "I'm looking for software to record my computer screen.",
+          "audioSlug": "i_m_looking_for_software_to_record_my_computer_screen"
+        }
+      ]
+    }
+  }
+}

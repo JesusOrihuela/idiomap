@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "b1",
+  "concepts": {
+    "en.cuerpo_my_hands_are_cold": {
+      "conceptId": "en.cuerpo_my_hands_are_cold",
+      "id": "cuerpo_my_hands_are_cold",
+      "target": [
+        {
+          "text": "My hands are cold.",
+          "audioSlug": "my_hands_are_cold"
+        }
+      ]
+    },
+    "en.gym_where_locker_room": {
+      "conceptId": "en.gym_where_locker_room",
+      "id": "gym_where_locker_room",
+      "target": [
+        {
+          "text": "Where is the locker room?",
+          "audioSlug": "where_is_the_locker_room"
+        }
+      ]
+    },
+    "en.movies_bad_ending": {
+      "conceptId": "en.movies_bad_ending",
+      "id": "movies_bad_ending",
+      "target": [
+        {
+          "text": "I didn't like the ending of that movie.",
+          "audioSlug": "i_didn_t_like_the_ending_of_that_movie"
+        }
+      ]
+    },
+    "en.planes_what_is_your_aim": {
+      "conceptId": "en.planes_what_is_your_aim",
+      "id": "planes_what_is_your_aim",
+      "target": [
+        {
+          "text": "What is your aim?",
+          "audioSlug": "what_is_your_aim"
+        }
+      ]
+    },
+    "en.restaurant_can_i_make_a_reservation_for": {
+      "conceptId": "en.restaurant_can_i_make_a_reservation_for",
+      "id": "restaurant_can_i_make_a_reservation_for",
+      "target": [
+        {
+          "text": "Can I make a reservation for two for tonight?",
+          "audioSlug": "can_i_make_a_reservation_for_two_for_tonight",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Could I make a reservation for two for tonight?",
+          "audioSlug": "could_i_make_a_reservation_for_two_for_tonight",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.sitios_the_road_is_long": {
+      "conceptId": "en.sitios_the_road_is_long",
+      "id": "sitios_the_road_is_long",
+      "target": [
+        {
+          "text": "The road is long.",
+          "audioSlug": "the_road_is_long"
+        }
+      ]
+    },
+    "en.technology_i_need_to_download_this_program": {
+      "conceptId": "en.technology_i_need_to_download_this_program",
+      "id": "technology_i_need_to_download_this_program",
+      "target": [
+        {
+          "text": "I need to download this program for my work.",
+          "audioSlug": "i_need_to_download_this_program_for_my_work"
+        }
+      ]
+    },
+    "en.theater_ambiguous_ending_interpretations": {
+      "conceptId": "en.theater_ambiguous_ending_interpretations",
+      "id": "theater_ambiguous_ending_interpretations",
+      "target": [
+        {
+          "text": "The play's ambiguous ending invites multiple interpretations.",
+          "audioSlug": "the_play_s_ambiguous_ending_invites_multiple_interpretations"
+        }
+      ]
+    }
+  }
+}

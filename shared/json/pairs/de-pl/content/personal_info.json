@@ -1,10 +1,46 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-pl",
   "topic": "personal_info",
-  "conceptIds": [
-    "pl.personal_info_my_name_is",
-    "pl.personal_info_i_am_from_germany",
-    "pl.personal_info_i_am_a_student"
+  "phrases": [
+    {
+      "conceptId": "pl.personal_info_my_name_is",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f268e7aa76d6e714"
+    },
+    {
+      "conceptId": "pl.personal_info_i_am_from_germany",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f5c674c962e528cf"
+    },
+    {
+      "conceptId": "pl.personal_info_i_am_a_student",
+      "level": "A1",
+      "grammar": "Nach dem Verb „być\" (sein) steht das Substantiv im Narzędnik (Instrumental): studentem / studentką.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2462571ae0d16851"
+    }
   ]
 }

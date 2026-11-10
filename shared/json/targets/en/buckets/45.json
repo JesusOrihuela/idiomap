@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "45",
+  "concepts": {
+    "en.accountability_salary_is_paid_weekly_biweekly_or": {
+      "conceptId": "en.accountability_salary_is_paid_weekly_biweekly_or",
+      "id": "accountability_salary_is_paid_weekly_biweekly_or",
+      "target": [
+        {
+          "text": "Salary is paid weekly, biweekly or monthly.",
+          "audioSlug": "salary_is_paid_weekly_biweekly_or_monthly"
+        }
+      ]
+    },
+    "en.airport_duty_exceeded_pay_here": {
+      "conceptId": "en.airport_duty_exceeded_pay_here",
+      "id": "airport_duty_exceeded_pay_here",
+      "target": [
+        {
+          "text": "I've exceeded the duty-free allowance. Can I pay the import duty here at the airport?",
+          "audioSlug": "i_ve_exceeded_the_duty_free_allowance_can_i_pay_the_import_duty_here_at_the_airport"
+        }
+      ]
+    },
+    "en.daily_routine_brush_teeth": {
+      "conceptId": "en.daily_routine_brush_teeth",
+      "id": "daily_routine_brush_teeth",
+      "target": [
+        {
+          "text": "I brush my teeth after breakfast.",
+          "audioSlug": "i_brush_my_teeth_after_breakfast"
+        }
+      ]
+    },
+    "en.emociones_are_you_okay": {
+      "conceptId": "en.emociones_are_you_okay",
+      "id": "emociones_are_you_okay",
+      "target": [
+        {
+          "text": "Are you okay?",
+          "audioSlug": "are_you_okay"
+        }
+      ]
+    },
+    "en.greetings_let_me_introduce_colleague": {
+      "conceptId": "en.greetings_let_me_introduce_colleague",
+      "id": "greetings_let_me_introduce_colleague",
+      "target": [
+        {
+          "text": "Let me introduce you to a colleague of mine.",
+          "audioSlug": "let_me_introduce_you_to_a_colleague_of_mine"
+        }
+      ]
+    },
+    "en.greetings_see_you_around": {
+      "conceptId": "en.greetings_see_you_around",
+      "id": "greetings_see_you_around",
+      "target": [
+        {
+          "text": "See you around!",
+          "audioSlug": "see_you_around"
+        }
+      ]
+    },
+    "en.kitchen_the_casserole_dish_is_in_the": {
+      "conceptId": "en.kitchen_the_casserole_dish_is_in_the",
+      "id": "kitchen_the_casserole_dish_is_in_the",
+      "target": [
+        {
+          "text": "The casserole dish is in the oven.",
+          "audioSlug": "the_casserole_dish_is_in_the_oven"
+        }
+      ]
+    },
+    "en.viajes_i_need_to_pack_my_suitcase": {
+      "conceptId": "en.viajes_i_need_to_pack_my_suitcase",
+      "id": "viajes_i_need_to_pack_my_suitcase",
+      "target": [
+        {
+          "text": "I need to pack my suitcase.",
+          "audioSlug": "i_need_to_pack_my_suitcase"
+        }
+      ]
+    }
+  }
+}

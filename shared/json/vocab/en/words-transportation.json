@@ -17,7 +17,13 @@
       "gloss_example": {
         "es": "Toma el autobús desde el centro. Para justo frente al museo."
       },
-      "conceptId": "en.bus"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "taxi",
@@ -36,7 +42,13 @@
       "gloss_example": {
         "es": "Tomamos un taxi del hotel a la estación de tren."
       },
-      "conceptId": "en.taxi"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "station",
@@ -55,7 +67,13 @@
       "gloss_example": {
         "es": "La estación de tren está a diez minutos a pie del hotel."
       },
-      "conceptId": "en.station"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "stop",
@@ -74,7 +92,13 @@
       "gloss_example": {
         "es": "Bájate en la tercera parada. El museo está justo ahí."
       },
-      "conceptId": "en.stop"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "metro",
@@ -93,7 +117,13 @@
       "gloss_example": {
         "es": "El metro es la forma más rápida de cruzar la ciudad en hora punta."
       },
-      "conceptId": "en.metro"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "fare",
@@ -112,7 +142,13 @@
       "gloss_example": {
         "es": "La tarifa del autobús ha subido bastante desde el año pasado."
       },
-      "conceptId": "en.fare"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "route",
@@ -131,7 +167,13 @@
       "gloss_example": {
         "es": "¿Qué ruta recomiendas, la autopista o el camino panorámico?"
       },
-      "conceptId": "en.route"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "transfer",
@@ -150,7 +192,13 @@
       "gloss_example": {
         "es": "Tendrás que hacer un trasbordo en la Estación Central para llegar al aeropuerto."
       },
-      "conceptId": "en.transfer"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "schedule",
@@ -169,7 +217,13 @@
       "gloss_example": {
         "es": "Consulta el horario del autobús en línea antes de ir a la parada."
       },
-      "conceptId": "en.schedule"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "itinerary",
@@ -188,7 +242,13 @@
       "gloss_example": {
         "es": "El guía turístico repartió el itinerario de nuestro viaje de tres días."
       },
-      "conceptId": "en.itinerary"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "platform",
@@ -207,7 +267,13 @@
       "gloss_example": {
         "es": "Tu tren sale del andén 7 en cinco minutos."
       },
-      "conceptId": "en.platform"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "timetable",
@@ -226,7 +292,13 @@
       "gloss_example": {
         "es": "El horario muestra dos autobuses por hora entre semana, pero menos los fines de semana."
       },
-      "conceptId": "en.timetable"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "carpool",
@@ -245,7 +317,13 @@
       "gloss_example": {
         "es": "Organizamos un viaje compartido con tres compañeros para no pagar estacionamiento todos los días."
       },
-      "conceptId": "en.carpool"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "commute",
@@ -264,7 +342,13 @@
       "gloss_example": {
         "es": "Su trayecto diario al trabajo le lleva más de una hora en cada sentido en tren."
       },
-      "conceptId": "en.commute"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "compensation",
@@ -283,7 +367,13 @@
       "gloss_example": {
         "es": "Los pasajeros con más de dos horas de retraso tienen derecho a solicitar una compensación según la normativa europea."
       },
-      "conceptId": "en.compensation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "congestion",
@@ -302,7 +392,13 @@
       "gloss_example": {
         "es": "La congestión en la autopista añadió 45 minutos al trayecto."
       },
-      "conceptId": "en.congestion"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bypass",
@@ -321,7 +417,13 @@
       "gloss_example": {
         "es": "Tomar la variante nos ahorró veinte minutos en comparación con pasar por el centro."
       },
-      "conceptId": "en.bypass"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "interchange",
@@ -340,7 +442,13 @@
       "gloss_example": {
         "es": "El intercambiador principal de la ciudad conecta el metro, los autobuses y los trenes regionales."
       },
-      "conceptId": "en.interchange"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ridesharing",
@@ -359,7 +467,13 @@
       "gloss_example": {
         "es": "Las aplicaciones de transporte compartido han cambiado la forma de moverse por las ciudades en todo el mundo."
       },
-      "conceptId": "en.ridesharing"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "surcharge",
@@ -378,7 +492,13 @@
       "gloss_example": {
         "es": "El taxista aplicó un recargo por el viaje durante un día festivo."
       },
-      "conceptId": "en.surcharge"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "infrastructure",
@@ -397,7 +517,13 @@
       "gloss_example": {
         "es": "La deficiente infraestructura es una de las principales razones por las que el transporte público es poco fiable en esta región."
       },
-      "conceptId": "en.infrastructure"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "accessibility",
@@ -416,7 +542,13 @@
       "gloss_example": {
         "es": "La nueva flota de autobuses fue elogiada por su mejor accesibilidad para usuarios de silla de ruedas."
       },
-      "conceptId": "en.accessibility"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "subsidy",
@@ -435,7 +567,13 @@
       "gloss_example": {
         "es": "Sin las subvenciones gubernamentales, los pasajes de autobús serían inasequibles para los pasajeros de bajos ingresos."
       },
-      "conceptId": "en.subsidy"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "penalty",
@@ -454,7 +592,13 @@
       "gloss_example": {
         "es": "Recibió una multa por no validar su boleto antes de subir al tren."
       },
-      "conceptId": "en.penalty"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "urban_mobility",
@@ -473,7 +617,13 @@
       "gloss_example": {
         "es": "Mejorar la movilidad urbana requiere inversión tanto en infraestructura como en cambio de comportamiento."
       },
-      "conceptId": "en.urban_mobility"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "congestion_pricing",
@@ -492,7 +642,13 @@
       "gloss_example": {
         "es": "La zona de tarifas por congestión de Londres ha reducido el tráfico en el centro en más de un 30 por ciento."
       },
-      "conceptId": "en.congestion_pricing"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "intermodal",
@@ -511,7 +667,13 @@
       "gloss_example": {
         "es": "La nueva terminal intermodal conecta el tren, el autobús y los carriles bici en una sola estación."
       },
-      "conceptId": "en.intermodal"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "carbon_footprint",
@@ -530,7 +692,13 @@
       "gloss_example": {
         "es": "Tomar el tren en lugar de volar reduce drásticamente tu huella de carbono."
       },
-      "conceptId": "en.carbon_footprint"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "franchise",
@@ -549,7 +717,13 @@
       "gloss_example": {
         "es": "El gobierno otorgó una nueva concesión para operar la línea ferroviaria del norte."
       },
-      "conceptId": "en.franchise"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "drive",
@@ -568,7 +742,13 @@
       "gloss_example": {
         "es": "Ella maneja al trabajo todos los días."
       },
-      "conceptId": "en.drive"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "trip",
@@ -587,7 +767,13 @@
       "gloss_example": {
         "es": "Hicimos un viaje a las montañas."
       },
-      "conceptId": "en.trip"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "mile",
@@ -606,7 +792,13 @@
       "gloss_example": {
         "es": "La estación está a dos millas."
       },
-      "conceptId": "en.mile"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cross",
@@ -625,7 +817,13 @@
       "gloss_example": {
         "es": "Mira a ambos lados antes de cruzar la calle."
       },
-      "conceptId": "en.cross"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "fly",
@@ -644,7 +842,13 @@
       "gloss_example": {
         "es": "Volamos a Madrid la próxima semana."
       },
-      "conceptId": "en.fly"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "airplane",
@@ -663,7 +867,13 @@
       "gloss_example": {
         "es": "El avión aterrizó a tiempo."
       },
-      "conceptId": "en.airplane"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "car",
@@ -682,7 +892,13 @@
       "gloss_example": {
         "es": "Mi carro es azul."
       },
-      "conceptId": "en.car"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "train",
@@ -701,7 +917,13 @@
       "gloss_example": {
         "es": "El tren llega tarde."
       },
-      "conceptId": "en.train"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "travel",
@@ -720,7 +942,13 @@
       "gloss_example": {
         "es": "Los viajes en avión se han vuelto más baratos."
       },
-      "conceptId": "en.travel"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "seat",
@@ -739,7 +967,13 @@
       "gloss_example": {
         "es": "Por favor, toma tu asiento."
       },
-      "conceptId": "en.seat"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

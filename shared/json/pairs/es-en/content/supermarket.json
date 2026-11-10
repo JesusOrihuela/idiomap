@@ -1,68 +1,800 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "supermarket",
-  "conceptIds": [
-    "en.supermarket_have_you_made_the_grocery_list",
-    "en.supermarket_i_need_to_buy_milk_bread",
-    "en.supermarket_dont_forget_to_buy_fruits_and",
-    "en.supermarket_this_supermarket_is_very_expensive_lets",
-    "en.supermarket_there_is_an_offer_on_the",
-    "en.supermarket_can_you_help_me_carry_the",
-    "en.supermarket_i_dont_have_cash_can_i",
-    "en.supermarket_where_are_the_cookies",
-    "en.supermarket_i_cant_find_the_yogurt_brand",
-    "en.supermarket_how_much_does_a_kilo_of",
-    "en.supermarket_where_is_the_cleaning_products_section",
-    "en.supermarket_buy_new_toothbrush",
-    "en.supermarket_is_this_product_vegan",
-    "en.supermarket_do_you_know_which_pasta_brand",
-    "en.supermarket_is_there_any_offer_on_cereals",
-    "en.supermarket_there_is_a_long_line_at",
-    "en.supermarket_can_you_help_me_reach_that",
-    "en.supermarket_i_cant_find_an_employee_to",
-    "en.supermarket_what_time_does_the_supermarket_close",
-    "en.supermarket_where_are_the_shopping_carts",
-    "en.supermarket_is_there_a_bathroom_nearby",
-    "en.supermarket_this_supermarket_has_a_very_useful",
-    "en.supermarket_i_received_a_discount_coupon_in",
-    "en.supermarket_i_like_to_use_the_self_checkout",
-    "en.supermarket_i_dont_like_this_supermarket_its",
-    "en.supermarket_i_prefer_to_go_to_the",
-    "en.supermarket_you_have_to_go_to_the",
-    "en.supermarket_i_need_a_receipt",
-    "en.supermarket_are_these_grapes_organic",
-    "en.supermarket_do_you_have_fresh_chicken",
-    "en.supermarket_i_dont_know_which_fish_to",
-    "en.supermarket_the_strawberries_are_very_expensive",
-    "en.supermarket_im_looking_for_a_cake_for",
-    "en.supermarket_can_you_give_me_the_receipt",
-    "en.supermarket_where_is_the_glutenfree_products_section",
-    "en.supermarket_do_you_have_almond_milk",
-    "en.supermarket_where_is_the_personal_hygiene_products",
-    "en.supermarket_where_is_the_bakery_section",
-    "en.supermarket_can_you_give_me_a_bag",
-    "en.supermarket_i_am_here_to_make_a",
-    "en.supermarket_i_dont_like_this_supermarket_the",
-    "en.supermarket_i_didnt_find_the_product_i",
-    "en.supermarket_do_you_have_larger_size",
-    "en.supermarket_store_brand_less_expensive",
-    "en.supermarket_speak_to_manager_mislabeled",
-    "en.supermarket_where_are_gluten_free_products",
-    "en.supermarket_shelf_price_doesnt_match_register",
-    "en.supermarket_nut_allergy_processed_facility",
-    "en.supermarket_return_seal_broken_spoiled",
-    "en.supermarket_check_stockroom_out_of_shelf",
-    "en.supermarket_overcharged_promotional_price_not_applied",
-    "en.supermarket_customer_service_lodge_complaint",
-    "en.supermarket_escalate_staff_assurance_not_honored",
-    "en.supermarket_online_listing_out_of_stock_delivery",
-    "en.supermarket_price_match_cheaper_elsewhere",
-    "en.supermarket_loyalty_program_sign_up",
-    "en.supermarket_where_can_i_find",
-    "en.supermarket_expiration_date",
-    "en.supermarket_where_is_the_checkout",
-    "en.supermarket_can_i_pay_in_cash",
-    "en.supermarket_i_went_to_the_market"
+  "phrases": [
+    {
+      "conceptId": "en.supermarket_have_you_made_the_grocery_list",
+      "level": "B1",
+      "grammar": "'Have you + past participle + yet?' asks about a recent action with current relevance.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1a91eef0d2df048d"
+    },
+    {
+      "conceptId": "en.supermarket_i_need_to_buy_milk_bread",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8f8ba591a947c764"
+    },
+    {
+      "conceptId": "en.supermarket_dont_forget_to_buy_fruits_and",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.46413605f920e63b"
+    },
+    {
+      "conceptId": "en.supermarket_this_supermarket_is_very_expensive_lets",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.136d722fe78ce80f"
+    },
+    {
+      "conceptId": "en.supermarket_there_is_an_offer_on_the",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3b7560d07dfc1ee5"
+    },
+    {
+      "conceptId": "en.supermarket_can_you_help_me_carry_the",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f5b28b0f10962d52"
+    },
+    {
+      "conceptId": "en.supermarket_i_dont_have_cash_can_i",
+      "level": "A1",
+      "grammar": "'Pay by card' and 'by cash' use 'by' for the method of payment.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d0a57446d4c68a8b"
+    },
+    {
+      "conceptId": "en.supermarket_where_are_the_cookies",
+      "level": "A1",
+      "grammar": "Use 'Where is...?' for one thing and 'Where are...?' for plural, to ask location.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d2cef090a3c136cb"
+    },
+    {
+      "conceptId": "en.supermarket_i_cant_find_the_yogurt_brand",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.87143ae8f5e6a0ca"
+    },
+    {
+      "conceptId": "en.supermarket_how_much_does_a_kilo_of",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.64b99dea1ccfaa34"
+    },
+    {
+      "conceptId": "en.supermarket_where_is_the_cleaning_products_section",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.27b851476df534e8"
+    },
+    {
+      "conceptId": "en.supermarket_buy_new_toothbrush",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bac9834d7745d493"
+    },
+    {
+      "conceptId": "en.supermarket_is_this_product_vegan",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7edf9efcfa49583a"
+    },
+    {
+      "conceptId": "en.supermarket_do_you_know_which_pasta_brand",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0aafae28c8486c86"
+    },
+    {
+      "conceptId": "en.supermarket_is_there_any_offer_on_cereals",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e9f43e678b3f6980"
+    },
+    {
+      "conceptId": "en.supermarket_there_is_a_long_line_at",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.54d8a3d33947f637"
+    },
+    {
+      "conceptId": "en.supermarket_can_you_help_me_reach_that",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b04cea37501aa7b7"
+    },
+    {
+      "conceptId": "en.supermarket_i_cant_find_an_employee_to",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.069272735ec09d76"
+    },
+    {
+      "conceptId": "en.supermarket_what_time_does_the_supermarket_close",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a46ff21870396585"
+    },
+    {
+      "conceptId": "en.supermarket_where_are_the_shopping_carts",
+      "level": "A1",
+      "grammar": "Use 'Where is...?' for one thing and 'Where are...?' for plural, to ask location.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d4db291ad2f989ba"
+    },
+    {
+      "conceptId": "en.supermarket_is_there_a_bathroom_nearby",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.65c3d50c5c3b303b"
+    },
+    {
+      "conceptId": "en.supermarket_this_supermarket_has_a_very_useful",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d7f4055c8ec8b68f"
+    },
+    {
+      "conceptId": "en.supermarket_i_received_a_discount_coupon_in",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bdfeda36ae0973f7"
+    },
+    {
+      "conceptId": "en.supermarket_i_like_to_use_the_self_checkout",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.34f4832aa90e4ddf"
+    },
+    {
+      "conceptId": "en.supermarket_i_dont_like_this_supermarket_its",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.04c244aa37656ab2"
+    },
+    {
+      "conceptId": "en.supermarket_i_prefer_to_go_to_the",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e985410d7685d6e0"
+    },
+    {
+      "conceptId": "en.supermarket_you_have_to_go_to_the",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c188f00c5d2b5da1"
+    },
+    {
+      "conceptId": "en.supermarket_i_need_a_receipt",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.47261fb4f05379a2"
+    },
+    {
+      "conceptId": "en.supermarket_are_these_grapes_organic",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.caa274524e33b8ed"
+    },
+    {
+      "conceptId": "en.supermarket_do_you_have_fresh_chicken",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.34aa85a703c3f711"
+    },
+    {
+      "conceptId": "en.supermarket_i_dont_know_which_fish_to",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.601e945dc08145cd"
+    },
+    {
+      "conceptId": "en.supermarket_the_strawberries_are_very_expensive",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1954f3a479f2d646"
+    },
+    {
+      "conceptId": "en.supermarket_im_looking_for_a_cake_for",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a5cc8d336d544524"
+    },
+    {
+      "conceptId": "en.supermarket_can_you_give_me_the_receipt",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.704efc5336272430"
+    },
+    {
+      "conceptId": "en.supermarket_where_is_the_glutenfree_products_section",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e8a6f930adeafc26"
+    },
+    {
+      "conceptId": "en.supermarket_do_you_have_almond_milk",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.52de7f438bdec29f"
+    },
+    {
+      "conceptId": "en.supermarket_where_is_the_personal_hygiene_products",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.423e031faf0915ef"
+    },
+    {
+      "conceptId": "en.supermarket_where_is_the_bakery_section",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c75cefef5d2a08b6"
+    },
+    {
+      "conceptId": "en.supermarket_can_you_give_me_a_bag",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4df943053f44c3ee"
+    },
+    {
+      "conceptId": "en.supermarket_i_am_here_to_make_a",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.990e64ef506e48fe"
+    },
+    {
+      "conceptId": "en.supermarket_i_dont_like_this_supermarket_the",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.865864baa1006b7a"
+    },
+    {
+      "conceptId": "en.supermarket_i_didnt_find_the_product_i",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0ce03a7f481d0d5b"
+    },
+    {
+      "conceptId": "en.supermarket_do_you_have_larger_size",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.25343e9b8b83e556"
+    },
+    {
+      "conceptId": "en.supermarket_store_brand_less_expensive",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0dbcb9849c423cf2"
+    },
+    {
+      "conceptId": "en.supermarket_speak_to_manager_mislabeled",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a3dc45a00b4ab421"
+    },
+    {
+      "conceptId": "en.supermarket_where_are_gluten_free_products",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b41e494ba7e63e28"
+    },
+    {
+      "conceptId": "en.supermarket_shelf_price_doesnt_match_register",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1db58b2ecc5f3d02"
+    },
+    {
+      "conceptId": "en.supermarket_nut_allergy_processed_facility",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a5cb7ef39ca07bf3"
+    },
+    {
+      "conceptId": "en.supermarket_return_seal_broken_spoiled",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.78469fc8f084d9c8"
+    },
+    {
+      "conceptId": "en.supermarket_check_stockroom_out_of_shelf",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6f88511c5985ea66"
+    },
+    {
+      "conceptId": "en.supermarket_overcharged_promotional_price_not_applied",
+      "level": "B2",
+      "grammar": "Passive 'I was overcharged' shows the subject received the action rather than doing it.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d5db994e6e36f78e"
+    },
+    {
+      "conceptId": "en.supermarket_customer_service_lodge_complaint",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ea5cb05b432059af"
+    },
+    {
+      "conceptId": "en.supermarket_escalate_staff_assurance_not_honored",
+      "level": "C1",
+      "grammar": "Passive 'I was assured' reports a prior commitment made by someone else.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.42bb8e4846674d80"
+    },
+    {
+      "conceptId": "en.supermarket_online_listing_out_of_stock_delivery",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.363347bfeb4b2913"
+    },
+    {
+      "conceptId": "en.supermarket_price_match_cheaper_elsewhere",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1fecb312462eaaf9"
+    },
+    {
+      "conceptId": "en.supermarket_loyalty_program_sign_up",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6c29fe5ec2faf848"
+    },
+    {
+      "conceptId": "en.supermarket_where_can_i_find",
+      "level": "A1",
+      "grammar": "'Where can I find...?' politely asks an employee where an item is.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fa4172ea41e3133e"
+    },
+    {
+      "conceptId": "en.supermarket_expiration_date",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.532f4aba52293774"
+    },
+    {
+      "conceptId": "en.supermarket_where_is_the_checkout",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5a7ea47f379b3dae"
+    },
+    {
+      "conceptId": "en.supermarket_can_i_pay_in_cash",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.11daf1b44bc00cfe"
+    },
+    {
+      "conceptId": "en.supermarket_i_went_to_the_market",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.41876a7847cb0895"
+    }
   ]
 }

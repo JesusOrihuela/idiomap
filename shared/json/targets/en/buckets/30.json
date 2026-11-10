@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "30",
+  "concepts": {
+    "en.accommodation_confirm_reservation": {
+      "conceptId": "en.accommodation_confirm_reservation",
+      "id": "accommodation_confirm_reservation",
+      "target": [
+        {
+          "text": "I would like to confirm my reservation for tomorrow night.",
+          "audioSlug": "i_would_like_to_confirm_my_reservation_for_tomorrow_night"
+        }
+      ]
+    },
+    "en.accountability_total_amount": {
+      "conceptId": "en.accountability_total_amount",
+      "id": "accountability_total_amount",
+      "target": [
+        {
+          "text": "What is the total amount?",
+          "audioSlug": "what_is_the_total_amount"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_the_sun_rises_early": {
+      "conceptId": "en.naturaleza_lugares_the_sun_rises_early",
+      "id": "naturaleza_lugares_the_sun_rises_early",
+      "target": [
+        {
+          "text": "The sun rises early.",
+          "audioSlug": "the_sun_rises_early"
+        }
+      ]
+    },
+    "en.technology_scan_this_qr_code_for_more": {
+      "conceptId": "en.technology_scan_this_qr_code_for_more",
+      "id": "technology_scan_this_qr_code_for_more",
+      "target": [
+        {
+          "text": "Scan this QR code for more information.",
+          "audioSlug": "scan_this_qr_code_for_more_information"
+        }
+      ]
+    },
+    "en.technology_the_app_works_better_than_the": {
+      "conceptId": "en.technology_the_app_works_better_than_the",
+      "id": "technology_the_app_works_better_than_the",
+      "target": [
+        {
+          "text": "The app works better than the website.",
+          "audioSlug": "the_app_works_better_than_the_website"
+        }
+      ]
+    }
+  }
+}

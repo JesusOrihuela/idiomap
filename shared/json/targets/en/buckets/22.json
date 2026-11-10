@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "22",
+  "concepts": {
+    "en.accommodation_id_like_to_check_in": {
+      "conceptId": "en.accommodation_id_like_to_check_in",
+      "id": "accommodation_id_like_to_check_in",
+      "target": [
+        {
+          "text": "I'd like to check in, please.",
+          "audioSlug": "i_d_like_to_check_in_please"
+        }
+      ]
+    },
+    "en.accountability_accounts_payable_has_already_closed_its": {
+      "conceptId": "en.accountability_accounts_payable_has_already_closed_its",
+      "id": "accountability_accounts_payable_has_already_closed_its",
+      "target": [
+        {
+          "text": "Accounts Payable has already closed its accounting records for this month.",
+          "audioSlug": "accounts_payable_has_already_closed_its_accounting_records_for_this_month"
+        }
+      ]
+    },
+    "en.accountability_any_contingent_liability_must_be": {
+      "conceptId": "en.accountability_any_contingent_liability_must_be",
+      "id": "accountability_any_contingent_liability_must_be",
+      "target": [
+        {
+          "text": "Any contingent liability must be disclosed in the notes to the financial statements.",
+          "audioSlug": "any_contingent_liability_must_be_disclosed_in_the_notes_to_the_financial_statements"
+        }
+      ]
+    },
+    "en.planes_i_want_to_improve": {
+      "conceptId": "en.planes_i_want_to_improve",
+      "id": "planes_i_want_to_improve",
+      "target": [
+        {
+          "text": "I want to improve.",
+          "audioSlug": "i_want_to_improve"
+        }
+      ]
+    },
+    "en.supermarket_where_can_i_find": {
+      "conceptId": "en.supermarket_where_can_i_find",
+      "id": "supermarket_where_can_i_find",
+      "target": [
+        {
+          "text": "Where can I find the rice?",
+          "audioSlug": "where_can_i_find_the_rice"
+        }
+      ]
+    },
+    "en.theater_lighting_sound_immersive": {
+      "conceptId": "en.theater_lighting_sound_immersive",
+      "id": "theater_lighting_sound_immersive",
+      "target": [
+        {
+          "text": "The lighting and sound design create an immersive experience rarely seen on stage.",
+          "audioSlug": "the_lighting_and_sound_design_create_an_immersive_experience_rarely_seen_on_stage"
+        }
+      ]
+    }
+  }
+}

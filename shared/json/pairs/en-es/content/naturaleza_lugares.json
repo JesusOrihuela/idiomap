@@ -1,32 +1,332 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "naturaleza_lugares",
-  "conceptIds": [
-    "es.naturaleza_lugares_vamos_a_la_montana",
-    "es.naturaleza_lugares_vamos_a_la_playa",
-    "es.naturaleza_lugares_la_tierra_gira",
-    "es.naturaleza_lugares_estoy_en_el_jardin",
-    "es.naturaleza_lugares_fuimos_al_rio",
-    "es.naturaleza_lugares_eso_no_es_una_isla",
-    "es.naturaleza_lugares_el_arbol_se_cayo",
-    "es.naturaleza_lugares_el_lago_es_muy_grande",
-    "es.naturaleza_lugares_el_mar_esta_tranquilo_hoy",
-    "es.naturaleza_lugares_amo_la_naturaleza",
-    "es.naturaleza_lugares_es_una_flor_bonita",
-    "es.naturaleza_lugares_veo_una_estrella",
-    "es.naturaleza_lugares_es_una_piedra_grande",
-    "es.naturaleza_lugares_la_hoja_es_verde",
-    "es.naturaleza_lugares_la_tierra_es_un_planeta",
-    "es.naturaleza_lugares_los_arboles_rodean_la_casa",
-    "es.naturaleza_lugares_hay_que_conservar_la_naturaleza",
-    "es.naturaleza_lugares_cuida_el_entorno",
-    "es.naturaleza_lugares_la_hierba_es_verde",
-    "es.naturaleza_lugares_es_un_paisaje_hermoso",
-    "es.naturaleza_lugares_la_rosa_es_roja",
-    "es.naturaleza_lugares_volvera_a_crecer",
-    "es.naturaleza_lugares_el_bosque_esta_lleno_de_arboles",
-    "es.naturaleza_lugares_el_desierto_es_muy_seco",
-    "es.naturaleza_lugares_la_luna_brilla_en_el_cielo"
+  "phrases": [
+    {
+      "conceptId": "es.naturaleza_lugares_vamos_a_la_montana",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.272a1566f76edd2b"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_vamos_a_la_playa",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.37386047b0738d4a"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_la_tierra_gira",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.94ff25cdf0596df6"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_estoy_en_el_jardin",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b1d5c8e04ffdc23e"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_fuimos_al_rio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.11126fd1bb6812ae"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_eso_no_es_una_isla",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.afdf2a043d5063ec"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_arbol_se_cayo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d9375045d0a727af"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_lago_es_muy_grande",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.480f3929e9fe6739"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_mar_esta_tranquilo_hoy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.55cf4e9d82f98b10"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_amo_la_naturaleza",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c4c21338b1a0bc90"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_es_una_flor_bonita",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3813911201195cab"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_veo_una_estrella",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.30ff708de8633228"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_es_una_piedra_grande",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b7a64d7efa1aefcd"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_la_hoja_es_verde",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.260409208301f1f7"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_la_tierra_es_un_planeta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.25c390d7245d4bd5"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_los_arboles_rodean_la_casa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.72894f9e68e21e40"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_hay_que_conservar_la_naturaleza",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7595cfb42448fa25"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_cuida_el_entorno",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.687b40ec7b86f419"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_la_hierba_es_verde",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3e5c121f2296b829"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_es_un_paisaje_hermoso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.14277c3e425b1b41"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_la_rosa_es_roja",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b65f55bd22c7ccfd"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_volvera_a_crecer",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d7a8c89f7d438518"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_bosque_esta_lleno_de_arboles",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e23bce22e9758d63"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_desierto_es_muy_seco",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d0f874d0fdd2bb0a"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_la_luna_brilla_en_el_cielo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.229a33602f9f6b40"
+    }
   ]
 }

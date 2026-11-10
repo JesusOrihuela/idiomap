@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "5b",
+  "concepts": {
+    "es.accommodation_refund_policy": {
+      "conceptId": "es.accommodation_refund_policy",
+      "id": "accommodation_refund_policy",
+      "target": [
+        {
+          "text": "¿Cuál es la política de reembolso en caso de cancelación?",
+          "audioSlug": "cual_es_la_politica_de_reembolso_en_caso_de_cancelacion"
+        }
+      ]
+    },
+    "es.accountability_cost_benefit_analysis_before_approval": {
+      "conceptId": "es.accountability_cost_benefit_analysis_before_approval",
+      "id": "accountability_cost_benefit_analysis_before_approval",
+      "target": [
+        {
+          "text": "¿Podrías hacer un análisis costo-beneficio rápido antes de aprobar el gasto?",
+          "audioSlug": "podrias_hacer_un_analisis_costo_beneficio_rapido_antes_de_aprobar_el_gasto"
+        }
+      ]
+    },
+    "es.conversacion_ese_es_un_problema_dificil": {
+      "conceptId": "es.conversacion_ese_es_un_problema_dificil",
+      "id": "conversacion_ese_es_un_problema_dificil",
+      "target": [
+        {
+          "text": "Ese es un problema difícil.",
+          "audioSlug": "ese_es_un_problema_dificil"
+        }
+      ]
+    },
+    "es.gym_is_there_an_alternative_for_that": {
+      "conceptId": "es.gym_is_there_an_alternative_for_that",
+      "id": "gym_is_there_an_alternative_for_that",
+      "target": [
+        {
+          "text": "¿Hay alguna alternativa para ese ejercicio?",
+          "audioSlug": "hay_alguna_alternativa_para_ese_ejercicio"
+        }
+      ]
+    },
+    "es.kitchen_the_knives_need_sharpening": {
+      "conceptId": "es.kitchen_the_knives_need_sharpening",
+      "id": "kitchen_the_knives_need_sharpening",
+      "target": [
+        {
+          "text": "A los cuchillos les falta filo.",
+          "audioSlug": "a_los_cuchillos_les_falta_filo"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_no_tiene_sentido": {
+      "conceptId": "es.pensamientos_opiniones_no_tiene_sentido",
+      "id": "pensamientos_opiniones_no_tiene_sentido",
+      "target": [
+        {
+          "text": "No tiene sentido.",
+          "audioSlug": "no_tiene_sentido"
+        }
+      ]
+    },
+    "es.personal_info_es_una_arquitecta_brillante": {
+      "conceptId": "es.personal_info_es_una_arquitecta_brillante",
+      "id": "personal_info_es_una_arquitecta_brillante",
+      "target": [
+        {
+          "text": "Es una arquitecta brillante.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie ist eine brillante Architektin.",
+          "audioSlug": "es_una_arquitecta_brillante"
+        },
+        {
+          "text": "Es un arquitecto brillante.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er ist ein brillanter Architekt.",
+          "audioSlug": "es_un_arquitecto_brillante"
+        }
+      ]
+    },
+    "es.planes_habremos_ahorrado": {
+      "conceptId": "es.planes_habremos_ahorrado",
+      "id": "planes_habremos_ahorrado",
+      "target": [
+        {
+          "text": "En diciembre habremos ahorrado lo suficiente.",
+          "audioSlug": "en_diciembre_habremos_ahorrado_lo_suficiente"
+        }
+      ]
+    },
+    "es.planes_tengo_que_decidir": {
+      "conceptId": "es.planes_tengo_que_decidir",
+      "id": "planes_tengo_que_decidir",
+      "target": [
+        {
+          "text": "Tengo que decidir.",
+          "audioSlug": "tengo_que_decidir"
+        }
+      ]
+    },
+    "es.supermarket_where_is_the_bakery_section": {
+      "conceptId": "es.supermarket_where_is_the_bakery_section",
+      "id": "supermarket_where_is_the_bakery_section",
+      "target": [
+        {
+          "text": "¿Dónde se encuentra la sección de panadería?",
+          "audioSlug": "donde_se_encuentra_la_seccion_de_panaderia"
+        }
+      ]
+    },
+    "es.technology_mi_movil_tiene_una_buena_camara": {
+      "conceptId": "es.technology_mi_movil_tiene_una_buena_camara",
+      "id": "technology_mi_movil_tiene_una_buena_camara",
+      "target": [
+        {
+          "text": "Mi móvil tiene una buena cámara.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "mi_movil_tiene_una_buena_camara"
+        },
+        {
+          "text": "Mi celular tiene una buena cámara.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "mi_celular_tiene_una_buena_camara"
+        }
+      ]
+    },
+    "es.technology_send_me_that_file_via_whatsapp": {
+      "conceptId": "es.technology_send_me_that_file_via_whatsapp",
+      "id": "technology_send_me_that_file_via_whatsapp",
+      "target": [
+        {
+          "text": "Envíame ese archivo por WhatsApp.",
+          "audioSlug": "enviame_ese_archivo_por_whatsapp"
+        }
+      ]
+    },
+    "es.vestimenta_su_camisa_es_azul": {
+      "conceptId": "es.vestimenta_su_camisa_es_azul",
+      "id": "vestimenta_su_camisa_es_azul",
+      "target": [
+        {
+          "text": "Su camisa es azul.",
+          "audioSlug": "su_camisa_es_azul"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "a7",
+  "concepts": {
+    "es.accommodation_vat_invoice_accounting": {
+      "conceptId": "es.accommodation_vat_invoice_accounting",
+      "id": "accommodation_vat_invoice_accounting",
+      "target": [
+        {
+          "text": "Necesito factura a nombre de la empresa con número fiscal, válida para contabilidad.",
+          "audioSlug": "necesito_factura_a_nombre_de_la_empresa_con_numero_fiscal_valida_para_contabilidad"
+        }
+      ]
+    },
+    "es.accountability_what_are_the_projections_for_the": {
+      "conceptId": "es.accountability_what_are_the_projections_for_the",
+      "id": "accountability_what_are_the_projections_for_the",
+      "target": [
+        {
+          "text": "¿Cuáles son las proyecciones para el nuevo año fiscal?",
+          "audioSlug": "cuales_son_las_proyecciones_para_el_nuevo_ano_fiscal"
+        }
+      ]
+    },
+    "es.deportes_gano_un_premio": {
+      "conceptId": "es.deportes_gano_un_premio",
+      "id": "deportes_gano_un_premio",
+      "target": [
+        {
+          "text": "Ganó un premio.",
+          "audioSlug": "gano_un_premio"
+        }
+      ]
+    },
+    "es.descripciones_el_rio_es_ancho": {
+      "conceptId": "es.descripciones_el_rio_es_ancho",
+      "id": "descripciones_el_rio_es_ancho",
+      "target": [
+        {
+          "text": "El río es muy ancho.",
+          "audioSlug": "el_rio_es_muy_ancho"
+        }
+      ]
+    },
+    "es.directions_can_you_show_me_the_way.de-es": {
+      "conceptId": "es.directions_can_you_show_me_the_way.de-es",
+      "id": "directions_can_you_show_me_the_way_de",
+      "target": [
+        {
+          "text": "¿Puedes indicarme el camino?",
+          "source": "Kannst du mir den Weg zeigen?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "puedes_indicarme_el_camino"
+        },
+        {
+          "text": "¿Puede indicarme el camino?",
+          "source": "Können Sie mir den Weg zeigen?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_indicarme_el_camino"
+        }
+      ]
+    },
+    "es.directions_el_garaje_esta_al_lado_de_la_casa": {
+      "conceptId": "es.directions_el_garaje_esta_al_lado_de_la_casa",
+      "id": "directions_el_garaje_esta_al_lado_de_la_casa",
+      "target": [
+        {
+          "text": "El garaje está al lado de la casa.",
+          "audioSlug": "el_garaje_esta_al_lado_de_la_casa"
+        }
+      ]
+    },
+    "es.emociones_im_confused": {
+      "conceptId": "es.emociones_im_confused",
+      "id": "emociones_im_confused",
+      "target": [
+        {
+          "text": "Estoy confundida.",
+          "audioSlug": "estoy_confundida",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy confundido.",
+          "audioSlug": "estoy_confundido",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.family_tienes_hijos": {
+      "conceptId": "es.family_tienes_hijos",
+      "id": "family_tienes_hijos",
+      "target": [
+        {
+          "text": "¿Tienes hijos?",
+          "audioSlug": "tienes_hijos"
+        }
+      ]
+    },
+    "es.kitchen_the_glasses_and_cups_are_in": {
+      "conceptId": "es.kitchen_the_glasses_and_cups_are_in",
+      "id": "kitchen_the_glasses_and_cups_are_in",
+      "target": [
+        {
+          "text": "Los vasos y tazas están en el gabinete.",
+          "audioSlug": "los_vasos_y_tazas_estan_en_el_gabinete"
+        }
+      ]
+    },
+    "es.museums_free_admission": {
+      "conceptId": "es.museums_free_admission",
+      "id": "museums_free_admission",
+      "target": [
+        {
+          "text": "¿La entrada es gratis los domingos?",
+          "audioSlug": "la_entrada_es_gratis_los_domingos"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_hay_que_proteger_el_planeta": {
+      "conceptId": "es.naturaleza_lugares_hay_que_proteger_el_planeta",
+      "id": "naturaleza_lugares_hay_que_proteger_el_planeta",
+      "target": [
+        {
+          "text": "Hay que proteger el planeta.",
+          "audioSlug": "hay_que_proteger_el_planeta"
+        }
+      ]
+    },
+    "es.sitios_tomamos_un_cafe_en_la_cafeteria": {
+      "conceptId": "es.sitios_tomamos_un_cafe_en_la_cafeteria",
+      "id": "sitios_tomamos_un_cafe_en_la_cafeteria",
+      "target": [
+        {
+          "text": "Tomamos un café en la cafetería.",
+          "audioSlug": "tomamos_un_cafe_en_la_cafeteria"
+        }
+      ]
+    },
+    "es.transportation_el_viaje_en_tren_es_comodo": {
+      "conceptId": "es.transportation_el_viaje_en_tren_es_comodo",
+      "id": "transportation_el_viaje_en_tren_es_comodo",
+      "target": [
+        {
+          "text": "El viaje en tren es muy cómodo.",
+          "audioSlug": "el_viaje_en_tren_es_muy_comodo"
+        }
+      ]
+    },
+    "es.transportation_la_rueda_de_la_bici_esta_pinchada": {
+      "conceptId": "es.transportation_la_rueda_de_la_bici_esta_pinchada",
+      "id": "transportation_la_rueda_de_la_bici_esta_pinchada",
+      "target": [
+        {
+          "text": "La rueda de la bici está pinchada.",
+          "audioSlug": "la_rueda_de_la_bici_esta_pinchada"
+        }
+      ]
+    },
+    "es.weather_it_will_be_sunny_tomorrow": {
+      "conceptId": "es.weather_it_will_be_sunny_tomorrow",
+      "id": "weather_it_will_be_sunny_tomorrow",
+      "target": [
+        {
+          "text": "Mañana estará soleado.",
+          "audioSlug": "manana_estara_soleado"
+        }
+      ]
+    }
+  }
+}

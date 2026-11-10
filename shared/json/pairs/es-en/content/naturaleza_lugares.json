@@ -1,30 +1,306 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "naturaleza_lugares",
-  "conceptIds": [
-    "en.naturaleza_lugares_what_a_tall_mountain",
-    "en.naturaleza_lugares_i_like_the_beach",
-    "en.naturaleza_lugares_my_garden_is_small",
-    "en.naturaleza_lugares_the_river_is_wide",
-    "en.naturaleza_lugares_that_is_not_an_island",
-    "en.naturaleza_lugares_this_is_a_tree",
-    "en.naturaleza_lugares_the_lake_is_very_big",
-    "en.naturaleza_lugares_the_forest_was_dark",
-    "en.naturaleza_lugares_the_sea_is_calm_today",
-    "en.naturaleza_lugares_i_love_nature",
-    "en.naturaleza_lugares_the_sky_is_blue",
-    "en.naturaleza_lugares_the_sun_rises_early",
-    "en.naturaleza_lugares_i_can_see_a_star",
-    "en.naturaleza_lugares_this_is_a_beautiful_flower",
-    "en.naturaleza_lugares_i_water_the_plant",
-    "en.naturaleza_lugares_the_fire_is_hot",
-    "en.naturaleza_lugares_it_is_a_big_rock",
-    "en.naturaleza_lugares_plants_die_without_water",
-    "en.naturaleza_lugares_we_must_protect_the_environment",
-    "en.naturaleza_lugares_the_grass_is_green",
-    "en.naturaleza_lugares_these_flowers_are_natural",
-    "en.naturaleza_lugares_the_water_is_deep",
-    "en.naturaleza_lugares_birds_above_trees"
+  "phrases": [
+    {
+      "conceptId": "en.naturaleza_lugares_what_a_tall_mountain",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3c05ca3aef8d2234"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_i_like_the_beach",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1abad7daa2e3bd3a"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_my_garden_is_small",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.28a9e7ad6750ce32"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_the_river_is_wide",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8800a868f83ffb0b"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_that_is_not_an_island",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.918a408c060d2069"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_this_is_a_tree",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ccd3820b5ae9fffb"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_the_lake_is_very_big",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.16a9aa6e7d626dde"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_the_forest_was_dark",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.90ffd6f96db7b64d"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_the_sea_is_calm_today",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d044329f307ffb40"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_i_love_nature",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.be939352336a3579"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_the_sky_is_blue",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.33e2b9a66d0cf2bc"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_the_sun_rises_early",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9ad4c1ca0a0c2f0f"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_i_can_see_a_star",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3e1ec765ba3c5101"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_this_is_a_beautiful_flower",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.76d031ec101ced79"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_i_water_the_plant",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1a79b6fabc8158d4"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_the_fire_is_hot",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d5180c578a0576df"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_it_is_a_big_rock",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.519dbafaafd26500"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_plants_die_without_water",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4d93d128d0ed6d1f"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_we_must_protect_the_environment",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5f03b2fdec64f4ec"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_the_grass_is_green",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5ea2bfc1f619812b"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_these_flowers_are_natural",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.be842a533e9ee6a5"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_the_water_is_deep",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a2d76ada861328cc"
+    },
+    {
+      "conceptId": "en.naturaleza_lugares_birds_above_trees",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.98292d3c16f2fb45"
+    }
   ]
 }

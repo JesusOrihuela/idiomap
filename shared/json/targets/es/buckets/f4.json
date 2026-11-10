@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "f4",
+  "concepts": {
+    "es.conversacion_puedes_disponer_de_mi_ayuda": {
+      "conceptId": "es.conversacion_puedes_disponer_de_mi_ayuda",
+      "id": "conversacion_puedes_disponer_de_mi_ayuda",
+      "target": [
+        {
+          "text": "Puedes disponer de mi ayuda.",
+          "audioSlug": "puedes_disponer_de_mi_ayuda",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Puede disponer de mi ayuda.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_disponer_de_mi_ayuda"
+        }
+      ]
+    },
+    "es.daily_routine_me_visto_rapido": {
+      "conceptId": "es.daily_routine_me_visto_rapido",
+      "id": "daily_routine_me_visto_rapido",
+      "target": [
+        {
+          "text": "Me visto rápido.",
+          "audioSlug": "me_visto_rapido"
+        }
+      ]
+    },
+    "es.emociones_why_are_you_tired": {
+      "conceptId": "es.emociones_why_are_you_tired",
+      "id": "emociones_why_are_you_tired",
+      "target": [
+        {
+          "text": "¿Por qué estás cansado?",
+          "audioSlug": "por_que_estas_cansado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás cansada?",
+          "audioSlug": "por_que_estas_cansada",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.fiesta_vamos_a_celebrar_juntos": {
+      "conceptId": "es.fiesta_vamos_a_celebrar_juntos",
+      "id": "fiesta_vamos_a_celebrar_juntos",
+      "target": [
+        {
+          "text": "Vamos a celebrar juntos.",
+          "audioSlug": "vamos_a_celebrar_juntos"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_no_debemos_permitir_la_injusticia": {
+      "conceptId": "es.pensamientos_opiniones_no_debemos_permitir_la_injusticia",
+      "id": "pensamientos_opiniones_no_debemos_permitir_la_injusticia",
+      "target": [
+        {
+          "text": "No debemos permitir la injusticia.",
+          "audioSlug": "no_debemos_permitir_la_injusticia"
+        }
+      ]
+    },
+    "es.restaurant_quiero_una_cerveza": {
+      "conceptId": "es.restaurant_quiero_una_cerveza",
+      "id": "restaurant_quiero_una_cerveza",
+      "target": [
+        {
+          "text": "Quiero una cerveza.",
+          "audioSlug": "quiero_una_cerveza"
+        }
+      ]
+    },
+    "es.supermarket_donde_esta_la_seccion_de_limpieza": {
+      "conceptId": "es.supermarket_donde_esta_la_seccion_de_limpieza",
+      "id": "supermarket_donde_esta_la_seccion_de_limpieza",
+      "target": [
+        {
+          "text": "¿Dónde está la sección de productos de limpieza?",
+          "audioSlug": "donde_esta_la_seccion_de_productos_de_limpieza"
+        }
+      ]
+    },
+    "es.survival_i_dont_know.en-es": {
+      "conceptId": "es.survival_i_dont_know.en-es",
+      "id": "survival_i_dont_know_en",
+      "target": [
+        {
+          "text": "No lo sé.",
+          "audioSlug": "no_lo_se"
+        }
+      ]
+    },
+    "es.survival_no_quiero_ocupar_mucho_de_tu_tiempo": {
+      "conceptId": "es.survival_no_quiero_ocupar_mucho_de_tu_tiempo",
+      "id": "survival_no_quiero_ocupar_mucho_de_tu_tiempo",
+      "target": [
+        {
+          "text": "No quiero ocupar mucho de tu tiempo.",
+          "audioSlug": "no_quiero_ocupar_mucho_de_tu_tiempo"
+        }
+      ]
+    },
+    "es.theater_actors_incredible_performance": {
+      "conceptId": "es.theater_actors_incredible_performance",
+      "id": "theater_actors_incredible_performance",
+      "target": [
+        {
+          "text": "Los actores estuvieron increíbles en una actuación muy poderosa.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "los_actores_estuvieron_increibles_en_una_actuacion_muy_poderosa"
+        },
+        {
+          "text": "Las actrices estuvieron increíbles en una actuación muy poderosa.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "las_actrices_estuvieron_increibles_en_una_actuacion_muy_poderosa"
+        }
+      ]
+    },
+    "es.tiempo_libre_en_el_parque_hay_una_estatua_de_bronce": {
+      "conceptId": "es.tiempo_libre_en_el_parque_hay_una_estatua_de_bronce",
+      "id": "tiempo_libre_en_el_parque_hay_una_estatua_de_bronce",
+      "target": [
+        {
+          "text": "En el parque hay una estatua de bronce.",
+          "audioSlug": "en_el_parque_hay_una_estatua_de_bronce"
+        }
+      ]
+    },
+    "es.tiempo_libre_salimos_a_andar_por_el_parque": {
+      "conceptId": "es.tiempo_libre_salimos_a_andar_por_el_parque",
+      "id": "tiempo_libre_salimos_a_andar_por_el_parque",
+      "target": [
+        {
+          "text": "Salimos a andar por el parque.",
+          "audioSlug": "salimos_a_andar_por_el_parque"
+        }
+      ]
+    },
+    "es.transportation_este_es_un_buen_sitio_para_aparcar": {
+      "conceptId": "es.transportation_este_es_un_buen_sitio_para_aparcar",
+      "id": "transportation_este_es_un_buen_sitio_para_aparcar",
+      "target": [
+        {
+          "text": "Este es un buen sitio para aparcar.",
+          "audioSlug": "este_es_un_buen_sitio_para_aparcar"
+        }
+      ]
+    },
+    "es.viajes_estoy_planeando_mis_proximas_vacaciones": {
+      "conceptId": "es.viajes_estoy_planeando_mis_proximas_vacaciones",
+      "id": "viajes_estoy_planeando_mis_proximas_vacaciones",
+      "target": [
+        {
+          "text": "Estoy planeando mis próximas vacaciones.",
+          "audioSlug": "estoy_planeando_mis_proximas_vacaciones"
+        }
+      ]
+    }
+  }
+}

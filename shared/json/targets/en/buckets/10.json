@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "10",
+  "concepts": {
+    "en.accountability_the_accounts_receivable_turnover_ratio": {
+      "conceptId": "en.accountability_the_accounts_receivable_turnover_ratio",
+      "id": "accountability_the_accounts_receivable_turnover_ratio",
+      "target": [
+        {
+          "text": "The accounts receivable turnover ratio indicates how efficiently we collect outstanding debts.",
+          "audioSlug": "the_accounts_receivable_turnover_ratio_indicates_how_efficiently_we_collect_outstanding_debts"
+        }
+      ]
+    },
+    "en.conversacion_i_have_no_comment": {
+      "conceptId": "en.conversacion_i_have_no_comment",
+      "id": "conversacion_i_have_no_comment",
+      "target": [
+        {
+          "text": "I have no comment.",
+          "audioSlug": "i_have_no_comment"
+        }
+      ]
+    },
+    "en.daily_routine_i_sleep_eight_hours": {
+      "conceptId": "en.daily_routine_i_sleep_eight_hours",
+      "id": "daily_routine_i_sleep_eight_hours",
+      "target": [
+        {
+          "text": "I sleep eight hours.",
+          "audioSlug": "i_sleep_eight_hours"
+        }
+      ]
+    },
+    "en.emociones_why_are_you_worried": {
+      "conceptId": "en.emociones_why_are_you_worried",
+      "id": "emociones_why_are_you_worried",
+      "target": [
+        {
+          "text": "Why are you worried?",
+          "audioSlug": "why_are_you_worried"
+        }
+      ]
+    },
+    "en.estudios_i_study_at_the_university": {
+      "conceptId": "en.estudios_i_study_at_the_university",
+      "id": "estudios_i_study_at_the_university",
+      "target": [
+        {
+          "text": "I study at the university.",
+          "audioSlug": "i_study_at_the_university"
+        }
+      ]
+    },
+    "en.family_my_daughter_student": {
+      "conceptId": "en.family_my_daughter_student",
+      "id": "family_my_daughter_student",
+      "target": [
+        {
+          "text": "My daughter is a student.",
+          "audioSlug": "my_daughter_is_a_student"
+        }
+      ]
+    },
+    "en.fiesta_blow_out_the_candles": {
+      "conceptId": "en.fiesta_blow_out_the_candles",
+      "id": "fiesta_blow_out_the_candles",
+      "target": [
+        {
+          "text": "Blow out the candles.",
+          "audioSlug": "blow_out_the_candles"
+        }
+      ]
+    },
+    "en.greetings_good_afternoon": {
+      "conceptId": "en.greetings_good_afternoon",
+      "id": "greetings_good_afternoon",
+      "target": [
+        {
+          "text": "Good afternoon!",
+          "audioSlug": "good_afternoon"
+        }
+      ]
+    },
+    "en.viajes_how_much_does_your_suitcase_weigh": {
+      "conceptId": "en.viajes_how_much_does_your_suitcase_weigh",
+      "id": "viajes_how_much_does_your_suitcase_weigh",
+      "target": [
+        {
+          "text": "How much does your suitcase weigh?",
+          "audioSlug": "how_much_does_your_suitcase_weigh"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "bucket": "5c",
+  "concepts": {
+    "de.restaurant_i_take_a_bread_roll": {
+      "conceptId": "de.restaurant_i_take_a_bread_roll",
+      "id": "restaurant_i_take_a_bread_roll",
+      "target": [
+        {
+          "text": "Ich nehme ein Brötchen.",
+          "labels": {
+            "region": "Deutschland"
+          },
+          "audioSlug": "ich_nehme_ein_brotchen"
+        },
+        {
+          "text": "Ich nehme eine Semmel.",
+          "labels": {
+            "region": "Österreich"
+          },
+          "audioSlug": "ich_nehme_eine_semmel"
+        },
+        {
+          "text": "Ich nehme ein Brötli.",
+          "labels": {
+            "region": "Schweiz"
+          },
+          "audioSlug": "ich_nehme_ein_brotli"
+        }
+      ]
+    }
+  }
+}

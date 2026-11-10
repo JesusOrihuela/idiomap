@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "d6",
+  "concepts": {
+    "en.conversacion_try_to_guess": {
+      "conceptId": "en.conversacion_try_to_guess",
+      "id": "conversacion_try_to_guess",
+      "target": [
+        {
+          "text": "Try to guess.",
+          "audioSlug": "try_to_guess"
+        }
+      ]
+    },
+    "en.cotidianidad_i_forgot_to_buy_bread": {
+      "conceptId": "en.cotidianidad_i_forgot_to_buy_bread",
+      "id": "cotidianidad_i_forgot_to_buy_bread",
+      "target": [
+        {
+          "text": "I forgot to buy bread.",
+          "audioSlug": "i_forgot_to_buy_bread"
+        }
+      ]
+    },
+    "en.planes_if_were_rich_would_travel": {
+      "conceptId": "en.planes_if_were_rich_would_travel",
+      "id": "planes_if_were_rich_would_travel",
+      "target": [
+        {
+          "text": "If I were rich, I would travel the world.",
+          "audioSlug": "if_i_were_rich_i_would_travel_the_world"
+        }
+      ]
+    },
+    "en.transportation_subway_single_fare": {
+      "conceptId": "en.transportation_subway_single_fare",
+      "id": "transportation_subway_single_fare",
+      "target": [
+        {
+          "text": "How much is a single-journey ticket for the subway?",
+          "audioSlug": "how_much_is_a_single_journey_ticket_for_the_subway"
+        }
+      ]
+    }
+  }
+}

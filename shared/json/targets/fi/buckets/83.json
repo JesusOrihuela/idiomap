@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "fi",
+  "bucket": "83",
+  "concepts": {
+    "fi.survival_can_you_help_me": {
+      "conceptId": "fi.survival_can_you_help_me",
+      "id": "survival_can_you_help_me",
+      "target": [
+        {
+          "text": "Voitko auttaa minua?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "voitko_auttaa_minua"
+        },
+        {
+          "text": "Voitteko auttaa minua?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "voitteko_auttaa_minua"
+        }
+      ]
+    }
+  }
+}

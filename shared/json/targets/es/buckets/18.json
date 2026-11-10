@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "18",
+  "concepts": {
+    "es.descripciones_mi_hermano_es_mas_bajo": {
+      "conceptId": "es.descripciones_mi_hermano_es_mas_bajo",
+      "id": "descripciones_mi_hermano_es_mas_bajo",
+      "target": [
+        {
+          "text": "Mi hermano es más bajo que yo.",
+          "audioSlug": "mi_hermano_es_mas_bajo_que_yo"
+        }
+      ]
+    },
+    "es.directions_how_to_get_to": {
+      "conceptId": "es.directions_how_to_get_to",
+      "id": "directions_how_to_get_to",
+      "target": [
+        {
+          "text": "¿Cómo llego a la estación?",
+          "audioSlug": "como_llego_a_la_estacion"
+        }
+      ]
+    },
+    "es.estudios_meto_los_cuadernos_en_la_cartera": {
+      "conceptId": "es.estudios_meto_los_cuadernos_en_la_cartera",
+      "id": "estudios_meto_los_cuadernos_en_la_cartera",
+      "target": [
+        {
+          "text": "Meto los cuadernos en la cartera.",
+          "audioSlug": "meto_los_cuadernos_en_la_cartera"
+        }
+      ]
+    },
+    "es.greetings_mucho_gusto": {
+      "conceptId": "es.greetings_mucho_gusto",
+      "id": "greetings_mucho_gusto",
+      "target": [
+        {
+          "text": "Mucho gusto.",
+          "audioSlug": "mucho_gusto"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_la_realidad_es_mas_compleja": {
+      "conceptId": "es.pensamientos_opiniones_la_realidad_es_mas_compleja",
+      "id": "pensamientos_opiniones_la_realidad_es_mas_compleja",
+      "target": [
+        {
+          "text": "La realidad es más compleja.",
+          "audioSlug": "la_realidad_es_mas_compleja"
+        }
+      ]
+    },
+    "es.sitios_la_sinagoga_es_el_templo_judio": {
+      "conceptId": "es.sitios_la_sinagoga_es_el_templo_judio",
+      "id": "sitios_la_sinagoga_es_el_templo_judio",
+      "target": [
+        {
+          "text": "La sinagoga es el templo judío.",
+          "audioSlug": "la_sinagoga_es_el_templo_judio"
+        }
+      ]
+    },
+    "es.tiempo_libre_los_conciertos_en_vivo_son_emocionantes": {
+      "conceptId": "es.tiempo_libre_los_conciertos_en_vivo_son_emocionantes",
+      "id": "tiempo_libre_los_conciertos_en_vivo_son_emocionantes",
+      "target": [
+        {
+          "text": "Los conciertos en vivo son emocionantes.",
+          "audioSlug": "los_conciertos_en_vivo_son_emocionantes"
+        }
+      ]
+    },
+    "es.vestimenta_es_un_vestido_lindo": {
+      "conceptId": "es.vestimenta_es_un_vestido_lindo",
+      "id": "vestimenta_es_un_vestido_lindo",
+      "target": [
+        {
+          "text": "Es un vestido lindo.",
+          "audioSlug": "es_un_vestido_lindo"
+        }
+      ]
+    }
+  }
+}

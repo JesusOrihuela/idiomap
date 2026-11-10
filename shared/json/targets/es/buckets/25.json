@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "25",
+  "concepts": {
+    "es.accommodation_room_sea_view": {
+      "conceptId": "es.accommodation_room_sea_view",
+      "id": "accommodation_room_sea_view",
+      "target": [
+        {
+          "text": "Preferiría una habitación con vista al mar aunque cueste más.",
+          "audioSlug": "preferiria_una_habitacion_con_vista_al_mar_aunque_cueste_mas"
+        }
+      ]
+    },
+    "es.accountability_walk_through_reconciliation_management_statutory": {
+      "conceptId": "es.accountability_walk_through_reconciliation_management_statutory",
+      "id": "accountability_walk_through_reconciliation_management_statutory",
+      "target": [
+        {
+          "text": "¿Podrías explicarme la conciliación entre las cuentas de gestión y las cifras estatutarias?",
+          "audioSlug": "podrias_explicarme_la_conciliacion_entre_las_cuentas_de_gestion_y_las_cifras_estatutarias"
+        }
+      ]
+    },
+    "es.descripciones_el_puente_es_de_metal": {
+      "conceptId": "es.descripciones_el_puente_es_de_metal",
+      "id": "descripciones_el_puente_es_de_metal",
+      "target": [
+        {
+          "text": "El puente es de metal.",
+          "audioSlug": "el_puente_es_de_metal"
+        }
+      ]
+    },
+    "es.economia_recibi_un_paquete_con_la_compra": {
+      "conceptId": "es.economia_recibi_un_paquete_con_la_compra",
+      "id": "economia_recibi_un_paquete_con_la_compra",
+      "target": [
+        {
+          "text": "Recibí un paquete con la compra.",
+          "audioSlug": "recibi_un_paquete_con_la_compra"
+        }
+      ]
+    },
+    "es.emociones_why_are_you_confused": {
+      "conceptId": "es.emociones_why_are_you_confused",
+      "id": "emociones_why_are_you_confused",
+      "target": [
+        {
+          "text": "¿Por qué estás confundido?",
+          "audioSlug": "por_que_estas_confundido",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás confundida?",
+          "audioSlug": "por_que_estas_confundida",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.estudios_mi_hija_estudia_en_el_instituto": {
+      "conceptId": "es.estudios_mi_hija_estudia_en_el_instituto",
+      "id": "estudios_mi_hija_estudia_en_el_instituto",
+      "target": [
+        {
+          "text": "Mi hija estudia en el instituto.",
+          "audioSlug": "mi_hija_estudia_en_el_instituto"
+        }
+      ]
+    },
+    "es.family_mi_marido_cocina_muy_bien": {
+      "conceptId": "es.family_mi_marido_cocina_muy_bien",
+      "id": "family_mi_marido_cocina_muy_bien",
+      "target": [
+        {
+          "text": "Mi marido cocina muy bien.",
+          "audioSlug": "mi_marido_cocina_muy_bien"
+        }
+      ]
+    },
+    "es.greetings_buenas_noches": {
+      "conceptId": "es.greetings_buenas_noches",
+      "id": "greetings_buenas_noches",
+      "target": [
+        {
+          "text": "¡Buenas noches!",
+          "audioSlug": "buenas_noches"
+        }
+      ]
+    },
+    "es.health_tenemos_que_ir_a_urgencias_ya": {
+      "conceptId": "es.health_tenemos_que_ir_a_urgencias_ya",
+      "id": "health_tenemos_que_ir_a_urgencias_ya",
+      "target": [
+        {
+          "text": "Tenemos que ir a urgencias ya.",
+          "audioSlug": "tenemos_que_ir_a_urgencias_ya"
+        }
+      ]
+    },
+    "es.music_discovered_through_algorithm": {
+      "conceptId": "es.music_discovered_through_algorithm",
+      "id": "music_discovered_through_algorithm",
+      "target": [
+        {
+          "text": "Descubrí esta banda gracias al algoritmo y nunca la habría encontrado de otro modo.",
+          "audioSlug": "descubri_esta_banda_gracias_al_algoritmo_y_nunca_la_habria_encontrado_de_otro_modo"
+        }
+      ]
+    },
+    "es.oficina_trabajo_de_lunes_a_viernes": {
+      "conceptId": "es.oficina_trabajo_de_lunes_a_viernes",
+      "id": "oficina_trabajo_de_lunes_a_viernes",
+      "target": [
+        {
+          "text": "Trabajo de lunes a viernes.",
+          "audioSlug": "trabajo_de_lunes_a_viernes"
+        }
+      ]
+    },
+    "es.planes_vamos_a_resolver_el_problema": {
+      "conceptId": "es.planes_vamos_a_resolver_el_problema",
+      "id": "planes_vamos_a_resolver_el_problema",
+      "target": [
+        {
+          "text": "Vamos a resolver el problema.",
+          "audioSlug": "vamos_a_resolver_el_problema"
+        }
+      ]
+    },
+    "es.restaurant_es_un_plato_tipico": {
+      "conceptId": "es.restaurant_es_un_plato_tipico",
+      "id": "restaurant_es_un_plato_tipico",
+      "target": [
+        {
+          "text": "Es un plato típico.",
+          "audioSlug": "es_un_plato_tipico"
+        }
+      ]
+    },
+    "es.supermarket_do_you_have_fresh_chicken": {
+      "conceptId": "es.supermarket_do_you_have_fresh_chicken",
+      "id": "supermarket_do_you_have_fresh_chicken",
+      "target": [
+        {
+          "text": "¿Tienen pollo fresco?",
+          "audioSlug": "tienen_pollo_fresco"
+        }
+      ]
+    },
+    "es.supermarket_prefiero_esta_marca_de_cafe": {
+      "conceptId": "es.supermarket_prefiero_esta_marca_de_cafe",
+      "id": "supermarket_prefiero_esta_marca_de_cafe",
+      "target": [
+        {
+          "text": "Prefiero esta marca de café.",
+          "audioSlug": "prefiero_esta_marca_de_cafe"
+        }
+      ]
+    },
+    "es.tiempo_libre_enjoy_reading_before_bed": {
+      "conceptId": "es.tiempo_libre_enjoy_reading_before_bed",
+      "id": "tiempo_libre_enjoy_reading_before_bed",
+      "target": [
+        {
+          "text": "Disfruto leer antes de dormir.",
+          "audioSlug": "disfruto_leer_antes_de_dormir"
+        }
+      ]
+    },
+    "es.transportation_donde_puedo_comprar_un_boleto": {
+      "conceptId": "es.transportation_donde_puedo_comprar_un_boleto",
+      "id": "transportation_donde_puedo_comprar_un_boleto",
+      "target": [
+        {
+          "text": "¿Dónde puedo comprar un boleto?",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "donde_puedo_comprar_un_boleto"
+        },
+        {
+          "text": "¿Dónde puedo comprar un billete?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "donde_puedo_comprar_un_billete"
+        }
+      ]
+    },
+    "es.weather_habia_niebla_en_la_carretera": {
+      "conceptId": "es.weather_habia_niebla_en_la_carretera",
+      "id": "weather_habia_niebla_en_la_carretera",
+      "target": [
+        {
+          "text": "Había niebla en la carretera.",
+          "audioSlug": "habia_niebla_en_la_carretera"
+        }
+      ]
+    }
+  }
+}

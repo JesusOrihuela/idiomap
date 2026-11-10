@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "4c",
+  "concepts": {
+    "es.conversacion_no_te_puedo_oir": {
+      "conceptId": "es.conversacion_no_te_puedo_oir",
+      "id": "conversacion_no_te_puedo_oir",
+      "target": [
+        {
+          "text": "No te puedo oír.",
+          "audioSlug": "no_te_puedo_oir"
+        }
+      ]
+    },
+    "es.hogar_eres_mi_invitado": {
+      "conceptId": "es.hogar_eres_mi_invitado",
+      "id": "hogar_eres_mi_invitado",
+      "target": [
+        {
+          "text": "Eres mi invitado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "eres_mi_invitado"
+        },
+        {
+          "text": "Eres mi invitada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "eres_mi_invitada"
+        }
+      ]
+    },
+    "es.technology_tomorrow_we_are_going_to_have": {
+      "conceptId": "es.technology_tomorrow_we_are_going_to_have",
+      "id": "technology_tomorrow_we_are_going_to_have",
+      "target": [
+        {
+          "text": "Mañana vamos a hacer una videollamada con la familia.",
+          "audioSlug": "manana_vamos_a_hacer_una_videollamada_con_la_familia"
+        }
+      ]
+    },
+    "es.vestimenta_llevo_el_bolso_al_hombro": {
+      "conceptId": "es.vestimenta_llevo_el_bolso_al_hombro",
+      "id": "vestimenta_llevo_el_bolso_al_hombro",
+      "target": [
+        {
+          "text": "Llevo el bolso al hombro.",
+          "audioSlug": "llevo_el_bolso_al_hombro"
+        }
+      ]
+    }
+  }
+}

@@ -1,24 +1,228 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "deportes",
-  "conceptIds": [
-    "en.deportes_i_like_sport",
-    "en.deportes_i_want_to_win",
-    "en.deportes_we_might_lose",
-    "en.deportes_i_lost_the_game",
-    "en.deportes_what_a_great_team",
-    "en.deportes_i_run_every_morning",
-    "en.deportes_i_can_swim_well",
-    "en.deportes_catch_the_ball",
-    "en.deportes_throw_the_ball",
-    "en.deportes_hit_the_ball",
-    "en.deportes_she_is_a_great_player",
-    "en.deportes_tom_won_the_competition",
-    "en.deportes_i_want_to_join_the_team",
-    "en.deportes_i_ran_around_the_field",
-    "en.deportes_i_run_in_the_park_in_the_mornings",
-    "en.deportes_i_practice_sports",
-    "en.deportes_the_race_is_over"
+  "phrases": [
+    {
+      "conceptId": "en.deportes_i_like_sport",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8e76f070e831d022"
+    },
+    {
+      "conceptId": "en.deportes_i_want_to_win",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.14d9c524097ff855"
+    },
+    {
+      "conceptId": "en.deportes_we_might_lose",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9dce7ae3dc5b0fcb"
+    },
+    {
+      "conceptId": "en.deportes_i_lost_the_game",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.84f3b9c15805f991"
+    },
+    {
+      "conceptId": "en.deportes_what_a_great_team",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8896a26bb355d429"
+    },
+    {
+      "conceptId": "en.deportes_i_run_every_morning",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ee57a78c77ec9f57"
+    },
+    {
+      "conceptId": "en.deportes_i_can_swim_well",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.87cacaaaa69a0b1a"
+    },
+    {
+      "conceptId": "en.deportes_catch_the_ball",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.97e3462a9e54261d"
+    },
+    {
+      "conceptId": "en.deportes_throw_the_ball",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.64573d868bec5d9b"
+    },
+    {
+      "conceptId": "en.deportes_hit_the_ball",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5256002e01dc9ba4"
+    },
+    {
+      "conceptId": "en.deportes_she_is_a_great_player",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.af1819f79997def2"
+    },
+    {
+      "conceptId": "en.deportes_tom_won_the_competition",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.51b77db3bb12d2f8"
+    },
+    {
+      "conceptId": "en.deportes_i_want_to_join_the_team",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bdb3511f5b482321"
+    },
+    {
+      "conceptId": "en.deportes_i_ran_around_the_field",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4732ce25b31933d0"
+    },
+    {
+      "conceptId": "en.deportes_i_run_in_the_park_in_the_mornings",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b2d387ee0ad0f727"
+    },
+    {
+      "conceptId": "en.deportes_i_practice_sports",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.39c812b2699b15e7"
+    },
+    {
+      "conceptId": "en.deportes_the_race_is_over",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0facbe3f4f8fb04e"
+    }
   ]
 }

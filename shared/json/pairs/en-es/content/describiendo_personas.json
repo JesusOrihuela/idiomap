@@ -1,40 +1,436 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "describiendo_personas",
-  "conceptIds": [
-    "es.describiendo_personas_es_un_buen_chico",
-    "es.describiendo_personas_ese_senor_es_muy_amable",
-    "es.describiendo_personas_es_un_hombre_honrado",
-    "es.describiendo_personas_es_una_mujer_muy_fuerte",
-    "es.describiendo_personas_ese_muchacho_es_muy_listo",
-    "es.describiendo_personas_son_buena_gente",
-    "es.describiendo_personas_soy_joven",
-    "es.describiendo_personas_es_muy_famoso",
-    "es.describiendo_personas_es_muy_guapo",
-    "es.describiendo_personas_soy_vieja",
-    "es.describiendo_personas_es_muy_rico",
-    "es.describiendo_personas_es_pobre",
-    "es.describiendo_personas_eres_fuerte",
-    "es.describiendo_personas_es_un_heroe_nacional",
-    "es.describiendo_personas_mi_vecino_es_muy_simpatico",
-    "es.describiendo_personas_tiene_una_voz_bonita",
-    "es.describiendo_personas_siempre_sonrie",
-    "es.describiendo_personas_tiene_mucho_caracter",
-    "es.describiendo_personas_su_esposo_es_alto",
-    "es.describiendo_personas_soy_responsable",
-    "es.describiendo_personas_tiene_buen_aspecto",
-    "es.describiendo_personas_mi_tio_es_gordo",
-    "es.describiendo_personas_mi_hermana_es_delgada",
-    "es.describiendo_personas_mi_hijo_es_timido",
-    "es.describiendo_personas_ella_es_sociable",
-    "es.describiendo_personas_ese_hombre_es_antipatico",
-    "es.describiendo_personas_mi_abuelo_es_generoso",
-    "es.describiendo_personas_ella_es_optimista",
-    "es.describiendo_personas_mi_tio_es_calvo",
-    "es.describiendo_personas_mi_abuela_quedo_viuda",
-    "es.describiendo_personas_es_una_persona_alegre",
-    "es.describiendo_personas_el_nino_es_rubio",
-    "es.describiendo_personas_el_nino_es_listo"
+  "phrases": [
+    {
+      "conceptId": "es.describiendo_personas_es_un_buen_chico",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b9d78b09aff51d26"
+    },
+    {
+      "conceptId": "es.describiendo_personas_ese_senor_es_muy_amable",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1294d91ca648ece9"
+    },
+    {
+      "conceptId": "es.describiendo_personas_es_un_hombre_honrado",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f1b205b0da71acc0"
+    },
+    {
+      "conceptId": "es.describiendo_personas_es_una_mujer_muy_fuerte",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1bf8934b43e7ea54"
+    },
+    {
+      "conceptId": "es.describiendo_personas_ese_muchacho_es_muy_listo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.782e12c6d55eeeb5"
+    },
+    {
+      "conceptId": "es.describiendo_personas_son_buena_gente",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1600464dbf49a730"
+    },
+    {
+      "conceptId": "es.describiendo_personas_soy_joven",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1ac89a6715b3e391"
+    },
+    {
+      "conceptId": "es.describiendo_personas_es_muy_famoso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d0d89cfe953a2f19"
+    },
+    {
+      "conceptId": "es.describiendo_personas_es_muy_guapo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4abba8206e509278"
+    },
+    {
+      "conceptId": "es.describiendo_personas_soy_vieja",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.61ff2b716790c3cf"
+    },
+    {
+      "conceptId": "es.describiendo_personas_es_muy_rico",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d0bb57f1ef5587ff"
+    },
+    {
+      "conceptId": "es.describiendo_personas_es_pobre",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a36d13988831877d"
+    },
+    {
+      "conceptId": "es.describiendo_personas_eres_fuerte",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8026cbd12bdc976c"
+    },
+    {
+      "conceptId": "es.describiendo_personas_es_un_heroe_nacional",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1401b5458ea999a0"
+    },
+    {
+      "conceptId": "es.describiendo_personas_mi_vecino_es_muy_simpatico",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1cb5e26526edf4d6"
+    },
+    {
+      "conceptId": "es.describiendo_personas_tiene_una_voz_bonita",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ae09e93079d3ab4f"
+    },
+    {
+      "conceptId": "es.describiendo_personas_siempre_sonrie",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.727af011aacb4e25"
+    },
+    {
+      "conceptId": "es.describiendo_personas_tiene_mucho_caracter",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.580bb06981afc891"
+    },
+    {
+      "conceptId": "es.describiendo_personas_su_esposo_es_alto",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5777578186a77f24"
+    },
+    {
+      "conceptId": "es.describiendo_personas_soy_responsable",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ddea1d54da0ce89d"
+    },
+    {
+      "conceptId": "es.describiendo_personas_tiene_buen_aspecto",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a4e31fdc7eb8563f"
+    },
+    {
+      "conceptId": "es.describiendo_personas_mi_tio_es_gordo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.570424032c2e89b7"
+    },
+    {
+      "conceptId": "es.describiendo_personas_mi_hermana_es_delgada",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.37950a1eb34a1094"
+    },
+    {
+      "conceptId": "es.describiendo_personas_mi_hijo_es_timido",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c239bcd8e53566b6"
+    },
+    {
+      "conceptId": "es.describiendo_personas_ella_es_sociable",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b4d14aae4f427351"
+    },
+    {
+      "conceptId": "es.describiendo_personas_ese_hombre_es_antipatico",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b80b6b18b516eca3"
+    },
+    {
+      "conceptId": "es.describiendo_personas_mi_abuelo_es_generoso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.430e4bc3d2acf93b"
+    },
+    {
+      "conceptId": "es.describiendo_personas_ella_es_optimista",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ce472bdf1979c187"
+    },
+    {
+      "conceptId": "es.describiendo_personas_mi_tio_es_calvo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5416661073412658"
+    },
+    {
+      "conceptId": "es.describiendo_personas_mi_abuela_quedo_viuda",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d2512a705873a813"
+    },
+    {
+      "conceptId": "es.describiendo_personas_es_una_persona_alegre",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6d501573042780a7"
+    },
+    {
+      "conceptId": "es.describiendo_personas_el_nino_es_rubio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a25b8d00c5b3b866"
+    },
+    {
+      "conceptId": "es.describiendo_personas_el_nino_es_listo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0c72cefd8844de8d"
+    }
   ]
 }

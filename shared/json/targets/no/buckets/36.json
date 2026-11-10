@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "no",
+  "bucket": "36",
+  "concepts": {
+    "no.personal_info_my_name_is": {
+      "conceptId": "no.personal_info_my_name_is",
+      "id": "personal_info_my_name_is",
+      "target": [
+        {
+          "text": "Jeg heter Kari.",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "jeg_heter_kari"
+        },
+        {
+          "text": "Eg heiter Kari.",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "eg_heiter_kari"
+        }
+      ]
+    }
+  }
+}

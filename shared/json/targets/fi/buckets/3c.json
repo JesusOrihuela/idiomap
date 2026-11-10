@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "fi",
+  "bucket": "3c",
+  "concepts": {
+    "fi.survival_do_you_speak_english": {
+      "conceptId": "fi.survival_do_you_speak_english",
+      "id": "survival_do_you_speak_english",
+      "target": [
+        {
+          "text": "Anteeksi, puhutko englantia?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "anteeksi_puhutko_englantia"
+        },
+        {
+          "text": "Anteeksi, puhutteko englantia?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "anteeksi_puhutteko_englantia"
+        }
+      ]
+    }
+  }
+}

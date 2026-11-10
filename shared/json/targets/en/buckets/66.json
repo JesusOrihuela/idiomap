@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "66",
+  "concepts": {
+    "en.conversacion_please_speak_up": {
+      "conceptId": "en.conversacion_please_speak_up",
+      "id": "conversacion_please_speak_up",
+      "target": [
+        {
+          "text": "Please speak up.",
+          "audioSlug": "please_speak_up"
+        }
+      ]
+    },
+    "en.deportes_what_a_great_team": {
+      "conceptId": "en.deportes_what_a_great_team",
+      "id": "deportes_what_a_great_team",
+      "target": [
+        {
+          "text": "What a great team!",
+          "audioSlug": "what_a_great_team"
+        }
+      ]
+    },
+    "en.greetings_ive_had_better_days": {
+      "conceptId": "en.greetings_ive_had_better_days",
+      "id": "greetings_ive_had_better_days",
+      "target": [
+        {
+          "text": "I've had better days.",
+          "audioSlug": "i_ve_had_better_days"
+        }
+      ]
+    },
+    "en.planes_it_is_a_hard_decision": {
+      "conceptId": "en.planes_it_is_a_hard_decision",
+      "id": "planes_it_is_a_hard_decision",
+      "target": [
+        {
+          "text": "It is a hard decision.",
+          "audioSlug": "it_is_a_hard_decision"
+        }
+      ]
+    },
+    "en.transportation_where_can_i_buy_a_ticket": {
+      "conceptId": "en.transportation_where_can_i_buy_a_ticket",
+      "id": "transportation_where_can_i_buy_a_ticket",
+      "target": [
+        {
+          "text": "Where can I buy a ticket?",
+          "audioSlug": "where_can_i_buy_a_ticket"
+        }
+      ]
+    }
+  }
+}

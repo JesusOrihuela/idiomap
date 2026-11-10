@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "ed",
+  "concepts": {
+    "es.accommodation_extend_stay_price": {
+      "conceptId": "es.accommodation_extend_stay_price",
+      "id": "accommodation_extend_stay_price",
+      "target": [
+        {
+          "text": "¿Cuánto cuesta extender mi estadía una noche más?",
+          "audioSlug": "cuanto_cuesta_extender_mi_estadia_una_noche_mas"
+        }
+      ]
+    },
+    "es.describiendo_personas_su_esposo_es_alto": {
+      "conceptId": "es.describiendo_personas_su_esposo_es_alto",
+      "id": "describiendo_personas_su_esposo_es_alto",
+      "target": [
+        {
+          "text": "Su esposo es alto.",
+          "audioSlug": "su_esposo_es_alto"
+        }
+      ]
+    },
+    "es.economia_la_venta_de_coches_subio_este_ano": {
+      "conceptId": "es.economia_la_venta_de_coches_subio_este_ano",
+      "id": "economia_la_venta_de_coches_subio_este_ano",
+      "target": [
+        {
+          "text": "La venta de coches subió este año.",
+          "audioSlug": "la_venta_de_coches_subio_este_ano"
+        }
+      ]
+    },
+    "es.family_su_hijo_ya_es_adolescente": {
+      "conceptId": "es.family_su_hijo_ya_es_adolescente",
+      "id": "family_su_hijo_ya_es_adolescente",
+      "target": [
+        {
+          "text": "Su hijo ya es un adolescente.",
+          "audioSlug": "su_hijo_ya_es_un_adolescente"
+        }
+      ]
+    },
+    "es.gym_dont_arch_your_back": {
+      "conceptId": "es.gym_dont_arch_your_back",
+      "id": "gym_dont_arch_your_back",
+      "target": [
+        {
+          "text": "No arquees la espalda.",
+          "audioSlug": "no_arquees_la_espalda"
+        }
+      ]
+    },
+    "es.museums_can_i_take_photos": {
+      "conceptId": "es.museums_can_i_take_photos",
+      "id": "museums_can_i_take_photos",
+      "target": [
+        {
+          "text": "¿Puedo tomar fotos aquí?",
+          "audioSlug": "puedo_tomar_fotos_aqui"
+        }
+      ]
+    },
+    "es.personal_info_es_una_enfermera_muy_amable": {
+      "conceptId": "es.personal_info_es_una_enfermera_muy_amable",
+      "id": "personal_info_es_una_enfermera_muy_amable",
+      "target": [
+        {
+          "text": "Es una enfermera muy amable.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie ist eine sehr freundliche Krankenpflegerin.",
+          "audioSlug": "es_una_enfermera_muy_amable"
+        },
+        {
+          "text": "Es un enfermero muy amable.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er ist ein sehr freundlicher Krankenpfleger.",
+          "audioSlug": "es_un_enfermero_muy_amable"
+        }
+      ]
+    },
+    "es.supermarket_is_there_a_bathroom_nearby": {
+      "conceptId": "es.supermarket_is_there_a_bathroom_nearby",
+      "id": "supermarket_is_there_a_bathroom_nearby",
+      "target": [
+        {
+          "text": "¿Hay un baño cerca?",
+          "audioSlug": "hay_un_bano_cerca"
+        }
+      ]
+    },
+    "es.weather_hoy_es_un_dia_soleado": {
+      "conceptId": "es.weather_hoy_es_un_dia_soleado",
+      "id": "weather_hoy_es_un_dia_soleado",
+      "target": [
+        {
+          "text": "Hoy es un día soleado.",
+          "audioSlug": "hoy_es_un_dia_soleado"
+        }
+      ]
+    }
+  }
+}

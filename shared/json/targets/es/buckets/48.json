@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "48",
+  "concepts": {
+    "es.cuerpo_tengo_las_unas_largas": {
+      "conceptId": "es.cuerpo_tengo_las_unas_largas",
+      "id": "cuerpo_tengo_las_unas_largas",
+      "target": [
+        {
+          "text": "Tengo las uñas largas.",
+          "audioSlug": "tengo_las_unas_largas"
+        }
+      ]
+    },
+    "es.daily_routine_morning_go_to_gym": {
+      "conceptId": "es.daily_routine_morning_go_to_gym",
+      "id": "daily_routine_morning_go_to_gym",
+      "target": [
+        {
+          "text": "Por la mañana voy al gimnasio.",
+          "audioSlug": "por_la_manana_voy_al_gimnasio"
+        }
+      ]
+    },
+    "es.family_cousin_visit": {
+      "conceptId": "es.family_cousin_visit",
+      "id": "family_cousin_visit",
+      "target": [
+        {
+          "text": "Mi primo viene a visitarnos.",
+          "audioSlug": "mi_primo_viene_a_visitarnos"
+        }
+      ]
+    },
+    "es.kitchen_caramelized_onions_deglaze_balsamic": {
+      "conceptId": "es.kitchen_caramelized_onions_deglaze_balsamic",
+      "id": "kitchen_caramelized_onions_deglaze_balsamic",
+      "target": [
+        {
+          "text": "Carameliza las cebollas y desglasa con vinagre balsámico para dar profundidad.",
+          "audioSlug": "carameliza_las_cebollas_y_desglasa_con_vinagre_balsamico_para_dar_profundidad"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_la_sociedad_esta_cambiando": {
+      "conceptId": "es.pensamientos_opiniones_la_sociedad_esta_cambiando",
+      "id": "pensamientos_opiniones_la_sociedad_esta_cambiando",
+      "target": [
+        {
+          "text": "La sociedad está cambiando rápido.",
+          "audioSlug": "la_sociedad_esta_cambiando_rapido"
+        }
+      ]
+    },
+    "es.restaurant_how_long_will_the_food_take": {
+      "conceptId": "es.restaurant_how_long_will_the_food_take",
+      "id": "restaurant_how_long_will_the_food_take",
+      "target": [
+        {
+          "text": "¿Cuánto tardará en llegar la comida?",
+          "audioSlug": "cuanto_tardara_en_llegar_la_comida"
+        }
+      ]
+    },
+    "es.vestimenta_ella_lleva_una_falda_larga": {
+      "conceptId": "es.vestimenta_ella_lleva_una_falda_larga",
+      "id": "vestimenta_ella_lleva_una_falda_larga",
+      "target": [
+        {
+          "text": "Ella lleva una falda larga.",
+          "audioSlug": "ella_lleva_una_falda_larga"
+        }
+      ]
+    },
+    "es.weather_se_acerca_una_tormenta_fuerte": {
+      "conceptId": "es.weather_se_acerca_una_tormenta_fuerte",
+      "id": "weather_se_acerca_una_tormenta_fuerte",
+      "target": [
+        {
+          "text": "Se acerca una tormenta fuerte.",
+          "audioSlug": "se_acerca_una_tormenta_fuerte"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1023 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "supermarket",
+  "phrases": [
+    {
+      "id": "supermarket_have_you_made_the_grocery_list",
+      "conceptId": "es.supermarket_have_you_made_the_grocery_list",
+      "sourceId": "en.s.223ddf85a1b5aa00",
+      "source": "Have you made the grocery list yet?",
+      "level": "A2",
+      "grammar": "'Ya + pretérito' expresa una acción completada donde el inglés usaría el presente perfecto.",
+      "target": [
+        {
+          "text": "¿Ya hiciste la lista del supermercado?",
+          "audioSlug": "ya_hiciste_la_lista_del_supermercado"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_i_need_to_buy_milk_bread",
+      "conceptId": "es.supermarket_i_need_to_buy_milk_bread",
+      "sourceId": "en.s.764fb4f09a499f14",
+      "source": "I need to buy milk, bread and eggs.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito comprar leche, pan y huevos.",
+          "audioSlug": "necesito_comprar_leche_pan_y_huevos"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_dont_forget_to_buy_fruits_and",
+      "conceptId": "es.supermarket_dont_forget_to_buy_fruits_and",
+      "sourceId": "en.s.304a6cb37988fc95",
+      "source": "Do not forget to buy fruits and vegetables!",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¡No olvides comprar frutas y verduras!",
+          "audioSlug": "no_olvides_comprar_frutas_y_verduras"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_this_supermarket_is_very_expensive_lets",
+      "conceptId": "es.supermarket_this_supermarket_is_very_expensive_lets",
+      "sourceId": "en.s.16b6e7872e689458",
+      "source": "This supermarket is very expensive, let's go to another one.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este supermercado está muy caro, vamos a otro.",
+          "audioSlug": "este_supermercado_esta_muy_caro_vamos_a_otro"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_there_is_an_offer_on_the",
+      "conceptId": "es.supermarket_there_is_an_offer_on_the",
+      "sourceId": "en.s.fa547460a6b7d04f",
+      "source": "There is an offer on the detergent, let's buy two.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay una oferta en el detergente, vamos a comprar dos.",
+          "audioSlug": "hay_una_oferta_en_el_detergente_vamos_a_comprar_dos"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_can_you_help_me_carry_the",
+      "conceptId": "es.supermarket_can_you_help_me_carry_the",
+      "sourceId": "en.s.0d015f5697ad87e6",
+      "source": "Can you help me carry the grocery bags?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me ayudas a llevar las bolsas del supermercado?",
+          "audioSlug": "me_ayudas_a_llevar_las_bolsas_del_supermercado"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_i_dont_have_cash_can_i",
+      "conceptId": "es.supermarket_i_dont_have_cash_can_i",
+      "sourceId": "en.s.6f41c1ca7455e290",
+      "source": "I don't have cash, can I pay with a card?",
+      "level": "A1",
+      "grammar": "'Poder + infinitivo' consulta una posibilidad o pide permiso.",
+      "target": [
+        {
+          "text": "No tengo efectivo, ¿puedo pagar con tarjeta?",
+          "audioSlug": "no_tengo_efectivo_puedo_pagar_con_tarjeta"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_where_are_the_cookies",
+      "conceptId": "es.supermarket_where_are_the_cookies",
+      "sourceId": "en.s.9f49d6ef50e806e1",
+      "source": "Where are the cookies?",
+      "level": "A1",
+      "grammar": "'¿Dónde está?' (singular) y '¿dónde están?' (plural) concuerdan con lo que buscas.",
+      "target": [
+        {
+          "text": "¿Dónde están las galletas?",
+          "audioSlug": "donde_estan_las_galletas"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_i_cant_find_the_yogurt_brand",
+      "conceptId": "es.supermarket_i_cant_find_the_yogurt_brand",
+      "sourceId": "en.s.38f03ed3f51e65b6",
+      "source": "I can't find the yogurt brand I like.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No encuentro la marca de yogurt que me gusta.",
+          "audioSlug": "no_encuentro_la_marca_de_yogurt_que_me_gusta"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_how_much_does_a_kilo_of",
+      "conceptId": "es.supermarket_how_much_does_a_kilo_of",
+      "sourceId": "en.s.7566815023c53ee6",
+      "source": "How much does a kilo of meat cost?",
+      "level": "A1",
+      "grammar": "'Cuesta' concuerda en singular; con plurales se usa 'cuestan'.",
+      "target": [
+        {
+          "text": "¿Cuánto cuesta el kilo de carne?",
+          "audioSlug": "cuanto_cuesta_el_kilo_de_carne"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_where_is_the_cleaning_products_section",
+      "conceptId": "es.supermarket_where_is_the_cleaning_products_section",
+      "sourceId": "en.s.4e5637cf84c19503",
+      "source": "Where is the cleaning products section?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la sección de productos de limpieza?",
+          "audioSlug": "donde_esta_la_seccion_de_productos_de_limpieza"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_buy_new_toothbrush",
+      "conceptId": "es.supermarket_buy_new_toothbrush",
+      "sourceId": "en.s.7deb512ca319c3c7",
+      "source": "I need to buy a new toothbrush.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito comprar un nuevo cepillo de dientes.",
+          "audioSlug": "necesito_comprar_un_nuevo_cepillo_de_dientes"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_is_this_product_vegan",
+      "conceptId": "es.supermarket_is_this_product_vegan",
+      "sourceId": "en.s.b1a562be736ed622",
+      "source": "Is this product vegan?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Este producto es vegano?",
+          "audioSlug": "este_producto_es_vegano"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_do_you_know_which_pasta_brand",
+      "conceptId": "es.supermarket_do_you_know_which_pasta_brand",
+      "sourceId": "en.s.45c7f009ff05b681",
+      "source": "Do you know which pasta brand is the best?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Sabes qué marca de pasta es la mejor?",
+          "audioSlug": "sabes_que_marca_de_pasta_es_la_mejor"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_is_there_any_offer_on_cereals",
+      "conceptId": "es.supermarket_is_there_any_offer_on_cereals",
+      "sourceId": "en.s.1f611d4283e779c7",
+      "source": "Is there any offer on cereals?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Hay alguna oferta en los cereales?",
+          "audioSlug": "hay_alguna_oferta_en_los_cereales"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_there_is_a_long_line_at",
+      "conceptId": "es.supermarket_there_is_a_long_line_at",
+      "sourceId": "en.s.b036d378c58698b2",
+      "source": "There is a long line at the cash registers.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay mucha fila en las cajas.",
+          "audioSlug": "hay_mucha_fila_en_las_cajas"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_can_you_help_me_reach_that",
+      "conceptId": "es.supermarket_can_you_help_me_reach_that",
+      "sourceId": "en.s.ca6383cc0621139a",
+      "source": "Can you help me reach that product on the shelf?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me ayudas a alcanzar ese producto del estante?",
+          "audioSlug": "me_ayudas_a_alcanzar_ese_producto_del_estante"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_i_cant_find_an_employee_to",
+      "conceptId": "es.supermarket_i_cant_find_an_employee_to",
+      "sourceId": "en.s.60a4bc609c77802f",
+      "source": "I can't find an employee to help me.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No puedo encontrar a un empleado para que me ayude.",
+          "audioSlug": "no_puedo_encontrar_a_un_empleado_para_que_me_ayude",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "No puedo encontrar a una empleada para que me ayude.",
+          "audioSlug": "no_puedo_encontrar_a_una_empleada_para_que_me_ayude",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "supermarket_what_time_does_the_supermarket_close",
+      "conceptId": "es.supermarket_what_time_does_the_supermarket_close",
+      "sourceId": "en.s.96d44cbf334fa3eb",
+      "source": "What time does the supermarket close?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿A qué hora cierra el supermercado?",
+          "audioSlug": "a_que_hora_cierra_el_supermercado"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_where_are_the_shopping_carts",
+      "conceptId": "es.supermarket_where_are_the_shopping_carts",
+      "sourceId": "en.s.2f0fe82a8599da0b",
+      "source": "Where are the shopping carts?",
+      "level": "A1",
+      "grammar": "'¿Dónde está?' (singular) y '¿dónde están?' (plural) concuerdan con lo que buscas.",
+      "target": [
+        {
+          "text": "¿Dónde están los carritos de compra?",
+          "audioSlug": "donde_estan_los_carritos_de_compra"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_is_there_a_bathroom_nearby",
+      "conceptId": "es.supermarket_is_there_a_bathroom_nearby",
+      "sourceId": "en.s.c228fa911b5bb2f4",
+      "source": "Is there a bathroom nearby?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Hay un baño cerca?",
+          "audioSlug": "hay_un_bano_cerca"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_this_supermarket_has_a_very_useful",
+      "conceptId": "es.supermarket_this_supermarket_has_a_very_useful",
+      "sourceId": "en.s.5a66c4d1ad5c3832",
+      "source": "This supermarket has a very useful app.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este supermercado tiene una aplicación muy útil.",
+          "audioSlug": "este_supermercado_tiene_una_aplicacion_muy_util"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_i_received_a_discount_coupon_in",
+      "conceptId": "es.supermarket_i_received_a_discount_coupon_in",
+      "sourceId": "en.s.912dddb2246ed659",
+      "source": "I received a discount coupon in my email.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Recibí un cupón de descuento en mi correo electrónico.",
+          "audioSlug": "recibi_un_cupon_de_descuento_en_mi_correo_electronico"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_i_like_to_use_the_selfservice",
+      "conceptId": "es.supermarket_i_like_to_use_the_selfservice",
+      "sourceId": "en.s.89d307a4a656085f",
+      "source": "I like to use the self-service to pay for the purchase.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gusta usar el autoservicio para pagar la compra.",
+          "audioSlug": "me_gusta_usar_el_autoservicio_para_pagar_la_compra"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_i_dont_like_this_supermarket_its",
+      "conceptId": "es.supermarket_i_dont_like_this_supermarket_its",
+      "sourceId": "en.s.f7a8e82b21601b00",
+      "source": "I don't like this supermarket, it's very messy.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No me gusta este supermercado, está muy desordenado.",
+          "audioSlug": "no_me_gusta_este_supermercado_esta_muy_desordenado"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_i_prefer_to_go_to_the",
+      "conceptId": "es.supermarket_i_prefer_to_go_to_the",
+      "sourceId": "en.s.68bf929f10d438b6",
+      "source": "I prefer to go to the market, there is more variety of products.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Prefiero ir al mercado, hay más variedad de productos.",
+          "audioSlug": "prefiero_ir_al_mercado_hay_mas_variedad_de_productos"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_you_have_to_go_to_the",
+      "conceptId": "es.supermarket_you_have_to_go_to_the",
+      "sourceId": "en.s.21f2f4b5759bc36f",
+      "source": "You have to go to the supermarket early to avoid the lines.",
+      "level": "A2",
+      "grammar": "'Hay que + infinitivo' expresa obligación impersonal; no tiene sujeto explícito.",
+      "target": [
+        {
+          "text": "Hay que ir al supermercado temprano para evitar las filas.",
+          "audioSlug": "hay_que_ir_al_supermercado_temprano_para_evitar_las_filas"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_i_will_need_a_purchase_ticket",
+      "conceptId": "es.supermarket_i_will_need_a_purchase_ticket",
+      "sourceId": "en.s.08d58288fa96d852",
+      "source": "I will need a purchase ticket.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Voy a necesitar un comprobante de compra.",
+          "audioSlug": "voy_a_necesitar_un_comprobante_de_compra"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_are_these_grapes_organic",
+      "conceptId": "es.supermarket_are_these_grapes_organic",
+      "sourceId": "en.s.fae08be0102994a5",
+      "source": "Are these grapes organic?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Estas uvas son orgánicas?",
+          "audioSlug": "estas_uvas_son_organicas"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_do_you_have_fresh_chicken",
+      "conceptId": "es.supermarket_do_you_have_fresh_chicken",
+      "sourceId": "en.s.4f52afb2cb0e2d85",
+      "source": "Do you have fresh chicken?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Tienen pollo fresco?",
+          "audioSlug": "tienen_pollo_fresco"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_i_dont_know_which_fish_to",
+      "conceptId": "es.supermarket_i_dont_know_which_fish_to",
+      "sourceId": "en.s.f28e653f7cf063c2",
+      "source": "I don't know which fish to buy.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No sé qué pescado comprar.",
+          "audioSlug": "no_se_que_pescado_comprar"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_the_strawberries_are_very_expensive",
+      "conceptId": "es.supermarket_the_strawberries_are_very_expensive",
+      "sourceId": "en.s.b507d498f7b8e503",
+      "source": "The strawberries are very expensive.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Las fresas están muy caras.",
+          "audioSlug": "las_fresas_estan_muy_caras"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_im_looking_for_a_cake_for",
+      "conceptId": "es.supermarket_im_looking_for_a_cake_for",
+      "sourceId": "en.s.c46f9ca558397b9e",
+      "source": "I'm looking for a cake for a birthday party.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Busco un pastel para una fiesta de cumpleaños.",
+          "labels": {
+            "region": "México y Centroamérica"
+          },
+          "audioSlug": "busco_un_pastel_para_una_fiesta_de_cumpleanos"
+        },
+        {
+          "text": "Busco una tarta para una fiesta de cumpleaños.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "busco_una_tarta_para_una_fiesta_de_cumpleanos"
+        },
+        {
+          "text": "Busco una torta para una fiesta de cumpleaños.",
+          "labels": {
+            "region": "Sudamérica"
+          },
+          "audioSlug": "busco_una_torta_para_una_fiesta_de_cumpleanos"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_can_you_give_me_the_receipt",
+      "conceptId": "es.supermarket_can_you_give_me_the_receipt",
+      "sourceId": "en.s.a19b0f98981384e9",
+      "source": "Can you give me the receipt, please?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me puede dar la factura, por favor?",
+          "audioSlug": "me_puede_dar_la_factura_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_where_is_the_glutenfree_products_section",
+      "conceptId": "es.supermarket_where_is_the_glutenfree_products_section",
+      "sourceId": "en.s.53f3fe9a5216b8e2",
+      "source": "Where is the gluten-free products section?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la sección de productos sin gluten?",
+          "audioSlug": "donde_esta_la_seccion_de_productos_sin_gluten"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_do_you_have_almond_milk",
+      "conceptId": "es.supermarket_do_you_have_almond_milk",
+      "sourceId": "en.s.e34977473864ca23",
+      "source": "Do you have almond milk?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Tienen leche de almendras?",
+          "audioSlug": "tienen_leche_de_almendras"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_where_is_the_personal_hygiene_products",
+      "conceptId": "es.supermarket_where_is_the_personal_hygiene_products",
+      "sourceId": "en.s.dd7a1b3c99e2e6be",
+      "source": "Where is the personal hygiene products section?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la sección de productos de higiene personal?",
+          "audioSlug": "donde_esta_la_seccion_de_productos_de_higiene_personal"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_where_is_the_bakery_section",
+      "conceptId": "es.supermarket_where_is_the_bakery_section",
+      "sourceId": "en.s.d70163b9557c31b5",
+      "source": "Where is the bakery section?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde se encuentra la sección de panadería?",
+          "audioSlug": "donde_se_encuentra_la_seccion_de_panaderia"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_can_you_give_me_a_bag",
+      "conceptId": "es.supermarket_can_you_give_me_a_bag",
+      "sourceId": "en.s.a006b1fe4f0112ed",
+      "source": "Can you give me a bag, please?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me puede dar una bolsa, por favor?",
+          "audioSlug": "me_puede_dar_una_bolsa_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_i_am_here_to_make_a",
+      "conceptId": "es.supermarket_i_am_here_to_make_a",
+      "sourceId": "en.s.7271b248838c8972",
+      "source": "I am here to make a return.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vengo a hacer una devolución.",
+          "audioSlug": "vengo_a_hacer_una_devolucion"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_i_dont_like_this_supermarket_the",
+      "conceptId": "es.supermarket_i_dont_like_this_supermarket_the",
+      "sourceId": "en.s.b929ed1468334e71",
+      "source": "I do not like this supermarket because it is expensive.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No me gusta este supermercado porque es muy caro.",
+          "audioSlug": "no_me_gusta_este_supermercado_porque_es_muy_caro"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_i_didnt_find_the_product_i",
+      "conceptId": "es.supermarket_i_didnt_find_the_product_i",
+      "sourceId": "en.s.b4b266586d57d1de",
+      "source": "I didn't find the product I was looking for.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No encontré el producto que buscaba.",
+          "audioSlug": "no_encontre_el_producto_que_buscaba"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_do_you_have_larger_size",
+      "conceptId": "es.supermarket_do_you_have_larger_size",
+      "sourceId": "en.s.f0871de8efeae70b",
+      "source": "Do you have this product in a larger size?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Tiene este producto en un tamaño más grande?",
+          "audioSlug": "tiene_este_producto_en_un_tamano_mas_grande"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_store_brand_less_expensive",
+      "conceptId": "es.supermarket_store_brand_less_expensive",
+      "sourceId": "en.s.cef7f88b4b9a51b5",
+      "source": "Is there a store brand option that's less expensive?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Hay una opción de marca propia que sea más económica?",
+          "audioSlug": "hay_una_opcion_de_marca_propia_que_sea_mas_economica"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_speak_to_manager_mislabeled",
+      "conceptId": "es.supermarket_speak_to_manager_mislabeled",
+      "sourceId": "en.s.057054ee9cc6f880",
+      "source": "I'd like to speak to the manager about this mislabeled product.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gustaría hablar con el gerente sobre este producto mal etiquetado.",
+          "audioSlug": "me_gustaria_hablar_con_el_gerente_sobre_este_producto_mal_etiquetado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "Me gustaría hablar con la gerente sobre este producto mal etiquetado.",
+          "audioSlug": "me_gustaria_hablar_con_la_gerente_sobre_este_producto_mal_etiquetado",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "supermarket_where_are_gluten_free_products",
+      "conceptId": "es.supermarket_where_are_gluten_free_products",
+      "sourceId": "en.s.8d7602d6e5ab5be3",
+      "source": "Could you tell me where I can find gluten-free products?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me podría decir dónde puedo encontrar los productos sin gluten?",
+          "audioSlug": "me_podria_decir_donde_puedo_encontrar_los_productos_sin_gluten"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_shelf_price_doesnt_match_register",
+      "conceptId": "es.supermarket_shelf_price_doesnt_match_register",
+      "sourceId": "en.s.ed3410c7f2cf01e3",
+      "source": "The shelf price doesn't match what showed up at the register.",
+      "level": "B1",
+      "grammar": "'Lo que + verbo' nominaliza una idea y equivale al inglés 'what + verbo'.",
+      "target": [
+        {
+          "text": "El precio del estante no coincide con lo que marca la caja.",
+          "audioSlug": "el_precio_del_estante_no_coincide_con_lo_que_marca_la_caja"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_nut_allergy_processed_facility",
+      "conceptId": "es.supermarket_nut_allergy_processed_facility",
+      "sourceId": "en.s.4a45d7029259924e",
+      "source": "I have a nut allergy. Was this product processed in a nut-handling facility?",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo alergia a los frutos secos, ¿este producto se procesó con nueces?",
+          "audioSlug": "tengo_alergia_a_los_frutos_secos_este_producto_se_proceso_con_nueces"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_return_seal_broken_spoiled",
+      "conceptId": "es.supermarket_return_seal_broken_spoiled",
+      "sourceId": "en.s.c12ea6499b3ace2b",
+      "source": "I'd like to return this. The seal was broken and the product has spoiled.",
+      "level": "B2",
+      "grammar": "'Se + verbo' forma la pasiva refleja o impersonal, sin especificar quién actúa.",
+      "target": [
+        {
+          "text": "Quisiera devolver esto porque el sello estaba roto y el producto se ha estropeado.",
+          "audioSlug": "quisiera_devolver_esto_porque_el_sello_estaba_roto_y_el_producto_se_ha_estropeado"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_check_stockroom_out_of_shelf",
+      "conceptId": "es.supermarket_check_stockroom_out_of_shelf",
+      "sourceId": "en.s.438d495970ae5326",
+      "source": "Could you check the stockroom? This has been out of stock for two days.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este producto lleva dos días sin stock, ¿podría revisar el almacén?",
+          "audioSlug": "este_producto_lleva_dos_dias_sin_stock_podria_revisar_el_almacen"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_overcharged_promotional_price_not_applied",
+      "conceptId": "es.supermarket_overcharged_promotional_price_not_applied",
+      "sourceId": "en.s.32ad93dce7f7aa01",
+      "source": "I was overcharged. The promotional price wasn't applied, despite the label.",
+      "level": "B2",
+      "grammar": "'No se aplicó' usa la pasiva refleja; el agente no se menciona.",
+      "target": [
+        {
+          "text": "Me cobraron de más, no se aplicó el precio promocional pese a la etiqueta.",
+          "audioSlug": "me_cobraron_de_mas_no_se_aplico_el_precio_promocional_pese_a_la_etiqueta"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_customer_service_lodge_complaint",
+      "conceptId": "es.supermarket_customer_service_lodge_complaint",
+      "sourceId": "en.s.13e7b18b37145ca6",
+      "source": "Is there a customer service desk where I can lodge a formal complaint?",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Hay un servicio al cliente donde pueda presentar una queja formal?",
+          "audioSlug": "hay_un_servicio_al_cliente_donde_pueda_presentar_una_queja_formal"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_escalate_staff_assurance_not_honored",
+      "conceptId": "es.supermarket_escalate_staff_assurance_not_honored",
+      "sourceId": "en.s.26f14b3caf1fa5a4",
+      "source": "They assured me they would honor the promotional price and did not.",
+      "level": "C1",
+      "grammar": "'Respetarían' usa el condicional para referir una promesa hecha en el pasado.",
+      "target": [
+        {
+          "text": "Me aseguraron que respetarían el precio promocional y no lo cumplieron.",
+          "audioSlug": "me_aseguraron_que_respetarian_el_precio_promocional_y_no_lo_cumplieron"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_online_listing_out_of_stock_delivery",
+      "conceptId": "es.supermarket_online_listing_out_of_stock_delivery",
+      "sourceId": "en.s.23949af3fc3b75a1",
+      "source": "Your site shows it available but it has been out of stock for a week.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su sitio lo muestra disponible pero lleva una semana agotado.",
+          "audioSlug": "su_sitio_lo_muestra_disponible_pero_lleva_una_semana_agotado"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_price_match_cheaper_elsewhere",
+      "conceptId": "es.supermarket_price_match_cheaper_elsewhere",
+      "sourceId": "en.s.1d5f6b8176960c54",
+      "source": "Do you match the price if I find the item cheaper elsewhere?",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Igualan el precio si encuentro el artículo más barato en otra tienda?",
+          "audioSlug": "igualan_el_precio_si_encuentro_el_articulo_mas_barato_en_otra_tienda"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_loyalty_program_sign_up",
+      "conceptId": "es.supermarket_loyalty_program_sign_up",
+      "sourceId": "en.s.8a75dd8e9ed37df7",
+      "source": "How do I sign up for the loyalty program? Can I use points immediately?",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo me registro en el programa de fidelidad, puedo usar los puntos de inmediato?",
+          "audioSlug": "como_me_registro_en_el_programa_de_fidelidad_puedo_usar_los_puntos_de_inmediato"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_can_i_have_the_receipt",
+      "conceptId": "es.supermarket_can_i_have_the_receipt",
+      "sourceId": "en.s.abe3e6d190b299a6",
+      "source": "Can I have the receipt, please?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me da el recibo, por favor?",
+          "audioSlug": "me_da_el_recibo_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_expiration_date",
+      "conceptId": "es.supermarket_expiration_date",
+      "sourceId": "en.s.15f7268c7a19df73",
+      "source": "When does this expire?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuál es la fecha de caducidad?",
+          "audioSlug": "cual_es_la_fecha_de_caducidad"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_where_is_the_checkout",
+      "conceptId": "es.supermarket_where_is_the_checkout",
+      "sourceId": "en.s.578d697e06bc15c6",
+      "source": "Where do I pay?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la caja?",
+          "audioSlug": "donde_esta_la_caja"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_can_i_pay_in_cash",
+      "conceptId": "es.supermarket_can_i_pay_in_cash",
+      "sourceId": "en.s.39ce05b114ac77e2",
+      "source": "Can I pay in cash?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedo pagar en efectivo?",
+          "audioSlug": "puedo_pagar_en_efectivo"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_el_platano_es_mi_fruta_favorita",
+      "conceptId": "es.supermarket_el_platano_es_mi_fruta_favorita",
+      "sourceId": "en.s.7c8f6133fd7d8b4e",
+      "source": "The banana is my favourite fruit.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El plátano es mi fruta favorita.",
+          "audioSlug": "el_platano_es_mi_fruta_favorita"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_comi_una_manzana_roja",
+      "conceptId": "es.supermarket_comi_una_manzana_roja",
+      "sourceId": "en.s.6b7a8559e1d66b6e",
+      "source": "I ate a red apple.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Comí una manzana roja.",
+          "audioSlug": "comi_una_manzana_roja"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_compre_una_lata_de_atun",
+      "conceptId": "es.supermarket_compre_una_lata_de_atun",
+      "sourceId": "en.s.b4b4560a0c0f58a4",
+      "source": "I bought a can of tuna.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Compré una lata de atún.",
+          "audioSlug": "compre_una_lata_de_atun"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_el_yogur_esta_en_el_refrigerador",
+      "conceptId": "es.supermarket_el_yogur_esta_en_el_refrigerador",
+      "sourceId": "en.s.8d414663bfe4b480",
+      "source": "The yoghurt is in the fridge.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El yogur está en el refrigerador.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "el_yogur_esta_en_el_refrigerador"
+        },
+        {
+          "text": "El yogur está en el frigorífico.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "el_yogur_esta_en_el_frigorifico"
+        },
+        {
+          "text": "El yogur está en la heladera.",
+          "labels": {
+            "region": "Río de la Plata"
+          },
+          "audioSlug": "el_yogur_esta_en_la_heladera"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_unto_mermelada_en_el_pan",
+      "conceptId": "es.supermarket_unto_mermelada_en_el_pan",
+      "sourceId": "en.s.4aa4db592f450872",
+      "source": "I spread jam on the bread.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Unto mermelada en el pan.",
+          "audioSlug": "unto_mermelada_en_el_pan"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_compre_ternera_para_el_guiso",
+      "conceptId": "es.supermarket_compre_ternera_para_el_guiso",
+      "sourceId": "en.s.524f6e8247a416bd",
+      "source": "I bought veal for the stew.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Compré ternera para el guiso.",
+          "audioSlug": "compre_ternera_para_el_guiso"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_bebo_un_jugo_de_naranja",
+      "conceptId": "es.supermarket_bebo_un_jugo_de_naranja",
+      "sourceId": "en.s.6f5054544b81271d",
+      "source": "I drink an orange juice.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Bebo un jugo de naranja.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "bebo_un_jugo_de_naranja"
+        },
+        {
+          "text": "Bebo un zumo de naranja.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "bebo_un_zumo_de_naranja"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_compre_media_libra_de_queso",
+      "conceptId": "es.supermarket_compre_media_libra_de_queso",
+      "sourceId": "en.s.2c5a284ede7bba93",
+      "source": "I bought half a pound of cheese.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Compré media libra de queso.",
+          "audioSlug": "compre_media_libra_de_queso"
+        }
+      ]
+    }
+  ]
+}

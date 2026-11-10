@@ -1,8 +1,20 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-de",
   "topic": "daily_routine",
-  "conceptIds": [
-    "de.daily_routine_i_get_up_early"
+  "phrases": [
+    {
+      "conceptId": "de.daily_routine_i_get_up_early",
+      "level": "A2",
+      "grammar": "Trennbare Verben stellen die Vorsilbe ans Satzende, hier 'auf'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d335a7e97f4fad1c"
+    }
   ]
 }

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "c4",
+  "concepts": {
+    "es.accommodation_quisiera_una_habitacion_doble": {
+      "conceptId": "es.accommodation_quisiera_una_habitacion_doble",
+      "id": "accommodation_quisiera_una_habitacion_doble",
+      "target": [
+        {
+          "text": "Quisiera una habitación doble.",
+          "audioSlug": "quisiera_una_habitacion_doble"
+        }
+      ]
+    },
+    "es.airport_where_passport_control": {
+      "conceptId": "es.airport_where_passport_control",
+      "id": "airport_where_passport_control",
+      "target": [
+        {
+          "text": "¿Dónde está el control de pasaportes?",
+          "audioSlug": "donde_esta_el_control_de_pasaportes"
+        }
+      ]
+    },
+    "es.calendario_nos_vemos_la_proxima_semana": {
+      "conceptId": "es.calendario_nos_vemos_la_proxima_semana",
+      "id": "calendario_nos_vemos_la_proxima_semana",
+      "target": [
+        {
+          "text": "Nos vemos la próxima semana.",
+          "audioSlug": "nos_vemos_la_proxima_semana"
+        }
+      ]
+    },
+    "es.conversacion_de_hecho_tienes_toda_la_razon": {
+      "conceptId": "es.conversacion_de_hecho_tienes_toda_la_razon",
+      "id": "conversacion_de_hecho_tienes_toda_la_razon",
+      "target": [
+        {
+          "text": "De hecho, tienes toda la razón.",
+          "audioSlug": "de_hecho_tienes_toda_la_razon"
+        }
+      ]
+    },
+    "es.cuerpo_el_oido_izquierdo_me_molesta_un_poco": {
+      "conceptId": "es.cuerpo_el_oido_izquierdo_me_molesta_un_poco",
+      "id": "cuerpo_el_oido_izquierdo_me_molesta_un_poco",
+      "target": [
+        {
+          "text": "El oído izquierdo me molesta un poco.",
+          "audioSlug": "el_oido_izquierdo_me_molesta_un_poco"
+        }
+      ]
+    },
+    "es.estudios_levanta_la_mano_para_preguntar": {
+      "conceptId": "es.estudios_levanta_la_mano_para_preguntar",
+      "id": "estudios_levanta_la_mano_para_preguntar",
+      "target": [
+        {
+          "text": "Levanta la mano para preguntar.",
+          "audioSlug": "levanta_la_mano_para_preguntar"
+        }
+      ]
+    },
+    "es.profesiones_es_un_poeta_conocido": {
+      "conceptId": "es.profesiones_es_un_poeta_conocido",
+      "id": "profesiones_es_un_poeta_conocido",
+      "target": [
+        {
+          "text": "Es un poeta conocido.",
+          "audioSlug": "es_un_poeta_conocido"
+        }
+      ]
+    },
+    "es.sitios_no_hay_espacio_para_estacionar": {
+      "conceptId": "es.sitios_no_hay_espacio_para_estacionar",
+      "id": "sitios_no_hay_espacio_para_estacionar",
+      "target": [
+        {
+          "text": "No hay espacio para estacionar.",
+          "audioSlug": "no_hay_espacio_para_estacionar"
+        }
+      ]
+    },
+    "es.survival_does_anyone_here_speak_english": {
+      "conceptId": "es.survival_does_anyone_here_speak_english",
+      "id": "survival_does_anyone_here_speak_english",
+      "target": [
+        {
+          "text": "¿Alguien habla inglés aquí?",
+          "audioSlug": "alguien_habla_ingles_aqui"
+        }
+      ]
+    },
+    "es.theater_physical_performance_no_dialogue": {
+      "conceptId": "es.theater_physical_performance_no_dialogue",
+      "id": "theater_physical_performance_no_dialogue",
+      "target": [
+        {
+          "text": "La actuación física del actor principal fue notable, casi completamente sin diálogo.",
+          "audioSlug": "la_actuacion_fisica_del_actor_principal_fue_notable_casi_completamente_sin_dialogo",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "La actuación física de la actriz principal fue notable, casi completamente sin diálogo.",
+          "audioSlug": "la_actuacion_fisica_de_la_actriz_principal_fue_notable_casi_completamente_sin_dialogo",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.transportation_busco_estacionamiento": {
+      "conceptId": "es.transportation_busco_estacionamiento",
+      "id": "transportation_busco_estacionamiento",
+      "target": [
+        {
+          "text": "Busco estacionamiento cerca.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "busco_estacionamiento_cerca"
+        },
+        {
+          "text": "Busco aparcamiento cerca.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "busco_aparcamiento_cerca"
+        }
+      ]
+    }
+  }
+}

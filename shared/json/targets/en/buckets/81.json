@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "81",
+  "concepts": {
+    "en.accommodation_single_room_availability": {
+      "conceptId": "en.accommodation_single_room_availability",
+      "id": "accommodation_single_room_availability",
+      "target": [
+        {
+          "text": "Is there availability for a single room?",
+          "audioSlug": "is_there_availability_for_a_single_room"
+        }
+      ]
+    },
+    "en.airport_exchange_currency": {
+      "conceptId": "en.airport_exchange_currency",
+      "id": "airport_exchange_currency",
+      "target": [
+        {
+          "text": "Where can I exchange currency?",
+          "audioSlug": "where_can_i_exchange_currency"
+        }
+      ]
+    },
+    "en.calendario_it_s_three_o_clock": {
+      "conceptId": "en.calendario_it_s_three_o_clock",
+      "id": "calendario_it_s_three_o_clock",
+      "target": [
+        {
+          "text": "It's three o'clock.",
+          "audioSlug": "it_s_three_o_clock"
+        }
+      ]
+    },
+    "en.health_i_feel_dizzy": {
+      "conceptId": "en.health_i_feel_dizzy",
+      "id": "health_i_feel_dizzy",
+      "target": [
+        {
+          "text": "I feel dizzy.",
+          "audioSlug": "i_feel_dizzy"
+        }
+      ]
+    },
+    "en.kitchen_the_toaster_is_on_the_table": {
+      "conceptId": "en.kitchen_the_toaster_is_on_the_table",
+      "id": "kitchen_the_toaster_is_on_the_table",
+      "target": [
+        {
+          "text": "The toaster is on the table.",
+          "audioSlug": "the_toaster_is_on_the_table"
+        }
+      ]
+    },
+    "en.kitchen_water_is_boiling": {
+      "conceptId": "en.kitchen_water_is_boiling",
+      "id": "kitchen_water_is_boiling",
+      "target": [
+        {
+          "text": "The water is boiling.",
+          "audioSlug": "the_water_is_boiling"
+        }
+      ]
+    },
+    "en.technology_i_want_to_buy_a_camera": {
+      "conceptId": "en.technology_i_want_to_buy_a_camera",
+      "id": "technology_i_want_to_buy_a_camera",
+      "target": [
+        {
+          "text": "What is the best camera to buy?",
+          "audioSlug": "what_is_the_best_camera_to_buy"
+        }
+      ]
+    },
+    "en.theater_enjoy_going_theater": {
+      "conceptId": "en.theater_enjoy_going_theater",
+      "id": "theater_enjoy_going_theater",
+      "target": [
+        {
+          "text": "I really enjoy going to the theater.",
+          "audioSlug": "i_really_enjoy_going_to_the_theater"
+        }
+      ]
+    }
+  }
+}

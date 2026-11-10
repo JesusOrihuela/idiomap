@@ -35,7 +35,13 @@
           "audioSlug": "historia"
         }
       ],
-      "conceptId": "es.story"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "novel",
@@ -56,7 +62,13 @@
       "gloss_example": {
         "en": "She is reading a mystery novel."
       },
-      "conceptId": "es.novel"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "painter",
@@ -93,7 +105,13 @@
           "audioSlug": "pintora"
         }
       ],
-      "conceptId": "es.painter"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "culture",
@@ -114,7 +132,13 @@
       "gloss_example": {
         "en": "I love learning about other cultures."
       },
-      "conceptId": "es.culture"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "diseno",
@@ -135,7 +159,13 @@
       "gloss_example": {
         "en": "I like the design of this page."
       },
-      "conceptId": "es.diseno"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "arte",
@@ -156,7 +186,13 @@
       "gloss_example": {
         "en": "I love modern art."
       },
-      "conceptId": "es.arte"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "pintura",
@@ -177,7 +213,13 @@
       "gloss_example": {
         "en": "That painting is very famous."
       },
-      "conceptId": "es.pintura"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "sculpture",
@@ -198,7 +240,13 @@
       "gloss_example": {
         "en": "The museum has a marble sculpture."
       },
-      "conceptId": "es.sculpture"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "portrait",
@@ -219,7 +267,13 @@
       "gloss_example": {
         "en": "The artist made his portrait."
       },
-      "conceptId": "es.portrait"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "canvas",
@@ -240,7 +294,13 @@
       "gloss_example": {
         "en": "The painter prepared the canvas."
       },
-      "conceptId": "es.canvas"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "mural",
@@ -261,7 +321,13 @@
       "gloss_example": {
         "en": "The mural covers the whole wall."
       },
-      "conceptId": "es.mural"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "sculptor",
@@ -298,7 +364,13 @@
           "audioSlug": "escultora"
         }
       ],
-      "conceptId": "es.sculptor"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

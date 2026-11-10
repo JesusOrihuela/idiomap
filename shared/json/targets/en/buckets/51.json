@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "51",
+  "concepts": {
+    "en.accountability_salary_is_paid_in_cash_check": {
+      "conceptId": "en.accountability_salary_is_paid_in_cash_check",
+      "id": "accountability_salary_is_paid_in_cash_check",
+      "target": [
+        {
+          "text": "Salary is paid in cash, check or bank deposit.",
+          "audioSlug": "salary_is_paid_in_cash_check_or_bank_deposit"
+        }
+      ]
+    },
+    "en.greetings_see_you_later": {
+      "conceptId": "en.greetings_see_you_later",
+      "id": "greetings_see_you_later",
+      "target": [
+        {
+          "text": "See you later!",
+          "audioSlug": "see_you_later"
+        }
+      ]
+    },
+    "en.kitchen_have_you_already_cut_the_vegetables": {
+      "conceptId": "en.kitchen_have_you_already_cut_the_vegetables",
+      "id": "kitchen_have_you_already_cut_the_vegetables",
+      "target": [
+        {
+          "text": "Have you already cut the vegetables?",
+          "audioSlug": "have_you_already_cut_the_vegetables"
+        }
+      ]
+    }
+  }
+}

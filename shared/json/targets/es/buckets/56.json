@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "56",
+  "concepts": {
+    "es.accountability_any_contingent_liability_must_be": {
+      "conceptId": "es.accountability_any_contingent_liability_must_be",
+      "id": "accountability_any_contingent_liability_must_be",
+      "target": [
+        {
+          "text": "Cualquier pasivo contingente debe revelarse en las notas a los estados financieros.",
+          "audioSlug": "cualquier_pasivo_contingente_debe_revelarse_en_las_notas_a_los_estados_financieros"
+        }
+      ]
+    },
+    "es.animales_es_un_animal_salvaje": {
+      "conceptId": "es.animales_es_un_animal_salvaje",
+      "id": "animales_es_un_animal_salvaje",
+      "target": [
+        {
+          "text": "Es un animal salvaje.",
+          "audioSlug": "es_un_animal_salvaje"
+        }
+      ]
+    },
+    "es.conversacion_en_ese_caso_prefiero_esperar": {
+      "conceptId": "es.conversacion_en_ese_caso_prefiero_esperar",
+      "id": "conversacion_en_ese_caso_prefiero_esperar",
+      "target": [
+        {
+          "text": "En ese caso prefiero esperar.",
+          "audioSlug": "en_ese_caso_prefiero_esperar"
+        }
+      ]
+    },
+    "es.daily_routine_los_viernes_me_acuesto_tarde": {
+      "conceptId": "es.daily_routine_los_viernes_me_acuesto_tarde",
+      "id": "daily_routine_los_viernes_me_acuesto_tarde",
+      "target": [
+        {
+          "text": "Los viernes me acuesto tarde.",
+          "audioSlug": "los_viernes_me_acuesto_tarde"
+        }
+      ]
+    },
+    "es.descripciones_tiene_una_personalidad_fuerte": {
+      "conceptId": "es.descripciones_tiene_una_personalidad_fuerte",
+      "id": "descripciones_tiene_una_personalidad_fuerte",
+      "target": [
+        {
+          "text": "Tiene una personalidad fuerte.",
+          "audioSlug": "tiene_una_personalidad_fuerte"
+        }
+      ]
+    },
+    "es.directions_el_gato_esta_encima_de_la_mesa": {
+      "conceptId": "es.directions_el_gato_esta_encima_de_la_mesa",
+      "id": "directions_el_gato_esta_encima_de_la_mesa",
+      "target": [
+        {
+          "text": "El gato está encima de la mesa.",
+          "audioSlug": "el_gato_esta_encima_de_la_mesa"
+        }
+      ]
+    },
+    "es.health_my_throat_hurts": {
+      "conceptId": "es.health_my_throat_hurts",
+      "id": "health_my_throat_hurts",
+      "target": [
+        {
+          "text": "Me duele la garganta.",
+          "audioSlug": "me_duele_la_garganta"
+        }
+      ]
+    },
+    "es.movies_editing_creates_tension": {
+      "conceptId": "es.movies_editing_creates_tension",
+      "id": "movies_editing_creates_tension",
+      "target": [
+        {
+          "text": "El montaje en la apertura es magistral, el ritmo de los cortes crea tensión insoportable.",
+          "audioSlug": "el_montaje_en_la_apertura_es_magistral_el_ritmo_de_los_cortes_crea_tension_insoportable"
+        }
+      ]
+    },
+    "es.oficina_tenemos_un_nuevo_cliente": {
+      "conceptId": "es.oficina_tenemos_un_nuevo_cliente",
+      "id": "oficina_tenemos_un_nuevo_cliente",
+      "target": [
+        {
+          "text": "Tenemos un nuevo cliente.",
+          "audioSlug": "tenemos_un_nuevo_cliente"
+        }
+      ]
+    },
+    "es.survival_speak_more_slowly": {
+      "conceptId": "es.survival_speak_more_slowly",
+      "id": "survival_speak_more_slowly",
+      "target": [
+        {
+          "text": "Habla más despacio, por favor.",
+          "source": "Sprich bitte langsamer.",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "habla_mas_despacio_por_favor"
+        },
+        {
+          "text": "Hable más despacio, por favor.",
+          "source": "Sprechen Sie bitte langsamer.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "hable_mas_despacio_por_favor"
+        }
+      ]
+    },
+    "es.technology_is_there_a_way_to_block": {
+      "conceptId": "es.technology_is_there_a_way_to_block",
+      "id": "technology_is_there_a_way_to_block",
+      "target": [
+        {
+          "text": "¿Hay alguna forma de bloquear este número?",
+          "audioSlug": "hay_alguna_forma_de_bloquear_este_numero"
+        }
+      ]
+    },
+    "es.weather_im_cold": {
+      "conceptId": "es.weather_im_cold",
+      "id": "weather_im_cold",
+      "target": [
+        {
+          "text": "Tengo frío.",
+          "audioSlug": "tengo_frio"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "4c",
+  "concepts": {
+    "en.accommodation_extra_towels": {
+      "conceptId": "en.accommodation_extra_towels",
+      "id": "accommodation_extra_towels",
+      "target": [
+        {
+          "text": "Could you provide extra towels in the room?",
+          "audioSlug": "could_you_provide_extra_towels_in_the_room",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you provide extra towels in the room?",
+          "audioSlug": "can_you_provide_extra_towels_in_the_room",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.estudios_the_teacher_explains_the_lesson": {
+      "conceptId": "en.estudios_the_teacher_explains_the_lesson",
+      "id": "estudios_the_teacher_explains_the_lesson",
+      "target": [
+        {
+          "text": "The teacher explains the lesson.",
+          "audioSlug": "the_teacher_explains_the_lesson"
+        }
+      ]
+    },
+    "en.kitchen_brine_chicken_overnight_juicier": {
+      "conceptId": "en.kitchen_brine_chicken_overnight_juicier",
+      "id": "kitchen_brine_chicken_overnight_juicier",
+      "target": [
+        {
+          "text": "Brining the chicken overnight in salted water results in noticeably juicier and more flavorful meat.",
+          "audioSlug": "brining_the_chicken_overnight_in_salted_water_results_in_noticeably_juicier_and_more_flavorful_meat"
+        }
+      ]
+    },
+    "en.movies_midnight_premiere_sells_out": {
+      "conceptId": "en.movies_midnight_premiere_sells_out",
+      "id": "movies_midnight_premiere_sells_out",
+      "target": [
+        {
+          "text": "Should we go to the midnight premiere? Tickets sell out fast.",
+          "audioSlug": "should_we_go_to_the_midnight_premiere_tickets_sell_out_fast"
+        }
+      ]
+    },
+    "en.movies_prefer_thrillers_not_action": {
+      "conceptId": "en.movies_prefer_thrillers_not_action",
+      "id": "movies_prefer_thrillers_not_action",
+      "target": [
+        {
+          "text": "I'm not really into action movies. I prefer psychological thrillers.",
+          "audioSlug": "i_m_not_really_into_action_movies_i_prefer_psychological_thrillers"
+        }
+      ]
+    },
+    "en.restaurant_late_reservation_table_still_available": {
+      "conceptId": "en.restaurant_late_reservation_table_still_available",
+      "id": "restaurant_late_reservation_table_still_available",
+      "target": [
+        {
+          "text": "We're under Thompson for eight o'clock. We're a bit late, is our table still held?",
+          "audioSlug": "we_re_under_thompson_for_eight_o_clock_we_re_a_bit_late_is_our_table_still_held"
+        }
+      ]
+    }
+  }
+}

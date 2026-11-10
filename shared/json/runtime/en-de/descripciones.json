@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-de",
+  "topic": "descripciones",
+  "phrases": [
+    {
+      "id": "descripciones_the_street_is_big",
+      "conceptId": "de.descripciones_the_street_is_big",
+      "sourceId": "en.s.a40d811238c71476",
+      "source": "The street is very big.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Die Straße ist sehr groß.",
+          "audioSlug": "die_stra_e_ist_sehr_gro"
+        }
+      ]
+    }
+  ]
+}

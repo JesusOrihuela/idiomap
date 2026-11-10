@@ -1,23 +1,215 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "sitios",
-  "conceptIds": [
-    "en.sitios_it_is_a_small_village",
-    "en.sitios_the_town_is_quiet",
-    "en.sitios_it_has_a_central_location",
-    "en.sitios_it_is_a_public_place",
-    "en.sitios_this_house_is_old",
-    "en.sitios_her_house_is_very_modern",
-    "en.sitios_the_road_is_long",
-    "en.sitios_the_wall_is_very_high",
-    "en.sitios_the_bridge_is_low",
-    "en.sitios_i_love_my_country",
-    "en.sitios_library_next_to_park",
-    "en.sitios_meet_at_town_square",
-    "en.sitios_station_far_from_here",
-    "en.sitios_bank_on_the_corner",
-    "en.sitios_market_opens_early",
-    "en.sitios_neighborhood_very_quiet"
+  "phrases": [
+    {
+      "conceptId": "en.sitios_it_is_a_small_village",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8c3dd790965ac059"
+    },
+    {
+      "conceptId": "en.sitios_the_town_is_quiet",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.09e2d20f5dc567b5"
+    },
+    {
+      "conceptId": "en.sitios_it_has_a_central_location",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9f1095c964af2d0f"
+    },
+    {
+      "conceptId": "en.sitios_it_is_a_public_place",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.17314712111e1cae"
+    },
+    {
+      "conceptId": "en.sitios_this_house_is_old",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.59f109b466f3184c"
+    },
+    {
+      "conceptId": "en.sitios_her_house_is_very_modern",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c72d5bc74fc26c32"
+    },
+    {
+      "conceptId": "en.sitios_the_road_is_long",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.eec20bf3d6de0af1"
+    },
+    {
+      "conceptId": "en.sitios_the_wall_is_very_high",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.98b3acbbc73c51d2"
+    },
+    {
+      "conceptId": "en.sitios_the_bridge_is_low",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dfc6f33e3c10967a"
+    },
+    {
+      "conceptId": "en.sitios_i_love_my_country",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1ff6b84af402415f"
+    },
+    {
+      "conceptId": "en.sitios_library_next_to_park",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ea8360bddbf77399"
+    },
+    {
+      "conceptId": "en.sitios_meet_at_town_square",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.57aa93088d0db893"
+    },
+    {
+      "conceptId": "en.sitios_station_far_from_here",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7614d80739f6acac"
+    },
+    {
+      "conceptId": "en.sitios_bank_on_the_corner",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.58553ab9133225d0"
+    },
+    {
+      "conceptId": "en.sitios_market_opens_early",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e0f7863be79f20b6"
+    },
+    {
+      "conceptId": "en.sitios_neighborhood_very_quiet",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4c5d1d4e7ee1990a"
+    }
   ]
 }

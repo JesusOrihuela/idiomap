@@ -1,23 +1,215 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "cuerpo",
-  "conceptIds": [
-    "en.cuerpo_her_hair_is_very_long",
-    "en.cuerpo_my_heart_is_beating_fast",
-    "en.cuerpo_her_skin_is_very_soft",
-    "en.cuerpo_the_brain_is_amazing",
-    "en.cuerpo_i_have_blue_eyes",
-    "en.cuerpo_she_has_curly_hair",
-    "en.cuerpo_his_hands_are_big",
-    "en.cuerpo_my_hands_are_cold",
-    "en.cuerpo_her_legs_are_long",
-    "en.cuerpo_his_arms_are_strong",
-    "en.cuerpo_i_have_a_small_nose",
-    "en.cuerpo_the_teeth_are_white",
-    "en.cuerpo_the_human_body_is_complex",
-    "en.cuerpo_move_your_fingers",
-    "en.cuerpo_head_hurts_a_little",
-    "en.cuerpo_she_has_beautiful_eyes"
+  "phrases": [
+    {
+      "conceptId": "en.cuerpo_her_hair_is_very_long",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ad6142add1ca0bc5"
+    },
+    {
+      "conceptId": "en.cuerpo_my_heart_is_beating_fast",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0508332da2ad8007"
+    },
+    {
+      "conceptId": "en.cuerpo_her_skin_is_very_soft",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.06d55b13548e08c2"
+    },
+    {
+      "conceptId": "en.cuerpo_the_brain_is_amazing",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3b715896a915e2d7"
+    },
+    {
+      "conceptId": "en.cuerpo_i_have_blue_eyes",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.744315318f3f477a"
+    },
+    {
+      "conceptId": "en.cuerpo_she_has_curly_hair",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6c7b4dc6193b74f1"
+    },
+    {
+      "conceptId": "en.cuerpo_his_hands_are_big",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0968a4077d8468da"
+    },
+    {
+      "conceptId": "en.cuerpo_my_hands_are_cold",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f9e47a38cda2354c"
+    },
+    {
+      "conceptId": "en.cuerpo_her_legs_are_long",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6f2bb5cf70ac7854"
+    },
+    {
+      "conceptId": "en.cuerpo_his_arms_are_strong",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c7640928062549c7"
+    },
+    {
+      "conceptId": "en.cuerpo_i_have_a_small_nose",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fe75e697767953d8"
+    },
+    {
+      "conceptId": "en.cuerpo_the_teeth_are_white",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d24d5213aa19b77d"
+    },
+    {
+      "conceptId": "en.cuerpo_the_human_body_is_complex",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0a64383f6d53d0a6"
+    },
+    {
+      "conceptId": "en.cuerpo_move_your_fingers",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ae82e542da2a5db9"
+    },
+    {
+      "conceptId": "en.cuerpo_head_hurts_a_little",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.032049ccf0cf76c6"
+    },
+    {
+      "conceptId": "en.cuerpo_she_has_beautiful_eyes",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.810680f8303b59c9"
+    }
   ]
 }

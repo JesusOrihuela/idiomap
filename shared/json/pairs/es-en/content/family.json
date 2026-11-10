@@ -1,49 +1,553 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "family",
-  "conceptIds": [
-    "en.family_this_is_my_family",
-    "en.family_two_brothers_one_sister",
-    "en.family_my_father_is_a_doctor",
-    "en.family_my_mother_works",
-    "en.family_how_many_people",
-    "en.family_my_older_brother",
-    "en.family_grandparents_countryside",
-    "en.family_shes_my_best_friend",
-    "en.family_my_son_is_five",
-    "en.family_this_man_is_my_uncle",
-    "en.family_that_woman_is_my_aunt",
-    "en.family_my_husband_is_called",
-    "en.family_sister_younger",
-    "en.family_big_family",
-    "en.family_parents_divorced",
-    "en.family_live_with_partner",
-    "en.family_grandmother_eighty",
-    "en.family_get_along",
-    "en.family_cousin_visit",
-    "en.family_my_daughter_student",
-    "en.family_are_you_married_single",
-    "en.family_do_you_have_siblings",
-    "en.family_how_is_your_family",
-    "en.family_how_many_children_do_you_have",
-    "en.family_my_whole_family_is_fine",
-    "en.family_i_love_my_family_very_much",
-    "en.family_my_aunt_lives_in_the_city",
-    "en.family_my_daughter_is_not_a_child_anymore",
-    "en.family_what_does_your_brother_do",
-    "en.family_can_i_bring_my_family",
-    "en.family_my_kids_go_to_the_same_school",
-    "en.family_they_have_one_kid",
-    "en.family_the_baby_is_asleep",
-    "en.family_this_is_my_wife",
-    "en.family_they_are_a_nice_couple",
-    "en.family_every_child_needs_love",
-    "en.family_he_is_my_neighbor",
-    "en.family_you_are_my_best_friend",
-    "en.family_she_is_my_partner",
-    "en.family_my_grandfather_died_last_year",
-    "en.family_do_you_have_any_children",
-    "en.family_we_have_a_relationship"
+  "phrases": [
+    {
+      "conceptId": "en.family_this_is_my_family",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.447ab81a223d06b6"
+    },
+    {
+      "conceptId": "en.family_two_brothers_one_sister",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.96afcde5e2af93a3"
+    },
+    {
+      "conceptId": "en.family_my_father_is_a_doctor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f76fc42596f47bbb"
+    },
+    {
+      "conceptId": "en.family_my_mother_works",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bca4a824955951eb"
+    },
+    {
+      "conceptId": "en.family_how_many_people",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.442d30555e1fddc3"
+    },
+    {
+      "conceptId": "en.family_my_older_brother",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fd6b83f16472fc65"
+    },
+    {
+      "conceptId": "en.family_grandparents_countryside",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5784217cbb5235b0"
+    },
+    {
+      "conceptId": "en.family_shes_my_best_friend",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.af24a1ddf7183854"
+    },
+    {
+      "conceptId": "en.family_my_son_is_five",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9628239666544c37"
+    },
+    {
+      "conceptId": "en.family_this_man_is_my_uncle",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1994ce760a6af3b3"
+    },
+    {
+      "conceptId": "en.family_that_woman_is_my_aunt",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.750ceef6caf7462d"
+    },
+    {
+      "conceptId": "en.family_my_husband_is_called",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.db91d5df74e5aa3b"
+    },
+    {
+      "conceptId": "en.family_sister_younger",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f4fb4066bc5dfe16"
+    },
+    {
+      "conceptId": "en.family_big_family",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.077592dcc9a62fe7"
+    },
+    {
+      "conceptId": "en.family_parents_divorced",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3ef2ea5b6ba5ac6e"
+    },
+    {
+      "conceptId": "en.family_live_with_partner",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ebef56eb7a50c9a0"
+    },
+    {
+      "conceptId": "en.family_grandmother_eighty",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.080ab620a7c9198f"
+    },
+    {
+      "conceptId": "en.family_get_along",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7542657f63e0fb4e"
+    },
+    {
+      "conceptId": "en.family_cousin_visit",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9bfc162570509ef4"
+    },
+    {
+      "conceptId": "en.family_my_daughter_student",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8459402e57850dd8"
+    },
+    {
+      "conceptId": "en.family_are_you_married_single",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f35f620f9bb84101"
+    },
+    {
+      "conceptId": "en.family_do_you_have_siblings",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2bd0f9cf68668888"
+    },
+    {
+      "conceptId": "en.family_how_is_your_family",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dd3ed94bab2b3e4d"
+    },
+    {
+      "conceptId": "en.family_how_many_children_do_you_have",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.505914ffd854181c"
+    },
+    {
+      "conceptId": "en.family_my_whole_family_is_fine",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e4d85779c052c3a6"
+    },
+    {
+      "conceptId": "en.family_i_love_my_family_very_much",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d49fe68d23c2ddae"
+    },
+    {
+      "conceptId": "en.family_my_aunt_lives_in_the_city",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8b838fdd43870ab5"
+    },
+    {
+      "conceptId": "en.family_my_daughter_is_not_a_child_anymore",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.be186205155489b3"
+    },
+    {
+      "conceptId": "en.family_what_does_your_brother_do",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3f9f957d07df70ae"
+    },
+    {
+      "conceptId": "en.family_can_i_bring_my_family",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2647ae2517ca3078"
+    },
+    {
+      "conceptId": "en.family_my_kids_go_to_the_same_school",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.70a6b0867a258d5f"
+    },
+    {
+      "conceptId": "en.family_they_have_one_kid",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4a79bf9b88cc3119"
+    },
+    {
+      "conceptId": "en.family_the_baby_is_asleep",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.69e748b6f806e979"
+    },
+    {
+      "conceptId": "en.family_this_is_my_wife",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.228704d53996c324"
+    },
+    {
+      "conceptId": "en.family_they_are_a_nice_couple",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ef70830e039de3bb"
+    },
+    {
+      "conceptId": "en.family_every_child_needs_love",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0d6243276cc3a7dc"
+    },
+    {
+      "conceptId": "en.family_he_is_my_neighbor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b4273ea3f18fb69a"
+    },
+    {
+      "conceptId": "en.family_you_are_my_best_friend",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ba8f53c72839734f"
+    },
+    {
+      "conceptId": "en.family_she_is_my_partner",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.699b71863c3ab8cf"
+    },
+    {
+      "conceptId": "en.family_my_grandfather_died_last_year",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.848f589c5f975b78"
+    },
+    {
+      "conceptId": "en.family_do_you_have_any_children",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.05ca08fc25236ad4"
+    },
+    {
+      "conceptId": "en.family_we_have_a_relationship",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cc0eb4e969be9a30"
+    }
   ]
 }

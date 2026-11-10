@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "no",
+  "bucket": "37",
+  "concepts": {
+    "no.personal_info_i_am_from_norway": {
+      "conceptId": "no.personal_info_i_am_from_norway",
+      "id": "personal_info_i_am_from_norway",
+      "target": [
+        {
+          "text": "Jeg er fra Norge.",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "jeg_er_fra_norge"
+        },
+        {
+          "text": "Eg er frå Noreg.",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "eg_er_fra_noreg"
+        }
+      ]
+    }
+  }
+}

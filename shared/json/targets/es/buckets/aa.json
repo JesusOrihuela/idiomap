@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "aa",
+  "concepts": {
+    "es.conversacion_compre_una_revista": {
+      "conceptId": "es.conversacion_compre_una_revista",
+      "id": "conversacion_compre_una_revista",
+      "target": [
+        {
+          "text": "Compré una revista.",
+          "audioSlug": "compre_una_revista"
+        }
+      ]
+    },
+    "es.daily_routine_no_salgo_porque_llueve": {
+      "conceptId": "es.daily_routine_no_salgo_porque_llueve",
+      "id": "daily_routine_no_salgo_porque_llueve",
+      "target": [
+        {
+          "text": "No salgo porque llueve.",
+          "audioSlug": "no_salgo_porque_llueve"
+        }
+      ]
+    },
+    "es.daily_routine_solo_descanso_los_domingos": {
+      "conceptId": "es.daily_routine_solo_descanso_los_domingos",
+      "id": "daily_routine_solo_descanso_los_domingos",
+      "target": [
+        {
+          "text": "Solo descanso los domingos.",
+          "audioSlug": "solo_descanso_los_domingos"
+        }
+      ]
+    },
+    "es.economia_hay_que_consumir_con_responsabilidad": {
+      "conceptId": "es.economia_hay_que_consumir_con_responsabilidad",
+      "id": "economia_hay_que_consumir_con_responsabilidad",
+      "target": [
+        {
+          "text": "Hay que consumir con responsabilidad.",
+          "audioSlug": "hay_que_consumir_con_responsabilidad"
+        }
+      ]
+    },
+    "es.economia_quiero_comprarlo": {
+      "conceptId": "es.economia_quiero_comprarlo",
+      "id": "economia_quiero_comprarlo",
+      "target": [
+        {
+          "text": "Quiero comprarlo.",
+          "audioSlug": "quiero_comprarlo"
+        }
+      ]
+    },
+    "es.economia_voy_a_hacer_la_compra_del_mes": {
+      "conceptId": "es.economia_voy_a_hacer_la_compra_del_mes",
+      "id": "economia_voy_a_hacer_la_compra_del_mes",
+      "target": [
+        {
+          "text": "Voy a hacer la compra del mes.",
+          "audioSlug": "voy_a_hacer_la_compra_del_mes"
+        }
+      ]
+    },
+    "es.gym_eat_healthily_to_get_better_results": {
+      "conceptId": "es.gym_eat_healthily_to_get_better_results",
+      "id": "gym_eat_healthily_to_get_better_results",
+      "target": [
+        {
+          "text": "Aliméntate de forma saludable para obtener mejores resultados.",
+          "audioSlug": "alimentate_de_forma_saludable_para_obtener_mejores_resultados"
+        }
+      ]
+    },
+    "es.hogar_el_sofa_es_comodo": {
+      "conceptId": "es.hogar_el_sofa_es_comodo",
+      "id": "hogar_el_sofa_es_comodo",
+      "target": [
+        {
+          "text": "El sofá es muy cómodo.",
+          "audioSlug": "el_sofa_es_muy_comodo"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_hay_que_trabajar_duro": {
+      "conceptId": "es.pensamientos_opiniones_hay_que_trabajar_duro",
+      "id": "pensamientos_opiniones_hay_que_trabajar_duro",
+      "target": [
+        {
+          "text": "Creo que hay que trabajar duro.",
+          "audioSlug": "creo_que_hay_que_trabajar_duro"
+        }
+      ]
+    },
+    "es.restaurant_la_comida_aqui_es_fresca": {
+      "conceptId": "es.restaurant_la_comida_aqui_es_fresca",
+      "id": "restaurant_la_comida_aqui_es_fresca",
+      "target": [
+        {
+          "text": "La comida aquí siempre es fresca.",
+          "audioSlug": "la_comida_aqui_siempre_es_fresca"
+        }
+      ]
+    },
+    "es.supermarket_where_are_gluten_free_products": {
+      "conceptId": "es.supermarket_where_are_gluten_free_products",
+      "id": "supermarket_where_are_gluten_free_products",
+      "target": [
+        {
+          "text": "¿Me podría decir dónde puedo encontrar los productos sin gluten?",
+          "audioSlug": "me_podria_decir_donde_puedo_encontrar_los_productos_sin_gluten"
+        }
+      ]
+    },
+    "es.technology_wait_my_computer_is_updating": {
+      "conceptId": "es.technology_wait_my_computer_is_updating",
+      "id": "technology_wait_my_computer_is_updating",
+      "target": [
+        {
+          "text": "Espera, mi computadora se está actualizando.",
+          "audioSlug": "espera_mi_computadora_se_esta_actualizando",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "Espera, mi ordenador se está actualizando.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "espera_mi_ordenador_se_esta_actualizando"
+        }
+      ]
+    },
+    "es.weather_la_lluvia_no_para_desde_ayer": {
+      "conceptId": "es.weather_la_lluvia_no_para_desde_ayer",
+      "id": "weather_la_lluvia_no_para_desde_ayer",
+      "target": [
+        {
+          "text": "La lluvia no para desde ayer.",
+          "audioSlug": "la_lluvia_no_para_desde_ayer"
+        }
+      ]
+    }
+  }
+}

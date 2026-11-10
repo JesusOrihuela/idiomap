@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "it",
+  "bucket": "b3",
+  "concepts": {
+    "it.piloto_quiero_un_cafe_por_favor": {
+      "conceptId": "it.piloto_quiero_un_cafe_por_favor",
+      "id": "piloto_quiero_un_cafe_por_favor",
+      "target": [
+        {
+          "text": "Vorrei un caffè, per favore.",
+          "audioSlug": "quiero_un_cafe_por_favor"
+        }
+      ]
+    }
+  }
+}

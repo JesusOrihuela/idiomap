@@ -1,40 +1,436 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "family",
-  "conceptIds": [
-    "es.family_this_is_my_family",
-    "es.family_i_have_a_brother_and_a_sister",
-    "es.family_my_father_is_a_teacher",
-    "es.family_my_mother_is_a_doctor",
-    "es.family_i_have_two_children",
-    "es.family_whats_your_sisters_name",
-    "es.family_my_grandparents_live_in_berlin",
-    "es.family_he_is_my_best_friend",
-    "es.family_el_nino_de_mi_hermana",
-    "es.family_somos_un_grupo_unido",
-    "es.family_ellos_son_mis_primos",
-    "es.family_paso_gran_parte_del_dia_con_mi_familia",
-    "es.family_mi_tio_vive_lejos",
-    "es.family_mi_hija_es_la_menor",
-    "es.family_nos_reunimos_los_domingos",
-    "es.family_mi_esposa_trabaja_en_un_hospital",
-    "es.family_tengo_una_relacion_familiar_cercana",
-    "es.family_la_boda_sera_en_verano",
-    "es.family_mis_sobrinos_son_traviesos",
-    "es.family_mis_abuelos_celebran_su_aniversario",
-    "es.family_mi_cunado_trabaja_como_medico",
-    "es.family_somos_una_familia_numerosa",
-    "es.family_mi_prima_es_argentina",
-    "es.family_en_navidad_visitamos_a_los_abuelos",
-    "es.family_ese_muchacho_es_mi_primo",
-    "es.family_suelo_visitar_a_mi_abuela_los_domingos",
-    "es.family_mi_marido_cocina_muy_bien",
-    "es.family_la_nina_pequena_juega_feliz",
-    "es.family_mi_nieta_vive_muy_lejos",
-    "es.family_tiene_una_hermana_gemela",
-    "es.family_la_senora_del_piso_de_arriba_es_amable",
-    "es.family_la_princesa_vive_en_un_gran_castillo",
-    "es.family_mis_primos_van_a_casarse_en_junio"
+  "phrases": [
+    {
+      "conceptId": "es.family_this_is_my_family",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4bc156490034f403"
+    },
+    {
+      "conceptId": "es.family_i_have_a_brother_and_a_sister",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c32c1106e9d554a0"
+    },
+    {
+      "conceptId": "es.family_my_father_is_a_teacher",
+      "level": "A1",
+      "grammar": "El oficio usa ser, mi padre es profesor.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.47373244e4a6fd2f"
+    },
+    {
+      "conceptId": "es.family_my_mother_is_a_doctor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e0e9616b776db779"
+    },
+    {
+      "conceptId": "es.family_i_have_two_children",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4aeaf87bf94d0447"
+    },
+    {
+      "conceptId": "es.family_whats_your_sisters_name",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b519764c93f76811"
+    },
+    {
+      "conceptId": "es.family_my_grandparents_live_in_berlin",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.972a88ce66b38c5b"
+    },
+    {
+      "conceptId": "es.family_he_is_my_best_friend",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.004773d8562ff9d7"
+    },
+    {
+      "conceptId": "es.family_el_nino_de_mi_hermana",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bb9ed814dd5fcba2"
+    },
+    {
+      "conceptId": "es.family_somos_un_grupo_unido",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2cd404d866bad3ac"
+    },
+    {
+      "conceptId": "es.family_ellos_son_mis_primos",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f788d61a38628d18"
+    },
+    {
+      "conceptId": "es.family_paso_gran_parte_del_dia_con_mi_familia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7fb1ce21cdef46a2"
+    },
+    {
+      "conceptId": "es.family_mi_tio_vive_lejos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d7ae576dceed9bad"
+    },
+    {
+      "conceptId": "es.family_mi_hija_es_la_menor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0f612451c63bb948"
+    },
+    {
+      "conceptId": "es.family_nos_reunimos_los_domingos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.33d373da631d2a7f"
+    },
+    {
+      "conceptId": "es.family_mi_esposa_trabaja_en_un_hospital",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d5a2ea8c4b955d5a"
+    },
+    {
+      "conceptId": "es.family_tengo_una_relacion_familiar_cercana",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.02be9c65f78072c8"
+    },
+    {
+      "conceptId": "es.family_la_boda_sera_en_verano",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6ec864080c5539f7"
+    },
+    {
+      "conceptId": "es.family_mis_sobrinos_son_traviesos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d4d86532a407fdb0"
+    },
+    {
+      "conceptId": "es.family_mis_abuelos_celebran_su_aniversario",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.19d89880832eb739"
+    },
+    {
+      "conceptId": "es.family_mi_cunado_trabaja_como_medico",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.93d0be3afe5a6f80"
+    },
+    {
+      "conceptId": "es.family_somos_una_familia_numerosa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0f06bed718f419e0"
+    },
+    {
+      "conceptId": "es.family_mi_prima_es_argentina",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.109b73d355413571"
+    },
+    {
+      "conceptId": "es.family_en_navidad_visitamos_a_los_abuelos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bdf6a85be956bc45"
+    },
+    {
+      "conceptId": "es.family_ese_muchacho_es_mi_primo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cd3bf31b6e8786af"
+    },
+    {
+      "conceptId": "es.family_suelo_visitar_a_mi_abuela_los_domingos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c7890134729f2550"
+    },
+    {
+      "conceptId": "es.family_mi_marido_cocina_muy_bien",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.210eadfd693b8ff8"
+    },
+    {
+      "conceptId": "es.family_la_nina_pequena_juega_feliz",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.612acd9aa9b9419f"
+    },
+    {
+      "conceptId": "es.family_mi_nieta_vive_muy_lejos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4614693c57afcf18"
+    },
+    {
+      "conceptId": "es.family_tiene_una_hermana_gemela",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bb23a9613c27142d"
+    },
+    {
+      "conceptId": "es.family_la_senora_del_piso_de_arriba_es_amable",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e4894194f8f6ec99"
+    },
+    {
+      "conceptId": "es.family_la_princesa_vive_en_un_gran_castillo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7dd8a0e635faecf2"
+    },
+    {
+      "conceptId": "es.family_mis_primos_van_a_casarse_en_junio",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.780d2fd0f279a99c"
+    }
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "97",
+  "concepts": {
+    "en.economia_can_you_estimate_the_cost": {
+      "conceptId": "en.economia_can_you_estimate_the_cost",
+      "id": "economia_can_you_estimate_the_cost",
+      "target": [
+        {
+          "text": "Can you estimate the cost?",
+          "audioSlug": "can_you_estimate_the_cost"
+        }
+      ]
+    },
+    "en.kitchen_before_cooking_pasta_we_have_to": {
+      "conceptId": "en.kitchen_before_cooking_pasta_we_have_to",
+      "id": "kitchen_before_cooking_pasta_we_have_to",
+      "target": [
+        {
+          "text": "We have to wait for the water to boil.",
+          "audioSlug": "we_have_to_wait_for_the_water_to_boil"
+        }
+      ]
+    },
+    "en.music_overproduction_works_against_core": {
+      "conceptId": "en.music_overproduction_works_against_core",
+      "id": "music_overproduction_works_against_core",
+      "target": [
+        {
+          "text": "The overproduced sound works against the song emotional core.",
+          "audioSlug": "the_overproduced_sound_works_against_the_song_emotional_core"
+        }
+      ]
+    },
+    "en.planes_try_to_avoid_it": {
+      "conceptId": "en.planes_try_to_avoid_it",
+      "id": "planes_try_to_avoid_it",
+      "target": [
+        {
+          "text": "Try to avoid it.",
+          "audioSlug": "try_to_avoid_it"
+        }
+      ]
+    },
+    "en.restaurant_sommelier_provenance_barolo": {
+      "conceptId": "en.restaurant_sommelier_provenance_barolo",
+      "id": "restaurant_sommelier_provenance_barolo",
+      "target": [
+        {
+          "text": "Could I speak with the sommelier? I'd like to know the provenance and vintage of the Barolo.",
+          "audioSlug": "could_i_speak_with_the_sommelier_i_d_like_to_know_the_provenance_and_vintage_of_the_barolo"
+        }
+      ]
+    },
+    "en.technology_how_do_i_take_a_screenshot": {
+      "conceptId": "en.technology_how_do_i_take_a_screenshot",
+      "id": "technology_how_do_i_take_a_screenshot",
+      "target": [
+        {
+          "text": "How do I take a screenshot on my phone?",
+          "audioSlug": "how_do_i_take_a_screenshot_on_my_phone"
+        }
+      ]
+    }
+  }
+}

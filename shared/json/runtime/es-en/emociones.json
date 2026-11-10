@@ -1,0 +1,525 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "emociones",
+  "phrases": [
+    {
+      "id": "emociones_im_sad",
+      "conceptId": "en.emociones_im_sad",
+      "sourceId": "es.s.bce6f4730768a74b",
+      "source": "Estoy triste.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm sad.",
+          "audioSlug": "i_m_sad"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_happy",
+      "conceptId": "en.emociones_im_happy",
+      "sourceId": "es.s.41601ba4d5befc6e",
+      "source": "Estoy feliz.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm happy.",
+          "audioSlug": "i_m_happy"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_excited",
+      "conceptId": "en.emociones_im_excited",
+      "sourceId": "es.s.2615d8757152ada6",
+      "source": "Estoy emocionado/a.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm excited.",
+          "audioSlug": "i_m_excited"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_bored",
+      "conceptId": "en.emociones_im_bored",
+      "sourceId": "es.s.9812fd5ac56cfa23",
+      "source": "Estoy aburrido/a.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm bored.",
+          "audioSlug": "i_m_bored"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_tired",
+      "conceptId": "en.emociones_im_tired",
+      "sourceId": "es.s.67059975cb60bb45",
+      "source": "Estoy cansado/a.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm tired.",
+          "audioSlug": "i_m_tired"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_angry",
+      "conceptId": "en.emociones_im_angry",
+      "sourceId": "es.s.50bc8cbaa5ebec19",
+      "source": "Estoy enojado/a.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm angry.",
+          "audioSlug": "i_m_angry"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_surprised",
+      "conceptId": "en.emociones_im_surprised",
+      "sourceId": "es.s.58428fd792ae8188",
+      "source": "Estoy sorprendido/a.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm surprised.",
+          "audioSlug": "i_m_surprised"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_confused",
+      "conceptId": "en.emociones_im_confused",
+      "sourceId": "es.s.b95ab67ddcbb77ff",
+      "source": "Estoy confundido/a.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm confused.",
+          "audioSlug": "i_m_confused"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_worried",
+      "conceptId": "en.emociones_im_worried",
+      "sourceId": "es.s.4bf1e948011434c6",
+      "source": "Estoy preocupado/a.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm worried.",
+          "audioSlug": "i_m_worried"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_nervous",
+      "conceptId": "en.emociones_im_nervous",
+      "sourceId": "es.s.c39bff3bf901ea59",
+      "source": "Estoy nervioso/a.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm nervous.",
+          "audioSlug": "i_m_nervous"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_scared",
+      "conceptId": "en.emociones_im_scared",
+      "sourceId": "es.s.2339c8d50b29ddc6",
+      "source": "Estoy asustado/a.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm scared.",
+          "audioSlug": "i_m_scared"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_relaxed",
+      "conceptId": "en.emociones_im_relaxed",
+      "sourceId": "es.s.4986b3b27466bd80",
+      "source": "Estoy relajado/a.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm relaxed.",
+          "audioSlug": "i_m_relaxed"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_stressed",
+      "conceptId": "en.emociones_im_stressed",
+      "sourceId": "es.s.adaf1b4d58d9ca15",
+      "source": "Estoy estresado/a.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm stressed.",
+          "audioSlug": "i_m_stressed"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_sad",
+      "conceptId": "en.emociones_why_are_you_sad",
+      "sourceId": "es.s.5956ff9db80051e4",
+      "source": "¿Por qué estás triste?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Why are you sad?",
+          "audioSlug": "why_are_you_sad"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_so_happy",
+      "conceptId": "en.emociones_why_are_you_so_happy",
+      "sourceId": "es.s.4e38c2400d837bc1",
+      "source": "¿Por qué estás tan feliz?",
+      "level": "A1",
+      "grammar": "'So' intensifies the adjective and signals mild surprise: 'Why are you SO happy?'",
+      "target": [
+        {
+          "text": "Why are you so happy?",
+          "audioSlug": "why_are_you_so_happy"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_excited",
+      "conceptId": "en.emociones_why_are_you_excited",
+      "sourceId": "es.s.ca32b7a5db3a69a5",
+      "source": "¿Por qué estás emocionado/a?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Why are you excited?",
+          "audioSlug": "why_are_you_excited"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_bored",
+      "conceptId": "en.emociones_why_are_you_bored",
+      "sourceId": "es.s.4b7fac5e2fe6be5c",
+      "source": "¿Por qué estás aburrido/a?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Why are you bored?",
+          "audioSlug": "why_are_you_bored"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_tired",
+      "conceptId": "en.emociones_why_are_you_tired",
+      "sourceId": "es.s.94c4242041efa3ab",
+      "source": "¿Por qué estás cansado/a?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Why are you tired?",
+          "audioSlug": "why_are_you_tired"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_angry",
+      "conceptId": "en.emociones_why_are_you_angry",
+      "sourceId": "es.s.117f5ff92a5ddd2e",
+      "source": "¿Por qué estás enojado/a?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Why are you angry?",
+          "audioSlug": "why_are_you_angry"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_surprised",
+      "conceptId": "en.emociones_why_are_you_surprised",
+      "sourceId": "es.s.16ae6626afc9386b",
+      "source": "¿Por qué estás sorprendido/a?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Why are you surprised?",
+          "audioSlug": "why_are_you_surprised"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_confused",
+      "conceptId": "en.emociones_why_are_you_confused",
+      "sourceId": "es.s.a9149baf62e47707",
+      "source": "¿Por qué estás confundido/a?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Why are you confused?",
+          "audioSlug": "why_are_you_confused"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_worried",
+      "conceptId": "en.emociones_why_are_you_worried",
+      "sourceId": "es.s.87a9e55d16db3ab9",
+      "source": "¿Por qué estás preocupado/a?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Why are you worried?",
+          "audioSlug": "why_are_you_worried"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_nervous",
+      "conceptId": "en.emociones_why_are_you_nervous",
+      "sourceId": "es.s.f61672860ac9a9b6",
+      "source": "¿Por qué estás nervioso/a?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Why are you nervous?",
+          "audioSlug": "why_are_you_nervous"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_scared",
+      "conceptId": "en.emociones_why_are_you_scared",
+      "sourceId": "es.s.bec009fdcb243797",
+      "source": "¿Por qué estás asustado/a?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Why are you scared?",
+          "audioSlug": "why_are_you_scared"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_relaxed",
+      "conceptId": "en.emociones_why_are_you_relaxed",
+      "sourceId": "es.s.8d3a697c4de6ad09",
+      "source": "¿Por qué estás relajado/a?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Why are you relaxed?",
+          "audioSlug": "why_are_you_relaxed"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_stressed",
+      "conceptId": "en.emociones_why_are_you_stressed",
+      "sourceId": "es.s.ccdff11858490af1",
+      "source": "¿Por qué estás estresado/a?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Why are you stressed?",
+          "audioSlug": "why_are_you_stressed"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_feel_fine",
+      "conceptId": "en.emociones_i_feel_fine",
+      "sourceId": "es.s.16d080920d0a2981",
+      "source": "Me siento bien.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I feel fine.",
+          "audioSlug": "i_feel_fine"
+        }
+      ]
+    },
+    {
+      "id": "emociones_are_you_okay",
+      "conceptId": "en.emociones_are_you_okay",
+      "sourceId": "es.s.c0a70f703540ef43",
+      "source": "¿Estás bien?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Are you okay?",
+          "audioSlug": "are_you_okay"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_embarrassed",
+      "conceptId": "en.emociones_im_embarrassed",
+      "sourceId": "es.s.b1cf698dc55d9d91",
+      "source": "Estoy avergonzado/a.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I am embarrassed.",
+          "audioSlug": "i_am_embarrassed"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_proud",
+      "conceptId": "en.emociones_im_proud",
+      "sourceId": "es.s.eadfa11521b2a2e3",
+      "source": "Estoy orgulloso/a.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I am proud.",
+          "audioSlug": "i_am_proud"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_disappointed",
+      "conceptId": "en.emociones_im_disappointed",
+      "sourceId": "es.s.d33ecfbe54e3c5f8",
+      "source": "Estoy decepcionado/a.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I am disappointed.",
+          "audioSlug": "i_am_disappointed"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_am_very_happy",
+      "conceptId": "en.emociones_i_am_very_happy",
+      "sourceId": "es.s.54c89c4b0138285e",
+      "source": "Estoy muy feliz.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I am very happy.",
+          "audioSlug": "i_am_very_happy"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_feel_a_lot_of_pressure",
+      "conceptId": "en.emociones_i_feel_a_lot_of_pressure",
+      "sourceId": "es.s.f077882d7e7b6172",
+      "source": "Siento mucha presión.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I feel a lot of pressure.",
+          "audioSlug": "i_feel_a_lot_of_pressure"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_have_no_fear",
+      "conceptId": "en.emociones_i_have_no_fear",
+      "sourceId": "es.s.be01b8d391e1e076",
+      "source": "No tengo miedo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have no fear.",
+          "audioSlug": "i_have_no_fear"
+        }
+      ]
+    },
+    {
+      "id": "emociones_please_remain_calm",
+      "conceptId": "en.emociones_please_remain_calm",
+      "sourceId": "es.s.b313ba8505871f52",
+      "source": "Mantén la calma, por favor.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Please remain calm.",
+          "audioSlug": "please_remain_calm"
+        }
+      ]
+    },
+    {
+      "id": "emociones_don_t_be_afraid_to_fail",
+      "conceptId": "en.emociones_don_t_be_afraid_to_fail",
+      "sourceId": "es.s.635d2d087980fe15",
+      "source": "No tengas miedo de fallar.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Don't be afraid to fail.",
+          "audioSlug": "don_t_be_afraid_to_fail"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_smiled",
+      "conceptId": "en.emociones_i_smiled",
+      "sourceId": "es.s.33c681f7750d7251",
+      "source": "Sonreí.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I smiled.",
+          "audioSlug": "i_smiled"
+        }
+      ]
+    }
+  ]
+}

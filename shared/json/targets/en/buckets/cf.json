@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "cf",
+  "concepts": {
+    "en.describiendo_personas_she_is_a_professional": {
+      "conceptId": "en.describiendo_personas_she_is_a_professional",
+      "id": "describiendo_personas_she_is_a_professional",
+      "target": [
+        {
+          "text": "She is a professional.",
+          "audioSlug": "she_is_a_professional"
+        }
+      ]
+    },
+    "en.gym_they_are_cleaning_the_locker_rooms": {
+      "conceptId": "en.gym_they_are_cleaning_the_locker_rooms",
+      "id": "gym_they_are_cleaning_the_locker_rooms",
+      "target": [
+        {
+          "text": "They are cleaning the locker rooms.",
+          "audioSlug": "they_are_cleaning_the_locker_rooms"
+        }
+      ]
+    },
+    "en.gym_what_muscles_are_worked_with_this": {
+      "conceptId": "en.gym_what_muscles_are_worked_with_this",
+      "id": "gym_what_muscles_are_worked_with_this",
+      "target": [
+        {
+          "text": "What muscles are worked with this machine?",
+          "audioSlug": "what_muscles_are_worked_with_this_machine"
+        }
+      ]
+    }
+  }
+}

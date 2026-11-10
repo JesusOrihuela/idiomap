@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "1d",
+  "concepts": {
+    "en.accountability_the_companys_income_in_the_past": {
+      "conceptId": "en.accountability_the_companys_income_in_the_past",
+      "id": "accountability_the_companys_income_in_the_past",
+      "target": [
+        {
+          "text": "Last year's income is shown on the balance sheet.",
+          "audioSlug": "last_year_s_income_is_shown_on_the_balance_sheet"
+        }
+      ]
+    },
+    "en.directions_go_straight": {
+      "conceptId": "en.directions_go_straight",
+      "id": "directions_go_straight",
+      "target": [
+        {
+          "text": "Go straight ahead.",
+          "audioSlug": "go_straight_ahead"
+        }
+      ]
+    },
+    "en.economia_it_is_an_economic_crisis": {
+      "conceptId": "en.economia_it_is_an_economic_crisis",
+      "id": "economia_it_is_an_economic_crisis",
+      "target": [
+        {
+          "text": "It is an economic crisis.",
+          "audioSlug": "it_is_an_economic_crisis"
+        }
+      ]
+    },
+    "en.health_smoking_can_kill": {
+      "conceptId": "en.health_smoking_can_kill",
+      "id": "health_smoking_can_kill",
+      "target": [
+        {
+          "text": "Smoking can kill.",
+          "audioSlug": "smoking_can_kill"
+        }
+      ]
+    },
+    "en.personal_info_i_speak_three_languages": {
+      "conceptId": "en.personal_info_i_speak_three_languages",
+      "id": "personal_info_i_speak_three_languages",
+      "target": [
+        {
+          "text": "I speak three languages.",
+          "audioSlug": "i_speak_three_languages"
+        }
+      ]
+    },
+    "en.personal_info_im_ana_and_you": {
+      "conceptId": "en.personal_info_im_ana_and_you",
+      "id": "personal_info_im_ana_and_you",
+      "target": [
+        {
+          "text": "Hi, I'm Ana. And you?",
+          "audioSlug": "hi_i_m_ana_and_you"
+        }
+      ]
+    },
+    "en.sitios_her_house_is_very_modern": {
+      "conceptId": "en.sitios_her_house_is_very_modern",
+      "id": "sitios_her_house_is_very_modern",
+      "target": [
+        {
+          "text": "Her house is very modern.",
+          "audioSlug": "her_house_is_very_modern"
+        }
+      ]
+    }
+  }
+}

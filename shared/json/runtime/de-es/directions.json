@@ -1,0 +1,473 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "directions",
+  "phrases": [
+    {
+      "id": "directions_where_is_the_station",
+      "conceptId": "es.directions_where_is_the_station",
+      "sourceId": "de.s.5010af15b9798f3e",
+      "source": "Entschuldigung, wo ist der Bahnhof?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Perdón, ¿dónde está la estación?",
+          "audioSlug": "perdon_donde_esta_la_estacion"
+        }
+      ]
+    },
+    {
+      "id": "directions_how_do_i_get_to_the_center",
+      "conceptId": "es.directions_how_do_i_get_to_the_center",
+      "sourceId": "de.s.eefd1716d39ab623",
+      "source": "Wie komme ich zum Zentrum?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo llego al centro?",
+          "audioSlug": "como_llego_al_centro"
+        }
+      ]
+    },
+    {
+      "id": "directions_is_it_far_from_here",
+      "conceptId": "es.directions_is_it_far_from_here",
+      "sourceId": "de.s.f150b57318f4d493",
+      "source": "Ist es weit von hier?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Está lejos de aquí?",
+          "audioSlug": "esta_lejos_de_aqui"
+        }
+      ]
+    },
+    {
+      "id": "directions_go_straight_ahead",
+      "conceptId": "es.directions_go_straight_ahead",
+      "sourceId": "de.s.a2cc29d81c79a688",
+      "source": "Geh geradeaus.",
+      "level": "A2",
+      "grammar": "El imperativo con usted usa siga, con tú sigue.",
+      "target": [
+        {
+          "text": "Sigue recto.",
+          "source": "Geh geradeaus.",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "sigue_recto"
+        },
+        {
+          "text": "Siga recto.",
+          "source": "Gehen Sie geradeaus.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "siga_recto"
+        }
+      ]
+    },
+    {
+      "id": "directions_turn_left_de",
+      "conceptId": "es.directions_turn_left.de-es",
+      "sourceId": "de.s.22720deaca05a065",
+      "source": "Bieg links ab.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Gira a la izquierda.",
+          "source": "Bieg links ab.",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "gira_a_la_izquierda"
+        },
+        {
+          "text": "Gire a la izquierda.",
+          "source": "Biegen Sie links ab.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "gire_a_la_izquierda"
+        }
+      ]
+    },
+    {
+      "id": "directions_its_next_to_the_bank",
+      "conceptId": "es.directions_its_next_to_the_bank",
+      "sourceId": "de.s.c27d1ef1f6c0eec8",
+      "source": "Es ist neben der Bank.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está al lado del banco.",
+          "audioSlug": "esta_al_lado_del_banco"
+        }
+      ]
+    },
+    {
+      "id": "directions_can_you_show_me_the_way_de",
+      "conceptId": "es.directions_can_you_show_me_the_way.de-es",
+      "sourceId": "de.s.fbbc96023c404923",
+      "source": "Kannst du mir den Weg zeigen?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedes indicarme el camino?",
+          "source": "Kannst du mir den Weg zeigen?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "puedes_indicarme_el_camino"
+        },
+        {
+          "text": "¿Puede indicarme el camino?",
+          "source": "Können Sie mir den Weg zeigen?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_indicarme_el_camino"
+        }
+      ]
+    },
+    {
+      "id": "directions_its_ten_minutes_on_foot",
+      "conceptId": "es.directions_its_ten_minutes_on_foot",
+      "sourceId": "de.s.7f41f7ef30932055",
+      "source": "Es ist zehn Minuten zu Fuß.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está a diez minutos a pie.",
+          "audioSlug": "esta_a_diez_minutos_a_pie"
+        }
+      ]
+    },
+    {
+      "id": "directions_entra_por_la_puerta_principal",
+      "conceptId": "es.directions_entra_por_la_puerta_principal",
+      "sourceId": "de.s.e4d219f050daf15d",
+      "source": "Geh durch die Haupttür hinein.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Entra por la puerta principal.",
+          "audioSlug": "entra_por_la_puerta_principal"
+        }
+      ]
+    },
+    {
+      "id": "directions_camina_hacia_la_plaza",
+      "conceptId": "es.directions_camina_hacia_la_plaza",
+      "sourceId": "de.s.8a407655829ff3b4",
+      "source": "Geh in Richtung Platz.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Camina hacia la plaza.",
+          "audioSlug": "camina_hacia_la_plaza"
+        }
+      ]
+    },
+    {
+      "id": "directions_este_es_el_lugar_donde_vivo",
+      "conceptId": "es.directions_este_es_el_lugar_donde_vivo",
+      "sourceId": "de.s.9d37e31b1f5577f4",
+      "source": "Das ist der Ort, wo ich wohne.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este es el lugar donde vivo.",
+          "audioSlug": "este_es_el_lugar_donde_vivo"
+        }
+      ]
+    },
+    {
+      "id": "directions_cruza_la_calle_con_cuidado",
+      "conceptId": "es.directions_cruza_la_calle_con_cuidado",
+      "sourceId": "de.s.0ffcf9e608544771",
+      "source": "Überquere die Straße vorsichtig.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cruza la calle con cuidado.",
+          "audioSlug": "cruza_la_calle_con_cuidado"
+        }
+      ]
+    },
+    {
+      "id": "directions_el_hotel_queda_hacia_el_norte",
+      "conceptId": "es.directions_el_hotel_queda_hacia_el_norte",
+      "sourceId": "de.s.ea804563f81ad977",
+      "source": "Das Hotel liegt Richtung Norden.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El hotel queda hacia el norte.",
+          "audioSlug": "el_hotel_queda_hacia_el_norte"
+        }
+      ]
+    },
+    {
+      "id": "directions_gira_a_la_derecha_en_el_semaforo",
+      "conceptId": "es.directions_gira_a_la_derecha_en_el_semaforo",
+      "sourceId": "de.s.d63dc37a1cd2ce43",
+      "source": "Bieg an der Ampel rechts ab.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Gira a la derecha en el semáforo.",
+          "audioSlug": "gira_a_la_derecha_en_el_semaforo"
+        }
+      ]
+    },
+    {
+      "id": "directions_esta_justo_enfrente_del_parque",
+      "conceptId": "es.directions_esta_justo_enfrente_del_parque",
+      "sourceId": "de.s.bb32534174149b12",
+      "source": "Es ist genau gegenüber dem Park.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está justo enfrente del parque.",
+          "audioSlug": "esta_justo_enfrente_del_parque"
+        }
+      ]
+    },
+    {
+      "id": "directions_necesito_indicaciones_para_llegar",
+      "conceptId": "es.directions_necesito_indicaciones_para_llegar",
+      "sourceId": "de.s.4a6319ceece276f6",
+      "source": "Ich brauche eine Wegbeschreibung, um dorthin zu kommen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito indicaciones para llegar allí.",
+          "audioSlug": "necesito_indicaciones_para_llegar_alli"
+        }
+      ]
+    },
+    {
+      "id": "directions_el_colegio_esta_al_final_de_la_calle",
+      "conceptId": "es.directions_el_colegio_esta_al_final_de_la_calle",
+      "sourceId": "de.s.f85efa160fb88ee2",
+      "source": "Die Schule ist am Ende der Straße.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El colegio está al final de la calle.",
+          "audioSlug": "el_colegio_esta_al_final_de_la_calle"
+        }
+      ]
+    },
+    {
+      "id": "directions_sube_por_la_escalera_hasta_el_tercer_piso",
+      "conceptId": "es.directions_sube_por_la_escalera_hasta_el_tercer_piso",
+      "sourceId": "de.s.02030b401ddaa950",
+      "source": "Geh die Treppe hinauf bis zum dritten Stock.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sube por la escalera hasta el tercer piso.",
+          "audioSlug": "sube_por_la_escalera_hasta_el_tercer_piso"
+        }
+      ]
+    },
+    {
+      "id": "directions_la_carretera_esta_cerrada_por_obras",
+      "conceptId": "es.directions_la_carretera_esta_cerrada_por_obras",
+      "sourceId": "de.s.5e8d2b8f4ff70af5",
+      "source": "Die Landstraße ist wegen Bauarbeiten gesperrt.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La carretera está cerrada por obras.",
+          "audioSlug": "la_carretera_esta_cerrada_por_obras"
+        }
+      ]
+    },
+    {
+      "id": "directions_el_instituto_queda_muy_cerca_de_aqui",
+      "conceptId": "es.directions_el_instituto_queda_muy_cerca_de_aqui",
+      "sourceId": "de.s.f2c61180e4d7ebce",
+      "source": "Die Oberschule ist ganz in der Nähe.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El instituto queda muy cerca de aquí.",
+          "audioSlug": "el_instituto_queda_muy_cerca_de_aqui"
+        }
+      ]
+    },
+    {
+      "id": "directions_la_salida_de_emergencia_esta_a_la_derecha",
+      "conceptId": "es.directions_la_salida_de_emergencia_esta_a_la_derecha",
+      "sourceId": "de.s.5bb7b92bb9edcb37",
+      "source": "Der Notausgang ist auf der rechten Seite.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La salida de emergencia está a la derecha.",
+          "audioSlug": "la_salida_de_emergencia_esta_a_la_derecha"
+        }
+      ]
+    },
+    {
+      "id": "directions_el_pueblo_esta_a_diez_kilometros",
+      "conceptId": "es.directions_el_pueblo_esta_a_diez_kilometros",
+      "sourceId": "de.s.35594ecd45ea0ec5",
+      "source": "Das Dorf ist zehn Kilometer entfernt.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El pueblo está a diez kilómetros.",
+          "audioSlug": "el_pueblo_esta_a_diez_kilometros"
+        }
+      ]
+    },
+    {
+      "id": "directions_sigue_recto_por_esta_avenida",
+      "conceptId": "es.directions_sigue_recto_por_esta_avenida",
+      "sourceId": "de.s.95ba21792d60001b",
+      "source": "Geh geradeaus diese Allee entlang.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sigue recto por esta avenida.",
+          "audioSlug": "sigue_recto_por_esta_avenida"
+        }
+      ]
+    },
+    {
+      "id": "directions_el_aparcamiento_esta_debajo_del_edificio",
+      "conceptId": "es.directions_el_aparcamiento_esta_debajo_del_edificio",
+      "sourceId": "de.s.5f89cb823dc02777",
+      "source": "Der Parkplatz ist unter dem Gebäude.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El estacionamiento está debajo del edificio.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "el_estacionamiento_esta_debajo_del_edificio"
+        },
+        {
+          "text": "El aparcamiento está debajo del edificio.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "el_aparcamiento_esta_debajo_del_edificio"
+        }
+      ]
+    },
+    {
+      "id": "directions_el_ayuntamiento_esta_en_la_plaza_central",
+      "conceptId": "es.directions_el_ayuntamiento_esta_en_la_plaza_central",
+      "sourceId": "de.s.b86bbf8fef2b3560",
+      "source": "Das Rathaus ist am zentralen Platz.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El ayuntamiento está en la plaza central.",
+          "audioSlug": "el_ayuntamiento_esta_en_la_plaza_central"
+        }
+      ]
+    },
+    {
+      "id": "directions_el_sol_se_pone_por_el_oeste",
+      "conceptId": "es.directions_el_sol_se_pone_por_el_oeste",
+      "sourceId": "de.s.d1b3aabf24f818dc",
+      "source": "Die Sonne geht im Westen unter.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El sol se pone por el oeste.",
+          "audioSlug": "el_sol_se_pone_por_el_oeste"
+        }
+      ]
+    },
+    {
+      "id": "directions_la_puerta_exterior_esta_cerrada",
+      "conceptId": "es.directions_la_puerta_exterior_esta_cerrada",
+      "sourceId": "de.s.3367f6748398e633",
+      "source": "Die Außentür ist geschlossen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La puerta exterior está cerrada.",
+          "audioSlug": "la_puerta_exterior_esta_cerrada"
+        }
+      ]
+    },
+    {
+      "id": "directions_el_patio_interior_es_muy_tranquilo",
+      "conceptId": "es.directions_el_patio_interior_es_muy_tranquilo",
+      "sourceId": "de.s.9efc5ff0ca977c20",
+      "source": "Der Innenhof ist sehr ruhig.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El patio interior es muy tranquilo.",
+          "audioSlug": "el_patio_interior_es_muy_tranquilo"
+        }
+      ]
+    },
+    {
+      "id": "directions_el_garaje_esta_al_lado_de_la_casa",
+      "conceptId": "es.directions_el_garaje_esta_al_lado_de_la_casa",
+      "sourceId": "de.s.a24d26a47c22d232",
+      "source": "Die Garage ist neben dem Haus.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El garaje está al lado de la casa.",
+          "audioSlug": "el_garaje_esta_al_lado_de_la_casa"
+        }
+      ]
+    },
+    {
+      "id": "directions_hay_poca_distancia_hasta_la_playa",
+      "conceptId": "es.directions_hay_poca_distancia_hasta_la_playa",
+      "sourceId": "de.s.91210658500a6075",
+      "source": "Bis zum Strand ist es nicht weit.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay poca distancia hasta la playa.",
+          "audioSlug": "hay_poca_distancia_hasta_la_playa"
+        }
+      ]
+    }
+  ]
+}

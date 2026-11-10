@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "descripciones",
+  "phrases": [
+    {
+      "id": "descripciones_this_is_easy",
+      "conceptId": "en.descripciones_this_is_easy",
+      "sourceId": "es.s.c655d464b3a907db",
+      "source": "Esto es fácil.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This is easy.",
+          "audioSlug": "this_is_easy"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_this_is_difficult",
+      "conceptId": "en.descripciones_this_is_difficult",
+      "sourceId": "es.s.53c990063abbeef9",
+      "source": "Esto es difícil.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This is difficult.",
+          "audioSlug": "this_is_difficult"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_this_place_is_huge",
+      "conceptId": "en.descripciones_this_place_is_huge",
+      "sourceId": "es.s.8b7f339b26f029bf",
+      "source": "Este lugar es enorme.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This place is huge.",
+          "audioSlug": "this_place_is_huge"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_the_cup_is_full",
+      "conceptId": "en.descripciones_the_cup_is_full",
+      "sourceId": "es.s.88f334f129c30790",
+      "source": "La taza está llena.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The cup is full.",
+          "audioSlug": "the_cup_is_full"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_it_is_dangerous",
+      "conceptId": "en.descripciones_it_is_dangerous",
+      "sourceId": "es.s.d47fe476f7abcaad",
+      "source": "Es peligroso.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It is dangerous.",
+          "audioSlug": "it_is_dangerous"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_this_is_very_strange",
+      "conceptId": "en.descripciones_this_is_very_strange",
+      "sourceId": "es.s.a305bc328b3bbd3c",
+      "source": "Esto es muy extraño.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This is very strange.",
+          "audioSlug": "this_is_very_strange"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_this_is_serious",
+      "conceptId": "en.descripciones_this_is_serious",
+      "sourceId": "es.s.72c620ea8574c1ca",
+      "source": "Esto es grave.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This is serious.",
+          "audioSlug": "this_is_serious"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_is_it_free",
+      "conceptId": "en.descripciones_is_it_free",
+      "sourceId": "es.s.6a56fe4f8aafd7b4",
+      "source": "¿Es gratis?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is it free?",
+          "audioSlug": "is_it_free"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_this_one_is_different",
+      "conceptId": "en.descripciones_this_one_is_different",
+      "sourceId": "es.s.dc07496510ea9f61",
+      "source": "Este es diferente.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This one is different.",
+          "audioSlug": "this_one_is_different"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_the_task_is_simple",
+      "conceptId": "en.descripciones_the_task_is_simple",
+      "sourceId": "es.s.b677459a74dccae9",
+      "source": "La tarea es sencilla.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The task is simple.",
+          "audioSlug": "the_task_is_simple"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_it_looks_normal",
+      "conceptId": "en.descripciones_it_looks_normal",
+      "sourceId": "es.s.587ae1313533f3a7",
+      "source": "Parece normal.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It looks normal.",
+          "audioSlug": "it_looks_normal"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_the_story_is_true",
+      "conceptId": "en.descripciones_the_story_is_true",
+      "sourceId": "es.s.47baaeb7ff427122",
+      "source": "La historia es verdadera.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The story is true.",
+          "audioSlug": "the_story_is_true"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_is_this_real",
+      "conceptId": "en.descripciones_is_this_real",
+      "sourceId": "es.s.045ba516957967c3",
+      "source": "¿Esto es real?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is this real?",
+          "audioSlug": "is_this_real"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_is_it_safe",
+      "conceptId": "en.descripciones_is_it_safe",
+      "sourceId": "es.s.577c6162b5c61d75",
+      "source": "¿Es seguro?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is it safe?",
+          "audioSlug": "is_it_safe"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_i_am_ready",
+      "conceptId": "en.descripciones_i_am_ready",
+      "sourceId": "es.s.5e63fa27c969061e",
+      "source": "Estoy listo/a.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I am ready.",
+          "audioSlug": "i_am_ready"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_i_am_very_busy",
+      "conceptId": "en.descripciones_i_am_very_busy",
+      "sourceId": "es.s.ac0dd6c499fc3602",
+      "source": "Estoy muy ocupado/a.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I am very busy.",
+          "audioSlug": "i_am_very_busy"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_this_bag_is_heavy",
+      "conceptId": "en.descripciones_this_bag_is_heavy",
+      "sourceId": "es.s.3a6650db7399e4ba",
+      "source": "Esta bolsa es pesada.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This bag is heavy.",
+          "audioSlug": "this_bag_is_heavy"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_the_box_is_light",
+      "conceptId": "en.descripciones_the_box_is_light",
+      "sourceId": "es.s.6ebee81487d530a0",
+      "source": "La caja es ligera.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The box is light.",
+          "audioSlug": "the_box_is_light"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_it_is_very_common",
+      "conceptId": "en.descripciones_it_is_very_common",
+      "sourceId": "es.s.f93301f065d9cde6",
+      "source": "Es muy común.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It is very common.",
+          "audioSlug": "it_is_very_common"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_is_this_photo_recent",
+      "conceptId": "en.descripciones_is_this_photo_recent",
+      "sourceId": "es.s.261acd6a129f0d29",
+      "source": "¿Esta foto es reciente?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is this photo recent?",
+          "audioSlug": "is_this_photo_recent"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_is_it_private",
+      "conceptId": "en.descripciones_is_it_private",
+      "sourceId": "es.s.b84335aa562f83d4",
+      "source": "¿Es privado?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is it private?",
+          "audioSlug": "is_it_private"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_this_is_very_special",
+      "conceptId": "en.descripciones_this_is_very_special",
+      "sourceId": "es.s.cbcd1ed0c4a09866",
+      "source": "Esto es muy especial.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This is very special.",
+          "audioSlug": "this_is_very_special"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_it_is_a_strange_object",
+      "conceptId": "en.descripciones_it_is_a_strange_object",
+      "sourceId": "es.s.7d396928e557afc4",
+      "source": "Es un objeto extraño.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It is a strange object.",
+          "audioSlug": "it_is_a_strange_object"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_what_color_is_it",
+      "conceptId": "en.descripciones_what_color_is_it",
+      "sourceId": "es.s.19c956674a506ce5",
+      "source": "¿De qué color es?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What color is it?",
+          "audioSlug": "what_color_is_it"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_i_like_your_style",
+      "conceptId": "en.descripciones_i_like_your_style",
+      "sourceId": "es.s.dabef984463f0a6e",
+      "source": "Me gusta tu estilo.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I like your style.",
+          "audioSlug": "i_like_your_style"
+        }
+      ]
+    }
+  ]
+}

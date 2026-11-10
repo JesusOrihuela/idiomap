@@ -61,7 +61,13 @@
           "audioSlug": "taloon"
         }
       ],
-      "conceptId": "fi.talo"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "kaupunki",
@@ -110,7 +116,13 @@
           "audioSlug": "kaupungissa"
         }
       ],
-      "conceptId": "fi.kaupunki"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "kyla",
@@ -159,7 +171,13 @@
           "audioSlug": "kylassa"
         }
       ],
-      "conceptId": "fi.kyla"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "jarvi",
@@ -208,7 +226,13 @@
           "audioSlug": "jarvessa"
         }
       ],
-      "conceptId": "fi.jarvi"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "0a",
+  "concepts": {
+    "en.accommodation_longstay_discount_negotiation": {
+      "conceptId": "en.accommodation_longstay_discount_negotiation",
+      "id": "accommodation_longstay_discount_negotiation",
+      "target": [
+        {
+          "text": "I'd like to negotiate a long-stay rate for a month-long reservation beginning next Monday.",
+          "audioSlug": "i_d_like_to_negotiate_a_long_stay_rate_for_a_month_long_reservation_beginning_next_monday"
+        }
+      ]
+    },
+    "en.airport_seat_assignment_not_booked": {
+      "conceptId": "en.airport_seat_assignment_not_booked",
+      "id": "airport_seat_assignment_not_booked",
+      "target": [
+        {
+          "text": "I booked an exit-row seat but was assigned a standard economy seat. I'd like this corrected.",
+          "audioSlug": "i_booked_an_exit_row_seat_but_was_assigned_a_standard_economy_seat_i_d_like_this_corrected"
+        }
+      ]
+    },
+    "en.gym_tomorrow_is_arm_day": {
+      "conceptId": "en.gym_tomorrow_is_arm_day",
+      "id": "gym_tomorrow_is_arm_day",
+      "target": [
+        {
+          "text": "Tomorrow is arm day.",
+          "audioSlug": "tomorrow_is_arm_day"
+        }
+      ]
+    },
+    "en.music_add_song_playlist": {
+      "conceptId": "en.music_add_song_playlist",
+      "id": "music_add_song_playlist",
+      "target": [
+        {
+          "text": "I'd like to add this song to my playlist.",
+          "audioSlug": "i_d_like_to_add_this_song_to_my_playlist"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_don_t_assume_that": {
+      "conceptId": "en.pensamientos_opiniones_don_t_assume_that",
+      "id": "pensamientos_opiniones_don_t_assume_that",
+      "target": [
+        {
+          "text": "Don't assume that.",
+          "audioSlug": "don_t_assume_that"
+        }
+      ]
+    },
+    "en.personal_info_i_speak": {
+      "conceptId": "en.personal_info_i_speak",
+      "id": "personal_info_i_speak",
+      "target": [
+        {
+          "text": "I speak Spanish and a little English.",
+          "audioSlug": "i_speak_spanish_and_a_little_english"
+        }
+      ]
+    },
+    "en.politica_the_government_passed_a_law": {
+      "conceptId": "en.politica_the_government_passed_a_law",
+      "id": "politica_the_government_passed_a_law",
+      "target": [
+        {
+          "text": "The government passed a law.",
+          "audioSlug": "the_government_passed_a_law"
+        }
+      ]
+    },
+    "en.tiempo_libre_enjoy_reading_before_bed": {
+      "conceptId": "en.tiempo_libre_enjoy_reading_before_bed",
+      "id": "tiempo_libre_enjoy_reading_before_bed",
+      "target": [
+        {
+          "text": "I enjoy reading before bed.",
+          "audioSlug": "i_enjoy_reading_before_bed"
+        }
+      ]
+    }
+  }
+}

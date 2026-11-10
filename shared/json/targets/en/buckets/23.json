@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "23",
+  "concepts": {
+    "en.accommodation_room_misrepresented_listing": {
+      "conceptId": "en.accommodation_room_misrepresented_listing",
+      "id": "accommodation_room_misrepresented_listing",
+      "target": [
+        {
+          "text": "The room was misrepresented in the listing. The photos showed a sea view that didn't exist.",
+          "audioSlug": "the_room_was_misrepresented_in_the_listing_the_photos_showed_a_sea_view_that_didn_t_exist"
+        }
+      ]
+    },
+    "en.conversacion_had_never_seen_angry": {
+      "conceptId": "en.conversacion_had_never_seen_angry",
+      "id": "conversacion_had_never_seen_angry",
+      "target": [
+        {
+          "text": "I had never seen him so angry before.",
+          "audioSlug": "i_had_never_seen_him_so_angry_before"
+        }
+      ]
+    },
+    "en.descripciones_this_is_easy": {
+      "conceptId": "en.descripciones_this_is_easy",
+      "id": "descripciones_this_is_easy",
+      "target": [
+        {
+          "text": "This is easy.",
+          "audioSlug": "this_is_easy"
+        }
+      ]
+    },
+    "en.fiesta_lets_make_a_toast": {
+      "conceptId": "en.fiesta_lets_make_a_toast",
+      "id": "fiesta_lets_make_a_toast",
+      "target": [
+        {
+          "text": "Let's make a toast.",
+          "audioSlug": "let_s_make_a_toast"
+        }
+      ]
+    },
+    "en.greetings_hey_whats_new_with_you": {
+      "conceptId": "en.greetings_hey_whats_new_with_you",
+      "id": "greetings_hey_whats_new_with_you",
+      "target": [
+        {
+          "text": "Hey, what's new with you?",
+          "audioSlug": "hey_what_s_new_with_you",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Hello, what's new with you?",
+          "audioSlug": "hello_what_s_new_with_you",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.kitchen_we_dont_have_the_necessary_ingredients": {
+      "conceptId": "en.kitchen_we_dont_have_the_necessary_ingredients",
+      "id": "kitchen_we_dont_have_the_necessary_ingredients",
+      "target": [
+        {
+          "text": "We don't have the necessary ingredients to make the recipe.",
+          "audioSlug": "we_don_t_have_the_necessary_ingredients_to_make_the_recipe"
+        }
+      ]
+    },
+    "en.movies_editing_creates_tension": {
+      "conceptId": "en.movies_editing_creates_tension",
+      "id": "movies_editing_creates_tension",
+      "target": [
+        {
+          "text": "The editing in the opening sequence is masterful. The rhythm of the cuts creates unbearable tension.",
+          "audioSlug": "the_editing_in_the_opening_sequence_is_masterful_the_rhythm_of_the_cuts_creates_unbearable_tension"
+        }
+      ]
+    }
+  }
+}

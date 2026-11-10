@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "tag": "pt",
+  "bucket": "f7",
+  "concepts": {
+    "pt.survival_do_you_speak_english": {
+      "conceptId": "pt.survival_do_you_speak_english",
+      "id": "survival_do_you_speak_english",
+      "target": [
+        {
+          "text": "Com licença, tu falas inglês?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "com_licenca_tu_falas_ingles"
+        },
+        {
+          "text": "Com licença, você fala inglês?",
+          "labels": {
+            "register": "neutral"
+          },
+          "audioSlug": "com_licenca_voce_fala_ingles"
+        },
+        {
+          "text": "Com licença, o senhor fala inglês?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "com_licenca_o_senhor_fala_ingles"
+        }
+      ]
+    }
+  }
+}

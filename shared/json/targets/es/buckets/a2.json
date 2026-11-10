@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "a2",
+  "concepts": {
+    "es.conversacion_lo_lei_en_el_periodico": {
+      "conceptId": "es.conversacion_lo_lei_en_el_periodico",
+      "id": "conversacion_lo_lei_en_el_periodico",
+      "target": [
+        {
+          "text": "Lo leí en el periódico.",
+          "audioSlug": "lo_lei_en_el_periodico"
+        }
+      ]
+    },
+    "es.family_tenemos_visita": {
+      "conceptId": "es.family_tenemos_visita",
+      "id": "family_tenemos_visita",
+      "target": [
+        {
+          "text": "Tenemos visita.",
+          "audioSlug": "tenemos_visita"
+        }
+      ]
+    },
+    "es.fiesta_acepte_la_invitacion_a_la_boda": {
+      "conceptId": "es.fiesta_acepte_la_invitacion_a_la_boda",
+      "id": "fiesta_acepte_la_invitacion_a_la_boda",
+      "target": [
+        {
+          "text": "Acepté la invitación a la boda.",
+          "audioSlug": "acepte_la_invitacion_a_la_boda"
+        }
+      ]
+    },
+    "es.greetings_heard_so_much_face_to_name": {
+      "conceptId": "es.greetings_heard_so_much_face_to_name",
+      "id": "greetings_heard_so_much_face_to_name",
+      "target": [
+        {
+          "text": "He escuchado mucho sobre ti, ¡es genial conocerte por fin!",
+          "audioSlug": "he_escuchado_mucho_sobre_ti_es_genial_conocerte_por_fin"
+        }
+      ]
+    },
+    "es.greetings_hello_hope_youre_doing_fine": {
+      "conceptId": "es.greetings_hello_hope_youre_doing_fine",
+      "id": "greetings_hello_hope_youre_doing_fine",
+      "target": [
+        {
+          "text": "Hola, espero que estés bien.",
+          "audioSlug": "hola_espero_que_estes_bien"
+        }
+      ]
+    },
+    "es.gym_i_would_like_to_work_on": {
+      "conceptId": "es.gym_i_would_like_to_work_on",
+      "id": "gym_i_would_like_to_work_on",
+      "target": [
+        {
+          "text": "Me gustaría trabajar en la fuerza de piernas.",
+          "audioSlug": "me_gustaria_trabajar_en_la_fuerza_de_piernas"
+        }
+      ]
+    },
+    "es.kitchen_i_need_a_tablespoon_of_butter": {
+      "conceptId": "es.kitchen_i_need_a_tablespoon_of_butter",
+      "id": "kitchen_i_need_a_tablespoon_of_butter",
+      "target": [
+        {
+          "text": "Necesito una cucharada de mantequilla para esta receta.",
+          "audioSlug": "necesito_una_cucharada_de_mantequilla_para_esta_receta"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_supongo_que_si": {
+      "conceptId": "es.pensamientos_opiniones_supongo_que_si",
+      "id": "pensamientos_opiniones_supongo_que_si",
+      "target": [
+        {
+          "text": "Supongo que sí.",
+          "audioSlug": "supongo_que_si"
+        }
+      ]
+    },
+    "es.politica_los_musulmanes_rezan_en_la_mezquita": {
+      "conceptId": "es.politica_los_musulmanes_rezan_en_la_mezquita",
+      "id": "politica_los_musulmanes_rezan_en_la_mezquita",
+      "target": [
+        {
+          "text": "Los musulmanes rezan en la mezquita.",
+          "audioSlug": "los_musulmanes_rezan_en_la_mezquita"
+        }
+      ]
+    },
+    "es.restaurant_comi_un_bocadillo_de_jamon": {
+      "conceptId": "es.restaurant_comi_un_bocadillo_de_jamon",
+      "id": "restaurant_comi_un_bocadillo_de_jamon",
+      "target": [
+        {
+          "text": "Comí un bocadillo de jamón.",
+          "audioSlug": "comi_un_bocadillo_de_jamon"
+        }
+      ]
+    },
+    "es.survival_what_is_this": {
+      "conceptId": "es.survival_what_is_this",
+      "id": "survival_what_is_this",
+      "target": [
+        {
+          "text": "¿Cómo se llama esto?",
+          "audioSlug": "como_se_llama_esto"
+        }
+      ]
+    },
+    "es.transportation_how_long_to_get": {
+      "conceptId": "es.transportation_how_long_to_get",
+      "id": "transportation_how_long_to_get",
+      "target": [
+        {
+          "text": "¿Cuánto se tarda en llegar al centro?",
+          "audioSlug": "cuanto_se_tarda_en_llegar_al_centro"
+        }
+      ]
+    }
+  }
+}

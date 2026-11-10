@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "f2",
+  "concepts": {
+    "es.accommodation_formal_complaint_noise": {
+      "conceptId": "es.accommodation_formal_complaint_noise",
+      "id": "accommodation_formal_complaint_noise",
+      "target": [
+        {
+          "text": "Necesito presentar una queja formal por el ruido proveniente de arriba anoche.",
+          "audioSlug": "necesito_presentar_una_queja_formal_por_el_ruido_proveniente_de_arriba_anoche"
+        }
+      ]
+    },
+    "es.conversacion_i_think_youre_right": {
+      "conceptId": "es.conversacion_i_think_youre_right",
+      "id": "conversacion_i_think_youre_right",
+      "target": [
+        {
+          "text": "Creo que tienes razón.",
+          "audioSlug": "creo_que_tienes_razon"
+        }
+      ]
+    },
+    "es.descripciones_la_habitacion_esta_oscura": {
+      "conceptId": "es.descripciones_la_habitacion_esta_oscura",
+      "id": "descripciones_la_habitacion_esta_oscura",
+      "target": [
+        {
+          "text": "La habitación está oscura.",
+          "audioSlug": "la_habitacion_esta_oscura"
+        }
+      ]
+    },
+    "es.health_la_herida_tardo_en_sanar": {
+      "conceptId": "es.health_la_herida_tardo_en_sanar",
+      "id": "health_la_herida_tardo_en_sanar",
+      "target": [
+        {
+          "text": "La herida tardó en sanar.",
+          "audioSlug": "la_herida_tardo_en_sanar"
+        }
+      ]
+    },
+    "es.kitchen_where_are_the_clean_dishes": {
+      "conceptId": "es.kitchen_where_are_the_clean_dishes",
+      "id": "kitchen_where_are_the_clean_dishes",
+      "target": [
+        {
+          "text": "¿Dónde están los platos limpios?",
+          "audioSlug": "donde_estan_los_platos_limpios"
+        }
+      ]
+    },
+    "es.music_me_gusta_la_musica_disco": {
+      "conceptId": "es.music_me_gusta_la_musica_disco",
+      "id": "music_me_gusta_la_musica_disco",
+      "target": [
+        {
+          "text": "Me gusta la música disco.",
+          "audioSlug": "me_gusta_la_musica_disco"
+        }
+      ]
+    },
+    "es.politica_cada_religion_tiene_sus_fiestas": {
+      "conceptId": "es.politica_cada_religion_tiene_sus_fiestas",
+      "id": "politica_cada_religion_tiene_sus_fiestas",
+      "target": [
+        {
+          "text": "Cada religión tiene sus fiestas.",
+          "audioSlug": "cada_religion_tiene_sus_fiestas"
+        }
+      ]
+    },
+    "es.politica_el_partido_gano_las_elecciones": {
+      "conceptId": "es.politica_el_partido_gano_las_elecciones",
+      "id": "politica_el_partido_gano_las_elecciones",
+      "target": [
+        {
+          "text": "El partido ganó las elecciones.",
+          "audioSlug": "el_partido_gano_las_elecciones"
+        }
+      ]
+    },
+    "es.sitios_compre_el_libro_en_la_libreria": {
+      "conceptId": "es.sitios_compre_el_libro_en_la_libreria",
+      "id": "sitios_compre_el_libro_en_la_libreria",
+      "target": [
+        {
+          "text": "Compré el libro en la librería.",
+          "audioSlug": "compre_el_libro_en_la_libreria"
+        }
+      ]
+    },
+    "es.supermarket_this_supermarket_has_a_very_useful": {
+      "conceptId": "es.supermarket_this_supermarket_has_a_very_useful",
+      "id": "supermarket_this_supermarket_has_a_very_useful",
+      "target": [
+        {
+          "text": "Este supermercado tiene una aplicación muy útil.",
+          "audioSlug": "este_supermercado_tiene_una_aplicacion_muy_util"
+        }
+      ]
+    },
+    "es.theater_subverts_expectations_first_scene": {
+      "conceptId": "es.theater_subverts_expectations_first_scene",
+      "id": "theater_subverts_expectations_first_scene",
+      "target": [
+        {
+          "text": "El director subvierte las expectativas desde la primera escena.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "el_director_subvierte_las_expectativas_desde_la_primera_escena"
+        },
+        {
+          "text": "La directora subvierte las expectativas desde la primera escena.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "la_directora_subvierte_las_expectativas_desde_la_primera_escena"
+        }
+      ]
+    },
+    "es.theater_where_is_theater": {
+      "conceptId": "es.theater_where_is_theater",
+      "id": "theater_where_is_theater",
+      "target": [
+        {
+          "text": "¿Dónde puedo encontrar el teatro?",
+          "audioSlug": "donde_puedo_encontrar_el_teatro"
+        }
+      ]
+    },
+    "es.viajes_estoy_de_vacaciones": {
+      "conceptId": "es.viajes_estoy_de_vacaciones",
+      "id": "viajes_estoy_de_vacaciones",
+      "target": [
+        {
+          "text": "Estoy de vacaciones.",
+          "audioSlug": "estoy_de_vacaciones"
+        }
+      ]
+    }
+  }
+}

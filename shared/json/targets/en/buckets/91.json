@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "91",
+  "concepts": {
+    "en.accommodation_late_checkout_policy": {
+      "conceptId": "en.accommodation_late_checkout_policy",
+      "id": "accommodation_late_checkout_policy",
+      "target": [
+        {
+          "text": "What is the late check-out policy?",
+          "audioSlug": "what_is_the_late_check_out_policy"
+        }
+      ]
+    },
+    "en.describiendo_personas_we_are_very_similar": {
+      "conceptId": "en.describiendo_personas_we_are_very_similar",
+      "id": "describiendo_personas_we_are_very_similar",
+      "target": [
+        {
+          "text": "We are very similar.",
+          "audioSlug": "we_are_very_similar"
+        }
+      ]
+    },
+    "en.sitios_it_has_a_central_location": {
+      "conceptId": "en.sitios_it_has_a_central_location",
+      "id": "sitios_it_has_a_central_location",
+      "target": [
+        {
+          "text": "It has a central location.",
+          "audioSlug": "it_has_a_central_location"
+        }
+      ]
+    },
+    "en.technology_have_you_seen_my_message_in": {
+      "conceptId": "en.technology_have_you_seen_my_message_in",
+      "id": "technology_have_you_seen_my_message_in",
+      "target": [
+        {
+          "text": "Have you seen my message in the group?",
+          "audioSlug": "have_you_seen_my_message_in_the_group"
+        }
+      ]
+    }
+  }
+}

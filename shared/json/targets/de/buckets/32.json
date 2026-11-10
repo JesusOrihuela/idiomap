@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "bucket": "32",
+  "concepts": {
+    "de.daily_routine_i_get_up_early": {
+      "conceptId": "de.daily_routine_i_get_up_early",
+      "id": "daily_routine_i_get_up_early",
+      "target": [
+        {
+          "text": "Ich stehe früh auf.",
+          "audioSlug": "ich_stehe_fruh_auf"
+        }
+      ]
+    }
+  }
+}

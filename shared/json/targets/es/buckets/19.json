@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "19",
+  "concepts": {
+    "es.calendario_cada_manana_reviso_mi_correo": {
+      "conceptId": "es.calendario_cada_manana_reviso_mi_correo",
+      "id": "calendario_cada_manana_reviso_mi_correo",
+      "target": [
+        {
+          "text": "Cada mañana reviso mi correo.",
+          "audioSlug": "cada_manana_reviso_mi_correo"
+        }
+      ]
+    },
+    "es.calendario_llego_en_cinco_minutos": {
+      "conceptId": "es.calendario_llego_en_cinco_minutos",
+      "id": "calendario_llego_en_cinco_minutos",
+      "target": [
+        {
+          "text": "Llego en cinco minutos.",
+          "audioSlug": "llego_en_cinco_minutos"
+        }
+      ]
+    },
+    "es.daily_routine_suelo_organizar_mi_dia": {
+      "conceptId": "es.daily_routine_suelo_organizar_mi_dia",
+      "id": "daily_routine_suelo_organizar_mi_dia",
+      "target": [
+        {
+          "text": "Suelo organizar mi día por la noche.",
+          "audioSlug": "suelo_organizar_mi_dia_por_la_noche"
+        }
+      ]
+    },
+    "es.deportes_el_partido_empieza_a_las_ocho": {
+      "conceptId": "es.deportes_el_partido_empieza_a_las_ocho",
+      "id": "deportes_el_partido_empieza_a_las_ocho",
+      "target": [
+        {
+          "text": "El partido empieza a las ocho.",
+          "audioSlug": "el_partido_empieza_a_las_ocho"
+        }
+      ]
+    },
+    "es.describiendo_personas_tiene_mucho_caracter": {
+      "conceptId": "es.describiendo_personas_tiene_mucho_caracter",
+      "id": "describiendo_personas_tiene_mucho_caracter",
+      "target": [
+        {
+          "text": "Tiene mucho carácter.",
+          "audioSlug": "tiene_mucho_caracter"
+        }
+      ]
+    },
+    "es.economia_la_empresa_aumento_sus_ganancias": {
+      "conceptId": "es.economia_la_empresa_aumento_sus_ganancias",
+      "id": "economia_la_empresa_aumento_sus_ganancias",
+      "target": [
+        {
+          "text": "La empresa aumentó sus ganancias este año.",
+          "audioSlug": "la_empresa_aumento_sus_ganancias_este_ano"
+        }
+      ]
+    },
+    "es.emociones_estoy_tranquila": {
+      "conceptId": "es.emociones_estoy_tranquila",
+      "id": "emociones_estoy_tranquila",
+      "target": [
+        {
+          "text": "Estoy tranquila.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_tranquila"
+        },
+        {
+          "text": "Estoy tranquilo.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_tranquilo"
+        }
+      ]
+    },
+    "es.emociones_flying_scares_me": {
+      "conceptId": "es.emociones_flying_scares_me",
+      "id": "emociones_flying_scares_me",
+      "target": [
+        {
+          "text": "Me da miedo volar.",
+          "audioSlug": "me_da_miedo_volar"
+        }
+      ]
+    },
+    "es.family_i_love_my_family_very_much": {
+      "conceptId": "es.family_i_love_my_family_very_much",
+      "id": "family_i_love_my_family_very_much",
+      "target": [
+        {
+          "text": "Quiero mucho a mi familia.",
+          "audioSlug": "quiero_mucho_a_mi_familia"
+        }
+      ]
+    },
+    "es.greetings_hola_como_estas": {
+      "conceptId": "es.greetings_hola_como_estas",
+      "id": "greetings_hola_como_estas",
+      "target": [
+        {
+          "text": "Hola, ¿cómo estás?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "hola_como_estas"
+        },
+        {
+          "text": "Hola, ¿cómo está?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "hola_como_esta"
+        }
+      ]
+    },
+    "es.greetings_ive_had_a_great_day": {
+      "conceptId": "es.greetings_ive_had_a_great_day",
+      "id": "greetings_ive_had_a_great_day",
+      "target": [
+        {
+          "text": "He tenido un gran día.",
+          "audioSlug": "he_tenido_un_gran_dia"
+        }
+      ]
+    },
+    "es.movies_seen_new_trailer": {
+      "conceptId": "es.movies_seen_new_trailer",
+      "id": "movies_seen_new_trailer",
+      "target": [
+        {
+          "text": "¿Ya viste el nuevo tráiler de la película?",
+          "audioSlug": "ya_viste_el_nuevo_trailer_de_la_pelicula"
+        }
+      ]
+    },
+    "es.planes_espero_cumplir_mi_promesa": {
+      "conceptId": "es.planes_espero_cumplir_mi_promesa",
+      "id": "planes_espero_cumplir_mi_promesa",
+      "target": [
+        {
+          "text": "Espero cumplir mi promesa.",
+          "audioSlug": "espero_cumplir_mi_promesa"
+        }
+      ]
+    },
+    "es.planes_nada_me_va_a_detener": {
+      "conceptId": "es.planes_nada_me_va_a_detener",
+      "id": "planes_nada_me_va_a_detener",
+      "target": [
+        {
+          "text": "Nada me va a detener.",
+          "audioSlug": "nada_me_va_a_detener"
+        }
+      ]
+    },
+    "es.sitios_el_palacio_tiene_un_jardin": {
+      "conceptId": "es.sitios_el_palacio_tiene_un_jardin",
+      "id": "sitios_el_palacio_tiene_un_jardin",
+      "target": [
+        {
+          "text": "El palacio tiene un gran jardín.",
+          "audioSlug": "el_palacio_tiene_un_gran_jardin"
+        }
+      ]
+    },
+    "es.survival_necesito_consultar_el_horario_del_tren": {
+      "conceptId": "es.survival_necesito_consultar_el_horario_del_tren",
+      "id": "survival_necesito_consultar_el_horario_del_tren",
+      "target": [
+        {
+          "text": "Necesito consultar el horario del tren.",
+          "audioSlug": "necesito_consultar_el_horario_del_tren"
+        }
+      ]
+    },
+    "es.technology_how_do_i_delete_this_app": {
+      "conceptId": "es.technology_how_do_i_delete_this_app",
+      "id": "technology_how_do_i_delete_this_app",
+      "target": [
+        {
+          "text": "¿Cómo elimino esta aplicación de mi teléfono?",
+          "audioSlug": "como_elimino_esta_aplicacion_de_mi_telefono"
+        }
+      ]
+    },
+    "es.technology_no_tengo_senal_aqui": {
+      "conceptId": "es.technology_no_tengo_senal_aqui",
+      "id": "technology_no_tengo_senal_aqui",
+      "target": [
+        {
+          "text": "No tengo señal aquí.",
+          "audioSlug": "no_tengo_senal_aqui"
+        }
+      ]
+    },
+    "es.tiempo_libre_estoy_aprendiendo_a_pintar": {
+      "conceptId": "es.tiempo_libre_estoy_aprendiendo_a_pintar",
+      "id": "tiempo_libre_estoy_aprendiendo_a_pintar",
+      "target": [
+        {
+          "text": "Estoy aprendiendo a pintar.",
+          "audioSlug": "estoy_aprendiendo_a_pintar"
+        }
+      ]
+    },
+    "es.transportation_i_want_to_buy_a_ticket": {
+      "conceptId": "es.transportation_i_want_to_buy_a_ticket",
+      "id": "transportation_i_want_to_buy_a_ticket",
+      "target": [
+        {
+          "text": "Quiero comprar un boleto.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "quiero_comprar_un_boleto"
+        },
+        {
+          "text": "Quiero comprar un billete.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "quiero_comprar_un_billete"
+        }
+      ]
+    }
+  }
+}

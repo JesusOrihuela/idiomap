@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "36",
+  "concepts": {
+    "en.accommodation_aircon_maintenance": {
+      "conceptId": "en.accommodation_aircon_maintenance",
+      "id": "accommodation_aircon_maintenance",
+      "target": [
+        {
+          "text": "The air conditioning isn't working properly. Could you send someone from maintenance?",
+          "audioSlug": "the_air_conditioning_isn_t_working_properly_could_you_send_someone_from_maintenance"
+        }
+      ]
+    },
+    "en.accommodation_restaurant_closing": {
+      "conceptId": "en.accommodation_restaurant_closing",
+      "id": "accommodation_restaurant_closing",
+      "target": [
+        {
+          "text": "What time does the hotel restaurant close?",
+          "audioSlug": "what_time_does_the_hotel_restaurant_close"
+        }
+      ]
+    },
+    "en.accountability_outstanding_invoices_month_end_close": {
+      "conceptId": "en.accountability_outstanding_invoices_month_end_close",
+      "id": "accountability_outstanding_invoices_month_end_close",
+      "target": [
+        {
+          "text": "The outstanding invoices need to be followed up before the month-end close.",
+          "audioSlug": "the_outstanding_invoices_need_to_be_followed_up_before_the_month_end_close"
+        }
+      ]
+    },
+    "en.cotidianidad_takes_bus_to_work": {
+      "conceptId": "en.cotidianidad_takes_bus_to_work",
+      "id": "cotidianidad_takes_bus_to_work",
+      "target": [
+        {
+          "text": "She takes the bus to work.",
+          "audioSlug": "she_takes_the_bus_to_work"
+        }
+      ]
+    },
+    "en.gym_mobility_end_range_strength": {
+      "conceptId": "en.gym_mobility_end_range_strength",
+      "id": "gym_mobility_end_range_strength",
+      "target": [
+        {
+          "text": "Mobility work builds strength and control at end-range positions.",
+          "audioSlug": "mobility_work_builds_strength_and_control_at_end_range_positions"
+        }
+      ]
+    },
+    "en.technology_i_need_a_new_usb_cable": {
+      "conceptId": "en.technology_i_need_a_new_usb_cable",
+      "id": "technology_i_need_a_new_usb_cable",
+      "target": [
+        {
+          "text": "I need a new USB cable.",
+          "audioSlug": "i_need_a_new_usb_cable"
+        }
+      ]
+    }
+  }
+}

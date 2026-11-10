@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "7f",
+  "concepts": {
+    "es.accommodation_nonsmoking_room": {
+      "conceptId": "es.accommodation_nonsmoking_room",
+      "id": "accommodation_nonsmoking_room",
+      "target": [
+        {
+          "text": "¿Podría darme una habitación para no fumadores, por favor?",
+          "audioSlug": "podria_darme_una_habitacion_para_no_fumadores_por_favor"
+        }
+      ]
+    },
+    "es.accountability_the_sales_projection_for_the_next": {
+      "conceptId": "es.accountability_the_sales_projection_for_the_next",
+      "id": "accountability_the_sales_projection_for_the_next",
+      "target": [
+        {
+          "text": "Se realizará la proyección de ventas del siguiente trimestre.",
+          "audioSlug": "se_realizara_la_proyeccion_de_ventas_del_siguiente_trimestre"
+        }
+      ]
+    },
+    "es.airport_direct_or_connecting": {
+      "conceptId": "es.airport_direct_or_connecting",
+      "id": "airport_direct_or_connecting",
+      "target": [
+        {
+          "text": "¿Hay un vuelo directo o tengo que hacer escala?",
+          "audioSlug": "hay_un_vuelo_directo_o_tengo_que_hacer_escala"
+        }
+      ]
+    },
+    "es.airport_mi_vuelo_sale_a_las_tres": {
+      "conceptId": "es.airport_mi_vuelo_sale_a_las_tres",
+      "id": "airport_mi_vuelo_sale_a_las_tres",
+      "target": [
+        {
+          "text": "Mi vuelo sale a las tres.",
+          "audioSlug": "mi_vuelo_sale_a_las_tres"
+        }
+      ]
+    },
+    "es.cuerpo_tengo_las_manos_frias": {
+      "conceptId": "es.cuerpo_tengo_las_manos_frias",
+      "id": "cuerpo_tengo_las_manos_frias",
+      "target": [
+        {
+          "text": "Tengo las manos frías.",
+          "audioSlug": "tengo_las_manos_frias"
+        }
+      ]
+    },
+    "es.descripciones_su_estilo_es_bastante_clasico": {
+      "conceptId": "es.descripciones_su_estilo_es_bastante_clasico",
+      "id": "descripciones_su_estilo_es_bastante_clasico",
+      "target": [
+        {
+          "text": "Su estilo es bastante clásico.",
+          "audioSlug": "su_estilo_es_bastante_clasico"
+        }
+      ]
+    },
+    "es.directions_walk_to_the_end_of_the_street": {
+      "conceptId": "es.directions_walk_to_the_end_of_the_street",
+      "id": "directions_walk_to_the_end_of_the_street",
+      "target": [
+        {
+          "text": "Camina hasta el final de la calle.",
+          "audioSlug": "camina_hasta_el_final_de_la_calle"
+        }
+      ]
+    },
+    "es.family_looks_like_father": {
+      "conceptId": "es.family_looks_like_father",
+      "id": "family_looks_like_father",
+      "target": [
+        {
+          "text": "Se parece a su padre.",
+          "audioSlug": "se_parece_a_su_padre"
+        }
+      ]
+    },
+    "es.family_my_aunt_lives_in_the_city": {
+      "conceptId": "es.family_my_aunt_lives_in_the_city",
+      "id": "family_my_aunt_lives_in_the_city",
+      "target": [
+        {
+          "text": "Mi tía vive en la ciudad.",
+          "audioSlug": "mi_tia_vive_en_la_ciudad"
+        }
+      ]
+    },
+    "es.family_tiene_una_hermana_gemela": {
+      "conceptId": "es.family_tiene_una_hermana_gemela",
+      "id": "family_tiene_una_hermana_gemela",
+      "target": [
+        {
+          "text": "Tiene una hermana gemela.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie hat eine Zwillingsschwester.",
+          "audioSlug": "tiene_una_hermana_gemela"
+        },
+        {
+          "text": "Tiene un hermano gemelo.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er hat einen Zwillingsbruder.",
+          "audioSlug": "tiene_un_hermano_gemelo"
+        }
+      ]
+    },
+    "es.gym_what_is_the_proper_breathing_technique": {
+      "conceptId": "es.gym_what_is_the_proper_breathing_technique",
+      "id": "gym_what_is_the_proper_breathing_technique",
+      "target": [
+        {
+          "text": "¿Cuál es la técnica de respiración adecuada para este ejercicio?",
+          "audioSlug": "cual_es_la_tecnica_de_respiracion_adecuada_para_este_ejercicio"
+        }
+      ]
+    },
+    "es.kitchen_can_you_pass_me_the_spatula": {
+      "conceptId": "es.kitchen_can_you_pass_me_the_spatula",
+      "id": "kitchen_can_you_pass_me_the_spatula",
+      "target": [
+        {
+          "text": "¿Me pasas la espátula?",
+          "audioSlug": "me_pasas_la_espatula"
+        }
+      ]
+    },
+    "es.kitchen_la_sopa_esta_caliente": {
+      "conceptId": "es.kitchen_la_sopa_esta_caliente",
+      "id": "kitchen_la_sopa_esta_caliente",
+      "target": [
+        {
+          "text": "La sopa está caliente.",
+          "audioSlug": "la_sopa_esta_caliente"
+        }
+      ]
+    },
+    "es.planes_i_hope_to_come_back_soon": {
+      "conceptId": "es.planes_i_hope_to_come_back_soon",
+      "id": "planes_i_hope_to_come_back_soon",
+      "target": [
+        {
+          "text": "Espero volver pronto.",
+          "audioSlug": "espero_volver_pronto"
+        }
+      ]
+    },
+    "es.sitios_vivo_en_este_barrio": {
+      "conceptId": "es.sitios_vivo_en_este_barrio",
+      "id": "sitios_vivo_en_este_barrio",
+      "target": [
+        {
+          "text": "Vivo en este barrio.",
+          "audioSlug": "vivo_en_este_barrio"
+        }
+      ]
+    },
+    "es.technology_the_battery_life_significantly_improved_after": {
+      "conceptId": "es.technology_the_battery_life_significantly_improved_after",
+      "id": "technology_the_battery_life_significantly_improved_after",
+      "target": [
+        {
+          "text": "La batería mejoró tras desactivar las aplicaciones en segundo plano.",
+          "audioSlug": "la_bateria_mejoro_tras_desactivar_las_aplicaciones_en_segundo_plano"
+        }
+      ]
+    },
+    "es.viajes_los_turistas_visitan_la_catedral": {
+      "conceptId": "es.viajes_los_turistas_visitan_la_catedral",
+      "id": "viajes_los_turistas_visitan_la_catedral",
+      "target": [
+        {
+          "text": "Los turistas visitan la catedral.",
+          "audioSlug": "los_turistas_visitan_la_catedral"
+        }
+      ]
+    }
+  }
+}

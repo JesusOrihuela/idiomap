@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "99",
+  "concepts": {
+    "en.conversacion_however_also_continue": {
+      "conceptId": "en.conversacion_however_also_continue",
+      "id": "conversacion_however_also_continue",
+      "target": [
+        {
+          "text": "However, I also think we should continue.",
+          "audioSlug": "however_i_also_think_we_should_continue"
+        }
+      ]
+    },
+    "en.conversacion_i_understand_you": {
+      "conceptId": "en.conversacion_i_understand_you",
+      "id": "conversacion_i_understand_you",
+      "target": [
+        {
+          "text": "I understand you.",
+          "audioSlug": "i_understand_you"
+        }
+      ]
+    },
+    "en.hogar_the_bed_is_soft": {
+      "conceptId": "en.hogar_the_bed_is_soft",
+      "id": "hogar_the_bed_is_soft",
+      "target": [
+        {
+          "text": "The bed is soft.",
+          "audioSlug": "the_bed_is_soft"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_i_love_nature": {
+      "conceptId": "en.naturaleza_lugares_i_love_nature",
+      "id": "naturaleza_lugares_i_love_nature",
+      "target": [
+        {
+          "text": "I love nature.",
+          "audioSlug": "i_love_nature"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_if_listened_would_not_be_lost": {
+      "conceptId": "en.pensamientos_opiniones_if_listened_would_not_be_lost",
+      "id": "pensamientos_opiniones_if_listened_would_not_be_lost",
+      "target": [
+        {
+          "text": "If she had listened, she would not be lost now.",
+          "audioSlug": "if_she_had_listened_she_would_not_be_lost_now"
+        }
+      ]
+    }
+  }
+}

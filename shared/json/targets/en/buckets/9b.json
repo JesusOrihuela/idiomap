@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "9b",
+  "concepts": {
+    "en.accommodation_do_not_disturb": {
+      "conceptId": "en.accommodation_do_not_disturb",
+      "id": "accommodation_do_not_disturb",
+      "target": [
+        {
+          "text": "The do not disturb sign is on.",
+          "audioSlug": "the_do_not_disturb_sign_is_on"
+        }
+      ]
+    },
+    "en.daily_routine_i_read_before_sleeping": {
+      "conceptId": "en.daily_routine_i_read_before_sleeping",
+      "id": "daily_routine_i_read_before_sleeping",
+      "target": [
+        {
+          "text": "I read for a while before sleeping.",
+          "audioSlug": "i_read_for_a_while_before_sleeping"
+        }
+      ]
+    },
+    "en.emergencias_call_the_firefighters": {
+      "conceptId": "en.emergencias_call_the_firefighters",
+      "id": "emergencias_call_the_firefighters",
+      "target": [
+        {
+          "text": "Call the firefighters.",
+          "audioSlug": "call_the_firefighters"
+        }
+      ]
+    },
+    "en.emociones_i_feel_fine": {
+      "conceptId": "en.emociones_i_feel_fine",
+      "id": "emociones_i_feel_fine",
+      "target": [
+        {
+          "text": "I feel fine.",
+          "audioSlug": "i_feel_fine"
+        }
+      ]
+    },
+    "en.health_i_dont_feel_well": {
+      "conceptId": "en.health_i_dont_feel_well",
+      "id": "health_i_dont_feel_well",
+      "target": [
+        {
+          "text": "I don't feel well.",
+          "audioSlug": "i_don_t_feel_well"
+        }
+      ]
+    },
+    "en.politica_it_was_a_long_campaign": {
+      "conceptId": "en.politica_it_was_a_long_campaign",
+      "id": "politica_it_was_a_long_campaign",
+      "target": [
+        {
+          "text": "It was a long campaign.",
+          "audioSlug": "it_was_a_long_campaign"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "6e",
+  "concepts": {
+    "es.airport_donde_esta_la_puerta_de_embarque": {
+      "conceptId": "es.airport_donde_esta_la_puerta_de_embarque",
+      "id": "airport_donde_esta_la_puerta_de_embarque",
+      "target": [
+        {
+          "text": "¿Dónde está la puerta de embarque?",
+          "audioSlug": "donde_esta_la_puerta_de_embarque"
+        }
+      ]
+    },
+    "es.airport_muestra_tu_documento_de_identidad.en-es": {
+      "conceptId": "es.airport_muestra_tu_documento_de_identidad.en-es",
+      "id": "airport_muestra_tu_documento_de_identidad_en",
+      "target": [
+        {
+          "text": "Muestra tu documento de identidad.",
+          "audioSlug": "muestra_tu_documento_de_identidad",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Muestre su documento de identidad.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "muestre_su_documento_de_identidad"
+        }
+      ]
+    },
+    "es.cotidianidad_se_me_acabo_el_tiempo": {
+      "conceptId": "es.cotidianidad_se_me_acabo_el_tiempo",
+      "id": "cotidianidad_se_me_acabo_el_tiempo",
+      "target": [
+        {
+          "text": "Se me acabó el tiempo.",
+          "audioSlug": "se_me_acabo_el_tiempo"
+        }
+      ]
+    },
+    "es.describiendo_personas_es_un_heroe_nacional": {
+      "conceptId": "es.describiendo_personas_es_un_heroe_nacional",
+      "id": "describiendo_personas_es_un_heroe_nacional",
+      "target": [
+        {
+          "text": "Es un héroe nacional.",
+          "audioSlug": "es_un_heroe_nacional"
+        }
+      ]
+    },
+    "es.descripciones_la_caja_es_muy_ligera": {
+      "conceptId": "es.descripciones_la_caja_es_muy_ligera",
+      "id": "descripciones_la_caja_es_muy_ligera",
+      "target": [
+        {
+          "text": "La caja es muy ligera.",
+          "audioSlug": "la_caja_es_muy_ligera"
+        }
+      ]
+    },
+    "es.greetings_it_was_so_good_catching_up": {
+      "conceptId": "es.greetings_it_was_so_good_catching_up",
+      "id": "greetings_it_was_so_good_catching_up",
+      "target": [
+        {
+          "text": "Qué bueno fue ponernos al día.",
+          "audioSlug": "que_bueno_fue_ponernos_al_dia"
+        }
+      ]
+    },
+    "es.greetings_let_me_introduce_colleague": {
+      "conceptId": "es.greetings_let_me_introduce_colleague",
+      "id": "greetings_let_me_introduce_colleague",
+      "target": [
+        {
+          "text": "Déjame presentarte a un colega mío.",
+          "audioSlug": "dejame_presentarte_a_un_colega_mio",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "Déjame presentarte a una colega mía.",
+          "audioSlug": "dejame_presentarte_a_una_colega_mia",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.health_tienes_algun_sintoma_mas": {
+      "conceptId": "es.health_tienes_algun_sintoma_mas",
+      "id": "health_tienes_algun_sintoma_mas",
+      "target": [
+        {
+          "text": "¿Tienes algún síntoma más?",
+          "audioSlug": "tienes_algun_sintoma_mas"
+        }
+      ]
+    },
+    "es.kitchen_el_postre_esta_muy_dulce": {
+      "conceptId": "es.kitchen_el_postre_esta_muy_dulce",
+      "id": "kitchen_el_postre_esta_muy_dulce",
+      "target": [
+        {
+          "text": "El postre está muy dulce.",
+          "audioSlug": "el_postre_esta_muy_dulce"
+        }
+      ]
+    },
+    "es.kitchen_score_duck_skin_fat_renders": {
+      "conceptId": "es.kitchen_score_duck_skin_fat_renders",
+      "id": "kitchen_score_duck_skin_fat_renders",
+      "target": [
+        {
+          "text": "Los cortes en la piel del pato permiten que la grasa se derrita uniformemente.",
+          "audioSlug": "los_cortes_en_la_piel_del_pato_permiten_que_la_grasa_se_derrita_uniformemente"
+        }
+      ]
+    },
+    "es.planes_quiero_sorprenderte": {
+      "conceptId": "es.planes_quiero_sorprenderte",
+      "id": "planes_quiero_sorprenderte",
+      "target": [
+        {
+          "text": "Quiero sorprenderte.",
+          "audioSlug": "quiero_sorprenderte"
+        }
+      ]
+    },
+    "es.restaurant_wine_wrong_selection": {
+      "conceptId": "es.restaurant_wine_wrong_selection",
+      "id": "restaurant_wine_wrong_selection",
+      "target": [
+        {
+          "text": "El vino que nos sirvieron no coincide con nuestra selección.",
+          "audioSlug": "el_vino_que_nos_sirvieron_no_coincide_con_nuestra_seleccion"
+        }
+      ]
+    },
+    "es.supermarket_can_you_give_me_the_receipt": {
+      "conceptId": "es.supermarket_can_you_give_me_the_receipt",
+      "id": "supermarket_can_you_give_me_the_receipt",
+      "target": [
+        {
+          "text": "¿Me puede dar la factura, por favor?",
+          "audioSlug": "me_puede_dar_la_factura_por_favor"
+        }
+      ]
+    },
+    "es.supermarket_los_productos_frescos_estan_al_fondo": {
+      "conceptId": "es.supermarket_los_productos_frescos_estan_al_fondo",
+      "id": "supermarket_los_productos_frescos_estan_al_fondo",
+      "target": [
+        {
+          "text": "Los productos frescos están al fondo.",
+          "audioSlug": "los_productos_frescos_estan_al_fondo"
+        }
+      ]
+    },
+    "es.technology_la_energia_solar_es_mas_limpia": {
+      "conceptId": "es.technology_la_energia_solar_es_mas_limpia",
+      "id": "technology_la_energia_solar_es_mas_limpia",
+      "target": [
+        {
+          "text": "La energía solar es más limpia.",
+          "audioSlug": "la_energia_solar_es_mas_limpia"
+        }
+      ]
+    },
+    "es.tiempo_libre_ese_actor_aparece_en_muchas_peliculas": {
+      "conceptId": "es.tiempo_libre_ese_actor_aparece_en_muchas_peliculas",
+      "id": "tiempo_libre_ese_actor_aparece_en_muchas_peliculas",
+      "target": [
+        {
+          "text": "Ese actor aparece en muchas películas.",
+          "audioSlug": "ese_actor_aparece_en_muchas_peliculas"
+        }
+      ]
+    },
+    "es.transportation_perdi_el_autobus": {
+      "conceptId": "es.transportation_perdi_el_autobus",
+      "id": "transportation_perdi_el_autobus",
+      "target": [
+        {
+          "text": "Perdí el autobús.",
+          "audioSlug": "perdi_el_autobus"
+        }
+      ]
+    }
+  }
+}

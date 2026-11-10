@@ -1,10 +1,9 @@
 name: Audio checks
 
-# Deterministic audio-content gate: every .wav decodes, is not silent/clipped, lasts a
-# sane duration, and each slug carries exactly the voice set its language declares
-# (tools/check-audio.mjs). Gated on paths so the heavy shared/audio checkout only runs
-# when audio, content, the language voice sets, or the checker itself change — not on
-# every push.
+# Deterministic audio-content gate: every AAC/M4A decodes, a sampled subset is not
+# silent/clipped, durations are sane, and each slug carries exactly the voice set its
+# language declares (tools/check-audio.mjs). Gated on paths so the heavy shared/audio
+# checkout only runs when audio, content, the language voice sets, or the checker change.
 
 on:
   push:
@@ -47,6 +46,9 @@ jobs:
         with:
           node-version: '20'
 
-      # Pure Node — parses the WAV header + PCM directly, no Python.
+      - name: Install ffmpeg (AAC probe/decode)
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      # ffprobe/ffmpeg for AAC; WAV is still parsed directly during the migration window.
       - name: Audio signal + voice-set valid (check-audio.mjs)
         run: node tools/check-audio.mjs

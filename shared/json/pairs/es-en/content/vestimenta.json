@@ -1,23 +1,215 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "vestimenta",
-  "conceptIds": [
-    "en.vestimenta_his_shirt_is_blue",
-    "en.vestimenta_put_on_your_shoes",
-    "en.vestimenta_take_off_your_coat",
-    "en.vestimenta_i_like_that_blue_shirt",
-    "en.vestimenta_what_size_do_you_wear",
-    "en.vestimenta_this_dress_is_very_pretty",
-    "en.vestimenta_i_need_to_buy_new_clothes",
-    "en.vestimenta_she_s_wearing_a_black_hat",
-    "en.vestimenta_can_i_try_on_this_jacket",
-    "en.vestimenta_the_shoes_are_too_tight",
-    "en.vestimenta_hang_up_your_coat_please",
-    "en.vestimenta_i_ll_wear_a_t_shirt",
-    "en.vestimenta_your_tie_matches_the_suit",
-    "en.vestimenta_i_have_a_ring",
-    "en.vestimenta_jacket_too_big",
-    "en.vestimenta_wear_uniform_to_school"
+  "phrases": [
+    {
+      "conceptId": "en.vestimenta_his_shirt_is_blue",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.05e699ed1e82a53d"
+    },
+    {
+      "conceptId": "en.vestimenta_put_on_your_shoes",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cceda6c096d53215"
+    },
+    {
+      "conceptId": "en.vestimenta_take_off_your_coat",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3058eb6a697b6fb6"
+    },
+    {
+      "conceptId": "en.vestimenta_i_like_that_blue_shirt",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5723803d4e184124"
+    },
+    {
+      "conceptId": "en.vestimenta_what_size_do_you_wear",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a36eb1096e07ba34"
+    },
+    {
+      "conceptId": "en.vestimenta_this_dress_is_very_pretty",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6dc749f312168b6a"
+    },
+    {
+      "conceptId": "en.vestimenta_i_need_to_buy_new_clothes",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f011037226a4266d"
+    },
+    {
+      "conceptId": "en.vestimenta_she_s_wearing_a_black_hat",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a11a08888b561598"
+    },
+    {
+      "conceptId": "en.vestimenta_can_i_try_on_this_jacket",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8fb3f025e3b27b91"
+    },
+    {
+      "conceptId": "en.vestimenta_the_shoes_are_too_tight",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.09cd5f4efbb9d259"
+    },
+    {
+      "conceptId": "en.vestimenta_hang_up_your_coat_please",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.09f8b7850f89b3bb"
+    },
+    {
+      "conceptId": "en.vestimenta_i_ll_wear_a_t_shirt",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a4e710c50d012cf5"
+    },
+    {
+      "conceptId": "en.vestimenta_your_tie_matches_the_suit",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.02924162c7bd5c64"
+    },
+    {
+      "conceptId": "en.vestimenta_i_have_a_ring",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.584e054b369b8589"
+    },
+    {
+      "conceptId": "en.vestimenta_jacket_too_big",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ed14db73f8ed6216"
+    },
+    {
+      "conceptId": "en.vestimenta_wear_uniform_to_school",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f99b9f4bb14c3b49"
+    }
   ]
 }

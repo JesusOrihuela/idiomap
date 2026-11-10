@@ -57,7 +57,13 @@
           "audioSlug": "die_kellnerin"
         }
       ],
-      "conceptId": "de.kellner"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "lehrer",
@@ -94,7 +100,13 @@
           "audioSlug": "die_lehrerin"
         }
       ],
-      "conceptId": "de.lehrer"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "verkaeufer",
@@ -131,7 +143,13 @@
           "audioSlug": "die_verkauferin"
         }
       ],
-      "conceptId": "de.verkaeufer"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "baecker",
@@ -168,7 +186,13 @@
           "audioSlug": "die_backerin"
         }
       ],
-      "conceptId": "de.baecker"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

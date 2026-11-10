@@ -47,7 +47,13 @@
           "audioSlug": "domem"
         }
       ],
-      "conceptId": "pl.dom"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "miasto",
@@ -66,7 +72,13 @@
       "gloss_example": {
         "de": "Warschau ist eine große Stadt."
       },
-      "conceptId": "pl.miasto"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ulica",
@@ -85,7 +97,13 @@
       "gloss_example": {
         "de": "Diese Straße ist lang."
       },
-      "conceptId": "pl.ulica"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "park",
@@ -104,7 +122,13 @@
       "gloss_example": {
         "de": "Die Kinder spielen im Park."
       },
-      "conceptId": "pl.park"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "4f",
+  "concepts": {
+    "es.accommodation_ac_not_working": {
+      "conceptId": "es.accommodation_ac_not_working",
+      "id": "accommodation_ac_not_working",
+      "target": [
+        {
+          "text": "El aire acondicionado no funciona.",
+          "audioSlug": "el_aire_acondicionado_no_funciona"
+        }
+      ]
+    },
+    "es.conversacion_necesito_mas_informacion": {
+      "conceptId": "es.conversacion_necesito_mas_informacion",
+      "id": "conversacion_necesito_mas_informacion",
+      "target": [
+        {
+          "text": "Necesito más información sobre eso.",
+          "audioSlug": "necesito_mas_informacion_sobre_eso"
+        }
+      ]
+    },
+    "es.daily_routine_conviene_lavarse_bien_las_manos": {
+      "conceptId": "es.daily_routine_conviene_lavarse_bien_las_manos",
+      "id": "daily_routine_conviene_lavarse_bien_las_manos",
+      "target": [
+        {
+          "text": "Conviene lavarse bien las manos.",
+          "audioSlug": "conviene_lavarse_bien_las_manos"
+        }
+      ]
+    },
+    "es.descripciones_mi_abuelo_se_quedo_calvo_muy_joven": {
+      "conceptId": "es.descripciones_mi_abuelo_se_quedo_calvo_muy_joven",
+      "id": "descripciones_mi_abuelo_se_quedo_calvo_muy_joven",
+      "target": [
+        {
+          "text": "Mi abuelo se quedó calvo muy joven.",
+          "audioSlug": "mi_abuelo_se_quedo_calvo_muy_joven"
+        }
+      ]
+    },
+    "es.emociones_no_mi_amor": {
+      "conceptId": "es.emociones_no_mi_amor",
+      "id": "emociones_no_mi_amor",
+      "target": [
+        {
+          "text": "No, mi amor.",
+          "audioSlug": "no_mi_amor"
+        }
+      ]
+    },
+    "es.greetings_how_are_you": {
+      "conceptId": "es.greetings_how_are_you",
+      "id": "greetings_how_are_you",
+      "target": [
+        {
+          "text": "¿Cómo estás?",
+          "source": "Wie geht es dir?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "como_estas"
+        },
+        {
+          "text": "¿Cómo está?",
+          "source": "Wie geht es Ihnen?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "como_esta"
+        }
+      ]
+    },
+    "es.hogar_necesito_un_par_de_zapatos_nuevos": {
+      "conceptId": "es.hogar_necesito_un_par_de_zapatos_nuevos",
+      "id": "hogar_necesito_un_par_de_zapatos_nuevos",
+      "target": [
+        {
+          "text": "Necesito un par de zapatos nuevos.",
+          "audioSlug": "necesito_un_par_de_zapatos_nuevos"
+        }
+      ]
+    },
+    "es.movies_good_movie_recommend": {
+      "conceptId": "es.movies_good_movie_recommend",
+      "id": "movies_good_movie_recommend",
+      "target": [
+        {
+          "text": "Esta película está muy buena, deberías verla.",
+          "audioSlug": "esta_pelicula_esta_muy_buena_deberias_verla"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_descubri_que_no_es_facil": {
+      "conceptId": "es.pensamientos_opiniones_descubri_que_no_es_facil",
+      "id": "pensamientos_opiniones_descubri_que_no_es_facil",
+      "target": [
+        {
+          "text": "Descubrí que no es tan fácil.",
+          "audioSlug": "descubri_que_no_es_tan_facil"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_incluso_los_expertos_se_equivocan": {
+      "conceptId": "es.pensamientos_opiniones_incluso_los_expertos_se_equivocan",
+      "id": "pensamientos_opiniones_incluso_los_expertos_se_equivocan",
+      "target": [
+        {
+          "text": "Incluso los expertos se equivocan.",
+          "audioSlug": "incluso_los_expertos_se_equivocan"
+        }
+      ]
+    },
+    "es.planes_acepto_tu_oferta": {
+      "conceptId": "es.planes_acepto_tu_oferta",
+      "id": "planes_acepto_tu_oferta",
+      "target": [
+        {
+          "text": "Acepto tu oferta.",
+          "audioSlug": "acepto_tu_oferta",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Acepto su oferta.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "acepto_su_oferta"
+        }
+      ]
+    },
+    "es.planes_te_lo_prometo": {
+      "conceptId": "es.planes_te_lo_prometo",
+      "id": "planes_te_lo_prometo",
+      "target": [
+        {
+          "text": "Te lo prometo.",
+          "audioSlug": "te_lo_prometo"
+        }
+      ]
+    },
+    "es.restaurant_quiero_una_hamburguesa_con_queso": {
+      "conceptId": "es.restaurant_quiero_una_hamburguesa_con_queso",
+      "id": "restaurant_quiero_una_hamburguesa_con_queso",
+      "target": [
+        {
+          "text": "Quiero una hamburguesa con queso.",
+          "audioSlug": "quiero_una_hamburguesa_con_queso"
+        }
+      ]
+    }
+  }
+}

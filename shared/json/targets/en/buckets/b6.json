@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "b6",
+  "concepts": {
+    "en.airport_which_terminal_departs": {
+      "conceptId": "en.airport_which_terminal_departs",
+      "id": "airport_which_terminal_departs",
+      "target": [
+        {
+          "text": "Which terminal is my flight departing from?",
+          "audioSlug": "which_terminal_is_my_flight_departing_from"
+        }
+      ]
+    },
+    "en.daily_routine_i_have_coffee_before_leaving": {
+      "conceptId": "en.daily_routine_i_have_coffee_before_leaving",
+      "id": "daily_routine_i_have_coffee_before_leaving",
+      "target": [
+        {
+          "text": "I have a coffee before leaving.",
+          "audioSlug": "i_have_a_coffee_before_leaving"
+        }
+      ]
+    },
+    "en.descripciones_this_is_serious": {
+      "conceptId": "en.descripciones_this_is_serious",
+      "id": "descripciones_this_is_serious",
+      "target": [
+        {
+          "text": "This is serious.",
+          "audioSlug": "this_is_serious"
+        }
+      ]
+    },
+    "en.greetings_it_was_so_good_catching_up": {
+      "conceptId": "en.greetings_it_was_so_good_catching_up",
+      "id": "greetings_it_was_so_good_catching_up",
+      "target": [
+        {
+          "text": "It was so good catching up with you.",
+          "audioSlug": "it_was_so_good_catching_up_with_you",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.kitchen_could_you_help_me_sift_the": {
+      "conceptId": "en.kitchen_could_you_help_me_sift_the",
+      "id": "kitchen_could_you_help_me_sift_the",
+      "target": [
+        {
+          "text": "Could you help me sift the flour?",
+          "audioSlug": "could_you_help_me_sift_the_flour",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you help me sift the flour?",
+          "audioSlug": "can_you_help_me_sift_the_flour",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_please_consider_it": {
+      "conceptId": "en.pensamientos_opiniones_please_consider_it",
+      "id": "pensamientos_opiniones_please_consider_it",
+      "target": [
+        {
+          "text": "Please consider it.",
+          "audioSlug": "please_consider_it"
+        }
+      ]
+    },
+    "en.politica_the_mayor_visited_the_town": {
+      "conceptId": "en.politica_the_mayor_visited_the_town",
+      "id": "politica_the_mayor_visited_the_town",
+      "target": [
+        {
+          "text": "The mayor visited the town.",
+          "audioSlug": "the_mayor_visited_the_town"
+        }
+      ]
+    },
+    "en.technology_i_accidentally_deleted_the_conversation_can": {
+      "conceptId": "en.technology_i_accidentally_deleted_the_conversation_can",
+      "id": "technology_i_accidentally_deleted_the_conversation_can",
+      "target": [
+        {
+          "text": "I accidentally deleted the conversation, can you forward me the message?",
+          "audioSlug": "i_accidentally_deleted_the_conversation_can_you_forward_me_the_message"
+        }
+      ]
+    },
+    "en.viajes_where_is_the_tourist_office": {
+      "conceptId": "en.viajes_where_is_the_tourist_office",
+      "id": "viajes_where_is_the_tourist_office",
+      "target": [
+        {
+          "text": "Where is the tourist office?",
+          "audioSlug": "where_is_the_tourist_office"
+        }
+      ]
+    }
+  }
+}

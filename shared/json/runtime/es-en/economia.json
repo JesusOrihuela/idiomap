@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "economia",
+  "phrases": [
+    {
+      "id": "economia_i_have_no_money",
+      "conceptId": "en.economia_i_have_no_money",
+      "sourceId": "es.s.2f55f7edf50a6b3f",
+      "source": "No tengo dinero.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have no money.",
+          "audioSlug": "i_have_no_money"
+        }
+      ]
+    },
+    {
+      "id": "economia_business_is_slow",
+      "conceptId": "en.economia_business_is_slow",
+      "sourceId": "es.s.247e52ad42ab0641",
+      "source": "El negocio está lento.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Business is slow.",
+          "audioSlug": "business_is_slow"
+        }
+      ]
+    },
+    {
+      "id": "economia_i_want_to_buy_it",
+      "conceptId": "en.economia_i_want_to_buy_it",
+      "sourceId": "es.s.0b6890ab8c9fdea0",
+      "source": "Quiero comprarlo.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I want to buy it.",
+          "audioSlug": "i_want_to_buy_it"
+        }
+      ]
+    },
+    {
+      "id": "economia_let_me_pay",
+      "conceptId": "en.economia_let_me_pay",
+      "sourceId": "es.s.9bdbe5d0eb7278ab",
+      "source": "Déjame pagar.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Let me pay.",
+          "audioSlug": "let_me_pay"
+        }
+      ]
+    },
+    {
+      "id": "economia_we_have_free_trade",
+      "conceptId": "en.economia_we_have_free_trade",
+      "sourceId": "es.s.a49b196d96ee7a9a",
+      "source": "Tenemos libre comercio.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We have free trade.",
+          "audioSlug": "we_have_free_trade"
+        }
+      ]
+    },
+    {
+      "id": "economia_economic_growth_is_slow",
+      "conceptId": "en.economia_economic_growth_is_slow",
+      "sourceId": "es.s.90a58e20541c53f0",
+      "source": "El crecimiento económico es lento.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Economic growth is slow.",
+          "audioSlug": "economic_growth_is_slow"
+        }
+      ]
+    },
+    {
+      "id": "economia_they_want_to_raise_money",
+      "conceptId": "en.economia_they_want_to_raise_money",
+      "sourceId": "es.s.515c9da3f8fd66dc",
+      "source": "Quieren recaudar dinero.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "They want to raise money.",
+          "audioSlug": "they_want_to_raise_money"
+        }
+      ]
+    },
+    {
+      "id": "economia_we_must_save_money",
+      "conceptId": "en.economia_we_must_save_money",
+      "sourceId": "es.s.de3aafcf1138831e",
+      "source": "Debemos ahorrar dinero.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We must save money.",
+          "audioSlug": "we_must_save_money"
+        }
+      ]
+    },
+    {
+      "id": "economia_it_is_an_economic_crisis",
+      "conceptId": "en.economia_it_is_an_economic_crisis",
+      "sourceId": "es.s.010fa34f22f67ce4",
+      "source": "Es una crisis económica.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It is an economic crisis.",
+          "audioSlug": "it_is_an_economic_crisis"
+        }
+      ]
+    },
+    {
+      "id": "economia_they_made_a_good_offer",
+      "conceptId": "en.economia_they_made_a_good_offer",
+      "sourceId": "es.s.1b49eb6b239d4190",
+      "source": "Hicieron una buena oferta.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "They made a good offer.",
+          "audioSlug": "they_made_a_good_offer"
+        }
+      ]
+    },
+    {
+      "id": "economia_you_will_gain_a_lot",
+      "conceptId": "en.economia_you_will_gain_a_lot",
+      "sourceId": "es.s.65e43ccd85230791",
+      "source": "Ganarás mucho.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "You will gain a lot.",
+          "audioSlug": "you_will_gain_a_lot"
+        }
+      ]
+    },
+    {
+      "id": "economia_can_you_estimate_the_cost",
+      "conceptId": "en.economia_can_you_estimate_the_cost",
+      "sourceId": "es.s.5fc8b245a914e191",
+      "source": "¿Puedes estimar el costo?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Can you estimate the cost?",
+          "audioSlug": "can_you_estimate_the_cost"
+        }
+      ]
+    },
+    {
+      "id": "economia_it_is_important_to_consider_the_new_market_trends",
+      "conceptId": "en.economia_it_is_important_to_consider_the_new_market_trends",
+      "sourceId": "es.s.b56a36118cea7ad1",
+      "source": "Es importante considerar las nuevas tendencias del mercado.",
+      "level": "B1",
+      "grammar": "'It is + adjective + to-infinitive' is an impersonal way to make a recommendation.",
+      "target": [
+        {
+          "text": "It is important to consider the new market trends.",
+          "audioSlug": "it_is_important_to_consider_the_new_market_trends"
+        }
+      ]
+    },
+    {
+      "id": "economia_the_property_is_mine",
+      "conceptId": "en.economia_the_property_is_mine",
+      "sourceId": "es.s.37447ee19bec8bcb",
+      "source": "La propiedad es mía.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The property is mine.",
+          "audioSlug": "the_property_is_mine"
+        }
+      ]
+    },
+    {
+      "id": "economia_the_market_is_big",
+      "conceptId": "en.economia_the_market_is_big",
+      "sourceId": "es.s.40be4144fea1baa3",
+      "source": "El mercado es grande.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The market is big.",
+          "audioSlug": "the_market_is_big"
+        }
+      ]
+    },
+    {
+      "id": "economia_the_stock_market_is_up",
+      "conceptId": "en.economia_the_stock_market_is_up",
+      "sourceId": "es.s.ebdfdc4fecc0054e",
+      "source": "La bolsa está en alza.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The stock market is up.",
+          "audioSlug": "the_stock_market_is_up"
+        }
+      ]
+    },
+    {
+      "id": "economia_country_development_slow",
+      "conceptId": "en.economia_country_development_slow",
+      "sourceId": "es.s.a5829bf8f992e299",
+      "source": "El desarrollo del país es lento.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The country's development is slow.",
+          "audioSlug": "the_country_s_development_is_slow"
+        }
+      ]
+    }
+  ]
+}

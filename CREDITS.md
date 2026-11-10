@@ -28,7 +28,7 @@ clean frequency **target** for measuring English lexical coverage
 (`tools/coverage.mjs`, via `tools/sources/derived/ngsl-en.json`), not reproduced
 as an app dataset. Covers ~90% of general English text at ~2,000 words.
 - Project: https://www.newgeneralservicelist.com/
-- License: free for research and educational use, with attribution.
+- License: Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).
 
 ### ELELex — CEFR-graded lexical resource for Spanish (CEFRLex, UCLouvain CENTAL)
 A pedagogically graded Spanish lexicon (14,290 entries) built from Spanish-as-a-
@@ -41,14 +41,14 @@ with `tools/sources/fetch-sources.sh`, then `tools/sources/build-elelex.mjs`).
 - Project: https://cental.uclouvain.be/cefrlex/elelex/
 - License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)
 
-### FrequencyWords (Hermit Dave) — CC BY-SA 3.0
+### FrequencyWords (Hermit Dave) - CC BY-SA 4.0
 Word-frequency lists from the OpenSubtitles 2018 corpus. Used as a *frequency
 signal* for CEFR-band difficulty during reconciliation (`tools/reconcile.mjs`),
 and — for the Spanish coverage gate — as the **intra-level ordering key** of the
 PCIC-curated core index (`tools/sources/derived/es-core.json`; see PCIC below).
 The raw 50k lists themselves are not committed.
 - Repository: https://github.com/hermitdave/FrequencyWords
-- License: Creative Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0)
+- License: Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
 
 ### Plan Curricular del Instituto Cervantes (PCIC)
 Official Spanish reference inventories (functions, notions) used to decide which
@@ -148,6 +148,18 @@ with CLIP, cover-cropped, and checked for framing.
 - **Fallback provider: [Wikimedia Commons](https://commons.wikimedia.org)** — used when no
   API key is configured; images keep their individual CC licenses and authors (captured in
   the same manifest for attribution).
+
+## Audio generation
+
+The shipped audio is synthesized from our own text; no third-party recordings are bundled.
+
+- **English**: [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M), Apache-2.0.
+- **Non-English**: Microsoft Edge online TTS (`edge-tts`). The generated audio is used under
+  the Microsoft service terms; voice/model terms must be re-checked before a commercial launch.
+- Voices are synthetic; the voice ids and target languages are recorded in
+  `shared/json/languages/index.json` and `shared/json/pairs/<pair>/pair.json`.
+- `shared/audio/manifest.json` records `format`, `bytes`, `sha256`, `voice` and `slug` per file.
+  Tatoeba's own audio is **not** bundled (its licenses are per contributor).
 
 ## Reference inventories consulted (no data redistributed)
 

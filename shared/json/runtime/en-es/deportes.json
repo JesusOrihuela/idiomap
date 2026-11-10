@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "deportes",
+  "phrases": [
+    {
+      "id": "deportes_me_gusta_el_deporte",
+      "conceptId": "es.deportes_me_gusta_el_deporte",
+      "sourceId": "en.s.60d67f6a05c79d2e",
+      "source": "I like sport.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gusta el deporte.",
+          "audioSlug": "me_gusta_el_deporte"
+        }
+      ]
+    },
+    {
+      "id": "deportes_quiero_ganar",
+      "conceptId": "es.deportes_quiero_ganar",
+      "sourceId": "en.s.d431b2ca25def786",
+      "source": "I want to win.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero ganar.",
+          "audioSlug": "quiero_ganar"
+        }
+      ]
+    },
+    {
+      "id": "deportes_odio_perder",
+      "conceptId": "es.deportes_odio_perder",
+      "sourceId": "en.s.1a4d54cb0364c711",
+      "source": "I hate to lose.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Odio perder.",
+          "audioSlug": "odio_perder"
+        }
+      ]
+    },
+    {
+      "id": "deportes_fin_del_juego",
+      "conceptId": "es.deportes_fin_del_juego",
+      "sourceId": "en.s.6f4f767004a40ba8",
+      "source": "Game over.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Fin del juego.",
+          "audioSlug": "fin_del_juego"
+        }
+      ]
+    },
+    {
+      "id": "deportes_ella_gano_el_concurso",
+      "conceptId": "es.deportes_ella_gano_el_concurso",
+      "sourceId": "en.s.bf049e107350b456",
+      "source": "She won the contest.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ella ganó el concurso.",
+          "audioSlug": "ella_gano_el_concurso"
+        }
+      ]
+    },
+    {
+      "id": "deportes_salgo_a_correr_temprano",
+      "conceptId": "es.deportes_salgo_a_correr_temprano",
+      "sourceId": "en.s.b9ad7132897fbd0e",
+      "source": "I go out to run early.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Salgo a correr temprano.",
+          "audioSlug": "salgo_a_correr_temprano"
+        }
+      ]
+    },
+    {
+      "id": "deportes_no_se_nadar",
+      "conceptId": "es.deportes_no_se_nadar",
+      "sourceId": "en.s.d22618b38e04e015",
+      "source": "I can't swim.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No sé nadar.",
+          "audioSlug": "no_se_nadar"
+        }
+      ]
+    },
+    {
+      "id": "deportes_tom_gano_la_carrera",
+      "conceptId": "es.deportes_tom_gano_la_carrera",
+      "sourceId": "en.s.62919c98cd1adf36",
+      "source": "Tom won the race.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tom ganó la carrera.",
+          "audioSlug": "tom_gano_la_carrera"
+        }
+      ]
+    },
+    {
+      "id": "deportes_viste_el_partido",
+      "conceptId": "es.deportes_viste_el_partido",
+      "sourceId": "en.s.700d7fcfa667eab3",
+      "source": "Did you watch the game?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Viste el partido?",
+          "audioSlug": "viste_el_partido"
+        }
+      ]
+    },
+    {
+      "id": "deportes_no_me_interesa_el_futbol",
+      "conceptId": "es.deportes_no_me_interesa_el_futbol",
+      "sourceId": "en.s.32e0d1029a3e13ad",
+      "source": "I'm not interested in soccer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No me interesa el fútbol.",
+          "audioSlug": "no_me_interesa_el_futbol"
+        }
+      ]
+    },
+    {
+      "id": "deportes_soy_miembro_del_equipo",
+      "conceptId": "es.deportes_soy_miembro_del_equipo",
+      "sourceId": "en.s.ff40ce24829fa4c3",
+      "source": "I am a member of the team.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Soy miembro del equipo.",
+          "audioSlug": "soy_miembro_del_equipo"
+        }
+      ]
+    },
+    {
+      "id": "deportes_gano_un_premio",
+      "conceptId": "es.deportes_gano_un_premio",
+      "sourceId": "en.s.7382cd61a7d94f43",
+      "source": "He won a prize.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ganó un premio.",
+          "audioSlug": "gano_un_premio"
+        }
+      ]
+    },
+    {
+      "id": "deportes_vamos_a_formar_un_equipo",
+      "conceptId": "es.deportes_vamos_a_formar_un_equipo",
+      "sourceId": "en.s.f213d298a4f0f3fe",
+      "source": "Let's form a team.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos a formar un equipo.",
+          "audioSlug": "vamos_a_formar_un_equipo"
+        }
+      ]
+    },
+    {
+      "id": "deportes_corro_en_el_parque_por_las_mananas",
+      "conceptId": "es.deportes_corro_en_el_parque_por_las_mananas",
+      "sourceId": "en.s.8acc83cfa6b92ec6",
+      "source": "I run in the park in the mornings.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Corro en el parque por las mañanas.",
+          "audioSlug": "corro_en_el_parque_por_las_mananas"
+        }
+      ]
+    },
+    {
+      "id": "deportes_corro_tres_kilometros_cada_dia",
+      "conceptId": "es.deportes_corro_tres_kilometros_cada_dia",
+      "sourceId": "en.s.25144429b93a6ec5",
+      "source": "I run three kilometers a day.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Corro tres kilómetros cada día.",
+          "audioSlug": "corro_tres_kilometros_cada_dia"
+        }
+      ]
+    },
+    {
+      "id": "deportes_nuestro_equipo_gano",
+      "conceptId": "es.deportes_nuestro_equipo_gano",
+      "sourceId": "en.s.d929ab736deb5dba",
+      "source": "Our team won.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nuestro equipo ganó.",
+          "audioSlug": "nuestro_equipo_gano"
+        }
+      ]
+    },
+    {
+      "id": "deportes_juego_al_tenis_los_sabados",
+      "conceptId": "es.deportes_juego_al_tenis_los_sabados",
+      "sourceId": "en.s.0b2a670572c5082f",
+      "source": "I play tennis on Saturdays.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Juego al tenis los sábados.",
+          "audioSlug": "juego_al_tenis_los_sabados"
+        }
+      ]
+    },
+    {
+      "id": "deportes_mi_equipo_de_baloncesto_gano",
+      "conceptId": "es.deportes_mi_equipo_de_baloncesto_gano",
+      "sourceId": "en.s.5a3fe32968ae49da",
+      "source": "My basketball team won.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi equipo de baloncesto ganó.",
+          "audioSlug": "mi_equipo_de_baloncesto_gano"
+        }
+      ]
+    },
+    {
+      "id": "deportes_hago_gimnasia_por_la_manana",
+      "conceptId": "es.deportes_hago_gimnasia_por_la_manana",
+      "sourceId": "en.s.9dc4ee4049aefea6",
+      "source": "I do gymnastics in the morning.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hago gimnasia por la mañana.",
+          "audioSlug": "hago_gimnasia_por_la_manana"
+        }
+      ]
+    },
+    {
+      "id": "deportes_en_invierno_vamos_a_esquiar",
+      "conceptId": "es.deportes_en_invierno_vamos_a_esquiar",
+      "sourceId": "en.s.be5969ecd34f8e0f",
+      "source": "In winter we go skiing.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En invierno vamos a esquiar.",
+          "audioSlug": "en_invierno_vamos_a_esquiar"
+        }
+      ]
+    },
+    {
+      "id": "deportes_los_jugadores_llevan_uniforme",
+      "conceptId": "es.deportes_los_jugadores_llevan_uniforme",
+      "sourceId": "en.s.a8de1751e371b644",
+      "source": "The players wear a uniform.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los jugadores llevan uniforme.",
+          "audioSlug": "los_jugadores_llevan_uniforme"
+        }
+      ]
+    }
+  ]
+}

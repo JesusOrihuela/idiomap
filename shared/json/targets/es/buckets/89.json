@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "89",
+  "concepts": {
+    "es.accommodation_necesito_otra_toalla": {
+      "conceptId": "es.accommodation_necesito_otra_toalla",
+      "id": "accommodation_necesito_otra_toalla",
+      "target": [
+        {
+          "text": "Necesito otra toalla, por favor.",
+          "audioSlug": "necesito_otra_toalla_por_favor"
+        }
+      ]
+    },
+    "es.conversacion_debo_admitir_mi_error": {
+      "conceptId": "es.conversacion_debo_admitir_mi_error",
+      "id": "conversacion_debo_admitir_mi_error",
+      "target": [
+        {
+          "text": "Debo admitir mi error.",
+          "audioSlug": "debo_admitir_mi_error"
+        }
+      ]
+    },
+    "es.economia_me_gustaria_invertir_en_mi_negocio": {
+      "conceptId": "es.economia_me_gustaria_invertir_en_mi_negocio",
+      "id": "economia_me_gustaria_invertir_en_mi_negocio",
+      "target": [
+        {
+          "text": "Me gustaría invertir en mi propio negocio.",
+          "audioSlug": "me_gustaria_invertir_en_mi_propio_negocio"
+        }
+      ]
+    },
+    "es.gym_what_is_the_correct_form_for": {
+      "conceptId": "es.gym_what_is_the_correct_form_for",
+      "id": "gym_what_is_the_correct_form_for",
+      "target": [
+        {
+          "text": "¿Cuál es la forma correcta para hacer este ejercicio?",
+          "audioSlug": "cual_es_la_forma_correcta_para_hacer_este_ejercicio"
+        }
+      ]
+    },
+    "es.gym_where_locker_room": {
+      "conceptId": "es.gym_where_locker_room",
+      "id": "gym_where_locker_room",
+      "target": [
+        {
+          "text": "¿Dónde están los vestidores?",
+          "audioSlug": "donde_estan_los_vestidores"
+        }
+      ]
+    },
+    "es.kitchen_the_milk_has_curdled": {
+      "conceptId": "es.kitchen_the_milk_has_curdled",
+      "id": "kitchen_the_milk_has_curdled",
+      "target": [
+        {
+          "text": "La leche se cortó.",
+          "audioSlug": "la_leche_se_corto"
+        }
+      ]
+    },
+    "es.tiempo_libre_alli_hay_un_parque_grande": {
+      "conceptId": "es.tiempo_libre_alli_hay_un_parque_grande",
+      "id": "tiempo_libre_alli_hay_un_parque_grande",
+      "target": [
+        {
+          "text": "Allí hay un parque muy grande.",
+          "audioSlug": "alli_hay_un_parque_muy_grande"
+        }
+      ]
+    },
+    "es.transportation_monthly_multimodal_pass": {
+      "conceptId": "es.transportation_monthly_multimodal_pass",
+      "id": "transportation_monthly_multimodal_pass",
+      "target": [
+        {
+          "text": "Me gustaría un abono mensual que cubra todos los medios de transporte público de la ciudad.",
+          "audioSlug": "me_gustaria_un_abono_mensual_que_cubra_todos_los_medios_de_transporte_publico_de_la_ciudad"
+        }
+      ]
+    }
+  }
+}

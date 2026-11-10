@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "c0",
+  "concepts": {
+    "en.airport_mishandled_bag_return": {
+      "conceptId": "en.airport_mishandled_bag_return",
+      "id": "airport_mishandled_bag_return",
+      "target": [
+        {
+          "text": "The airline lost my bag on the outbound leg, and my return flight departs tomorrow.",
+          "audioSlug": "the_airline_lost_my_bag_on_the_outbound_leg_and_my_return_flight_departs_tomorrow"
+        }
+      ]
+    },
+    "en.describiendo_personas_her_husband_is_tall": {
+      "conceptId": "en.describiendo_personas_her_husband_is_tall",
+      "id": "describiendo_personas_her_husband_is_tall",
+      "target": [
+        {
+          "text": "Her husband is tall.",
+          "audioSlug": "her_husband_is_tall"
+        }
+      ]
+    },
+    "en.emociones_i_am_very_happy": {
+      "conceptId": "en.emociones_i_am_very_happy",
+      "id": "emociones_i_am_very_happy",
+      "target": [
+        {
+          "text": "I am very happy.",
+          "audioSlug": "i_am_very_happy"
+        }
+      ]
+    },
+    "en.emociones_im_tired": {
+      "conceptId": "en.emociones_im_tired",
+      "id": "emociones_im_tired",
+      "target": [
+        {
+          "text": "I'm tired.",
+          "audioSlug": "i_m_tired"
+        }
+      ]
+    },
+    "en.estudios_the_class_starts_at_eight": {
+      "conceptId": "en.estudios_the_class_starts_at_eight",
+      "id": "estudios_the_class_starts_at_eight",
+      "target": [
+        {
+          "text": "The class starts at eight.",
+          "audioSlug": "the_class_starts_at_eight"
+        }
+      ]
+    },
+    "en.gym_is_it_okay_if_i_work": {
+      "conceptId": "en.gym_is_it_okay_if_i_work",
+      "id": "gym_is_it_okay_if_i_work",
+      "target": [
+        {
+          "text": "Is it okay if I use this machine after you?",
+          "audioSlug": "is_it_okay_if_i_use_this_machine_after_you"
+        }
+      ]
+    },
+    "en.kitchen_the_baking_sheets_are_on_the": {
+      "conceptId": "en.kitchen_the_baking_sheets_are_on_the",
+      "id": "kitchen_the_baking_sheets_are_on_the",
+      "target": [
+        {
+          "text": "The baking sheets are on the top shelf.",
+          "audioSlug": "the_baking_sheets_are_on_the_top_shelf"
+        }
+      ]
+    },
+    "en.restaurant_a_table_for_two_please": {
+      "conceptId": "en.restaurant_a_table_for_two_please",
+      "id": "restaurant_a_table_for_two_please",
+      "target": [
+        {
+          "text": "A table for two, please.",
+          "audioSlug": "a_table_for_two_please"
+        }
+      ]
+    },
+    "en.supermarket_dont_forget_to_buy_fruits_and": {
+      "conceptId": "en.supermarket_dont_forget_to_buy_fruits_and",
+      "id": "supermarket_dont_forget_to_buy_fruits_and",
+      "target": [
+        {
+          "text": "Do not forget to buy fruits and vegetables.",
+          "audioSlug": "do_not_forget_to_buy_fruits_and_vegetables"
+        }
+      ]
+    },
+    "en.transportation_right_bus_for": {
+      "conceptId": "en.transportation_right_bus_for",
+      "id": "transportation_right_bus_for",
+      "target": [
+        {
+          "text": "Is this the right bus for the museum?",
+          "audioSlug": "is_this_the_right_bus_for_the_museum"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "health",
+  "phrases": [
+    {
+      "id": "health_how_do_you_feel",
+      "conceptId": "en.health_how_do_you_feel",
+      "sourceId": "es.s.9bcac75b2d27b73b",
+      "source": "¿Cómo te sientes?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How are you feeling?",
+          "audioSlug": "how_are_you_feeling"
+        }
+      ]
+    },
+    {
+      "id": "health_i_dont_feel_well",
+      "conceptId": "en.health_i_dont_feel_well",
+      "sourceId": "es.s.e95254ea4318fde4",
+      "source": "No me siento bien.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I don't feel well.",
+          "audioSlug": "i_don_t_feel_well"
+        }
+      ]
+    },
+    {
+      "id": "health_i_have_a_headache",
+      "conceptId": "en.health_i_have_a_headache",
+      "sourceId": "es.s.37e1718a4650476a",
+      "source": "Me duele la cabeza.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have a headache.",
+          "audioSlug": "i_have_a_headache"
+        }
+      ]
+    },
+    {
+      "id": "health_my_stomach_hurts",
+      "conceptId": "en.health_my_stomach_hurts",
+      "sourceId": "es.s.be63ba7e9364bd44",
+      "source": "Me duele el estómago.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My stomach hurts.",
+          "audioSlug": "my_stomach_hurts"
+        }
+      ]
+    },
+    {
+      "id": "health_i_have_a_fever",
+      "conceptId": "en.health_i_have_a_fever",
+      "sourceId": "es.s.fe4421b61c3537a6",
+      "source": "Tengo fiebre.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have a fever.",
+          "audioSlug": "i_have_a_fever"
+        }
+      ]
+    },
+    {
+      "id": "health_i_have_a_cold",
+      "conceptId": "en.health_i_have_a_cold",
+      "sourceId": "es.s.4a5be69f90206092",
+      "source": "Estoy resfriado/a.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have a cold.",
+          "audioSlug": "i_have_a_cold"
+        }
+      ]
+    },
+    {
+      "id": "health_i_need_a_doctor",
+      "conceptId": "en.health_i_need_a_doctor",
+      "sourceId": "es.s.288146fa14dc5f14",
+      "source": "Necesito ver a un médico.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I need to see a doctor.",
+          "audioSlug": "i_need_to_see_a_doctor"
+        }
+      ]
+    },
+    {
+      "id": "health_where_is_pharmacy",
+      "conceptId": "en.health_where_is_pharmacy",
+      "sourceId": "es.s.b5cc26598a174cef",
+      "source": "¿Dónde está la farmacia más cercana?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where is the nearest pharmacy?",
+          "audioSlug": "where_is_the_nearest_pharmacy"
+        }
+      ]
+    },
+    {
+      "id": "health_i_want_an_appointment",
+      "conceptId": "en.health_i_want_an_appointment",
+      "sourceId": "es.s.85552fba1e3c8318",
+      "source": "Quisiera pedir una cita.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'd like to make an appointment.",
+          "audioSlug": "i_d_like_to_make_an_appointment"
+        }
+      ]
+    },
+    {
+      "id": "health_it_hurts_here",
+      "conceptId": "en.health_it_hurts_here",
+      "sourceId": "es.s.42bdc4eb5785f1c5",
+      "source": "Me duele aquí.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It hurts here.",
+          "audioSlug": "it_hurts_here"
+        }
+      ]
+    },
+    {
+      "id": "health_im_allergic",
+      "conceptId": "en.health_im_allergic",
+      "sourceId": "es.s.028bae78168cc9fb",
+      "source": "Soy alérgica a la penicilina.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm allergic to penicillin.",
+          "audioSlug": "i_m_allergic_to_penicillin"
+        }
+      ]
+    },
+    {
+      "id": "health_take_this_medicine",
+      "conceptId": "en.health_take_this_medicine",
+      "sourceId": "es.s.0da8cac607e40e00",
+      "source": "Toma esta medicina dos veces al día.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Take this medicine twice a day.",
+          "audioSlug": "take_this_medicine_twice_a_day"
+        }
+      ]
+    },
+    {
+      "id": "health_i_feel_dizzy",
+      "conceptId": "en.health_i_feel_dizzy",
+      "sourceId": "es.s.b3a12b980d98f04f",
+      "source": "Estoy mareado/a.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I feel dizzy.",
+          "audioSlug": "i_feel_dizzy"
+        }
+      ]
+    },
+    {
+      "id": "health_my_throat_hurts",
+      "conceptId": "en.health_my_throat_hurts",
+      "sourceId": "es.s.0a8d28624472e626",
+      "source": "Me duele la garganta.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My throat hurts.",
+          "audioSlug": "my_throat_hurts"
+        }
+      ]
+    },
+    {
+      "id": "health_i_cut_my_hand",
+      "conceptId": "en.health_i_cut_my_hand",
+      "sourceId": "es.s.2ad959a16e105056",
+      "source": "Me corté la mano.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I cut my hand.",
+          "audioSlug": "i_cut_my_hand"
+        }
+      ]
+    },
+    {
+      "id": "health_get_well_soon",
+      "conceptId": "en.health_get_well_soon",
+      "sourceId": "es.s.c8a323f707d271b6",
+      "source": "¡Que te mejores pronto!",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Get well soon!",
+          "audioSlug": "get_well_soon"
+        }
+      ]
+    },
+    {
+      "id": "health_i_have_a_cough",
+      "conceptId": "en.health_i_have_a_cough",
+      "sourceId": "es.s.4c797b07f546ba5e",
+      "source": "Tengo tos.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have a cough.",
+          "audioSlug": "i_have_a_cough"
+        }
+      ]
+    },
+    {
+      "id": "health_im_tired_all_time",
+      "conceptId": "en.health_im_tired_all_time",
+      "sourceId": "es.s.319a7bfcaf86bc86",
+      "source": "Estoy cansado/a todo el tiempo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm tired all the time.",
+          "audioSlug": "i_m_tired_all_the_time"
+        }
+      ]
+    },
+    {
+      "id": "health_take_care_of_health",
+      "conceptId": "en.health_take_care_of_health",
+      "sourceId": "es.s.b78b74a7bfea819b",
+      "source": "Deberías cuidar tu salud.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "You should take care of your health.",
+          "audioSlug": "you_should_take_care_of_your_health"
+        }
+      ]
+    },
+    {
+      "id": "health_my_back_hurts",
+      "conceptId": "en.health_my_back_hurts",
+      "sourceId": "es.s.d00b52109e1032d3",
+      "source": "Me duele la espalda.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My back hurts.",
+          "audioSlug": "my_back_hurts"
+        }
+      ]
+    },
+    {
+      "id": "health_do_you_have_pain",
+      "conceptId": "en.health_do_you_have_pain",
+      "sourceId": "es.s.d373019cd8829b4a",
+      "source": "¿Dónde te duele?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where does it hurt?",
+          "audioSlug": "where_does_it_hurt"
+        }
+      ]
+    },
+    {
+      "id": "health_i_have_to_go_to_the_hospital",
+      "conceptId": "en.health_i_have_to_go_to_the_hospital",
+      "sourceId": "es.s.9a998aae4bf8151e",
+      "source": "Tengo que ir al hospital.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have to go to the hospital.",
+          "audioSlug": "i_have_to_go_to_the_hospital"
+        }
+      ]
+    },
+    {
+      "id": "health_i_feel_much_better_today",
+      "conceptId": "en.health_i_feel_much_better_today",
+      "sourceId": "es.s.d0e10dd024251224",
+      "source": "Me siento mucho mejor hoy.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I feel much better today.",
+          "audioSlug": "i_feel_much_better_today"
+        }
+      ]
+    },
+    {
+      "id": "health_i_need_to_rest",
+      "conceptId": "en.health_i_need_to_rest",
+      "sourceId": "es.s.3ebf6f5e710e4a1c",
+      "source": "Necesito descansar unos días.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I need to rest for a few days.",
+          "audioSlug": "i_need_to_rest_for_a_few_days"
+        }
+      ]
+    },
+    {
+      "id": "health_do_you_have_any_pain",
+      "conceptId": "en.health_do_you_have_any_pain",
+      "sourceId": "es.s.a17a27e7a8dd6ccd",
+      "source": "¿Tienes algún dolor?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do you have any pain?",
+          "audioSlug": "do_you_have_any_pain"
+        }
+      ]
+    },
+    {
+      "id": "health_i_hurt_my_knee",
+      "conceptId": "en.health_i_hurt_my_knee",
+      "sourceId": "es.s.9d900f04a42db52c",
+      "source": "Me lastimé la rodilla.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I hurt my knee.",
+          "audioSlug": "i_hurt_my_knee"
+        }
+      ]
+    },
+    {
+      "id": "health_the_doctor_says_im_fine",
+      "conceptId": "en.health_the_doctor_says_im_fine",
+      "sourceId": "es.s.65b3477b542fbe7f",
+      "source": "El doctor dice que estoy bien.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The doctor says I'm fine.",
+          "audioSlug": "the_doctor_says_i_m_fine"
+        }
+      ]
+    },
+    {
+      "id": "health_i_need_a_prescription",
+      "conceptId": "en.health_i_need_a_prescription",
+      "sourceId": "es.s.b852ee4ca3cbf583",
+      "source": "Necesito una receta médica.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I need a prescription.",
+          "audioSlug": "i_need_a_prescription"
+        }
+      ]
+    },
+    {
+      "id": "health_you_should_drink_water",
+      "conceptId": "en.health_you_should_drink_water",
+      "sourceId": "es.s.68cf5f3e5d2f8836",
+      "source": "Debes tomar mucha agua.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "You should drink a lot of water.",
+          "audioSlug": "you_should_drink_a_lot_of_water"
+        }
+      ]
+    },
+    {
+      "id": "health_i_have_been_sick_since_yesterday",
+      "conceptId": "en.health_i_have_been_sick_since_yesterday",
+      "sourceId": "es.s.d02acf99166224e1",
+      "source": "Estoy enfermo/a desde ayer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have been sick since yesterday.",
+          "audioSlug": "i_have_been_sick_since_yesterday"
+        }
+      ]
+    },
+    {
+      "id": "health_she_suffers_from_headaches",
+      "conceptId": "en.health_she_suffers_from_headaches",
+      "sourceId": "es.s.861d12cb253e9bed",
+      "source": "Ella sufre de dolores de cabeza.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "She suffers from headaches.",
+          "audioSlug": "she_suffers_from_headaches"
+        }
+      ]
+    },
+    {
+      "id": "health_the_treatment_is_working",
+      "conceptId": "en.health_the_treatment_is_working",
+      "sourceId": "es.s.a2ccccb8a1cd3501",
+      "source": "El tratamiento está funcionando.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The treatment is working.",
+          "audioSlug": "the_treatment_is_working"
+        }
+      ]
+    },
+    {
+      "id": "health_it_is_a_serious_disease",
+      "conceptId": "en.health_it_is_a_serious_disease",
+      "sourceId": "es.s.72ef96f7abb4746c",
+      "source": "Es una enfermedad grave.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It is a serious disease.",
+          "audioSlug": "it_is_a_serious_disease"
+        }
+      ]
+    },
+    {
+      "id": "health_my_arm_hurts",
+      "conceptId": "en.health_my_arm_hurts",
+      "sourceId": "es.s.15a669e4e121054f",
+      "source": "Me duele el brazo.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My arm hurts.",
+          "audioSlug": "my_arm_hurts"
+        }
+      ]
+    },
+    {
+      "id": "health_my_left_foot_hurts",
+      "conceptId": "en.health_my_left_foot_hurts",
+      "sourceId": "es.s.71ead805f774fda4",
+      "source": "Me duele el pie izquierdo.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My left foot hurts.",
+          "audioSlug": "my_left_foot_hurts"
+        }
+      ]
+    },
+    {
+      "id": "health_i_feel_a_sharp_pain",
+      "conceptId": "en.health_i_feel_a_sharp_pain",
+      "sourceId": "es.s.c1424b40996ba051",
+      "source": "Siento un dolor agudo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I feel a sharp pain.",
+          "audioSlug": "i_feel_a_sharp_pain"
+        }
+      ]
+    },
+    {
+      "id": "health_you_need_to_rest",
+      "conceptId": "en.health_you_need_to_rest",
+      "sourceId": "es.s.2035b02b3af5794d",
+      "source": "Necesitas descansar.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "You need to rest.",
+          "audioSlug": "you_need_to_rest"
+        }
+      ]
+    },
+    {
+      "id": "health_breathe_deeply",
+      "conceptId": "en.health_breathe_deeply",
+      "sourceId": "es.s.17394f172e6484e3",
+      "source": "Respira hondo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Breathe deeply.",
+          "audioSlug": "breathe_deeply"
+        }
+      ]
+    },
+    {
+      "id": "health_there_is_no_cure_yet",
+      "conceptId": "en.health_there_is_no_cure_yet",
+      "sourceId": "es.s.ddb4d269b3ac3f20",
+      "source": "Todavía no hay cura.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "There is no cure yet.",
+          "audioSlug": "there_is_no_cure_yet"
+        }
+      ]
+    },
+    {
+      "id": "health_he_gave_blood_today",
+      "conceptId": "en.health_he_gave_blood_today",
+      "sourceId": "es.s.275e86546ab8ab1b",
+      "source": "Él donó sangre hoy.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "He gave blood today.",
+          "audioSlug": "he_gave_blood_today"
+        }
+      ]
+    },
+    {
+      "id": "health_he_broke_a_bone",
+      "conceptId": "en.health_he_broke_a_bone",
+      "sourceId": "es.s.dad5b1e5ef649825",
+      "source": "Se rompió un hueso.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "He broke a bone.",
+          "audioSlug": "he_broke_a_bone"
+        }
+      ]
+    },
+    {
+      "id": "health_my_tooth_hurts",
+      "conceptId": "en.health_my_tooth_hurts",
+      "sourceId": "es.s.62d536f225b7c789",
+      "source": "Me duele un diente.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My tooth hurts.",
+          "audioSlug": "my_tooth_hurts"
+        }
+      ]
+    },
+    {
+      "id": "health_smoking_can_kill",
+      "conceptId": "en.health_smoking_can_kill",
+      "sourceId": "es.s.23dbe8e513737c12",
+      "source": "Fumar puede matar.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Smoking can kill.",
+          "audioSlug": "smoking_can_kill"
+        }
+      ]
+    },
+    {
+      "id": "health_i_feel_sick",
+      "conceptId": "en.health_i_feel_sick",
+      "sourceId": "es.s.105b4a10cd0eedb0",
+      "source": "Estoy enfermo/a.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I feel sick.",
+          "audioSlug": "i_feel_sick"
+        }
+      ]
+    },
+    {
+      "id": "health_i_escaped_death",
+      "conceptId": "en.health_i_escaped_death",
+      "sourceId": "es.s.150ae5d7fa050dd5",
+      "source": "Escapé de la muerte.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I escaped death.",
+          "audioSlug": "i_escaped_death"
+        }
+      ]
+    },
+    {
+      "id": "health_my_head_hurts",
+      "conceptId": "en.health_my_head_hurts",
+      "sourceId": "es.s.37e1718a4650476a",
+      "source": "Me duele la cabeza.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My head hurts.",
+          "audioSlug": "my_head_hurts"
+        }
+      ]
+    },
+    {
+      "id": "health_the_drug_problem_is_international",
+      "conceptId": "en.health_the_drug_problem_is_international",
+      "sourceId": "es.s.96faa5382b3e3a86",
+      "source": "El problema de la droga es internacional.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The drug problem is international.",
+          "audioSlug": "the_drug_problem_is_international"
+        }
+      ]
+    },
+    {
+      "id": "health_stress_can_cause_headaches",
+      "conceptId": "en.health_stress_can_cause_headaches",
+      "sourceId": "es.s.075deb5205b474f1",
+      "source": "El estrés puede causar fuertes dolores de cabeza.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Stress can cause bad headaches.",
+          "audioSlug": "stress_can_cause_bad_headaches"
+        }
+      ]
+    }
+  ]
+}

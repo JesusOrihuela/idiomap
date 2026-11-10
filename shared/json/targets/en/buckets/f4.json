@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "f4",
+  "concepts": {
+    "en.accommodation_refund_policy": {
+      "conceptId": "en.accommodation_refund_policy",
+      "id": "accommodation_refund_policy",
+      "target": [
+        {
+          "text": "What is the refund policy in case of cancellation?",
+          "audioSlug": "what_is_the_refund_policy_in_case_of_cancellation"
+        }
+      ]
+    },
+    "en.family_my_whole_family_is_fine": {
+      "conceptId": "en.family_my_whole_family_is_fine",
+      "id": "family_my_whole_family_is_fine",
+      "target": [
+        {
+          "text": "My whole family is fine.",
+          "audioSlug": "my_whole_family_is_fine"
+        }
+      ]
+    }
+  }
+}

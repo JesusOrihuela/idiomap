@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "b2",
+  "concepts": {
+    "en.accountability_the_impairment_of_goodwill_has": {
+      "conceptId": "en.accountability_the_impairment_of_goodwill_has",
+      "id": "accountability_the_impairment_of_goodwill_has",
+      "target": [
+        {
+          "text": "The impairment of goodwill has been recognized in line with the current valuation.",
+          "audioSlug": "the_impairment_of_goodwill_has_been_recognized_in_line_with_the_current_valuation"
+        }
+      ]
+    },
+    "en.cuerpo_her_legs_are_long": {
+      "conceptId": "en.cuerpo_her_legs_are_long",
+      "id": "cuerpo_her_legs_are_long",
+      "target": [
+        {
+          "text": "Her legs are long.",
+          "audioSlug": "her_legs_are_long"
+        }
+      ]
+    },
+    "en.fiesta_its_a_surprise_party": {
+      "conceptId": "en.fiesta_its_a_surprise_party",
+      "id": "fiesta_its_a_surprise_party",
+      "target": [
+        {
+          "text": "It's a surprise party.",
+          "audioSlug": "it_s_a_surprise_party"
+        }
+      ]
+    },
+    "en.kitchen_boil_the_pasta_in_hot_water": {
+      "conceptId": "en.kitchen_boil_the_pasta_in_hot_water",
+      "id": "kitchen_boil_the_pasta_in_hot_water",
+      "target": [
+        {
+          "text": "Boil the pasta in hot water.",
+          "audioSlug": "boil_the_pasta_in_hot_water"
+        }
+      ]
+    }
+  }
+}

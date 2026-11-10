@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "cc",
+  "concepts": {
+    "es.economia_no_tengo_dinero": {
+      "conceptId": "es.economia_no_tengo_dinero",
+      "id": "economia_no_tengo_dinero",
+      "target": [
+        {
+          "text": "No tengo dinero.",
+          "audioSlug": "no_tengo_dinero"
+        }
+      ]
+    },
+    "es.estudios_abre_el_libro_en_la_pagina_diez": {
+      "conceptId": "es.estudios_abre_el_libro_en_la_pagina_diez",
+      "id": "estudios_abre_el_libro_en_la_pagina_diez",
+      "target": [
+        {
+          "text": "Abre el libro en la página diez.",
+          "audioSlug": "abre_el_libro_en_la_pagina_diez"
+        }
+      ]
+    },
+    "es.gym_deload_week_overreaching": {
+      "conceptId": "es.gym_deload_week_overreaching",
+      "id": "gym_deload_week_overreaching",
+      "target": [
+        {
+          "text": "Mi entrenador me sugirió una semana de descarga porque he estado sobrepasando mis límites.",
+          "audioSlug": "mi_entrenador_me_sugirio_una_semana_de_descarga_porque_he_estado_sobrepasando_mis_limites",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "Mi entrenadora me sugirió una semana de descarga porque he estado sobrepasando mis límites.",
+          "audioSlug": "mi_entrenadora_me_sugirio_una_semana_de_descarga_porque_he_estado_sobrepasando_mis_limites",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_no_me_importa_esperar": {
+      "conceptId": "es.pensamientos_opiniones_no_me_importa_esperar",
+      "id": "pensamientos_opiniones_no_me_importa_esperar",
+      "target": [
+        {
+          "text": "No me importa esperar.",
+          "audioSlug": "no_me_importa_esperar"
+        }
+      ]
+    },
+    "es.survival_como_se_escribe_tu_nombre": {
+      "conceptId": "es.survival_como_se_escribe_tu_nombre",
+      "id": "survival_como_se_escribe_tu_nombre",
+      "target": [
+        {
+          "text": "¿Cómo se escribe tu nombre?",
+          "audioSlug": "como_se_escribe_tu_nombre"
+        }
+      ]
+    },
+    "es.tiempo_libre_cada_juego_tiene_sus_reglas": {
+      "conceptId": "es.tiempo_libre_cada_juego_tiene_sus_reglas",
+      "id": "tiempo_libre_cada_juego_tiene_sus_reglas",
+      "target": [
+        {
+          "text": "Cada juego tiene sus reglas.",
+          "audioSlug": "cada_juego_tiene_sus_reglas"
+        }
+      ]
+    },
+    "es.tiempo_libre_fuimos_a_un_espectaculo_de_baile": {
+      "conceptId": "es.tiempo_libre_fuimos_a_un_espectaculo_de_baile",
+      "id": "tiempo_libre_fuimos_a_un_espectaculo_de_baile",
+      "target": [
+        {
+          "text": "Fuimos a un espectáculo de baile.",
+          "audioSlug": "fuimos_a_un_espectaculo_de_baile"
+        }
+      ]
+    },
+    "es.tiempo_libre_me_gusta_bailar_salsa": {
+      "conceptId": "es.tiempo_libre_me_gusta_bailar_salsa",
+      "id": "tiempo_libre_me_gusta_bailar_salsa",
+      "target": [
+        {
+          "text": "Me gusta bailar salsa.",
+          "audioSlug": "me_gusta_bailar_salsa"
+        }
+      ]
+    },
+    "es.transportation_bike_brakes_faulty": {
+      "conceptId": "es.transportation_bike_brakes_faulty",
+      "id": "transportation_bike_brakes_faulty",
+      "target": [
+        {
+          "text": "La bicicleta de alquiler no estaba en las condiciones descritas y los frenos fallaban.",
+          "audioSlug": "la_bicicleta_de_alquiler_no_estaba_en_las_condiciones_descritas_y_los_frenos_fallaban"
+        }
+      ]
+    },
+    "es.transportation_how_much_is_the_fare": {
+      "conceptId": "es.transportation_how_much_is_the_fare",
+      "id": "transportation_how_much_is_the_fare",
+      "target": [
+        {
+          "text": "¿Cuánto cuesta el viaje?",
+          "audioSlug": "cuanto_cuesta_el_viaje"
+        }
+      ]
+    },
+    "es.transportation_metro_faster_than_bus": {
+      "conceptId": "es.transportation_metro_faster_than_bus",
+      "id": "transportation_metro_faster_than_bus",
+      "target": [
+        {
+          "text": "¿El metro es más rápido que el autobús ahora?",
+          "audioSlug": "el_metro_es_mas_rapido_que_el_autobus_ahora"
+        }
+      ]
+    }
+  }
+}

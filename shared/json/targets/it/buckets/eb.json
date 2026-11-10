@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "it",
+  "bucket": "eb",
+  "concepts": {
+    "it.piloto_buenos_dias": {
+      "conceptId": "it.piloto_buenos_dias",
+      "id": "piloto_buenos_dias",
+      "target": [
+        {
+          "text": "Buongiorno.",
+          "audioSlug": "buenos_dias"
+        }
+      ]
+    },
+    "it.piloto_no_entiendo": {
+      "conceptId": "it.piloto_no_entiendo",
+      "id": "piloto_no_entiendo",
+      "target": [
+        {
+          "text": "Non capisco.",
+          "audioSlug": "no_entiendo"
+        }
+      ]
+    }
+  }
+}

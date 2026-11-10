@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "theater",
+  "phrases": [
+    {
+      "id": "theater_moving_play",
+      "conceptId": "en.theater_moving_play",
+      "sourceId": "es.s.1cd47bb509a19d96",
+      "source": "La obra de teatro fue muy conmovedora.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The play was very moving.",
+          "audioSlug": "the_play_was_very_moving"
+        }
+      ]
+    },
+    {
+      "id": "theater_opera_surprised",
+      "conceptId": "en.theater_opera_surprised",
+      "sourceId": "es.s.00e96a8f03e92836",
+      "source": "No pensé que la ópera me gustaría tanto.",
+      "level": "B1",
+      "grammar": "'Didn't think I would' expresses a past expectation that the actual experience proved wrong.",
+      "target": [
+        {
+          "text": "I didn't think I would enjoy the opera so much.",
+          "audioSlug": "i_didn_t_think_i_would_enjoy_the_opera_so_much"
+        }
+      ]
+    },
+    {
+      "id": "theater_buy_tickets_tonight",
+      "conceptId": "en.theater_buy_tickets_tonight",
+      "sourceId": "es.s.5e5c0f5234376c17",
+      "source": "Me gustaría comprar entradas para el espectáculo de esta noche.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'd like to buy tickets for tonight's show.",
+          "audioSlug": "i_d_like_to_buy_tickets_for_tonight_s_show"
+        }
+      ]
+    },
+    {
+      "id": "theater_where_is_theater",
+      "conceptId": "en.theater_where_is_theater",
+      "sourceId": "es.s.3902a0f6b26ea8d1",
+      "source": "¿Dónde puedo encontrar el teatro?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where can I find the theater?",
+          "audioSlug": "where_can_i_find_the_theater"
+        }
+      ]
+    },
+    {
+      "id": "theater_what_time_performance",
+      "conceptId": "en.theater_what_time_performance",
+      "sourceId": "es.s.1db9006024187849",
+      "source": "¿A qué hora empieza la función?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What time does the performance start?",
+          "audioSlug": "what_time_does_the_performance_start"
+        }
+      ]
+    },
+    {
+      "id": "theater_enjoy_going_theater",
+      "conceptId": "en.theater_enjoy_going_theater",
+      "sourceId": "es.s.4a4f5e7b9cb64ea0",
+      "source": "Realmente disfruto ir al teatro.",
+      "level": "A2",
+      "grammar": "'Enjoy' always takes a gerund as its object: enjoy going, enjoy watching, enjoy reading.",
+      "target": [
+        {
+          "text": "I really enjoy going to the theater.",
+          "audioSlug": "i_really_enjoy_going_to_the_theater"
+        }
+      ]
+    },
+    {
+      "id": "theater_actors_incredible_performance",
+      "conceptId": "en.theater_actors_incredible_performance",
+      "sourceId": "es.s.c730d26cd0bb33ad",
+      "source": "Los actores estuvieron increíbles en una actuación muy poderosa.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The actors were incredible in a very strong performance.",
+          "audioSlug": "the_actors_were_incredible_in_a_very_strong_performance"
+        }
+      ]
+    },
+    {
+      "id": "theater_tickets_saturday",
+      "conceptId": "en.theater_tickets_saturday",
+      "sourceId": "es.s.bad362c85668da99",
+      "source": "¿Quedan entradas para la función del sábado?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do you have any tickets left for Saturday's performance?",
+          "audioSlug": "do_you_have_any_tickets_left_for_saturday_s_performance"
+        }
+      ]
+    },
+    {
+      "id": "theater_intermission_refreshments",
+      "conceptId": "en.theater_intermission_refreshments",
+      "sourceId": "es.s.6af40474677c2b25",
+      "source": "El intermedio es una buena oportunidad para tomar algo y hablar sobre la obra.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The intermission is a chance to get refreshments and discuss the play.",
+          "audioSlug": "the_intermission_is_a_chance_to_get_refreshments_and_discuss_the_play"
+        }
+      ]
+    },
+    {
+      "id": "theater_moved_by_grief_portrayal",
+      "conceptId": "en.theater_moved_by_grief_portrayal",
+      "sourceId": "es.s.d458c1736cf94def",
+      "source": "Me conmovió profundamente la interpretación del actor sobre el duelo.",
+      "level": "B1",
+      "grammar": "Passive 'was moved by' describes an emotional response triggered by an external source.",
+      "target": [
+        {
+          "text": "I was deeply moved by the actor's portrayal of grief.",
+          "audioSlug": "i_was_deeply_moved_by_the_actor_s_portrayal_of_grief"
+        }
+      ]
+    },
+    {
+      "id": "theater_standing_ovation_deserved",
+      "conceptId": "en.theater_standing_ovation_deserved",
+      "sourceId": "es.s.c625ca686f991c05",
+      "source": "El reparto recibió una ovación de pie, completamente merecida después de una actuación así.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The cast received a standing ovation, absolutely deserved after a performance like that.",
+          "audioSlug": "the_cast_received_a_standing_ovation_absolutely_deserved_after_a_performance_like_that"
+        }
+      ]
+    },
+    {
+      "id": "theater_original_much_stronger_revival",
+      "conceptId": "en.theater_original_much_stronger_revival",
+      "sourceId": "es.s.209ab80796afe0c6",
+      "source": "La producción original era mucho más sólida que la nueva.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The original production was much stronger than the revival.",
+          "audioSlug": "the_original_production_was_much_stronger_than_the_revival"
+        }
+      ]
+    },
+    {
+      "id": "theater_costumes_reflected_era",
+      "conceptId": "en.theater_costumes_reflected_era",
+      "sourceId": "es.s.bb95794b71f3c7c1",
+      "source": "El vestuario reflejaba perfectamente la época histórica sin parecer una pieza de museo.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The costumes perfectly reflected the historical era without feeling like a museum piece.",
+          "audioSlug": "the_costumes_perfectly_reflected_the_historical_era_without_feeling_like_a_museum_piece"
+        }
+      ]
+    },
+    {
+      "id": "theater_outdoor_atmosphere_different",
+      "conceptId": "en.theater_outdoor_atmosphere_different",
+      "sourceId": "es.s.d491851ad3aad2b4",
+      "source": "Ver una obra al aire libre tiene algo especial.",
+      "level": "B2",
+      "grammar": "'There's something special about + gerund' to describe an intangible quality",
+      "target": [
+        {
+          "text": "There is something special about watching a play outdoors.",
+          "audioSlug": "there_is_something_special_about_watching_a_play_outdoors"
+        }
+      ]
+    },
+    {
+      "id": "theater_rehearsal_documentary_changed_experience",
+      "conceptId": "en.theater_rehearsal_documentary_changed_experience",
+      "sourceId": "es.s.5b3b332f0bf8c58b",
+      "source": "Un documental sobre el proceso de ensayo cambió completamente cómo experimenté el espectáculo.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "A documentary about the rehearsal process completely changed how I experienced the show.",
+          "audioSlug": "a_documentary_about_the_rehearsal_process_completely_changed_how_i_experienced_the_show"
+        }
+      ]
+    },
+    {
+      "id": "theater_second_viewing_reveals_layers",
+      "conceptId": "en.theater_second_viewing_reveals_layers",
+      "sourceId": "es.s.b288c886cbd03607",
+      "source": "Al ver esta obra dos veces, la segunda reveló capas que había perdido por completo antes.",
+      "level": "B2",
+      "grammar": "Past perfect 'had missed' describes something that happened before the later event being narrated.",
+      "target": [
+        {
+          "text": "Seeing this play twice, the second viewing revealed layers I had completely missed before.",
+          "audioSlug": "seeing_this_play_twice_the_second_viewing_revealed_layers_i_had_completely_missed_before"
+        }
+      ]
+    },
+    {
+      "id": "theater_staging_final_scene",
+      "conceptId": "en.theater_staging_final_scene",
+      "sourceId": "es.s.489963cc0625c392",
+      "source": "La puesta en escena del director en la escena final fue poco convencional pero notablemente efectiva.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The director's staging of the final scene was unconventional but remarkably effective.",
+          "audioSlug": "the_director_s_staging_of_the_final_scene_was_unconventional_but_remarkably_effective"
+        }
+      ]
+    },
+    {
+      "id": "theater_script_overambitious_themes",
+      "conceptId": "en.theater_script_overambitious_themes",
+      "sourceId": "es.s.b7f153afa51acdc4",
+      "source": "Encontré el guion demasiado ambicioso, intentando abordar demasiados temas a la vez.",
+      "level": "B2",
+      "grammar": "'I found + object + adjective' for expressing a personal critical assessment",
+      "target": [
+        {
+          "text": "I found the script overambitious, trying to address too many themes at once.",
+          "audioSlug": "i_found_the_script_overambitious_trying_to_address_too_many_themes_at_once"
+        }
+      ]
+    },
+    {
+      "id": "theater_physical_performance_no_dialogue",
+      "conceptId": "en.theater_physical_performance_no_dialogue",
+      "sourceId": "es.s.7d887eaaf52fe914",
+      "source": "La actuación física del actor principal fue notable, casi completamente sin diálogo.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The lead actor's physical performance was remarkable, almost entirely without dialogue.",
+          "audioSlug": "the_lead_actor_s_physical_performance_was_remarkable_almost_entirely_without_dialogue"
+        }
+      ]
+    },
+    {
+      "id": "theater_set_design_bleak_story",
+      "conceptId": "en.theater_set_design_bleak_story",
+      "sourceId": "es.s.52e28b5ed6559620",
+      "source": "El diseño de escenografía era intencionalmente austero, combinando perfectamente con la crudeza de la historia.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The set design was intentionally sparse, perfectly matching the bleakness of the story.",
+          "audioSlug": "the_set_design_was_intentionally_sparse_perfectly_matching_the_bleakness_of_the_story"
+        }
+      ]
+    },
+    {
+      "id": "theater_monologue_extraordinary_restraint",
+      "conceptId": "en.theater_monologue_extraordinary_restraint",
+      "sourceId": "es.s.e83dec00e06ec488",
+      "source": "El monólogo del tercer acto exigía un alcance emocional extraordinario.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The third-act monologue demanded extraordinary emotional range.",
+          "audioSlug": "the_third_act_monologue_demanded_extraordinary_emotional_range"
+        }
+      ]
+    },
+    {
+      "id": "theater_subverts_expectations_first_scene",
+      "conceptId": "en.theater_subverts_expectations_first_scene",
+      "sourceId": "es.s.c9554eb5392c3dea",
+      "source": "Lo que hace destacar esta producción es cómo el director subvierte las expectativas del público desde la primera escena.",
+      "level": "C1",
+      "grammar": "'What makes X stand out' is a cleft structure that foregrounds what distinguishes something.",
+      "target": [
+        {
+          "text": "What makes this production stand out is how the director subverts expectations from scene one.",
+          "audioSlug": "what_makes_this_production_stand_out_is_how_the_director_subverts_expectations_from_scene_one"
+        }
+      ]
+    },
+    {
+      "id": "theater_lighting_sound_immersive",
+      "conceptId": "en.theater_lighting_sound_immersive",
+      "sourceId": "es.s.647773302c75687c",
+      "source": "El diseño de luces y sonido crea una experiencia inmersiva poco común.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The lighting and sound design create an immersive experience rarely seen on stage.",
+          "audioSlug": "the_lighting_and_sound_design_create_an_immersive_experience_rarely_seen_on_stage"
+        }
+      ]
+    },
+    {
+      "id": "theater_ambiguous_ending_interpretations",
+      "conceptId": "en.theater_ambiguous_ending_interpretations",
+      "sourceId": "es.s.f74c0511a9e25fa7",
+      "source": "El final ambiguo de la obra invita a múltiples interpretaciones.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The play's ambiguous ending invites multiple interpretations.",
+          "audioSlug": "the_play_s_ambiguous_ending_invites_multiple_interpretations"
+        }
+      ]
+    },
+    {
+      "id": "theater_two_tickets",
+      "conceptId": "en.theater_two_tickets",
+      "sourceId": "es.s.9c9903aed8632ab8",
+      "source": "Dos entradas para la función de esta noche, por favor.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Two tickets for tonight's show, please.",
+          "audioSlug": "two_tickets_for_tonight_s_show_please"
+        }
+      ]
+    },
+    {
+      "id": "theater_whats_playing",
+      "conceptId": "en.theater_whats_playing",
+      "sourceId": "es.s.e4628320f1917900",
+      "source": "¿Qué obra hay en cartelera?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What's playing at the theater?",
+          "audioSlug": "what_s_playing_at_the_theater"
+        }
+      ]
+    },
+    {
+      "id": "theater_is_there_intermission",
+      "conceptId": "en.theater_is_there_intermission",
+      "sourceId": "es.s.a576e6dbe387d49e",
+      "source": "¿Hay intermedio?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is there an intermission?",
+          "audioSlug": "is_there_an_intermission"
+        }
+      ]
+    },
+    {
+      "id": "theater_where_are_seats",
+      "conceptId": "en.theater_where_are_seats",
+      "sourceId": "es.s.5c14262018edeef7",
+      "source": "¿Dónde están nuestros asientos?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where are our seats?",
+          "audioSlug": "where_are_our_seats"
+        }
+      ]
+    },
+    {
+      "id": "theater_play_was_great",
+      "conceptId": "en.theater_play_was_great",
+      "sourceId": "es.s.a71d751338c8a23a",
+      "source": "La obra estuvo genial.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The play was great.",
+          "audioSlug": "the_play_was_great"
+        }
+      ]
+    },
+    {
+      "id": "theater_want_to_see_play",
+      "conceptId": "en.theater_want_to_see_play",
+      "sourceId": "es.s.6ca40bf99657db7a",
+      "source": "¿Quieres ver una obra este fin de semana?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do you want to see a play this weekend?",
+          "audioSlug": "do_you_want_to_see_a_play_this_weekend"
+        }
+      ]
+    },
+    {
+      "id": "theater_how_long_performance",
+      "conceptId": "en.theater_how_long_performance",
+      "sourceId": "es.s.9308d7a3e87d4005",
+      "source": "¿Cuánto dura la función?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How long is the performance?",
+          "audioSlug": "how_long_is_the_performance"
+        }
+      ]
+    },
+    {
+      "id": "theater_box_office",
+      "conceptId": "en.theater_box_office",
+      "sourceId": "es.s.b896113274991d0e",
+      "source": "¿Dónde está la taquilla?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where is the box office?",
+          "audioSlug": "where_is_the_box_office"
+        }
+      ]
+    }
+  ]
+}

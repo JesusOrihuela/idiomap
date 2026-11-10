@@ -1,8 +1,20 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-de",
   "topic": "family",
-  "conceptIds": [
-    "de.family_i_have_a_brother"
+  "phrases": [
+    {
+      "conceptId": "de.family_i_have_a_brother",
+      "level": "A1",
+      "grammar": "Im Akkusativ wird der maskuline Artikel zu 'einen' oder 'den'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fe7c359062402c20"
+    }
   ]
 }

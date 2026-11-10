@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "c6",
+  "concepts": {
+    "es.accommodation_nos_quedamos_en_una_pension": {
+      "conceptId": "es.accommodation_nos_quedamos_en_una_pension",
+      "id": "accommodation_nos_quedamos_en_una_pension",
+      "target": [
+        {
+          "text": "Nos quedamos en una pensión pequeña.",
+          "audioSlug": "nos_quedamos_en_una_pension_pequena"
+        }
+      ]
+    },
+    "es.airport_el_piloto_anuncia_el_despegue": {
+      "conceptId": "es.airport_el_piloto_anuncia_el_despegue",
+      "id": "airport_el_piloto_anuncia_el_despegue",
+      "target": [
+        {
+          "text": "El piloto anuncia el despegue.",
+          "audioSlug": "el_piloto_anuncia_el_despegue"
+        }
+      ]
+    },
+    "es.animales_el_cerdo_vive_en_la_granja": {
+      "conceptId": "es.animales_el_cerdo_vive_en_la_granja",
+      "id": "animales_el_cerdo_vive_en_la_granja",
+      "target": [
+        {
+          "text": "El cerdo vive en la granja.",
+          "audioSlug": "el_cerdo_vive_en_la_granja"
+        }
+      ]
+    },
+    "es.animales_le_tengo_miedo_a_las_aranas": {
+      "conceptId": "es.animales_le_tengo_miedo_a_las_aranas",
+      "id": "animales_le_tengo_miedo_a_las_aranas",
+      "target": [
+        {
+          "text": "Les tengo miedo a las arañas.",
+          "audioSlug": "les_tengo_miedo_a_las_aranas"
+        }
+      ]
+    },
+    "es.calendario_hoy_es_un_dia_especial": {
+      "conceptId": "es.calendario_hoy_es_un_dia_especial",
+      "id": "calendario_hoy_es_un_dia_especial",
+      "target": [
+        {
+          "text": "Hoy es un día muy especial.",
+          "audioSlug": "hoy_es_un_dia_muy_especial"
+        }
+      ]
+    },
+    "es.daily_routine_i_have_coffee_before_leaving": {
+      "conceptId": "es.daily_routine_i_have_coffee_before_leaving",
+      "id": "daily_routine_i_have_coffee_before_leaving",
+      "target": [
+        {
+          "text": "Tomo un café antes de salir.",
+          "audioSlug": "tomo_un_cafe_antes_de_salir"
+        }
+      ]
+    },
+    "es.deportes_corro_demasiado_rapido_a_veces": {
+      "conceptId": "es.deportes_corro_demasiado_rapido_a_veces",
+      "id": "deportes_corro_demasiado_rapido_a_veces",
+      "target": [
+        {
+          "text": "Corro demasiado rápido a veces.",
+          "audioSlug": "corro_demasiado_rapido_a_veces"
+        }
+      ]
+    },
+    "es.descripciones_el_paquete_es_demasiado_pesado": {
+      "conceptId": "es.descripciones_el_paquete_es_demasiado_pesado",
+      "id": "descripciones_el_paquete_es_demasiado_pesado",
+      "target": [
+        {
+          "text": "El paquete es demasiado pesado.",
+          "audioSlug": "el_paquete_es_demasiado_pesado"
+        }
+      ]
+    },
+    "es.economia_el_vendedor_de_la_tienda_es_amable": {
+      "conceptId": "es.economia_el_vendedor_de_la_tienda_es_amable",
+      "id": "economia_el_vendedor_de_la_tienda_es_amable",
+      "target": [
+        {
+          "text": "La vendedora de la tienda es amable.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Verkäuferin im Laden ist freundlich.",
+          "audioSlug": "la_vendedora_de_la_tienda_es_amable"
+        },
+        {
+          "text": "El vendedor de la tienda es amable.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Verkäufer im Laden ist freundlich.",
+          "audioSlug": "el_vendedor_de_la_tienda_es_amable"
+        }
+      ]
+    },
+    "es.gym_can_you_give_me_some_tips": {
+      "conceptId": "es.gym_can_you_give_me_some_tips",
+      "id": "gym_can_you_give_me_some_tips",
+      "target": [
+        {
+          "text": "¿Puedes darme consejos para mejorar mi técnica?",
+          "audioSlug": "puedes_darme_consejos_para_mejorar_mi_tecnica"
+        }
+      ]
+    },
+    "es.kitchen_do_we_have_enough_eggs_for": {
+      "conceptId": "es.kitchen_do_we_have_enough_eggs_for",
+      "id": "kitchen_do_we_have_enough_eggs_for",
+      "target": [
+        {
+          "text": "¿Tenemos suficientes huevos para la receta?",
+          "audioSlug": "tenemos_suficientes_huevos_para_la_receta"
+        }
+      ]
+    },
+    "es.kitchen_voy_a_cocinar_la_cena": {
+      "conceptId": "es.kitchen_voy_a_cocinar_la_cena",
+      "id": "kitchen_voy_a_cocinar_la_cena",
+      "target": [
+        {
+          "text": "Voy a cocinar la cena.",
+          "audioSlug": "voy_a_cocinar_la_cena"
+        }
+      ]
+    },
+    "es.profesiones_mi_hermano_es_camarero": {
+      "conceptId": "es.profesiones_mi_hermano_es_camarero",
+      "id": "profesiones_mi_hermano_es_camarero",
+      "target": [
+        {
+          "text": "Mi hermano es camarero.",
+          "audioSlug": "mi_hermano_es_camarero"
+        }
+      ]
+    },
+    "es.restaurant_de_postre_un_helado_de_vainilla": {
+      "conceptId": "es.restaurant_de_postre_un_helado_de_vainilla",
+      "id": "restaurant_de_postre_un_helado_de_vainilla",
+      "target": [
+        {
+          "text": "De postre, un helado de vainilla.",
+          "audioSlug": "de_postre_un_helado_de_vainilla"
+        }
+      ]
+    },
+    "es.transportation_payment_airport_transfer": {
+      "conceptId": "es.transportation_payment_airport_transfer",
+      "id": "transportation_payment_airport_transfer",
+      "target": [
+        {
+          "text": "Voy a pagar un adicional para incluir el traslado al aeropuerto.",
+          "audioSlug": "voy_a_pagar_un_adicional_para_incluir_el_traslado_al_aeropuerto"
+        }
+      ]
+    }
+  }
+}

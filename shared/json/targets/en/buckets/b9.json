@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "b9",
+  "concepts": {
+    "en.airport_waiting_room_location": {
+      "conceptId": "en.airport_waiting_room_location",
+      "id": "airport_waiting_room_location",
+      "target": [
+        {
+          "text": "The waiting room is on the ground floor.",
+          "audioSlug": "the_waiting_room_is_on_the_ground_floor"
+        }
+      ]
+    },
+    "en.directions_how_to_get_to": {
+      "conceptId": "en.directions_how_to_get_to",
+      "id": "directions_how_to_get_to",
+      "target": [
+        {
+          "text": "How do I get to the station?",
+          "audioSlug": "how_do_i_get_to_the_station"
+        }
+      ]
+    },
+    "en.greetings_nice_to_meet_you": {
+      "conceptId": "en.greetings_nice_to_meet_you",
+      "id": "greetings_nice_to_meet_you",
+      "target": [
+        {
+          "text": "Nice to meet you.",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "nice_to_meet_you"
+        },
+        {
+          "text": "Pleased to meet you.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "pleased_to_meet_you"
+        }
+      ]
+    },
+    "en.gym_push_with_your_heels_not_with": {
+      "conceptId": "en.gym_push_with_your_heels_not_with",
+      "id": "gym_push_with_your_heels_not_with",
+      "target": [
+        {
+          "text": "Push with your heels, not your toes.",
+          "audioSlug": "push_with_your_heels_not_your_toes"
+        }
+      ]
+    },
+    "en.kitchen_emulsified_vinaigrette_add_oil_slowly": {
+      "conceptId": "en.kitchen_emulsified_vinaigrette_add_oil_slowly",
+      "id": "kitchen_emulsified_vinaigrette_add_oil_slowly",
+      "target": [
+        {
+          "text": "The key to a well-emulsified vinaigrette is adding the oil very slowly while whisking constantly.",
+          "audioSlug": "the_key_to_a_well_emulsified_vinaigrette_is_adding_the_oil_very_slowly_while_whisking_constantly"
+        }
+      ]
+    },
+    "en.supermarket_i_dont_like_this_supermarket_the": {
+      "conceptId": "en.supermarket_i_dont_like_this_supermarket_the",
+      "id": "supermarket_i_dont_like_this_supermarket_the",
+      "target": [
+        {
+          "text": "I don't like this supermarket because it's expensive.",
+          "audioSlug": "i_don_t_like_this_supermarket_because_it_s_expensive"
+        }
+      ]
+    },
+    "en.supermarket_is_there_any_offer_on_cereals": {
+      "conceptId": "en.supermarket_is_there_any_offer_on_cereals",
+      "id": "supermarket_is_there_any_offer_on_cereals",
+      "target": [
+        {
+          "text": "Is there any offer on cereals?",
+          "audioSlug": "is_there_any_offer_on_cereals"
+        }
+      ]
+    }
+  }
+}

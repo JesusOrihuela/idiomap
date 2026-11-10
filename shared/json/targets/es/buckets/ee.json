@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "ee",
+  "concepts": {
+    "es.accountability_have_the_contracts_with_the_suppliers": {
+      "conceptId": "es.accountability_have_the_contracts_with_the_suppliers",
+      "id": "accountability_have_the_contracts_with_the_suppliers",
+      "target": [
+        {
+          "text": "¿Ya se firmaron los contratos con los proveedores?",
+          "audioSlug": "ya_se_firmaron_los_contratos_con_los_proveedores"
+        }
+      ]
+    },
+    "es.conversacion_aquella_idea_fue_muy_buena": {
+      "conceptId": "es.conversacion_aquella_idea_fue_muy_buena",
+      "id": "conversacion_aquella_idea_fue_muy_buena",
+      "target": [
+        {
+          "text": "Aquella idea fue muy buena.",
+          "audioSlug": "aquella_idea_fue_muy_buena"
+        }
+      ]
+    },
+    "es.daily_routine_me_visto_rapido_por_la_manana": {
+      "conceptId": "es.daily_routine_me_visto_rapido_por_la_manana",
+      "id": "daily_routine_me_visto_rapido_por_la_manana",
+      "target": [
+        {
+          "text": "Me visto rápido por la mañana.",
+          "audioSlug": "me_visto_rapido_por_la_manana"
+        }
+      ]
+    },
+    "es.descripciones_me_gusta_mucho_la_musica_cubana": {
+      "conceptId": "es.descripciones_me_gusta_mucho_la_musica_cubana",
+      "id": "descripciones_me_gusta_mucho_la_musica_cubana",
+      "target": [
+        {
+          "text": "Me gusta mucho la música cubana.",
+          "audioSlug": "me_gusta_mucho_la_musica_cubana"
+        }
+      ]
+    },
+    "es.estudios_pasamos_al_siguiente_ejercicio": {
+      "conceptId": "es.estudios_pasamos_al_siguiente_ejercicio",
+      "id": "estudios_pasamos_al_siguiente_ejercicio",
+      "target": [
+        {
+          "text": "Pasamos al siguiente ejercicio.",
+          "audioSlug": "pasamos_al_siguiente_ejercicio"
+        }
+      ]
+    },
+    "es.family_somos_una_familia_numerosa": {
+      "conceptId": "es.family_somos_una_familia_numerosa",
+      "id": "family_somos_una_familia_numerosa",
+      "target": [
+        {
+          "text": "Somos una familia numerosa.",
+          "audioSlug": "somos_una_familia_numerosa"
+        }
+      ]
+    },
+    "es.museums_which_floor": {
+      "conceptId": "es.museums_which_floor",
+      "id": "museums_which_floor",
+      "target": [
+        {
+          "text": "¿En qué piso está la exposición?",
+          "audioSlug": "en_que_piso_esta_la_exposicion"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_el_conocimiento_es_poder": {
+      "conceptId": "es.pensamientos_opiniones_el_conocimiento_es_poder",
+      "id": "pensamientos_opiniones_el_conocimiento_es_poder",
+      "target": [
+        {
+          "text": "El conocimiento es poder.",
+          "audioSlug": "el_conocimiento_es_poder"
+        }
+      ]
+    },
+    "es.transportation_boat_arrive_port": {
+      "conceptId": "es.transportation_boat_arrive_port",
+      "id": "transportation_boat_arrive_port",
+      "target": [
+        {
+          "text": "¿A qué hora llega nuestro barco al puerto?",
+          "audioSlug": "a_que_hora_llega_nuestro_barco_al_puerto"
+        }
+      ]
+    }
+  }
+}

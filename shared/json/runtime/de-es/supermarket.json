@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "supermarket",
+  "phrases": [
+    {
+      "id": "supermarket_necesito_leche_pan_huevos",
+      "conceptId": "es.supermarket_necesito_leche_pan_huevos",
+      "sourceId": "de.s.7f7b18db31a32f36",
+      "source": "Ich muss Milch, Brot und Eier kaufen.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito comprar leche, pan y huevos.",
+          "audioSlug": "necesito_comprar_leche_pan_y_huevos"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_donde_estan_frutas_verduras",
+      "conceptId": "es.supermarket_donde_estan_frutas_verduras",
+      "sourceId": "de.s.208df47449ae5f6e",
+      "source": "Wo sind Obst und Gemüse?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde están las frutas y las verduras?",
+          "audioSlug": "donde_estan_las_frutas_y_las_verduras"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_quiero_comprar_papas",
+      "conceptId": "es.supermarket_quiero_comprar_papas",
+      "sourceId": "de.s.adde04a1b0e037b0",
+      "source": "Ich möchte Kartoffeln kaufen.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero comprar papas.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "quiero_comprar_papas"
+        },
+        {
+          "text": "Quiero comprar patatas.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "quiero_comprar_patatas"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_cuanto_cuesta_el_kilo_de_manzanas",
+      "conceptId": "es.supermarket_cuanto_cuesta_el_kilo_de_manzanas",
+      "sourceId": "de.s.d6df26dec146d675",
+      "source": "Wie viel kostet das Kilo Äpfel?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuánto cuesta el kilo de manzanas?",
+          "audioSlug": "cuanto_cuesta_el_kilo_de_manzanas"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_hay_una_oferta_en_el_cafe",
+      "conceptId": "es.supermarket_hay_una_oferta_en_el_cafe",
+      "sourceId": "de.s.c1feef8c6dcd40ff",
+      "source": "Es gibt ein Angebot beim Kaffee.",
+      "level": "A2",
+      "grammar": "hay expresa que algo existe, hay una oferta.",
+      "target": [
+        {
+          "text": "Hay una oferta en el café.",
+          "audioSlug": "hay_una_oferta_en_el_cafe"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_puedo_pagar_con_tarjeta",
+      "conceptId": "es.supermarket_puedo_pagar_con_tarjeta",
+      "sourceId": "de.s.a93fee934dd1f382",
+      "source": "Kann ich mit Karte zahlen?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedo pagar con tarjeta?",
+          "audioSlug": "puedo_pagar_con_tarjeta"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_no_encuentro_el_arroz",
+      "conceptId": "es.supermarket_no_encuentro_el_arroz",
+      "sourceId": "de.s.9ee11d22d21570a0",
+      "source": "Ich finde den Reis nicht.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No encuentro el arroz.",
+          "audioSlug": "no_encuentro_el_arroz"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_donde_esta_la_seccion_de_limpieza",
+      "conceptId": "es.supermarket_donde_esta_la_seccion_de_limpieza",
+      "sourceId": "de.s.482a5faa619b2739",
+      "source": "Wo ist die Abteilung für Reinigungsmittel?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la sección de productos de limpieza?",
+          "audioSlug": "donde_esta_la_seccion_de_productos_de_limpieza"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_necesito_una_bolsa_por_favor",
+      "conceptId": "es.supermarket_necesito_una_bolsa_por_favor",
+      "sourceId": "de.s.6b6592349c1c1732",
+      "source": "Ich brauche eine Tüte, bitte.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito una bolsa, por favor.",
+          "audioSlug": "necesito_una_bolsa_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_me_podria_decir_donde_esta_la_panaderia",
+      "conceptId": "es.supermarket_me_podria_decir_donde_esta_la_panaderia",
+      "sourceId": "de.s.95a7dedd59538f09",
+      "source": "Könnten Sie mir sagen, wo die Bäckerei ist?",
+      "level": "B1",
+      "grammar": "podría es el condicional de cortesía, más suave que puede.",
+      "target": [
+        {
+          "text": "¿Me podría decir dónde está la panadería?",
+          "audioSlug": "me_podria_decir_donde_esta_la_panaderia"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_aqui_venden_fruta_fresca",
+      "conceptId": "es.supermarket_aqui_venden_fruta_fresca",
+      "sourceId": "de.s.efc13d69ac08be5a",
+      "source": "Hier verkaufen sie frisches Obst.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Aquí venden fruta fresca.",
+          "audioSlug": "aqui_venden_fruta_fresca"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_hay_una_oferta_en_el_arroz",
+      "conceptId": "es.supermarket_hay_una_oferta_en_el_arroz",
+      "sourceId": "de.s.44148d763f4cd67a",
+      "source": "Es gibt ein Angebot beim Reis.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay una oferta en el arroz.",
+          "audioSlug": "hay_una_oferta_en_el_arroz"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_necesito_hacer_una_lista",
+      "conceptId": "es.supermarket_necesito_hacer_una_lista",
+      "sourceId": "de.s.3e8dd35c066944c5",
+      "source": "Ich muss eine Einkaufsliste machen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito hacer una lista de compras.",
+          "audioSlug": "necesito_hacer_una_lista_de_compras"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_cuanto_pesa_esta_bolsa",
+      "conceptId": "es.supermarket_cuanto_pesa_esta_bolsa",
+      "sourceId": "de.s.dc8a43abb7f5083f",
+      "source": "Wie viel wiegt diese Tüte?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuánto pesa esta bolsa?",
+          "audioSlug": "cuanto_pesa_esta_bolsa"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_prefiero_esta_marca_de_cafe",
+      "conceptId": "es.supermarket_prefiero_esta_marca_de_cafe",
+      "sourceId": "de.s.2c1b5e5923a55ae4",
+      "source": "Ich bevorzuge diese Kaffeemarke.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Prefiero esta marca de café.",
+          "audioSlug": "prefiero_esta_marca_de_cafe"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_hay_mucha_fila_en_la_caja",
+      "conceptId": "es.supermarket_hay_mucha_fila_en_la_caja",
+      "sourceId": "de.s.d1cc6900c258178d",
+      "source": "An der Kasse ist eine lange Schlange.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay mucha fila en la caja.",
+          "audioSlug": "hay_mucha_fila_en_la_caja"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_los_productos_frescos_estan_al_fondo",
+      "conceptId": "es.supermarket_los_productos_frescos_estan_al_fondo",
+      "sourceId": "de.s.d245c856d8a2cfba",
+      "source": "Die frischen Produkte sind hinten.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los productos frescos están al fondo.",
+          "audioSlug": "los_productos_frescos_estan_al_fondo"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_este_supermercado_es_economico",
+      "conceptId": "es.supermarket_este_supermercado_es_economico",
+      "sourceId": "de.s.28f8b6adf72be1b0",
+      "source": "Dieser Supermarkt ist sehr günstig.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este supermercado es muy económico.",
+          "audioSlug": "este_supermercado_es_muy_economico"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_un_paquete_de_galletas_de_chocolate",
+      "conceptId": "es.supermarket_un_paquete_de_galletas_de_chocolate",
+      "sourceId": "de.s.86910ac31765a03d",
+      "source": "Eine Packung Schokoladenkekse.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Un paquete de galletas de chocolate.",
+          "audioSlug": "un_paquete_de_galletas_de_chocolate"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_compra_un_yogur_natural",
+      "conceptId": "es.supermarket_compra_un_yogur_natural",
+      "sourceId": "de.s.04904b6c87cbf065",
+      "source": "Kauf einen Naturjoghurt.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Compra un yogur natural.",
+          "audioSlug": "compra_un_yogur_natural"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_prefiero_el_zumo_de_naranja",
+      "conceptId": "es.supermarket_prefiero_el_zumo_de_naranja",
+      "sourceId": "de.s.77225adab3ec5a7b",
+      "source": "Ich mag lieber Orangensaft.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Prefiero el jugo de naranja.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "prefiero_el_jugo_de_naranja"
+        },
+        {
+          "text": "Prefiero el zumo de naranja.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "prefiero_el_zumo_de_naranja"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_los_platanos_estan_muy_maduros",
+      "conceptId": "es.supermarket_los_platanos_estan_muy_maduros",
+      "sourceId": "de.s.da925d1956c26a46",
+      "source": "Die Bananen sind sehr reif.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los plátanos están muy maduros.",
+          "audioSlug": "los_platanos_estan_muy_maduros"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_las_fresas_son_de_temporada",
+      "conceptId": "es.supermarket_las_fresas_son_de_temporada",
+      "sourceId": "de.s.9d9d55933067e394",
+      "source": "Die Erdbeeren haben gerade Saison.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Las fresas son de temporada.",
+          "audioSlug": "las_fresas_son_de_temporada"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_los_ninos_desayunan_cereales",
+      "conceptId": "es.supermarket_los_ninos_desayunan_cereales",
+      "sourceId": "de.s.cacc74ae8d0df54f",
+      "source": "Die Kinder essen Müsli zum Frühstück.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los niños desayunan cereales.",
+          "audioSlug": "los_ninos_desayunan_cereales"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_necesito_un_paquete_de_pasta",
+      "conceptId": "es.supermarket_necesito_un_paquete_de_pasta",
+      "sourceId": "de.s.659df3677bff4f96",
+      "source": "Ich brauche eine Packung Nudeln.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito un paquete de pasta.",
+          "audioSlug": "necesito_un_paquete_de_pasta"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_compra_una_docena_de_huevos",
+      "conceptId": "es.supermarket_compra_una_docena_de_huevos",
+      "sourceId": "de.s.a3ab676206e3d601",
+      "source": "Kauf ein Dutzend Eier.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Compra una docena de huevos.",
+          "audioSlug": "compra_una_docena_de_huevos"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_un_litro_de_leche_por_favor",
+      "conceptId": "es.supermarket_un_litro_de_leche_por_favor",
+      "sourceId": "de.s.783659a0f3a829f2",
+      "source": "Einen Liter Milch, bitte.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Un litro de leche, por favor.",
+          "audioSlug": "un_litro_de_leche_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "supermarket_pon_un_bote_de_tomate_frito",
+      "conceptId": "es.supermarket_pon_un_bote_de_tomate_frito",
+      "sourceId": "de.s.8b5391ca23960e94",
+      "source": "Nimm eine Dose Tomatensoße.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Pon un bote de tomate frito.",
+          "audioSlug": "pon_un_bote_de_tomate_frito"
+        }
+      ]
+    }
+  ]
+}

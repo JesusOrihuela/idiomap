@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "23",
+  "concepts": {
+    "es.describiendo_personas_mi_tio_es_gordo": {
+      "conceptId": "es.describiendo_personas_mi_tio_es_gordo",
+      "id": "describiendo_personas_mi_tio_es_gordo",
+      "target": [
+        {
+          "text": "Mi tío es un poco gordo.",
+          "audioSlug": "mi_tio_es_un_poco_gordo"
+        }
+      ]
+    },
+    "es.movies_whats_showing": {
+      "conceptId": "es.movies_whats_showing",
+      "id": "movies_whats_showing",
+      "target": [
+        {
+          "text": "¿Qué películas hay en cartelera esta semana?",
+          "audioSlug": "que_peliculas_hay_en_cartelera_esta_semana"
+        }
+      ]
+    },
+    "es.planes_aqui_no_lo_permiten": {
+      "conceptId": "es.planes_aqui_no_lo_permiten",
+      "id": "planes_aqui_no_lo_permiten",
+      "target": [
+        {
+          "text": "Aquí no lo permiten.",
+          "audioSlug": "aqui_no_lo_permiten"
+        }
+      ]
+    },
+    "es.restaurant_tomamos_el_te_a_las_cinco": {
+      "conceptId": "es.restaurant_tomamos_el_te_a_las_cinco",
+      "id": "restaurant_tomamos_el_te_a_las_cinco",
+      "target": [
+        {
+          "text": "Tomamos el té a las cinco.",
+          "audioSlug": "tomamos_el_te_a_las_cinco"
+        }
+      ]
+    },
+    "es.technology_i_enabled_biometric_authentication_so": {
+      "conceptId": "es.technology_i_enabled_biometric_authentication_so",
+      "id": "technology_i_enabled_biometric_authentication_so",
+      "target": [
+        {
+          "text": "Activé la autenticación biométrica para que desbloquear mi dispositivo sea más rápido y seguro.",
+          "audioSlug": "active_la_autenticacion_biometrica_para_que_desbloquear_mi_dispositivo_sea_mas_rapido_y_seguro"
+        }
+      ]
+    },
+    "es.weather_un_fuerte_temporal_azoto_la_costa": {
+      "conceptId": "es.weather_un_fuerte_temporal_azoto_la_costa",
+      "id": "weather_un_fuerte_temporal_azoto_la_costa",
+      "target": [
+        {
+          "text": "Un fuerte temporal azotó la costa anoche.",
+          "audioSlug": "un_fuerte_temporal_azoto_la_costa_anoche"
+        }
+      ]
+    }
+  }
+}

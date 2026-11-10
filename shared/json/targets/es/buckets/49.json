@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "49",
+  "concepts": {
+    "es.airport_tengo_que_pasar_por_la_aduana": {
+      "conceptId": "es.airport_tengo_que_pasar_por_la_aduana",
+      "id": "airport_tengo_que_pasar_por_la_aduana",
+      "target": [
+        {
+          "text": "Tengo que pasar por la aduana.",
+          "audioSlug": "tengo_que_pasar_por_la_aduana"
+        }
+      ]
+    },
+    "es.deportes_este_juego_requiere_practica": {
+      "conceptId": "es.deportes_este_juego_requiere_practica",
+      "id": "deportes_este_juego_requiere_practica",
+      "target": [
+        {
+          "text": "Este juego requiere mucha práctica.",
+          "audioSlug": "este_juego_requiere_mucha_practica"
+        }
+      ]
+    },
+    "es.greetings_la_senora_pregunto_por_la_salida": {
+      "conceptId": "es.greetings_la_senora_pregunto_por_la_salida",
+      "id": "greetings_la_senora_pregunto_por_la_salida",
+      "target": [
+        {
+          "text": "La señora preguntó por la salida.",
+          "audioSlug": "la_senora_pregunto_por_la_salida"
+        }
+      ]
+    },
+    "es.hogar_el_salon_es_grande": {
+      "conceptId": "es.hogar_el_salon_es_grande",
+      "id": "hogar_el_salon_es_grande",
+      "target": [
+        {
+          "text": "El salón es grande.",
+          "audioSlug": "el_salon_es_grande"
+        }
+      ]
+    },
+    "es.kitchen_the_pot_is_on_the_stove": {
+      "conceptId": "es.kitchen_the_pot_is_on_the_stove",
+      "id": "kitchen_the_pot_is_on_the_stove",
+      "target": [
+        {
+          "text": "La olla está en la estufa.",
+          "audioSlug": "la_olla_esta_en_la_estufa"
+        }
+      ]
+    },
+    "es.kitchen_where_do_we_keep_the_measuring": {
+      "conceptId": "es.kitchen_where_do_we_keep_the_measuring",
+      "id": "kitchen_where_do_we_keep_the_measuring",
+      "target": [
+        {
+          "text": "¿Dónde guardamos las tazas de medir?",
+          "audioSlug": "donde_guardamos_las_tazas_de_medir"
+        }
+      ]
+    },
+    "es.restaurant_do_you_have_any_nonalcoholic_cocktails": {
+      "conceptId": "es.restaurant_do_you_have_any_nonalcoholic_cocktails",
+      "id": "restaurant_do_you_have_any_nonalcoholic_cocktails",
+      "target": [
+        {
+          "text": "¿Tienen cócteles sin alcohol?",
+          "audioSlug": "tienen_cocteles_sin_alcohol"
+        }
+      ]
+    },
+    "es.sitios_salimos_a_la_discoteca": {
+      "conceptId": "es.sitios_salimos_a_la_discoteca",
+      "id": "sitios_salimos_a_la_discoteca",
+      "target": [
+        {
+          "text": "Salimos a la discoteca el sábado.",
+          "audioSlug": "salimos_a_la_discoteca_el_sabado"
+        }
+      ]
+    },
+    "es.vestimenta_duermo_con_un_pijama_comodo": {
+      "conceptId": "es.vestimenta_duermo_con_un_pijama_comodo",
+      "id": "vestimenta_duermo_con_un_pijama_comodo",
+      "target": [
+        {
+          "text": "Duermo con un pijama cómodo.",
+          "audioSlug": "duermo_con_un_pijama_comodo"
+        }
+      ]
+    }
+  }
+}

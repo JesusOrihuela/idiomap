@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "01",
+  "concepts": {
+    "es.daily_routine_i_wake_up_early": {
+      "conceptId": "es.daily_routine_i_wake_up_early",
+      "id": "daily_routine_i_wake_up_early",
+      "target": [
+        {
+          "text": "Me despierto temprano.",
+          "audioSlug": "me_despierto_temprano"
+        }
+      ]
+    },
+    "es.estudios_ya_pague_la_matricula_del_curso": {
+      "conceptId": "es.estudios_ya_pague_la_matricula_del_curso",
+      "id": "estudios_ya_pague_la_matricula_del_curso",
+      "target": [
+        {
+          "text": "Ya pagué la matrícula del curso.",
+          "audioSlug": "ya_pague_la_matricula_del_curso"
+        }
+      ]
+    },
+    "es.family_he_is_my_best_friend": {
+      "conceptId": "es.family_he_is_my_best_friend",
+      "id": "family_he_is_my_best_friend",
+      "target": [
+        {
+          "text": "Él es mi mejor amigo.",
+          "audioSlug": "el_es_mi_mejor_amigo"
+        }
+      ]
+    },
+    "es.gym_breathe_deeply": {
+      "conceptId": "es.gym_breathe_deeply",
+      "id": "gym_breathe_deeply",
+      "target": [
+        {
+          "text": "Respira profundo.",
+          "audioSlug": "respira_profundo"
+        }
+      ]
+    },
+    "es.hogar_la_ventana_del_salon_es_de_cristal": {
+      "conceptId": "es.hogar_la_ventana_del_salon_es_de_cristal",
+      "id": "hogar_la_ventana_del_salon_es_de_cristal",
+      "target": [
+        {
+          "text": "La ventana del salón es de cristal.",
+          "audioSlug": "la_ventana_del_salon_es_de_cristal"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_estoy_de_acuerdo_contigo": {
+      "conceptId": "es.pensamientos_opiniones_estoy_de_acuerdo_contigo",
+      "id": "pensamientos_opiniones_estoy_de_acuerdo_contigo",
+      "target": [
+        {
+          "text": "Estoy de acuerdo contigo.",
+          "audioSlug": "estoy_de_acuerdo_contigo"
+        }
+      ]
+    },
+    "es.personal_info_i_live_in": {
+      "conceptId": "es.personal_info_i_live_in",
+      "id": "personal_info_i_live_in",
+      "target": [
+        {
+          "text": "Vivo en el centro de la ciudad.",
+          "audioSlug": "vivo_en_el_centro_de_la_ciudad"
+        }
+      ]
+    },
+    "es.personal_info_i_speak": {
+      "conceptId": "es.personal_info_i_speak",
+      "id": "personal_info_i_speak",
+      "target": [
+        {
+          "text": "Hablo español y un poco de inglés.",
+          "audioSlug": "hablo_espanol_y_un_poco_de_ingles"
+        }
+      ]
+    },
+    "es.profesiones_quiero_convertirme_en_medico": {
+      "conceptId": "es.profesiones_quiero_convertirme_en_medico",
+      "id": "profesiones_quiero_convertirme_en_medico",
+      "target": [
+        {
+          "text": "Quiero convertirme en médico.",
+          "audioSlug": "quiero_convertirme_en_medico"
+        }
+      ]
+    },
+    "es.restaurant_private_dining_business": {
+      "conceptId": "es.restaurant_private_dining_business",
+      "id": "restaurant_private_dining_business",
+      "target": [
+        {
+          "text": "Me gustaría reservar un área privada para una cena de negocios, ¿tienen algo disponible?",
+          "audioSlug": "me_gustaria_reservar_un_area_privada_para_una_cena_de_negocios_tienen_algo_disponible"
+        }
+      ]
+    },
+    "es.supermarket_donde_estan_frutas_verduras": {
+      "conceptId": "es.supermarket_donde_estan_frutas_verduras",
+      "id": "supermarket_donde_estan_frutas_verduras",
+      "target": [
+        {
+          "text": "¿Dónde están las frutas y las verduras?",
+          "audioSlug": "donde_estan_las_frutas_y_las_verduras"
+        }
+      ]
+    },
+    "es.survival_disculpe_usted_habla_ingles": {
+      "conceptId": "es.survival_disculpe_usted_habla_ingles",
+      "id": "survival_disculpe_usted_habla_ingles",
+      "target": [
+        {
+          "text": "Disculpe, ¿usted habla inglés?",
+          "audioSlug": "disculpe_usted_habla_ingles"
+        }
+      ]
+    },
+    "es.tiempo_libre_un_cambio_de_rutina_ayuda": {
+      "conceptId": "es.tiempo_libre_un_cambio_de_rutina_ayuda",
+      "id": "tiempo_libre_un_cambio_de_rutina_ayuda",
+      "target": [
+        {
+          "text": "Un cambio de rutina siempre ayuda.",
+          "audioSlug": "un_cambio_de_rutina_siempre_ayuda"
+        }
+      ]
+    }
+  }
+}

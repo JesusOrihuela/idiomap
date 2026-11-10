@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "61",
+  "concepts": {
+    "en.accountability_the_presentation_of_the_financial_reports": {
+      "conceptId": "en.accountability_the_presentation_of_the_financial_reports",
+      "id": "accountability_the_presentation_of_the_financial_reports",
+      "target": [
+        {
+          "text": "The presentation of the financial reports was successful.",
+          "audioSlug": "the_presentation_of_the_financial_reports_was_successful"
+        }
+      ]
+    },
+    "en.gym_strength_imbalance_dominant_side": {
+      "conceptId": "en.gym_strength_imbalance_dominant_side",
+      "id": "gym_strength_imbalance_dominant_side",
+      "target": [
+        {
+          "text": "I'm trying to address a strength imbalance between my dominant and non-dominant side.",
+          "audioSlug": "i_m_trying_to_address_a_strength_imbalance_between_my_dominant_and_non_dominant_side"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_the_reason_is_clear": {
+      "conceptId": "en.pensamientos_opiniones_the_reason_is_clear",
+      "id": "pensamientos_opiniones_the_reason_is_clear",
+      "target": [
+        {
+          "text": "The reason is clear.",
+          "audioSlug": "the_reason_is_clear"
+        }
+      ]
+    },
+    "en.supermarket_nut_allergy_processed_facility": {
+      "conceptId": "en.supermarket_nut_allergy_processed_facility",
+      "id": "supermarket_nut_allergy_processed_facility",
+      "target": [
+        {
+          "text": "I have a nut allergy. Was this product processed in a nut-handling facility?",
+          "audioSlug": "i_have_a_nut_allergy_was_this_product_processed_in_a_nut_handling_facility"
+        }
+      ]
+    }
+  }
+}

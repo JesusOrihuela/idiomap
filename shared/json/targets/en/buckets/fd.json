@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "fd",
+  "concepts": {
+    "en.gym_where_can_i_find_towels": {
+      "conceptId": "en.gym_where_can_i_find_towels",
+      "id": "gym_where_can_i_find_towels",
+      "target": [
+        {
+          "text": "Where can I find towels?",
+          "audioSlug": "where_can_i_find_towels"
+        }
+      ]
+    },
+    "en.kitchen_umami_depth_fish_sauce_miso": {
+      "conceptId": "en.kitchen_umami_depth_fish_sauce_miso",
+      "id": "kitchen_umami_depth_fish_sauce_miso",
+      "target": [
+        {
+          "text": "A small amount of fish sauce or miso paste deepens the umami in any savory dish.",
+          "audioSlug": "a_small_amount_of_fish_sauce_or_miso_paste_deepens_the_umami_in_any_savory_dish"
+        }
+      ]
+    },
+    "en.museums_exhibition_accessible_multiple_levels": {
+      "conceptId": "en.museums_exhibition_accessible_multiple_levels",
+      "id": "museums_exhibition_accessible_multiple_levels",
+      "target": [
+        {
+          "text": "The exhibition worked at multiple levels, from casual enjoyment to careful reading.",
+          "audioSlug": "the_exhibition_worked_at_multiple_levels_from_casual_enjoyment_to_careful_reading"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_i_suppose_so": {
+      "conceptId": "en.pensamientos_opiniones_i_suppose_so",
+      "id": "pensamientos_opiniones_i_suppose_so",
+      "target": [
+        {
+          "text": "I suppose so.",
+          "audioSlug": "i_suppose_so"
+        }
+      ]
+    },
+    "en.profesiones_she_is_a_fair_judge": {
+      "conceptId": "en.profesiones_she_is_a_fair_judge",
+      "id": "profesiones_she_is_a_fair_judge",
+      "target": [
+        {
+          "text": "She is a fair judge.",
+          "audioSlug": "she_is_a_fair_judge"
+        }
+      ]
+    },
+    "en.technology_could_you_send_me_that_document": {
+      "conceptId": "en.technology_could_you_send_me_that_document",
+      "id": "technology_could_you_send_me_that_document",
+      "target": [
+        {
+          "text": "Could you send me that document by email?",
+          "audioSlug": "could_you_send_me_that_document_by_email",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you send me that document by email?",
+          "audioSlug": "can_you_send_me_that_document_by_email",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.technology_my_storage_is_almost_full_so": {
+      "conceptId": "en.technology_my_storage_is_almost_full_so",
+      "id": "technology_my_storage_is_almost_full_so",
+      "target": [
+        {
+          "text": "My storage is almost full and I need to delete files.",
+          "audioSlug": "my_storage_is_almost_full_and_i_need_to_delete_files"
+        }
+      ]
+    }
+  }
+}

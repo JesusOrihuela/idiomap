@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "8d",
+  "concepts": {
+    "es.airport_nothing_to_declare": {
+      "conceptId": "es.airport_nothing_to_declare",
+      "id": "airport_nothing_to_declare",
+      "target": [
+        {
+          "text": "No tengo nada que declarar.",
+          "audioSlug": "no_tengo_nada_que_declarar"
+        }
+      ]
+    },
+    "es.descripciones_esta_lleno": {
+      "conceptId": "es.descripciones_esta_lleno",
+      "id": "descripciones_esta_lleno",
+      "target": [
+        {
+          "text": "Está lleno.",
+          "audioSlug": "esta_lleno"
+        }
+      ]
+    },
+    "es.gym_rest_enough_for_your_body_to": {
+      "conceptId": "es.gym_rest_enough_for_your_body_to",
+      "id": "gym_rest_enough_for_your_body_to",
+      "target": [
+        {
+          "text": "Descansa lo suficiente para que tu cuerpo se recupere.",
+          "audioSlug": "descansa_lo_suficiente_para_que_tu_cuerpo_se_recupere"
+        }
+      ]
+    },
+    "es.music_acoustic_version_reveals_songwriting": {
+      "conceptId": "es.music_acoustic_version_reveals_songwriting",
+      "id": "music_acoustic_version_reveals_songwriting",
+      "target": [
+        {
+          "text": "La versión acústica revela lo sólida que es la composición.",
+          "audioSlug": "la_version_acustica_revela_lo_solida_que_es_la_composicion"
+        }
+      ]
+    },
+    "es.music_favorite_singer": {
+      "conceptId": "es.music_favorite_singer",
+      "id": "music_favorite_singer",
+      "target": [
+        {
+          "text": "¿Quién es tu cantante favorito?",
+          "audioSlug": "quien_es_tu_cantante_favorito"
+        }
+      ]
+    },
+    "es.music_new_album_disappointment": {
+      "conceptId": "es.music_new_album_disappointment",
+      "id": "music_new_album_disappointment",
+      "target": [
+        {
+          "text": "El nuevo álbum no me impresionó tanto como los anteriores.",
+          "audioSlug": "el_nuevo_album_no_me_impresiono_tanto_como_los_anteriores"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_bosque_esta_lleno_de_arboles": {
+      "conceptId": "es.naturaleza_lugares_el_bosque_esta_lleno_de_arboles",
+      "id": "naturaleza_lugares_el_bosque_esta_lleno_de_arboles",
+      "target": [
+        {
+          "text": "El bosque está lleno de árboles.",
+          "audioSlug": "el_bosque_esta_lleno_de_arboles"
+        }
+      ]
+    },
+    "es.planes_debo_evitar_los_errores_del_pasado": {
+      "conceptId": "es.planes_debo_evitar_los_errores_del_pasado",
+      "id": "planes_debo_evitar_los_errores_del_pasado",
+      "target": [
+        {
+          "text": "Debo evitar los errores del pasado.",
+          "audioSlug": "debo_evitar_los_errores_del_pasado"
+        }
+      ]
+    },
+    "es.technology_im_considering_switching_ecosystems_but": {
+      "conceptId": "es.technology_im_considering_switching_ecosystems_but",
+      "id": "technology_im_considering_switching_ecosystems_but",
+      "target": [
+        {
+          "text": "Pienso cambiar de ecosistema pero transferir mis datos me preocupa mucho.",
+          "audioSlug": "pienso_cambiar_de_ecosistema_pero_transferir_mis_datos_me_preocupa_mucho"
+        }
+      ]
+    }
+  }
+}

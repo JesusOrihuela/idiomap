@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "a3",
+  "concepts": {
+    "en.accommodation_corporate_rate_booking": {
+      "conceptId": "en.accommodation_corporate_rate_booking",
+      "id": "accommodation_corporate_rate_booking",
+      "target": [
+        {
+          "text": "I'd like to discuss a corporate rate for future bookings on behalf of my company.",
+          "audioSlug": "i_d_like_to_discuss_a_corporate_rate_for_future_bookings_on_behalf_of_my_company"
+        }
+      ]
+    },
+    "en.conversacion_had_already_left": {
+      "conceptId": "en.conversacion_had_already_left",
+      "id": "conversacion_had_already_left",
+      "target": [
+        {
+          "text": "She had already left when I arrived.",
+          "audioSlug": "she_had_already_left_when_i_arrived"
+        }
+      ]
+    },
+    "en.greetings_pleasant_surprise_not_expecting": {
+      "conceptId": "en.greetings_pleasant_surprise_not_expecting",
+      "id": "greetings_pleasant_surprise_not_expecting",
+      "target": [
+        {
+          "text": "I wasn't expecting to see you here. What a pleasant surprise!",
+          "audioSlug": "i_wasn_t_expecting_to_see_you_here_what_a_pleasant_surprise"
+        }
+      ]
+    },
+    "en.gym_what_is_the_correct_posture_for": {
+      "conceptId": "en.gym_what_is_the_correct_posture_for",
+      "id": "gym_what_is_the_correct_posture_for",
+      "target": [
+        {
+          "text": "What is the correct posture for using this machine?",
+          "audioSlug": "what_is_the_correct_posture_for_using_this_machine"
+        }
+      ]
+    },
+    "en.health_i_have_a_cough": {
+      "conceptId": "en.health_i_have_a_cough",
+      "id": "health_i_have_a_cough",
+      "target": [
+        {
+          "text": "I have a cough.",
+          "audioSlug": "i_have_a_cough"
+        }
+      ]
+    },
+    "en.hogar_the_house_has_three_bedrooms": {
+      "conceptId": "en.hogar_the_house_has_three_bedrooms",
+      "id": "hogar_the_house_has_three_bedrooms",
+      "target": [
+        {
+          "text": "The house has three bedrooms.",
+          "audioSlug": "the_house_has_three_bedrooms"
+        }
+      ]
+    },
+    "en.museums_gift_shop": {
+      "conceptId": "en.museums_gift_shop",
+      "id": "museums_gift_shop",
+      "target": [
+        {
+          "text": "Where is the museum shop?",
+          "audioSlug": "where_is_the_museum_shop"
+        }
+      ]
+    },
+    "en.profesiones_teacher_explained_lesson": {
+      "conceptId": "en.profesiones_teacher_explained_lesson",
+      "id": "profesiones_teacher_explained_lesson",
+      "target": [
+        {
+          "text": "The teacher explained the lesson.",
+          "audioSlug": "the_teacher_explained_the_lesson"
+        }
+      ]
+    },
+    "en.technology_these_wireless_headphones_are_very_comfortable": {
+      "conceptId": "en.technology_these_wireless_headphones_are_very_comfortable",
+      "id": "technology_these_wireless_headphones_are_very_comfortable",
+      "target": [
+        {
+          "text": "These wireless headphones are very comfortable.",
+          "audioSlug": "these_wireless_headphones_are_very_comfortable"
+        }
+      ]
+    }
+  }
+}

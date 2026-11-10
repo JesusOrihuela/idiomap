@@ -19,7 +19,13 @@
       "gloss_example": {
         "en": "Make sure you update your software regularly for security."
       },
-      "conceptId": "es.software"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "application",
@@ -40,7 +46,13 @@
       "gloss_example": {
         "en": "This application helps you edit photos."
       },
-      "conceptId": "es.application"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "update",
@@ -61,7 +73,13 @@
       "gloss_example": {
         "en": "The latest security update fixed several critical bugs."
       },
-      "conceptId": "es.update"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "storage",
@@ -82,7 +100,13 @@
       "gloss_example": {
         "en": "I need more storage space for all my photos and videos."
       },
-      "conceptId": "es.storage"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "compatible",
@@ -103,7 +127,13 @@
       "gloss_example": {
         "en": "Check whether the software is compatible with your operating system."
       },
-      "conceptId": "es.compatible"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "function",
@@ -124,7 +154,13 @@
       "gloss_example": {
         "en": "Each button has a different function."
       },
-      "conceptId": "es.function"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "notification",
@@ -145,7 +181,13 @@
       "gloss_example": {
         "en": "I turned off all notifications to focus on my work."
       },
-      "conceptId": "es.notification"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cache",
@@ -166,7 +208,13 @@
       "gloss_example": {
         "en": "Clearing your browser's cache can fix many loading problems."
       },
-      "conceptId": "es.cache"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "subscription",
@@ -187,7 +235,13 @@
       "gloss_example": {
         "en": "The software switched from a one-time purchase to a monthly subscription."
       },
-      "conceptId": "es.subscription"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ecosystem",
@@ -208,7 +262,13 @@
       "gloss_example": {
         "en": "Switching to Android means leaving the Apple ecosystem behind."
       },
-      "conceptId": "es.ecosystem"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "algorithm",
@@ -229,7 +289,13 @@
       "gloss_example": {
         "en": "Social media platforms use algorithms to decide what content you see."
       },
-      "conceptId": "es.algorithm"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "obsolescence",
@@ -250,7 +316,13 @@
       "gloss_example": {
         "en": "Planned obsolescence means new phone models are designed to make older ones feel slow."
       },
-      "conceptId": "es.obsolescence"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "legacy",
@@ -287,7 +359,13 @@
           "audioSlug": "obsoleto"
         }
       ],
-      "conceptId": "es.legacy"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "proprietary",
@@ -324,7 +402,13 @@
           "audioSlug": "privativo"
         }
       ],
-      "conceptId": "es.proprietary"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

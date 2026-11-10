@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "a4",
+  "concepts": {
+    "es.accommodation_extra_towels": {
+      "conceptId": "es.accommodation_extra_towels",
+      "id": "accommodation_extra_towels",
+      "target": [
+        {
+          "text": "¿Podría traerme toallas adicionales para la habitación?",
+          "audioSlug": "podria_traerme_toallas_adicionales_para_la_habitacion"
+        }
+      ]
+    },
+    "es.accountability_the_financial_forecast_is_positive": {
+      "conceptId": "es.accountability_the_financial_forecast_is_positive",
+      "id": "accountability_the_financial_forecast_is_positive",
+      "target": [
+        {
+          "text": "El pronóstico financiero es positivo.",
+          "audioSlug": "el_pronostico_financiero_es_positivo"
+        }
+      ]
+    },
+    "es.economia_reduce_our_expenses": {
+      "conceptId": "es.economia_reduce_our_expenses",
+      "id": "economia_reduce_our_expenses",
+      "target": [
+        {
+          "text": "Necesitamos reducir nuestros gastos.",
+          "audioSlug": "necesitamos_reducir_nuestros_gastos"
+        }
+      ]
+    },
+    "es.family_what_does_your_brother_do": {
+      "conceptId": "es.family_what_does_your_brother_do",
+      "id": "family_what_does_your_brother_do",
+      "target": [
+        {
+          "text": "¿En qué trabaja tu hermano?",
+          "audioSlug": "en_que_trabaja_tu_hermano"
+        }
+      ]
+    },
+    "es.gym_what_routine_should_i_follow": {
+      "conceptId": "es.gym_what_routine_should_i_follow",
+      "id": "gym_what_routine_should_i_follow",
+      "target": [
+        {
+          "text": "¿Qué rutina debo seguir?",
+          "audioSlug": "que_rutina_debo_seguir"
+        }
+      ]
+    },
+    "es.health_necesito_ver_a_un_medico": {
+      "conceptId": "es.health_necesito_ver_a_un_medico",
+      "id": "health_necesito_ver_a_un_medico",
+      "target": [
+        {
+          "text": "Necesito ver a un médico.",
+          "audioSlug": "necesito_ver_a_un_medico"
+        }
+      ]
+    },
+    "es.kitchen_season_throughout_not_just_end": {
+      "conceptId": "es.kitchen_season_throughout_not_just_end",
+      "id": "kitchen_season_throughout_not_just_end",
+      "target": [
+        {
+          "text": "No esperes hasta el final para sazonar, prueba y ajusta durante toda la cocción.",
+          "audioSlug": "no_esperes_hasta_el_final_para_sazonar_prueba_y_ajusta_durante_toda_la_coccion"
+        }
+      ]
+    },
+    "es.personal_info_mi_tia_esta_divorciada_desde_hace_anos": {
+      "conceptId": "es.personal_info_mi_tia_esta_divorciada_desde_hace_anos",
+      "id": "personal_info_mi_tia_esta_divorciada_desde_hace_anos",
+      "target": [
+        {
+          "text": "Mi tía está divorciada desde hace años.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Meine Tante ist seit Jahren geschieden.",
+          "audioSlug": "mi_tia_esta_divorciada_desde_hace_anos"
+        },
+        {
+          "text": "Mi tío está divorciado desde hace años.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Mein Onkel ist seit Jahren geschieden.",
+          "audioSlug": "mi_tio_esta_divorciado_desde_hace_anos"
+        }
+      ]
+    },
+    "es.planes_i_want_to_learn_spanish": {
+      "conceptId": "es.planes_i_want_to_learn_spanish",
+      "id": "planes_i_want_to_learn_spanish",
+      "target": [
+        {
+          "text": "Quiero aprender español.",
+          "audioSlug": "quiero_aprender_espanol"
+        }
+      ]
+    },
+    "es.profesiones_mi_padre_es_abogado": {
+      "conceptId": "es.profesiones_mi_padre_es_abogado",
+      "id": "profesiones_mi_padre_es_abogado",
+      "target": [
+        {
+          "text": "Mi padre es abogado.",
+          "audioSlug": "mi_padre_es_abogado"
+        }
+      ]
+    },
+    "es.restaurant_is_it_possible_to_make_a": {
+      "conceptId": "es.restaurant_is_it_possible_to_make_a",
+      "id": "restaurant_is_it_possible_to_make_a",
+      "target": [
+        {
+          "text": "¿Es posible hacer una reserva para esta noche?",
+          "audioSlug": "es_posible_hacer_una_reserva_para_esta_noche"
+        }
+      ]
+    },
+    "es.supermarket_can_you_help_me_carry_the": {
+      "conceptId": "es.supermarket_can_you_help_me_carry_the",
+      "id": "supermarket_can_you_help_me_carry_the",
+      "target": [
+        {
+          "text": "¿Me ayudas a llevar las bolsas del supermercado?",
+          "audioSlug": "me_ayudas_a_llevar_las_bolsas_del_supermercado"
+        }
+      ]
+    },
+    "es.survival_what_does_this_mean": {
+      "conceptId": "es.survival_what_does_this_mean",
+      "id": "survival_what_does_this_mean",
+      "target": [
+        {
+          "text": "¿Qué significa esto?",
+          "audioSlug": "que_significa_esto"
+        }
+      ]
+    },
+    "es.technology_i_suggest_you_use_a_vpn": {
+      "conceptId": "es.technology_i_suggest_you_use_a_vpn",
+      "id": "technology_i_suggest_you_use_a_vpn",
+      "target": [
+        {
+          "text": "Te sugiero que uses una VPN para proteger tu privacidad en línea.",
+          "audioSlug": "te_sugiero_que_uses_una_vpn_para_proteger_tu_privacidad_en_linea"
+        }
+      ]
+    }
+  }
+}

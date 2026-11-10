@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "17",
+  "concepts": {
+    "es.accommodation_gym_hotel": {
+      "conceptId": "es.accommodation_gym_hotel",
+      "id": "accommodation_gym_hotel",
+      "target": [
+        {
+          "text": "¿Hay gimnasio en el hotel?",
+          "audioSlug": "hay_gimnasio_en_el_hotel"
+        }
+      ]
+    },
+    "es.airport_llevo_el_portatil_en_el_maletin": {
+      "conceptId": "es.airport_llevo_el_portatil_en_el_maletin",
+      "id": "airport_llevo_el_portatil_en_el_maletin",
+      "target": [
+        {
+          "text": "Llevo el portátil en el maletín.",
+          "audioSlug": "llevo_el_portatil_en_el_maletin"
+        }
+      ]
+    },
+    "es.airport_where_is_security": {
+      "conceptId": "es.airport_where_is_security",
+      "id": "airport_where_is_security",
+      "target": [
+        {
+          "text": "¿Dónde está el control de seguridad?",
+          "audioSlug": "donde_esta_el_control_de_seguridad"
+        }
+      ]
+    },
+    "es.economia_pago_la_cuenta_con_un_cheque": {
+      "conceptId": "es.economia_pago_la_cuenta_con_un_cheque",
+      "id": "economia_pago_la_cuenta_con_un_cheque",
+      "target": [
+        {
+          "text": "Pagó la cuenta con un cheque.",
+          "audioSlug": "pago_la_cuenta_con_un_cheque"
+        }
+      ]
+    },
+    "es.emociones_that_news_makes_me_sad": {
+      "conceptId": "es.emociones_that_news_makes_me_sad",
+      "id": "emociones_that_news_makes_me_sad",
+      "target": [
+        {
+          "text": "Esa noticia me pone triste.",
+          "audioSlug": "esa_noticia_me_pone_triste"
+        }
+      ]
+    },
+    "es.estudios_la_gramatica_alemana_es_dificil": {
+      "conceptId": "es.estudios_la_gramatica_alemana_es_dificil",
+      "id": "estudios_la_gramatica_alemana_es_dificil",
+      "target": [
+        {
+          "text": "La gramática alemana es difícil.",
+          "audioSlug": "la_gramatica_alemana_es_dificil"
+        }
+      ]
+    },
+    "es.greetings_pleasant_surprise_not_expecting": {
+      "conceptId": "es.greetings_pleasant_surprise_not_expecting",
+      "id": "greetings_pleasant_surprise_not_expecting",
+      "target": [
+        {
+          "text": "No esperaba verte aquí, ¡qué agradable sorpresa!",
+          "audioSlug": "no_esperaba_verte_aqui_que_agradable_sorpresa"
+        }
+      ]
+    },
+    "es.movies_its_a_comedy": {
+      "conceptId": "es.movies_its_a_comedy",
+      "id": "movies_its_a_comedy",
+      "target": [
+        {
+          "text": "Es una comedia.",
+          "audioSlug": "es_una_comedia"
+        }
+      ]
+    },
+    "es.personal_info_es_una_cientifica_muy_capaz": {
+      "conceptId": "es.personal_info_es_una_cientifica_muy_capaz",
+      "id": "personal_info_es_una_cientifica_muy_capaz",
+      "target": [
+        {
+          "text": "Es una científica muy capaz.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie ist eine sehr fähige Wissenschaftlerin.",
+          "audioSlug": "es_una_cientifica_muy_capaz"
+        },
+        {
+          "text": "Es un científico muy capaz.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er ist ein sehr fähiger Wissenschaftler.",
+          "audioSlug": "es_un_cientifico_muy_capaz"
+        }
+      ]
+    },
+    "es.technology_la_linea_del_telefono_esta_ocupada": {
+      "conceptId": "es.technology_la_linea_del_telefono_esta_ocupada",
+      "id": "technology_la_linea_del_telefono_esta_ocupada",
+      "target": [
+        {
+          "text": "La línea del teléfono está ocupada.",
+          "audioSlug": "la_linea_del_telefono_esta_ocupada"
+        }
+      ]
+    },
+    "es.technology_where_is_the_tv_remote_control": {
+      "conceptId": "es.technology_where_is_the_tv_remote_control",
+      "id": "technology_where_is_the_tv_remote_control",
+      "target": [
+        {
+          "text": "¿Dónde está el control remoto de la televisión?",
+          "audioSlug": "donde_esta_el_control_remoto_de_la_television"
+        }
+      ]
+    },
+    "es.tiempo_libre_vamos_al_teatro_esta_noche": {
+      "conceptId": "es.tiempo_libre_vamos_al_teatro_esta_noche",
+      "id": "tiempo_libre_vamos_al_teatro_esta_noche",
+      "target": [
+        {
+          "text": "Vamos al teatro esta noche.",
+          "audioSlug": "vamos_al_teatro_esta_noche"
+        }
+      ]
+    },
+    "es.transportation_sabes_conducir": {
+      "conceptId": "es.transportation_sabes_conducir",
+      "id": "transportation_sabes_conducir",
+      "target": [
+        {
+          "text": "¿Sabes conducir?",
+          "labels": {
+            "register": "informal",
+            "region": "España"
+          },
+          "audioSlug": "sabes_conducir"
+        },
+        {
+          "text": "¿Sabe conducir?",
+          "labels": {
+            "register": "formal",
+            "region": "España"
+          },
+          "audioSlug": "sabe_conducir"
+        },
+        {
+          "text": "¿Sabes manejar?",
+          "labels": {
+            "register": "informal",
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "sabes_manejar"
+        },
+        {
+          "text": "¿Sabe manejar?",
+          "labels": {
+            "register": "formal",
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "sabe_manejar"
+        }
+      ]
+    },
+    "es.viajes_me_gusta_viajar_en_verano": {
+      "conceptId": "es.viajes_me_gusta_viajar_en_verano",
+      "id": "viajes_me_gusta_viajar_en_verano",
+      "target": [
+        {
+          "text": "Me gusta viajar en verano.",
+          "audioSlug": "me_gusta_viajar_en_verano"
+        }
+      ]
+    },
+    "es.weather_the_sky_is_clear": {
+      "conceptId": "es.weather_the_sky_is_clear",
+      "id": "weather_the_sky_is_clear",
+      "target": [
+        {
+          "text": "El cielo está despejado.",
+          "audioSlug": "el_cielo_esta_despejado"
+        }
+      ]
+    }
+  }
+}

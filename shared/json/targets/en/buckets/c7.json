@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "c7",
+  "concepts": {
+    "en.greetings_give_regards_family": {
+      "conceptId": "en.greetings_give_regards_family",
+      "id": "greetings_give_regards_family",
+      "target": [
+        {
+          "text": "Please give my regards to your family.",
+          "audioSlug": "please_give_my_regards_to_your_family"
+        }
+      ]
+    },
+    "en.hogar_i_live_in_a_small_apartment": {
+      "conceptId": "en.hogar_i_live_in_a_small_apartment",
+      "id": "hogar_i_live_in_a_small_apartment",
+      "target": [
+        {
+          "text": "I live in a small apartment.",
+          "labels": {
+            "region": "US"
+          },
+          "audioSlug": "i_live_in_a_small_apartment"
+        },
+        {
+          "text": "I live in a small flat.",
+          "labels": {
+            "region": "UK"
+          },
+          "audioSlug": "i_live_in_a_small_flat"
+        }
+      ]
+    },
+    "en.hogar_make_yourself_at_home": {
+      "conceptId": "en.hogar_make_yourself_at_home",
+      "id": "hogar_make_yourself_at_home",
+      "target": [
+        {
+          "text": "Make yourself at home.",
+          "audioSlug": "make_yourself_at_home"
+        }
+      ]
+    },
+    "en.personal_info_your_phone_number": {
+      "conceptId": "en.personal_info_your_phone_number",
+      "id": "personal_info_your_phone_number",
+      "target": [
+        {
+          "text": "What's your phone number?",
+          "audioSlug": "what_s_your_phone_number"
+        }
+      ]
+    },
+    "en.restaurant_is_it_possible_to_have_my": {
+      "conceptId": "en.restaurant_is_it_possible_to_have_my",
+      "id": "restaurant_is_it_possible_to_have_my",
+      "target": [
+        {
+          "text": "Is it possible to have my meal packed to go?",
+          "audioSlug": "is_it_possible_to_have_my_meal_packed_to_go"
+        }
+      ]
+    },
+    "en.restaurant_move_quieter_table": {
+      "conceptId": "en.restaurant_move_quieter_table",
+      "id": "restaurant_move_quieter_table",
+      "target": [
+        {
+          "text": "Our table is a bit noisy. Could we move to a quieter spot?",
+          "audioSlug": "our_table_is_a_bit_noisy_could_we_move_to_a_quieter_spot"
+        }
+      ]
+    },
+    "en.supermarket_where_is_the_glutenfree_products_section": {
+      "conceptId": "en.supermarket_where_is_the_glutenfree_products_section",
+      "id": "supermarket_where_is_the_glutenfree_products_section",
+      "target": [
+        {
+          "text": "Where is the gluten-free products section?",
+          "audioSlug": "where_is_the_gluten_free_products_section"
+        }
+      ]
+    },
+    "en.technology_do_you_know_how_to_use": {
+      "conceptId": "en.technology_do_you_know_how_to_use",
+      "id": "technology_do_you_know_how_to_use",
+      "target": [
+        {
+          "text": "Do you know how to edit this image in Photoshop?",
+          "audioSlug": "do_you_know_how_to_edit_this_image_in_photoshop"
+        }
+      ]
+    },
+    "en.technology_the_app_was_requesting_access_to": {
+      "conceptId": "en.technology_the_app_was_requesting_access_to",
+      "id": "technology_the_app_was_requesting_access_to",
+      "target": [
+        {
+          "text": "I did not install the app because it requested my contacts and location.",
+          "audioSlug": "i_did_not_install_the_app_because_it_requested_my_contacts_and_location"
+        }
+      ]
+    }
+  }
+}

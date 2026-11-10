@@ -1,49 +1,553 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "personal_info",
-  "conceptIds": [
-    "es.personal_info_my_name_is",
-    "es.personal_info_whats_your_name",
-    "es.personal_info_im_from_germany",
-    "es.personal_info_i_live_in_madrid",
-    "es.personal_info_im_a_student",
-    "es.personal_info_i_speak_a_little_spanish",
-    "es.personal_info_naci_en_un_pueblo_pequeno",
-    "es.personal_info_mi_numero_de_telefono_es_facil",
-    "es.personal_info_soy_de_origen_aleman",
-    "es.personal_info_vengo_de_un_pais_lejano",
-    "es.personal_info_de_donde_eres_tu",
-    "es.personal_info_estudio_espanol_como_pasatiempo",
-    "es.personal_info_mi_ciudad_favorita_es_madrid",
-    "es.personal_info_me_considero_una_persona_optimista",
-    "es.personal_info_mi_apellido_es_dificil_de_pronunciar",
-    "es.personal_info_tengo_una_voz_grave",
-    "es.personal_info_mi_cancion_favorita_es_alegre",
-    "es.personal_info_mi_hermano_esta_soltero",
-    "es.personal_info_no_me_gusta_el_vino_tinto",
-    "es.personal_info_tengo_la_cara_redonda",
-    "es.personal_info_naci_en_el_siglo_veinte",
-    "es.personal_info_dirijo_un_pequeno_equipo",
-    "es.personal_info_es_una_abogada_excelente",
-    "es.personal_info_es_una_enfermera_muy_amable",
-    "es.personal_info_es_una_arquitecta_brillante",
-    "es.personal_info_es_una_cientifica_muy_capaz",
-    "es.personal_info_es_una_empresaria_responsable",
-    "es.personal_info_trabaja_como_periodista",
-    "es.personal_info_mi_padre_esta_casado",
-    "es.personal_info_es_un_buen_matematico",
-    "es.personal_info_el_bombero_apaga_el_fuego",
-    "es.personal_info_el_juez_dicta_la_sentencia",
-    "es.personal_info_respeto_todas_las_religiones_del_mundo",
-    "es.personal_info_en_clase_hay_alumnos_cristianos_musulmanes_y_judios",
-    "es.personal_info_mi_abuela_quedo_viuda_muy_joven",
-    "es.personal_info_mi_tia_esta_divorciada_desde_hace_anos",
-    "es.personal_info_mi_hijo_mayor_ya_es_adulto",
-    "es.personal_info_tengo_una_hija_adolescente",
-    "es.personal_info_la_presidenta_dara_un_discurso",
-    "es.personal_info_la_ministra_visita_el_hospital",
-    "es.personal_info_ese_artista_es_muy_original",
-    "es.personal_info_celebramos_el_nacimiento_del_bebe"
+  "phrases": [
+    {
+      "conceptId": "es.personal_info_my_name_is",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.23c025a00bff877f"
+    },
+    {
+      "conceptId": "es.personal_info_whats_your_name",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.129740908b12bd9f"
+    },
+    {
+      "conceptId": "es.personal_info_im_from_germany",
+      "level": "A1",
+      "grammar": "El origen es permanente, por eso se usa ser (soy), no estar.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f5c674c962e528cf"
+    },
+    {
+      "conceptId": "es.personal_info_i_live_in_madrid",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e4f21200e575cfc6"
+    },
+    {
+      "conceptId": "es.personal_info_im_a_student",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2462571ae0d16851"
+    },
+    {
+      "conceptId": "es.personal_info_i_speak_a_little_spanish",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.89b061fa927fedf6"
+    },
+    {
+      "conceptId": "es.personal_info_naci_en_un_pueblo_pequeno",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.423a62fbbdbfccfe"
+    },
+    {
+      "conceptId": "es.personal_info_mi_numero_de_telefono_es_facil",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3ba41871b9a9bdf7"
+    },
+    {
+      "conceptId": "es.personal_info_soy_de_origen_aleman",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.98c839a369a0c44f"
+    },
+    {
+      "conceptId": "es.personal_info_vengo_de_un_pais_lejano",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dc5ac403877da314"
+    },
+    {
+      "conceptId": "es.personal_info_de_donde_eres_tu",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.da5f4b71603a2114"
+    },
+    {
+      "conceptId": "es.personal_info_estudio_espanol_como_pasatiempo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1fa58e5983444ea4"
+    },
+    {
+      "conceptId": "es.personal_info_mi_ciudad_favorita_es_madrid",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4ca626fcbfdaf9ca"
+    },
+    {
+      "conceptId": "es.personal_info_me_considero_una_persona_optimista",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5bd14a7ca4b0bfdd"
+    },
+    {
+      "conceptId": "es.personal_info_mi_apellido_es_dificil_de_pronunciar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.deb5bd0c63fcd070"
+    },
+    {
+      "conceptId": "es.personal_info_tengo_una_voz_grave",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5a8f2bb283f5f36d"
+    },
+    {
+      "conceptId": "es.personal_info_mi_cancion_favorita_es_alegre",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.05eae19110003dc1"
+    },
+    {
+      "conceptId": "es.personal_info_mi_hermano_esta_soltero",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3dc8e88fb44dc024"
+    },
+    {
+      "conceptId": "es.personal_info_no_me_gusta_el_vino_tinto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e7bcb83f035f52b7"
+    },
+    {
+      "conceptId": "es.personal_info_tengo_la_cara_redonda",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.13fa47160c388286"
+    },
+    {
+      "conceptId": "es.personal_info_naci_en_el_siglo_veinte",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6648734df5e84b3c"
+    },
+    {
+      "conceptId": "es.personal_info_dirijo_un_pequeno_equipo",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e7b559313e2cba63"
+    },
+    {
+      "conceptId": "es.personal_info_es_una_abogada_excelente",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.534e553d88adca33"
+    },
+    {
+      "conceptId": "es.personal_info_es_una_enfermera_muy_amable",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8ea7d80ea6e9a242"
+    },
+    {
+      "conceptId": "es.personal_info_es_una_arquitecta_brillante",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e462ca9d0b71eb67"
+    },
+    {
+      "conceptId": "es.personal_info_es_una_cientifica_muy_capaz",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1d11b3150e226f41"
+    },
+    {
+      "conceptId": "es.personal_info_es_una_empresaria_responsable",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.27f192a30fa466de"
+    },
+    {
+      "conceptId": "es.personal_info_trabaja_como_periodista",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.570e219953e0d02a"
+    },
+    {
+      "conceptId": "es.personal_info_mi_padre_esta_casado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.03a3e9dc53a8c65e"
+    },
+    {
+      "conceptId": "es.personal_info_es_un_buen_matematico",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e213b99eb7e0c943"
+    },
+    {
+      "conceptId": "es.personal_info_el_bombero_apaga_el_fuego",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8f1515f77de5dbc1"
+    },
+    {
+      "conceptId": "es.personal_info_el_juez_dicta_la_sentencia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.986f2090c1a3d947"
+    },
+    {
+      "conceptId": "es.personal_info_respeto_todas_las_religiones_del_mundo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dc3816135810e4a5"
+    },
+    {
+      "conceptId": "es.personal_info_en_clase_hay_alumnos_cristianos_musulmanes_y_judios",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.26f372ecb88f364a"
+    },
+    {
+      "conceptId": "es.personal_info_mi_abuela_quedo_viuda_muy_joven",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8adc9f9045abb4ce"
+    },
+    {
+      "conceptId": "es.personal_info_mi_tia_esta_divorciada_desde_hace_anos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.85317f46448a2c22"
+    },
+    {
+      "conceptId": "es.personal_info_mi_hijo_mayor_ya_es_adulto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.742988a1ae61e900"
+    },
+    {
+      "conceptId": "es.personal_info_tengo_una_hija_adolescente",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.08a79ea1b72e0bb8"
+    },
+    {
+      "conceptId": "es.personal_info_la_presidenta_dara_un_discurso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5f39975a8832e786"
+    },
+    {
+      "conceptId": "es.personal_info_la_ministra_visita_el_hospital",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.71ec9e334e73f3a4"
+    },
+    {
+      "conceptId": "es.personal_info_ese_artista_es_muy_original",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b0652c7797f11743"
+    },
+    {
+      "conceptId": "es.personal_info_celebramos_el_nacimiento_del_bebe",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.154ab0c020def585"
+    }
   ]
 }

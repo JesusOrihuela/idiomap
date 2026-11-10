@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "ba",
+  "concepts": {
+    "es.accountability_the_human_resources_department_has_already": {
+      "conceptId": "es.accountability_the_human_resources_department_has_already",
+      "id": "accountability_the_human_resources_department_has_already",
+      "target": [
+        {
+          "text": "El departamento de Recursos Humanos ya entregó los reportes de nómina.",
+          "audioSlug": "el_departamento_de_recursos_humanos_ya_entrego_los_reportes_de_nomina"
+        }
+      ]
+    },
+    "es.calendario_we_meet_on_friday": {
+      "conceptId": "es.calendario_we_meet_on_friday",
+      "id": "calendario_we_meet_on_friday",
+      "target": [
+        {
+          "text": "Nos vemos el viernes.",
+          "audioSlug": "nos_vemos_el_viernes"
+        }
+      ]
+    },
+    "es.daily_routine_i_sleep_eight_hours": {
+      "conceptId": "es.daily_routine_i_sleep_eight_hours",
+      "id": "daily_routine_i_sleep_eight_hours",
+      "target": [
+        {
+          "text": "Duermo ocho horas.",
+          "audioSlug": "duermo_ocho_horas"
+        }
+      ]
+    },
+    "es.descripciones_ese_edificio_es_feo": {
+      "conceptId": "es.descripciones_ese_edificio_es_feo",
+      "id": "descripciones_ese_edificio_es_feo",
+      "target": [
+        {
+          "text": "Ese edificio es muy feo.",
+          "audioSlug": "ese_edificio_es_muy_feo"
+        }
+      ]
+    },
+    "es.economia_el_precio_es_por_unidad": {
+      "conceptId": "es.economia_el_precio_es_por_unidad",
+      "id": "economia_el_precio_es_por_unidad",
+      "target": [
+        {
+          "text": "El precio es por unidad.",
+          "audioSlug": "el_precio_es_por_unidad"
+        }
+      ]
+    },
+    "es.family_somos_un_grupo_unido": {
+      "conceptId": "es.family_somos_un_grupo_unido",
+      "id": "family_somos_un_grupo_unido",
+      "target": [
+        {
+          "text": "Somos un grupo muy unido.",
+          "audioSlug": "somos_un_grupo_muy_unido"
+        }
+      ]
+    },
+    "es.technology_make_sure_your_internet_connection_is": {
+      "conceptId": "es.technology_make_sure_your_internet_connection_is",
+      "id": "technology_make_sure_your_internet_connection_is",
+      "target": [
+        {
+          "text": "Verifica que tu conexión a internet sea estable.",
+          "audioSlug": "verifica_que_tu_conexion_a_internet_sea_estable"
+        }
+      ]
+    }
+  }
+}

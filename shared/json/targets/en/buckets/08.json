@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "08",
+  "concepts": {
+    "en.airport_flight_delayed_voucher": {
+      "conceptId": "en.airport_flight_delayed_voucher",
+      "id": "airport_flight_delayed_voucher",
+      "target": [
+        {
+          "text": "My flight has been delayed. Can I get a food voucher?",
+          "audioSlug": "my_flight_has_been_delayed_can_i_get_a_food_voucher"
+        }
+      ]
+    },
+    "en.animales_birds_can_fly": {
+      "conceptId": "en.animales_birds_can_fly",
+      "id": "animales_birds_can_fly",
+      "target": [
+        {
+          "text": "Birds can fly.",
+          "audioSlug": "birds_can_fly"
+        }
+      ]
+    },
+    "en.animales_cat_likes_climb_trees": {
+      "conceptId": "en.animales_cat_likes_climb_trees",
+      "id": "animales_cat_likes_climb_trees",
+      "target": [
+        {
+          "text": "My cat likes to climb trees.",
+          "audioSlug": "my_cat_likes_to_climb_trees"
+        }
+      ]
+    },
+    "en.directions_it_is_five_minutes_on_foot": {
+      "conceptId": "en.directions_it_is_five_minutes_on_foot",
+      "id": "directions_it_is_five_minutes_on_foot",
+      "target": [
+        {
+          "text": "It's five minutes on foot.",
+          "audioSlug": "it_s_five_minutes_on_foot"
+        }
+      ]
+    },
+    "en.vestimenta_jacket_too_big": {
+      "conceptId": "en.vestimenta_jacket_too_big",
+      "id": "vestimenta_jacket_too_big",
+      "target": [
+        {
+          "text": "This jacket is too big for me.",
+          "audioSlug": "this_jacket_is_too_big_for_me"
+        }
+      ]
+    }
+  }
+}

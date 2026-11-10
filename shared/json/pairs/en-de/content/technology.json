@@ -1,8 +1,20 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-de",
   "topic": "technology",
-  "conceptIds": [
-    "de.technology_my_cell_phone_is_broken"
+  "phrases": [
+    {
+      "conceptId": "de.technology_my_cell_phone_is_broken",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.74c163de813646ac"
+    }
   ]
 }

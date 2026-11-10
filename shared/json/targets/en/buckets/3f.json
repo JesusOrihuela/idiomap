@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "3f",
+  "concepts": {
+    "en.descripciones_this_is_very_special": {
+      "conceptId": "en.descripciones_this_is_very_special",
+      "id": "descripciones_this_is_very_special",
+      "target": [
+        {
+          "text": "This is very special.",
+          "audioSlug": "this_is_very_special"
+        }
+      ]
+    },
+    "en.profesiones_lawyer_reviewed_contract": {
+      "conceptId": "en.profesiones_lawyer_reviewed_contract",
+      "id": "profesiones_lawyer_reviewed_contract",
+      "target": [
+        {
+          "text": "The lawyer reviewed the contract.",
+          "audioSlug": "the_lawyer_reviewed_the_contract"
+        }
+      ]
+    },
+    "en.technology_clearing_the_cache_usually_fixes": {
+      "conceptId": "en.technology_clearing_the_cache_usually_fixes",
+      "id": "technology_clearing_the_cache_usually_fixes",
+      "target": [
+        {
+          "text": "Clearing the cache usually fixes loading issues but they keep returning.",
+          "audioSlug": "clearing_the_cache_usually_fixes_loading_issues_but_they_keep_returning"
+        }
+      ]
+    },
+    "en.theater_second_viewing_reveals_layers": {
+      "conceptId": "en.theater_second_viewing_reveals_layers",
+      "id": "theater_second_viewing_reveals_layers",
+      "target": [
+        {
+          "text": "Seeing this play twice, the second viewing revealed layers I had completely missed before.",
+          "audioSlug": "seeing_this_play_twice_the_second_viewing_revealed_layers_i_had_completely_missed_before"
+        }
+      ]
+    },
+    "en.theater_whats_playing": {
+      "conceptId": "en.theater_whats_playing",
+      "id": "theater_whats_playing",
+      "target": [
+        {
+          "text": "What's playing at the theater?",
+          "audioSlug": "what_s_playing_at_the_theater"
+        }
+      ]
+    }
+  }
+}

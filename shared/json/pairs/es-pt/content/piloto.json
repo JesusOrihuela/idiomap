@@ -1,17 +1,137 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-pt",
   "topic": "piloto",
-  "conceptIds": [
-    "pt.piloto_hola_como_estas",
-    "pt.piloto_buenos_dias",
-    "pt.piloto_gracias_por_tu_ayuda",
-    "pt.piloto_donde_esta_la_estacion",
-    "pt.piloto_quiero_un_cafe_por_favor",
-    "pt.piloto_cuanto_cuesta",
-    "pt.piloto_no_entiendo",
-    "pt.piloto_hablo_un_poco_de_portugues",
-    "pt.piloto_puedes_repetir",
-    "pt.piloto_hasta_luego"
+  "phrases": [
+    {
+      "conceptId": "pt.piloto_hola_como_estas",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c4f025edd78dcecf"
+    },
+    {
+      "conceptId": "pt.piloto_buenos_dias",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.72a643e57838ad53"
+    },
+    {
+      "conceptId": "pt.piloto_gracias_por_tu_ayuda",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6ed0eb46ee0985d2"
+    },
+    {
+      "conceptId": "pt.piloto_donde_esta_la_estacion",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.05fe2651da18850b"
+    },
+    {
+      "conceptId": "pt.piloto_quiero_un_cafe_por_favor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6f3fba94fa771636"
+    },
+    {
+      "conceptId": "pt.piloto_cuanto_cuesta",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1a0043ca3557caa5"
+    },
+    {
+      "conceptId": "pt.piloto_no_entiendo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2b32af9c0a3a5e6e"
+    },
+    {
+      "conceptId": "pt.piloto_hablo_un_poco_de_portugues",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.63462a2c120ef3e4"
+    },
+    {
+      "conceptId": "pt.piloto_puedes_repetir",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bf17900554750faa"
+    },
+    {
+      "conceptId": "pt.piloto_hasta_luego",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3640782bdb34c953"
+    }
   ]
 }

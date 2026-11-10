@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "5a",
+  "concepts": {
+    "es.airport_muestra_tu_documento_de_identidad.de-es": {
+      "conceptId": "es.airport_muestra_tu_documento_de_identidad.de-es",
+      "id": "airport_muestra_tu_documento_de_identidad_de",
+      "target": [
+        {
+          "text": "Muestra tu documento de identidad.",
+          "audioSlug": "muestra_tu_documento_de_identidad"
+        }
+      ]
+    },
+    "es.deportes_ella_gano_el_concurso": {
+      "conceptId": "es.deportes_ella_gano_el_concurso",
+      "id": "deportes_ella_gano_el_concurso",
+      "target": [
+        {
+          "text": "Ella ganó el concurso.",
+          "audioSlug": "ella_gano_el_concurso"
+        }
+      ]
+    },
+    "es.gym_doms_few_days_after_leg_day": {
+      "conceptId": "es.gym_doms_few_days_after_leg_day",
+      "id": "gym_doms_few_days_after_leg_day",
+      "target": [
+        {
+          "text": "Me duelen las piernas dos días después del día de piernas, ¿es normal?",
+          "audioSlug": "me_duelen_las_piernas_dos_dias_despues_del_dia_de_piernas_es_normal"
+        }
+      ]
+    },
+    "es.movies_nonlinear_storytelling_effective": {
+      "conceptId": "es.movies_nonlinear_storytelling_effective",
+      "id": "movies_nonlinear_storytelling_effective",
+      "target": [
+        {
+          "text": "La narrativa no lineal del director es particularmente efectiva en esta obra.",
+          "audioSlug": "la_narrativa_no_lineal_del_director_es_particularmente_efectiva_en_esta_obra",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "La narrativa no lineal de la directora es particularmente efectiva en esta obra.",
+          "audioSlug": "la_narrativa_no_lineal_de_la_directora_es_particularmente_efectiva_en_esta_obra",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.restaurant_is_it_possible_to_split_the": {
+      "conceptId": "es.restaurant_is_it_possible_to_split_the",
+      "id": "restaurant_is_it_possible_to_split_the",
+      "target": [
+        {
+          "text": "¿Es posible dividir la cuenta?",
+          "audioSlug": "es_posible_dividir_la_cuenta"
+        }
+      ]
+    },
+    "es.restaurant_is_there_a_dress_code_for": {
+      "conceptId": "es.restaurant_is_there_a_dress_code_for",
+      "id": "restaurant_is_there_a_dress_code_for",
+      "target": [
+        {
+          "text": "¿Hay algún código de vestimenta para cenar aquí?",
+          "audioSlug": "hay_algun_codigo_de_vestimenta_para_cenar_aqui"
+        }
+      ]
+    },
+    "es.sitios_estudio_idiomas_en_una_academia": {
+      "conceptId": "es.sitios_estudio_idiomas_en_una_academia",
+      "id": "sitios_estudio_idiomas_en_una_academia",
+      "target": [
+        {
+          "text": "Estudio idiomas en una academia.",
+          "audioSlug": "estudio_idiomas_en_una_academia"
+        }
+      ]
+    }
+  }
+}

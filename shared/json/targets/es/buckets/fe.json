@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "fe",
+  "concepts": {
+    "es.accommodation_extra_pillow": {
+      "conceptId": "es.accommodation_extra_pillow",
+      "id": "accommodation_extra_pillow",
+      "target": [
+        {
+          "text": "¿Podría traerme una almohada extra, por favor?",
+          "audioSlug": "podria_traerme_una_almohada_extra_por_favor"
+        }
+      ]
+    },
+    "es.airport_perdi_mi_conexion": {
+      "conceptId": "es.airport_perdi_mi_conexion",
+      "id": "airport_perdi_mi_conexion",
+      "target": [
+        {
+          "text": "Perdí mi conexión, ¿qué puedo hacer?",
+          "audioSlug": "perdi_mi_conexion_que_puedo_hacer"
+        }
+      ]
+    },
+    "es.emociones_i_miss_you_a_lot": {
+      "conceptId": "es.emociones_i_miss_you_a_lot",
+      "id": "emociones_i_miss_you_a_lot",
+      "target": [
+        {
+          "text": "Te extraño mucho.",
+          "audioSlug": "te_extrano_mucho"
+        }
+      ]
+    },
+    "es.gym_mobility_end_range_strength": {
+      "conceptId": "es.gym_mobility_end_range_strength",
+      "id": "gym_mobility_end_range_strength",
+      "target": [
+        {
+          "text": "La movilidad no es solo estirarse, se trata de ganar fuerza y control en posiciones extremas.",
+          "audioSlug": "la_movilidad_no_es_solo_estirarse_se_trata_de_ganar_fuerza_y_control_en_posiciones_extremas"
+        }
+      ]
+    },
+    "es.oficina_send_me_the_report": {
+      "conceptId": "es.oficina_send_me_the_report",
+      "id": "oficina_send_me_the_report",
+      "target": [
+        {
+          "text": "Por favor envíame el informe.",
+          "audioSlug": "por_favor_enviame_el_informe"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_el_estado_debe_proteger_a_todos": {
+      "conceptId": "es.pensamientos_opiniones_el_estado_debe_proteger_a_todos",
+      "id": "pensamientos_opiniones_el_estado_debe_proteger_a_todos",
+      "target": [
+        {
+          "text": "El estado debe proteger a todos.",
+          "audioSlug": "el_estado_debe_proteger_a_todos"
+        }
+      ]
+    },
+    "es.survival_do_you_speak_english": {
+      "conceptId": "es.survival_do_you_speak_english",
+      "id": "survival_do_you_speak_english",
+      "target": [
+        {
+          "text": "¿Hablas inglés?",
+          "audioSlug": "hablas_ingles"
+        }
+      ]
+    },
+    "es.survival_me_puede_mandar_la_informacion_por_correo": {
+      "conceptId": "es.survival_me_puede_mandar_la_informacion_por_correo",
+      "id": "survival_me_puede_mandar_la_informacion_por_correo",
+      "target": [
+        {
+          "text": "¿Me puede mandar la información por correo?",
+          "audioSlug": "me_puede_mandar_la_informacion_por_correo"
+        }
+      ]
+    },
+    "es.technology_envie_un_mensaje_a_mi_jefe": {
+      "conceptId": "es.technology_envie_un_mensaje_a_mi_jefe",
+      "id": "technology_envie_un_mensaje_a_mi_jefe",
+      "target": [
+        {
+          "text": "Envié un mensaje a mi jefe.",
+          "audioSlug": "envie_un_mensaje_a_mi_jefe"
+        }
+      ]
+    },
+    "es.tiempo_libre_me_encanta_ir_al_cine": {
+      "conceptId": "es.tiempo_libre_me_encanta_ir_al_cine",
+      "id": "tiempo_libre_me_encanta_ir_al_cine",
+      "target": [
+        {
+          "text": "Me encanta ir al cine.",
+          "audioSlug": "me_encanta_ir_al_cine"
+        }
+      ]
+    },
+    "es.vestimenta_los_ninos_usan_botas_de_goma": {
+      "conceptId": "es.vestimenta_los_ninos_usan_botas_de_goma",
+      "id": "vestimenta_los_ninos_usan_botas_de_goma",
+      "target": [
+        {
+          "text": "Los niños usan botas de goma.",
+          "audioSlug": "los_ninos_usan_botas_de_goma"
+        }
+      ]
+    },
+    "es.vestimenta_puedo_probarme_esta_chaqueta": {
+      "conceptId": "es.vestimenta_puedo_probarme_esta_chaqueta",
+      "id": "vestimenta_puedo_probarme_esta_chaqueta",
+      "target": [
+        {
+          "text": "¿Puedo probarme esta chaqueta?",
+          "audioSlug": "puedo_probarme_esta_chaqueta"
+        }
+      ]
+    },
+    "es.viajes_me_encanta_conocer_lugares_nuevos": {
+      "conceptId": "es.viajes_me_encanta_conocer_lugares_nuevos",
+      "id": "viajes_me_encanta_conocer_lugares_nuevos",
+      "target": [
+        {
+          "text": "Me encanta conocer lugares nuevos.",
+          "audioSlug": "me_encanta_conocer_lugares_nuevos"
+        }
+      ]
+    }
+  }
+}

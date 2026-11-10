@@ -1,8 +1,20 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-de",
   "topic": "economia",
-  "conceptIds": [
-    "de.economia_the_insurance_is_important"
+  "phrases": [
+    {
+      "conceptId": "de.economia_the_insurance_is_important",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c97dc37019f61598"
+    }
   ]
 }

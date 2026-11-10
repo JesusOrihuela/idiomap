@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "86",
+  "concepts": {
+    "es.calendario_que_dia_es_hoy": {
+      "conceptId": "es.calendario_que_dia_es_hoy",
+      "id": "calendario_que_dia_es_hoy",
+      "target": [
+        {
+          "text": "¿Qué día es hoy?",
+          "audioSlug": "que_dia_es_hoy"
+        }
+      ]
+    },
+    "es.calendario_son_las_tres_en_punto": {
+      "conceptId": "es.calendario_son_las_tres_en_punto",
+      "id": "calendario_son_las_tres_en_punto",
+      "target": [
+        {
+          "text": "Son las tres en punto.",
+          "audioSlug": "son_las_tres_en_punto"
+        }
+      ]
+    },
+    "es.conversacion_hablamos_de_muchas_cosas": {
+      "conceptId": "es.conversacion_hablamos_de_muchas_cosas",
+      "id": "conversacion_hablamos_de_muchas_cosas",
+      "target": [
+        {
+          "text": "Hablamos de muchas cosas.",
+          "audioSlug": "hablamos_de_muchas_cosas"
+        }
+      ]
+    },
+    "es.greetings_mucho_exito": {
+      "conceptId": "es.greetings_mucho_exito",
+      "id": "greetings_mucho_exito",
+      "target": [
+        {
+          "text": "¡Mucho éxito!",
+          "audioSlug": "mucho_exito"
+        }
+      ]
+    },
+    "es.gym_macronutrients_protein_training_load": {
+      "conceptId": "es.gym_macronutrients_protein_training_load",
+      "id": "gym_macronutrients_protein_training_load",
+      "target": [
+        {
+          "text": "Ajusto mi consumo de proteínas según la carga de entrenamiento.",
+          "audioSlug": "ajusto_mi_consumo_de_proteinas_segun_la_carga_de_entrenamiento"
+        }
+      ]
+    },
+    "es.movies_nominated_best_foreign_film": {
+      "conceptId": "es.movies_nominated_best_foreign_film",
+      "id": "movies_nominated_best_foreign_film",
+      "target": [
+        {
+          "text": "Ha sido nominada a Mejor Película Extranjera, generando mucha expectativa.",
+          "audioSlug": "ha_sido_nominada_a_mejor_pelicula_extranjera_generando_mucha_expectativa"
+        }
+      ]
+    },
+    "es.personal_info_no_me_gusta_el_vino_tinto": {
+      "conceptId": "es.personal_info_no_me_gusta_el_vino_tinto",
+      "id": "personal_info_no_me_gusta_el_vino_tinto",
+      "target": [
+        {
+          "text": "No me gusta el vino tinto.",
+          "audioSlug": "no_me_gusta_el_vino_tinto"
+        }
+      ]
+    },
+    "es.supermarket_i_need_to_buy_milk_bread": {
+      "conceptId": "es.supermarket_i_need_to_buy_milk_bread",
+      "id": "supermarket_i_need_to_buy_milk_bread",
+      "target": [
+        {
+          "text": "Necesito comprar leche, pan y huevos.",
+          "audioSlug": "necesito_comprar_leche_pan_y_huevos"
+        }
+      ]
+    },
+    "es.technology_the_streaming_quality_drops_when": {
+      "conceptId": "es.technology_the_streaming_quality_drops_when",
+      "id": "technology_the_streaming_quality_drops_when",
+      "target": [
+        {
+          "text": "La transmisión pierde calidad cada vez que otro usa internet en casa.",
+          "audioSlug": "la_transmision_pierde_calidad_cada_vez_que_otro_usa_internet_en_casa"
+        }
+      ]
+    }
+  }
+}

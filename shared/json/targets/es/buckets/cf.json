@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "cf",
+  "concepts": {
+    "es.daily_routine_salgo_de_casa_a_las_ocho": {
+      "conceptId": "es.daily_routine_salgo_de_casa_a_las_ocho",
+      "id": "daily_routine_salgo_de_casa_a_las_ocho",
+      "target": [
+        {
+          "text": "Salgo de casa a las ocho.",
+          "audioSlug": "salgo_de_casa_a_las_ocho"
+        }
+      ]
+    },
+    "es.deportes_este_deporte_es_muy_competitivo": {
+      "conceptId": "es.deportes_este_deporte_es_muy_competitivo",
+      "id": "deportes_este_deporte_es_muy_competitivo",
+      "target": [
+        {
+          "text": "Este deporte es muy competitivo.",
+          "audioSlug": "este_deporte_es_muy_competitivo"
+        }
+      ]
+    },
+    "es.directions_ponte_delante_de_mi": {
+      "conceptId": "es.directions_ponte_delante_de_mi",
+      "id": "directions_ponte_delante_de_mi",
+      "target": [
+        {
+          "text": "Ponte delante de mí.",
+          "audioSlug": "ponte_delante_de_mi"
+        }
+      ]
+    },
+    "es.emociones_im_proud": {
+      "conceptId": "es.emociones_im_proud",
+      "id": "emociones_im_proud",
+      "target": [
+        {
+          "text": "Estoy orgullosa.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_orgullosa"
+        },
+        {
+          "text": "Estoy orgulloso.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_orgulloso"
+        }
+      ]
+    },
+    "es.health_tengo_gripe_y_fiebre": {
+      "conceptId": "es.health_tengo_gripe_y_fiebre",
+      "id": "health_tengo_gripe_y_fiebre",
+      "target": [
+        {
+          "text": "Tengo gripe y fiebre.",
+          "audioSlug": "tengo_gripe_y_fiebre"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_lago_se_cubre_de_hielo_en_invierno": {
+      "conceptId": "es.naturaleza_lugares_el_lago_se_cubre_de_hielo_en_invierno",
+      "id": "naturaleza_lugares_el_lago_se_cubre_de_hielo_en_invierno",
+      "target": [
+        {
+          "text": "El lago se cubre de hielo en invierno.",
+          "audioSlug": "el_lago_se_cubre_de_hielo_en_invierno"
+        }
+      ]
+    },
+    "es.profesiones_es_mi_socio": {
+      "conceptId": "es.profesiones_es_mi_socio",
+      "id": "profesiones_es_mi_socio",
+      "target": [
+        {
+          "text": "Es mi socio.",
+          "audioSlug": "es_mi_socio"
+        }
+      ]
+    },
+    "es.sitios_la_torre_es_el_edificio_mas_alto": {
+      "conceptId": "es.sitios_la_torre_es_el_edificio_mas_alto",
+      "id": "sitios_la_torre_es_el_edificio_mas_alto",
+      "target": [
+        {
+          "text": "La torre es el edificio más alto.",
+          "audioSlug": "la_torre_es_el_edificio_mas_alto"
+        }
+      ]
+    },
+    "es.sitios_mi_tio_trabaja_en_una_fabrica": {
+      "conceptId": "es.sitios_mi_tio_trabaja_en_una_fabrica",
+      "id": "sitios_mi_tio_trabaja_en_una_fabrica",
+      "target": [
+        {
+          "text": "Mi tío trabaja en una fábrica.",
+          "audioSlug": "mi_tio_trabaja_en_una_fabrica"
+        }
+      ]
+    },
+    "es.supermarket_i_dont_have_cash_can_i": {
+      "conceptId": "es.supermarket_i_dont_have_cash_can_i",
+      "id": "supermarket_i_dont_have_cash_can_i",
+      "target": [
+        {
+          "text": "No tengo efectivo, ¿puedo pagar con tarjeta?",
+          "audioSlug": "no_tengo_efectivo_puedo_pagar_con_tarjeta"
+        }
+      ]
+    },
+    "es.supermarket_necesito_un_paquete_de_pasta": {
+      "conceptId": "es.supermarket_necesito_un_paquete_de_pasta",
+      "id": "supermarket_necesito_un_paquete_de_pasta",
+      "target": [
+        {
+          "text": "Necesito un paquete de pasta.",
+          "audioSlug": "necesito_un_paquete_de_pasta"
+        }
+      ]
+    }
+  }
+}

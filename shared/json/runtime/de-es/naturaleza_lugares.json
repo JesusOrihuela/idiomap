@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "naturaleza_lugares",
+  "phrases": [
+    {
+      "id": "naturaleza_lugares_me_gusta_caminar_por_la_montana",
+      "conceptId": "es.naturaleza_lugares_me_gusta_caminar_por_la_montana",
+      "sourceId": "de.s.b86ef577173550e6",
+      "source": "Ich wandere gern in den Bergen.",
+      "level": "A1",
+      "grammar": "me gusta más infinitivo, me gusta caminar.",
+      "target": [
+        {
+          "text": "Me gusta caminar por la montaña.",
+          "audioSlug": "me_gusta_caminar_por_la_montana"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_mar_esta_tranquilo",
+      "conceptId": "es.naturaleza_lugares_el_mar_esta_tranquilo",
+      "sourceId": "de.s.51d204b273bf5c3f",
+      "source": "Das Meer ist heute ruhig.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El mar está tranquilo hoy.",
+          "audioSlug": "el_mar_esta_tranquilo_hoy"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_en_el_bosque_hay_muchos_arboles",
+      "conceptId": "es.naturaleza_lugares_en_el_bosque_hay_muchos_arboles",
+      "sourceId": "de.s.f6d2c27305cf1578",
+      "source": "Im Wald gibt es viele Bäume.",
+      "level": "A2",
+      "grammar": "hay expresa que algo existe, hay muchos árboles.",
+      "target": [
+        {
+          "text": "En el bosque hay muchos árboles.",
+          "audioSlug": "en_el_bosque_hay_muchos_arboles"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_cielo_esta_despejado",
+      "conceptId": "es.naturaleza_lugares_el_cielo_esta_despejado",
+      "sourceId": "de.s.bb6572c7de0a386f",
+      "source": "Der Himmel ist klar.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El cielo está despejado.",
+          "audioSlug": "el_cielo_esta_despejado"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_debemos_cuidar_el_medio_ambiente",
+      "conceptId": "es.naturaleza_lugares_debemos_cuidar_el_medio_ambiente",
+      "sourceId": "de.s.3b5c594e20cb8a7c",
+      "source": "Wir müssen die Umwelt schützen.",
+      "level": "B1",
+      "grammar": "deber más infinitivo expresa una obligación, debemos cuidar.",
+      "target": [
+        {
+          "text": "Debemos cuidar el medio ambiente.",
+          "audioSlug": "debemos_cuidar_el_medio_ambiente"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_rio_pasa_por_el_valle",
+      "conceptId": "es.naturaleza_lugares_el_rio_pasa_por_el_valle",
+      "sourceId": "de.s.8c8d92dbff468421",
+      "source": "Der Fluss fließt durch das Tal.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El río pasa por el valle.",
+          "audioSlug": "el_rio_pasa_por_el_valle"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_las_flores_son_muy_bonitas",
+      "conceptId": "es.naturaleza_lugares_las_flores_son_muy_bonitas",
+      "sourceId": "de.s.fa78ce075aea108b",
+      "source": "Die Blumen sind sehr schön.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Las flores son muy bonitas.",
+          "audioSlug": "las_flores_son_muy_bonitas"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_vamos_a_la_playa_el_domingo",
+      "conceptId": "es.naturaleza_lugares_vamos_a_la_playa_el_domingo",
+      "sourceId": "de.s.caf180f1f7488efa",
+      "source": "Am Sonntag fahren wir ans Meer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos a la playa el domingo.",
+          "audioSlug": "vamos_a_la_playa_el_domingo"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_en_primavera_florecen_los_arboles",
+      "conceptId": "es.naturaleza_lugares_en_primavera_florecen_los_arboles",
+      "sourceId": "de.s.8fad6bb3e1c8dc7b",
+      "source": "Im Frühling blühen die Bäume.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En primavera florecen los árboles.",
+          "audioSlug": "en_primavera_florecen_los_arboles"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_hay_muchas_estrellas_esta_noche",
+      "conceptId": "es.naturaleza_lugares_hay_muchas_estrellas_esta_noche",
+      "sourceId": "de.s.504f107e18c92535",
+      "source": "Heute Nacht gibt es viele Sterne.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay muchas estrellas esta noche.",
+          "audioSlug": "hay_muchas_estrellas_esta_noche"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_la_tierra_es_fertil",
+      "conceptId": "es.naturaleza_lugares_la_tierra_es_fertil",
+      "sourceId": "de.s.135755cd933d9fc8",
+      "source": "Die Erde ist in dieser Region fruchtbar.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La tierra es fértil en esta región.",
+          "audioSlug": "la_tierra_es_fertil_en_esta_region"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_la_luna_brilla_esta_noche",
+      "conceptId": "es.naturaleza_lugares_la_luna_brilla_esta_noche",
+      "sourceId": "de.s.830052f0e5dab03c",
+      "source": "Der Mond scheint heute Nacht.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La luna brilla esta noche.",
+          "audioSlug": "la_luna_brilla_esta_noche"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_los_animales_viven_en_el_bosque",
+      "conceptId": "es.naturaleza_lugares_los_animales_viven_en_el_bosque",
+      "sourceId": "de.s.89edbc2122c80f14",
+      "source": "Die Tiere leben im Wald.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los animales viven en el bosque.",
+          "audioSlug": "los_animales_viven_en_el_bosque"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_hay_muchos_peces_en_el_lago",
+      "conceptId": "es.naturaleza_lugares_hay_muchos_peces_en_el_lago",
+      "sourceId": "de.s.aa1202541d7933ff",
+      "source": "Es gibt viele Fische im See.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay muchos peces en el lago.",
+          "audioSlug": "hay_muchos_peces_en_el_lago"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_las_plantas_necesitan_agua_y_luz",
+      "conceptId": "es.naturaleza_lugares_las_plantas_necesitan_agua_y_luz",
+      "sourceId": "de.s.adeabee39bc61b67",
+      "source": "Pflanzen brauchen Wasser und Licht.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Las plantas necesitan agua y luz.",
+          "audioSlug": "las_plantas_necesitan_agua_y_luz"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_fuego_destruyo_parte_del_bosque",
+      "conceptId": "es.naturaleza_lugares_el_fuego_destruyo_parte_del_bosque",
+      "sourceId": "de.s.4973170291ac1155",
+      "source": "Das Feuer hat einen Teil des Waldes zerstört.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El fuego destruyó parte del bosque.",
+          "audioSlug": "el_fuego_destruyo_parte_del_bosque"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_me_encanta_el_aire_del_campo",
+      "conceptId": "es.naturaleza_lugares_me_encanta_el_aire_del_campo",
+      "sourceId": "de.s.1a9e027b4fb59edf",
+      "source": "Ich liebe die frische Landluft.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me encanta el aire fresco del campo.",
+          "audioSlug": "me_encanta_el_aire_fresco_del_campo"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_en_invierno_cae_mucha_nieve",
+      "conceptId": "es.naturaleza_lugares_en_invierno_cae_mucha_nieve",
+      "sourceId": "de.s.6afc80df6bb55d10",
+      "source": "Im Winter fällt viel Schnee.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En invierno cae mucha nieve.",
+          "audioSlug": "en_invierno_cae_mucha_nieve"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_la_isla_esta_rodeada_de_mar",
+      "conceptId": "es.naturaleza_lugares_la_isla_esta_rodeada_de_mar",
+      "sourceId": "de.s.1db129b6f950b608",
+      "source": "Die Insel ist vom Meer umgeben.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La isla está rodeada de mar.",
+          "audioSlug": "la_isla_esta_rodeada_de_mar"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_muchas_especies_en_peligro",
+      "conceptId": "es.naturaleza_lugares_muchas_especies_en_peligro",
+      "sourceId": "de.s.c15a7a7f2330e97e",
+      "source": "Viele Arten sind vom Aussterben bedroht.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Muchas especies están en peligro de desaparecer.",
+          "audioSlug": "muchas_especies_estan_en_peligro_de_desaparecer"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_ser_humano_depende_de_la_naturaleza",
+      "conceptId": "es.naturaleza_lugares_el_ser_humano_depende_de_la_naturaleza",
+      "sourceId": "de.s.fd79f34fed6ec341",
+      "source": "Der Mensch ist von der Natur abhängig.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El ser humano depende de la naturaleza.",
+          "audioSlug": "el_ser_humano_depende_de_la_naturaleza"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_la_ciudad_tiene_un_millon_de_habitantes",
+      "conceptId": "es.naturaleza_lugares_la_ciudad_tiene_un_millon_de_habitantes",
+      "sourceId": "de.s.5e54c2fd305449cd",
+      "source": "Die Stadt hat eine Million Einwohner.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La ciudad tiene un millón de habitantes.",
+          "audioSlug": "la_ciudad_tiene_un_millon_de_habitantes"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_oceano_cubre_gran_parte_del_planeta",
+      "conceptId": "es.naturaleza_lugares_el_oceano_cubre_gran_parte_del_planeta",
+      "sourceId": "de.s.f901fe94daa485a4",
+      "source": "Der Ozean bedeckt einen großen Teil des Planeten.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El océano cubre gran parte del planeta.",
+          "audioSlug": "el_oceano_cubre_gran_parte_del_planeta"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_en_la_selva_llueve_casi_todos_los_dias",
+      "conceptId": "es.naturaleza_lugares_en_la_selva_llueve_casi_todos_los_dias",
+      "sourceId": "de.s.64d9cc915f5e0a3b",
+      "source": "Im Dschungel regnet es fast jeden Tag.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En la selva llueve casi todos los días.",
+          "audioSlug": "en_la_selva_llueve_casi_todos_los_dias"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_volcan_esta_inactivo",
+      "conceptId": "es.naturaleza_lugares_el_volcan_esta_inactivo",
+      "sourceId": "de.s.2db767ee84b6274d",
+      "source": "Der Vulkan ist inaktiv.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El volcán está inactivo.",
+          "audioSlug": "el_volcan_esta_inactivo"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_hay_que_proteger_el_planeta",
+      "conceptId": "es.naturaleza_lugares_hay_que_proteger_el_planeta",
+      "sourceId": "de.s.1f7c3a037051adf8",
+      "source": "Man muss den Planeten schützen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que proteger el planeta.",
+          "audioSlug": "hay_que_proteger_el_planeta"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_un_pajaro_canta_en_el_arbol",
+      "conceptId": "es.naturaleza_lugares_un_pajaro_canta_en_el_arbol",
+      "sourceId": "de.s.c1ef01e1cd5d7ab7",
+      "source": "Ein Vogel singt im Baum.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Un pájaro canta en el árbol.",
+          "audioSlug": "un_pajaro_canta_en_el_arbol"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_recogi_una_piedra_del_rio",
+      "conceptId": "es.naturaleza_lugares_recogi_una_piedra_del_rio",
+      "sourceId": "de.s.71fecc4cfbfc011b",
+      "source": "Ich habe einen Stein aus dem Fluss aufgehoben.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Recogí una piedra del río.",
+          "audioSlug": "recogi_una_piedra_del_rio"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_las_rosas_del_jardin_huelen_muy_bien",
+      "conceptId": "es.naturaleza_lugares_las_rosas_del_jardin_huelen_muy_bien",
+      "sourceId": "de.s.a235edb0bb88186e",
+      "source": "Die Rosen im Garten duften sehr gut.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Las rosas del jardín huelen muy bien.",
+          "audioSlug": "las_rosas_del_jardin_huelen_muy_bien"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_los_pajaros_pueden_volar_muy_alto",
+      "conceptId": "es.naturaleza_lugares_los_pajaros_pueden_volar_muy_alto",
+      "sourceId": "de.s.d4206176a4ca1509",
+      "source": "Vögel können sehr hoch fliegen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los pájaros pueden volar muy alto.",
+          "audioSlug": "los_pajaros_pueden_volar_muy_alto"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_dimos_un_paseo_por_la_playa",
+      "conceptId": "es.naturaleza_lugares_dimos_un_paseo_por_la_playa",
+      "sourceId": "de.s.fe07375de30d882f",
+      "source": "Wir machten einen Spaziergang am Strand.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Dimos un paseo por la playa.",
+          "audioSlug": "dimos_un_paseo_por_la_playa"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_caballo_corre_por_el_campo",
+      "conceptId": "es.naturaleza_lugares_el_caballo_corre_por_el_campo",
+      "sourceId": "de.s.d7672e115b0060bb",
+      "source": "Das Pferd läuft über das Feld.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El caballo corre por el campo.",
+          "audioSlug": "el_caballo_corre_por_el_campo"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_cerdo_vive_en_la_granja",
+      "conceptId": "es.naturaleza_lugares_el_cerdo_vive_en_la_granja",
+      "sourceId": "de.s.dd194f2468763f97",
+      "source": "Das Schwein lebt auf dem Bauernhof.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El cerdo vive en la granja.",
+          "audioSlug": "el_cerdo_vive_en_la_granja"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_hay_un_pez_de_colores_en_el_estanque",
+      "conceptId": "es.naturaleza_lugares_hay_un_pez_de_colores_en_el_estanque",
+      "sourceId": "de.s.dadf24d78d6a9b62",
+      "source": "Im Teich ist ein bunter Fisch.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay un pez de colores en el estanque.",
+          "audioSlug": "hay_un_pez_de_colores_en_el_estanque"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_le_tengo_miedo_a_las_aranas",
+      "conceptId": "es.naturaleza_lugares_le_tengo_miedo_a_las_aranas",
+      "sourceId": "de.s.b0ea05f998a1bebe",
+      "source": "Ich habe Angst vor Spinnen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Le tengo miedo a las arañas.",
+          "audioSlug": "le_tengo_miedo_a_las_aranas"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_lago_se_cubre_de_hielo_en_invierno",
+      "conceptId": "es.naturaleza_lugares_el_lago_se_cubre_de_hielo_en_invierno",
+      "sourceId": "de.s.a95525839c6f423d",
+      "source": "Der See ist im Winter mit Eis bedeckt.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El lago se cubre de hielo en invierno.",
+          "audioSlug": "el_lago_se_cubre_de_hielo_en_invierno"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_hay_mucha_niebla_en_la_montana",
+      "conceptId": "es.naturaleza_lugares_hay_mucha_niebla_en_la_montana",
+      "sourceId": "de.s.6fc6d85ee0d19236",
+      "source": "In den Bergen ist viel Nebel.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay mucha niebla en la montaña.",
+          "audioSlug": "hay_mucha_niebla_en_la_montana"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_pino_es_un_arbol_muy_alto",
+      "conceptId": "es.naturaleza_lugares_el_pino_es_un_arbol_muy_alto",
+      "sourceId": "de.s.c8f16d5af64b89fb",
+      "source": "Die Kiefer ist ein sehr hoher Baum.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El pino es un árbol muy alto.",
+          "audioSlug": "el_pino_es_un_arbol_muy_alto"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_le_regale_una_margarita_blanca",
+      "conceptId": "es.naturaleza_lugares_le_regale_una_margarita_blanca",
+      "sourceId": "de.s.4931100c18b905fb",
+      "source": "Ich schenkte ihr ein weißes Gänseblümchen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Le regalé una margarita blanca.",
+          "audioSlug": "le_regale_una_margarita_blanca"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_un_mosquito_me_pico_anoche",
+      "conceptId": "es.naturaleza_lugares_un_mosquito_me_pico_anoche",
+      "sourceId": "de.s.5f915ac94cdf2d8b",
+      "source": "Eine Mücke hat mich letzte Nacht gestochen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Un mosquito me picó anoche.",
+          "audioSlug": "un_mosquito_me_pico_anoche"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_canguro_vive_en_australia",
+      "conceptId": "es.naturaleza_lugares_el_canguro_vive_en_australia",
+      "sourceId": "de.s.f66206f77f3d8b5c",
+      "source": "Das Känguru lebt in Australien.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El canguro vive en Australia.",
+          "audioSlug": "el_canguro_vive_en_australia"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_ternero_sigue_a_su_madre",
+      "conceptId": "es.naturaleza_lugares_el_ternero_sigue_a_su_madre",
+      "sourceId": "de.s.3c7d128b68426ff2",
+      "source": "Das Kalb folgt seiner Mutter.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El ternero sigue a su madre.",
+          "audioSlug": "el_ternero_sigue_a_su_madre"
+        }
+      ]
+    }
+  ]
+}

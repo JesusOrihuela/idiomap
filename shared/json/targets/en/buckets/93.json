@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "93",
+  "concepts": {
+    "en.accountability_the_tax_returns_are_pending": {
+      "conceptId": "en.accountability_the_tax_returns_are_pending",
+      "id": "accountability_the_tax_returns_are_pending",
+      "target": [
+        {
+          "text": "The tax returns are pending.",
+          "audioSlug": "the_tax_returns_are_pending"
+        }
+      ]
+    },
+    "en.fiesta_bring_a_gift_for_host": {
+      "conceptId": "en.fiesta_bring_a_gift_for_host",
+      "id": "fiesta_bring_a_gift_for_host",
+      "target": [
+        {
+          "text": "Bring a gift for the host.",
+          "audioSlug": "bring_a_gift_for_the_host"
+        }
+      ]
+    },
+    "en.fiesta_can_i_invite_friends": {
+      "conceptId": "en.fiesta_can_i_invite_friends",
+      "id": "fiesta_can_i_invite_friends",
+      "target": [
+        {
+          "text": "Can I invite my friends?",
+          "audioSlug": "can_i_invite_my_friends"
+        }
+      ]
+    },
+    "en.technology_the_platform_monetizes_user_attention": {
+      "conceptId": "en.technology_the_platform_monetizes_user_attention",
+      "id": "technology_the_platform_monetizes_user_attention",
+      "target": [
+        {
+          "text": "The platform monetizes user attention by selling targeted advertising based on behavioral data.",
+          "audioSlug": "the_platform_monetizes_user_attention_by_selling_targeted_advertising_based_on_behavioral_data"
+        }
+      ]
+    }
+  }
+}

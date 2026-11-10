@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "e1",
+  "concepts": {
+    "en.animales_cows_give_milk": {
+      "conceptId": "en.animales_cows_give_milk",
+      "id": "animales_cows_give_milk",
+      "target": [
+        {
+          "text": "Cows give us milk.",
+          "audioSlug": "cows_give_us_milk"
+        }
+      ]
+    },
+    "en.conversacion_give_me_an_example": {
+      "conceptId": "en.conversacion_give_me_an_example",
+      "id": "conversacion_give_me_an_example",
+      "target": [
+        {
+          "text": "Give me an example.",
+          "audioSlug": "give_me_an_example"
+        }
+      ]
+    },
+    "en.gym_how_can_i_book_a_class": {
+      "conceptId": "en.gym_how_can_i_book_a_class",
+      "id": "gym_how_can_i_book_a_class",
+      "target": [
+        {
+          "text": "How can I book a class?",
+          "audioSlug": "how_can_i_book_a_class"
+        }
+      ]
+    },
+    "en.kitchen_blanch_vegetables_before_stir_fry": {
+      "conceptId": "en.kitchen_blanch_vegetables_before_stir_fry",
+      "id": "kitchen_blanch_vegetables_before_stir_fry",
+      "target": [
+        {
+          "text": "This recipe calls for blanching the vegetables before adding them to the stir-fry.",
+          "audioSlug": "this_recipe_calls_for_blanching_the_vegetables_before_adding_them_to_the_stir_fry"
+        }
+      ]
+    },
+    "en.personal_info_are_you_married": {
+      "conceptId": "en.personal_info_are_you_married",
+      "id": "personal_info_are_you_married",
+      "target": [
+        {
+          "text": "Are you married?",
+          "audioSlug": "are_you_married"
+        }
+      ]
+    },
+    "en.restaurant_do_you_have_any_nonalcoholic_cocktails": {
+      "conceptId": "en.restaurant_do_you_have_any_nonalcoholic_cocktails",
+      "id": "restaurant_do_you_have_any_nonalcoholic_cocktails",
+      "target": [
+        {
+          "text": "Do you have any non-alcoholic cocktails?",
+          "audioSlug": "do_you_have_any_non_alcoholic_cocktails"
+        }
+      ]
+    },
+    "en.weather_whats_the_weather": {
+      "conceptId": "en.weather_whats_the_weather",
+      "id": "weather_whats_the_weather",
+      "target": [
+        {
+          "text": "What's the weather like?",
+          "audioSlug": "what_s_the_weather_like"
+        }
+      ]
+    }
+  }
+}

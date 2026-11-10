@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "4a",
+  "concepts": {
+    "en.airport_where_passport_control": {
+      "conceptId": "en.airport_where_passport_control",
+      "id": "airport_where_passport_control",
+      "target": [
+        {
+          "text": "Where is passport control?",
+          "audioSlug": "where_is_passport_control"
+        }
+      ]
+    },
+    "en.daily_routine_i_study_every_night": {
+      "conceptId": "en.daily_routine_i_study_every_night",
+      "id": "daily_routine_i_study_every_night",
+      "target": [
+        {
+          "text": "I study every night.",
+          "audioSlug": "i_study_every_night"
+        }
+      ]
+    },
+    "en.hogar_sweep_the_floor_please": {
+      "conceptId": "en.hogar_sweep_the_floor_please",
+      "id": "hogar_sweep_the_floor_please",
+      "target": [
+        {
+          "text": "Sweep the floor, please.",
+          "audioSlug": "sweep_the_floor_please"
+        }
+      ]
+    },
+    "en.viajes_keep_your_passport_in_a_safe_place": {
+      "conceptId": "en.viajes_keep_your_passport_in_a_safe_place",
+      "id": "viajes_keep_your_passport_in_a_safe_place",
+      "target": [
+        {
+          "text": "Keep your passport in a safe place.",
+          "audioSlug": "keep_your_passport_in_a_safe_place"
+        }
+      ]
+    }
+  }
+}

@@ -17,7 +17,13 @@
       "gloss_example": {
         "es": "Escribió una carta larga a su abuela."
       },
-      "conceptId": "en.letter"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "term",
@@ -36,7 +42,13 @@
       "gloss_example": {
         "es": "Explica el término con palabras sencillas."
       },
-      "conceptId": "en.term"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "word",
@@ -55,7 +67,13 @@
       "gloss_example": {
         "es": "No conozco esta palabra."
       },
-      "conceptId": "en.word"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "question",
@@ -74,7 +92,13 @@
       "gloss_example": {
         "es": "¿Puedo hacer una pregunta?"
       },
-      "conceptId": "en.question"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "voice",
@@ -93,7 +117,13 @@
       "gloss_example": {
         "es": "Ella tiene una voz preciosa al cantar."
       },
-      "conceptId": "en.voice"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "silence",
@@ -112,7 +142,13 @@
       "gloss_example": {
         "es": "La biblioteca estaba en total silencio."
       },
-      "conceptId": "en.silence"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "language",
@@ -131,7 +167,13 @@
       "gloss_example": {
         "es": "Ella habla tres idiomas."
       },
-      "conceptId": "en.language"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "conversation",
@@ -150,7 +192,13 @@
       "gloss_example": {
         "es": "Tuvimos una larga conversación sobre el trabajo."
       },
-      "conceptId": "en.conversation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "answer",
@@ -169,7 +217,13 @@
       "gloss_example": {
         "es": "Todavía espero una respuesta."
       },
-      "conceptId": "en.answer"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "message",
@@ -188,7 +242,13 @@
       "gloss_example": {
         "es": "Dejé un mensaje para el gerente."
       },
-      "conceptId": "en.message"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

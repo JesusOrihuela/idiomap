@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "6b",
+  "concepts": {
+    "en.accountability_deadline": {
+      "conceptId": "en.accountability_deadline",
+      "id": "accountability_deadline",
+      "target": [
+        {
+          "text": "When is the deadline?",
+          "audioSlug": "when_is_the_deadline"
+        }
+      ]
+    },
+    "en.conversacion_is_it_good_news": {
+      "conceptId": "en.conversacion_is_it_good_news",
+      "id": "conversacion_is_it_good_news",
+      "target": [
+        {
+          "text": "Is it good news?",
+          "audioSlug": "is_it_good_news"
+        }
+      ]
+    },
+    "en.directions_its_next_to": {
+      "conceptId": "en.directions_its_next_to",
+      "id": "directions_its_next_to",
+      "target": [
+        {
+          "text": "It's next to the supermarket.",
+          "audioSlug": "it_s_next_to_the_supermarket"
+        }
+      ]
+    },
+    "en.health_stress_can_cause_headaches": {
+      "conceptId": "en.health_stress_can_cause_headaches",
+      "id": "health_stress_can_cause_headaches",
+      "target": [
+        {
+          "text": "Stress can cause bad headaches.",
+          "audioSlug": "stress_can_cause_bad_headaches"
+        }
+      ]
+    },
+    "en.movies_streaming_release_instead_theaters": {
+      "conceptId": "en.movies_streaming_release_instead_theaters",
+      "id": "movies_streaming_release_instead_theaters",
+      "target": [
+        {
+          "text": "It went to streaming instead of theaters. It was made for the big screen.",
+          "audioSlug": "it_went_to_streaming_instead_of_theaters_it_was_made_for_the_big_screen"
+        }
+      ]
+    }
+  }
+}

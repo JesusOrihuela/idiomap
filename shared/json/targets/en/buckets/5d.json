@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "5d",
+  "concepts": {
+    "en.accountability_the_company_had_higher_sales_and": {
+      "conceptId": "en.accountability_the_company_had_higher_sales_and",
+      "id": "accountability_the_company_had_higher_sales_and",
+      "target": [
+        {
+          "text": "The company had higher sales and an increase in profits.",
+          "audioSlug": "the_company_had_higher_sales_and_an_increase_in_profits"
+        }
+      ]
+    },
+    "en.airport_transit_zone_restrictions": {
+      "conceptId": "en.airport_transit_zone_restrictions",
+      "id": "airport_transit_zone_restrictions",
+      "target": [
+        {
+          "text": "I'm on a transit visa exemption. What are the restrictions for leaving the transit zone?",
+          "audioSlug": "i_m_on_a_transit_visa_exemption_what_are_the_restrictions_for_leaving_the_transit_zone"
+        }
+      ]
+    },
+    "en.cotidianidad_i_have_a_lot_of_work_today": {
+      "conceptId": "en.cotidianidad_i_have_a_lot_of_work_today",
+      "id": "cotidianidad_i_have_a_lot_of_work_today",
+      "target": [
+        {
+          "text": "I have a lot of work today.",
+          "audioSlug": "i_have_a_lot_of_work_today"
+        }
+      ]
+    },
+    "en.cuerpo_her_skin_is_very_soft": {
+      "conceptId": "en.cuerpo_her_skin_is_very_soft",
+      "id": "cuerpo_her_skin_is_very_soft",
+      "target": [
+        {
+          "text": "Her skin is very soft.",
+          "audioSlug": "her_skin_is_very_soft"
+        }
+      ]
+    },
+    "en.gym_can_you_show_me_how_to": {
+      "conceptId": "en.gym_can_you_show_me_how_to",
+      "id": "gym_can_you_show_me_how_to",
+      "target": [
+        {
+          "text": "Can you show me how to properly use this machine?",
+          "audioSlug": "can_you_show_me_how_to_properly_use_this_machine",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Could you show me how to properly use this machine?",
+          "audioSlug": "could_you_show_me_how_to_properly_use_this_machine",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.kitchen_whats_the_difference_between_a_pot": {
+      "conceptId": "en.kitchen_whats_the_difference_between_a_pot",
+      "id": "kitchen_whats_the_difference_between_a_pot",
+      "target": [
+        {
+          "text": "What's the difference between a pot and a pan?",
+          "audioSlug": "what_s_the_difference_between_a_pot_and_a_pan"
+        }
+      ]
+    }
+  }
+}

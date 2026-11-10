@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "93",
+  "concepts": {
+    "es.conversacion_no_volvere_a_mencionar_eso": {
+      "conceptId": "es.conversacion_no_volvere_a_mencionar_eso",
+      "id": "conversacion_no_volvere_a_mencionar_eso",
+      "target": [
+        {
+          "text": "No volveré a mencionar eso.",
+          "audioSlug": "no_volvere_a_mencionar_eso"
+        }
+      ]
+    },
+    "es.descripciones_esa_historia_me_parece_falsa": {
+      "conceptId": "es.descripciones_esa_historia_me_parece_falsa",
+      "id": "descripciones_esa_historia_me_parece_falsa",
+      "target": [
+        {
+          "text": "Esa historia me parece falsa.",
+          "audioSlug": "esa_historia_me_parece_falsa"
+        }
+      ]
+    },
+    "es.gym_that_effort_was_worth_it": {
+      "conceptId": "es.gym_that_effort_was_worth_it",
+      "id": "gym_that_effort_was_worth_it",
+      "target": [
+        {
+          "text": "Ese esfuerzo valió la pena.",
+          "audioSlug": "ese_esfuerzo_valio_la_pena"
+        }
+      ]
+    },
+    "es.tiempo_libre_tiene_un_gran_sentido_del_humor": {
+      "conceptId": "es.tiempo_libre_tiene_un_gran_sentido_del_humor",
+      "id": "tiempo_libre_tiene_un_gran_sentido_del_humor",
+      "target": [
+        {
+          "text": "Tiene un gran sentido del humor.",
+          "audioSlug": "tiene_un_gran_sentido_del_humor"
+        }
+      ]
+    }
+  }
+}

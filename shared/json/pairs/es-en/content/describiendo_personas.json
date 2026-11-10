@@ -1,30 +1,306 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "describiendo_personas",
-  "conceptIds": [
-    "en.describiendo_personas_she_is_a_smart_girl",
-    "en.describiendo_personas_he_is_a_good_boy",
-    "en.describiendo_personas_he_is_a_nice_guy",
-    "en.describiendo_personas_he_is_a_kind_man",
-    "en.describiendo_personas_she_is_a_strong_woman",
-    "en.describiendo_personas_he_is_young",
-    "en.describiendo_personas_he_is_very_famous",
-    "en.describiendo_personas_she_is_very_rich",
-    "en.describiendo_personas_he_is_poor",
-    "en.describiendo_personas_you_are_strong",
-    "en.describiendo_personas_tom_is_very_brave",
-    "en.describiendo_personas_my_brother_is_short",
-    "en.describiendo_personas_she_is_very_nice",
-    "en.describiendo_personas_he_is_a_national_hero",
-    "en.describiendo_personas_she_is_a_professional",
-    "en.describiendo_personas_we_are_very_similar",
-    "en.describiendo_personas_she_has_a_soft_voice",
-    "en.describiendo_personas_my_neighbor_is_very_nice",
-    "en.describiendo_personas_she_is_a_famous_model",
-    "en.describiendo_personas_her_husband_is_tall",
-    "en.describiendo_personas_he_is_an_adult_now",
-    "en.describiendo_personas_he_looks_like_his_father",
-    "en.describiendo_personas_i_have_many_abilities"
+  "phrases": [
+    {
+      "conceptId": "en.describiendo_personas_she_is_a_smart_girl",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c80de3f70d0096f7"
+    },
+    {
+      "conceptId": "en.describiendo_personas_he_is_a_good_boy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ff60536ed7f7ea3d"
+    },
+    {
+      "conceptId": "en.describiendo_personas_he_is_a_nice_guy",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.59e1ae7ee6373171"
+    },
+    {
+      "conceptId": "en.describiendo_personas_he_is_a_kind_man",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1b3a6c214ef9ed7c"
+    },
+    {
+      "conceptId": "en.describiendo_personas_she_is_a_strong_woman",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dfdb063bd0b3f3c7"
+    },
+    {
+      "conceptId": "en.describiendo_personas_he_is_young",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bdea0723ac482a73"
+    },
+    {
+      "conceptId": "en.describiendo_personas_he_is_very_famous",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3f92f4db27d3376c"
+    },
+    {
+      "conceptId": "en.describiendo_personas_she_is_very_rich",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8edcb075e85f86f6"
+    },
+    {
+      "conceptId": "en.describiendo_personas_he_is_poor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6fe7bbe244c5ef6d"
+    },
+    {
+      "conceptId": "en.describiendo_personas_you_are_strong",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.afcdc33c53fcb6d8"
+    },
+    {
+      "conceptId": "en.describiendo_personas_tom_is_very_brave",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.397592979cfbacae"
+    },
+    {
+      "conceptId": "en.describiendo_personas_my_brother_is_short",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2f3eebc2e3cb7954"
+    },
+    {
+      "conceptId": "en.describiendo_personas_she_is_very_nice",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d10ca116c7f6c5be"
+    },
+    {
+      "conceptId": "en.describiendo_personas_he_is_a_national_hero",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fbd475ac8581fd41"
+    },
+    {
+      "conceptId": "en.describiendo_personas_she_is_a_professional",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bf224c0772651471"
+    },
+    {
+      "conceptId": "en.describiendo_personas_we_are_very_similar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f2139604ebdfb5cb"
+    },
+    {
+      "conceptId": "en.describiendo_personas_she_has_a_soft_voice",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5e7fc1698580b8c6"
+    },
+    {
+      "conceptId": "en.describiendo_personas_my_neighbor_is_very_nice",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.38a281c659ad0864"
+    },
+    {
+      "conceptId": "en.describiendo_personas_she_is_a_famous_model",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.272690bcdbb13a98"
+    },
+    {
+      "conceptId": "en.describiendo_personas_her_husband_is_tall",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e07f2366f50ac742"
+    },
+    {
+      "conceptId": "en.describiendo_personas_he_is_an_adult_now",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ebb0630ea06afd3b"
+    },
+    {
+      "conceptId": "en.describiendo_personas_he_looks_like_his_father",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c6202d1b0b9556cc"
+    },
+    {
+      "conceptId": "en.describiendo_personas_i_have_many_abilities",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e9adb574eaa0de94"
+    }
   ]
 }

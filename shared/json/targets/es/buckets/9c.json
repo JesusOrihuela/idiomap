@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "9c",
+  "concepts": {
+    "es.accommodation_corporate_rate_booking": {
+      "conceptId": "es.accommodation_corporate_rate_booking",
+      "id": "accommodation_corporate_rate_booking",
+      "target": [
+        {
+          "text": "Me gustaría hablar sobre una tarifa corporativa para futuras reservas en nombre de mi empresa.",
+          "audioSlug": "me_gustaria_hablar_sobre_una_tarifa_corporativa_para_futuras_reservas_en_nombre_de_mi_empresa"
+        }
+      ]
+    },
+    "es.accountability_when_was_the_budget_review_scheduled": {
+      "conceptId": "es.accountability_when_was_the_budget_review_scheduled",
+      "id": "accountability_when_was_the_budget_review_scheduled",
+      "target": [
+        {
+          "text": "¿Cuándo se programó la revisión presupuestaria?",
+          "audioSlug": "cuando_se_programo_la_revision_presupuestaria"
+        }
+      ]
+    },
+    "es.airport_viajo_al_extranjero_cada_verano": {
+      "conceptId": "es.airport_viajo_al_extranjero_cada_verano",
+      "id": "airport_viajo_al_extranjero_cada_verano",
+      "target": [
+        {
+          "text": "Viajo al extranjero cada verano.",
+          "audioSlug": "viajo_al_extranjero_cada_verano"
+        }
+      ]
+    },
+    "es.conversacion_cada_quien_tiene_derecho_a_opinar": {
+      "conceptId": "es.conversacion_cada_quien_tiene_derecho_a_opinar",
+      "id": "conversacion_cada_quien_tiene_derecho_a_opinar",
+      "target": [
+        {
+          "text": "Cada quien tiene derecho a opinar.",
+          "audioSlug": "cada_quien_tiene_derecho_a_opinar"
+        }
+      ]
+    },
+    "es.descripciones_es_una_persona_tranquila": {
+      "conceptId": "es.descripciones_es_una_persona_tranquila",
+      "id": "descripciones_es_una_persona_tranquila",
+      "target": [
+        {
+          "text": "Ella es una persona muy tranquila.",
+          "audioSlug": "ella_es_una_persona_muy_tranquila"
+        }
+      ]
+    },
+    "es.descripciones_ese_actor_es_muy_famoso": {
+      "conceptId": "es.descripciones_ese_actor_es_muy_famoso",
+      "id": "descripciones_ese_actor_es_muy_famoso",
+      "target": [
+        {
+          "text": "Ese actor es muy famoso.",
+          "audioSlug": "ese_actor_es_muy_famoso"
+        }
+      ]
+    },
+    "es.directions_the_museum_is_near_here": {
+      "conceptId": "es.directions_the_museum_is_near_here",
+      "id": "directions_the_museum_is_near_here",
+      "target": [
+        {
+          "text": "El museo está cerca de aquí.",
+          "audioSlug": "el_museo_esta_cerca_de_aqui"
+        }
+      ]
+    },
+    "es.emociones_why_are_you_bored": {
+      "conceptId": "es.emociones_why_are_you_bored",
+      "id": "emociones_why_are_you_bored",
+      "target": [
+        {
+          "text": "¿Por qué estás aburrido?",
+          "audioSlug": "por_que_estas_aburrido",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás aburrida?",
+          "audioSlug": "por_que_estas_aburrida",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.greetings_goodbye": {
+      "conceptId": "es.greetings_goodbye",
+      "id": "greetings_goodbye",
+      "target": [
+        {
+          "text": "Adiós.",
+          "audioSlug": "adios"
+        }
+      ]
+    },
+    "es.hogar_el_techo_es_muy_alto": {
+      "conceptId": "es.hogar_el_techo_es_muy_alto",
+      "id": "hogar_el_techo_es_muy_alto",
+      "target": [
+        {
+          "text": "El techo es muy alto.",
+          "audioSlug": "el_techo_es_muy_alto"
+        }
+      ]
+    },
+    "es.hogar_hay_que_limpiar_la_casa_el_sabado": {
+      "conceptId": "es.hogar_hay_que_limpiar_la_casa_el_sabado",
+      "id": "hogar_hay_que_limpiar_la_casa_el_sabado",
+      "target": [
+        {
+          "text": "Hay que limpiar la casa el sábado.",
+          "audioSlug": "hay_que_limpiar_la_casa_el_sabado"
+        }
+      ]
+    },
+    "es.music_favorite_song": {
+      "conceptId": "es.music_favorite_song",
+      "id": "music_favorite_song",
+      "target": [
+        {
+          "text": "Esa es mi canción favorita.",
+          "audioSlug": "esa_es_mi_cancion_favorita"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_solo_el_tiempo_dira_la_verdad": {
+      "conceptId": "es.pensamientos_opiniones_solo_el_tiempo_dira_la_verdad",
+      "id": "pensamientos_opiniones_solo_el_tiempo_dira_la_verdad",
+      "target": [
+        {
+          "text": "Solo el tiempo dirá la verdad.",
+          "audioSlug": "solo_el_tiempo_dira_la_verdad"
+        }
+      ]
+    },
+    "es.personal_info_de_donde_eres_tu": {
+      "conceptId": "es.personal_info_de_donde_eres_tu",
+      "id": "personal_info_de_donde_eres_tu",
+      "target": [
+        {
+          "text": "¿De dónde eres tú?",
+          "audioSlug": "de_donde_eres_tu"
+        }
+      ]
+    },
+    "es.restaurant_compliment_chef_risotto": {
+      "conceptId": "es.restaurant_compliment_chef_risotto",
+      "id": "restaurant_compliment_chef_risotto",
+      "target": [
+        {
+          "text": "Me gustaría elogiar al chef por el risotto, la sazón estaba absolutamente perfecta.",
+          "audioSlug": "me_gustaria_elogiar_al_chef_por_el_risotto_la_sazon_estaba_absolutamente_perfecta",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "Me gustaría elogiar a la chef por el risotto, la sazón estaba absolutamente perfecta.",
+          "audioSlug": "me_gustaria_elogiar_a_la_chef_por_el_risotto_la_sazon_estaba_absolutamente_perfecta",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.restaurant_im_allergic_to_nuts": {
+      "conceptId": "es.restaurant_im_allergic_to_nuts",
+      "id": "restaurant_im_allergic_to_nuts",
+      "target": [
+        {
+          "text": "Soy alérgica a los frutos secos.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "soy_alergica_a_los_frutos_secos"
+        },
+        {
+          "text": "Soy alérgico a los frutos secos.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "soy_alergico_a_los_frutos_secos"
+        }
+      ]
+    }
+  }
+}

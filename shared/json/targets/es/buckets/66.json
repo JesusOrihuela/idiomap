@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "66",
+  "concepts": {
+    "es.accommodation_extend_stay_same_rate": {
+      "conceptId": "es.accommodation_extend_stay_same_rate",
+      "id": "accommodation_extend_stay_same_rate",
+      "target": [
+        {
+          "text": "¿Puedo extender mi estadía dos noches más a la misma tarifa?",
+          "audioSlug": "puedo_extender_mi_estadia_dos_noches_mas_a_la_misma_tarifa"
+        }
+      ]
+    },
+    "es.accommodation_retrieve_valuables_safe": {
+      "conceptId": "es.accommodation_retrieve_valuables_safe",
+      "id": "accommodation_retrieve_valuables_safe",
+      "target": [
+        {
+          "text": "Me gustaría recuperar mis objetos de valor de la caja fuerte.",
+          "audioSlug": "me_gustaria_recuperar_mis_objetos_de_valor_de_la_caja_fuerte"
+        }
+      ]
+    },
+    "es.gym_increase_the_speed_of_the_treadmill": {
+      "conceptId": "es.gym_increase_the_speed_of_the_treadmill",
+      "id": "gym_increase_the_speed_of_the_treadmill",
+      "target": [
+        {
+          "text": "Aumenta la velocidad de la caminadora.",
+          "audioSlug": "aumenta_la_velocidad_de_la_caminadora"
+        }
+      ]
+    },
+    "es.music_podcast_recommendation": {
+      "conceptId": "es.music_podcast_recommendation",
+      "id": "music_podcast_recommendation",
+      "target": [
+        {
+          "text": "No sé qué pódcast escuchar, ¿me recomiendas alguno?",
+          "audioSlug": "no_se_que_podcast_escuchar_me_recomiendas_alguno"
+        }
+      ]
+    },
+    "es.supermarket_los_ninos_desayunan_cereales": {
+      "conceptId": "es.supermarket_los_ninos_desayunan_cereales",
+      "id": "supermarket_los_ninos_desayunan_cereales",
+      "target": [
+        {
+          "text": "Los niños desayunan cereales.",
+          "audioSlug": "los_ninos_desayunan_cereales"
+        }
+      ]
+    },
+    "es.technology_battery_low": {
+      "conceptId": "es.technology_battery_low",
+      "id": "technology_battery_low",
+      "target": [
+        {
+          "text": "Casi no me queda batería.",
+          "audioSlug": "casi_no_me_queda_bateria"
+        }
+      ]
+    },
+    "es.vestimenta_si_tienes_frio_ponte_el_jersey": {
+      "conceptId": "es.vestimenta_si_tienes_frio_ponte_el_jersey",
+      "id": "vestimenta_si_tienes_frio_ponte_el_jersey",
+      "target": [
+        {
+          "text": "Si tienes frío, ponte el suéter.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "si_tienes_frio_ponte_el_sueter"
+        },
+        {
+          "text": "Si tienes frío, ponte el jersey.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "si_tienes_frio_ponte_el_jersey"
+        }
+      ]
+    }
+  }
+}

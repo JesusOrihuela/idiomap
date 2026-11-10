@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "a9",
+  "concepts": {
+    "es.accommodation_restaurant_closing": {
+      "conceptId": "es.accommodation_restaurant_closing",
+      "id": "accommodation_restaurant_closing",
+      "target": [
+        {
+          "text": "¿A qué hora cierra el restaurante del hotel?",
+          "audioSlug": "a_que_hora_cierra_el_restaurante_del_hotel"
+        }
+      ]
+    },
+    "es.daily_routine_i_leave_home_at_eight": {
+      "conceptId": "es.daily_routine_i_leave_home_at_eight",
+      "id": "daily_routine_i_leave_home_at_eight",
+      "target": [
+        {
+          "text": "Salgo de casa a las ocho.",
+          "audioSlug": "salgo_de_casa_a_las_ocho"
+        }
+      ]
+    },
+    "es.descripciones_la_vista_desde_la_cima_es_impresionante": {
+      "conceptId": "es.descripciones_la_vista_desde_la_cima_es_impresionante",
+      "id": "descripciones_la_vista_desde_la_cima_es_impresionante",
+      "target": [
+        {
+          "text": "La vista desde la cima es impresionante.",
+          "audioSlug": "la_vista_desde_la_cima_es_impresionante"
+        }
+      ]
+    },
+    "es.estudios_recibio_su_diploma_con_honores": {
+      "conceptId": "es.estudios_recibio_su_diploma_con_honores",
+      "id": "estudios_recibio_su_diploma_con_honores",
+      "target": [
+        {
+          "text": "Recibió su diploma con honores.",
+          "audioSlug": "recibio_su_diploma_con_honores"
+        }
+      ]
+    },
+    "es.family_my_father_is_a_doctor": {
+      "conceptId": "es.family_my_father_is_a_doctor",
+      "id": "family_my_father_is_a_doctor",
+      "target": [
+        {
+          "text": "Mi padre es médico.",
+          "audioSlug": "mi_padre_es_medico"
+        }
+      ]
+    },
+    "es.hogar_hay_que_quitar_el_polvo_de_los_muebles": {
+      "conceptId": "es.hogar_hay_que_quitar_el_polvo_de_los_muebles",
+      "id": "hogar_hay_que_quitar_el_polvo_de_los_muebles",
+      "target": [
+        {
+          "text": "Hay que quitar el polvo de los muebles.",
+          "audioSlug": "hay_que_quitar_el_polvo_de_los_muebles"
+        }
+      ]
+    },
+    "es.movies_second_half_pacing_rushed": {
+      "conceptId": "es.movies_second_half_pacing_rushed",
+      "id": "movies_second_half_pacing_rushed",
+      "target": [
+        {
+          "text": "La segunda mitad se sintió apresurada en comparación con el lento primer acto.",
+          "audioSlug": "la_segunda_mitad_se_sintio_apresurada_en_comparacion_con_el_lento_primer_acto"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_amo_la_naturaleza": {
+      "conceptId": "es.naturaleza_lugares_amo_la_naturaleza",
+      "id": "naturaleza_lugares_amo_la_naturaleza",
+      "target": [
+        {
+          "text": "Amo la naturaleza.",
+          "audioSlug": "amo_la_naturaleza"
+        }
+      ]
+    },
+    "es.planes_le_voy_a_contar_mi_plan": {
+      "conceptId": "es.planes_le_voy_a_contar_mi_plan",
+      "id": "planes_le_voy_a_contar_mi_plan",
+      "target": [
+        {
+          "text": "Le voy a contar mi plan a mi familia.",
+          "audioSlug": "le_voy_a_contar_mi_plan_a_mi_familia"
+        }
+      ]
+    },
+    "es.supermarket_i_am_here_to_make_a": {
+      "conceptId": "es.supermarket_i_am_here_to_make_a",
+      "id": "supermarket_i_am_here_to_make_a",
+      "target": [
+        {
+          "text": "Vengo a hacer una devolución.",
+          "audioSlug": "vengo_a_hacer_una_devolucion"
+        }
+      ]
+    },
+    "es.technology_the_battery_of_my_smartwatch_doesnt": {
+      "conceptId": "es.technology_the_battery_of_my_smartwatch_doesnt",
+      "id": "technology_the_battery_of_my_smartwatch_doesnt",
+      "target": [
+        {
+          "text": "La batería de mi reloj inteligente no dura nada.",
+          "audioSlug": "la_bateria_de_mi_reloj_inteligente_no_dura_nada"
+        }
+      ]
+    },
+    "es.viajes_cuanto_dura_el_viaje": {
+      "conceptId": "es.viajes_cuanto_dura_el_viaje",
+      "id": "viajes_cuanto_dura_el_viaje",
+      "target": [
+        {
+          "text": "¿Cuánto dura el viaje?",
+          "audioSlug": "cuanto_dura_el_viaje"
+        }
+      ]
+    }
+  }
+}

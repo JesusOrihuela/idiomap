@@ -1,29 +1,293 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "emociones",
-  "conceptIds": [
-    "es.emociones_i_am_happy",
-    "es.emociones_i_am_sad",
-    "es.emociones_i_am_angry",
-    "es.emociones_i_am_nervous",
-    "es.emociones_i_am_afraid",
-    "es.emociones_i_am_surprised",
-    "es.emociones_i_am_excited",
-    "es.emociones_why_are_you_sad",
-    "es.emociones_a_veces_me_pongo_nervioso",
-    "es.emociones_nunca_tengo_miedo_de_nada",
-    "es.emociones_ese_momento_me_hizo_feliz",
-    "es.emociones_despues_de_llorar_me_senti_mejor",
-    "es.emociones_estoy_tan_contento_hoy",
-    "es.emociones_casi_lloro_de_la_emocion",
-    "es.emociones_nunca_habia_sentido_tanto_amor",
-    "es.emociones_a_veces_me_siento_diferente",
-    "es.emociones_es_facil_enamorarse_en_primavera",
-    "es.emociones_hoy_no_tengo_ganas_de_salir",
-    "es.emociones_esta_loca_de_alegria_por_la_noticia",
-    "es.emociones_lo_hago_con_mucho_gusto",
-    "es.emociones_nos_vemos_en_un_rato",
-    "es.emociones_es_facil_enfadarse_por_tonterias"
+  "phrases": [
+    {
+      "conceptId": "es.emociones_i_am_happy",
+      "level": "A1",
+      "grammar": "Las emociones usan estar, estoy contenta.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.111622d4845e0f07"
+    },
+    {
+      "conceptId": "es.emociones_i_am_sad",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.04caecaee641585d"
+    },
+    {
+      "conceptId": "es.emociones_i_am_angry",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c7d16adb4be8f9b6"
+    },
+    {
+      "conceptId": "es.emociones_i_am_nervous",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.12c3b98597b006a3"
+    },
+    {
+      "conceptId": "es.emociones_i_am_afraid",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.429cd87c717c9b76"
+    },
+    {
+      "conceptId": "es.emociones_i_am_surprised",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.86e1c665b8daba63"
+    },
+    {
+      "conceptId": "es.emociones_i_am_excited",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ec5d6693bcc82ac5"
+    },
+    {
+      "conceptId": "es.emociones_why_are_you_sad",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.133cb307ff15526b"
+    },
+    {
+      "conceptId": "es.emociones_a_veces_me_pongo_nervioso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.358b8319d568f04c"
+    },
+    {
+      "conceptId": "es.emociones_nunca_tengo_miedo_de_nada",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7f2bbcade42a4e61"
+    },
+    {
+      "conceptId": "es.emociones_ese_momento_me_hizo_feliz",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.457e60293d32fd12"
+    },
+    {
+      "conceptId": "es.emociones_despues_de_llorar_me_senti_mejor",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0bf845b3fe04e888"
+    },
+    {
+      "conceptId": "es.emociones_estoy_tan_contento_hoy",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.55461607f55bc18b"
+    },
+    {
+      "conceptId": "es.emociones_casi_lloro_de_la_emocion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4e3852a5d6b1b917"
+    },
+    {
+      "conceptId": "es.emociones_nunca_habia_sentido_tanto_amor",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.33675134ac86661f"
+    },
+    {
+      "conceptId": "es.emociones_a_veces_me_siento_diferente",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.67aac2dedb789774"
+    },
+    {
+      "conceptId": "es.emociones_es_facil_enamorarse_en_primavera",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f2dacaf97f060dce"
+    },
+    {
+      "conceptId": "es.emociones_hoy_no_tengo_ganas_de_salir",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9c6539fff6391926"
+    },
+    {
+      "conceptId": "es.emociones_esta_loca_de_alegria_por_la_noticia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e4edc97cdee547f4"
+    },
+    {
+      "conceptId": "es.emociones_lo_hago_con_mucho_gusto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2d2b444dd6581d30"
+    },
+    {
+      "conceptId": "es.emociones_nos_vemos_en_un_rato",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7e6878e626697d43"
+    },
+    {
+      "conceptId": "es.emociones_es_facil_enfadarse_por_tonterias",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b9ceb7ad80304c32"
+    }
   ]
 }

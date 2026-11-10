@@ -17,7 +17,13 @@
       "gloss_example": {
         "es": "Nuestro vuelo a Miami sale a las siete de la mañana."
       },
-      "conceptId": "en.flight"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "passport",
@@ -36,7 +42,13 @@
       "gloss_example": {
         "es": "No puedes abordar el avión sin un pasaporte válido."
       },
-      "conceptId": "en.passport"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "gate",
@@ -55,7 +67,13 @@
       "gloss_example": {
         "es": "Por favor, dirígete a la puerta B14. El embarque empieza en veinte minutos."
       },
-      "conceptId": "en.gate"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "luggage",
@@ -74,7 +92,13 @@
       "gloss_example": {
         "es": "Por favor, pon tu equipaje en la báscula antes de facturarlo."
       },
-      "conceptId": "en.luggage"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ticket",
@@ -93,7 +117,13 @@
       "gloss_example": {
         "es": "Compré mi boleto de avión por internet."
       },
-      "conceptId": "en.ticket"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "boarding",
@@ -112,7 +142,13 @@
       "gloss_example": {
         "es": "El embarque comienza cuarenta y cinco minutos antes de la salida programada."
       },
-      "conceptId": "en.boarding"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "check_in",
@@ -131,7 +167,13 @@
       "gloss_example": {
         "es": "El registro en línea se abre 24 horas antes de la salida del vuelo."
       },
-      "conceptId": "en.check_in"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "delay",
@@ -150,7 +192,13 @@
       "gloss_example": {
         "es": "El retraso fue causado por el mal tiempo en el aeropuerto de destino."
       },
-      "conceptId": "en.delay"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "currency",
@@ -169,7 +217,13 @@
       "gloss_example": {
         "es": "Asegúrate de cambiar tu moneda antes de llegar a tu destino."
       },
-      "conceptId": "en.currency"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "destination",
@@ -188,7 +242,13 @@
       "gloss_example": {
         "es": "París es uno de los destinos turísticos más visitados del mundo."
       },
-      "conceptId": "en.destination"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "customs",
@@ -207,7 +267,13 @@
       "gloss_example": {
         "es": "Debes declarar cualquier alimento o producto vegetal al pasar por la aduana."
       },
-      "conceptId": "en.customs"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "layover",
@@ -226,7 +292,13 @@
       "gloss_example": {
         "es": "Tuvimos una escala de seis horas en Ámsterdam antes de nuestro vuelo de conexión."
       },
-      "conceptId": "en.layover"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "transit",
@@ -245,7 +317,13 @@
       "gloss_example": {
         "es": "Los pasajeros en tránsito no necesitan recoger su equipaje entre vuelos."
       },
-      "conceptId": "en.transit"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "turbulence",
@@ -264,7 +342,13 @@
       "gloss_example": {
         "es": "El piloto pidió a todos que se abrocharan el cinturón debido a la turbulencia."
       },
-      "conceptId": "en.turbulence"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "jet_lag",
@@ -283,7 +367,13 @@
       "gloss_example": {
         "es": "Le llevó tres días recuperarse del desfase horario después de volar a Tokio."
       },
-      "conceptId": "en.jet_lag"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "immigration",
@@ -302,7 +392,13 @@
       "gloss_example": {
         "es": "Las colas de control migratorio pueden ser muy largas en los aeropuertos internacionales concurridos."
       },
-      "conceptId": "en.immigration"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "baggage_claim",
@@ -321,7 +417,13 @@
       "gloss_example": {
         "es": "Nuestras maletas deben llegar a la cinta número 4 de recogida de equipaje."
       },
-      "conceptId": "en.baggage_claim"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "overbooked",
@@ -340,7 +442,13 @@
       "gloss_example": {
         "es": "Como el vuelo estaba sobrevendido, le pidieron a un pasajero tomar el siguiente a cambio de un bono."
       },
-      "conceptId": "en.overbooked"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "upgrade",
@@ -359,7 +467,13 @@
       "gloss_example": {
         "es": "Usó sus millas de viajera frecuente para pedir una mejora a clase ejecutiva."
       },
-      "conceptId": "en.upgrade"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "voucher",
@@ -378,7 +492,13 @@
       "gloss_example": {
         "es": "Cada pasajero afectado recibió un vale de comida para el restaurante del aeropuerto."
       },
-      "conceptId": "en.voucher"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "duty_free",
@@ -397,7 +517,13 @@
       "gloss_example": {
         "es": "Compró perfume y chocolate en la tienda libre de impuestos antes de embarcar."
       },
-      "conceptId": "en.duty_free"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "biometrics",
@@ -416,7 +542,13 @@
       "gloss_example": {
         "es": "Las nuevas puertas electrónicas usan biometría para verificar la identidad de los viajeros en segundos."
       },
-      "conceptId": "en.biometrics"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "prohibited",
@@ -435,7 +567,13 @@
       "gloss_example": {
         "es": "Los líquidos de más de 100 ml están prohibidos en el equipaje de mano en la mayoría de los aeropuertos."
       },
-      "conceptId": "en.prohibited"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "carrier",
@@ -454,7 +592,13 @@
       "gloss_example": {
         "es": "La ruta está operada por tres aerolíneas distintas, incluida una de bajo costo."
       },
-      "conceptId": "en.carrier"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "overbooking",
@@ -473,7 +617,13 @@
       "gloss_example": {
         "es": "El overbooking es habitual en la industria aérea, pero puede dejar sin asiento a pasajeros con reserva confirmada."
       },
-      "conceptId": "en.overbooking"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "repatriation",
@@ -492,7 +642,13 @@
       "gloss_example": {
         "es": "Los viajeros varados esperaban vuelos de repatriación tras el cierre repentino de la frontera."
       },
-      "conceptId": "en.repatriation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "asylum",
@@ -511,7 +667,13 @@
       "gloss_example": {
         "es": "Solicitó asilo en el aeropuerto alegando persecución política en su país de origen."
       },
-      "conceptId": "en.asylum"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "contraband",
@@ -530,7 +692,13 @@
       "gloss_example": {
         "es": "El perro rastreador detectó contrabando escondido dentro de una maleta facturada."
       },
-      "conceptId": "en.contraband"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "manifest",
@@ -549,7 +717,13 @@
       "gloss_example": {
         "es": "El capitán revisó la lista de pasajeros para confirmar que todos estaban a bordo."
       },
-      "conceptId": "en.manifest"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "force_majeure",
@@ -568,7 +742,13 @@
       "gloss_example": {
         "es": "La aerolínea se negó a pagar compensación alegando fuerza mayor por la erupción volcánica."
       },
-      "conceptId": "en.force_majeure"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

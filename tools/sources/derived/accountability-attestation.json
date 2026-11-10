@@ -1,0 +1,930 @@
+{
+  "_doc": "Atestiguacion frase por frase — topic accountability (Contabilidad). Comunicacion profesional real de contabilidad/finanzas (pagos/facturas, oficina/gestion, impuestos/auditoria, analisis financiero, normas contables). Retiradas 3 DEFINICIONES de principios (ensayo).",
+  "sources_en": [
+    "business/accounting English (professional)",
+    "IFRS/accounting terminology references"
+  ],
+  "sources_es": [
+    "PCIC + terminologia contable profesional"
+  ],
+  "retired": [
+    "3 definiciones: WACC, going concern, substance-over-form"
+  ],
+  "phrases": {
+    "en.accountability_a_companys_fiscal_year_does_not": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "A company's fiscal year does not have to start in January."
+    },
+    "en.accountability_accounting_records_for_the_tax_return": {
+      "level": "B1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "Accounting records for the tax return will be closed tomorrow."
+    },
+    "en.accountability_accounting_staff_will_be_here_tomorrow": {
+      "level": "A2",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "Accounting staff will be here tomorrow."
+    },
+    "en.accountability_accounts_payable_has_already_closed_its": {
+      "level": "B2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "Accounts Payable has already closed its accounting records for this month."
+    },
+    "en.accountability_all_the_money_a_person_receives": {
+      "level": "B1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "All the money a person receives as payment is called salary."
+    },
+    "en.accountability_any_contingent_liability_must_be": {
+      "level": "C2",
+      "function": "normas_contables",
+      "attested": true,
+      "intent": "Any contingent liability must be disclosed in the notes to the financial statements."
+    },
+    "en.accountability_board_approved_share_buyback_shareholders": {
+      "level": "C1",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "The board approved a share buyback program to return value to shareholders."
+    },
+    "en.accountability_check_numbers": {
+      "level": "A2",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "Can you check these numbers?"
+    },
+    "en.accountability_cost_benefit_analysis_before_approval": {
+      "level": "B2",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "Could you run a quick cost-benefit analysis before we approve the expenditure?"
+    },
+    "en.accountability_deadline": {
+      "level": "A1",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "When is the deadline?"
+    },
+    "en.accountability_deferred_tax_assets_reassessed_tax_rate": {
+      "level": "C1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "Our deferred tax assets have been reassessed following the change in corporate tax rates."
+    },
+    "en.accountability_depreciation_must_be_calculated_using": {
+      "level": "C1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "Depreciation must be calculated using the straight-line method for fixed assets."
+    },
+    "en.accountability_earnings_per_share_basic_diluted_disclosure": {
+      "level": "C2",
+      "function": "normas_contables",
+      "attested": true,
+      "intent": "Earnings per share must be reported using both basic and diluted figures to ensure full disclosure."
+    },
+    "en.accountability_everything_went_well_during_the_tax": {
+      "level": "B1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "Everything went well during the tax audit."
+    },
+    "en.accountability_expense_receipts_submitted_reimbursement": {
+      "level": "B2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "Please ensure all expense receipts are submitted by Friday for reimbursement."
+    },
+    "en.accountability_external_auditors_requesting_documentation": {
+      "level": "B2",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "The external auditors are requesting documentation for the last three fiscal years."
+    },
+    "en.accountability_file_taxes": {
+      "level": "A2",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "I need to file my taxes."
+    },
+    "en.accountability_gross_margin_declined_supply_chain": {
+      "level": "B2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "The gross margin has declined due to rising supply chain costs."
+    },
+    "en.accountability_has_the_intern_already_registered_with": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "Has the intern already registered with Social Security?"
+    },
+    "en.accountability_have_the_contracts_with_the_suppliers": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "Have the contracts with the suppliers been signed?"
+    },
+    "en.accountability_how_much_owe": {
+      "level": "A1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "How much do we owe?"
+    },
+    "en.accountability_i_think_this_is_a_good": {
+      "level": "B1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "I think this is a good investment. It pays great annual interest."
+    },
+    "en.accountability_if_the_company_buys_new_assets": {
+      "level": "B2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "If the company buys new assets, you debit banks and credit assets."
+    },
+    "en.accountability_keep_receipt": {
+      "level": "A1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "Please keep the receipt."
+    },
+    "en.accountability_liquidity_ratios_short_term_obligations": {
+      "level": "C1",
+      "function": "analisis_financiero",
+      "attested": true,
+      "intent": "The liquidity ratios suggest the company may struggle to meet its short-term obligations."
+    },
+    "en.accountability_materiality_threshold_consolidated_net_assets": {
+      "level": "C2",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "The materiality threshold was set at two percent of consolidated net assets for audit purposes."
+    },
+    "en.accountability_operating_expenses_exceeded_budget": {
+      "level": "B2",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "Operating expenses exceeded the budget by twelve percent last quarter."
+    },
+    "en.accountability_outstanding_invoices_month_end_close": {
+      "level": "B2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "The outstanding invoices need to be followed up before the month-end close."
+    },
+    "en.accountability_over_budget": {
+      "level": "A2",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "We are over budget."
+    },
+    "en.accountability_pay_invoice": {
+      "level": "A1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "I need to pay this invoice."
+    },
+    "en.accountability_payment_due": {
+      "level": "A2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "The payment is due next week."
+    },
+    "en.accountability_provision_litigation_claim": {
+      "level": "C1",
+      "function": "analisis_financiero",
+      "attested": true,
+      "intent": "We need to set aside a provision for the litigation claim pending resolution."
+    },
+    "en.accountability_restatement_prior_period_accounting_standard": {
+      "level": "C2",
+      "function": "normas_contables",
+      "attested": true,
+      "intent": "The restatement of prior-period comparatives was necessitated by the adoption of the new accounting standard."
+    },
+    "en.accountability_revenue_recognition_must_comply_with": {
+      "level": "C2",
+      "function": "analisis_financiero",
+      "attested": true,
+      "intent": "Revenue recognition must comply with the applicable accounting standards under IFRS."
+    },
+    "en.accountability_salary_is_paid_in_cash_check": {
+      "level": "B1",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "Salary is paid in cash, check or bank deposit."
+    },
+    "en.accountability_salary_is_paid_weekly_biweekly_or": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "Salary is paid weekly, biweekly or monthly."
+    },
+    "en.accountability_send_invoice": {
+      "level": "A1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "Can you send me the invoice?"
+    },
+    "en.accountability_the_accountant_needs_additional_information": {
+      "level": "A2",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The accountant needs additional information."
+    },
+    "en.accountability_the_accounting_department_has_already_delivered": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The Accounting department has already delivered the financial reports."
+    },
+    "en.accountability_the_accounts_receivable_turnover_ratio": {
+      "level": "C1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "The accounts receivable turnover ratio indicates how efficiently we collect outstanding debts."
+    },
+    "en.accountability_the_audit_committee_has_raised": {
+      "level": "C1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "The audit committee has raised concerns about our internal controls."
+    },
+    "en.accountability_the_balance_sheet_is_ready": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The balance sheet is ready."
+    },
+    "en.accountability_the_balance_sheet_shows_the_assets": {
+      "level": "B2",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The balance sheet shows the assets, liabilities and equity of the company."
+    },
+    "en.accountability_the_company_had_higher_sales_and": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The company had higher sales and an increase in profits."
+    },
+    "en.accountability_the_companys_income_in_the_past": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "Last year's income is shown on the balance sheet."
+    },
+    "en.accountability_the_consolidated_financial_statements_reflect": {
+      "level": "C2",
+      "function": "normas_contables",
+      "attested": true,
+      "intent": "The consolidated financial statements reflect the elimination of intercompany transactions."
+    },
+    "en.accountability_the_financial_forecast_is_positive": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The financial forecast is positive."
+    },
+    "en.accountability_the_financial_reports_have_been_reviewed": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The financial reports have been reviewed."
+    },
+    "en.accountability_the_financial_statements_are_up_to": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The financial statements are up to date."
+    },
+    "en.accountability_the_human_resources_department_has_already": {
+      "level": "B1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "The Human Resources department has already delivered the payroll reports."
+    },
+    "en.accountability_the_impairment_of_goodwill_has": {
+      "level": "C2",
+      "function": "normas_contables",
+      "attested": true,
+      "intent": "The impairment of goodwill has been recognized in line with the current valuation."
+    },
+    "en.accountability_the_inventory_needs_to_be_updated": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The inventory needs to be updated."
+    },
+    "en.accountability_the_inventory_that_arrived_yesterday_is": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The inventory that arrived yesterday is ready for sale."
+    },
+    "en.accountability_the_payroll_is_paid": {
+      "level": "B1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "The payroll is paid."
+    },
+    "en.accountability_the_presentation_of_the_financial_reports": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The presentation of the financial reports was successful."
+    },
+    "en.accountability_the_purchasing_department_will_receive_a": {
+      "level": "B1",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "The purchasing department will receive a bonus for meeting goals."
+    },
+    "en.accountability_the_sales_figures_have_increased": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The sales figures have increased."
+    },
+    "en.accountability_the_sales_projection_for_the_next": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The sales projection for the next quarter will be made."
+    },
+    "en.accountability_the_tax_returns_are_pending": {
+      "level": "B1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "The tax returns are pending."
+    },
+    "en.accountability_the_variance_between_projected_and": {
+      "level": "C1",
+      "function": "analisis_financiero",
+      "attested": true,
+      "intent": "The variance between projected and actual revenue must be thoroughly analyzed."
+    },
+    "en.accountability_total_amount": {
+      "level": "A1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "What is the total amount?"
+    },
+    "en.accountability_transfer_pricing_documented_tax_authorities": {
+      "level": "C1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "The transfer pricing policy must be documented to withstand scrutiny from tax authorities."
+    },
+    "en.accountability_walk_through_reconciliation_management_statutory": {
+      "level": "C1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "Could you walk me through the reconciliation between the management accounts and the statutory figures?"
+    },
+    "en.accountability_we_are_closing_the_fiscal_year": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "We are closing the fiscal year."
+    },
+    "en.accountability_we_are_facing_a_cash_flow": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "We are facing a cash flow problem."
+    },
+    "en.accountability_we_need_to_adjust_the_budget": {
+      "level": "A2",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "We need to adjust the budget."
+    },
+    "en.accountability_we_need_to_audit_the_accounts": {
+      "level": "B1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "We need to audit the accounts."
+    },
+    "en.accountability_we_need_to_reconcile_the_bank": {
+      "level": "B2",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "We need to reconcile the bank accounts."
+    },
+    "en.accountability_we_should_hedge_our_foreign": {
+      "level": "C1",
+      "function": "analisis_financiero",
+      "attested": true,
+      "intent": "We should hedge our foreign currency exposure to mitigate exchange rate risk."
+    },
+    "en.accountability_what_are_the_projections_for_the": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "What are the projections for the new fiscal year?"
+    },
+    "en.accountability_what_was_the_gross_loss_from": {
+      "level": "B2",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "What was the gross loss from sales last bimester?"
+    },
+    "en.accountability_what_was_the_net_profit_from": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "What was the net profit from sales last quarter?"
+    },
+    "en.accountability_when_was_the_budget_review_scheduled": {
+      "level": "B1",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "When was the budget review scheduled?"
+    },
+    "en.accountability_write_off_bad_debt_quarter": {
+      "level": "B2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "We'll need to write off the bad debt before closing the quarter."
+    },
+    "es.accountability_a_companys_fiscal_year_does_not": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "A company's fiscal year does not have to start in January."
+    },
+    "es.accountability_accounting_records_for_the_tax_return": {
+      "level": "B1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "Accounting records for the tax return will be closed tomorrow."
+    },
+    "es.accountability_accounting_staff_will_be_here_tomorrow": {
+      "level": "A2",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "Accounting staff will be here tomorrow."
+    },
+    "es.accountability_accounts_payable_has_already_closed_its": {
+      "level": "B2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "Accounts Payable has already closed its accounting records for this month."
+    },
+    "es.accountability_all_the_money_a_person_receives": {
+      "level": "B1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "All the money a person receives as payment is called salary."
+    },
+    "es.accountability_any_contingent_liability_must_be": {
+      "level": "C2",
+      "function": "normas_contables",
+      "attested": true,
+      "intent": "Any contingent liability must be disclosed in the notes to the financial statements."
+    },
+    "es.accountability_board_approved_share_buyback_shareholders": {
+      "level": "C1",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "The board approved a share buyback program to return value to shareholders."
+    },
+    "es.accountability_check_numbers": {
+      "level": "A2",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "Can you check these numbers?"
+    },
+    "es.accountability_cost_benefit_analysis_before_approval": {
+      "level": "B2",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "Could you run a quick cost-benefit analysis before we approve the expenditure?"
+    },
+    "es.accountability_deadline": {
+      "level": "A1",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "When is the deadline?"
+    },
+    "es.accountability_deferred_tax_assets_reassessed_tax_rate": {
+      "level": "C1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "Our deferred tax assets have been reassessed following the change in corporate tax rates."
+    },
+    "es.accountability_depreciation_must_be_calculated_using": {
+      "level": "C1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "Depreciation must be calculated using the straight-line method for fixed assets."
+    },
+    "es.accountability_earnings_per_share_basic_diluted_disclosure": {
+      "level": "C2",
+      "function": "normas_contables",
+      "attested": true,
+      "intent": "Earnings per share must be reported using both basic and diluted figures to ensure full disclosure."
+    },
+    "es.accountability_everything_went_well_during_the_tax": {
+      "level": "B1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "Everything went well during the tax audit."
+    },
+    "es.accountability_expense_receipts_submitted_reimbursement": {
+      "level": "B2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "Please ensure all expense receipts are submitted by Friday for reimbursement."
+    },
+    "es.accountability_external_auditors_requesting_documentation": {
+      "level": "B2",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "The external auditors are requesting documentation for the last three fiscal years."
+    },
+    "es.accountability_file_taxes": {
+      "level": "A2",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "I need to file my taxes."
+    },
+    "es.accountability_gross_margin_declined_supply_chain": {
+      "level": "B2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "The gross margin has declined due to rising supply chain costs."
+    },
+    "es.accountability_has_the_intern_already_registered_with": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "Has the intern already registered with Social Security?"
+    },
+    "es.accountability_have_the_contracts_with_the_suppliers": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "Have the contracts with the suppliers been signed?"
+    },
+    "es.accountability_how_much_owe": {
+      "level": "A1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "How much do we owe?"
+    },
+    "es.accountability_i_think_this_is_a_good": {
+      "level": "B1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "I think this is a good investment. It pays great annual interest."
+    },
+    "es.accountability_if_the_company_buys_new_assets": {
+      "level": "B2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "If the company buys new assets, you debit banks and credit assets."
+    },
+    "es.accountability_keep_receipt": {
+      "level": "A1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "Please keep the receipt."
+    },
+    "es.accountability_liquidity_ratios_short_term_obligations": {
+      "level": "C1",
+      "function": "analisis_financiero",
+      "attested": true,
+      "intent": "The liquidity ratios suggest the company may struggle to meet its short-term obligations."
+    },
+    "es.accountability_materiality_threshold_consolidated_net_assets": {
+      "level": "C2",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "The materiality threshold was set at two percent of consolidated net assets for audit purposes."
+    },
+    "es.accountability_operating_expenses_exceeded_budget": {
+      "level": "B2",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "Operating expenses exceeded the budget by twelve percent last quarter."
+    },
+    "es.accountability_outstanding_invoices_month_end_close": {
+      "level": "B2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "The outstanding invoices need to be followed up before the month-end close."
+    },
+    "es.accountability_over_budget": {
+      "level": "A2",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "We are over budget."
+    },
+    "es.accountability_pay_invoice": {
+      "level": "A1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "I need to pay this invoice."
+    },
+    "es.accountability_payment_due": {
+      "level": "A2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "The payment is due next week."
+    },
+    "es.accountability_provision_litigation_claim": {
+      "level": "C1",
+      "function": "analisis_financiero",
+      "attested": true,
+      "intent": "We need to set aside a provision for the litigation claim pending resolution."
+    },
+    "es.accountability_restatement_prior_period_accounting_standard": {
+      "level": "C2",
+      "function": "normas_contables",
+      "attested": true,
+      "intent": "The restatement of prior-period comparatives was necessitated by the adoption of the new accounting standard."
+    },
+    "es.accountability_revenue_recognition_must_comply_with": {
+      "level": "C2",
+      "function": "analisis_financiero",
+      "attested": true,
+      "intent": "Revenue recognition must comply with the applicable accounting standards under IFRS."
+    },
+    "es.accountability_salary_is_paid_in_cash_check": {
+      "level": "B1",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "Salary is paid in cash, check or bank deposit."
+    },
+    "es.accountability_salary_is_paid_weekly_biweekly_or": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "Salary is paid weekly, biweekly or monthly."
+    },
+    "es.accountability_send_invoice": {
+      "level": "A1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "Can you send me the invoice?"
+    },
+    "es.accountability_the_accountant_needs_additional_information": {
+      "level": "A2",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The accountant needs additional information."
+    },
+    "es.accountability_the_accounting_department_has_already_delivered": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The Accounting department has already delivered the financial reports."
+    },
+    "es.accountability_the_accounts_receivable_turnover_ratio": {
+      "level": "C1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "The accounts receivable turnover ratio indicates how efficiently we collect outstanding debts."
+    },
+    "es.accountability_the_audit_committee_has_raised": {
+      "level": "C1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "The audit committee has raised concerns about our internal controls."
+    },
+    "es.accountability_the_balance_sheet_is_ready": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The balance sheet is ready."
+    },
+    "es.accountability_the_balance_sheet_shows_the_assets": {
+      "level": "B2",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The balance sheet shows the assets, liabilities and equity of the company."
+    },
+    "es.accountability_the_company_had_higher_sales_and": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The company had higher sales and an increase in profits."
+    },
+    "es.accountability_the_companys_income_in_the_past": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "Last year's income is shown on the balance sheet."
+    },
+    "es.accountability_the_consolidated_financial_statements_reflect": {
+      "level": "C2",
+      "function": "normas_contables",
+      "attested": true,
+      "intent": "The consolidated financial statements reflect the elimination of intercompany transactions."
+    },
+    "es.accountability_the_financial_forecast_is_positive": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The financial forecast is positive."
+    },
+    "es.accountability_the_financial_reports_have_been_reviewed": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The financial reports have been reviewed."
+    },
+    "es.accountability_the_financial_statements_are_up_to": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The financial statements are up to date."
+    },
+    "es.accountability_the_human_resources_department_has_already": {
+      "level": "B1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "The Human Resources department has already delivered the payroll reports."
+    },
+    "es.accountability_the_impairment_of_goodwill_has": {
+      "level": "C2",
+      "function": "normas_contables",
+      "attested": true,
+      "intent": "The impairment of goodwill has been recognized in line with the current valuation."
+    },
+    "es.accountability_the_inventory_needs_to_be_updated": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The inventory needs to be updated."
+    },
+    "es.accountability_the_inventory_that_arrived_yesterday_is": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The inventory that arrived yesterday is ready for sale."
+    },
+    "es.accountability_the_payroll_is_paid": {
+      "level": "B1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "The payroll is paid."
+    },
+    "es.accountability_the_presentation_of_the_financial_reports": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The presentation of the financial reports was successful."
+    },
+    "es.accountability_the_purchasing_department_will_receive_a": {
+      "level": "B1",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "The purchasing department will receive a bonus for meeting goals."
+    },
+    "es.accountability_the_sales_figures_have_increased": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The sales figures have increased."
+    },
+    "es.accountability_the_sales_projection_for_the_next": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "The sales projection for the next quarter will be made."
+    },
+    "es.accountability_the_tax_returns_are_pending": {
+      "level": "B1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "The tax returns are pending."
+    },
+    "es.accountability_the_variance_between_projected_and": {
+      "level": "C1",
+      "function": "analisis_financiero",
+      "attested": true,
+      "intent": "The variance between projected and actual revenue must be thoroughly analyzed."
+    },
+    "es.accountability_total_amount": {
+      "level": "A1",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "What is the total amount?"
+    },
+    "es.accountability_transfer_pricing_documented_tax_authorities": {
+      "level": "C1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "The transfer pricing policy must be documented to withstand scrutiny from tax authorities."
+    },
+    "es.accountability_walk_through_reconciliation_management_statutory": {
+      "level": "C1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "Could you walk me through the reconciliation between the management accounts and the statutory figures?"
+    },
+    "es.accountability_we_are_closing_the_fiscal_year": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "We are closing the fiscal year."
+    },
+    "es.accountability_we_are_facing_a_cash_flow": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "We are facing a cash flow problem."
+    },
+    "es.accountability_we_need_to_adjust_the_budget": {
+      "level": "A2",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "We need to adjust the budget."
+    },
+    "es.accountability_we_need_to_audit_the_accounts": {
+      "level": "B1",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "We need to audit the accounts."
+    },
+    "es.accountability_we_need_to_reconcile_the_bank": {
+      "level": "B2",
+      "function": "impuestos/auditoria",
+      "attested": true,
+      "intent": "We need to reconcile the bank accounts."
+    },
+    "es.accountability_we_should_hedge_our_foreign": {
+      "level": "C1",
+      "function": "analisis_financiero",
+      "attested": true,
+      "intent": "We should hedge our foreign currency exposure to mitigate exchange rate risk."
+    },
+    "es.accountability_what_are_the_projections_for_the": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "What are the projections for the new fiscal year?"
+    },
+    "es.accountability_what_was_the_gross_loss_from": {
+      "level": "B2",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "What was the gross loss from sales last bimester?"
+    },
+    "es.accountability_what_was_the_net_profit_from": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "What was the net profit from sales last quarter?"
+    },
+    "es.accountability_when_was_the_budget_review_scheduled": {
+      "level": "B1",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "When was the budget review scheduled?"
+    },
+    "es.accountability_write_off_bad_debt_quarter": {
+      "level": "B2",
+      "function": "pagos/facturas",
+      "attested": true,
+      "intent": "We'll need to write off the bad debt before closing the quarter."
+    }
+  },
+  "_unmatched": {
+    "accountability_lets_start_the_meeting": {
+      "level": "B1",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "Let's start the meeting."
+    },
+    "accountability_we_have_a_new_client": {
+      "level": "A2",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "We have a new client."
+    },
+    "accountability_when_is_the_meeting_scheduled": {
+      "level": "A2",
+      "function": "oficina/gestion",
+      "attested": true,
+      "intent": "When is the meeting scheduled?"
+    },
+    "accountability_it_is_important_to_consider_the": {
+      "level": "B1",
+      "function": "contabilidad_general",
+      "attested": true,
+      "intent": "It is important to consider the new market trends."
+    }
+  },
+  "_keyFormat": "target.conceptSlug"
+}

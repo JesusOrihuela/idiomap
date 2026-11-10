@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "31",
+  "concepts": {
+    "en.daily_routine_was_cooking_when_called": {
+      "conceptId": "en.daily_routine_was_cooking_when_called",
+      "id": "daily_routine_was_cooking_when_called",
+      "target": [
+        {
+          "text": "I was cooking dinner when you called.",
+          "audioSlug": "i_was_cooking_dinner_when_you_called"
+        }
+      ]
+    },
+    "en.greetings_goodbye": {
+      "conceptId": "en.greetings_goodbye",
+      "id": "greetings_goodbye",
+      "target": [
+        {
+          "text": "Goodbye!",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "goodbye"
+        },
+        {
+          "text": "Bye!",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "bye"
+        }
+      ]
+    },
+    "en.gym_keep_your_elbows_close_to_your": {
+      "conceptId": "en.gym_keep_your_elbows_close_to_your",
+      "id": "gym_keep_your_elbows_close_to_your",
+      "target": [
+        {
+          "text": "Keep your elbows close to your body.",
+          "audioSlug": "keep_your_elbows_close_to_your_body"
+        }
+      ]
+    },
+    "en.museums_how_much_admission": {
+      "conceptId": "en.museums_how_much_admission",
+      "id": "museums_how_much_admission",
+      "target": [
+        {
+          "text": "How much is admission?",
+          "audioSlug": "how_much_is_admission"
+        }
+      ]
+    },
+    "en.politica_society_is_changing": {
+      "conceptId": "en.politica_society_is_changing",
+      "id": "politica_society_is_changing",
+      "target": [
+        {
+          "text": "Society is changing.",
+          "audioSlug": "society_is_changing"
+        }
+      ]
+    },
+    "en.technology_i_enabled_twofactor_authentication_on": {
+      "conceptId": "en.technology_i_enabled_twofactor_authentication_on",
+      "id": "technology_i_enabled_twofactor_authentication_on",
+      "target": [
+        {
+          "text": "I enabled two-factor authentication on all my accounts after the data breach.",
+          "audioSlug": "i_enabled_two_factor_authentication_on_all_my_accounts_after_the_data_breach"
+        }
+      ]
+    },
+    "en.transportation_one_ticket_to": {
+      "conceptId": "en.transportation_one_ticket_to",
+      "id": "transportation_one_ticket_to",
+      "target": [
+        {
+          "text": "One ticket to the airport, please.",
+          "audioSlug": "one_ticket_to_the_airport_please"
+        }
+      ]
+    }
+  }
+}

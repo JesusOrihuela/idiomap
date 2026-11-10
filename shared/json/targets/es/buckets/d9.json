@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "d9",
+  "concepts": {
+    "es.accommodation_atm_hotel": {
+      "conceptId": "es.accommodation_atm_hotel",
+      "id": "accommodation_atm_hotel",
+      "target": [
+        {
+          "text": "¿Hay un cajero automático en el hotel?",
+          "audioSlug": "hay_un_cajero_automatico_en_el_hotel"
+        }
+      ]
+    },
+    "es.conversacion_el_resto_del_grupo_ya_llego": {
+      "conceptId": "es.conversacion_el_resto_del_grupo_ya_llego",
+      "id": "conversacion_el_resto_del_grupo_ya_llego",
+      "target": [
+        {
+          "text": "El resto del grupo ya llegó.",
+          "audioSlug": "el_resto_del_grupo_ya_llego"
+        }
+      ]
+    },
+    "es.conversacion_lets_talk_about_it": {
+      "conceptId": "es.conversacion_lets_talk_about_it",
+      "id": "conversacion_lets_talk_about_it",
+      "target": [
+        {
+          "text": "Hablemos de eso.",
+          "audioSlug": "hablemos_de_eso"
+        }
+      ]
+    },
+    "es.conversacion_prefiero_la_verdad_a_la_mentira": {
+      "conceptId": "es.conversacion_prefiero_la_verdad_a_la_mentira",
+      "id": "conversacion_prefiero_la_verdad_a_la_mentira",
+      "target": [
+        {
+          "text": "Prefiero la verdad a la mentira.",
+          "audioSlug": "prefiero_la_verdad_a_la_mentira"
+        }
+      ]
+    },
+    "es.economia_voy_a_pagar_yo": {
+      "conceptId": "es.economia_voy_a_pagar_yo",
+      "id": "economia_voy_a_pagar_yo",
+      "target": [
+        {
+          "text": "Voy a pagar yo.",
+          "audioSlug": "voy_a_pagar_yo"
+        }
+      ]
+    },
+    "es.hogar_el_reloj_de_la_pared_esta_parado": {
+      "conceptId": "es.hogar_el_reloj_de_la_pared_esta_parado",
+      "id": "hogar_el_reloj_de_la_pared_esta_parado",
+      "target": [
+        {
+          "text": "El reloj de la pared está parado.",
+          "audioSlug": "el_reloj_de_la_pared_esta_parado"
+        }
+      ]
+    },
+    "es.kitchen_let_the_pizza_dough_rest_before": {
+      "conceptId": "es.kitchen_let_the_pizza_dough_rest_before",
+      "id": "kitchen_let_the_pizza_dough_rest_before",
+      "target": [
+        {
+          "text": "Deja reposar la masa de pizza antes de estirarla.",
+          "audioSlug": "deja_reposar_la_masa_de_pizza_antes_de_estirarla"
+        }
+      ]
+    },
+    "es.personal_info_im_a_student": {
+      "conceptId": "es.personal_info_im_a_student",
+      "id": "personal_info_im_a_student",
+      "target": [
+        {
+          "text": "Soy estudiante.",
+          "audioSlug": "soy_estudiante"
+        }
+      ]
+    },
+    "es.profesiones_el_empresario_abrio_una_tienda": {
+      "conceptId": "es.profesiones_el_empresario_abrio_una_tienda",
+      "id": "profesiones_el_empresario_abrio_una_tienda",
+      "target": [
+        {
+          "text": "El empresario abrió una tienda.",
+          "audioSlug": "el_empresario_abrio_una_tienda"
+        }
+      ]
+    },
+    "es.supermarket_buy_new_toothbrush": {
+      "conceptId": "es.supermarket_buy_new_toothbrush",
+      "id": "supermarket_buy_new_toothbrush",
+      "target": [
+        {
+          "text": "Necesito comprar un nuevo cepillo de dientes.",
+          "audioSlug": "necesito_comprar_un_nuevo_cepillo_de_dientes"
+        }
+      ]
+    },
+    "es.supermarket_comi_una_manzana_roja": {
+      "conceptId": "es.supermarket_comi_una_manzana_roja",
+      "id": "supermarket_comi_una_manzana_roja",
+      "target": [
+        {
+          "text": "Comí una manzana roja.",
+          "audioSlug": "comi_una_manzana_roja"
+        }
+      ]
+    },
+    "es.technology_mi_portatil_nuevo_es_muy_ligero": {
+      "conceptId": "es.technology_mi_portatil_nuevo_es_muy_ligero",
+      "id": "technology_mi_portatil_nuevo_es_muy_ligero",
+      "target": [
+        {
+          "text": "Mi portátil nuevo es muy ligero.",
+          "audioSlug": "mi_portatil_nuevo_es_muy_ligero"
+        }
+      ]
+    },
+    "es.transportation_the_train_is_delayed": {
+      "conceptId": "es.transportation_the_train_is_delayed",
+      "id": "transportation_the_train_is_delayed",
+      "target": [
+        {
+          "text": "El tren está retrasado.",
+          "audioSlug": "el_tren_esta_retrasado"
+        }
+      ]
+    },
+    "es.weather_hace_treinta_grados_a_la_sombra": {
+      "conceptId": "es.weather_hace_treinta_grados_a_la_sombra",
+      "id": "weather_hace_treinta_grados_a_la_sombra",
+      "target": [
+        {
+          "text": "Hace treinta grados a la sombra.",
+          "audioSlug": "hace_treinta_grados_a_la_sombra"
+        }
+      ]
+    }
+  }
+}

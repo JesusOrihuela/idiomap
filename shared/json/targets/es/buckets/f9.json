@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "f9",
+  "concepts": {
+    "es.accountability_the_consolidated_financial_statements_reflect": {
+      "conceptId": "es.accountability_the_consolidated_financial_statements_reflect",
+      "id": "accountability_the_consolidated_financial_statements_reflect",
+      "target": [
+        {
+          "text": "Los estados financieros consolidados reflejan la eliminación de transacciones intercompañía.",
+          "audioSlug": "los_estados_financieros_consolidados_reflejan_la_eliminacion_de_transacciones_intercompania"
+        }
+      ]
+    },
+    "es.economia_economy_growing_slowly": {
+      "conceptId": "es.economia_economy_growing_slowly",
+      "id": "economia_economy_growing_slowly",
+      "target": [
+        {
+          "text": "La economía crece lentamente.",
+          "audioSlug": "la_economia_crece_lentamente"
+        }
+      ]
+    },
+    "es.economia_la_empresa_cambio_de_direccion": {
+      "conceptId": "es.economia_la_empresa_cambio_de_direccion",
+      "id": "economia_la_empresa_cambio_de_direccion",
+      "target": [
+        {
+          "text": "La empresa cambió de dirección.",
+          "audioSlug": "la_empresa_cambio_de_direccion"
+        }
+      ]
+    },
+    "es.estudios_escribo_con_un_boligrafo_azul": {
+      "conceptId": "es.estudios_escribo_con_un_boligrafo_azul",
+      "id": "estudios_escribo_con_un_boligrafo_azul",
+      "target": [
+        {
+          "text": "Escribo con un bolígrafo azul.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "escribo_con_un_boligrafo_azul"
+        },
+        {
+          "text": "Escribo con una pluma azul.",
+          "labels": {
+            "region": "México y Centroamérica"
+          },
+          "audioSlug": "escribo_con_una_pluma_azul"
+        },
+        {
+          "text": "Escribo con un lapicero azul.",
+          "labels": {
+            "region": "Región andina"
+          },
+          "audioSlug": "escribo_con_un_lapicero_azul"
+        },
+        {
+          "text": "Escribo con una birome azul.",
+          "labels": {
+            "region": "Río de la Plata"
+          },
+          "audioSlug": "escribo_con_una_birome_azul"
+        }
+      ]
+    },
+    "es.health_tengo_fiebre_y_tos": {
+      "conceptId": "es.health_tengo_fiebre_y_tos",
+      "id": "health_tengo_fiebre_y_tos",
+      "target": [
+        {
+          "text": "Tengo fiebre y tos.",
+          "audioSlug": "tengo_fiebre_y_tos"
+        }
+      ]
+    },
+    "es.kitchen_the_best_side_dish_for_chicken": {
+      "conceptId": "es.kitchen_the_best_side_dish_for_chicken",
+      "id": "kitchen_the_best_side_dish_for_chicken",
+      "target": [
+        {
+          "text": "La mejor guarnición para el pollo es el puré.",
+          "audioSlug": "la_mejor_guarnicion_para_el_pollo_es_el_pure"
+        }
+      ]
+    },
+    "es.kitchen_the_sauce_needs_more_salt": {
+      "conceptId": "es.kitchen_the_sauce_needs_more_salt",
+      "id": "kitchen_the_sauce_needs_more_salt",
+      "target": [
+        {
+          "text": "A la salsa le falta sal.",
+          "audioSlug": "a_la_salsa_le_falta_sal"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_me_gusta_caminar_por_la_montana": {
+      "conceptId": "es.naturaleza_lugares_me_gusta_caminar_por_la_montana",
+      "id": "naturaleza_lugares_me_gusta_caminar_por_la_montana",
+      "target": [
+        {
+          "text": "Me gusta caminar por la montaña.",
+          "audioSlug": "me_gusta_caminar_por_la_montana"
+        }
+      ]
+    },
+    "es.personal_info_ese_artista_es_muy_original": {
+      "conceptId": "es.personal_info_ese_artista_es_muy_original",
+      "id": "personal_info_ese_artista_es_muy_original",
+      "target": [
+        {
+          "text": "Ese artista es muy original.",
+          "audioSlug": "ese_artista_es_muy_original"
+        }
+      ]
+    },
+    "es.profesiones_es_un_buen_trabajador": {
+      "conceptId": "es.profesiones_es_un_buen_trabajador",
+      "id": "profesiones_es_un_buen_trabajador",
+      "target": [
+        {
+          "text": "Es un buen trabajador.",
+          "audioSlug": "es_un_buen_trabajador"
+        }
+      ]
+    },
+    "es.supermarket_i_didnt_find_the_product_i": {
+      "conceptId": "es.supermarket_i_didnt_find_the_product_i",
+      "id": "supermarket_i_didnt_find_the_product_i",
+      "target": [
+        {
+          "text": "No encontré el producto que buscaba.",
+          "audioSlug": "no_encontre_el_producto_que_buscaba"
+        }
+      ]
+    },
+    "es.supermarket_no_encuentro_el_arroz": {
+      "conceptId": "es.supermarket_no_encuentro_el_arroz",
+      "id": "supermarket_no_encuentro_el_arroz",
+      "target": [
+        {
+          "text": "No encuentro el arroz.",
+          "audioSlug": "no_encuentro_el_arroz"
+        }
+      ]
+    },
+    "es.survival_perdon_no_comprendo_la_pregunta": {
+      "conceptId": "es.survival_perdon_no_comprendo_la_pregunta",
+      "id": "survival_perdon_no_comprendo_la_pregunta",
+      "target": [
+        {
+          "text": "Perdón, no comprendo la pregunta.",
+          "audioSlug": "perdon_no_comprendo_la_pregunta"
+        }
+      ]
+    },
+    "es.technology_presiona_el_boton_verde": {
+      "conceptId": "es.technology_presiona_el_boton_verde",
+      "id": "technology_presiona_el_boton_verde",
+      "target": [
+        {
+          "text": "Presiona el botón verde.",
+          "audioSlug": "presiona_el_boton_verde"
+        }
+      ]
+    }
+  }
+}

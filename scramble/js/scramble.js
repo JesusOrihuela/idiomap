@@ -1,6 +1,6 @@
 /* ============================================================
    scramble.js — Word Order Reconstruction with SRS
-   Research basis: CALP Syntactic Reconstruction (Cummins 2000)
+   Practice: rebuild the target word order from the word bank.
    ============================================================ */
 
 

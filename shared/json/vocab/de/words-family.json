@@ -35,7 +35,13 @@
           "audioSlug": "die_kinder"
         }
       ],
-      "conceptId": "de.kind"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bruder",
@@ -72,7 +78,13 @@
           "audioSlug": "die_brueder"
         }
       ],
-      "conceptId": "de.bruder"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "frau",
@@ -109,7 +121,13 @@
           "audioSlug": "die_frauen"
         }
       ],
-      "conceptId": "de.frau"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "vater",
@@ -146,7 +164,13 @@
           "audioSlug": "die_vaeter"
         }
       ],
-      "conceptId": "de.vater"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "mann",
@@ -197,7 +221,13 @@
           "audioSlug": "des_mannes"
         }
       ],
-      "conceptId": "de.mann"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

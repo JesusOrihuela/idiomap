@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "ea",
+  "concepts": {
+    "es.animales_es_una_especie_rara": {
+      "conceptId": "es.animales_es_una_especie_rara",
+      "id": "animales_es_una_especie_rara",
+      "target": [
+        {
+          "text": "Es una especie rara.",
+          "audioSlug": "es_una_especie_rara"
+        }
+      ]
+    },
+    "es.calendario_la_reunion_se_pospuso_hasta_manana": {
+      "conceptId": "es.calendario_la_reunion_se_pospuso_hasta_manana",
+      "id": "calendario_la_reunion_se_pospuso_hasta_manana",
+      "target": [
+        {
+          "text": "La reunión se pospuso hasta mañana.",
+          "audioSlug": "la_reunion_se_pospuso_hasta_manana"
+        }
+      ]
+    },
+    "es.conversacion_me_dijo_que_llegaria": {
+      "conceptId": "es.conversacion_me_dijo_que_llegaria",
+      "id": "conversacion_me_dijo_que_llegaria",
+      "target": [
+        {
+          "text": "Me dijo que llegaría tarde.",
+          "audioSlug": "me_dijo_que_llegaria_tarde"
+        }
+      ]
+    },
+    "es.conversacion_tengo_una_llamada_importante_ahora": {
+      "conceptId": "es.conversacion_tengo_una_llamada_importante_ahora",
+      "id": "conversacion_tengo_una_llamada_importante_ahora",
+      "target": [
+        {
+          "text": "Tengo una llamada importante ahora.",
+          "audioSlug": "tengo_una_llamada_importante_ahora"
+        }
+      ]
+    },
+    "es.cuerpo_mi_tio_tiene_barba_y_bigote": {
+      "conceptId": "es.cuerpo_mi_tio_tiene_barba_y_bigote",
+      "id": "cuerpo_mi_tio_tiene_barba_y_bigote",
+      "target": [
+        {
+          "text": "Mi tío tiene barba y bigote.",
+          "audioSlug": "mi_tio_tiene_barba_y_bigote"
+        }
+      ]
+    },
+    "es.deportes_nuestro_equipo_gano_el_partido": {
+      "conceptId": "es.deportes_nuestro_equipo_gano_el_partido",
+      "id": "deportes_nuestro_equipo_gano_el_partido",
+      "target": [
+        {
+          "text": "Nuestro equipo ganó el partido.",
+          "audioSlug": "nuestro_equipo_gano_el_partido"
+        }
+      ]
+    },
+    "es.economia_utilizo_una_aplicacion_para_mis_gastos": {
+      "conceptId": "es.economia_utilizo_una_aplicacion_para_mis_gastos",
+      "id": "economia_utilizo_una_aplicacion_para_mis_gastos",
+      "target": [
+        {
+          "text": "Utilizo una aplicación para mis gastos.",
+          "audioSlug": "utilizo_una_aplicacion_para_mis_gastos"
+        }
+      ]
+    },
+    "es.emergencias_no_encuentro_mi_telefono": {
+      "conceptId": "es.emergencias_no_encuentro_mi_telefono",
+      "id": "emergencias_no_encuentro_mi_telefono",
+      "target": [
+        {
+          "text": "No encuentro mi teléfono.",
+          "audioSlug": "no_encuentro_mi_telefono"
+        }
+      ]
+    },
+    "es.emociones_im_happy": {
+      "conceptId": "es.emociones_im_happy",
+      "id": "emociones_im_happy",
+      "target": [
+        {
+          "text": "Estoy feliz.",
+          "audioSlug": "estoy_feliz"
+        }
+      ]
+    },
+    "es.family_mis_sobrinos_son_traviesos": {
+      "conceptId": "es.family_mis_sobrinos_son_traviesos",
+      "id": "family_mis_sobrinos_son_traviesos",
+      "target": [
+        {
+          "text": "Mis sobrinos son muy traviesos.",
+          "audioSlug": "mis_sobrinos_son_muy_traviesos"
+        }
+      ]
+    },
+    "es.greetings_un_abrazo": {
+      "conceptId": "es.greetings_un_abrazo",
+      "id": "greetings_un_abrazo",
+      "target": [
+        {
+          "text": "Un abrazo.",
+          "audioSlug": "un_abrazo"
+        }
+      ]
+    },
+    "es.gym_is_it_okay_if_i_work": {
+      "conceptId": "es.gym_is_it_okay_if_i_work",
+      "id": "gym_is_it_okay_if_i_work",
+      "target": [
+        {
+          "text": "¿Está bien si uso esta máquina después de ti?",
+          "audioSlug": "esta_bien_si_uso_esta_maquina_despues_de_ti"
+        }
+      ]
+    },
+    "es.gym_where_can_i_find_towels": {
+      "conceptId": "es.gym_where_can_i_find_towels",
+      "id": "gym_where_can_i_find_towels",
+      "target": [
+        {
+          "text": "¿Dónde puedo encontrar toallas?",
+          "audioSlug": "donde_puedo_encontrar_toallas"
+        }
+      ]
+    },
+    "es.hogar_arreglo_la_bicicleta_en_el_taller": {
+      "conceptId": "es.hogar_arreglo_la_bicicleta_en_el_taller",
+      "id": "hogar_arreglo_la_bicicleta_en_el_taller",
+      "target": [
+        {
+          "text": "Arreglo la bicicleta en el taller.",
+          "audioSlug": "arreglo_la_bicicleta_en_el_taller"
+        }
+      ]
+    },
+    "es.kitchen_the_grill_is_on_the_patio": {
+      "conceptId": "es.kitchen_the_grill_is_on_the_patio",
+      "id": "kitchen_the_grill_is_on_the_patio",
+      "target": [
+        {
+          "text": "La parrilla está en el patio.",
+          "audioSlug": "la_parrilla_esta_en_el_patio"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_en_invierno_cae_mucha_nieve": {
+      "conceptId": "es.naturaleza_lugares_en_invierno_cae_mucha_nieve",
+      "id": "naturaleza_lugares_en_invierno_cae_mucha_nieve",
+      "target": [
+        {
+          "text": "En invierno cae mucha nieve.",
+          "audioSlug": "en_invierno_cae_mucha_nieve"
+        }
+      ]
+    },
+    "es.technology_i_cant_open_this_pdf_file": {
+      "conceptId": "es.technology_i_cant_open_this_pdf_file",
+      "id": "technology_i_cant_open_this_pdf_file",
+      "target": [
+        {
+          "text": "No puedo abrir este archivo PDF, ¿necesito un programa especial?",
+          "audioSlug": "no_puedo_abrir_este_archivo_pdf_necesito_un_programa_especial"
+        }
+      ]
+    }
+  }
+}

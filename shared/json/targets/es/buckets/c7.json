@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "c7",
+  "concepts": {
+    "es.airport_flight_delayed_voucher": {
+      "conceptId": "es.airport_flight_delayed_voucher",
+      "id": "airport_flight_delayed_voucher",
+      "target": [
+        {
+          "text": "Mi vuelo se ha retrasado, ¿puedo recibir un vale de comida?",
+          "audioSlug": "mi_vuelo_se_ha_retrasado_puedo_recibir_un_vale_de_comida"
+        }
+      ]
+    },
+    "es.airport_priority_boarding_boarded_together": {
+      "conceptId": "es.airport_priority_boarding_boarded_together",
+      "id": "airport_priority_boarding_boarded_together",
+      "target": [
+        {
+          "text": "Pagué por embarque prioritario y aun así todos abordaron juntos.",
+          "audioSlug": "pague_por_embarque_prioritario_y_aun_asi_todos_abordaron_juntos"
+        }
+      ]
+    },
+    "es.conversacion_nosotros_llegamos_a_un_acuerdo": {
+      "conceptId": "es.conversacion_nosotros_llegamos_a_un_acuerdo",
+      "id": "conversacion_nosotros_llegamos_a_un_acuerdo",
+      "target": [
+        {
+          "text": "Nosotros llegamos a un acuerdo.",
+          "audioSlug": "nosotros_llegamos_a_un_acuerdo"
+        }
+      ]
+    },
+    "es.descripciones_ese_paisaje_es_simplemente_maravilloso": {
+      "conceptId": "es.descripciones_ese_paisaje_es_simplemente_maravilloso",
+      "id": "descripciones_ese_paisaje_es_simplemente_maravilloso",
+      "target": [
+        {
+          "text": "Ese paisaje es simplemente maravilloso.",
+          "audioSlug": "ese_paisaje_es_simplemente_maravilloso"
+        }
+      ]
+    },
+    "es.emociones_im_disappointed": {
+      "conceptId": "es.emociones_im_disappointed",
+      "id": "emociones_im_disappointed",
+      "target": [
+        {
+          "text": "Estoy decepcionada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_decepcionada"
+        },
+        {
+          "text": "Estoy decepcionado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_decepcionado"
+        }
+      ]
+    },
+    "es.family_how_many_people": {
+      "conceptId": "es.family_how_many_people",
+      "id": "family_how_many_people",
+      "target": [
+        {
+          "text": "¿Cuántas personas hay en tu familia?",
+          "audioSlug": "cuantas_personas_hay_en_tu_familia"
+        }
+      ]
+    },
+    "es.movies_classic_movie": {
+      "conceptId": "es.movies_classic_movie",
+      "id": "movies_classic_movie",
+      "target": [
+        {
+          "text": "Esa película es un clásico, tienes que verla.",
+          "audioSlug": "esa_pelicula_es_un_clasico_tienes_que_verla"
+        }
+      ]
+    },
+    "es.museums_museum_retrospective_evolution": {
+      "conceptId": "es.museums_museum_retrospective_evolution",
+      "id": "museums_museum_retrospective_evolution",
+      "target": [
+        {
+          "text": "La retrospectiva del museo rastrea treinta años de la evolución creativa del artista.",
+          "audioSlug": "la_retrospectiva_del_museo_rastrea_treinta_anos_de_la_evolucion_creativa_del_artista",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "La retrospectiva del museo rastrea treinta años de la evolución creativa de la artista.",
+          "audioSlug": "la_retrospectiva_del_museo_rastrea_treinta_anos_de_la_evolucion_creativa_de_la_artista",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.personal_info_respeto_todas_las_religiones_del_mundo": {
+      "conceptId": "es.personal_info_respeto_todas_las_religiones_del_mundo",
+      "id": "personal_info_respeto_todas_las_religiones_del_mundo",
+      "target": [
+        {
+          "text": "Respeto todas las religiones del mundo.",
+          "audioSlug": "respeto_todas_las_religiones_del_mundo"
+        }
+      ]
+    },
+    "es.technology_el_aparato_funciona_con_energia_electrica": {
+      "conceptId": "es.technology_el_aparato_funciona_con_energia_electrica",
+      "id": "technology_el_aparato_funciona_con_energia_electrica",
+      "target": [
+        {
+          "text": "El aparato funciona con energía eléctrica.",
+          "audioSlug": "el_aparato_funciona_con_energia_electrica"
+        }
+      ]
+    }
+  }
+}

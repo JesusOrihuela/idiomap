@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "d5",
+  "concepts": {
+    "en.greetings_ive_had_a_great_day": {
+      "conceptId": "en.greetings_ive_had_a_great_day",
+      "id": "greetings_ive_had_a_great_day",
+      "target": [
+        {
+          "text": "I've had a great day.",
+          "audioSlug": "i_ve_had_a_great_day"
+        }
+      ]
+    },
+    "en.gym_could_you_tell_me_if_im": {
+      "conceptId": "en.gym_could_you_tell_me_if_im",
+      "id": "gym_could_you_tell_me_if_im",
+      "target": [
+        {
+          "text": "Could you tell me if I'm doing this exercise correctly?",
+          "audioSlug": "could_you_tell_me_if_i_m_doing_this_exercise_correctly",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you tell me if I'm doing this exercise correctly?",
+          "audioSlug": "can_you_tell_me_if_i_m_doing_this_exercise_correctly",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.movies_original_version_subtitles": {
+      "conceptId": "en.movies_original_version_subtitles",
+      "id": "movies_original_version_subtitles",
+      "target": [
+        {
+          "text": "I'd rather watch it in the original version with subtitles.",
+          "audioSlug": "i_d_rather_watch_it_in_the_original_version_with_subtitles"
+        }
+      ]
+    },
+    "en.movies_sequel_live_up_original": {
+      "conceptId": "en.movies_sequel_live_up_original",
+      "id": "movies_sequel_live_up_original",
+      "target": [
+        {
+          "text": "The sequel had a bigger budget but never lived up to the original.",
+          "audioSlug": "the_sequel_had_a_bigger_budget_but_never_lived_up_to_the_original"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_he_tends_to_forget": {
+      "conceptId": "en.pensamientos_opiniones_he_tends_to_forget",
+      "id": "pensamientos_opiniones_he_tends_to_forget",
+      "target": [
+        {
+          "text": "He tends to forget.",
+          "audioSlug": "he_tends_to_forget"
+        }
+      ]
+    },
+    "en.restaurant_do_you_have_any_desserts_available": {
+      "conceptId": "en.restaurant_do_you_have_any_desserts_available",
+      "id": "restaurant_do_you_have_any_desserts_available",
+      "target": [
+        {
+          "text": "Do you have any desserts available?",
+          "audioSlug": "do_you_have_any_desserts_available"
+        }
+      ]
+    },
+    "en.sitios_the_wall_is_very_high": {
+      "conceptId": "en.sitios_the_wall_is_very_high",
+      "id": "sitios_the_wall_is_very_high",
+      "target": [
+        {
+          "text": "The wall is very high.",
+          "audioSlug": "the_wall_is_very_high"
+        }
+      ]
+    },
+    "en.transportation_delayed_apply_compensation": {
+      "conceptId": "en.transportation_delayed_apply_compensation",
+      "id": "transportation_delayed_apply_compensation",
+      "target": [
+        {
+          "text": "My train was delayed by over an hour. Can I apply for compensation?",
+          "audioSlug": "my_train_was_delayed_by_over_an_hour_can_i_apply_for_compensation"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "e7",
+  "concepts": {
+    "en.daily_routine_i_watch_tv_at_night": {
+      "conceptId": "en.daily_routine_i_watch_tv_at_night",
+      "id": "daily_routine_i_watch_tv_at_night",
+      "target": [
+        {
+          "text": "I watch television at night.",
+          "audioSlug": "i_watch_television_at_night"
+        }
+      ]
+    },
+    "en.directions_follow_the_signs": {
+      "conceptId": "en.directions_follow_the_signs",
+      "id": "directions_follow_the_signs",
+      "target": [
+        {
+          "text": "Follow the signs.",
+          "audioSlug": "follow_the_signs"
+        }
+      ]
+    },
+    "en.family_that_woman_is_my_aunt": {
+      "conceptId": "en.family_that_woman_is_my_aunt",
+      "id": "family_that_woman_is_my_aunt",
+      "target": [
+        {
+          "text": "That woman is my aunt.",
+          "audioSlug": "that_woman_is_my_aunt"
+        }
+      ]
+    },
+    "en.gym_pre_workout_meal_timing": {
+      "conceptId": "en.gym_pre_workout_meal_timing",
+      "id": "gym_pre_workout_meal_timing",
+      "target": [
+        {
+          "text": "What should I eat before a workout, and how long before?",
+          "audioSlug": "what_should_i_eat_before_a_workout_and_how_long_before"
+        }
+      ]
+    },
+    "en.music_i_love_to_sing": {
+      "conceptId": "en.music_i_love_to_sing",
+      "id": "music_i_love_to_sing",
+      "target": [
+        {
+          "text": "I love to sing.",
+          "audioSlug": "i_love_to_sing"
+        }
+      ]
+    },
+    "en.music_new_concert_band": {
+      "conceptId": "en.music_new_concert_band",
+      "id": "music_new_concert_band",
+      "target": [
+        {
+          "text": "My favorite band has a new concert coming up.",
+          "audioSlug": "my_favorite_band_has_a_new_concert_coming_up"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_the_fire_is_hot": {
+      "conceptId": "en.naturaleza_lugares_the_fire_is_hot",
+      "id": "naturaleza_lugares_the_fire_is_hot",
+      "target": [
+        {
+          "text": "The fire is hot.",
+          "audioSlug": "the_fire_is_hot"
+        }
+      ]
+    },
+    "en.technology_i_dont_know_where_the_portable": {
+      "conceptId": "en.technology_i_dont_know_where_the_portable",
+      "id": "technology_i_dont_know_where_the_portable",
+      "target": [
+        {
+          "text": "I don't know where the portable battery is.",
+          "audioSlug": "i_don_t_know_where_the_portable_battery_is"
+        }
+      ]
+    }
+  }
+}

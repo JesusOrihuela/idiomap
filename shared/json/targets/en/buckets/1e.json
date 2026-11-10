@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "1e",
+  "concepts": {
+    "en.conversacion_i_bought_a_magazine": {
+      "conceptId": "en.conversacion_i_bought_a_magazine",
+      "id": "conversacion_i_bought_a_magazine",
+      "target": [
+        {
+          "text": "I bought a magazine.",
+          "audioSlug": "i_bought_a_magazine"
+        }
+      ]
+    },
+    "en.health_i_have_a_cold": {
+      "conceptId": "en.health_i_have_a_cold",
+      "id": "health_i_have_a_cold",
+      "target": [
+        {
+          "text": "I have a cold.",
+          "audioSlug": "i_have_a_cold"
+        }
+      ]
+    },
+    "en.movies_disappointed_last_season": {
+      "conceptId": "en.movies_disappointed_last_season",
+      "id": "movies_disappointed_last_season",
+      "target": [
+        {
+          "text": "The last season of that series disappointed me.",
+          "audioSlug": "the_last_season_of_that_series_disappointed_me"
+        }
+      ]
+    },
+    "en.music_festival_lineup_disappointing": {
+      "conceptId": "en.music_festival_lineup_disappointing",
+      "id": "music_festival_lineup_disappointing",
+      "target": [
+        {
+          "text": "I think the festival lineup this year is disappointing. Too many commercial acts.",
+          "audioSlug": "i_think_the_festival_lineup_this_year_is_disappointing_too_many_commercial_acts"
+        }
+      ]
+    },
+    "en.planes_we_must_reach_a_deal": {
+      "conceptId": "en.planes_we_must_reach_a_deal",
+      "id": "planes_we_must_reach_a_deal",
+      "target": [
+        {
+          "text": "We must reach a deal.",
+          "audioSlug": "we_must_reach_a_deal"
+        }
+      ]
+    }
+  }
+}

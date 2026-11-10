@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "75",
+  "concepts": {
+    "en.accommodation_power_adapters": {
+      "conceptId": "en.accommodation_power_adapters",
+      "id": "accommodation_power_adapters",
+      "target": [
+        {
+          "text": "Do you have power adapters for international devices?",
+          "audioSlug": "do_you_have_power_adapters_for_international_devices"
+        }
+      ]
+    },
+    "en.accountability_materiality_threshold_consolidated_net_assets": {
+      "conceptId": "en.accountability_materiality_threshold_consolidated_net_assets",
+      "id": "accountability_materiality_threshold_consolidated_net_assets",
+      "target": [
+        {
+          "text": "The materiality threshold was set at two percent of consolidated net assets for audit purposes.",
+          "audioSlug": "the_materiality_threshold_was_set_at_two_percent_of_consolidated_net_assets_for_audit_purposes"
+        }
+      ]
+    },
+    "en.daily_routine_i_get_up_at_seven": {
+      "conceptId": "en.daily_routine_i_get_up_at_seven",
+      "id": "daily_routine_i_get_up_at_seven",
+      "target": [
+        {
+          "text": "I get up at seven.",
+          "audioSlug": "i_get_up_at_seven"
+        }
+      ]
+    },
+    "en.directions_turn_left": {
+      "conceptId": "en.directions_turn_left",
+      "id": "directions_turn_left",
+      "target": [
+        {
+          "text": "Turn left at the corner.",
+          "audioSlug": "turn_left_at_the_corner"
+        }
+      ]
+    },
+    "en.family_he_is_my_neighbor": {
+      "conceptId": "en.family_he_is_my_neighbor",
+      "id": "family_he_is_my_neighbor",
+      "target": [
+        {
+          "text": "He is my neighbor.",
+          "audioSlug": "he_is_my_neighbor"
+        }
+      ]
+    },
+    "en.gym_i_would_like_to_work_on": {
+      "conceptId": "en.gym_i_would_like_to_work_on",
+      "id": "gym_i_would_like_to_work_on",
+      "target": [
+        {
+          "text": "I would like to work on leg strength.",
+          "audioSlug": "i_would_like_to_work_on_leg_strength",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "I'd like to work on leg strength.",
+          "audioSlug": "i_d_like_to_work_on_leg_strength",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.kitchen_we_need_to_take_the_meat": {
+      "conceptId": "en.kitchen_we_need_to_take_the_meat",
+      "id": "kitchen_we_need_to_take_the_meat",
+      "target": [
+        {
+          "text": "We need to take the meat out of the freezer.",
+          "audioSlug": "we_need_to_take_the_meat_out_of_the_freezer"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_we_must_protect_the_environment": {
+      "conceptId": "en.naturaleza_lugares_we_must_protect_the_environment",
+      "id": "naturaleza_lugares_we_must_protect_the_environment",
+      "target": [
+        {
+          "text": "We must protect the environment.",
+          "audioSlug": "we_must_protect_the_environment"
+        }
+      ]
+    },
+    "en.oficina_we_have_a_new_client": {
+      "conceptId": "en.oficina_we_have_a_new_client",
+      "id": "oficina_we_have_a_new_client",
+      "target": [
+        {
+          "text": "We have a new client.",
+          "audioSlug": "we_have_a_new_client",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "We have a new customer.",
+          "audioSlug": "we_have_a_new_customer",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.personal_info_what_languages": {
+      "conceptId": "en.personal_info_what_languages",
+      "id": "personal_info_what_languages",
+      "target": [
+        {
+          "text": "What languages do you speak?",
+          "audioSlug": "what_languages_do_you_speak"
+        }
+      ]
+    },
+    "en.sitios_neighborhood_very_quiet": {
+      "conceptId": "en.sitios_neighborhood_very_quiet",
+      "id": "sitios_neighborhood_very_quiet",
+      "target": [
+        {
+          "text": "This neighborhood is very quiet.",
+          "audioSlug": "this_neighborhood_is_very_quiet"
+        }
+      ]
+    }
+  }
+}

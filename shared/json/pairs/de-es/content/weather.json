@@ -1,27 +1,267 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "weather",
-  "conceptIds": [
-    "es.weather_hoy_hace_mucho_calor",
-    "es.weather_esta_lloviendo",
-    "es.weather_manana_va_a_nevar",
-    "es.weather_hace_mucho_viento_en_otono",
-    "es.weather_el_cielo_esta_nublado",
-    "es.weather_que_tiempo_hace_hoy",
-    "es.weather_en_verano_hace_sol",
-    "es.weather_hace_frio_ponte_un_abrigo",
-    "es.weather_parece_que_va_a_llover",
-    "es.weather_la_temperatura_bajo_mucho_anoche",
-    "es.weather_hay_muchas_nubes_en_el_cielo",
-    "es.weather_se_acerca_una_tormenta_fuerte",
-    "es.weather_el_clima_esta_muy_humedo",
-    "es.weather_hoy_es_un_dia_soleado",
-    "es.weather_el_viento_sopla_muy_fuerte",
-    "es.weather_en_el_desierto_casi_nunca_llueve",
-    "es.weather_la_primavera_es_mi_estacion_favorita",
-    "es.weather_hace_treinta_grados_a_la_sombra",
-    "es.weather_la_lluvia_no_para_desde_ayer",
-    "es.weather_un_fuerte_temporal_azoto_la_costa"
+  "phrases": [
+    {
+      "conceptId": "es.weather_hoy_hace_mucho_calor",
+      "level": "A1",
+      "grammar": "para el clima se usa hacer, hace calor.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a71182302b6ec5e1"
+    },
+    {
+      "conceptId": "es.weather_esta_lloviendo",
+      "level": "A1",
+      "grammar": "estar más gerundio expresa una acción en curso, está lloviendo.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.677d5f5233a53b72"
+    },
+    {
+      "conceptId": "es.weather_manana_va_a_nevar",
+      "level": "A2",
+      "grammar": "ir a más infinitivo expresa un pronóstico, va a nevar.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8b17e81bdcd37db4"
+    },
+    {
+      "conceptId": "es.weather_hace_mucho_viento_en_otono",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.016dd94c593d54e6"
+    },
+    {
+      "conceptId": "es.weather_el_cielo_esta_nublado",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.611c569f9e5146c2"
+    },
+    {
+      "conceptId": "es.weather_que_tiempo_hace_hoy",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a9169cd58a12b4d8"
+    },
+    {
+      "conceptId": "es.weather_en_verano_hace_sol",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a62c8dcefe90e4a3"
+    },
+    {
+      "conceptId": "es.weather_hace_frio_ponte_un_abrigo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f3fcbd32fec7edd2"
+    },
+    {
+      "conceptId": "es.weather_parece_que_va_a_llover",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.04ce4c3f6bcdf14c"
+    },
+    {
+      "conceptId": "es.weather_la_temperatura_bajo_mucho_anoche",
+      "level": "B1",
+      "grammar": "bajó es pretérito indefinido, para una acción terminada, anoche.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.827146bc3275b394"
+    },
+    {
+      "conceptId": "es.weather_hay_muchas_nubes_en_el_cielo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.758dad74d2cc1bf9"
+    },
+    {
+      "conceptId": "es.weather_se_acerca_una_tormenta_fuerte",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f0ab544a93e3d692"
+    },
+    {
+      "conceptId": "es.weather_el_clima_esta_muy_humedo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c4811b8644bd4306"
+    },
+    {
+      "conceptId": "es.weather_hoy_es_un_dia_soleado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.292bbbaadc521c5c"
+    },
+    {
+      "conceptId": "es.weather_el_viento_sopla_muy_fuerte",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.052e8ac684b0806f"
+    },
+    {
+      "conceptId": "es.weather_en_el_desierto_casi_nunca_llueve",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ec11900a4823d9e2"
+    },
+    {
+      "conceptId": "es.weather_la_primavera_es_mi_estacion_favorita",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8aba9be3af62592f"
+    },
+    {
+      "conceptId": "es.weather_hace_treinta_grados_a_la_sombra",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b83f33f1968f0f46"
+    },
+    {
+      "conceptId": "es.weather_la_lluvia_no_para_desde_ayer",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d19a3369585dfd05"
+    },
+    {
+      "conceptId": "es.weather_un_fuerte_temporal_azoto_la_costa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0764ae3bc0f6f3ce"
+    }
   ]
 }

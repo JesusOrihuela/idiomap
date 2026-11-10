@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "53",
+  "concepts": {
+    "en.accommodation_extend_stay_same_rate": {
+      "conceptId": "en.accommodation_extend_stay_same_rate",
+      "id": "accommodation_extend_stay_same_rate",
+      "target": [
+        {
+          "text": "Can I extend my stay two nights at the same rate?",
+          "audioSlug": "can_i_extend_my_stay_two_nights_at_the_same_rate"
+        }
+      ]
+    },
+    "en.emociones_im_confused": {
+      "conceptId": "en.emociones_im_confused",
+      "id": "emociones_im_confused",
+      "target": [
+        {
+          "text": "I'm confused.",
+          "audioSlug": "i_m_confused"
+        }
+      ]
+    },
+    "en.health_i_need_a_prescription": {
+      "conceptId": "en.health_i_need_a_prescription",
+      "id": "health_i_need_a_prescription",
+      "target": [
+        {
+          "text": "I need a prescription.",
+          "audioSlug": "i_need_a_prescription"
+        }
+      ]
+    },
+    "en.health_you_should_drink_water": {
+      "conceptId": "en.health_you_should_drink_water",
+      "id": "health_you_should_drink_water",
+      "target": [
+        {
+          "text": "You should drink a lot of water.",
+          "audioSlug": "you_should_drink_a_lot_of_water"
+        }
+      ]
+    },
+    "en.planes_my_answer_is_final": {
+      "conceptId": "en.planes_my_answer_is_final",
+      "id": "planes_my_answer_is_final",
+      "target": [
+        {
+          "text": "My answer is final.",
+          "audioSlug": "my_answer_is_final"
+        }
+      ]
+    },
+    "en.technology_i_love_the_camera_on_this": {
+      "conceptId": "en.technology_i_love_the_camera_on_this",
+      "id": "technology_i_love_the_camera_on_this",
+      "target": [
+        {
+          "text": "I love the camera on this phone.",
+          "audioSlug": "i_love_the_camera_on_this_phone"
+        }
+      ]
+    }
+  }
+}

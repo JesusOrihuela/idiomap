@@ -1,35 +1,371 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "politica",
-  "conceptIds": [
-    "es.politica_es_un_tema_politico",
-    "es.politica_voy_a_votar_manana",
-    "es.politica_el_presidente_dio_un_discurso",
-    "es.politica_hay_elecciones_este_ano",
-    "es.politica_el_gobierno_aprobo_una_ley",
-    "es.politica_el_partido_gano_las_elecciones",
-    "es.politica_la_gente_protesta_en_la_calle",
-    "es.politica_el_alcalde_visito_el_pueblo",
-    "es.politica_muchos_jovenes_votan_por_primera_vez",
-    "es.politica_la_politica_me_interesa_mucho",
-    "es.politica_cada_voto_cuenta",
-    "es.politica_la_guerra_continua",
-    "es.politica_el_rey_viene",
-    "es.politica_somos_la_sociedad",
-    "es.politica_que_es_la_libertad",
-    "es.politica_vamos_a_luchar",
-    "es.politica_paz_en_el_mundo",
-    "es.politica_muchos_cristianos_van_a_la_iglesia",
-    "es.politica_los_musulmanes_rezan_en_la_mezquita",
-    "es.politica_el_monje_budista_vive_en_un_templo",
-    "es.politica_el_principe_visito_la_ciudad",
-    "es.politica_la_reina_saludo_a_la_gente",
-    "es.politica_el_ministro_anuncio_una_medida",
-    "es.politica_el_juez_escucho_a_las_partes",
-    "es.politica_cada_religion_tiene_sus_fiestas",
-    "es.politica_la_ciudad_tiene_un_millon_de_habitantes",
-    "es.politica_el_ejercito_desfilo_por_la_ciudad",
-    "es.politica_la_princesa_saludo_desde_el_balcon"
+  "phrases": [
+    {
+      "conceptId": "es.politica_es_un_tema_politico",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9a4dba467a26875d"
+    },
+    {
+      "conceptId": "es.politica_voy_a_votar_manana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a034cc8b197f3dcf"
+    },
+    {
+      "conceptId": "es.politica_el_presidente_dio_un_discurso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.94481bdba2aaad32"
+    },
+    {
+      "conceptId": "es.politica_hay_elecciones_este_ano",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c970e4bf8db101b8"
+    },
+    {
+      "conceptId": "es.politica_el_gobierno_aprobo_una_ley",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.aad47a00c3233e3d"
+    },
+    {
+      "conceptId": "es.politica_el_partido_gano_las_elecciones",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7840fbe496fd0ebb"
+    },
+    {
+      "conceptId": "es.politica_la_gente_protesta_en_la_calle",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.970d382da9eed770"
+    },
+    {
+      "conceptId": "es.politica_el_alcalde_visito_el_pueblo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.331be1f33e8c5939"
+    },
+    {
+      "conceptId": "es.politica_muchos_jovenes_votan_por_primera_vez",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.853c351a7b169c73"
+    },
+    {
+      "conceptId": "es.politica_la_politica_me_interesa_mucho",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.96614c4aad640f98"
+    },
+    {
+      "conceptId": "es.politica_cada_voto_cuenta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b4044e4e5ae588ce"
+    },
+    {
+      "conceptId": "es.politica_la_guerra_continua",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f1a46873313588c8"
+    },
+    {
+      "conceptId": "es.politica_el_rey_viene",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f00305474745eda9"
+    },
+    {
+      "conceptId": "es.politica_somos_la_sociedad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4f987ec61db9f4a9"
+    },
+    {
+      "conceptId": "es.politica_que_es_la_libertad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7727cd6eb5702cc4"
+    },
+    {
+      "conceptId": "es.politica_vamos_a_luchar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bec57a95219b2683"
+    },
+    {
+      "conceptId": "es.politica_paz_en_el_mundo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e1c27f1db886f722"
+    },
+    {
+      "conceptId": "es.politica_muchos_cristianos_van_a_la_iglesia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b08b716916268f94"
+    },
+    {
+      "conceptId": "es.politica_los_musulmanes_rezan_en_la_mezquita",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d17bdc522c95308b"
+    },
+    {
+      "conceptId": "es.politica_el_monje_budista_vive_en_un_templo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.760d38d2e3b4491a"
+    },
+    {
+      "conceptId": "es.politica_el_principe_visito_la_ciudad",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e1a352544af9cb6c"
+    },
+    {
+      "conceptId": "es.politica_la_reina_saludo_a_la_gente",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a000e4838c3267fa"
+    },
+    {
+      "conceptId": "es.politica_el_ministro_anuncio_una_medida",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8b34e199ac9dfcbe"
+    },
+    {
+      "conceptId": "es.politica_el_juez_escucho_a_las_partes",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.dd56371ca9fc52af"
+    },
+    {
+      "conceptId": "es.politica_cada_religion_tiene_sus_fiestas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cd153b8b0c5a8c67"
+    },
+    {
+      "conceptId": "es.politica_la_ciudad_tiene_un_millon_de_habitantes",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.41c3e696d6104b26"
+    },
+    {
+      "conceptId": "es.politica_el_ejercito_desfilo_por_la_ciudad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.20fbd56651ff4162"
+    },
+    {
+      "conceptId": "es.politica_la_princesa_saludo_desde_el_balcon",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1545a1831df1c832"
+    }
   ]
 }

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "f5",
+  "concepts": {
+    "es.cotidianidad_mandame_un_mensaje": {
+      "conceptId": "es.cotidianidad_mandame_un_mensaje",
+      "id": "cotidianidad_mandame_un_mensaje",
+      "target": [
+        {
+          "text": "Mándame un mensaje cuando llegues.",
+          "audioSlug": "mandame_un_mensaje_cuando_llegues"
+        }
+      ]
+    },
+    "es.descripciones_este_pueblo_es_pobre": {
+      "conceptId": "es.descripciones_este_pueblo_es_pobre",
+      "id": "descripciones_este_pueblo_es_pobre",
+      "target": [
+        {
+          "text": "Este pueblo es muy pobre.",
+          "audioSlug": "este_pueblo_es_muy_pobre"
+        }
+      ]
+    },
+    "es.family_mi_tio_vive_lejos": {
+      "conceptId": "es.family_mi_tio_vive_lejos",
+      "id": "family_mi_tio_vive_lejos",
+      "target": [
+        {
+          "text": "Mi tío vive lejos de aquí.",
+          "audioSlug": "mi_tio_vive_lejos_de_aqui"
+        }
+      ]
+    },
+    "es.greetings_hows_your_week_been": {
+      "conceptId": "es.greetings_hows_your_week_been",
+      "id": "greetings_hows_your_week_been",
+      "target": [
+        {
+          "text": "¿Cómo ha estado tu semana?",
+          "audioSlug": "como_ha_estado_tu_semana"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_vamos_a_la_montana": {
+      "conceptId": "es.naturaleza_lugares_vamos_a_la_montana",
+      "id": "naturaleza_lugares_vamos_a_la_montana",
+      "target": [
+        {
+          "text": "Vamos a la montaña.",
+          "audioSlug": "vamos_a_la_montana"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_vamos_a_la_playa": {
+      "conceptId": "es.naturaleza_lugares_vamos_a_la_playa",
+      "id": "naturaleza_lugares_vamos_a_la_playa",
+      "target": [
+        {
+          "text": "Vamos a la playa.",
+          "audioSlug": "vamos_a_la_playa"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_no_hay_que_odiar_a_nadie": {
+      "conceptId": "es.pensamientos_opiniones_no_hay_que_odiar_a_nadie",
+      "id": "pensamientos_opiniones_no_hay_que_odiar_a_nadie",
+      "target": [
+        {
+          "text": "No hay que odiar a nadie.",
+          "audioSlug": "no_hay_que_odiar_a_nadie"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_se_lo_que_tengo_que_hacer": {
+      "conceptId": "es.pensamientos_opiniones_se_lo_que_tengo_que_hacer",
+      "id": "pensamientos_opiniones_se_lo_que_tengo_que_hacer",
+      "target": [
+        {
+          "text": "Sé lo que tengo que hacer.",
+          "audioSlug": "se_lo_que_tengo_que_hacer"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_ya_no_queda_tiempo": {
+      "conceptId": "es.pensamientos_opiniones_ya_no_queda_tiempo",
+      "id": "pensamientos_opiniones_ya_no_queda_tiempo",
+      "target": [
+        {
+          "text": "Ya no queda tiempo para dudar.",
+          "audioSlug": "ya_no_queda_tiempo_para_dudar"
+        }
+      ]
+    },
+    "es.personal_info_are_you_married": {
+      "conceptId": "es.personal_info_are_you_married",
+      "id": "personal_info_are_you_married",
+      "target": [
+        {
+          "text": "¿Estás casado?",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estas_casado"
+        },
+        {
+          "text": "¿Estás casada?",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estas_casada"
+        }
+      ]
+    },
+    "es.restaurant_aqui_sirven_comida_tipica": {
+      "conceptId": "es.restaurant_aqui_sirven_comida_tipica",
+      "id": "restaurant_aqui_sirven_comida_tipica",
+      "target": [
+        {
+          "text": "Aquí sirven comida típica.",
+          "audioSlug": "aqui_sirven_comida_tipica"
+        }
+      ]
+    },
+    "es.restaurant_me_puede_traer_la_carta": {
+      "conceptId": "es.restaurant_me_puede_traer_la_carta",
+      "id": "restaurant_me_puede_traer_la_carta",
+      "target": [
+        {
+          "text": "¿Me puede traer la carta?",
+          "audioSlug": "me_puede_traer_la_carta"
+        }
+      ]
+    },
+    "es.tiempo_libre_compre_una_revista_de_moda": {
+      "conceptId": "es.tiempo_libre_compre_una_revista_de_moda",
+      "id": "tiempo_libre_compre_una_revista_de_moda",
+      "target": [
+        {
+          "text": "Compré una revista de moda.",
+          "audioSlug": "compre_una_revista_de_moda"
+        }
+      ]
+    },
+    "es.tiempo_libre_ese_cantante_tiene_mucho_exito": {
+      "conceptId": "es.tiempo_libre_ese_cantante_tiene_mucho_exito",
+      "id": "tiempo_libre_ese_cantante_tiene_mucho_exito",
+      "target": [
+        {
+          "text": "Ese cantante tiene mucho éxito.",
+          "audioSlug": "ese_cantante_tiene_mucho_exito"
+        }
+      ]
+    },
+    "es.weather_whats_the_weather": {
+      "conceptId": "es.weather_whats_the_weather",
+      "id": "weather_whats_the_weather",
+      "target": [
+        {
+          "text": "¿Qué tiempo hace?",
+          "audioSlug": "que_tiempo_hace"
+        }
+      ]
+    }
+  }
+}

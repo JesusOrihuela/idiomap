@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "33",
+  "concepts": {
+    "en.accountability_transfer_pricing_documented_tax_authorities": {
+      "conceptId": "en.accountability_transfer_pricing_documented_tax_authorities",
+      "id": "accountability_transfer_pricing_documented_tax_authorities",
+      "target": [
+        {
+          "text": "The transfer pricing policy must be documented to withstand scrutiny from tax authorities.",
+          "audioSlug": "the_transfer_pricing_policy_must_be_documented_to_withstand_scrutiny_from_tax_authorities"
+        }
+      ]
+    },
+    "en.gym_is_there_a_specific_order_i": {
+      "conceptId": "en.gym_is_there_a_specific_order_i",
+      "id": "gym_is_there_a_specific_order_i",
+      "target": [
+        {
+          "text": "Is there a specific order for the machines?",
+          "audioSlug": "is_there_a_specific_order_for_the_machines"
+        }
+      ]
+    },
+    "en.movies_prefer_cinema_home": {
+      "conceptId": "en.movies_prefer_cinema_home",
+      "id": "movies_prefer_cinema_home",
+      "target": [
+        {
+          "text": "I prefer to watch movies at the cinema.",
+          "labels": {
+            "region": "US"
+          },
+          "audioSlug": "i_prefer_to_watch_movies_at_the_cinema"
+        },
+        {
+          "text": "I prefer to watch films at the cinema.",
+          "labels": {
+            "region": "UK"
+          },
+          "audioSlug": "i_prefer_to_watch_films_at_the_cinema"
+        }
+      ]
+    },
+    "en.movies_they_appear_on_tv": {
+      "conceptId": "en.movies_they_appear_on_tv",
+      "id": "movies_they_appear_on_tv",
+      "target": [
+        {
+          "text": "They appear on TV.",
+          "audioSlug": "they_appear_on_tv"
+        }
+      ]
+    },
+    "en.technology_i_enabled_biometric_authentication_so": {
+      "conceptId": "en.technology_i_enabled_biometric_authentication_so",
+      "id": "technology_i_enabled_biometric_authentication_so",
+      "target": [
+        {
+          "text": "I enabled biometric authentication so that unlocking my device is both faster and more secure.",
+          "audioSlug": "i_enabled_biometric_authentication_so_that_unlocking_my_device_is_both_faster_and_more_secure"
+        }
+      ]
+    },
+    "en.technology_i_enabled_dark_mode_to_reduce": {
+      "conceptId": "en.technology_i_enabled_dark_mode_to_reduce",
+      "id": "technology_i_enabled_dark_mode_to_reduce",
+      "target": [
+        {
+          "text": "I enabled dark mode to reduce eye strain and save battery on my OLED.",
+          "audioSlug": "i_enabled_dark_mode_to_reduce_eye_strain_and_save_battery_on_my_oled"
+        }
+      ]
+    }
+  }
+}

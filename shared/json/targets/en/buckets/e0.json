@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "e0",
+  "concepts": {
+    "en.accountability_pay_invoice": {
+      "conceptId": "en.accountability_pay_invoice",
+      "id": "accountability_pay_invoice",
+      "target": [
+        {
+          "text": "I need to pay this invoice.",
+          "audioSlug": "i_need_to_pay_this_invoice"
+        }
+      ]
+    },
+    "en.animales_the_cat_is_black": {
+      "conceptId": "en.animales_the_cat_is_black",
+      "id": "animales_the_cat_is_black",
+      "target": [
+        {
+          "text": "The cat is black.",
+          "audioSlug": "the_cat_is_black"
+        }
+      ]
+    },
+    "en.gym_how_many_repetitions_should_i_do": {
+      "conceptId": "en.gym_how_many_repetitions_should_i_do",
+      "id": "gym_how_many_repetitions_should_i_do",
+      "target": [
+        {
+          "text": "How many repetitions should I do for this exercise?",
+          "audioSlug": "how_many_repetitions_should_i_do_for_this_exercise"
+        }
+      ]
+    },
+    "en.health_he_broke_a_bone": {
+      "conceptId": "en.health_he_broke_a_bone",
+      "id": "health_he_broke_a_bone",
+      "target": [
+        {
+          "text": "He broke a bone.",
+          "audioSlug": "he_broke_a_bone"
+        }
+      ]
+    },
+    "en.hogar_we_need_to_clean_the_kitchen": {
+      "conceptId": "en.hogar_we_need_to_clean_the_kitchen",
+      "id": "hogar_we_need_to_clean_the_kitchen",
+      "target": [
+        {
+          "text": "We need to clean the kitchen.",
+          "audioSlug": "we_need_to_clean_the_kitchen"
+        }
+      ]
+    },
+    "en.kitchen_deglaze_pan_white_wine": {
+      "conceptId": "en.kitchen_deglaze_pan_white_wine",
+      "id": "kitchen_deglaze_pan_white_wine",
+      "target": [
+        {
+          "text": "I usually deglaze the pan with white wine to build the sauce's flavor base.",
+          "audioSlug": "i_usually_deglaze_the_pan_with_white_wine_to_build_the_sauce_s_flavor_base"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_each_individual_differently": {
+      "conceptId": "en.pensamientos_opiniones_each_individual_differently",
+      "id": "pensamientos_opiniones_each_individual_differently",
+      "target": [
+        {
+          "text": "Perhaps each individual sees it differently.",
+          "audioSlug": "perhaps_each_individual_sees_it_differently"
+        }
+      ]
+    },
+    "en.technology_how_do_you_do_this_in": {
+      "conceptId": "en.technology_how_do_you_do_this_in",
+      "id": "technology_how_do_you_do_this_in",
+      "target": [
+        {
+          "text": "How do you do this in Excel?",
+          "audioSlug": "how_do_you_do_this_in_excel"
+        }
+      ]
+    },
+    "en.technology_i_need_to_charge_my_phone": {
+      "conceptId": "en.technology_i_need_to_charge_my_phone",
+      "id": "technology_i_need_to_charge_my_phone",
+      "target": [
+        {
+          "text": "Do you have a charger for my phone?",
+          "audioSlug": "do_you_have_a_charger_for_my_phone"
+        }
+      ]
+    }
+  }
+}

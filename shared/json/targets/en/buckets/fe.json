@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "fe",
+  "concepts": {
+    "en.cotidianidad_can_you_pick_it_up": {
+      "conceptId": "en.cotidianidad_can_you_pick_it_up",
+      "id": "cotidianidad_can_you_pick_it_up",
+      "target": [
+        {
+          "text": "Can you pick it up?",
+          "audioSlug": "can_you_pick_it_up"
+        }
+      ]
+    },
+    "en.deportes_i_ran_around_the_field": {
+      "conceptId": "en.deportes_i_ran_around_the_field",
+      "id": "deportes_i_ran_around_the_field",
+      "target": [
+        {
+          "text": "I ran around the field.",
+          "audioSlug": "i_ran_around_the_field"
+        }
+      ]
+    },
+    "en.economia_they_made_a_good_offer": {
+      "conceptId": "en.economia_they_made_a_good_offer",
+      "id": "economia_they_made_a_good_offer",
+      "target": [
+        {
+          "text": "They made a good offer.",
+          "audioSlug": "they_made_a_good_offer"
+        }
+      ]
+    },
+    "en.family_every_child_needs_love": {
+      "conceptId": "en.family_every_child_needs_love",
+      "id": "family_every_child_needs_love",
+      "target": [
+        {
+          "text": "Every child needs love.",
+          "audioSlug": "every_child_needs_love"
+        }
+      ]
+    },
+    "en.gym_what_is_the_correct_form_for": {
+      "conceptId": "en.gym_what_is_the_correct_form_for",
+      "id": "gym_what_is_the_correct_form_for",
+      "target": [
+        {
+          "text": "What is the correct form for doing this exercise?",
+          "audioSlug": "what_is_the_correct_form_for_doing_this_exercise"
+        }
+      ]
+    },
+    "en.museums_can_i_take_photos": {
+      "conceptId": "en.museums_can_i_take_photos",
+      "id": "museums_can_i_take_photos",
+      "target": [
+        {
+          "text": "Can I take photos here?",
+          "audioSlug": "can_i_take_photos_here"
+        }
+      ]
+    }
+  }
+}

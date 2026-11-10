@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "87",
+  "concepts": {
+    "es.accountability_all_the_money_a_person_receives": {
+      "conceptId": "es.accountability_all_the_money_a_person_receives",
+      "id": "accountability_all_the_money_a_person_receives",
+      "target": [
+        {
+          "text": "Todo el dinero que una persona recibe como pago se llama salario.",
+          "audioSlug": "todo_el_dinero_que_una_persona_recibe_como_pago_se_llama_salario"
+        }
+      ]
+    },
+    "es.airport_where_boarding_pass": {
+      "conceptId": "es.airport_where_boarding_pass",
+      "id": "airport_where_boarding_pass",
+      "target": [
+        {
+          "text": "¿Dónde recojo mi pase de abordar?",
+          "audioSlug": "donde_recojo_mi_pase_de_abordar"
+        }
+      ]
+    },
+    "es.conversacion_ahora_te_comprendo": {
+      "conceptId": "es.conversacion_ahora_te_comprendo",
+      "id": "conversacion_ahora_te_comprendo",
+      "target": [
+        {
+          "text": "Ahora te comprendo.",
+          "audioSlug": "ahora_te_comprendo"
+        }
+      ]
+    },
+    "es.descripciones_es_un_vino_chileno": {
+      "conceptId": "es.descripciones_es_un_vino_chileno",
+      "id": "descripciones_es_un_vino_chileno",
+      "target": [
+        {
+          "text": "Es un vino chileno.",
+          "audioSlug": "es_un_vino_chileno"
+        }
+      ]
+    },
+    "es.emociones_lo_hago_con_mucho_gusto": {
+      "conceptId": "es.emociones_lo_hago_con_mucho_gusto",
+      "id": "emociones_lo_hago_con_mucho_gusto",
+      "target": [
+        {
+          "text": "Lo hago con mucho gusto.",
+          "audioSlug": "lo_hago_con_mucho_gusto"
+        }
+      ]
+    },
+    "es.estudios_el_curso_dura_un_ano": {
+      "conceptId": "es.estudios_el_curso_dura_un_ano",
+      "id": "estudios_el_curso_dura_un_ano",
+      "target": [
+        {
+          "text": "El curso dura un año.",
+          "audioSlug": "el_curso_dura_un_ano"
+        }
+      ]
+    },
+    "es.estudios_la_literatura_espanola_es_muy_rica": {
+      "conceptId": "es.estudios_la_literatura_espanola_es_muy_rica",
+      "id": "estudios_la_literatura_espanola_es_muy_rica",
+      "target": [
+        {
+          "text": "La literatura española es muy rica.",
+          "audioSlug": "la_literatura_espanola_es_muy_rica"
+        }
+      ]
+    },
+    "es.fiesta_party_starts_at_eight": {
+      "conceptId": "es.fiesta_party_starts_at_eight",
+      "id": "fiesta_party_starts_at_eight",
+      "target": [
+        {
+          "text": "La fiesta empieza a las ocho.",
+          "audioSlug": "la_fiesta_empieza_a_las_ocho"
+        }
+      ]
+    },
+    "es.greetings_introduce_myself_account_manager": {
+      "conceptId": "es.greetings_introduce_myself_account_manager",
+      "id": "greetings_introduce_myself_account_manager",
+      "target": [
+        {
+          "text": "Me gustaría presentarme, soy la nueva gerente de cuentas para su región.",
+          "audioSlug": "me_gustaria_presentarme_soy_la_nueva_gerente_de_cuentas_para_su_region",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Me gustaría presentarme, soy el nuevo gerente de cuentas para su región.",
+          "audioSlug": "me_gustaria_presentarme_soy_el_nuevo_gerente_de_cuentas_para_su_region",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.health_i_need_to_rest": {
+      "conceptId": "es.health_i_need_to_rest",
+      "id": "health_i_need_to_rest",
+      "target": [
+        {
+          "text": "Necesito descansar unos días.",
+          "audioSlug": "necesito_descansar_unos_dias"
+        }
+      ]
+    },
+    "es.kitchen_mezcla_la_harina_con_el_agua": {
+      "conceptId": "es.kitchen_mezcla_la_harina_con_el_agua",
+      "id": "kitchen_mezcla_la_harina_con_el_agua",
+      "target": [
+        {
+          "text": "Mezcla la harina con el agua.",
+          "audioSlug": "mezcla_la_harina_con_el_agua"
+        }
+      ]
+    }
+  }
+}

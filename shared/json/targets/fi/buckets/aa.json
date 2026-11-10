@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "fi",
+  "bucket": "aa",
+  "concepts": {
+    "fi.personal_info_i_live_in_the_city": {
+      "conceptId": "fi.personal_info_i_live_in_the_city",
+      "id": "personal_info_i_live_in_the_city",
+      "target": [
+        {
+          "text": "Asun kaupungissa.",
+          "audioSlug": "asun_kaupungissa"
+        }
+      ]
+    }
+  }
+}

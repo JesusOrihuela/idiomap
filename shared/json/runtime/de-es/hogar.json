@@ -1,0 +1,581 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "hogar",
+  "phrases": [
+    {
+      "id": "hogar_la_cocina_es_pequena",
+      "conceptId": "es.hogar_la_cocina_es_pequena",
+      "sourceId": "de.s.6ac29e6c9d1a7665",
+      "source": "Die Küche ist klein.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La cocina es pequeña.",
+          "audioSlug": "la_cocina_es_pequena"
+        }
+      ]
+    },
+    {
+      "id": "hogar_mi_habitacion_tiene_una_ventana_grande",
+      "conceptId": "es.hogar_mi_habitacion_tiene_una_ventana_grande",
+      "sourceId": "de.s.e8039681ded57ccf",
+      "source": "Mein Zimmer hat ein großes Fenster.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi habitación tiene una ventana grande.",
+          "audioSlug": "mi_habitacion_tiene_una_ventana_grande"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_sofa_esta_en_la_sala",
+      "conceptId": "es.hogar_el_sofa_esta_en_la_sala",
+      "sourceId": "de.s.fa6dc7a4e958a13d",
+      "source": "Das Sofa steht im Wohnzimmer.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El sofá está en la sala.",
+          "audioSlug": "el_sofa_esta_en_la_sala"
+        }
+      ]
+    },
+    {
+      "id": "hogar_hay_que_limpiar_la_casa_el_sabado",
+      "conceptId": "es.hogar_hay_que_limpiar_la_casa_el_sabado",
+      "sourceId": "de.s.bd299db94d11ffa0",
+      "source": "Man muss am Samstag das Haus putzen.",
+      "level": "A2",
+      "grammar": "hay que más infinitivo expresa una obligación, hay que limpiar.",
+      "target": [
+        {
+          "text": "Hay que limpiar la casa el sábado.",
+          "audioSlug": "hay_que_limpiar_la_casa_el_sabado"
+        }
+      ]
+    },
+    {
+      "id": "hogar_la_pared_es_blanca",
+      "conceptId": "es.hogar_la_pared_es_blanca",
+      "sourceId": "de.s.69cf0babe80860ec",
+      "source": "Die Wand ist weiß.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La pared es blanca.",
+          "audioSlug": "la_pared_es_blanca"
+        }
+      ]
+    },
+    {
+      "id": "hogar_enciende_la_luz_por_favor",
+      "conceptId": "es.hogar_enciende_la_luz_por_favor",
+      "sourceId": "de.s.8cd5c766db044d64",
+      "source": "Mach das Licht an, bitte.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Enciende la luz, por favor.",
+          "audioSlug": "enciende_la_luz_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_bano_esta_al_final_del_pasillo",
+      "conceptId": "es.hogar_el_bano_esta_al_final_del_pasillo",
+      "sourceId": "de.s.ac4da6ab669a292b",
+      "source": "Das Bad ist am Ende des Flurs.",
+      "level": "A2",
+      "grammar": "estar indica ubicación, está al final del pasillo.",
+      "target": [
+        {
+          "text": "El baño está al final del pasillo.",
+          "audioSlug": "el_bano_esta_al_final_del_pasillo"
+        }
+      ]
+    },
+    {
+      "id": "hogar_necesito_una_mesa_nueva_para_el_comedor",
+      "conceptId": "es.hogar_necesito_una_mesa_nueva_para_el_comedor",
+      "sourceId": "de.s.9db9e565243d6ab6",
+      "source": "Ich brauche einen neuen Tisch für das Esszimmer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito una mesa nueva para el comedor.",
+          "audioSlug": "necesito_una_mesa_nueva_para_el_comedor"
+        }
+      ]
+    },
+    {
+      "id": "hogar_acabamos_de_mudarnos",
+      "conceptId": "es.hogar_acabamos_de_mudarnos",
+      "sourceId": "de.s.347e4cd5665f6cbe",
+      "source": "Wir sind gerade in eine neue Wohnung gezogen.",
+      "level": "B1",
+      "grammar": "acabar de más infinitivo expresa un pasado reciente, acabamos de mudarnos.",
+      "target": [
+        {
+          "text": "Acabamos de mudarnos a un apartamento nuevo.",
+          "audioSlug": "acabamos_de_mudarnos_a_un_apartamento_nuevo"
+        }
+      ]
+    },
+    {
+      "id": "hogar_la_lampara_esta_sobre_la_mesa",
+      "conceptId": "es.hogar_la_lampara_esta_sobre_la_mesa",
+      "sourceId": "de.s.6694c486da47db1c",
+      "source": "Die Lampe steht auf dem Tisch.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La lámpara está sobre la mesa.",
+          "audioSlug": "la_lampara_esta_sobre_la_mesa"
+        }
+      ]
+    },
+    {
+      "id": "hogar_vivo_en_el_tercer_piso",
+      "conceptId": "es.hogar_vivo_en_el_tercer_piso",
+      "sourceId": "de.s.e6d3bc6f633d3456",
+      "source": "Ich wohne im dritten Stock.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vivo en el tercer piso.",
+          "audioSlug": "vivo_en_el_tercer_piso"
+        }
+      ]
+    },
+    {
+      "id": "hogar_tengo_que_ordenar_mi_cuarto",
+      "conceptId": "es.hogar_tengo_que_ordenar_mi_cuarto",
+      "sourceId": "de.s.22382c052e522039",
+      "source": "Ich muss mein Zimmer aufräumen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo que ordenar mi cuarto.",
+          "audioSlug": "tengo_que_ordenar_mi_cuarto"
+        }
+      ]
+    },
+    {
+      "id": "hogar_cierra_la_ventana_por_favor",
+      "conceptId": "es.hogar_cierra_la_ventana_por_favor",
+      "sourceId": "de.s.870190ab4dcf3df0",
+      "source": "Mach das Fenster zu, bitte.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cierra la ventana, por favor.",
+          "audioSlug": "cierra_la_ventana_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "hogar_guardo_la_ropa_en_el_armario",
+      "conceptId": "es.hogar_guardo_la_ropa_en_el_armario",
+      "sourceId": "de.s.965adab6bddb59ef",
+      "source": "Ich räume die Kleidung in den Schrank.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Guardo la ropa en el armario.",
+          "audioSlug": "guardo_la_ropa_en_el_armario"
+        }
+      ]
+    },
+    {
+      "id": "hogar_la_cocina_siempre_esta_limpia",
+      "conceptId": "es.hogar_la_cocina_siempre_esta_limpia",
+      "sourceId": "de.s.61f9b7860ea8e31b",
+      "source": "Die Küche ist immer sauber.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La cocina siempre está limpia.",
+          "audioSlug": "la_cocina_siempre_esta_limpia"
+        }
+      ]
+    },
+    {
+      "id": "hogar_necesito_arreglar_la_puerta",
+      "conceptId": "es.hogar_necesito_arreglar_la_puerta",
+      "sourceId": "de.s.3fffaab05d2caf34",
+      "source": "Ich muss die Tür reparieren.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito arreglar la puerta.",
+          "audioSlug": "necesito_arreglar_la_puerta"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_techo_es_muy_alto",
+      "conceptId": "es.hogar_el_techo_es_muy_alto",
+      "sourceId": "de.s.87d4b34fe3075ebd",
+      "source": "Die Decke ist sehr hoch.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El techo es muy alto.",
+          "audioSlug": "el_techo_es_muy_alto"
+        }
+      ]
+    },
+    {
+      "id": "hogar_cuelga_el_cuadro_en_la_pared",
+      "conceptId": "es.hogar_cuelga_el_cuadro_en_la_pared",
+      "sourceId": "de.s.ffc25e5d0f7ee206",
+      "source": "Häng das Bild an die Wand.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cuelga el cuadro en la pared.",
+          "audioSlug": "cuelga_el_cuadro_en_la_pared"
+        }
+      ]
+    },
+    {
+      "id": "hogar_mi_perro_juega_en_el_jardin",
+      "conceptId": "es.hogar_mi_perro_juega_en_el_jardin",
+      "sourceId": "de.s.e8fecd27b3300f6b",
+      "source": "Mein Hund spielt im Garten.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi perro juega en el jardín.",
+          "audioSlug": "mi_perro_juega_en_el_jardin"
+        }
+      ]
+    },
+    {
+      "id": "hogar_la_mesa_es_de_madera_maciza",
+      "conceptId": "es.hogar_la_mesa_es_de_madera_maciza",
+      "sourceId": "de.s.f2ea8f9039976638",
+      "source": "Der Tisch ist aus massivem Holz.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La mesa es de madera maciza.",
+          "audioSlug": "la_mesa_es_de_madera_maciza"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_hogar_siempre_debe_estar_limpio",
+      "conceptId": "es.hogar_el_hogar_siempre_debe_estar_limpio",
+      "sourceId": "de.s.8f2b3ad07f7a166a",
+      "source": "Das Zuhause sollte immer sauber sein.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El hogar siempre debe estar limpio.",
+          "audioSlug": "el_hogar_siempre_debe_estar_limpio"
+        }
+      ]
+    },
+    {
+      "id": "hogar_arreglo_la_bicicleta_en_el_taller",
+      "conceptId": "es.hogar_arreglo_la_bicicleta_en_el_taller",
+      "sourceId": "de.s.4ed061a69a5c5df5",
+      "source": "Ich repariere das Fahrrad in der Werkstatt.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Arreglo la bicicleta en el taller.",
+          "audioSlug": "arreglo_la_bicicleta_en_el_taller"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_salon_de_la_casa_es_muy_amplio",
+      "conceptId": "es.hogar_el_salon_de_la_casa_es_muy_amplio",
+      "sourceId": "de.s.42439750abc29800",
+      "source": "Das Wohnzimmer des Hauses ist sehr geräumig.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El salón de la casa es muy amplio.",
+          "audioSlug": "el_salon_de_la_casa_es_muy_amplio"
+        }
+      ]
+    },
+    {
+      "id": "hogar_busco_una_vivienda_mas_grande",
+      "conceptId": "es.hogar_busco_una_vivienda_mas_grande",
+      "sourceId": "de.s.7c1864e1c1675ad1",
+      "source": "Ich suche eine größere Wohnung.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Busco una vivienda más grande.",
+          "audioSlug": "busco_una_vivienda_mas_grande"
+        }
+      ]
+    },
+    {
+      "id": "hogar_necesito_un_par_de_zapatos_nuevos",
+      "conceptId": "es.hogar_necesito_un_par_de_zapatos_nuevos",
+      "sourceId": "de.s.97be4e71561e8a4b",
+      "source": "Ich brauche ein paar neue Schuhe.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito un par de zapatos nuevos.",
+          "audioSlug": "necesito_un_par_de_zapatos_nuevos"
+        }
+      ]
+    },
+    {
+      "id": "hogar_voy_a_colocar_los_libros_en_el_estante",
+      "conceptId": "es.hogar_voy_a_colocar_los_libros_en_el_estante",
+      "sourceId": "de.s.bb0eb5891c21c091",
+      "source": "Ich stelle die Bücher ins Regal.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Voy a colocar los libros en el estante.",
+          "audioSlug": "voy_a_colocar_los_libros_en_el_estante"
+        }
+      ]
+    },
+    {
+      "id": "hogar_hay_que_quitar_el_polvo_de_los_muebles",
+      "conceptId": "es.hogar_hay_que_quitar_el_polvo_de_los_muebles",
+      "sourceId": "de.s.79d72b9986e97c40",
+      "source": "Man muss die Möbel abstauben.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que quitar el polvo de los muebles.",
+          "audioSlug": "hay_que_quitar_el_polvo_de_los_muebles"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_reloj_de_la_pared_esta_parado",
+      "conceptId": "es.hogar_el_reloj_de_la_pared_esta_parado",
+      "sourceId": "de.s.a5c93466de8f8d70",
+      "source": "Die Wanduhr steht still.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El reloj de la pared está parado.",
+          "audioSlug": "el_reloj_de_la_pared_esta_parado"
+        }
+      ]
+    },
+    {
+      "id": "hogar_me_siento_en_el_sillon_a_leer",
+      "conceptId": "es.hogar_me_siento_en_el_sillon_a_leer",
+      "sourceId": "de.s.335742f39910a971",
+      "source": "Ich setze mich zum Lesen in den Sessel.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me siento en el sillón a leer.",
+          "audioSlug": "me_siento_en_el_sillon_a_leer"
+        }
+      ]
+    },
+    {
+      "id": "hogar_en_invierno_enciendo_la_calefaccion",
+      "conceptId": "es.hogar_en_invierno_enciendo_la_calefaccion",
+      "sourceId": "de.s.353991d505cc86ff",
+      "source": "Im Winter schalte ich die Heizung ein.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En invierno enciendo la calefacción.",
+          "audioSlug": "en_invierno_enciendo_la_calefaccion"
+        }
+      ]
+    },
+    {
+      "id": "hogar_guardo_cada_herramienta_en_su_caja",
+      "conceptId": "es.hogar_guardo_cada_herramienta_en_su_caja",
+      "sourceId": "de.s.2274eb3c039ecf27",
+      "source": "Ich bewahre jedes Werkzeug in seiner Kiste auf.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Guardo cada herramienta en su caja.",
+          "audioSlug": "guardo_cada_herramienta_en_su_caja"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_lavabo_del_bano_esta_atascado",
+      "conceptId": "es.hogar_el_lavabo_del_bano_esta_atascado",
+      "sourceId": "de.s.dd35018a32f34640",
+      "source": "Das Waschbecken im Bad ist verstopft.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El lavabo del baño está atascado.",
+          "audioSlug": "el_lavabo_del_bano_esta_atascado"
+        }
+      ]
+    },
+    {
+      "id": "hogar_escucho_la_radio_en_la_cocina",
+      "conceptId": "es.hogar_escucho_la_radio_en_la_cocina",
+      "sourceId": "de.s.16962d9b6e4ec71b",
+      "source": "Ich höre in der Küche Radio.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Escucho la radio en la cocina.",
+          "audioSlug": "escucho_la_radio_en_la_cocina"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_dormitorio_principal_es_muy_amplio",
+      "conceptId": "es.hogar_el_dormitorio_principal_es_muy_amplio",
+      "sourceId": "de.s.c3d95b57db6451e3",
+      "source": "Das Hauptschlafzimmer ist sehr geräumig.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El dormitorio principal es muy amplio.",
+          "audioSlug": "el_dormitorio_principal_es_muy_amplio"
+        }
+      ]
+    },
+    {
+      "id": "hogar_necesito_jabon_para_lavarme_las_manos",
+      "conceptId": "es.hogar_necesito_jabon_para_lavarme_las_manos",
+      "sourceId": "de.s.d77ef789c1ca8b8d",
+      "source": "Ich brauche Seife, um mir die Hände zu waschen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito jabón para lavarme las manos.",
+          "audioSlug": "necesito_jabon_para_lavarme_las_manos"
+        }
+      ]
+    },
+    {
+      "id": "hogar_usa_el_cepillo_de_dientes_cada_dia",
+      "conceptId": "es.hogar_usa_el_cepillo_de_dientes_cada_dia",
+      "sourceId": "de.s.162c05804a447c0b",
+      "source": "Benutze jeden Tag die Zahnbürste.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Usa el cepillo de dientes cada día.",
+          "audioSlug": "usa_el_cepillo_de_dientes_cada_dia"
+        }
+      ]
+    },
+    {
+      "id": "hogar_la_ventana_del_salon_es_de_cristal",
+      "conceptId": "es.hogar_la_ventana_del_salon_es_de_cristal",
+      "sourceId": "de.s.bba27a9eb91adbaf",
+      "source": "Das Fenster im Wohnzimmer ist aus Glas.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La ventana del salón es de cristal.",
+          "audioSlug": "la_ventana_del_salon_es_de_cristal"
+        }
+      ]
+    },
+    {
+      "id": "hogar_la_leche_esta_en_la_nevera",
+      "conceptId": "es.hogar_la_leche_esta_en_la_nevera",
+      "sourceId": "de.s.d56b904c7e009745",
+      "source": "Die Milch ist im Kühlschrank.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La leche está en la nevera.",
+          "audioSlug": "la_leche_esta_en_la_nevera"
+        }
+      ]
+    },
+    {
+      "id": "hogar_pon_la_ropa_sucia_en_la_lavadora",
+      "conceptId": "es.hogar_pon_la_ropa_sucia_en_la_lavadora",
+      "sourceId": "de.s.6bbc5038c79fb0cb",
+      "source": "Tu die schmutzige Wäsche in die Waschmaschine.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Pon la ropa sucia en la lavadora.",
+          "audioSlug": "pon_la_ropa_sucia_en_la_lavadora"
+        }
+      ]
+    },
+    {
+      "id": "hogar_caliento_la_comida_en_el_microondas",
+      "conceptId": "es.hogar_caliento_la_comida_en_el_microondas",
+      "sourceId": "de.s.33f464900dc90fb3",
+      "source": "Ich wärme das Essen in der Mikrowelle auf.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Caliento la comida en el microondas.",
+          "audioSlug": "caliento_la_comida_en_el_microondas"
+        }
+      ]
+    },
+    {
+      "id": "hogar_lleno_la_banera_de_agua_caliente",
+      "conceptId": "es.hogar_lleno_la_banera_de_agua_caliente",
+      "sourceId": "de.s.c2c5272fc576a997",
+      "source": "Ich fülle die Badewanne mit warmem Wasser.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Lleno la bañera de agua caliente.",
+          "audioSlug": "lleno_la_banera_de_agua_caliente"
+        }
+      ]
+    }
+  ]
+}

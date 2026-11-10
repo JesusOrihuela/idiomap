@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "animales",
+  "phrases": [
+    {
+      "id": "animales_es_un_animal_salvaje",
+      "conceptId": "es.animales_es_un_animal_salvaje",
+      "sourceId": "en.s.9f3a20ca3d537aa2",
+      "source": "It is a wild animal.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un animal salvaje.",
+          "audioSlug": "es_un_animal_salvaje"
+        }
+      ]
+    },
+    {
+      "id": "animales_vi_un_perro_en_la_calle",
+      "conceptId": "es.animales_vi_un_perro_en_la_calle",
+      "sourceId": "en.s.d35039cd10975a79",
+      "source": "I saw a dog in the street.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vi un perro en la calle.",
+          "audioSlug": "vi_un_perro_en_la_calle"
+        }
+      ]
+    },
+    {
+      "id": "animales_mi_gato_duerme_mucho",
+      "conceptId": "es.animales_mi_gato_duerme_mucho",
+      "sourceId": "en.s.cf02527b1a3fdf62",
+      "source": "My cat sleeps a lot.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi gato duerme mucho.",
+          "audioSlug": "mi_gato_duerme_mucho"
+        }
+      ]
+    },
+    {
+      "id": "animales_es_un_pajaro_pequeno",
+      "conceptId": "es.animales_es_un_pajaro_pequeno",
+      "sourceId": "en.s.932d41659e675be6",
+      "source": "It is a small bird.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un pájaro pequeño.",
+          "audioSlug": "es_un_pajaro_pequeno"
+        }
+      ]
+    },
+    {
+      "id": "animales_es_una_especie_rara",
+      "conceptId": "es.animales_es_una_especie_rara",
+      "sourceId": "en.s.08ff2114e0807122",
+      "source": "It is a rare species.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una especie rara.",
+          "audioSlug": "es_una_especie_rara"
+        }
+      ]
+    },
+    {
+      "id": "animales_el_gato_es_negro",
+      "conceptId": "es.animales_el_gato_es_negro",
+      "sourceId": "en.s.9748001935611a7e",
+      "source": "The cat is black.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El gato es negro.",
+          "audioSlug": "el_gato_es_negro"
+        }
+      ]
+    },
+    {
+      "id": "animales_el_caballo_corre_por_el_campo",
+      "conceptId": "es.animales_el_caballo_corre_por_el_campo",
+      "sourceId": "en.s.2ccc52d7c7cd7e5a",
+      "source": "The horse runs across the field.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El caballo corre por el campo.",
+          "audioSlug": "el_caballo_corre_por_el_campo"
+        }
+      ]
+    },
+    {
+      "id": "animales_el_cerdo_vive_en_la_granja",
+      "conceptId": "es.animales_el_cerdo_vive_en_la_granja",
+      "sourceId": "en.s.0dcc18e865f0f3c9",
+      "source": "The pig lives on the farm.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El cerdo vive en la granja.",
+          "audioSlug": "el_cerdo_vive_en_la_granja"
+        }
+      ]
+    },
+    {
+      "id": "animales_hay_un_pez_en_el_agua",
+      "conceptId": "es.animales_hay_un_pez_en_el_agua",
+      "sourceId": "en.s.fa1ef3e932453507",
+      "source": "There is a fish in the water.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay un pez en el agua.",
+          "audioSlug": "hay_un_pez_en_el_agua"
+        }
+      ]
+    },
+    {
+      "id": "animales_una_mosca_entro_por_la_ventana",
+      "conceptId": "es.animales_una_mosca_entro_por_la_ventana",
+      "sourceId": "en.s.252b1e5594af91b4",
+      "source": "A fly came in through the window.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Una mosca entró por la ventana.",
+          "audioSlug": "una_mosca_entro_por_la_ventana"
+        }
+      ]
+    },
+    {
+      "id": "animales_le_tengo_miedo_a_las_aranas",
+      "conceptId": "es.animales_le_tengo_miedo_a_las_aranas",
+      "sourceId": "en.s.a7405cce25a330e3",
+      "source": "I am afraid of spiders.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Les tengo miedo a las arañas.",
+          "audioSlug": "les_tengo_miedo_a_las_aranas"
+        }
+      ]
+    },
+    {
+      "id": "animales_un_mosquito_me_pico",
+      "conceptId": "es.animales_un_mosquito_me_pico",
+      "sourceId": "en.s.684b019094eff341",
+      "source": "A mosquito bit me on the arm.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Un mosquito me picó en el brazo.",
+          "audioSlug": "un_mosquito_me_pico_en_el_brazo"
+        }
+      ]
+    },
+    {
+      "id": "animales_dog_barking_loudly",
+      "conceptId": "es.animales_dog_barking_loudly",
+      "sourceId": "en.s.01c7a3768a8a40f8",
+      "source": "The dog is barking loudly.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El perro está ladrando fuerte.",
+          "audioSlug": "el_perro_esta_ladrando_fuerte"
+        }
+      ]
+    },
+    {
+      "id": "animales_birds_fly_south",
+      "conceptId": "es.animales_birds_fly_south",
+      "sourceId": "en.s.e21b589bf90c9a99",
+      "source": "Birds fly south in winter.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los pájaros vuelan al sur en invierno.",
+          "audioSlug": "los_pajaros_vuelan_al_sur_en_invierno"
+        }
+      ]
+    },
+    {
+      "id": "animales_cat_likes_climb_trees",
+      "conceptId": "es.animales_cat_likes_climb_trees",
+      "sourceId": "en.s.b64e9a99239bd643",
+      "source": "My cat likes to climb trees.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "A mi gato le gusta trepar árboles.",
+          "audioSlug": "a_mi_gato_le_gusta_trepar_arboles"
+        }
+      ]
+    },
+    {
+      "id": "animales_rabbit_hopped_away",
+      "conceptId": "es.animales_rabbit_hopped_away",
+      "sourceId": "en.s.65c0c8ec1e1f5a22",
+      "source": "The rabbit hopped away quickly.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El conejo se alejó saltando rápido.",
+          "audioSlug": "el_conejo_se_alejo_saltando_rapido"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "9c",
+  "concepts": {
+    "en.descripciones_is_this_real": {
+      "conceptId": "en.descripciones_is_this_real",
+      "id": "descripciones_is_this_real",
+      "target": [
+        {
+          "text": "Is this real?",
+          "audioSlug": "is_this_real"
+        }
+      ]
+    },
+    "en.descripciones_this_one_is_different": {
+      "conceptId": "en.descripciones_this_one_is_different",
+      "id": "descripciones_this_one_is_different",
+      "target": [
+        {
+          "text": "This one is different.",
+          "audioSlug": "this_one_is_different"
+        }
+      ]
+    },
+    "en.gym_could_you_recommend_a_stretching_routine": {
+      "conceptId": "en.gym_could_you_recommend_a_stretching_routine",
+      "id": "gym_could_you_recommend_a_stretching_routine",
+      "target": [
+        {
+          "text": "Could you recommend a stretching routine?",
+          "audioSlug": "could_you_recommend_a_stretching_routine",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you recommend a stretching routine?",
+          "audioSlug": "can_you_recommend_a_stretching_routine",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.gym_periodization_hypertrophy_strength": {
+      "conceptId": "en.gym_periodization_hypertrophy_strength",
+      "id": "gym_periodization_hypertrophy_strength",
+      "target": [
+        {
+          "text": "My coach recommended a periodization approach, alternating between hypertrophy and strength phases.",
+          "audioSlug": "my_coach_recommended_a_periodization_approach_alternating_between_hypertrophy_and_strength_phases"
+        }
+      ]
+    },
+    "en.survival_i_dont_speak_well": {
+      "conceptId": "en.survival_i_dont_speak_well",
+      "id": "survival_i_dont_speak_well",
+      "target": [
+        {
+          "text": "I don't speak Spanish very well.",
+          "audioSlug": "i_don_t_speak_spanish_very_well"
+        }
+      ]
+    }
+  }
+}

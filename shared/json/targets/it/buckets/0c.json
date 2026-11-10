@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "it",
+  "bucket": "0c",
+  "concepts": {
+    "it.piloto_gracias_por_tu_ayuda": {
+      "conceptId": "it.piloto_gracias_por_tu_ayuda",
+      "id": "piloto_gracias_por_tu_ayuda",
+      "target": [
+        {
+          "text": "Grazie per il tuo aiuto.",
+          "audioSlug": "gracias_por_tu_ayuda"
+        }
+      ]
+    }
+  }
+}

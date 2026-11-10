@@ -57,6 +57,8 @@ for (const pair of pairs) {
     try {
       const gr = JSON.parse(fs.readFileSync(grPath, 'utf8'));
       const catIds = new Set((gr.categories || []).map(c => c.id));
+      if (pair.status === 'shippable' && !(gr.rules || []).length)
+        fail(`${label} - shippable pair has no grammar rules`);
       if (!(gr.rules || []).length) warn(`${label} — grammar-rules.json has no rules`);
       if (!catIds.size && (gr.rules || []).length)
         fail(`${label} — grammar-rules.json has rules but NO categories[] — the Grammar page grid renders empty (only deep-linked ?rule= works)`);
@@ -78,6 +80,44 @@ for (const pair of pairs) {
         fail(`${label} — placement.json has no questions[]`);
     } catch (e) { fail(`${label} — placement.json is invalid JSON: ${e.message}`); }
   }
+}
+
+// 3b. SHIPPABLE BREADTH - a pair marked shippable must have real content, not
+// just a placement test, and a target vocab deck usable by the Quiz.
+for (const pair of pairs) {
+  if (pair.status !== 'shippable' || pair.wip) continue;
+  const label = `[${pair.id}]`;
+  const dir = path.join(PAIRS_DIR, pair.id);
+  const topicsPath = path.join(dir, 'topics.json');
+  if (!fs.existsSync(topicsPath)) {
+    fail(`${label} - shippable pair has no topics.json`);
+  } else {
+    try {
+      const topics = JSON.parse(fs.readFileSync(topicsPath, 'utf8')).topics || [];
+      let phraseCount = 0;
+      for (const topic of topics.filter((t) => t.phrase)) {
+        const file = path.join(dir, 'content', `${topic.id}.json`);
+        if (!fs.existsSync(file)) continue;
+        try { phraseCount += (JSON.parse(fs.readFileSync(file, 'utf8')).phrases || []).length; } catch { /* shape checked elsewhere */ }
+      }
+      if (!topics.filter((t) => t.phrase).length || !phraseCount)
+        fail(`${label} - shippable pair has no phrase content`);
+    } catch (e) { fail(`${label} - topics.json is invalid JSON: ${e.message}`); }
+  }
+  if (!fs.existsSync(path.join(dir, 'grammar-rules.json'))) {
+    fail(`${label} - shippable pair has no grammar-rules.json`);
+  }
+  const vocabDir = path.join(VOCAB_DIR, pair.target?.code || '');
+  let quizDeck = false;
+  if (fs.existsSync(vocabDir)) {
+    for (const f of fs.readdirSync(vocabDir).filter((x) => x.endsWith('.json'))) {
+      try {
+        const n = (JSON.parse(fs.readFileSync(path.join(vocabDir, f), 'utf8')).words || []).length;
+        if (n >= QUIZ_MIN_WORDS) quizDeck = true;
+      } catch { /* shape checked elsewhere */ }
+    }
+  }
+  if (!quizDeck) fail(`${label} - shippable target ${pair.target?.code} has no vocab deck with >= ${QUIZ_MIN_WORDS} words`);
 }
 
 // 4. QUIZ VIABILITY (warning) — target-centric vocab decks with too few words for a 4-option quiz.
@@ -114,6 +154,10 @@ if (fs.existsSync(VOCAB_DIR)) {
       if (!f.endsWith('.json')) continue;
       let words; try { words = JSON.parse(fs.readFileSync(path.join(vdir, f), 'utf8')).words || []; } catch { continue; }
       for (const w of words) {
+        if (!(w.example && String(w.example).trim()))
+          fail(`vocab/${lang}/${f} word "${w.id}" - missing L2 "example" (the flashcard shows it)`);
+        else if (!/[.?!]$/.test(String(w.example).trimEnd()))
+          fail(`vocab/${lang}/${f} word "${w.id}" - example missing terminal punctuation`);
         if (!(w.definition && String(w.definition).trim()))
           fail(`vocab/${lang}/${f} word "${w.id}" — missing L2 "definition" (the flashcard def toggle needs it)`);
         for (const s of srcs)

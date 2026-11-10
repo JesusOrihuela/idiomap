@@ -222,7 +222,8 @@
 
       // ── Recordatorios (payload push) ────────────────────────────
  notif_title_due:'Tarjetas pendientes de repaso',
-      notif_body_due:         '{count} tarjeta{s} pendiente{s} en {topic}, repasa ahora.',
+      notif_body_due_one:     '{count} tarjeta pendiente en {topic}, repasa ahora.',
+      notif_body_due:         '{count} tarjetas pendientes en {topic}, repasa ahora.',
       notif_more_topics:      '+{n} más en otros temas',
  notif_title_streak:'Racha en riesgo',
       notif_body_streak:      'Racha de {n} días Practica hoy para mantenerla.',
@@ -833,7 +834,8 @@
 
       // ── Reminders (push payload) ──────────────────────────────
  notif_title_due:'Cards due for review',
-      notif_body_due:         '{count} card{s} due in {topic}, review now.',
+      notif_body_due_one:     '{count} card due in {topic}, review now.',
+      notif_body_due:         '{count} cards due in {topic}, review now.',
       notif_more_topics:      '+{n} more in other topics',
  notif_title_streak:'Streak at risk',
       notif_body_streak:      '{n}-day streak Practice today to keep it.',
@@ -1443,7 +1445,8 @@
       notif_current:          'Gerade jetzt: „{body}"',
       notif_no_pending:       'Keine ausstehenden Erinnerungen, du bist auf dem neuesten Stand',
  notif_title_due:'Karten zur Wiederholung fällig',
-      notif_body_due:         '{count} Karte{s} in {topic} fällig, jetzt wiederholen.',
+      notif_body_due_one:     '{count} Karte in {topic} fällig, jetzt wiederholen.',
+      notif_body_due:         '{count} Karten in {topic} fällig, jetzt wiederholen.',
       notif_more_topics:      '+{n} weitere in anderen Themen',
  notif_title_streak:'Serie in Gefahr',
       notif_body_streak:      '{n} Tage in Folge Übe heute, um sie zu halten.',

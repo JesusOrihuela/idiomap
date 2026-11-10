@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "no",
+  "bucket": "50",
+  "concepts": {
+    "no.survival_i_do_not_understand": {
+      "conceptId": "no.survival_i_do_not_understand",
+      "id": "survival_i_do_not_understand",
+      "target": [
+        {
+          "text": "Jeg forstår ikke.",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "jeg_forstar_ikke"
+        },
+        {
+          "text": "Eg forstår ikkje.",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "eg_forstar_ikkje"
+        }
+      ]
+    }
+  }
+}

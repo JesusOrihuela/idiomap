@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "02",
+  "concepts": {
+    "es.airport_is_this_gate_for": {
+      "conceptId": "es.airport_is_this_gate_for",
+      "id": "airport_is_this_gate_for",
+      "target": [
+        {
+          "text": "¿Es esta la puerta para el vuelo 203?",
+          "audioSlug": "es_esta_la_puerta_para_el_vuelo_203"
+        }
+      ]
+    },
+    "es.deportes_el_equipo_juega_muy_bien": {
+      "conceptId": "es.deportes_el_equipo_juega_muy_bien",
+      "id": "deportes_el_equipo_juega_muy_bien",
+      "target": [
+        {
+          "text": "El equipo juega muy bien.",
+          "audioSlug": "el_equipo_juega_muy_bien"
+        }
+      ]
+    },
+    "es.descripciones_el_rey_vive_en_un_palacio": {
+      "conceptId": "es.descripciones_el_rey_vive_en_un_palacio",
+      "id": "descripciones_el_rey_vive_en_un_palacio",
+      "target": [
+        {
+          "text": "El rey vive en un palacio.",
+          "audioSlug": "el_rey_vive_en_un_palacio"
+        }
+      ]
+    },
+    "es.descripciones_ese_actor_es_muy_guapo": {
+      "conceptId": "es.descripciones_ese_actor_es_muy_guapo",
+      "id": "descripciones_ese_actor_es_muy_guapo",
+      "target": [
+        {
+          "text": "Ese actor es muy guapo.",
+          "audioSlug": "ese_actor_es_muy_guapo"
+        }
+      ]
+    },
+    "es.movies_casting_was_perfect_choice": {
+      "conceptId": "es.movies_casting_was_perfect_choice",
+      "id": "movies_casting_was_perfect_choice",
+      "target": [
+        {
+          "text": "Dudé del reparto pero ese actor resultó perfecto.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "dude_del_reparto_pero_ese_actor_resulto_perfecto"
+        },
+        {
+          "text": "Dudé del reparto pero esa actriz resultó perfecta.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "dude_del_reparto_pero_esa_actriz_resulto_perfecta"
+        }
+      ]
+    },
+    "es.oficina_es_importante_considerar_las_nuevas_tendencias_del_mercado": {
+      "conceptId": "es.oficina_es_importante_considerar_las_nuevas_tendencias_del_mercado",
+      "id": "oficina_es_importante_considerar_las_nuevas_tendencias_del_mercado",
+      "target": [
+        {
+          "text": "Es importante considerar las nuevas tendencias del mercado.",
+          "audioSlug": "es_importante_considerar_las_nuevas_tendencias_del_mercado"
+        }
+      ]
+    },
+    "es.personal_info_where_are_you_from": {
+      "conceptId": "es.personal_info_where_are_you_from",
+      "id": "personal_info_where_are_you_from",
+      "target": [
+        {
+          "text": "¿De dónde eres?",
+          "audioSlug": "de_donde_eres",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿De dónde es usted?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "de_donde_es_usted"
+        }
+      ]
+    },
+    "es.technology_guarde_el_documento_en_la_nube": {
+      "conceptId": "es.technology_guarde_el_documento_en_la_nube",
+      "id": "technology_guarde_el_documento_en_la_nube",
+      "target": [
+        {
+          "text": "Guardé el documento en la nube.",
+          "audioSlug": "guarde_el_documento_en_la_nube"
+        }
+      ]
+    },
+    "es.technology_the_wifi_is_not_working_can": {
+      "conceptId": "es.technology_the_wifi_is_not_working_can",
+      "id": "technology_the_wifi_is_not_working_can",
+      "target": [
+        {
+          "text": "No funciona el WiFi, ¿lo puedes reiniciar?",
+          "audioSlug": "no_funciona_el_wifi_lo_puedes_reiniciar",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "No funciona el WiFi, ¿lo puede reiniciar?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "no_funciona_el_wifi_lo_puede_reiniciar"
+        }
+      ]
+    },
+    "es.viajes_quiero_conocer_la_cultura": {
+      "conceptId": "es.viajes_quiero_conocer_la_cultura",
+      "id": "viajes_quiero_conocer_la_cultura",
+      "target": [
+        {
+          "text": "Quiero conocer la cultura del país.",
+          "audioSlug": "quiero_conocer_la_cultura_del_pais"
+        }
+      ]
+    }
+  }
+}

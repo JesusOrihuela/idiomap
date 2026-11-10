@@ -1,102 +1,1242 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "descripciones",
-  "conceptIds": [
-    "es.descripciones_i_am_tall",
-    "es.descripciones_i_am_tired",
-    "es.descripciones_he_is_very_nice",
-    "es.descripciones_she_is_very_intelligent",
-    "es.descripciones_the_house_is_big",
-    "es.descripciones_the_soup_is_hot",
-    "es.descripciones_i_am_very_happy",
-    "es.descripciones_what_are_you_like",
-    "es.descripciones_es_un_hombre_amable",
-    "es.descripciones_es_una_mujer_fuerte",
-    "es.descripciones_mi_abuelo_es_muy_viejo",
-    "es.descripciones_ese_chico_es_muy_joven",
-    "es.descripciones_el_examen_fue_malo",
-    "es.descripciones_este_pueblo_es_pobre",
-    "es.descripciones_su_familia_es_rica",
-    "es.descripciones_mi_hermano_es_mas_bajo",
-    "es.descripciones_es_una_persona_tranquila",
-    "es.descripciones_es_una_historia_triste",
-    "es.descripciones_mi_color_favorito_es_el_azul",
-    "es.descripciones_ese_actor_es_muy_famoso",
-    "es.descripciones_cada_persona_es_unica",
-    "es.descripciones_su_ropa_es_siempre_elegante",
-    "es.descripciones_el_novio_de_mi_hermana_es_divertido",
-    "es.descripciones_el_parque_es_un_lugar_publico",
-    "es.descripciones_aquel_edificio_es_muy_antiguo",
-    "es.descripciones_el_clima_de_la_costa_es_agradable",
-    "es.descripciones_el_gato_es_negro",
-    "es.descripciones_este_restaurante_es_caro",
-    "es.descripciones_la_diferencia_cultural_es_interesante",
-    "es.descripciones_tiene_una_personalidad_fuerte",
-    "es.descripciones_la_caja_esta_vacia",
-    "es.descripciones_su_vestido_es_de_color_rojo",
-    "es.descripciones_el_paquete_es_demasiado_pesado",
-    "es.descripciones_las_hojas_son_de_color_verde",
-    "es.descripciones_el_vestido_es_muy_tradicional",
-    "es.descripciones_que_edad_tienes",
-    "es.descripciones_el_rey_vive_en_un_palacio",
-    "es.descripciones_es_una_persona_generosa",
-    "es.descripciones_mi_jefe_es_bastante_serio",
-    "es.descripciones_ese_nino_es_muy_timido",
-    "es.descripciones_fue_un_acto_muy_valiente",
-    "es.descripciones_siempre_es_honesto_con_todos",
-    "es.descripciones_ella_es_mexicana",
-    "es.descripciones_mi_amigo_es_europeo",
-    "es.descripciones_el_edificio_es_historico",
-    "es.descripciones_este_autor_es_muy_conocido",
-    "es.descripciones_la_comida_mexicana_es_picante",
-    "es.descripciones_su_estilo_es_bastante_clasico",
-    "es.descripciones_el_paisaje_es_tipico_de_la_region",
-    "es.descripciones_es_un_problema_muy_comun",
-    "es.descripciones_ese_actor_es_muy_guapo",
-    "es.descripciones_van_a_construir_un_puente_nuevo",
-    "es.descripciones_este_objeto_es_muy_antiguo",
-    "es.descripciones_ese_paisaje_es_simplemente_maravilloso",
-    "es.descripciones_el_anillo_es_realmente_precioso",
-    "es.descripciones_tiene_un_aspecto_fisico_atletico",
-    "es.descripciones_esa_historia_me_parece_falsa",
-    "es.descripciones_el_resultado_del_partido_fue_increible",
-    "es.descripciones_es_un_tipo_de_persona_muy_rara",
-    "es.descripciones_el_clima_de_hoy_es_peor_que_ayer",
-    "es.descripciones_es_una_costumbre_muy_extrana",
-    "es.descripciones_tuvimos_un_viaje_fantastico",
-    "es.descripciones_ese_rincon_del_jardin_es_muy_bello",
-    "es.descripciones_eso_parece_casi_imposible",
-    "es.descripciones_es_un_tema_muy_actual",
-    "es.descripciones_tiene_una_actitud_muy_profesional",
-    "es.descripciones_es_un_amigo_verdadero",
-    "es.descripciones_me_encanta_la_comida_italiana",
-    "es.descripciones_prefiero_comprar_en_el_mercado_local",
-    "es.descripciones_habla_frances_con_mucha_fluidez",
-    "es.descripciones_me_gusta_mucho_la_musica_cubana",
-    "es.descripciones_tiene_un_marcado_acento_americano",
-    "es.descripciones_ella_aprende_una_lengua_indigena",
-    "es.descripciones_esta_silla_es_de_plastico_duro",
-    "es.descripciones_ese_sofa_viejo_es_muy_feo",
-    "es.descripciones_el_gato_esta_un_poco_gordo",
-    "es.descripciones_el_cielo_esta_gris_esta_manana",
-    "es.descripciones_el_oso_es_de_color_marron",
-    "es.descripciones_mi_hermana_tiene_el_pelo_rubio",
-    "es.descripciones_ese_perro_es_delgado_y_rapido",
-    "es.descripciones_ese_vestido_azul_es_muy_lindo",
-    "es.descripciones_mi_primo_tiene_el_pelo_moreno",
-    "es.descripciones_mi_abuelo_se_quedo_calvo_muy_joven",
-    "es.descripciones_el_sol_es_de_color_amarillo",
-    "es.descripciones_la_pelicula_fue_muy_aburrida",
-    "es.descripciones_su_actitud_es_un_poco_antipatica",
-    "es.descripciones_es_una_persona_muy_sociable",
-    "es.descripciones_no_seas_tan_egoista_con_los_demas",
-    "es.descripciones_el_servicio_de_hoy_fue_bastante_regular",
-    "es.descripciones_su_horario_de_trabajo_es_fijo",
-    "es.descripciones_es_probable_que_llueva_manana",
-    "es.descripciones_su_voz_es_parecida_a_la_tuya",
-    "es.descripciones_la_vista_desde_la_cima_es_impresionante",
-    "es.descripciones_ese_callejon_es_demasiado_estrecho",
-    "es.descripciones_quiero_un_vaso_de_tamano_mediano"
+  "phrases": [
+    {
+      "conceptId": "es.descripciones_i_am_tall",
+      "level": "A1",
+      "grammar": "Una cualidad permanente usa ser, soy alto.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a4cdb8ecb230680b"
+    },
+    {
+      "conceptId": "es.descripciones_i_am_tired",
+      "level": "A1",
+      "grammar": "Un estado pasajero usa estar, estoy cansado.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0e6bea078d2221ba"
+    },
+    {
+      "conceptId": "es.descripciones_he_is_very_nice",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.98e1a2d7a23eb3c9"
+    },
+    {
+      "conceptId": "es.descripciones_she_is_very_intelligent",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.96f3930aa91e6789"
+    },
+    {
+      "conceptId": "es.descripciones_the_house_is_big",
+      "level": "A1",
+      "grammar": "Una característica del objeto usa ser, la casa es grande.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.52a216e57f77ed73"
+    },
+    {
+      "conceptId": "es.descripciones_the_soup_is_hot",
+      "level": "A2",
+      "grammar": "Un estado del momento usa estar, la sopa está caliente.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5a60135cd2890dc5"
+    },
+    {
+      "conceptId": "es.descripciones_i_am_very_happy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a89284d93396e3ec"
+    },
+    {
+      "conceptId": "es.descripciones_what_are_you_like",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.07ee63103fc7d7ac"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_hombre_amable",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.15394b46ca101e28"
+    },
+    {
+      "conceptId": "es.descripciones_es_una_mujer_fuerte",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.84baeee0e6d079fb"
+    },
+    {
+      "conceptId": "es.descripciones_mi_abuelo_es_muy_viejo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.99d51ea2ecb99069"
+    },
+    {
+      "conceptId": "es.descripciones_ese_chico_es_muy_joven",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8272c73c34fe5f81"
+    },
+    {
+      "conceptId": "es.descripciones_el_examen_fue_malo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3759b5eb7b4310c6"
+    },
+    {
+      "conceptId": "es.descripciones_este_pueblo_es_pobre",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.50f7648c74f11be3"
+    },
+    {
+      "conceptId": "es.descripciones_su_familia_es_rica",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.253973284dd24869"
+    },
+    {
+      "conceptId": "es.descripciones_mi_hermano_es_mas_bajo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5ae0838e2375b467"
+    },
+    {
+      "conceptId": "es.descripciones_es_una_persona_tranquila",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.73cad8f55a74a367"
+    },
+    {
+      "conceptId": "es.descripciones_es_una_historia_triste",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b663a6f1683819be"
+    },
+    {
+      "conceptId": "es.descripciones_mi_color_favorito_es_el_azul",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c3c383607c093b62"
+    },
+    {
+      "conceptId": "es.descripciones_ese_actor_es_muy_famoso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.03252e4f57aba1c7"
+    },
+    {
+      "conceptId": "es.descripciones_cada_persona_es_unica",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.57a103a885cee1e4"
+    },
+    {
+      "conceptId": "es.descripciones_su_ropa_es_siempre_elegante",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b7b7b368f660ad26"
+    },
+    {
+      "conceptId": "es.descripciones_el_novio_de_mi_hermana_es_divertido",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3f4ee9b5eb662fc4"
+    },
+    {
+      "conceptId": "es.descripciones_el_parque_es_un_lugar_publico",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1c6d57904d0f0092"
+    },
+    {
+      "conceptId": "es.descripciones_aquel_edificio_es_muy_antiguo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.04e3b7a8db607811"
+    },
+    {
+      "conceptId": "es.descripciones_el_clima_de_la_costa_es_agradable",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.44c9dc93ff2c6601"
+    },
+    {
+      "conceptId": "es.descripciones_el_gato_es_negro",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f9b5498745a02b52"
+    },
+    {
+      "conceptId": "es.descripciones_este_restaurante_es_caro",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7fc360375870d1e8"
+    },
+    {
+      "conceptId": "es.descripciones_la_diferencia_cultural_es_interesante",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.da687ca26148e7ec"
+    },
+    {
+      "conceptId": "es.descripciones_tiene_una_personalidad_fuerte",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.84a830eb25234565"
+    },
+    {
+      "conceptId": "es.descripciones_la_caja_esta_vacia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.09c87c96c19cf6a1"
+    },
+    {
+      "conceptId": "es.descripciones_su_vestido_es_de_color_rojo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b65c6e6a5f622c3a"
+    },
+    {
+      "conceptId": "es.descripciones_el_paquete_es_demasiado_pesado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.25e2fe1eb7eb81eb"
+    },
+    {
+      "conceptId": "es.descripciones_las_hojas_son_de_color_verde",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.92aa3d562cc1a042"
+    },
+    {
+      "conceptId": "es.descripciones_el_vestido_es_muy_tradicional",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.efa0f19cf50ddcac"
+    },
+    {
+      "conceptId": "es.descripciones_que_edad_tienes",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0a1470d440827287"
+    },
+    {
+      "conceptId": "es.descripciones_el_rey_vive_en_un_palacio",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7dfc1601d2138dff"
+    },
+    {
+      "conceptId": "es.descripciones_es_una_persona_generosa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ce3c65b8aeff4672"
+    },
+    {
+      "conceptId": "es.descripciones_mi_jefe_es_bastante_serio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.74113e8dbc198b8b"
+    },
+    {
+      "conceptId": "es.descripciones_ese_nino_es_muy_timido",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.493af13f9291bdc7"
+    },
+    {
+      "conceptId": "es.descripciones_fue_un_acto_muy_valiente",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.93c0231d86b22eb6"
+    },
+    {
+      "conceptId": "es.descripciones_siempre_es_honesto_con_todos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ce38f4013fc225dd"
+    },
+    {
+      "conceptId": "es.descripciones_ella_es_mexicana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.508ca325ff4e88ec"
+    },
+    {
+      "conceptId": "es.descripciones_mi_amigo_es_europeo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.304e46c23158265c"
+    },
+    {
+      "conceptId": "es.descripciones_el_edificio_es_historico",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.14bc37c8fd168371"
+    },
+    {
+      "conceptId": "es.descripciones_este_autor_es_muy_conocido",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5f93c32c4dfce2b2"
+    },
+    {
+      "conceptId": "es.descripciones_la_comida_mexicana_es_picante",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3a1f4341f7f03906"
+    },
+    {
+      "conceptId": "es.descripciones_su_estilo_es_bastante_clasico",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fa0fde1069cb9123"
+    },
+    {
+      "conceptId": "es.descripciones_el_paisaje_es_tipico_de_la_region",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fcbfcfc13ee06d35"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_problema_muy_comun",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.096db67199d82ec5"
+    },
+    {
+      "conceptId": "es.descripciones_ese_actor_es_muy_guapo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.530839d765f45a19"
+    },
+    {
+      "conceptId": "es.descripciones_van_a_construir_un_puente_nuevo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9b5ef7d87c97200c"
+    },
+    {
+      "conceptId": "es.descripciones_este_objeto_es_muy_antiguo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8a0b0ffb653e6760"
+    },
+    {
+      "conceptId": "es.descripciones_ese_paisaje_es_simplemente_maravilloso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3d0a46580c02d502"
+    },
+    {
+      "conceptId": "es.descripciones_el_anillo_es_realmente_precioso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1d6cdd68e74dd4cf"
+    },
+    {
+      "conceptId": "es.descripciones_tiene_un_aspecto_fisico_atletico",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6d8c5cf0affc7dd2"
+    },
+    {
+      "conceptId": "es.descripciones_esa_historia_me_parece_falsa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a149248f259051f6"
+    },
+    {
+      "conceptId": "es.descripciones_el_resultado_del_partido_fue_increible",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.297c6988134ed677"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_tipo_de_persona_muy_rara",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f34730d3e320cba2"
+    },
+    {
+      "conceptId": "es.descripciones_el_clima_de_hoy_es_peor_que_ayer",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8a98b21d3fe5f698"
+    },
+    {
+      "conceptId": "es.descripciones_es_una_costumbre_muy_extrana",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.188e526a835e845d"
+    },
+    {
+      "conceptId": "es.descripciones_tuvimos_un_viaje_fantastico",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1c85acb021a6f3e6"
+    },
+    {
+      "conceptId": "es.descripciones_ese_rincon_del_jardin_es_muy_bello",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a4bfc54fa444fe6b"
+    },
+    {
+      "conceptId": "es.descripciones_eso_parece_casi_imposible",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.63ea342109a1d657"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_tema_muy_actual",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.752fe1b05e469980"
+    },
+    {
+      "conceptId": "es.descripciones_tiene_una_actitud_muy_profesional",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c73af3470cbe0fbc"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_amigo_verdadero",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3318870027096e61"
+    },
+    {
+      "conceptId": "es.descripciones_me_encanta_la_comida_italiana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4b1f066be699196b"
+    },
+    {
+      "conceptId": "es.descripciones_prefiero_comprar_en_el_mercado_local",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bcb50c783715bc05"
+    },
+    {
+      "conceptId": "es.descripciones_habla_frances_con_mucha_fluidez",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3c788c9f06524976"
+    },
+    {
+      "conceptId": "es.descripciones_me_gusta_mucho_la_musica_cubana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.791f048ecb7c0868"
+    },
+    {
+      "conceptId": "es.descripciones_tiene_un_marcado_acento_americano",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b897a4625b77d3fd"
+    },
+    {
+      "conceptId": "es.descripciones_ella_aprende_una_lengua_indigena",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.58a6d18ac90f344a"
+    },
+    {
+      "conceptId": "es.descripciones_esta_silla_es_de_plastico_duro",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d8d5491123039be7"
+    },
+    {
+      "conceptId": "es.descripciones_ese_sofa_viejo_es_muy_feo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9a206ef1c3ddbe17"
+    },
+    {
+      "conceptId": "es.descripciones_el_gato_esta_un_poco_gordo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3acf225100751f55"
+    },
+    {
+      "conceptId": "es.descripciones_el_cielo_esta_gris_esta_manana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.26a26f8d2a63e0ec"
+    },
+    {
+      "conceptId": "es.descripciones_el_oso_es_de_color_marron",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a74a2bfe87a04187"
+    },
+    {
+      "conceptId": "es.descripciones_mi_hermana_tiene_el_pelo_rubio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9b09724181ec9718"
+    },
+    {
+      "conceptId": "es.descripciones_ese_perro_es_delgado_y_rapido",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2e448ffc2396e686"
+    },
+    {
+      "conceptId": "es.descripciones_ese_vestido_azul_es_muy_lindo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2c1043eb70eee9bf"
+    },
+    {
+      "conceptId": "es.descripciones_mi_primo_tiene_el_pelo_moreno",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e7ae0c3246c1c433"
+    },
+    {
+      "conceptId": "es.descripciones_mi_abuelo_se_quedo_calvo_muy_joven",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cd10d0f1979f14a9"
+    },
+    {
+      "conceptId": "es.descripciones_el_sol_es_de_color_amarillo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a05a593914759f5e"
+    },
+    {
+      "conceptId": "es.descripciones_la_pelicula_fue_muy_aburrida",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.56510a4638bb59d3"
+    },
+    {
+      "conceptId": "es.descripciones_su_actitud_es_un_poco_antipatica",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.227907ba97b81246"
+    },
+    {
+      "conceptId": "es.descripciones_es_una_persona_muy_sociable",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.322668dc9c8a026e"
+    },
+    {
+      "conceptId": "es.descripciones_no_seas_tan_egoista_con_los_demas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.27a66f4bc298bb8d"
+    },
+    {
+      "conceptId": "es.descripciones_el_servicio_de_hoy_fue_bastante_regular",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b78da8de766056b7"
+    },
+    {
+      "conceptId": "es.descripciones_su_horario_de_trabajo_es_fijo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.299d22d5e47c1f8f"
+    },
+    {
+      "conceptId": "es.descripciones_es_probable_que_llueva_manana",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c1ed59c88d0aa0ad"
+    },
+    {
+      "conceptId": "es.descripciones_su_voz_es_parecida_a_la_tuya",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c6cf2c4aa81ac164"
+    },
+    {
+      "conceptId": "es.descripciones_la_vista_desde_la_cima_es_impresionante",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.070cddaaf51abf3a"
+    },
+    {
+      "conceptId": "es.descripciones_ese_callejon_es_demasiado_estrecho",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.022817e63e0f2b4a"
+    },
+    {
+      "conceptId": "es.descripciones_quiero_un_vaso_de_tamano_mediano",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.76b7d15280ad15d3"
+    }
   ]
 }

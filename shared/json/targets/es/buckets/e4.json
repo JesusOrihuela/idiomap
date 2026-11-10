@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "e4",
+  "concepts": {
+    "es.accountability_the_purchasing_department_will_receive_a": {
+      "conceptId": "es.accountability_the_purchasing_department_will_receive_a",
+      "id": "accountability_the_purchasing_department_will_receive_a",
+      "target": [
+        {
+          "text": "El departamento de compras recibirá un bono por cumplimiento de metas.",
+          "audioSlug": "el_departamento_de_compras_recibira_un_bono_por_cumplimiento_de_metas"
+        }
+      ]
+    },
+    "es.accountability_we_are_closing_the_fiscal_year": {
+      "conceptId": "es.accountability_we_are_closing_the_fiscal_year",
+      "id": "accountability_we_are_closing_the_fiscal_year",
+      "target": [
+        {
+          "text": "Estamos cerrando el año fiscal.",
+          "audioSlug": "estamos_cerrando_el_ano_fiscal"
+        }
+      ]
+    },
+    "es.calendario_son_las_ocho_y_media": {
+      "conceptId": "es.calendario_son_las_ocho_y_media",
+      "id": "calendario_son_las_ocho_y_media",
+      "target": [
+        {
+          "text": "Son las ocho y media.",
+          "audioSlug": "son_las_ocho_y_media"
+        }
+      ]
+    },
+    "es.conversacion_dime_la_verdad": {
+      "conceptId": "es.conversacion_dime_la_verdad",
+      "id": "conversacion_dime_la_verdad",
+      "target": [
+        {
+          "text": "Dime la verdad.",
+          "audioSlug": "dime_la_verdad",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Dígame la verdad.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "digame_la_verdad"
+        }
+      ]
+    },
+    "es.descripciones_es_una_persona_muy_sociable": {
+      "conceptId": "es.descripciones_es_una_persona_muy_sociable",
+      "id": "descripciones_es_una_persona_muy_sociable",
+      "target": [
+        {
+          "text": "Es una persona muy sociable.",
+          "audioSlug": "es_una_persona_muy_sociable"
+        }
+      ]
+    },
+    "es.restaurant_what_do_you_recommend": {
+      "conceptId": "es.restaurant_what_do_you_recommend",
+      "id": "restaurant_what_do_you_recommend",
+      "target": [
+        {
+          "text": "¿Qué recomiendas?",
+          "source": "Was empfiehlst du?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "que_recomiendas"
+        },
+        {
+          "text": "¿Qué recomienda?",
+          "source": "Was empfehlen Sie?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "que_recomienda"
+        }
+      ]
+    },
+    "es.survival_im_learning": {
+      "conceptId": "es.survival_im_learning",
+      "id": "survival_im_learning",
+      "target": [
+        {
+          "text": "Estoy aprendiendo español.",
+          "audioSlug": "estoy_aprendiendo_espanol"
+        }
+      ]
+    },
+    "es.technology_do_you_have_coverage_in_this": {
+      "conceptId": "es.technology_do_you_have_coverage_in_this",
+      "id": "technology_do_you_have_coverage_in_this",
+      "target": [
+        {
+          "text": "¿Tienes cobertura en este lugar?",
+          "audioSlug": "tienes_cobertura_en_este_lugar"
+        }
+      ]
+    },
+    "es.technology_what_is_this_formula_in_excel": {
+      "conceptId": "es.technology_what_is_this_formula_in_excel",
+      "id": "technology_what_is_this_formula_in_excel",
+      "target": [
+        {
+          "text": "¿Para qué sirve esta fórmula en Excel?",
+          "audioSlug": "para_que_sirve_esta_formula_en_excel"
+        }
+      ]
+    },
+    "es.transportation_penalty_charge_signage": {
+      "conceptId": "es.transportation_penalty_charge_signage",
+      "id": "transportation_penalty_charge_signage",
+      "target": [
+        {
+          "text": "Quisiera impugnar esta sanción porque la señalización era insuficiente.",
+          "audioSlug": "quisiera_impugnar_esta_sancion_porque_la_senalizacion_era_insuficiente"
+        }
+      ]
+    },
+    "es.weather_the_temperature_drops_at_night": {
+      "conceptId": "es.weather_the_temperature_drops_at_night",
+      "id": "weather_the_temperature_drops_at_night",
+      "target": [
+        {
+          "text": "La temperatura baja por la noche.",
+          "audioSlug": "la_temperatura_baja_por_la_noche"
+        }
+      ]
+    }
+  }
+}

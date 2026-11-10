@@ -50,7 +50,7 @@ const AppPath = (() => {
     { id: 'animales',               level: 'A2', emoji: '🐾', label: 'Animales',                   labelEn: 'Animals',                    order: 37 },
     { id: 'deportes',               level: 'A2', emoji: '⚽', label: 'Deportes',                   labelEn: 'Sports',                     order: 32 },
     { id: 'tiempo_libre',           level: 'A2', emoji: '🎨', label: 'Pasatiempos',                labelEn: 'Hobbies',                    order: 31 },
-    { id: 'fiesta',                 level: 'A2', emoji: '🎉', label: 'Fiestas y diversión',        labelEn: 'Parties & Fun',              order: 31 },
+    { id: 'fiesta',                 level: 'A2', emoji: '🎉', label: 'Fiestas y diversión',        labelEn: 'Parties & Fun',              order: 31.5 },
     { id: 'health',                 level: 'A2', emoji: '🩺', label: 'Salud',                      labelEn: 'Health',                     order: 19 },
     { id: 'cuerpo',                 level: 'A2', emoji: '🦵', label: 'Cuerpo',                     labelEn: 'Body',                       order: 20 },
     { id: 'supermarket',            level: 'A2', emoji: '🛒', label: 'Supermercado',               labelEn: 'Supermarket',                order: 21 },
@@ -71,6 +71,9 @@ const AppPath = (() => {
   ];
 
   // ── Activity definitions ─────────────────────────────────────────────────
+  const _AP = (typeof Progress !== 'undefined' && Progress.ACTIVITY_PREFIX)
+    ? Progress.ACTIVITY_PREFIX
+    : { speaking: '', dictation: 'dict_', cloze: 'cloze_', translation: 'trans_', scramble: 'scramble_', vocabulary: 'vocab_', quiz: 'quiz_' };
   const ACTIVITIES = [
     {
       id: 'speaking',
@@ -78,7 +81,7 @@ const AppPath = (() => {
       label: 'Pronunciación',
       skill: 'speaking',
       href: topicId => `speaking/?topic=${topicId}`,
-      actPrefix: '',
+      actPrefix: _AP.speaking,
     },
     {
       id: 'dictation',
@@ -86,7 +89,7 @@ const AppPath = (() => {
       label: 'Dictado',
       skill: 'listening',
       href: topicId => `dictation/?topic=${topicId}`,
-      actPrefix: 'dict_',
+      actPrefix: _AP.dictation,
     },
     {
       id: 'cloze',
@@ -94,7 +97,7 @@ const AppPath = (() => {
       label: 'Cloze',
       skill: 'reading',
       href: topicId => `cloze/?topic=${topicId}`,
-      actPrefix: 'cloze_',
+      actPrefix: _AP.cloze,
     },
     {
       id: 'scramble',
@@ -102,7 +105,7 @@ const AppPath = (() => {
       label: 'Secuencia',
       skill: 'writing',
       href: topicId => `scramble/?topic=${topicId}`,
-      actPrefix: 'scramble_',
+      actPrefix: _AP.scramble,
     },
     {
       id: 'translation',
@@ -110,7 +113,7 @@ const AppPath = (() => {
       label: 'Traducción',
       skill: 'writing',
       href: topicId => `translation/?topic=${topicId}`,
-      actPrefix: 'trans_',
+      actPrefix: _AP.translation,
     },
   ];
 
@@ -121,7 +124,7 @@ const AppPath = (() => {
       emoji: '🧠',
       label: 'Quiz',
       href: topicId => `quiz/?topic=${topicId}`,
-      cardPrefix: topicId => 'quiz_' + topicId,
+      cardPrefix: topicId => _AP.quiz + topicId,
       total: 15,
     },
     {
@@ -129,7 +132,7 @@ const AppPath = (() => {
       emoji: '📚',
       label: 'Vocabulario',
       href: topicId => `vocabulary/?topic=${topicId}`,
-      cardPrefix: topicId => 'vocab_' + topicId,
+      cardPrefix: topicId => _AP.vocabulary + topicId,
       total: 15,
     },
   ];

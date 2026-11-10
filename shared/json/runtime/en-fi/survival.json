@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-fi",
+  "topic": "survival",
+  "phrases": [
+    {
+      "id": "survival_do_you_speak_english",
+      "conceptId": "fi.survival_do_you_speak_english",
+      "sourceId": "en.s.b53e3962d194b14d",
+      "source": "Excuse me, do you speak English?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Anteeksi, puhutko englantia?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "anteeksi_puhutko_englantia"
+        },
+        {
+          "text": "Anteeksi, puhutteko englantia?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "anteeksi_puhutteko_englantia"
+        }
+      ]
+    },
+    {
+      "id": "survival_can_you_help_me",
+      "conceptId": "fi.survival_can_you_help_me",
+      "sourceId": "en.s.7e513e6c5f503d41",
+      "source": "Can you help me?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Voitko auttaa minua?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "voitko_auttaa_minua"
+        },
+        {
+          "text": "Voitteko auttaa minua?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "voitteko_auttaa_minua"
+        }
+      ]
+    },
+    {
+      "id": "survival_i_do_not_understand",
+      "conceptId": "fi.survival_i_do_not_understand",
+      "sourceId": "en.s.5df9cfa45859f803",
+      "source": "I don't understand.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En ymmärrä.",
+          "audioSlug": "en_ymmarra"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "a0",
+  "concepts": {
+    "en.descripciones_what_color_is_it": {
+      "conceptId": "en.descripciones_what_color_is_it",
+      "id": "descripciones_what_color_is_it",
+      "target": [
+        {
+          "text": "What color is it?",
+          "audioSlug": "what_color_is_it"
+        }
+      ]
+    },
+    "en.emociones_im_relaxed": {
+      "conceptId": "en.emociones_im_relaxed",
+      "id": "emociones_im_relaxed",
+      "target": [
+        {
+          "text": "I'm relaxed.",
+          "audioSlug": "i_m_relaxed"
+        }
+      ]
+    },
+    "en.gym_hiit_cardiovascular_endurance": {
+      "conceptId": "en.gym_hiit_cardiovascular_endurance",
+      "id": "gym_hiit_cardiovascular_endurance",
+      "target": [
+        {
+          "text": "I added HIIT to my routine to improve cardiovascular endurance.",
+          "audioSlug": "i_added_hiit_to_my_routine_to_improve_cardiovascular_endurance"
+        }
+      ]
+    },
+    "en.planes_it_was_a_good_opportunity": {
+      "conceptId": "en.planes_it_was_a_good_opportunity",
+      "id": "planes_it_was_a_good_opportunity",
+      "target": [
+        {
+          "text": "It was a good opportunity.",
+          "audioSlug": "it_was_a_good_opportunity"
+        }
+      ]
+    },
+    "en.restaurant_the_check_please": {
+      "conceptId": "en.restaurant_the_check_please",
+      "id": "restaurant_the_check_please",
+      "target": [
+        {
+          "text": "The check, please.",
+          "labels": {
+            "region": "US"
+          },
+          "audioSlug": "the_check_please"
+        },
+        {
+          "text": "The bill, please.",
+          "labels": {
+            "region": "UK"
+          },
+          "audioSlug": "the_bill_please"
+        }
+      ]
+    },
+    "en.supermarket_where_are_the_cookies": {
+      "conceptId": "en.supermarket_where_are_the_cookies",
+      "id": "supermarket_where_are_the_cookies",
+      "target": [
+        {
+          "text": "Where are the cookies?",
+          "audioSlug": "where_are_the_cookies"
+        }
+      ]
+    },
+    "en.technology_look_for_the_file_in_the": {
+      "conceptId": "en.technology_look_for_the_file_in_the",
+      "id": "technology_look_for_the_file_in_the",
+      "target": [
+        {
+          "text": "Look for the file in the downloads folder.",
+          "audioSlug": "look_for_the_file_in_the_downloads_folder"
+        }
+      ]
+    },
+    "en.weather_forecast_tomorrow": {
+      "conceptId": "en.weather_forecast_tomorrow",
+      "id": "weather_forecast_tomorrow",
+      "target": [
+        {
+          "text": "What's the forecast for tomorrow?",
+          "audioSlug": "what_s_the_forecast_for_tomorrow"
+        }
+      ]
+    }
+  }
+}

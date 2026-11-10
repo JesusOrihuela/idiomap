@@ -196,14 +196,13 @@
   align-items: center;
   gap: var(--space-1-5);
   min-width: 0;
-  /* Zona del pin de tema reservada en todos los nodos: solo se pinta cuando
-     cambia el tema, pero las burbujas siguen alineadas. */
+  /* Zona del pin de tema reservada en todos los nodos: cada paso pinta el suyo. */
   padding-top: var(--space-8);
   /* Always render above connectors so the bubble is never obscured */
   z-index: 1;
 }
 
-/* Pin de tema — solo en el primer nodo de cada grupo. */
+/* Pin de tema - repetido en cada nodo. */
 .ml-snode__topic {
   position: absolute;
   top: 0;

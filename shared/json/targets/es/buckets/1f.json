@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "1f",
+  "concepts": {
+    "es.conversacion_tengo_buenas_noticias_para_ti": {
+      "conceptId": "es.conversacion_tengo_buenas_noticias_para_ti",
+      "id": "conversacion_tengo_buenas_noticias_para_ti",
+      "target": [
+        {
+          "text": "Tengo buenas noticias para ti.",
+          "audioSlug": "tengo_buenas_noticias_para_ti"
+        }
+      ]
+    },
+    "es.deportes_soy_miembro_del_equipo": {
+      "conceptId": "es.deportes_soy_miembro_del_equipo",
+      "id": "deportes_soy_miembro_del_equipo",
+      "target": [
+        {
+          "text": "Soy miembro del equipo.",
+          "audioSlug": "soy_miembro_del_equipo"
+        }
+      ]
+    },
+    "es.greetings_good_evening": {
+      "conceptId": "es.greetings_good_evening",
+      "id": "greetings_good_evening",
+      "target": [
+        {
+          "text": "Buenas noches.",
+          "audioSlug": "buenas_noches"
+        }
+      ]
+    },
+    "es.gym_progress_plateaued_modify_program": {
+      "conceptId": "es.gym_progress_plateaued_modify_program",
+      "id": "gym_progress_plateaued_modify_program",
+      "target": [
+        {
+          "text": "Mi progreso se ha estancado y creo que necesito modificar mi programa de entrenamiento.",
+          "audioSlug": "mi_progreso_se_ha_estancado_y_creo_que_necesito_modificar_mi_programa_de_entrenamiento"
+        }
+      ]
+    },
+    "es.hogar_mi_perro_juega_en_el_jardin": {
+      "conceptId": "es.hogar_mi_perro_juega_en_el_jardin",
+      "id": "hogar_mi_perro_juega_en_el_jardin",
+      "target": [
+        {
+          "text": "Mi perro juega en el jardín.",
+          "audioSlug": "mi_perro_juega_en_el_jardin"
+        }
+      ]
+    },
+    "es.kitchen_servimos_un_aperitivo_antes_de_comer": {
+      "conceptId": "es.kitchen_servimos_un_aperitivo_antes_de_comer",
+      "id": "kitchen_servimos_un_aperitivo_antes_de_comer",
+      "target": [
+        {
+          "text": "Servimos un aperitivo antes de comer.",
+          "audioSlug": "servimos_un_aperitivo_antes_de_comer"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_hay_mucha_niebla_en_la_montana": {
+      "conceptId": "es.naturaleza_lugares_hay_mucha_niebla_en_la_montana",
+      "id": "naturaleza_lugares_hay_mucha_niebla_en_la_montana",
+      "target": [
+        {
+          "text": "Hay mucha niebla en la montaña.",
+          "audioSlug": "hay_mucha_niebla_en_la_montana"
+        }
+      ]
+    },
+    "es.sitios_es_un_lugar_turistico": {
+      "conceptId": "es.sitios_es_un_lugar_turistico",
+      "id": "sitios_es_un_lugar_turistico",
+      "target": [
+        {
+          "text": "Es un lugar turístico.",
+          "audioSlug": "es_un_lugar_turistico"
+        }
+      ]
+    },
+    "es.sitios_fue_a_la_comisaria": {
+      "conceptId": "es.sitios_fue_a_la_comisaria",
+      "id": "sitios_fue_a_la_comisaria",
+      "target": [
+        {
+          "text": "Fue a la comisaría a denunciar el robo.",
+          "audioSlug": "fue_a_la_comisaria_a_denunciar_el_robo"
+        }
+      ]
+    }
+  }
+}

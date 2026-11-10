@@ -19,7 +19,13 @@
       "gloss_example": {
         "en": "The word sun has three letters."
       },
-      "conceptId": "es.letter"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "term",
@@ -40,7 +46,13 @@
       "gloss_example": {
         "en": "Explain the term in simple words."
       },
-      "conceptId": "es.term"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "lengua",
@@ -61,7 +73,13 @@
       "gloss_example": {
         "en": "Spanish is a widely spoken language."
       },
-      "conceptId": "es.lengua"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "frase",
@@ -82,7 +100,13 @@
       "gloss_example": {
         "en": "Write a sentence with this word."
       },
-      "conceptId": "es.frase"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "texto",
@@ -103,7 +127,13 @@
       "gloss_example": {
         "en": "Read the text carefully."
       },
-      "conceptId": "es.texto"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "expresion",
@@ -124,7 +154,13 @@
       "gloss_example": {
         "en": "I learned a new expression."
       },
-      "conceptId": "es.expresion"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "capitulo",
@@ -145,7 +181,13 @@
       "gloss_example": {
         "en": "I watched the last episode last night."
       },
-      "conceptId": "es.capitulo"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "pagina",
@@ -166,7 +208,13 @@
       "gloss_example": {
         "en": "Open the book to page ten."
       },
-      "conceptId": "es.pagina"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "word",
@@ -187,7 +235,13 @@
       "gloss_example": {
         "en": "I don't know this word."
       },
-      "conceptId": "es.word"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "question",
@@ -208,7 +262,13 @@
       "gloss_example": {
         "en": "May I ask a question?"
       },
-      "conceptId": "es.question"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "voice",
@@ -229,7 +289,13 @@
       "gloss_example": {
         "en": "She has a beautiful singing voice."
       },
-      "conceptId": "es.voice"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "silence",
@@ -250,7 +316,13 @@
       "gloss_example": {
         "en": "The library was in total silence."
       },
-      "conceptId": "es.silence"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "espanol",
@@ -271,7 +343,13 @@
       "gloss_example": {
         "en": "I speak Spanish."
       },
-      "conceptId": "es.espanol"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "respuesta",
@@ -292,7 +370,13 @@
       "gloss_example": {
         "en": "I am still waiting for your answer."
       },
-      "conceptId": "es.respuesta"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "idioma",
@@ -313,7 +397,13 @@
       "gloss_example": {
         "en": "She is learning a new language."
       },
-      "conceptId": "es.idioma"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "conversacion",
@@ -334,7 +424,13 @@
       "gloss_example": {
         "en": "We had a long conversation."
       },
-      "conceptId": "es.conversacion"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "mensaje",
@@ -355,7 +451,13 @@
       "gloss_example": {
         "en": "I left you a message."
       },
-      "conceptId": "es.mensaje"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "sentence_prayer",
@@ -392,7 +494,13 @@
           "audioSlug": "frase"
         }
       ],
-      "conceptId": "es.sentence_prayer"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

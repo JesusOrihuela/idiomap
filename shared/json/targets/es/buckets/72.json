@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "72",
+  "concepts": {
+    "es.cotidianidad_tengo_que_hacer_varios_recados": {
+      "conceptId": "es.cotidianidad_tengo_que_hacer_varios_recados",
+      "id": "cotidianidad_tengo_que_hacer_varios_recados",
+      "target": [
+        {
+          "text": "Tengo que hacer varios recados.",
+          "audioSlug": "tengo_que_hacer_varios_recados"
+        }
+      ]
+    },
+    "es.directions_el_aparcamiento_esta_debajo_del_edificio": {
+      "conceptId": "es.directions_el_aparcamiento_esta_debajo_del_edificio",
+      "id": "directions_el_aparcamiento_esta_debajo_del_edificio",
+      "target": [
+        {
+          "text": "El estacionamiento está debajo del edificio.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "el_estacionamiento_esta_debajo_del_edificio"
+        },
+        {
+          "text": "El aparcamiento está debajo del edificio.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "el_aparcamiento_esta_debajo_del_edificio"
+        }
+      ]
+    },
+    "es.directions_is_it_far": {
+      "conceptId": "es.directions_is_it_far",
+      "id": "directions_is_it_far",
+      "target": [
+        {
+          "text": "¿Está lejos de aquí?",
+          "audioSlug": "esta_lejos_de_aqui"
+        }
+      ]
+    },
+    "es.emociones_why_are_you_scared": {
+      "conceptId": "es.emociones_why_are_you_scared",
+      "id": "emociones_why_are_you_scared",
+      "target": [
+        {
+          "text": "¿Por qué estás asustado?",
+          "audioSlug": "por_que_estas_asustado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás asustada?",
+          "audioSlug": "por_que_estas_asustada",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.estudios_no_entiendo_este_punto": {
+      "conceptId": "es.estudios_no_entiendo_este_punto",
+      "id": "estudios_no_entiendo_este_punto",
+      "target": [
+        {
+          "text": "No entiendo este punto de la lección.",
+          "audioSlug": "no_entiendo_este_punto_de_la_leccion"
+        }
+      ]
+    },
+    "es.family_mis_abuelos_celebran_su_aniversario": {
+      "conceptId": "es.family_mis_abuelos_celebran_su_aniversario",
+      "id": "family_mis_abuelos_celebran_su_aniversario",
+      "target": [
+        {
+          "text": "Mis abuelos celebran su aniversario.",
+          "audioSlug": "mis_abuelos_celebran_su_aniversario"
+        }
+      ]
+    },
+    "es.personal_info_im_ana_and_you": {
+      "conceptId": "es.personal_info_im_ana_and_you",
+      "id": "personal_info_im_ana_and_you",
+      "target": [
+        {
+          "text": "Hola, soy Ana. ¿Y tú?",
+          "audioSlug": "hola_soy_ana_y_tu"
+        }
+      ]
+    },
+    "es.restaurant_is_there_a_corkage_fee_if": {
+      "conceptId": "es.restaurant_is_there_a_corkage_fee_if",
+      "id": "restaurant_is_there_a_corkage_fee_if",
+      "target": [
+        {
+          "text": "¿Hay que pagar un descorche si traigo mi propio vino?",
+          "audioSlug": "hay_que_pagar_un_descorche_si_traigo_mi_propio_vino"
+        }
+      ]
+    },
+    "es.supermarket_necesito_hacer_una_lista": {
+      "conceptId": "es.supermarket_necesito_hacer_una_lista",
+      "id": "supermarket_necesito_hacer_una_lista",
+      "target": [
+        {
+          "text": "Necesito hacer una lista de compras.",
+          "audioSlug": "necesito_hacer_una_lista_de_compras"
+        }
+      ]
+    }
+  }
+}

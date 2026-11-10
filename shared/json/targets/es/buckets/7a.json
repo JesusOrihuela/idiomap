@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "7a",
+  "concepts": {
+    "es.daily_routine_a_veces_es_bueno_quedarse_en_casa": {
+      "conceptId": "es.daily_routine_a_veces_es_bueno_quedarse_en_casa",
+      "id": "daily_routine_a_veces_es_bueno_quedarse_en_casa",
+      "target": [
+        {
+          "text": "A veces es bueno quedarse en casa.",
+          "audioSlug": "a_veces_es_bueno_quedarse_en_casa"
+        }
+      ]
+    },
+    "es.describiendo_personas_ella_es_optimista": {
+      "conceptId": "es.describiendo_personas_ella_es_optimista",
+      "id": "describiendo_personas_ella_es_optimista",
+      "target": [
+        {
+          "text": "Ella es una persona optimista.",
+          "audioSlug": "ella_es_una_persona_optimista"
+        }
+      ]
+    },
+    "es.greetings_find_yourself_city_give_call": {
+      "conceptId": "es.greetings_find_yourself_city_give_call",
+      "id": "greetings_find_yourself_city_give_call",
+      "target": [
+        {
+          "text": "Si alguna vez te encuentras en la ciudad, no dudes en llamarme.",
+          "audioSlug": "si_alguna_vez_te_encuentras_en_la_ciudad_no_dudes_en_llamarme"
+        }
+      ]
+    },
+    "es.greetings_nos_vemos_el_viernes": {
+      "conceptId": "es.greetings_nos_vemos_el_viernes",
+      "id": "greetings_nos_vemos_el_viernes",
+      "target": [
+        {
+          "text": "Nos vemos el viernes.",
+          "audioSlug": "nos_vemos_el_viernes"
+        }
+      ]
+    },
+    "es.gym_im_sore": {
+      "conceptId": "es.gym_im_sore",
+      "id": "gym_im_sore",
+      "target": [
+        {
+          "text": "Hoy estoy muy adolorida.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "hoy_estoy_muy_adolorida"
+        },
+        {
+          "text": "Hoy estoy muy adolorido.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "hoy_estoy_muy_adolorido"
+        }
+      ]
+    },
+    "es.hogar_escucho_la_radio_en_la_cocina": {
+      "conceptId": "es.hogar_escucho_la_radio_en_la_cocina",
+      "id": "hogar_escucho_la_radio_en_la_cocina",
+      "target": [
+        {
+          "text": "Escucho la radio en la cocina.",
+          "audioSlug": "escucho_la_radio_en_la_cocina"
+        }
+      ]
+    },
+    "es.hogar_la_lampara_esta_sobre_la_mesa": {
+      "conceptId": "es.hogar_la_lampara_esta_sobre_la_mesa",
+      "id": "hogar_la_lampara_esta_sobre_la_mesa",
+      "target": [
+        {
+          "text": "La lámpara está sobre la mesa.",
+          "audioSlug": "la_lampara_esta_sobre_la_mesa"
+        }
+      ]
+    },
+    "es.personal_info_how_spell_name": {
+      "conceptId": "es.personal_info_how_spell_name",
+      "id": "personal_info_how_spell_name",
+      "target": [
+        {
+          "text": "¿Cómo se escribe tu nombre?",
+          "audioSlug": "como_se_escribe_tu_nombre",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cómo se escribe su nombre?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "como_se_escribe_su_nombre"
+        }
+      ]
+    },
+    "es.restaurant_pedimos_unas_tapas_para_compartir": {
+      "conceptId": "es.restaurant_pedimos_unas_tapas_para_compartir",
+      "id": "restaurant_pedimos_unas_tapas_para_compartir",
+      "target": [
+        {
+          "text": "Pedimos unas tapas para compartir.",
+          "audioSlug": "pedimos_unas_tapas_para_compartir"
+        }
+      ]
+    },
+    "es.sitios_esta_zona_es_muy_turistica": {
+      "conceptId": "es.sitios_esta_zona_es_muy_turistica",
+      "id": "sitios_esta_zona_es_muy_turistica",
+      "target": [
+        {
+          "text": "Esta zona es muy turística.",
+          "audioSlug": "esta_zona_es_muy_turistica"
+        }
+      ]
+    },
+    "es.vestimenta_este_vestido_es_muy_bonito": {
+      "conceptId": "es.vestimenta_este_vestido_es_muy_bonito",
+      "id": "vestimenta_este_vestido_es_muy_bonito",
+      "target": [
+        {
+          "text": "Este vestido es muy bonito.",
+          "audioSlug": "este_vestido_es_muy_bonito"
+        }
+      ]
+    }
+  }
+}

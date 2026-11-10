@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "7d",
+  "concepts": {
+    "es.accommodation_hay_wifi_en_la_habitacion": {
+      "conceptId": "es.accommodation_hay_wifi_en_la_habitacion",
+      "id": "accommodation_hay_wifi_en_la_habitacion",
+      "target": [
+        {
+          "text": "¿Hay wifi en la habitación?",
+          "audioSlug": "hay_wifi_en_la_habitacion"
+        }
+      ]
+    },
+    "es.conversacion_puedes_repetir_eso": {
+      "conceptId": "es.conversacion_puedes_repetir_eso",
+      "id": "conversacion_puedes_repetir_eso",
+      "target": [
+        {
+          "text": "¿Puedes repetir eso?",
+          "audioSlug": "puedes_repetir_eso",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Puede repetir eso?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_repetir_eso"
+        }
+      ]
+    },
+    "es.cuerpo_tengo_el_pelo_largo": {
+      "conceptId": "es.cuerpo_tengo_el_pelo_largo",
+      "id": "cuerpo_tengo_el_pelo_largo",
+      "target": [
+        {
+          "text": "Tengo el pelo largo.",
+          "audioSlug": "tengo_el_pelo_largo"
+        }
+      ]
+    },
+    "es.descripciones_este_restaurante_es_caro": {
+      "conceptId": "es.descripciones_este_restaurante_es_caro",
+      "id": "descripciones_este_restaurante_es_caro",
+      "target": [
+        {
+          "text": "Este restaurante es un poco caro.",
+          "audioSlug": "este_restaurante_es_un_poco_caro"
+        }
+      ]
+    },
+    "es.descripciones_me_encanta_la_comida_italiana": {
+      "conceptId": "es.descripciones_me_encanta_la_comida_italiana",
+      "id": "descripciones_me_encanta_la_comida_italiana",
+      "target": [
+        {
+          "text": "Me encanta la comida italiana.",
+          "audioSlug": "me_encanta_la_comida_italiana"
+        }
+      ]
+    },
+    "es.directions_el_pueblo_esta_a_diez_kilometros": {
+      "conceptId": "es.directions_el_pueblo_esta_a_diez_kilometros",
+      "id": "directions_el_pueblo_esta_a_diez_kilometros",
+      "target": [
+        {
+          "text": "El pueblo está a diez kilómetros.",
+          "audioSlug": "el_pueblo_esta_a_diez_kilometros"
+        }
+      ]
+    },
+    "es.economia_gano_el_premio_a_la_mejor_empresa": {
+      "conceptId": "es.economia_gano_el_premio_a_la_mejor_empresa",
+      "id": "economia_gano_el_premio_a_la_mejor_empresa",
+      "target": [
+        {
+          "text": "Ganó el premio a la mejor empresa.",
+          "audioSlug": "gano_el_premio_a_la_mejor_empresa"
+        }
+      ]
+    },
+    "es.economia_tenemos_una_empresa_pequena": {
+      "conceptId": "es.economia_tenemos_una_empresa_pequena",
+      "id": "economia_tenemos_una_empresa_pequena",
+      "target": [
+        {
+          "text": "Tenemos una empresa pequeña.",
+          "audioSlug": "tenemos_una_empresa_pequena"
+        }
+      ]
+    },
+    "es.hogar_caliento_la_comida_en_el_microondas": {
+      "conceptId": "es.hogar_caliento_la_comida_en_el_microondas",
+      "id": "hogar_caliento_la_comida_en_el_microondas",
+      "target": [
+        {
+          "text": "Caliento la comida en el microondas.",
+          "audioSlug": "caliento_la_comida_en_el_microondas"
+        }
+      ]
+    },
+    "es.hogar_la_casa_tiene_tres_dormitorios": {
+      "conceptId": "es.hogar_la_casa_tiene_tres_dormitorios",
+      "id": "hogar_la_casa_tiene_tres_dormitorios",
+      "target": [
+        {
+          "text": "La casa tiene tres dormitorios.",
+          "audioSlug": "la_casa_tiene_tres_dormitorios"
+        }
+      ]
+    },
+    "es.music_similar_genre_film": {
+      "conceptId": "es.music_similar_genre_film",
+      "id": "music_similar_genre_film",
+      "target": [
+        {
+          "text": "Busco música similar a la de esa película, ¿sabes qué género es?",
+          "audioSlug": "busco_musica_similar_a_la_de_esa_pelicula_sabes_que_genero_es"
+        }
+      ]
+    },
+    "es.politica_la_politica_me_interesa_mucho": {
+      "conceptId": "es.politica_la_politica_me_interesa_mucho",
+      "id": "politica_la_politica_me_interesa_mucho",
+      "target": [
+        {
+          "text": "La política me interesa mucho.",
+          "audioSlug": "la_politica_me_interesa_mucho"
+        }
+      ]
+    },
+    "es.tiempo_libre_me_gusta_cantar_en_la_ducha": {
+      "conceptId": "es.tiempo_libre_me_gusta_cantar_en_la_ducha",
+      "id": "tiempo_libre_me_gusta_cantar_en_la_ducha",
+      "target": [
+        {
+          "text": "Me gusta cantar en la ducha.",
+          "audioSlug": "me_gusta_cantar_en_la_ducha"
+        }
+      ]
+    }
+  }
+}

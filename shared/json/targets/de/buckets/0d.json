@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "bucket": "0d",
+  "concepts": {
+    "de.piloto_hasta_luego": {
+      "conceptId": "de.piloto_hasta_luego",
+      "id": "piloto_hasta_luego",
+      "target": [
+        {
+          "text": "Bis später.",
+          "audioSlug": "hasta_luego"
+        }
+      ]
+    }
+  }
+}

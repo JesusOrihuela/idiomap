@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "89",
+  "concepts": {
+    "en.kitchen_fry_the_potatoes_in_hot_oil": {
+      "conceptId": "en.kitchen_fry_the_potatoes_in_hot_oil",
+      "id": "kitchen_fry_the_potatoes_in_hot_oil",
+      "target": [
+        {
+          "text": "Fry the potatoes in hot oil.",
+          "audioSlug": "fry_the_potatoes_in_hot_oil"
+        }
+      ]
+    },
+    "en.movies_special_effects_incredible": {
+      "conceptId": "en.movies_special_effects_incredible",
+      "id": "movies_special_effects_incredible",
+      "target": [
+        {
+          "text": "The special effects were incredible. How did they do it?",
+          "audioSlug": "the_special_effects_were_incredible_how_did_they_do_it"
+        }
+      ]
+    },
+    "en.music_what_listening": {
+      "conceptId": "en.music_what_listening",
+      "id": "music_what_listening",
+      "target": [
+        {
+          "text": "What are you listening to?",
+          "audioSlug": "what_are_you_listening_to"
+        }
+      ]
+    },
+    "en.oficina_i_will_attend_the_meeting": {
+      "conceptId": "en.oficina_i_will_attend_the_meeting",
+      "id": "oficina_i_will_attend_the_meeting",
+      "target": [
+        {
+          "text": "I will attend the meeting.",
+          "audioSlug": "i_will_attend_the_meeting"
+        }
+      ]
+    }
+  }
+}

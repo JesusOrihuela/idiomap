@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "35",
+  "concepts": {
+    "es.accountability_transfer_pricing_documented_tax_authorities": {
+      "conceptId": "es.accountability_transfer_pricing_documented_tax_authorities",
+      "id": "accountability_transfer_pricing_documented_tax_authorities",
+      "target": [
+        {
+          "text": "La política de precios de transferencia debe documentarse ante el escrutinio fiscal.",
+          "audioSlug": "la_politica_de_precios_de_transferencia_debe_documentarse_ante_el_escrutinio_fiscal"
+        }
+      ]
+    },
+    "es.airport_carryon_over_limit": {
+      "conceptId": "es.airport_carryon_over_limit",
+      "id": "airport_carryon_over_limit",
+      "target": [
+        {
+          "text": "Mi equipaje de mano supera el límite, ¿qué opciones tengo?",
+          "audioSlug": "mi_equipaje_de_mano_supera_el_limite_que_opciones_tengo"
+        }
+      ]
+    },
+    "es.airport_is_flight_on_time": {
+      "conceptId": "es.airport_is_flight_on_time",
+      "id": "airport_is_flight_on_time",
+      "target": [
+        {
+          "text": "¿Mi vuelo sale a tiempo?",
+          "audioSlug": "mi_vuelo_sale_a_tiempo"
+        }
+      ]
+    },
+    "es.cotidianidad_me_falta_tiempo": {
+      "conceptId": "es.cotidianidad_me_falta_tiempo",
+      "id": "cotidianidad_me_falta_tiempo",
+      "target": [
+        {
+          "text": "Me falta tiempo.",
+          "audioSlug": "me_falta_tiempo"
+        }
+      ]
+    },
+    "es.describiendo_personas_mi_abuelo_es_generoso": {
+      "conceptId": "es.describiendo_personas_mi_abuelo_es_generoso",
+      "id": "describiendo_personas_mi_abuelo_es_generoso",
+      "target": [
+        {
+          "text": "Mi abuelo es muy generoso.",
+          "audioSlug": "mi_abuelo_es_muy_generoso"
+        }
+      ]
+    },
+    "es.descripciones_ese_chico_es_muy_joven": {
+      "conceptId": "es.descripciones_ese_chico_es_muy_joven",
+      "id": "descripciones_ese_chico_es_muy_joven",
+      "target": [
+        {
+          "text": "Ese chico es todavía muy joven.",
+          "audioSlug": "ese_chico_es_todavia_muy_joven"
+        }
+      ]
+    },
+    "es.greetings_adios": {
+      "conceptId": "es.greetings_adios",
+      "id": "greetings_adios",
+      "target": [
+        {
+          "text": "¡Adiós!",
+          "audioSlug": "adios"
+        }
+      ]
+    },
+    "es.greetings_pleasure_introduce_keynote_speaker": {
+      "conceptId": "es.greetings_pleasure_introduce_keynote_speaker",
+      "id": "greetings_pleasure_introduce_keynote_speaker",
+      "target": [
+        {
+          "text": "Es un placer presentar a nuestro conferencista principal, cuyo trabajo ha dado forma a este campo.",
+          "audioSlug": "es_un_placer_presentar_a_nuestro_conferencista_principal_cuyo_trabajo_ha_dado_forma_a_este_campo",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "Es un placer presentar a nuestra conferencista principal, cuyo trabajo ha dado forma a este campo.",
+          "audioSlug": "es_un_placer_presentar_a_nuestra_conferencista_principal_cuyo_trabajo_ha_dado_forma_a_este_campo",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.gym_signup_membership": {
+      "conceptId": "es.gym_signup_membership",
+      "id": "gym_signup_membership",
+      "target": [
+        {
+          "text": "Quisiera inscribirme en el gimnasio.",
+          "audioSlug": "quisiera_inscribirme_en_el_gimnasio"
+        }
+      ]
+    },
+    "es.hogar_acabamos_de_mudarnos": {
+      "conceptId": "es.hogar_acabamos_de_mudarnos",
+      "id": "hogar_acabamos_de_mudarnos",
+      "target": [
+        {
+          "text": "Acabamos de mudarnos a un apartamento nuevo.",
+          "audioSlug": "acabamos_de_mudarnos_a_un_apartamento_nuevo"
+        }
+      ]
+    },
+    "es.hogar_la_lavadora_no_funciona": {
+      "conceptId": "es.hogar_la_lavadora_no_funciona",
+      "id": "hogar_la_lavadora_no_funciona",
+      "target": [
+        {
+          "text": "La lavadora no funciona.",
+          "audioSlug": "la_lavadora_no_funciona"
+        }
+      ]
+    },
+    "es.kitchen_we_need_to_wash_the_cheese": {
+      "conceptId": "es.kitchen_we_need_to_wash_the_cheese",
+      "id": "kitchen_we_need_to_wash_the_cheese",
+      "target": [
+        {
+          "text": "Hay que lavar el rallador de queso.",
+          "audioSlug": "hay_que_lavar_el_rallador_de_queso"
+        }
+      ]
+    },
+    "es.planes_necesito_conseguir_uno": {
+      "conceptId": "es.planes_necesito_conseguir_uno",
+      "id": "planes_necesito_conseguir_uno",
+      "target": [
+        {
+          "text": "Necesito conseguir uno.",
+          "audioSlug": "necesito_conseguir_uno"
+        }
+      ]
+    },
+    "es.restaurant_could_you_recommend_a_good_wine": {
+      "conceptId": "es.restaurant_could_you_recommend_a_good_wine",
+      "id": "restaurant_could_you_recommend_a_good_wine",
+      "target": [
+        {
+          "text": "¿Podría recomendarme un buen vino a un precio razonable?",
+          "audioSlug": "podria_recomendarme_un_buen_vino_a_un_precio_razonable"
+        }
+      ]
+    },
+    "es.technology_i_really_liked_this_image_im": {
+      "conceptId": "es.technology_i_really_liked_this_image_im",
+      "id": "technology_i_really_liked_this_image_im",
+      "target": [
+        {
+          "text": "Voy a poner esta imagen de fondo de pantalla.",
+          "audioSlug": "voy_a_poner_esta_imagen_de_fondo_de_pantalla"
+        }
+      ]
+    },
+    "es.theater_standing_ovation_deserved": {
+      "conceptId": "es.theater_standing_ovation_deserved",
+      "id": "theater_standing_ovation_deserved",
+      "target": [
+        {
+          "text": "El reparto recibió una ovación de pie muy merecida.",
+          "audioSlug": "el_reparto_recibio_una_ovacion_de_pie_muy_merecida"
+        }
+      ]
+    }
+  }
+}

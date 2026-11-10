@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "airport",
+  "phrases": [
+    {
+      "id": "airport_donde_esta_la_puerta_de_embarque",
+      "conceptId": "es.airport_donde_esta_la_puerta_de_embarque",
+      "sourceId": "de.s.54801df5fe6952a5",
+      "source": "Wo ist der Flugsteig?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la puerta de embarque?",
+          "audioSlug": "donde_esta_la_puerta_de_embarque"
+        }
+      ]
+    },
+    {
+      "id": "airport_mi_vuelo_sale_a_las_tres",
+      "conceptId": "es.airport_mi_vuelo_sale_a_las_tres",
+      "sourceId": "de.s.626a2d8e321c4644",
+      "source": "Mein Flug geht um drei.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi vuelo sale a las tres.",
+          "audioSlug": "mi_vuelo_sale_a_las_tres"
+        }
+      ]
+    },
+    {
+      "id": "airport_donde_entrego_el_equipaje",
+      "conceptId": "es.airport_donde_entrego_el_equipaje",
+      "sourceId": "de.s.f6072e34f90f029c",
+      "source": "Wo gebe ich das Gepäck ab?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde entrego el equipaje?",
+          "audioSlug": "donde_entrego_el_equipaje"
+        }
+      ]
+    },
+    {
+      "id": "airport_el_vuelo_esta_retrasado",
+      "conceptId": "es.airport_el_vuelo_esta_retrasado",
+      "sourceId": "de.s.ef1c1afabebc4613",
+      "source": "Der Flug hat Verspätung.",
+      "level": "A2",
+      "grammar": "un estado del momento usa estar, está retrasado.",
+      "target": [
+        {
+          "text": "El vuelo está retrasado.",
+          "audioSlug": "el_vuelo_esta_retrasado"
+        }
+      ]
+    },
+    {
+      "id": "airport_aqui_esta_mi_pasaporte",
+      "conceptId": "es.airport_aqui_esta_mi_pasaporte",
+      "sourceId": "de.s.e6a3db34c7e85be9",
+      "source": "Hier ist mein Reisepass.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Aquí está mi pasaporte.",
+          "audioSlug": "aqui_esta_mi_pasaporte"
+        }
+      ]
+    },
+    {
+      "id": "airport_cuanto_equipaje_puedo_llevar",
+      "conceptId": "es.airport_cuanto_equipaje_puedo_llevar",
+      "sourceId": "de.s.b28d9ba1c63e665f",
+      "source": "Wie viel Gepäck darf ich mitnehmen?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuánto equipaje puedo llevar?",
+          "audioSlug": "cuanto_equipaje_puedo_llevar"
+        }
+      ]
+    },
+    {
+      "id": "airport_necesito_un_asiento_junto_a_la_ventana",
+      "conceptId": "es.airport_necesito_un_asiento_junto_a_la_ventana",
+      "sourceId": "de.s.80b2de7fc04d587b",
+      "source": "Ich brauche einen Fensterplatz.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito un asiento junto a la ventana.",
+          "audioSlug": "necesito_un_asiento_junto_a_la_ventana"
+        }
+      ]
+    },
+    {
+      "id": "airport_donde_esta_la_sala_de_espera",
+      "conceptId": "es.airport_donde_esta_la_sala_de_espera",
+      "sourceId": "de.s.82428a61e23a2ccc",
+      "source": "Wo ist der Warteraum?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la sala de espera?",
+          "audioSlug": "donde_esta_la_sala_de_espera"
+        }
+      ]
+    },
+    {
+      "id": "airport_perdi_mi_conexion",
+      "conceptId": "es.airport_perdi_mi_conexion",
+      "sourceId": "de.s.87edf26e90eb9430",
+      "source": "Ich habe meinen Anschluss verpasst, was kann ich tun?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Perdí mi conexión, ¿qué puedo hacer?",
+          "audioSlug": "perdi_mi_conexion_que_puedo_hacer"
+        }
+      ]
+    },
+    {
+      "id": "airport_mi_maleta_no_llego",
+      "conceptId": "es.airport_mi_maleta_no_llego",
+      "sourceId": "de.s.bc800995e075129d",
+      "source": "Mein Koffer ist nicht angekommen, wo melde ich das?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi maleta no llegó, ¿dónde la reclamo?",
+          "audioSlug": "mi_maleta_no_llego_donde_la_reclamo"
+        }
+      ]
+    },
+    {
+      "id": "airport_el_avion_aterriza_a_las_seis",
+      "conceptId": "es.airport_el_avion_aterriza_a_las_seis",
+      "sourceId": "de.s.e61a863786c2cbed",
+      "source": "Das Flugzeug landet um sechs.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El avión aterriza a las seis.",
+          "audioSlug": "el_avion_aterriza_a_las_seis"
+        }
+      ]
+    },
+    {
+      "id": "airport_perdi_mi_vuelo_por_el_trafico",
+      "conceptId": "es.airport_perdi_mi_vuelo_por_el_trafico",
+      "sourceId": "de.s.3b9ba07fd240184a",
+      "source": "Ich habe meinen Flug wegen des Verkehrs verpasst.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Perdí mi vuelo por el tráfico.",
+          "audioSlug": "perdi_mi_vuelo_por_el_trafico"
+        }
+      ]
+    },
+    {
+      "id": "airport_viajo_al_extranjero_cada_verano",
+      "conceptId": "es.airport_viajo_al_extranjero_cada_verano",
+      "sourceId": "de.s.fe35bdda755d488d",
+      "source": "Ich reise jeden Sommer ins Ausland.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Viajo al extranjero cada verano.",
+          "audioSlug": "viajo_al_extranjero_cada_verano"
+        }
+      ]
+    },
+    {
+      "id": "airport_tengo_que_pasar_por_la_aduana",
+      "conceptId": "es.airport_tengo_que_pasar_por_la_aduana",
+      "sourceId": "de.s.5a4882df80140798",
+      "source": "Ich muss durch den Zoll gehen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo que pasar por la aduana.",
+          "audioSlug": "tengo_que_pasar_por_la_aduana"
+        }
+      ]
+    },
+    {
+      "id": "airport_el_vuelo_se_cancelo_por_el_mal_tiempo",
+      "conceptId": "es.airport_el_vuelo_se_cancelo_por_el_mal_tiempo",
+      "sourceId": "de.s.20b521c949c2e5ea",
+      "source": "Der Flug wurde wegen des schlechten Wetters gestrichen.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El vuelo se canceló por el mal tiempo.",
+          "audioSlug": "el_vuelo_se_cancelo_por_el_mal_tiempo"
+        }
+      ]
+    },
+    {
+      "id": "airport_donde_puedo_recoger_mi_equipaje",
+      "conceptId": "es.airport_donde_puedo_recoger_mi_equipaje",
+      "sourceId": "de.s.8355563340932df9",
+      "source": "Wo kann ich mein Gepäck abholen?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde puedo recoger mi equipaje?",
+          "audioSlug": "donde_puedo_recoger_mi_equipaje"
+        }
+      ]
+    },
+    {
+      "id": "airport_el_avion_despega_en_diez_minutos",
+      "conceptId": "es.airport_el_avion_despega_en_diez_minutos",
+      "sourceId": "de.s.f8f333c40168ebfc",
+      "source": "Das Flugzeug hebt in zehn Minuten ab.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El avión despega en diez minutos.",
+          "audioSlug": "el_avion_despega_en_diez_minutos"
+        }
+      ]
+    },
+    {
+      "id": "airport_viajo_con_mi_pareja_a_italia",
+      "conceptId": "es.airport_viajo_con_mi_pareja_a_italia",
+      "sourceId": "de.s.464e310d5f53b417",
+      "source": "Ich reise mit meinem Partner nach Italien.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Viajo con mi pareja a Italia.",
+          "audioSlug": "viajo_con_mi_pareja_a_italia"
+        }
+      ]
+    },
+    {
+      "id": "airport_el_piloto_anuncia_el_despegue",
+      "conceptId": "es.airport_el_piloto_anuncia_el_despegue",
+      "sourceId": "de.s.18833d2c0e7bc72b",
+      "source": "Der Pilot kündigt den Start an.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El piloto anuncia el despegue.",
+          "audioSlug": "el_piloto_anuncia_el_despegue"
+        }
+      ]
+    },
+    {
+      "id": "airport_pasa_por_el_control_de_seguridad",
+      "conceptId": "es.airport_pasa_por_el_control_de_seguridad",
+      "sourceId": "de.s.d256cd58064a44b5",
+      "source": "Geh durch die Sicherheitskontrolle.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Pasa por el control de seguridad.",
+          "audioSlug": "pasa_por_el_control_de_seguridad"
+        }
+      ]
+    },
+    {
+      "id": "airport_muestra_tu_documento_de_identidad_de",
+      "conceptId": "es.airport_muestra_tu_documento_de_identidad.de-es",
+      "sourceId": "de.s.fcb5eab4c02bd862",
+      "source": "Zeig deinen Ausweis.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Muestra tu documento de identidad.",
+          "audioSlug": "muestra_tu_documento_de_identidad"
+        }
+      ]
+    },
+    {
+      "id": "airport_llevo_el_portatil_en_el_maletin",
+      "conceptId": "es.airport_llevo_el_portatil_en_el_maletin",
+      "sourceId": "de.s.84d1cf76d0345cf5",
+      "source": "Ich trage den Laptop in der Aktentasche.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Llevo el portátil en el maletín.",
+          "audioSlug": "llevo_el_portatil_en_el_maletin"
+        }
+      ]
+    },
+    {
+      "id": "airport_el_personal_aereo_es_muy_amable",
+      "conceptId": "es.airport_el_personal_aereo_es_muy_amable",
+      "sourceId": "de.s.0b2797ffeff40461",
+      "source": "Das Flugpersonal ist sehr freundlich.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El personal aéreo es muy amable.",
+          "audioSlug": "el_personal_aereo_es_muy_amable"
+        }
+      ]
+    },
+    {
+      "id": "airport_reserve_un_asiento_individual",
+      "conceptId": "es.airport_reserve_un_asiento_individual",
+      "sourceId": "de.s.300727a1bd507129",
+      "source": "Ich habe einen Einzelsitz reserviert.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Reservé un asiento individual.",
+          "audioSlug": "reserve_un_asiento_individual"
+        }
+      ]
+    }
+  ]
+}

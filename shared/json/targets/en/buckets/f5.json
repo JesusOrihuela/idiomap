@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "f5",
+  "concepts": {
+    "en.conversacion_can_swim_so_can_i": {
+      "conceptId": "en.conversacion_can_swim_so_can_i",
+      "id": "conversacion_can_swim_so_can_i",
+      "target": [
+        {
+          "text": "He can swim, and so can I.",
+          "audioSlug": "he_can_swim_and_so_can_i"
+        }
+      ]
+    },
+    "en.emergencias_where_is_the_emergency_exit": {
+      "conceptId": "en.emergencias_where_is_the_emergency_exit",
+      "id": "emergencias_where_is_the_emergency_exit",
+      "target": [
+        {
+          "text": "Where is the emergency exit?",
+          "audioSlug": "where_is_the_emergency_exit"
+        }
+      ]
+    },
+    "en.planes_i_can_manage_it": {
+      "conceptId": "en.planes_i_can_manage_it",
+      "id": "planes_i_can_manage_it",
+      "target": [
+        {
+          "text": "I can manage it.",
+          "audioSlug": "i_can_manage_it"
+        }
+      ]
+    },
+    "en.technology_can_i_turn_off_notifications_for": {
+      "conceptId": "en.technology_can_i_turn_off_notifications_for",
+      "id": "technology_can_i_turn_off_notifications_for",
+      "target": [
+        {
+          "text": "Can I turn off notifications for this app?",
+          "audioSlug": "can_i_turn_off_notifications_for_this_app",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Could I turn off notifications for this app?",
+          "audioSlug": "could_i_turn_off_notifications_for_this_app",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.tiempo_libre_lets_go_hiking": {
+      "conceptId": "en.tiempo_libre_lets_go_hiking",
+      "id": "tiempo_libre_lets_go_hiking",
+      "target": [
+        {
+          "text": "Let's go hiking on Saturday.",
+          "audioSlug": "let_s_go_hiking_on_saturday"
+        }
+      ]
+    }
+  }
+}

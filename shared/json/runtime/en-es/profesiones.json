@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "profesiones",
+  "phrases": [
+    {
+      "id": "profesiones_es_mi_socio",
+      "conceptId": "es.profesiones_es_mi_socio",
+      "sourceId": "en.s.524a0bf5f454bce6",
+      "source": "He is my business partner.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es mi socio.",
+          "audioSlug": "es_mi_socio"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_es_un_escritor_famoso",
+      "conceptId": "es.profesiones_es_un_escritor_famoso",
+      "sourceId": "en.s.67811ffe00f8e29e",
+      "source": "He is a famous writer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un escritor famoso.",
+          "audioSlug": "es_un_escritor_famoso"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_es_un_buen_detective",
+      "conceptId": "es.profesiones_es_un_buen_detective",
+      "sourceId": "en.s.e0ac74c73fd812de",
+      "source": "He is a good detective.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un buen detective.",
+          "audioSlug": "es_un_buen_detective"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_es_un_gran_pintor",
+      "conceptId": "es.profesiones_es_un_gran_pintor",
+      "sourceId": "en.s.1cb0397f7971e8e8",
+      "source": "He is a great painter.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un gran pintor.",
+          "audioSlug": "es_un_gran_pintor"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_es_un_poeta_conocido",
+      "conceptId": "es.profesiones_es_un_poeta_conocido",
+      "sourceId": "en.s.ec208fcedbfb875c",
+      "source": "He is a well-known poet.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un poeta conocido.",
+          "audioSlug": "es_un_poeta_conocido"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_es_periodista",
+      "conceptId": "es.profesiones_es_periodista",
+      "sourceId": "en.s.6f7a74f9ea2808cf",
+      "source": "He is a journalist.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es periodista.",
+          "audioSlug": "es_periodista"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_es_un_cientifico",
+      "conceptId": "es.profesiones_es_un_cientifico",
+      "sourceId": "en.s.98b5208c4d495fb5",
+      "source": "He is a scientist.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un científico.",
+          "audioSlug": "es_un_cientifico"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_es_un_musico_talentoso",
+      "conceptId": "es.profesiones_es_un_musico_talentoso",
+      "sourceId": "en.s.7b65e94dd70d1c1b",
+      "source": "He is a talented musician.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un músico talentoso.",
+          "audioSlug": "es_un_musico_talentoso"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_es_un_experto",
+      "conceptId": "es.profesiones_es_un_experto",
+      "sourceId": "en.s.d90189aee4c4f74a",
+      "source": "He is an expert.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un experto.",
+          "audioSlug": "es_un_experto"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_es_nuestro_guia",
+      "conceptId": "es.profesiones_es_nuestro_guia",
+      "sourceId": "en.s.b09eb9b7324c9bd1",
+      "source": "He is our guide.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es nuestro guía.",
+          "audioSlug": "es_nuestro_guia"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_es_un_buen_trabajador",
+      "conceptId": "es.profesiones_es_un_buen_trabajador",
+      "sourceId": "en.s.694c62d53153ceaa",
+      "source": "He is a good worker.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un buen trabajador.",
+          "audioSlug": "es_un_buen_trabajador"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_enseno_ingles",
+      "conceptId": "es.profesiones_enseno_ingles",
+      "sourceId": "en.s.9358bac3f97821df",
+      "source": "I teach English.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Enseño inglés.",
+          "audioSlug": "enseno_ingles"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_el_autor_firma_su_libro",
+      "conceptId": "es.profesiones_el_autor_firma_su_libro",
+      "sourceId": "en.s.d5554b1034eb90f1",
+      "source": "The author signs his book.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El autor firma su libro.",
+          "audioSlug": "el_autor_firma_su_libro"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_quiero_convertirme_en_medico",
+      "conceptId": "es.profesiones_quiero_convertirme_en_medico",
+      "sourceId": "en.s.79a41e69bf3a2d11",
+      "source": "I want to become a doctor.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero convertirme en médico.",
+          "audioSlug": "quiero_convertirme_en_medico"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_mi_padre_es_abogado",
+      "conceptId": "es.profesiones_mi_padre_es_abogado",
+      "sourceId": "en.s.47619bff8ba058b5",
+      "source": "My father is a lawyer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi padre es abogado.",
+          "audioSlug": "mi_padre_es_abogado"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_ella_es_enfermera",
+      "conceptId": "es.profesiones_ella_es_enfermera",
+      "sourceId": "en.s.41598cc971f707e3",
+      "source": "She is a nurse.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ella es enfermera.",
+          "audioSlug": "ella_es_enfermera"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_mi_hermano_es_camarero",
+      "conceptId": "es.profesiones_mi_hermano_es_camarero",
+      "sourceId": "en.s.7027064565fe1c77",
+      "source": "My brother is a waiter.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi hermano es camarero.",
+          "audioSlug": "mi_hermano_es_camarero"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_mi_tio_es_ingeniero",
+      "conceptId": "es.profesiones_mi_tio_es_ingeniero",
+      "sourceId": "en.s.58e32d3247c05144",
+      "source": "My uncle is an engineer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi tío es ingeniero.",
+          "audioSlug": "mi_tio_es_ingeniero"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_ella_es_vendedora",
+      "conceptId": "es.profesiones_ella_es_vendedora",
+      "sourceId": "en.s.d907caca7ae6f407",
+      "source": "She is a saleswoman in a shop.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ella es vendedora en una tienda.",
+          "audioSlug": "ella_es_vendedora_en_una_tienda"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_su_abuelo_es_cocinero",
+      "conceptId": "es.profesiones_su_abuelo_es_cocinero",
+      "sourceId": "en.s.e66fe0214c203841",
+      "source": "His grandfather is a cook.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su abuelo es cocinero.",
+          "audioSlug": "su_abuelo_es_cocinero"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_mi_primo_es_mecanico",
+      "conceptId": "es.profesiones_mi_primo_es_mecanico",
+      "sourceId": "en.s.7416ef8119caa385",
+      "source": "My cousin is a mechanic.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi primo es mecánico.",
+          "audioSlug": "mi_primo_es_mecanico"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_el_taxista_conoce_la_ciudad",
+      "conceptId": "es.profesiones_el_taxista_conoce_la_ciudad",
+      "sourceId": "en.s.efdfedb80d5aa07b",
+      "source": "The taxi driver knows the city well.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El taxista conoce bien la ciudad.",
+          "audioSlug": "el_taxista_conoce_bien_la_ciudad"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_mi_hermano_es_fotografo",
+      "conceptId": "es.profesiones_mi_hermano_es_fotografo",
+      "sourceId": "en.s.6f1b21ae367f8b41",
+      "source": "My brother is a photographer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi hermano es fotógrafo.",
+          "audioSlug": "mi_hermano_es_fotografo"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_ella_es_arquitecta",
+      "conceptId": "es.profesiones_ella_es_arquitecta",
+      "sourceId": "en.s.5fce877f7a8377f5",
+      "source": "She is an architect.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ella es arquitecta.",
+          "audioSlug": "ella_es_arquitecta"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_mi_hermana_es_vendedora",
+      "conceptId": "es.profesiones_mi_hermana_es_vendedora",
+      "sourceId": "en.s.b6d6e0bda240df83",
+      "source": "My sister is a saleswoman.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi hermana es vendedora.",
+          "audioSlug": "mi_hermana_es_vendedora"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_mi_tio_es_piloto",
+      "conceptId": "es.profesiones_mi_tio_es_piloto",
+      "sourceId": "en.s.ab334218d6dce8d1",
+      "source": "My uncle is a pilot.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi tío es piloto.",
+          "audioSlug": "mi_tio_es_piloto"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_mi_padre_es_matematico",
+      "conceptId": "es.profesiones_mi_padre_es_matematico",
+      "sourceId": "en.s.8a31b258e54beb88",
+      "source": "My father is a mathematician.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi padre es matemático.",
+          "audioSlug": "mi_padre_es_matematico"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_el_carnicero_corta_la_carne",
+      "conceptId": "es.profesiones_el_carnicero_corta_la_carne",
+      "sourceId": "en.s.fe218b16f88e5d2e",
+      "source": "The butcher cuts the meat.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El carnicero corta la carne.",
+          "audioSlug": "el_carnicero_corta_la_carne"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_el_empresario_abrio_una_tienda",
+      "conceptId": "es.profesiones_el_empresario_abrio_una_tienda",
+      "sourceId": "en.s.dbd5debca43d8c9c",
+      "source": "The businessman opened a shop.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El empresario abrió una tienda.",
+          "audioSlug": "el_empresario_abrio_una_tienda"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_el_comprador_negocio_el_precio",
+      "conceptId": "es.profesiones_el_comprador_negocio_el_precio",
+      "sourceId": "en.s.46abd248a58922fa",
+      "source": "The buyer negotiated the price.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El comprador negoció el precio.",
+          "audioSlug": "el_comprador_negocio_el_precio"
+        }
+      ]
+    },
+    {
+      "id": "profesiones_mi_tia_es_funcionaria",
+      "conceptId": "es.profesiones_mi_tia_es_funcionaria",
+      "sourceId": "en.s.06bf857536828140",
+      "source": "My aunt is a civil servant.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi tía es funcionaria.",
+          "audioSlug": "mi_tia_es_funcionaria"
+        }
+      ]
+    }
+  ]
+}

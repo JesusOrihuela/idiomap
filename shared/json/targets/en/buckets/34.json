@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "34",
+  "concepts": {
+    "en.airport_luggage_lost_claim": {
+      "conceptId": "en.airport_luggage_lost_claim",
+      "id": "airport_luggage_lost_claim",
+      "target": [
+        {
+          "text": "My luggage didn't arrive. I'd like to file a lost baggage report.",
+          "audioSlug": "my_luggage_didn_t_arrive_i_d_like_to_file_a_lost_baggage_report"
+        }
+      ]
+    },
+    "en.conversacion_they_had_an_argument": {
+      "conceptId": "en.conversacion_they_had_an_argument",
+      "id": "conversacion_they_had_an_argument",
+      "target": [
+        {
+          "text": "They had an argument.",
+          "audioSlug": "they_had_an_argument"
+        }
+      ]
+    },
+    "en.emociones_why_are_you_angry": {
+      "conceptId": "en.emociones_why_are_you_angry",
+      "id": "emociones_why_are_you_angry",
+      "target": [
+        {
+          "text": "Why are you angry?",
+          "audioSlug": "why_are_you_angry"
+        }
+      ]
+    },
+    "en.estudios_i_study_for_the_exam": {
+      "conceptId": "en.estudios_i_study_for_the_exam",
+      "id": "estudios_i_study_for_the_exam",
+      "target": [
+        {
+          "text": "I study for the exam.",
+          "audioSlug": "i_study_for_the_exam"
+        }
+      ]
+    },
+    "en.family_sister_younger": {
+      "conceptId": "en.family_sister_younger",
+      "id": "family_sister_younger",
+      "target": [
+        {
+          "text": "My sister is younger than me.",
+          "audioSlug": "my_sister_is_younger_than_me"
+        }
+      ]
+    },
+    "en.kitchen_the_soup_needs_more_salt": {
+      "conceptId": "en.kitchen_the_soup_needs_more_salt",
+      "id": "kitchen_the_soup_needs_more_salt",
+      "target": [
+        {
+          "text": "The soup needs more salt.",
+          "audioSlug": "the_soup_needs_more_salt"
+        }
+      ]
+    },
+    "en.music_favorite_singer": {
+      "conceptId": "en.music_favorite_singer",
+      "id": "music_favorite_singer",
+      "target": [
+        {
+          "text": "Who's your favorite singer?",
+          "audioSlug": "who_s_your_favorite_singer"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_the_grass_is_green": {
+      "conceptId": "en.naturaleza_lugares_the_grass_is_green",
+      "id": "naturaleza_lugares_the_grass_is_green",
+      "target": [
+        {
+          "text": "The grass is green.",
+          "audioSlug": "the_grass_is_green"
+        }
+      ]
+    },
+    "en.politica_leader_of_the_movement": {
+      "conceptId": "en.politica_leader_of_the_movement",
+      "id": "politica_leader_of_the_movement",
+      "target": [
+        {
+          "text": "He was the leader of the movement.",
+          "audioSlug": "he_was_the_leader_of_the_movement"
+        }
+      ]
+    },
+    "en.theater_is_there_intermission": {
+      "conceptId": "en.theater_is_there_intermission",
+      "id": "theater_is_there_intermission",
+      "target": [
+        {
+          "text": "Is there an intermission?",
+          "audioSlug": "is_there_an_intermission"
+        }
+      ]
+    },
+    "en.viajes_is_it_a_round_trip_ticket": {
+      "conceptId": "en.viajes_is_it_a_round_trip_ticket",
+      "id": "viajes_is_it_a_round_trip_ticket",
+      "target": [
+        {
+          "text": "Is it a round-trip ticket?",
+          "audioSlug": "is_it_a_round_trip_ticket"
+        }
+      ]
+    }
+  }
+}

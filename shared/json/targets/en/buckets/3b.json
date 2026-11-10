@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "3b",
+  "concepts": {
+    "en.accommodation_closest_restaurant": {
+      "conceptId": "en.accommodation_closest_restaurant",
+      "id": "accommodation_closest_restaurant",
+      "target": [
+        {
+          "text": "What is the closest restaurant to the hotel?",
+          "audioSlug": "what_is_the_closest_restaurant_to_the_hotel"
+        }
+      ]
+    },
+    "en.conversacion_can_you_repeat_that": {
+      "conceptId": "en.conversacion_can_you_repeat_that",
+      "id": "conversacion_can_you_repeat_that",
+      "target": [
+        {
+          "text": "Can you repeat that?",
+          "audioSlug": "can_you_repeat_that"
+        }
+      ]
+    },
+    "en.emergencias_my_wallet_was_stolen": {
+      "conceptId": "en.emergencias_my_wallet_was_stolen",
+      "id": "emergencias_my_wallet_was_stolen",
+      "target": [
+        {
+          "text": "My wallet was stolen.",
+          "audioSlug": "my_wallet_was_stolen"
+        }
+      ]
+    },
+    "en.emociones_im_proud": {
+      "conceptId": "en.emociones_im_proud",
+      "id": "emociones_im_proud",
+      "target": [
+        {
+          "text": "I am proud.",
+          "audioSlug": "i_am_proud"
+        }
+      ]
+    },
+    "en.politica_for_the_good_of_the_community": {
+      "conceptId": "en.politica_for_the_good_of_the_community",
+      "id": "politica_for_the_good_of_the_community",
+      "target": [
+        {
+          "text": "He did it for the good of the community.",
+          "audioSlug": "he_did_it_for_the_good_of_the_community"
+        }
+      ]
+    },
+    "en.technology_check_your_spam_the_email_might": {
+      "conceptId": "en.technology_check_your_spam_the_email_might",
+      "id": "technology_check_your_spam_the_email_might",
+      "target": [
+        {
+          "text": "Check your spam, the email might have arrived there.",
+          "audioSlug": "check_your_spam_the_email_might_have_arrived_there"
+        }
+      ]
+    }
+  }
+}

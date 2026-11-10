@@ -1,0 +1,941 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "pensamientos_opiniones",
+  "phrases": [
+    {
+      "id": "pensamientos_opiniones_in_my_opinion_this_is_important",
+      "conceptId": "es.pensamientos_opiniones_in_my_opinion_this_is_important",
+      "sourceId": "de.s.1600ba7c678583a8",
+      "source": "Meiner Meinung nach ist das wichtig.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En mi opinión, esto es importante.",
+          "audioSlug": "en_mi_opinion_esto_es_importante"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_i_think_its_a_good_idea",
+      "conceptId": "es.pensamientos_opiniones_i_think_its_a_good_idea",
+      "sourceId": "de.s.e46e5170e25f5b31",
+      "source": "Ich denke, dass es eine gute Idee ist.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Pienso que es una buena idea.",
+          "audioSlug": "pienso_que_es_una_buena_idea"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_it_seems_complicated_to_me",
+      "conceptId": "es.pensamientos_opiniones_it_seems_complicated_to_me",
+      "sourceId": "de.s.278e988b0de5e896",
+      "source": "Es scheint mir kompliziert.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me parece complicado.",
+          "audioSlug": "me_parece_complicado"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_im_sure_it_works",
+      "conceptId": "es.pensamientos_opiniones_im_sure_it_works",
+      "sourceId": "de.s.077eca28ffbd7d43",
+      "source": "Ich bin sicher, dass es funktioniert.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy segura de que funciona.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_segura_de_que_funciona"
+        },
+        {
+          "text": "Estoy seguro de que funciona.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_seguro_de_que_funciona"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_i_prefer_coffee",
+      "conceptId": "es.pensamientos_opiniones_i_prefer_coffee",
+      "sourceId": "de.s.047065921898f8d0",
+      "source": "Ich bevorzuge Kaffee.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Prefiero el café.",
+          "audioSlug": "prefiero_el_cafe"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_maybe_youre_right",
+      "conceptId": "es.pensamientos_opiniones_maybe_youre_right",
+      "sourceId": "de.s.2facb494f5720cc6",
+      "source": "Vielleicht hast du recht.",
+      "level": "B1",
+      "grammar": "Después de quizás suele ir el subjuntivo, tengas.",
+      "target": [
+        {
+          "text": "Quizás tengas razón.",
+          "audioSlug": "quizas_tengas_razon"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_i_dont_know_if_thats_true",
+      "conceptId": "es.pensamientos_opiniones_i_dont_know_if_thats_true",
+      "sourceId": "de.s.fc7fd693e215dd40",
+      "source": "Ich weiß nicht, ob das stimmt.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No sé si eso es cierto.",
+          "audioSlug": "no_se_si_eso_es_cierto"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_i_find_that_interesting",
+      "conceptId": "es.pensamientos_opiniones_i_find_that_interesting",
+      "sourceId": "de.s.63caecf65656ac0d",
+      "source": "Das finde ich interessant.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Eso me parece interesante.",
+          "audioSlug": "eso_me_parece_interesante"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_hay_que_trabajar_duro",
+      "conceptId": "es.pensamientos_opiniones_hay_que_trabajar_duro",
+      "sourceId": "de.s.1e9502cc799cb387",
+      "source": "Ich glaube, man muss hart arbeiten.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Creo que hay que trabajar duro.",
+          "audioSlug": "creo_que_hay_que_trabajar_duro"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_el_mundo_cambia_rapido",
+      "conceptId": "es.pensamientos_opiniones_el_mundo_cambia_rapido",
+      "sourceId": "de.s.24b33bd4e76fa42a",
+      "source": "Die Welt verändert sich sehr schnell.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El mundo cambia muy rápido.",
+          "audioSlug": "el_mundo_cambia_muy_rapido"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_la_vida_es_corta",
+      "conceptId": "es.pensamientos_opiniones_la_vida_es_corta",
+      "sourceId": "de.s.de8001decf2c0075",
+      "source": "Das Leben ist kurz, man muss es genießen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La vida es corta, hay que disfrutarla.",
+          "audioSlug": "la_vida_es_corta_hay_que_disfrutarla"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_dificil_encontrar_la_verdad",
+      "conceptId": "es.pensamientos_opiniones_dificil_encontrar_la_verdad",
+      "sourceId": "de.s.a6563748d46531ac",
+      "source": "Manchmal ist es schwer, die Wahrheit zu finden.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "A veces es difícil encontrar la verdad.",
+          "audioSlug": "a_veces_es_dificil_encontrar_la_verdad"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_cada_persona_ve_el_mundo",
+      "conceptId": "es.pensamientos_opiniones_cada_persona_ve_el_mundo",
+      "sourceId": "de.s.16865fa7b4324d77",
+      "source": "Jeder sieht die Welt anders.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cada persona ve el mundo distinto.",
+          "audioSlug": "cada_persona_ve_el_mundo_distinto"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_mucha_gente_no_piensa_en_el_futuro",
+      "conceptId": "es.pensamientos_opiniones_mucha_gente_no_piensa_en_el_futuro",
+      "sourceId": "de.s.70fdca46dc5b8dfd",
+      "source": "Viele Leute denken nicht an die Zukunft.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mucha gente no piensa en el futuro.",
+          "audioSlug": "mucha_gente_no_piensa_en_el_futuro"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_los_mismos_errores",
+      "conceptId": "es.pensamientos_opiniones_los_mismos_errores",
+      "sourceId": "de.s.48116da865065122",
+      "source": "Wir machen alle die gleichen Fehler.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Todos cometemos los mismos errores.",
+          "audioSlug": "todos_cometemos_los_mismos_errores"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_ya_no_queda_tiempo",
+      "conceptId": "es.pensamientos_opiniones_ya_no_queda_tiempo",
+      "sourceId": "de.s.8de25747c3332130",
+      "source": "Es bleibt keine Zeit mehr zum Zweifeln.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ya no queda tiempo para dudar.",
+          "audioSlug": "ya_no_queda_tiempo_para_dudar"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_nadie_sabe_lo_que_pasara",
+      "conceptId": "es.pensamientos_opiniones_nadie_sabe_lo_que_pasara",
+      "sourceId": "de.s.8a4ad0017cac73bc",
+      "source": "Niemand weiß, was morgen passieren wird.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nadie sabe lo que pasará mañana.",
+          "audioSlug": "nadie_sabe_lo_que_pasara_manana"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_mirar_el_lado_positivo",
+      "conceptId": "es.pensamientos_opiniones_mirar_el_lado_positivo",
+      "sourceId": "de.s.13228d156b734ab5",
+      "source": "Man muss die positive Seite sehen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que mirar el lado positivo.",
+          "audioSlug": "hay_que_mirar_el_lado_positivo"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_trabajar_en_equipo_es_mejor",
+      "conceptId": "es.pensamientos_opiniones_trabajar_en_equipo_es_mejor",
+      "sourceId": "de.s.7c29e21a72d48cac",
+      "source": "Im Team zu arbeiten ist immer besser.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Trabajar en equipo siempre es mejor.",
+          "audioSlug": "trabajar_en_equipo_siempre_es_mejor"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_el_dinero_no_es_todo",
+      "conceptId": "es.pensamientos_opiniones_el_dinero_no_es_todo",
+      "sourceId": "de.s.e8e33e1baef25a11",
+      "source": "Geld ist nicht alles im Leben.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El dinero no lo es todo en la vida.",
+          "audioSlug": "el_dinero_no_lo_es_todo_en_la_vida"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_descubri_que_no_es_facil",
+      "conceptId": "es.pensamientos_opiniones_descubri_que_no_es_facil",
+      "sourceId": "de.s.a849ed7a3cde2e24",
+      "source": "Ich habe entdeckt, dass es nicht so einfach ist.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Descubrí que no es tan fácil.",
+          "audioSlug": "descubri_que_no_es_tan_facil"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_realizar_nuestros_suenos",
+      "conceptId": "es.pensamientos_opiniones_realizar_nuestros_suenos",
+      "sourceId": "de.s.f6c82627bdb41b2a",
+      "source": "Wir alle wollen unsere Träume verwirklichen.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Todos queremos realizar nuestros sueños.",
+          "audioSlug": "todos_queremos_realizar_nuestros_suenos"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_la_vida_social_es_importante",
+      "conceptId": "es.pensamientos_opiniones_la_vida_social_es_importante",
+      "sourceId": "de.s.53eee007462d1e74",
+      "source": "Das soziale Leben ist mir wichtig.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La vida social es importante para mí.",
+          "audioSlug": "la_vida_social_es_importante_para_mi"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_nadie_quiere_morir_joven",
+      "conceptId": "es.pensamientos_opiniones_nadie_quiere_morir_joven",
+      "sourceId": "de.s.ca379eae2429b65f",
+      "source": "Niemand will jung sterben.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nadie quiere morir joven.",
+          "audioSlug": "nadie_quiere_morir_joven"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_no_me_gusta_ni_el_frio_ni_el_calor",
+      "conceptId": "es.pensamientos_opiniones_no_me_gusta_ni_el_frio_ni_el_calor",
+      "sourceId": "de.s.e70252dc8cad97d7",
+      "source": "Ich mag weder Kälte noch Hitze.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No me gusta ni el frío ni el calor.",
+          "audioSlug": "no_me_gusta_ni_el_frio_ni_el_calor"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_el_respeto_es_la_base_de_todo",
+      "conceptId": "es.pensamientos_opiniones_el_respeto_es_la_base_de_todo",
+      "sourceId": "de.s.67740baa89566206",
+      "source": "Respekt ist die Grundlage von allem.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El respeto es la base de todo.",
+          "audioSlug": "el_respeto_es_la_base_de_todo"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_el_futuro_sera_diferente",
+      "conceptId": "es.pensamientos_opiniones_el_futuro_sera_diferente",
+      "sourceId": "de.s.a46a9b9183847843",
+      "source": "Ich glaube, die Zukunft wird anders sein.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Creo que el futuro será diferente.",
+          "audioSlug": "creo_que_el_futuro_sera_diferente"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_el_conocimiento_es_poder",
+      "conceptId": "es.pensamientos_opiniones_el_conocimiento_es_poder",
+      "sourceId": "de.s.62eba56be402aacf",
+      "source": "Wissen ist Macht.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El conocimiento es poder.",
+          "audioSlug": "el_conocimiento_es_poder"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_la_situacion_es_complicada",
+      "conceptId": "es.pensamientos_opiniones_la_situacion_es_complicada",
+      "sourceId": "de.s.e1f81d7cdf4b16ec",
+      "source": "Die Situation ist kompliziert.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La situación es complicada.",
+          "audioSlug": "la_situacion_es_complicada"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_incluso_los_expertos_se_equivocan",
+      "conceptId": "es.pensamientos_opiniones_incluso_los_expertos_se_equivocan",
+      "sourceId": "de.s.5e381d7b8c9679b3",
+      "source": "Sogar Experten machen Fehler.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Incluso los expertos se equivocan.",
+          "audioSlug": "incluso_los_expertos_se_equivocan"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_solo_el_tiempo_dira_la_verdad",
+      "conceptId": "es.pensamientos_opiniones_solo_el_tiempo_dira_la_verdad",
+      "sourceId": "de.s.b2d7242b06cbe4d9",
+      "source": "Nur die Zeit wird die Wahrheit sagen.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Solo el tiempo dirá la verdad.",
+          "audioSlug": "solo_el_tiempo_dira_la_verdad"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_ninguna_respuesta_es_perfecta",
+      "conceptId": "es.pensamientos_opiniones_ninguna_respuesta_es_perfecta",
+      "sourceId": "de.s.69edc855363c2f5c",
+      "source": "Keine Antwort ist perfekt.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ninguna respuesta es perfecta.",
+          "audioSlug": "ninguna_respuesta_es_perfecta"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_cada_experiencia_nos_forma",
+      "conceptId": "es.pensamientos_opiniones_cada_experiencia_nos_forma",
+      "sourceId": "de.s.50518fa129121b39",
+      "source": "Jede Erfahrung formt uns als Menschen.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cada experiencia nos forma como personas.",
+          "audioSlug": "cada_experiencia_nos_forma_como_personas"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_vale_mas_la_calidad_que_la_cantidad",
+      "conceptId": "es.pensamientos_opiniones_vale_mas_la_calidad_que_la_cantidad",
+      "sourceId": "de.s.0eed8afb77e2fe36",
+      "source": "Qualität zählt mehr als Quantität.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vale más la calidad que la cantidad.",
+          "audioSlug": "vale_mas_la_calidad_que_la_cantidad"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_cualquier_decision_tiene_consecuencias",
+      "conceptId": "es.pensamientos_opiniones_cualquier_decision_tiene_consecuencias",
+      "sourceId": "de.s.ab6195c3ca5fb443",
+      "source": "Jede Entscheidung hat Folgen.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cualquier decisión tiene consecuencias.",
+          "audioSlug": "cualquier_decision_tiene_consecuencias"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_el_exito_requiere_esfuerzo",
+      "conceptId": "es.pensamientos_opiniones_el_exito_requiere_esfuerzo",
+      "sourceId": "de.s.ff7b16fbfd5b0155",
+      "source": "Erfolg erfordert Anstrengung.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El éxito requiere esfuerzo.",
+          "audioSlug": "el_exito_requiere_esfuerzo"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_la_realidad_es_mas_compleja",
+      "conceptId": "es.pensamientos_opiniones_la_realidad_es_mas_compleja",
+      "sourceId": "de.s.b4d2b6c7b971c1c5",
+      "source": "Die Realität ist komplexer.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La realidad es más compleja.",
+          "audioSlug": "la_realidad_es_mas_compleja"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_la_muerte_es_parte_de_la_vida",
+      "conceptId": "es.pensamientos_opiniones_la_muerte_es_parte_de_la_vida",
+      "sourceId": "de.s.4d6a51c971ec6db1",
+      "source": "Der Tod ist ein Teil des Lebens.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La muerte es parte de la vida.",
+          "audioSlug": "la_muerte_es_parte_de_la_vida"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_es_algo_completamente_natural",
+      "conceptId": "es.pensamientos_opiniones_es_algo_completamente_natural",
+      "sourceId": "de.s.8a21945115545d43",
+      "source": "Es ist etwas völlig Natürliches.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es algo completamente natural.",
+          "audioSlug": "es_algo_completamente_natural"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_el_sistema_no_siempre_funciona",
+      "conceptId": "es.pensamientos_opiniones_el_sistema_no_siempre_funciona",
+      "sourceId": "de.s.18473c496194bd2e",
+      "source": "Das System funktioniert nicht immer gut.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El sistema no siempre funciona bien.",
+          "audioSlug": "el_sistema_no_siempre_funciona_bien"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_no_debemos_permitir_la_injusticia",
+      "conceptId": "es.pensamientos_opiniones_no_debemos_permitir_la_injusticia",
+      "sourceId": "de.s.e14d544cc5813f01",
+      "source": "Wir dürfen die Ungerechtigkeit nicht zulassen.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No debemos permitir la injusticia.",
+          "audioSlug": "no_debemos_permitir_la_injusticia"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_todo_esta_relacionado",
+      "conceptId": "es.pensamientos_opiniones_todo_esta_relacionado",
+      "sourceId": "de.s.9e26b6eb4d447ec0",
+      "source": "Alles hängt mit allem zusammen.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Todo está relacionado con todo.",
+          "audioSlug": "todo_esta_relacionado_con_todo"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_la_libertad_es_un_valor_importante",
+      "conceptId": "es.pensamientos_opiniones_la_libertad_es_un_valor_importante",
+      "sourceId": "de.s.9341ff868179fecb",
+      "source": "Die Freiheit ist ein wichtiger Wert.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La libertad es un valor importante.",
+          "audioSlug": "la_libertad_es_un_valor_importante"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_cada_accion_tiene_una_reaccion",
+      "conceptId": "es.pensamientos_opiniones_cada_accion_tiene_una_reaccion",
+      "sourceId": "de.s.cab24964a22f0bd6",
+      "source": "Jede Aktion hat eine Reaktion.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cada acción tiene una reacción.",
+          "audioSlug": "cada_accion_tiene_una_reaccion"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_vivimos_en_una_epoca_dificil",
+      "conceptId": "es.pensamientos_opiniones_vivimos_en_una_epoca_dificil",
+      "sourceId": "de.s.b1bdfea2446ccb3c",
+      "source": "Wir leben in einer schwierigen Zeit.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vivimos en una época difícil.",
+          "audioSlug": "vivimos_en_una_epoca_dificil"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_la_guerra_causa_sufrimiento",
+      "conceptId": "es.pensamientos_opiniones_la_guerra_causa_sufrimiento",
+      "sourceId": "de.s.67e3e4c9ab317161",
+      "source": "Der Krieg verursacht viel Leid.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La guerra causa mucho sufrimiento.",
+          "audioSlug": "la_guerra_causa_mucho_sufrimiento"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_la_poblacion_mundial_crece",
+      "conceptId": "es.pensamientos_opiniones_la_poblacion_mundial_crece",
+      "sourceId": "de.s.eb2bb5d59a2d411a",
+      "source": "Die Weltbevölkerung wächst weiter.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La población mundial sigue creciendo.",
+          "audioSlug": "la_poblacion_mundial_sigue_creciendo"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_hay_que_considerar_todos_los_aspectos",
+      "conceptId": "es.pensamientos_opiniones_hay_que_considerar_todos_los_aspectos",
+      "sourceId": "de.s.571ae56dc5cef7d5",
+      "source": "Man muss alle Aspekte berücksichtigen.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que considerar todos los aspectos.",
+          "audioSlug": "hay_que_considerar_todos_los_aspectos"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_el_gobierno_anuncio_nuevas_medidas",
+      "conceptId": "es.pensamientos_opiniones_el_gobierno_anuncio_nuevas_medidas",
+      "sourceId": "de.s.fa894785f1d1ffd9",
+      "source": "Die Regierung hat neue Maßnahmen angekündigt.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El gobierno anunció nuevas medidas.",
+          "audioSlug": "el_gobierno_anuncio_nuevas_medidas"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_la_sociedad_esta_cambiando",
+      "conceptId": "es.pensamientos_opiniones_la_sociedad_esta_cambiando",
+      "sourceId": "de.s.abe161f7ef2c53a7",
+      "source": "Die Gesellschaft verändert sich schnell.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La sociedad está cambiando rápido.",
+          "audioSlug": "la_sociedad_esta_cambiando_rapido"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_cada_generacion_tiene_sus_retos",
+      "conceptId": "es.pensamientos_opiniones_cada_generacion_tiene_sus_retos",
+      "sourceId": "de.s.855dca83b03100fb",
+      "source": "Jede Generation hat ihre Herausforderungen.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cada generación tiene sus retos.",
+          "audioSlug": "cada_generacion_tiene_sus_retos"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_el_progreso_trae_beneficios_y_riesgos",
+      "conceptId": "es.pensamientos_opiniones_el_progreso_trae_beneficios_y_riesgos",
+      "sourceId": "de.s.4292a0e1373cea1c",
+      "source": "Der Fortschritt bringt Vorteile und Risiken.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El progreso trae beneficios y riesgos.",
+          "audioSlug": "el_progreso_trae_beneficios_y_riesgos"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_lo_que_importa_es_la_intencion",
+      "conceptId": "es.pensamientos_opiniones_lo_que_importa_es_la_intencion",
+      "sourceId": "de.s.c49815e2e2d3bf9b",
+      "source": "Was zählt, ist die Absicht.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Lo que importa es la intención.",
+          "audioSlug": "lo_que_importa_es_la_intencion"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_quiero_proponer_una_idea_distinta",
+      "conceptId": "es.pensamientos_opiniones_quiero_proponer_una_idea_distinta",
+      "sourceId": "de.s.7e95e22c3dce30ae",
+      "source": "Ich möchte eine andere Idee vorschlagen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero proponer una idea distinta.",
+          "audioSlug": "quiero_proponer_una_idea_distinta"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_hay_que_valorar_lo_que_tenemos",
+      "conceptId": "es.pensamientos_opiniones_hay_que_valorar_lo_que_tenemos",
+      "sourceId": "de.s.f633321336fdce26",
+      "source": "Man muss schätzen, was man hat.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que valorar lo que tenemos.",
+          "audioSlug": "hay_que_valorar_lo_que_tenemos"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_es_dificil_demostrar_una_teoria",
+      "conceptId": "es.pensamientos_opiniones_es_dificil_demostrar_una_teoria",
+      "sourceId": "de.s.f42236135cd0104c",
+      "source": "Es ist schwer, eine Theorie zu beweisen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es difícil demostrar una teoría.",
+          "audioSlug": "es_dificil_demostrar_una_teoria"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_tengo_una_duda_sobre_ese_asunto",
+      "conceptId": "es.pensamientos_opiniones_tengo_una_duda_sobre_ese_asunto",
+      "sourceId": "de.s.6bfcdad4676b7996",
+      "source": "Ich habe einen Zweifel zu dieser Angelegenheit.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo una duda sobre ese asunto.",
+          "audioSlug": "tengo_una_duda_sobre_ese_asunto"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_este_tema_tiene_mucha_importancia",
+      "conceptId": "es.pensamientos_opiniones_este_tema_tiene_mucha_importancia",
+      "sourceId": "de.s.529f5b66e2192a3d",
+      "source": "Dieses Thema hat große Bedeutung.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este tema tiene mucha importancia.",
+          "audioSlug": "este_tema_tiene_mucha_importancia"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_hay_una_necesidad_real_de_cambio",
+      "conceptId": "es.pensamientos_opiniones_hay_una_necesidad_real_de_cambio",
+      "sourceId": "de.s.c36b76833abc03b9",
+      "source": "Es gibt einen echten Bedarf an Veränderung.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay una necesidad real de cambio.",
+          "audioSlug": "hay_una_necesidad_real_de_cambio"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_es_bueno_observar_antes_de_juzgar",
+      "conceptId": "es.pensamientos_opiniones_es_bueno_observar_antes_de_juzgar",
+      "sourceId": "de.s.ea50c45a1bce6d71",
+      "source": "Es ist gut, zu beobachten, bevor man urteilt.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es bueno observar antes de juzgar.",
+          "audioSlug": "es_bueno_observar_antes_de_juzgar"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_el_estado_debe_proteger_a_todos",
+      "conceptId": "es.pensamientos_opiniones_el_estado_debe_proteger_a_todos",
+      "sourceId": "de.s.aa4cca6ea3ee5eec",
+      "source": "Der Staat muss alle schützen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El estado debe proteger a todos.",
+          "audioSlug": "el_estado_debe_proteger_a_todos"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_es_una_decision_politica_dificil",
+      "conceptId": "es.pensamientos_opiniones_es_una_decision_politica_dificil",
+      "sourceId": "de.s.f1ef260b77d0d81f",
+      "source": "Das ist eine schwierige politische Entscheidung.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una decisión política difícil.",
+          "audioSlug": "es_una_decision_politica_dificil"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_quiero_conservar_la_calma_siempre",
+      "conceptId": "es.pensamientos_opiniones_quiero_conservar_la_calma_siempre",
+      "sourceId": "de.s.8de5d4e161901379",
+      "source": "Ich möchte immer die Ruhe bewahren.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero conservar la calma siempre.",
+          "audioSlug": "quiero_conservar_la_calma_siempre"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_nunca_debes_abandonar_tus_metas",
+      "conceptId": "es.pensamientos_opiniones_nunca_debes_abandonar_tus_metas",
+      "sourceId": "de.s.d43c60fa5fa47846",
+      "source": "Du solltest deine Ziele niemals aufgeben.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nunca debes abandonar tus metas.",
+          "audioSlug": "nunca_debes_abandonar_tus_metas"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_no_hay_que_odiar_a_nadie",
+      "conceptId": "es.pensamientos_opiniones_no_hay_que_odiar_a_nadie",
+      "sourceId": "de.s.e781d234f38789e5",
+      "source": "Man sollte niemanden hassen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No hay que odiar a nadie.",
+          "audioSlug": "no_hay_que_odiar_a_nadie"
+        }
+      ]
+    },
+    {
+      "id": "pensamientos_opiniones_es_importante_sentirse_en_paz",
+      "conceptId": "es.pensamientos_opiniones_es_importante_sentirse_en_paz",
+      "sourceId": "de.s.03d7eee983b90069",
+      "source": "Es ist wichtig, sich im Frieden zu fühlen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es importante sentirse en paz.",
+          "audioSlug": "es_importante_sentirse_en_paz"
+        }
+      ]
+    }
+  ]
+}

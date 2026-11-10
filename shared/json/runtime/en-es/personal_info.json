@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "personal_info",
+  "phrases": [
+    {
+      "id": "personal_info_im_ana_and_you",
+      "conceptId": "es.personal_info_im_ana_and_you",
+      "sourceId": "en.s.611a1df8b95b9b25",
+      "source": "Hi, I'm Ana. And you?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hola, soy Ana. ¿Y tú?",
+          "audioSlug": "hola_soy_ana_y_tu"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_how_old_are_you",
+      "conceptId": "es.personal_info_how_old_are_you",
+      "sourceId": "en.s.b9febffb015eb6fb",
+      "source": "How old are you?",
+      "level": "A1",
+      "grammar": "La edad se expresa con 'tener': 'tienes X años', no 'eres'.",
+      "target": [
+        {
+          "text": "¿Cuántos años tienes?",
+          "audioSlug": "cuantos_anos_tienes",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cuántos años tiene?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "cuantos_anos_tiene"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_im_years_old",
+      "conceptId": "es.personal_info_im_years_old",
+      "sourceId": "en.s.9591634d0b166469",
+      "source": "I'm twenty-five years old.",
+      "level": "A1",
+      "grammar": "En español se 'tiene' una edad: 'tengo 25 años', no 'soy 25'.",
+      "target": [
+        {
+          "text": "Tengo veinticinco años.",
+          "audioSlug": "tengo_veinticinco_anos"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_where_are_you_from",
+      "conceptId": "es.personal_info_where_are_you_from",
+      "sourceId": "en.s.63d59797e9ef5bc1",
+      "source": "Where are you from?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿De dónde eres?",
+          "audioSlug": "de_donde_eres",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿De dónde es usted?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "de_donde_es_usted"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_im_from",
+      "conceptId": "es.personal_info_im_from",
+      "sourceId": "en.s.fc9729a2c6e221d3",
+      "source": "I'm from Mexico.",
+      "level": "A1",
+      "grammar": "'Ser de' indica origen o procedencia.",
+      "target": [
+        {
+          "text": "Soy de México.",
+          "audioSlug": "soy_de_mexico"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_where_do_you_live",
+      "conceptId": "es.personal_info_where_do_you_live",
+      "sourceId": "en.s.232387e1e5d0e300",
+      "source": "Where do you live?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde vives?",
+          "audioSlug": "donde_vives"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_i_live_in",
+      "conceptId": "es.personal_info_i_live_in",
+      "sourceId": "en.s.ae732e0a6d21e3fc",
+      "source": "I live in the city center.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vivo en el centro de la ciudad.",
+          "audioSlug": "vivo_en_el_centro_de_la_ciudad"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_what_do_you_do",
+      "conceptId": "es.personal_info_what_do_you_do",
+      "sourceId": "en.s.6294d0f7e48d1070",
+      "source": "What do you do for a living?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿A qué te dedicas?",
+          "audioSlug": "a_que_te_dedicas",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿A qué se dedica?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "a_que_se_dedica"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_im_a_teacher",
+      "conceptId": "es.personal_info_im_a_teacher",
+      "sourceId": "en.s.5361bc556b56cb74",
+      "source": "I'm a teacher.",
+      "level": "A1",
+      "grammar": "Para profesiones se usa 'ser' sin artículo: 'soy profesora'.",
+      "target": [
+        {
+          "text": "Soy profesora.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "soy_profesora"
+        },
+        {
+          "text": "Soy profesor.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "soy_profesor"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_what_languages",
+      "conceptId": "es.personal_info_what_languages",
+      "sourceId": "en.s.e417736a33ff57ca",
+      "source": "What languages do you speak?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué idiomas hablas?",
+          "audioSlug": "que_idiomas_hablas"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_i_speak",
+      "conceptId": "es.personal_info_i_speak",
+      "sourceId": "en.s.ce0a43f41261031f",
+      "source": "I speak Spanish and a little English.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hablo español y un poco de inglés.",
+          "audioSlug": "hablo_espanol_y_un_poco_de_ingles"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_your_phone_number",
+      "conceptId": "es.personal_info_your_phone_number",
+      "sourceId": "en.s.feada9f968745dce",
+      "source": "What's your phone number?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuál es tu número de teléfono?",
+          "audioSlug": "cual_es_tu_numero_de_telefono",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cuál es su número de teléfono?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "cual_es_su_numero_de_telefono"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_can_i_have_your_number",
+      "conceptId": "es.personal_info_can_i_have_your_number",
+      "sourceId": "en.s.af9392865cf13f49",
+      "source": "Can I have your number?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me das tu número?",
+          "audioSlug": "me_das_tu_numero",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Me da su número?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "me_da_su_numero"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_are_you_married",
+      "conceptId": "es.personal_info_are_you_married",
+      "sourceId": "en.s.56ae15db4727b4e3",
+      "source": "Are you married?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Estás casado?",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estas_casado"
+        },
+        {
+          "text": "¿Estás casada?",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estas_casada"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_im_single",
+      "conceptId": "es.personal_info_im_single",
+      "sourceId": "en.s.245b3a3a858a94e4",
+      "source": "I'm single.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Soy soltera.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "soy_soltera"
+        },
+        {
+          "text": "Soy soltero.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "soy_soltero"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_whats_your_email",
+      "conceptId": "es.personal_info_whats_your_email",
+      "sourceId": "en.s.1d423ecf7198bd03",
+      "source": "What's your email?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuál es tu correo electrónico?",
+          "audioSlug": "cual_es_tu_correo_electronico",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cuál es su correo electrónico?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "cual_es_su_correo_electronico"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_how_spell_name",
+      "conceptId": "es.personal_info_how_spell_name",
+      "sourceId": "en.s.3fe9cf59f56aa3dd",
+      "source": "How do you spell your name?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo se escribe tu nombre?",
+          "audioSlug": "como_se_escribe_tu_nombre",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cómo se escribe su nombre?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "como_se_escribe_su_nombre"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_where_were_you_born",
+      "conceptId": "es.personal_info_where_were_you_born",
+      "sourceId": "en.s.ea9b480ec1cef201",
+      "source": "Where were you born?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde naciste?",
+          "audioSlug": "donde_naciste"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_i_was_born_in",
+      "conceptId": "es.personal_info_i_was_born_in",
+      "sourceId": "en.s.1e53ce34bae1b5a2",
+      "source": "I was born in Argentina.",
+      "level": "A2",
+      "grammar": "'Nací' es el pretérito de 'nacer' para decir dónde o cuándo naciste.",
+      "target": [
+        {
+          "text": "Nací en Argentina.",
+          "audioSlug": "naci_en_argentina"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_my_last_name_is_garcia",
+      "conceptId": "es.personal_info_my_last_name_is_garcia",
+      "sourceId": "en.s.f2f5a4c69245c437",
+      "source": "My last name is García.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi apellido es García.",
+          "audioSlug": "mi_apellido_es_garcia"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_i_live_with_my_family",
+      "conceptId": "es.personal_info_i_live_with_my_family",
+      "sourceId": "en.s.4bb64cba40353fcc",
+      "source": "I live with my family.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vivo con mi familia.",
+          "audioSlug": "vivo_con_mi_familia"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_i_work_at_a_tech_company",
+      "conceptId": "es.personal_info_i_work_at_a_tech_company",
+      "sourceId": "en.s.e0ba0c6d66a250f8",
+      "source": "I work at a technology company.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Trabajo en una empresa de tecnología.",
+          "audioSlug": "trabajo_en_una_empresa_de_tecnologia"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_what_is_your_address",
+      "conceptId": "es.personal_info_what_is_your_address",
+      "sourceId": "en.s.07cdc64f48308f1f",
+      "source": "What is your address?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuál es tu dirección?",
+          "audioSlug": "cual_es_tu_direccion",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cuál es su dirección?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "cual_es_su_direccion"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_what_is_your_nationality",
+      "conceptId": "es.personal_info_what_is_your_nationality",
+      "sourceId": "en.s.5ce5e65ce72b154c",
+      "source": "What is your nationality?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuál es tu nacionalidad?",
+          "audioSlug": "cual_es_tu_nacionalidad",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cuál es su nacionalidad?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "cual_es_su_nacionalidad"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_i_am_a_medical_student",
+      "conceptId": "es.personal_info_i_am_a_medical_student",
+      "sourceId": "en.s.81a77b99337d7d81",
+      "source": "I'm a medical student.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Soy estudiante de medicina.",
+          "audioSlug": "soy_estudiante_de_medicina"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_i_speak_three_languages",
+      "conceptId": "es.personal_info_i_speak_three_languages",
+      "sourceId": "en.s.7d7298fe119feed3",
+      "source": "I speak three languages.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hablo tres idiomas.",
+          "audioSlug": "hablo_tres_idiomas"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_soy_de_espana",
+      "conceptId": "es.personal_info_soy_de_espana",
+      "sourceId": "en.s.e7513f4c524e1802",
+      "source": "I am from Spain.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Soy de España.",
+          "audioSlug": "soy_de_espana"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_vivo_cerca_del_centro",
+      "conceptId": "es.personal_info_vivo_cerca_del_centro",
+      "sourceId": "en.s.6dcbf3f393f81eee",
+      "source": "I live near the city center.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vivo cerca del centro.",
+          "audioSlug": "vivo_cerca_del_centro"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_soy_de_la_costa",
+      "conceptId": "es.personal_info_soy_de_la_costa",
+      "sourceId": "en.s.f74d607d5976a610",
+      "source": "I'm from the coast.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Soy de la costa.",
+          "audioSlug": "soy_de_la_costa"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_que_edad_tienes",
+      "conceptId": "es.personal_info_que_edad_tienes",
+      "sourceId": "en.s.b9febffb015eb6fb",
+      "source": "How old are you?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué edad tienes?",
+          "audioSlug": "que_edad_tienes",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Qué edad tiene?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "que_edad_tiene"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_me_dedico_a_la_ensenanza",
+      "conceptId": "es.personal_info_me_dedico_a_la_ensenanza",
+      "sourceId": "en.s.fecb3d51d5a8796d",
+      "source": "I work in teaching.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me dedico a la enseñanza.",
+          "audioSlug": "me_dedico_a_la_ensenanza"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_su_profesion_es_exigente",
+      "conceptId": "es.personal_info_su_profesion_es_exigente",
+      "sourceId": "en.s.8adbc84a6c075220",
+      "source": "His profession is demanding.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su profesión es exigente.",
+          "audioSlug": "su_profesion_es_exigente"
+        }
+      ]
+    }
+  ]
+}

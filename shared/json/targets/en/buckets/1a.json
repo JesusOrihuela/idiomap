@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "1a",
+  "concepts": {
+    "en.calendario_a_year_has_twelve_months": {
+      "conceptId": "en.calendario_a_year_has_twelve_months",
+      "id": "calendario_a_year_has_twelve_months",
+      "target": [
+        {
+          "text": "A year has twelve months.",
+          "audioSlug": "a_year_has_twelve_months"
+        }
+      ]
+    },
+    "en.estudios_we_start_next_term": {
+      "conceptId": "en.estudios_we_start_next_term",
+      "id": "estudios_we_start_next_term",
+      "target": [
+        {
+          "text": "We start next term.",
+          "audioSlug": "we_start_next_term"
+        }
+      ]
+    },
+    "en.family_are_you_married_single": {
+      "conceptId": "en.family_are_you_married_single",
+      "id": "family_are_you_married_single",
+      "target": [
+        {
+          "text": "Are you married or single?",
+          "audioSlug": "are_you_married_or_single"
+        }
+      ]
+    },
+    "en.fiesta_party_starts_at_eight": {
+      "conceptId": "en.fiesta_party_starts_at_eight",
+      "id": "fiesta_party_starts_at_eight",
+      "target": [
+        {
+          "text": "The party starts at eight.",
+          "audioSlug": "the_party_starts_at_eight"
+        }
+      ]
+    },
+    "en.planes_lets_solve_the_problem": {
+      "conceptId": "en.planes_lets_solve_the_problem",
+      "id": "planes_lets_solve_the_problem",
+      "target": [
+        {
+          "text": "Let's solve the problem.",
+          "audioSlug": "let_s_solve_the_problem"
+        }
+      ]
+    },
+    "en.restaurant_tasting_menu_lactose_adapt": {
+      "conceptId": "en.restaurant_tasting_menu_lactose_adapt",
+      "id": "restaurant_tasting_menu_lactose_adapt",
+      "target": [
+        {
+          "text": "I'm lactose intolerant. Could the kitchen adapt any courses on the tasting menu?",
+          "audioSlug": "i_m_lactose_intolerant_could_the_kitchen_adapt_any_courses_on_the_tasting_menu"
+        }
+      ]
+    }
+  }
+}

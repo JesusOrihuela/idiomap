@@ -1,0 +1,589 @@
+{
+  "_doc": "Atestiguacion frase por frase — topic airport. Actos de PASAJERO (ubicacion, vuelo/embarque, facturacion/asiento, equipaje, aduana, inmigracion, incidencias/derechos). El aeropuerto llega a C1-C2 por tramites reales; retirado solo lo no-estandar (carbon offset, force majeure, asilo).",
+  "sources_en": [
+    "Linguahouse/ESLpals — Airport & Travel",
+    "airport ESL vocabulary guides"
+  ],
+  "sources_es": [
+    "PCIC nociones (Viajes/transporte)",
+    "recursos ELE de aeropuerto"
+  ],
+  "retired": [
+    "airport_carbon_offset_scheme",
+    "airport_force_majeure_rebook",
+    "airport_asylum_request_procedure"
+  ],
+  "gap_fill_added": [
+    "check-in counter",
+    "which gate",
+    "security",
+    "passport control",
+    "on time",
+    "boarding pass",
+    "nothing to declare",
+    "is this the gate for X",
+    "aisle seat",
+    "duty-free shop"
+  ],
+  "phrases": {
+    "en.airport_aisle_seat": {
+      "level": "A1",
+      "function": "asiento/clase",
+      "attested": true,
+      "intent": "I'd like an aisle seat, please."
+    },
+    "en.airport_bag_made_connection": {
+      "level": "B2",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "Could you confirm whether my checked bag made it onto the connecting flight?"
+    },
+    "en.airport_baggage_claim_flight": {
+      "level": "B1",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "Where is the baggage claim area for this flight?"
+    },
+    "en.airport_boarding_pass_gate": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "I need to show my boarding pass at the gate."
+    },
+    "en.airport_cancelled_rebook_today": {
+      "level": "B2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "My flight was cancelled. I need to be rebooked on the next available flight."
+    },
+    "en.airport_carryon_over_limit": {
+      "level": "B1",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "My carry-on is over the weight limit. What are my options?"
+    },
+    "en.airport_carryon_size_limit": {
+      "level": "A2",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "Carry-on luggage must be a specific size."
+    },
+    "en.airport_check_luggage": {
+      "level": "A1",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "I need to check my luggage."
+    },
+    "en.airport_connection_time_enough": {
+      "level": "B1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "I have a connection. Is there time to reach the next gate?"
+    },
+    "en.airport_customs_declare_allowance": {
+      "level": "C1",
+      "function": "aduana",
+      "attested": true,
+      "intent": "I'd like to declare these goods. Could you tell me the duty-free allowance?"
+    },
+    "en.airport_denied_boarding_compensation": {
+      "level": "B2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "I was denied boarding due to overbooking. What compensation am I entitled to?"
+    },
+    "en.airport_direct_or_connecting": {
+      "level": "A2",
+      "function": "vuelo/embarque",
+      "attested": true,
+      "intent": "Is there a direct flight to New York, or do I have to connect?"
+    },
+    "en.airport_duty_exceeded_pay_here": {
+      "level": "C1",
+      "function": "aduana",
+      "attested": true,
+      "intent": "I've exceeded the duty-free allowance. Can I pay the import duty here at the airport?"
+    },
+    "en.airport_duty_free_shop": {
+      "level": "A2",
+      "function": "aduana",
+      "attested": true,
+      "intent": "Where is the duty-free shop?"
+    },
+    "en.airport_eu_regulation_compensation": {
+      "level": "C2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "Under EU Regulation 261/2004, I believe I'm entitled to compensation for this cancellation."
+    },
+    "en.airport_exchange_currency": {
+      "level": "A2",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Where can I exchange currency?"
+    },
+    "en.airport_flight_delayed_voucher": {
+      "level": "B1",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "My flight has been delayed. Can I get a food voucher?"
+    },
+    "en.airport_flight_departure_time": {
+      "level": "A1",
+      "function": "vuelo/embarque",
+      "attested": true,
+      "intent": "What time is our flight?"
+    },
+    "en.airport_how_early_arrive": {
+      "level": "A2",
+      "function": "vuelo/embarque",
+      "attested": true,
+      "intent": "How early should I arrive at the airport before my flight?"
+    },
+    "en.airport_immigration_before_bags": {
+      "level": "B2",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "You have to go through immigration before you can collect your bags."
+    },
+    "en.airport_is_flight_on_time": {
+      "level": "A1",
+      "function": "vuelo/embarque",
+      "attested": true,
+      "intent": "Is my flight on time?"
+    },
+    "en.airport_is_this_gate_for": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Is this the gate for flight 203?"
+    },
+    "en.airport_luggage_lost_claim": {
+      "level": "B2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "My luggage didn't arrive. I'd like to file a lost baggage report."
+    },
+    "en.airport_mishandled_bag_return": {
+      "level": "C1",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "The airline lost my bag on the outbound leg, and my return flight departs tomorrow."
+    },
+    "en.airport_multi_entry_visa_duration": {
+      "level": "C1",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "I have a multi-entry visa. Does each arrival reset the permitted duration of stay?"
+    },
+    "en.airport_nothing_to_declare": {
+      "level": "A2",
+      "function": "aduana",
+      "attested": true,
+      "intent": "I have nothing to declare."
+    },
+    "en.airport_partner_airline_baggage_liability": {
+      "level": "C2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "The connecting flight was operated by a partner airline. Does that affect liability for my delayed baggage?"
+    },
+    "en.airport_passport_expiry_visa": {
+      "level": "C1",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "My passport expires in three months. Is that sufficient for a tourist visa on arrival?"
+    },
+    "en.airport_prefer_window_seat": {
+      "level": "A1",
+      "function": "asiento/clase",
+      "attested": true,
+      "intent": "I prefer a window seat."
+    },
+    "en.airport_priority_boarding_boarded_together": {
+      "level": "B2",
+      "function": "asiento/clase",
+      "attested": true,
+      "intent": "I paid for priority boarding, but everyone boarded at the same time anyway."
+    },
+    "en.airport_refused_entry_return_carrier": {
+      "level": "C2",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "I've been refused entry. Which carrier is legally required to return me to my point of departure?"
+    },
+    "en.airport_request_seat_front": {
+      "level": "A2",
+      "function": "asiento/clase",
+      "attested": true,
+      "intent": "I'd like a seat closer to the front of the plane, please."
+    },
+    "en.airport_seat_assignment_not_booked": {
+      "level": "C1",
+      "function": "asiento/clase",
+      "attested": true,
+      "intent": "I booked an exit-row seat but was assigned a standard economy seat. I'd like this corrected."
+    },
+    "en.airport_seat_changed_no_notice": {
+      "level": "B2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "The airline changed my seat without notice. I'd like to speak to a supervisor."
+    },
+    "en.airport_secondary_screening_rights": {
+      "level": "C2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "I've been flagged for secondary screening. Could you explain the basis for this and my rights?"
+    },
+    "en.airport_security_liquids_confiscated": {
+      "level": "B2",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "My sunscreen was confiscated at security. Liquids over 100ml aren't allowed in carry-on."
+    },
+    "en.airport_transit_zone_restrictions": {
+      "level": "C1",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "I'm on a transit visa exemption. What are the restrictions for leaving the transit zone?"
+    },
+    "en.airport_unaccompanied_minor_procedure": {
+      "level": "C1",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "My daughter is traveling alone for the first time. What procedures apply for unaccompanied minors?"
+    },
+    "en.airport_upgrade_miles_business": {
+      "level": "C1",
+      "function": "asiento/clase",
+      "attested": true,
+      "intent": "I'd like to use my frequent flyer miles to upgrade. Is there availability in business class?"
+    },
+    "en.airport_waiting_room_location": {
+      "level": "A1",
+      "function": "aeropuerto_general",
+      "attested": true,
+      "intent": "The waiting room is on the ground floor."
+    },
+    "en.airport_where_boarding_pass": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Where can I get my boarding pass?"
+    },
+    "en.airport_where_is_checkin": {
+      "level": "A1",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "Where is the check-in counter?"
+    },
+    "en.airport_where_is_security": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Where is security?"
+    },
+    "en.airport_where_passport_control": {
+      "level": "A1",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "Where is passport control?"
+    },
+    "en.airport_which_gate": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Which gate is my flight?"
+    },
+    "en.airport_which_terminal_departs": {
+      "level": "A2",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Which terminal is my flight departing from?"
+    },
+    "es.airport_aisle_seat": {
+      "level": "A1",
+      "function": "asiento/clase",
+      "attested": true,
+      "intent": "I'd like an aisle seat, please."
+    },
+    "es.airport_bag_made_connection": {
+      "level": "B2",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "Could you confirm whether my checked bag made it onto the connecting flight?"
+    },
+    "es.airport_baggage_claim_flight": {
+      "level": "B1",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "Where is the baggage claim area for this flight?"
+    },
+    "es.airport_boarding_pass_gate": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "I need to show my boarding pass at the gate."
+    },
+    "es.airport_cancelled_rebook_today": {
+      "level": "B2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "My flight was cancelled. I need to be rebooked on the next available flight."
+    },
+    "es.airport_carryon_over_limit": {
+      "level": "B1",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "My carry-on is over the weight limit. What are my options?"
+    },
+    "es.airport_carryon_size_limit": {
+      "level": "A2",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "Carry-on luggage must be a specific size."
+    },
+    "es.airport_check_luggage": {
+      "level": "A1",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "I need to check my luggage."
+    },
+    "es.airport_connection_time_enough": {
+      "level": "B1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "I have a connection. Is there time to reach the next gate?"
+    },
+    "es.airport_customs_declare_allowance": {
+      "level": "C1",
+      "function": "aduana",
+      "attested": true,
+      "intent": "I'd like to declare these goods. Could you tell me the duty-free allowance?"
+    },
+    "es.airport_denied_boarding_compensation": {
+      "level": "B2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "I was denied boarding due to overbooking. What compensation am I entitled to?"
+    },
+    "es.airport_direct_or_connecting": {
+      "level": "A2",
+      "function": "vuelo/embarque",
+      "attested": true,
+      "intent": "Is there a direct flight to New York, or do I have to connect?"
+    },
+    "es.airport_duty_exceeded_pay_here": {
+      "level": "C1",
+      "function": "aduana",
+      "attested": true,
+      "intent": "I've exceeded the duty-free allowance. Can I pay the import duty here at the airport?"
+    },
+    "es.airport_duty_free_shop": {
+      "level": "A2",
+      "function": "aduana",
+      "attested": true,
+      "intent": "Where is the duty-free shop?"
+    },
+    "es.airport_eu_regulation_compensation": {
+      "level": "C2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "Under EU Regulation 261/2004, I believe I'm entitled to compensation for this cancellation."
+    },
+    "es.airport_exchange_currency": {
+      "level": "A2",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Where can I exchange currency?"
+    },
+    "es.airport_flight_delayed_voucher": {
+      "level": "B1",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "My flight has been delayed. Can I get a food voucher?"
+    },
+    "es.airport_flight_departure_time": {
+      "level": "A1",
+      "function": "vuelo/embarque",
+      "attested": true,
+      "intent": "What time is our flight?"
+    },
+    "es.airport_forgot_boarding_pass_download": {
+      "level": "B2",
+      "function": "vuelo/embarque",
+      "attested": true,
+      "intent": "I forgot my boarding pass. Can I access it on the airline's website?"
+    },
+    "es.airport_how_early_arrive": {
+      "level": "A2",
+      "function": "vuelo/embarque",
+      "attested": true,
+      "intent": "How early should I arrive at the airport before my flight?"
+    },
+    "es.airport_immigration_before_bags": {
+      "level": "B2",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "You have to go through immigration before you can collect your bags."
+    },
+    "es.airport_is_flight_on_time": {
+      "level": "A1",
+      "function": "vuelo/embarque",
+      "attested": true,
+      "intent": "Is my flight on time?"
+    },
+    "es.airport_is_this_gate_for": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Is this the gate for flight 203?"
+    },
+    "es.airport_luggage_lost_claim": {
+      "level": "B2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "My luggage didn't arrive. I'd like to file a lost baggage report."
+    },
+    "es.airport_mishandled_bag_return": {
+      "level": "C1",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "The airline lost my bag on the outbound leg, and my return flight departs tomorrow."
+    },
+    "es.airport_multi_entry_visa_duration": {
+      "level": "C1",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "I have a multi-entry visa. Does each arrival reset the permitted duration of stay?"
+    },
+    "es.airport_nothing_to_declare": {
+      "level": "A2",
+      "function": "aduana",
+      "attested": true,
+      "intent": "I have nothing to declare."
+    },
+    "es.airport_partner_airline_baggage_liability": {
+      "level": "C2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "The connecting flight was operated by a partner airline. Does that affect liability for my delayed baggage?"
+    },
+    "es.airport_passport_expiry_visa": {
+      "level": "C1",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "My passport expires in three months. Is that sufficient for a tourist visa on arrival?"
+    },
+    "es.airport_prefer_window_seat": {
+      "level": "A1",
+      "function": "asiento/clase",
+      "attested": true,
+      "intent": "I prefer a window seat."
+    },
+    "es.airport_priority_boarding_boarded_together": {
+      "level": "B2",
+      "function": "asiento/clase",
+      "attested": true,
+      "intent": "I paid for priority boarding, but everyone boarded at the same time anyway."
+    },
+    "es.airport_refused_entry_return_carrier": {
+      "level": "C2",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "I've been refused entry. Which carrier is legally required to return me to my point of departure?"
+    },
+    "es.airport_request_seat_front": {
+      "level": "A2",
+      "function": "asiento/clase",
+      "attested": true,
+      "intent": "I'd like a seat closer to the front of the plane, please."
+    },
+    "es.airport_seat_assignment_not_booked": {
+      "level": "C1",
+      "function": "asiento/clase",
+      "attested": true,
+      "intent": "I booked an exit-row seat but was assigned a standard economy seat. I'd like this corrected."
+    },
+    "es.airport_seat_changed_no_notice": {
+      "level": "B2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "The airline changed my seat without notice. I'd like to speak to a supervisor."
+    },
+    "es.airport_secondary_screening_rights": {
+      "level": "C2",
+      "function": "incidencias/derechos",
+      "attested": true,
+      "intent": "I've been flagged for secondary screening. Could you explain the basis for this and my rights?"
+    },
+    "es.airport_security_liquids_confiscated": {
+      "level": "B2",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "My sunscreen was confiscated at security. Liquids over 100ml aren't allowed in carry-on."
+    },
+    "es.airport_transit_zone_restrictions": {
+      "level": "C1",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "I'm on a transit visa exemption. What are the restrictions for leaving the transit zone?"
+    },
+    "es.airport_unaccompanied_minor_procedure": {
+      "level": "C1",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "My daughter is traveling alone for the first time. What procedures apply for unaccompanied minors?"
+    },
+    "es.airport_upgrade_miles_business": {
+      "level": "C1",
+      "function": "asiento/clase",
+      "attested": true,
+      "intent": "I'd like to use my frequent flyer miles to upgrade. Is there availability in business class?"
+    },
+    "es.airport_waiting_room_location": {
+      "level": "A1",
+      "function": "aeropuerto_general",
+      "attested": true,
+      "intent": "The waiting room is on the ground floor."
+    },
+    "es.airport_where_boarding_pass": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Where can I get my boarding pass?"
+    },
+    "es.airport_where_is_checkin": {
+      "level": "A1",
+      "function": "equipaje",
+      "attested": true,
+      "intent": "Where is the check-in counter?"
+    },
+    "es.airport_where_is_security": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Where is security?"
+    },
+    "es.airport_where_passport_control": {
+      "level": "A1",
+      "function": "inmigración",
+      "attested": true,
+      "intent": "Where is passport control?"
+    },
+    "es.airport_which_gate": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Which gate is my flight?"
+    },
+    "es.airport_which_terminal_departs": {
+      "level": "A2",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Which terminal is my flight departing from?"
+    }
+  },
+  "_keyFormat": "target.conceptSlug"
+}

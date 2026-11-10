@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "f0",
+  "concepts": {
+    "es.accommodation_late_checkout_policy": {
+      "conceptId": "es.accommodation_late_checkout_policy",
+      "id": "accommodation_late_checkout_policy",
+      "target": [
+        {
+          "text": "¿Cuál es la política de salida tardía?",
+          "audioSlug": "cual_es_la_politica_de_salida_tardia"
+        }
+      ]
+    },
+    "es.accommodation_tengo_una_reserva": {
+      "conceptId": "es.accommodation_tengo_una_reserva",
+      "id": "accommodation_tengo_una_reserva",
+      "target": [
+        {
+          "text": "Tengo una reserva a nombre de Ana.",
+          "audioSlug": "tengo_una_reserva_a_nombre_de_ana"
+        }
+      ]
+    },
+    "es.cuerpo_tengo_los_ojos_azules": {
+      "conceptId": "es.cuerpo_tengo_los_ojos_azules",
+      "id": "cuerpo_tengo_los_ojos_azules",
+      "target": [
+        {
+          "text": "Tengo los ojos azules.",
+          "audioSlug": "tengo_los_ojos_azules"
+        }
+      ]
+    },
+    "es.directions_vamos_al_norte": {
+      "conceptId": "es.directions_vamos_al_norte",
+      "id": "directions_vamos_al_norte",
+      "target": [
+        {
+          "text": "Vamos al norte.",
+          "audioSlug": "vamos_al_norte"
+        }
+      ]
+    },
+    "es.emociones_nos_vemos_en_un_rato": {
+      "conceptId": "es.emociones_nos_vemos_en_un_rato",
+      "id": "emociones_nos_vemos_en_un_rato",
+      "target": [
+        {
+          "text": "Nos vemos en un rato.",
+          "audioSlug": "nos_vemos_en_un_rato"
+        }
+      ]
+    },
+    "es.fiesta_happy_birthday": {
+      "conceptId": "es.fiesta_happy_birthday",
+      "id": "fiesta_happy_birthday",
+      "target": [
+        {
+          "text": "¡Feliz cumpleaños!",
+          "audioSlug": "feliz_cumpleanos"
+        }
+      ]
+    },
+    "es.movies_dont_understand_popularity": {
+      "conceptId": "es.movies_dont_understand_popularity",
+      "id": "movies_dont_understand_popularity",
+      "target": [
+        {
+          "text": "No entiendo por qué esa serie es tan popular.",
+          "audioSlug": "no_entiendo_por_que_esa_serie_es_tan_popular"
+        }
+      ]
+    },
+    "es.museums_where_is_exhibition": {
+      "conceptId": "es.museums_where_is_exhibition",
+      "id": "museums_where_is_exhibition",
+      "target": [
+        {
+          "text": "¿Dónde está la exposición de Picasso?",
+          "audioSlug": "donde_esta_la_exposicion_de_picasso"
+        }
+      ]
+    },
+    "es.profesiones_es_un_buen_detective": {
+      "conceptId": "es.profesiones_es_un_buen_detective",
+      "id": "profesiones_es_un_buen_detective",
+      "target": [
+        {
+          "text": "Es un buen detective.",
+          "audioSlug": "es_un_buen_detective"
+        }
+      ]
+    },
+    "es.restaurant_the_bill_please": {
+      "conceptId": "es.restaurant_the_bill_please",
+      "id": "restaurant_the_bill_please",
+      "target": [
+        {
+          "text": "La cuenta, por favor.",
+          "audioSlug": "la_cuenta_por_favor"
+        }
+      ]
+    },
+    "es.sitios_bailamos_toda_la_noche_en_la_discoteca": {
+      "conceptId": "es.sitios_bailamos_toda_la_noche_en_la_discoteca",
+      "id": "sitios_bailamos_toda_la_noche_en_la_discoteca",
+      "target": [
+        {
+          "text": "Bailamos toda la noche en la discoteca.",
+          "audioSlug": "bailamos_toda_la_noche_en_la_discoteca"
+        }
+      ]
+    },
+    "es.sitios_la_iglesia_esta_en_la_esquina": {
+      "conceptId": "es.sitios_la_iglesia_esta_en_la_esquina",
+      "id": "sitios_la_iglesia_esta_en_la_esquina",
+      "target": [
+        {
+          "text": "La iglesia está en la esquina.",
+          "audioSlug": "la_iglesia_esta_en_la_esquina"
+        }
+      ]
+    },
+    "es.supermarket_bebo_un_jugo_de_naranja": {
+      "conceptId": "es.supermarket_bebo_un_jugo_de_naranja",
+      "id": "supermarket_bebo_un_jugo_de_naranja",
+      "target": [
+        {
+          "text": "Bebo un jugo de naranja.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "bebo_un_jugo_de_naranja"
+        },
+        {
+          "text": "Bebo un zumo de naranja.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "bebo_un_zumo_de_naranja"
+        }
+      ]
+    },
+    "es.transportation_missed_train_next_one": {
+      "conceptId": "es.transportation_missed_train_next_one",
+      "id": "transportation_missed_train_next_one",
+      "target": [
+        {
+          "text": "Perdí mi tren, ¿cuándo sale el siguiente?",
+          "audioSlug": "perdi_mi_tren_cuando_sale_el_siguiente"
+        }
+      ]
+    },
+    "es.vestimenta_me_quito_el_sombrero": {
+      "conceptId": "es.vestimenta_me_quito_el_sombrero",
+      "id": "vestimenta_me_quito_el_sombrero",
+      "target": [
+        {
+          "text": "Me quito el sombrero.",
+          "audioSlug": "me_quito_el_sombrero"
+        }
+      ]
+    }
+  }
+}

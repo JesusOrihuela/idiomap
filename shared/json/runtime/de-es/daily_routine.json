@@ -1,0 +1,567 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "daily_routine",
+  "phrases": [
+    {
+      "id": "daily_routine_i_get_up_at_seven",
+      "conceptId": "es.daily_routine_i_get_up_at_seven",
+      "sourceId": "de.s.1389870809469d88",
+      "source": "Ich stehe um sieben Uhr auf.",
+      "level": "A2",
+      "grammar": "Los verbos reflexivos llevan me, me levanto.",
+      "target": [
+        {
+          "text": "Me levanto a las siete.",
+          "audioSlug": "me_levanto_a_las_siete"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_have_breakfast_at_eight",
+      "conceptId": "es.daily_routine_i_have_breakfast_at_eight",
+      "sourceId": "de.s.e46e5b33388aa505",
+      "source": "Ich frühstücke um acht.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Desayuno a las ocho.",
+          "audioSlug": "desayuno_a_las_ocho"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_go_to_work_at_nine",
+      "conceptId": "es.daily_routine_i_go_to_work_at_nine",
+      "sourceId": "de.s.0a6d8f7ad8a63a64",
+      "source": "Ich gehe um neun zur Arbeit.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Voy al trabajo a las nueve.",
+          "audioSlug": "voy_al_trabajo_a_las_nueve"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_have_lunch_at_two",
+      "conceptId": "es.daily_routine_i_have_lunch_at_two",
+      "sourceId": "de.s.16e4b17972a45ac4",
+      "source": "Ich esse um zwei Uhr zu Mittag.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Almuerzo a las dos.",
+          "audioSlug": "almuerzo_a_las_dos"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_come_home_at_six",
+      "conceptId": "es.daily_routine_i_come_home_at_six",
+      "sourceId": "de.s.ebf527cfd731bbfb",
+      "source": "Ich komme um sechs nach Hause.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vuelvo a casa a las seis.",
+          "audioSlug": "vuelvo_a_casa_a_las_seis"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_cook_dinner",
+      "conceptId": "es.daily_routine_i_cook_dinner",
+      "sourceId": "de.s.136cb8f7ca110710",
+      "source": "Ich koche das Abendessen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Preparo la cena.",
+          "audioSlug": "preparo_la_cena"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_watch_tv_at_night",
+      "conceptId": "es.daily_routine_i_watch_tv_at_night",
+      "sourceId": "de.s.475ac7fbe8de49fd",
+      "source": "Ich sehe abends fern.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Veo la televisión por la noche.",
+          "audioSlug": "veo_la_television_por_la_noche"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_go_to_bed_at_eleven",
+      "conceptId": "es.daily_routine_i_go_to_bed_at_eleven",
+      "sourceId": "de.s.2df5f41f08c4821f",
+      "source": "Ich gehe um elf ins Bett.",
+      "level": "A2",
+      "grammar": "Acostarse es reflexivo, me acuesto.",
+      "target": [
+        {
+          "text": "Me acuesto a las once.",
+          "audioSlug": "me_acuesto_a_las_once"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_pongo_la_mesa_antes_de_cenar",
+      "conceptId": "es.daily_routine_pongo_la_mesa_antes_de_cenar",
+      "sourceId": "de.s.96073c2967c592fb",
+      "source": "Ich decke den Tisch vor dem Abendessen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Pongo la mesa antes de cenar.",
+          "audioSlug": "pongo_la_mesa_antes_de_cenar"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_salgo_de_casa_a_las_ocho",
+      "conceptId": "es.daily_routine_salgo_de_casa_a_las_ocho",
+      "sourceId": "de.s.feeb01b7e2ad281a",
+      "source": "Ich gehe um acht aus dem Haus.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Salgo de casa a las ocho.",
+          "audioSlug": "salgo_de_casa_a_las_ocho"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_nunca_llego_tarde",
+      "conceptId": "es.daily_routine_nunca_llego_tarde",
+      "sourceId": "de.s.6c38718e854486a2",
+      "source": "Ich komme nie zu spät zu meinen Terminen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nunca llego tarde a mis citas.",
+          "audioSlug": "nunca_llego_tarde_a_mis_citas"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_trabajo_desde_las_nueve",
+      "conceptId": "es.daily_routine_trabajo_desde_las_nueve",
+      "sourceId": "de.s.56227040b4181959",
+      "source": "Ich arbeite von neun bis fünf.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Trabajo desde las nueve hasta las cinco.",
+          "audioSlug": "trabajo_desde_las_nueve_hasta_las_cinco"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_dejo_las_llaves_en_la_mesa",
+      "conceptId": "es.daily_routine_dejo_las_llaves_en_la_mesa",
+      "sourceId": "de.s.dd5e46ccc97c0d69",
+      "source": "Ich lasse die Schlüssel auf dem Tisch.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Dejo las llaves en la mesa.",
+          "audioSlug": "dejo_las_llaves_en_la_mesa"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_empiezo_el_dia_con_un_cafe",
+      "conceptId": "es.daily_routine_empiezo_el_dia_con_un_cafe",
+      "sourceId": "de.s.2903377f297b6839",
+      "source": "Ich beginne den Tag mit einem Kaffee.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Empiezo el día con un café.",
+          "audioSlug": "empiezo_el_dia_con_un_cafe"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_solo_descanso_los_domingos",
+      "conceptId": "es.daily_routine_solo_descanso_los_domingos",
+      "sourceId": "de.s.2ea84fb3efa9acc4",
+      "source": "Ich ruhe mich nur sonntags aus.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Solo descanso los domingos.",
+          "audioSlug": "solo_descanso_los_domingos"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_conozco_a_mucha_gente",
+      "conceptId": "es.daily_routine_conozco_a_mucha_gente",
+      "sourceId": "de.s.17017d9c5a06e9c6",
+      "source": "Ich kenne viele Leute bei der Arbeit.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Conozco a mucha gente en el trabajo.",
+          "audioSlug": "conozco_a_mucha_gente_en_el_trabajo"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_camino_entre_el_parque_y_mi_casa",
+      "conceptId": "es.daily_routine_camino_entre_el_parque_y_mi_casa",
+      "sourceId": "de.s.f3273f88a472024d",
+      "source": "Ich gehe zwischen dem Park und meinem Haus.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Camino entre el parque y mi casa.",
+          "audioSlug": "camino_entre_el_parque_y_mi_casa"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_no_salgo_porque_llueve",
+      "conceptId": "es.daily_routine_no_salgo_porque_llueve",
+      "sourceId": "de.s.57947b4db397fb77",
+      "source": "Ich gehe nicht raus, weil es regnet.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No salgo porque llueve.",
+          "audioSlug": "no_salgo_porque_llueve"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_tomo_cafe_o_te",
+      "conceptId": "es.daily_routine_tomo_cafe_o_te",
+      "sourceId": "de.s.2f542c06ca73cfd5",
+      "source": "Ich trinke morgens Kaffee oder Tee.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tomo café o té por la mañana.",
+          "audioSlug": "tomo_cafe_o_te_por_la_manana"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_termino_de_trabajar_a_las_seis",
+      "conceptId": "es.daily_routine_termino_de_trabajar_a_las_seis",
+      "sourceId": "de.s.745dce5c849e0821",
+      "source": "Ich höre um sechs auf zu arbeiten.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Termino de trabajar a las seis.",
+          "audioSlug": "termino_de_trabajar_a_las_seis"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_me_visto_rapido_por_la_manana",
+      "conceptId": "es.daily_routine_me_visto_rapido_por_la_manana",
+      "sourceId": "de.s.5bebc92ca3ae909a",
+      "source": "Ich ziehe mich morgens schnell an.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me visto rápido por la mañana.",
+          "audioSlug": "me_visto_rapido_por_la_manana"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_suelo_organizar_mi_dia",
+      "conceptId": "es.daily_routine_suelo_organizar_mi_dia",
+      "sourceId": "de.s.a39292b298b810b7",
+      "source": "Ich organisiere meinen Tag normalerweise abends.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Suelo organizar mi día por la noche.",
+          "audioSlug": "suelo_organizar_mi_dia_por_la_noche"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_acompano_a_mis_hijos_a_la_escuela",
+      "conceptId": "es.daily_routine_acompano_a_mis_hijos_a_la_escuela",
+      "sourceId": "de.s.91058c529be59481",
+      "source": "Ich begleite meine Kinder zur Schule.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Acompaño a mis hijos a la escuela.",
+          "audioSlug": "acompano_a_mis_hijos_a_la_escuela"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_tengo_que_recordar_comprar_pan",
+      "conceptId": "es.daily_routine_tengo_que_recordar_comprar_pan",
+      "sourceId": "de.s.6b216bd93b09b104",
+      "source": "Ich muss daran denken, Brot zu kaufen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo que recordar comprar pan.",
+          "audioSlug": "tengo_que_recordar_comprar_pan"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_sirvo_el_desayuno_a_mis_hijos",
+      "conceptId": "es.daily_routine_sirvo_el_desayuno_a_mis_hijos",
+      "sourceId": "de.s.91b3b58f6d46d977",
+      "source": "Ich serviere meinen Kindern das Frühstück.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sirvo el desayuno a mis hijos.",
+          "audioSlug": "sirvo_el_desayuno_a_mis_hijos"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_saco_la_basura_cada_noche",
+      "conceptId": "es.daily_routine_saco_la_basura_cada_noche",
+      "sourceId": "de.s.81d6915af59fdfd3",
+      "source": "Ich bringe jeden Abend den Müll raus.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Saco la basura cada noche.",
+          "audioSlug": "saco_la_basura_cada_noche"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_apago_las_luces_antes_de_dormir",
+      "conceptId": "es.daily_routine_apago_las_luces_antes_de_dormir",
+      "sourceId": "de.s.c39a5d18bf4bb095",
+      "source": "Vor dem Schlafen mache ich das Licht aus.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Apago las luces antes de dormir.",
+          "audioSlug": "apago_las_luces_antes_de_dormir"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_me_gusta_sentir_el_aire_al_despertar",
+      "conceptId": "es.daily_routine_me_gusta_sentir_el_aire_al_despertar",
+      "sourceId": "de.s.7966e1194b2297d1",
+      "source": "Ich mag es, beim Aufwachen die frische Luft zu spüren.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gusta sentir el aire fresco al despertar.",
+          "audioSlug": "me_gusta_sentir_el_aire_fresco_al_despertar"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_necesito_sacar_dinero_del_banco",
+      "conceptId": "es.daily_routine_necesito_sacar_dinero_del_banco",
+      "sourceId": "de.s.fa707c58146bce9e",
+      "source": "Ich muss Geld von der Bank abheben.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito sacar dinero del banco.",
+          "audioSlug": "necesito_sacar_dinero_del_banco"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_tengo_que_echar_una_carta_al_buzon",
+      "conceptId": "es.daily_routine_tengo_que_echar_una_carta_al_buzon",
+      "sourceId": "de.s.b3338d20e66949e7",
+      "source": "Ich muss einen Brief in den Briefkasten einwerfen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo que echar una carta al buzón.",
+          "audioSlug": "tengo_que_echar_una_carta_al_buzon"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_siempre_me_falta_tiempo_por_la_manana",
+      "conceptId": "es.daily_routine_siempre_me_falta_tiempo_por_la_manana",
+      "sourceId": "de.s.fd7a79ba6bfdd37c",
+      "source": "Morgens fehlt mir immer die Zeit.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Siempre me falta tiempo por la mañana.",
+          "audioSlug": "siempre_me_falta_tiempo_por_la_manana"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_por_la_manana_ayudo_a_vestir_a_los_ninos",
+      "conceptId": "es.daily_routine_por_la_manana_ayudo_a_vestir_a_los_ninos",
+      "sourceId": "de.s.bdc5b702d4afcf66",
+      "source": "Morgens helfe ich, die Kinder anzuziehen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Por la mañana ayudo a vestir a los niños.",
+          "audioSlug": "por_la_manana_ayudo_a_vestir_a_los_ninos"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_es_importante_levantarse_temprano",
+      "conceptId": "es.daily_routine_es_importante_levantarse_temprano",
+      "sourceId": "de.s.eedff6ccae8f9bc7",
+      "source": "Es ist wichtig, früh aufzustehen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es importante levantarse temprano.",
+          "audioSlug": "es_importante_levantarse_temprano"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_hay_que_ducharse_antes_de_salir",
+      "conceptId": "es.daily_routine_hay_que_ducharse_antes_de_salir",
+      "sourceId": "de.s.5603169e2ad49fd5",
+      "source": "Man muss duschen, bevor man rausgeht.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que ducharse antes de salir.",
+          "audioSlug": "hay_que_ducharse_antes_de_salir"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_conviene_lavarse_bien_las_manos",
+      "conceptId": "es.daily_routine_conviene_lavarse_bien_las_manos",
+      "sourceId": "de.s.775c66b902cde2db",
+      "source": "Es empfiehlt sich, sich gut die Hände zu waschen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Conviene lavarse bien las manos.",
+          "audioSlug": "conviene_lavarse_bien_las_manos"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_es_mejor_sentarse_a_desayunar_con_calma",
+      "conceptId": "es.daily_routine_es_mejor_sentarse_a_desayunar_con_calma",
+      "sourceId": "de.s.d8fcc42f6fcb3e7c",
+      "source": "Es ist besser, sich in Ruhe zum Frühstück zu setzen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es mejor sentarse a desayunar con calma.",
+          "audioSlug": "es_mejor_sentarse_a_desayunar_con_calma"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_los_ninos_deben_acostarse_pronto",
+      "conceptId": "es.daily_routine_los_ninos_deben_acostarse_pronto",
+      "sourceId": "de.s.d88546104f1ab247",
+      "source": "Die Kinder sollten früh ins Bett gehen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los niños deben acostarse pronto.",
+          "audioSlug": "los_ninos_deben_acostarse_pronto"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_antes_de_salir_hay_que_ponerse_el_abrigo",
+      "conceptId": "es.daily_routine_antes_de_salir_hay_que_ponerse_el_abrigo",
+      "sourceId": "de.s.045a0df7b537bf19",
+      "source": "Bevor man rausgeht, muss man den Mantel anziehen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Antes de salir hay que ponerse el abrigo.",
+          "audioSlug": "antes_de_salir_hay_que_ponerse_el_abrigo"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_a_veces_es_bueno_quedarse_en_casa",
+      "conceptId": "es.daily_routine_a_veces_es_bueno_quedarse_en_casa",
+      "sourceId": "de.s.d632598a535b3256",
+      "source": "Manchmal ist es schön, zu Hause zu bleiben.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "A veces es bueno quedarse en casa.",
+          "audioSlug": "a_veces_es_bueno_quedarse_en_casa"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_en_verano_es_genial_banarse_en_el_mar",
+      "conceptId": "es.daily_routine_en_verano_es_genial_banarse_en_el_mar",
+      "sourceId": "de.s.4fa7de51d6ca6876",
+      "source": "Im Sommer ist es toll, im Meer zu baden.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En verano es genial bañarse en el mar.",
+          "audioSlug": "en_verano_es_genial_banarse_en_el_mar"
+        }
+      ]
+    }
+  ]
+}

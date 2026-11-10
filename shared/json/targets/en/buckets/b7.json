@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "b7",
+  "concepts": {
+    "en.conversacion_i_mean_it": {
+      "conceptId": "en.conversacion_i_mean_it",
+      "id": "conversacion_i_mean_it",
+      "target": [
+        {
+          "text": "I mean it.",
+          "audioSlug": "i_mean_it"
+        }
+      ]
+    },
+    "en.estudios_i_like_history": {
+      "conceptId": "en.estudios_i_like_history",
+      "id": "estudios_i_like_history",
+      "target": [
+        {
+          "text": "I like history.",
+          "audioSlug": "i_like_history"
+        }
+      ]
+    },
+    "en.supermarket_i_dont_know_which_fish_to": {
+      "conceptId": "en.supermarket_i_dont_know_which_fish_to",
+      "id": "supermarket_i_dont_know_which_fish_to",
+      "target": [
+        {
+          "text": "I don't know which fish to buy.",
+          "audioSlug": "i_don_t_know_which_fish_to_buy"
+        }
+      ]
+    },
+    "en.technology_i_cant_open_this_pdf_file": {
+      "conceptId": "en.technology_i_cant_open_this_pdf_file",
+      "id": "technology_i_cant_open_this_pdf_file",
+      "target": [
+        {
+          "text": "Do I need a special program to open this PDF?",
+          "audioSlug": "do_i_need_a_special_program_to_open_this_pdf"
+        }
+      ]
+    }
+  }
+}

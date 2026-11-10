@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "2d",
+  "concepts": {
+    "en.accountability_liquidity_ratios_short_term_obligations": {
+      "conceptId": "en.accountability_liquidity_ratios_short_term_obligations",
+      "id": "accountability_liquidity_ratios_short_term_obligations",
+      "target": [
+        {
+          "text": "The liquidity ratios suggest the company may struggle to meet its short-term obligations.",
+          "audioSlug": "the_liquidity_ratios_suggest_the_company_may_struggle_to_meet_its_short_term_obligations"
+        }
+      ]
+    },
+    "en.daily_routine_dinner_at_nine": {
+      "conceptId": "en.daily_routine_dinner_at_nine",
+      "id": "daily_routine_dinner_at_nine",
+      "target": [
+        {
+          "text": "I have dinner at nine.",
+          "audioSlug": "i_have_dinner_at_nine"
+        }
+      ]
+    },
+    "en.daily_routine_was_walking_when_rained": {
+      "conceptId": "en.daily_routine_was_walking_when_rained",
+      "id": "daily_routine_was_walking_when_rained",
+      "target": [
+        {
+          "text": "I was walking to work when it started to rain.",
+          "audioSlug": "i_was_walking_to_work_when_it_started_to_rain"
+        }
+      ]
+    },
+    "en.daily_routine_weekends": {
+      "conceptId": "en.daily_routine_weekends",
+      "id": "daily_routine_weekends",
+      "target": [
+        {
+          "text": "What do you do on weekends?",
+          "audioSlug": "what_do_you_do_on_weekends"
+        }
+      ]
+    },
+    "en.describiendo_personas_she_is_a_famous_model": {
+      "conceptId": "en.describiendo_personas_she_is_a_famous_model",
+      "id": "describiendo_personas_she_is_a_famous_model",
+      "target": [
+        {
+          "text": "She is a famous model.",
+          "audioSlug": "she_is_a_famous_model"
+        }
+      ]
+    },
+    "en.emociones_im_disappointed": {
+      "conceptId": "en.emociones_im_disappointed",
+      "id": "emociones_im_disappointed",
+      "target": [
+        {
+          "text": "I am disappointed.",
+          "audioSlug": "i_am_disappointed"
+        }
+      ]
+    },
+    "en.greetings_youre_welcome": {
+      "conceptId": "en.greetings_youre_welcome",
+      "id": "greetings_youre_welcome",
+      "target": [
+        {
+          "text": "You're welcome.",
+          "audioSlug": "you_re_welcome"
+        }
+      ]
+    },
+    "en.supermarket_shelf_price_doesnt_match_register": {
+      "conceptId": "en.supermarket_shelf_price_doesnt_match_register",
+      "id": "supermarket_shelf_price_doesnt_match_register",
+      "target": [
+        {
+          "text": "The shelf price doesn't match what showed up at the register.",
+          "audioSlug": "the_shelf_price_doesn_t_match_what_showed_up_at_the_register"
+        }
+      ]
+    },
+    "en.transportation_nearest_metro": {
+      "conceptId": "en.transportation_nearest_metro",
+      "id": "transportation_nearest_metro",
+      "target": [
+        {
+          "text": "Where is the nearest metro station?",
+          "audioSlug": "where_is_the_nearest_metro_station"
+        }
+      ]
+    }
+  }
+}

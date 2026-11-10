@@ -393,9 +393,9 @@ for (const w of [800, 1024]) {
     };
   });
   check(m.nodes >= 8, `mi aprendizaje: ${m.nodes} nodos`);
-  check(m.topics >= 1 && m.topics < m.nodes, `mi aprendizaje: ${m.topics}/${m.nodes} con pildora de tema (solo al cambiar)`);
-  check(m.states >= 1 && m.newStates <= 1 && m.activeState,
-    `mi aprendizaje: ${m.states}/${m.nodes} con estado, ${m.newStates} "Nuevo", activo ${m.activeState}`);
+  check(m.topics === m.nodes, `mi aprendizaje: ${m.topics}/${m.nodes} con pildora de tema`);
+  check(m.states === m.nodes,
+    `mi aprendizaje: ${m.states}/${m.nodes} con estado (${m.newStates} "Nuevo")`);
   check(m.cols >= 3, `mi aprendizaje: ${m.cols} columnas`);
   check(m.fill >= 0.98, `mi aprendizaje: ocupa el ${Math.round(m.fill * 100)}% del ancho`);
   check(m.h !== null && m.h <= 900, `mi aprendizaje: ruta de ${m.h}px (<=900)`);
@@ -641,9 +641,9 @@ for (const w of [1440, 768, 390]) {
   const total = (first.status.match(/de (\d+)$/) || [])[1];
   check(first.pager && /^Pasos 1-5 de \d+$/.test(first.status), `ruta: indicador "${first.status}"`);
   check(first.role === 'status', 'ruta: indicador en role=status');
-  check(first.pills >= 1 && first.pills < first.nodes, `ruta: ${first.pills}/${first.nodes} con pildora de tema (solo al cambiar)`);
-  check(first.states >= 1 && first.newStates <= 1 && first.activeState,
-    `ruta: ${first.states}/${first.nodes} con estado, ${first.newStates} "Nuevo", activo ${first.activeState}`);
+  check(first.pills === first.nodes, `ruta: ${first.pills}/${first.nodes} con pildora de tema`);
+  check(first.states === first.nodes,
+    `ruta: ${first.states}/${first.nodes} con estado (${first.newStates} "Nuevo")`);
   check(first.left === 'Actividades anteriores' && first.right === 'Actividades siguientes',
     `ruta: flechas "${first.left}" / "${first.right}"`);
   check(first.attachWorst <= 1, `ruta: conectores pegados al circulo (${first.attachWorst.toFixed(2)}px)`);

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "b2",
+  "concepts": {
+    "es.accommodation_power_adapters": {
+      "conceptId": "es.accommodation_power_adapters",
+      "id": "accommodation_power_adapters",
+      "target": [
+        {
+          "text": "¿Tienen adaptadores de corriente para dispositivos internacionales?",
+          "audioSlug": "tienen_adaptadores_de_corriente_para_dispositivos_internacionales"
+        }
+      ]
+    },
+    "es.conversacion_te_quiero_agradecer": {
+      "conceptId": "es.conversacion_te_quiero_agradecer",
+      "id": "conversacion_te_quiero_agradecer",
+      "target": [
+        {
+          "text": "Te quiero agradecer.",
+          "audioSlug": "te_quiero_agradecer"
+        }
+      ]
+    },
+    "es.cuerpo_me_duele_el_cuello_de_dormir_mal": {
+      "conceptId": "es.cuerpo_me_duele_el_cuello_de_dormir_mal",
+      "id": "cuerpo_me_duele_el_cuello_de_dormir_mal",
+      "target": [
+        {
+          "text": "Me duele el cuello de dormir mal.",
+          "audioSlug": "me_duele_el_cuello_de_dormir_mal"
+        }
+      ]
+    },
+    "es.cuerpo_tengo_la_nariz_pequena": {
+      "conceptId": "es.cuerpo_tengo_la_nariz_pequena",
+      "id": "cuerpo_tengo_la_nariz_pequena",
+      "target": [
+        {
+          "text": "Tengo la nariz pequeña.",
+          "audioSlug": "tengo_la_nariz_pequena"
+        }
+      ]
+    },
+    "es.hogar_voy_a_colocar_los_libros_en_el_estante": {
+      "conceptId": "es.hogar_voy_a_colocar_los_libros_en_el_estante",
+      "id": "hogar_voy_a_colocar_los_libros_en_el_estante",
+      "target": [
+        {
+          "text": "Voy a colocar los libros en el estante.",
+          "audioSlug": "voy_a_colocar_los_libros_en_el_estante"
+        }
+      ]
+    },
+    "es.kitchen_prep_ingredients_before_start": {
+      "conceptId": "es.kitchen_prep_ingredients_before_start",
+      "id": "kitchen_prep_ingredients_before_start",
+      "target": [
+        {
+          "text": "Siempre preparo todos los ingredientes antes de cocinar, así todo fluye mejor.",
+          "audioSlug": "siempre_preparo_todos_los_ingredientes_antes_de_cocinar_asi_todo_fluye_mejor"
+        }
+      ]
+    },
+    "es.kitchen_the_best_side_dish_for_meat": {
+      "conceptId": "es.kitchen_the_best_side_dish_for_meat",
+      "id": "kitchen_the_best_side_dish_for_meat",
+      "target": [
+        {
+          "text": "La mejor guarnición para la carne es la ensalada.",
+          "audioSlug": "la_mejor_guarnicion_para_la_carne_es_la_ensalada"
+        }
+      ]
+    },
+    "es.movies_prefer_subtitles_dubbing": {
+      "conceptId": "es.movies_prefer_subtitles_dubbing",
+      "id": "movies_prefer_subtitles_dubbing",
+      "target": [
+        {
+          "text": "Veo las películas extranjeras con subtítulos en lugar de dobladas.",
+          "audioSlug": "veo_las_peliculas_extranjeras_con_subtitulos_en_lugar_de_dobladas"
+        }
+      ]
+    },
+    "es.music_reunion_tour_expectations": {
+      "conceptId": "es.music_reunion_tour_expectations",
+      "id": "music_reunion_tour_expectations",
+      "target": [
+        {
+          "text": "Cuando una banda anuncia una gira de reunión, temo que no cumplan mis expectativas.",
+          "audioSlug": "cuando_una_banda_anuncia_una_gira_de_reunion_temo_que_no_cumplan_mis_expectativas"
+        }
+      ]
+    },
+    "es.tiempo_libre_la_pintora_expone_sus_cuadros": {
+      "conceptId": "es.tiempo_libre_la_pintora_expone_sus_cuadros",
+      "id": "tiempo_libre_la_pintora_expone_sus_cuadros",
+      "target": [
+        {
+          "text": "La pintora expone sus cuadros.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Malerin stellt ihre Bilder aus.",
+          "audioSlug": "la_pintora_expone_sus_cuadros"
+        },
+        {
+          "text": "El pintor expone sus cuadros.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Maler stellt seine Bilder aus.",
+          "audioSlug": "el_pintor_expone_sus_cuadros"
+        }
+      ]
+    },
+    "es.vestimenta_llevo_botas_para_la_lluvia": {
+      "conceptId": "es.vestimenta_llevo_botas_para_la_lluvia",
+      "id": "vestimenta_llevo_botas_para_la_lluvia",
+      "target": [
+        {
+          "text": "Llevo botas para la lluvia.",
+          "audioSlug": "llevo_botas_para_la_lluvia"
+        }
+      ]
+    },
+    "es.weather_el_cielo_esta_nublado": {
+      "conceptId": "es.weather_el_cielo_esta_nublado",
+      "id": "weather_el_cielo_esta_nublado",
+      "target": [
+        {
+          "text": "El cielo está nublado.",
+          "audioSlug": "el_cielo_esta_nublado"
+        }
+      ]
+    },
+    "es.weather_its_windy": {
+      "conceptId": "es.weather_its_windy",
+      "id": "weather_its_windy",
+      "target": [
+        {
+          "text": "Hace viento.",
+          "audioSlug": "hace_viento"
+        }
+      ]
+    }
+  }
+}

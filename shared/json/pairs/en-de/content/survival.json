@@ -1,11 +1,59 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-de",
   "topic": "survival",
-  "conceptIds": [
-    "de.survival_do_you_speak_english",
-    "de.survival_can_you_help_me",
-    "de.survival_i_do_not_understand",
-    "de.survival_where_is_the_bathroom"
+  "phrases": [
+    {
+      "conceptId": "de.survival_do_you_speak_english",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b53e3962d194b14d"
+    },
+    {
+      "conceptId": "de.survival_can_you_help_me",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7e513e6c5f503d41"
+    },
+    {
+      "conceptId": "de.survival_i_do_not_understand",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5df9cfa45859f803"
+    },
+    {
+      "conceptId": "de.survival_where_is_the_bathroom",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f98fcef3ef132b31"
+    }
   ]
 }

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "54",
+  "concepts": {
+    "es.accommodation_airport_shuttle": {
+      "conceptId": "es.accommodation_airport_shuttle",
+      "id": "accommodation_airport_shuttle",
+      "target": [
+        {
+          "text": "¿Tienen servicio de transporte al aeropuerto?",
+          "audioSlug": "tienen_servicio_de_transporte_al_aeropuerto"
+        }
+      ]
+    },
+    "es.estudios_necesito_un_certificado_de_estudios": {
+      "conceptId": "es.estudios_necesito_un_certificado_de_estudios",
+      "id": "estudios_necesito_un_certificado_de_estudios",
+      "target": [
+        {
+          "text": "Necesito un certificado de estudios.",
+          "audioSlug": "necesito_un_certificado_de_estudios"
+        }
+      ]
+    },
+    "es.estudios_necesito_varios_libros_para_el_curso": {
+      "conceptId": "es.estudios_necesito_varios_libros_para_el_curso",
+      "id": "estudios_necesito_varios_libros_para_el_curso",
+      "target": [
+        {
+          "text": "Necesito varios libros para el curso.",
+          "audioSlug": "necesito_varios_libros_para_el_curso"
+        }
+      ]
+    },
+    "es.hogar_el_techo_tiene_una_gotera": {
+      "conceptId": "es.hogar_el_techo_tiene_una_gotera",
+      "id": "hogar_el_techo_tiene_una_gotera",
+      "target": [
+        {
+          "text": "El techo tiene una gotera.",
+          "audioSlug": "el_techo_tiene_una_gotera"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_en_primavera_florecen_los_arboles": {
+      "conceptId": "es.naturaleza_lugares_en_primavera_florecen_los_arboles",
+      "id": "naturaleza_lugares_en_primavera_florecen_los_arboles",
+      "target": [
+        {
+          "text": "En primavera florecen los árboles.",
+          "audioSlug": "en_primavera_florecen_los_arboles"
+        }
+      ]
+    },
+    "es.restaurant_me_gusta_el_sandwich_de_queso": {
+      "conceptId": "es.restaurant_me_gusta_el_sandwich_de_queso",
+      "id": "restaurant_me_gusta_el_sandwich_de_queso",
+      "target": [
+        {
+          "text": "Me gusta el sándwich de queso.",
+          "audioSlug": "me_gusta_el_sandwich_de_queso"
+        }
+      ]
+    },
+    "es.technology_dont_trust_all_the_information_you": {
+      "conceptId": "es.technology_dont_trust_all_the_information_you",
+      "id": "technology_dont_trust_all_the_information_you",
+      "target": [
+        {
+          "text": "No confíes en toda la información que encuentras en internet.",
+          "audioSlug": "no_confies_en_toda_la_informacion_que_encuentras_en_internet"
+        }
+      ]
+    }
+  }
+}

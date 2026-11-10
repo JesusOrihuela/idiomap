@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "18",
+  "concepts": {
+    "en.accountability_write_off_bad_debt_quarter": {
+      "conceptId": "en.accountability_write_off_bad_debt_quarter",
+      "id": "accountability_write_off_bad_debt_quarter",
+      "target": [
+        {
+          "text": "We'll need to write off the bad debt before closing the quarter.",
+          "audioSlug": "we_ll_need_to_write_off_the_bad_debt_before_closing_the_quarter"
+        }
+      ]
+    },
+    "en.describiendo_personas_he_is_poor": {
+      "conceptId": "en.describiendo_personas_he_is_poor",
+      "id": "describiendo_personas_he_is_poor",
+      "target": [
+        {
+          "text": "He is poor.",
+          "audioSlug": "he_is_poor"
+        }
+      ]
+    },
+    "en.movies_casting_was_perfect_choice": {
+      "conceptId": "en.movies_casting_was_perfect_choice",
+      "id": "movies_casting_was_perfect_choice",
+      "target": [
+        {
+          "text": "I doubted the casting but that actor turned out perfect.",
+          "audioSlug": "i_doubted_the_casting_but_that_actor_turned_out_perfect"
+        }
+      ]
+    },
+    "en.supermarket_loyalty_program_sign_up": {
+      "conceptId": "en.supermarket_loyalty_program_sign_up",
+      "id": "supermarket_loyalty_program_sign_up",
+      "target": [
+        {
+          "text": "How do I sign up for the loyalty program? Can I use points immediately?",
+          "audioSlug": "how_do_i_sign_up_for_the_loyalty_program_can_i_use_points_immediately"
+        }
+      ]
+    },
+    "en.transportation_where_rent_bike": {
+      "conceptId": "en.transportation_where_rent_bike",
+      "id": "transportation_where_rent_bike",
+      "target": [
+        {
+          "text": "Where can I rent a bike?",
+          "audioSlug": "where_can_i_rent_a_bike",
+          "labels": {
+            "region": "US"
+          }
+        },
+        {
+          "text": "Where can I hire a bike?",
+          "audioSlug": "where_can_i_hire_a_bike",
+          "labels": {
+            "region": "UK"
+          }
+        }
+      ]
+    }
+  }
+}

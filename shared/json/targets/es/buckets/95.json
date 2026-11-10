@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "95",
+  "concepts": {
+    "es.accommodation_noisy_neighbors_keep_it_down": {
+      "conceptId": "es.accommodation_noisy_neighbors_keep_it_down",
+      "id": "accommodation_noisy_neighbors_keep_it_down",
+      "target": [
+        {
+          "text": "Los de la habitación de al lado hacen mucho ruido, ¿puede pedirles que bajen?",
+          "audioSlug": "los_de_la_habitacion_de_al_lado_hacen_mucho_ruido_puede_pedirles_que_bajen"
+        }
+      ]
+    },
+    "es.conversacion_hay_que_acordar_una_fecha_pronto": {
+      "conceptId": "es.conversacion_hay_que_acordar_una_fecha_pronto",
+      "id": "conversacion_hay_que_acordar_una_fecha_pronto",
+      "target": [
+        {
+          "text": "Hay que acordar una fecha pronto.",
+          "audioSlug": "hay_que_acordar_una_fecha_pronto"
+        }
+      ]
+    },
+    "es.daily_routine_es_mejor_sentarse_a_desayunar_con_calma": {
+      "conceptId": "es.daily_routine_es_mejor_sentarse_a_desayunar_con_calma",
+      "id": "daily_routine_es_mejor_sentarse_a_desayunar_con_calma",
+      "target": [
+        {
+          "text": "Es mejor sentarse a desayunar con calma.",
+          "audioSlug": "es_mejor_sentarse_a_desayunar_con_calma"
+        }
+      ]
+    },
+    "es.daily_routine_pongo_la_mesa_antes_de_cenar": {
+      "conceptId": "es.daily_routine_pongo_la_mesa_antes_de_cenar",
+      "id": "daily_routine_pongo_la_mesa_antes_de_cenar",
+      "target": [
+        {
+          "text": "Pongo la mesa antes de cenar.",
+          "audioSlug": "pongo_la_mesa_antes_de_cenar"
+        }
+      ]
+    },
+    "es.estudios_aprendo_algo_nuevo_cada_dia": {
+      "conceptId": "es.estudios_aprendo_algo_nuevo_cada_dia",
+      "id": "estudios_aprendo_algo_nuevo_cada_dia",
+      "target": [
+        {
+          "text": "Aprendo algo nuevo cada día.",
+          "audioSlug": "aprendo_algo_nuevo_cada_dia"
+        }
+      ]
+    },
+    "es.movies_soundtrack_adds_atmosphere": {
+      "conceptId": "es.movies_soundtrack_adds_atmosphere",
+      "id": "movies_soundtrack_adds_atmosphere",
+      "target": [
+        {
+          "text": "La banda sonora aporta mucho a la atmósfera, sin ella esas escenas no funcionarían.",
+          "audioSlug": "la_banda_sonora_aporta_mucho_a_la_atmosfera_sin_ella_esas_escenas_no_funcionarian"
+        }
+      ]
+    },
+    "es.music_go_concert_year": {
+      "conceptId": "es.music_go_concert_year",
+      "id": "music_go_concert_year",
+      "target": [
+        {
+          "text": "Deberíamos ir a un concierto este año.",
+          "audioSlug": "deberiamos_ir_a_un_concierto_este_ano"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_el_gobierno_anuncio_nuevas_medidas": {
+      "conceptId": "es.pensamientos_opiniones_el_gobierno_anuncio_nuevas_medidas",
+      "id": "pensamientos_opiniones_el_gobierno_anuncio_nuevas_medidas",
+      "target": [
+        {
+          "text": "El gobierno anunció nuevas medidas.",
+          "audioSlug": "el_gobierno_anuncio_nuevas_medidas"
+        }
+      ]
+    },
+    "es.personal_info_es_una_empresaria_responsable": {
+      "conceptId": "es.personal_info_es_una_empresaria_responsable",
+      "id": "personal_info_es_una_empresaria_responsable",
+      "target": [
+        {
+          "text": "Es una empresaria responsable.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie ist eine verantwortungsvolle Unternehmerin.",
+          "audioSlug": "es_una_empresaria_responsable"
+        },
+        {
+          "text": "Es un empresario responsable.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er ist ein verantwortungsvoller Unternehmer.",
+          "audioSlug": "es_un_empresario_responsable"
+        }
+      ]
+    },
+    "es.personal_info_la_presidenta_dara_un_discurso": {
+      "conceptId": "es.personal_info_la_presidenta_dara_un_discurso",
+      "id": "personal_info_la_presidenta_dara_un_discurso",
+      "target": [
+        {
+          "text": "La presidenta dará un discurso.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Präsidentin hält eine Rede.",
+          "audioSlug": "la_presidenta_dara_un_discurso"
+        },
+        {
+          "text": "El presidente dará un discurso.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Präsident hält eine Rede.",
+          "audioSlug": "el_presidente_dara_un_discurso"
+        }
+      ]
+    },
+    "es.vestimenta_me_pondre_una_camiseta": {
+      "conceptId": "es.vestimenta_me_pondre_una_camiseta",
+      "id": "vestimenta_me_pondre_una_camiseta",
+      "target": [
+        {
+          "text": "Me pondré una camiseta.",
+          "audioSlug": "me_pondre_una_camiseta"
+        }
+      ]
+    }
+  }
+}

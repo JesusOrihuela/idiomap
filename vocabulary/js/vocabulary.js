@@ -276,7 +276,12 @@ function showCard(index) {
   // safety net so no external lookup is ever needed. (Laufer & Shmueli 1997.)
   _setupDefinition((word.gloss && word.gloss[_srcCode]) || '', word.definition || '', word.level);
   document.getElementById('word-example').lang = AppLang.targetCode();
-  document.getElementById('word-example').textContent    = word.example || (word.gloss_example?.[_srcCode] || '');
+  document.getElementById('word-example').textContent    = word.example || '';
+  const _l1Example = (word.gloss_example && word.gloss_example[_srcCode]) || '';
+  const _l1El = document.getElementById('word-example-l1');
+  _l1El.textContent = _l1Example;
+  _l1El.hidden = !_l1Example;
+  _l1El.lang = AppLang.sourceCode();
   document.getElementById('word-translation').textContent = _displayHint;
 
   // The BACK shows a COMPACT one-line list of the forms (below the meaning) — a reference, not the whole

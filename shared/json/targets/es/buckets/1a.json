@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "1a",
+  "concepts": {
+    "es.accountability_board_approved_share_buyback_shareholders": {
+      "conceptId": "es.accountability_board_approved_share_buyback_shareholders",
+      "id": "accountability_board_approved_share_buyback_shareholders",
+      "target": [
+        {
+          "text": "La junta aprobó un programa de recompra de acciones para devolver valor a los accionistas.",
+          "audioSlug": "la_junta_aprobo_un_programa_de_recompra_de_acciones_para_devolver_valor_a_los_accionistas"
+        }
+      ]
+    },
+    "es.airport_seat_changed_no_notice": {
+      "conceptId": "es.airport_seat_changed_no_notice",
+      "id": "airport_seat_changed_no_notice",
+      "target": [
+        {
+          "text": "La aerolínea cambió mi asiento sin aviso y quisiera hablar con un supervisor.",
+          "audioSlug": "la_aerolinea_cambio_mi_asiento_sin_aviso_y_quisiera_hablar_con_un_supervisor",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "La aerolínea cambió mi asiento sin aviso y quisiera hablar con una supervisora.",
+          "audioSlug": "la_aerolinea_cambio_mi_asiento_sin_aviso_y_quisiera_hablar_con_una_supervisora",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.conversacion_dime_la_verdad_por_favor": {
+      "conceptId": "es.conversacion_dime_la_verdad_por_favor",
+      "id": "conversacion_dime_la_verdad_por_favor",
+      "target": [
+        {
+          "text": "Dime la verdad, por favor.",
+          "audioSlug": "dime_la_verdad_por_favor"
+        }
+      ]
+    },
+    "es.conversacion_tuvimos_una_conversacion_muy_larga": {
+      "conceptId": "es.conversacion_tuvimos_una_conversacion_muy_larga",
+      "id": "conversacion_tuvimos_una_conversacion_muy_larga",
+      "target": [
+        {
+          "text": "Tuvimos una conversación muy larga.",
+          "audioSlug": "tuvimos_una_conversacion_muy_larga"
+        }
+      ]
+    },
+    "es.descripciones_su_actitud_es_un_poco_antipatica": {
+      "conceptId": "es.descripciones_su_actitud_es_un_poco_antipatica",
+      "id": "descripciones_su_actitud_es_un_poco_antipatica",
+      "target": [
+        {
+          "text": "Su actitud es un poco antipática.",
+          "audioSlug": "su_actitud_es_un_poco_antipatica"
+        }
+      ]
+    },
+    "es.greetings_been_ages_how_keeping": {
+      "conceptId": "es.greetings_been_ages_how_keeping",
+      "id": "greetings_been_ages_how_keeping",
+      "target": [
+        {
+          "text": "Hace siglos que no nos vemos, ¿cómo has estado?",
+          "audioSlug": "hace_siglos_que_no_nos_vemos_como_has_estado"
+        }
+      ]
+    },
+    "es.greetings_hi_its_been_a_while_how": {
+      "conceptId": "es.greetings_hi_its_been_a_while_how",
+      "id": "greetings_hi_its_been_a_while_how",
+      "target": [
+        {
+          "text": "Hola, ha pasado un tiempo, ¿cómo estás?",
+          "audioSlug": "hola_ha_pasado_un_tiempo_como_estas"
+        }
+      ]
+    },
+    "es.music_vocal_range_earlier_work": {
+      "conceptId": "es.music_vocal_range_earlier_work",
+      "id": "music_vocal_range_earlier_work",
+      "target": [
+        {
+          "text": "El rango vocal de la cantante en este álbum supera claramente su obra anterior.",
+          "audioSlug": "el_rango_vocal_de_la_cantante_en_este_album_supera_claramente_su_obra_anterior"
+        }
+      ]
+    },
+    "es.restaurant_tienen_platos_vegetarianos": {
+      "conceptId": "es.restaurant_tienen_platos_vegetarianos",
+      "id": "restaurant_tienen_platos_vegetarianos",
+      "target": [
+        {
+          "text": "¿Tienen platos vegetarianos?",
+          "audioSlug": "tienen_platos_vegetarianos"
+        }
+      ]
+    },
+    "es.sitios_el_barrio_es_tranquilo_y_seguro": {
+      "conceptId": "es.sitios_el_barrio_es_tranquilo_y_seguro",
+      "id": "sitios_el_barrio_es_tranquilo_y_seguro",
+      "target": [
+        {
+          "text": "El barrio es tranquilo y seguro.",
+          "audioSlug": "el_barrio_es_tranquilo_y_seguro"
+        }
+      ]
+    },
+    "es.transportation_i_want_to_rent_a_car": {
+      "conceptId": "es.transportation_i_want_to_rent_a_car",
+      "id": "transportation_i_want_to_rent_a_car",
+      "target": [
+        {
+          "text": "Quiero alquilar un carro.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "quiero_alquilar_un_carro"
+        },
+        {
+          "text": "Quiero alquilar un coche.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "quiero_alquilar_un_coche"
+        },
+        {
+          "text": "Quiero alquilar un auto.",
+          "labels": {
+            "region": "Cono Sur"
+          },
+          "audioSlug": "quiero_alquilar_un_auto"
+        }
+      ]
+    }
+  }
+}

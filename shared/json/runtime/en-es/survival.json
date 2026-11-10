@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "survival",
+  "phrases": [
+    {
+      "id": "survival_i_dont_understand",
+      "conceptId": "es.survival_i_dont_understand",
+      "sourceId": "en.s.5df9cfa45859f803",
+      "source": "I don't understand.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No entiendo.",
+          "audioSlug": "no_entiendo"
+        }
+      ]
+    },
+    {
+      "id": "survival_can_you_repeat_en",
+      "conceptId": "es.survival_can_you_repeat.en-es",
+      "sourceId": "en.s.6b29d2bdf0ea6598",
+      "source": "Can you repeat that, please?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedes repetir, por favor?",
+          "audioSlug": "puedes_repetir_por_favor",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Puede repetir, por favor?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_repetir_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "survival_how_do_you_say",
+      "conceptId": "es.survival_how_do_you_say",
+      "sourceId": "en.s.6be24b1f14bf417e",
+      "source": "How do you say this in Spanish?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo se dice esto en español?",
+          "audioSlug": "como_se_dice_esto_en_espanol"
+        }
+      ]
+    },
+    {
+      "id": "survival_what_does_it_mean",
+      "conceptId": "es.survival_what_does_it_mean",
+      "sourceId": "en.s.84ae0d1e8f6ec0fd",
+      "source": "What does this word mean?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué significa esta palabra?",
+          "audioSlug": "que_significa_esta_palabra"
+        }
+      ]
+    },
+    {
+      "id": "survival_speak_slowly",
+      "conceptId": "es.survival_speak_slowly",
+      "sourceId": "en.s.a78c95036cb0f94c",
+      "source": "Can you speak more slowly, please?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedes hablar más despacio, por favor?",
+          "audioSlug": "puedes_hablar_mas_despacio_por_favor",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Puede hablar más despacio, por favor?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_hablar_mas_despacio_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "survival_i_dont_know_en",
+      "conceptId": "es.survival_i_dont_know.en-es",
+      "sourceId": "en.s.dc4f69fa975a1efd",
+      "source": "I don't know.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No lo sé.",
+          "audioSlug": "no_lo_se"
+        }
+      ]
+    },
+    {
+      "id": "survival_how_spell",
+      "conceptId": "es.survival_how_spell",
+      "sourceId": "en.s.ced2a1ac919ced28",
+      "source": "How do you spell it?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo se escribe?",
+          "audioSlug": "como_se_escribe"
+        }
+      ]
+    },
+    {
+      "id": "survival_do_you_speak_english",
+      "conceptId": "es.survival_do_you_speak_english",
+      "sourceId": "en.s.83152681d18c0aae",
+      "source": "Do you speak English?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Hablas inglés?",
+          "audioSlug": "hablas_ingles"
+        }
+      ]
+    },
+    {
+      "id": "survival_a_little",
+      "conceptId": "es.survival_a_little",
+      "sourceId": "en.s.91b0c1e73e3f4cea",
+      "source": "I speak a little Spanish.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hablo un poco de español.",
+          "audioSlug": "hablo_un_poco_de_espanol"
+        }
+      ]
+    },
+    {
+      "id": "survival_can_you_help",
+      "conceptId": "es.survival_can_you_help",
+      "sourceId": "en.s.e38999baab3f1893",
+      "source": "Can you help me, please?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me puedes ayudar, por favor?",
+          "audioSlug": "me_puedes_ayudar_por_favor",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Me puede ayudar, por favor?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "me_puede_ayudar_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "survival_what_is_this",
+      "conceptId": "es.survival_what_is_this",
+      "sourceId": "en.s.9e2adc1b0c3e536c",
+      "source": "What is this called?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo se llama esto?",
+          "audioSlug": "como_se_llama_esto"
+        }
+      ]
+    },
+    {
+      "id": "survival_im_learning",
+      "conceptId": "es.survival_im_learning",
+      "sourceId": "en.s.2fb39ce84b959909",
+      "source": "I'm learning Spanish.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy aprendiendo español.",
+          "audioSlug": "estoy_aprendiendo_espanol"
+        }
+      ]
+    },
+    {
+      "id": "survival_i_have_a_question",
+      "conceptId": "es.survival_i_have_a_question",
+      "sourceId": "en.s.cdef004cf4ce8445",
+      "source": "I have a question.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo una pregunta.",
+          "audioSlug": "tengo_una_pregunta"
+        }
+      ]
+    },
+    {
+      "id": "survival_is_that_correct",
+      "conceptId": "es.survival_is_that_correct",
+      "sourceId": "en.s.e38e6dd94218b927",
+      "source": "Is that correct?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Está bien así?",
+          "audioSlug": "esta_bien_asi"
+        }
+      ]
+    },
+    {
+      "id": "survival_what_did_you_say",
+      "conceptId": "es.survival_what_did_you_say",
+      "sourceId": "en.s.790fe6a780c2b8f8",
+      "source": "What did you say?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué dijiste?",
+          "audioSlug": "que_dijiste"
+        }
+      ]
+    },
+    {
+      "id": "survival_one_moment",
+      "conceptId": "es.survival_one_moment",
+      "sourceId": "en.s.612f990f6e7f8125",
+      "source": "One moment, please.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Un momento, por favor.",
+          "audioSlug": "un_momento_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "survival_i_dont_speak_well",
+      "conceptId": "es.survival_i_dont_speak_well",
+      "sourceId": "en.s.450fe604e66a36a5",
+      "source": "I don't speak Spanish very well.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No hablo español muy bien.",
+          "audioSlug": "no_hablo_espanol_muy_bien"
+        }
+      ]
+    },
+    {
+      "id": "survival_write_it_down",
+      "conceptId": "es.survival_write_it_down",
+      "sourceId": "en.s.21bb021941f92fb6",
+      "source": "Can you write it down for me?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me lo puedes escribir?",
+          "audioSlug": "me_lo_puedes_escribir",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Me lo puede escribir?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "me_lo_puede_escribir"
+        }
+      ]
+    },
+    {
+      "id": "survival_does_anyone_here_speak_english",
+      "conceptId": "es.survival_does_anyone_here_speak_english",
+      "sourceId": "en.s.5b80186ac04e6788",
+      "source": "Does anyone here speak English?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Alguien habla inglés aquí?",
+          "audioSlug": "alguien_habla_ingles_aqui"
+        }
+      ]
+    }
+  ]
+}

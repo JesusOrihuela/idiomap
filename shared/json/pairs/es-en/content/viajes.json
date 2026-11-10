@@ -1,23 +1,215 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "viajes",
-  "conceptIds": [
-    "en.viajes_i_love_trips",
-    "en.viajes_did_you_have_a_good_trip",
-    "en.viajes_i_want_to_travel_abroad",
-    "en.viajes_where_will_you_spend_your_vacation",
-    "en.viajes_i_need_to_pack_my_suitcase",
-    "en.viajes_where_is_the_tourist_office",
-    "en.viajes_enjoy_your_trip",
-    "en.viajes_i_m_going_to_rent_a_car",
-    "en.viajes_is_it_a_round_trip_ticket",
-    "en.viajes_i_m_planning_my_next_vacation",
-    "en.viajes_i_love_visiting_new_places",
-    "en.viajes_how_much_does_your_suitcase_weigh",
-    "en.viajes_keep_your_passport_in_a_safe_place",
-    "en.viajes_flight_leaves_at_noon",
-    "en.viajes_passport_ready",
-    "en.viajes_traveling_by_train"
+  "phrases": [
+    {
+      "conceptId": "en.viajes_i_love_trips",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.da1060eb55afcf48"
+    },
+    {
+      "conceptId": "en.viajes_did_you_have_a_good_trip",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d0c19c02b50de6d2"
+    },
+    {
+      "conceptId": "en.viajes_i_want_to_travel_abroad",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.50cb2a9cf9d5085d"
+    },
+    {
+      "conceptId": "en.viajes_where_will_you_spend_your_vacation",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.107ebf3ff5648153"
+    },
+    {
+      "conceptId": "en.viajes_i_need_to_pack_my_suitcase",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.aa1cfca667aa8ac7"
+    },
+    {
+      "conceptId": "en.viajes_where_is_the_tourist_office",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5a8de9b0c97d99ab"
+    },
+    {
+      "conceptId": "en.viajes_enjoy_your_trip",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d0b828b81f35eeb3"
+    },
+    {
+      "conceptId": "en.viajes_i_m_going_to_rent_a_car",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.57a9b66ba6ae6a2b"
+    },
+    {
+      "conceptId": "en.viajes_is_it_a_round_trip_ticket",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.04ea3a53657436aa"
+    },
+    {
+      "conceptId": "en.viajes_i_m_planning_my_next_vacation",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a3e41b87aa1b446c"
+    },
+    {
+      "conceptId": "en.viajes_i_love_visiting_new_places",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a2b4a93400db836e"
+    },
+    {
+      "conceptId": "en.viajes_how_much_does_your_suitcase_weigh",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.87e9c918b6b5befe"
+    },
+    {
+      "conceptId": "en.viajes_keep_your_passport_in_a_safe_place",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.959ecdaeb61959fe"
+    },
+    {
+      "conceptId": "en.viajes_flight_leaves_at_noon",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f28d9fae43d332bd"
+    },
+    {
+      "conceptId": "en.viajes_passport_ready",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f726ce9a4bc11579"
+    },
+    {
+      "conceptId": "en.viajes_traveling_by_train",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d491c83b38cfe219"
+    }
   ]
 }

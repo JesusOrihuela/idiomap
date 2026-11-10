@@ -1,44 +1,488 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "emociones",
-  "conceptIds": [
-    "en.emociones_im_sad",
-    "en.emociones_im_happy",
-    "en.emociones_im_excited",
-    "en.emociones_im_bored",
-    "en.emociones_im_tired",
-    "en.emociones_im_angry",
-    "en.emociones_im_surprised",
-    "en.emociones_im_confused",
-    "en.emociones_im_worried",
-    "en.emociones_im_nervous",
-    "en.emociones_im_scared",
-    "en.emociones_im_relaxed",
-    "en.emociones_im_stressed",
-    "en.emociones_why_are_you_sad",
-    "en.emociones_why_are_you_so_happy",
-    "en.emociones_why_are_you_excited",
-    "en.emociones_why_are_you_bored",
-    "en.emociones_why_are_you_tired",
-    "en.emociones_why_are_you_angry",
-    "en.emociones_why_are_you_surprised",
-    "en.emociones_why_are_you_confused",
-    "en.emociones_why_are_you_worried",
-    "en.emociones_why_are_you_nervous",
-    "en.emociones_why_are_you_scared",
-    "en.emociones_why_are_you_relaxed",
-    "en.emociones_why_are_you_stressed",
-    "en.emociones_i_feel_fine",
-    "en.emociones_are_you_okay",
-    "en.emociones_im_embarrassed",
-    "en.emociones_im_proud",
-    "en.emociones_im_disappointed",
-    "en.emociones_i_am_very_happy",
-    "en.emociones_i_feel_a_lot_of_pressure",
-    "en.emociones_i_have_no_fear",
-    "en.emociones_please_remain_calm",
-    "en.emociones_don_t_be_afraid_to_fail",
-    "en.emociones_i_smiled"
+  "phrases": [
+    {
+      "conceptId": "en.emociones_im_sad",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bce6f4730768a74b"
+    },
+    {
+      "conceptId": "en.emociones_im_happy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.41601ba4d5befc6e"
+    },
+    {
+      "conceptId": "en.emociones_im_excited",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2615d8757152ada6"
+    },
+    {
+      "conceptId": "en.emociones_im_bored",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9812fd5ac56cfa23"
+    },
+    {
+      "conceptId": "en.emociones_im_tired",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.67059975cb60bb45"
+    },
+    {
+      "conceptId": "en.emociones_im_angry",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.50bc8cbaa5ebec19"
+    },
+    {
+      "conceptId": "en.emociones_im_surprised",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.58428fd792ae8188"
+    },
+    {
+      "conceptId": "en.emociones_im_confused",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b95ab67ddcbb77ff"
+    },
+    {
+      "conceptId": "en.emociones_im_worried",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4bf1e948011434c6"
+    },
+    {
+      "conceptId": "en.emociones_im_nervous",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c39bff3bf901ea59"
+    },
+    {
+      "conceptId": "en.emociones_im_scared",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2339c8d50b29ddc6"
+    },
+    {
+      "conceptId": "en.emociones_im_relaxed",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4986b3b27466bd80"
+    },
+    {
+      "conceptId": "en.emociones_im_stressed",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.adaf1b4d58d9ca15"
+    },
+    {
+      "conceptId": "en.emociones_why_are_you_sad",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5956ff9db80051e4"
+    },
+    {
+      "conceptId": "en.emociones_why_are_you_so_happy",
+      "level": "A1",
+      "grammar": "'So' intensifies the adjective and signals mild surprise: 'Why are you SO happy?'",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4e38c2400d837bc1"
+    },
+    {
+      "conceptId": "en.emociones_why_are_you_excited",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ca32b7a5db3a69a5"
+    },
+    {
+      "conceptId": "en.emociones_why_are_you_bored",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4b7fac5e2fe6be5c"
+    },
+    {
+      "conceptId": "en.emociones_why_are_you_tired",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.94c4242041efa3ab"
+    },
+    {
+      "conceptId": "en.emociones_why_are_you_angry",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.117f5ff92a5ddd2e"
+    },
+    {
+      "conceptId": "en.emociones_why_are_you_surprised",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.16ae6626afc9386b"
+    },
+    {
+      "conceptId": "en.emociones_why_are_you_confused",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a9149baf62e47707"
+    },
+    {
+      "conceptId": "en.emociones_why_are_you_worried",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.87a9e55d16db3ab9"
+    },
+    {
+      "conceptId": "en.emociones_why_are_you_nervous",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f61672860ac9a9b6"
+    },
+    {
+      "conceptId": "en.emociones_why_are_you_scared",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bec009fdcb243797"
+    },
+    {
+      "conceptId": "en.emociones_why_are_you_relaxed",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8d3a697c4de6ad09"
+    },
+    {
+      "conceptId": "en.emociones_why_are_you_stressed",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ccdff11858490af1"
+    },
+    {
+      "conceptId": "en.emociones_i_feel_fine",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.16d080920d0a2981"
+    },
+    {
+      "conceptId": "en.emociones_are_you_okay",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c0a70f703540ef43"
+    },
+    {
+      "conceptId": "en.emociones_im_embarrassed",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b1cf698dc55d9d91"
+    },
+    {
+      "conceptId": "en.emociones_im_proud",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.eadfa11521b2a2e3"
+    },
+    {
+      "conceptId": "en.emociones_im_disappointed",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d33ecfbe54e3c5f8"
+    },
+    {
+      "conceptId": "en.emociones_i_am_very_happy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.54c89c4b0138285e"
+    },
+    {
+      "conceptId": "en.emociones_i_feel_a_lot_of_pressure",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f077882d7e7b6172"
+    },
+    {
+      "conceptId": "en.emociones_i_have_no_fear",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.be01b8d391e1e076"
+    },
+    {
+      "conceptId": "en.emociones_please_remain_calm",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b313ba8505871f52"
+    },
+    {
+      "conceptId": "en.emociones_don_t_be_afraid_to_fail",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.635d2d087980fe15"
+    },
+    {
+      "conceptId": "en.emociones_i_smiled",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.33c681f7750d7251"
+    }
   ]
 }

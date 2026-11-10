@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "7b",
+  "concepts": {
+    "es.deportes_no_me_interesa_el_futbol": {
+      "conceptId": "es.deportes_no_me_interesa_el_futbol",
+      "id": "deportes_no_me_interesa_el_futbol",
+      "target": [
+        {
+          "text": "No me interesa el fútbol.",
+          "audioSlug": "no_me_interesa_el_futbol"
+        }
+      ]
+    },
+    "es.emociones_eres_feliz": {
+      "conceptId": "es.emociones_eres_feliz",
+      "id": "emociones_eres_feliz",
+      "target": [
+        {
+          "text": "¿Eres feliz?",
+          "audioSlug": "eres_feliz"
+        }
+      ]
+    },
+    "es.health_i_have_a_fever": {
+      "conceptId": "es.health_i_have_a_fever",
+      "id": "health_i_have_a_fever",
+      "target": [
+        {
+          "text": "Tengo fiebre.",
+          "audioSlug": "tengo_fiebre"
+        }
+      ]
+    },
+    "es.museums_contemporary_art_museum": {
+      "conceptId": "es.museums_contemporary_art_museum",
+      "id": "museums_contemporary_art_museum",
+      "target": [
+        {
+          "text": "¿Has ido a la nueva exposición del museo de arte contemporáneo?",
+          "audioSlug": "has_ido_a_la_nueva_exposicion_del_museo_de_arte_contemporaneo"
+        }
+      ]
+    },
+    "es.sitios_vivo_en_una_comunidad_pequena": {
+      "conceptId": "es.sitios_vivo_en_una_comunidad_pequena",
+      "id": "sitios_vivo_en_una_comunidad_pequena",
+      "target": [
+        {
+          "text": "Vivo en una comunidad pequeña.",
+          "audioSlug": "vivo_en_una_comunidad_pequena"
+        }
+      ]
+    },
+    "es.technology_i_want_to_buy_a_camera": {
+      "conceptId": "es.technology_i_want_to_buy_a_camera",
+      "id": "technology_i_want_to_buy_a_camera",
+      "target": [
+        {
+          "text": "Quiero comprar una cámara, ¿cuál es la mejor opción?",
+          "audioSlug": "quiero_comprar_una_camara_cual_es_la_mejor_opcion"
+        }
+      ]
+    },
+    "es.transportation_baja_en_la_proxima_parada": {
+      "conceptId": "es.transportation_baja_en_la_proxima_parada",
+      "id": "transportation_baja_en_la_proxima_parada",
+      "target": [
+        {
+          "text": "Baja en la próxima parada.",
+          "audioSlug": "baja_en_la_proxima_parada"
+        }
+      ]
+    }
+  }
+}

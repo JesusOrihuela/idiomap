@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-de",
+  "topic": "family",
+  "phrases": [
+    {
+      "id": "family_i_have_a_brother",
+      "conceptId": "de.family_i_have_a_brother",
+      "sourceId": "en.s.fe7c359062402c20",
+      "source": "I have a brother.",
+      "level": "A1",
+      "grammar": "Im Akkusativ wird der maskuline Artikel zu 'einen' oder 'den'.",
+      "target": [
+        {
+          "text": "Ich habe einen Bruder.",
+          "audioSlug": "ich_habe_einen_bruder"
+        }
+      ]
+    }
+  ]
+}

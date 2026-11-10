@@ -354,6 +354,25 @@ for (const lang of (fs.existsSync(VOCAB_BASE) ? fs.readdirSync(VOCAB_BASE) : [])
       const glossFixesGender = _srcs.length > 0 &&
         _srcs.every(s => sourceFixesGender((w.translations && w.translations[s]) || '', s));
 
+      // DUPLICATES - two variants with the same text, or the same labels where
+      // the labels include an inflectional dimension, are redundant/ambiguous.
+      const seenText = new Map();
+      const seenLabels = new Map();
+      const inflKeys = new Set(inflDimsFor(lang));
+      for (const v of variants) {
+        const text = String(v.text || '').trim();
+        if (text) {
+          if (seenText.has(text)) findings.push({ ...base, type: 'dup', detail: `duplicate variant text "${text}"` });
+          seenText.set(text, true);
+        }
+        const labels = v.labels || {};
+        const key = JSON.stringify(labels);
+        if (Object.keys(labels).some((k) => inflKeys.has(k)) && seenLabels.has(key)) {
+          findings.push({ ...base, type: 'dup', detail: `duplicate inflectional labels ${key}` });
+        }
+        seenLabels.set(key, true);
+      }
+
       const applicableLex = lex.filter(s => !s.anchorTopics || s.anchorTopics.includes(deck));
       for (const set of applicableLex) {  // REGION completeness (same rule as phrases; topic-anchored)
         const present = set.members.filter(m => memberInText(m, allText));
@@ -384,10 +403,11 @@ for (const lang of (fs.existsSync(VOCAB_BASE) ? fs.readdirSync(VOCAB_BASE) : [])
   }
 }
 
-const order = { region: 0, gender: 1, combo: 2, concord: 3 };
+const order = { region: 0, gender: 1, combo: 2, concord: 3, dup: 4 };
 findings.sort((a, b) => (order[a.type] - order[b.type]) || (a.pair + a.topic).localeCompare(b.pair + b.topic));
-const counts = { region: 0, gender: 0, combo: 0, concord: 0 };
+const counts = { region: 0, gender: 0, combo: 0, concord: 0, dup: 0 };
 for (const x of findings) counts[x.type]++;
+if (counts.dup) console.log(`  duplicados: ${counts.dup}`);
 console.log(`Completitud de variantes — ${findings.length} hallazgo(s)  ` +
   `(región ${counts.region}, género ${counts.gender}, combinación ${counts.combo}, concordancia ${counts.concord}):`);
 for (const x of findings) {

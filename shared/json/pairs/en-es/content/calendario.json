@@ -1,23 +1,215 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "calendario",
-  "conceptIds": [
-    "es.calendario_que_hora_es",
-    "es.calendario_hoy_es_lunes",
-    "es.calendario_que_dia_es_hoy",
-    "es.calendario_que_hora_tienes",
-    "es.calendario_son_las_tres_en_punto",
-    "es.calendario_es_mediodia",
-    "es.calendario_es_medianoche",
-    "es.calendario_que_fecha_es_hoy",
-    "es.calendario_hoy_es_quince_de_mayo",
-    "es.calendario_mi_cumpleanos_es_en_marzo",
-    "es.calendario_la_reunion_es_el_martes",
-    "es.calendario_llego_en_cinco_minutos",
-    "es.calendario_son_las_ocho_y_media",
-    "es.calendario_el_ano_tiene_doce_meses",
-    "es.calendario_nos_vemos_la_proxima_semana",
-    "es.calendario_en_otono_caen_las_hojas"
+  "phrases": [
+    {
+      "conceptId": "es.calendario_que_hora_es",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5e623cdc095ae897"
+    },
+    {
+      "conceptId": "es.calendario_hoy_es_lunes",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.59fe8e11ce493357"
+    },
+    {
+      "conceptId": "es.calendario_que_dia_es_hoy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.168cc2c958b56638"
+    },
+    {
+      "conceptId": "es.calendario_que_hora_tienes",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7dca7f1a428914cd"
+    },
+    {
+      "conceptId": "es.calendario_son_las_tres_en_punto",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.556ba6ef6e53e04b"
+    },
+    {
+      "conceptId": "es.calendario_es_mediodia",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.adcc8bf080d7d166"
+    },
+    {
+      "conceptId": "es.calendario_es_medianoche",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2820cff47d8980db"
+    },
+    {
+      "conceptId": "es.calendario_que_fecha_es_hoy",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.dbc7a2e442683daa"
+    },
+    {
+      "conceptId": "es.calendario_hoy_es_quince_de_mayo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8317c9a389db765e"
+    },
+    {
+      "conceptId": "es.calendario_mi_cumpleanos_es_en_marzo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cadee0d81bd7ba1e"
+    },
+    {
+      "conceptId": "es.calendario_la_reunion_es_el_martes",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b6f4064feaf68250"
+    },
+    {
+      "conceptId": "es.calendario_llego_en_cinco_minutos",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.65db0e736387a764"
+    },
+    {
+      "conceptId": "es.calendario_son_las_ocho_y_media",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2974f70517736c76"
+    },
+    {
+      "conceptId": "es.calendario_el_ano_tiene_doce_meses",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cc57019a3936edd6"
+    },
+    {
+      "conceptId": "es.calendario_nos_vemos_la_proxima_semana",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.940482a973296dd7"
+    },
+    {
+      "conceptId": "es.calendario_en_otono_caen_las_hojas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d2a145ceb88a6b1a"
+    }
   ]
 }

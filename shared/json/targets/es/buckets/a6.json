@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "a6",
+  "concepts": {
+    "es.conversacion_de_acuerdo": {
+      "conceptId": "es.conversacion_de_acuerdo",
+      "id": "conversacion_de_acuerdo",
+      "target": [
+        {
+          "text": "De acuerdo.",
+          "audioSlug": "de_acuerdo"
+        }
+      ]
+    },
+    "es.descripciones_es_un_amigo_verdadero": {
+      "conceptId": "es.descripciones_es_un_amigo_verdadero",
+      "id": "descripciones_es_un_amigo_verdadero",
+      "target": [
+        {
+          "text": "Es un amigo verdadero.",
+          "audioSlug": "es_un_amigo_verdadero"
+        }
+      ]
+    },
+    "es.kitchen_tomate_una_taza_de_cafe_caliente": {
+      "conceptId": "es.kitchen_tomate_una_taza_de_cafe_caliente",
+      "id": "kitchen_tomate_una_taza_de_cafe_caliente",
+      "target": [
+        {
+          "text": "Tómate una taza de café caliente.",
+          "audioSlug": "tomate_una_taza_de_cafe_caliente"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_quiero_proponer_una_idea_distinta": {
+      "conceptId": "es.pensamientos_opiniones_quiero_proponer_una_idea_distinta",
+      "id": "pensamientos_opiniones_quiero_proponer_una_idea_distinta",
+      "target": [
+        {
+          "text": "Quiero proponer una idea distinta.",
+          "audioSlug": "quiero_proponer_una_idea_distinta"
+        }
+      ]
+    },
+    "es.restaurant_ingredients_sourced_local_organic": {
+      "conceptId": "es.restaurant_ingredients_sourced_local_organic",
+      "id": "restaurant_ingredients_sourced_local_organic",
+      "target": [
+        {
+          "text": "¿Puede indicarme la procedencia de estos ingredientes?",
+          "audioSlug": "puede_indicarme_la_procedencia_de_estos_ingredientes"
+        }
+      ]
+    },
+    "es.technology_check_your_spam_the_email_might": {
+      "conceptId": "es.technology_check_your_spam_the_email_might",
+      "id": "technology_check_your_spam_the_email_might",
+      "target": [
+        {
+          "text": "Revisa tu spam, tal vez llegó ahí el correo.",
+          "audioSlug": "revisa_tu_spam_tal_vez_llego_ahi_el_correo"
+        }
+      ]
+    }
+  }
+}

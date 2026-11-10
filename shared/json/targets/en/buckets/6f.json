@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "6f",
+  "concepts": {
+    "en.music_opening_act_surprised": {
+      "conceptId": "en.music_opening_act_surprised",
+      "id": "music_opening_act_surprised",
+      "target": [
+        {
+          "text": "The opening act was surprisingly good. I hadn't heard of them before.",
+          "audioSlug": "the_opening_act_was_surprisingly_good_i_hadn_t_heard_of_them_before"
+        }
+      ]
+    },
+    "en.politica_the_president_gave_a_speech": {
+      "conceptId": "en.politica_the_president_gave_a_speech",
+      "id": "politica_the_president_gave_a_speech",
+      "target": [
+        {
+          "text": "The president gave a speech.",
+          "audioSlug": "the_president_gave_a_speech"
+        }
+      ]
+    },
+    "en.restaurant_could_i_have_the_bill_please": {
+      "conceptId": "en.restaurant_could_i_have_the_bill_please",
+      "id": "restaurant_could_i_have_the_bill_please",
+      "target": [
+        {
+          "text": "Could I have the bill, please?",
+          "audioSlug": "could_i_have_the_bill_please",
+          "labels": {
+            "register": "formal",
+            "region": "UK"
+          }
+        },
+        {
+          "text": "Can I have the bill, please?",
+          "audioSlug": "can_i_have_the_bill_please",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Could I have the check, please?",
+          "audioSlug": "could_i_have_the_check_please",
+          "labels": {
+            "region": "US"
+          }
+        }
+      ]
+    },
+    "en.transportation_i_drive_to_work": {
+      "conceptId": "en.transportation_i_drive_to_work",
+      "id": "transportation_i_drive_to_work",
+      "target": [
+        {
+          "text": "I drive to work.",
+          "audioSlug": "i_drive_to_work"
+        }
+      ]
+    }
+  }
+}

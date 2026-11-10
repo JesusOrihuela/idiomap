@@ -423,14 +423,12 @@ function _buildTrailNodes(container, queue, position) {
       (isDone ? ' path-node--done' : isActive ? ' path-node--active' : ' path-node--pending');
     node.setAttribute('role', 'listitem');
 
-    // Pin de tema solo cuando cambia: repetirlo en cada nodo no agrupa.
-    if (i === 0 || item.topic !== visible[i - 1].topic) {
-      const pin = document.createElement('div');
-      pin.className = 'path-node__topic';
-      pin.textContent = _topicLabel(item.topic);
-      pin.title = pin.textContent;
-      node.appendChild(pin);
-    }
+    // Cada paso lleva su tema arriba, aunque repita el del anterior.
+    const pin = document.createElement('div');
+    pin.className = 'path-node__topic';
+    pin.textContent = _topicLabel(item.topic);
+    pin.title = pin.textContent;
+    node.appendChild(pin);
 
     // Bubble: link when active, plain div otherwise.
     const bubble = isActive ? document.createElement('a') : document.createElement('div');
@@ -453,7 +451,7 @@ function _buildTrailNodes(container, queue, position) {
     label.textContent = _actLabel(item.activityId);
     node.appendChild(label);
 
-    // Cada paso lleva su estado; "Nuevo" solo en el paso activo.
+    // Cada paso lleva su estado abajo: Hecho, Repasar o Nuevo.
     const badge = document.createElement('span');
     if (isDone) {
       badge.className = 'path-node__done-badge';
@@ -461,11 +459,11 @@ function _buildTrailNodes(container, queue, position) {
     } else if (!item.isNew) {
       badge.className = 'path-node__review-badge';
       badge.textContent = AppLang.t('badge_review');
-    } else if (isActive) {
+    } else {
       badge.className = 'path-node__new-badge';
       badge.textContent = AppLang.t('badge_new');
     }
-    if (badge.className) node.appendChild(badge);
+    node.appendChild(badge);
 
     trail.appendChild(node);
   });

@@ -27,6 +27,7 @@ tools/sources/de-glosses/
 tools/apply-de-glosses.mjs
 !tools/sources/derived/core-inventory-*.json
 !tools/sources/derived/*-provenance.json
+!tools/sources/derived/*-attestation.json
 !tools/sources/derived/ngsl-*.json
 !tools/sources/derived/es-core.json
 !tools/sources/derived/image-credits.json
@@ -82,6 +83,7 @@ tools/audio-asr-audit.mjs
 tools/audio-audit-waivers.json
 tools/audio-embeddings-cache.json
 tools/gloss-audit.mjs
+tools/merge-gloss.mjs
 tools/gloss-embeddings-cache.json
 
 # Audio text-hash manifest (staleness safeguard; local dev tooling, like .manifest.json)
@@ -97,4 +99,15 @@ tools/grammar-practice-patch.mjs
 # para los tests se queda fuera del indice de git, que es lo que ya se hace con
 # AGENTS.md, CLAUDE.md y lefthook.yml. Ver docs/UI-PLAN.md seccion 14.
 # Los archivos siguen en disco; solo dejan de publicarse.
-docs/
+docs/*
+!docs/README.md
+!docs/ARCHITECTURE.md
+!docs/ADD-A-LANGUAGE.md
+!docs/GRAMMAR.md
+!docs/LANGUAGE-PLAN.md
+!docs/DE-ES-PLAN.md
+!docs/LANGUAGE-PROFILES.md
+!docs/CONTENT-QUALITY.md
+!docs/AUDIO-QUALITY.md
+!docs/UI-SYSTEM.md
+!docs/TOKENS.md

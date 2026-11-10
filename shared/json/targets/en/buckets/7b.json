@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "7b",
+  "concepts": {
+    "en.conversacion_i_want_to_warn_you": {
+      "conceptId": "en.conversacion_i_want_to_warn_you",
+      "id": "conversacion_i_want_to_warn_you",
+      "target": [
+        {
+          "text": "I want to warn you.",
+          "audioSlug": "i_want_to_warn_you"
+        }
+      ]
+    },
+    "en.cotidianidad_i_have_to_run_some_errands": {
+      "conceptId": "en.cotidianidad_i_have_to_run_some_errands",
+      "id": "cotidianidad_i_have_to_run_some_errands",
+      "target": [
+        {
+          "text": "I have to run some errands.",
+          "audioSlug": "i_have_to_run_some_errands"
+        }
+      ]
+    },
+    "en.cuerpo_her_hair_is_very_long": {
+      "conceptId": "en.cuerpo_her_hair_is_very_long",
+      "id": "cuerpo_her_hair_is_very_long",
+      "target": [
+        {
+          "text": "Her hair is very long.",
+          "audioSlug": "her_hair_is_very_long"
+        }
+      ]
+    },
+    "en.cuerpo_move_your_fingers": {
+      "conceptId": "en.cuerpo_move_your_fingers",
+      "id": "cuerpo_move_your_fingers",
+      "target": [
+        {
+          "text": "Move your fingers.",
+          "audioSlug": "move_your_fingers"
+        }
+      ]
+    },
+    "en.emociones_im_sad": {
+      "conceptId": "en.emociones_im_sad",
+      "id": "emociones_im_sad",
+      "target": [
+        {
+          "text": "I'm sad.",
+          "audioSlug": "i_m_sad"
+        }
+      ]
+    },
+    "en.movies_whats_showing": {
+      "conceptId": "en.movies_whats_showing",
+      "id": "movies_whats_showing",
+      "target": [
+        {
+          "text": "What movies are showing this week?",
+          "audioSlug": "what_movies_are_showing_this_week"
+        }
+      ]
+    },
+    "en.weather_the_temperature_drops_at_night": {
+      "conceptId": "en.weather_the_temperature_drops_at_night",
+      "id": "weather_the_temperature_drops_at_night",
+      "target": [
+        {
+          "text": "The temperature drops at night.",
+          "audioSlug": "the_temperature_drops_at_night"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "65",
+  "concepts": {
+    "es.accommodation_security_deposit_return": {
+      "conceptId": "es.accommodation_security_deposit_return",
+      "id": "accommodation_security_deposit_return",
+      "target": [
+        {
+          "text": "¿Cuándo se devolverá el depósito de seguridad y qué deducciones son permitidas según el contrato?",
+          "audioSlug": "cuando_se_devolvera_el_deposito_de_seguridad_y_que_deducciones_son_permitidas_segun_el_contrato"
+        }
+      ]
+    },
+    "es.conversacion_alguien_puede_contestar": {
+      "conceptId": "es.conversacion_alguien_puede_contestar",
+      "id": "conversacion_alguien_puede_contestar",
+      "target": [
+        {
+          "text": "¿Alguien puede contestar?",
+          "audioSlug": "alguien_puede_contestar"
+        }
+      ]
+    },
+    "es.conversacion_vale_la_pena_intentarlo": {
+      "conceptId": "es.conversacion_vale_la_pena_intentarlo",
+      "id": "conversacion_vale_la_pena_intentarlo",
+      "target": [
+        {
+          "text": "Vale la pena intentarlo.",
+          "audioSlug": "vale_la_pena_intentarlo"
+        }
+      ]
+    },
+    "es.cuerpo_el_corazon_late_rapido": {
+      "conceptId": "es.cuerpo_el_corazon_late_rapido",
+      "id": "cuerpo_el_corazon_late_rapido",
+      "target": [
+        {
+          "text": "El corazón late rápido.",
+          "audioSlug": "el_corazon_late_rapido"
+        }
+      ]
+    },
+    "es.estudios_escribo_en_mi_cuaderno": {
+      "conceptId": "es.estudios_escribo_en_mi_cuaderno",
+      "id": "estudios_escribo_en_mi_cuaderno",
+      "target": [
+        {
+          "text": "Escribo en mi cuaderno.",
+          "audioSlug": "escribo_en_mi_cuaderno"
+        }
+      ]
+    },
+    "es.health_done_sangre_en_el_hospital": {
+      "conceptId": "es.health_done_sangre_en_el_hospital",
+      "id": "health_done_sangre_en_el_hospital",
+      "target": [
+        {
+          "text": "Doné sangre en el hospital.",
+          "audioSlug": "done_sangre_en_el_hospital"
+        }
+      ]
+    },
+    "es.movies_good_actor": {
+      "conceptId": "es.movies_good_actor",
+      "id": "movies_good_actor",
+      "target": [
+        {
+          "text": "Este actor es bueno y me gustan sus películas.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "este_actor_es_bueno_y_me_gustan_sus_peliculas"
+        },
+        {
+          "text": "Esta actriz es buena y me gustan sus películas.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "esta_actriz_es_buena_y_me_gustan_sus_peliculas"
+        }
+      ]
+    },
+    "es.oficina_como_fue_la_entrevista": {
+      "conceptId": "es.oficina_como_fue_la_entrevista",
+      "id": "oficina_como_fue_la_entrevista",
+      "target": [
+        {
+          "text": "¿Cómo fue la entrevista?",
+          "audioSlug": "como_fue_la_entrevista"
+        }
+      ]
+    },
+    "es.personal_info_im_years_old": {
+      "conceptId": "es.personal_info_im_years_old",
+      "id": "personal_info_im_years_old",
+      "target": [
+        {
+          "text": "Tengo veinticinco años.",
+          "audioSlug": "tengo_veinticinco_anos"
+        }
+      ]
+    },
+    "es.personal_info_tengo_una_hija_adolescente": {
+      "conceptId": "es.personal_info_tengo_una_hija_adolescente",
+      "id": "personal_info_tengo_una_hija_adolescente",
+      "target": [
+        {
+          "text": "Tengo una hija adolescente.",
+          "audioSlug": "tengo_una_hija_adolescente"
+        }
+      ]
+    },
+    "es.restaurant_is_there_a_charge_for_substitutions": {
+      "conceptId": "es.restaurant_is_there_a_charge_for_substitutions",
+      "id": "restaurant_is_there_a_charge_for_substitutions",
+      "target": [
+        {
+          "text": "¿Hay que pagar por las sustituciones?",
+          "audioSlug": "hay_que_pagar_por_las_sustituciones"
+        }
+      ]
+    },
+    "es.survival_hay_alguien_que_hable_aleman": {
+      "conceptId": "es.survival_hay_alguien_que_hable_aleman",
+      "id": "survival_hay_alguien_que_hable_aleman",
+      "target": [
+        {
+          "text": "¿Hay alguien aquí que hable alemán?",
+          "audioSlug": "hay_alguien_aqui_que_hable_aleman"
+        }
+      ]
+    },
+    "es.technology_my_storage_is_almost_full_so": {
+      "conceptId": "es.technology_my_storage_is_almost_full_so",
+      "id": "technology_my_storage_is_almost_full_so",
+      "target": [
+        {
+          "text": "Mi almacenamiento está casi lleno y necesito borrar archivos.",
+          "audioSlug": "mi_almacenamiento_esta_casi_lleno_y_necesito_borrar_archivos"
+        }
+      ]
+    }
+  }
+}

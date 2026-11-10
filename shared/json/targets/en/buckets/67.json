@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "67",
+  "concepts": {
+    "en.conversacion_please_be_patient": {
+      "conceptId": "en.conversacion_please_be_patient",
+      "id": "conversacion_please_be_patient",
+      "target": [
+        {
+          "text": "Please be patient.",
+          "audioSlug": "please_be_patient"
+        }
+      ]
+    },
+    "en.health_i_need_a_doctor": {
+      "conceptId": "en.health_i_need_a_doctor",
+      "id": "health_i_need_a_doctor",
+      "target": [
+        {
+          "text": "I need to see a doctor.",
+          "audioSlug": "i_need_to_see_a_doctor"
+        }
+      ]
+    },
+    "en.hogar_can_you_open_the_window": {
+      "conceptId": "en.hogar_can_you_open_the_window",
+      "id": "hogar_can_you_open_the_window",
+      "target": [
+        {
+          "text": "Can you open the window?",
+          "audioSlug": "can_you_open_the_window"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_i_heard_various_opinions": {
+      "conceptId": "en.pensamientos_opiniones_i_heard_various_opinions",
+      "id": "pensamientos_opiniones_i_heard_various_opinions",
+      "target": [
+        {
+          "text": "I heard various opinions.",
+          "audioSlug": "i_heard_various_opinions"
+        }
+      ]
+    },
+    "en.profesiones_firefighter_saved_cat": {
+      "conceptId": "en.profesiones_firefighter_saved_cat",
+      "id": "profesiones_firefighter_saved_cat",
+      "target": [
+        {
+          "text": "A firefighter saved the cat.",
+          "audioSlug": "a_firefighter_saved_the_cat"
+        }
+      ]
+    },
+    "en.survival_speak_slowly": {
+      "conceptId": "en.survival_speak_slowly",
+      "id": "survival_speak_slowly",
+      "target": [
+        {
+          "text": "Can you speak more slowly, please?",
+          "audioSlug": "can_you_speak_more_slowly_please"
+        }
+      ]
+    },
+    "en.tiempo_libre_what_do_you_do_for_fun": {
+      "conceptId": "en.tiempo_libre_what_do_you_do_for_fun",
+      "id": "tiempo_libre_what_do_you_do_for_fun",
+      "target": [
+        {
+          "text": "What do you do for fun?",
+          "audioSlug": "what_do_you_do_for_fun"
+        }
+      ]
+    }
+  }
+}

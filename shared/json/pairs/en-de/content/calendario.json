@@ -1,8 +1,20 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-de",
   "topic": "calendario",
-  "conceptIds": [
-    "de.calendario_i_arrive_in_january"
+  "phrases": [
+    {
+      "conceptId": "de.calendario_i_arrive_in_january",
+      "level": "A1",
+      "grammar": "Trennbare Verben stellen die Vorsilbe ans Satzende, hier 'an'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c06c6e1ad2c95bf4"
+    }
   ]
 }

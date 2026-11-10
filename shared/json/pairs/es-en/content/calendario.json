@@ -1,22 +1,202 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "calendario",
-  "conceptIds": [
-    "en.calendario_what_time_is_it",
-    "en.calendario_today_is_monday",
-    "en.calendario_what_day_is_it_today",
-    "en.calendario_what_time_do_you_have",
-    "en.calendario_it_s_three_o_clock",
-    "en.calendario_it_s_noon",
-    "en.calendario_it_s_midnight",
-    "en.calendario_what_s_the_date_today",
-    "en.calendario_today_is_may_fifteenth",
-    "en.calendario_my_birthday_is_in_march",
-    "en.calendario_the_meeting_is_on_tuesday",
-    "en.calendario_i_ll_be_there_in_five_minutes",
-    "en.calendario_it_s_half_past_eight",
-    "en.calendario_a_year_has_twelve_months",
-    "en.calendario_see_you_next_week"
+  "phrases": [
+    {
+      "conceptId": "en.calendario_what_time_is_it",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6d85eeda3f14fb72"
+    },
+    {
+      "conceptId": "en.calendario_today_is_monday",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3c2a9e8ca0ae299f"
+    },
+    {
+      "conceptId": "en.calendario_what_day_is_it_today",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8f2f2a1a8b284bcf"
+    },
+    {
+      "conceptId": "en.calendario_what_time_do_you_have",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9c9504d928e96afb"
+    },
+    {
+      "conceptId": "en.calendario_it_s_three_o_clock",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c392202dac84af16"
+    },
+    {
+      "conceptId": "en.calendario_it_s_noon",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ed9adb6f6cf3bf96"
+    },
+    {
+      "conceptId": "en.calendario_it_s_midnight",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.aa6056ca85b91391"
+    },
+    {
+      "conceptId": "en.calendario_what_s_the_date_today",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.75a361887991c247"
+    },
+    {
+      "conceptId": "en.calendario_today_is_may_fifteenth",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ff9d4d0633b4dacc"
+    },
+    {
+      "conceptId": "en.calendario_my_birthday_is_in_march",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.02d19cf3b860986e"
+    },
+    {
+      "conceptId": "en.calendario_the_meeting_is_on_tuesday",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.23949e0ed736947f"
+    },
+    {
+      "conceptId": "en.calendario_i_ll_be_there_in_five_minutes",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.eec87751f49b8f41"
+    },
+    {
+      "conceptId": "en.calendario_it_s_half_past_eight",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f0c67c5817464994"
+    },
+    {
+      "conceptId": "en.calendario_a_year_has_twelve_months",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f502b66c0a5e5f6a"
+    },
+    {
+      "conceptId": "en.calendario_see_you_next_week",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.11ee9a978bee112e"
+    }
   ]
 }

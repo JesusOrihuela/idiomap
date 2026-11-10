@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "01",
+  "concepts": {
+    "en.accommodation_i_have_a_reservation": {
+      "conceptId": "en.accommodation_i_have_a_reservation",
+      "id": "accommodation_i_have_a_reservation",
+      "target": [
+        {
+          "text": "I have a reservation under Smith.",
+          "audioSlug": "i_have_a_reservation_under_smith"
+        }
+      ]
+    },
+    "en.airport_check_luggage": {
+      "conceptId": "en.airport_check_luggage",
+      "id": "airport_check_luggage",
+      "target": [
+        {
+          "text": "I need to check my luggage.",
+          "audioSlug": "i_need_to_check_my_luggage"
+        }
+      ]
+    },
+    "en.airport_denied_boarding_compensation": {
+      "conceptId": "en.airport_denied_boarding_compensation",
+      "id": "airport_denied_boarding_compensation",
+      "target": [
+        {
+          "text": "I was denied boarding due to overbooking. What compensation am I entitled to?",
+          "audioSlug": "i_was_denied_boarding_due_to_overbooking_what_compensation_am_i_entitled_to"
+        }
+      ]
+    },
+    "en.health_breathe_deeply": {
+      "conceptId": "en.health_breathe_deeply",
+      "id": "health_breathe_deeply",
+      "target": [
+        {
+          "text": "Breathe deeply.",
+          "audioSlug": "breathe_deeply"
+        }
+      ]
+    },
+    "en.kitchen_the_mixer_is_in_the_drawer": {
+      "conceptId": "en.kitchen_the_mixer_is_in_the_drawer",
+      "id": "kitchen_the_mixer_is_in_the_drawer",
+      "target": [
+        {
+          "text": "The mixer is in the drawer.",
+          "audioSlug": "the_mixer_is_in_the_drawer"
+        }
+      ]
+    },
+    "en.music_favorite_song_always": {
+      "conceptId": "en.music_favorite_song_always",
+      "id": "music_favorite_song_always",
+      "target": [
+        {
+          "text": "I love that song and listen to it often.",
+          "audioSlug": "i_love_that_song_and_listen_to_it_often"
+        }
+      ]
+    },
+    "en.restaurant_is_there_a_fee_for_using": {
+      "conceptId": "en.restaurant_is_there_a_fee_for_using",
+      "id": "restaurant_is_there_a_fee_for_using",
+      "target": [
+        {
+          "text": "Is there a fee for using a credit card?",
+          "audioSlug": "is_there_a_fee_for_using_a_credit_card"
+        }
+      ]
+    },
+    "en.sitios_library_next_to_park": {
+      "conceptId": "en.sitios_library_next_to_park",
+      "id": "sitios_library_next_to_park",
+      "target": [
+        {
+          "text": "The library is next to the park.",
+          "audioSlug": "the_library_is_next_to_the_park"
+        }
+      ]
+    }
+  }
+}

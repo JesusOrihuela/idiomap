@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "0d",
+  "concepts": {
+    "en.deportes_i_practice_sports": {
+      "conceptId": "en.deportes_i_practice_sports",
+      "id": "deportes_i_practice_sports",
+      "target": [
+        {
+          "text": "I practice sports.",
+          "audioSlug": "i_practice_sports"
+        }
+      ]
+    },
+    "en.emergencias_there_s_a_fire": {
+      "conceptId": "en.emergencias_there_s_a_fire",
+      "id": "emergencias_there_s_a_fire",
+      "target": [
+        {
+          "text": "There's a fire!",
+          "audioSlug": "there_s_a_fire"
+        }
+      ]
+    },
+    "en.gym_how_many_sets_reps": {
+      "conceptId": "en.gym_how_many_sets_reps",
+      "id": "gym_how_many_sets_reps",
+      "target": [
+        {
+          "text": "How many sets and reps should I do?",
+          "audioSlug": "how_many_sets_and_reps_should_i_do"
+        }
+      ]
+    },
+    "en.kitchen_fold_egg_whites_not_stir": {
+      "conceptId": "en.kitchen_fold_egg_whites_not_stir",
+      "id": "kitchen_fold_egg_whites_not_stir",
+      "target": [
+        {
+          "text": "Fold the egg whites into the batter rather than stirring them in.",
+          "audioSlug": "fold_the_egg_whites_into_the_batter_rather_than_stirring_them_in"
+        }
+      ]
+    },
+    "en.theater_actors_incredible_performance": {
+      "conceptId": "en.theater_actors_incredible_performance",
+      "id": "theater_actors_incredible_performance",
+      "target": [
+        {
+          "text": "The actors were incredible in a very strong performance.",
+          "audioSlug": "the_actors_were_incredible_in_a_very_strong_performance"
+        }
+      ]
+    }
+  }
+}

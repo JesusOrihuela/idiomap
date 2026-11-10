@@ -17,7 +17,13 @@
       "gloss_example": {
         "es": "Asegúrate de actualizar el software regularmente por seguridad."
       },
-      "conceptId": "en.software"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "application",
@@ -36,7 +42,13 @@
       "gloss_example": {
         "es": "Esta aplicación te ayuda a editar fotos."
       },
-      "conceptId": "en.application"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "file",
@@ -55,7 +67,13 @@
       "gloss_example": {
         "es": "No puedo abrir este archivo."
       },
-      "conceptId": "en.file"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "version",
@@ -74,7 +92,13 @@
       "gloss_example": {
         "es": "La aplicación lanzó una versión más rápida."
       },
-      "conceptId": "en.version"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "update",
@@ -93,7 +117,13 @@
       "gloss_example": {
         "es": "La última actualización de seguridad corrigió varios errores críticos."
       },
-      "conceptId": "en.update"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "storage",
@@ -112,7 +142,13 @@
       "gloss_example": {
         "es": "Necesito más espacio de almacenamiento para todas mis fotos y videos."
       },
-      "conceptId": "en.storage"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "compatible",
@@ -131,7 +167,13 @@
       "gloss_example": {
         "es": "Verifica si el software es compatible con tu sistema operativo."
       },
-      "conceptId": "en.compatible"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "function",
@@ -150,7 +192,13 @@
       "gloss_example": {
         "es": "Cada botón tiene una función diferente."
       },
-      "conceptId": "en.function"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "notification",
@@ -169,7 +217,13 @@
       "gloss_example": {
         "es": "Desactivé todas las notificaciones para concentrarme en mi trabajo."
       },
-      "conceptId": "en.notification"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cache",
@@ -188,7 +242,13 @@
       "gloss_example": {
         "es": "Limpiar la caché del navegador puede solucionar muchos problemas de carga."
       },
-      "conceptId": "en.cache"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "subscription",
@@ -207,7 +267,13 @@
       "gloss_example": {
         "es": "El software cambió de compra única a una suscripción mensual."
       },
-      "conceptId": "en.subscription"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ecosystem",
@@ -226,7 +292,13 @@
       "gloss_example": {
         "es": "Pasarse a Android significa abandonar el ecosistema de Apple."
       },
-      "conceptId": "en.ecosystem"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "algorithm",
@@ -245,7 +317,13 @@
       "gloss_example": {
         "es": "Las plataformas de redes sociales usan algoritmos para decidir qué contenido ves."
       },
-      "conceptId": "en.algorithm"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "obsolescence",
@@ -264,7 +342,13 @@
       "gloss_example": {
         "es": "La obsolescencia programada significa que los nuevos modelos de teléfono están diseñados para hacer que los anteriores parezcan lentos."
       },
-      "conceptId": "en.obsolescence"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "legacy",
@@ -283,7 +367,13 @@
       "gloss_example": {
         "es": "Muchos bancos todavía dependen de sistemas heredados que son demasiado costosos de reemplazar."
       },
-      "conceptId": "en.legacy"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "proprietary",
@@ -302,7 +392,13 @@
       "gloss_example": {
         "es": "El dispositivo solo funciona con el cable de carga propietario del fabricante."
       },
-      "conceptId": "en.proprietary"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

@@ -1,65 +1,761 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "economia",
-  "conceptIds": [
-    "es.economia_tenemos_una_empresa_pequena",
-    "es.economia_la_economia_crece_lentamente",
-    "es.economia_pago_mis_impuestos_cada_ano",
-    "es.economia_el_alquiler_subio_este_ano",
-    "es.economia_la_empresa_aumento_sus_ganancias",
-    "es.economia_necesito_pagar_las_facturas",
-    "es.economia_los_precios_suben_por_la_inflacion",
-    "es.economia_ahorro_dinero_cada_mes",
-    "es.economia_me_gustaria_invertir_en_mi_negocio",
-    "es.economia_el_banco_me_ofrecio_un_prestamo",
-    "es.economia_recibo_mi_sueldo_cada_mes",
-    "es.economia_utilizo_una_aplicacion_para_mis_gastos",
-    "es.economia_el_comercio_en_esta_zona_es_activo",
-    "es.economia_tenemos_una_buena_relacion_con_el_banco",
-    "es.economia_firme_un_papel_importante",
-    "es.economia_la_empresa_quiere_reducir_costos",
-    "es.economia_existen_muchas_tiendas_en_el_mercado",
-    "es.economia_pago_mis_deudas_poco_a_poco",
-    "es.economia_saco_dinero_del_cajero",
-    "es.economia_la_fabrica_produce_muchos_autos",
-    "es.economia_el_cliente_siempre_tiene_la_razon",
-    "es.economia_gano_lo_suficiente_para_vivir",
-    "es.economia_hay_que_controlar_los_gastos",
-    "es.economia_el_valor_de_la_casa_aumento",
-    "es.economia_la_empresa_contrato_a_diez_personas",
-    "es.economia_el_sueldo_minimo_subio_este_ano",
-    "es.economia_trabaja_en_una_agencia_de_viajes",
-    "es.economia_la_venta_de_coches_subio_este_ano",
-    "es.economia_firme_un_contrato_de_trabajo",
-    "es.economia_es_una_buena_oportunidad_de_negocio",
-    "es.economia_mi_socio_maneja_las_finanzas",
-    "es.economia_la_crisis_afecto_a_todo_el_sector",
-    "es.economia_consiguio_un_buen_puesto_de_trabajo",
-    "es.economia_quiero_obtener_mejores_resultados",
-    "es.economia_la_empresa_cambio_de_direccion",
-    "es.economia_nuestro_objetivo_principal_es_claro",
-    "es.economia_el_desarrollo_del_negocio_fue_lento",
-    "es.economia_voy_a_hacer_la_compra_del_mes",
-    "es.economia_hay_que_consumir_con_responsabilidad",
-    "es.economia_este_material_es_muy_resistente",
-    "es.economia_gano_el_premio_a_la_mejor_empresa",
-    "es.economia_trabajo_en_una_compania_muy_grande",
-    "es.economia_el_consumo_de_energia_bajo_este_mes",
-    "es.economia_todos_buscan_estabilidad_laboral",
-    "es.economia_hubo_un_movimiento_fuerte_en_el_mercado",
-    "es.economia_el_vendedor_de_la_tienda_es_amable",
-    "es.economia_el_empleado_nuevo_aprende_rapido",
-    "es.economia_la_propietaria_vive_arriba",
-    "es.economia_elige_una_profesion_con_futuro",
-    "es.economia_pago_la_cuenta_con_un_cheque",
-    "es.economia_prefiero_pagar_siempre_en_efectivo",
-    "es.economia_esta_en_el_paro_desde_enero",
-    "es.economia_la_publicidad_influye_en_la_compra",
-    "es.economia_el_comprador_pide_un_descuento",
-    "es.economia_manana_tengo_una_entrevista_de_trabajo",
-    "es.economia_el_precio_es_por_unidad",
-    "es.economia_hay_que_dedicarse_con_pasion_al_trabajo",
-    "es.economia_pega_un_sello_en_el_sobre"
+  "phrases": [
+    {
+      "conceptId": "es.economia_tenemos_una_empresa_pequena",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.808a45773cc02ceb"
+    },
+    {
+      "conceptId": "es.economia_la_economia_crece_lentamente",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9ff4f31b6ebab48d"
+    },
+    {
+      "conceptId": "es.economia_pago_mis_impuestos_cada_ano",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d4330056e8cbf71f"
+    },
+    {
+      "conceptId": "es.economia_el_alquiler_subio_este_ano",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8424b4b9f50fe923"
+    },
+    {
+      "conceptId": "es.economia_la_empresa_aumento_sus_ganancias",
+      "level": "B2",
+      "grammar": "aumentó es pretérito indefinido, una acción terminada.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.50b8ae22389041d3"
+    },
+    {
+      "conceptId": "es.economia_necesito_pagar_las_facturas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c8b05290c7e7471d"
+    },
+    {
+      "conceptId": "es.economia_los_precios_suben_por_la_inflacion",
+      "level": "B2",
+      "grammar": "por indica la causa, suben por la inflación.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c3a4c231231b9823"
+    },
+    {
+      "conceptId": "es.economia_ahorro_dinero_cada_mes",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3e7989b121632efe"
+    },
+    {
+      "conceptId": "es.economia_me_gustaria_invertir_en_mi_negocio",
+      "level": "B2",
+      "grammar": "me gustaría es condicional, para un deseo cortés.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.705713864c88df23"
+    },
+    {
+      "conceptId": "es.economia_el_banco_me_ofrecio_un_prestamo",
+      "level": "B2",
+      "grammar": "me ofreció, el me es objeto indirecto, a mí.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1d081587a966cf9d"
+    },
+    {
+      "conceptId": "es.economia_recibo_mi_sueldo_cada_mes",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e16ca8fba90c61c3"
+    },
+    {
+      "conceptId": "es.economia_utilizo_una_aplicacion_para_mis_gastos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4310a1145fedcc84"
+    },
+    {
+      "conceptId": "es.economia_el_comercio_en_esta_zona_es_activo",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dd0ec28238b04979"
+    },
+    {
+      "conceptId": "es.economia_tenemos_una_buena_relacion_con_el_banco",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.35b5a34e3298e2db"
+    },
+    {
+      "conceptId": "es.economia_firme_un_papel_importante",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9ac8631d986222e1"
+    },
+    {
+      "conceptId": "es.economia_la_empresa_quiere_reducir_costos",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7dd4d6e8d7466d6a"
+    },
+    {
+      "conceptId": "es.economia_existen_muchas_tiendas_en_el_mercado",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8be075c90d3e12af"
+    },
+    {
+      "conceptId": "es.economia_pago_mis_deudas_poco_a_poco",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.70e39e632dff1523"
+    },
+    {
+      "conceptId": "es.economia_saco_dinero_del_cajero",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b21bd1830bdbf3b0"
+    },
+    {
+      "conceptId": "es.economia_la_fabrica_produce_muchos_autos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dac3e803cf26c833"
+    },
+    {
+      "conceptId": "es.economia_el_cliente_siempre_tiene_la_razon",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6e9834d3b7f4ff41"
+    },
+    {
+      "conceptId": "es.economia_gano_lo_suficiente_para_vivir",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7ee508c174c4d2b3"
+    },
+    {
+      "conceptId": "es.economia_hay_que_controlar_los_gastos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9bc4e3158a8f1cbf"
+    },
+    {
+      "conceptId": "es.economia_el_valor_de_la_casa_aumento",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6b6b75d6df404280"
+    },
+    {
+      "conceptId": "es.economia_la_empresa_contrato_a_diez_personas",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9e73a788595a6ad7"
+    },
+    {
+      "conceptId": "es.economia_el_sueldo_minimo_subio_este_ano",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.568768fec8a068d1"
+    },
+    {
+      "conceptId": "es.economia_trabaja_en_una_agencia_de_viajes",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.95bde77bd024fdd1"
+    },
+    {
+      "conceptId": "es.economia_la_venta_de_coches_subio_este_ano",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dfeea0ccf80199e4"
+    },
+    {
+      "conceptId": "es.economia_firme_un_contrato_de_trabajo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.92fc64bb6340353f"
+    },
+    {
+      "conceptId": "es.economia_es_una_buena_oportunidad_de_negocio",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c4118ca8053a8fab"
+    },
+    {
+      "conceptId": "es.economia_mi_socio_maneja_las_finanzas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0d0b50f60884f650"
+    },
+    {
+      "conceptId": "es.economia_la_crisis_afecto_a_todo_el_sector",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.18b5e341e3883c69"
+    },
+    {
+      "conceptId": "es.economia_consiguio_un_buen_puesto_de_trabajo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7b23a0f5024d3c3b"
+    },
+    {
+      "conceptId": "es.economia_quiero_obtener_mejores_resultados",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5f46c84e964f3d85"
+    },
+    {
+      "conceptId": "es.economia_la_empresa_cambio_de_direccion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4f205af3298bfd63"
+    },
+    {
+      "conceptId": "es.economia_nuestro_objetivo_principal_es_claro",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2a29590f06a6cc04"
+    },
+    {
+      "conceptId": "es.economia_el_desarrollo_del_negocio_fue_lento",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.de26286ac8232ee5"
+    },
+    {
+      "conceptId": "es.economia_voy_a_hacer_la_compra_del_mes",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ba0898f1548e7101"
+    },
+    {
+      "conceptId": "es.economia_hay_que_consumir_con_responsabilidad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ff6b13d31d679adf"
+    },
+    {
+      "conceptId": "es.economia_este_material_es_muy_resistente",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.05e18db36d3b8ca8"
+    },
+    {
+      "conceptId": "es.economia_gano_el_premio_a_la_mejor_empresa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cb76f07c6538c08a"
+    },
+    {
+      "conceptId": "es.economia_trabajo_en_una_compania_muy_grande",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5d46e4a919c1737e"
+    },
+    {
+      "conceptId": "es.economia_el_consumo_de_energia_bajo_este_mes",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c1a47036d7d483ff"
+    },
+    {
+      "conceptId": "es.economia_todos_buscan_estabilidad_laboral",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.60f1af41a2c3701e"
+    },
+    {
+      "conceptId": "es.economia_hubo_un_movimiento_fuerte_en_el_mercado",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.453262c3273604ae"
+    },
+    {
+      "conceptId": "es.economia_el_vendedor_de_la_tienda_es_amable",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6c3f8f9563b9363f"
+    },
+    {
+      "conceptId": "es.economia_el_empleado_nuevo_aprende_rapido",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fc9349ac9c330d84"
+    },
+    {
+      "conceptId": "es.economia_la_propietaria_vive_arriba",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a1e66e55ff2c12eb"
+    },
+    {
+      "conceptId": "es.economia_elige_una_profesion_con_futuro",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6644901f5633c31c"
+    },
+    {
+      "conceptId": "es.economia_pago_la_cuenta_con_un_cheque",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d7b3a32bc4e27b90"
+    },
+    {
+      "conceptId": "es.economia_prefiero_pagar_siempre_en_efectivo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a6b6eaf2eb496cc0"
+    },
+    {
+      "conceptId": "es.economia_esta_en_el_paro_desde_enero",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.220059aaa0a9cddc"
+    },
+    {
+      "conceptId": "es.economia_la_publicidad_influye_en_la_compra",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e92912e6e45a446c"
+    },
+    {
+      "conceptId": "es.economia_el_comprador_pide_un_descuento",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f4811cf59cc2a3e8"
+    },
+    {
+      "conceptId": "es.economia_manana_tengo_una_entrevista_de_trabajo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e7457be55fe2e8ab"
+    },
+    {
+      "conceptId": "es.economia_el_precio_es_por_unidad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6c02379971f8448a"
+    },
+    {
+      "conceptId": "es.economia_hay_que_dedicarse_con_pasion_al_trabajo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c022919dfe94204e"
+    },
+    {
+      "conceptId": "es.economia_pega_un_sello_en_el_sobre",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bd2bf25a6d5526c8"
+    }
   ]
 }

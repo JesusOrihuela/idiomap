@@ -1,0 +1,1103 @@
+{
+  "_doc": "Atestiguacion frase por frase — topic gym. Comunicacion real de gimnasio (membresia/clases, equipo/instalaciones, forma/tecnica, rutina/recuperacion, entrenamiento avanzado en 1a persona). Retirada la CIENCIA DEL EJERCICIO/fisiologia (ensayo expositivo).",
+  "sources_en": [
+    "gym/fitness ESL guides",
+    "Core Inventory"
+  ],
+  "sources_es": [
+    "PCIC (deporte/ocio)",
+    "recursos ELE de gimnasio"
+  ],
+  "retired": [
+    "7 C2 de fisiologia + 1 C1 explicador (zonas FC); ver gym-provenance.json"
+  ],
+  "phrases": {
+    "en.gym_are_group_classes_available": {
+      "level": "A1",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "Are group classes available?"
+    },
+    "en.gym_breathe_deeply_and_through_your_nose": {
+      "level": "A1",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "Breathe deeply and through your nose."
+    },
+    "en.gym_cable_machine_seated_row": {
+      "level": "B2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Could you show me how to adjust the cable machine for a seated row?"
+    },
+    "en.gym_can_you_give_me_some_tips": {
+      "level": "A2",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "Can you give me some tips to improve my technique on this exercise?"
+    },
+    "en.gym_can_you_recommend_an_appropriate_weight": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Can you recommend an appropriate weight to start with?"
+    },
+    "en.gym_can_you_show_me_how_to": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Can you show me how to properly use this machine?"
+    },
+    "en.gym_can_you_spot_me": {
+      "level": "A2",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "Can you spot me?"
+    },
+    "en.gym_could_you_demonstrate_how_to_do": {
+      "level": "A2",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "Could you demonstrate how to do a squat correctly?"
+    },
+    "en.gym_could_you_demonstrate_how_to_use": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Could you demonstrate how to use resistance bands?"
+    },
+    "en.gym_could_you_explain_the_benefits_of": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Could you explain the benefits of using weights?"
+    },
+    "en.gym_could_you_help_me_create_a": {
+      "level": "B1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Could you help me create a personalized training routine?"
+    },
+    "en.gym_could_you_inform_me_about_the": {
+      "level": "B1",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "Could you inform me about the membership plans you offer?"
+    },
+    "en.gym_could_you_recommend_a_stretching_routine": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Could you recommend a stretching routine?"
+    },
+    "en.gym_could_you_tell_me_if_im": {
+      "level": "A2",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "Could you tell me if I'm doing this exercise correctly?"
+    },
+    "en.gym_deload_week_overreaching": {
+      "level": "B2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "My trainer suggested a deload week. I think I've been overreaching lately."
+    },
+    "en.gym_do_you_have_any_advice_for": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Do you have any advice for preventing injuries?"
+    },
+    "en.gym_do_you_have_any_suggestions_for": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Do you have any suggestions for increasing the intensity of my workout?"
+    },
+    "en.gym_do_you_have_any_tips_for": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Do you have any tips for improving my balance?"
+    },
+    "en.gym_doms_few_days_after_leg_day": {
+      "level": "B2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "My legs are still sore two days after leg day. Is that normal?"
+    },
+    "en.gym_dont_arch_your_back": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Don't arch your back."
+    },
+    "en.gym_dont_forget_to_hydrate": {
+      "level": "A1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Don't forget to hydrate."
+    },
+    "en.gym_dont_lift_your_shoulders_towards_your": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Don't lift your shoulders towards your ears."
+    },
+    "en.gym_dont_overdo_it_with_the_weight": {
+      "level": "B1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Don't overdo it with the weight."
+    },
+    "en.gym_eat_healthily_to_get_better_results": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Eat healthily to get better results."
+    },
+    "en.gym_free_weights_vs_machines_stability": {
+      "level": "B2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "I prefer free weights over machines because they require more core stability."
+    },
+    "en.gym_hiit_cardiovascular_endurance": {
+      "level": "B2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "I've started incorporating HIIT into my weekly routine to improve cardiovascular endurance."
+    },
+    "en.gym_how_can_i_book_a_class": {
+      "level": "A1",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "How can I book a class?"
+    },
+    "en.gym_how_do_i_adjust_the_seat": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "How do I adjust the seat height on this machine?"
+    },
+    "en.gym_how_long_should_i_rest_between": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "How long should I rest between training sessions?"
+    },
+    "en.gym_how_many_repetitions_should_i_do": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "How many repetitions should I do for this exercise?"
+    },
+    "en.gym_how_many_sets_reps": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "How many sets and reps should I do?"
+    },
+    "en.gym_how_much_cardio_time_do_i": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "How much cardio time do I have today?"
+    },
+    "en.gym_how_much_rest_time_do_you": {
+      "level": "B1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "How much rest time do you recommend between sets for this exercise?"
+    },
+    "en.gym_i_dont_know_how_to_use": {
+      "level": "A1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "I don't know how to use this machine."
+    },
+    "en.gym_i_feel_a_pain_in_my": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "I feel a pain in my calf."
+    },
+    "en.gym_i_need_to_rest_a_bit": {
+      "level": "A1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "I need to rest a bit."
+    },
+    "en.gym_i_need_to_work_on_my": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "I need to work on my endurance."
+    },
+    "en.gym_i_would_like_to_work_on": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "I would like to work on leg strength."
+    },
+    "en.gym_im_going_to_do_cardio_and": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "I'm going to do cardio and weights."
+    },
+    "en.gym_im_motivated": {
+      "level": "A1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "I'm motivated!"
+    },
+    "en.gym_im_sore": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "I'm really sore today."
+    },
+    "en.gym_increase_the_elevation_of_the_treadmill": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Increase the elevation of the treadmill."
+    },
+    "en.gym_increase_the_speed_of_the_treadmill": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Increase the speed of the treadmill."
+    },
+    "en.gym_is_it_okay_if_i_use": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Is it okay if I use this bench for my next set?"
+    },
+    "en.gym_is_it_okay_if_i_work": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Is it okay if I work with this machine after you?"
+    },
+    "en.gym_is_there_a_personal_trainer_available": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Is there a personal trainer available?"
+    },
+    "en.gym_is_there_a_specific_order_i": {
+      "level": "B1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Is there a specific order I should follow when using the machines?"
+    },
+    "en.gym_is_there_a_warmup_i_should": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Is there a warm-up I should follow?"
+    },
+    "en.gym_is_there_an_alternative_for_that": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Is there an alternative for that exercise?"
+    },
+    "en.gym_keep_your_abs_contracted": {
+      "level": "B1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Keep your abs contracted."
+    },
+    "en.gym_keep_your_back_straight": {
+      "level": "A1",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "Keep your back straight."
+    },
+    "en.gym_keep_your_elbows_close_to_your": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Keep your elbows close to your body."
+    },
+    "en.gym_knee_injury_high_impact_avoid": {
+      "level": "B2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "I'm recovering from a knee injury, so I must avoid high-impact exercise for now."
+    },
+    "en.gym_macronutrients_protein_training_load": {
+      "level": "C1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "I've been tracking my macronutrient intake and adjusting my protein consumption based on training load."
+    },
+    "en.gym_maintain_a_steady_pace": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Maintain a steady pace."
+    },
+    "en.gym_mobility_end_range_strength": {
+      "level": "C1",
+      "function": "entrenamiento_avanzado",
+      "attested": true,
+      "intent": "Mobility work isn't just stretching. It's about building strength and control at end-range positions."
+    },
+    "en.gym_monthly_membership_price": {
+      "level": "A1",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "How much is a monthly membership?"
+    },
+    "en.gym_overtraining_recovery_as_important": {
+      "level": "C1",
+      "function": "entrenamiento_avanzado",
+      "attested": true,
+      "intent": "Overtraining can be counterproductive, since adequate recovery is just as important as training itself."
+    },
+    "en.gym_periodization_hypertrophy_strength": {
+      "level": "C1",
+      "function": "entrenamiento_avanzado",
+      "attested": true,
+      "intent": "My coach recommended a periodization approach, alternating between hypertrophy and strength phases."
+    },
+    "en.gym_pre_workout_meal_timing": {
+      "level": "B2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "What should I eat before a workout, and how long before?"
+    },
+    "en.gym_progress_plateaued_modify_program": {
+      "level": "B2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "My progress has plateaued. I think I need to modify my training program."
+    },
+    "en.gym_progressive_overload_adaptations": {
+      "level": "C1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "My training plan uses progressive overload, gradually increasing resistance to continue eliciting adaptations."
+    },
+    "en.gym_push_with_your_heels_not_with": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Push with your heels, not with the tips of your toes."
+    },
+    "en.gym_rest_enough_for_your_body_to": {
+      "level": "B1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Rest enough for your body to recover."
+    },
+    "en.gym_rpe_scale_autoregulation": {
+      "level": "C1",
+      "function": "entrenamiento_avanzado",
+      "attested": true,
+      "intent": "I've switched to the RPE scale to autoregulate intensity based on my actual recovery."
+    },
+    "en.gym_should_i_follow_any_kind_of": {
+      "level": "B1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Should I follow any kind of routine to finish my workout?"
+    },
+    "en.gym_shoulder_discomfort_overhead_press": {
+      "level": "B2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "I've been experiencing discomfort in my left shoulder whenever I do overhead presses."
+    },
+    "en.gym_signup_membership": {
+      "level": "A1",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "I'd like to sign up for a membership."
+    },
+    "en.gym_sport_specific_transfer_performance": {
+      "level": "C1",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "My training must match my sport's demands if I want it to transfer to actual performance."
+    },
+    "en.gym_strength_imbalance_dominant_side": {
+      "level": "C1",
+      "function": "entrenamiento_avanzado",
+      "attested": true,
+      "intent": "I'm trying to address a strength imbalance between my dominant and non-dominant side."
+    },
+    "en.gym_that_effort_was_worth_it": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "That effort was worth it."
+    },
+    "en.gym_the_gyms_music_is_too_loud": {
+      "level": "A1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "The gym's music is too loud."
+    },
+    "en.gym_they_are_cleaning_the_locker_rooms": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "They are cleaning the locker rooms."
+    },
+    "en.gym_this_exercise_will_help_me_strengthen": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "This exercise will help me strengthen my biceps."
+    },
+    "en.gym_this_routine_is_designed_to_work": {
+      "level": "B1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "This routine is designed to work on the triceps."
+    },
+    "en.gym_today_is_leg_day": {
+      "level": "A1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Today is leg day."
+    },
+    "en.gym_we_all_must_properly_disinfect_the": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "We all must properly disinfect the equipment after using it."
+    },
+    "en.gym_what_exercises_do_you_recommend_for": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "What exercises do you recommend for strengthening my lower back?"
+    },
+    "en.gym_what_is_the_best_way_to": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "What is the best way to work the abdominal muscles?"
+    },
+    "en.gym_what_is_the_correct_form_for": {
+      "level": "A2",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "What is the correct form for doing this exercise?"
+    },
+    "en.gym_what_is_the_correct_posture_for": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "What is the correct posture for using this machine?"
+    },
+    "en.gym_what_is_the_gyms_schedule": {
+      "level": "A1",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "What is the gym's schedule?"
+    },
+    "en.gym_what_is_the_proper_breathing_technique": {
+      "level": "B1",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "What is the proper breathing technique for this exercise?"
+    },
+    "en.gym_what_muscles_are_worked_with_this": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "What muscles are worked with this machine?"
+    },
+    "en.gym_what_routine_should_i_follow": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "What routine should I follow?"
+    },
+    "en.gym_what_type_of_membership_do_you": {
+      "level": "A2",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "What type of membership do you offer?"
+    },
+    "en.gym_where_can_i_find_towels": {
+      "level": "A1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Where can I find towels?"
+    },
+    "en.gym_where_dumbbells": {
+      "level": "A1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Where are the dumbbells?"
+    },
+    "en.gym_where_locker_room": {
+      "level": "A1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Where is the locker room?"
+    },
+    "es.gym_are_group_classes_available": {
+      "level": "A1",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "Are group classes available?"
+    },
+    "es.gym_breathe_deeply": {
+      "level": "A1",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "Breathe deeply."
+    },
+    "es.gym_breathe_deeply_and_through_your_nose": {
+      "level": "A1",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "Breathe deeply and through your nose."
+    },
+    "es.gym_cable_machine_seated_row": {
+      "level": "B2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Could you show me how to adjust the cable machine for a seated row?"
+    },
+    "es.gym_can_you_give_me_some_tips": {
+      "level": "A2",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "Can you give me some tips to improve my technique on this exercise?"
+    },
+    "es.gym_can_you_recommend_an_appropriate_weight": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Can you recommend an appropriate weight to start with?"
+    },
+    "es.gym_can_you_show_me_how_to": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Can you show me how to properly use this machine?"
+    },
+    "es.gym_can_you_spot_me": {
+      "level": "A2",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "Can you spot me?"
+    },
+    "es.gym_could_you_demonstrate_how_to_do": {
+      "level": "A2",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "Could you demonstrate how to do a squat correctly?"
+    },
+    "es.gym_could_you_demonstrate_how_to_use": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Could you demonstrate how to use resistance bands?"
+    },
+    "es.gym_could_you_explain_the_benefits_of": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Could you explain the benefits of using weights?"
+    },
+    "es.gym_could_you_help_me_create_a": {
+      "level": "B1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Could you help me create a personalized training routine?"
+    },
+    "es.gym_could_you_inform_me_about_the": {
+      "level": "B1",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "Could you inform me about the membership plans you offer?"
+    },
+    "es.gym_could_you_recommend_a_stretching_routine": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Could you recommend a stretching routine?"
+    },
+    "es.gym_could_you_tell_me_if_im": {
+      "level": "A2",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "Could you tell me if I'm doing this exercise correctly?"
+    },
+    "es.gym_deload_week_overreaching": {
+      "level": "B2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "My trainer suggested a deload week. I think I've been overreaching lately."
+    },
+    "es.gym_do_you_have_any_advice_for": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Do you have any advice for preventing injuries?"
+    },
+    "es.gym_do_you_have_any_suggestions_for": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Do you have any suggestions for increasing the intensity of my workout?"
+    },
+    "es.gym_do_you_have_any_tips_for": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Do you have any tips for improving my balance?"
+    },
+    "es.gym_doms_few_days_after_leg_day": {
+      "level": "B2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "My legs are still sore two days after leg day. Is that normal?"
+    },
+    "es.gym_dont_arch_your_back": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Don't arch your back."
+    },
+    "es.gym_dont_forget_to_hydrate": {
+      "level": "A1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Don't forget to hydrate."
+    },
+    "es.gym_dont_lift_your_shoulders_towards_your": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Don't lift your shoulders towards your ears."
+    },
+    "es.gym_dont_overdo_it_with_the_weight": {
+      "level": "B1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Don't overdo it with the weight."
+    },
+    "es.gym_eat_healthily_to_get_better_results": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Eat healthily to get better results."
+    },
+    "es.gym_free_weights_vs_machines_stability": {
+      "level": "B2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "I prefer free weights over machines because they require more core stability."
+    },
+    "es.gym_hiit_cardiovascular_endurance": {
+      "level": "B2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "I've started incorporating HIIT into my weekly routine to improve cardiovascular endurance."
+    },
+    "es.gym_how_can_i_book_a_class": {
+      "level": "A1",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "How can I book a class?"
+    },
+    "es.gym_how_do_i_adjust_the_seat": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "How do I adjust the seat height on this machine?"
+    },
+    "es.gym_how_long_should_i_rest_between": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "How long should I rest between training sessions?"
+    },
+    "es.gym_how_many_repetitions_should_i_do": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "How many repetitions should I do for this exercise?"
+    },
+    "es.gym_how_many_sets_reps": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "How many sets and reps should I do?"
+    },
+    "es.gym_how_much_cardio_time_do_i": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "How much cardio time do I have today?"
+    },
+    "es.gym_how_much_rest_time_do_you": {
+      "level": "B1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "How much rest time do you recommend between sets for this exercise?"
+    },
+    "es.gym_i_dont_know_how_to_use": {
+      "level": "A1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "I don't know how to use this machine."
+    },
+    "es.gym_i_feel_a_pain_in_my": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "I feel a pain in my calf."
+    },
+    "es.gym_i_need_to_rest_a_bit": {
+      "level": "A1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "I need to rest a bit."
+    },
+    "es.gym_i_need_to_work_on_my": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "I need to work on my endurance."
+    },
+    "es.gym_i_would_like_to_work_on": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "I would like to work on leg strength."
+    },
+    "es.gym_im_going_to_do_cardio_and": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "I'm going to do cardio and weights."
+    },
+    "es.gym_im_motivated": {
+      "level": "A1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "I'm motivated!"
+    },
+    "es.gym_im_sore": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "I'm really sore today."
+    },
+    "es.gym_increase_the_elevation_of_the_treadmill": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Increase the elevation of the treadmill."
+    },
+    "es.gym_increase_the_speed_of_the_treadmill": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Increase the speed of the treadmill."
+    },
+    "es.gym_is_it_okay_if_i_use": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Is it okay if I use this bench for my next set?"
+    },
+    "es.gym_is_it_okay_if_i_work": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Is it okay if I work with this machine after you?"
+    },
+    "es.gym_is_there_a_personal_trainer_available": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Is there a personal trainer available?"
+    },
+    "es.gym_is_there_a_specific_order_i": {
+      "level": "B1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Is there a specific order I should follow when using the machines?"
+    },
+    "es.gym_is_there_a_warmup_i_should": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Is there a warm-up I should follow?"
+    },
+    "es.gym_is_there_an_alternative_for_that": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Is there an alternative for that exercise?"
+    },
+    "es.gym_keep_your_abs_contracted": {
+      "level": "B1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Keep your abs contracted."
+    },
+    "es.gym_keep_your_back_straight": {
+      "level": "A1",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "Keep your back straight."
+    },
+    "es.gym_keep_your_elbows_close_to_your": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Keep your elbows close to your body."
+    },
+    "es.gym_knee_injury_high_impact_avoid": {
+      "level": "B2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "I'm recovering from a knee injury, so I must avoid high-impact exercise for now."
+    },
+    "es.gym_macronutrients_protein_training_load": {
+      "level": "C1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "I've been tracking my macronutrient intake and adjusting my protein consumption based on training load."
+    },
+    "es.gym_maintain_a_steady_pace": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Maintain a steady pace."
+    },
+    "es.gym_mobility_end_range_strength": {
+      "level": "C1",
+      "function": "entrenamiento_avanzado",
+      "attested": true,
+      "intent": "Mobility work isn't just stretching. It's about building strength and control at end-range positions."
+    },
+    "es.gym_monthly_membership_price": {
+      "level": "A1",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "How much is a monthly membership?"
+    },
+    "es.gym_overtraining_recovery_as_important": {
+      "level": "C1",
+      "function": "entrenamiento_avanzado",
+      "attested": true,
+      "intent": "Overtraining can be counterproductive, since adequate recovery is just as important as training itself."
+    },
+    "es.gym_periodization_hypertrophy_strength": {
+      "level": "C1",
+      "function": "entrenamiento_avanzado",
+      "attested": true,
+      "intent": "My coach recommended a periodization approach, alternating between hypertrophy and strength phases."
+    },
+    "es.gym_pre_workout_meal_timing": {
+      "level": "B2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "What should I eat before a workout, and how long before?"
+    },
+    "es.gym_progress_plateaued_modify_program": {
+      "level": "B2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "My progress has plateaued. I think I need to modify my training program."
+    },
+    "es.gym_progressive_overload_adaptations": {
+      "level": "C1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "My training plan uses progressive overload, gradually increasing resistance to continue eliciting adaptations."
+    },
+    "es.gym_push_with_your_heels_not_with": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "Push with your heels, not with the tips of your toes."
+    },
+    "es.gym_rest_enough_for_your_body_to": {
+      "level": "B1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Rest enough for your body to recover."
+    },
+    "es.gym_rpe_scale_autoregulation": {
+      "level": "C1",
+      "function": "entrenamiento_avanzado",
+      "attested": true,
+      "intent": "I've switched to the RPE scale to autoregulate intensity based on my actual recovery."
+    },
+    "es.gym_should_i_follow_any_kind_of": {
+      "level": "B1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Should I follow any kind of routine to finish my workout?"
+    },
+    "es.gym_shoulder_discomfort_overhead_press": {
+      "level": "B2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "I've been experiencing discomfort in my left shoulder whenever I do overhead presses."
+    },
+    "es.gym_show_me_how_to_adjust_resistance": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Can you show me how to adjust the resistance on this machine?"
+    },
+    "es.gym_signup_membership": {
+      "level": "A1",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "I'd like to sign up for a membership."
+    },
+    "es.gym_sport_specific_transfer_performance": {
+      "level": "C1",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "My training must match my sport's demands if I want it to transfer to actual performance."
+    },
+    "es.gym_strength_imbalance_dominant_side": {
+      "level": "C1",
+      "function": "entrenamiento_avanzado",
+      "attested": true,
+      "intent": "I'm trying to address a strength imbalance between my dominant and non-dominant side."
+    },
+    "es.gym_that_effort_was_worth_it": {
+      "level": "A2",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "That effort was worth it."
+    },
+    "es.gym_the_gyms_music_is_too_loud": {
+      "level": "A1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "The gym's music is too loud."
+    },
+    "es.gym_they_are_cleaning_the_locker_rooms": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "They are cleaning the locker rooms."
+    },
+    "es.gym_this_exercise_will_help_me_strengthen": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "This exercise will help me strengthen my biceps."
+    },
+    "es.gym_this_routine_is_designed_to_work": {
+      "level": "B1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "This routine is designed to work on the triceps."
+    },
+    "es.gym_today_is_leg_day": {
+      "level": "A1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Today is leg day."
+    },
+    "es.gym_tomorrow_will_be_arm_day": {
+      "level": "A1",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "Tomorrow will be arm day."
+    },
+    "es.gym_we_all_must_properly_disinfect_the": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "We all must properly disinfect the equipment after using it."
+    },
+    "es.gym_what_exercises_do_you_recommend_for": {
+      "level": "B1",
+      "function": "gimnasio_general",
+      "attested": true,
+      "intent": "What exercises do you recommend for strengthening my lower back?"
+    },
+    "es.gym_what_is_the_best_way_to": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "What is the best way to work the abdominal muscles?"
+    },
+    "es.gym_what_is_the_correct_form_for": {
+      "level": "A2",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "What is the correct form for doing this exercise?"
+    },
+    "es.gym_what_is_the_correct_posture_for": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "What is the correct posture for using this machine?"
+    },
+    "es.gym_what_is_the_gyms_schedule": {
+      "level": "A1",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "What is the gym's schedule?"
+    },
+    "es.gym_what_is_the_proper_breathing_technique": {
+      "level": "B1",
+      "function": "forma/tecnica",
+      "attested": true,
+      "intent": "What is the proper breathing technique for this exercise?"
+    },
+    "es.gym_what_muscles_are_worked_with_this": {
+      "level": "A2",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "What muscles are worked with this machine?"
+    },
+    "es.gym_what_routine_should_i_follow": {
+      "level": "A2",
+      "function": "rutina/recuperacion",
+      "attested": true,
+      "intent": "What routine should I follow?"
+    },
+    "es.gym_what_type_of_membership_do_you": {
+      "level": "A2",
+      "function": "membresia/clases",
+      "attested": true,
+      "intent": "What type of membership do you offer?"
+    },
+    "es.gym_where_can_i_find_towels": {
+      "level": "A1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Where can I find towels?"
+    },
+    "es.gym_where_dumbbells": {
+      "level": "A1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Where are the dumbbells?"
+    },
+    "es.gym_where_locker_room": {
+      "level": "A1",
+      "function": "equipo/instalaciones",
+      "attested": true,
+      "intent": "Where is the locker room?"
+    }
+  },
+  "_keyFormat": "target.conceptSlug"
+}

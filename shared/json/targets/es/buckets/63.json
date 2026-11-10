@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "63",
+  "concepts": {
+    "es.emociones_debes_mantener_la_calma": {
+      "conceptId": "es.emociones_debes_mantener_la_calma",
+      "id": "emociones_debes_mantener_la_calma",
+      "target": [
+        {
+          "text": "Debes mantener la calma.",
+          "audioSlug": "debes_mantener_la_calma"
+        }
+      ]
+    },
+    "es.emociones_im_embarrassed": {
+      "conceptId": "es.emociones_im_embarrassed",
+      "id": "emociones_im_embarrassed",
+      "target": [
+        {
+          "text": "Estoy avergonzada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_avergonzada"
+        },
+        {
+          "text": "Estoy avergonzado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_avergonzado"
+        }
+      ]
+    },
+    "es.greetings_muchas_gracias_por_la_invitacion": {
+      "conceptId": "es.greetings_muchas_gracias_por_la_invitacion",
+      "id": "greetings_muchas_gracias_por_la_invitacion",
+      "target": [
+        {
+          "text": "Muchas gracias por la invitación.",
+          "audioSlug": "muchas_gracias_por_la_invitacion"
+        }
+      ]
+    },
+    "es.hogar_me_siento_en_el_sillon_a_leer": {
+      "conceptId": "es.hogar_me_siento_en_el_sillon_a_leer",
+      "id": "hogar_me_siento_en_el_sillon_a_leer",
+      "target": [
+        {
+          "text": "Me siento en el sillón a leer.",
+          "audioSlug": "me_siento_en_el_sillon_a_leer"
+        }
+      ]
+    },
+    "es.technology_how_do_you_do_this_in": {
+      "conceptId": "es.technology_how_do_you_do_this_in",
+      "id": "technology_how_do_you_do_this_in",
+      "target": [
+        {
+          "text": "¿Cómo se hace esto en Excel?",
+          "audioSlug": "como_se_hace_esto_en_excel"
+        }
+      ]
+    }
+  }
+}

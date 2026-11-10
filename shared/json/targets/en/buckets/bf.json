@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "bf",
+  "concepts": {
+    "en.airport_security_liquids_confiscated": {
+      "conceptId": "en.airport_security_liquids_confiscated",
+      "id": "airport_security_liquids_confiscated",
+      "target": [
+        {
+          "text": "My sunscreen was confiscated at security. Liquids over 100ml aren't allowed in carry-on.",
+          "audioSlug": "my_sunscreen_was_confiscated_at_security_liquids_over_100ml_aren_t_allowed_in_carry_on"
+        }
+      ]
+    },
+    "en.emociones_why_are_you_confused": {
+      "conceptId": "en.emociones_why_are_you_confused",
+      "id": "emociones_why_are_you_confused",
+      "target": [
+        {
+          "text": "Why are you confused?",
+          "audioSlug": "why_are_you_confused"
+        }
+      ]
+    },
+    "en.technology_how_can_i_recover_a_deleted": {
+      "conceptId": "en.technology_how_can_i_recover_a_deleted",
+      "id": "technology_how_can_i_recover_a_deleted",
+      "target": [
+        {
+          "text": "How can I recover a deleted file?",
+          "audioSlug": "how_can_i_recover_a_deleted_file"
+        }
+      ]
+    }
+  }
+}

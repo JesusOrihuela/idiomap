@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "4f",
+  "concepts": {
+    "en.conversacion_discuss_it_further": {
+      "conceptId": "en.conversacion_discuss_it_further",
+      "id": "conversacion_discuss_it_further",
+      "target": [
+        {
+          "text": "Let's discuss it further.",
+          "audioSlug": "let_s_discuss_it_further"
+        }
+      ]
+    },
+    "en.emergencias_call_an_ambulance": {
+      "conceptId": "en.emergencias_call_an_ambulance",
+      "id": "emergencias_call_an_ambulance",
+      "target": [
+        {
+          "text": "Call an ambulance!",
+          "audioSlug": "call_an_ambulance"
+        }
+      ]
+    },
+    "en.greetings_good_morning_hows_everything_going": {
+      "conceptId": "en.greetings_good_morning_hows_everything_going",
+      "id": "greetings_good_morning_hows_everything_going",
+      "target": [
+        {
+          "text": "Good morning, how's everything going?",
+          "audioSlug": "good_morning_how_s_everything_going"
+        }
+      ]
+    },
+    "en.greetings_hows_your_week_been": {
+      "conceptId": "en.greetings_hows_your_week_been",
+      "id": "greetings_hows_your_week_been",
+      "target": [
+        {
+          "text": "How's your week been?",
+          "audioSlug": "how_s_your_week_been"
+        }
+      ]
+    },
+    "en.personal_info_i_live_in": {
+      "conceptId": "en.personal_info_i_live_in",
+      "id": "personal_info_i_live_in",
+      "target": [
+        {
+          "text": "I live in the city center.",
+          "audioSlug": "i_live_in_the_city_center"
+        }
+      ]
+    },
+    "en.politica_the_capital_is_in_the_south": {
+      "conceptId": "en.politica_the_capital_is_in_the_south",
+      "id": "politica_the_capital_is_in_the_south",
+      "target": [
+        {
+          "text": "The capital is in the south.",
+          "audioSlug": "the_capital_is_in_the_south"
+        }
+      ]
+    }
+  }
+}

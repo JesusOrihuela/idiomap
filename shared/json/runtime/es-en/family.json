@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "family",
+  "phrases": [
+    {
+      "id": "family_this_is_my_family",
+      "conceptId": "en.family_this_is_my_family",
+      "sourceId": "es.s.447ab81a223d06b6",
+      "source": "Esta es mi familia.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This is my family.",
+          "audioSlug": "this_is_my_family"
+        }
+      ]
+    },
+    {
+      "id": "family_two_brothers_one_sister",
+      "conceptId": "en.family_two_brothers_one_sister",
+      "sourceId": "es.s.96afcde5e2af93a3",
+      "source": "Tengo dos hermanos y una hermana.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have two brothers and one sister.",
+          "audioSlug": "i_have_two_brothers_and_one_sister"
+        }
+      ]
+    },
+    {
+      "id": "family_my_father_is_a_doctor",
+      "conceptId": "en.family_my_father_is_a_doctor",
+      "sourceId": "es.s.f76fc42596f47bbb",
+      "source": "Mi padre es médico.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My father is a doctor.",
+          "audioSlug": "my_father_is_a_doctor"
+        }
+      ]
+    },
+    {
+      "id": "family_my_mother_works",
+      "conceptId": "en.family_my_mother_works",
+      "sourceId": "es.s.bca4a824955951eb",
+      "source": "Mi madre trabaja en una escuela.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My mother works at a school.",
+          "audioSlug": "my_mother_works_at_a_school"
+        }
+      ]
+    },
+    {
+      "id": "family_how_many_people",
+      "conceptId": "en.family_how_many_people",
+      "sourceId": "es.s.442d30555e1fddc3",
+      "source": "¿Cuántas personas hay en tu familia?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How many people are in your family?",
+          "audioSlug": "how_many_people_are_in_your_family"
+        }
+      ]
+    },
+    {
+      "id": "family_my_older_brother",
+      "conceptId": "en.family_my_older_brother",
+      "sourceId": "es.s.fd6b83f16472fc65",
+      "source": "Este es mi hermano mayor.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This is my older brother.",
+          "audioSlug": "this_is_my_older_brother"
+        }
+      ]
+    },
+    {
+      "id": "family_grandparents_countryside",
+      "conceptId": "en.family_grandparents_countryside",
+      "sourceId": "es.s.5784217cbb5235b0",
+      "source": "Mis abuelos viven en el campo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My grandparents live in the countryside.",
+          "audioSlug": "my_grandparents_live_in_the_countryside"
+        }
+      ]
+    },
+    {
+      "id": "family_shes_my_best_friend",
+      "conceptId": "en.family_shes_my_best_friend",
+      "sourceId": "es.s.af24a1ddf7183854",
+      "source": "Es mi mejor amiga.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "She's my best friend.",
+          "audioSlug": "she_s_my_best_friend"
+        }
+      ]
+    },
+    {
+      "id": "family_my_son_is_five",
+      "conceptId": "en.family_my_son_is_five",
+      "sourceId": "es.s.9628239666544c37",
+      "source": "Mi hijo tiene cinco años.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My son is five years old.",
+          "audioSlug": "my_son_is_five_years_old"
+        }
+      ]
+    },
+    {
+      "id": "family_this_man_is_my_uncle",
+      "conceptId": "en.family_this_man_is_my_uncle",
+      "sourceId": "es.s.1994ce760a6af3b3",
+      "source": "Este hombre es mi tío.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This man is my uncle.",
+          "audioSlug": "this_man_is_my_uncle"
+        }
+      ]
+    },
+    {
+      "id": "family_that_woman_is_my_aunt",
+      "conceptId": "en.family_that_woman_is_my_aunt",
+      "sourceId": "es.s.750ceef6caf7462d",
+      "source": "Esa mujer es mi tía.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "That woman is my aunt.",
+          "audioSlug": "that_woman_is_my_aunt"
+        }
+      ]
+    },
+    {
+      "id": "family_my_husband_is_called",
+      "conceptId": "en.family_my_husband_is_called",
+      "sourceId": "es.s.db91d5df74e5aa3b",
+      "source": "Mi marido se llama Juan.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My husband's name is Juan.",
+          "audioSlug": "my_husband_s_name_is_juan"
+        }
+      ]
+    },
+    {
+      "id": "family_sister_younger",
+      "conceptId": "en.family_sister_younger",
+      "sourceId": "es.s.f4fb4066bc5dfe16",
+      "source": "Mi hermana es menor que yo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My sister is younger than me.",
+          "audioSlug": "my_sister_is_younger_than_me"
+        }
+      ]
+    },
+    {
+      "id": "family_big_family",
+      "conceptId": "en.family_big_family",
+      "sourceId": "es.s.077592dcc9a62fe7",
+      "source": "Somos una familia grande.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We're a big family.",
+          "audioSlug": "we_re_a_big_family"
+        }
+      ]
+    },
+    {
+      "id": "family_parents_divorced",
+      "conceptId": "en.family_parents_divorced",
+      "sourceId": "es.s.3ef2ea5b6ba5ac6e",
+      "source": "Mis padres están divorciados.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My parents are divorced.",
+          "audioSlug": "my_parents_are_divorced"
+        }
+      ]
+    },
+    {
+      "id": "family_live_with_partner",
+      "conceptId": "en.family_live_with_partner",
+      "sourceId": "es.s.ebef56eb7a50c9a0",
+      "source": "Vivo con mi pareja.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I live with my partner.",
+          "audioSlug": "i_live_with_my_partner"
+        }
+      ]
+    },
+    {
+      "id": "family_grandmother_eighty",
+      "conceptId": "en.family_grandmother_eighty",
+      "sourceId": "es.s.080ab620a7c9198f",
+      "source": "Mi abuela tiene ochenta años.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My grandmother is eighty years old.",
+          "audioSlug": "my_grandmother_is_eighty_years_old"
+        }
+      ]
+    },
+    {
+      "id": "family_get_along",
+      "conceptId": "en.family_get_along",
+      "sourceId": "es.s.7542657f63e0fb4e",
+      "source": "¿Te llevas bien con tu familia?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do you get along with your family?",
+          "audioSlug": "do_you_get_along_with_your_family"
+        }
+      ]
+    },
+    {
+      "id": "family_cousin_visit",
+      "conceptId": "en.family_cousin_visit",
+      "sourceId": "es.s.9bfc162570509ef4",
+      "source": "Mi primo viene a visitarnos.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My cousin is coming to visit.",
+          "audioSlug": "my_cousin_is_coming_to_visit"
+        }
+      ]
+    },
+    {
+      "id": "family_my_daughter_student",
+      "conceptId": "en.family_my_daughter_student",
+      "sourceId": "es.s.8459402e57850dd8",
+      "source": "Mi hija es estudiante.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My daughter is a student.",
+          "audioSlug": "my_daughter_is_a_student"
+        }
+      ]
+    },
+    {
+      "id": "family_are_you_married_single",
+      "conceptId": "en.family_are_you_married_single",
+      "sourceId": "es.s.f35f620f9bb84101",
+      "source": "¿Estás casado/a o soltero/a?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Are you married or single?",
+          "audioSlug": "are_you_married_or_single"
+        }
+      ]
+    },
+    {
+      "id": "family_do_you_have_siblings",
+      "conceptId": "en.family_do_you_have_siblings",
+      "sourceId": "es.s.2bd0f9cf68668888",
+      "source": "¿Tienes hermanos?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do you have any siblings?",
+          "audioSlug": "do_you_have_any_siblings"
+        }
+      ]
+    },
+    {
+      "id": "family_how_is_your_family",
+      "conceptId": "en.family_how_is_your_family",
+      "sourceId": "es.s.dd3ed94bab2b3e4d",
+      "source": "¿Cómo está tu familia?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How is your family?",
+          "audioSlug": "how_is_your_family"
+        }
+      ]
+    },
+    {
+      "id": "family_how_many_children_do_you_have",
+      "conceptId": "en.family_how_many_children_do_you_have",
+      "sourceId": "es.s.505914ffd854181c",
+      "source": "¿Cuántos hijos tienes?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How many children do you have?",
+          "audioSlug": "how_many_children_do_you_have"
+        }
+      ]
+    },
+    {
+      "id": "family_my_whole_family_is_fine",
+      "conceptId": "en.family_my_whole_family_is_fine",
+      "sourceId": "es.s.e4d85779c052c3a6",
+      "source": "Toda mi familia está bien.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My whole family is fine.",
+          "audioSlug": "my_whole_family_is_fine"
+        }
+      ]
+    },
+    {
+      "id": "family_i_love_my_family_very_much",
+      "conceptId": "en.family_i_love_my_family_very_much",
+      "sourceId": "es.s.d49fe68d23c2ddae",
+      "source": "Quiero mucho a mi familia.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I love my family very much.",
+          "audioSlug": "i_love_my_family_very_much"
+        }
+      ]
+    },
+    {
+      "id": "family_my_aunt_lives_in_the_city",
+      "conceptId": "en.family_my_aunt_lives_in_the_city",
+      "sourceId": "es.s.8b838fdd43870ab5",
+      "source": "Mi tía vive en la ciudad.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My aunt lives in the city.",
+          "audioSlug": "my_aunt_lives_in_the_city"
+        }
+      ]
+    },
+    {
+      "id": "family_my_daughter_is_not_a_child_anymore",
+      "conceptId": "en.family_my_daughter_is_not_a_child_anymore",
+      "sourceId": "es.s.be186205155489b3",
+      "source": "Mi hija ya no es una niña.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My daughter is not a child anymore.",
+          "audioSlug": "my_daughter_is_not_a_child_anymore"
+        }
+      ]
+    },
+    {
+      "id": "family_what_does_your_brother_do",
+      "conceptId": "en.family_what_does_your_brother_do",
+      "sourceId": "es.s.3f9f957d07df70ae",
+      "source": "¿En qué trabaja tu hermano?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What does your brother do for a living?",
+          "audioSlug": "what_does_your_brother_do_for_a_living"
+        }
+      ]
+    },
+    {
+      "id": "family_can_i_bring_my_family",
+      "conceptId": "en.family_can_i_bring_my_family",
+      "sourceId": "es.s.2647ae2517ca3078",
+      "source": "¿Puedo traer a mi familia?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Can I bring my family?",
+          "audioSlug": "can_i_bring_my_family"
+        }
+      ]
+    },
+    {
+      "id": "family_my_kids_go_to_the_same_school",
+      "conceptId": "en.family_my_kids_go_to_the_same_school",
+      "sourceId": "es.s.70a6b0867a258d5f",
+      "source": "Mis hijos van a la misma escuela.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My kids go to the same school.",
+          "audioSlug": "my_kids_go_to_the_same_school"
+        }
+      ]
+    },
+    {
+      "id": "family_they_have_one_kid",
+      "conceptId": "en.family_they_have_one_kid",
+      "sourceId": "es.s.4a79bf9b88cc3119",
+      "source": "Tienen un hijo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "They have one kid.",
+          "audioSlug": "they_have_one_kid"
+        }
+      ]
+    },
+    {
+      "id": "family_the_baby_is_asleep",
+      "conceptId": "en.family_the_baby_is_asleep",
+      "sourceId": "es.s.69e748b6f806e979",
+      "source": "El bebé está dormido.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The baby is asleep.",
+          "audioSlug": "the_baby_is_asleep"
+        }
+      ]
+    },
+    {
+      "id": "family_this_is_my_wife",
+      "conceptId": "en.family_this_is_my_wife",
+      "sourceId": "es.s.228704d53996c324",
+      "source": "Esta es mi esposa.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This is my wife.",
+          "audioSlug": "this_is_my_wife"
+        }
+      ]
+    },
+    {
+      "id": "family_they_are_a_nice_couple",
+      "conceptId": "en.family_they_are_a_nice_couple",
+      "sourceId": "es.s.ef70830e039de3bb",
+      "source": "Son una linda pareja.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "They are a nice couple.",
+          "audioSlug": "they_are_a_nice_couple"
+        }
+      ]
+    },
+    {
+      "id": "family_every_child_needs_love",
+      "conceptId": "en.family_every_child_needs_love",
+      "sourceId": "es.s.0d6243276cc3a7dc",
+      "source": "Todo niño necesita amor.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Every child needs love.",
+          "audioSlug": "every_child_needs_love"
+        }
+      ]
+    },
+    {
+      "id": "family_he_is_my_neighbor",
+      "conceptId": "en.family_he_is_my_neighbor",
+      "sourceId": "es.s.b4273ea3f18fb69a",
+      "source": "Él es mi vecino.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "He is my neighbor.",
+          "audioSlug": "he_is_my_neighbor"
+        }
+      ]
+    },
+    {
+      "id": "family_you_are_my_best_friend",
+      "conceptId": "en.family_you_are_my_best_friend",
+      "sourceId": "es.s.ba8f53c72839734f",
+      "source": "Eres mi mejor amigo.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "You are my best friend.",
+          "audioSlug": "you_are_my_best_friend"
+        }
+      ]
+    },
+    {
+      "id": "family_she_is_my_partner",
+      "conceptId": "en.family_she_is_my_partner",
+      "sourceId": "es.s.699b71863c3ab8cf",
+      "source": "Ella es mi pareja.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "She is my partner.",
+          "audioSlug": "she_is_my_partner"
+        }
+      ]
+    },
+    {
+      "id": "family_my_grandfather_died_last_year",
+      "conceptId": "en.family_my_grandfather_died_last_year",
+      "sourceId": "es.s.848f589c5f975b78",
+      "source": "Mi abuelo murió el año pasado.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My grandfather died last year.",
+          "audioSlug": "my_grandfather_died_last_year"
+        }
+      ]
+    },
+    {
+      "id": "family_do_you_have_any_children",
+      "conceptId": "en.family_do_you_have_any_children",
+      "sourceId": "es.s.05ca08fc25236ad4",
+      "source": "¿Tienes hijos?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do you have any children?",
+          "audioSlug": "do_you_have_any_children"
+        }
+      ]
+    },
+    {
+      "id": "family_we_have_a_relationship",
+      "conceptId": "en.family_we_have_a_relationship",
+      "sourceId": "es.s.cc0eb4e969be9a30",
+      "source": "Tenemos una relación.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We have a relationship.",
+          "audioSlug": "we_have_a_relationship"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "60",
+  "concepts": {
+    "es.accommodation_wake_up_call": {
+      "conceptId": "es.accommodation_wake_up_call",
+      "id": "accommodation_wake_up_call",
+      "target": [
+        {
+          "text": "¿Podrían despertarme a las siete?",
+          "audioSlug": "podrian_despertarme_a_las_siete"
+        }
+      ]
+    },
+    "es.airport_baggage_claim_flight": {
+      "conceptId": "es.airport_baggage_claim_flight",
+      "id": "airport_baggage_claim_flight",
+      "target": [
+        {
+          "text": "¿Dónde está la cinta de equipaje para este vuelo?",
+          "audioSlug": "donde_esta_la_cinta_de_equipaje_para_este_vuelo"
+        }
+      ]
+    },
+    "es.conversacion_no_hace_falta_gritar": {
+      "conceptId": "es.conversacion_no_hace_falta_gritar",
+      "id": "conversacion_no_hace_falta_gritar",
+      "target": [
+        {
+          "text": "No hace falta gritar.",
+          "audioSlug": "no_hace_falta_gritar"
+        }
+      ]
+    },
+    "es.cuerpo_sus_manos_son_grandes": {
+      "conceptId": "es.cuerpo_sus_manos_son_grandes",
+      "id": "cuerpo_sus_manos_son_grandes",
+      "target": [
+        {
+          "text": "Sus manos son grandes.",
+          "audioSlug": "sus_manos_son_grandes"
+        }
+      ]
+    },
+    "es.descripciones_she_is_very_intelligent": {
+      "conceptId": "es.descripciones_she_is_very_intelligent",
+      "id": "descripciones_she_is_very_intelligent",
+      "target": [
+        {
+          "text": "Ella es muy inteligente.",
+          "audioSlug": "ella_es_muy_inteligente"
+        }
+      ]
+    },
+    "es.directions_how_do_i_get_to_the_center": {
+      "conceptId": "es.directions_how_do_i_get_to_the_center",
+      "id": "directions_how_do_i_get_to_the_center",
+      "target": [
+        {
+          "text": "¿Cómo llego al centro?",
+          "audioSlug": "como_llego_al_centro"
+        }
+      ]
+    },
+    "es.emociones_hoy_no_tengo_ganas_de_salir": {
+      "conceptId": "es.emociones_hoy_no_tengo_ganas_de_salir",
+      "id": "emociones_hoy_no_tengo_ganas_de_salir",
+      "target": [
+        {
+          "text": "Hoy no tengo ganas de salir.",
+          "audioSlug": "hoy_no_tengo_ganas_de_salir"
+        }
+      ]
+    },
+    "es.greetings_nos_vemos": {
+      "conceptId": "es.greetings_nos_vemos",
+      "id": "greetings_nos_vemos",
+      "target": [
+        {
+          "text": "¡Nos vemos!",
+          "audioSlug": "nos_vemos"
+        }
+      ]
+    },
+    "es.kitchen_could_you_chop_the_vegetables_into": {
+      "conceptId": "es.kitchen_could_you_chop_the_vegetables_into",
+      "id": "kitchen_could_you_chop_the_vegetables_into",
+      "target": [
+        {
+          "text": "¿Podrías cortar las verduras en trozos pequeños, por favor?",
+          "audioSlug": "podrias_cortar_las_verduras_en_trozos_pequenos_por_favor"
+        }
+      ]
+    },
+    "es.kitchen_la_salsa_lleva_tomate_y_ajo": {
+      "conceptId": "es.kitchen_la_salsa_lleva_tomate_y_ajo",
+      "id": "kitchen_la_salsa_lleva_tomate_y_ajo",
+      "target": [
+        {
+          "text": "La salsa lleva tomate y ajo.",
+          "audioSlug": "la_salsa_lleva_tomate_y_ajo"
+        }
+      ]
+    },
+    "es.technology_i_recommend_using_a_strong_and": {
+      "conceptId": "es.technology_i_recommend_using_a_strong_and",
+      "id": "technology_i_recommend_using_a_strong_and",
+      "target": [
+        {
+          "text": "Usa una contraseña segura y única para cada cuenta.",
+          "audioSlug": "usa_una_contrasena_segura_y_unica_para_cada_cuenta"
+        }
+      ]
+    },
+    "es.viajes_todavia_no_he_decidido_adonde_ir": {
+      "conceptId": "es.viajes_todavia_no_he_decidido_adonde_ir",
+      "id": "viajes_todavia_no_he_decidido_adonde_ir",
+      "target": [
+        {
+          "text": "Todavía no he decidido adónde ir.",
+          "audioSlug": "todavia_no_he_decidido_adonde_ir"
+        }
+      ]
+    },
+    "es.weather_la_primavera_es_mi_estacion_favorita": {
+      "conceptId": "es.weather_la_primavera_es_mi_estacion_favorita",
+      "id": "weather_la_primavera_es_mi_estacion_favorita",
+      "target": [
+        {
+          "text": "La primavera es mi estación favorita.",
+          "audioSlug": "la_primavera_es_mi_estacion_favorita"
+        }
+      ]
+    }
+  }
+}

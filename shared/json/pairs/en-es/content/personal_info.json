@@ -1,39 +1,423 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "personal_info",
-  "conceptIds": [
-    "es.personal_info_im_ana_and_you",
-    "es.personal_info_how_old_are_you",
-    "es.personal_info_im_years_old",
-    "es.personal_info_where_are_you_from",
-    "es.personal_info_im_from",
-    "es.personal_info_where_do_you_live",
-    "es.personal_info_i_live_in",
-    "es.personal_info_what_do_you_do",
-    "es.personal_info_im_a_teacher",
-    "es.personal_info_what_languages",
-    "es.personal_info_i_speak",
-    "es.personal_info_your_phone_number",
-    "es.personal_info_can_i_have_your_number",
-    "es.personal_info_are_you_married",
-    "es.personal_info_im_single",
-    "es.personal_info_whats_your_email",
-    "es.personal_info_how_spell_name",
-    "es.personal_info_where_were_you_born",
-    "es.personal_info_i_was_born_in",
-    "es.personal_info_my_last_name_is_garcia",
-    "es.personal_info_i_live_with_my_family",
-    "es.personal_info_i_work_at_a_tech_company",
-    "es.personal_info_what_is_your_address",
-    "es.personal_info_what_is_your_nationality",
-    "es.personal_info_i_am_a_medical_student",
-    "es.personal_info_i_speak_three_languages",
-    "es.personal_info_soy_de_espana",
-    "es.personal_info_vivo_cerca_del_centro",
-    "es.personal_info_soy_de_la_costa",
-    "es.personal_info_que_edad_tienes",
-    "es.personal_info_me_dedico_a_la_ensenanza",
-    "es.personal_info_su_profesion_es_exigente"
+  "phrases": [
+    {
+      "conceptId": "es.personal_info_im_ana_and_you",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.611a1df8b95b9b25"
+    },
+    {
+      "conceptId": "es.personal_info_how_old_are_you",
+      "level": "A1",
+      "grammar": "La edad se expresa con 'tener': 'tienes X años', no 'eres'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b9febffb015eb6fb"
+    },
+    {
+      "conceptId": "es.personal_info_im_years_old",
+      "level": "A1",
+      "grammar": "En español se 'tiene' una edad: 'tengo 25 años', no 'soy 25'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9591634d0b166469"
+    },
+    {
+      "conceptId": "es.personal_info_where_are_you_from",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.63d59797e9ef5bc1"
+    },
+    {
+      "conceptId": "es.personal_info_im_from",
+      "level": "A1",
+      "grammar": "'Ser de' indica origen o procedencia.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fc9729a2c6e221d3"
+    },
+    {
+      "conceptId": "es.personal_info_where_do_you_live",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.232387e1e5d0e300"
+    },
+    {
+      "conceptId": "es.personal_info_i_live_in",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ae732e0a6d21e3fc"
+    },
+    {
+      "conceptId": "es.personal_info_what_do_you_do",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6294d0f7e48d1070"
+    },
+    {
+      "conceptId": "es.personal_info_im_a_teacher",
+      "level": "A1",
+      "grammar": "Para profesiones se usa 'ser' sin artículo: 'soy profesora'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5361bc556b56cb74"
+    },
+    {
+      "conceptId": "es.personal_info_what_languages",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e417736a33ff57ca"
+    },
+    {
+      "conceptId": "es.personal_info_i_speak",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ce0a43f41261031f"
+    },
+    {
+      "conceptId": "es.personal_info_your_phone_number",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.feada9f968745dce"
+    },
+    {
+      "conceptId": "es.personal_info_can_i_have_your_number",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.af9392865cf13f49"
+    },
+    {
+      "conceptId": "es.personal_info_are_you_married",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.56ae15db4727b4e3"
+    },
+    {
+      "conceptId": "es.personal_info_im_single",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.245b3a3a858a94e4"
+    },
+    {
+      "conceptId": "es.personal_info_whats_your_email",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1d423ecf7198bd03"
+    },
+    {
+      "conceptId": "es.personal_info_how_spell_name",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3fe9cf59f56aa3dd"
+    },
+    {
+      "conceptId": "es.personal_info_where_were_you_born",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ea9b480ec1cef201"
+    },
+    {
+      "conceptId": "es.personal_info_i_was_born_in",
+      "level": "A2",
+      "grammar": "'Nací' es el pretérito de 'nacer' para decir dónde o cuándo naciste.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1e53ce34bae1b5a2"
+    },
+    {
+      "conceptId": "es.personal_info_my_last_name_is_garcia",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f2f5a4c69245c437"
+    },
+    {
+      "conceptId": "es.personal_info_i_live_with_my_family",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4bb64cba40353fcc"
+    },
+    {
+      "conceptId": "es.personal_info_i_work_at_a_tech_company",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e0ba0c6d66a250f8"
+    },
+    {
+      "conceptId": "es.personal_info_what_is_your_address",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.07cdc64f48308f1f"
+    },
+    {
+      "conceptId": "es.personal_info_what_is_your_nationality",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5ce5e65ce72b154c"
+    },
+    {
+      "conceptId": "es.personal_info_i_am_a_medical_student",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.81a77b99337d7d81"
+    },
+    {
+      "conceptId": "es.personal_info_i_speak_three_languages",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7d7298fe119feed3"
+    },
+    {
+      "conceptId": "es.personal_info_soy_de_espana",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e7513f4c524e1802"
+    },
+    {
+      "conceptId": "es.personal_info_vivo_cerca_del_centro",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6dcbf3f393f81eee"
+    },
+    {
+      "conceptId": "es.personal_info_soy_de_la_costa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f74d607d5976a610"
+    },
+    {
+      "conceptId": "es.personal_info_que_edad_tienes",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b9febffb015eb6fb"
+    },
+    {
+      "conceptId": "es.personal_info_me_dedico_a_la_ensenanza",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fecb3d51d5a8796d"
+    },
+    {
+      "conceptId": "es.personal_info_su_profesion_es_exigente",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8adbc84a6c075220"
+    }
   ]
 }

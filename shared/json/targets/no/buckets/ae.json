@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "no",
+  "bucket": "ae",
+  "concepts": {
+    "no.personal_info_i_am_a_student": {
+      "conceptId": "no.personal_info_i_am_a_student",
+      "id": "personal_info_i_am_a_student",
+      "target": [
+        {
+          "text": "Jeg er student.",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "jeg_er_student"
+        },
+        {
+          "text": "Eg er student.",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "eg_er_student"
+        }
+      ]
+    }
+  }
+}

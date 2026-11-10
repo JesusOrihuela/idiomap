@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "2e",
+  "concepts": {
+    "es.accommodation_checkin_time": {
+      "conceptId": "es.accommodation_checkin_time",
+      "id": "accommodation_checkin_time",
+      "target": [
+        {
+          "text": "¿A qué hora es el registro?",
+          "audioSlug": "a_que_hora_es_el_registro"
+        }
+      ]
+    },
+    "es.airport_cuanto_equipaje_puedo_llevar": {
+      "conceptId": "es.airport_cuanto_equipaje_puedo_llevar",
+      "id": "airport_cuanto_equipaje_puedo_llevar",
+      "target": [
+        {
+          "text": "¿Cuánto equipaje puedo llevar?",
+          "audioSlug": "cuanto_equipaje_puedo_llevar"
+        }
+      ]
+    },
+    "es.deportes_me_encanta_navegar_en_el_lago": {
+      "conceptId": "es.deportes_me_encanta_navegar_en_el_lago",
+      "id": "deportes_me_encanta_navegar_en_el_lago",
+      "target": [
+        {
+          "text": "Me encanta navegar en el lago.",
+          "audioSlug": "me_encanta_navegar_en_el_lago"
+        }
+      ]
+    },
+    "es.descripciones_ese_perro_es_delgado_y_rapido": {
+      "conceptId": "es.descripciones_ese_perro_es_delgado_y_rapido",
+      "id": "descripciones_ese_perro_es_delgado_y_rapido",
+      "target": [
+        {
+          "text": "Ese perro es delgado y rápido.",
+          "audioSlug": "ese_perro_es_delgado_y_rapido"
+        }
+      ]
+    },
+    "es.descripciones_esta_bolsa_es_muy_pesada": {
+      "conceptId": "es.descripciones_esta_bolsa_es_muy_pesada",
+      "id": "descripciones_esta_bolsa_es_muy_pesada",
+      "target": [
+        {
+          "text": "Esta bolsa es muy pesada.",
+          "audioSlug": "esta_bolsa_es_muy_pesada"
+        }
+      ]
+    },
+    "es.emociones_are_you_okay": {
+      "conceptId": "es.emociones_are_you_okay",
+      "id": "emociones_are_you_okay",
+      "target": [
+        {
+          "text": "¿Estás bien?",
+          "audioSlug": "estas_bien"
+        }
+      ]
+    },
+    "es.greetings_te_deseo_un_feliz_cumpleanos": {
+      "conceptId": "es.greetings_te_deseo_un_feliz_cumpleanos",
+      "id": "greetings_te_deseo_un_feliz_cumpleanos",
+      "target": [
+        {
+          "text": "Te deseo un feliz cumpleaños.",
+          "audioSlug": "te_deseo_un_feliz_cumpleanos"
+        }
+      ]
+    },
+    "es.kitchen_falta_un_ingrediente_en_la_receta": {
+      "conceptId": "es.kitchen_falta_un_ingrediente_en_la_receta",
+      "id": "kitchen_falta_un_ingrediente_en_la_receta",
+      "target": [
+        {
+          "text": "Falta un ingrediente en la receta.",
+          "audioSlug": "falta_un_ingrediente_en_la_receta"
+        }
+      ]
+    },
+    "es.kitchen_the_stove_doesnt_seem_to_be": {
+      "conceptId": "es.kitchen_the_stove_doesnt_seem_to_be",
+      "id": "kitchen_the_stove_doesnt_seem_to_be",
+      "target": [
+        {
+          "text": "La estufa no parece estar funcionando.",
+          "audioSlug": "la_estufa_no_parece_estar_funcionando"
+        }
+      ]
+    },
+    "es.restaurant_could_i_have_my_coffee_with": {
+      "conceptId": "es.restaurant_could_i_have_my_coffee_with",
+      "id": "restaurant_could_i_have_my_coffee_with",
+      "target": [
+        {
+          "text": "¿Podría tomar mi café con leche de almendras, por favor?",
+          "audioSlug": "podria_tomar_mi_cafe_con_leche_de_almendras_por_favor"
+        }
+      ]
+    },
+    "es.sitios_el_puente_cruza_el_rio": {
+      "conceptId": "es.sitios_el_puente_cruza_el_rio",
+      "id": "sitios_el_puente_cruza_el_rio",
+      "target": [
+        {
+          "text": "El puente cruza el río.",
+          "audioSlug": "el_puente_cruza_el_rio"
+        }
+      ]
+    },
+    "es.vestimenta_necesito_guantes_en_invierno": {
+      "conceptId": "es.vestimenta_necesito_guantes_en_invierno",
+      "id": "vestimenta_necesito_guantes_en_invierno",
+      "target": [
+        {
+          "text": "Necesito guantes en invierno.",
+          "audioSlug": "necesito_guantes_en_invierno"
+        }
+      ]
+    }
+  }
+}

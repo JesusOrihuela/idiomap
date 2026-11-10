@@ -1,34 +1,358 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "planes",
-  "conceptIds": [
-    "es.planes_im_going_to_travel_to_spain",
-    "es.planes_i_want_to_learn_spanish",
-    "es.planes_what_are_you_doing_tomorrow",
-    "es.planes_i_plan_to_buy_a_house",
-    "es.planes_i_plan_to_buy_a_car",
-    "es.planes_we_are_going_to_get_married",
-    "es.planes_i_hope_to_come_back_soon",
-    "es.planes_i_want_to_reach_my_goals",
-    "es.planes_next_year_im_going_to_move",
-    "es.planes_debo_tomar_una_decision",
-    "es.planes_voy_a_intentar_hacerlo_mejor",
-    "es.planes_quiero_conseguir_un_buen_trabajo",
-    "es.planes_pienso_seguir_estudiando",
-    "es.planes_algun_dia_quiero_conocer_japon",
-    "es.planes_voy_a_pedir_ayuda",
-    "es.planes_quiero_quedarme_aqui_mas_tiempo",
-    "es.planes_voy_a_buscar_trabajo",
-    "es.planes_le_voy_a_contar_mi_plan",
-    "es.planes_voy_a_mudarme_a_otra_ciudad",
-    "es.planes_quiero_mejorar_mi_nivel_de_espanol",
-    "es.planes_espero_cumplir_mi_promesa",
-    "es.planes_sueno_con_viajar_por_el_mundo",
-    "es.planes_debo_evitar_los_errores_del_pasado",
-    "es.planes_planeo_ahorrar_mas_este_ano",
-    "es.planes_ojala_pueda_descansar_pronto",
-    "es.planes_el_proyecto_se_va_a_convertir_en_algo_grande",
-    "es.planes_tengo_la_intencion_de_estudiar_mas"
+  "phrases": [
+    {
+      "conceptId": "es.planes_im_going_to_travel_to_spain",
+      "level": "A2",
+      "grammar": "ir a más infinitivo expresa un plan cercano, voy a viajar.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e4317f5463e4513c"
+    },
+    {
+      "conceptId": "es.planes_i_want_to_learn_spanish",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.42ab8255a7403522"
+    },
+    {
+      "conceptId": "es.planes_what_are_you_doing_tomorrow",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.338803cfd1f4f155"
+    },
+    {
+      "conceptId": "es.planes_i_plan_to_buy_a_house",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e8b64f725ac3f1cf"
+    },
+    {
+      "conceptId": "es.planes_i_plan_to_buy_a_car",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.442c7e60dca9b4d2"
+    },
+    {
+      "conceptId": "es.planes_we_are_going_to_get_married",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b6adbf95bb35e943"
+    },
+    {
+      "conceptId": "es.planes_i_hope_to_come_back_soon",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e2b56d94701393bd"
+    },
+    {
+      "conceptId": "es.planes_i_want_to_reach_my_goals",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2f1cacaa98141236"
+    },
+    {
+      "conceptId": "es.planes_next_year_im_going_to_move",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.11720845f017810a"
+    },
+    {
+      "conceptId": "es.planes_debo_tomar_una_decision",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.271640c2f1563667"
+    },
+    {
+      "conceptId": "es.planes_voy_a_intentar_hacerlo_mejor",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5fd1a242b496f14e"
+    },
+    {
+      "conceptId": "es.planes_quiero_conseguir_un_buen_trabajo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f34dbb8df302da8d"
+    },
+    {
+      "conceptId": "es.planes_pienso_seguir_estudiando",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9d8b42cde97fe2ca"
+    },
+    {
+      "conceptId": "es.planes_algun_dia_quiero_conocer_japon",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.db5f3d580f3afc46"
+    },
+    {
+      "conceptId": "es.planes_voy_a_pedir_ayuda",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4a95dd08702da018"
+    },
+    {
+      "conceptId": "es.planes_quiero_quedarme_aqui_mas_tiempo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8f8807810b1fad8b"
+    },
+    {
+      "conceptId": "es.planes_voy_a_buscar_trabajo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bddd3ee4fe36f243"
+    },
+    {
+      "conceptId": "es.planes_le_voy_a_contar_mi_plan",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9c58a6ed79760af6"
+    },
+    {
+      "conceptId": "es.planes_voy_a_mudarme_a_otra_ciudad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.05c8192a05566ae2"
+    },
+    {
+      "conceptId": "es.planes_quiero_mejorar_mi_nivel_de_espanol",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.21470b32a4ec5d84"
+    },
+    {
+      "conceptId": "es.planes_espero_cumplir_mi_promesa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f04947d4eb49ba99"
+    },
+    {
+      "conceptId": "es.planes_sueno_con_viajar_por_el_mundo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.99e4f368111f0e06"
+    },
+    {
+      "conceptId": "es.planes_debo_evitar_los_errores_del_pasado",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.68e9d22b12e7882a"
+    },
+    {
+      "conceptId": "es.planes_planeo_ahorrar_mas_este_ano",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e2ca45f2e7e4a5a6"
+    },
+    {
+      "conceptId": "es.planes_ojala_pueda_descansar_pronto",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ce1215009b2cea1b"
+    },
+    {
+      "conceptId": "es.planes_el_proyecto_se_va_a_convertir_en_algo_grande",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.df411b996dfc317c"
+    },
+    {
+      "conceptId": "es.planes_tengo_la_intencion_de_estudiar_mas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.25b19290d7dcb4d9"
+    }
   ]
 }

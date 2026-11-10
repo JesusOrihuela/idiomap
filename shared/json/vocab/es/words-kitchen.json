@@ -19,7 +19,13 @@
       "gloss_example": {
         "en": "This is my grandmother's secret recipe for apple pie."
       },
-      "conceptId": "es.recipe"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ingredient",
@@ -40,7 +46,13 @@
       "gloss_example": {
         "en": "You only need a few fresh ingredients to make this meal."
       },
-      "conceptId": "es.ingredient"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "boil",
@@ -61,7 +73,13 @@
       "gloss_example": {
         "en": "Boil the pasta for ten minutes until it is al dente."
       },
-      "conceptId": "es.boil"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "blend",
@@ -98,7 +116,13 @@
           "audioSlug": "licuar"
         }
       ],
-      "conceptId": "es.blend"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "preheat",
@@ -119,7 +143,13 @@
       "gloss_example": {
         "en": "Preheat the oven to 180°C before putting in the cake."
       },
-      "conceptId": "es.preheat"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "whisk",
@@ -140,7 +170,13 @@
       "gloss_example": {
         "en": "Whisk the eggs until they are light and fluffy."
       },
-      "conceptId": "es.whisk"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "dice",
@@ -161,7 +197,13 @@
       "gloss_example": {
         "en": "Dice the onion and garlic finely before adding them to the pan."
       },
-      "conceptId": "es.dice"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "marinate",
@@ -182,7 +224,13 @@
       "gloss_example": {
         "en": "Marinate the chicken in lemon juice and herbs for two hours."
       },
-      "conceptId": "es.marinate"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "grate",
@@ -203,7 +251,13 @@
       "gloss_example": {
         "en": "Grate the cheese over the pasta just before serving."
       },
-      "conceptId": "es.grate"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "batter",
@@ -224,7 +278,13 @@
       "gloss_example": {
         "en": "Dip the fish pieces in the batter before frying them."
       },
-      "conceptId": "es.batter"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "utensil",
@@ -245,7 +305,13 @@
       "gloss_example": {
         "en": "Make sure all cooking utensils are clean before you start."
       },
-      "conceptId": "es.utensil"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "simmer",
@@ -266,7 +332,13 @@
       "gloss_example": {
         "en": "Let the soup simmer on low heat for about twenty minutes."
       },
-      "conceptId": "es.simmer"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "saut",
@@ -287,7 +359,13 @@
       "gloss_example": {
         "en": "Sauté the mushrooms in butter for about two minutes."
       },
-      "conceptId": "es.saut"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "knead",
@@ -308,7 +386,13 @@
       "gloss_example": {
         "en": "Knead the bread dough for ten minutes until it is smooth and elastic."
       },
-      "conceptId": "es.knead"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "broil",
@@ -329,7 +413,13 @@
       "gloss_example": {
         "en": "Broil the fish fillets for about five minutes on each side."
       },
-      "conceptId": "es.broil"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "deglaze",
@@ -350,7 +440,13 @@
       "gloss_example": {
         "en": "Deglaze the pan with cognac and scrape up all the browned bits."
       },
-      "conceptId": "es.deglaze"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "emulsify",
@@ -371,7 +467,13 @@
       "gloss_example": {
         "en": "Mustard helps emulsify the dressing, keeping the oil and vinegar combined."
       },
-      "conceptId": "es.emulsify"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "braise",
@@ -408,7 +510,13 @@
           "audioSlug": "estofar"
         }
       ],
-      "conceptId": "es.braise"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "render",
@@ -445,7 +553,13 @@
           "audioSlug": "fundir_la_grasa"
         }
       ],
-      "conceptId": "es.render"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "blanch",
@@ -482,7 +596,13 @@
           "audioSlug": "escaldar"
         }
       ],
-      "conceptId": "es.blanch"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "spherification",
@@ -503,7 +623,13 @@
       "gloss_example": {
         "en": "The chef used spherification to create olive oil pearls that burst in the mouth."
       },
-      "conceptId": "es.spherification"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "temper",
@@ -524,7 +650,13 @@
       "gloss_example": {
         "en": "If you don't temper the chocolate properly, it will look dull and have a crumbly texture."
       },
-      "conceptId": "es.temper"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "maillard",
@@ -545,7 +677,13 @@
       "gloss_example": {
         "en": "Understanding the Maillard reaction explains why searing meat before braising develops so much more flavor."
       },
-      "conceptId": "es.maillard"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "roux",
@@ -566,7 +704,13 @@
       "gloss_example": {
         "en": "Make a roux by cooking the butter and flour together for two minutes before adding the milk."
       },
-      "conceptId": "es.roux"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "fold",
@@ -603,7 +747,13 @@
           "audioSlug": "incorporar"
         }
       ],
-      "conceptId": "es.fold"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "umami",
@@ -624,7 +774,13 @@
       "gloss_example": {
         "en": "Adding a splash of soy sauce enhances the umami and brings the whole dish together."
       },
-      "conceptId": "es.umami"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "comida",
@@ -645,7 +801,13 @@
       "gloss_example": {
         "en": "The food is ready."
       },
-      "conceptId": "es.comida"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "azucar",
@@ -666,7 +828,13 @@
       "gloss_example": {
         "en": "I don't put sugar in my coffee."
       },
-      "conceptId": "es.azucar"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "aceite",
@@ -687,7 +855,13 @@
       "gloss_example": {
         "en": "Add oil to the pan."
       },
-      "conceptId": "es.aceite"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "botella",
@@ -708,7 +882,13 @@
       "gloss_example": {
         "en": "I bought a bottle of water."
       },
-      "conceptId": "es.botella"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "napkin",
@@ -729,7 +909,13 @@
       "gloss_example": {
         "en": "She placed a napkin next to each plate."
       },
-      "conceptId": "es.napkin"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

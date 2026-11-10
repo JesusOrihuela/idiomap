@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "pt",
+  "bucket": "1e",
+  "concepts": {
+    "pt.personal_info_i_am_from_brazil": {
+      "conceptId": "pt.personal_info_i_am_from_brazil",
+      "id": "personal_info_i_am_from_brazil",
+      "target": [
+        {
+          "text": "Sou do Brasil.",
+          "audioSlug": "sou_do_brasil"
+        }
+      ]
+    }
+  }
+}

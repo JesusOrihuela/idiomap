@@ -1,37 +1,397 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "hogar",
-  "conceptIds": [
-    "es.hogar_eres_mi_invitado",
-    "es.hogar_el_salon_es_grande",
-    "es.hogar_la_pared_es_blanca",
-    "es.hogar_es_una_mesa_de_madera",
-    "es.hogar_vamos_a_construir_una_casa",
-    "es.hogar_cierra_la_puerta_al_salir",
-    "es.hogar_puedes_abrir_la_ventana",
-    "es.hogar_los_muebles_son_nuevos",
-    "es.hogar_vivo_en_un_apartamento_pequeno",
-    "es.hogar_mi_habitacion_esta_en_el_segundo_piso",
-    "es.hogar_enciende_la_luz_por_favor",
-    "es.hogar_el_techo_tiene_una_gotera",
-    "es.hogar_sientete_como_en_tu_casa",
-    "es.hogar_hay_que_limpiar_la_cocina",
-    "es.hogar_la_casa_tiene_tres_dormitorios",
-    "es.hogar_barre_el_suelo_por_favor",
-    "es.hogar_apaga_la_luz_antes_de_dormir",
-    "es.hogar_el_sofa_es_comodo",
-    "es.hogar_hay_un_sillon_junto_a_la_ventana",
-    "es.hogar_el_ascensor_no_funciona",
-    "es.hogar_subimos_por_la_escalera",
-    "es.hogar_el_garaje_esta_debajo_del_edificio",
-    "es.hogar_el_bano_tiene_una_ducha_grande",
-    "es.hogar_me_lavo_las_manos_en_el_lavabo",
-    "es.hogar_la_calefaccion_esta_encendida",
-    "es.hogar_necesito_jabon_para_lavarme",
-    "es.hogar_salimos_a_la_terraza",
-    "es.hogar_los_libros_estan_en_la_estanteria",
-    "es.hogar_la_banera_es_muy_grande",
-    "es.hogar_la_lavadora_no_funciona"
+  "phrases": [
+    {
+      "conceptId": "es.hogar_eres_mi_invitado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1602dbe2f09e77a0"
+    },
+    {
+      "conceptId": "es.hogar_el_salon_es_grande",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bca4bd2664f16362"
+    },
+    {
+      "conceptId": "es.hogar_la_pared_es_blanca",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9b0bed9fa8d2e03f"
+    },
+    {
+      "conceptId": "es.hogar_es_una_mesa_de_madera",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d7e793d7cfdbe27c"
+    },
+    {
+      "conceptId": "es.hogar_vamos_a_construir_una_casa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.578b4aaf5755081a"
+    },
+    {
+      "conceptId": "es.hogar_cierra_la_puerta_al_salir",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.378194ed7e0dc88e"
+    },
+    {
+      "conceptId": "es.hogar_puedes_abrir_la_ventana",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.58a433ecf821d5d0"
+    },
+    {
+      "conceptId": "es.hogar_los_muebles_son_nuevos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2a80a7f369d15de0"
+    },
+    {
+      "conceptId": "es.hogar_vivo_en_un_apartamento_pequeno",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cdc2fa3f1ef9bc7d"
+    },
+    {
+      "conceptId": "es.hogar_mi_habitacion_esta_en_el_segundo_piso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1315b18b3df05ce3"
+    },
+    {
+      "conceptId": "es.hogar_enciende_la_luz_por_favor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b80d11d29673d9f8"
+    },
+    {
+      "conceptId": "es.hogar_el_techo_tiene_una_gotera",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e0d8eb2db9ca7c0e"
+    },
+    {
+      "conceptId": "es.hogar_sientete_como_en_tu_casa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0c890f78b53dfcc5"
+    },
+    {
+      "conceptId": "es.hogar_hay_que_limpiar_la_cocina",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.55a2f0dd6ffebc40"
+    },
+    {
+      "conceptId": "es.hogar_la_casa_tiene_tres_dormitorios",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c746c38b07933718"
+    },
+    {
+      "conceptId": "es.hogar_barre_el_suelo_por_favor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4eb22f8d8267851f"
+    },
+    {
+      "conceptId": "es.hogar_apaga_la_luz_antes_de_dormir",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6cd1c530360b90a2"
+    },
+    {
+      "conceptId": "es.hogar_el_sofa_es_comodo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.29b4a6eb8f112c2d"
+    },
+    {
+      "conceptId": "es.hogar_hay_un_sillon_junto_a_la_ventana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2483aa9b7360a785"
+    },
+    {
+      "conceptId": "es.hogar_el_ascensor_no_funciona",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.434e772af61fe897"
+    },
+    {
+      "conceptId": "es.hogar_subimos_por_la_escalera",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.03377e4c0e6bf924"
+    },
+    {
+      "conceptId": "es.hogar_el_garaje_esta_debajo_del_edificio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5097880eb0ec4c30"
+    },
+    {
+      "conceptId": "es.hogar_el_bano_tiene_una_ducha_grande",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.495f4268450b28a8"
+    },
+    {
+      "conceptId": "es.hogar_me_lavo_las_manos_en_el_lavabo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.03b0c61a67b6ec08"
+    },
+    {
+      "conceptId": "es.hogar_la_calefaccion_esta_encendida",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.019e2cc55cef3c5d"
+    },
+    {
+      "conceptId": "es.hogar_necesito_jabon_para_lavarme",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ff608ed573893828"
+    },
+    {
+      "conceptId": "es.hogar_salimos_a_la_terraza",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.355debebbdbfdf32"
+    },
+    {
+      "conceptId": "es.hogar_los_libros_estan_en_la_estanteria",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.34b7dff3141e2f00"
+    },
+    {
+      "conceptId": "es.hogar_la_banera_es_muy_grande",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5ce8f84375f24853"
+    },
+    {
+      "conceptId": "es.hogar_la_lavadora_no_funciona",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.af3109c58f75528a"
+    }
   ]
 }

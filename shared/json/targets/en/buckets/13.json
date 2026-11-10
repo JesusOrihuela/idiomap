@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "13",
+  "concepts": {
+    "en.accountability_depreciation_must_be_calculated_using": {
+      "conceptId": "en.accountability_depreciation_must_be_calculated_using",
+      "id": "accountability_depreciation_must_be_calculated_using",
+      "target": [
+        {
+          "text": "Depreciation must be calculated using the straight-line method for fixed assets.",
+          "audioSlug": "depreciation_must_be_calculated_using_the_straight_line_method_for_fixed_assets"
+        }
+      ]
+    },
+    "en.cotidianidad_i_don_t_stop_all_day": {
+      "conceptId": "en.cotidianidad_i_don_t_stop_all_day",
+      "id": "cotidianidad_i_don_t_stop_all_day",
+      "target": [
+        {
+          "text": "I don't stop all day.",
+          "audioSlug": "i_don_t_stop_all_day"
+        }
+      ]
+    },
+    "en.profesiones_he_is_a_young_officer": {
+      "conceptId": "en.profesiones_he_is_a_young_officer",
+      "id": "profesiones_he_is_a_young_officer",
+      "target": [
+        {
+          "text": "He is a young officer.",
+          "audioSlug": "he_is_a_young_officer"
+        }
+      ]
+    },
+    "en.theater_monologue_extraordinary_restraint": {
+      "conceptId": "en.theater_monologue_extraordinary_restraint",
+      "id": "theater_monologue_extraordinary_restraint",
+      "target": [
+        {
+          "text": "The third-act monologue demanded extraordinary emotional range.",
+          "audioSlug": "the_third_act_monologue_demanded_extraordinary_emotional_range"
+        }
+      ]
+    }
+  }
+}

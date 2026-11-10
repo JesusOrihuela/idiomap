@@ -1,25 +1,241 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "accommodation",
-  "conceptIds": [
-    "es.accommodation_tengo_una_reserva",
-    "es.accommodation_tienen_habitaciones_libres",
-    "es.accommodation_quisiera_una_habitacion_doble",
-    "es.accommodation_a_que_hora_dejar_la_habitacion",
-    "es.accommodation_el_desayuno_esta_incluido",
-    "es.accommodation_donde_esta_el_ascensor",
-    "es.accommodation_el_aire_acondicionado_no_funciona",
-    "es.accommodation_hay_wifi_en_la_habitacion",
-    "es.accommodation_quisiera_quedarme_una_noche_mas",
-    "es.accommodation_la_habitacion_esta_sucia",
-    "es.accommodation_la_recepcion_esta_en_la_planta_baja",
-    "es.accommodation_necesito_otra_toalla",
-    "es.accommodation_la_cama_es_muy_comoda",
-    "es.accommodation_me_da_la_llave_de_la_habitacion",
-    "es.accommodation_el_hotel_ofrece_servicio_de_limpieza",
-    "es.accommodation_los_huespedes_pueden_usar_la_piscina",
-    "es.accommodation_el_precio_incluye_el_desayuno",
-    "es.accommodation_a_que_hora_abre_el_restaurante"
+  "phrases": [
+    {
+      "conceptId": "es.accommodation_tengo_una_reserva",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e98b0ce88a9fdedf"
+    },
+    {
+      "conceptId": "es.accommodation_tienen_habitaciones_libres",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e5bbf06ee9e5860a"
+    },
+    {
+      "conceptId": "es.accommodation_quisiera_una_habitacion_doble",
+      "level": "A2",
+      "grammar": "quisiera es una forma cortés para pedir, más suave que quiero.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d971e049df3d8491"
+    },
+    {
+      "conceptId": "es.accommodation_a_que_hora_dejar_la_habitacion",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5bcfb35df60bdca7"
+    },
+    {
+      "conceptId": "es.accommodation_el_desayuno_esta_incluido",
+      "level": "A2",
+      "grammar": "estar más participio expresa un resultado, está incluido.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bbdf6856bf998f86"
+    },
+    {
+      "conceptId": "es.accommodation_donde_esta_el_ascensor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e2be4f0af9ba6b79"
+    },
+    {
+      "conceptId": "es.accommodation_el_aire_acondicionado_no_funciona",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8ae2ca5d2db7f3d1"
+    },
+    {
+      "conceptId": "es.accommodation_hay_wifi_en_la_habitacion",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5f7528504cf0cf92"
+    },
+    {
+      "conceptId": "es.accommodation_quisiera_quedarme_una_noche_mas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.94e490e91be3965d"
+    },
+    {
+      "conceptId": "es.accommodation_la_habitacion_esta_sucia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a05b19bd4e02de6a"
+    },
+    {
+      "conceptId": "es.accommodation_la_recepcion_esta_en_la_planta_baja",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2b9ce87354ea7038"
+    },
+    {
+      "conceptId": "es.accommodation_necesito_otra_toalla",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f8e1126134e41582"
+    },
+    {
+      "conceptId": "es.accommodation_la_cama_es_muy_comoda",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8c138a826f8f8c7b"
+    },
+    {
+      "conceptId": "es.accommodation_me_da_la_llave_de_la_habitacion",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ed49d4db7982b0c1"
+    },
+    {
+      "conceptId": "es.accommodation_el_hotel_ofrece_servicio_de_limpieza",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.214cef65cb996cac"
+    },
+    {
+      "conceptId": "es.accommodation_los_huespedes_pueden_usar_la_piscina",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.af0b9e216beac616"
+    },
+    {
+      "conceptId": "es.accommodation_el_precio_incluye_el_desayuno",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.730fce4457754b3d"
+    },
+    {
+      "conceptId": "es.accommodation_a_que_hora_abre_el_restaurante",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.502a4d10db56cb84"
+    }
   ]
 }

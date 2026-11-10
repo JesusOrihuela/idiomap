@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "c9",
+  "concepts": {
+    "en.describiendo_personas_she_is_a_smart_girl": {
+      "conceptId": "en.describiendo_personas_she_is_a_smart_girl",
+      "id": "describiendo_personas_she_is_a_smart_girl",
+      "target": [
+        {
+          "text": "She is a smart girl.",
+          "audioSlug": "she_is_a_smart_girl"
+        }
+      ]
+    },
+    "en.greetings_good_morning_its_nice_to_see": {
+      "conceptId": "en.greetings_good_morning_its_nice_to_see",
+      "id": "greetings_good_morning_its_nice_to_see",
+      "target": [
+        {
+          "text": "Good morning, it's nice to see you.",
+          "audioSlug": "good_morning_it_s_nice_to_see_you",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Good morning, it's a pleasure to see you.",
+          "audioSlug": "good_morning_it_s_a_pleasure_to_see_you",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.gym_could_you_inform_me_about_the": {
+      "conceptId": "en.gym_could_you_inform_me_about_the",
+      "id": "gym_could_you_inform_me_about_the",
+      "target": [
+        {
+          "text": "Could you inform me about the membership plans you offer?",
+          "audioSlug": "could_you_inform_me_about_the_membership_plans_you_offer",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you inform me about the membership plans you offer?",
+          "audioSlug": "can_you_inform_me_about_the_membership_plans_you_offer",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.health_i_want_an_appointment": {
+      "conceptId": "en.health_i_want_an_appointment",
+      "id": "health_i_want_an_appointment",
+      "target": [
+        {
+          "text": "I'd like to make an appointment.",
+          "audioSlug": "i_d_like_to_make_an_appointment"
+        }
+      ]
+    },
+    "en.technology_i_cant_open_this_file_what": {
+      "conceptId": "en.technology_i_cant_open_this_file_what",
+      "id": "technology_i_cant_open_this_file_what",
+      "target": [
+        {
+          "text": "I can't open this file, what format is it in?",
+          "audioSlug": "i_can_t_open_this_file_what_format_is_it_in"
+        }
+      ]
+    },
+    "en.technology_i_recommend_using_a_strong_and": {
+      "conceptId": "en.technology_i_recommend_using_a_strong_and",
+      "id": "technology_i_recommend_using_a_strong_and",
+      "target": [
+        {
+          "text": "Use a strong, unique password for each account.",
+          "audioSlug": "use_a_strong_unique_password_for_each_account"
+        }
+      ]
+    },
+    "en.technology_phone_froze": {
+      "conceptId": "en.technology_phone_froze",
+      "id": "technology_phone_froze",
+      "target": [
+        {
+          "text": "My phone froze.",
+          "audioSlug": "my_phone_froze"
+        }
+      ]
+    },
+    "en.technology_the_battery_life_significantly_improved_after": {
+      "conceptId": "en.technology_the_battery_life_significantly_improved_after",
+      "id": "technology_the_battery_life_significantly_improved_after",
+      "target": [
+        {
+          "text": "The battery life significantly improved after I turned off background app refresh.",
+          "audioSlug": "the_battery_life_significantly_improved_after_i_turned_off_background_app_refresh"
+        }
+      ]
+    },
+    "en.technology_the_company_acknowledged_a_data": {
+      "conceptId": "en.technology_the_company_acknowledged_a_data",
+      "id": "technology_the_company_acknowledged_a_data",
+      "target": [
+        {
+          "text": "The company acknowledged a data breach but hasn't disclosed how many accounts were compromised.",
+          "audioSlug": "the_company_acknowledged_a_data_breach_but_hasn_t_disclosed_how_many_accounts_were_compromised"
+        }
+      ]
+    }
+  }
+}

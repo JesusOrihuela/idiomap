@@ -1,0 +1,863 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "transportation",
+  "phrases": [
+    {
+      "id": "transportation_order_taxi_morning",
+      "conceptId": "es.transportation_order_taxi_morning",
+      "sourceId": "en.s.fab01b3d1b50722a",
+      "source": "Order a taxi for tomorrow morning.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Pide un taxi para mañana por la mañana.",
+          "audioSlug": "pide_un_taxi_para_manana_por_la_manana"
+        }
+      ]
+    },
+    {
+      "id": "transportation_where_taxi_stand",
+      "conceptId": "es.transportation_where_taxi_stand",
+      "sourceId": "en.s.8b71475053041b34",
+      "source": "Where is the taxi stand?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la parada de taxis?",
+          "audioSlug": "donde_esta_la_parada_de_taxis"
+        }
+      ]
+    },
+    {
+      "id": "transportation_how_get_bus_stop",
+      "conceptId": "es.transportation_how_get_bus_stop",
+      "sourceId": "en.s.b1183f096cab1a26",
+      "source": "How do I get to the bus stop from here?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo llego a la parada de autobús desde aquí?",
+          "audioSlug": "como_llego_a_la_parada_de_autobus_desde_aqui"
+        }
+      ]
+    },
+    {
+      "id": "transportation_nearest_bus_stop",
+      "conceptId": "es.transportation_nearest_bus_stop",
+      "sourceId": "en.s.05b9c031b2cfd9a7",
+      "source": "Where is the nearest bus stop?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la parada de autobús más cercana?",
+          "audioSlug": "donde_esta_la_parada_de_autobus_mas_cercana"
+        }
+      ]
+    },
+    {
+      "id": "transportation_where_rent_bike",
+      "conceptId": "es.transportation_where_rent_bike",
+      "sourceId": "en.s.17b5681afdea7d95",
+      "source": "Where can I rent a bike?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde puedo alquilar una bicicleta?",
+          "audioSlug": "donde_puedo_alquilar_una_bicicleta"
+        }
+      ]
+    },
+    {
+      "id": "transportation_boat_arrive_port",
+      "conceptId": "es.transportation_boat_arrive_port",
+      "sourceId": "en.s.8232999a3b3aa330",
+      "source": "What time does our boat arrive at the port?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿A qué hora llega nuestro barco al puerto?",
+          "audioSlug": "a_que_hora_llega_nuestro_barco_al_puerto"
+        }
+      ]
+    },
+    {
+      "id": "transportation_rental_car_location",
+      "conceptId": "es.transportation_rental_car_location",
+      "sourceId": "en.s.fa1c44038f081d91",
+      "source": "I don't know where to get a rental car.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No sé dónde conseguir un carro de alquiler.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "no_se_donde_conseguir_un_carro_de_alquiler"
+        },
+        {
+          "text": "No sé dónde conseguir un coche de alquiler.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "no_se_donde_conseguir_un_coche_de_alquiler"
+        },
+        {
+          "text": "No sé dónde conseguir un auto de alquiler.",
+          "labels": {
+            "region": "Cono Sur"
+          },
+          "audioSlug": "no_se_donde_conseguir_un_auto_de_alquiler"
+        }
+      ]
+    },
+    {
+      "id": "transportation_buy_train_ticket",
+      "conceptId": "es.transportation_buy_train_ticket",
+      "sourceId": "en.s.44150fd34c4387d9",
+      "source": "I need to buy a ticket for the high-speed train.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito comprar un boleto para el tren de alta velocidad.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "necesito_comprar_un_boleto_para_el_tren_de_alta_velocidad"
+        },
+        {
+          "text": "Necesito comprar un billete para el tren de alta velocidad.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "necesito_comprar_un_billete_para_el_tren_de_alta_velocidad"
+        }
+      ]
+    },
+    {
+      "id": "transportation_taxi_fare_city",
+      "conceptId": "es.transportation_taxi_fare_city",
+      "sourceId": "en.s.b149382417e142bd",
+      "source": "What is the taxi fare to the center?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuál es la tarifa de un taxi al centro?",
+          "audioSlug": "cual_es_la_tarifa_de_un_taxi_al_centro"
+        }
+      ]
+    },
+    {
+      "id": "transportation_payment_airport_transfer",
+      "conceptId": "es.transportation_payment_airport_transfer",
+      "sourceId": "en.s.f87675808c4ea96b",
+      "source": "I will pay extra to include the transfer to the airport.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Voy a pagar un adicional para incluir el traslado al aeropuerto.",
+          "audioSlug": "voy_a_pagar_un_adicional_para_incluir_el_traslado_al_aeropuerto"
+        }
+      ]
+    },
+    {
+      "id": "transportation_metro_faster_than_bus",
+      "conceptId": "es.transportation_metro_faster_than_bus",
+      "sourceId": "en.s.6f4fecbb0c1cacfa",
+      "source": "Is the metro faster than the bus right now?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿El metro es más rápido que el autobús ahora?",
+          "audioSlug": "el_metro_es_mas_rapido_que_el_autobus_ahora"
+        }
+      ]
+    },
+    {
+      "id": "transportation_subway_single_fare",
+      "conceptId": "es.transportation_subway_single_fare",
+      "sourceId": "en.s.504943b95f4d9500",
+      "source": "How much is a single-journey ticket for the subway?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuánto cuesta un boleto de viaje sencillo para el metro?",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "cuanto_cuesta_un_boleto_de_viaje_sencillo_para_el_metro"
+        },
+        {
+          "text": "¿Cuánto cuesta un billete de viaje sencillo para el metro?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "cuanto_cuesta_un_billete_de_viaje_sencillo_para_el_metro"
+        }
+      ]
+    },
+    {
+      "id": "transportation_weekly_travel_pass",
+      "conceptId": "es.transportation_weekly_travel_pass",
+      "sourceId": "en.s.c4363bca189c1b35",
+      "source": "I would like to buy a weekly transport pass.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gustaría comprar un pase semanal de transporte.",
+          "audioSlug": "me_gustaria_comprar_un_pase_semanal_de_transporte"
+        }
+      ]
+    },
+    {
+      "id": "transportation_bus_late_connection",
+      "conceptId": "es.transportation_bus_late_connection",
+      "sourceId": "en.s.67718186f2837d07",
+      "source": "The bus is late. Is there a connection at the next stop?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El autobús llega tarde, ¿hay conexión en la siguiente parada?",
+          "audioSlug": "el_autobus_llega_tarde_hay_conexion_en_la_siguiente_parada"
+        }
+      ]
+    },
+    {
+      "id": "transportation_call_cab_station",
+      "conceptId": "es.transportation_call_cab_station",
+      "sourceId": "en.s.4208fb4c66752ed2",
+      "source": "Could you call me a taxi to leave in twenty minutes?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Podría llamarme un taxi para salir en veinte minutos?",
+          "audioSlug": "podria_llamarme_un_taxi_para_salir_en_veinte_minutos"
+        }
+      ]
+    },
+    {
+      "id": "transportation_missed_train_next_one",
+      "conceptId": "es.transportation_missed_train_next_one",
+      "sourceId": "en.s.e5592d9ba26df8fb",
+      "source": "I missed my train. When does the next one leave?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Perdí mi tren, ¿cuándo sale el siguiente?",
+          "audioSlug": "perdi_mi_tren_cuando_sale_el_siguiente"
+        }
+      ]
+    },
+    {
+      "id": "transportation_luggage_locker_station",
+      "conceptId": "es.transportation_luggage_locker_station",
+      "sourceId": "en.s.b48bb551f5117abc",
+      "source": "Can I rent a luggage locker at the station before my train?",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedo alquilar una consigna en la estación antes de que salga mi tren?",
+          "audioSlug": "puedo_alquilar_una_consigna_en_la_estacion_antes_de_que_salga_mi_tren"
+        }
+      ]
+    },
+    {
+      "id": "transportation_carpooling_cuts_commute_costs",
+      "conceptId": "es.transportation_carpooling_cuts_commute_costs",
+      "sourceId": "en.s.25a5f3118e516a03",
+      "source": "My colleagues and I have started carpooling to work, which cuts our commute costs.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mis colegas y yo compartimos carro al trabajo para reducir los costos del traslado.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "mis_colegas_y_yo_compartimos_carro_al_trabajo_para_reducir_los_costos_del_traslado"
+        },
+        {
+          "text": "Mis colegas y yo compartimos coche al trabajo para reducir los costos del traslado.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "mis_colegas_y_yo_compartimos_coche_al_trabajo_para_reducir_los_costos_del_traslado"
+        },
+        {
+          "text": "Mis colegas y yo compartimos auto al trabajo para reducir los costos del traslado.",
+          "labels": {
+            "region": "Cono Sur"
+          },
+          "audioSlug": "mis_colegas_y_yo_compartimos_auto_al_trabajo_para_reducir_los_costos_del_traslado"
+        }
+      ]
+    },
+    {
+      "id": "transportation_delayed_apply_compensation",
+      "conceptId": "es.transportation_delayed_apply_compensation",
+      "sourceId": "en.s.1cef0ad289671962",
+      "source": "My train was delayed by over an hour. Can I apply for compensation?",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi tren se retrasó más de una hora, ¿puedo solicitar una compensación?",
+          "audioSlug": "mi_tren_se_retraso_mas_de_una_hora_puedo_solicitar_una_compensacion"
+        }
+      ]
+    },
+    {
+      "id": "transportation_avoid_peak_hours",
+      "conceptId": "es.transportation_avoid_peak_hours",
+      "sourceId": "en.s.7decf1b0e171e182",
+      "source": "I try to avoid traveling during peak hours because the metro is unbearably crowded.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Trato de evitar viajar en horas pico porque el metro está insoportablemente lleno.",
+          "audioSlug": "trato_de_evitar_viajar_en_horas_pico_porque_el_metro_esta_insoportablemente_lleno"
+        }
+      ]
+    },
+    {
+      "id": "transportation_metro_map_navigate",
+      "conceptId": "es.transportation_metro_map_navigate",
+      "sourceId": "en.s.b560622a8083c880",
+      "source": "I'm struggling with the metro map. Could you show me how to read it?",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo problemas con el mapa del metro, ¿podría mostrarme cómo leerlo?",
+          "audioSlug": "tengo_problemas_con_el_mapa_del_metro_podria_mostrarme_como_leerlo"
+        }
+      ]
+    },
+    {
+      "id": "transportation_driver_overcharged_complaint",
+      "conceptId": "es.transportation_driver_overcharged_complaint",
+      "sourceId": "en.s.417db67606700263",
+      "source": "The driver overcharged me compared to the meter. I'd like to file a complaint.",
+      "level": "B2",
+      "grammar": "'Lo que + verbo' nominaliza una idea y equivale al inglés 'what + verbo'.",
+      "target": [
+        {
+          "text": "Me cobró más de lo que marcaba el taxímetro y quisiera presentar una queja.",
+          "audioSlug": "me_cobro_mas_de_lo_que_marcaba_el_taximetro_y_quisiera_presentar_una_queja"
+        }
+      ]
+    },
+    {
+      "id": "transportation_reduced_fare_students",
+      "conceptId": "es.transportation_reduced_fare_students",
+      "sourceId": "en.s.a2171b63dc0bdb79",
+      "source": "Is there a reduced fare for senior citizens or students on this route?",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Hay una tarifa reducida para adultos mayores o estudiantes en esta ruta?",
+          "audioSlug": "hay_una_tarifa_reducida_para_adultos_mayores_o_estudiantes_en_esta_ruta"
+        }
+      ]
+    },
+    {
+      "id": "transportation_bike_brakes_faulty",
+      "conceptId": "es.transportation_bike_brakes_faulty",
+      "sourceId": "en.s.b96c04eb44ebbeeb",
+      "source": "The rental bike wasn't in the advertised condition. The brakes were faulty.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La bicicleta de alquiler no estaba en las condiciones descritas y los frenos fallaban.",
+          "audioSlug": "la_bicicleta_de_alquiler_no_estaba_en_las_condiciones_descritas_y_los_frenos_fallaban"
+        }
+      ]
+    },
+    {
+      "id": "transportation_rideshare_late_arrival",
+      "conceptId": "es.transportation_rideshare_late_arrival",
+      "sourceId": "en.s.04cebd9fd28f3ce5",
+      "source": "The driver arrives in seven minutes but I leave in five.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El conductor tarda siete minutos y yo salgo en cinco.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "el_conductor_tarda_siete_minutos_y_yo_salgo_en_cinco"
+        },
+        {
+          "text": "La conductora tarda siete minutos y yo salgo en cinco.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "la_conductora_tarda_siete_minutos_y_yo_salgo_en_cinco"
+        }
+      ]
+    },
+    {
+      "id": "transportation_monthly_multimodal_pass",
+      "conceptId": "es.transportation_monthly_multimodal_pass",
+      "sourceId": "en.s.33314cd3bf38413d",
+      "source": "I'd like a monthly pass that covers all modes of public transport in the city.",
+      "level": "C1",
+      "grammar": "'Que cubra' usa el subjuntivo en relativa indefinida; 'que cubre' si el referente ya existe.",
+      "target": [
+        {
+          "text": "Me gustaría un abono mensual que cubra todos los medios de transporte público de la ciudad.",
+          "audioSlug": "me_gustaria_un_abono_mensual_que_cubra_todos_los_medios_de_transporte_publico_de_la_ciudad"
+        }
+      ]
+    },
+    {
+      "id": "transportation_taxi_longer_route_fare",
+      "conceptId": "es.transportation_taxi_longer_route_fare",
+      "sourceId": "en.s.342d30368e83a9b8",
+      "source": "The driver took a noticeably longer route. I believe the fare should be adjusted accordingly.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El conductor tomó una ruta notablemente más larga y creo que la tarifa debería ajustarse.",
+          "audioSlug": "el_conductor_tomo_una_ruta_notablemente_mas_larga_y_creo_que_la_tarifa_deberia_ajustarse",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "La conductora tomó una ruta notablemente más larga y creo que la tarifa debería ajustarse.",
+          "audioSlug": "la_conductora_tomo_una_ruta_notablemente_mas_larga_y_creo_que_la_tarifa_deberia_ajustarse",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "transportation_cycling_lane_shared_road",
+      "conceptId": "es.transportation_cycling_lane_shared_road",
+      "sourceId": "en.s.0f80a803120a3bd8",
+      "source": "Is there a dedicated cycling lane on this route, or do cyclists share the road?",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Hay un carril bici exclusivo en esta ruta, o los ciclistas comparten la vía?",
+          "audioSlug": "hay_un_carril_bici_exclusivo_en_esta_ruta_o_los_ciclistas_comparten_la_via"
+        }
+      ]
+    },
+    {
+      "id": "transportation_cancelled_train_refund",
+      "conceptId": "es.transportation_cancelled_train_refund",
+      "sourceId": "en.s.7caa0baf9f3678f6",
+      "source": "The train was cancelled without prior notice. Am I entitled to a full refund?",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El tren fue cancelado sin aviso previo, ¿tengo derecho a un reembolso completo?",
+          "audioSlug": "el_tren_fue_cancelado_sin_aviso_previo_tengo_derecho_a_un_reembolso_completo"
+        }
+      ]
+    },
+    {
+      "id": "transportation_accessible_wheelchair_vehicle",
+      "conceptId": "es.transportation_accessible_wheelchair_vehicle",
+      "sourceId": "en.s.832c3faeb40144b1",
+      "source": "I need to arrange accessible transport. Do you have vehicles adapted for wheelchair users?",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito un transporte accesible, ¿tienen vehículos adaptados para usuarios de silla de ruedas?",
+          "audioSlug": "necesito_un_transporte_accesible_tienen_vehiculos_adaptados_para_usuarios_de_silla_de_ruedas"
+        }
+      ]
+    },
+    {
+      "id": "transportation_rental_liability_provisions",
+      "conceptId": "es.transportation_rental_liability_provisions",
+      "sourceId": "en.s.d000e07d71e62c0d",
+      "source": "I'd like to review the liability provisions in the rental agreement before signing.",
+      "level": "C2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gustaría revisar las cláusulas de responsabilidad en el contrato de alquiler antes de firmar.",
+          "audioSlug": "me_gustaria_revisar_las_clausulas_de_responsabilidad_en_el_contrato_de_alquiler_antes_de_firmar"
+        }
+      ]
+    },
+    {
+      "id": "transportation_penalty_charge_signage",
+      "conceptId": "es.transportation_penalty_charge_signage",
+      "sourceId": "en.s.f8c312f1a8583319",
+      "source": "I would like to formally dispute this penalty because the signage was insufficient.",
+      "level": "C2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quisiera impugnar esta sanción porque la señalización era insuficiente.",
+          "audioSlug": "quisiera_impugnar_esta_sancion_porque_la_senalizacion_era_insuficiente"
+        }
+      ]
+    },
+    {
+      "id": "transportation_does_this_bus_go",
+      "conceptId": "es.transportation_does_this_bus_go",
+      "sourceId": "en.s.fe1227c0163c44e0",
+      "source": "Does this bus go to the center?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Este autobús va al centro?",
+          "audioSlug": "este_autobus_va_al_centro"
+        }
+      ]
+    },
+    {
+      "id": "transportation_one_ticket_to",
+      "conceptId": "es.transportation_one_ticket_to",
+      "sourceId": "en.s.d3a5840882d1ba9e",
+      "source": "One ticket to the airport, please.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Un boleto al aeropuerto, por favor.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "un_boleto_al_aeropuerto_por_favor"
+        },
+        {
+          "text": "Un billete al aeropuerto, por favor.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "un_billete_al_aeropuerto_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "transportation_which_platform",
+      "conceptId": "es.transportation_which_platform",
+      "sourceId": "en.s.1a3daa7810af0c53",
+      "source": "Which platform does the train to Madrid leave from?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿De qué andén sale el tren a Madrid?",
+          "audioSlug": "de_que_anden_sale_el_tren_a_madrid"
+        }
+      ]
+    },
+    {
+      "id": "transportation_stop_here_please",
+      "conceptId": "es.transportation_stop_here_please",
+      "sourceId": "en.s.172794de4e5657b1",
+      "source": "Stop here, please.",
+      "level": "A1",
+      "grammar": "'Pare' es el imperativo formal (usted), para dirigirse a un conductor.",
+      "target": [
+        {
+          "text": "Pare aquí, por favor.",
+          "audioSlug": "pare_aqui_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "transportation_take_me_to_address",
+      "conceptId": "es.transportation_take_me_to_address",
+      "sourceId": "en.s.35ed0367d33eeb9e",
+      "source": "Take me to this address, please.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Lléveme a esta dirección, por favor.",
+          "audioSlug": "lleveme_a_esta_direccion_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "transportation_when_next_bus",
+      "conceptId": "es.transportation_when_next_bus",
+      "sourceId": "en.s.3602e88854409e99",
+      "source": "When is the next bus?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuándo pasa el próximo autobús?",
+          "labels": {
+            "region": "General"
+          },
+          "audioSlug": "cuando_pasa_el_proximo_autobus"
+        },
+        {
+          "text": "¿Cuándo pasa el próximo camión?",
+          "labels": {
+            "region": "México"
+          },
+          "audioSlug": "cuando_pasa_el_proximo_camion"
+        },
+        {
+          "text": "¿Cuándo pasa el próximo colectivo?",
+          "labels": {
+            "region": "Argentina"
+          },
+          "audioSlug": "cuando_pasa_el_proximo_colectivo"
+        },
+        {
+          "text": "¿Cuándo pasa la próxima guagua?",
+          "labels": {
+            "region": "Caribe"
+          },
+          "audioSlug": "cuando_pasa_la_proxima_guagua"
+        }
+      ]
+    },
+    {
+      "id": "transportation_right_bus_for",
+      "conceptId": "es.transportation_right_bus_for",
+      "sourceId": "en.s.acc940104c67046a",
+      "source": "Is this the right bus for the museum?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Es este el autobús para el museo?",
+          "audioSlug": "es_este_el_autobus_para_el_museo"
+        }
+      ]
+    },
+    {
+      "id": "transportation_nearest_metro",
+      "conceptId": "es.transportation_nearest_metro",
+      "sourceId": "en.s.2559a382da3079bb",
+      "source": "Where is the nearest metro station?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la estación de metro más cercana?",
+          "audioSlug": "donde_esta_la_estacion_de_metro_mas_cercana"
+        }
+      ]
+    },
+    {
+      "id": "transportation_how_long_to_get",
+      "conceptId": "es.transportation_how_long_to_get",
+      "sourceId": "en.s.1e4de5b09722aebf",
+      "source": "How long does it take to get to the center?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuánto se tarda en llegar al centro?",
+          "audioSlug": "cuanto_se_tarda_en_llegar_al_centro"
+        }
+      ]
+    },
+    {
+      "id": "transportation_turn_on_meter",
+      "conceptId": "es.transportation_turn_on_meter",
+      "sourceId": "en.s.fe34c7f953612296",
+      "source": "Can you turn on the meter, please?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puede poner el taxímetro, por favor?",
+          "audioSlug": "puede_poner_el_taximetro_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "transportation_sabes_conducir",
+      "conceptId": "es.transportation_sabes_conducir",
+      "sourceId": "en.s.7318b03f09f36599",
+      "source": "Can you drive?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Sabes conducir?",
+          "labels": {
+            "register": "informal",
+            "region": "España"
+          },
+          "audioSlug": "sabes_conducir"
+        },
+        {
+          "text": "¿Sabe conducir?",
+          "labels": {
+            "register": "formal",
+            "region": "España"
+          },
+          "audioSlug": "sabe_conducir"
+        },
+        {
+          "text": "¿Sabes manejar?",
+          "labels": {
+            "register": "informal",
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "sabes_manejar"
+        },
+        {
+          "text": "¿Sabe manejar?",
+          "labels": {
+            "register": "formal",
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "sabe_manejar"
+        }
+      ]
+    },
+    {
+      "id": "transportation_donde_puedo_comprar_un_boleto",
+      "conceptId": "es.transportation_donde_puedo_comprar_un_boleto",
+      "sourceId": "en.s.ee4a706bce54be52",
+      "source": "Where can I buy a ticket?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde puedo comprar un boleto?",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "donde_puedo_comprar_un_boleto"
+        },
+        {
+          "text": "¿Dónde puedo comprar un billete?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "donde_puedo_comprar_un_billete"
+        }
+      ]
+    },
+    {
+      "id": "transportation_el_tren_es_muy_rapido",
+      "conceptId": "es.transportation_el_tren_es_muy_rapido",
+      "sourceId": "en.s.517cb6ef6f5a30f2",
+      "source": "The train is very fast.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El tren es muy rápido.",
+          "audioSlug": "el_tren_es_muy_rapido"
+        }
+      ]
+    },
+    {
+      "id": "transportation_el_autobus_es_lento",
+      "conceptId": "es.transportation_el_autobus_es_lento",
+      "sourceId": "en.s.d68e68bce823a53c",
+      "source": "The bus is slow.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El autobús es lento.",
+          "audioSlug": "el_autobus_es_lento"
+        }
+      ]
+    },
+    {
+      "id": "transportation_perdi_el_autobus",
+      "conceptId": "es.transportation_perdi_el_autobus",
+      "sourceId": "en.s.a1b4c28bafdcdc8f",
+      "source": "I missed the bus.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Perdí el autobús.",
+          "audioSlug": "perdi_el_autobus"
+        }
+      ]
+    },
+    {
+      "id": "transportation_voy_al_trabajo_en_moto",
+      "conceptId": "es.transportation_voy_al_trabajo_en_moto",
+      "sourceId": "en.s.9baeac9ee8fd45ab",
+      "source": "I go to work by motorcycle.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Voy al trabajo en moto.",
+          "audioSlug": "voy_al_trabajo_en_moto"
+        }
+      ]
+    },
+    {
+      "id": "transportation_busco_estacionamiento",
+      "conceptId": "es.transportation_busco_estacionamiento",
+      "sourceId": "en.s.d717b8fc447156dc",
+      "source": "I am looking for parking nearby.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Busco estacionamiento cerca.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "busco_estacionamiento_cerca"
+        },
+        {
+          "text": "Busco aparcamiento cerca.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "busco_aparcamiento_cerca"
+        }
+      ]
+    },
+    {
+      "id": "transportation_el_hotel_esta_en_una_avenida",
+      "conceptId": "es.transportation_el_hotel_esta_en_una_avenida",
+      "sourceId": "en.s.d3ce6621d10c059d",
+      "source": "The hotel is on a wide avenue.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El hotel está en una avenida ancha.",
+          "audioSlug": "el_hotel_esta_en_una_avenida_ancha"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "f0",
+  "concepts": {
+    "en.conversacion_ask_tom": {
+      "conceptId": "en.conversacion_ask_tom",
+      "id": "conversacion_ask_tom",
+      "target": [
+        {
+          "text": "Ask Tom.",
+          "audioSlug": "ask_tom"
+        }
+      ]
+    },
+    "en.conversacion_let_s_change_the_subject": {
+      "conceptId": "en.conversacion_let_s_change_the_subject",
+      "id": "conversacion_let_s_change_the_subject",
+      "target": [
+        {
+          "text": "Let's change the subject.",
+          "audioSlug": "let_s_change_the_subject"
+        }
+      ]
+    },
+    "en.music_what_kind_do_you_like": {
+      "conceptId": "en.music_what_kind_do_you_like",
+      "id": "music_what_kind_do_you_like",
+      "target": [
+        {
+          "text": "What kind of music do you like?",
+          "audioSlug": "what_kind_of_music_do_you_like"
+        }
+      ]
+    },
+    "en.supermarket_price_match_cheaper_elsewhere": {
+      "conceptId": "en.supermarket_price_match_cheaper_elsewhere",
+      "id": "supermarket_price_match_cheaper_elsewhere",
+      "target": [
+        {
+          "text": "Do you have a price-match policy? I found this item cheaper at another store.",
+          "audioSlug": "do_you_have_a_price_match_policy_i_found_this_item_cheaper_at_another_store"
+        }
+      ]
+    },
+    "en.technology_i_set_up_automatic_cloud_backups": {
+      "conceptId": "en.technology_i_set_up_automatic_cloud_backups",
+      "id": "technology_i_set_up_automatic_cloud_backups",
+      "target": [
+        {
+          "text": "I set up automatic cloud backups so I never lose my photos or files.",
+          "audioSlug": "i_set_up_automatic_cloud_backups_so_i_never_lose_my_photos_or_files"
+        }
+      ]
+    },
+    "en.transportation_which_platform": {
+      "conceptId": "en.transportation_which_platform",
+      "id": "transportation_which_platform",
+      "target": [
+        {
+          "text": "Which platform does the train to Madrid leave from?",
+          "audioSlug": "which_platform_does_the_train_to_madrid_leave_from"
+        }
+      ]
+    }
+  }
+}

@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Part B: load the active pair's topics before reading topic lists.
   await AppTopics.load();
   if (typeof AppPath !== 'undefined' && AppPath.load) await AppPath.load();
+  // Topic resolution for stable phrase IDs uses the id-map; wait for it so
+  // the dashboard never renders 0 lessons on a cold cache.
+  if (typeof Progress !== 'undefined' && Progress.ensureIdMap) await Progress.ensureIdMap();
 
   renderLangPair();
   renderNotificationSettings();
@@ -156,22 +159,15 @@ function renderHeroStats() {
   // Lessons started: count unique topic×activity combos + grammar rules started
   let lessonsStarted = 0;
   if (typeof AppTopics !== 'undefined') {
-    const _PHRASE_PFXS  = { speaking: '', dictation: 'dict_', cloze: 'cloze_', translation: 'trans_', scramble: 'scramble_' };
-    const _VOCAB_PFXS   = { vocabulary: 'vocab_', quiz: 'quiz_' };
     const seenKeys = Object.keys(cards).filter(function (k) { return !k.startsWith('_') && cards[k] && cards[k].reps > 0; });
-
-    AppTopics.PHRASE_TOPICS.forEach(function (topic) {
-      // Phrase activities: check if any seen card starts with prefix + topicId + '_'
-      Object.values(_PHRASE_PFXS).forEach(function (pfx) {
-        if (seenKeys.some(function (k) { return k.startsWith(pfx + topic.id + '_'); })) lessonsStarted++;
-      });
-      // Word activities: vocab_ and quiz_ use topicId_ prefix too
-      Object.values(_VOCAB_PFXS).forEach(function (pfx) {
-        if (seenKeys.some(function (k) { return k.startsWith(pfx + topic.id + '_'); })) lessonsStarted++;
-      });
+    const started = new Set();
+    seenKeys.forEach(function (k) {
+      if (k.startsWith('grammar_')) { lessonsStarted++; return; }
+      const act = Progress.getCardActivity(k);
+      const topic = Progress.getCardTopic(k);
+      if (act && topic) started.add(act + '|' + topic);
     });
-    // Grammar: each started rule = 1 lesson
-    seenKeys.forEach(function (k) { if (k.startsWith('grammar_')) lessonsStarted++; });
+    lessonsStarted += started.size;
   }
 
   document.getElementById('stat-streak').textContent   = streak.current;
@@ -186,7 +182,9 @@ function renderHeroStats() {
 // Returns { mastered, learning, total } for one topic × activity.
 // learning = seen but not yet mastered.
 function _getActStats(topicId, actId, allCards, phraseIds, vocabIds, grammarRules) {
-  var PHRASE_PFX = { speaking: '', cloze: 'cloze_', dictation: 'dict_', translation: 'trans_', scramble: 'scramble_' };
+  var PHRASE_PFX = (typeof Progress !== 'undefined' && Progress.ACTIVITY_PREFIX)
+    ? Progress.ACTIVITY_PREFIX
+    : { speaking: '', cloze: 'cloze_', dictation: 'dict_', translation: 'trans_', scramble: 'scramble_' };
   var ids;
 
   if (actId === 'grammar') {

@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "43",
+  "concepts": {
+    "es.conversacion_es_dificil_dirigir_un_grupo_grande": {
+      "conceptId": "es.conversacion_es_dificil_dirigir_un_grupo_grande",
+      "id": "conversacion_es_dificil_dirigir_un_grupo_grande",
+      "target": [
+        {
+          "text": "Es difícil dirigir un grupo grande.",
+          "audioSlug": "es_dificil_dirigir_un_grupo_grande"
+        }
+      ]
+    },
+    "es.conversacion_eso_me_da_igual": {
+      "conceptId": "es.conversacion_eso_me_da_igual",
+      "id": "conversacion_eso_me_da_igual",
+      "target": [
+        {
+          "text": "Eso me da igual.",
+          "audioSlug": "eso_me_da_igual"
+        }
+      ]
+    },
+    "es.conversacion_tuvimos_una_discusion_larga": {
+      "conceptId": "es.conversacion_tuvimos_una_discusion_larga",
+      "id": "conversacion_tuvimos_una_discusion_larga",
+      "target": [
+        {
+          "text": "Tuvimos una discusión larga.",
+          "audioSlug": "tuvimos_una_discusion_larga"
+        }
+      ]
+    },
+    "es.daily_routine_conozco_a_mucha_gente": {
+      "conceptId": "es.daily_routine_conozco_a_mucha_gente",
+      "id": "daily_routine_conozco_a_mucha_gente",
+      "target": [
+        {
+          "text": "Conozco a mucha gente en el trabajo.",
+          "audioSlug": "conozco_a_mucha_gente_en_el_trabajo"
+        }
+      ]
+    },
+    "es.directions_go_straight_ahead": {
+      "conceptId": "es.directions_go_straight_ahead",
+      "id": "directions_go_straight_ahead",
+      "target": [
+        {
+          "text": "Sigue recto.",
+          "source": "Geh geradeaus.",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "sigue_recto"
+        },
+        {
+          "text": "Siga recto.",
+          "source": "Gehen Sie geradeaus.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "siga_recto"
+        }
+      ]
+    },
+    "es.family_mis_padres_se_separaron": {
+      "conceptId": "es.family_mis_padres_se_separaron",
+      "id": "family_mis_padres_se_separaron",
+      "target": [
+        {
+          "text": "Mis padres se separaron hace años.",
+          "audioSlug": "mis_padres_se_separaron_hace_anos"
+        }
+      ]
+    },
+    "es.gym_i_feel_a_pain_in_my": {
+      "conceptId": "es.gym_i_feel_a_pain_in_my",
+      "id": "gym_i_feel_a_pain_in_my",
+      "target": [
+        {
+          "text": "Siento un dolor en la pantorrilla.",
+          "audioSlug": "siento_un_dolor_en_la_pantorrilla"
+        }
+      ]
+    },
+    "es.health_hui_de_la_muerte": {
+      "conceptId": "es.health_hui_de_la_muerte",
+      "id": "health_hui_de_la_muerte",
+      "target": [
+        {
+          "text": "Huí de la muerte.",
+          "audioSlug": "hui_de_la_muerte"
+        }
+      ]
+    },
+    "es.health_i_cut_my_hand": {
+      "conceptId": "es.health_i_cut_my_hand",
+      "id": "health_i_cut_my_hand",
+      "target": [
+        {
+          "text": "Me corté la mano.",
+          "audioSlug": "me_corte_la_mano"
+        }
+      ]
+    },
+    "es.oficina_empecemos_la_reunion": {
+      "conceptId": "es.oficina_empecemos_la_reunion",
+      "id": "oficina_empecemos_la_reunion",
+      "target": [
+        {
+          "text": "Empecemos la reunión.",
+          "audioSlug": "empecemos_la_reunion"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_ninguna_respuesta_es_perfecta": {
+      "conceptId": "es.pensamientos_opiniones_ninguna_respuesta_es_perfecta",
+      "id": "pensamientos_opiniones_ninguna_respuesta_es_perfecta",
+      "target": [
+        {
+          "text": "Ninguna respuesta es perfecta.",
+          "audioSlug": "ninguna_respuesta_es_perfecta"
+        }
+      ]
+    },
+    "es.personal_info_i_speak_a_little_spanish": {
+      "conceptId": "es.personal_info_i_speak_a_little_spanish",
+      "id": "personal_info_i_speak_a_little_spanish",
+      "target": [
+        {
+          "text": "Hablo un poco de español.",
+          "audioSlug": "hablo_un_poco_de_espanol"
+        }
+      ]
+    },
+    "es.profesiones_mi_tio_es_piloto": {
+      "conceptId": "es.profesiones_mi_tio_es_piloto",
+      "id": "profesiones_mi_tio_es_piloto",
+      "target": [
+        {
+          "text": "Mi tío es piloto.",
+          "audioSlug": "mi_tio_es_piloto"
+        }
+      ]
+    },
+    "es.sitios_vamos_a_tomar_algo_a_un_bar": {
+      "conceptId": "es.sitios_vamos_a_tomar_algo_a_un_bar",
+      "id": "sitios_vamos_a_tomar_algo_a_un_bar",
+      "target": [
+        {
+          "text": "Vamos a tomar algo a un bar.",
+          "audioSlug": "vamos_a_tomar_algo_a_un_bar"
+        }
+      ]
+    },
+    "es.supermarket_this_supermarket_is_very_expensive_lets": {
+      "conceptId": "es.supermarket_this_supermarket_is_very_expensive_lets",
+      "id": "supermarket_this_supermarket_is_very_expensive_lets",
+      "target": [
+        {
+          "text": "Este supermercado está muy caro, vamos a otro.",
+          "audioSlug": "este_supermercado_esta_muy_caro_vamos_a_otro"
+        }
+      ]
+    },
+    "es.survival_how_do_you_say_this_in_spanish": {
+      "conceptId": "es.survival_how_do_you_say_this_in_spanish",
+      "id": "survival_how_do_you_say_this_in_spanish",
+      "target": [
+        {
+          "text": "¿Cómo se dice esto en español?",
+          "audioSlug": "como_se_dice_esto_en_espanol"
+        }
+      ]
+    }
+  }
+}

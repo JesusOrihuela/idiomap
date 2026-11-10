@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "34",
+  "concepts": {
+    "es.deportes_vamos_a_formar_un_equipo": {
+      "conceptId": "es.deportes_vamos_a_formar_un_equipo",
+      "id": "deportes_vamos_a_formar_un_equipo",
+      "target": [
+        {
+          "text": "Vamos a formar un equipo.",
+          "audioSlug": "vamos_a_formar_un_equipo"
+        }
+      ]
+    },
+    "es.descripciones_los_zapatos_son_marrones": {
+      "conceptId": "es.descripciones_los_zapatos_son_marrones",
+      "id": "descripciones_los_zapatos_son_marrones",
+      "target": [
+        {
+          "text": "Los zapatos son marrones.",
+          "audioSlug": "los_zapatos_son_marrones"
+        }
+      ]
+    },
+    "es.economia_europa_esta_en_crisis": {
+      "conceptId": "es.economia_europa_esta_en_crisis",
+      "id": "economia_europa_esta_en_crisis",
+      "target": [
+        {
+          "text": "Europa está en crisis.",
+          "audioSlug": "europa_esta_en_crisis"
+        }
+      ]
+    },
+    "es.estudios_me_gusta_ensenar_a_los_mas_jovenes": {
+      "conceptId": "es.estudios_me_gusta_ensenar_a_los_mas_jovenes",
+      "id": "estudios_me_gusta_ensenar_a_los_mas_jovenes",
+      "target": [
+        {
+          "text": "Me gusta enseñar a los más jóvenes.",
+          "audioSlug": "me_gusta_ensenar_a_los_mas_jovenes"
+        }
+      ]
+    },
+    "es.family_mi_bebe_va_a_nacer_pronto": {
+      "conceptId": "es.family_mi_bebe_va_a_nacer_pronto",
+      "id": "family_mi_bebe_va_a_nacer_pronto",
+      "target": [
+        {
+          "text": "Mi bebé va a nacer pronto.",
+          "audioSlug": "mi_bebe_va_a_nacer_pronto"
+        }
+      ]
+    },
+    "es.greetings_hola_que_tal": {
+      "conceptId": "es.greetings_hola_que_tal",
+      "id": "greetings_hola_que_tal",
+      "target": [
+        {
+          "text": "Hola, ¿qué tal?",
+          "audioSlug": "hola_que_tal"
+        }
+      ]
+    },
+    "es.gym_progressive_overload_adaptations": {
+      "conceptId": "es.gym_progressive_overload_adaptations",
+      "id": "gym_progressive_overload_adaptations",
+      "target": [
+        {
+          "text": "Mi plan usa sobrecarga progresiva para seguir provocando adaptaciones.",
+          "audioSlug": "mi_plan_usa_sobrecarga_progresiva_para_seguir_provocando_adaptaciones"
+        }
+      ]
+    },
+    "es.hogar_apaga_la_luz_antes_de_dormir": {
+      "conceptId": "es.hogar_apaga_la_luz_antes_de_dormir",
+      "id": "hogar_apaga_la_luz_antes_de_dormir",
+      "target": [
+        {
+          "text": "Apaga la luz antes de dormir.",
+          "audioSlug": "apaga_la_luz_antes_de_dormir"
+        }
+      ]
+    },
+    "es.kitchen_hay_una_botella_de_agua_en_la_mesa": {
+      "conceptId": "es.kitchen_hay_una_botella_de_agua_en_la_mesa",
+      "id": "kitchen_hay_una_botella_de_agua_en_la_mesa",
+      "target": [
+        {
+          "text": "Hay una botella de agua en la mesa.",
+          "audioSlug": "hay_una_botella_de_agua_en_la_mesa"
+        }
+      ]
+    },
+    "es.kitchen_take_the_food_out_of_the": {
+      "conceptId": "es.kitchen_take_the_food_out_of_the",
+      "id": "kitchen_take_the_food_out_of_the",
+      "target": [
+        {
+          "text": "Saca la comida del refrigerador.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "saca_la_comida_del_refrigerador"
+        },
+        {
+          "text": "Saca la comida del frigorífico.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "saca_la_comida_del_frigorifico"
+        },
+        {
+          "text": "Saca la comida de la heladera.",
+          "labels": {
+            "region": "Río de la Plata"
+          },
+          "audioSlug": "saca_la_comida_de_la_heladera"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_se_valorar_lo_que_tengo": {
+      "conceptId": "es.pensamientos_opiniones_se_valorar_lo_que_tengo",
+      "id": "pensamientos_opiniones_se_valorar_lo_que_tengo",
+      "target": [
+        {
+          "text": "Sé valorar lo que tengo.",
+          "audioSlug": "se_valorar_lo_que_tengo"
+        }
+      ]
+    },
+    "es.supermarket_price_match_cheaper_elsewhere": {
+      "conceptId": "es.supermarket_price_match_cheaper_elsewhere",
+      "id": "supermarket_price_match_cheaper_elsewhere",
+      "target": [
+        {
+          "text": "¿Igualan el precio si encuentro el artículo más barato en otra tienda?",
+          "audioSlug": "igualan_el_precio_si_encuentro_el_articulo_mas_barato_en_otra_tienda"
+        }
+      ]
+    },
+    "es.technology_the_virtual_assistant_has_been_failing": {
+      "conceptId": "es.technology_the_virtual_assistant_has_been_failing",
+      "id": "technology_the_virtual_assistant_has_been_failing",
+      "target": [
+        {
+          "text": "El asistente virtual ha estado fallando.",
+          "audioSlug": "el_asistente_virtual_ha_estado_fallando"
+        }
+      ]
+    },
+    "es.transportation_take_me_to_address": {
+      "conceptId": "es.transportation_take_me_to_address",
+      "id": "transportation_take_me_to_address",
+      "target": [
+        {
+          "text": "Lléveme a esta dirección, por favor.",
+          "audioSlug": "lleveme_a_esta_direccion_por_favor"
+        }
+      ]
+    }
+  }
+}

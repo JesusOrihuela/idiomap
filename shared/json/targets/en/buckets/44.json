@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "44",
+  "concepts": {
+    "en.accountability_the_consolidated_financial_statements_reflect": {
+      "conceptId": "en.accountability_the_consolidated_financial_statements_reflect",
+      "id": "accountability_the_consolidated_financial_statements_reflect",
+      "target": [
+        {
+          "text": "The consolidated financial statements reflect the elimination of intercompany transactions.",
+          "audioSlug": "the_consolidated_financial_statements_reflect_the_elimination_of_intercompany_transactions"
+        }
+      ]
+    },
+    "en.daily_routine_go_to_bed_at_eleven": {
+      "conceptId": "en.daily_routine_go_to_bed_at_eleven",
+      "id": "daily_routine_go_to_bed_at_eleven",
+      "target": [
+        {
+          "text": "I go to bed at eleven.",
+          "audioSlug": "i_go_to_bed_at_eleven"
+        }
+      ]
+    },
+    "en.descripciones_it_is_dangerous": {
+      "conceptId": "en.descripciones_it_is_dangerous",
+      "id": "descripciones_it_is_dangerous",
+      "target": [
+        {
+          "text": "It is dangerous.",
+          "audioSlug": "it_is_dangerous"
+        }
+      ]
+    },
+    "en.greetings_trust_message_finds_you_well": {
+      "conceptId": "en.greetings_trust_message_finds_you_well",
+      "id": "greetings_trust_message_finds_you_well",
+      "target": [
+        {
+          "text": "I trust this message finds you well. I'm writing to follow up on last week's conversation.",
+          "audioSlug": "i_trust_this_message_finds_you_well_i_m_writing_to_follow_up_on_last_week_s_conversation"
+        }
+      ]
+    },
+    "en.movies_performances_script_characters": {
+      "conceptId": "en.movies_performances_script_characters",
+      "id": "movies_performances_script_characters",
+      "target": [
+        {
+          "text": "The script failed to develop the supporting characters.",
+          "audioSlug": "the_script_failed_to_develop_the_supporting_characters"
+        }
+      ]
+    }
+  }
+}

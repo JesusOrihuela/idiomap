@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "a7",
+  "concepts": {
+    "en.accommodation_noisy_neighbors_keep_it_down": {
+      "conceptId": "en.accommodation_noisy_neighbors_keep_it_down",
+      "id": "accommodation_noisy_neighbors_keep_it_down",
+      "target": [
+        {
+          "text": "The guests next door are noisy. Could you ask them to keep it down?",
+          "audioSlug": "the_guests_next_door_are_noisy_could_you_ask_them_to_keep_it_down"
+        }
+      ]
+    },
+    "en.accountability_when_was_the_budget_review_scheduled": {
+      "conceptId": "en.accountability_when_was_the_budget_review_scheduled",
+      "id": "accountability_when_was_the_budget_review_scheduled",
+      "target": [
+        {
+          "text": "When was the budget review scheduled?",
+          "audioSlug": "when_was_the_budget_review_scheduled"
+        }
+      ]
+    },
+    "en.emergencias_i_lost_my_passport": {
+      "conceptId": "en.emergencias_i_lost_my_passport",
+      "id": "emergencias_i_lost_my_passport",
+      "target": [
+        {
+          "text": "I lost my passport.",
+          "audioSlug": "i_lost_my_passport"
+        }
+      ]
+    },
+    "en.greetings_good_evening": {
+      "conceptId": "en.greetings_good_evening",
+      "id": "greetings_good_evening",
+      "target": [
+        {
+          "text": "Good evening!",
+          "audioSlug": "good_evening"
+        }
+      ]
+    },
+    "en.personal_info_whats_your_email": {
+      "conceptId": "en.personal_info_whats_your_email",
+      "id": "personal_info_whats_your_email",
+      "target": [
+        {
+          "text": "What's your email?",
+          "audioSlug": "what_s_your_email"
+        }
+      ]
+    },
+    "en.restaurant_could_i_have_the_check_split": {
+      "conceptId": "en.restaurant_could_i_have_the_check_split",
+      "id": "restaurant_could_i_have_the_check_split",
+      "target": [
+        {
+          "text": "Could I have the check split evenly between us?",
+          "audioSlug": "could_i_have_the_check_split_evenly_between_us",
+          "labels": {
+            "register": "formal",
+            "region": "US"
+          }
+        },
+        {
+          "text": "Can I have the check split evenly between us?",
+          "audioSlug": "can_i_have_the_check_split_evenly_between_us",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Could I have the bill split evenly between us?",
+          "audioSlug": "could_i_have_the_bill_split_evenly_between_us",
+          "labels": {
+            "region": "UK"
+          }
+        }
+      ]
+    },
+    "en.supermarket_i_dont_have_cash_can_i": {
+      "conceptId": "en.supermarket_i_dont_have_cash_can_i",
+      "id": "supermarket_i_dont_have_cash_can_i",
+      "target": [
+        {
+          "text": "Can I pay with a card instead of cash?",
+          "audioSlug": "can_i_pay_with_a_card_instead_of_cash"
+        }
+      ]
+    }
+  }
+}

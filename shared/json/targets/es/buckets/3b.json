@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "3b",
+  "concepts": {
+    "es.conversacion_tengo_algo_que_anunciar": {
+      "conceptId": "es.conversacion_tengo_algo_que_anunciar",
+      "id": "conversacion_tengo_algo_que_anunciar",
+      "target": [
+        {
+          "text": "Tengo algo que anunciar.",
+          "audioSlug": "tengo_algo_que_anunciar"
+        }
+      ]
+    },
+    "es.cotidianidad_guardo_el_pasaporte_en_el_maletin": {
+      "conceptId": "es.cotidianidad_guardo_el_pasaporte_en_el_maletin",
+      "id": "cotidianidad_guardo_el_pasaporte_en_el_maletin",
+      "target": [
+        {
+          "text": "Guardo el pasaporte en el maletín.",
+          "audioSlug": "guardo_el_pasaporte_en_el_maletin"
+        }
+      ]
+    },
+    "es.descripciones_la_mesa_es_de_cristal": {
+      "conceptId": "es.descripciones_la_mesa_es_de_cristal",
+      "id": "descripciones_la_mesa_es_de_cristal",
+      "target": [
+        {
+          "text": "La mesa es de cristal.",
+          "audioSlug": "la_mesa_es_de_cristal"
+        }
+      ]
+    },
+    "es.emociones_estoy_contenta": {
+      "conceptId": "es.emociones_estoy_contenta",
+      "id": "emociones_estoy_contenta",
+      "target": [
+        {
+          "text": "Estoy contenta.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_contenta"
+        },
+        {
+          "text": "Estoy contento.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_contento"
+        }
+      ]
+    },
+    "es.estudios_aprender_idiomas_forma_el_caracter": {
+      "conceptId": "es.estudios_aprender_idiomas_forma_el_caracter",
+      "id": "estudios_aprender_idiomas_forma_el_caracter",
+      "target": [
+        {
+          "text": "Aprender idiomas forma el carácter.",
+          "audioSlug": "aprender_idiomas_forma_el_caracter"
+        }
+      ]
+    },
+    "es.family_la_princesa_vive_en_un_gran_castillo": {
+      "conceptId": "es.family_la_princesa_vive_en_un_gran_castillo",
+      "id": "family_la_princesa_vive_en_un_gran_castillo",
+      "target": [
+        {
+          "text": "La princesa vive en un gran castillo.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Prinzessin wohnt in einem großen Schloss.",
+          "audioSlug": "la_princesa_vive_en_un_gran_castillo"
+        },
+        {
+          "text": "El príncipe vive en un gran castillo.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Prinz wohnt in einem großen Schloss.",
+          "audioSlug": "el_principe_vive_en_un_gran_castillo"
+        }
+      ]
+    },
+    "es.greetings_cuidate": {
+      "conceptId": "es.greetings_cuidate",
+      "id": "greetings_cuidate",
+      "target": [
+        {
+          "text": "¡Cuídate!",
+          "audioSlug": "cuidate"
+        }
+      ]
+    },
+    "es.kitchen_help_me_peel_the_carrots_and": {
+      "conceptId": "es.kitchen_help_me_peel_the_carrots_and",
+      "id": "kitchen_help_me_peel_the_carrots_and",
+      "target": [
+        {
+          "text": "Ayúdame a pelar las zanahorias y las papas.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "ayudame_a_pelar_las_zanahorias_y_las_papas"
+        },
+        {
+          "text": "Ayúdame a pelar las zanahorias y las patatas.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "ayudame_a_pelar_las_zanahorias_y_las_patatas"
+        }
+      ]
+    },
+    "es.kitchen_wash_your_hands": {
+      "conceptId": "es.kitchen_wash_your_hands",
+      "id": "kitchen_wash_your_hands",
+      "target": [
+        {
+          "text": "Lávate las manos antes de comer.",
+          "audioSlug": "lavate_las_manos_antes_de_comer"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_la_rosa_es_roja": {
+      "conceptId": "es.naturaleza_lugares_la_rosa_es_roja",
+      "id": "naturaleza_lugares_la_rosa_es_roja",
+      "target": [
+        {
+          "text": "La rosa es roja.",
+          "audioSlug": "la_rosa_es_roja"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_cada_experiencia_nos_forma": {
+      "conceptId": "es.pensamientos_opiniones_cada_experiencia_nos_forma",
+      "id": "pensamientos_opiniones_cada_experiencia_nos_forma",
+      "target": [
+        {
+          "text": "Cada experiencia nos forma como personas.",
+          "audioSlug": "cada_experiencia_nos_forma_como_personas"
+        }
+      ]
+    },
+    "es.restaurant_is_the_tip_included_in_the": {
+      "conceptId": "es.restaurant_is_the_tip_included_in_the",
+      "id": "restaurant_is_the_tip_included_in_the",
+      "target": [
+        {
+          "text": "¿La propina está incluida en la cuenta?",
+          "audioSlug": "la_propina_esta_incluida_en_la_cuenta"
+        }
+      ]
+    }
+  }
+}

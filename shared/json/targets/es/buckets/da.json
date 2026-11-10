@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "da",
+  "concepts": {
+    "es.accountability_accounting_staff_will_be_here_tomorrow": {
+      "conceptId": "es.accountability_accounting_staff_will_be_here_tomorrow",
+      "id": "accountability_accounting_staff_will_be_here_tomorrow",
+      "target": [
+        {
+          "text": "Mañana viene personal del despacho contable.",
+          "audioSlug": "manana_viene_personal_del_despacho_contable"
+        }
+      ]
+    },
+    "es.conversacion_todos_quieren_participar": {
+      "conceptId": "es.conversacion_todos_quieren_participar",
+      "id": "conversacion_todos_quieren_participar",
+      "target": [
+        {
+          "text": "Todos quieren participar en la reunión.",
+          "audioSlug": "todos_quieren_participar_en_la_reunion"
+        }
+      ]
+    },
+    "es.directions_esta_justo_enfrente_del_parque": {
+      "conceptId": "es.directions_esta_justo_enfrente_del_parque",
+      "id": "directions_esta_justo_enfrente_del_parque",
+      "target": [
+        {
+          "text": "Está justo enfrente del parque.",
+          "audioSlug": "esta_justo_enfrente_del_parque"
+        }
+      ]
+    },
+    "es.directions_where_is_the_bank": {
+      "conceptId": "es.directions_where_is_the_bank",
+      "id": "directions_where_is_the_bank",
+      "target": [
+        {
+          "text": "¿Dónde está el banco?",
+          "audioSlug": "donde_esta_el_banco"
+        }
+      ]
+    },
+    "es.estudios_estudio_en_una_academia": {
+      "conceptId": "es.estudios_estudio_en_una_academia",
+      "id": "estudios_estudio_en_una_academia",
+      "target": [
+        {
+          "text": "Estudio en una academia de idiomas.",
+          "audioSlug": "estudio_en_una_academia_de_idiomas"
+        }
+      ]
+    },
+    "es.family_ellos_son_mis_primos": {
+      "conceptId": "es.family_ellos_son_mis_primos",
+      "id": "family_ellos_son_mis_primos",
+      "target": [
+        {
+          "text": "Ellos son mis primos.",
+          "audioSlug": "ellos_son_mis_primos"
+        }
+      ]
+    },
+    "es.family_whats_your_sisters_name": {
+      "conceptId": "es.family_whats_your_sisters_name",
+      "id": "family_whats_your_sisters_name",
+      "target": [
+        {
+          "text": "¿Cómo se llama tu hermana?",
+          "audioSlug": "como_se_llama_tu_hermana"
+        }
+      ]
+    },
+    "es.kitchen_salad_with_avocado": {
+      "conceptId": "es.kitchen_salad_with_avocado",
+      "id": "kitchen_salad_with_avocado",
+      "target": [
+        {
+          "text": "Voy a hacer una ensalada con palta.",
+          "labels": {
+            "region": "Sudamérica andina y Cono Sur"
+          },
+          "audioSlug": "voy_a_hacer_una_ensalada_con_palta"
+        },
+        {
+          "text": "Voy a hacer una ensalada con aguacate.",
+          "labels": {
+            "region": "México y España"
+          },
+          "audioSlug": "voy_a_hacer_una_ensalada_con_aguacate"
+        }
+      ]
+    },
+    "es.supermarket_i_like_to_use_the_selfservice": {
+      "conceptId": "es.supermarket_i_like_to_use_the_selfservice",
+      "id": "supermarket_i_like_to_use_the_selfservice",
+      "target": [
+        {
+          "text": "Me gusta usar el autoservicio para pagar la compra.",
+          "audioSlug": "me_gusta_usar_el_autoservicio_para_pagar_la_compra"
+        }
+      ]
+    },
+    "es.supermarket_necesito_leche_pan_huevos": {
+      "conceptId": "es.supermarket_necesito_leche_pan_huevos",
+      "id": "supermarket_necesito_leche_pan_huevos",
+      "target": [
+        {
+          "text": "Necesito comprar leche, pan y huevos.",
+          "audioSlug": "necesito_comprar_leche_pan_y_huevos"
+        }
+      ]
+    },
+    "es.theater_intermission_refreshments": {
+      "conceptId": "es.theater_intermission_refreshments",
+      "id": "theater_intermission_refreshments",
+      "target": [
+        {
+          "text": "El intermedio es una buena oportunidad para tomar algo y charlar.",
+          "audioSlug": "el_intermedio_es_una_buena_oportunidad_para_tomar_algo_y_charlar"
+        }
+      ]
+    }
+  }
+}

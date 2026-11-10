@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "2c",
+  "concepts": {
+    "en.emergencias_there_was_an_accident_on_the_street": {
+      "conceptId": "en.emergencias_there_was_an_accident_on_the_street",
+      "id": "emergencias_there_was_an_accident_on_the_street",
+      "target": [
+        {
+          "text": "There was an accident on the street.",
+          "audioSlug": "there_was_an_accident_on_the_street"
+        }
+      ]
+    },
+    "en.gym_we_all_must_properly_disinfect_the": {
+      "conceptId": "en.gym_we_all_must_properly_disinfect_the",
+      "id": "gym_we_all_must_properly_disinfect_the",
+      "target": [
+        {
+          "text": "We all must properly disinfect the equipment after using it.",
+          "audioSlug": "we_all_must_properly_disinfect_the_equipment_after_using_it"
+        }
+      ]
+    },
+    "en.health_do_you_have_pain": {
+      "conceptId": "en.health_do_you_have_pain",
+      "id": "health_do_you_have_pain",
+      "target": [
+        {
+          "text": "Where does it hurt?",
+          "audioSlug": "where_does_it_hurt"
+        }
+      ]
+    },
+    "en.kitchen_do_we_have_breadcrumbs_to_coat": {
+      "conceptId": "en.kitchen_do_we_have_breadcrumbs_to_coat",
+      "id": "kitchen_do_we_have_breadcrumbs_to_coat",
+      "target": [
+        {
+          "text": "Do we have breadcrumbs to coat the chicken?",
+          "audioSlug": "do_we_have_breadcrumbs_to_coat_the_chicken"
+        }
+      ]
+    },
+    "en.restaurant_do_you_have_any_options_for": {
+      "conceptId": "en.restaurant_do_you_have_any_options_for",
+      "id": "restaurant_do_you_have_any_options_for",
+      "target": [
+        {
+          "text": "Do you have any options for people with food allergies?",
+          "audioSlug": "do_you_have_any_options_for_people_with_food_allergies"
+        }
+      ]
+    },
+    "en.restaurant_ill_have_the_chicken": {
+      "conceptId": "en.restaurant_ill_have_the_chicken",
+      "id": "restaurant_ill_have_the_chicken",
+      "target": [
+        {
+          "text": "I'll have the chicken, please.",
+          "audioSlug": "i_ll_have_the_chicken_please"
+        }
+      ]
+    },
+    "en.restaurant_is_there_a_minimum_order_for": {
+      "conceptId": "en.restaurant_is_there_a_minimum_order_for",
+      "id": "restaurant_is_there_a_minimum_order_for",
+      "target": [
+        {
+          "text": "Is there a minimum order for delivery?",
+          "audioSlug": "is_there_a_minimum_order_for_delivery"
+        }
+      ]
+    },
+    "en.theater_buy_tickets_tonight": {
+      "conceptId": "en.theater_buy_tickets_tonight",
+      "id": "theater_buy_tickets_tonight",
+      "target": [
+        {
+          "text": "I'd like to buy tickets for tonight's show.",
+          "audioSlug": "i_d_like_to_buy_tickets_for_tonight_s_show"
+        }
+      ]
+    },
+    "en.weather_thirty_degrees": {
+      "conceptId": "en.weather_thirty_degrees",
+      "id": "weather_thirty_degrees",
+      "target": [
+        {
+          "text": "It's thirty degrees.",
+          "audioSlug": "it_s_thirty_degrees"
+        }
+      ]
+    }
+  }
+}

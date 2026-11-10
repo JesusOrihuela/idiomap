@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "58",
+  "concepts": {
+    "es.descripciones_es_un_tipo_de_persona_muy_rara": {
+      "conceptId": "es.descripciones_es_un_tipo_de_persona_muy_rara",
+      "id": "descripciones_es_un_tipo_de_persona_muy_rara",
+      "target": [
+        {
+          "text": "Es un tipo de persona muy rara.",
+          "audioSlug": "es_un_tipo_de_persona_muy_rara"
+        }
+      ]
+    },
+    "es.descripciones_eso_parece_casi_imposible": {
+      "conceptId": "es.descripciones_eso_parece_casi_imposible",
+      "id": "descripciones_eso_parece_casi_imposible",
+      "target": [
+        {
+          "text": "Eso parece casi imposible.",
+          "audioSlug": "eso_parece_casi_imposible"
+        }
+      ]
+    },
+    "es.descripciones_i_am_tired": {
+      "conceptId": "es.descripciones_i_am_tired",
+      "id": "descripciones_i_am_tired",
+      "target": [
+        {
+          "text": "Estoy cansada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_cansada"
+        },
+        {
+          "text": "Estoy cansado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_cansado"
+        }
+      ]
+    },
+    "es.emociones_dame_un_beso": {
+      "conceptId": "es.emociones_dame_un_beso",
+      "id": "emociones_dame_un_beso",
+      "target": [
+        {
+          "text": "Dame un beso.",
+          "audioSlug": "dame_un_beso"
+        }
+      ]
+    },
+    "es.greetings_es_un_gusto": {
+      "conceptId": "es.greetings_es_un_gusto",
+      "id": "greetings_es_un_gusto",
+      "target": [
+        {
+          "text": "Es un gusto.",
+          "audioSlug": "es_un_gusto"
+        }
+      ]
+    },
+    "es.gym_i_need_to_rest_a_bit": {
+      "conceptId": "es.gym_i_need_to_rest_a_bit",
+      "id": "gym_i_need_to_rest_a_bit",
+      "target": [
+        {
+          "text": "Tengo que descansar un poco.",
+          "audioSlug": "tengo_que_descansar_un_poco"
+        }
+      ]
+    },
+    "es.restaurant_is_there_a_time_limit_for": {
+      "conceptId": "es.restaurant_is_there_a_time_limit_for",
+      "id": "restaurant_is_there_a_time_limit_for",
+      "target": [
+        {
+          "text": "¿Hay un límite de tiempo para cenar?",
+          "audioSlug": "hay_un_limite_de_tiempo_para_cenar"
+        }
+      ]
+    },
+    "es.supermarket_check_stockroom_out_of_shelf": {
+      "conceptId": "es.supermarket_check_stockroom_out_of_shelf",
+      "id": "supermarket_check_stockroom_out_of_shelf",
+      "target": [
+        {
+          "text": "Este producto lleva dos días sin stock, ¿podría revisar el almacén?",
+          "audioSlug": "este_producto_lleva_dos_dias_sin_stock_podria_revisar_el_almacen"
+        }
+      ]
+    },
+    "es.transportation_one_ticket_to": {
+      "conceptId": "es.transportation_one_ticket_to",
+      "id": "transportation_one_ticket_to",
+      "target": [
+        {
+          "text": "Un boleto al aeropuerto, por favor.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "un_boleto_al_aeropuerto_por_favor"
+        },
+        {
+          "text": "Un billete al aeropuerto, por favor.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "un_billete_al_aeropuerto_por_favor"
+        }
+      ]
+    }
+  }
+}

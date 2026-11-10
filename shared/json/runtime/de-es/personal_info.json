@@ -1,0 +1,739 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "personal_info",
+  "phrases": [
+    {
+      "id": "personal_info_my_name_is",
+      "conceptId": "es.personal_info_my_name_is",
+      "sourceId": "de.s.23c025a00bff877f",
+      "source": "Ich heiße Ana.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me llamo Ana.",
+          "audioSlug": "me_llamo_ana"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_whats_your_name",
+      "conceptId": "es.personal_info_whats_your_name",
+      "sourceId": "de.s.129740908b12bd9f",
+      "source": "Wie heißt du?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo te llamas?",
+          "audioSlug": "como_te_llamas"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_im_from_germany",
+      "conceptId": "es.personal_info_im_from_germany",
+      "sourceId": "de.s.f5c674c962e528cf",
+      "source": "Ich komme aus Deutschland.",
+      "level": "A1",
+      "grammar": "El origen es permanente, por eso se usa ser (soy), no estar.",
+      "target": [
+        {
+          "text": "Soy de Alemania.",
+          "audioSlug": "soy_de_alemania"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_i_live_in_madrid",
+      "conceptId": "es.personal_info_i_live_in_madrid",
+      "sourceId": "de.s.e4f21200e575cfc6",
+      "source": "Ich wohne in Madrid.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vivo en Madrid.",
+          "audioSlug": "vivo_en_madrid"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_im_a_student",
+      "conceptId": "es.personal_info_im_a_student",
+      "sourceId": "de.s.2462571ae0d16851",
+      "source": "Ich bin Student/in.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Soy estudiante.",
+          "audioSlug": "soy_estudiante"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_i_speak_a_little_spanish",
+      "conceptId": "es.personal_info_i_speak_a_little_spanish",
+      "sourceId": "de.s.89b061fa927fedf6",
+      "source": "Ich spreche ein bisschen Spanisch.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hablo un poco de español.",
+          "audioSlug": "hablo_un_poco_de_espanol"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_naci_en_un_pueblo_pequeno",
+      "conceptId": "es.personal_info_naci_en_un_pueblo_pequeno",
+      "sourceId": "de.s.423a62fbbdbfccfe",
+      "source": "Ich bin in einem kleinen Dorf geboren.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nací en un pueblo pequeño.",
+          "audioSlug": "naci_en_un_pueblo_pequeno"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_mi_numero_de_telefono_es_facil",
+      "conceptId": "es.personal_info_mi_numero_de_telefono_es_facil",
+      "sourceId": "de.s.3ba41871b9a9bdf7",
+      "source": "Meine Telefonnummer ist einfach.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi número de teléfono es fácil.",
+          "audioSlug": "mi_numero_de_telefono_es_facil"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_soy_de_origen_aleman",
+      "conceptId": "es.personal_info_soy_de_origen_aleman",
+      "sourceId": "de.s.98c839a369a0c44f",
+      "source": "Ich bin deutscher Herkunft.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Soy de origen alemán.",
+          "audioSlug": "soy_de_origen_aleman"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_vengo_de_un_pais_lejano",
+      "conceptId": "es.personal_info_vengo_de_un_pais_lejano",
+      "sourceId": "de.s.dc5ac403877da314",
+      "source": "Ich komme aus einem fernen Land.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vengo de un país lejano.",
+          "audioSlug": "vengo_de_un_pais_lejano"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_de_donde_eres_tu",
+      "conceptId": "es.personal_info_de_donde_eres_tu",
+      "sourceId": "de.s.da5f4b71603a2114",
+      "source": "Woher kommst du?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿De dónde eres tú?",
+          "audioSlug": "de_donde_eres_tu"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_estudio_espanol_como_pasatiempo",
+      "conceptId": "es.personal_info_estudio_espanol_como_pasatiempo",
+      "sourceId": "de.s.1fa58e5983444ea4",
+      "source": "Ich lerne Spanisch als Hobby.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estudio español como pasatiempo.",
+          "audioSlug": "estudio_espanol_como_pasatiempo"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_mi_ciudad_favorita_es_madrid",
+      "conceptId": "es.personal_info_mi_ciudad_favorita_es_madrid",
+      "sourceId": "de.s.4ca626fcbfdaf9ca",
+      "source": "Meine Lieblingsstadt ist Madrid.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi ciudad favorita es Madrid.",
+          "audioSlug": "mi_ciudad_favorita_es_madrid"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_me_considero_una_persona_optimista",
+      "conceptId": "es.personal_info_me_considero_una_persona_optimista",
+      "sourceId": "de.s.5bd14a7ca4b0bfdd",
+      "source": "Ich halte mich für einen Optimisten.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me considero una persona optimista.",
+          "audioSlug": "me_considero_una_persona_optimista"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_mi_apellido_es_dificil_de_pronunciar",
+      "conceptId": "es.personal_info_mi_apellido_es_dificil_de_pronunciar",
+      "sourceId": "de.s.deb5bd0c63fcd070",
+      "source": "Mein Nachname ist schwer auszusprechen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi apellido es difícil de pronunciar.",
+          "audioSlug": "mi_apellido_es_dificil_de_pronunciar"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_tengo_una_voz_grave",
+      "conceptId": "es.personal_info_tengo_una_voz_grave",
+      "sourceId": "de.s.5a8f2bb283f5f36d",
+      "source": "Ich habe eine tiefe Stimme.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo una voz grave.",
+          "audioSlug": "tengo_una_voz_grave"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_mi_cancion_favorita_es_alegre",
+      "conceptId": "es.personal_info_mi_cancion_favorita_es_alegre",
+      "sourceId": "de.s.05eae19110003dc1",
+      "source": "Mein Lieblingslied ist sehr fröhlich.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi canción favorita es muy alegre.",
+          "audioSlug": "mi_cancion_favorita_es_muy_alegre"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_mi_hermano_esta_soltero",
+      "conceptId": "es.personal_info_mi_hermano_esta_soltero",
+      "sourceId": "de.s.3dc8e88fb44dc024",
+      "source": "Mein Bruder ist ledig.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi hermano está soltero.",
+          "audioSlug": "mi_hermano_esta_soltero"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_no_me_gusta_el_vino_tinto",
+      "conceptId": "es.personal_info_no_me_gusta_el_vino_tinto",
+      "sourceId": "de.s.e7bcb83f035f52b7",
+      "source": "Ich mag keinen Rotwein.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No me gusta el vino tinto.",
+          "audioSlug": "no_me_gusta_el_vino_tinto"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_tengo_la_cara_redonda",
+      "conceptId": "es.personal_info_tengo_la_cara_redonda",
+      "sourceId": "de.s.13fa47160c388286",
+      "source": "Ich habe ein rundes Gesicht.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo la cara redonda.",
+          "audioSlug": "tengo_la_cara_redonda"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_naci_en_el_siglo_veinte",
+      "conceptId": "es.personal_info_naci_en_el_siglo_veinte",
+      "sourceId": "de.s.6648734df5e84b3c",
+      "source": "Ich bin im zwanzigsten Jahrhundert geboren.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nací en el siglo veinte.",
+          "audioSlug": "naci_en_el_siglo_veinte"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_dirijo_un_pequeno_equipo",
+      "conceptId": "es.personal_info_dirijo_un_pequeno_equipo",
+      "sourceId": "de.s.e7b559313e2cba63",
+      "source": "Ich leite ein kleines Team bei der Arbeit.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Dirijo un pequeño equipo en el trabajo.",
+          "audioSlug": "dirijo_un_pequeno_equipo_en_el_trabajo"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_es_una_abogada_excelente",
+      "conceptId": "es.personal_info_es_una_abogada_excelente",
+      "sourceId": "de.s.534e553d88adca33",
+      "source": "Sie ist eine ausgezeichnete Anwältin.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una abogada excelente.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie ist eine ausgezeichnete Anwältin.",
+          "audioSlug": "es_una_abogada_excelente"
+        },
+        {
+          "text": "Es un abogado excelente.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er ist ein ausgezeichneter Anwalt.",
+          "audioSlug": "es_un_abogado_excelente"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_es_una_enfermera_muy_amable",
+      "conceptId": "es.personal_info_es_una_enfermera_muy_amable",
+      "sourceId": "de.s.8ea7d80ea6e9a242",
+      "source": "Sie ist eine sehr freundliche Krankenpflegerin.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una enfermera muy amable.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie ist eine sehr freundliche Krankenpflegerin.",
+          "audioSlug": "es_una_enfermera_muy_amable"
+        },
+        {
+          "text": "Es un enfermero muy amable.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er ist ein sehr freundlicher Krankenpfleger.",
+          "audioSlug": "es_un_enfermero_muy_amable"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_es_una_arquitecta_brillante",
+      "conceptId": "es.personal_info_es_una_arquitecta_brillante",
+      "sourceId": "de.s.e462ca9d0b71eb67",
+      "source": "Sie ist eine brillante Architektin.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una arquitecta brillante.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie ist eine brillante Architektin.",
+          "audioSlug": "es_una_arquitecta_brillante"
+        },
+        {
+          "text": "Es un arquitecto brillante.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er ist ein brillanter Architekt.",
+          "audioSlug": "es_un_arquitecto_brillante"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_es_una_cientifica_muy_capaz",
+      "conceptId": "es.personal_info_es_una_cientifica_muy_capaz",
+      "sourceId": "de.s.1d11b3150e226f41",
+      "source": "Sie ist eine sehr fähige Wissenschaftlerin.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una científica muy capaz.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie ist eine sehr fähige Wissenschaftlerin.",
+          "audioSlug": "es_una_cientifica_muy_capaz"
+        },
+        {
+          "text": "Es un científico muy capaz.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er ist ein sehr fähiger Wissenschaftler.",
+          "audioSlug": "es_un_cientifico_muy_capaz"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_es_una_empresaria_responsable",
+      "conceptId": "es.personal_info_es_una_empresaria_responsable",
+      "sourceId": "de.s.27f192a30fa466de",
+      "source": "Sie ist eine verantwortungsvolle Unternehmerin.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una empresaria responsable.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie ist eine verantwortungsvolle Unternehmerin.",
+          "audioSlug": "es_una_empresaria_responsable"
+        },
+        {
+          "text": "Es un empresario responsable.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er ist ein verantwortungsvoller Unternehmer.",
+          "audioSlug": "es_un_empresario_responsable"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_trabaja_como_periodista",
+      "conceptId": "es.personal_info_trabaja_como_periodista",
+      "sourceId": "de.s.570e219953e0d02a",
+      "source": "Sie arbeitet als Journalistin.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Trabaja como periodista.",
+          "audioSlug": "trabaja_como_periodista"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_mi_padre_esta_casado",
+      "conceptId": "es.personal_info_mi_padre_esta_casado",
+      "sourceId": "de.s.03a3e9dc53a8c65e",
+      "source": "Mein Vater ist verheiratet.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi padre está casado.",
+          "audioSlug": "mi_padre_esta_casado"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_es_un_buen_matematico",
+      "conceptId": "es.personal_info_es_un_buen_matematico",
+      "sourceId": "de.s.e213b99eb7e0c943",
+      "source": "Er ist ein guter Mathematiker.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una buena matemática.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie ist eine gute Mathematikerin.",
+          "audioSlug": "es_una_buena_matematica"
+        },
+        {
+          "text": "Es un buen matemático.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er ist ein guter Mathematiker.",
+          "audioSlug": "es_un_buen_matematico"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_el_bombero_apaga_el_fuego",
+      "conceptId": "es.personal_info_el_bombero_apaga_el_fuego",
+      "sourceId": "de.s.8f1515f77de5dbc1",
+      "source": "Der Feuerwehrmann löscht das Feuer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La bombera apaga el fuego.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Feuerwehrfrau löscht das Feuer.",
+          "audioSlug": "la_bombera_apaga_el_fuego"
+        },
+        {
+          "text": "El bombero apaga el fuego.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Feuerwehrmann löscht das Feuer.",
+          "audioSlug": "el_bombero_apaga_el_fuego"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_el_juez_dicta_la_sentencia",
+      "conceptId": "es.personal_info_el_juez_dicta_la_sentencia",
+      "sourceId": "de.s.986f2090c1a3d947",
+      "source": "Der Richter verkündet das Urteil.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La jueza dicta la sentencia.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Richterin verkündet das Urteil.",
+          "audioSlug": "la_jueza_dicta_la_sentencia"
+        },
+        {
+          "text": "El juez dicta la sentencia.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Richter verkündet das Urteil.",
+          "audioSlug": "el_juez_dicta_la_sentencia"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_respeto_todas_las_religiones_del_mundo",
+      "conceptId": "es.personal_info_respeto_todas_las_religiones_del_mundo",
+      "sourceId": "de.s.dc3816135810e4a5",
+      "source": "Ich respektiere alle Religionen der Welt.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Respeto todas las religiones del mundo.",
+          "audioSlug": "respeto_todas_las_religiones_del_mundo"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_en_clase_hay_alumnos_cristianos_musulmanes_y_judios",
+      "conceptId": "es.personal_info_en_clase_hay_alumnos_cristianos_musulmanes_y_judios",
+      "sourceId": "de.s.26f372ecb88f364a",
+      "source": "In der Klasse gibt es christliche, muslimische und jüdische Schüler.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En clase hay alumnos cristianos, musulmanes y judíos.",
+          "audioSlug": "en_clase_hay_alumnos_cristianos_musulmanes_y_judios"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_mi_abuela_quedo_viuda_muy_joven",
+      "conceptId": "es.personal_info_mi_abuela_quedo_viuda_muy_joven",
+      "sourceId": "de.s.8adc9f9045abb4ce",
+      "source": "Meine Großmutter wurde sehr jung Witwe.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi abuela quedó viuda muy joven.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Meine Großmutter wurde sehr jung Witwe.",
+          "audioSlug": "mi_abuela_quedo_viuda_muy_joven"
+        },
+        {
+          "text": "Mi abuelo quedó viudo muy joven.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Mein Großvater wurde sehr jung Witwer.",
+          "audioSlug": "mi_abuelo_quedo_viudo_muy_joven"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_mi_tia_esta_divorciada_desde_hace_anos",
+      "conceptId": "es.personal_info_mi_tia_esta_divorciada_desde_hace_anos",
+      "sourceId": "de.s.85317f46448a2c22",
+      "source": "Meine Tante ist seit Jahren geschieden.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi tía está divorciada desde hace años.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Meine Tante ist seit Jahren geschieden.",
+          "audioSlug": "mi_tia_esta_divorciada_desde_hace_anos"
+        },
+        {
+          "text": "Mi tío está divorciado desde hace años.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Mein Onkel ist seit Jahren geschieden.",
+          "audioSlug": "mi_tio_esta_divorciado_desde_hace_anos"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_mi_hijo_mayor_ya_es_adulto",
+      "conceptId": "es.personal_info_mi_hijo_mayor_ya_es_adulto",
+      "sourceId": "de.s.742988a1ae61e900",
+      "source": "Mein ältester Sohn ist schon erwachsen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi hijo mayor ya es adulto.",
+          "audioSlug": "mi_hijo_mayor_ya_es_adulto"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_tengo_una_hija_adolescente",
+      "conceptId": "es.personal_info_tengo_una_hija_adolescente",
+      "sourceId": "de.s.08a79ea1b72e0bb8",
+      "source": "Ich habe eine jugendliche Tochter.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo una hija adolescente.",
+          "audioSlug": "tengo_una_hija_adolescente"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_la_presidenta_dara_un_discurso",
+      "conceptId": "es.personal_info_la_presidenta_dara_un_discurso",
+      "sourceId": "de.s.5f39975a8832e786",
+      "source": "Die Präsidentin hält eine Rede.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La presidenta dará un discurso.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Präsidentin hält eine Rede.",
+          "audioSlug": "la_presidenta_dara_un_discurso"
+        },
+        {
+          "text": "El presidente dará un discurso.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Präsident hält eine Rede.",
+          "audioSlug": "el_presidente_dara_un_discurso"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_la_ministra_visita_el_hospital",
+      "conceptId": "es.personal_info_la_ministra_visita_el_hospital",
+      "sourceId": "de.s.71ec9e334e73f3a4",
+      "source": "Die Ministerin besucht das Krankenhaus.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La ministra visita el hospital.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Ministerin besucht das Krankenhaus.",
+          "audioSlug": "la_ministra_visita_el_hospital"
+        },
+        {
+          "text": "El ministro visita el hospital.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Minister besucht das Krankenhaus.",
+          "audioSlug": "el_ministro_visita_el_hospital"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_ese_artista_es_muy_original",
+      "conceptId": "es.personal_info_ese_artista_es_muy_original",
+      "sourceId": "de.s.b0652c7797f11743",
+      "source": "Dieser Künstler ist sehr originell.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese artista es muy original.",
+          "audioSlug": "ese_artista_es_muy_original"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_celebramos_el_nacimiento_del_bebe",
+      "conceptId": "es.personal_info_celebramos_el_nacimiento_del_bebe",
+      "sourceId": "de.s.154ab0c020def585",
+      "source": "Wir feiern die Geburt des Babys.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Celebramos el nacimiento del bebé.",
+          "audioSlug": "celebramos_el_nacimiento_del_bebe"
+        }
+      ]
+    }
+  ]
+}

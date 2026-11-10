@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-de",
+  "topic": "survival",
+  "phrases": [
+    {
+      "id": "survival_do_you_speak_english",
+      "conceptId": "de.survival_do_you_speak_english",
+      "sourceId": "en.s.b53e3962d194b14d",
+      "source": "Excuse me, do you speak English?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Entschuldigung, sprichst du Englisch?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "entschuldigung_sprichst_du_englisch"
+        },
+        {
+          "text": "Entschuldigung, sprechen Sie Englisch?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "entschuldigung_sprechen_sie_englisch"
+        }
+      ]
+    },
+    {
+      "id": "survival_can_you_help_me",
+      "conceptId": "de.survival_can_you_help_me",
+      "sourceId": "en.s.7e513e6c5f503d41",
+      "source": "Can you help me?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Kannst du mir helfen?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "kannst_du_mir_helfen"
+        },
+        {
+          "text": "Können Sie mir helfen?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "konnen_sie_mir_helfen"
+        }
+      ]
+    },
+    {
+      "id": "survival_i_do_not_understand",
+      "conceptId": "de.survival_i_do_not_understand",
+      "sourceId": "en.s.5df9cfa45859f803",
+      "source": "I don't understand.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ich verstehe nicht.",
+          "audioSlug": "ich_verstehe_nicht"
+        }
+      ]
+    },
+    {
+      "id": "survival_where_is_the_bathroom",
+      "conceptId": "de.survival_where_is_the_bathroom",
+      "sourceId": "en.s.f98fcef3ef132b31",
+      "source": "Where is the bathroom?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Wo ist die Toilette?",
+          "audioSlug": "wo_ist_die_toilette"
+        }
+      ]
+    }
+  ]
+}

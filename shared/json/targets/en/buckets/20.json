@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "20",
+  "concepts": {
+    "en.descripciones_is_it_free": {
+      "conceptId": "en.descripciones_is_it_free",
+      "id": "descripciones_is_it_free",
+      "target": [
+        {
+          "text": "Is it free?",
+          "audioSlug": "is_it_free"
+        }
+      ]
+    },
+    "en.emergencias_we_need_an_ambulance": {
+      "conceptId": "en.emergencias_we_need_an_ambulance",
+      "id": "emergencias_we_need_an_ambulance",
+      "target": [
+        {
+          "text": "We need an ambulance.",
+          "audioSlug": "we_need_an_ambulance"
+        }
+      ]
+    },
+    "en.health_im_tired_all_time": {
+      "conceptId": "en.health_im_tired_all_time",
+      "id": "health_im_tired_all_time",
+      "target": [
+        {
+          "text": "I'm tired all the time.",
+          "audioSlug": "i_m_tired_all_the_time"
+        }
+      ]
+    },
+    "en.technology_if_battery_dies_screen_off": {
+      "conceptId": "en.technology_if_battery_dies_screen_off",
+      "id": "technology_if_battery_dies_screen_off",
+      "target": [
+        {
+          "text": "If the battery dies, the screen turns off.",
+          "audioSlug": "if_the_battery_dies_the_screen_turns_off"
+        }
+      ]
+    },
+    "en.technology_this_phone_is_cheap": {
+      "conceptId": "en.technology_this_phone_is_cheap",
+      "id": "technology_this_phone_is_cheap",
+      "target": [
+        {
+          "text": "This phone is cheap.",
+          "audioSlug": "this_phone_is_cheap"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "6d",
+  "concepts": {
+    "en.airport_is_this_gate_for": {
+      "conceptId": "en.airport_is_this_gate_for",
+      "id": "airport_is_this_gate_for",
+      "target": [
+        {
+          "text": "Is this the gate for flight 203?",
+          "audioSlug": "is_this_the_gate_for_flight_203"
+        }
+      ]
+    },
+    "en.movies_prefer_subtitles_dubbing": {
+      "conceptId": "en.movies_prefer_subtitles_dubbing",
+      "id": "movies_prefer_subtitles_dubbing",
+      "target": [
+        {
+          "text": "I always watch foreign films with subtitles rather than dubbing. You miss so much.",
+          "audioSlug": "i_always_watch_foreign_films_with_subtitles_rather_than_dubbing_you_miss_so_much"
+        }
+      ]
+    },
+    "en.restaurant_allergy_chef_ingredients": {
+      "conceptId": "en.restaurant_allergy_chef_ingredients",
+      "id": "restaurant_allergy_chef_ingredients",
+      "target": [
+        {
+          "text": "There's a food allergy at our table. Could the chef confirm the ingredients?",
+          "audioSlug": "there_s_a_food_allergy_at_our_table_could_the_chef_confirm_the_ingredients"
+        }
+      ]
+    },
+    "en.vestimenta_take_off_your_coat": {
+      "conceptId": "en.vestimenta_take_off_your_coat",
+      "id": "vestimenta_take_off_your_coat",
+      "target": [
+        {
+          "text": "Take off your coat.",
+          "audioSlug": "take_off_your_coat"
+        }
+      ]
+    },
+    "en.viajes_i_love_visiting_new_places": {
+      "conceptId": "en.viajes_i_love_visiting_new_places",
+      "id": "viajes_i_love_visiting_new_places",
+      "target": [
+        {
+          "text": "I love visiting new places.",
+          "audioSlug": "i_love_visiting_new_places"
+        }
+      ]
+    },
+    "en.weather_in_summer_it_is_very_hot": {
+      "conceptId": "en.weather_in_summer_it_is_very_hot",
+      "id": "weather_in_summer_it_is_very_hot",
+      "target": [
+        {
+          "text": "In summer it's very hot.",
+          "audioSlug": "in_summer_it_s_very_hot"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "8c",
+  "concepts": {
+    "en.conversacion_i_respect_you": {
+      "conceptId": "en.conversacion_i_respect_you",
+      "id": "conversacion_i_respect_you",
+      "target": [
+        {
+          "text": "I respect you.",
+          "audioSlug": "i_respect_you"
+        }
+      ]
+    },
+    "en.greetings_great_catching_up_more_often": {
+      "conceptId": "en.greetings_great_catching_up_more_often",
+      "id": "greetings_great_catching_up_more_often",
+      "target": [
+        {
+          "text": "It was great catching up. We should do this more often.",
+          "audioSlug": "it_was_great_catching_up_we_should_do_this_more_often"
+        }
+      ]
+    },
+    "en.gym_i_need_to_work_on_my": {
+      "conceptId": "en.gym_i_need_to_work_on_my",
+      "id": "gym_i_need_to_work_on_my",
+      "target": [
+        {
+          "text": "I need to work on my endurance.",
+          "audioSlug": "i_need_to_work_on_my_endurance"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_what_a_tall_mountain": {
+      "conceptId": "en.naturaleza_lugares_what_a_tall_mountain",
+      "id": "naturaleza_lugares_what_a_tall_mountain",
+      "target": [
+        {
+          "text": "What a tall mountain!",
+          "audioSlug": "what_a_tall_mountain"
+        }
+      ]
+    },
+    "en.personal_info_where_were_you_born": {
+      "conceptId": "en.personal_info_where_were_you_born",
+      "id": "personal_info_where_were_you_born",
+      "target": [
+        {
+          "text": "Where were you born?",
+          "audioSlug": "where_were_you_born"
+        }
+      ]
+    },
+    "en.technology_this_is_a_new_model": {
+      "conceptId": "en.technology_this_is_a_new_model",
+      "id": "technology_this_is_a_new_model",
+      "target": [
+        {
+          "text": "This is a new model.",
+          "audioSlug": "this_is_a_new_model"
+        }
+      ]
+    }
+  }
+}

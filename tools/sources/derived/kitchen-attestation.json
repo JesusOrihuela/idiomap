@@ -1,0 +1,1288 @@
+{
+  "_doc": "Atestiguacion frase por frase — topic kitchen. Actos de COMUNICACION DE COCINA (pedir utensilios, preguntar ubicacion/ingredientes, instrucciones de receta, consejos), atestiguados en materiales ELE/ESL de cocina/recetas + inventario PCIC. Retirada la prosa expositiva de ciencia culinaria (definiciones \"X es Y\").",
+  "sources_en": [
+    "7ESL — Cooking verbs",
+    "5 Minute English — kitchen vocabulary",
+    "elessonworld — In the Kitchen A1-A2",
+    "Promova — cooking food vocabulary"
+  ],
+  "sources_es": [
+    "PCIC nociones (cocina/menaje/preparacion)",
+    "recursos ELE de cocina y recetas"
+  ],
+  "retired": [
+    "kitchen_marinade_is_a_commonly_used_seasoning",
+    "kitchen_spherification_gel_membrane",
+    "kitchen_tempered_chocolate_crystalline_snap",
+    "kitchen_sous_vide_precise_temperature_control",
+    "kitchen_fat_flour_ratio_structural_integrity",
+    "kitchen_maillard_reaction_browning_flavor",
+    "kitchen_roux_base_for_white_sauces",
+    "kitchen_saute_vs_sweat_onions",
+    "kitchen_fat_carries_flavor_mouthfeel",
+    "kitchen_lacto_fermentation_lactic_acid"
+  ],
+  "phrases": {
+    "en.kitchen_add_a_little_sugar_to_the": {
+      "level": "A2",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "Add a little sugar to the sauce to balance the flavor."
+    },
+    "en.kitchen_baking_soda_will_help_the_dough": {
+      "level": "B1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Baking soda will help the dough rise."
+    },
+    "en.kitchen_be_careful_with_the_hot_pot": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Be careful with the hot pot."
+    },
+    "en.kitchen_before_cooking_pasta_we_have_to": {
+      "level": "B2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Before cooking pasta, we have to wait for the water to boil."
+    },
+    "en.kitchen_blanch_vegetables_before_stir_fry": {
+      "level": "B2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "This recipe calls for blanching the vegetables before adding them to the stir-fry."
+    },
+    "en.kitchen_boil_the_pasta_in_hot_water": {
+      "level": "A1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Boil the pasta in hot water."
+    },
+    "en.kitchen_bread_the_fish_with_breadcrumbs_and": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Bread the fish with breadcrumbs and egg."
+    },
+    "en.kitchen_brine_chicken_overnight_juicier": {
+      "level": "C1",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "Brining the chicken overnight in salted water results in noticeably juicier and more flavorful meat."
+    },
+    "en.kitchen_can_you_check_if_the_oven": {
+      "level": "A1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Can you check if the oven is preheated?"
+    },
+    "en.kitchen_can_you_pass_me_the_colander": {
+      "level": "A2",
+      "function": "pedir_utensilio",
+      "attested": true,
+      "intent": "Can you pass me the colander to drain the pasta?"
+    },
+    "en.kitchen_can_you_pass_me_the_spatula": {
+      "level": "A1",
+      "function": "pedir_utensilio",
+      "attested": true,
+      "intent": "Can you pass me the spatula?"
+    },
+    "en.kitchen_caramelized_onions_deglaze_balsamic": {
+      "level": "C1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Once you've caramelized the onions, deglaze with balsamic vinegar to add depth and balance the sweetness."
+    },
+    "en.kitchen_could_you_chop_the_vegetables_into": {
+      "level": "A2",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "Could you chop the vegetables into small pieces, please?"
+    },
+    "en.kitchen_could_you_help_me_open_this": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Could you help me open this jar, please?"
+    },
+    "en.kitchen_could_you_help_me_sift_the": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Could you help me sift the flour?"
+    },
+    "en.kitchen_could_you_rinse_the_vegetables_with": {
+      "level": "A2",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "Could you rinse the vegetables with cold water?"
+    },
+    "en.kitchen_cure_salmon_salt_sugar_dill": {
+      "level": "C1",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "To cure salmon, coat it in salt, sugar, and dill and refrigerate for two days."
+    },
+    "en.kitchen_deglaze_pan_white_wine": {
+      "level": "B2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "I usually deglaze the pan with white wine to build the sauce's flavor base."
+    },
+    "en.kitchen_do_we_have_aluminum_foil_to": {
+      "level": "A2",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have aluminum foil to wrap up the leftovers?"
+    },
+    "en.kitchen_do_we_have_any_fresh_herbs": {
+      "level": "A1",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have any fresh herbs?"
+    },
+    "en.kitchen_do_we_have_any_olive_oil": {
+      "level": "A1",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have any olive oil left?"
+    },
+    "en.kitchen_do_we_have_breadcrumbs_to_coat": {
+      "level": "A2",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have breadcrumbs to coat the chicken?"
+    },
+    "en.kitchen_do_we_have_enough_eggs_for": {
+      "level": "A1",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have enough eggs for the recipe?"
+    },
+    "en.kitchen_do_we_have_parchment_paper_to": {
+      "level": "A2",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have parchment paper to line the baking sheet?"
+    },
+    "en.kitchen_do_we_have_vanilla_extract_for": {
+      "level": "A1",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have vanilla extract for the cake?"
+    },
+    "en.kitchen_dry_the_sink_after_washing_the": {
+      "level": "A1",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "Dry the sink after washing the dishes."
+    },
+    "en.kitchen_emulsified_vinaigrette_add_oil_slowly": {
+      "level": "C1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "The key to a well-emulsified vinaigrette is adding the oil very slowly while whisking constantly."
+    },
+    "en.kitchen_flan_bake_bain_marie": {
+      "level": "B1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Flan must be baked in a water bath inside the oven."
+    },
+    "en.kitchen_fold_egg_whites_not_stir": {
+      "level": "B2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Fold the egg whites into the batter rather than stirring them in."
+    },
+    "en.kitchen_fry_the_potatoes_in_hot_oil": {
+      "level": "A1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Fry the potatoes in hot oil."
+    },
+    "en.kitchen_grill_the_meat": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Grill the meat."
+    },
+    "en.kitchen_have_you_already_cut_the_vegetables": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Have you already cut the vegetables?"
+    },
+    "en.kitchen_help_me_peel_the_carrots_and": {
+      "level": "A1",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "Help me peel the carrots and potatoes."
+    },
+    "en.kitchen_i_need_a_tablespoon_of_butter": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "I need a tablespoon of butter for this recipe."
+    },
+    "en.kitchen_i_prefer_to_use_the_electric": {
+      "level": "A2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "I prefer to use the electric oven over the microwave to heat up the food."
+    },
+    "en.kitchen_im_going_to_make_chicken_and": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "I'm going to make chicken and rice, it's my favorite recipe."
+    },
+    "en.kitchen_let_meat_rest_juices_redistribute": {
+      "level": "B2",
+      "function": "consejo_cocina",
+      "attested": true,
+      "intent": "Let the meat rest for five minutes after cooking so the juices redistribute."
+    },
+    "en.kitchen_let_the_pizza_dough_rest_before": {
+      "level": "A2",
+      "function": "consejo_cocina",
+      "attested": true,
+      "intent": "Let the pizza dough rest before stretching it."
+    },
+    "en.kitchen_lower_the_temperature_of_the_freezer": {
+      "level": "A1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Lower the temperature of the freezer."
+    },
+    "en.kitchen_make_day_ahead_flavors_meld": {
+      "level": "C1",
+      "function": "consejo_cocina",
+      "attested": true,
+      "intent": "This dish benefits from being made ahead, as the flavors meld overnight."
+    },
+    "en.kitchen_pass_me_the_cutting_board": {
+      "level": "A1",
+      "function": "pedir_utensilio",
+      "attested": true,
+      "intent": "Pass me the cutting board."
+    },
+    "en.kitchen_pass_me_the_salt_from_the": {
+      "level": "A1",
+      "function": "pedir_utensilio",
+      "attested": true,
+      "intent": "Pass me the salt from the pantry."
+    },
+    "en.kitchen_peel_the_potatoes_and_then_slice": {
+      "level": "A2",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "Peel the potatoes and then slice them."
+    },
+    "en.kitchen_prep_ingredients_before_start": {
+      "level": "B2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "I always prep all my ingredients before cooking. It makes everything run smoothly."
+    },
+    "en.kitchen_put_the_leftovers_in_plastic_containers": {
+      "level": "A1",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Put the leftovers in plastic containers."
+    },
+    "en.kitchen_reducing_the_sauce_will_take_time": {
+      "level": "B1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Reducing the sauce will take time."
+    },
+    "en.kitchen_sauce_breaks_rescue_cold_water": {
+      "level": "C1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "If the sauce breaks, rescue it by adding cold water and whisking vigorously."
+    },
+    "en.kitchen_score_duck_skin_fat_renders": {
+      "level": "B2",
+      "function": "consejo_cocina",
+      "attested": true,
+      "intent": "Scoring the duck breast skin helps the fat render more evenly."
+    },
+    "en.kitchen_season_the_chicken_with_salt_pepper": {
+      "level": "A2",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "Season the chicken with salt, pepper, and garlic."
+    },
+    "en.kitchen_season_throughout_not_just_end": {
+      "level": "B2",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "Don't wait until the end to season. Taste and adjust throughout cooking."
+    },
+    "en.kitchen_steam_the_vegetables": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Steam the vegetables."
+    },
+    "en.kitchen_take_the_food_out_of_the": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Take the food out of the refrigerator."
+    },
+    "en.kitchen_temper_eggs_hot_liquid": {
+      "level": "B2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "To temper eggs, slowly whisk in a ladleful of hot liquid before combining."
+    },
+    "en.kitchen_the_baking_sheets_are_on_the": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The baking sheets are on the top shelf."
+    },
+    "en.kitchen_the_best_side_dish_for_chicken": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The best side dish for chicken is mashed potatoes."
+    },
+    "en.kitchen_the_best_side_dish_for_fish": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The best side dish for fish is rice."
+    },
+    "en.kitchen_the_best_side_dish_for_meat": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The best side dish for meat is salad."
+    },
+    "en.kitchen_the_best_side_dish_for_pasta": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The best side dish for pasta is sauce."
+    },
+    "en.kitchen_the_blender_is_in_the_cabinet": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The blender is in the cabinet."
+    },
+    "en.kitchen_the_casserole_dish_is_in_the": {
+      "level": "A1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "The casserole dish is in the oven."
+    },
+    "en.kitchen_the_coffee_maker_is_on_the": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The coffee maker is on the shelf."
+    },
+    "en.kitchen_the_cutting_board_is_in_the": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The cutting board is in the drawer."
+    },
+    "en.kitchen_the_forks_and_knives_are_in": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The forks and knives are in the drawer."
+    },
+    "en.kitchen_the_fruit_bowl_is_on_the": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The fruit bowl is on the table."
+    },
+    "en.kitchen_the_glasses_and_cups_are_in": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The glasses and cups are in the cabinet."
+    },
+    "en.kitchen_the_glasses_are_hanging_on_the": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The glasses are hanging on the shelf."
+    },
+    "en.kitchen_the_grill_is_on_the_patio": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The grill is on the patio."
+    },
+    "en.kitchen_the_knives_need_sharpening": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The knives need sharpening."
+    },
+    "en.kitchen_the_milk_has_curdled": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The milk has curdled."
+    },
+    "en.kitchen_the_mixer_is_in_the_cabinet": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The mixer is in the cabinet."
+    },
+    "en.kitchen_the_mixer_is_in_the_drawer": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The mixer is in the drawer."
+    },
+    "en.kitchen_the_pan_is_in_the_sink": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The pan is in the sink because I used it yesterday."
+    },
+    "en.kitchen_the_pan_is_too_hot_lower": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The pan is too hot, so lower the heat a bit."
+    },
+    "en.kitchen_the_pot_is_on_the_stove": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The pot is on the stove."
+    },
+    "en.kitchen_the_recipe_calls_for_brown_sugar": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The recipe calls for brown sugar instead of white sugar."
+    },
+    "en.kitchen_the_rolling_pin_to_flatten_the": {
+      "level": "A2",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The rolling pin to flatten the dough is in the drawer."
+    },
+    "en.kitchen_the_salad_will_need_oil_vinegar": {
+      "level": "A2",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "The salad will need oil, vinegar, and salt."
+    },
+    "en.kitchen_the_sandwich_maker_is_in_the": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The sandwich maker is in the cabinet."
+    },
+    "en.kitchen_the_sauce_needs_more_salt": {
+      "level": "A1",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "The sauce needs more salt."
+    },
+    "en.kitchen_the_soup_needs_more_salt": {
+      "level": "A1",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "The soup needs more salt."
+    },
+    "en.kitchen_the_spices_and_condiments_are_in": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The spices and condiments are in the cabinet next to the sink."
+    },
+    "en.kitchen_the_stove_doesnt_seem_to_be": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The stove doesn't seem to be working."
+    },
+    "en.kitchen_the_toaster_is_on_the_table": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The toaster is on the table."
+    },
+    "en.kitchen_theres_leftover_broth_for_the_soup": {
+      "level": "A2",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "There's leftover broth for the soup."
+    },
+    "en.kitchen_this_sauce_has_expired": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "This sauce has expired."
+    },
+    "en.kitchen_to_cook_chicken_better_you_have": {
+      "level": "B1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "To cook chicken better, you have to truss its legs."
+    },
+    "en.kitchen_to_make_flan_you_have_to": {
+      "level": "B1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "To make flan, you have to caramelize the sugar."
+    },
+    "en.kitchen_tonight_were_making_homemade_pizza": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Tonight we're making homemade pizza."
+    },
+    "en.kitchen_umami_depth_fish_sauce_miso": {
+      "level": "C1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "A small amount of fish sauce or miso paste deepens the umami in any savory dish."
+    },
+    "en.kitchen_wash_the_fruit_before_cutting_it": {
+      "level": "A1",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "Wash the fruit before cutting it."
+    },
+    "en.kitchen_we_dont_have_the_necessary_ingredients": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "We don't have the necessary ingredients to make the recipe."
+    },
+    "en.kitchen_we_need_to_broil_the_cheese": {
+      "level": "B1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "We need to broil the cheese to make the lasagna golden."
+    },
+    "en.kitchen_we_need_to_buy_unsalted_butter": {
+      "level": "A1",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "We need to buy unsalted butter."
+    },
+    "en.kitchen_we_need_to_finely_chop_the": {
+      "level": "A2",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "We need to finely chop the onions."
+    },
+    "en.kitchen_we_need_to_preheat_the_oven": {
+      "level": "A1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "We need to preheat the oven."
+    },
+    "en.kitchen_we_need_to_replace_the_baking": {
+      "level": "A2",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "We need to replace the baking powder."
+    },
+    "en.kitchen_we_need_to_skim_the_broth": {
+      "level": "B1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "We need to skim the broth before serving it."
+    },
+    "en.kitchen_we_need_to_take_the_meat": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "We need to take the meat out of the freezer in advance."
+    },
+    "en.kitchen_we_need_to_wash_the_cheese": {
+      "level": "A1",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "We need to wash the cheese grater."
+    },
+    "en.kitchen_we_need_to_wash_the_spoons": {
+      "level": "A1",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "We need to wash the spoons."
+    },
+    "en.kitchen_whats_the_difference_between_a_pot": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "What's the difference between a pot and a pan?"
+    },
+    "en.kitchen_where_are_the_clean_dishes": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Where are the clean dishes?"
+    },
+    "en.kitchen_where_do_we_keep_the_measuring": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Where do we keep the measuring cups?"
+    },
+    "en.kitchen_where_do_we_keep_the_plastic": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Where do we keep the plastic wrap to cover the leftovers?"
+    },
+    "en.kitchen_while_i_remove_the_fish_bones": {
+      "level": "A2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "While I remove the fish bones, could you preheat the oven?"
+    },
+    "es.kitchen_add_a_little_sugar_to_the": {
+      "level": "A2",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "Add a little sugar to the sauce to balance the flavor."
+    },
+    "es.kitchen_baking_soda_will_help_the_dough": {
+      "level": "B1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Baking soda will help the dough rise."
+    },
+    "es.kitchen_be_careful_with_the_hot_pot": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Be careful with the hot pot."
+    },
+    "es.kitchen_before_cooking_pasta_we_have_to": {
+      "level": "B2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Before cooking pasta, we have to wait for the water to boil."
+    },
+    "es.kitchen_blanch_vegetables_before_stir_fry": {
+      "level": "B2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "This recipe calls for blanching the vegetables before adding them to the stir-fry."
+    },
+    "es.kitchen_boil_the_pasta_in_hot_water": {
+      "level": "A1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Boil the pasta in hot water."
+    },
+    "es.kitchen_bread_the_fish_with_breadcrumbs_and": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Bread the fish with breadcrumbs and egg."
+    },
+    "es.kitchen_brine_chicken_overnight_juicier": {
+      "level": "C1",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "Brining the chicken overnight in salted water results in noticeably juicier and more flavorful meat."
+    },
+    "es.kitchen_can_you_check_if_the_oven": {
+      "level": "A1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Can you check if the oven is preheated?"
+    },
+    "es.kitchen_can_you_pass_me_the_colander": {
+      "level": "A2",
+      "function": "pedir_utensilio",
+      "attested": true,
+      "intent": "Can you pass me the colander to drain the pasta?"
+    },
+    "es.kitchen_can_you_pass_me_the_spatula": {
+      "level": "A1",
+      "function": "pedir_utensilio",
+      "attested": true,
+      "intent": "Can you pass me the spatula?"
+    },
+    "es.kitchen_caramelized_onions_deglaze_balsamic": {
+      "level": "C1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Once you've caramelized the onions, deglaze with balsamic vinegar to add depth and balance the sweetness."
+    },
+    "es.kitchen_could_you_chop_the_vegetables_into": {
+      "level": "A2",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "Could you chop the vegetables into small pieces, please?"
+    },
+    "es.kitchen_could_you_help_me_open_this": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Could you help me open this jar, please?"
+    },
+    "es.kitchen_could_you_help_me_sift_the": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Could you help me sift the flour?"
+    },
+    "es.kitchen_could_you_rinse_the_vegetables_with": {
+      "level": "A2",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "Could you rinse the vegetables with cold water?"
+    },
+    "es.kitchen_cure_salmon_salt_sugar_dill": {
+      "level": "C1",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "To cure salmon, coat it in salt, sugar, and dill and refrigerate for two days."
+    },
+    "es.kitchen_deglaze_pan_white_wine": {
+      "level": "B2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "I usually deglaze the pan with white wine to build the sauce's flavor base."
+    },
+    "es.kitchen_do_we_have_aluminum_foil_to": {
+      "level": "A2",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have aluminum foil to wrap up the leftovers?"
+    },
+    "es.kitchen_do_we_have_any_fresh_herbs": {
+      "level": "A1",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have any fresh herbs?"
+    },
+    "es.kitchen_do_we_have_any_olive_oil": {
+      "level": "A1",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have any olive oil left?"
+    },
+    "es.kitchen_do_we_have_breadcrumbs_to_coat": {
+      "level": "A2",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have breadcrumbs to coat the chicken?"
+    },
+    "es.kitchen_do_we_have_enough_eggs_for": {
+      "level": "A1",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have enough eggs for the recipe?"
+    },
+    "es.kitchen_do_we_have_parchment_paper_to": {
+      "level": "A2",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have parchment paper to line the baking sheet?"
+    },
+    "es.kitchen_do_we_have_vanilla_extract_for": {
+      "level": "A1",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Do we have vanilla extract for the cake?"
+    },
+    "es.kitchen_dry_the_sink_after_washing_the": {
+      "level": "A1",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "Dry the sink after washing the dishes."
+    },
+    "es.kitchen_emulsified_vinaigrette_add_oil_slowly": {
+      "level": "C1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "The key to a well-emulsified vinaigrette is adding the oil very slowly while whisking constantly."
+    },
+    "es.kitchen_flan_bake_bain_marie": {
+      "level": "B1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Flan must be baked in a water bath inside the oven."
+    },
+    "es.kitchen_fold_egg_whites_not_stir": {
+      "level": "B2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Fold the egg whites into the batter rather than stirring them in."
+    },
+    "es.kitchen_fry_the_potatoes_in_hot_oil": {
+      "level": "A1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Fry the potatoes in hot oil."
+    },
+    "es.kitchen_grill_the_meat": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Grill the meat."
+    },
+    "es.kitchen_have_you_already_cut_the_vegetables": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Have you already cut the vegetables?"
+    },
+    "es.kitchen_help_me_peel_the_carrots_and": {
+      "level": "A1",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "Help me peel the carrots and potatoes."
+    },
+    "es.kitchen_i_need_a_tablespoon_of_butter": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "I need a tablespoon of butter for this recipe."
+    },
+    "es.kitchen_i_prefer_to_use_the_electric": {
+      "level": "A2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "I prefer to use the electric oven over the microwave to heat up the food."
+    },
+    "es.kitchen_im_going_to_make_chicken_and": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "I'm going to make chicken and rice, it's my favorite recipe."
+    },
+    "es.kitchen_let_meat_rest_juices_redistribute": {
+      "level": "B2",
+      "function": "consejo_cocina",
+      "attested": true,
+      "intent": "Let the meat rest for five minutes after cooking so the juices redistribute."
+    },
+    "es.kitchen_let_the_pizza_dough_rest_before": {
+      "level": "A2",
+      "function": "consejo_cocina",
+      "attested": true,
+      "intent": "Let the pizza dough rest before stretching it."
+    },
+    "es.kitchen_lower_the_temperature_of_the_freezer": {
+      "level": "A1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "Lower the temperature of the freezer."
+    },
+    "es.kitchen_make_day_ahead_flavors_meld": {
+      "level": "C1",
+      "function": "consejo_cocina",
+      "attested": true,
+      "intent": "This dish benefits from being made ahead, as the flavors meld overnight."
+    },
+    "es.kitchen_pass_me_the_cutting_board": {
+      "level": "A1",
+      "function": "pedir_utensilio",
+      "attested": true,
+      "intent": "Pass me the cutting board."
+    },
+    "es.kitchen_pass_me_the_salt_from_the": {
+      "level": "A1",
+      "function": "pedir_utensilio",
+      "attested": true,
+      "intent": "Pass me the salt from the pantry."
+    },
+    "es.kitchen_peel_the_potatoes_and_then_slice": {
+      "level": "A2",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "Peel the potatoes and then slice them."
+    },
+    "es.kitchen_prep_ingredients_before_start": {
+      "level": "B2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "I always prep all my ingredients before cooking. It makes everything run smoothly."
+    },
+    "es.kitchen_put_the_leftovers_in_plastic_containers": {
+      "level": "A1",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "Put the leftovers in plastic containers."
+    },
+    "es.kitchen_reducing_the_sauce_will_take_time": {
+      "level": "B1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Reducing the sauce will take time."
+    },
+    "es.kitchen_sauce_breaks_rescue_cold_water": {
+      "level": "C1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "If the sauce breaks, rescue it by adding cold water and whisking vigorously."
+    },
+    "es.kitchen_score_duck_skin_fat_renders": {
+      "level": "B2",
+      "function": "consejo_cocina",
+      "attested": true,
+      "intent": "Scoring the duck breast skin helps the fat render more evenly."
+    },
+    "es.kitchen_season_the_chicken_with_salt_pepper": {
+      "level": "A2",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "Season the chicken with salt, pepper, and garlic."
+    },
+    "es.kitchen_season_throughout_not_just_end": {
+      "level": "B2",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "Don't wait until the end to season. Taste and adjust throughout cooking."
+    },
+    "es.kitchen_steam_the_vegetables": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Steam the vegetables."
+    },
+    "es.kitchen_take_the_food_out_of_the": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Take the food out of the refrigerator."
+    },
+    "es.kitchen_temper_eggs_hot_liquid": {
+      "level": "B2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "To temper eggs, slowly whisk in a ladleful of hot liquid before combining."
+    },
+    "es.kitchen_the_baking_sheets_are_on_the": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The baking sheets are on the top shelf."
+    },
+    "es.kitchen_the_best_side_dish_for_chicken": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The best side dish for chicken is mashed potatoes."
+    },
+    "es.kitchen_the_best_side_dish_for_fish": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The best side dish for fish is rice."
+    },
+    "es.kitchen_the_best_side_dish_for_meat": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The best side dish for meat is salad."
+    },
+    "es.kitchen_the_best_side_dish_for_pasta": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The best side dish for pasta is sauce."
+    },
+    "es.kitchen_the_blender_is_in_the_cabinet": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The blender is in the cabinet."
+    },
+    "es.kitchen_the_casserole_dish_is_in_the": {
+      "level": "A1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "The casserole dish is in the oven."
+    },
+    "es.kitchen_the_coffee_maker_is_on_the": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The coffee maker is on the shelf."
+    },
+    "es.kitchen_the_cutting_board_is_in_the": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The cutting board is in the drawer."
+    },
+    "es.kitchen_the_forks_and_knives_are_in": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The forks and knives are in the drawer."
+    },
+    "es.kitchen_the_fruit_bowl_is_on_the": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The fruit bowl is on the table."
+    },
+    "es.kitchen_the_glasses_and_cups_are_in": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The glasses and cups are in the cabinet."
+    },
+    "es.kitchen_the_glasses_are_hanging_on_the": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The glasses are hanging on the shelf."
+    },
+    "es.kitchen_the_grill_is_on_the_patio": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The grill is on the patio."
+    },
+    "es.kitchen_the_knives_need_sharpening": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The knives need sharpening."
+    },
+    "es.kitchen_the_milk_has_curdled": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The milk has curdled."
+    },
+    "es.kitchen_the_mixer_is_in_the_cabinet": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The mixer is in the cabinet."
+    },
+    "es.kitchen_the_mixer_is_in_the_drawer": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The mixer is in the drawer."
+    },
+    "es.kitchen_the_pan_is_in_the_sink": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The pan is in the sink because I used it yesterday."
+    },
+    "es.kitchen_the_pan_is_too_hot_lower": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The pan is too hot, so lower the heat a bit."
+    },
+    "es.kitchen_the_pot_is_on_the_stove": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The pot is on the stove."
+    },
+    "es.kitchen_the_recipe_calls_for_brown_sugar": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The recipe calls for brown sugar instead of white sugar."
+    },
+    "es.kitchen_the_rolling_pin_to_flatten_the": {
+      "level": "A2",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The rolling pin to flatten the dough is in the drawer."
+    },
+    "es.kitchen_the_salad_will_need_oil_vinegar": {
+      "level": "A2",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "The salad will need oil, vinegar, and salt."
+    },
+    "es.kitchen_the_sandwich_maker_is_in_the": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The sandwich maker is in the cabinet."
+    },
+    "es.kitchen_the_sauce_needs_more_salt": {
+      "level": "A1",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "The sauce needs more salt."
+    },
+    "es.kitchen_the_soup_needs_more_salt": {
+      "level": "A1",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "The soup needs more salt."
+    },
+    "es.kitchen_the_spices_and_condiments_are_in": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "The spices and condiments are in the cabinet next to the sink."
+    },
+    "es.kitchen_the_stove_doesnt_seem_to_be": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The stove doesn't seem to be working."
+    },
+    "es.kitchen_the_toaster_is_on_the_table": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "The toaster is on the table."
+    },
+    "es.kitchen_theres_leftover_broth_for_the_soup": {
+      "level": "A2",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "There's leftover broth for the soup."
+    },
+    "es.kitchen_this_sauce_has_expired": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "This sauce has expired."
+    },
+    "es.kitchen_to_cook_chicken_better_you_have": {
+      "level": "B1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "To cook chicken better, you have to truss its legs."
+    },
+    "es.kitchen_to_make_flan_you_have_to": {
+      "level": "B1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "To make flan, you have to caramelize the sugar."
+    },
+    "es.kitchen_tonight_were_making_homemade_pizza": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "Tonight we're making homemade pizza."
+    },
+    "es.kitchen_umami_depth_fish_sauce_miso": {
+      "level": "C1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "A small amount of fish sauce or miso paste deepens the umami in any savory dish."
+    },
+    "es.kitchen_wash_the_fruit_before_cutting_it": {
+      "level": "A1",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "Wash the fruit before cutting it."
+    },
+    "es.kitchen_we_dont_have_the_necessary_ingredients": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "We don't have the necessary ingredients to make the recipe."
+    },
+    "es.kitchen_we_need_to_broil_the_cheese": {
+      "level": "B1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "We need to broil the cheese to make the lasagna golden."
+    },
+    "es.kitchen_we_need_to_buy_unsalted_butter": {
+      "level": "A1",
+      "function": "instrucción_sazón",
+      "attested": true,
+      "intent": "We need to buy unsalted butter."
+    },
+    "es.kitchen_we_need_to_finely_chop_the": {
+      "level": "A2",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "We need to finely chop the onions."
+    },
+    "es.kitchen_we_need_to_preheat_the_oven": {
+      "level": "A1",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "We need to preheat the oven."
+    },
+    "es.kitchen_we_need_to_replace_the_baking": {
+      "level": "A2",
+      "function": "disponibilidad_ingrediente",
+      "attested": true,
+      "intent": "We need to replace the baking powder."
+    },
+    "es.kitchen_we_need_to_skim_the_broth": {
+      "level": "B1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "We need to skim the broth before serving it."
+    },
+    "es.kitchen_we_need_to_take_the_meat": {
+      "level": "A2",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "We need to take the meat out of the freezer in advance."
+    },
+    "es.kitchen_we_need_to_wash_the_cheese": {
+      "level": "A1",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "We need to wash the cheese grater."
+    },
+    "es.kitchen_we_need_to_wash_the_spoons": {
+      "level": "A1",
+      "function": "instrucción_preparación",
+      "attested": true,
+      "intent": "We need to wash the spoons."
+    },
+    "es.kitchen_whats_the_difference_between_a_pot": {
+      "level": "A1",
+      "function": "comunicación_cocina",
+      "attested": true,
+      "intent": "What's the difference between a pot and a pan?"
+    },
+    "es.kitchen_where_are_the_clean_dishes": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Where are the clean dishes?"
+    },
+    "es.kitchen_where_do_we_keep_the_measuring": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Where do we keep the measuring cups?"
+    },
+    "es.kitchen_where_do_we_keep_the_plastic": {
+      "level": "A1",
+      "function": "ubicación",
+      "attested": true,
+      "intent": "Where do we keep the plastic wrap to cover the leftovers?"
+    },
+    "es.kitchen_while_i_remove_the_fish_bones": {
+      "level": "A2",
+      "function": "instrucción_cocción",
+      "attested": true,
+      "intent": "While I remove the fish bones, could you preheat the oven?"
+    }
+  },
+  "_keyFormat": "target.conceptSlug"
+}

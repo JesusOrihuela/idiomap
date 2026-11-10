@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "bc",
+  "concepts": {
+    "es.conversacion_todavia_no_he_terminado": {
+      "conceptId": "es.conversacion_todavia_no_he_terminado",
+      "id": "conversacion_todavia_no_he_terminado",
+      "target": [
+        {
+          "text": "Todavía no he terminado.",
+          "audioSlug": "todavia_no_he_terminado"
+        }
+      ]
+    },
+    "es.deportes_salgo_a_montar_en_bicicleta_los_domingos": {
+      "conceptId": "es.deportes_salgo_a_montar_en_bicicleta_los_domingos",
+      "id": "deportes_salgo_a_montar_en_bicicleta_los_domingos",
+      "target": [
+        {
+          "text": "Salgo a montar en bicicleta los domingos.",
+          "audioSlug": "salgo_a_montar_en_bicicleta_los_domingos"
+        }
+      ]
+    },
+    "es.descripciones_ese_nino_es_muy_timido": {
+      "conceptId": "es.descripciones_ese_nino_es_muy_timido",
+      "id": "descripciones_ese_nino_es_muy_timido",
+      "target": [
+        {
+          "text": "Ese niño es muy tímido.",
+          "audioSlug": "ese_nino_es_muy_timido"
+        }
+      ]
+    },
+    "es.directions_its_next_to_the_bank": {
+      "conceptId": "es.directions_its_next_to_the_bank",
+      "id": "directions_its_next_to_the_bank",
+      "target": [
+        {
+          "text": "Está al lado del banco.",
+          "audioSlug": "esta_al_lado_del_banco"
+        }
+      ]
+    },
+    "es.emociones_i_am_excited": {
+      "conceptId": "es.emociones_i_am_excited",
+      "id": "emociones_i_am_excited",
+      "target": [
+        {
+          "text": "Estoy emocionada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_emocionada"
+        },
+        {
+          "text": "Estoy emocionado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_emocionado"
+        }
+      ]
+    },
+    "es.health_i_need_a_doctor": {
+      "conceptId": "es.health_i_need_a_doctor",
+      "id": "health_i_need_a_doctor",
+      "target": [
+        {
+          "text": "Necesito ver a un médico.",
+          "audioSlug": "necesito_ver_a_un_medico"
+        }
+      ]
+    },
+    "es.sitios_vivo_cerca_del_centro_comercial": {
+      "conceptId": "es.sitios_vivo_cerca_del_centro_comercial",
+      "id": "sitios_vivo_cerca_del_centro_comercial",
+      "target": [
+        {
+          "text": "Vivo cerca del centro comercial.",
+          "audioSlug": "vivo_cerca_del_centro_comercial"
+        }
+      ]
+    },
+    "es.transportation_el_taxista_conoce_bien_la_ciudad": {
+      "conceptId": "es.transportation_el_taxista_conoce_bien_la_ciudad",
+      "id": "transportation_el_taxista_conoce_bien_la_ciudad",
+      "target": [
+        {
+          "text": "El taxista conoce bien la ciudad.",
+          "audioSlug": "el_taxista_conoce_bien_la_ciudad"
+        }
+      ]
+    },
+    "es.transportation_el_tren_es_muy_rapido": {
+      "conceptId": "es.transportation_el_tren_es_muy_rapido",
+      "id": "transportation_el_tren_es_muy_rapido",
+      "target": [
+        {
+          "text": "El tren es muy rápido.",
+          "audioSlug": "el_tren_es_muy_rapido"
+        }
+      ]
+    }
+  }
+}

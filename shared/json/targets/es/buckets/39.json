@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "39",
+  "concepts": {
+    "es.describiendo_personas_mi_hijo_es_timido": {
+      "conceptId": "es.describiendo_personas_mi_hijo_es_timido",
+      "id": "describiendo_personas_mi_hijo_es_timido",
+      "target": [
+        {
+          "text": "Mi hijo es muy tímido.",
+          "audioSlug": "mi_hijo_es_muy_timido"
+        }
+      ]
+    },
+    "es.emociones_im_sad": {
+      "conceptId": "es.emociones_im_sad",
+      "id": "emociones_im_sad",
+      "target": [
+        {
+          "text": "Estoy triste.",
+          "audioSlug": "estoy_triste"
+        }
+      ]
+    },
+    "es.personal_info_naci_en_un_pueblo_pequeno": {
+      "conceptId": "es.personal_info_naci_en_un_pueblo_pequeno",
+      "id": "personal_info_naci_en_un_pueblo_pequeno",
+      "target": [
+        {
+          "text": "Nací en un pueblo pequeño.",
+          "audioSlug": "naci_en_un_pueblo_pequeno"
+        }
+      ]
+    },
+    "es.theater_play_was_great": {
+      "conceptId": "es.theater_play_was_great",
+      "id": "theater_play_was_great",
+      "target": [
+        {
+          "text": "La obra estuvo genial.",
+          "audioSlug": "la_obra_estuvo_genial"
+        }
+      ]
+    }
+  }
+}

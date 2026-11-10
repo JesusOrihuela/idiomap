@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "viajes",
+  "phrases": [
+    {
+      "id": "viajes_me_gusta_viajar_en_verano",
+      "conceptId": "es.viajes_me_gusta_viajar_en_verano",
+      "sourceId": "de.s.9e6ad03537cd554b",
+      "source": "Ich reise gern im Sommer.",
+      "level": "A1",
+      "grammar": "me gusta más infinitivo, me gusta viajar.",
+      "target": [
+        {
+          "text": "Me gusta viajar en verano.",
+          "audioSlug": "me_gusta_viajar_en_verano"
+        }
+      ]
+    },
+    {
+      "id": "viajes_voy_a_reservar_un_hotel",
+      "conceptId": "es.viajes_voy_a_reservar_un_hotel",
+      "sourceId": "de.s.5cf08d5283b3a0cc",
+      "source": "Ich werde ein Hotel in der Nähe des Strandes buchen.",
+      "level": "A2",
+      "grammar": "ir a más infinitivo expresa un plan, voy a reservar.",
+      "target": [
+        {
+          "text": "Voy a reservar un hotel cerca de la playa.",
+          "audioSlug": "voy_a_reservar_un_hotel_cerca_de_la_playa"
+        }
+      ]
+    },
+    {
+      "id": "viajes_que_lugares_me_recomiendas",
+      "conceptId": "es.viajes_que_lugares_me_recomiendas",
+      "sourceId": "de.s.e3863e4b2ffc3092",
+      "source": "Welche Orte empfiehlst du mir?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué lugares me recomiendas?",
+          "audioSlug": "que_lugares_me_recomiendas"
+        }
+      ]
+    },
+    {
+      "id": "viajes_quiero_conocer_la_cultura",
+      "conceptId": "es.viajes_quiero_conocer_la_cultura",
+      "sourceId": "de.s.749a16ec8baa7712",
+      "source": "Ich möchte die Kultur des Landes kennenlernen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero conocer la cultura del país.",
+          "audioSlug": "quiero_conocer_la_cultura_del_pais"
+        }
+      ]
+    },
+    {
+      "id": "viajes_necesito_cambiar_dinero",
+      "conceptId": "es.viajes_necesito_cambiar_dinero",
+      "sourceId": "de.s.26f44ce35fb258f0",
+      "source": "Ich muss Geld wechseln.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito cambiar dinero.",
+          "audioSlug": "necesito_cambiar_dinero"
+        }
+      ]
+    },
+    {
+      "id": "viajes_es_un_boleto_de_ida_y_vuelta",
+      "conceptId": "es.viajes_es_un_boleto_de_ida_y_vuelta",
+      "sourceId": "de.s.1b6c5392b8a9d968",
+      "source": "Ist es ein Hin- und Rückfahrticket?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Es un boleto de ida y vuelta?",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "es_un_boleto_de_ida_y_vuelta"
+        },
+        {
+          "text": "¿Es un billete de ida y vuelta?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "es_un_billete_de_ida_y_vuelta"
+        }
+      ]
+    },
+    {
+      "id": "viajes_cuanto_dura_el_viaje",
+      "conceptId": "es.viajes_cuanto_dura_el_viaje",
+      "sourceId": "de.s.28b0c992186e8c82",
+      "source": "Wie lange dauert die Reise?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cuánto dura el viaje?",
+          "audioSlug": "cuanto_dura_el_viaje"
+        }
+      ]
+    },
+    {
+      "id": "viajes_viajo_con_poco_equipaje",
+      "conceptId": "es.viajes_viajo_con_poco_equipaje",
+      "sourceId": "de.s.cbdd5479fa616c4e",
+      "source": "Ich reise mit wenig Gepäck.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Viajo con poco equipaje.",
+          "audioSlug": "viajo_con_poco_equipaje"
+        }
+      ]
+    },
+    {
+      "id": "viajes_todavia_no_he_decidido_adonde_ir",
+      "conceptId": "es.viajes_todavia_no_he_decidido_adonde_ir",
+      "sourceId": "de.s.4aa6263a31171434",
+      "source": "Ich habe noch nicht entschieden, wohin ich reise.",
+      "level": "B1",
+      "grammar": "no he decidido es pretérito perfecto, para algo aún no cerrado.",
+      "target": [
+        {
+          "text": "Todavía no he decidido adónde ir.",
+          "audioSlug": "todavia_no_he_decidido_adonde_ir"
+        }
+      ]
+    },
+    {
+      "id": "viajes_tomo_muchas_fotos_cuando_viajo",
+      "conceptId": "es.viajes_tomo_muchas_fotos_cuando_viajo",
+      "sourceId": "de.s.b0c85b497ebfe193",
+      "source": "Ich mache viele Fotos, wenn ich reise.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tomo muchas fotos cuando viajo.",
+          "audioSlug": "tomo_muchas_fotos_cuando_viajo"
+        }
+      ]
+    },
+    {
+      "id": "viajes_el_paisaje_de_las_montanas_es_hermoso",
+      "conceptId": "es.viajes_el_paisaje_de_las_montanas_es_hermoso",
+      "sourceId": "de.s.e652e04eed41ca73",
+      "source": "Die Berglandschaft ist wunderschön.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El paisaje de las montañas es hermoso.",
+          "audioSlug": "el_paisaje_de_las_montanas_es_hermoso"
+        }
+      ]
+    },
+    {
+      "id": "viajes_cruzamos_la_frontera_sin_problemas",
+      "conceptId": "es.viajes_cruzamos_la_frontera_sin_problemas",
+      "sourceId": "de.s.488e9ad554a62831",
+      "source": "Wir haben die Grenze ohne Probleme überquert.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cruzamos la frontera sin problemas.",
+          "audioSlug": "cruzamos_la_frontera_sin_problemas"
+        }
+      ]
+    },
+    {
+      "id": "viajes_viajar_es_una_gran_aventura",
+      "conceptId": "es.viajes_viajar_es_una_gran_aventura",
+      "sourceId": "de.s.d70c37505736a04a",
+      "source": "Reisen ist ein großes Abenteuer.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Viajar es una gran aventura.",
+          "audioSlug": "viajar_es_una_gran_aventura"
+        }
+      ]
+    },
+    {
+      "id": "viajes_los_turistas_visitan_la_catedral",
+      "conceptId": "es.viajes_los_turistas_visitan_la_catedral",
+      "sourceId": "de.s.773422d25e8b114b",
+      "source": "Die Touristen besuchen die Kathedrale.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los turistas visitan la catedral.",
+          "audioSlug": "los_turistas_visitan_la_catedral"
+        }
+      ]
+    },
+    {
+      "id": "viajes_guardo_buenos_recuerdos_de_ese_viaje",
+      "conceptId": "es.viajes_guardo_buenos_recuerdos_de_ese_viaje",
+      "sourceId": "de.s.0f14a0da6d2bff26",
+      "source": "Ich habe gute Erinnerungen an diese Reise.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Guardo buenos recuerdos de ese viaje.",
+          "audioSlug": "guardo_buenos_recuerdos_de_ese_viaje"
+        }
+      ]
+    },
+    {
+      "id": "viajes_necesito_cambiar_euros_por_dolares",
+      "conceptId": "es.viajes_necesito_cambiar_euros_por_dolares",
+      "sourceId": "de.s.0e27bc9c74421dd9",
+      "source": "Ich muss Euro in Dollar wechseln.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito cambiar euros por dólares.",
+          "audioSlug": "necesito_cambiar_euros_por_dolares"
+        }
+      ]
+    },
+    {
+      "id": "viajes_reservamos_una_excursion_por_la_ciudad",
+      "conceptId": "es.viajes_reservamos_una_excursion_por_la_ciudad",
+      "sourceId": "de.s.c4c8b933802f8c67",
+      "source": "Wir haben eine Stadtrundfahrt gebucht.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Reservamos una excursión por la ciudad.",
+          "audioSlug": "reservamos_una_excursion_por_la_ciudad"
+        }
+      ]
+    },
+    {
+      "id": "viajes_siempre_llevo_una_camara",
+      "conceptId": "es.viajes_siempre_llevo_una_camara",
+      "sourceId": "de.s.eb725c3f6071ea36",
+      "source": "Ich nehme immer eine Kamera mit, wenn ich reise.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Siempre llevo una cámara cuando viajo.",
+          "audioSlug": "siempre_llevo_una_camara_cuando_viajo"
+        }
+      ]
+    }
+  ]
+}

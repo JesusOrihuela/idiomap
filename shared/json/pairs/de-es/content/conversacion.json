@@ -1,101 +1,1229 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "conversacion",
-  "conceptIds": [
-    "es.conversacion_i_want_to_ask_something",
-    "es.conversacion_i_agree",
-    "es.conversacion_i_dont_agree",
-    "es.conversacion_what_do_you_think",
-    "es.conversacion_i_think_youre_right",
-    "es.conversacion_i_understand_what_you_mean",
-    "es.conversacion_lets_talk_about_it",
-    "es.conversacion_i_agree_with_you",
-    "es.conversacion_yo_tambien_quiero_decir_algo",
-    "es.conversacion_no_se_que_responder",
-    "es.conversacion_pero_eso_no_es_verdad",
-    "es.conversacion_me_puedes_dar_tu_opinion",
-    "es.conversacion_cada_persona_piensa_distinto",
-    "es.conversacion_dime_la_verdad_por_favor",
-    "es.conversacion_siempre_digo_lo_que_siento",
-    "es.conversacion_hablamos_de_muchas_cosas",
-    "es.conversacion_si_eso_es_justo_lo_que_pienso",
-    "es.conversacion_no_quiero_hablar_de_eso_ahora",
-    "es.conversacion_cada_uno_tiene_su_opinion",
-    "es.conversacion_escuchame_sin_interrumpir",
-    "es.conversacion_claro_que_puedo_ayudarte",
-    "es.conversacion_ese_es_un_problema_dificil",
-    "es.conversacion_es_un_buen_plan_y_ademas_barato",
-    "es.conversacion_que_hacemos_entonces",
-    "es.conversacion_que_tipo_de_musica_te_gusta",
-    "es.conversacion_en_ese_caso_prefiero_esperar",
-    "es.conversacion_siento_que_no_me_escuchas",
-    "es.conversacion_te_entiendo_aunque_no_estoy_de_acuerdo",
-    "es.conversacion_no_recuerdo_su_nombre",
-    "es.conversacion_cada_quien_opina_segun_su_experiencia",
-    "es.conversacion_nosotros_llegamos_a_un_acuerdo",
-    "es.conversacion_la_politica_no_me_interesa",
-    "es.conversacion_te_quiero_presentar_a_un_amigo",
-    "es.conversacion_pues_eso_no_tiene_sentido",
-    "es.conversacion_aquella_idea_fue_muy_buena",
-    "es.conversacion_necesito_mas_informacion",
-    "es.conversacion_no_dije_tal_cosa",
-    "es.conversacion_es_necesario_hablar_con_claridad",
-    "es.conversacion_me_resulta_dificil_expresarme",
-    "es.conversacion_eso_depende_de_muchos_factores",
-    "es.conversacion_vale_la_pena_intentarlo",
-    "es.conversacion_insisto_en_que_tengo_razon",
-    "es.conversacion_cada_quien_tiene_derecho_a_opinar",
-    "es.conversacion_no_quiero_discutir_por_eso",
-    "es.conversacion_no_tengo_nada_en_contra",
-    "es.conversacion_te_lo_prometo_de_verdad",
-    "es.conversacion_nunca_debes_mentir_a_un_amigo",
-    "es.conversacion_avisame_cuando_llegues",
-    "es.conversacion_te_aconsejo_que_descanses",
-    "es.conversacion_este_regalo_es_para_ti",
-    "es.conversacion_alguno_de_ustedes_debe_saberlo",
-    "es.conversacion_no_quiero_quejarme_demasiado",
-    "es.conversacion_no_te_preocupes_por_eso",
-    "es.conversacion_es_dificil_elegir_entre_los_dos",
-    "es.conversacion_tengo_buenas_noticias_para_ti",
-    "es.conversacion_los_demas_no_estan_de_acuerdo",
-    "es.conversacion_quiero_sugerir_una_idea",
-    "es.conversacion_dejame_aclarar_un_punto",
-    "es.conversacion_prefiero_no_comentar_nada",
-    "es.conversacion_eso_me_da_igual",
-    "es.conversacion_no_contesto_mi_pregunta",
-    "es.conversacion_leeme_el_texto_en_voz_alta",
-    "es.conversacion_todos_quieren_participar",
-    "es.conversacion_te_deseo_mucha_suerte",
-    "es.conversacion_por_lo_general_estoy_de_acuerdo",
-    "es.conversacion_deja_de_repetir_lo_mismo",
-    "es.conversacion_prefiero_la_verdad_a_la_mentira",
-    "es.conversacion_quiero_expresar_mi_agradecimiento",
-    "es.conversacion_es_un_honor_recibir_tu_visita",
-    "es.conversacion_hay_que_servir_con_dedicacion",
-    "es.conversacion_es_importante_formar_buenas_relaciones",
-    "es.conversacion_quiero_mostrar_mi_punto_de_vista",
-    "es.conversacion_es_dificil_dirigir_un_grupo_grande",
-    "es.conversacion_es_normal_desear_una_vida_mejor",
-    "es.conversacion_uso_una_expresion_muy_formal",
-    "es.conversacion_debemos_comenzar_de_nuevo",
-    "es.conversacion_repite_la_frase_por_favor",
-    "es.conversacion_tuvimos_una_conversacion_muy_larga",
-    "es.conversacion_hay_que_aceptar_las_criticas",
-    "es.conversacion_es_bueno_reconocer_los_errores",
-    "es.conversacion_prefiero_el_silencio_por_la_manana",
-    "es.conversacion_es_dificil_comunicar_lo_que_siento",
-    "es.conversacion_la_comunicacion_es_clave_en_pareja",
-    "es.conversacion_de_hecho_tienes_toda_la_razon",
-    "es.conversacion_el_resto_del_grupo_ya_llego",
-    "es.conversacion_te_doy_un_consejo_sincero",
-    "es.conversacion_hay_que_acordar_una_fecha_pronto",
-    "es.conversacion_presta_atencion_a_los_detalles",
-    "es.conversacion_vivo_en_una_comunidad_muy_tranquila",
-    "es.conversacion_la_reunion_termino_en_una_fuerte_discusion",
-    "es.conversacion_su_comportamiento_me_sorprendio_mucho",
-    "es.conversacion_hay_que_respetar_las_reglas",
-    "es.conversacion_tengo_una_llamada_importante_ahora",
-    "es.conversacion_lleva_una_cruz_de_plata_al_cuello"
+  "phrases": [
+    {
+      "conceptId": "es.conversacion_i_want_to_ask_something",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1f029fd66a495a55"
+    },
+    {
+      "conceptId": "es.conversacion_i_agree",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.399e45228507b1a7"
+    },
+    {
+      "conceptId": "es.conversacion_i_dont_agree",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e83941298a1d733a"
+    },
+    {
+      "conceptId": "es.conversacion_what_do_you_think",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f163ae7cd1bfa2fd"
+    },
+    {
+      "conceptId": "es.conversacion_i_think_youre_right",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c1f9f4e2fcf7298b"
+    },
+    {
+      "conceptId": "es.conversacion_i_understand_what_you_mean",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c2936aaffaf9ff71"
+    },
+    {
+      "conceptId": "es.conversacion_lets_talk_about_it",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4265d70d02266fc0"
+    },
+    {
+      "conceptId": "es.conversacion_i_agree_with_you",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.962cbd7ad87fc5e7"
+    },
+    {
+      "conceptId": "es.conversacion_yo_tambien_quiero_decir_algo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9de261f641839fea"
+    },
+    {
+      "conceptId": "es.conversacion_no_se_que_responder",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.79a937211358d762"
+    },
+    {
+      "conceptId": "es.conversacion_pero_eso_no_es_verdad",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1aaa13e8cc7d1198"
+    },
+    {
+      "conceptId": "es.conversacion_me_puedes_dar_tu_opinion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dc99571363c768fd"
+    },
+    {
+      "conceptId": "es.conversacion_cada_persona_piensa_distinto",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.86606514bfa7771b"
+    },
+    {
+      "conceptId": "es.conversacion_dime_la_verdad_por_favor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0ddeb01f5a735610"
+    },
+    {
+      "conceptId": "es.conversacion_siempre_digo_lo_que_siento",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.88a65d3963dbaade"
+    },
+    {
+      "conceptId": "es.conversacion_hablamos_de_muchas_cosas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e2572e7854e591b6"
+    },
+    {
+      "conceptId": "es.conversacion_si_eso_es_justo_lo_que_pienso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b8f1524eaffe1b65"
+    },
+    {
+      "conceptId": "es.conversacion_no_quiero_hablar_de_eso_ahora",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.eca0eccf6b6db52b"
+    },
+    {
+      "conceptId": "es.conversacion_cada_uno_tiene_su_opinion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3d6e2b8d709386a0"
+    },
+    {
+      "conceptId": "es.conversacion_escuchame_sin_interrumpir",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.10d5bea3d8b8be4d"
+    },
+    {
+      "conceptId": "es.conversacion_claro_que_puedo_ayudarte",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ce4c83a37ca3c1a2"
+    },
+    {
+      "conceptId": "es.conversacion_ese_es_un_problema_dificil",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fdeba8cdf93485f7"
+    },
+    {
+      "conceptId": "es.conversacion_es_un_buen_plan_y_ademas_barato",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f3c12bdb5b673885"
+    },
+    {
+      "conceptId": "es.conversacion_que_hacemos_entonces",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6be56eeba92c9456"
+    },
+    {
+      "conceptId": "es.conversacion_que_tipo_de_musica_te_gusta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c6f061cb37490715"
+    },
+    {
+      "conceptId": "es.conversacion_en_ese_caso_prefiero_esperar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bbc7553a74eab8fb"
+    },
+    {
+      "conceptId": "es.conversacion_siento_que_no_me_escuchas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5bbe8a1125e8590d"
+    },
+    {
+      "conceptId": "es.conversacion_te_entiendo_aunque_no_estoy_de_acuerdo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7479250b8dab9ff3"
+    },
+    {
+      "conceptId": "es.conversacion_no_recuerdo_su_nombre",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.07150f1e218d285d"
+    },
+    {
+      "conceptId": "es.conversacion_cada_quien_opina_segun_su_experiencia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e8fb0f1e7c1001d3"
+    },
+    {
+      "conceptId": "es.conversacion_nosotros_llegamos_a_un_acuerdo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8854be3e922c905e"
+    },
+    {
+      "conceptId": "es.conversacion_la_politica_no_me_interesa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.74630b22d6938da0"
+    },
+    {
+      "conceptId": "es.conversacion_te_quiero_presentar_a_un_amigo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.755ac6d24ca01ee5"
+    },
+    {
+      "conceptId": "es.conversacion_pues_eso_no_tiene_sentido",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d3aafeba71596a8a"
+    },
+    {
+      "conceptId": "es.conversacion_aquella_idea_fue_muy_buena",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.270b1df3ec6d34a5"
+    },
+    {
+      "conceptId": "es.conversacion_necesito_mas_informacion",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.53797235d1765df5"
+    },
+    {
+      "conceptId": "es.conversacion_no_dije_tal_cosa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f8adf85220b242a2"
+    },
+    {
+      "conceptId": "es.conversacion_es_necesario_hablar_con_claridad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4206c443dae498a8"
+    },
+    {
+      "conceptId": "es.conversacion_me_resulta_dificil_expresarme",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5e2dc1fa97dbb0e3"
+    },
+    {
+      "conceptId": "es.conversacion_eso_depende_de_muchos_factores",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.90172969075a8752"
+    },
+    {
+      "conceptId": "es.conversacion_vale_la_pena_intentarlo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ddfd607a93c47653"
+    },
+    {
+      "conceptId": "es.conversacion_insisto_en_que_tengo_razon",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0cc9198b9bf6c7b1"
+    },
+    {
+      "conceptId": "es.conversacion_cada_quien_tiene_derecho_a_opinar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3d51d39aa387c0d1"
+    },
+    {
+      "conceptId": "es.conversacion_no_quiero_discutir_por_eso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6447c66329d2dc22"
+    },
+    {
+      "conceptId": "es.conversacion_no_tengo_nada_en_contra",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a95beaef7db07ce7"
+    },
+    {
+      "conceptId": "es.conversacion_te_lo_prometo_de_verdad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b77e7298dbe2e350"
+    },
+    {
+      "conceptId": "es.conversacion_nunca_debes_mentir_a_un_amigo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.52775600ef976ec2"
+    },
+    {
+      "conceptId": "es.conversacion_avisame_cuando_llegues",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b90cac35a74545c8"
+    },
+    {
+      "conceptId": "es.conversacion_te_aconsejo_que_descanses",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.395d5a6d3bd6ec7c"
+    },
+    {
+      "conceptId": "es.conversacion_este_regalo_es_para_ti",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2c4105486874ed9c"
+    },
+    {
+      "conceptId": "es.conversacion_alguno_de_ustedes_debe_saberlo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a283dd6d90ce8df6"
+    },
+    {
+      "conceptId": "es.conversacion_no_quiero_quejarme_demasiado",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.af867fa0ae9d372b"
+    },
+    {
+      "conceptId": "es.conversacion_no_te_preocupes_por_eso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6a5b8b9dbbb016af"
+    },
+    {
+      "conceptId": "es.conversacion_es_dificil_elegir_entre_los_dos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.548e168da99ff4d1"
+    },
+    {
+      "conceptId": "es.conversacion_tengo_buenas_noticias_para_ti",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.01b626d4402c6a98"
+    },
+    {
+      "conceptId": "es.conversacion_los_demas_no_estan_de_acuerdo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.70b648bf114b596d"
+    },
+    {
+      "conceptId": "es.conversacion_quiero_sugerir_una_idea",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8e9c8897affa0c15"
+    },
+    {
+      "conceptId": "es.conversacion_dejame_aclarar_un_punto",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.af737a0f0d399e23"
+    },
+    {
+      "conceptId": "es.conversacion_prefiero_no_comentar_nada",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cbec510522085c01"
+    },
+    {
+      "conceptId": "es.conversacion_eso_me_da_igual",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.849634b61e58a42e"
+    },
+    {
+      "conceptId": "es.conversacion_no_contesto_mi_pregunta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b91dfa9e363280b9"
+    },
+    {
+      "conceptId": "es.conversacion_leeme_el_texto_en_voz_alta",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a19ba60556a843a8"
+    },
+    {
+      "conceptId": "es.conversacion_todos_quieren_participar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.92921407f0bd4eb1"
+    },
+    {
+      "conceptId": "es.conversacion_te_deseo_mucha_suerte",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.176adccea8987fb4"
+    },
+    {
+      "conceptId": "es.conversacion_por_lo_general_estoy_de_acuerdo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.045dd96a82535516"
+    },
+    {
+      "conceptId": "es.conversacion_deja_de_repetir_lo_mismo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e5cb5f1407cda4bb"
+    },
+    {
+      "conceptId": "es.conversacion_prefiero_la_verdad_a_la_mentira",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0e722e40cc276371"
+    },
+    {
+      "conceptId": "es.conversacion_quiero_expresar_mi_agradecimiento",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.708c93dbbc662a7a"
+    },
+    {
+      "conceptId": "es.conversacion_es_un_honor_recibir_tu_visita",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c04f4af598a0d61f"
+    },
+    {
+      "conceptId": "es.conversacion_hay_que_servir_con_dedicacion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6945007195399029"
+    },
+    {
+      "conceptId": "es.conversacion_es_importante_formar_buenas_relaciones",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d5fd518f02035a20"
+    },
+    {
+      "conceptId": "es.conversacion_quiero_mostrar_mi_punto_de_vista",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0e8ec911d4579c64"
+    },
+    {
+      "conceptId": "es.conversacion_es_dificil_dirigir_un_grupo_grande",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b2af6c2c320e0d76"
+    },
+    {
+      "conceptId": "es.conversacion_es_normal_desear_una_vida_mejor",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.084d902908142e14"
+    },
+    {
+      "conceptId": "es.conversacion_uso_una_expresion_muy_formal",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1de80b07ba21655e"
+    },
+    {
+      "conceptId": "es.conversacion_debemos_comenzar_de_nuevo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b11e51757247e2bf"
+    },
+    {
+      "conceptId": "es.conversacion_repite_la_frase_por_favor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5192d2cee1c357ef"
+    },
+    {
+      "conceptId": "es.conversacion_tuvimos_una_conversacion_muy_larga",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1a3b4bc76f089bf7"
+    },
+    {
+      "conceptId": "es.conversacion_hay_que_aceptar_las_criticas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.940584cd2adc2b6d"
+    },
+    {
+      "conceptId": "es.conversacion_es_bueno_reconocer_los_errores",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ca38b9c3c3c02629"
+    },
+    {
+      "conceptId": "es.conversacion_prefiero_el_silencio_por_la_manana",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b2b4f85465a64049"
+    },
+    {
+      "conceptId": "es.conversacion_es_dificil_comunicar_lo_que_siento",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6546b4c79d76741b"
+    },
+    {
+      "conceptId": "es.conversacion_la_comunicacion_es_clave_en_pareja",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.090c841cd5cdf410"
+    },
+    {
+      "conceptId": "es.conversacion_de_hecho_tienes_toda_la_razon",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0eea72f3e5e973d9"
+    },
+    {
+      "conceptId": "es.conversacion_el_resto_del_grupo_ya_llego",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.afe325ba248b7be3"
+    },
+    {
+      "conceptId": "es.conversacion_te_doy_un_consejo_sincero",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9e2bfe7819abe095"
+    },
+    {
+      "conceptId": "es.conversacion_hay_que_acordar_una_fecha_pronto",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.664bc2084e6a5dfc"
+    },
+    {
+      "conceptId": "es.conversacion_presta_atencion_a_los_detalles",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.51e969e274d48999"
+    },
+    {
+      "conceptId": "es.conversacion_vivo_en_una_comunidad_muy_tranquila",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e0226665bdf3665c"
+    },
+    {
+      "conceptId": "es.conversacion_la_reunion_termino_en_una_fuerte_discusion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ab3905bf7a6f0b44"
+    },
+    {
+      "conceptId": "es.conversacion_su_comportamiento_me_sorprendio_mucho",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dd712e37e81c9283"
+    },
+    {
+      "conceptId": "es.conversacion_hay_que_respetar_las_reglas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3ddeff97ecc57732"
+    },
+    {
+      "conceptId": "es.conversacion_tengo_una_llamada_importante_ahora",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ff2a70b65186b0cf"
+    },
+    {
+      "conceptId": "es.conversacion_lleva_una_cruz_de_plata_al_cuello",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d873da1b42b6ad34"
+    }
   ]
 }

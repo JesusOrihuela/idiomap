@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "64",
+  "concepts": {
+    "en.accountability_we_need_to_audit_the_accounts": {
+      "conceptId": "en.accountability_we_need_to_audit_the_accounts",
+      "id": "accountability_we_need_to_audit_the_accounts",
+      "target": [
+        {
+          "text": "We need to audit the accounts.",
+          "audioSlug": "we_need_to_audit_the_accounts"
+        }
+      ]
+    },
+    "en.conversacion_at_least_we_tried": {
+      "conceptId": "en.conversacion_at_least_we_tried",
+      "id": "conversacion_at_least_we_tried",
+      "target": [
+        {
+          "text": "Although it was hard, at least we tried.",
+          "audioSlug": "although_it_was_hard_at_least_we_tried"
+        }
+      ]
+    },
+    "en.emergencias_the_damage_is_done": {
+      "conceptId": "en.emergencias_the_damage_is_done",
+      "id": "emergencias_the_damage_is_done",
+      "target": [
+        {
+          "text": "The damage is done.",
+          "audioSlug": "the_damage_is_done"
+        }
+      ]
+    },
+    "en.gym_monthly_membership_price": {
+      "conceptId": "en.gym_monthly_membership_price",
+      "id": "gym_monthly_membership_price",
+      "target": [
+        {
+          "text": "How much is a monthly membership?",
+          "audioSlug": "how_much_is_a_monthly_membership"
+        }
+      ]
+    },
+    "en.restaurant_is_it_possible_to_make_a": {
+      "conceptId": "en.restaurant_is_it_possible_to_make_a",
+      "id": "restaurant_is_it_possible_to_make_a",
+      "target": [
+        {
+          "text": "Is it possible to make a reservation for later tonight?",
+          "audioSlug": "is_it_possible_to_make_a_reservation_for_later_tonight"
+        }
+      ]
+    },
+    "en.supermarket_online_listing_out_of_stock_delivery": {
+      "conceptId": "en.supermarket_online_listing_out_of_stock_delivery",
+      "id": "supermarket_online_listing_out_of_stock_delivery",
+      "target": [
+        {
+          "text": "Your site shows this available but it has been out of stock all week.",
+          "audioSlug": "your_site_shows_this_available_but_it_has_been_out_of_stock_all_week"
+        }
+      ]
+    }
+  }
+}

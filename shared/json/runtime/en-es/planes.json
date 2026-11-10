@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "planes",
+  "phrases": [
+    {
+      "id": "planes_tengo_que_decidir",
+      "conceptId": "es.planes_tengo_que_decidir",
+      "sourceId": "en.s.c70ae6573970aa59",
+      "source": "I have to decide.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo que decidir.",
+          "audioSlug": "tengo_que_decidir"
+        }
+      ]
+    },
+    {
+      "id": "planes_dime_cual_elegir",
+      "conceptId": "es.planes_dime_cual_elegir",
+      "sourceId": "en.s.7423ba97f704e3c0",
+      "source": "Tell me which one to choose.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Dime cuál elegir.",
+          "audioSlug": "dime_cual_elegir",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Dígame cuál elegir.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "digame_cual_elegir"
+        }
+      ]
+    },
+    {
+      "id": "planes_dejame_intentarlo",
+      "conceptId": "es.planes_dejame_intentarlo",
+      "sourceId": "en.s.c837744b7e5bc276",
+      "source": "Let me try it.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Déjame intentarlo.",
+          "audioSlug": "dejame_intentarlo"
+        }
+      ]
+    },
+    {
+      "id": "planes_voy_a_esperar",
+      "conceptId": "es.planes_voy_a_esperar",
+      "sourceId": "en.s.bca5f32c91c45fc5",
+      "source": "I'm going to wait.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Voy a esperar.",
+          "audioSlug": "voy_a_esperar"
+        }
+      ]
+    },
+    {
+      "id": "planes_voy_a_necesitar_tu_ayuda",
+      "conceptId": "es.planes_voy_a_necesitar_tu_ayuda",
+      "sourceId": "en.s.d8c8107967be5cef",
+      "source": "I'm going to need your help.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Voy a necesitar tu ayuda.",
+          "audioSlug": "voy_a_necesitar_tu_ayuda"
+        }
+      ]
+    },
+    {
+      "id": "planes_necesito_conseguir_uno",
+      "conceptId": "es.planes_necesito_conseguir_uno",
+      "sourceId": "en.s.b1f0600ceccead4e",
+      "source": "I need to get one.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito conseguir uno.",
+          "audioSlug": "necesito_conseguir_uno"
+        }
+      ]
+    },
+    {
+      "id": "planes_te_lo_prometo",
+      "conceptId": "es.planes_te_lo_prometo",
+      "sourceId": "en.s.85080e043adc2bb6",
+      "source": "I promise you.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te lo prometo.",
+          "audioSlug": "te_lo_prometo"
+        }
+      ]
+    },
+    {
+      "id": "planes_prefiero_quedarme_en_casa",
+      "conceptId": "es.planes_prefiero_quedarme_en_casa",
+      "sourceId": "en.s.58f7ddd31c52cd30",
+      "source": "I prefer to stay home.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Prefiero quedarme en casa.",
+          "audioSlug": "prefiero_quedarme_en_casa"
+        }
+      ]
+    },
+    {
+      "id": "planes_aqui_no_lo_permiten",
+      "conceptId": "es.planes_aqui_no_lo_permiten",
+      "sourceId": "en.s.fed9cb883c1e12a7",
+      "source": "They don't allow it here.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Aquí no lo permiten.",
+          "audioSlug": "aqui_no_lo_permiten"
+        }
+      ]
+    },
+    {
+      "id": "planes_acepto_tu_oferta",
+      "conceptId": "es.planes_acepto_tu_oferta",
+      "sourceId": "en.s.d04ff31df1095589",
+      "source": "I accept your offer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Acepto tu oferta.",
+          "audioSlug": "acepto_tu_oferta",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Acepto su oferta.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "acepto_su_oferta"
+        }
+      ]
+    },
+    {
+      "id": "planes_vamos_a_acordar_un_plan",
+      "conceptId": "es.planes_vamos_a_acordar_un_plan",
+      "sourceId": "en.s.2a5abfc735463749",
+      "source": "Let's agree on a plan.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos a acordar un plan.",
+          "audioSlug": "vamos_a_acordar_un_plan"
+        }
+      ]
+    },
+    {
+      "id": "planes_quiero_sorprenderte",
+      "conceptId": "es.planes_quiero_sorprenderte",
+      "sourceId": "en.s.0e47cae6b916bccb",
+      "source": "I want to surprise you.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero sorprenderte.",
+          "audioSlug": "quiero_sorprenderte"
+        }
+      ]
+    },
+    {
+      "id": "planes_no_quiero_provocar_problemas",
+      "conceptId": "es.planes_no_quiero_provocar_problemas",
+      "sourceId": "en.s.fe4ee531335e45e0",
+      "source": "I don't want to cause problems.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No quiero provocar problemas.",
+          "audioSlug": "no_quiero_provocar_problemas"
+        }
+      ]
+    },
+    {
+      "id": "planes_esto_nos_va_a_unir",
+      "conceptId": "es.planes_esto_nos_va_a_unir",
+      "sourceId": "en.s.288e21825859ea1d",
+      "source": "This will bring us together.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Esto nos va a unir.",
+          "audioSlug": "esto_nos_va_a_unir"
+        }
+      ]
+    },
+    {
+      "id": "planes_vamos_a_continuar",
+      "conceptId": "es.planes_vamos_a_continuar",
+      "sourceId": "en.s.3ac610cefd120053",
+      "source": "Let's continue.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos a continuar.",
+          "audioSlug": "vamos_a_continuar"
+        }
+      ]
+    },
+    {
+      "id": "planes_hay_que_actuar_ya",
+      "conceptId": "es.planes_hay_que_actuar_ya",
+      "sourceId": "en.s.3a1735c5babf3b01",
+      "source": "We must act now.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que actuar ya.",
+          "audioSlug": "hay_que_actuar_ya"
+        }
+      ]
+    },
+    {
+      "id": "planes_no_voy_a_abandonar",
+      "conceptId": "es.planes_no_voy_a_abandonar",
+      "sourceId": "en.s.9aa4532b56819ea4",
+      "source": "I'm not going to give up.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No voy a abandonar.",
+          "audioSlug": "no_voy_a_abandonar"
+        }
+      ]
+    },
+    {
+      "id": "planes_hay_que_aprovechar_el_tiempo",
+      "conceptId": "es.planes_hay_que_aprovechar_el_tiempo",
+      "sourceId": "en.s.6557bb95d64448a9",
+      "source": "We must make the most of our time.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que aprovechar el tiempo.",
+          "audioSlug": "hay_que_aprovechar_el_tiempo"
+        }
+      ]
+    },
+    {
+      "id": "planes_nada_me_va_a_detener",
+      "conceptId": "es.planes_nada_me_va_a_detener",
+      "sourceId": "en.s.592011c0065984cd",
+      "source": "Nothing will stop me.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nada me va a detener.",
+          "audioSlug": "nada_me_va_a_detener"
+        }
+      ]
+    },
+    {
+      "id": "planes_me_voy_a_encargar_de_eso",
+      "conceptId": "es.planes_me_voy_a_encargar_de_eso",
+      "sourceId": "en.s.de967c266c2d15e7",
+      "source": "I'll take care of that.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me voy a encargar de eso.",
+          "audioSlug": "me_voy_a_encargar_de_eso"
+        }
+      ]
+    },
+    {
+      "id": "planes_no_me_puedes_obligar",
+      "conceptId": "es.planes_no_me_puedes_obligar",
+      "sourceId": "en.s.62de6a91dca07cc0",
+      "source": "You can't force me.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No me puedes obligar.",
+          "audioSlug": "no_me_puedes_obligar"
+        }
+      ]
+    },
+    {
+      "id": "planes_quiero_realizar_mi_sueno",
+      "conceptId": "es.planes_quiero_realizar_mi_sueno",
+      "sourceId": "en.s.2b65c83df1523fe5",
+      "source": "I want to make my dream come true.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero realizar mi sueño.",
+          "audioSlug": "quiero_realizar_mi_sueno"
+        }
+      ]
+    },
+    {
+      "id": "planes_vamos_a_terminar",
+      "conceptId": "es.planes_vamos_a_terminar",
+      "sourceId": "en.s.0047b68f495af04a",
+      "source": "Let's finish.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos a terminar.",
+          "audioSlug": "vamos_a_terminar"
+        }
+      ]
+    },
+    {
+      "id": "planes_quiero_participar",
+      "conceptId": "es.planes_quiero_participar",
+      "sourceId": "en.s.3ccfa9fa5f666ce5",
+      "source": "I want to participate.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero participar.",
+          "audioSlug": "quiero_participar"
+        }
+      ]
+    },
+    {
+      "id": "planes_necesito_practicar_mas",
+      "conceptId": "es.planes_necesito_practicar_mas",
+      "sourceId": "en.s.0712a1ab4d326d0f",
+      "source": "I need to practice more.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito practicar más.",
+          "audioSlug": "necesito_practicar_mas"
+        }
+      ]
+    },
+    {
+      "id": "planes_quiero_mejorar",
+      "conceptId": "es.planes_quiero_mejorar",
+      "sourceId": "en.s.371d05c7995f643e",
+      "source": "I want to improve.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero mejorar.",
+          "audioSlug": "quiero_mejorar"
+        }
+      ]
+    },
+    {
+      "id": "planes_vamos_a_resolver_el_problema",
+      "conceptId": "es.planes_vamos_a_resolver_el_problema",
+      "sourceId": "en.s.8ea54851b18a47fa",
+      "source": "Let's solve the problem.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos a resolver el problema.",
+          "audioSlug": "vamos_a_resolver_el_problema"
+        }
+      ]
+    },
+    {
+      "id": "planes_no_quiero_complicar_las_cosas",
+      "conceptId": "es.planes_no_quiero_complicar_las_cosas",
+      "sourceId": "en.s.5b04d06c2f6b8684",
+      "source": "I don't want to complicate things.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No quiero complicar las cosas.",
+          "audioSlug": "no_quiero_complicar_las_cosas"
+        }
+      ]
+    },
+    {
+      "id": "planes_es_la_decision_final",
+      "conceptId": "es.planes_es_la_decision_final",
+      "sourceId": "en.s.26451e0dfc1276ce",
+      "source": "It is the final decision.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es la decisión final.",
+          "audioSlug": "es_la_decision_final"
+        }
+      ]
+    },
+    {
+      "id": "planes_ese_es_mi_objetivo",
+      "conceptId": "es.planes_ese_es_mi_objetivo",
+      "sourceId": "en.s.52df0146924fd33e",
+      "source": "That is my goal.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese es mi objetivo.",
+          "audioSlug": "ese_es_mi_objetivo"
+        }
+      ]
+    },
+    {
+      "id": "planes_dame_otra_oportunidad",
+      "conceptId": "es.planes_dame_otra_oportunidad",
+      "sourceId": "en.s.872e3e32814e65c2",
+      "source": "Give me another chance.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Dame otra oportunidad.",
+          "audioSlug": "dame_otra_oportunidad",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Deme otra oportunidad.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "deme_otra_oportunidad"
+        }
+      ]
+    },
+    {
+      "id": "planes_quiero_proponer_una_idea",
+      "conceptId": "es.planes_quiero_proponer_una_idea",
+      "sourceId": "en.s.9f7ccdfcbda924df",
+      "source": "I want to propose a new idea.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero proponer una idea nueva.",
+          "audioSlug": "quiero_proponer_una_idea_nueva"
+        }
+      ]
+    },
+    {
+      "id": "planes_se_van_a_casar_en_verano",
+      "conceptId": "es.planes_se_van_a_casar_en_verano",
+      "sourceId": "en.s.c539632fcad8034a",
+      "source": "They are going to get married in summer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Se van a casar en verano.",
+          "audioSlug": "se_van_a_casar_en_verano"
+        }
+      ]
+    },
+    {
+      "id": "planes_organizamos_una_actividad",
+      "conceptId": "es.planes_organizamos_una_actividad",
+      "sourceId": "en.s.bc9e3c1d0a8720ba",
+      "source": "We organized an activity for Saturday.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Organizamos una actividad para el sábado.",
+          "audioSlug": "organizamos_una_actividad_para_el_sabado"
+        }
+      ]
+    },
+    {
+      "id": "planes_quizas_llueva_manana",
+      "conceptId": "es.planes_quizas_llueva_manana",
+      "sourceId": "en.s.7b09fc77220f94a1",
+      "source": "Maybe it will rain tomorrow.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quizás llueva mañana.",
+          "audioSlug": "quizas_llueva_manana"
+        }
+      ]
+    },
+    {
+      "id": "planes_habre_terminado_manana",
+      "conceptId": "es.planes_habre_terminado_manana",
+      "sourceId": "en.s.4435ed6972f5080c",
+      "source": "By tomorrow I will have finished the report.",
+      "level": "C2",
+      "grammar": "El futuro perfecto (habré + participio) expresa una acción futura ya completada.",
+      "target": [
+        {
+          "text": "Para mañana habré terminado el informe.",
+          "audioSlug": "para_manana_habre_terminado_el_informe"
+        }
+      ]
+    },
+    {
+      "id": "planes_habremos_ahorrado",
+      "conceptId": "es.planes_habremos_ahorrado",
+      "sourceId": "en.s.cb7cebed4a718576",
+      "source": "By December we will have saved enough.",
+      "level": "C2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En diciembre habremos ahorrado lo suficiente.",
+          "audioSlug": "en_diciembre_habremos_ahorrado_lo_suficiente"
+        }
+      ]
+    }
+  ]
+}

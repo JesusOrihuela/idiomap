@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "2d",
+  "concepts": {
+    "es.calendario_hoy_es_lunes": {
+      "conceptId": "es.calendario_hoy_es_lunes",
+      "id": "calendario_hoy_es_lunes",
+      "target": [
+        {
+          "text": "Hoy es lunes.",
+          "audioSlug": "hoy_es_lunes"
+        }
+      ]
+    },
+    "es.conversacion_es_necesario_hablar_con_claridad": {
+      "conceptId": "es.conversacion_es_necesario_hablar_con_claridad",
+      "id": "conversacion_es_necesario_hablar_con_claridad",
+      "target": [
+        {
+          "text": "Es necesario hablar con claridad.",
+          "audioSlug": "es_necesario_hablar_con_claridad"
+        }
+      ]
+    },
+    "es.estudios_los_ninos_van_al_colegio": {
+      "conceptId": "es.estudios_los_ninos_van_al_colegio",
+      "id": "estudios_los_ninos_van_al_colegio",
+      "target": [
+        {
+          "text": "Los niños van al colegio en autobús.",
+          "audioSlug": "los_ninos_van_al_colegio_en_autobus"
+        }
+      ]
+    },
+    "es.family_mi_esposa_trabaja_en_un_hospital": {
+      "conceptId": "es.family_mi_esposa_trabaja_en_un_hospital",
+      "id": "family_mi_esposa_trabaja_en_un_hospital",
+      "target": [
+        {
+          "text": "Mi esposa trabaja en un hospital.",
+          "audioSlug": "mi_esposa_trabaja_en_un_hospital"
+        }
+      ]
+    },
+    "es.family_my_husband_is_called": {
+      "conceptId": "es.family_my_husband_is_called",
+      "id": "family_my_husband_is_called",
+      "target": [
+        {
+          "text": "Mi marido se llama Juan.",
+          "audioSlug": "mi_marido_se_llama_juan"
+        }
+      ]
+    },
+    "es.kitchen_es_un_tomate_rojo": {
+      "conceptId": "es.kitchen_es_un_tomate_rojo",
+      "id": "kitchen_es_un_tomate_rojo",
+      "target": [
+        {
+          "text": "Es un tomate rojo.",
+          "audioSlug": "es_un_tomate_rojo"
+        }
+      ]
+    },
+    "es.oficina_tiene_experiencia": {
+      "conceptId": "es.oficina_tiene_experiencia",
+      "id": "oficina_tiene_experiencia",
+      "target": [
+        {
+          "text": "¿Tiene experiencia?",
+          "audioSlug": "tiene_experiencia"
+        }
+      ]
+    },
+    "es.personal_info_soy_de_espana": {
+      "conceptId": "es.personal_info_soy_de_espana",
+      "id": "personal_info_soy_de_espana",
+      "target": [
+        {
+          "text": "Soy de España.",
+          "audioSlug": "soy_de_espana"
+        }
+      ]
+    },
+    "es.planes_i_want_to_reach_my_goals": {
+      "conceptId": "es.planes_i_want_to_reach_my_goals",
+      "id": "planes_i_want_to_reach_my_goals",
+      "target": [
+        {
+          "text": "Quiero alcanzar mis metas.",
+          "audioSlug": "quiero_alcanzar_mis_metas"
+        }
+      ]
+    }
+  }
+}

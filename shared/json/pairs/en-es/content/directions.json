@@ -1,43 +1,475 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "directions",
-  "conceptIds": [
-    "es.directions_how_to_get_to",
-    "es.directions_where_is_the_bank",
-    "es.directions_is_it_far",
-    "es.directions_go_straight",
-    "es.directions_turn_left.en-es",
-    "es.directions_turn_right",
-    "es.directions_its_next_to",
-    "es.directions_its_on_the_corner",
-    "es.directions_how_far",
-    "es.directions_im_lost",
-    "es.directions_can_you_show_map",
-    "es.directions_is_there_nearby",
-    "es.directions_across_from",
-    "es.directions_behind",
-    "es.directions_two_blocks",
-    "es.directions_which_way",
-    "es.directions_take_first_street",
-    "es.directions_how_long_walk",
-    "es.directions_where_is_the_bus_stop",
-    "es.directions_the_museum_is_near_here",
-    "es.directions_cross_the_street_carefully",
-    "es.directions_walk_to_the_end_of_the_street",
-    "es.directions_it_is_five_minutes_on_foot",
-    "es.directions_follow_the_signs",
-    "es.directions_can_you_show_me_the_way.en-es",
-    "es.directions_turn_at_the_second_traffic_light",
-    "es.directions_donde_esta_la_salida",
-    "es.directions_vamos_al_norte",
-    "es.directions_da_un_paso_atras",
-    "es.directions_el_sur_del_pais_es_calido",
-    "es.directions_el_sol_se_pone_por_el_oeste",
-    "es.directions_el_gato_esta_encima_de_la_mesa",
-    "es.directions_hay_arboles_alrededor_de_la_casa",
-    "es.directions_ponte_delante_de_mi",
-    "es.directions_vivo_por_alla_cerca_del_rio",
-    "es.directions_ven_aca_por_favor"
+  "phrases": [
+    {
+      "conceptId": "es.directions_how_to_get_to",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2d4a9540d4c916a3"
+    },
+    {
+      "conceptId": "es.directions_where_is_the_bank",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.52cf5bbf86902b45"
+    },
+    {
+      "conceptId": "es.directions_is_it_far",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.73ec87b761722e7c"
+    },
+    {
+      "conceptId": "es.directions_go_straight",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fd4d15e649aa5899"
+    },
+    {
+      "conceptId": "es.directions_turn_left.en-es",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.12df3b6db3de34b2"
+    },
+    {
+      "conceptId": "es.directions_turn_right",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5046d268df0024c0"
+    },
+    {
+      "conceptId": "es.directions_its_next_to",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8938262b2c5acfc8"
+    },
+    {
+      "conceptId": "es.directions_its_on_the_corner",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f42a15c6d679afeb"
+    },
+    {
+      "conceptId": "es.directions_how_far",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.22f421c6fb1f175d"
+    },
+    {
+      "conceptId": "es.directions_im_lost",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.40ce9cc441881e4e"
+    },
+    {
+      "conceptId": "es.directions_can_you_show_map",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.404e56ce11320f44"
+    },
+    {
+      "conceptId": "es.directions_is_there_nearby",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ac76e73eaa05f7f1"
+    },
+    {
+      "conceptId": "es.directions_across_from",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2352d79312051b61"
+    },
+    {
+      "conceptId": "es.directions_behind",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e2fae6b5e48c7dfc"
+    },
+    {
+      "conceptId": "es.directions_two_blocks",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9298f81b81c1fc1c"
+    },
+    {
+      "conceptId": "es.directions_which_way",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.aa3b7ba42781c90f"
+    },
+    {
+      "conceptId": "es.directions_take_first_street",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.93918996bbae3eda"
+    },
+    {
+      "conceptId": "es.directions_how_long_walk",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9870bb0f5068ecb6"
+    },
+    {
+      "conceptId": "es.directions_where_is_the_bus_stop",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0b46596eff4419f7"
+    },
+    {
+      "conceptId": "es.directions_the_museum_is_near_here",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.49914f26a234beab"
+    },
+    {
+      "conceptId": "es.directions_cross_the_street_carefully",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0fc8f9daaa0f9069"
+    },
+    {
+      "conceptId": "es.directions_walk_to_the_end_of_the_street",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.69b72a7fbef353f8"
+    },
+    {
+      "conceptId": "es.directions_it_is_five_minutes_on_foot",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c8e1def931834536"
+    },
+    {
+      "conceptId": "es.directions_follow_the_signs",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4993921b40b7be32"
+    },
+    {
+      "conceptId": "es.directions_can_you_show_me_the_way.en-es",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9fb48140fa68089f"
+    },
+    {
+      "conceptId": "es.directions_turn_at_the_second_traffic_light",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a363ee59bbea761f"
+    },
+    {
+      "conceptId": "es.directions_donde_esta_la_salida",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.14c624f7babef6b6"
+    },
+    {
+      "conceptId": "es.directions_vamos_al_norte",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.61c46f60db9408b1"
+    },
+    {
+      "conceptId": "es.directions_da_un_paso_atras",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a244b315f2c45041"
+    },
+    {
+      "conceptId": "es.directions_el_sur_del_pais_es_calido",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.23fe503d158abb16"
+    },
+    {
+      "conceptId": "es.directions_el_sol_se_pone_por_el_oeste",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.397b04d86e47fbf6"
+    },
+    {
+      "conceptId": "es.directions_el_gato_esta_encima_de_la_mesa",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.31e2edaf94a40ed6"
+    },
+    {
+      "conceptId": "es.directions_hay_arboles_alrededor_de_la_casa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5e5c30ae7d5e819d"
+    },
+    {
+      "conceptId": "es.directions_ponte_delante_de_mi",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e5252bf1da2a5d00"
+    },
+    {
+      "conceptId": "es.directions_vivo_por_alla_cerca_del_rio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.943d4aaa0b1753e9"
+    },
+    {
+      "conceptId": "es.directions_ven_aca_por_favor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c85298d20942285d"
+    }
   ]
 }

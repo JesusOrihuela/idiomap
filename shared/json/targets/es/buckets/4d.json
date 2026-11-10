@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "4d",
+  "concepts": {
+    "es.kitchen_turn_off_the_stove": {
+      "conceptId": "es.kitchen_turn_off_the_stove",
+      "id": "kitchen_turn_off_the_stove",
+      "target": [
+        {
+          "text": "Apaga la estufa.",
+          "audioSlug": "apaga_la_estufa"
+        }
+      ]
+    },
+    "es.music_cover_version_back_to_original": {
+      "conceptId": "es.music_cover_version_back_to_original",
+      "id": "music_cover_version_back_to_original",
+      "target": [
+        {
+          "text": "Esa versión es tan buena que me hizo volver a escuchar el original.",
+          "audioSlug": "esa_version_es_tan_buena_que_me_hizo_volver_a_escuchar_el_original"
+        }
+      ]
+    },
+    "es.profesiones_es_nuestro_guia": {
+      "conceptId": "es.profesiones_es_nuestro_guia",
+      "id": "profesiones_es_nuestro_guia",
+      "target": [
+        {
+          "text": "Es nuestro guía.",
+          "audioSlug": "es_nuestro_guia"
+        }
+      ]
+    },
+    "es.supermarket_can_you_help_me_reach_that": {
+      "conceptId": "es.supermarket_can_you_help_me_reach_that",
+      "id": "supermarket_can_you_help_me_reach_that",
+      "target": [
+        {
+          "text": "¿Me ayudas a alcanzar ese producto del estante?",
+          "audioSlug": "me_ayudas_a_alcanzar_ese_producto_del_estante"
+        }
+      ]
+    },
+    "es.tiempo_libre_los_domingos_duermo_hasta_tarde": {
+      "conceptId": "es.tiempo_libre_los_domingos_duermo_hasta_tarde",
+      "id": "tiempo_libre_los_domingos_duermo_hasta_tarde",
+      "target": [
+        {
+          "text": "Los domingos duermo hasta tarde.",
+          "audioSlug": "los_domingos_duermo_hasta_tarde"
+        }
+      ]
+    },
+    "es.weather_cold_in_winter": {
+      "conceptId": "es.weather_cold_in_winter",
+      "id": "weather_cold_in_winter",
+      "target": [
+        {
+          "text": "En invierno hace frío.",
+          "audioSlug": "en_invierno_hace_frio"
+        }
+      ]
+    },
+    "es.weather_que_tiempo_hace_hoy": {
+      "conceptId": "es.weather_que_tiempo_hace_hoy",
+      "id": "weather_que_tiempo_hace_hoy",
+      "target": [
+        {
+          "text": "¿Qué tiempo hace hoy?",
+          "audioSlug": "que_tiempo_hace_hoy"
+        }
+      ]
+    }
+  }
+}

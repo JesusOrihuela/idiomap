@@ -1,37 +1,397 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "directions",
-  "conceptIds": [
-    "es.directions_where_is_the_station",
-    "es.directions_how_do_i_get_to_the_center",
-    "es.directions_is_it_far_from_here",
-    "es.directions_go_straight_ahead",
-    "es.directions_turn_left.de-es",
-    "es.directions_its_next_to_the_bank",
-    "es.directions_can_you_show_me_the_way.de-es",
-    "es.directions_its_ten_minutes_on_foot",
-    "es.directions_entra_por_la_puerta_principal",
-    "es.directions_camina_hacia_la_plaza",
-    "es.directions_este_es_el_lugar_donde_vivo",
-    "es.directions_cruza_la_calle_con_cuidado",
-    "es.directions_el_hotel_queda_hacia_el_norte",
-    "es.directions_gira_a_la_derecha_en_el_semaforo",
-    "es.directions_esta_justo_enfrente_del_parque",
-    "es.directions_necesito_indicaciones_para_llegar",
-    "es.directions_el_colegio_esta_al_final_de_la_calle",
-    "es.directions_sube_por_la_escalera_hasta_el_tercer_piso",
-    "es.directions_la_carretera_esta_cerrada_por_obras",
-    "es.directions_el_instituto_queda_muy_cerca_de_aqui",
-    "es.directions_la_salida_de_emergencia_esta_a_la_derecha",
-    "es.directions_el_pueblo_esta_a_diez_kilometros",
-    "es.directions_sigue_recto_por_esta_avenida",
-    "es.directions_el_aparcamiento_esta_debajo_del_edificio",
-    "es.directions_el_ayuntamiento_esta_en_la_plaza_central",
-    "es.directions_el_sol_se_pone_por_el_oeste",
-    "es.directions_la_puerta_exterior_esta_cerrada",
-    "es.directions_el_patio_interior_es_muy_tranquilo",
-    "es.directions_el_garaje_esta_al_lado_de_la_casa",
-    "es.directions_hay_poca_distancia_hasta_la_playa"
+  "phrases": [
+    {
+      "conceptId": "es.directions_where_is_the_station",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5010af15b9798f3e"
+    },
+    {
+      "conceptId": "es.directions_how_do_i_get_to_the_center",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.eefd1716d39ab623"
+    },
+    {
+      "conceptId": "es.directions_is_it_far_from_here",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f150b57318f4d493"
+    },
+    {
+      "conceptId": "es.directions_go_straight_ahead",
+      "level": "A2",
+      "grammar": "El imperativo con usted usa siga, con tú sigue.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a2cc29d81c79a688"
+    },
+    {
+      "conceptId": "es.directions_turn_left.de-es",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.22720deaca05a065"
+    },
+    {
+      "conceptId": "es.directions_its_next_to_the_bank",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c27d1ef1f6c0eec8"
+    },
+    {
+      "conceptId": "es.directions_can_you_show_me_the_way.de-es",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fbbc96023c404923"
+    },
+    {
+      "conceptId": "es.directions_its_ten_minutes_on_foot",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7f41f7ef30932055"
+    },
+    {
+      "conceptId": "es.directions_entra_por_la_puerta_principal",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e4d219f050daf15d"
+    },
+    {
+      "conceptId": "es.directions_camina_hacia_la_plaza",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8a407655829ff3b4"
+    },
+    {
+      "conceptId": "es.directions_este_es_el_lugar_donde_vivo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9d37e31b1f5577f4"
+    },
+    {
+      "conceptId": "es.directions_cruza_la_calle_con_cuidado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0ffcf9e608544771"
+    },
+    {
+      "conceptId": "es.directions_el_hotel_queda_hacia_el_norte",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ea804563f81ad977"
+    },
+    {
+      "conceptId": "es.directions_gira_a_la_derecha_en_el_semaforo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d63dc37a1cd2ce43"
+    },
+    {
+      "conceptId": "es.directions_esta_justo_enfrente_del_parque",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bb32534174149b12"
+    },
+    {
+      "conceptId": "es.directions_necesito_indicaciones_para_llegar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4a6319ceece276f6"
+    },
+    {
+      "conceptId": "es.directions_el_colegio_esta_al_final_de_la_calle",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f85efa160fb88ee2"
+    },
+    {
+      "conceptId": "es.directions_sube_por_la_escalera_hasta_el_tercer_piso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.02030b401ddaa950"
+    },
+    {
+      "conceptId": "es.directions_la_carretera_esta_cerrada_por_obras",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5e8d2b8f4ff70af5"
+    },
+    {
+      "conceptId": "es.directions_el_instituto_queda_muy_cerca_de_aqui",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f2c61180e4d7ebce"
+    },
+    {
+      "conceptId": "es.directions_la_salida_de_emergencia_esta_a_la_derecha",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5bb7b92bb9edcb37"
+    },
+    {
+      "conceptId": "es.directions_el_pueblo_esta_a_diez_kilometros",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.35594ecd45ea0ec5"
+    },
+    {
+      "conceptId": "es.directions_sigue_recto_por_esta_avenida",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.95ba21792d60001b"
+    },
+    {
+      "conceptId": "es.directions_el_aparcamiento_esta_debajo_del_edificio",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5f89cb823dc02777"
+    },
+    {
+      "conceptId": "es.directions_el_ayuntamiento_esta_en_la_plaza_central",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b86bbf8fef2b3560"
+    },
+    {
+      "conceptId": "es.directions_el_sol_se_pone_por_el_oeste",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d1b3aabf24f818dc"
+    },
+    {
+      "conceptId": "es.directions_la_puerta_exterior_esta_cerrada",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3367f6748398e633"
+    },
+    {
+      "conceptId": "es.directions_el_patio_interior_es_muy_tranquilo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9efc5ff0ca977c20"
+    },
+    {
+      "conceptId": "es.directions_el_garaje_esta_al_lado_de_la_casa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a24d26a47c22d232"
+    },
+    {
+      "conceptId": "es.directions_hay_poca_distancia_hasta_la_playa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.91210658500a6075"
+    }
   ]
 }

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "06",
+  "concepts": {
+    "es.accountability_we_should_hedge_our_foreign": {
+      "conceptId": "es.accountability_we_should_hedge_our_foreign",
+      "id": "accountability_we_should_hedge_our_foreign",
+      "target": [
+        {
+          "text": "Deberíamos cubrir nuestra exposición en moneda extranjera para mitigar el riesgo cambiario.",
+          "audioSlug": "deberiamos_cubrir_nuestra_exposicion_en_moneda_extranjera_para_mitigar_el_riesgo_cambiario"
+        }
+      ]
+    },
+    "es.conversacion_pero_eso_no_es_verdad": {
+      "conceptId": "es.conversacion_pero_eso_no_es_verdad",
+      "id": "conversacion_pero_eso_no_es_verdad",
+      "target": [
+        {
+          "text": "Pero eso no es verdad.",
+          "audioSlug": "pero_eso_no_es_verdad"
+        }
+      ]
+    },
+    "es.descripciones_mi_primo_tiene_el_pelo_moreno": {
+      "conceptId": "es.descripciones_mi_primo_tiene_el_pelo_moreno",
+      "id": "descripciones_mi_primo_tiene_el_pelo_moreno",
+      "target": [
+        {
+          "text": "Mi primo tiene el pelo moreno.",
+          "audioSlug": "mi_primo_tiene_el_pelo_moreno"
+        }
+      ]
+    },
+    "es.greetings_hope_not_interrupting": {
+      "conceptId": "es.greetings_hope_not_interrupting",
+      "id": "greetings_hope_not_interrupting",
+      "target": [
+        {
+          "text": "Espero no estar interrumpiendo, ¿tienes un momento?",
+          "audioSlug": "espero_no_estar_interrumpiendo_tienes_un_momento",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Espero no estar interrumpiendo, ¿tiene un momento?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "espero_no_estar_interrumpiendo_tiene_un_momento"
+        }
+      ]
+    },
+    "es.gym_do_you_have_any_tips_for": {
+      "conceptId": "es.gym_do_you_have_any_tips_for",
+      "id": "gym_do_you_have_any_tips_for",
+      "target": [
+        {
+          "text": "¿Tienes algunos consejos para mejorar mi equilibrio?",
+          "audioSlug": "tienes_algunos_consejos_para_mejorar_mi_equilibrio"
+        }
+      ]
+    },
+    "es.hogar_barre_el_suelo_por_favor": {
+      "conceptId": "es.hogar_barre_el_suelo_por_favor",
+      "id": "hogar_barre_el_suelo_por_favor",
+      "target": [
+        {
+          "text": "Barre el suelo, por favor.",
+          "audioSlug": "barre_el_suelo_por_favor"
+        }
+      ]
+    },
+    "es.movies_previous_film_more_compelling": {
+      "conceptId": "es.movies_previous_film_more_compelling",
+      "id": "movies_previous_film_more_compelling",
+      "target": [
+        {
+          "text": "La película anterior del director era mucho más convincente, esta resultó predecible.",
+          "audioSlug": "la_pelicula_anterior_del_director_era_mucho_mas_convincente_esta_resulto_predecible",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "La película anterior de la directora era mucho más convincente, esta resultó predecible.",
+          "audioSlug": "la_pelicula_anterior_de_la_directora_era_mucho_mas_convincente_esta_resulto_predecible",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.naturaleza_lugares_hay_muchos_peces_en_el_lago": {
+      "conceptId": "es.naturaleza_lugares_hay_muchos_peces_en_el_lago",
+      "id": "naturaleza_lugares_hay_muchos_peces_en_el_lago",
+      "target": [
+        {
+          "text": "Hay muchos peces en el lago.",
+          "audioSlug": "hay_muchos_peces_en_el_lago"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_la_luna_brilla_esta_noche": {
+      "conceptId": "es.naturaleza_lugares_la_luna_brilla_esta_noche",
+      "id": "naturaleza_lugares_la_luna_brilla_esta_noche",
+      "target": [
+        {
+          "text": "La luna brilla esta noche.",
+          "audioSlug": "la_luna_brilla_esta_noche"
+        }
+      ]
+    },
+    "es.restaurant_do_you_offer_any_lowcalorie_options": {
+      "conceptId": "es.restaurant_do_you_offer_any_lowcalorie_options",
+      "id": "restaurant_do_you_offer_any_lowcalorie_options",
+      "target": [
+        {
+          "text": "¿Ofrecen alguna opción baja en calorías?",
+          "audioSlug": "ofrecen_alguna_opcion_baja_en_calorias"
+        }
+      ]
+    },
+    "es.restaurant_pidio_una_ginebra": {
+      "conceptId": "es.restaurant_pidio_una_ginebra",
+      "id": "restaurant_pidio_una_ginebra",
+      "target": [
+        {
+          "text": "Pidió una ginebra con tónica.",
+          "audioSlug": "pidio_una_ginebra_con_tonica"
+        }
+      ]
+    },
+    "es.theater_fuimos_a_ver_un_musical": {
+      "conceptId": "es.theater_fuimos_a_ver_un_musical",
+      "id": "theater_fuimos_a_ver_un_musical",
+      "target": [
+        {
+          "text": "Fuimos a ver un musical.",
+          "audioSlug": "fuimos_a_ver_un_musical"
+        }
+      ]
+    },
+    "es.vestimenta_quitate_el_abrigo": {
+      "conceptId": "es.vestimenta_quitate_el_abrigo",
+      "id": "vestimenta_quitate_el_abrigo",
+      "target": [
+        {
+          "text": "Quítate el abrigo.",
+          "audioSlug": "quitate_el_abrigo"
+        }
+      ]
+    }
+  }
+}

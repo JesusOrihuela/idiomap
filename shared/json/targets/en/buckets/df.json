@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "df",
+  "concepts": {
+    "en.accountability_the_balance_sheet_is_ready": {
+      "conceptId": "en.accountability_the_balance_sheet_is_ready",
+      "id": "accountability_the_balance_sheet_is_ready",
+      "target": [
+        {
+          "text": "The balance sheet is ready.",
+          "audioSlug": "the_balance_sheet_is_ready",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "The balance sheet is done.",
+          "audioSlug": "the_balance_sheet_is_done",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.family_we_have_a_relationship": {
+      "conceptId": "en.family_we_have_a_relationship",
+      "id": "family_we_have_a_relationship",
+      "target": [
+        {
+          "text": "We have a relationship.",
+          "audioSlug": "we_have_a_relationship"
+        }
+      ]
+    },
+    "en.greetings_hi_there_hows_your_day_going": {
+      "conceptId": "en.greetings_hi_there_hows_your_day_going",
+      "id": "greetings_hi_there_hows_your_day_going",
+      "target": [
+        {
+          "text": "Hi there, how's your day going?",
+          "audioSlug": "hi_there_how_s_your_day_going",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Hello there, how's your day going?",
+          "audioSlug": "hello_there_how_s_your_day_going",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.greetings_nice_to_meet_you_im_glad": {
+      "conceptId": "en.greetings_nice_to_meet_you_im_glad",
+      "id": "greetings_nice_to_meet_you_im_glad",
+      "target": [
+        {
+          "text": "Nice to meet you, I'm glad we connected.",
+          "audioSlug": "nice_to_meet_you_i_m_glad_we_connected",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Nice to meet you, I'm glad we met.",
+          "audioSlug": "nice_to_meet_you_i_m_glad_we_met",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.greetings_thank_you": {
+      "conceptId": "en.greetings_thank_you",
+      "id": "greetings_thank_you",
+      "target": [
+        {
+          "text": "Thank you very much.",
+          "audioSlug": "thank_you_very_much"
+        }
+      ]
+    },
+    "en.gym_eat_healthily_to_get_better_results": {
+      "conceptId": "en.gym_eat_healthily_to_get_better_results",
+      "id": "gym_eat_healthily_to_get_better_results",
+      "target": [
+        {
+          "text": "Eat healthily to get better results.",
+          "audioSlug": "eat_healthily_to_get_better_results"
+        }
+      ]
+    },
+    "en.health_take_care_of_health": {
+      "conceptId": "en.health_take_care_of_health",
+      "id": "health_take_care_of_health",
+      "target": [
+        {
+          "text": "You should take care of your health.",
+          "audioSlug": "you_should_take_care_of_your_health"
+        }
+      ]
+    },
+    "en.kitchen_this_sauce_has_expired": {
+      "conceptId": "en.kitchen_this_sauce_has_expired",
+      "id": "kitchen_this_sauce_has_expired",
+      "target": [
+        {
+          "text": "This sauce has expired.",
+          "audioSlug": "this_sauce_has_expired"
+        }
+      ]
+    },
+    "en.politica_every_vote_counts": {
+      "conceptId": "en.politica_every_vote_counts",
+      "id": "politica_every_vote_counts",
+      "target": [
+        {
+          "text": "Every vote counts.",
+          "audioSlug": "every_vote_counts"
+        }
+      ]
+    },
+    "en.transportation_weekly_travel_pass": {
+      "conceptId": "en.transportation_weekly_travel_pass",
+      "id": "transportation_weekly_travel_pass",
+      "target": [
+        {
+          "text": "I would like to buy a weekly travel pass.",
+          "audioSlug": "i_would_like_to_buy_a_weekly_travel_pass"
+        }
+      ]
+    }
+  }
+}

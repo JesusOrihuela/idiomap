@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "bucket": "93",
+  "concepts": {
+    "de.survival_where_is_the_bathroom": {
+      "conceptId": "de.survival_where_is_the_bathroom",
+      "id": "survival_where_is_the_bathroom",
+      "target": [
+        {
+          "text": "Wo ist die Toilette?",
+          "audioSlug": "wo_ist_die_toilette"
+        }
+      ]
+    }
+  }
+}

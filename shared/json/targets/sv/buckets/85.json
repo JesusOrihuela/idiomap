@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "sv",
+  "bucket": "85",
+  "concepts": {
+    "sv.personal_info_my_name_is": {
+      "conceptId": "sv.personal_info_my_name_is",
+      "id": "personal_info_my_name_is",
+      "target": [
+        {
+          "text": "Jag heter Anna.",
+          "audioSlug": "jag_heter_anna"
+        }
+      ]
+    }
+  }
+}

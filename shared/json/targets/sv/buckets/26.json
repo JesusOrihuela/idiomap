@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "sv",
+  "bucket": "26",
+  "concepts": {
+    "sv.personal_info_i_am_a_student": {
+      "conceptId": "sv.personal_info_i_am_a_student",
+      "id": "personal_info_i_am_a_student",
+      "target": [
+        {
+          "text": "Jag är student.",
+          "audioSlug": "jag_ar_student"
+        }
+      ]
+    }
+  }
+}

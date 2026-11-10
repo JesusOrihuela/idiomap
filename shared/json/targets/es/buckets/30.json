@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "30",
+  "concepts": {
+    "es.accountability_the_accounting_department_has_already_delivered": {
+      "conceptId": "es.accountability_the_accounting_department_has_already_delivered",
+      "id": "accountability_the_accounting_department_has_already_delivered",
+      "target": [
+        {
+          "text": "El departamento de Contabilidad ya entregó los reportes financieros.",
+          "audioSlug": "el_departamento_de_contabilidad_ya_entrego_los_reportes_financieros"
+        }
+      ]
+    },
+    "es.conversacion_what_do_you_think": {
+      "conceptId": "es.conversacion_what_do_you_think",
+      "id": "conversacion_what_do_you_think",
+      "target": [
+        {
+          "text": "¿Qué piensas?",
+          "audioSlug": "que_piensas"
+        }
+      ]
+    },
+    "es.cotidianidad_hoy_tengo_mucho_trabajo": {
+      "conceptId": "es.cotidianidad_hoy_tengo_mucho_trabajo",
+      "id": "cotidianidad_hoy_tengo_mucho_trabajo",
+      "target": [
+        {
+          "text": "Hoy tengo mucho trabajo.",
+          "audioSlug": "hoy_tengo_mucho_trabajo"
+        }
+      ]
+    },
+    "es.daily_routine_necesito_sacar_dinero_del_banco": {
+      "conceptId": "es.daily_routine_necesito_sacar_dinero_del_banco",
+      "id": "daily_routine_necesito_sacar_dinero_del_banco",
+      "target": [
+        {
+          "text": "Necesito sacar dinero del banco.",
+          "audioSlug": "necesito_sacar_dinero_del_banco"
+        }
+      ]
+    },
+    "es.descripciones_es_un_problema_muy_comun": {
+      "conceptId": "es.descripciones_es_un_problema_muy_comun",
+      "id": "descripciones_es_un_problema_muy_comun",
+      "target": [
+        {
+          "text": "Es un problema muy común.",
+          "audioSlug": "es_un_problema_muy_comun"
+        }
+      ]
+    },
+    "es.health_tengo_una_herida_en_la_rodilla": {
+      "conceptId": "es.health_tengo_una_herida_en_la_rodilla",
+      "id": "health_tengo_una_herida_en_la_rodilla",
+      "target": [
+        {
+          "text": "Tengo una herida en la rodilla.",
+          "audioSlug": "tengo_una_herida_en_la_rodilla"
+        }
+      ]
+    },
+    "es.hogar_hay_que_limpiar_la_cocina": {
+      "conceptId": "es.hogar_hay_que_limpiar_la_cocina",
+      "id": "hogar_hay_que_limpiar_la_cocina",
+      "target": [
+        {
+          "text": "Hay que limpiar la cocina.",
+          "audioSlug": "hay_que_limpiar_la_cocina"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_estoy_en_el_jardin": {
+      "conceptId": "es.naturaleza_lugares_estoy_en_el_jardin",
+      "id": "naturaleza_lugares_estoy_en_el_jardin",
+      "target": [
+        {
+          "text": "Estoy en el jardín.",
+          "audioSlug": "estoy_en_el_jardin"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_le_tengo_miedo_a_las_aranas": {
+      "conceptId": "es.naturaleza_lugares_le_tengo_miedo_a_las_aranas",
+      "id": "naturaleza_lugares_le_tengo_miedo_a_las_aranas",
+      "target": [
+        {
+          "text": "Le tengo miedo a las arañas.",
+          "audioSlug": "le_tengo_miedo_a_las_aranas"
+        }
+      ]
+    },
+    "es.politica_muchos_cristianos_van_a_la_iglesia": {
+      "conceptId": "es.politica_muchos_cristianos_van_a_la_iglesia",
+      "id": "politica_muchos_cristianos_van_a_la_iglesia",
+      "target": [
+        {
+          "text": "Muchos cristianos van a la iglesia el domingo.",
+          "audioSlug": "muchos_cristianos_van_a_la_iglesia_el_domingo"
+        }
+      ]
+    },
+    "es.sitios_mi_pueblo_es_pequeno_y_tranquilo": {
+      "conceptId": "es.sitios_mi_pueblo_es_pequeno_y_tranquilo",
+      "id": "sitios_mi_pueblo_es_pequeno_y_tranquilo",
+      "target": [
+        {
+          "text": "Mi pueblo es pequeño y tranquilo.",
+          "audioSlug": "mi_pueblo_es_pequeno_y_tranquilo"
+        }
+      ]
+    },
+    "es.survival_i_dont_speak_well": {
+      "conceptId": "es.survival_i_dont_speak_well",
+      "id": "survival_i_dont_speak_well",
+      "target": [
+        {
+          "text": "No hablo español muy bien.",
+          "audioSlug": "no_hablo_espanol_muy_bien"
+        }
+      ]
+    },
+    "es.transportation_driver_overcharged_complaint": {
+      "conceptId": "es.transportation_driver_overcharged_complaint",
+      "id": "transportation_driver_overcharged_complaint",
+      "target": [
+        {
+          "text": "Me cobró más de lo que marcaba el taxímetro y quisiera presentar una queja.",
+          "audioSlug": "me_cobro_mas_de_lo_que_marcaba_el_taximetro_y_quisiera_presentar_una_queja"
+        }
+      ]
+    }
+  }
+}

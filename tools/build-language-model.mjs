@@ -7,8 +7,8 @@
  *   shared/json/pairs/<id>/pair.json
  *
  * Generated:
- *   shared/json/pairs.index.json
  *   shared/js/pairs.js
+ *   shared/js/languages.js
  *
  * Bootstrap: on first run, pair.json/profile.json are derived from the legacy
  * lang-pair.js/lang-profiles.js so nothing is lost. Later runs only read them.
@@ -70,12 +70,16 @@ const pairFiles = dirs('shared/json/pairs').map((id) => {
   return read(file);
 });
 
-// CEFR range actually covered by each pair (C1 source of truth = gloss.json).
+// CEFR range actually covered by each pair (source of truth = content files).
 const CEFR = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const pairLevels = new Map(pairFiles.map((p) => {
-  const file = `shared/json/pairs/${p.id}/gloss.json`;
-  if (!exists(file)) return [p.id, null];
-  const levels = Object.values(read(file).glosses || {}).map((g) => g.level).filter((l) => CEFR.includes(l));
+  const dir = `shared/json/pairs/${p.id}/content`;
+  if (!exists(dir)) return [p.id, null];
+  const levels = [];
+  for (const f of fs.readdirSync(R(dir)).filter((x) => x.endsWith('.json'))) {
+    const data = read(`${dir}/${f}`);
+    for (const row of (data.phrases || [])) if (CEFR.includes(row.level)) levels.push(row.level);
+  }
   if (!levels.length) return [p.id, null];
   levels.sort((a, b) => CEFR.indexOf(a) - CEFR.indexOf(b));
   return [p.id, { min: levels[0], max: levels[levels.length - 1] }];
@@ -133,22 +137,6 @@ for (const lang of index.languages) {
   });
 }
 
-// ---------- generated pair index ----------
-const pairsIndex = {
-  schemaVersion: 1,
-  generatedBy: 'tools/build-language-model.mjs',
-  defaultPair: index.defaultPair,
-  pairs: pairFiles.map((p) => ({
-    id: p.id,
-    source: p.source.code,
-    target: p.target.code,
-    sourceLocale: p.sourceLocale,
-    targetLocale: p.targetLocale,
-    status: p.status,
-    levels: pairLevels.get(p.id),
-  })),
-};
-
 // ---------- generated runtime pair list ----------
 const runtimePairs = pairFiles.map((p) => ({
   id: p.id,
@@ -192,7 +180,6 @@ if (typeof module !== 'undefined' && module.exports) module.exports = AppLanguag
 
 // ---------- write / check ----------
 const outputs = [
-  ['shared/json/pairs.index.json', JSON.stringify(pairsIndex, null, 2) + '\n'],
   ['shared/js/pairs.js', pairsJs],
   ['shared/js/languages.js', languagesJs],
 ];

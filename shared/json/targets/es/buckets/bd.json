@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "bd",
+  "concepts": {
+    "es.airport_seat_assignment_not_booked": {
+      "conceptId": "es.airport_seat_assignment_not_booked",
+      "id": "airport_seat_assignment_not_booked",
+      "target": [
+        {
+          "text": "Reservé fila de salida y me asignaron economía estándar.",
+          "audioSlug": "reserve_fila_de_salida_y_me_asignaron_economia_estandar"
+        }
+      ]
+    },
+    "es.cotidianidad_donde_esta_el_resto": {
+      "conceptId": "es.cotidianidad_donde_esta_el_resto",
+      "id": "cotidianidad_donde_esta_el_resto",
+      "target": [
+        {
+          "text": "¿Dónde está el resto?",
+          "audioSlug": "donde_esta_el_resto"
+        }
+      ]
+    },
+    "es.directions_este_es_el_lugar_donde_vivo": {
+      "conceptId": "es.directions_este_es_el_lugar_donde_vivo",
+      "id": "directions_este_es_el_lugar_donde_vivo",
+      "target": [
+        {
+          "text": "Este es el lugar donde vivo.",
+          "audioSlug": "este_es_el_lugar_donde_vivo"
+        }
+      ]
+    },
+    "es.directions_go_straight": {
+      "conceptId": "es.directions_go_straight",
+      "id": "directions_go_straight",
+      "target": [
+        {
+          "text": "Sigue todo recto.",
+          "audioSlug": "sigue_todo_recto"
+        }
+      ]
+    },
+    "es.health_my_back_hurts": {
+      "conceptId": "es.health_my_back_hurts",
+      "id": "health_my_back_hurts",
+      "target": [
+        {
+          "text": "Me duele la espalda.",
+          "audioSlug": "me_duele_la_espalda"
+        }
+      ]
+    },
+    "es.kitchen_could_you_help_me_sift_the": {
+      "conceptId": "es.kitchen_could_you_help_me_sift_the",
+      "id": "kitchen_could_you_help_me_sift_the",
+      "target": [
+        {
+          "text": "¿Podrías ayudarme a tamizar la harina?",
+          "audioSlug": "podrias_ayudarme_a_tamizar_la_harina"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_nadie_quiere_morir_joven": {
+      "conceptId": "es.pensamientos_opiniones_nadie_quiere_morir_joven",
+      "id": "pensamientos_opiniones_nadie_quiere_morir_joven",
+      "target": [
+        {
+          "text": "Nadie quiere morir joven.",
+          "audioSlug": "nadie_quiere_morir_joven"
+        }
+      ]
+    },
+    "es.survival_can_you_repeat.de-es": {
+      "conceptId": "es.survival_can_you_repeat.de-es",
+      "id": "survival_can_you_repeat_de",
+      "target": [
+        {
+          "text": "¿Puedes repetir?",
+          "source": "Kannst du das wiederholen?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "puedes_repetir"
+        },
+        {
+          "text": "¿Puede repetir?",
+          "source": "Können Sie das wiederholen?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_repetir"
+        }
+      ]
+    },
+    "es.technology_do_you_know_how_to_use": {
+      "conceptId": "es.technology_do_you_know_how_to_use",
+      "id": "technology_do_you_know_how_to_use",
+      "target": [
+        {
+          "text": "¿Sabes cómo usar Photoshop para editar esta imagen?",
+          "audioSlug": "sabes_como_usar_photoshop_para_editar_esta_imagen",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Sabe cómo usar Photoshop para editar esta imagen?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "sabe_como_usar_photoshop_para_editar_esta_imagen"
+        }
+      ]
+    },
+    "es.transportation_how_get_bus_stop": {
+      "conceptId": "es.transportation_how_get_bus_stop",
+      "id": "transportation_how_get_bus_stop",
+      "target": [
+        {
+          "text": "¿Cómo llego a la parada de autobús desde aquí?",
+          "audioSlug": "como_llego_a_la_parada_de_autobus_desde_aqui"
+        }
+      ]
+    },
+    "es.transportation_voy_al_trabajo_en_moto": {
+      "conceptId": "es.transportation_voy_al_trabajo_en_moto",
+      "id": "transportation_voy_al_trabajo_en_moto",
+      "target": [
+        {
+          "text": "Voy al trabajo en moto.",
+          "audioSlug": "voy_al_trabajo_en_moto"
+        }
+      ]
+    },
+    "es.viajes_quiero_viajar_al_extranjero": {
+      "conceptId": "es.viajes_quiero_viajar_al_extranjero",
+      "id": "viajes_quiero_viajar_al_extranjero",
+      "target": [
+        {
+          "text": "Quiero viajar al extranjero.",
+          "audioSlug": "quiero_viajar_al_extranjero"
+        }
+      ]
+    }
+  }
+}

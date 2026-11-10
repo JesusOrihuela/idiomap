@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "80",
+  "concepts": {
+    "es.airport_el_avion_aterriza_a_las_seis": {
+      "conceptId": "es.airport_el_avion_aterriza_a_las_seis",
+      "id": "airport_el_avion_aterriza_a_las_seis",
+      "target": [
+        {
+          "text": "El avión aterriza a las seis.",
+          "audioSlug": "el_avion_aterriza_a_las_seis"
+        }
+      ]
+    },
+    "es.cuerpo_mi_abuelo_tiene_bigote": {
+      "conceptId": "es.cuerpo_mi_abuelo_tiene_bigote",
+      "id": "cuerpo_mi_abuelo_tiene_bigote",
+      "target": [
+        {
+          "text": "Mi abuelo tiene un bigote blanco.",
+          "audioSlug": "mi_abuelo_tiene_un_bigote_blanco"
+        }
+      ]
+    },
+    "es.descripciones_el_gato_es_negro": {
+      "conceptId": "es.descripciones_el_gato_es_negro",
+      "id": "descripciones_el_gato_es_negro",
+      "target": [
+        {
+          "text": "El gato es negro.",
+          "audioSlug": "el_gato_es_negro"
+        }
+      ]
+    },
+    "es.emergencias_es_una_emergencia": {
+      "conceptId": "es.emergencias_es_una_emergencia",
+      "id": "emergencias_es_una_emergencia",
+      "target": [
+        {
+          "text": "Es una emergencia.",
+          "audioSlug": "es_una_emergencia"
+        }
+      ]
+    },
+    "es.health_it_hurts_here": {
+      "conceptId": "es.health_it_hurts_here",
+      "id": "health_it_hurts_here",
+      "target": [
+        {
+          "text": "Me duele aquí.",
+          "audioSlug": "me_duele_aqui"
+        }
+      ]
+    },
+    "es.kitchen_make_day_ahead_flavors_meld": {
+      "conceptId": "es.kitchen_make_day_ahead_flavors_meld",
+      "id": "kitchen_make_day_ahead_flavors_meld",
+      "target": [
+        {
+          "text": "Este plato mejora preparado con anticipación, ya que los sabores se fusionan durante la noche.",
+          "audioSlug": "este_plato_mejora_preparado_con_anticipacion_ya_que_los_sabores_se_fusionan_durante_la_noche"
+        }
+      ]
+    },
+    "es.music_concept_album_narrative_arc": {
+      "conceptId": "es.music_concept_album_narrative_arc",
+      "id": "music_concept_album_narrative_arc",
+      "target": [
+        {
+          "text": "Cada pista de este álbum conceptual aporta al arco narrativo.",
+          "audioSlug": "cada_pista_de_este_album_conceptual_aporta_al_arco_narrativo"
+        }
+      ]
+    },
+    "es.personal_info_el_juez_dicta_la_sentencia": {
+      "conceptId": "es.personal_info_el_juez_dicta_la_sentencia",
+      "id": "personal_info_el_juez_dicta_la_sentencia",
+      "target": [
+        {
+          "text": "La jueza dicta la sentencia.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Richterin verkündet das Urteil.",
+          "audioSlug": "la_jueza_dicta_la_sentencia"
+        },
+        {
+          "text": "El juez dicta la sentencia.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Richter verkündet das Urteil.",
+          "audioSlug": "el_juez_dicta_la_sentencia"
+        }
+      ]
+    },
+    "es.personal_info_what_is_your_address": {
+      "conceptId": "es.personal_info_what_is_your_address",
+      "id": "personal_info_what_is_your_address",
+      "target": [
+        {
+          "text": "¿Cuál es tu dirección?",
+          "audioSlug": "cual_es_tu_direccion",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cuál es su dirección?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "cual_es_su_direccion"
+        }
+      ]
+    },
+    "es.sitios_hay_muchas_tiendas_en_esta_calle": {
+      "conceptId": "es.sitios_hay_muchas_tiendas_en_esta_calle",
+      "id": "sitios_hay_muchas_tiendas_en_esta_calle",
+      "target": [
+        {
+          "text": "Hay muchas tiendas en esta calle.",
+          "audioSlug": "hay_muchas_tiendas_en_esta_calle"
+        }
+      ]
+    },
+    "es.supermarket_can_you_give_me_a_bag": {
+      "conceptId": "es.supermarket_can_you_give_me_a_bag",
+      "id": "supermarket_can_you_give_me_a_bag",
+      "target": [
+        {
+          "text": "¿Me puede dar una bolsa, por favor?",
+          "audioSlug": "me_puede_dar_una_bolsa_por_favor"
+        }
+      ]
+    },
+    "es.weather_it_is_cool_in_the_morning": {
+      "conceptId": "es.weather_it_is_cool_in_the_morning",
+      "id": "weather_it_is_cool_in_the_morning",
+      "target": [
+        {
+          "text": "Hace fresco por la mañana.",
+          "audioSlug": "hace_fresco_por_la_manana"
+        }
+      ]
+    }
+  }
+}

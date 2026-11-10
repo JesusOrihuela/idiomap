@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "c2",
+  "concepts": {
+    "en.greetings_take_care_of_yourself": {
+      "conceptId": "en.greetings_take_care_of_yourself",
+      "id": "greetings_take_care_of_yourself",
+      "target": [
+        {
+          "text": "Take care of yourself!",
+          "audioSlug": "take_care_of_yourself",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Take care!",
+          "audioSlug": "take_care",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.health_my_head_hurts": {
+      "conceptId": "en.health_my_head_hurts",
+      "id": "health_my_head_hurts",
+      "target": [
+        {
+          "text": "My head hurts.",
+          "audioSlug": "my_head_hurts"
+        }
+      ]
+    },
+    "en.kitchen_the_pan_is_too_hot_lower": {
+      "conceptId": "en.kitchen_the_pan_is_too_hot_lower",
+      "id": "kitchen_the_pan_is_too_hot_lower",
+      "target": [
+        {
+          "text": "Lower the heat because the pan is too hot.",
+          "audioSlug": "lower_the_heat_because_the_pan_is_too_hot"
+        }
+      ]
+    },
+    "en.oficina_essential_everyone_be_on_time": {
+      "conceptId": "en.oficina_essential_everyone_be_on_time",
+      "id": "oficina_essential_everyone_be_on_time",
+      "target": [
+        {
+          "text": "It is essential that everyone be on time.",
+          "audioSlug": "it_is_essential_that_everyone_be_on_time"
+        }
+      ]
+    }
+  }
+}

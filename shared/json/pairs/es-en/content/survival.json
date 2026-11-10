@@ -1,26 +1,254 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "survival",
-  "conceptIds": [
-    "en.survival_i_dont_understand",
-    "en.survival_can_you_repeat",
-    "en.survival_how_do_you_say",
-    "en.survival_what_does_it_mean",
-    "en.survival_speak_slowly",
-    "en.survival_i_dont_know",
-    "en.survival_how_spell",
-    "en.survival_do_you_speak_english",
-    "en.survival_a_little",
-    "en.survival_can_you_help",
-    "en.survival_what_is_this",
-    "en.survival_im_learning",
-    "en.survival_i_have_a_question",
-    "en.survival_is_that_correct",
-    "en.survival_what_did_you_say",
-    "en.survival_one_moment",
-    "en.survival_i_dont_speak_well",
-    "en.survival_write_it_down",
-    "en.survival_does_anyone_here_speak_english"
+  "phrases": [
+    {
+      "conceptId": "en.survival_i_dont_understand",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2b32af9c0a3a5e6e"
+    },
+    {
+      "conceptId": "en.survival_can_you_repeat",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1f1f5cfb12854cba"
+    },
+    {
+      "conceptId": "en.survival_how_do_you_say",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b47b484b1f8916d3"
+    },
+    {
+      "conceptId": "en.survival_what_does_it_mean",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ae60863f710271c6"
+    },
+    {
+      "conceptId": "en.survival_speak_slowly",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a54d77601f70993c"
+    },
+    {
+      "conceptId": "en.survival_i_dont_know",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.23b8b7739a8ca5fe"
+    },
+    {
+      "conceptId": "en.survival_how_spell",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ae309cd28e525e61"
+    },
+    {
+      "conceptId": "en.survival_do_you_speak_english",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3265ac752eb3481e"
+    },
+    {
+      "conceptId": "en.survival_a_little",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7d2a9bbec8bf7bb1"
+    },
+    {
+      "conceptId": "en.survival_can_you_help",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d2ddc8d78235eeda"
+    },
+    {
+      "conceptId": "en.survival_what_is_this",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.355b06d42a484964"
+    },
+    {
+      "conceptId": "en.survival_im_learning",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0f90f0fb5fa797c3"
+    },
+    {
+      "conceptId": "en.survival_i_have_a_question",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.47d383d8c4bf4d6b"
+    },
+    {
+      "conceptId": "en.survival_is_that_correct",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.025285be0b2a41ae"
+    },
+    {
+      "conceptId": "en.survival_what_did_you_say",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5fbd169f23168815"
+    },
+    {
+      "conceptId": "en.survival_one_moment",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7890ec31747549db"
+    },
+    {
+      "conceptId": "en.survival_i_dont_speak_well",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c050c41816f52a83"
+    },
+    {
+      "conceptId": "en.survival_write_it_down",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0395d36f891ddcfc"
+    },
+    {
+      "conceptId": "en.survival_does_anyone_here_speak_english",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f65162903dbf216d"
+    }
   ]
 }

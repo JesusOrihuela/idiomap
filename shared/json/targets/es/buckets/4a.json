@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "4a",
+  "concepts": {
+    "es.accountability_send_invoice": {
+      "conceptId": "es.accountability_send_invoice",
+      "id": "accountability_send_invoice",
+      "target": [
+        {
+          "text": "¿Me puedes enviar la factura?",
+          "audioSlug": "me_puedes_enviar_la_factura"
+        }
+      ]
+    },
+    "es.animales_es_un_pajaro_pequeno": {
+      "conceptId": "es.animales_es_un_pajaro_pequeno",
+      "id": "animales_es_un_pajaro_pequeno",
+      "target": [
+        {
+          "text": "Es un pájaro pequeño.",
+          "audioSlug": "es_un_pajaro_pequeno"
+        }
+      ]
+    },
+    "es.conversacion_repite_la_frase_por_favor": {
+      "conceptId": "es.conversacion_repite_la_frase_por_favor",
+      "id": "conversacion_repite_la_frase_por_favor",
+      "target": [
+        {
+          "text": "Repite la frase, por favor.",
+          "audioSlug": "repite_la_frase_por_favor"
+        }
+      ]
+    },
+    "es.emergencias_perdi_mis_llaves": {
+      "conceptId": "es.emergencias_perdi_mis_llaves",
+      "id": "emergencias_perdi_mis_llaves",
+      "target": [
+        {
+          "text": "Perdí mis llaves.",
+          "audioSlug": "perdi_mis_llaves"
+        }
+      ]
+    },
+    "es.fiesta_lets_make_a_toast": {
+      "conceptId": "es.fiesta_lets_make_a_toast",
+      "id": "fiesta_lets_make_a_toast",
+      "target": [
+        {
+          "text": "Hagamos un brindis.",
+          "audioSlug": "hagamos_un_brindis"
+        }
+      ]
+    },
+    "es.health_este_virus_se_contagia_muy_rapido": {
+      "conceptId": "es.health_este_virus_se_contagia_muy_rapido",
+      "id": "health_este_virus_se_contagia_muy_rapido",
+      "target": [
+        {
+          "text": "Este virus se contagia muy rápido.",
+          "audioSlug": "este_virus_se_contagia_muy_rapido"
+        }
+      ]
+    },
+    "es.kitchen_do_we_have_parchment_paper_to": {
+      "conceptId": "es.kitchen_do_we_have_parchment_paper_to",
+      "id": "kitchen_do_we_have_parchment_paper_to",
+      "target": [
+        {
+          "text": "¿Tenemos papel pergamino para forrar la bandeja del horno?",
+          "audioSlug": "tenemos_papel_pergamino_para_forrar_la_bandeja_del_horno"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_es_importante_sentirse_en_paz": {
+      "conceptId": "es.pensamientos_opiniones_es_importante_sentirse_en_paz",
+      "id": "pensamientos_opiniones_es_importante_sentirse_en_paz",
+      "target": [
+        {
+          "text": "Es importante sentirse en paz.",
+          "audioSlug": "es_importante_sentirse_en_paz"
+        }
+      ]
+    },
+    "es.planes_quiero_mejorar": {
+      "conceptId": "es.planes_quiero_mejorar",
+      "id": "planes_quiero_mejorar",
+      "target": [
+        {
+          "text": "Quiero mejorar.",
+          "audioSlug": "quiero_mejorar"
+        }
+      ]
+    },
+    "es.profesiones_es_un_gran_pintor": {
+      "conceptId": "es.profesiones_es_un_gran_pintor",
+      "id": "profesiones_es_un_gran_pintor",
+      "target": [
+        {
+          "text": "Es un gran pintor.",
+          "audioSlug": "es_un_gran_pintor"
+        }
+      ]
+    },
+    "es.technology_te_envie_un_correo_electronico": {
+      "conceptId": "es.technology_te_envie_un_correo_electronico",
+      "id": "technology_te_envie_un_correo_electronico",
+      "target": [
+        {
+          "text": "Te envié un correo electrónico.",
+          "audioSlug": "te_envie_un_correo_electronico"
+        }
+      ]
+    },
+    "es.theater_how_long_performance": {
+      "conceptId": "es.theater_how_long_performance",
+      "id": "theater_how_long_performance",
+      "target": [
+        {
+          "text": "¿Cuánto dura la función?",
+          "audioSlug": "cuanto_dura_la_funcion"
+        }
+      ]
+    },
+    "es.viajes_es_un_boleto_de_ida_y_vuelta": {
+      "conceptId": "es.viajes_es_un_boleto_de_ida_y_vuelta",
+      "id": "viajes_es_un_boleto_de_ida_y_vuelta",
+      "target": [
+        {
+          "text": "¿Es un boleto de ida y vuelta?",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "es_un_boleto_de_ida_y_vuelta"
+        },
+        {
+          "text": "¿Es un billete de ida y vuelta?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "es_un_billete_de_ida_y_vuelta"
+        }
+      ]
+    },
+    "es.weather_it_rains_a_lot_this_time_of_year": {
+      "conceptId": "es.weather_it_rains_a_lot_this_time_of_year",
+      "id": "weather_it_rains_a_lot_this_time_of_year",
+      "target": [
+        {
+          "text": "Llueve mucho en esta época.",
+          "audioSlug": "llueve_mucho_en_esta_epoca"
+        }
+      ]
+    }
+  }
+}

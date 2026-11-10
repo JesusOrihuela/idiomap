@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "a8",
+  "concepts": {
+    "en.calendario_it_s_midnight": {
+      "conceptId": "en.calendario_it_s_midnight",
+      "id": "calendario_it_s_midnight",
+      "target": [
+        {
+          "text": "It's midnight.",
+          "audioSlug": "it_s_midnight"
+        }
+      ]
+    },
+    "en.emociones_why_are_you_nervous": {
+      "conceptId": "en.emociones_why_are_you_nervous",
+      "id": "emociones_why_are_you_nervous",
+      "target": [
+        {
+          "text": "Why are you nervous?",
+          "audioSlug": "why_are_you_nervous"
+        }
+      ]
+    },
+    "en.health_how_do_you_feel": {
+      "conceptId": "en.health_how_do_you_feel",
+      "id": "health_how_do_you_feel",
+      "target": [
+        {
+          "text": "How are you feeling?",
+          "audioSlug": "how_are_you_feeling"
+        }
+      ]
+    },
+    "en.kitchen_wash_the_fruit_before_cutting_it": {
+      "conceptId": "en.kitchen_wash_the_fruit_before_cutting_it",
+      "id": "kitchen_wash_the_fruit_before_cutting_it",
+      "target": [
+        {
+          "text": "Wash the fruit before cutting it.",
+          "audioSlug": "wash_the_fruit_before_cutting_it"
+        }
+      ]
+    },
+    "en.music_podcasts_while_exercise": {
+      "conceptId": "en.music_podcasts_while_exercise",
+      "id": "music_podcasts_while_exercise",
+      "target": [
+        {
+          "text": "I love listening to podcasts while I exercise.",
+          "audioSlug": "i_love_listening_to_podcasts_while_i_exercise"
+        }
+      ]
+    },
+    "en.planes_we_seek_happiness": {
+      "conceptId": "en.planes_we_seek_happiness",
+      "id": "planes_we_seek_happiness",
+      "target": [
+        {
+          "text": "We seek happiness.",
+          "audioSlug": "we_seek_happiness"
+        }
+      ]
+    },
+    "en.restaurant_wine_wrong_selection": {
+      "conceptId": "en.restaurant_wine_wrong_selection",
+      "id": "restaurant_wine_wrong_selection",
+      "target": [
+        {
+          "text": "The wine we were served doesn't match our selection. Could you check the bottle?",
+          "audioSlug": "the_wine_we_were_served_doesn_t_match_our_selection_could_you_check_the_bottle"
+        }
+      ]
+    },
+    "en.transportation_where_taxi_stand": {
+      "conceptId": "en.transportation_where_taxi_stand",
+      "id": "transportation_where_taxi_stand",
+      "target": [
+        {
+          "text": "Where is the taxi stand?",
+          "audioSlug": "where_is_the_taxi_stand"
+        }
+      ]
+    }
+  }
+}

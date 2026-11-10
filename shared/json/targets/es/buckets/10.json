@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "10",
+  "concepts": {
+    "es.conversacion_no_recuerdo_su_nombre": {
+      "conceptId": "es.conversacion_no_recuerdo_su_nombre",
+      "id": "conversacion_no_recuerdo_su_nombre",
+      "target": [
+        {
+          "text": "No recuerdo su nombre.",
+          "audioSlug": "no_recuerdo_su_nombre"
+        }
+      ]
+    },
+    "es.directions_cruza_la_calle_con_cuidado": {
+      "conceptId": "es.directions_cruza_la_calle_con_cuidado",
+      "id": "directions_cruza_la_calle_con_cuidado",
+      "target": [
+        {
+          "text": "Cruza la calle con cuidado.",
+          "audioSlug": "cruza_la_calle_con_cuidado"
+        }
+      ]
+    },
+    "es.kitchen_reducing_the_sauce_will_take_time": {
+      "conceptId": "es.kitchen_reducing_the_sauce_will_take_time",
+      "id": "kitchen_reducing_the_sauce_will_take_time",
+      "target": [
+        {
+          "text": "La reducción de la salsa llevará tiempo.",
+          "audioSlug": "la_reduccion_de_la_salsa_llevara_tiempo"
+        }
+      ]
+    },
+    "es.music_more_i_listened_more_appreciated": {
+      "conceptId": "es.music_more_i_listened_more_appreciated",
+      "id": "music_more_i_listened_more_appreciated",
+      "target": [
+        {
+          "text": "Cuanto más escuchaba jazz, más apreciaba sus elementos de improvisación.",
+          "audioSlug": "cuanto_mas_escuchaba_jazz_mas_apreciaba_sus_elementos_de_improvisacion"
+        }
+      ]
+    },
+    "es.oficina_print_this_document": {
+      "conceptId": "es.oficina_print_this_document",
+      "id": "oficina_print_this_document",
+      "target": [
+        {
+          "text": "¿Puedes imprimir este documento?",
+          "audioSlug": "puedes_imprimir_este_documento"
+        }
+      ]
+    },
+    "es.planes_i_plan_to_buy_a_car": {
+      "conceptId": "es.planes_i_plan_to_buy_a_car",
+      "id": "planes_i_plan_to_buy_a_car",
+      "target": [
+        {
+          "text": "Pienso comprar un carro.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "pienso_comprar_un_carro"
+        },
+        {
+          "text": "Pienso comprar un coche.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "pienso_comprar_un_coche"
+        },
+        {
+          "text": "Pienso comprar un auto.",
+          "labels": {
+            "region": "Cono Sur"
+          },
+          "audioSlug": "pienso_comprar_un_auto"
+        }
+      ]
+    },
+    "es.planes_no_me_puedes_obligar": {
+      "conceptId": "es.planes_no_me_puedes_obligar",
+      "id": "planes_no_me_puedes_obligar",
+      "target": [
+        {
+          "text": "No me puedes obligar.",
+          "audioSlug": "no_me_puedes_obligar"
+        }
+      ]
+    },
+    "es.technology_are_you_sure_you_are_connected": {
+      "conceptId": "es.technology_are_you_sure_you_are_connected",
+      "id": "technology_are_you_sure_you_are_connected",
+      "target": [
+        {
+          "text": "¿Estás seguro de que estás conectado a internet?",
+          "audioSlug": "estas_seguro_de_que_estas_conectado_a_internet",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Estás segura de que estás conectada a internet?",
+          "audioSlug": "estas_segura_de_que_estas_conectada_a_internet",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.technology_please_turn_on_the_printer": {
+      "conceptId": "es.technology_please_turn_on_the_printer",
+      "id": "technology_please_turn_on_the_printer",
+      "target": [
+        {
+          "text": "Por favor, prende la impresora.",
+          "audioSlug": "por_favor_prende_la_impresora"
+        }
+      ]
+    }
+  }
+}

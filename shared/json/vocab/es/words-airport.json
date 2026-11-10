@@ -19,7 +19,13 @@
       "gloss_example": {
         "en": "Our flight to Miami leaves at seven in the morning."
       },
-      "conceptId": "es.flight"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "passport",
@@ -40,7 +46,13 @@
       "gloss_example": {
         "en": "You cannot board the plane without a valid passport."
       },
-      "conceptId": "es.passport"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "gate",
@@ -61,7 +73,13 @@
       "gloss_example": {
         "en": "Please proceed to gate B14. Boarding starts in twenty minutes."
       },
-      "conceptId": "es.gate"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "luggage",
@@ -82,7 +100,13 @@
       "gloss_example": {
         "en": "Please put your luggage on the scale before checking in."
       },
-      "conceptId": "es.luggage"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ticket",
@@ -119,7 +143,13 @@
           "audioSlug": "billete"
         }
       ],
-      "conceptId": "es.ticket"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "boarding",
@@ -156,7 +186,13 @@
           "audioSlug": "abordaje"
         }
       ],
-      "conceptId": "es.boarding"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "check_in",
@@ -193,7 +229,13 @@
           "audioSlug": "facturacion"
         }
       ],
-      "conceptId": "es.check_in"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "delay",
@@ -230,7 +272,13 @@
           "audioSlug": "demora"
         }
       ],
-      "conceptId": "es.delay"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "currency",
@@ -267,7 +315,13 @@
           "audioSlug": "moneda"
         }
       ],
-      "conceptId": "es.currency"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "destination",
@@ -288,7 +342,13 @@
       "gloss_example": {
         "en": "Paris is one of the most visited tourist destinations in the world."
       },
-      "conceptId": "es.destination"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "customs",
@@ -309,7 +369,13 @@
       "gloss_example": {
         "en": "You must declare any food or plant products when going through customs."
       },
-      "conceptId": "es.customs"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "layover",
@@ -330,7 +396,13 @@
       "gloss_example": {
         "en": "We had a six-hour layover in Amsterdam before our connecting flight."
       },
-      "conceptId": "es.layover"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "transit",
@@ -351,7 +423,13 @@
       "gloss_example": {
         "en": "Passengers in transit do not need to collect their bags between flights."
       },
-      "conceptId": "es.transit"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "turbulence",
@@ -372,7 +450,13 @@
       "gloss_example": {
         "en": "The pilot asked everyone to fasten their seatbelts due to turbulence."
       },
-      "conceptId": "es.turbulence"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "jet_lag",
@@ -393,7 +477,13 @@
       "gloss_example": {
         "en": "It took her three days to recover from jet lag after flying to Tokyo."
       },
-      "conceptId": "es.jet_lag"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "immigration",
@@ -430,7 +520,13 @@
           "audioSlug": "control_migratorio"
         }
       ],
-      "conceptId": "es.immigration"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "baggage_claim",
@@ -451,7 +547,13 @@
       "gloss_example": {
         "en": "Our bags should arrive at baggage claim carousel 4."
       },
-      "conceptId": "es.baggage_claim"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "overbooked",
@@ -488,7 +590,13 @@
           "audioSlug": "con_exceso_de_reservas"
         }
       ],
-      "conceptId": "es.overbooked"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "upgrade",
@@ -509,7 +617,13 @@
       "gloss_example": {
         "en": "She used her frequent flyer miles to request an upgrade to business class."
       },
-      "conceptId": "es.upgrade"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "voucher",
@@ -546,7 +660,13 @@
           "audioSlug": "bono_de_compensacion"
         }
       ],
-      "conceptId": "es.voucher"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "duty_free",
@@ -578,12 +698,18 @@
         {
           "text": "duty-free",
           "labels": {
-            "loanword": ""
+            "loanword": "anglicismo"
           },
           "audioSlug": "duty_free"
         }
       ],
-      "conceptId": "es.duty_free"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "biometrics",
@@ -604,7 +730,13 @@
       "gloss_example": {
         "en": "The new e-gates use biometrics to verify travelers' identities in seconds."
       },
-      "conceptId": "es.biometrics"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "prohibited",
@@ -625,7 +757,13 @@
       "gloss_example": {
         "en": "Liquids over 100 ml are prohibited in carry-on luggage at most airports."
       },
-      "conceptId": "es.prohibited"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "carrier",
@@ -662,7 +800,13 @@
           "audioSlug": "transportista"
         }
       ],
-      "conceptId": "es.carrier"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "overbooking",
@@ -694,12 +838,18 @@
         {
           "text": "overbooking",
           "labels": {
-            "loanword": ""
+            "loanword": "anglicismo"
           },
           "audioSlug": "overbooking"
         }
       ],
-      "conceptId": "es.overbooking"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "repatriation",
@@ -720,7 +870,13 @@
       "gloss_example": {
         "en": "Stranded travelers awaited repatriation flights after the sudden closure of the border."
       },
-      "conceptId": "es.repatriation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "asylum",
@@ -741,7 +897,13 @@
       "gloss_example": {
         "en": "She requested asylum at the airport, citing political persecution in her home country."
       },
-      "conceptId": "es.asylum"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "contraband",
@@ -762,7 +924,13 @@
       "gloss_example": {
         "en": "The sniffer dog detected contraband hidden inside a checked suitcase."
       },
-      "conceptId": "es.contraband"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "manifest",
@@ -799,7 +967,13 @@
           "audioSlug": "manifiesto"
         }
       ],
-      "conceptId": "es.manifest"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "force_majeure",
@@ -820,7 +994,13 @@
       "gloss_example": {
         "en": "The airline refused to pay compensation, citing force majeure due to the volcanic eruption."
       },
-      "conceptId": "es.force_majeure"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "maleta",
@@ -841,7 +1021,13 @@
       "gloss_example": {
         "en": "My suitcase weighs too much."
       },
-      "conceptId": "es.maleta"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "aeropuerto",
@@ -862,7 +1048,13 @@
       "gloss_example": {
         "en": "We arrived early at the airport."
       },
-      "conceptId": "es.aeropuerto"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

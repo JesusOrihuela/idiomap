@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "43",
+  "concepts": {
+    "en.accommodation_gym_hotel": {
+      "conceptId": "en.accommodation_gym_hotel",
+      "id": "accommodation_gym_hotel",
+      "target": [
+        {
+          "text": "Is there a gym in the hotel?",
+          "audioSlug": "is_there_a_gym_in_the_hotel"
+        }
+      ]
+    },
+    "en.accountability_i_think_this_is_a_good": {
+      "conceptId": "en.accountability_i_think_this_is_a_good",
+      "id": "accountability_i_think_this_is_a_good",
+      "target": [
+        {
+          "text": "I think this is a good investment. It pays great annual interest.",
+          "audioSlug": "i_think_this_is_a_good_investment_it_pays_great_annual_interest"
+        }
+      ]
+    },
+    "en.airport_cancelled_rebook_today": {
+      "conceptId": "en.airport_cancelled_rebook_today",
+      "id": "airport_cancelled_rebook_today",
+      "target": [
+        {
+          "text": "My flight was cancelled. I need to be rebooked on the next available flight.",
+          "audioSlug": "my_flight_was_cancelled_i_need_to_be_rebooked_on_the_next_available_flight"
+        }
+      ]
+    },
+    "en.family_i_love_my_family_very_much": {
+      "conceptId": "en.family_i_love_my_family_very_much",
+      "id": "family_i_love_my_family_very_much",
+      "target": [
+        {
+          "text": "I love my family very much.",
+          "audioSlug": "i_love_my_family_very_much"
+        }
+      ]
+    },
+    "en.health_it_hurts_here": {
+      "conceptId": "en.health_it_hurts_here",
+      "id": "health_it_hurts_here",
+      "target": [
+        {
+          "text": "It hurts here.",
+          "audioSlug": "it_hurts_here"
+        }
+      ]
+    },
+    "en.kitchen_we_need_to_wash_the_spoons": {
+      "conceptId": "en.kitchen_we_need_to_wash_the_spoons",
+      "id": "kitchen_we_need_to_wash_the_spoons",
+      "target": [
+        {
+          "text": "We need to wash the spoons.",
+          "audioSlug": "we_need_to_wash_the_spoons"
+        }
+      ]
+    },
+    "en.tiempo_libre_will_you_join_our_club": {
+      "conceptId": "en.tiempo_libre_will_you_join_our_club",
+      "id": "tiempo_libre_will_you_join_our_club",
+      "target": [
+        {
+          "text": "Will you join our club?",
+          "audioSlug": "will_you_join_our_club"
+        }
+      ]
+    }
+  }
+}

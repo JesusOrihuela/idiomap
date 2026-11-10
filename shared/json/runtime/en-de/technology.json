@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-de",
+  "topic": "technology",
+  "phrases": [
+    {
+      "id": "technology_my_cell_phone_is_broken",
+      "conceptId": "de.technology_my_cell_phone_is_broken",
+      "sourceId": "en.s.74c163de813646ac",
+      "source": "My cell phone is broken.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mein Handy ist kaputt.",
+          "labels": {
+            "loanword": "Anglizismus"
+          },
+          "audioSlug": "mein_handy_ist_kaputt"
+        },
+        {
+          "text": "Mein Mobiltelefon ist kaputt.",
+          "labels": {
+            "synonym": "sinónimo"
+          },
+          "audioSlug": "mein_mobiltelefon_ist_kaputt"
+        }
+      ]
+    }
+  ]
+}

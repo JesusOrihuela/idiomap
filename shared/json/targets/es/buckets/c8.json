@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "c8",
+  "concepts": {
+    "es.accountability_the_balance_sheet_shows_the_assets": {
+      "conceptId": "es.accountability_the_balance_sheet_shows_the_assets",
+      "id": "accountability_the_balance_sheet_shows_the_assets",
+      "target": [
+        {
+          "text": "El balance general muestra los activos, pasivos y capital de la empresa.",
+          "audioSlug": "el_balance_general_muestra_los_activos_pasivos_y_capital_de_la_empresa"
+        }
+      ]
+    },
+    "es.daily_routine_i_check_email_at_work": {
+      "conceptId": "es.daily_routine_i_check_email_at_work",
+      "id": "daily_routine_i_check_email_at_work",
+      "target": [
+        {
+          "text": "Reviso el correo al llegar al trabajo.",
+          "audioSlug": "reviso_el_correo_al_llegar_al_trabajo"
+        }
+      ]
+    },
+    "es.descripciones_ese_vestido_azul_es_muy_lindo": {
+      "conceptId": "es.descripciones_ese_vestido_azul_es_muy_lindo",
+      "id": "descripciones_ese_vestido_azul_es_muy_lindo",
+      "target": [
+        {
+          "text": "Ese vestido azul es muy lindo.",
+          "audioSlug": "ese_vestido_azul_es_muy_lindo"
+        }
+      ]
+    },
+    "es.health_puedes_andar": {
+      "conceptId": "es.health_puedes_andar",
+      "id": "health_puedes_andar",
+      "target": [
+        {
+          "text": "¿Puedes andar?",
+          "audioSlug": "puedes_andar",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Puede andar?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_andar"
+        }
+      ]
+    },
+    "es.kitchen_the_rolling_pin_to_flatten_the": {
+      "conceptId": "es.kitchen_the_rolling_pin_to_flatten_the",
+      "id": "kitchen_the_rolling_pin_to_flatten_the",
+      "target": [
+        {
+          "text": "El rodillo para aplanar la masa está en el cajón.",
+          "audioSlug": "el_rodillo_para_aplanar_la_masa_esta_en_el_cajon"
+        }
+      ]
+    },
+    "es.kitchen_whats_the_difference_between_a_pot": {
+      "conceptId": "es.kitchen_whats_the_difference_between_a_pot",
+      "id": "kitchen_whats_the_difference_between_a_pot",
+      "target": [
+        {
+          "text": "¿Qué diferencia hay entre una cacerola y una sartén?",
+          "audioSlug": "que_diferencia_hay_entre_una_cacerola_y_una_sarten"
+        }
+      ]
+    },
+    "es.personal_info_mi_hijo_mayor_ya_es_adulto": {
+      "conceptId": "es.personal_info_mi_hijo_mayor_ya_es_adulto",
+      "id": "personal_info_mi_hijo_mayor_ya_es_adulto",
+      "target": [
+        {
+          "text": "Mi hijo mayor ya es adulto.",
+          "audioSlug": "mi_hijo_mayor_ya_es_adulto"
+        }
+      ]
+    },
+    "es.supermarket_can_i_have_the_receipt": {
+      "conceptId": "es.supermarket_can_i_have_the_receipt",
+      "id": "supermarket_can_i_have_the_receipt",
+      "target": [
+        {
+          "text": "¿Me da el recibo, por favor?",
+          "audioSlug": "me_da_el_recibo_por_favor"
+        }
+      ]
+    }
+  }
+}

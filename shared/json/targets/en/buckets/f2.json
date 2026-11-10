@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "f2",
+  "concepts": {
+    "en.accommodation_accessible_level_access": {
+      "conceptId": "en.accommodation_accessible_level_access",
+      "id": "accommodation_accessible_level_access",
+      "target": [
+        {
+          "text": "I require level-access facilities. Could you confirm which rooms are fully adapted?",
+          "audioSlug": "i_require_level_access_facilities_could_you_confirm_which_rooms_are_fully_adapted"
+        }
+      ]
+    },
+    "en.accommodation_book_room_two_nights": {
+      "conceptId": "en.accommodation_book_room_two_nights",
+      "id": "accommodation_book_room_two_nights",
+      "target": [
+        {
+          "text": "Could you help me book a room for two nights?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "could_you_help_me_book_a_room_for_two_nights"
+        },
+        {
+          "text": "Can you help me book a room for two nights?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "can_you_help_me_book_a_room_for_two_nights"
+        }
+      ]
+    },
+    "en.economia_they_want_to_raise_money": {
+      "conceptId": "en.economia_they_want_to_raise_money",
+      "id": "economia_they_want_to_raise_money",
+      "target": [
+        {
+          "text": "They want to raise money.",
+          "audioSlug": "they_want_to_raise_money"
+        }
+      ]
+    },
+    "en.supermarket_i_am_here_to_make_a": {
+      "conceptId": "en.supermarket_i_am_here_to_make_a",
+      "id": "supermarket_i_am_here_to_make_a",
+      "target": [
+        {
+          "text": "I am here to make a return.",
+          "audioSlug": "i_am_here_to_make_a_return"
+        }
+      ]
+    },
+    "en.supermarket_is_this_product_vegan": {
+      "conceptId": "en.supermarket_is_this_product_vegan",
+      "id": "supermarket_is_this_product_vegan",
+      "target": [
+        {
+          "text": "Is this product vegan?",
+          "audioSlug": "is_this_product_vegan"
+        }
+      ]
+    },
+    "en.tiempo_libre_they_talked_about_culture": {
+      "conceptId": "en.tiempo_libre_they_talked_about_culture",
+      "id": "tiempo_libre_they_talked_about_culture",
+      "target": [
+        {
+          "text": "They talked about culture.",
+          "audioSlug": "they_talked_about_culture"
+        }
+      ]
+    },
+    "en.weather_its_cloudy": {
+      "conceptId": "en.weather_its_cloudy",
+      "id": "weather_its_cloudy",
+      "target": [
+        {
+          "text": "It's cloudy.",
+          "audioSlug": "it_s_cloudy"
+        }
+      ]
+    }
+  }
+}

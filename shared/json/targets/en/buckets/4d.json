@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "4d",
+  "concepts": {
+    "en.accommodation_transport_options": {
+      "conceptId": "en.accommodation_transport_options",
+      "id": "accommodation_transport_options",
+      "target": [
+        {
+          "text": "What transportation options are there to get to the hotel?",
+          "audioSlug": "what_transportation_options_are_there_to_get_to_the_hotel"
+        }
+      ]
+    },
+    "en.conversacion_talk_to_me": {
+      "conceptId": "en.conversacion_talk_to_me",
+      "id": "conversacion_talk_to_me",
+      "target": [
+        {
+          "text": "Talk to me.",
+          "audioSlug": "talk_to_me"
+        }
+      ]
+    },
+    "en.describiendo_personas_she_is_very_rich": {
+      "conceptId": "en.describiendo_personas_she_is_very_rich",
+      "id": "describiendo_personas_she_is_very_rich",
+      "target": [
+        {
+          "text": "She is very rich.",
+          "audioSlug": "she_is_very_rich"
+        }
+      ]
+    },
+    "en.hogar_close_the_door_when_you_leave": {
+      "conceptId": "en.hogar_close_the_door_when_you_leave",
+      "id": "hogar_close_the_door_when_you_leave",
+      "target": [
+        {
+          "text": "Close the door when you leave.",
+          "audioSlug": "close_the_door_when_you_leave"
+        }
+      ]
+    },
+    "en.supermarket_store_brand_less_expensive": {
+      "conceptId": "en.supermarket_store_brand_less_expensive",
+      "id": "supermarket_store_brand_less_expensive",
+      "target": [
+        {
+          "text": "Is there a store brand option that's less expensive?",
+          "audioSlug": "is_there_a_store_brand_option_that_s_less_expensive"
+        }
+      ]
+    },
+    "en.technology_can_you_help_me_set_up": {
+      "conceptId": "en.technology_can_you_help_me_set_up",
+      "id": "technology_can_you_help_me_set_up",
+      "target": [
+        {
+          "text": "Can you help me set up my new printer?",
+          "audioSlug": "can_you_help_me_set_up_my_new_printer",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Could you help me set up my new printer?",
+          "audioSlug": "could_you_help_me_set_up_my_new_printer",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    }
+  }
+}

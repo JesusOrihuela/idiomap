@@ -1,25 +1,241 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "emergencias",
-  "conceptIds": [
-    "es.emergencias_perdi_mi_pasaporte",
-    "es.emergencias_puede_llamar_a_la_policia",
-    "es.emergencias_no_encuentro_mi_telefono",
-    "es.emergencias_hubo_un_accidente",
-    "es.emergencias_llamen_a_una_ambulancia",
-    "es.emergencias_llama_a_la_policia",
-    "es.emergencias_necesitamos_una_ambulancia",
-    "es.emergencias_hay_un_incendio",
-    "es.emergencias_me_robaron_la_cartera",
-    "es.emergencias_hay_algun_peligro",
-    "es.emergencias_hubo_un_accidente_en_la_calle",
-    "es.emergencias_perdi_mis_llaves",
-    "es.emergencias_ayuda_por_favor",
-    "es.emergencias_donde_esta_la_salida_de_emergencia",
-    "es.emergencias_llamen_a_los_bomberos",
-    "es.emergencias_es_una_emergencia",
-    "es.emergencias_alguien_se_desmayo",
-    "es.emergencias_ayuda"
+  "phrases": [
+    {
+      "conceptId": "es.emergencias_perdi_mi_pasaporte",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0076838e80d669d8"
+    },
+    {
+      "conceptId": "es.emergencias_puede_llamar_a_la_policia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1607f18e0c104b4a"
+    },
+    {
+      "conceptId": "es.emergencias_no_encuentro_mi_telefono",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.05e17be1707feb76"
+    },
+    {
+      "conceptId": "es.emergencias_hubo_un_accidente",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.10a909ef9bb905b5"
+    },
+    {
+      "conceptId": "es.emergencias_llamen_a_una_ambulancia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5f14fc2b46b002ac"
+    },
+    {
+      "conceptId": "es.emergencias_llama_a_la_policia",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9a523070a91dc155"
+    },
+    {
+      "conceptId": "es.emergencias_necesitamos_una_ambulancia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6e1a4f6fa3208bf3"
+    },
+    {
+      "conceptId": "es.emergencias_hay_un_incendio",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e951c42eeb750260"
+    },
+    {
+      "conceptId": "es.emergencias_me_robaron_la_cartera",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.180c29e29441b4de"
+    },
+    {
+      "conceptId": "es.emergencias_hay_algun_peligro",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2ffe1ac6b807c565"
+    },
+    {
+      "conceptId": "es.emergencias_hubo_un_accidente_en_la_calle",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5f696104b15bf024"
+    },
+    {
+      "conceptId": "es.emergencias_perdi_mis_llaves",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5c0fb9bdd7a27bc0"
+    },
+    {
+      "conceptId": "es.emergencias_ayuda_por_favor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9e3c787d7b891860"
+    },
+    {
+      "conceptId": "es.emergencias_donde_esta_la_salida_de_emergencia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0d3e4299cf5333f8"
+    },
+    {
+      "conceptId": "es.emergencias_llamen_a_los_bomberos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.804022fa47bd4cf9"
+    },
+    {
+      "conceptId": "es.emergencias_es_una_emergencia",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.891cb7843a3575e3"
+    },
+    {
+      "conceptId": "es.emergencias_alguien_se_desmayo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1b875700383eebce"
+    },
+    {
+      "conceptId": "es.emergencias_ayuda",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e87e5e2a9bd16a00"
+    }
   ]
 }

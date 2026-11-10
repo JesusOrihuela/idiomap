@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "15",
+  "concepts": {
+    "es.conversacion_i_dont_agree": {
+      "conceptId": "es.conversacion_i_dont_agree",
+      "id": "conversacion_i_dont_agree",
+      "target": [
+        {
+          "text": "No estoy de acuerdo.",
+          "audioSlug": "no_estoy_de_acuerdo"
+        }
+      ]
+    },
+    "es.conversacion_quiero_sugerir_una_idea": {
+      "conceptId": "es.conversacion_quiero_sugerir_una_idea",
+      "id": "conversacion_quiero_sugerir_una_idea",
+      "target": [
+        {
+          "text": "Quiero sugerir una idea.",
+          "audioSlug": "quiero_sugerir_una_idea"
+        }
+      ]
+    },
+    "es.deportes_ningun_equipo_gano_el_torneo": {
+      "conceptId": "es.deportes_ningun_equipo_gano_el_torneo",
+      "id": "deportes_ningun_equipo_gano_el_torneo",
+      "target": [
+        {
+          "text": "Ningún equipo ganó el torneo.",
+          "audioSlug": "ningun_equipo_gano_el_torneo"
+        }
+      ]
+    },
+    "es.directions_behind": {
+      "conceptId": "es.directions_behind",
+      "id": "directions_behind",
+      "target": [
+        {
+          "text": "Está detrás de la iglesia.",
+          "audioSlug": "esta_detras_de_la_iglesia"
+        }
+      ]
+    },
+    "es.directions_it_is_five_minutes_on_foot": {
+      "conceptId": "es.directions_it_is_five_minutes_on_foot",
+      "id": "directions_it_is_five_minutes_on_foot",
+      "target": [
+        {
+          "text": "Está a cinco minutos a pie.",
+          "audioSlug": "esta_a_cinco_minutos_a_pie"
+        }
+      ]
+    },
+    "es.estudios_voy_a_consultar_el_diccionario": {
+      "conceptId": "es.estudios_voy_a_consultar_el_diccionario",
+      "id": "estudios_voy_a_consultar_el_diccionario",
+      "target": [
+        {
+          "text": "Voy a consultar el diccionario.",
+          "audioSlug": "voy_a_consultar_el_diccionario"
+        }
+      ]
+    },
+    "es.family_sister_younger": {
+      "conceptId": "es.family_sister_younger",
+      "id": "family_sister_younger",
+      "target": [
+        {
+          "text": "Mi hermana es menor que yo.",
+          "audioSlug": "mi_hermana_es_menor_que_yo"
+        }
+      ]
+    },
+    "es.gym_push_with_your_heels_not_with": {
+      "conceptId": "es.gym_push_with_your_heels_not_with",
+      "id": "gym_push_with_your_heels_not_with",
+      "target": [
+        {
+          "text": "Empuja con los talones, no con las puntas.",
+          "audioSlug": "empuja_con_los_talones_no_con_las_puntas"
+        }
+      ]
+    },
+    "es.kitchen_sirvo_la_cena_a_las_ocho": {
+      "conceptId": "es.kitchen_sirvo_la_cena_a_las_ocho",
+      "id": "kitchen_sirvo_la_cena_a_las_ocho",
+      "target": [
+        {
+          "text": "Sirvo la cena a las ocho.",
+          "audioSlug": "sirvo_la_cena_a_las_ocho"
+        }
+      ]
+    },
+    "es.kitchen_we_dont_have_the_necessary_ingredients": {
+      "conceptId": "es.kitchen_we_dont_have_the_necessary_ingredients",
+      "id": "kitchen_we_dont_have_the_necessary_ingredients",
+      "target": [
+        {
+          "text": "No tenemos los ingredientes necesarios para hacer la receta.",
+          "audioSlug": "no_tenemos_los_ingredientes_necesarios_para_hacer_la_receta"
+        }
+      ]
+    },
+    "es.oficina_este_es_mi_proyecto": {
+      "conceptId": "es.oficina_este_es_mi_proyecto",
+      "id": "oficina_este_es_mi_proyecto",
+      "target": [
+        {
+          "text": "Este es mi proyecto.",
+          "audioSlug": "este_es_mi_proyecto"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_trabajar_en_equipo_es_mejor": {
+      "conceptId": "es.pensamientos_opiniones_trabajar_en_equipo_es_mejor",
+      "id": "pensamientos_opiniones_trabajar_en_equipo_es_mejor",
+      "target": [
+        {
+          "text": "Trabajar en equipo siempre es mejor.",
+          "audioSlug": "trabajar_en_equipo_siempre_es_mejor"
+        }
+      ]
+    },
+    "es.sitios_el_monumento_esta_en_la_plaza": {
+      "conceptId": "es.sitios_el_monumento_esta_en_la_plaza",
+      "id": "sitios_el_monumento_esta_en_la_plaza",
+      "target": [
+        {
+          "text": "El monumento está en la plaza.",
+          "audioSlug": "el_monumento_esta_en_la_plaza"
+        }
+      ]
+    },
+    "es.sitios_el_museo_nacional_es_enorme": {
+      "conceptId": "es.sitios_el_museo_nacional_es_enorme",
+      "id": "sitios_el_museo_nacional_es_enorme",
+      "target": [
+        {
+          "text": "El museo nacional es enorme.",
+          "audioSlug": "el_museo_nacional_es_enorme"
+        }
+      ]
+    },
+    "es.sitios_es_un_lugar_maravilloso": {
+      "conceptId": "es.sitios_es_un_lugar_maravilloso",
+      "id": "sitios_es_un_lugar_maravilloso",
+      "target": [
+        {
+          "text": "Es un lugar maravilloso.",
+          "audioSlug": "es_un_lugar_maravilloso"
+        }
+      ]
+    },
+    "es.vestimenta_se_compro_un_sombrero_elegante": {
+      "conceptId": "es.vestimenta_se_compro_un_sombrero_elegante",
+      "id": "vestimenta_se_compro_un_sombrero_elegante",
+      "target": [
+        {
+          "text": "Se compró un sombrero elegante.",
+          "audioSlug": "se_compro_un_sombrero_elegante"
+        }
+      ]
+    },
+    "es.weather_el_viento_sopla_muy_fuerte": {
+      "conceptId": "es.weather_el_viento_sopla_muy_fuerte",
+      "id": "weather_el_viento_sopla_muy_fuerte",
+      "target": [
+        {
+          "text": "El viento sopla muy fuerte.",
+          "audioSlug": "el_viento_sopla_muy_fuerte"
+        }
+      ]
+    }
+  }
+}

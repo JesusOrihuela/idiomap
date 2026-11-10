@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "0b",
+  "concepts": {
+    "en.conversacion_let_me_explain": {
+      "conceptId": "en.conversacion_let_me_explain",
+      "id": "conversacion_let_me_explain",
+      "target": [
+        {
+          "text": "Let me explain.",
+          "audioSlug": "let_me_explain"
+        }
+      ]
+    },
+    "en.greetings_morning_hope_youre_doing_well": {
+      "conceptId": "en.greetings_morning_hope_youre_doing_well",
+      "id": "greetings_morning_hope_youre_doing_well",
+      "target": [
+        {
+          "text": "Morning, hope you're doing well.",
+          "audioSlug": "morning_hope_you_re_doing_well",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Morning, I hope you're doing well.",
+          "audioSlug": "morning_i_hope_you_re_doing_well",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.hogar_fix_the_clock": {
+      "conceptId": "en.hogar_fix_the_clock",
+      "id": "hogar_fix_the_clock",
+      "target": [
+        {
+          "text": "Fix the clock.",
+          "audioSlug": "fix_the_clock"
+        }
+      ]
+    },
+    "en.kitchen_season_the_chicken_with_salt_pepper": {
+      "conceptId": "en.kitchen_season_the_chicken_with_salt_pepper",
+      "id": "kitchen_season_the_chicken_with_salt_pepper",
+      "target": [
+        {
+          "text": "Season the chicken with salt, pepper, and garlic.",
+          "audioSlug": "season_the_chicken_with_salt_pepper_and_garlic"
+        }
+      ]
+    },
+    "en.kitchen_the_sauce_needs_more_salt": {
+      "conceptId": "en.kitchen_the_sauce_needs_more_salt",
+      "id": "kitchen_the_sauce_needs_more_salt",
+      "target": [
+        {
+          "text": "The sauce needs more salt.",
+          "audioSlug": "the_sauce_needs_more_salt"
+        }
+      ]
+    },
+    "en.music_favorite_song": {
+      "conceptId": "en.music_favorite_song",
+      "id": "music_favorite_song",
+      "target": [
+        {
+          "text": "That's my favorite song.",
+          "audioSlug": "that_s_my_favorite_song"
+        }
+      ]
+    },
+    "en.music_more_i_listened_more_appreciated": {
+      "conceptId": "en.music_more_i_listened_more_appreciated",
+      "id": "music_more_i_listened_more_appreciated",
+      "target": [
+        {
+          "text": "The more I listened to jazz, the more I appreciated its improvisational elements.",
+          "audioSlug": "the_more_i_listened_to_jazz_the_more_i_appreciated_its_improvisational_elements"
+        }
+      ]
+    },
+    "en.music_similar_genre_film": {
+      "conceptId": "en.music_similar_genre_film",
+      "id": "music_similar_genre_film",
+      "target": [
+        {
+          "text": "I want music similar to that film's soundtrack. Do you know the genre?",
+          "audioSlug": "i_want_music_similar_to_that_film_s_soundtrack_do_you_know_the_genre"
+        }
+      ]
+    },
+    "en.theater_moved_by_grief_portrayal": {
+      "conceptId": "en.theater_moved_by_grief_portrayal",
+      "id": "theater_moved_by_grief_portrayal",
+      "target": [
+        {
+          "text": "I was deeply moved by the actor's portrayal of grief.",
+          "audioSlug": "i_was_deeply_moved_by_the_actor_s_portrayal_of_grief"
+        }
+      ]
+    }
+  }
+}

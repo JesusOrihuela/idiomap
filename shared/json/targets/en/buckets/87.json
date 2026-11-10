@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "87",
+  "concepts": {
+    "en.greetings_hi_there_hope_youre_having_a": {
+      "conceptId": "en.greetings_hi_there_hope_youre_having_a",
+      "id": "greetings_hi_there_hope_youre_having_a",
+      "target": [
+        {
+          "text": "Hi there, hope you're having a good day.",
+          "audioSlug": "hi_there_hope_you_re_having_a_good_day",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Hello there, hope you're having a good day.",
+          "audioSlug": "hello_there_hope_you_re_having_a_good_day",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.kitchen_we_need_to_buy_unsalted_butter": {
+      "conceptId": "en.kitchen_we_need_to_buy_unsalted_butter",
+      "id": "kitchen_we_need_to_buy_unsalted_butter",
+      "target": [
+        {
+          "text": "We need to buy unsalted butter.",
+          "audioSlug": "we_need_to_buy_unsalted_butter"
+        }
+      ]
+    },
+    "en.transportation_buy_train_ticket": {
+      "conceptId": "en.transportation_buy_train_ticket",
+      "id": "transportation_buy_train_ticket",
+      "target": [
+        {
+          "text": "I need to buy a ticket for the high-speed train.",
+          "audioSlug": "i_need_to_buy_a_ticket_for_the_high_speed_train"
+        }
+      ]
+    }
+  }
+}

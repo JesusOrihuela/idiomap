@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "81",
+  "concepts": {
+    "es.accountability_expense_receipts_submitted_reimbursement": {
+      "conceptId": "es.accountability_expense_receipts_submitted_reimbursement",
+      "id": "accountability_expense_receipts_submitted_reimbursement",
+      "target": [
+        {
+          "text": "Asegúrate de entregar todos los comprobantes de gasto antes del viernes para el reembolso.",
+          "audioSlug": "asegurate_de_entregar_todos_los_comprobantes_de_gasto_antes_del_viernes_para_el_reembolso"
+        }
+      ]
+    },
+    "es.airport_el_avion_llego_tarde": {
+      "conceptId": "es.airport_el_avion_llego_tarde",
+      "id": "airport_el_avion_llego_tarde",
+      "target": [
+        {
+          "text": "El avión llegó tarde.",
+          "audioSlug": "el_avion_llego_tarde"
+        }
+      ]
+    },
+    "es.describiendo_personas_tiene_buen_aspecto": {
+      "conceptId": "es.describiendo_personas_tiene_buen_aspecto",
+      "id": "describiendo_personas_tiene_buen_aspecto",
+      "target": [
+        {
+          "text": "Tiene buen aspecto.",
+          "audioSlug": "tiene_buen_aspecto"
+        }
+      ]
+    },
+    "es.descripciones_este_objeto_es_muy_antiguo": {
+      "conceptId": "es.descripciones_este_objeto_es_muy_antiguo",
+      "id": "descripciones_este_objeto_es_muy_antiguo",
+      "target": [
+        {
+          "text": "Este objeto es muy antiguo.",
+          "audioSlug": "este_objeto_es_muy_antiguo"
+        }
+      ]
+    },
+    "es.estudios_el_profesor_escribe_en_la_pizarra": {
+      "conceptId": "es.estudios_el_profesor_escribe_en_la_pizarra",
+      "id": "estudios_el_profesor_escribe_en_la_pizarra",
+      "target": [
+        {
+          "text": "El profesor escribe en la pizarra.",
+          "audioSlug": "el_profesor_escribe_en_la_pizarra"
+        }
+      ]
+    },
+    "es.greetings_nos_despedimos_con_un_abrazo": {
+      "conceptId": "es.greetings_nos_despedimos_con_un_abrazo",
+      "id": "greetings_nos_despedimos_con_un_abrazo",
+      "target": [
+        {
+          "text": "Nos despedimos con un abrazo.",
+          "audioSlug": "nos_despedimos_con_un_abrazo"
+        }
+      ]
+    },
+    "es.hogar_lleno_la_banera_de_agua_caliente": {
+      "conceptId": "es.hogar_lleno_la_banera_de_agua_caliente",
+      "id": "hogar_lleno_la_banera_de_agua_caliente",
+      "target": [
+        {
+          "text": "Lleno la bañera de agua caliente.",
+          "audioSlug": "lleno_la_banera_de_agua_caliente"
+        }
+      ]
+    },
+    "es.kitchen_let_meat_rest_juices_redistribute": {
+      "conceptId": "es.kitchen_let_meat_rest_juices_redistribute",
+      "id": "kitchen_let_meat_rest_juices_redistribute",
+      "target": [
+        {
+          "text": "Deja reposar la carne cinco minutos para que los jugos se redistribuyan.",
+          "audioSlug": "deja_reposar_la_carne_cinco_minutos_para_que_los_jugos_se_redistribuyan"
+        }
+      ]
+    },
+    "es.movies_film_festival_city": {
+      "conceptId": "es.movies_film_festival_city",
+      "id": "movies_film_festival_city",
+      "target": [
+        {
+          "text": "Hay un nuevo festival de cine en la ciudad, ¿vamos?",
+          "audioSlug": "hay_un_nuevo_festival_de_cine_en_la_ciudad_vamos"
+        }
+      ]
+    },
+    "es.music_toca_el_violin_en_la_orquesta": {
+      "conceptId": "es.music_toca_el_violin_en_la_orquesta",
+      "id": "music_toca_el_violin_en_la_orquesta",
+      "target": [
+        {
+          "text": "Toca el violín en la orquesta.",
+          "audioSlug": "toca_el_violin_en_la_orquesta"
+        }
+      ]
+    },
+    "es.personal_info_soy_de_la_costa": {
+      "conceptId": "es.personal_info_soy_de_la_costa",
+      "id": "personal_info_soy_de_la_costa",
+      "target": [
+        {
+          "text": "Soy de la costa.",
+          "audioSlug": "soy_de_la_costa"
+        }
+      ]
+    },
+    "es.planes_im_going_to_travel_to_spain": {
+      "conceptId": "es.planes_im_going_to_travel_to_spain",
+      "id": "planes_im_going_to_travel_to_spain",
+      "target": [
+        {
+          "text": "Voy a viajar a España la próxima semana.",
+          "audioSlug": "voy_a_viajar_a_espana_la_proxima_semana"
+        }
+      ]
+    },
+    "es.planes_no_quiero_provocar_problemas": {
+      "conceptId": "es.planes_no_quiero_provocar_problemas",
+      "id": "planes_no_quiero_provocar_problemas",
+      "target": [
+        {
+          "text": "No quiero provocar problemas.",
+          "audioSlug": "no_quiero_provocar_problemas"
+        }
+      ]
+    },
+    "es.supermarket_what_time_does_the_supermarket_close": {
+      "conceptId": "es.supermarket_what_time_does_the_supermarket_close",
+      "id": "supermarket_what_time_does_the_supermarket_close",
+      "target": [
+        {
+          "text": "¿A qué hora cierra el supermercado?",
+          "audioSlug": "a_que_hora_cierra_el_supermercado"
+        }
+      ]
+    },
+    "es.survival_me_lo_puede_explicar_de_otra_manera": {
+      "conceptId": "es.survival_me_lo_puede_explicar_de_otra_manera",
+      "id": "survival_me_lo_puede_explicar_de_otra_manera",
+      "target": [
+        {
+          "text": "¿Me lo puede explicar de otra manera?",
+          "audioSlug": "me_lo_puede_explicar_de_otra_manera"
+        }
+      ]
+    },
+    "es.survival_what_does_it_mean": {
+      "conceptId": "es.survival_what_does_it_mean",
+      "id": "survival_what_does_it_mean",
+      "target": [
+        {
+          "text": "¿Qué significa esta palabra?",
+          "audioSlug": "que_significa_esta_palabra"
+        }
+      ]
+    },
+    "es.technology_is_there_an_app_to_scan": {
+      "conceptId": "es.technology_is_there_an_app_to_scan",
+      "id": "technology_is_there_an_app_to_scan",
+      "target": [
+        {
+          "text": "¿Existe una aplicación para escanear documentos?",
+          "audioSlug": "existe_una_aplicacion_para_escanear_documentos"
+        }
+      ]
+    },
+    "es.technology_no_tengo_conexion_a_internet": {
+      "conceptId": "es.technology_no_tengo_conexion_a_internet",
+      "id": "technology_no_tengo_conexion_a_internet",
+      "target": [
+        {
+          "text": "No tengo conexión a internet.",
+          "audioSlug": "no_tengo_conexion_a_internet"
+        }
+      ]
+    },
+    "es.tiempo_libre_el_arte_moderno_me_resulta_interesante": {
+      "conceptId": "es.tiempo_libre_el_arte_moderno_me_resulta_interesante",
+      "id": "tiempo_libre_el_arte_moderno_me_resulta_interesante",
+      "target": [
+        {
+          "text": "El arte moderno me resulta interesante.",
+          "audioSlug": "el_arte_moderno_me_resulta_interesante"
+        }
+      ]
+    },
+    "es.vestimenta_llevo_los_libros_en_la_mochila": {
+      "conceptId": "es.vestimenta_llevo_los_libros_en_la_mochila",
+      "id": "vestimenta_llevo_los_libros_en_la_mochila",
+      "target": [
+        {
+          "text": "Llevo los libros en la mochila.",
+          "audioSlug": "llevo_los_libros_en_la_mochila"
+        }
+      ]
+    },
+    "es.vestimenta_que_talla_usas": {
+      "conceptId": "es.vestimenta_que_talla_usas",
+      "id": "vestimenta_que_talla_usas",
+      "target": [
+        {
+          "text": "¿Qué talla usas?",
+          "audioSlug": "que_talla_usas"
+        }
+      ]
+    }
+  }
+}

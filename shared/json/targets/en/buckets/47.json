@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "47",
+  "concepts": {
+    "en.accommodation_atm_hotel": {
+      "conceptId": "en.accommodation_atm_hotel",
+      "id": "accommodation_atm_hotel",
+      "target": [
+        {
+          "text": "Is there an ATM in the hotel?",
+          "audioSlug": "is_there_an_atm_in_the_hotel"
+        }
+      ]
+    },
+    "en.describiendo_personas_my_neighbor_is_very_nice": {
+      "conceptId": "en.describiendo_personas_my_neighbor_is_very_nice",
+      "id": "describiendo_personas_my_neighbor_is_very_nice",
+      "target": [
+        {
+          "text": "My neighbor is very nice.",
+          "audioSlug": "my_neighbor_is_very_nice"
+        }
+      ]
+    },
+    "en.directions_turn_at_the_second_traffic_light": {
+      "conceptId": "en.directions_turn_at_the_second_traffic_light",
+      "id": "directions_turn_at_the_second_traffic_light",
+      "target": [
+        {
+          "text": "Turn at the second traffic light.",
+          "audioSlug": "turn_at_the_second_traffic_light"
+        }
+      ]
+    },
+    "en.kitchen_let_meat_rest_juices_redistribute": {
+      "conceptId": "en.kitchen_let_meat_rest_juices_redistribute",
+      "id": "kitchen_let_meat_rest_juices_redistribute",
+      "target": [
+        {
+          "text": "Let the meat rest for five minutes after cooking so the juices redistribute.",
+          "audioSlug": "let_the_meat_rest_for_five_minutes_after_cooking_so_the_juices_redistribute"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_the_lake_is_very_big": {
+      "conceptId": "en.naturaleza_lugares_the_lake_is_very_big",
+      "id": "naturaleza_lugares_the_lake_is_very_big",
+      "target": [
+        {
+          "text": "The lake is very big.",
+          "audioSlug": "the_lake_is_very_big"
+        }
+      ]
+    },
+    "en.sitios_meet_at_town_square": {
+      "conceptId": "en.sitios_meet_at_town_square",
+      "id": "sitios_meet_at_town_square",
+      "target": [
+        {
+          "text": "Let's meet at the town square.",
+          "audioSlug": "let_s_meet_at_the_town_square"
+        }
+      ]
+    },
+    "en.supermarket_i_prefer_to_go_to_the": {
+      "conceptId": "en.supermarket_i_prefer_to_go_to_the",
+      "id": "supermarket_i_prefer_to_go_to_the",
+      "target": [
+        {
+          "text": "I prefer the market because there is more variety.",
+          "audioSlug": "i_prefer_the_market_because_there_is_more_variety"
+        }
+      ]
+    }
+  }
+}

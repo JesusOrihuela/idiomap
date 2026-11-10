@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "1c",
+  "concepts": {
+    "es.calendario_en_otono_caen_las_hojas": {
+      "conceptId": "es.calendario_en_otono_caen_las_hojas",
+      "id": "calendario_en_otono_caen_las_hojas",
+      "target": [
+        {
+          "text": "En otoño caen las hojas.",
+          "audioSlug": "en_otono_caen_las_hojas"
+        }
+      ]
+    },
+    "es.cuerpo_me_duele_la_nariz_por_el_resfriado": {
+      "conceptId": "es.cuerpo_me_duele_la_nariz_por_el_resfriado",
+      "id": "cuerpo_me_duele_la_nariz_por_el_resfriado",
+      "target": [
+        {
+          "text": "Me duele la nariz por el resfriado.",
+          "audioSlug": "me_duele_la_nariz_por_el_resfriado"
+        }
+      ]
+    },
+    "es.cuerpo_tengo_el_pelo_muy_largo": {
+      "conceptId": "es.cuerpo_tengo_el_pelo_muy_largo",
+      "id": "cuerpo_tengo_el_pelo_muy_largo",
+      "target": [
+        {
+          "text": "Tengo el pelo muy largo.",
+          "audioSlug": "tengo_el_pelo_muy_largo"
+        }
+      ]
+    },
+    "es.family_big_family": {
+      "conceptId": "es.family_big_family",
+      "id": "family_big_family",
+      "target": [
+        {
+          "text": "Somos una familia grande.",
+          "audioSlug": "somos_una_familia_grande"
+        }
+      ]
+    },
+    "es.health_tengo_alergia_al_polen_en_primavera": {
+      "conceptId": "es.health_tengo_alergia_al_polen_en_primavera",
+      "id": "health_tengo_alergia_al_polen_en_primavera",
+      "target": [
+        {
+          "text": "Tengo alergia al polen en primavera.",
+          "audioSlug": "tengo_alergia_al_polen_en_primavera"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_mar_esta_tranquilo": {
+      "conceptId": "es.naturaleza_lugares_el_mar_esta_tranquilo",
+      "id": "naturaleza_lugares_el_mar_esta_tranquilo",
+      "target": [
+        {
+          "text": "El mar está tranquilo hoy.",
+          "audioSlug": "el_mar_esta_tranquilo_hoy"
+        }
+      ]
+    },
+    "es.politica_es_un_tema_politico": {
+      "conceptId": "es.politica_es_un_tema_politico",
+      "id": "politica_es_un_tema_politico",
+      "target": [
+        {
+          "text": "Es un tema político.",
+          "audioSlug": "es_un_tema_politico"
+        }
+      ]
+    },
+    "es.restaurant_de_segundo_un_filete_a_la_plancha": {
+      "conceptId": "es.restaurant_de_segundo_un_filete_a_la_plancha",
+      "id": "restaurant_de_segundo_un_filete_a_la_plancha",
+      "target": [
+        {
+          "text": "De segundo, un filete a la plancha.",
+          "audioSlug": "de_segundo_un_filete_a_la_plancha"
+        }
+      ]
+    }
+  }
+}

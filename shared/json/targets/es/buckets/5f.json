@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "5f",
+  "concepts": {
+    "es.airport_exchange_currency": {
+      "conceptId": "es.airport_exchange_currency",
+      "id": "airport_exchange_currency",
+      "target": [
+        {
+          "text": "¿Dónde puedo cambiar divisas?",
+          "audioSlug": "donde_puedo_cambiar_divisas"
+        }
+      ]
+    },
+    "es.conversacion_no_te_quejes_tanto": {
+      "conceptId": "es.conversacion_no_te_quejes_tanto",
+      "id": "conversacion_no_te_quejes_tanto",
+      "target": [
+        {
+          "text": "No te quejes tanto.",
+          "audioSlug": "no_te_quejes_tanto"
+        }
+      ]
+    },
+    "es.daily_routine_tengo_que_recordar_comprar_pan": {
+      "conceptId": "es.daily_routine_tengo_que_recordar_comprar_pan",
+      "id": "daily_routine_tengo_que_recordar_comprar_pan",
+      "target": [
+        {
+          "text": "Tengo que recordar comprar pan.",
+          "audioSlug": "tengo_que_recordar_comprar_pan"
+        }
+      ]
+    },
+    "es.kitchen_be_careful_with_the_hot_pot": {
+      "conceptId": "es.kitchen_be_careful_with_the_hot_pot",
+      "id": "kitchen_be_careful_with_the_hot_pot",
+      "target": [
+        {
+          "text": "Ten cuidado con la olla caliente.",
+          "audioSlug": "ten_cuidado_con_la_olla_caliente"
+        }
+      ]
+    },
+    "es.kitchen_deglaze_pan_white_wine": {
+      "conceptId": "es.kitchen_deglaze_pan_white_wine",
+      "id": "kitchen_deglaze_pan_white_wine",
+      "target": [
+        {
+          "text": "Suelo desglasar la sartén con vino blanco para crear la base de la salsa.",
+          "audioSlug": "suelo_desglasar_la_sarten_con_vino_blanco_para_crear_la_base_de_la_salsa"
+        }
+      ]
+    },
+    "es.oficina_meeting_at_ten": {
+      "conceptId": "es.oficina_meeting_at_ten",
+      "id": "oficina_meeting_at_ten",
+      "target": [
+        {
+          "text": "La reunión es a las diez.",
+          "audioSlug": "la_reunion_es_a_las_diez"
+        }
+      ]
+    },
+    "es.planes_hay_que_aprovechar_el_tiempo": {
+      "conceptId": "es.planes_hay_que_aprovechar_el_tiempo",
+      "id": "planes_hay_que_aprovechar_el_tiempo",
+      "target": [
+        {
+          "text": "Hay que aprovechar el tiempo.",
+          "audioSlug": "hay_que_aprovechar_el_tiempo"
+        }
+      ]
+    },
+    "es.restaurant_is_there_a_limit_to_the": {
+      "conceptId": "es.restaurant_is_there_a_limit_to_the",
+      "id": "restaurant_is_there_a_limit_to_the",
+      "target": [
+        {
+          "text": "¿Hay un límite de personas para una reserva?",
+          "audioSlug": "hay_un_limite_de_personas_para_una_reserva"
+        }
+      ]
+    },
+    "es.restaurant_la_tarta_de_chocolate_es_casera": {
+      "conceptId": "es.restaurant_la_tarta_de_chocolate_es_casera",
+      "id": "restaurant_la_tarta_de_chocolate_es_casera",
+      "target": [
+        {
+          "text": "El pastel de chocolate es casero.",
+          "labels": {
+            "region": "México y Centroamérica"
+          },
+          "audioSlug": "el_pastel_de_chocolate_es_casero"
+        },
+        {
+          "text": "La torta de chocolate es casera.",
+          "labels": {
+            "region": "Sudamérica"
+          },
+          "audioSlug": "la_torta_de_chocolate_es_casera"
+        },
+        {
+          "text": "La tarta de chocolate es casera.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "la_tarta_de_chocolate_es_casera"
+        }
+      ]
+    },
+    "es.viajes_cuanto_pesa_tu_maleta": {
+      "conceptId": "es.viajes_cuanto_pesa_tu_maleta",
+      "id": "viajes_cuanto_pesa_tu_maleta",
+      "target": [
+        {
+          "text": "¿Cuánto pesa tu maleta?",
+          "audioSlug": "cuanto_pesa_tu_maleta",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cuánto pesa su maleta?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "cuanto_pesa_su_maleta"
+        }
+      ]
+    }
+  }
+}

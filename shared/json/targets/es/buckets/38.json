@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "38",
+  "concepts": {
+    "es.airport_cancelled_rebook_today": {
+      "conceptId": "es.airport_cancelled_rebook_today",
+      "id": "airport_cancelled_rebook_today",
+      "target": [
+        {
+          "text": "Mi vuelo fue cancelado y necesito un asiento en el próximo vuelo disponible.",
+          "audioSlug": "mi_vuelo_fue_cancelado_y_necesito_un_asiento_en_el_proximo_vuelo_disponible"
+        }
+      ]
+    },
+    "es.cuerpo_el_cuerpo_humano_es_complejo": {
+      "conceptId": "es.cuerpo_el_cuerpo_humano_es_complejo",
+      "id": "cuerpo_el_cuerpo_humano_es_complejo",
+      "target": [
+        {
+          "text": "El cuerpo humano es complejo.",
+          "audioSlug": "el_cuerpo_humano_es_complejo"
+        }
+      ]
+    },
+    "es.descripciones_the_soup_is_hot": {
+      "conceptId": "es.descripciones_the_soup_is_hot",
+      "id": "descripciones_the_soup_is_hot",
+      "target": [
+        {
+          "text": "La sopa está caliente.",
+          "audioSlug": "la_sopa_esta_caliente"
+        }
+      ]
+    },
+    "es.directions_da_un_paso_atras": {
+      "conceptId": "es.directions_da_un_paso_atras",
+      "id": "directions_da_un_paso_atras",
+      "target": [
+        {
+          "text": "Da un paso atrás.",
+          "audioSlug": "da_un_paso_atras"
+        }
+      ]
+    },
+    "es.emociones_im_glad_to_see_you": {
+      "conceptId": "es.emociones_im_glad_to_see_you",
+      "id": "emociones_im_glad_to_see_you",
+      "target": [
+        {
+          "text": "Me alegro de verte.",
+          "audioSlug": "me_alegro_de_verte"
+        }
+      ]
+    },
+    "es.greetings_saludame_a_tu_familia": {
+      "conceptId": "es.greetings_saludame_a_tu_familia",
+      "id": "greetings_saludame_a_tu_familia",
+      "target": [
+        {
+          "text": "Salúdame a tu familia.",
+          "audioSlug": "saludame_a_tu_familia"
+        }
+      ]
+    },
+    "es.hogar_el_lavabo_del_bano_esta_atascado": {
+      "conceptId": "es.hogar_el_lavabo_del_bano_esta_atascado",
+      "id": "hogar_el_lavabo_del_bano_esta_atascado",
+      "target": [
+        {
+          "text": "El lavabo del baño está atascado.",
+          "audioSlug": "el_lavabo_del_bano_esta_atascado"
+        }
+      ]
+    },
+    "es.kitchen_baking_soda_will_help_the_dough": {
+      "conceptId": "es.kitchen_baking_soda_will_help_the_dough",
+      "id": "kitchen_baking_soda_will_help_the_dough",
+      "target": [
+        {
+          "text": "El bicarbonato de sodio ayudará a que la masa suba.",
+          "audioSlug": "el_bicarbonato_de_sodio_ayudara_a_que_la_masa_suba"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_es_una_idea_fantastica": {
+      "conceptId": "es.pensamientos_opiniones_es_una_idea_fantastica",
+      "id": "pensamientos_opiniones_es_una_idea_fantastica",
+      "target": [
+        {
+          "text": "Es una idea fantástica.",
+          "audioSlug": "es_una_idea_fantastica"
+        }
+      ]
+    },
+    "es.restaurant_me_pongo_un_bocadillo_de_jamon": {
+      "conceptId": "es.restaurant_me_pongo_un_bocadillo_de_jamon",
+      "id": "restaurant_me_pongo_un_bocadillo_de_jamon",
+      "target": [
+        {
+          "text": "Me pongo un bocadillo de jamón.",
+          "audioSlug": "me_pongo_un_bocadillo_de_jamon"
+        }
+      ]
+    },
+    "es.tiempo_libre_suelo_poner_musica_por_la_tarde": {
+      "conceptId": "es.tiempo_libre_suelo_poner_musica_por_la_tarde",
+      "id": "tiempo_libre_suelo_poner_musica_por_la_tarde",
+      "target": [
+        {
+          "text": "Suelo poner música por la tarde.",
+          "audioSlug": "suelo_poner_musica_por_la_tarde"
+        }
+      ]
+    },
+    "es.vestimenta_los_ninos_estan_en_pijama": {
+      "conceptId": "es.vestimenta_los_ninos_estan_en_pijama",
+      "id": "vestimenta_los_ninos_estan_en_pijama",
+      "target": [
+        {
+          "text": "Los niños ya están en pijama.",
+          "audioSlug": "los_ninos_ya_estan_en_pijama"
+        }
+      ]
+    }
+  }
+}

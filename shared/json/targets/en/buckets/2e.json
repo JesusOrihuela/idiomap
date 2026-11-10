@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "2e",
+  "concepts": {
+    "en.accommodation_pool_hotel": {
+      "conceptId": "en.accommodation_pool_hotel",
+      "id": "accommodation_pool_hotel",
+      "target": [
+        {
+          "text": "Is there a pool in the hotel?",
+          "audioSlug": "is_there_a_pool_in_the_hotel"
+        }
+      ]
+    },
+    "en.kitchen_can_you_pass_me_the_spatula": {
+      "conceptId": "en.kitchen_can_you_pass_me_the_spatula",
+      "id": "kitchen_can_you_pass_me_the_spatula",
+      "target": [
+        {
+          "text": "Can you pass me the spatula?",
+          "audioSlug": "can_you_pass_me_the_spatula"
+        }
+      ]
+    },
+    "en.music_skip_song": {
+      "conceptId": "en.music_skip_song",
+      "id": "music_skip_song",
+      "target": [
+        {
+          "text": "Skip that song.",
+          "audioSlug": "skip_that_song"
+        }
+      ]
+    },
+    "en.oficina_please_fill_the_form": {
+      "conceptId": "en.oficina_please_fill_the_form",
+      "id": "oficina_please_fill_the_form",
+      "target": [
+        {
+          "text": "Please fill the form.",
+          "audioSlug": "please_fill_the_form"
+        }
+      ]
+    },
+    "en.profesiones_father_is_engineer": {
+      "conceptId": "en.profesiones_father_is_engineer",
+      "id": "profesiones_father_is_engineer",
+      "target": [
+        {
+          "text": "My father is an engineer.",
+          "audioSlug": "my_father_is_an_engineer"
+        }
+      ]
+    },
+    "en.profesiones_i_teach_english": {
+      "conceptId": "en.profesiones_i_teach_english",
+      "id": "profesiones_i_teach_english",
+      "target": [
+        {
+          "text": "I teach English.",
+          "audioSlug": "i_teach_english"
+        }
+      ]
+    },
+    "en.technology_i_use_a_separate_browser_profile": {
+      "conceptId": "en.technology_i_use_a_separate_browser_profile",
+      "id": "technology_i_use_a_separate_browser_profile",
+      "target": [
+        {
+          "text": "I keep a separate browser profile for work to avoid mixing personal data.",
+          "audioSlug": "i_keep_a_separate_browser_profile_for_work_to_avoid_mixing_personal_data"
+        }
+      ]
+    }
+  }
+}

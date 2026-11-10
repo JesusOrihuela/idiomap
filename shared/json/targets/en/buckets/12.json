@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "12",
+  "concepts": {
+    "en.accommodation_retrieve_valuables_safe": {
+      "conceptId": "en.accommodation_retrieve_valuables_safe",
+      "id": "accommodation_retrieve_valuables_safe",
+      "target": [
+        {
+          "text": "I submitted a valuables declaration at check-in. I'd like to retrieve them from the safe.",
+          "audioSlug": "i_submitted_a_valuables_declaration_at_check_in_i_d_like_to_retrieve_them_from_the_safe"
+        }
+      ]
+    },
+    "en.accountability_expense_receipts_submitted_reimbursement": {
+      "conceptId": "en.accountability_expense_receipts_submitted_reimbursement",
+      "id": "accountability_expense_receipts_submitted_reimbursement",
+      "target": [
+        {
+          "text": "Please ensure all expense receipts are submitted by Friday for reimbursement.",
+          "audioSlug": "please_ensure_all_expense_receipts_are_submitted_by_friday_for_reimbursement"
+        }
+      ]
+    },
+    "en.describiendo_personas_he_is_an_adult_now": {
+      "conceptId": "en.describiendo_personas_he_is_an_adult_now",
+      "id": "describiendo_personas_he_is_an_adult_now",
+      "target": [
+        {
+          "text": "He is an adult now.",
+          "audioSlug": "he_is_an_adult_now"
+        }
+      ]
+    },
+    "en.movies_book_adaptation_missing_scenes": {
+      "conceptId": "en.movies_book_adaptation_missing_scenes",
+      "id": "movies_book_adaptation_missing_scenes",
+      "target": [
+        {
+          "text": "I was disappointed that the book adaptation left out so many key scenes.",
+          "audioSlug": "i_was_disappointed_that_the_book_adaptation_left_out_so_many_key_scenes"
+        }
+      ]
+    },
+    "en.restaurant_price_discrepancy_charged": {
+      "conceptId": "en.restaurant_price_discrepancy_charged",
+      "id": "restaurant_price_discrepancy_charged",
+      "target": [
+        {
+          "text": "There is a discrepancy between the menu price and our bill.",
+          "audioSlug": "there_is_a_discrepancy_between_the_menu_price_and_our_bill"
+        }
+      ]
+    },
+    "en.supermarket_can_i_pay_in_cash": {
+      "conceptId": "en.supermarket_can_i_pay_in_cash",
+      "id": "supermarket_can_i_pay_in_cash",
+      "target": [
+        {
+          "text": "Can I pay in cash?",
+          "audioSlug": "can_i_pay_in_cash"
+        }
+      ]
+    }
+  }
+}

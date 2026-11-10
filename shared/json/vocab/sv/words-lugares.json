@@ -33,7 +33,13 @@
           "audioSlug": "huset"
         }
       ],
-      "conceptId": "sv.hus"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "stad",
@@ -68,7 +74,13 @@
           "audioSlug": "staden"
         }
       ],
-      "conceptId": "sv.stad"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "park",
@@ -103,7 +115,13 @@
           "audioSlug": "parken"
         }
       ],
-      "conceptId": "sv.park"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bibliotek",
@@ -138,7 +156,13 @@
           "audioSlug": "biblioteket"
         }
       ],
-      "conceptId": "sv.bibliotek"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

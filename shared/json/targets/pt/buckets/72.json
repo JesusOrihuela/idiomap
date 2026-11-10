@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "pt",
+  "bucket": "72",
+  "concepts": {
+    "pt.personal_info_my_name_is": {
+      "conceptId": "pt.personal_info_my_name_is",
+      "id": "personal_info_my_name_is",
+      "target": [
+        {
+          "text": "Meu nome é Ana.",
+          "audioSlug": "meu_nome_e_ana"
+        }
+      ]
+    }
+  }
+}

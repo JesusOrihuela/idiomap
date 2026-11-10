@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "sitios",
+  "phrases": [
+    {
+      "id": "sitios_nos_vemos_en_la_plaza",
+      "conceptId": "es.sitios_nos_vemos_en_la_plaza",
+      "sourceId": "en.s.3eac5e66e62c5651",
+      "source": "Let's meet in the square.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nos vemos en la plaza.",
+          "audioSlug": "nos_vemos_en_la_plaza"
+        }
+      ]
+    },
+    {
+      "id": "sitios_vivo_en_este_barrio",
+      "conceptId": "es.sitios_vivo_en_este_barrio",
+      "sourceId": "en.s.59cf34fed03cfa0d",
+      "source": "I live in this neighborhood.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vivo en este barrio.",
+          "audioSlug": "vivo_en_este_barrio"
+        }
+      ]
+    },
+    {
+      "id": "sitios_vivo_en_una_comunidad_pequena",
+      "conceptId": "es.sitios_vivo_en_una_comunidad_pequena",
+      "sourceId": "en.s.8d43ddbd0f5f3d01",
+      "source": "I live in a small community.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vivo en una comunidad pequeña.",
+          "audioSlug": "vivo_en_una_comunidad_pequena"
+        }
+      ]
+    },
+    {
+      "id": "sitios_es_un_lugar_muy_bonito",
+      "conceptId": "es.sitios_es_un_lugar_muy_bonito",
+      "sourceId": "en.s.82e4a5aff86d0b01",
+      "source": "It is a very pretty place.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un lugar muy bonito.",
+          "audioSlug": "es_un_lugar_muy_bonito"
+        }
+      ]
+    },
+    {
+      "id": "sitios_es_un_lugar_maravilloso",
+      "conceptId": "es.sitios_es_un_lugar_maravilloso",
+      "sourceId": "en.s.bd7ec2c5bc7a7240",
+      "source": "It is a wonderful place.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un lugar maravilloso.",
+          "audioSlug": "es_un_lugar_maravilloso"
+        }
+      ]
+    },
+    {
+      "id": "sitios_es_el_lugar_ideal",
+      "conceptId": "es.sitios_es_el_lugar_ideal",
+      "sourceId": "en.s.a31d083ca84512a6",
+      "source": "It is the ideal place.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es el lugar ideal.",
+          "audioSlug": "es_el_lugar_ideal"
+        }
+      ]
+    },
+    {
+      "id": "sitios_es_un_lugar_publico",
+      "conceptId": "es.sitios_es_un_lugar_publico",
+      "sourceId": "en.s.fe024d67595ec67b",
+      "source": "It is a public place.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un lugar público.",
+          "audioSlug": "es_un_lugar_publico"
+        }
+      ]
+    },
+    {
+      "id": "sitios_es_un_edificio_moderno",
+      "conceptId": "es.sitios_es_un_edificio_moderno",
+      "sourceId": "en.s.94ccb982e9a37857",
+      "source": "It is a modern building.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un edificio moderno.",
+          "audioSlug": "es_un_edificio_moderno"
+        }
+      ]
+    },
+    {
+      "id": "sitios_es_un_lugar_turistico",
+      "conceptId": "es.sitios_es_un_lugar_turistico",
+      "sourceId": "en.s.82c5457a87e90ae2",
+      "source": "It is a tourist spot.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un lugar turístico.",
+          "audioSlug": "es_un_lugar_turistico"
+        }
+      ]
+    },
+    {
+      "id": "sitios_amo_mi_pais",
+      "conceptId": "es.sitios_amo_mi_pais",
+      "sourceId": "en.s.b3bc4c5a8b5e9fa6",
+      "source": "I love my country.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Amo mi país.",
+          "audioSlug": "amo_mi_pais"
+        }
+      ]
+    },
+    {
+      "id": "sitios_vivo_en_el_campo",
+      "conceptId": "es.sitios_vivo_en_el_campo",
+      "sourceId": "en.s.1e9f0b20a5f8a36c",
+      "source": "I live in the countryside.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vivo en el campo.",
+          "audioSlug": "vivo_en_el_campo"
+        }
+      ]
+    },
+    {
+      "id": "sitios_el_bar_esta_cerrado",
+      "conceptId": "es.sitios_el_bar_esta_cerrado",
+      "sourceId": "en.s.743d04ef4b2b8179",
+      "source": "The bar is closed.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El bar está cerrado.",
+          "audioSlug": "el_bar_esta_cerrado"
+        }
+      ]
+    },
+    {
+      "id": "sitios_necesito_espacio",
+      "conceptId": "es.sitios_necesito_espacio",
+      "sourceId": "en.s.476444d39124998b",
+      "source": "I need space.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito espacio.",
+          "audioSlug": "necesito_espacio"
+        }
+      ]
+    },
+    {
+      "id": "sitios_este_es_mi_sitio",
+      "conceptId": "es.sitios_este_es_mi_sitio",
+      "sourceId": "en.s.7ca5ae59e5ad462e",
+      "source": "This is my spot.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este es mi sitio.",
+          "audioSlug": "este_es_mi_sitio"
+        }
+      ]
+    },
+    {
+      "id": "sitios_el_monumento_esta_en_la_plaza",
+      "conceptId": "es.sitios_el_monumento_esta_en_la_plaza",
+      "sourceId": "en.s.5f1c70c890a3a53f",
+      "source": "The monument is in the square.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El monumento está en la plaza.",
+          "audioSlug": "el_monumento_esta_en_la_plaza"
+        }
+      ]
+    },
+    {
+      "id": "sitios_visitamos_la_catedral",
+      "conceptId": "es.sitios_visitamos_la_catedral",
+      "sourceId": "en.s.1ed84f4038fe1282",
+      "source": "We visited the old cathedral.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Visitamos la catedral antigua.",
+          "audioSlug": "visitamos_la_catedral_antigua"
+        }
+      ]
+    },
+    {
+      "id": "sitios_el_palacio_tiene_un_jardin",
+      "conceptId": "es.sitios_el_palacio_tiene_un_jardin",
+      "sourceId": "en.s.3e47398d70d49416",
+      "source": "The palace has a large garden.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El palacio tiene un gran jardín.",
+          "audioSlug": "el_palacio_tiene_un_gran_jardin"
+        }
+      ]
+    },
+    {
+      "id": "sitios_el_castillo_esta_en_la_colina",
+      "conceptId": "es.sitios_el_castillo_esta_en_la_colina",
+      "sourceId": "en.s.242f487cb147b726",
+      "source": "The castle is on the hill.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El castillo está en la colina.",
+          "audioSlug": "el_castillo_esta_en_la_colina"
+        }
+      ]
+    },
+    {
+      "id": "sitios_mi_tio_trabaja_en_una_fabrica",
+      "conceptId": "es.sitios_mi_tio_trabaja_en_una_fabrica",
+      "sourceId": "en.s.ae7280a9fd1d21ed",
+      "source": "My uncle works in a factory.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi tío trabaja en una fábrica.",
+          "audioSlug": "mi_tio_trabaja_en_una_fabrica"
+        }
+      ]
+    },
+    {
+      "id": "sitios_salimos_a_la_discoteca",
+      "conceptId": "es.sitios_salimos_a_la_discoteca",
+      "sourceId": "en.s.385706d00f7c75a7",
+      "source": "We went out to the nightclub on Saturday.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Salimos a la discoteca el sábado.",
+          "audioSlug": "salimos_a_la_discoteca_el_sabado"
+        }
+      ]
+    },
+    {
+      "id": "sitios_tomamos_cafe_en_la_cafeteria",
+      "conceptId": "es.sitios_tomamos_cafe_en_la_cafeteria",
+      "sourceId": "en.s.4f73d5a535dd50a8",
+      "source": "We had coffee at the cafe.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tomamos café en la cafetería.",
+          "audioSlug": "tomamos_cafe_en_la_cafeteria"
+        }
+      ]
+    },
+    {
+      "id": "sitios_fue_a_la_comisaria",
+      "conceptId": "es.sitios_fue_a_la_comisaria",
+      "sourceId": "en.s.660af306e0efa0ed",
+      "source": "He went to the police station to report the theft.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Fue a la comisaría a denunciar el robo.",
+          "audioSlug": "fue_a_la_comisaria_a_denunciar_el_robo"
+        }
+      ]
+    },
+    {
+      "id": "sitios_compre_el_libro_en_la_libreria",
+      "conceptId": "es.sitios_compre_el_libro_en_la_libreria",
+      "sourceId": "en.s.4a75e9631b651cea",
+      "source": "I bought the book at the bookshop.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Compré el libro en la librería.",
+          "audioSlug": "compre_el_libro_en_la_libreria"
+        }
+      ]
+    },
+    {
+      "id": "sitios_el_ayuntamiento_esta_en_el_centro",
+      "conceptId": "es.sitios_el_ayuntamiento_esta_en_el_centro",
+      "sourceId": "en.s.7a2ffcde5c7eb03e",
+      "source": "The town hall is in the centre.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El ayuntamiento está en el centro.",
+          "audioSlug": "el_ayuntamiento_esta_en_el_centro"
+        }
+      ]
+    },
+    {
+      "id": "sitios_la_sinagoga_es_el_templo_judio",
+      "conceptId": "es.sitios_la_sinagoga_es_el_templo_judio",
+      "sourceId": "en.s.8c555e77296b4ec9",
+      "source": "The synagogue is the Jewish temple.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La sinagoga es el templo judío.",
+          "audioSlug": "la_sinagoga_es_el_templo_judio"
+        }
+      ]
+    },
+    {
+      "id": "sitios_la_estatua_es_de_bronce",
+      "conceptId": "es.sitios_la_estatua_es_de_bronce",
+      "sourceId": "en.s.70ab75a4c3e6271e",
+      "source": "The statue is made of bronze.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La estatua es de bronce.",
+          "audioSlug": "la_estatua_es_de_bronce"
+        }
+      ]
+    },
+    {
+      "id": "sitios_compre_una_alfombra_marroqui",
+      "conceptId": "es.sitios_compre_una_alfombra_marroqui",
+      "sourceId": "en.s.b220f0f0d870649f",
+      "source": "I bought a Moroccan rug.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Compré una alfombra marroquí.",
+          "audioSlug": "compre_una_alfombra_marroqui"
+        }
+      ]
+    },
+    {
+      "id": "sitios_viven_en_las_afueras_de_la_ciudad",
+      "conceptId": "es.sitios_viven_en_las_afueras_de_la_ciudad",
+      "sourceId": "en.s.259039d6ad245610",
+      "source": "They live on the outskirts of the city.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Viven en las afueras de la ciudad.",
+          "audioSlug": "viven_en_las_afueras_de_la_ciudad"
+        }
+      ]
+    }
+  ]
+}

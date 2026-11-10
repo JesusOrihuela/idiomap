@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "e5",
+  "concepts": {
+    "en.accommodation_vat_invoice_accounting": {
+      "conceptId": "en.accommodation_vat_invoice_accounting",
+      "id": "accommodation_vat_invoice_accounting",
+      "target": [
+        {
+          "text": "Could you issue the invoice with our business name and VAT number for accounting?",
+          "audioSlug": "could_you_issue_the_invoice_with_our_business_name_and_vat_number_for_accounting"
+        }
+      ]
+    },
+    "en.conversacion_i_believe_you": {
+      "conceptId": "en.conversacion_i_believe_you",
+      "id": "conversacion_i_believe_you",
+      "target": [
+        {
+          "text": "I believe you.",
+          "audioSlug": "i_believe_you"
+        }
+      ]
+    },
+    "en.daily_routine_go_to_work_by_bus": {
+      "conceptId": "en.daily_routine_go_to_work_by_bus",
+      "id": "daily_routine_go_to_work_by_bus",
+      "target": [
+        {
+          "text": "I go to work by bus.",
+          "audioSlug": "i_go_to_work_by_bus"
+        }
+      ]
+    },
+    "en.family_how_is_your_family": {
+      "conceptId": "en.family_how_is_your_family",
+      "id": "family_how_is_your_family",
+      "target": [
+        {
+          "text": "How is your family?",
+          "audioSlug": "how_is_your_family"
+        }
+      ]
+    },
+    "en.gym_could_you_explain_the_benefits_of": {
+      "conceptId": "en.gym_could_you_explain_the_benefits_of",
+      "id": "gym_could_you_explain_the_benefits_of",
+      "target": [
+        {
+          "text": "Could you explain the benefits of using weights?",
+          "audioSlug": "could_you_explain_the_benefits_of_using_weights",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you explain the benefits of using weights?",
+          "audioSlug": "can_you_explain_the_benefits_of_using_weights",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.gym_overtraining_recovery_as_important": {
+      "conceptId": "en.gym_overtraining_recovery_as_important",
+      "id": "gym_overtraining_recovery_as_important",
+      "target": [
+        {
+          "text": "Recovery is just as important as the training itself.",
+          "audioSlug": "recovery_is_just_as_important_as_the_training_itself"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_i_can_see_a_star": {
+      "conceptId": "en.naturaleza_lugares_i_can_see_a_star",
+      "id": "naturaleza_lugares_i_can_see_a_star",
+      "target": [
+        {
+          "text": "I can see a star.",
+          "audioSlug": "i_can_see_a_star"
+        }
+      ]
+    },
+    "en.technology_the_algorithm_keeps_recommending_content": {
+      "conceptId": "en.technology_the_algorithm_keeps_recommending_content",
+      "id": "technology_the_algorithm_keeps_recommending_content",
+      "target": [
+        {
+          "text": "The algorithm only recommends content based on my past behavior.",
+          "audioSlug": "the_algorithm_only_recommends_content_based_on_my_past_behavior"
+        }
+      ]
+    },
+    "en.theater_rehearsal_documentary_changed_experience": {
+      "conceptId": "en.theater_rehearsal_documentary_changed_experience",
+      "id": "theater_rehearsal_documentary_changed_experience",
+      "target": [
+        {
+          "text": "A documentary about the rehearsal process completely changed how I experienced the show.",
+          "audioSlug": "a_documentary_about_the_rehearsal_process_completely_changed_how_i_experienced_the_show"
+        }
+      ]
+    },
+    "en.transportation_monthly_multimodal_pass": {
+      "conceptId": "en.transportation_monthly_multimodal_pass",
+      "id": "transportation_monthly_multimodal_pass",
+      "target": [
+        {
+          "text": "I'd like a monthly pass that covers all modes of public transport in the city.",
+          "audioSlug": "i_d_like_a_monthly_pass_that_covers_all_modes_of_public_transport_in_the_city"
+        }
+      ]
+    },
+    "en.weather_bad_weather": {
+      "conceptId": "en.weather_bad_weather",
+      "id": "weather_bad_weather",
+      "target": [
+        {
+          "text": "The weather is bad.",
+          "audioSlug": "the_weather_is_bad"
+        }
+      ]
+    }
+  }
+}

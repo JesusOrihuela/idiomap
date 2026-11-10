@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "c1",
+  "concepts": {
+    "es.conversacion_me_puedes_dar_tu_opinion": {
+      "conceptId": "es.conversacion_me_puedes_dar_tu_opinion",
+      "id": "conversacion_me_puedes_dar_tu_opinion",
+      "target": [
+        {
+          "text": "¿Me puedes dar tu opinión?",
+          "audioSlug": "me_puedes_dar_tu_opinion"
+        }
+      ]
+    },
+    "es.greetings_it_was_lovely_to_meet_you": {
+      "conceptId": "es.greetings_it_was_lovely_to_meet_you",
+      "id": "greetings_it_was_lovely_to_meet_you",
+      "target": [
+        {
+          "text": "Fue un placer conocerte.",
+          "audioSlug": "fue_un_placer_conocerte"
+        }
+      ]
+    },
+    "es.gym_shoulder_discomfort_overhead_press": {
+      "conceptId": "es.gym_shoulder_discomfort_overhead_press",
+      "id": "gym_shoulder_discomfort_overhead_press",
+      "target": [
+        {
+          "text": "Siento molestia en el hombro izquierdo cada vez que hago press sobre la cabeza.",
+          "audioSlug": "siento_molestia_en_el_hombro_izquierdo_cada_vez_que_hago_press_sobre_la_cabeza"
+        }
+      ]
+    },
+    "es.movies_seen_latest_episode": {
+      "conceptId": "es.movies_seen_latest_episode",
+      "id": "movies_seen_latest_episode",
+      "target": [
+        {
+          "text": "¿Ya viste el último episodio de la serie?",
+          "audioSlug": "ya_viste_el_ultimo_episodio_de_la_serie"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_fuego_destruyo_parte_del_bosque": {
+      "conceptId": "es.naturaleza_lugares_el_fuego_destruyo_parte_del_bosque",
+      "id": "naturaleza_lugares_el_fuego_destruyo_parte_del_bosque",
+      "target": [
+        {
+          "text": "El fuego destruyó parte del bosque.",
+          "audioSlug": "el_fuego_destruyo_parte_del_bosque"
+        }
+      ]
+    },
+    "es.technology_i_need_to_download_this_program": {
+      "conceptId": "es.technology_i_need_to_download_this_program",
+      "id": "technology_i_need_to_download_this_program",
+      "target": [
+        {
+          "text": "Necesito descargar este programa para mi trabajo.",
+          "audioSlug": "necesito_descargar_este_programa_para_mi_trabajo"
+        }
+      ]
+    },
+    "es.transportation_taxi_longer_route_fare": {
+      "conceptId": "es.transportation_taxi_longer_route_fare",
+      "id": "transportation_taxi_longer_route_fare",
+      "target": [
+        {
+          "text": "El conductor tomó una ruta notablemente más larga y creo que la tarifa debería ajustarse.",
+          "audioSlug": "el_conductor_tomo_una_ruta_notablemente_mas_larga_y_creo_que_la_tarifa_deberia_ajustarse",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "La conductora tomó una ruta notablemente más larga y creo que la tarifa debería ajustarse.",
+          "audioSlug": "la_conductora_tomo_una_ruta_notablemente_mas_larga_y_creo_que_la_tarifa_deberia_ajustarse",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    }
+  }
+}

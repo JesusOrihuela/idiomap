@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "ff",
+  "concepts": {
+    "es.cuerpo_los_dientes_son_blancos": {
+      "conceptId": "es.cuerpo_los_dientes_son_blancos",
+      "id": "cuerpo_los_dientes_son_blancos",
+      "target": [
+        {
+          "text": "Los dientes son blancos.",
+          "audioSlug": "los_dientes_son_blancos"
+        }
+      ]
+    },
+    "es.daily_routine_i_prepare_breakfast": {
+      "conceptId": "es.daily_routine_i_prepare_breakfast",
+      "id": "daily_routine_i_prepare_breakfast",
+      "target": [
+        {
+          "text": "Preparo el desayuno para mis hijos.",
+          "audioSlug": "preparo_el_desayuno_para_mis_hijos"
+        }
+      ]
+    },
+    "es.emociones_despues_de_llorar_me_senti_mejor": {
+      "conceptId": "es.emociones_despues_de_llorar_me_senti_mejor",
+      "id": "emociones_despues_de_llorar_me_senti_mejor",
+      "target": [
+        {
+          "text": "Después de llorar, me sentí mejor.",
+          "audioSlug": "despues_de_llorar_me_senti_mejor"
+        }
+      ]
+    },
+    "es.estudios_busco_la_palabra_en_el_diccionario": {
+      "conceptId": "es.estudios_busco_la_palabra_en_el_diccionario",
+      "id": "estudios_busco_la_palabra_en_el_diccionario",
+      "target": [
+        {
+          "text": "Busco la palabra en el diccionario.",
+          "audioSlug": "busco_la_palabra_en_el_diccionario"
+        }
+      ]
+    },
+    "es.profesiones_el_comprador_negocio_el_precio": {
+      "conceptId": "es.profesiones_el_comprador_negocio_el_precio",
+      "id": "profesiones_el_comprador_negocio_el_precio",
+      "target": [
+        {
+          "text": "El comprador negoció el precio.",
+          "audioSlug": "el_comprador_negocio_el_precio"
+        }
+      ]
+    },
+    "es.restaurant_sommelier_provenance_barolo": {
+      "conceptId": "es.restaurant_sommelier_provenance_barolo",
+      "id": "restaurant_sommelier_provenance_barolo",
+      "target": [
+        {
+          "text": "¿Podría hablar con el sommelier para conocer la procedencia y la añada del Barolo?",
+          "audioSlug": "podria_hablar_con_el_sommelier_para_conocer_la_procedencia_y_la_anada_del_barolo",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Podría hablar con la sommelier para conocer la procedencia y la añada del Barolo?",
+          "audioSlug": "podria_hablar_con_la_sommelier_para_conocer_la_procedencia_y_la_anada_del_barolo",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.sitios_los_ninos_disfrutan_en_el_zoo": {
+      "conceptId": "es.sitios_los_ninos_disfrutan_en_el_zoo",
+      "id": "sitios_los_ninos_disfrutan_en_el_zoo",
+      "target": [
+        {
+          "text": "Los niños disfrutan en el zoo.",
+          "audioSlug": "los_ninos_disfrutan_en_el_zoo"
+        }
+      ]
+    },
+    "es.supermarket_where_is_the_glutenfree_products_section": {
+      "conceptId": "es.supermarket_where_is_the_glutenfree_products_section",
+      "id": "supermarket_where_is_the_glutenfree_products_section",
+      "target": [
+        {
+          "text": "¿Dónde está la sección de productos sin gluten?",
+          "audioSlug": "donde_esta_la_seccion_de_productos_sin_gluten"
+        }
+      ]
+    },
+    "es.tiempo_libre_suelo_leer_antes_de_dormir": {
+      "conceptId": "es.tiempo_libre_suelo_leer_antes_de_dormir",
+      "id": "tiempo_libre_suelo_leer_antes_de_dormir",
+      "target": [
+        {
+          "text": "Suelo leer antes de dormir.",
+          "audioSlug": "suelo_leer_antes_de_dormir"
+        }
+      ]
+    },
+    "es.transportation_cancelled_train_refund": {
+      "conceptId": "es.transportation_cancelled_train_refund",
+      "id": "transportation_cancelled_train_refund",
+      "target": [
+        {
+          "text": "El tren fue cancelado sin aviso previo, ¿tengo derecho a un reembolso completo?",
+          "audioSlug": "el_tren_fue_cancelado_sin_aviso_previo_tengo_derecho_a_un_reembolso_completo"
+        }
+      ]
+    }
+  }
+}

@@ -1,59 +1,683 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "family",
-  "conceptIds": [
-    "es.family_this_is_my_family",
-    "es.family_two_brothers_one_sister",
-    "es.family_my_father_is_a_doctor",
-    "es.family_my_mother_works",
-    "es.family_how_many_people",
-    "es.family_my_older_brother",
-    "es.family_grandparents_countryside",
-    "es.family_my_son_is_five",
-    "es.family_this_man_is_my_uncle",
-    "es.family_that_woman_is_my_aunt",
-    "es.family_my_husband_is_called",
-    "es.family_sister_younger",
-    "es.family_big_family",
-    "es.family_parents_divorced",
-    "es.family_looks_like_father",
-    "es.family_live_with_partner",
-    "es.family_grandmother_eighty",
-    "es.family_get_along",
-    "es.family_cousin_visit",
-    "es.family_my_daughter_student",
-    "es.family_are_you_married_single",
-    "es.family_do_you_have_siblings",
-    "es.family_how_is_your_family",
-    "es.family_how_many_children_do_you_have",
-    "es.family_my_whole_family_is_fine",
-    "es.family_i_love_my_family_very_much",
-    "es.family_my_aunt_lives_in_the_city",
-    "es.family_my_daughter_is_not_a_child_anymore",
-    "es.family_what_does_your_brother_do",
-    "es.family_can_i_bring_my_family",
-    "es.family_my_kids_go_to_the_same_school",
-    "es.family_es_mi_mejor_amigo",
-    "es.family_es_su_novio",
-    "es.family_mi_mama_cocina_muy_bien",
-    "es.family_mi_papa_trabaja_mucho",
-    "es.family_hacen_una_linda_pareja",
-    "es.family_es_mi_vecino",
-    "es.family_el_bebe_esta_dormido",
-    "es.family_mi_bebe_va_a_nacer_pronto",
-    "es.family_mi_abuela_murio_el_ano_pasado",
-    "es.family_tienes_hijos",
-    "es.family_cuando_es_la_boda",
-    "es.family_tenemos_una_relacion",
-    "es.family_tenemos_visita",
-    "es.family_veo_un_nino",
-    "es.family_mis_padres_se_separaron",
-    "es.family_le_voy_a_regalar_un_libro",
-    "es.family_mi_sobrino_tiene_cinco_anos",
-    "es.family_mi_nieto_empezo_el_colegio",
-    "es.family_el_nacimiento_de_su_hija",
-    "es.family_mis_primos_son_gemelos",
-    "es.family_su_hijo_ya_es_adolescente"
+  "phrases": [
+    {
+      "conceptId": "es.family_this_is_my_family",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7dd86b035c39f9d8"
+    },
+    {
+      "conceptId": "es.family_two_brothers_one_sister",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.718169d281f8840b"
+    },
+    {
+      "conceptId": "es.family_my_father_is_a_doctor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.02414a3149fba794"
+    },
+    {
+      "conceptId": "es.family_my_mother_works",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cf5254221fe7463c"
+    },
+    {
+      "conceptId": "es.family_how_many_people",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ae86f5b656d97de4"
+    },
+    {
+      "conceptId": "es.family_my_older_brother",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b634341b960fa943"
+    },
+    {
+      "conceptId": "es.family_grandparents_countryside",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.24a1c10d3555cdd9"
+    },
+    {
+      "conceptId": "es.family_my_son_is_five",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.07bf8fb1fb97694d"
+    },
+    {
+      "conceptId": "es.family_this_man_is_my_uncle",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.386f8129b08a72e7"
+    },
+    {
+      "conceptId": "es.family_that_woman_is_my_aunt",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.436e1fe6d5b80225"
+    },
+    {
+      "conceptId": "es.family_my_husband_is_called",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.91ab4cd76ba391cc"
+    },
+    {
+      "conceptId": "es.family_sister_younger",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f63c948393b1aad6"
+    },
+    {
+      "conceptId": "es.family_big_family",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.72064884586534c2"
+    },
+    {
+      "conceptId": "es.family_parents_divorced",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.de17d6cdbe2d414b"
+    },
+    {
+      "conceptId": "es.family_looks_like_father",
+      "level": "A2",
+      "grammar": "'Parecerse a' expresa semejanza; es un verbo reflexivo.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.26d9d45fc5eef481"
+    },
+    {
+      "conceptId": "es.family_live_with_partner",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.da21185697ca7322"
+    },
+    {
+      "conceptId": "es.family_grandmother_eighty",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7b89587332e46ce7"
+    },
+    {
+      "conceptId": "es.family_get_along",
+      "level": "A2",
+      "grammar": "'Llevarse bien con' significa tener buena relación con alguien.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0d526ca53f8fa2cc"
+    },
+    {
+      "conceptId": "es.family_cousin_visit",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0cdf380c2c982a5d"
+    },
+    {
+      "conceptId": "es.family_my_daughter_student",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c9684e9c33741ace"
+    },
+    {
+      "conceptId": "es.family_are_you_married_single",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fa661ce992ee9140"
+    },
+    {
+      "conceptId": "es.family_do_you_have_siblings",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1bb69825a79ee4d0"
+    },
+    {
+      "conceptId": "es.family_how_is_your_family",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e74b1b303c6f4679"
+    },
+    {
+      "conceptId": "es.family_how_many_children_do_you_have",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.de9888044b9d2942"
+    },
+    {
+      "conceptId": "es.family_my_whole_family_is_fine",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.96a1819eea01df5d"
+    },
+    {
+      "conceptId": "es.family_i_love_my_family_very_much",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b4fb93422f33dd6b"
+    },
+    {
+      "conceptId": "es.family_my_aunt_lives_in_the_city",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.04c1b1ffccdddd50"
+    },
+    {
+      "conceptId": "es.family_my_daughter_is_not_a_child_anymore",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6cbc4fb84b46c842"
+    },
+    {
+      "conceptId": "es.family_what_does_your_brother_do",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a6c6f1aff886841b"
+    },
+    {
+      "conceptId": "es.family_can_i_bring_my_family",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.564ac20d6ccde56d"
+    },
+    {
+      "conceptId": "es.family_my_kids_go_to_the_same_school",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1d8a778f3e33754e"
+    },
+    {
+      "conceptId": "es.family_es_mi_mejor_amigo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.dfa3566e06796217"
+    },
+    {
+      "conceptId": "es.family_es_su_novio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0243b8d345a215d8"
+    },
+    {
+      "conceptId": "es.family_mi_mama_cocina_muy_bien",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d6b018fbfb08d178"
+    },
+    {
+      "conceptId": "es.family_mi_papa_trabaja_mucho",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.44d8e0826d6a3764"
+    },
+    {
+      "conceptId": "es.family_hacen_una_linda_pareja",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.686f976209f56e0d"
+    },
+    {
+      "conceptId": "es.family_es_mi_vecino",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e82dd2f925131df2"
+    },
+    {
+      "conceptId": "es.family_el_bebe_esta_dormido",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5ae8cdf19c86e924"
+    },
+    {
+      "conceptId": "es.family_mi_bebe_va_a_nacer_pronto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b8d08e0f0c065a22"
+    },
+    {
+      "conceptId": "es.family_mi_abuela_murio_el_ano_pasado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.46da00c02376a2a7"
+    },
+    {
+      "conceptId": "es.family_tienes_hijos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7ed8901591cda677"
+    },
+    {
+      "conceptId": "es.family_cuando_es_la_boda",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5f9fcc2878a71520"
+    },
+    {
+      "conceptId": "es.family_tenemos_una_relacion",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.42a53684d2de1da8"
+    },
+    {
+      "conceptId": "es.family_tenemos_visita",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9c102ada5342e534"
+    },
+    {
+      "conceptId": "es.family_veo_un_nino",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.169db9b04f7bc19a"
+    },
+    {
+      "conceptId": "es.family_mis_padres_se_separaron",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.22c17439f0bc94fe"
+    },
+    {
+      "conceptId": "es.family_le_voy_a_regalar_un_libro",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8935b2854685c199"
+    },
+    {
+      "conceptId": "es.family_mi_sobrino_tiene_cinco_anos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.631b0783e89741cd"
+    },
+    {
+      "conceptId": "es.family_mi_nieto_empezo_el_colegio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e3fd9c3ba735bd88"
+    },
+    {
+      "conceptId": "es.family_el_nacimiento_de_su_hija",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.23c63aefff0c77a3"
+    },
+    {
+      "conceptId": "es.family_mis_primos_son_gemelos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8b3f9da983ab950a"
+    },
+    {
+      "conceptId": "es.family_su_hijo_ya_es_adolescente",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2d4c468c8756b86e"
+    }
   ]
 }

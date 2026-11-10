@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "68",
+  "concepts": {
+    "es.accommodation_pool_hotel": {
+      "conceptId": "es.accommodation_pool_hotel",
+      "id": "accommodation_pool_hotel",
+      "target": [
+        {
+          "text": "¿Hay piscina en el hotel?",
+          "labels": {
+            "region": "General"
+          },
+          "audioSlug": "hay_piscina_en_el_hotel"
+        },
+        {
+          "text": "¿Hay alberca en el hotel?",
+          "labels": {
+            "region": "México y Centroamérica"
+          },
+          "audioSlug": "hay_alberca_en_el_hotel"
+        },
+        {
+          "text": "¿Hay pileta en el hotel?",
+          "labels": {
+            "region": "Río de la Plata"
+          },
+          "audioSlug": "hay_pileta_en_el_hotel"
+        }
+      ]
+    },
+    "es.conversacion_alguno_de_ustedes_debe_saberlo": {
+      "conceptId": "es.conversacion_alguno_de_ustedes_debe_saberlo",
+      "id": "conversacion_alguno_de_ustedes_debe_saberlo",
+      "target": [
+        {
+          "text": "Alguno de ustedes debe saberlo.",
+          "audioSlug": "alguno_de_ustedes_debe_saberlo"
+        }
+      ]
+    },
+    "es.describiendo_personas_ese_senor_es_muy_amable": {
+      "conceptId": "es.describiendo_personas_ese_senor_es_muy_amable",
+      "id": "describiendo_personas_ese_senor_es_muy_amable",
+      "target": [
+        {
+          "text": "Ese señor es muy amable.",
+          "audioSlug": "ese_senor_es_muy_amable"
+        }
+      ]
+    },
+    "es.directions_hay_arboles_alrededor_de_la_casa": {
+      "conceptId": "es.directions_hay_arboles_alrededor_de_la_casa",
+      "id": "directions_hay_arboles_alrededor_de_la_casa",
+      "target": [
+        {
+          "text": "Hay árboles alrededor de la casa.",
+          "audioSlug": "hay_arboles_alrededor_de_la_casa"
+        }
+      ]
+    },
+    "es.family_my_mother_works": {
+      "conceptId": "es.family_my_mother_works",
+      "id": "family_my_mother_works",
+      "target": [
+        {
+          "text": "Mi madre trabaja en una escuela.",
+          "audioSlug": "mi_madre_trabaja_en_una_escuela"
+        }
+      ]
+    },
+    "es.greetings_buenas_tardes": {
+      "conceptId": "es.greetings_buenas_tardes",
+      "id": "greetings_buenas_tardes",
+      "target": [
+        {
+          "text": "¡Buenas tardes!",
+          "audioSlug": "buenas_tardes"
+        }
+      ]
+    },
+    "es.health_el_medico_curo_al_paciente": {
+      "conceptId": "es.health_el_medico_curo_al_paciente",
+      "id": "health_el_medico_curo_al_paciente",
+      "target": [
+        {
+          "text": "El médico curó al paciente.",
+          "audioSlug": "el_medico_curo_al_paciente"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_arbol_se_cayo": {
+      "conceptId": "es.naturaleza_lugares_el_arbol_se_cayo",
+      "id": "naturaleza_lugares_el_arbol_se_cayo",
+      "target": [
+        {
+          "text": "El árbol se cayó.",
+          "audioSlug": "el_arbol_se_cayo"
+        }
+      ]
+    },
+    "es.technology_guarda_mi_numero_de_contacto": {
+      "conceptId": "es.technology_guarda_mi_numero_de_contacto",
+      "id": "technology_guarda_mi_numero_de_contacto",
+      "target": [
+        {
+          "text": "Guarda mi número de contacto.",
+          "audioSlug": "guarda_mi_numero_de_contacto"
+        }
+      ]
+    },
+    "es.tiempo_libre_toco_la_guitarra": {
+      "conceptId": "es.tiempo_libre_toco_la_guitarra",
+      "id": "tiempo_libre_toco_la_guitarra",
+      "target": [
+        {
+          "text": "Toco la guitarra en mi tiempo libre.",
+          "audioSlug": "toco_la_guitarra_en_mi_tiempo_libre"
+        }
+      ]
+    },
+    "es.vestimenta_necesito_comprar_ropa_nueva": {
+      "conceptId": "es.vestimenta_necesito_comprar_ropa_nueva",
+      "id": "vestimenta_necesito_comprar_ropa_nueva",
+      "target": [
+        {
+          "text": "Necesito comprar ropa nueva.",
+          "audioSlug": "necesito_comprar_ropa_nueva"
+        }
+      ]
+    }
+  }
+}

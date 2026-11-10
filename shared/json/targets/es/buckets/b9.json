@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "b9",
+  "concepts": {
+    "es.descripciones_es_una_costumbre_muy_extrana": {
+      "conceptId": "es.descripciones_es_una_costumbre_muy_extrana",
+      "id": "descripciones_es_una_costumbre_muy_extrana",
+      "target": [
+        {
+          "text": "Es una costumbre muy extraña.",
+          "audioSlug": "es_una_costumbre_muy_extrana"
+        }
+      ]
+    },
+    "es.emociones_no_quiero_sufrir": {
+      "conceptId": "es.emociones_no_quiero_sufrir",
+      "id": "emociones_no_quiero_sufrir",
+      "target": [
+        {
+          "text": "No quiero sufrir.",
+          "audioSlug": "no_quiero_sufrir"
+        }
+      ]
+    },
+    "es.estudios_escribo_con_un_boligrafo": {
+      "conceptId": "es.estudios_escribo_con_un_boligrafo",
+      "id": "estudios_escribo_con_un_boligrafo",
+      "target": [
+        {
+          "text": "Escribo con un bolígrafo azul.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "escribo_con_un_boligrafo_azul"
+        },
+        {
+          "text": "Escribo con una pluma azul.",
+          "labels": {
+            "region": "México y Centroamérica"
+          },
+          "audioSlug": "escribo_con_una_pluma_azul"
+        },
+        {
+          "text": "Escribo con un lapicero azul.",
+          "labels": {
+            "region": "Región andina"
+          },
+          "audioSlug": "escribo_con_un_lapicero_azul"
+        },
+        {
+          "text": "Escribo con una birome azul.",
+          "labels": {
+            "region": "Río de la Plata"
+          },
+          "audioSlug": "escribo_con_una_birome_azul"
+        }
+      ]
+    },
+    "es.fiesta_nadie_llego_tarde": {
+      "conceptId": "es.fiesta_nadie_llego_tarde",
+      "id": "fiesta_nadie_llego_tarde",
+      "target": [
+        {
+          "text": "Nadie llegó tarde a la fiesta.",
+          "audioSlug": "nadie_llego_tarde_a_la_fiesta"
+        }
+      ]
+    },
+    "es.gym_im_going_to_do_cardio_and": {
+      "conceptId": "es.gym_im_going_to_do_cardio_and",
+      "id": "gym_im_going_to_do_cardio_and",
+      "target": [
+        {
+          "text": "Voy a hacer cardio y pesas.",
+          "audioSlug": "voy_a_hacer_cardio_y_pesas"
+        }
+      ]
+    },
+    "es.hogar_busco_una_vivienda_mas_grande": {
+      "conceptId": "es.hogar_busco_una_vivienda_mas_grande",
+      "id": "hogar_busco_una_vivienda_mas_grande",
+      "target": [
+        {
+          "text": "Busco una vivienda más grande.",
+          "audioSlug": "busco_una_vivienda_mas_grande"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_cuida_el_entorno": {
+      "conceptId": "es.naturaleza_lugares_cuida_el_entorno",
+      "id": "naturaleza_lugares_cuida_el_entorno",
+      "target": [
+        {
+          "text": "Cuida el entorno.",
+          "audioSlug": "cuida_el_entorno"
+        }
+      ]
+    },
+    "es.restaurant_no_reservation_wait_time": {
+      "conceptId": "es.restaurant_no_reservation_wait_time",
+      "id": "restaurant_no_reservation_wait_time",
+      "target": [
+        {
+          "text": "No tenemos reserva, ¿cuánto tiempo hay que esperar para una mesa de cuatro?",
+          "audioSlug": "no_tenemos_reserva_cuanto_tiempo_hay_que_esperar_para_una_mesa_de_cuatro"
+        }
+      ]
+    },
+    "es.vestimenta_me_gusta_esa_camisa_azul": {
+      "conceptId": "es.vestimenta_me_gusta_esa_camisa_azul",
+      "id": "vestimenta_me_gusta_esa_camisa_azul",
+      "target": [
+        {
+          "text": "Me gusta esa camisa azul.",
+          "audioSlug": "me_gusta_esa_camisa_azul"
+        }
+      ]
+    }
+  }
+}

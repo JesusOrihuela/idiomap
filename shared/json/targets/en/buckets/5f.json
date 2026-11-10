@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "5f",
+  "concepts": {
+    "en.accommodation_security_deposit_return": {
+      "conceptId": "en.accommodation_security_deposit_return",
+      "id": "accommodation_security_deposit_return",
+      "target": [
+        {
+          "text": "When will the security deposit be returned, and what deductions are permissible under the contract?",
+          "audioSlug": "when_will_the_security_deposit_be_returned_and_what_deductions_are_permissible_under_the_contract"
+        }
+      ]
+    },
+    "en.accountability_what_was_the_net_profit_from": {
+      "conceptId": "en.accountability_what_was_the_net_profit_from",
+      "id": "accountability_what_was_the_net_profit_from",
+      "target": [
+        {
+          "text": "What was the net profit from sales last quarter?",
+          "audioSlug": "what_was_the_net_profit_from_sales_last_quarter"
+        }
+      ]
+    },
+    "en.greetings_hello_hope_youre_doing_fine": {
+      "conceptId": "en.greetings_hello_hope_youre_doing_fine",
+      "id": "greetings_hello_hope_youre_doing_fine",
+      "target": [
+        {
+          "text": "Hello, hope you're doing fine.",
+          "audioSlug": "hello_hope_you_re_doing_fine",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Hi, hope you're doing fine.",
+          "audioSlug": "hi_hope_you_re_doing_fine",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.kitchen_do_we_have_enough_eggs_for": {
+      "conceptId": "en.kitchen_do_we_have_enough_eggs_for",
+      "id": "kitchen_do_we_have_enough_eggs_for",
+      "target": [
+        {
+          "text": "Do we have enough eggs for the recipe?",
+          "audioSlug": "do_we_have_enough_eggs_for_the_recipe"
+        }
+      ]
+    },
+    "en.vestimenta_the_shoes_are_too_tight": {
+      "conceptId": "en.vestimenta_the_shoes_are_too_tight",
+      "id": "vestimenta_the_shoes_are_too_tight",
+      "target": [
+        {
+          "text": "The shoes are too tight.",
+          "audioSlug": "the_shoes_are_too_tight"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "8e",
+  "concepts": {
+    "es.airport_mishandled_bag_return": {
+      "conceptId": "es.airport_mishandled_bag_return",
+      "id": "airport_mishandled_bag_return",
+      "target": [
+        {
+          "text": "La aerolínea perdió mi maleta en el viaje de ida y aún no aparece.",
+          "audioSlug": "la_aerolinea_perdio_mi_maleta_en_el_viaje_de_ida_y_aun_no_aparece"
+        }
+      ]
+    },
+    "es.cotidianidad_el_plato_esta_sucio": {
+      "conceptId": "es.cotidianidad_el_plato_esta_sucio",
+      "id": "cotidianidad_el_plato_esta_sucio",
+      "target": [
+        {
+          "text": "El plato está sucio.",
+          "audioSlug": "el_plato_esta_sucio"
+        }
+      ]
+    },
+    "es.deportes_mi_equipo_de_baloncesto_gano": {
+      "conceptId": "es.deportes_mi_equipo_de_baloncesto_gano",
+      "id": "deportes_mi_equipo_de_baloncesto_gano",
+      "target": [
+        {
+          "text": "Mi equipo de baloncesto ganó.",
+          "audioSlug": "mi_equipo_de_baloncesto_gano"
+        }
+      ]
+    },
+    "es.emociones_im_scared": {
+      "conceptId": "es.emociones_im_scared",
+      "id": "emociones_im_scared",
+      "target": [
+        {
+          "text": "Estoy asustada.",
+          "audioSlug": "estoy_asustada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy asustado.",
+          "audioSlug": "estoy_asustado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.health_necesito_un_medicamento_para_el_dolor": {
+      "conceptId": "es.health_necesito_un_medicamento_para_el_dolor",
+      "id": "health_necesito_un_medicamento_para_el_dolor",
+      "target": [
+        {
+          "text": "Necesito un medicamento para el dolor.",
+          "audioSlug": "necesito_un_medicamento_para_el_dolor"
+        }
+      ]
+    },
+    "es.restaurant_the_check_please": {
+      "conceptId": "es.restaurant_the_check_please",
+      "id": "restaurant_the_check_please",
+      "target": [
+        {
+          "text": "La cuenta, por favor.",
+          "audioSlug": "la_cuenta_por_favor"
+        }
+      ]
+    },
+    "es.weather_the_climate_is_changing": {
+      "conceptId": "es.weather_the_climate_is_changing",
+      "id": "weather_the_climate_is_changing",
+      "target": [
+        {
+          "text": "El clima está cambiando.",
+          "audioSlug": "el_clima_esta_cambiando"
+        }
+      ]
+    }
+  }
+}

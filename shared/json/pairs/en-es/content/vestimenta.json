@@ -1,38 +1,410 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "vestimenta",
-  "conceptIds": [
-    "es.vestimenta_su_camisa_es_azul",
-    "es.vestimenta_es_un_vestido_lindo",
-    "es.vestimenta_ponte_los_zapatos",
-    "es.vestimenta_quitate_el_abrigo",
-    "es.vestimenta_me_gusta_esa_camisa_azul",
-    "es.vestimenta_que_talla_usas",
-    "es.vestimenta_este_vestido_es_muy_bonito",
-    "es.vestimenta_necesito_comprar_ropa_nueva",
-    "es.vestimenta_lleva_un_sombrero_negro",
-    "es.vestimenta_puedo_probarme_esta_chaqueta",
-    "es.vestimenta_los_zapatos_me_quedan_apretados",
-    "es.vestimenta_cuelga_tu_abrigo_por_favor",
-    "es.vestimenta_me_pondre_una_camiseta",
-    "es.vestimenta_tu_corbata_combina_con_el_traje",
-    "es.vestimenta_se_ha_pasado_de_moda",
-    "es.vestimenta_me_quito_el_sombrero",
-    "es.vestimenta_llevo_un_pantalon_negro",
-    "es.vestimenta_su_falda_es_roja",
-    "es.vestimenta_necesito_un_sueter",
-    "es.vestimenta_los_calcetines_son_blancos",
-    "es.vestimenta_lleva_una_gorra_azul",
-    "es.vestimenta_llevo_botas_para_la_lluvia",
-    "es.vestimenta_necesito_guantes_en_invierno",
-    "es.vestimenta_su_blusa_es_blanca",
-    "es.vestimenta_lleva_un_gorro_de_lana",
-    "es.vestimenta_me_pongo_la_bufanda",
-    "es.vestimenta_los_ninos_estan_en_pijama",
-    "es.vestimenta_guardo_los_calzoncillos",
-    "es.vestimenta_llevo_el_bolso_al_hombro",
-    "es.vestimenta_la_camisa_es_de_tela_suave",
-    "es.vestimenta_saque_un_panuelo_del_bolsillo"
+  "phrases": [
+    {
+      "conceptId": "es.vestimenta_su_camisa_es_azul",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.440b2815d526c27c"
+    },
+    {
+      "conceptId": "es.vestimenta_es_un_vestido_lindo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.810c7793bc08e9ef"
+    },
+    {
+      "conceptId": "es.vestimenta_ponte_los_zapatos",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2ee10fa09cc10815"
+    },
+    {
+      "conceptId": "es.vestimenta_quitate_el_abrigo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.94518bd110abd0e9"
+    },
+    {
+      "conceptId": "es.vestimenta_me_gusta_esa_camisa_azul",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.488edbdee7d8c926"
+    },
+    {
+      "conceptId": "es.vestimenta_que_talla_usas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ba9907d3ec7dc96c"
+    },
+    {
+      "conceptId": "es.vestimenta_este_vestido_es_muy_bonito",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a3e683582950a31d"
+    },
+    {
+      "conceptId": "es.vestimenta_necesito_comprar_ropa_nueva",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.982c76028419be14"
+    },
+    {
+      "conceptId": "es.vestimenta_lleva_un_sombrero_negro",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d663b741470dadd8"
+    },
+    {
+      "conceptId": "es.vestimenta_puedo_probarme_esta_chaqueta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e3c8b2f47a55291d"
+    },
+    {
+      "conceptId": "es.vestimenta_los_zapatos_me_quedan_apretados",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.df812102d449a57d"
+    },
+    {
+      "conceptId": "es.vestimenta_cuelga_tu_abrigo_por_favor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.32d6a440c841cb9a"
+    },
+    {
+      "conceptId": "es.vestimenta_me_pondre_una_camiseta",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fa51bdbf1cc36ff8"
+    },
+    {
+      "conceptId": "es.vestimenta_tu_corbata_combina_con_el_traje",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.82e8ac6b6a9c9852"
+    },
+    {
+      "conceptId": "es.vestimenta_se_ha_pasado_de_moda",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.037e1eabf5247b37"
+    },
+    {
+      "conceptId": "es.vestimenta_me_quito_el_sombrero",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a94b2b9bf67a1bc2"
+    },
+    {
+      "conceptId": "es.vestimenta_llevo_un_pantalon_negro",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.effeee71333ad35d"
+    },
+    {
+      "conceptId": "es.vestimenta_su_falda_es_roja",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b887f9fa9b07e52a"
+    },
+    {
+      "conceptId": "es.vestimenta_necesito_un_sueter",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8c8690c33f503cc0"
+    },
+    {
+      "conceptId": "es.vestimenta_los_calcetines_son_blancos",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.86451d98fe212584"
+    },
+    {
+      "conceptId": "es.vestimenta_lleva_una_gorra_azul",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0907c5ac1fe6ecb7"
+    },
+    {
+      "conceptId": "es.vestimenta_llevo_botas_para_la_lluvia",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6867e9fd84a16202"
+    },
+    {
+      "conceptId": "es.vestimenta_necesito_guantes_en_invierno",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1eec388a4215627c"
+    },
+    {
+      "conceptId": "es.vestimenta_su_blusa_es_blanca",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a185dd85bfce1d19"
+    },
+    {
+      "conceptId": "es.vestimenta_lleva_un_gorro_de_lana",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c1bfe04d914f58a1"
+    },
+    {
+      "conceptId": "es.vestimenta_me_pongo_la_bufanda",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ff3a0acb782e2c9e"
+    },
+    {
+      "conceptId": "es.vestimenta_los_ninos_estan_en_pijama",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.23d962bb2da20a07"
+    },
+    {
+      "conceptId": "es.vestimenta_guardo_los_calzoncillos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.746a09e9228f0870"
+    },
+    {
+      "conceptId": "es.vestimenta_llevo_el_bolso_al_hombro",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ec44cc3b66506033"
+    },
+    {
+      "conceptId": "es.vestimenta_la_camisa_es_de_tela_suave",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.17699a9445533d37"
+    },
+    {
+      "conceptId": "es.vestimenta_saque_un_panuelo_del_bolsillo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1c6ae4a4833f44f2"
+    }
   ]
 }

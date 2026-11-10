@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "ec",
+  "concepts": {
+    "es.daily_routine_what_time_get_up": {
+      "conceptId": "es.daily_routine_what_time_get_up",
+      "id": "daily_routine_what_time_get_up",
+      "target": [
+        {
+          "text": "¿A qué hora te levantas?",
+          "audioSlug": "a_que_hora_te_levantas"
+        }
+      ]
+    },
+    "es.estudios_que_carrera_estudias": {
+      "conceptId": "es.estudios_que_carrera_estudias",
+      "id": "estudios_que_carrera_estudias",
+      "target": [
+        {
+          "text": "¿Qué carrera estudias?",
+          "audioSlug": "que_carrera_estudias"
+        }
+      ]
+    },
+    "es.greetings_morning_hope_youre_doing_well": {
+      "conceptId": "es.greetings_morning_hope_youre_doing_well",
+      "id": "greetings_morning_hope_youre_doing_well",
+      "target": [
+        {
+          "text": "Buenos días, espero que estés bien.",
+          "audioSlug": "buenos_dias_espero_que_estes_bien"
+        }
+      ]
+    },
+    "es.music_concert_tickets": {
+      "conceptId": "es.music_concert_tickets",
+      "id": "music_concert_tickets",
+      "target": [
+        {
+          "text": "Tengo entradas para el concierto.",
+          "labels": {
+            "region": "General"
+          },
+          "audioSlug": "tengo_entradas_para_el_concierto"
+        },
+        {
+          "text": "Tengo boletos para el concierto.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "tengo_boletos_para_el_concierto"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_rio_pasa_por_el_valle": {
+      "conceptId": "es.naturaleza_lugares_el_rio_pasa_por_el_valle",
+      "id": "naturaleza_lugares_el_rio_pasa_por_el_valle",
+      "target": [
+        {
+          "text": "El río pasa por el valle.",
+          "audioSlug": "el_rio_pasa_por_el_valle"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_no_voy_a_olvidarte": {
+      "conceptId": "es.pensamientos_opiniones_no_voy_a_olvidarte",
+      "id": "pensamientos_opiniones_no_voy_a_olvidarte",
+      "target": [
+        {
+          "text": "No voy a olvidarte.",
+          "audioSlug": "no_voy_a_olvidarte"
+        }
+      ]
+    },
+    "es.sitios_la_ciudad_es_muy_grande": {
+      "conceptId": "es.sitios_la_ciudad_es_muy_grande",
+      "id": "sitios_la_ciudad_es_muy_grande",
+      "target": [
+        {
+          "text": "La ciudad es muy grande.",
+          "audioSlug": "la_ciudad_es_muy_grande"
+        }
+      ]
+    },
+    "es.supermarket_where_are_the_cookies": {
+      "conceptId": "es.supermarket_where_are_the_cookies",
+      "id": "supermarket_where_are_the_cookies",
+      "target": [
+        {
+          "text": "¿Dónde están las galletas?",
+          "audioSlug": "donde_estan_las_galletas"
+        }
+      ]
+    },
+    "es.technology_quieren_desarrollar_una_nueva_aplicacion": {
+      "conceptId": "es.technology_quieren_desarrollar_una_nueva_aplicacion",
+      "id": "technology_quieren_desarrollar_una_nueva_aplicacion",
+      "target": [
+        {
+          "text": "Quieren desarrollar una nueva aplicación.",
+          "audioSlug": "quieren_desarrollar_una_nueva_aplicacion"
+        }
+      ]
+    },
+    "es.transportation_where_taxi_stand": {
+      "conceptId": "es.transportation_where_taxi_stand",
+      "id": "transportation_where_taxi_stand",
+      "target": [
+        {
+          "text": "¿Dónde está la parada de taxis?",
+          "audioSlug": "donde_esta_la_parada_de_taxis"
+        }
+      ]
+    }
+  }
+}

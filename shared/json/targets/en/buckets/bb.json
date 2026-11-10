@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "bb",
+  "concepts": {
+    "en.describiendo_personas_my_brother_is_short": {
+      "conceptId": "en.describiendo_personas_my_brother_is_short",
+      "id": "describiendo_personas_my_brother_is_short",
+      "target": [
+        {
+          "text": "My brother is short.",
+          "audioSlug": "my_brother_is_short"
+        }
+      ]
+    },
+    "en.descripciones_i_like_your_style": {
+      "conceptId": "en.descripciones_i_like_your_style",
+      "id": "descripciones_i_like_your_style",
+      "target": [
+        {
+          "text": "I like your style.",
+          "audioSlug": "i_like_your_style"
+        }
+      ]
+    },
+    "en.estudios_raise_your_hand_to_ask": {
+      "conceptId": "en.estudios_raise_your_hand_to_ask",
+      "id": "estudios_raise_your_hand_to_ask",
+      "target": [
+        {
+          "text": "Raise your hand to ask.",
+          "audioSlug": "raise_your_hand_to_ask"
+        }
+      ]
+    },
+    "en.estudios_this_is_a_great_theory": {
+      "conceptId": "en.estudios_this_is_a_great_theory",
+      "id": "estudios_this_is_a_great_theory",
+      "target": [
+        {
+          "text": "This is a great theory.",
+          "audioSlug": "this_is_a_great_theory"
+        }
+      ]
+    },
+    "en.family_how_many_people": {
+      "conceptId": "en.family_how_many_people",
+      "id": "family_how_many_people",
+      "target": [
+        {
+          "text": "How many people are in your family?",
+          "audioSlug": "how_many_people_are_in_your_family"
+        }
+      ]
+    },
+    "en.kitchen_the_best_side_dish_for_meat": {
+      "conceptId": "en.kitchen_the_best_side_dish_for_meat",
+      "id": "kitchen_the_best_side_dish_for_meat",
+      "target": [
+        {
+          "text": "The best side dish for meat is salad.",
+          "audioSlug": "the_best_side_dish_for_meat_is_salad"
+        }
+      ]
+    },
+    "en.personal_info_what_is_your_address": {
+      "conceptId": "en.personal_info_what_is_your_address",
+      "id": "personal_info_what_is_your_address",
+      "target": [
+        {
+          "text": "What is your address?",
+          "audioSlug": "what_is_your_address"
+        }
+      ]
+    },
+    "en.planes_i_need_to_prepare": {
+      "conceptId": "en.planes_i_need_to_prepare",
+      "id": "planes_i_need_to_prepare",
+      "target": [
+        {
+          "text": "I need to prepare.",
+          "audioSlug": "i_need_to_prepare"
+        }
+      ]
+    },
+    "en.technology_i_requested_a_copy_of_all_data": {
+      "conceptId": "en.technology_i_requested_a_copy_of_all_data",
+      "id": "technology_i_requested_a_copy_of_all_data",
+      "target": [
+        {
+          "text": "I requested all the data the platform had collected about me, and the results were unsettling.",
+          "audioSlug": "i_requested_all_the_data_the_platform_had_collected_about_me_and_the_results_were_unsettling"
+        }
+      ]
+    }
+  }
+}

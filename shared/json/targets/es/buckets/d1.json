@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "d1",
+  "concepts": {
+    "es.accountability_what_was_the_net_profit_from": {
+      "conceptId": "es.accountability_what_was_the_net_profit_from",
+      "id": "accountability_what_was_the_net_profit_from",
+      "target": [
+        {
+          "text": "¿Cuál fue la ganancia neta de las ventas del trimestre pasado?",
+          "audioSlug": "cual_fue_la_ganancia_neta_de_las_ventas_del_trimestre_pasado"
+        }
+      ]
+    },
+    "es.descripciones_el_examen_fue_malo": {
+      "conceptId": "es.descripciones_el_examen_fue_malo",
+      "id": "descripciones_el_examen_fue_malo",
+      "target": [
+        {
+          "text": "El examen fue bastante malo.",
+          "audioSlug": "el_examen_fue_bastante_malo"
+        }
+      ]
+    },
+    "es.directions_la_carretera_esta_cerrada_por_obras": {
+      "conceptId": "es.directions_la_carretera_esta_cerrada_por_obras",
+      "id": "directions_la_carretera_esta_cerrada_por_obras",
+      "target": [
+        {
+          "text": "La carretera está cerrada por obras.",
+          "audioSlug": "la_carretera_esta_cerrada_por_obras"
+        }
+      ]
+    },
+    "es.estudios_uso_la_goma_para_borrar": {
+      "conceptId": "es.estudios_uso_la_goma_para_borrar",
+      "id": "estudios_uso_la_goma_para_borrar",
+      "target": [
+        {
+          "text": "Uso la goma para borrar el error.",
+          "audioSlug": "uso_la_goma_para_borrar_el_error"
+        }
+      ]
+    },
+    "es.family_mi_nieto_empezo_el_colegio": {
+      "conceptId": "es.family_mi_nieto_empezo_el_colegio",
+      "id": "family_mi_nieto_empezo_el_colegio",
+      "target": [
+        {
+          "text": "Mi nieto empezó el colegio.",
+          "audioSlug": "mi_nieto_empezo_el_colegio"
+        }
+      ]
+    },
+    "es.family_my_father_is_a_teacher": {
+      "conceptId": "es.family_my_father_is_a_teacher",
+      "id": "family_my_father_is_a_teacher",
+      "target": [
+        {
+          "text": "Mi padre es profesor.",
+          "audioSlug": "mi_padre_es_profesor"
+        }
+      ]
+    },
+    "es.gym_do_you_have_any_suggestions_for": {
+      "conceptId": "es.gym_do_you_have_any_suggestions_for",
+      "id": "gym_do_you_have_any_suggestions_for",
+      "target": [
+        {
+          "text": "¿Tienes alguna sugerencia para aumentar la intensidad de mi entrenamiento?",
+          "audioSlug": "tienes_alguna_sugerencia_para_aumentar_la_intensidad_de_mi_entrenamiento"
+        }
+      ]
+    },
+    "es.health_es_una_enfermedad_grave": {
+      "conceptId": "es.health_es_una_enfermedad_grave",
+      "id": "health_es_una_enfermedad_grave",
+      "target": [
+        {
+          "text": "Es una enfermedad grave.",
+          "audioSlug": "es_una_enfermedad_grave"
+        }
+      ]
+    },
+    "es.kitchen_do_we_have_any_olive_oil": {
+      "conceptId": "es.kitchen_do_we_have_any_olive_oil",
+      "id": "kitchen_do_we_have_any_olive_oil",
+      "target": [
+        {
+          "text": "¿Nos queda aceite de oliva?",
+          "audioSlug": "nos_queda_aceite_de_oliva"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_volcan_esta_inactivo": {
+      "conceptId": "es.naturaleza_lugares_el_volcan_esta_inactivo",
+      "id": "naturaleza_lugares_el_volcan_esta_inactivo",
+      "target": [
+        {
+          "text": "El volcán está inactivo.",
+          "audioSlug": "el_volcan_esta_inactivo"
+        }
+      ]
+    },
+    "es.supermarket_loyalty_program_sign_up": {
+      "conceptId": "es.supermarket_loyalty_program_sign_up",
+      "id": "supermarket_loyalty_program_sign_up",
+      "target": [
+        {
+          "text": "¿Cómo me registro en el programa de fidelidad, puedo usar los puntos de inmediato?",
+          "audioSlug": "como_me_registro_en_el_programa_de_fidelidad_puedo_usar_los_puntos_de_inmediato"
+        }
+      ]
+    },
+    "es.theater_monologue_extraordinary_restraint": {
+      "conceptId": "es.theater_monologue_extraordinary_restraint",
+      "id": "theater_monologue_extraordinary_restraint",
+      "target": [
+        {
+          "text": "El monólogo del tercer acto exigía un alcance emocional extraordinario.",
+          "audioSlug": "el_monologo_del_tercer_acto_exigia_un_alcance_emocional_extraordinario"
+        }
+      ]
+    }
+  }
+}

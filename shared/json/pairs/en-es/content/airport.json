@@ -1,56 +1,644 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "airport",
-  "conceptIds": [
-    "es.airport_flight_departure_time",
-    "es.airport_check_luggage",
-    "es.airport_waiting_room_location",
-    "es.airport_prefer_window_seat",
-    "es.airport_boarding_pass_gate",
-    "es.airport_carryon_size_limit",
-    "es.airport_exchange_currency",
-    "es.airport_which_terminal_departs",
-    "es.airport_how_early_arrive",
-    "es.airport_direct_or_connecting",
-    "es.airport_flight_delayed_voucher",
-    "es.airport_request_seat_front",
-    "es.airport_carryon_over_limit",
-    "es.airport_baggage_claim_flight",
-    "es.airport_connection_time_enough",
-    "es.airport_security_liquids_confiscated",
-    "es.airport_priority_boarding_boarded_together",
-    "es.airport_cancelled_rebook_today",
-    "es.airport_forgot_boarding_pass_download",
-    "es.airport_luggage_lost_claim",
-    "es.airport_denied_boarding_compensation",
-    "es.airport_immigration_before_bags",
-    "es.airport_seat_changed_no_notice",
-    "es.airport_bag_made_connection",
-    "es.airport_multi_entry_visa_duration",
-    "es.airport_duty_exceeded_pay_here",
-    "es.airport_unaccompanied_minor_procedure",
-    "es.airport_seat_assignment_not_booked",
-    "es.airport_customs_declare_allowance",
-    "es.airport_passport_expiry_visa",
-    "es.airport_transit_zone_restrictions",
-    "es.airport_upgrade_miles_business",
-    "es.airport_mishandled_bag_return",
-    "es.airport_refused_entry_return_carrier",
-    "es.airport_eu_regulation_compensation",
-    "es.airport_secondary_screening_rights",
-    "es.airport_partner_airline_baggage_liability",
-    "es.airport_where_is_checkin",
-    "es.airport_which_gate",
-    "es.airport_where_is_security",
-    "es.airport_where_passport_control",
-    "es.airport_is_flight_on_time",
-    "es.airport_where_boarding_pass",
-    "es.airport_nothing_to_declare",
-    "es.airport_is_this_gate_for",
-    "es.airport_aisle_seat",
-    "es.airport_duty_free_shop",
-    "es.airport_el_avion_llego_tarde",
-    "es.airport_muestra_tu_documento_de_identidad.en-es"
+  "phrases": [
+    {
+      "conceptId": "es.airport_flight_departure_time",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9442d99c12f50bc9"
+    },
+    {
+      "conceptId": "es.airport_check_luggage",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6cd480d029c54709"
+    },
+    {
+      "conceptId": "es.airport_waiting_room_location",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0294033756ae70cc"
+    },
+    {
+      "conceptId": "es.airport_prefer_window_seat",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e0c33e29d250b042"
+    },
+    {
+      "conceptId": "es.airport_boarding_pass_gate",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e4b262e4015f2c4f"
+    },
+    {
+      "conceptId": "es.airport_carryon_size_limit",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a5a6ec3ebc960d3d"
+    },
+    {
+      "conceptId": "es.airport_exchange_currency",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.889da6cd4319176c"
+    },
+    {
+      "conceptId": "es.airport_which_terminal_departs",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0cdbbafb9289394f"
+    },
+    {
+      "conceptId": "es.airport_how_early_arrive",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c5cf7f60767c813c"
+    },
+    {
+      "conceptId": "es.airport_direct_or_connecting",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4ffc75bb1e46b79d"
+    },
+    {
+      "conceptId": "es.airport_flight_delayed_voucher",
+      "level": "B1",
+      "grammar": "'Se ha retrasado' usa la pasiva refleja en pretérito perfecto; expresa un cambio reciente.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.33c59c7d903919bd"
+    },
+    {
+      "conceptId": "es.airport_request_seat_front",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6fca978e9ca52825"
+    },
+    {
+      "conceptId": "es.airport_carryon_over_limit",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.749e2ce144b97a5f"
+    },
+    {
+      "conceptId": "es.airport_baggage_claim_flight",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2ae15826a75159e6"
+    },
+    {
+      "conceptId": "es.airport_connection_time_enough",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6d8fce15226cab4c"
+    },
+    {
+      "conceptId": "es.airport_security_liquids_confiscated",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.58de2fbaf86b8c69"
+    },
+    {
+      "conceptId": "es.airport_priority_boarding_boarded_together",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bc87022dda827552"
+    },
+    {
+      "conceptId": "es.airport_cancelled_rebook_today",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f91ac2e5cc7ed3be"
+    },
+    {
+      "conceptId": "es.airport_forgot_boarding_pass_download",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c4fb48f3d860b666"
+    },
+    {
+      "conceptId": "es.airport_luggage_lost_claim",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.237277f6b124b6cb"
+    },
+    {
+      "conceptId": "es.airport_denied_boarding_compensation",
+      "level": "B2",
+      "grammar": "'Me negaron' usa el impersonal de tercera persona plural; equivale a la pasiva 'fui denegado'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8f9281e4ef269491"
+    },
+    {
+      "conceptId": "es.airport_immigration_before_bags",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e93b76d02a5c8777"
+    },
+    {
+      "conceptId": "es.airport_seat_changed_no_notice",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ed9ce402ef120042"
+    },
+    {
+      "conceptId": "es.airport_bag_made_connection",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0bf2dd341c42f6ad"
+    },
+    {
+      "conceptId": "es.airport_multi_entry_visa_duration",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.94984c21eb2a6e1f"
+    },
+    {
+      "conceptId": "es.airport_duty_exceeded_pay_here",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.01385ffe794bdd6d"
+    },
+    {
+      "conceptId": "es.airport_unaccompanied_minor_procedure",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.876393bfb414658c"
+    },
+    {
+      "conceptId": "es.airport_seat_assignment_not_booked",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.308917d352ea5fb1"
+    },
+    {
+      "conceptId": "es.airport_customs_declare_allowance",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.784dc69cef05c12e"
+    },
+    {
+      "conceptId": "es.airport_passport_expiry_visa",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c5b6dad8c486c5d2"
+    },
+    {
+      "conceptId": "es.airport_transit_zone_restrictions",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.abb9c8a313557bd1"
+    },
+    {
+      "conceptId": "es.airport_upgrade_miles_business",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e325e162613ebef0"
+    },
+    {
+      "conceptId": "es.airport_mishandled_bag_return",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1bec372dafcc6ecb"
+    },
+    {
+      "conceptId": "es.airport_refused_entry_return_carrier",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b230eda6aeb43ee5"
+    },
+    {
+      "conceptId": "es.airport_eu_regulation_compensation",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e60f0e1c829f38d4"
+    },
+    {
+      "conceptId": "es.airport_secondary_screening_rights",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.563a813012e6bcac"
+    },
+    {
+      "conceptId": "es.airport_partner_airline_baggage_liability",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.681e10c736ea45ee"
+    },
+    {
+      "conceptId": "es.airport_where_is_checkin",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cb24c8439ca63158"
+    },
+    {
+      "conceptId": "es.airport_which_gate",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a43e9adbb2bf2efd"
+    },
+    {
+      "conceptId": "es.airport_where_is_security",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8a179ef4c76d8a20"
+    },
+    {
+      "conceptId": "es.airport_where_passport_control",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bd5aa30bf6af1c51"
+    },
+    {
+      "conceptId": "es.airport_is_flight_on_time",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3cb4f8f035cde54c"
+    },
+    {
+      "conceptId": "es.airport_where_boarding_pass",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.743610634d46c7e6"
+    },
+    {
+      "conceptId": "es.airport_nothing_to_declare",
+      "level": "A2",
+      "grammar": "'Nada que + infinitivo' expresa que no hay algo por hacer.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4a07689f8d929ba1"
+    },
+    {
+      "conceptId": "es.airport_is_this_gate_for",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c19c990fa29a0920"
+    },
+    {
+      "conceptId": "es.airport_aisle_seat",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8946814d1fc5044a"
+    },
+    {
+      "conceptId": "es.airport_duty_free_shop",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bad3577c106d4bfa"
+    },
+    {
+      "conceptId": "es.airport_el_avion_llego_tarde",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.abf26391ee843189"
+    },
+    {
+      "conceptId": "es.airport_muestra_tu_documento_de_identidad.en-es",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5556d72f4253d434"
+    }
   ]
 }

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "05",
+  "concepts": {
+    "es.directions_can_you_show_map": {
+      "conceptId": "es.directions_can_you_show_map",
+      "id": "directions_can_you_show_map",
+      "target": [
+        {
+          "text": "¿Me lo puedes mostrar en el mapa?",
+          "audioSlug": "me_lo_puedes_mostrar_en_el_mapa",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Me lo puede mostrar en el mapa?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "me_lo_puede_mostrar_en_el_mapa"
+        }
+      ]
+    },
+    "es.directions_its_on_the_corner": {
+      "conceptId": "es.directions_its_on_the_corner",
+      "id": "directions_its_on_the_corner",
+      "target": [
+        {
+          "text": "Está en la esquina.",
+          "audioSlug": "esta_en_la_esquina"
+        }
+      ]
+    },
+    "es.economia_el_empleado_nuevo_aprende_rapido": {
+      "conceptId": "es.economia_el_empleado_nuevo_aprende_rapido",
+      "id": "economia_el_empleado_nuevo_aprende_rapido",
+      "target": [
+        {
+          "text": "La empleada nueva aprende rápido.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die neue Angestellte lernt schnell.",
+          "audioSlug": "la_empleada_nueva_aprende_rapido"
+        },
+        {
+          "text": "El empleado nuevo aprende rápido.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der neue Angestellte lernt schnell.",
+          "audioSlug": "el_empleado_nuevo_aprende_rapido"
+        }
+      ]
+    },
+    "es.economia_pago_mis_deudas_poco_a_poco": {
+      "conceptId": "es.economia_pago_mis_deudas_poco_a_poco",
+      "id": "economia_pago_mis_deudas_poco_a_poco",
+      "target": [
+        {
+          "text": "Pago mis deudas poco a poco.",
+          "audioSlug": "pago_mis_deudas_poco_a_poco"
+        }
+      ]
+    },
+    "es.gym_we_all_must_properly_disinfect_the": {
+      "conceptId": "es.gym_we_all_must_properly_disinfect_the",
+      "id": "gym_we_all_must_properly_disinfect_the",
+      "target": [
+        {
+          "text": "Todos debemos desinfectar correctamente el equipo después de usarlo.",
+          "audioSlug": "todos_debemos_desinfectar_correctamente_el_equipo_despues_de_usarlo"
+        }
+      ]
+    },
+    "es.kitchen_peel_the_potatoes_and_then_slice": {
+      "conceptId": "es.kitchen_peel_the_potatoes_and_then_slice",
+      "id": "kitchen_peel_the_potatoes_and_then_slice",
+      "target": [
+        {
+          "text": "Se pelan las papas y luego se cortan en rodajas.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "se_pelan_las_papas_y_luego_se_cortan_en_rodajas"
+        },
+        {
+          "text": "Se pelan las patatas y luego se cortan en rodajas.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "se_pelan_las_patatas_y_luego_se_cortan_en_rodajas"
+        }
+      ]
+    },
+    "es.movies_want_to_watch_tonight": {
+      "conceptId": "es.movies_want_to_watch_tonight",
+      "id": "movies_want_to_watch_tonight",
+      "target": [
+        {
+          "text": "¿Quieres ver una película esta noche?",
+          "audioSlug": "quieres_ver_una_pelicula_esta_noche"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_fui_alli_por_necesidad": {
+      "conceptId": "es.pensamientos_opiniones_fui_alli_por_necesidad",
+      "id": "pensamientos_opiniones_fui_alli_por_necesidad",
+      "target": [
+        {
+          "text": "Fui allí por necesidad.",
+          "audioSlug": "fui_alli_por_necesidad"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_lo_que_importa_es_la_intencion": {
+      "conceptId": "es.pensamientos_opiniones_lo_que_importa_es_la_intencion",
+      "id": "pensamientos_opiniones_lo_que_importa_es_la_intencion",
+      "target": [
+        {
+          "text": "Lo que importa es la intención.",
+          "audioSlug": "lo_que_importa_es_la_intencion"
+        }
+      ]
+    },
+    "es.profesiones_mi_padre_es_matematico": {
+      "conceptId": "es.profesiones_mi_padre_es_matematico",
+      "id": "profesiones_mi_padre_es_matematico",
+      "target": [
+        {
+          "text": "Mi padre es matemático.",
+          "audioSlug": "mi_padre_es_matematico"
+        }
+      ]
+    },
+    "es.sitios_cualquier_taxi_te_lleva_al_aeropuerto": {
+      "conceptId": "es.sitios_cualquier_taxi_te_lleva_al_aeropuerto",
+      "id": "sitios_cualquier_taxi_te_lleva_al_aeropuerto",
+      "target": [
+        {
+          "text": "Cualquier taxi te lleva al aeropuerto.",
+          "audioSlug": "cualquier_taxi_te_lleva_al_aeropuerto"
+        }
+      ]
+    },
+    "es.vestimenta_esta_tela_es_muy_suave": {
+      "conceptId": "es.vestimenta_esta_tela_es_muy_suave",
+      "id": "vestimenta_esta_tela_es_muy_suave",
+      "target": [
+        {
+          "text": "Esta tela es muy suave.",
+          "audioSlug": "esta_tela_es_muy_suave"
+        }
+      ]
+    }
+  }
+}

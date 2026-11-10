@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "7d",
+  "concepts": {
+    "en.accountability_the_financial_reports_have_been_reviewed": {
+      "conceptId": "en.accountability_the_financial_reports_have_been_reviewed",
+      "id": "accountability_the_financial_reports_have_been_reviewed",
+      "target": [
+        {
+          "text": "The financial reports have been reviewed.",
+          "audioSlug": "the_financial_reports_have_been_reviewed"
+        }
+      ]
+    },
+    "en.airport_aisle_seat": {
+      "conceptId": "en.airport_aisle_seat",
+      "id": "airport_aisle_seat",
+      "target": [
+        {
+          "text": "I'd like an aisle seat, please.",
+          "audioSlug": "i_d_like_an_aisle_seat_please"
+        }
+      ]
+    },
+    "en.deportes_hit_the_ball": {
+      "conceptId": "en.deportes_hit_the_ball",
+      "id": "deportes_hit_the_ball",
+      "target": [
+        {
+          "text": "Hit the ball.",
+          "audioSlug": "hit_the_ball"
+        }
+      ]
+    },
+    "en.greetings_good_morning": {
+      "conceptId": "en.greetings_good_morning",
+      "id": "greetings_good_morning",
+      "target": [
+        {
+          "text": "Good morning!",
+          "audioSlug": "good_morning"
+        }
+      ]
+    },
+    "en.kitchen_help_me_peel_the_carrots_and": {
+      "conceptId": "en.kitchen_help_me_peel_the_carrots_and",
+      "id": "kitchen_help_me_peel_the_carrots_and",
+      "target": [
+        {
+          "text": "Help me peel the carrots and potatoes.",
+          "audioSlug": "help_me_peel_the_carrots_and_potatoes"
+        }
+      ]
+    },
+    "en.music_lyrics_political_commentary": {
+      "conceptId": "en.music_lyrics_political_commentary",
+      "id": "music_lyrics_political_commentary",
+      "target": [
+        {
+          "text": "The lyrics are deceptively simple. There's a lot of political commentary beneath the surface.",
+          "audioSlug": "the_lyrics_are_deceptively_simple_there_s_a_lot_of_political_commentary_beneath_the_surface"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_you_must_prove_it": {
+      "conceptId": "en.pensamientos_opiniones_you_must_prove_it",
+      "id": "pensamientos_opiniones_you_must_prove_it",
+      "target": [
+        {
+          "text": "You must prove it.",
+          "audioSlug": "you_must_prove_it"
+        }
+      ]
+    },
+    "en.survival_does_anyone_here_speak_english": {
+      "conceptId": "en.survival_does_anyone_here_speak_english",
+      "id": "survival_does_anyone_here_speak_english",
+      "target": [
+        {
+          "text": "Does anyone here speak English?",
+          "audioSlug": "does_anyone_here_speak_english"
+        }
+      ]
+    }
+  }
+}

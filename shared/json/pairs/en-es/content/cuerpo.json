@@ -1,23 +1,215 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "cuerpo",
-  "conceptIds": [
-    "es.cuerpo_tengo_el_pelo_muy_largo",
-    "es.cuerpo_el_corazon_late_rapido",
-    "es.cuerpo_su_piel_es_muy_suave",
-    "es.cuerpo_tengo_los_ojos_azules",
-    "es.cuerpo_ella_tiene_el_pelo_rizado",
-    "es.cuerpo_sus_manos_son_grandes",
-    "es.cuerpo_tengo_las_manos_frias",
-    "es.cuerpo_sus_piernas_son_largas",
-    "es.cuerpo_sus_brazos_son_fuertes",
-    "es.cuerpo_tengo_la_nariz_pequena",
-    "es.cuerpo_los_dientes_son_blancos",
-    "es.cuerpo_el_cuerpo_humano_es_complejo",
-    "es.cuerpo_mueve_los_dedos",
-    "es.cuerpo_me_duele_el_cuello",
-    "es.cuerpo_mi_padre_tiene_barba",
-    "es.cuerpo_mi_abuelo_tiene_bigote"
+  "phrases": [
+    {
+      "conceptId": "es.cuerpo_tengo_el_pelo_muy_largo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a3850496b08d1a24"
+    },
+    {
+      "conceptId": "es.cuerpo_el_corazon_late_rapido",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.290eb5cb231ca3c8"
+    },
+    {
+      "conceptId": "es.cuerpo_su_piel_es_muy_suave",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.dc438d20d3c204b9"
+    },
+    {
+      "conceptId": "es.cuerpo_tengo_los_ojos_azules",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.861dceb89f51b940"
+    },
+    {
+      "conceptId": "es.cuerpo_ella_tiene_el_pelo_rizado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a1cb2b72f4ae8146"
+    },
+    {
+      "conceptId": "es.cuerpo_sus_manos_son_grandes",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ed0261619c1fa840"
+    },
+    {
+      "conceptId": "es.cuerpo_tengo_las_manos_frias",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0e2d0de559a95397"
+    },
+    {
+      "conceptId": "es.cuerpo_sus_piernas_son_largas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a6ac8a91bcac7a56"
+    },
+    {
+      "conceptId": "es.cuerpo_sus_brazos_son_fuertes",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f9f90e3763ec2e13"
+    },
+    {
+      "conceptId": "es.cuerpo_tengo_la_nariz_pequena",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.26372b109c72cb38"
+    },
+    {
+      "conceptId": "es.cuerpo_los_dientes_son_blancos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.55aff196241bee73"
+    },
+    {
+      "conceptId": "es.cuerpo_el_cuerpo_humano_es_complejo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3faffeab56a0eef6"
+    },
+    {
+      "conceptId": "es.cuerpo_mueve_los_dedos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.57936b30a80d5134"
+    },
+    {
+      "conceptId": "es.cuerpo_me_duele_el_cuello",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c9fecf3640375e0a"
+    },
+    {
+      "conceptId": "es.cuerpo_mi_padre_tiene_barba",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.40a46dd1d9655d07"
+    },
+    {
+      "conceptId": "es.cuerpo_mi_abuelo_tiene_bigote",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2bbd9e8f0bf5e94d"
+    }
   ]
 }

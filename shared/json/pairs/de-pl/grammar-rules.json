@@ -115,8 +115,12 @@
           "hint": "männlich → ten, weiblich → ta, sächlich → to."
         }
       ],
-      "related_phrases": [],
-      "topics": []
+      "topics": [],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "instrumental_case",
@@ -213,8 +217,12 @@
           "hint": "Nach „jestem\" steht der Narzędnik: -em (m/n) / -ą (f)."
         }
       ],
-      "related_phrases": [],
-      "topics": []
+      "topics": [],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "verb_aspect",
@@ -312,8 +320,12 @@
           "hint": "Vollendet: oft mit einer Vorsilbe (na-, z-, po-, wy-)."
         }
       ],
-      "related_phrases": [],
-      "topics": []
+      "topics": [],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

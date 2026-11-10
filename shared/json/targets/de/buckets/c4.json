@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "bucket": "c4",
+  "concepts": {
+    "de.survival_i_do_not_understand": {
+      "conceptId": "de.survival_i_do_not_understand",
+      "id": "survival_i_do_not_understand",
+      "target": [
+        {
+          "text": "Ich verstehe nicht.",
+          "audioSlug": "ich_verstehe_nicht"
+        }
+      ]
+    }
+  }
+}

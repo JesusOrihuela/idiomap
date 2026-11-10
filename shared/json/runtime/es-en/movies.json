@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "movies",
+  "phrases": [
+    {
+      "id": "movies_bad_ending",
+      "conceptId": "en.movies_bad_ending",
+      "sourceId": "es.s.82c15120d4aa2211",
+      "source": "No me gustó el final de esa película.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I didn't like the ending of that movie.",
+          "audioSlug": "i_didn_t_like_the_ending_of_that_movie"
+        }
+      ]
+    },
+    {
+      "id": "movies_go_cinema_weekend",
+      "conceptId": "en.movies_go_cinema_weekend",
+      "sourceId": "es.s.2a3f58a1175e7942",
+      "source": "Quiero ir al cine este fin de semana.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I want to go to the movies this weekend.",
+          "labels": {
+            "region": "US"
+          },
+          "audioSlug": "i_want_to_go_to_the_movies_this_weekend"
+        },
+        {
+          "text": "I want to go to the cinema this weekend.",
+          "labels": {
+            "region": "UK"
+          },
+          "audioSlug": "i_want_to_go_to_the_cinema_this_weekend"
+        }
+      ]
+    },
+    {
+      "id": "movies_good_actor",
+      "conceptId": "en.movies_good_actor",
+      "sourceId": "es.s.19196b6d10bfecc0",
+      "source": "Este actor es muy bueno y me gustan sus películas.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This actor is great and I like his movies.",
+          "audioSlug": "this_actor_is_great_and_i_like_his_movies"
+        }
+      ]
+    },
+    {
+      "id": "movies_watching_netflix_series",
+      "conceptId": "en.movies_watching_netflix_series",
+      "sourceId": "es.s.f029af5f4fca9303",
+      "source": "¿Estás viendo la nueva serie de Netflix?",
+      "level": "A1",
+      "grammar": "Present continuous: action happening right now or around now",
+      "target": [
+        {
+          "text": "Are you watching the new Netflix series?",
+          "audioSlug": "are_you_watching_the_new_netflix_series"
+        }
+      ]
+    },
+    {
+      "id": "movies_good_movie_recommend",
+      "conceptId": "en.movies_good_movie_recommend",
+      "sourceId": "es.s.d3bc88cdc7eb5c04",
+      "source": "Esta película está muy buena, deberías verla.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This movie is very good, you should watch it.",
+          "audioSlug": "this_movie_is_very_good_you_should_watch_it",
+          "labels": {
+            "region": "US"
+          }
+        },
+        {
+          "text": "This film is very good, you should watch it.",
+          "audioSlug": "this_film_is_very_good_you_should_watch_it",
+          "labels": {
+            "region": "UK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "movies_seen_horror_movie",
+      "conceptId": "en.movies_seen_horror_movie",
+      "sourceId": "es.s.af97c3c858fa7802",
+      "source": "¿Ya viste la nueva película de terror?",
+      "level": "B1",
+      "grammar": "Present perfect: asking about experience with no specific time",
+      "target": [
+        {
+          "text": "Have you seen the new horror movie?",
+          "audioSlug": "have_you_seen_the_new_horror_movie",
+          "labels": {
+            "region": "US"
+          }
+        },
+        {
+          "text": "Have you seen the new horror film?",
+          "audioSlug": "have_you_seen_the_new_horror_film",
+          "labels": {
+            "region": "UK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "movies_looking_new_series",
+      "conceptId": "en.movies_looking_new_series",
+      "sourceId": "es.s.2e89470a6b51467e",
+      "source": "¿Puedes recomendarme una nueva serie para ver?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Can you recommend a new series to watch?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "can_you_recommend_a_new_series_to_watch"
+        },
+        {
+          "text": "Could you recommend a new series to watch?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "could_you_recommend_a_new_series_to_watch"
+        }
+      ]
+    },
+    {
+      "id": "movies_classic_movie",
+      "conceptId": "en.movies_classic_movie",
+      "sourceId": "es.s.65eb1958b3d86fa9",
+      "source": "Esa película es un clásico, tienes que verla.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "That movie is a classic, you have to watch it.",
+          "audioSlug": "that_movie_is_a_classic_you_have_to_watch_it",
+          "labels": {
+            "region": "US"
+          }
+        },
+        {
+          "text": "That film is a classic, you have to watch it.",
+          "audioSlug": "that_film_is_a_classic_you_have_to_watch_it",
+          "labels": {
+            "region": "UK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "movies_new_director_movie",
+      "conceptId": "en.movies_new_director_movie",
+      "sourceId": "es.s.227bf6529bb73a8a",
+      "source": "Mi director favorito tiene una nueva película.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My favorite director has a new movie to watch.",
+          "labels": {
+            "region": "US"
+          },
+          "audioSlug": "my_favorite_director_has_a_new_movie_to_watch"
+        },
+        {
+          "text": "My favorite director has a new film to watch.",
+          "labels": {
+            "region": "UK"
+          },
+          "audioSlug": "my_favorite_director_has_a_new_film_to_watch"
+        }
+      ]
+    },
+    {
+      "id": "movies_disappointed_last_season",
+      "conceptId": "en.movies_disappointed_last_season",
+      "sourceId": "es.s.2c09207f93e48f3a",
+      "source": "La última temporada de esa serie me decepcionó.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The last season of that series disappointed me.",
+          "audioSlug": "the_last_season_of_that_series_disappointed_me"
+        }
+      ]
+    },
+    {
+      "id": "movies_seen_latest_episode",
+      "conceptId": "en.movies_seen_latest_episode",
+      "sourceId": "es.s.214c13ad1b2e8237",
+      "source": "¿Ya viste el último episodio de la serie?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Have you seen the latest episode of the series?",
+          "audioSlug": "have_you_seen_the_latest_episode_of_the_series"
+        }
+      ]
+    },
+    {
+      "id": "movies_dont_understand_popularity",
+      "conceptId": "en.movies_dont_understand_popularity",
+      "sourceId": "es.s.bf5ebe6bb455c382",
+      "source": "No entiendo por qué esa serie es tan popular.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I do not understand why that series is so popular.",
+          "audioSlug": "i_do_not_understand_why_that_series_is_so_popular"
+        }
+      ]
+    },
+    {
+      "id": "movies_series_recommendation",
+      "conceptId": "en.movies_series_recommendation",
+      "sourceId": "es.s.955658778db468d9",
+      "source": "¿Qué serie me recomiendas ver?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What series do you recommend watching?",
+          "audioSlug": "what_series_do_you_recommend_watching"
+        }
+      ]
+    },
+    {
+      "id": "movies_seen_new_trailer",
+      "conceptId": "en.movies_seen_new_trailer",
+      "sourceId": "es.s.65332cd5b9af0e9b",
+      "source": "¿Ya viste el nuevo tráiler de la película?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Have you seen the new movie trailer?",
+          "audioSlug": "have_you_seen_the_new_movie_trailer",
+          "labels": {
+            "region": "US"
+          }
+        },
+        {
+          "text": "Have you seen the new film trailer?",
+          "audioSlug": "have_you_seen_the_new_film_trailer",
+          "labels": {
+            "region": "UK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "movies_prefer_cinema_home",
+      "conceptId": "en.movies_prefer_cinema_home",
+      "sourceId": "es.s.7e898503407a6d61",
+      "source": "Prefiero ver películas en el cine que en casa.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I prefer to watch movies at the cinema.",
+          "labels": {
+            "region": "US"
+          },
+          "audioSlug": "i_prefer_to_watch_movies_at_the_cinema"
+        },
+        {
+          "text": "I prefer to watch films at the cinema.",
+          "labels": {
+            "region": "UK"
+          },
+          "audioSlug": "i_prefer_to_watch_films_at_the_cinema"
+        }
+      ]
+    },
+    {
+      "id": "movies_film_festival_city",
+      "conceptId": "en.movies_film_festival_city",
+      "sourceId": "es.s.1bca881772129c43",
+      "source": "Hay un nuevo festival de cine en la ciudad.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "There is a new film festival in the city.",
+          "audioSlug": "there_is_a_new_film_festival_in_the_city"
+        }
+      ]
+    },
+    {
+      "id": "movies_what_time_starts",
+      "conceptId": "en.movies_what_time_starts",
+      "sourceId": "es.s.abf42ff4cd1ba06e",
+      "source": "¿A qué hora empieza la película?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What time does the movie start?",
+          "audioSlug": "what_time_does_the_movie_start"
+        }
+      ]
+    },
+    {
+      "id": "movies_documentary_streaming",
+      "conceptId": "en.movies_documentary_streaming",
+      "sourceId": "es.s.3c858377434e33ca",
+      "source": "He escuchado que ese documental es excelente. ¿Está disponible en alguna plataforma de video?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I heard that documentary is excellent. Is it on any streaming platform?",
+          "audioSlug": "i_heard_that_documentary_is_excellent_is_it_on_any_streaming_platform"
+        }
+      ]
+    },
+    {
+      "id": "movies_special_effects_incredible",
+      "conceptId": "en.movies_special_effects_incredible",
+      "sourceId": "es.s.f6618199fa8e5fa1",
+      "source": "Los efectos especiales fueron increíbles. ¿Cómo lo hicieron?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The special effects were incredible. How did they do it?",
+          "audioSlug": "the_special_effects_were_incredible_how_did_they_do_it"
+        }
+      ]
+    },
+    {
+      "id": "movies_binge_watching_cant_stop",
+      "conceptId": "en.movies_binge_watching_cant_stop",
+      "sourceId": "es.s.a866e5cc9f0f158a",
+      "source": "Llevo toda la semana viendo esta serie y simplemente no puedo parar.",
+      "level": "B2",
+      "grammar": "Present perfect continuous: 'I've been watching' for an ongoing action spanning up to now",
+      "target": [
+        {
+          "text": "I've been watching this series all week and I just can't stop.",
+          "audioSlug": "i_ve_been_watching_this_series_all_week_and_i_just_can_t_stop"
+        }
+      ]
+    },
+    {
+      "id": "movies_midnight_premiere_sells_out",
+      "conceptId": "en.movies_midnight_premiere_sells_out",
+      "sourceId": "es.s.16b1002e09a0841e",
+      "source": "¿Vamos al estreno de medianoche? Las entradas se agotan rápido.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Should we go to the midnight premiere? Tickets sell out fast.",
+          "audioSlug": "should_we_go_to_the_midnight_premiere_tickets_sell_out_fast"
+        }
+      ]
+    },
+    {
+      "id": "movies_prefer_thrillers_not_action",
+      "conceptId": "en.movies_prefer_thrillers_not_action",
+      "sourceId": "es.s.5af00853196a6125",
+      "source": "En realidad no soy muy fan de las películas de acción. Prefiero los thrillers psicológicos.",
+      "level": "B1",
+      "grammar": "'Not really into' is an informal way to say you have little interest in something.",
+      "target": [
+        {
+          "text": "I'm not really into action movies. I prefer psychological thrillers.",
+          "audioSlug": "i_m_not_really_into_action_movies_i_prefer_psychological_thrillers"
+        }
+      ]
+    },
+    {
+      "id": "movies_sequel_live_up_original",
+      "conceptId": "en.movies_sequel_live_up_original",
+      "sourceId": "es.s.491c0f2e55f7f571",
+      "source": "La secuela tenía más presupuesto pero no estuvo a la altura del original.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The sequel had a bigger budget but never lived up to the original.",
+          "audioSlug": "the_sequel_had_a_bigger_budget_but_never_lived_up_to_the_original"
+        }
+      ]
+    },
+    {
+      "id": "movies_prefer_subtitles_dubbing",
+      "conceptId": "en.movies_prefer_subtitles_dubbing",
+      "sourceId": "es.s.3d638b4aa7eb4f7d",
+      "source": "Siempre veo películas extranjeras con subtítulos en lugar de dobladas. Pierdes muchísimo.",
+      "level": "B2",
+      "grammar": "'Rather than' to express a preference with an implied contrast",
+      "target": [
+        {
+          "text": "I always watch foreign films with subtitles rather than dubbing. You miss so much.",
+          "audioSlug": "i_always_watch_foreign_films_with_subtitles_rather_than_dubbing_you_miss_so_much"
+        }
+      ]
+    },
+    {
+      "id": "movies_soundtrack_adds_atmosphere",
+      "conceptId": "en.movies_soundtrack_adds_atmosphere",
+      "sourceId": "es.s.3d1082fe26c598b9",
+      "source": "La banda sonora aporta mucho a la atmósfera de esas escenas.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The soundtrack really adds to the atmosphere of those scenes.",
+          "audioSlug": "the_soundtrack_really_adds_to_the_atmosphere_of_those_scenes"
+        }
+      ]
+    },
+    {
+      "id": "movies_casting_was_perfect_choice",
+      "conceptId": "en.movies_casting_was_perfect_choice",
+      "sourceId": "es.s.ceec87f2952019a4",
+      "source": "Dudé del reparto pero ese actor resultó perfecto.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I doubted the casting but that actor turned out perfect.",
+          "audioSlug": "i_doubted_the_casting_but_that_actor_turned_out_perfect"
+        }
+      ]
+    },
+    {
+      "id": "movies_streaming_release_instead_theaters",
+      "conceptId": "en.movies_streaming_release_instead_theaters",
+      "sourceId": "es.s.6378365a6741ea70",
+      "source": "Se lanzó en plataformas en lugar de en los cines. Estaba hecha para la pantalla grande.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It went to streaming instead of theaters. It was made for the big screen.",
+          "audioSlug": "it_went_to_streaming_instead_of_theaters_it_was_made_for_the_big_screen"
+        }
+      ]
+    },
+    {
+      "id": "movies_nominated_best_foreign_film",
+      "conceptId": "en.movies_nominated_best_foreign_film",
+      "sourceId": "es.s.4d6ab715c8e1c5c2",
+      "source": "Ha sido nominada a Mejor Película Extranjera, generando mucha expectativa.",
+      "level": "B2",
+      "grammar": "Present perfect passive 'has been nominated' focuses on the result, not who made the nomination.",
+      "target": [
+        {
+          "text": "It has been nominated for Best Foreign Film, generating a lot of buzz.",
+          "audioSlug": "it_has_been_nominated_for_best_foreign_film_generating_a_lot_of_buzz"
+        }
+      ]
+    },
+    {
+      "id": "movies_character_motivations_hard_to_believe",
+      "conceptId": "en.movies_character_motivations_hard_to_believe",
+      "sourceId": "es.s.0b96fcb798f8e443",
+      "source": "Las motivaciones de los personajes eran difíciles de creer.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The characters motivations were hard to believe.",
+          "audioSlug": "the_characters_motivations_were_hard_to_believe"
+        }
+      ]
+    },
+    {
+      "id": "movies_unexpected_twist_ending",
+      "conceptId": "en.movies_unexpected_twist_ending",
+      "sourceId": "es.s.43db1549757ef13c",
+      "source": "Esa película tenía un giro inesperado al final que cambió completamente la historia.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "That film had an unexpected twist at the end that completely changed the story.",
+          "audioSlug": "that_film_had_an_unexpected_twist_at_the_end_that_completely_changed_the_story"
+        }
+      ]
+    },
+    {
+      "id": "movies_second_half_pacing_rushed",
+      "conceptId": "en.movies_second_half_pacing_rushed",
+      "sourceId": "es.s.e3f583ad9f619476",
+      "source": "La segunda mitad se sintió apresurada en comparación con el desarrollo lento del primer acto.",
+      "level": "B2",
+      "grammar": "'Compared to' for drawing a contrast between two parts of something",
+      "target": [
+        {
+          "text": "The second half felt rushed compared to the slow build-up of the first act.",
+          "audioSlug": "the_second_half_felt_rushed_compared_to_the_slow_build_up_of_the_first_act"
+        }
+      ]
+    },
+    {
+      "id": "movies_book_adaptation_missing_scenes",
+      "conceptId": "en.movies_book_adaptation_missing_scenes",
+      "sourceId": "es.s.c7342305bb7c3714",
+      "source": "Me decepcionó que la adaptación del libro omitiera tantas escenas clave.",
+      "level": "B2",
+      "grammar": "'That-clause' after 'disappointed' to explain the reason for the feeling",
+      "target": [
+        {
+          "text": "I was disappointed that the book adaptation left out so many key scenes.",
+          "audioSlug": "i_was_disappointed_that_the_book_adaptation_left_out_so_many_key_scenes"
+        }
+      ]
+    },
+    {
+      "id": "movies_previous_film_more_compelling",
+      "conceptId": "en.movies_previous_film_more_compelling",
+      "sourceId": "es.s.09cdd879a140b7af",
+      "source": "La película anterior del director era mucho más convincente. Esta resultó predecible.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The director's previous film was far more compelling. This one felt formulaic.",
+          "audioSlug": "the_director_s_previous_film_was_far_more_compelling_this_one_felt_formulaic"
+        }
+      ]
+    },
+    {
+      "id": "movies_oscars_best_picture_overhyped",
+      "conceptId": "en.movies_oscars_best_picture_overhyped",
+      "sourceId": "es.s.c93b506dc66a8648",
+      "source": "Ganó Mejor Película pero creo que estaba sobrevalorada.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It won Best Picture but I thought it was overhyped.",
+          "audioSlug": "it_won_best_picture_but_i_thought_it_was_overhyped"
+        }
+      ]
+    },
+    {
+      "id": "movies_unreliable_narrator_keeps_guessing",
+      "conceptId": "en.movies_unreliable_narrator_keeps_guessing",
+      "sourceId": "es.s.8f57f5146aca8b7f",
+      "source": "El narrador poco fiable te hace cuestionar lo que realmente pasó.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The film unreliable narrator keeps you questioning what actually happened.",
+          "audioSlug": "the_film_unreliable_narrator_keeps_you_questioning_what_actually_happened"
+        }
+      ]
+    },
+    {
+      "id": "movies_subtext_more_powerful_than_dialogue",
+      "conceptId": "en.movies_subtext_more_powerful_than_dialogue",
+      "sourceId": "es.s.246a96bd46ccd453",
+      "source": "Los momentos más poderosos se apoyan en el subtexto. Lo que no se dice tiene más peso que el diálogo.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The most powerful moments rely on subtext. What's left unsaid carries more weight than dialogue.",
+          "audioSlug": "the_most_powerful_moments_rely_on_subtext_what_s_left_unsaid_carries_more_weight_than_dialogue"
+        }
+      ]
+    },
+    {
+      "id": "movies_character_arc_fully_earned",
+      "conceptId": "en.movies_character_arc_fully_earned",
+      "sourceId": "es.s.66bf6e37baa7ee25",
+      "source": "Para el acto final, la transformación del personaje se sentía completamente justificada. Nada parecía forzado.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "By the final act, the character's transformation felt fully earned. Nothing seemed forced.",
+          "audioSlug": "by_the_final_act_the_character_s_transformation_felt_fully_earned_nothing_seemed_forced"
+        }
+      ]
+    },
+    {
+      "id": "movies_editing_creates_tension",
+      "conceptId": "en.movies_editing_creates_tension",
+      "sourceId": "es.s.28b8ee28e3ce624f",
+      "source": "El montaje en la secuencia de apertura es magistral. El ritmo de los cortes crea una tensión insoportable.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The editing in the opening sequence is masterful. The rhythm of the cuts creates unbearable tension.",
+          "audioSlug": "the_editing_in_the_opening_sequence_is_masterful_the_rhythm_of_the_cuts_creates_unbearable_tension"
+        }
+      ]
+    },
+    {
+      "id": "movies_nonlinear_storytelling_effective",
+      "conceptId": "en.movies_nonlinear_storytelling_effective",
+      "sourceId": "es.s.be837d90bcabcc11",
+      "source": "Encuentro que el uso de la narrativa no lineal por parte del director es particularmente efectivo en esta obra.",
+      "level": "C1",
+      "grammar": "'I find + object + adjective' for expressing a personal critical assessment",
+      "target": [
+        {
+          "text": "I find the director's use of non-linear storytelling particularly effective in this piece.",
+          "audioSlug": "i_find_the_director_s_use_of_non_linear_storytelling_particularly_effective_in_this_piece"
+        }
+      ]
+    },
+    {
+      "id": "movies_performances_script_characters",
+      "conceptId": "en.movies_performances_script_characters",
+      "sourceId": "es.s.f4e731b6aa0cc26a",
+      "source": "El guion no logró desarrollar a los personajes secundarios.",
+      "level": "C1",
+      "grammar": "'Failed to + infinitive' to express falling short of an expected task",
+      "target": [
+        {
+          "text": "The script failed to develop the supporting characters.",
+          "audioSlug": "the_script_failed_to_develop_the_supporting_characters"
+        }
+      ]
+    },
+    {
+      "id": "movies_cinematography_worth_watching",
+      "conceptId": "en.movies_cinematography_worth_watching",
+      "sourceId": "es.s.1fbcae25930e94a3",
+      "source": "La cinematografía por sí sola ya vale la pena. Cada fotograma parece una pintura.",
+      "level": "C1",
+      "grammar": "'Worth + gerund' ('worth watching') describes something that deserves your time or effort.",
+      "target": [
+        {
+          "text": "The cinematography alone makes it worth watching. Every frame looks like a painting.",
+          "audioSlug": "the_cinematography_alone_makes_it_worth_watching_every_frame_looks_like_a_painting"
+        }
+      ]
+    },
+    {
+      "id": "movies_two_tickets",
+      "conceptId": "en.movies_two_tickets",
+      "sourceId": "es.s.2d0e54fce7fc4ff5",
+      "source": "Dos boletos para la función de las ocho, por favor.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Two tickets for the eight o'clock showing, please.",
+          "audioSlug": "two_tickets_for_the_eight_o_clock_showing_please"
+        }
+      ]
+    },
+    {
+      "id": "movies_whats_showing",
+      "conceptId": "en.movies_whats_showing",
+      "sourceId": "es.s.8c6017cba0c07a05",
+      "source": "¿Qué películas hay en cartelera esta semana?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What movies are showing this week?",
+          "audioSlug": "what_movies_are_showing_this_week"
+        }
+      ]
+    },
+    {
+      "id": "movies_dubbed_or_subtitled",
+      "conceptId": "en.movies_dubbed_or_subtitled",
+      "sourceId": "es.s.3a57b5f06a8a156c",
+      "source": "¿La película está doblada o subtitulada?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is the movie dubbed or subtitled?",
+          "audioSlug": "is_the_movie_dubbed_or_subtitled"
+        }
+      ]
+    },
+    {
+      "id": "movies_what_kind_you_like",
+      "conceptId": "en.movies_what_kind_you_like",
+      "sourceId": "es.s.54020d92cede3db8",
+      "source": "¿Qué tipo de películas te gustan?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What kind of movies do you like?",
+          "audioSlug": "what_kind_of_movies_do_you_like"
+        }
+      ]
+    },
+    {
+      "id": "movies_favorite_movie",
+      "conceptId": "en.movies_favorite_movie",
+      "sourceId": "es.s.cb77f8b9257b4f13",
+      "source": "¿Cuál es tu película favorita?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What's your favorite movie?",
+          "audioSlug": "what_s_your_favorite_movie"
+        }
+      ]
+    },
+    {
+      "id": "movies_its_a_comedy",
+      "conceptId": "en.movies_its_a_comedy",
+      "sourceId": "es.s.d07af7389b0b1aa0",
+      "source": "Es una comedia.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It's a comedy.",
+          "audioSlug": "it_s_a_comedy"
+        }
+      ]
+    },
+    {
+      "id": "movies_want_to_watch_tonight",
+      "conceptId": "en.movies_want_to_watch_tonight",
+      "sourceId": "es.s.6ec522bf4af4f917",
+      "source": "¿Quieres ver una película esta noche?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do you want to watch a movie tonight?",
+          "audioSlug": "do_you_want_to_watch_a_movie_tonight"
+        }
+      ]
+    },
+    {
+      "id": "movies_where_buy_tickets",
+      "conceptId": "en.movies_where_buy_tickets",
+      "sourceId": "es.s.59f4b19a70ec1f11",
+      "source": "¿Dónde puedo comprar los boletos?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where can I buy tickets?",
+          "audioSlug": "where_can_i_buy_tickets"
+        }
+      ]
+    },
+    {
+      "id": "movies_original_version_subtitles",
+      "conceptId": "en.movies_original_version_subtitles",
+      "sourceId": "es.s.e37bd63ecb65113e",
+      "source": "Prefiero verla en versión original con subtítulos.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'd rather watch it in the original version with subtitles.",
+          "audioSlug": "i_d_rather_watch_it_in_the_original_version_with_subtitles"
+        }
+      ]
+    },
+    {
+      "id": "movies_they_appear_on_tv",
+      "conceptId": "en.movies_they_appear_on_tv",
+      "sourceId": "es.s.6ebc9315c4e073bf",
+      "source": "Aparecen en la televisión.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "They appear on TV.",
+          "audioSlug": "they_appear_on_tv"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "d7",
+  "concepts": {
+    "es.airport_mi_maleta_no_llego": {
+      "conceptId": "es.airport_mi_maleta_no_llego",
+      "id": "airport_mi_maleta_no_llego",
+      "target": [
+        {
+          "text": "Mi maleta no llegó, ¿dónde la reclamo?",
+          "audioSlug": "mi_maleta_no_llego_donde_la_reclamo"
+        }
+      ]
+    },
+    "es.calendario_nos_vemos_dentro_de_una_semana": {
+      "conceptId": "es.calendario_nos_vemos_dentro_de_una_semana",
+      "id": "calendario_nos_vemos_dentro_de_una_semana",
+      "target": [
+        {
+          "text": "Nos vemos dentro de una semana.",
+          "audioSlug": "nos_vemos_dentro_de_una_semana"
+        }
+      ]
+    },
+    "es.conversacion_leeme_el_texto_en_voz_alta": {
+      "conceptId": "es.conversacion_leeme_el_texto_en_voz_alta",
+      "id": "conversacion_leeme_el_texto_en_voz_alta",
+      "target": [
+        {
+          "text": "Léeme el texto en voz alta.",
+          "audioSlug": "leeme_el_texto_en_voz_alta"
+        }
+      ]
+    },
+    "es.estudios_me_gustan_las_novelas_de_detective": {
+      "conceptId": "es.estudios_me_gustan_las_novelas_de_detective",
+      "id": "estudios_me_gustan_las_novelas_de_detective",
+      "target": [
+        {
+          "text": "Me gustan las novelas de detective.",
+          "audioSlug": "me_gustan_las_novelas_de_detective"
+        }
+      ]
+    },
+    "es.kitchen_the_glasses_are_hanging_on_the": {
+      "conceptId": "es.kitchen_the_glasses_are_hanging_on_the",
+      "id": "kitchen_the_glasses_are_hanging_on_the",
+      "target": [
+        {
+          "text": "Las copas están colgadas en el estante.",
+          "audioSlug": "las_copas_estan_colgadas_en_el_estante"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_veo_una_estrella": {
+      "conceptId": "es.naturaleza_lugares_veo_una_estrella",
+      "id": "naturaleza_lugares_veo_una_estrella",
+      "target": [
+        {
+          "text": "Veo una estrella.",
+          "audioSlug": "veo_una_estrella"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_dificil_encontrar_la_verdad": {
+      "conceptId": "es.pensamientos_opiniones_dificil_encontrar_la_verdad",
+      "id": "pensamientos_opiniones_dificil_encontrar_la_verdad",
+      "target": [
+        {
+          "text": "A veces es difícil encontrar la verdad.",
+          "audioSlug": "a_veces_es_dificil_encontrar_la_verdad"
+        }
+      ]
+    },
+    "es.planes_vamos_a_terminar": {
+      "conceptId": "es.planes_vamos_a_terminar",
+      "id": "planes_vamos_a_terminar",
+      "target": [
+        {
+          "text": "Vamos a terminar.",
+          "audioSlug": "vamos_a_terminar"
+        }
+      ]
+    },
+    "es.profesiones_es_periodista": {
+      "conceptId": "es.profesiones_es_periodista",
+      "id": "profesiones_es_periodista",
+      "target": [
+        {
+          "text": "Es periodista.",
+          "audioSlug": "es_periodista"
+        }
+      ]
+    },
+    "es.restaurant_el_pan_es_un_alimento_basico": {
+      "conceptId": "es.restaurant_el_pan_es_un_alimento_basico",
+      "id": "restaurant_el_pan_es_un_alimento_basico",
+      "target": [
+        {
+          "text": "El pan es un alimento básico.",
+          "audioSlug": "el_pan_es_un_alimento_basico"
+        }
+      ]
+    },
+    "es.survival_que_quiere_decir_esta_palabra": {
+      "conceptId": "es.survival_que_quiere_decir_esta_palabra",
+      "id": "survival_que_quiere_decir_esta_palabra",
+      "target": [
+        {
+          "text": "¿Qué quiere decir esta palabra?",
+          "audioSlug": "que_quiere_decir_esta_palabra"
+        }
+      ]
+    },
+    "es.vestimenta_los_zapatos_me_quedan_apretados": {
+      "conceptId": "es.vestimenta_los_zapatos_me_quedan_apretados",
+      "id": "vestimenta_los_zapatos_me_quedan_apretados",
+      "target": [
+        {
+          "text": "Los zapatos me quedan apretados.",
+          "audioSlug": "los_zapatos_me_quedan_apretados"
+        }
+      ]
+    },
+    "es.viajes_hicimos_una_excursion_al_campo": {
+      "conceptId": "es.viajes_hicimos_una_excursion_al_campo",
+      "id": "viajes_hicimos_una_excursion_al_campo",
+      "target": [
+        {
+          "text": "Hicimos una excursión al campo.",
+          "audioSlug": "hicimos_una_excursion_al_campo"
+        }
+      ]
+    },
+    "es.viajes_viajar_es_una_gran_aventura": {
+      "conceptId": "es.viajes_viajar_es_una_gran_aventura",
+      "id": "viajes_viajar_es_una_gran_aventura",
+      "target": [
+        {
+          "text": "Viajar es una gran aventura.",
+          "audioSlug": "viajar_es_una_gran_aventura"
+        }
+      ]
+    }
+  }
+}

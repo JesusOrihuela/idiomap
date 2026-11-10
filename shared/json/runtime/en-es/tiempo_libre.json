@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "tiempo_libre",
+  "phrases": [
+    {
+      "id": "tiempo_libre_no_se_bailar",
+      "conceptId": "es.tiempo_libre_no_se_bailar",
+      "sourceId": "en.s.ede31b26d0e3048b",
+      "source": "I can't dance.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No sé bailar.",
+          "audioSlug": "no_se_bailar"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_vamos_a_pasear",
+      "conceptId": "es.tiempo_libre_vamos_a_pasear",
+      "sourceId": "en.s.433bd82297cdecc8",
+      "source": "Let's go for a walk.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos a pasear.",
+          "audioSlug": "vamos_a_pasear"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_me_gusta_el_baile",
+      "conceptId": "es.tiempo_libre_me_gusta_el_baile",
+      "sourceId": "en.s.e15d8eaec70030c0",
+      "source": "I like dancing.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gusta el baile.",
+          "audioSlug": "me_gusta_el_baile"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_leo_una_novela",
+      "conceptId": "es.tiempo_libre_leo_una_novela",
+      "sourceId": "en.s.e6edbc3219fbff27",
+      "source": "I am reading a novel.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Leo una novela.",
+          "audioSlug": "leo_una_novela"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_vamos_a_caminar",
+      "conceptId": "es.tiempo_libre_vamos_a_caminar",
+      "sourceId": "en.s.666b31ba47f4f483",
+      "source": "Let's walk.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos a caminar.",
+          "audioSlug": "vamos_a_caminar"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_hablaron_de_cultura",
+      "conceptId": "es.tiempo_libre_hablaron_de_cultura",
+      "sourceId": "en.s.26ab8c7d0b09d8ad",
+      "source": "They talked about culture.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hablaron de cultura.",
+          "audioSlug": "hablaron_de_cultura"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_salimos_de_paseo",
+      "conceptId": "es.tiempo_libre_salimos_de_paseo",
+      "sourceId": "en.s.2f4e4ca69936cf15",
+      "source": "We went for a walk.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Salimos de paseo.",
+          "audioSlug": "salimos_de_paseo"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_lei_un_cuento_a_los_ninos",
+      "conceptId": "es.tiempo_libre_lei_un_cuento_a_los_ninos",
+      "sourceId": "en.s.88f4fa5881625320",
+      "source": "I read a story to the children.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Leí un cuento a los niños.",
+          "audioSlug": "lei_un_cuento_a_los_ninos"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_cada_juego_tiene_sus_reglas",
+      "conceptId": "es.tiempo_libre_cada_juego_tiene_sus_reglas",
+      "sourceId": "en.s.409a09a81a315f8e",
+      "source": "Every game has its rules.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cada juego tiene sus reglas.",
+          "audioSlug": "cada_juego_tiene_sus_reglas"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_me_gusta_la_literatura",
+      "conceptId": "es.tiempo_libre_me_gusta_la_literatura",
+      "sourceId": "en.s.bed237ba0a85ae3b",
+      "source": "I like classic literature.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gusta la literatura clásica.",
+          "audioSlug": "me_gusta_la_literatura_clasica"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_jugamos_al_ajedrez",
+      "conceptId": "es.tiempo_libre_jugamos_al_ajedrez",
+      "sourceId": "en.s.0c1773aea2c8cc78",
+      "source": "We play chess after lunch.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Jugamos al ajedrez después de comer.",
+          "audioSlug": "jugamos_al_ajedrez_despues_de_comer"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_la_montana_rusa_es_la_mejor_atraccion",
+      "conceptId": "es.tiempo_libre_la_montana_rusa_es_la_mejor_atraccion",
+      "sourceId": "en.s.c8486ae08c16db65",
+      "source": "The roller coaster is the best attraction.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La montaña rusa es la mejor atracción.",
+          "audioSlug": "la_montana_rusa_es_la_mejor_atraccion"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_do_you_have_hobbies",
+      "conceptId": "es.tiempo_libre_do_you_have_hobbies",
+      "sourceId": "en.s.8a1d6193c140ccb0",
+      "source": "Do you have any hobbies?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Tienes algún pasatiempo?",
+          "audioSlug": "tienes_algun_pasatiempo"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_lets_go_hiking",
+      "conceptId": "es.tiempo_libre_lets_go_hiking",
+      "sourceId": "en.s.158a7459dbd8492d",
+      "source": "Let's go hiking on Saturday.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos de excursión el sábado.",
+          "audioSlug": "vamos_de_excursion_el_sabado"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_enjoy_reading_before_bed",
+      "conceptId": "es.tiempo_libre_enjoy_reading_before_bed",
+      "sourceId": "en.s.05bdd213a129fdb9",
+      "source": "I enjoy reading before bed.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Disfruto leer antes de dormir.",
+          "audioSlug": "disfruto_leer_antes_de_dormir"
+        }
+      ]
+    },
+    {
+      "id": "tiempo_libre_what_do_you_do_for_fun",
+      "conceptId": "es.tiempo_libre_what_do_you_do_for_fun",
+      "sourceId": "en.s.02fdf1003362d8d3",
+      "source": "What do you do for fun?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué haces para divertirte?",
+          "audioSlug": "que_haces_para_divertirte"
+        }
+      ]
+    }
+  ]
+}

@@ -26,12 +26,16 @@ const PathSession = (() => {
   const ACT_ORDER = ['speaking', 'grammar', 'vocabulary', 'quiz', 'cloze', 'dictation', 'translation', 'scramble'];
 
   // Card prefix per phrase activity (matches progress.js convention)
+  // Single source of truth is Progress.ACTIVITY_PREFIX (progress.js loads first).
+  const _P = (typeof Progress !== 'undefined' && Progress.ACTIVITY_PREFIX)
+    ? Progress.ACTIVITY_PREFIX
+    : { speaking: '', cloze: 'cloze_', dictation: 'dict_', translation: 'trans_', scramble: 'scramble_' };
   const PHRASE_PREFIX = {
-    speaking:    '',
-    cloze:       'cloze_',
-    dictation:   'dict_',
-    translation: 'trans_',
-    scramble:    'scramble_',
+    speaking:    _P.speaking,
+    cloze:       _P.cloze,
+    dictation:   _P.dictation,
+    translation: _P.translation,
+    scramble:    _P.scramble,
   };
 
   // ── Time estimation (seconds per card per activity) ─────────────────────

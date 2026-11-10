@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "44",
+  "concepts": {
+    "es.accountability_write_off_bad_debt_quarter": {
+      "conceptId": "es.accountability_write_off_bad_debt_quarter",
+      "id": "accountability_write_off_bad_debt_quarter",
+      "target": [
+        {
+          "text": "Tendremos que dar de baja la deuda incobrable antes de cerrar el trimestre.",
+          "audioSlug": "tendremos_que_dar_de_baja_la_deuda_incobrable_antes_de_cerrar_el_trimestre"
+        }
+      ]
+    },
+    "es.calendario_el_lunes_es_un_dia_festivo": {
+      "conceptId": "es.calendario_el_lunes_es_un_dia_festivo",
+      "id": "calendario_el_lunes_es_un_dia_festivo",
+      "target": [
+        {
+          "text": "El lunes es un día festivo.",
+          "audioSlug": "el_lunes_es_un_dia_festivo"
+        }
+      ]
+    },
+    "es.deportes_los_jugadores_llevan_uniforme": {
+      "conceptId": "es.deportes_los_jugadores_llevan_uniforme",
+      "id": "deportes_los_jugadores_llevan_uniforme",
+      "target": [
+        {
+          "text": "Los jugadores llevan uniforme.",
+          "audioSlug": "los_jugadores_llevan_uniforme"
+        }
+      ]
+    },
+    "es.descripciones_el_clima_de_la_costa_es_agradable": {
+      "conceptId": "es.descripciones_el_clima_de_la_costa_es_agradable",
+      "id": "descripciones_el_clima_de_la_costa_es_agradable",
+      "target": [
+        {
+          "text": "El clima de la costa es agradable.",
+          "audioSlug": "el_clima_de_la_costa_es_agradable"
+        }
+      ]
+    },
+    "es.descripciones_la_diferencia_cultural_es_interesante": {
+      "conceptId": "es.descripciones_la_diferencia_cultural_es_interesante",
+      "id": "descripciones_la_diferencia_cultural_es_interesante",
+      "target": [
+        {
+          "text": "La diferencia cultural es interesante.",
+          "audioSlug": "la_diferencia_cultural_es_interesante"
+        }
+      ]
+    },
+    "es.emociones_senti_una_gran_emocion": {
+      "conceptId": "es.emociones_senti_una_gran_emocion",
+      "id": "emociones_senti_una_gran_emocion",
+      "target": [
+        {
+          "text": "Sentí una gran emoción.",
+          "audioSlug": "senti_una_gran_emocion"
+        }
+      ]
+    },
+    "es.gym_how_many_repetitions_should_i_do": {
+      "conceptId": "es.gym_how_many_repetitions_should_i_do",
+      "id": "gym_how_many_repetitions_should_i_do",
+      "target": [
+        {
+          "text": "¿Cuántas repeticiones debería hacer para este ejercicio?",
+          "audioSlug": "cuantas_repeticiones_deberia_hacer_para_este_ejercicio"
+        }
+      ]
+    },
+    "es.health_i_hurt_my_knee": {
+      "conceptId": "es.health_i_hurt_my_knee",
+      "id": "health_i_hurt_my_knee",
+      "target": [
+        {
+          "text": "Me lastimé la rodilla.",
+          "audioSlug": "me_lastime_la_rodilla"
+        }
+      ]
+    },
+    "es.hogar_necesito_jabon_para_lavarme": {
+      "conceptId": "es.hogar_necesito_jabon_para_lavarme",
+      "id": "hogar_necesito_jabon_para_lavarme",
+      "target": [
+        {
+          "text": "Necesito jabón para lavarme.",
+          "audioSlug": "necesito_jabon_para_lavarme"
+        }
+      ]
+    },
+    "es.kitchen_la_crema_pastelera_esta_deliciosa": {
+      "conceptId": "es.kitchen_la_crema_pastelera_esta_deliciosa",
+      "id": "kitchen_la_crema_pastelera_esta_deliciosa",
+      "target": [
+        {
+          "text": "La crema pastelera está deliciosa.",
+          "audioSlug": "la_crema_pastelera_esta_deliciosa"
+        }
+      ]
+    },
+    "es.movies_midnight_premiere_sells_out": {
+      "conceptId": "es.movies_midnight_premiere_sells_out",
+      "id": "movies_midnight_premiere_sells_out",
+      "target": [
+        {
+          "text": "¿Vamos al estreno de medianoche, ya que las entradas se agotan rápido?",
+          "audioSlug": "vamos_al_estreno_de_medianoche_ya_que_las_entradas_se_agotan_rapido"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_hay_que_considerar_todos_los_aspectos": {
+      "conceptId": "es.pensamientos_opiniones_hay_que_considerar_todos_los_aspectos",
+      "id": "pensamientos_opiniones_hay_que_considerar_todos_los_aspectos",
+      "target": [
+        {
+          "text": "Hay que considerar todos los aspectos.",
+          "audioSlug": "hay_que_considerar_todos_los_aspectos"
+        }
+      ]
+    },
+    "es.supermarket_el_platano_es_mi_fruta_favorita": {
+      "conceptId": "es.supermarket_el_platano_es_mi_fruta_favorita",
+      "id": "supermarket_el_platano_es_mi_fruta_favorita",
+      "target": [
+        {
+          "text": "El plátano es mi fruta favorita.",
+          "audioSlug": "el_platano_es_mi_fruta_favorita"
+        }
+      ]
+    },
+    "es.supermarket_have_you_made_the_grocery_list": {
+      "conceptId": "es.supermarket_have_you_made_the_grocery_list",
+      "id": "supermarket_have_you_made_the_grocery_list",
+      "target": [
+        {
+          "text": "¿Ya hiciste la lista del supermercado?",
+          "audioSlug": "ya_hiciste_la_lista_del_supermercado"
+        }
+      ]
+    },
+    "es.supermarket_i_dont_like_this_supermarket_the": {
+      "conceptId": "es.supermarket_i_dont_like_this_supermarket_the",
+      "id": "supermarket_i_dont_like_this_supermarket_the",
+      "target": [
+        {
+          "text": "No me gusta este supermercado porque es muy caro.",
+          "audioSlug": "no_me_gusta_este_supermercado_porque_es_muy_caro"
+        }
+      ]
+    },
+    "es.supermarket_un_litro_de_leche_por_favor": {
+      "conceptId": "es.supermarket_un_litro_de_leche_por_favor",
+      "id": "supermarket_un_litro_de_leche_por_favor",
+      "target": [
+        {
+          "text": "Un litro de leche, por favor.",
+          "audioSlug": "un_litro_de_leche_por_favor"
+        }
+      ]
+    },
+    "es.tiempo_libre_cuando_tengo_tiempo_visito_museos": {
+      "conceptId": "es.tiempo_libre_cuando_tengo_tiempo_visito_museos",
+      "id": "tiempo_libre_cuando_tengo_tiempo_visito_museos",
+      "target": [
+        {
+          "text": "Cuando tengo tiempo, visito museos.",
+          "audioSlug": "cuando_tengo_tiempo_visito_museos"
+        }
+      ]
+    }
+  }
+}

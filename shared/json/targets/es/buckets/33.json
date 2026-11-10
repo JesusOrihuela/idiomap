@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "33",
+  "concepts": {
+    "es.accommodation_cancellation_policy": {
+      "conceptId": "es.accommodation_cancellation_policy",
+      "id": "accommodation_cancellation_policy",
+      "target": [
+        {
+          "text": "¿Cuál es la política de cancelación de la reserva?",
+          "audioSlug": "cual_es_la_politica_de_cancelacion_de_la_reserva"
+        }
+      ]
+    },
+    "es.describiendo_personas_el_nino_es_rubio": {
+      "conceptId": "es.describiendo_personas_el_nino_es_rubio",
+      "id": "describiendo_personas_el_nino_es_rubio",
+      "target": [
+        {
+          "text": "El niño es rubio.",
+          "audioSlug": "el_nino_es_rubio"
+        }
+      ]
+    },
+    "es.descripciones_la_caja_es_cuadrada": {
+      "conceptId": "es.descripciones_la_caja_es_cuadrada",
+      "id": "descripciones_la_caja_es_cuadrada",
+      "target": [
+        {
+          "text": "La caja es cuadrada.",
+          "audioSlug": "la_caja_es_cuadrada"
+        }
+      ]
+    },
+    "es.directions_is_it_far_from_here": {
+      "conceptId": "es.directions_is_it_far_from_here",
+      "id": "directions_is_it_far_from_here",
+      "target": [
+        {
+          "text": "¿Está lejos de aquí?",
+          "audioSlug": "esta_lejos_de_aqui"
+        }
+      ]
+    },
+    "es.family_la_senora_del_piso_de_arriba_es_amable": {
+      "conceptId": "es.family_la_senora_del_piso_de_arriba_es_amable",
+      "id": "family_la_senora_del_piso_de_arriba_es_amable",
+      "target": [
+        {
+          "text": "La señora del piso de arriba es amable.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Dame aus der oberen Wohnung ist nett.",
+          "audioSlug": "la_senora_del_piso_de_arriba_es_amable"
+        },
+        {
+          "text": "El señor del piso de arriba es amable.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Herr aus der oberen Wohnung ist nett.",
+          "audioSlug": "el_senor_del_piso_de_arriba_es_amable"
+        }
+      ]
+    },
+    "es.greetings_perdon": {
+      "conceptId": "es.greetings_perdon",
+      "id": "greetings_perdon",
+      "target": [
+        {
+          "text": "Perdón.",
+          "audioSlug": "perdon"
+        }
+      ]
+    },
+    "es.greetings_te_presento_a_mi_amiga_ana": {
+      "conceptId": "es.greetings_te_presento_a_mi_amiga_ana",
+      "id": "greetings_te_presento_a_mi_amiga_ana",
+      "target": [
+        {
+          "text": "Te presento a mi amiga Ana.",
+          "audioSlug": "te_presento_a_mi_amiga_ana",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Le presento a mi amiga Ana.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "le_presento_a_mi_amiga_ana"
+        }
+      ]
+    },
+    "es.gym_im_motivated": {
+      "conceptId": "es.gym_im_motivated",
+      "id": "gym_im_motivated",
+      "target": [
+        {
+          "text": "¡Estoy motivada!",
+          "audioSlug": "estoy_motivada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "¡Estoy motivado!",
+          "audioSlug": "estoy_motivado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.gym_keep_your_back_straight": {
+      "conceptId": "es.gym_keep_your_back_straight",
+      "id": "gym_keep_your_back_straight",
+      "target": [
+        {
+          "text": "Mantén la espalda recta.",
+          "audioSlug": "manten_la_espalda_recta"
+        }
+      ]
+    },
+    "es.music_me_gusta_mucho_la_musica": {
+      "conceptId": "es.music_me_gusta_mucho_la_musica",
+      "id": "music_me_gusta_mucho_la_musica",
+      "target": [
+        {
+          "text": "Me gusta mucho la música.",
+          "audioSlug": "me_gusta_mucho_la_musica"
+        }
+      ]
+    },
+    "es.tiempo_libre_do_you_have_hobbies": {
+      "conceptId": "es.tiempo_libre_do_you_have_hobbies",
+      "id": "tiempo_libre_do_you_have_hobbies",
+      "target": [
+        {
+          "text": "¿Tienes algún pasatiempo?",
+          "audioSlug": "tienes_algun_pasatiempo"
+        }
+      ]
+    }
+  }
+}

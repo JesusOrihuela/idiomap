@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "3d",
+  "concepts": {
+    "es.airport_waiting_room_location": {
+      "conceptId": "es.airport_waiting_room_location",
+      "id": "airport_waiting_room_location",
+      "target": [
+        {
+          "text": "La sala de espera está en la planta baja.",
+          "audioSlug": "la_sala_de_espera_esta_en_la_planta_baja"
+        }
+      ]
+    },
+    "es.conversacion_es_importante_formar_buenas_relaciones": {
+      "conceptId": "es.conversacion_es_importante_formar_buenas_relaciones",
+      "id": "conversacion_es_importante_formar_buenas_relaciones",
+      "target": [
+        {
+          "text": "Es importante formar buenas relaciones.",
+          "audioSlug": "es_importante_formar_buenas_relaciones"
+        }
+      ]
+    },
+    "es.daily_routine_es_importante_levantarse_temprano": {
+      "conceptId": "es.daily_routine_es_importante_levantarse_temprano",
+      "id": "daily_routine_es_importante_levantarse_temprano",
+      "target": [
+        {
+          "text": "Es importante levantarse temprano.",
+          "audioSlug": "es_importante_levantarse_temprano"
+        }
+      ]
+    },
+    "es.descripciones_el_parque_es_un_lugar_publico": {
+      "conceptId": "es.descripciones_el_parque_es_un_lugar_publico",
+      "id": "descripciones_el_parque_es_un_lugar_publico",
+      "target": [
+        {
+          "text": "El parque es un lugar público.",
+          "audioSlug": "el_parque_es_un_lugar_publico"
+        }
+      ]
+    },
+    "es.directions_across_from": {
+      "conceptId": "es.directions_across_from",
+      "id": "directions_across_from",
+      "target": [
+        {
+          "text": "Está enfrente del parque.",
+          "audioSlug": "esta_enfrente_del_parque"
+        }
+      ]
+    },
+    "es.emociones_how_do_you_feel": {
+      "conceptId": "es.emociones_how_do_you_feel",
+      "id": "emociones_how_do_you_feel",
+      "target": [
+        {
+          "text": "¿Cómo te sientes?",
+          "audioSlug": "como_te_sientes"
+        }
+      ]
+    },
+    "es.estudios_casi_suspendo_el_examen": {
+      "conceptId": "es.estudios_casi_suspendo_el_examen",
+      "id": "estudios_casi_suspendo_el_examen",
+      "target": [
+        {
+          "text": "Casi suspendo el examen.",
+          "audioSlug": "casi_suspendo_el_examen"
+        }
+      ]
+    },
+    "es.greetings_youre_welcome": {
+      "conceptId": "es.greetings_youre_welcome",
+      "id": "greetings_youre_welcome",
+      "target": [
+        {
+          "text": "De nada.",
+          "audioSlug": "de_nada"
+        }
+      ]
+    },
+    "es.gym_could_you_inform_me_about_the": {
+      "conceptId": "es.gym_could_you_inform_me_about_the",
+      "id": "gym_could_you_inform_me_about_the",
+      "target": [
+        {
+          "text": "¿Me podrían informar sobre los planes de membresía que ofrecen?",
+          "audioSlug": "me_podrian_informar_sobre_los_planes_de_membresia_que_ofrecen"
+        }
+      ]
+    },
+    "es.kitchen_que_bebida_prefieres_con_la_comida": {
+      "conceptId": "es.kitchen_que_bebida_prefieres_con_la_comida",
+      "id": "kitchen_que_bebida_prefieres_con_la_comida",
+      "target": [
+        {
+          "text": "¿Qué bebida prefieres con la comida?",
+          "audioSlug": "que_bebida_prefieres_con_la_comida"
+        }
+      ]
+    },
+    "es.music_skip_song": {
+      "conceptId": "es.music_skip_song",
+      "id": "music_skip_song",
+      "target": [
+        {
+          "text": "Sáltate esa canción.",
+          "audioSlug": "saltate_esa_cancion"
+        }
+      ]
+    },
+    "es.personal_info_whats_your_name": {
+      "conceptId": "es.personal_info_whats_your_name",
+      "id": "personal_info_whats_your_name",
+      "target": [
+        {
+          "text": "¿Cómo te llamas?",
+          "audioSlug": "como_te_llamas"
+        }
+      ]
+    },
+    "es.sitios_compro_novelas_en_la_libreria": {
+      "conceptId": "es.sitios_compro_novelas_en_la_libreria",
+      "id": "sitios_compro_novelas_en_la_libreria",
+      "target": [
+        {
+          "text": "Compro novelas en la librería.",
+          "audioSlug": "compro_novelas_en_la_libreria"
+        }
+      ]
+    },
+    "es.sitios_es_un_aeropuerto_internacional_muy_grande": {
+      "conceptId": "es.sitios_es_un_aeropuerto_internacional_muy_grande",
+      "id": "sitios_es_un_aeropuerto_internacional_muy_grande",
+      "target": [
+        {
+          "text": "Es un aeropuerto internacional muy grande.",
+          "audioSlug": "es_un_aeropuerto_internacional_muy_grande"
+        }
+      ]
+    },
+    "es.technology_i_accidentally_deleted_the_conversation_can": {
+      "conceptId": "es.technology_i_accidentally_deleted_the_conversation_can",
+      "id": "technology_i_accidentally_deleted_the_conversation_can",
+      "target": [
+        {
+          "text": "Eliminé accidentalmente la conversación, ¿puedes reenviarme el mensaje?",
+          "audioSlug": "elimine_accidentalmente_la_conversacion_puedes_reenviarme_el_mensaje"
+        }
+      ]
+    },
+    "es.tiempo_libre_me_gusta_oir_musica_clasica": {
+      "conceptId": "es.tiempo_libre_me_gusta_oir_musica_clasica",
+      "id": "tiempo_libre_me_gusta_oir_musica_clasica",
+      "target": [
+        {
+          "text": "Me gusta oír música clásica.",
+          "audioSlug": "me_gusta_oir_musica_clasica"
+        }
+      ]
+    },
+    "es.tiempo_libre_pintar_me_ayuda_a_relajarme": {
+      "conceptId": "es.tiempo_libre_pintar_me_ayuda_a_relajarme",
+      "id": "tiempo_libre_pintar_me_ayuda_a_relajarme",
+      "target": [
+        {
+          "text": "Pintar me ayuda a relajarme.",
+          "audioSlug": "pintar_me_ayuda_a_relajarme"
+        }
+      ]
+    },
+    "es.vestimenta_se_ha_pasado_de_moda": {
+      "conceptId": "es.vestimenta_se_ha_pasado_de_moda",
+      "id": "vestimenta_se_ha_pasado_de_moda",
+      "target": [
+        {
+          "text": "Se ha pasado de moda.",
+          "audioSlug": "se_ha_pasado_de_moda"
+        }
+      ]
+    }
+  }
+}

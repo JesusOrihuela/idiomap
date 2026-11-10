@@ -35,7 +35,13 @@
           "audioSlug": "bus"
         }
       ],
-      "conceptId": "es.bus"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "taxi",
@@ -56,7 +62,13 @@
       "gloss_example": {
         "en": "We took a taxi from the hotel to the train station."
       },
-      "conceptId": "es.taxi"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "station",
@@ -77,7 +89,13 @@
       "gloss_example": {
         "en": "The train station is a ten-minute walk from the hotel."
       },
-      "conceptId": "es.station"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "stop",
@@ -98,7 +116,13 @@
       "gloss_example": {
         "en": "Get off at the third stop. The museum is right there."
       },
-      "conceptId": "es.stop"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "metro",
@@ -135,7 +159,13 @@
           "audioSlug": "subterraneo"
         }
       ],
-      "conceptId": "es.metro"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "fare",
@@ -172,7 +202,13 @@
           "audioSlug": "pasaje"
         }
       ],
-      "conceptId": "es.fare"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "route",
@@ -193,7 +229,13 @@
       "gloss_example": {
         "en": "Which route do you recommend, the highway or the scenic road?"
       },
-      "conceptId": "es.route"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "transfer",
@@ -230,7 +272,13 @@
           "audioSlug": "traslado"
         }
       ],
-      "conceptId": "es.transfer"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "schedule",
@@ -251,7 +299,13 @@
       "gloss_example": {
         "en": "Check the bus schedule online before heading to the stop."
       },
-      "conceptId": "es.schedule"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "itinerary",
@@ -272,7 +326,13 @@
       "gloss_example": {
         "en": "The tour guide handed out the itinerary for our three-day trip."
       },
-      "conceptId": "es.itinerary"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "platform",
@@ -309,7 +369,13 @@
           "audioSlug": "plataforma"
         }
       ],
-      "conceptId": "es.platform"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "carpool",
@@ -330,7 +396,13 @@
       "gloss_example": {
         "en": "We set up a carpool with three colleagues to avoid paying for parking every day."
       },
-      "conceptId": "es.carpool"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "commute",
@@ -351,7 +423,13 @@
       "gloss_example": {
         "en": "Her daily commute takes over an hour each way by train."
       },
-      "conceptId": "es.commute"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "compensation",
@@ -388,7 +466,13 @@
           "audioSlug": "indemnizacion"
         }
       ],
-      "conceptId": "es.compensation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "congestion",
@@ -425,7 +509,13 @@
           "audioSlug": "trafico"
         }
       ],
-      "conceptId": "es.congestion"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bypass",
@@ -469,7 +559,13 @@
           "audioSlug": "circunvalacion"
         }
       ],
-      "conceptId": "es.bypass"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "interchange",
@@ -506,7 +602,13 @@
           "audioSlug": "nodo_de_transporte"
         }
       ],
-      "conceptId": "es.interchange"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ridesharing",
@@ -527,7 +629,13 @@
       "gloss_example": {
         "en": "Ridesharing apps have changed how people travel in cities around the world."
       },
-      "conceptId": "es.ridesharing"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "surcharge",
@@ -564,7 +672,13 @@
           "audioSlug": "sobrecargo"
         }
       ],
-      "conceptId": "es.surcharge"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "infrastructure",
@@ -585,7 +699,13 @@
       "gloss_example": {
         "en": "Poor infrastructure is one of the main reasons public transport is unreliable in this region."
       },
-      "conceptId": "es.infrastructure"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "accessibility",
@@ -606,7 +726,13 @@
       "gloss_example": {
         "en": "The new bus fleet was praised for its improved accessibility for wheelchair users."
       },
-      "conceptId": "es.accessibility"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "subsidy",
@@ -643,7 +769,13 @@
           "audioSlug": "subsidio"
         }
       ],
-      "conceptId": "es.subsidy"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "penalty",
@@ -680,7 +812,13 @@
           "audioSlug": "sancion"
         }
       ],
-      "conceptId": "es.penalty"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "liability",
@@ -701,7 +839,13 @@
       "gloss_example": {
         "en": "The rental agreement clearly states the renter's liability for vehicle damage."
       },
-      "conceptId": "es.liability"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "urban_mobility",
@@ -722,7 +866,13 @@
       "gloss_example": {
         "en": "Improving urban mobility requires investment in both infrastructure and behavioral change."
       },
-      "conceptId": "es.urban_mobility"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "deregulation",
@@ -743,7 +893,13 @@
       "gloss_example": {
         "en": "The deregulation of the bus industry led to lower prices but less reliable services."
       },
-      "conceptId": "es.deregulation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "congestion_pricing",
@@ -780,7 +936,13 @@
           "audioSlug": "peaje_urbano"
         }
       ],
-      "conceptId": "es.congestion_pricing"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "intermodal",
@@ -801,7 +963,13 @@
       "gloss_example": {
         "en": "The new intermodal hub connects rail, bus, and cycle lanes in a single terminal."
       },
-      "conceptId": "es.intermodal"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "carbon_footprint",
@@ -822,7 +990,13 @@
       "gloss_example": {
         "en": "Taking the train instead of flying dramatically reduces your carbon footprint."
       },
-      "conceptId": "es.carbon_footprint"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "franchise",
@@ -859,7 +1033,13 @@
           "audioSlug": "franquicia"
         }
       ],
-      "conceptId": "es.franchise"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "drive",
@@ -896,7 +1076,13 @@
           "audioSlug": "manejar"
         }
       ],
-      "conceptId": "es.drive"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "trip",
@@ -917,7 +1103,13 @@
       "gloss_example": {
         "en": "We took a trip to the mountains."
       },
-      "conceptId": "es.trip"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "mile",
@@ -938,7 +1130,13 @@
       "gloss_example": {
         "en": "The station is two miles away."
       },
-      "conceptId": "es.mile"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cross",
@@ -959,7 +1157,13 @@
       "gloss_example": {
         "en": "Look both ways before you cross the street."
       },
-      "conceptId": "es.cross"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "airplane",
@@ -980,7 +1184,13 @@
       "gloss_example": {
         "en": "The airplane landed on time."
       },
-      "conceptId": "es.airplane"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "vacaciones",
@@ -1001,7 +1211,13 @@
       "gloss_example": {
         "en": "We are going on vacation in July."
       },
-      "conceptId": "es.vacaciones"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "guia",
@@ -1022,7 +1238,13 @@
       "gloss_example": {
         "en": "The guide showed us the city."
       },
-      "conceptId": "es.guia"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "turismo",
@@ -1043,7 +1265,13 @@
       "gloss_example": {
         "en": "Tourism is important on the coast."
       },
-      "conceptId": "es.turismo"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "excursion",
@@ -1064,7 +1292,13 @@
       "gloss_example": {
         "en": "We took a trip to the mountains."
       },
-      "conceptId": "es.excursion"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "coche",
@@ -1108,7 +1342,13 @@
           "audioSlug": "auto"
         }
       ],
-      "conceptId": "es.coche"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bicicleta",
@@ -1129,7 +1369,13 @@
       "gloss_example": {
         "en": "I go to work by bicycle."
       },
-      "conceptId": "es.bicicleta"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "barco",
@@ -1150,7 +1396,13 @@
       "gloss_example": {
         "en": "We crossed the river by boat."
       },
-      "conceptId": "es.barco"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "tren",
@@ -1171,7 +1423,13 @@
       "gloss_example": {
         "en": "I took the morning train."
       },
-      "conceptId": "es.tren"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "motorcycle",
@@ -1208,7 +1466,13 @@
           "audioSlug": "motocicleta"
         }
       ],
-      "conceptId": "es.motorcycle"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "wheel",
@@ -1229,7 +1493,13 @@
       "gloss_example": {
         "en": "One wheel of the car is flat."
       },
-      "conceptId": "es.wheel"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

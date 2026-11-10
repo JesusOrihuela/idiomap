@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "ae",
+  "concepts": {
+    "es.accommodation_store_luggage": {
+      "conceptId": "es.accommodation_store_luggage",
+      "id": "accommodation_store_luggage",
+      "target": [
+        {
+          "text": "¿Dónde puedo guardar el equipaje después de la salida?",
+          "audioSlug": "donde_puedo_guardar_el_equipaje_despues_de_la_salida"
+        }
+      ]
+    },
+    "es.greetings_mi_vecino_es_muy_amable": {
+      "conceptId": "es.greetings_mi_vecino_es_muy_amable",
+      "id": "greetings_mi_vecino_es_muy_amable",
+      "target": [
+        {
+          "text": "Mi vecino es muy amable.",
+          "source": "Mein Nachbar ist sehr freundlich.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "mi_vecino_es_muy_amable"
+        },
+        {
+          "text": "Mi vecina es muy amable.",
+          "source": "Meine Nachbarin ist sehr freundlich.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "mi_vecina_es_muy_amable"
+        }
+      ]
+    },
+    "es.hogar_usa_el_cepillo_de_dientes_cada_dia": {
+      "conceptId": "es.hogar_usa_el_cepillo_de_dientes_cada_dia",
+      "id": "hogar_usa_el_cepillo_de_dientes_cada_dia",
+      "target": [
+        {
+          "text": "Usa el cepillo de dientes cada día.",
+          "audioSlug": "usa_el_cepillo_de_dientes_cada_dia"
+        }
+      ]
+    },
+    "es.kitchen_the_forks_and_knives_are_in": {
+      "conceptId": "es.kitchen_the_forks_and_knives_are_in",
+      "id": "kitchen_the_forks_and_knives_are_in",
+      "target": [
+        {
+          "text": "Los tenedores y cuchillos están en el cajón.",
+          "audioSlug": "los_tenedores_y_cuchillos_estan_en_el_cajon"
+        }
+      ]
+    },
+    "es.music_blends_traditional_contemporary": {
+      "conceptId": "es.music_blends_traditional_contemporary",
+      "id": "music_blends_traditional_contemporary",
+      "target": [
+        {
+          "text": "Este álbum fusiona con fluidez influencias tradicionales y contemporáneas.",
+          "audioSlug": "este_album_fusiona_con_fluidez_influencias_tradicionales_y_contemporaneas"
+        }
+      ]
+    },
+    "es.sitios_el_pueblo_tiene_mil_habitantes": {
+      "conceptId": "es.sitios_el_pueblo_tiene_mil_habitantes",
+      "id": "sitios_el_pueblo_tiene_mil_habitantes",
+      "target": [
+        {
+          "text": "El pueblo tiene mil habitantes.",
+          "audioSlug": "el_pueblo_tiene_mil_habitantes"
+        }
+      ]
+    }
+  }
+}

@@ -354,6 +354,19 @@ for (const lang of vocabLangs) {
           });
         }
       }
+
+      // L1 example (optional): an object keyed by source language. It is shown
+      // below the target example on the flashcard back; empty values are bugs.
+      if (w.gloss_example !== undefined) {
+        if (!w.gloss_example || typeof w.gloss_example !== 'object' || Array.isArray(w.gloss_example)) {
+          flag('vocab/' + lang, deck, w.id, 'gloss_example', 'schema', 'gloss_example must be an object keyed by source language');
+        } else {
+          for (const [src, text] of Object.entries(w.gloss_example)) {
+            if (typeof text !== 'string' || !text.trim())
+              flag('vocab/' + lang, deck, w.id, `gloss_example.${src}`, 'schema', 'gloss_example value must be a non-empty string');
+          }
+        }
+      }
     }
   }
   for (const [, list] of termSeen) {

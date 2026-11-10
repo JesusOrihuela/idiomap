@@ -17,7 +17,13 @@
       "gloss_example": {
         "es": "Nunca compartas tu contraseña con nadie."
       },
-      "conceptId": "en.password"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "biometric",
@@ -36,7 +42,13 @@
       "gloss_example": {
         "es": "La mayoría de los teléfonos modernos admiten inicio de sesión biométrico."
       },
-      "conceptId": "en.biometric"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "encryption",
@@ -55,7 +67,13 @@
       "gloss_example": {
         "es": "El cifrado de extremo a extremo mantiene tus mensajes privados y seguros."
       },
-      "conceptId": "en.encryption"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "malware",
@@ -74,7 +92,13 @@
       "gloss_example": {
         "es": "El programa antivirus detectó software malicioso en la computadora."
       },
-      "conceptId": "en.malware"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ransomware",
@@ -93,7 +117,13 @@
       "gloss_example": {
         "es": "El hospital tuvo que desconectarse varios días tras un ataque de ransomware."
       },
-      "conceptId": "en.ransomware"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "phishing",
@@ -112,7 +142,13 @@
       "gloss_example": {
         "es": "Casi hizo clic en un enlace de suplantación de identidad que parecía un mensaje de su banco."
       },
-      "conceptId": "en.phishing"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "vulnerability",
@@ -131,7 +167,13 @@
       "gloss_example": {
         "es": "El equipo corrigió una vulnerabilidad crítica antes de que fuera descubierta públicamente."
       },
-      "conceptId": "en.vulnerability"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "data_breach",
@@ -150,7 +192,13 @@
       "gloss_example": {
         "es": "La empresa notificó a los usuarios tras una filtración de datos que expuso sus contraseñas."
       },
-      "conceptId": "en.data_breach"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cybersecurity",
@@ -169,7 +217,13 @@
       "gloss_example": {
         "es": "La empresa contrató una firma de ciberseguridad tras el ataque de ransomware."
       },
-      "conceptId": "en.cybersecurity"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "surveillance",
@@ -188,7 +242,13 @@
       "gloss_example": {
         "es": "Los activistas expresaron preocupación por la vigilancia masiva habilitada por el software de reconocimiento facial."
       },
-      "conceptId": "en.surveillance"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "dark_pattern",
@@ -207,7 +267,13 @@
       "gloss_example": {
         "es": "Ocultar el botón de cancelar suscripción es un patrón engañoso clásico."
       },
-      "conceptId": "en.dark_pattern"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "algorithmic_bias",
@@ -226,7 +292,13 @@
       "gloss_example": {
         "es": "Los investigadores encontraron sesgo algorítmico en la herramienta de contratación, que penalizaba los currículums de mujeres."
       },
-      "conceptId": "en.algorithmic_bias"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

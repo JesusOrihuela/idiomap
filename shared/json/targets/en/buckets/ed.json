@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "ed",
+  "concepts": {
+    "en.airport_multi_entry_visa_duration": {
+      "conceptId": "en.airport_multi_entry_visa_duration",
+      "id": "airport_multi_entry_visa_duration",
+      "target": [
+        {
+          "text": "I have a multi-entry visa. Does each arrival reset the permitted duration of stay?",
+          "audioSlug": "i_have_a_multi_entry_visa_does_each_arrival_reset_the_permitted_duration_of_stay"
+        }
+      ]
+    },
+    "en.daily_routine_what_time_get_up": {
+      "conceptId": "en.daily_routine_what_time_get_up",
+      "id": "daily_routine_what_time_get_up",
+      "target": [
+        {
+          "text": "What time do you get up?",
+          "audioSlug": "what_time_do_you_get_up"
+        }
+      ]
+    },
+    "en.emociones_im_stressed": {
+      "conceptId": "en.emociones_im_stressed",
+      "id": "emociones_im_stressed",
+      "target": [
+        {
+          "text": "I'm stressed.",
+          "audioSlug": "i_m_stressed"
+        }
+      ]
+    },
+    "en.oficina_he_is_my_boss": {
+      "conceptId": "en.oficina_he_is_my_boss",
+      "id": "oficina_he_is_my_boss",
+      "target": [
+        {
+          "text": "He is my boss.",
+          "audioSlug": "he_is_my_boss"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_i_can_relate_to_that": {
+      "conceptId": "en.pensamientos_opiniones_i_can_relate_to_that",
+      "id": "pensamientos_opiniones_i_can_relate_to_that",
+      "target": [
+        {
+          "text": "I can relate to that.",
+          "audioSlug": "i_can_relate_to_that"
+        }
+      ]
+    },
+    "en.planes_i_promise": {
+      "conceptId": "en.planes_i_promise",
+      "id": "planes_i_promise",
+      "target": [
+        {
+          "text": "I promise.",
+          "audioSlug": "i_promise"
+        }
+      ]
+    },
+    "en.supermarket_customer_service_lodge_complaint": {
+      "conceptId": "en.supermarket_customer_service_lodge_complaint",
+      "id": "supermarket_customer_service_lodge_complaint",
+      "target": [
+        {
+          "text": "Is there a customer service desk where I can lodge a formal complaint?",
+          "audioSlug": "is_there_a_customer_service_desk_where_i_can_lodge_a_formal_complaint"
+        }
+      ]
+    },
+    "en.technology_the_new_operating_system_update": {
+      "conceptId": "en.technology_the_new_operating_system_update",
+      "id": "technology_the_new_operating_system_update",
+      "target": [
+        {
+          "text": "The new operating system update broke compatibility with several of my older apps.",
+          "audioSlug": "the_new_operating_system_update_broke_compatibility_with_several_of_my_older_apps"
+        }
+      ]
+    }
+  }
+}

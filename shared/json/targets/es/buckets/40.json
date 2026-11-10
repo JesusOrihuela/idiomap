@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "40",
+  "concepts": {
+    "es.calendario_anoto_todo_en_mi_agenda": {
+      "conceptId": "es.calendario_anoto_todo_en_mi_agenda",
+      "id": "calendario_anoto_todo_en_mi_agenda",
+      "target": [
+        {
+          "text": "Anoto todo en mi agenda.",
+          "audioSlug": "anoto_todo_en_mi_agenda"
+        }
+      ]
+    },
+    "es.conversacion_es_dificil_comunicar_lo_que_siento": {
+      "conceptId": "es.conversacion_es_dificil_comunicar_lo_que_siento",
+      "id": "conversacion_es_dificil_comunicar_lo_que_siento",
+      "target": [
+        {
+          "text": "Es difícil comunicar lo que siento.",
+          "audioSlug": "es_dificil_comunicar_lo_que_siento"
+        }
+      ]
+    },
+    "es.daily_routine_siempre_me_falta_tiempo_por_la_manana": {
+      "conceptId": "es.daily_routine_siempre_me_falta_tiempo_por_la_manana",
+      "id": "daily_routine_siempre_me_falta_tiempo_por_la_manana",
+      "target": [
+        {
+          "text": "Siempre me falta tiempo por la mañana.",
+          "audioSlug": "siempre_me_falta_tiempo_por_la_manana"
+        }
+      ]
+    },
+    "es.descripciones_el_resultado_del_partido_fue_increible": {
+      "conceptId": "es.descripciones_el_resultado_del_partido_fue_increible",
+      "id": "descripciones_el_resultado_del_partido_fue_increible",
+      "target": [
+        {
+          "text": "El resultado del partido fue increíble.",
+          "audioSlug": "el_resultado_del_partido_fue_increible"
+        }
+      ]
+    },
+    "es.descripciones_fue_un_acto_muy_valiente": {
+      "conceptId": "es.descripciones_fue_un_acto_muy_valiente",
+      "id": "descripciones_fue_un_acto_muy_valiente",
+      "target": [
+        {
+          "text": "Fue un acto muy valiente.",
+          "audioSlug": "fue_un_acto_muy_valiente"
+        }
+      ]
+    },
+    "es.descripciones_la_flor_es_naranja": {
+      "conceptId": "es.descripciones_la_flor_es_naranja",
+      "id": "descripciones_la_flor_es_naranja",
+      "target": [
+        {
+          "text": "La flor es naranja.",
+          "audioSlug": "la_flor_es_naranja"
+        }
+      ]
+    },
+    "es.descripciones_mi_hermana_tiene_el_pelo_rubio": {
+      "conceptId": "es.descripciones_mi_hermana_tiene_el_pelo_rubio",
+      "id": "descripciones_mi_hermana_tiene_el_pelo_rubio",
+      "target": [
+        {
+          "text": "Mi hermana tiene el pelo rubio.",
+          "audioSlug": "mi_hermana_tiene_el_pelo_rubio"
+        }
+      ]
+    },
+    "es.descripciones_tiene_una_actitud_muy_profesional": {
+      "conceptId": "es.descripciones_tiene_una_actitud_muy_profesional",
+      "id": "descripciones_tiene_una_actitud_muy_profesional",
+      "target": [
+        {
+          "text": "Tiene una actitud muy profesional.",
+          "audioSlug": "tiene_una_actitud_muy_profesional"
+        }
+      ]
+    },
+    "es.estudios_quiero_crear_un_proyecto_nuevo": {
+      "conceptId": "es.estudios_quiero_crear_un_proyecto_nuevo",
+      "id": "estudios_quiero_crear_un_proyecto_nuevo",
+      "target": [
+        {
+          "text": "Quiero crear un proyecto nuevo.",
+          "audioSlug": "quiero_crear_un_proyecto_nuevo"
+        }
+      ]
+    },
+    "es.greetings_nice_to_meet_you_im_glad": {
+      "conceptId": "es.greetings_nice_to_meet_you_im_glad",
+      "id": "greetings_nice_to_meet_you_im_glad",
+      "target": [
+        {
+          "text": "Mucho gusto, me alegra que nos hayamos conocido.",
+          "audioSlug": "mucho_gusto_me_alegra_que_nos_hayamos_conocido"
+        }
+      ]
+    },
+    "es.kitchen_lower_the_temperature_of_the_freezer": {
+      "conceptId": "es.kitchen_lower_the_temperature_of_the_freezer",
+      "id": "kitchen_lower_the_temperature_of_the_freezer",
+      "target": [
+        {
+          "text": "Baja la temperatura del congelador.",
+          "audioSlug": "baja_la_temperatura_del_congelador"
+        }
+      ]
+    },
+    "es.music_me_encanta_cantar": {
+      "conceptId": "es.music_me_encanta_cantar",
+      "id": "music_me_encanta_cantar",
+      "target": [
+        {
+          "text": "Me encanta cantar.",
+          "audioSlug": "me_encanta_cantar"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_debemos_cuidar_el_medio_ambiente": {
+      "conceptId": "es.naturaleza_lugares_debemos_cuidar_el_medio_ambiente",
+      "id": "naturaleza_lugares_debemos_cuidar_el_medio_ambiente",
+      "target": [
+        {
+          "text": "Debemos cuidar el medio ambiente.",
+          "audioSlug": "debemos_cuidar_el_medio_ambiente"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_esa_es_la_realidad": {
+      "conceptId": "es.pensamientos_opiniones_esa_es_la_realidad",
+      "id": "pensamientos_opiniones_esa_es_la_realidad",
+      "target": [
+        {
+          "text": "Esa es la realidad.",
+          "audioSlug": "esa_es_la_realidad"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_por_lo_tanto_cambiamos": {
+      "conceptId": "es.pensamientos_opiniones_por_lo_tanto_cambiamos",
+      "id": "pensamientos_opiniones_por_lo_tanto_cambiamos",
+      "target": [
+        {
+          "text": "Por lo tanto, decidimos cambiar de plan.",
+          "audioSlug": "por_lo_tanto_decidimos_cambiar_de_plan"
+        }
+      ]
+    },
+    "es.personal_info_es_una_abogada_excelente": {
+      "conceptId": "es.personal_info_es_una_abogada_excelente",
+      "id": "personal_info_es_una_abogada_excelente",
+      "target": [
+        {
+          "text": "Es una abogada excelente.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie ist eine ausgezeichnete Anwältin.",
+          "audioSlug": "es_una_abogada_excelente"
+        },
+        {
+          "text": "Es un abogado excelente.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er ist ein ausgezeichneter Anwalt.",
+          "audioSlug": "es_un_abogado_excelente"
+        }
+      ]
+    },
+    "es.restaurant_do_you_have_any_specials_for": {
+      "conceptId": "es.restaurant_do_you_have_any_specials_for",
+      "id": "restaurant_do_you_have_any_specials_for",
+      "target": [
+        {
+          "text": "¿Tienen algún especial para días festivos?",
+          "audioSlug": "tienen_algun_especial_para_dias_festivos"
+        }
+      ]
+    },
+    "es.theater_second_viewing_reveals_layers": {
+      "conceptId": "es.theater_second_viewing_reveals_layers",
+      "id": "theater_second_viewing_reveals_layers",
+      "target": [
+        {
+          "text": "Al verla por segunda vez, descubrí aspectos que antes se me habían pasado.",
+          "audioSlug": "al_verla_por_segunda_vez_descubri_aspectos_que_antes_se_me_habian_pasado"
+        }
+      ]
+    },
+    "es.weather_hace_mucho_viento_en_otono": {
+      "conceptId": "es.weather_hace_mucho_viento_en_otono",
+      "id": "weather_hace_mucho_viento_en_otono",
+      "target": [
+        {
+          "text": "Hace mucho viento en otoño.",
+          "audioSlug": "hace_mucho_viento_en_otono"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "5d",
+  "concepts": {
+    "es.accountability_file_taxes": {
+      "conceptId": "es.accountability_file_taxes",
+      "id": "accountability_file_taxes",
+      "target": [
+        {
+          "text": "Necesito declarar mis impuestos.",
+          "audioSlug": "necesito_declarar_mis_impuestos"
+        }
+      ]
+    },
+    "es.daily_routine_camino_entre_el_parque_y_mi_casa": {
+      "conceptId": "es.daily_routine_camino_entre_el_parque_y_mi_casa",
+      "id": "daily_routine_camino_entre_el_parque_y_mi_casa",
+      "target": [
+        {
+          "text": "Camino entre el parque y mi casa.",
+          "audioSlug": "camino_entre_el_parque_y_mi_casa"
+        }
+      ]
+    },
+    "es.descripciones_es_una_lengua_indigena": {
+      "conceptId": "es.descripciones_es_una_lengua_indigena",
+      "id": "descripciones_es_una_lengua_indigena",
+      "target": [
+        {
+          "text": "Es una lengua indígena.",
+          "audioSlug": "es_una_lengua_indigena"
+        }
+      ]
+    },
+    "es.descripciones_ese_callejon_es_demasiado_estrecho": {
+      "conceptId": "es.descripciones_ese_callejon_es_demasiado_estrecho",
+      "id": "descripciones_ese_callejon_es_demasiado_estrecho",
+      "target": [
+        {
+          "text": "Ese callejón es demasiado estrecho.",
+          "audioSlug": "ese_callejon_es_demasiado_estrecho"
+        }
+      ]
+    },
+    "es.greetings_tu_primero": {
+      "conceptId": "es.greetings_tu_primero",
+      "id": "greetings_tu_primero",
+      "target": [
+        {
+          "text": "Tú primero.",
+          "audioSlug": "tu_primero"
+        }
+      ]
+    },
+    "es.hogar_el_garaje_esta_debajo_del_edificio": {
+      "conceptId": "es.hogar_el_garaje_esta_debajo_del_edificio",
+      "id": "hogar_el_garaje_esta_debajo_del_edificio",
+      "target": [
+        {
+          "text": "El garaje está debajo del edificio.",
+          "audioSlug": "el_garaje_esta_debajo_del_edificio"
+        }
+      ]
+    },
+    "es.music_opening_act_surprised": {
+      "conceptId": "es.music_opening_act_surprised",
+      "id": "music_opening_act_surprised",
+      "target": [
+        {
+          "text": "El grupo telonero fue una sorpresa muy agradable.",
+          "audioSlug": "el_grupo_telonero_fue_una_sorpresa_muy_agradable"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_te_lo_puedes_imaginar": {
+      "conceptId": "es.pensamientos_opiniones_te_lo_puedes_imaginar",
+      "id": "pensamientos_opiniones_te_lo_puedes_imaginar",
+      "target": [
+        {
+          "text": "¿Te lo puedes imaginar?",
+          "audioSlug": "te_lo_puedes_imaginar"
+        }
+      ]
+    },
+    "es.planes_prefiero_quedarme_en_casa": {
+      "conceptId": "es.planes_prefiero_quedarme_en_casa",
+      "id": "planes_prefiero_quedarme_en_casa",
+      "target": [
+        {
+          "text": "Prefiero quedarme en casa.",
+          "audioSlug": "prefiero_quedarme_en_casa"
+        }
+      ]
+    },
+    "es.profesiones_mi_tio_es_ingeniero": {
+      "conceptId": "es.profesiones_mi_tio_es_ingeniero",
+      "id": "profesiones_mi_tio_es_ingeniero",
+      "target": [
+        {
+          "text": "Mi tío es ingeniero.",
+          "audioSlug": "mi_tio_es_ingeniero"
+        }
+      ]
+    },
+    "es.survival_can_you_help": {
+      "conceptId": "es.survival_can_you_help",
+      "id": "survival_can_you_help",
+      "target": [
+        {
+          "text": "¿Me puedes ayudar, por favor?",
+          "audioSlug": "me_puedes_ayudar_por_favor",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Me puede ayudar, por favor?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "me_puede_ayudar_por_favor"
+        }
+      ]
+    },
+    "es.tiempo_libre_toco_un_instrumento_musical": {
+      "conceptId": "es.tiempo_libre_toco_un_instrumento_musical",
+      "id": "tiempo_libre_toco_un_instrumento_musical",
+      "target": [
+        {
+          "text": "Toco un instrumento musical.",
+          "audioSlug": "toco_un_instrumento_musical"
+        }
+      ]
+    }
+  }
+}

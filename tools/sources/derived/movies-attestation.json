@@ -1,0 +1,617 @@
+{
+  "_doc": "Atestiguacion frase por frase — topic movies. Comunicacion real sobre cine/series (ir al cine, gustos, proponer, recomendar, opinar conversacionalmente, series/streaming). Retirada la prosa de critico/teoria filmica.",
+  "sources_en": [
+    "cinema/movies ESL guides",
+    "Core Inventory (opinions)"
+  ],
+  "sources_es": [
+    "PCIC funciones de gustos/opinion",
+    "recursos ELE de cine"
+  ],
+  "retired": [
+    "8 C2 de teoria filmica + 4 C1 de ensayo (ver movies-provenance.json)"
+  ],
+  "phrases": {
+    "en.movies_bad_ending": {
+      "level": "A1",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "I didn't like the ending of that movie."
+    },
+    "en.movies_binge_watching_cant_stop": {
+      "level": "B1",
+      "function": "series/streaming",
+      "attested": true,
+      "intent": "I've been watching this series all week and I just can't stop."
+    },
+    "en.movies_book_adaptation_missing_scenes": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "I was disappointed that the book adaptation left out so many key scenes."
+    },
+    "en.movies_casting_was_perfect_choice": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "I had doubts about the casting, but that actor turned out to be perfect."
+    },
+    "en.movies_character_arc_fully_earned": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "By the final act, the character's transformation felt fully earned. Nothing seemed forced."
+    },
+    "en.movies_character_motivations_hard_to_believe": {
+      "level": "B2",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The plot was interesting, but the characters' motivations were hard to believe."
+    },
+    "en.movies_cinematography_worth_watching": {
+      "level": "C1",
+      "function": "proponer/plan",
+      "attested": true,
+      "intent": "The cinematography alone makes it worth watching. Every frame looks like a painting."
+    },
+    "en.movies_classic_movie": {
+      "level": "A2",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "That movie is a classic, you have to watch it."
+    },
+    "en.movies_disappointed_last_season": {
+      "level": "A2",
+      "function": "series/streaming",
+      "attested": true,
+      "intent": "I didn't like the last season of that series, it disappointed me."
+    },
+    "en.movies_documentary_streaming": {
+      "level": "B1",
+      "function": "series/streaming",
+      "attested": true,
+      "intent": "I heard that documentary is excellent. Is it on any streaming platform?"
+    },
+    "en.movies_dont_understand_popularity": {
+      "level": "A2",
+      "function": "series/streaming",
+      "attested": true,
+      "intent": "I don't like that series, I don't understand why it's so popular."
+    },
+    "en.movies_dubbed_or_subtitled": {
+      "level": "A2",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "Is the movie dubbed or subtitled?"
+    },
+    "en.movies_editing_creates_tension": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The editing in the opening sequence is masterful. The rhythm of the cuts creates unbearable tension."
+    },
+    "en.movies_favorite_movie": {
+      "level": "A1",
+      "function": "gustos/genero",
+      "attested": true,
+      "intent": "What's your favorite movie?"
+    },
+    "en.movies_film_festival_city": {
+      "level": "A2",
+      "function": "proponer/plan",
+      "attested": true,
+      "intent": "There is a new film festival in the city, shall we go?"
+    },
+    "en.movies_go_cinema_weekend": {
+      "level": "A1",
+      "function": "proponer/plan",
+      "attested": true,
+      "intent": "I want to go to the movies this weekend, what movie do you want to see?"
+    },
+    "en.movies_good_actor": {
+      "level": "A1",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "This actor is very good, I like all his movies."
+    },
+    "en.movies_good_movie_recommend": {
+      "level": "B1",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "This movie is very good, you should watch it."
+    },
+    "en.movies_its_a_comedy": {
+      "level": "A1",
+      "function": "gustos/genero",
+      "attested": true,
+      "intent": "It's a comedy."
+    },
+    "en.movies_looking_new_series": {
+      "level": "A2",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "I'm looking for a new series to watch, can you recommend one?"
+    },
+    "en.movies_midnight_premiere_sells_out": {
+      "level": "B1",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "Should we go to the midnight premiere? Tickets sell out fast."
+    },
+    "en.movies_new_director_movie": {
+      "level": "A2",
+      "function": "gustos/genero",
+      "attested": true,
+      "intent": "There is a new movie by my favorite director, I have to watch it."
+    },
+    "en.movies_nominated_best_foreign_film": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "It has been nominated for Best Foreign Film, generating a lot of buzz."
+    },
+    "en.movies_nonlinear_storytelling_effective": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "I find the director's use of non-linear storytelling particularly effective in this piece."
+    },
+    "en.movies_original_version_subtitles": {
+      "level": "B1",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "I'd rather watch it in the original version with subtitles."
+    },
+    "en.movies_oscars_best_picture_overhyped": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "It won Best Picture at the Oscars, but honestly I thought it was overhyped."
+    },
+    "en.movies_performances_script_characters": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The performances were outstanding, but the script failed to develop the supporting characters."
+    },
+    "en.movies_prefer_cinema_home": {
+      "level": "A2",
+      "function": "gustos/genero",
+      "attested": true,
+      "intent": "I prefer to watch movies in the cinema than at home."
+    },
+    "en.movies_prefer_subtitles_dubbing": {
+      "level": "B2",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "I always watch foreign films with subtitles rather than dubbing. You miss so much."
+    },
+    "en.movies_prefer_thrillers_not_action": {
+      "level": "B1",
+      "function": "gustos/genero",
+      "attested": true,
+      "intent": "I'm not really into action movies. I prefer psychological thrillers."
+    },
+    "en.movies_previous_film_more_compelling": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "The director's previous film was far more compelling. This one felt formulaic."
+    },
+    "en.movies_second_half_pacing_rushed": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "The second half felt rushed compared to the slow build-up of the first act."
+    },
+    "en.movies_seen_horror_movie": {
+      "level": "A2",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "Have you seen the new horror movie?"
+    },
+    "en.movies_seen_latest_episode": {
+      "level": "A2",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "Have you seen the latest episode of the series?"
+    },
+    "en.movies_seen_new_trailer": {
+      "level": "A2",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "Have you seen the new movie trailer?"
+    },
+    "en.movies_sequel_live_up_original": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "The sequel had a bigger budget, but never quite lived up to the original."
+    },
+    "en.movies_series_recommendation": {
+      "level": "A2",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "What series do you recommend me to watch?"
+    },
+    "en.movies_soundtrack_adds_atmosphere": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "The soundtrack really adds to the atmosphere. Without the music, those scenes wouldn't work."
+    },
+    "en.movies_special_effects_incredible": {
+      "level": "B1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The special effects were incredible. How did they do it?"
+    },
+    "en.movies_streaming_release_instead_theaters": {
+      "level": "B2",
+      "function": "series/streaming",
+      "attested": true,
+      "intent": "It went to streaming instead of theaters. It was made for the big screen."
+    },
+    "en.movies_subtext_more_powerful_than_dialogue": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The most powerful moments rely on subtext. What's left unsaid carries more weight than dialogue."
+    },
+    "en.movies_two_tickets": {
+      "level": "A1",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "Two tickets for the eight o'clock showing, please."
+    },
+    "en.movies_unexpected_twist_ending": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "That film had an unexpected twist at the end that completely changed the story."
+    },
+    "en.movies_unreliable_narrator_keeps_guessing": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The film uses an unreliable narrator, which keeps you questioning what actually happened throughout."
+    },
+    "en.movies_want_to_watch_tonight": {
+      "level": "A1",
+      "function": "proponer/plan",
+      "attested": true,
+      "intent": "Do you want to watch a movie tonight?"
+    },
+    "en.movies_watching_netflix_series": {
+      "level": "A2",
+      "function": "series/streaming",
+      "attested": true,
+      "intent": "Are you watching the new Netflix series?"
+    },
+    "en.movies_what_kind_you_like": {
+      "level": "A1",
+      "function": "gustos/genero",
+      "attested": true,
+      "intent": "What kind of movies do you like?"
+    },
+    "en.movies_what_time_starts": {
+      "level": "A1",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "What time does the movie start?"
+    },
+    "en.movies_whats_showing": {
+      "level": "A2",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "What movies are showing this week?"
+    },
+    "en.movies_where_buy_tickets": {
+      "level": "A1",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "Where can I buy tickets?"
+    },
+    "es.movies_bad_ending": {
+      "level": "A1",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "I didn't like the ending of that movie."
+    },
+    "es.movies_binge_watching_cant_stop": {
+      "level": "B1",
+      "function": "series/streaming",
+      "attested": true,
+      "intent": "I've been watching this series all week and I just can't stop."
+    },
+    "es.movies_book_adaptation_missing_scenes": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "I was disappointed that the book adaptation left out so many key scenes."
+    },
+    "es.movies_casting_was_perfect_choice": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "I had doubts about the casting, but that actor turned out to be perfect."
+    },
+    "es.movies_character_arc_fully_earned": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "By the final act, the character's transformation felt fully earned. Nothing seemed forced."
+    },
+    "es.movies_character_motivations_hard_to_believe": {
+      "level": "B2",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The plot was interesting, but the characters' motivations were hard to believe."
+    },
+    "es.movies_cinematography_worth_watching": {
+      "level": "C1",
+      "function": "proponer/plan",
+      "attested": true,
+      "intent": "The cinematography alone makes it worth watching. Every frame looks like a painting."
+    },
+    "es.movies_classic_movie": {
+      "level": "A2",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "That movie is a classic, you have to watch it."
+    },
+    "es.movies_disappointed_last_season": {
+      "level": "A2",
+      "function": "series/streaming",
+      "attested": true,
+      "intent": "I didn't like the last season of that series, it disappointed me."
+    },
+    "es.movies_documentary_streaming": {
+      "level": "B1",
+      "function": "series/streaming",
+      "attested": true,
+      "intent": "I heard that documentary is excellent. Is it on any streaming platform?"
+    },
+    "es.movies_dont_understand_popularity": {
+      "level": "A2",
+      "function": "series/streaming",
+      "attested": true,
+      "intent": "I don't like that series, I don't understand why it's so popular."
+    },
+    "es.movies_dubbed_or_subtitled": {
+      "level": "A2",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "Is the movie dubbed or subtitled?"
+    },
+    "es.movies_editing_creates_tension": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The editing in the opening sequence is masterful. The rhythm of the cuts creates unbearable tension."
+    },
+    "es.movies_favorite_movie": {
+      "level": "A1",
+      "function": "gustos/genero",
+      "attested": true,
+      "intent": "What's your favorite movie?"
+    },
+    "es.movies_film_festival_city": {
+      "level": "A2",
+      "function": "proponer/plan",
+      "attested": true,
+      "intent": "There is a new film festival in the city, shall we go?"
+    },
+    "es.movies_go_cinema_weekend": {
+      "level": "A1",
+      "function": "proponer/plan",
+      "attested": true,
+      "intent": "I want to go to the movies this weekend, what movie do you want to see?"
+    },
+    "es.movies_good_actor": {
+      "level": "A1",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "This actor is very good, I like all his movies."
+    },
+    "es.movies_good_movie_recommend": {
+      "level": "B1",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "This movie is very good, you should watch it."
+    },
+    "es.movies_its_a_comedy": {
+      "level": "A1",
+      "function": "gustos/genero",
+      "attested": true,
+      "intent": "It's a comedy."
+    },
+    "es.movies_looking_new_series": {
+      "level": "A2",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "I'm looking for a new series to watch, can you recommend one?"
+    },
+    "es.movies_midnight_premiere_sells_out": {
+      "level": "B1",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "Should we go to the midnight premiere? Tickets sell out fast."
+    },
+    "es.movies_new_director_movie": {
+      "level": "A2",
+      "function": "gustos/genero",
+      "attested": true,
+      "intent": "There is a new movie by my favorite director, I have to watch it."
+    },
+    "es.movies_nominated_best_foreign_film": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "It has been nominated for Best Foreign Film, generating a lot of buzz."
+    },
+    "es.movies_nonlinear_storytelling_effective": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "I find the director's use of non-linear storytelling particularly effective in this piece."
+    },
+    "es.movies_original_version_subtitles": {
+      "level": "B1",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "I'd rather watch it in the original version with subtitles."
+    },
+    "es.movies_oscars_best_picture_overhyped": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "It won Best Picture at the Oscars, but honestly I thought it was overhyped."
+    },
+    "es.movies_performances_script_characters": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The performances were outstanding, but the script failed to develop the supporting characters."
+    },
+    "es.movies_prefer_cinema_home": {
+      "level": "A2",
+      "function": "gustos/genero",
+      "attested": true,
+      "intent": "I prefer to watch movies in the cinema than at home."
+    },
+    "es.movies_prefer_subtitles_dubbing": {
+      "level": "B2",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "I always watch foreign films with subtitles rather than dubbing. You miss so much."
+    },
+    "es.movies_prefer_thrillers_not_action": {
+      "level": "B1",
+      "function": "gustos/genero",
+      "attested": true,
+      "intent": "I'm not really into action movies. I prefer psychological thrillers."
+    },
+    "es.movies_previous_film_more_compelling": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "The director's previous film was far more compelling. This one felt formulaic."
+    },
+    "es.movies_second_half_pacing_rushed": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "The second half felt rushed compared to the slow build-up of the first act."
+    },
+    "es.movies_seen_horror_movie": {
+      "level": "A2",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "Have you seen the new horror movie?"
+    },
+    "es.movies_seen_latest_episode": {
+      "level": "A2",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "Have you seen the latest episode of the series?"
+    },
+    "es.movies_seen_new_trailer": {
+      "level": "A2",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "Have you seen the new movie trailer?"
+    },
+    "es.movies_sequel_live_up_original": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "The sequel had a bigger budget, but never quite lived up to the original."
+    },
+    "es.movies_series_recommendation": {
+      "level": "A2",
+      "function": "recomendar",
+      "attested": true,
+      "intent": "What series do you recommend me to watch?"
+    },
+    "es.movies_soundtrack_adds_atmosphere": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "The soundtrack really adds to the atmosphere. Without the music, those scenes wouldn't work."
+    },
+    "es.movies_special_effects_incredible": {
+      "level": "B1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The special effects were incredible. How did they do it?"
+    },
+    "es.movies_streaming_release_instead_theaters": {
+      "level": "B2",
+      "function": "series/streaming",
+      "attested": true,
+      "intent": "It went to streaming instead of theaters. It was made for the big screen."
+    },
+    "es.movies_subtext_more_powerful_than_dialogue": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The most powerful moments rely on subtext. What's left unsaid carries more weight than dialogue."
+    },
+    "es.movies_two_tickets": {
+      "level": "A1",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "Two tickets for the eight o'clock showing, please."
+    },
+    "es.movies_unexpected_twist_ending": {
+      "level": "B2",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "That film had an unexpected twist at the end that completely changed the story."
+    },
+    "es.movies_unreliable_narrator_keeps_guessing": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The film uses an unreliable narrator, which keeps you questioning what actually happened throughout."
+    },
+    "es.movies_want_to_watch_tonight": {
+      "level": "A1",
+      "function": "proponer/plan",
+      "attested": true,
+      "intent": "Do you want to watch a movie tonight?"
+    },
+    "es.movies_watching_netflix_series": {
+      "level": "A2",
+      "function": "series/streaming",
+      "attested": true,
+      "intent": "Are you watching the new Netflix series?"
+    },
+    "es.movies_what_kind_you_like": {
+      "level": "A1",
+      "function": "gustos/genero",
+      "attested": true,
+      "intent": "What kind of movies do you like?"
+    },
+    "es.movies_what_time_starts": {
+      "level": "A1",
+      "function": "cine_general",
+      "attested": true,
+      "intent": "What time does the movie start?"
+    },
+    "es.movies_whats_showing": {
+      "level": "A2",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "What movies are showing this week?"
+    },
+    "es.movies_where_buy_tickets": {
+      "level": "A1",
+      "function": "ir_al_cine",
+      "attested": true,
+      "intent": "Where can I buy tickets?"
+    }
+  },
+  "_keyFormat": "target.conceptSlug"
+}

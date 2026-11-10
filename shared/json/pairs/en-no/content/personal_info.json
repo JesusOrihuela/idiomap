@@ -1,10 +1,46 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-no",
   "topic": "personal_info",
-  "conceptIds": [
-    "no.personal_info_my_name_is",
-    "no.personal_info_i_am_from_norway",
-    "no.personal_info_i_am_a_student"
+  "phrases": [
+    {
+      "conceptId": "no.personal_info_my_name_is",
+      "level": "A1",
+      "grammar": "Bokmål heter, nynorsk heiter, samme språk.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0bada359414fcef3"
+    },
+    {
+      "conceptId": "no.personal_info_i_am_from_norway",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ab86b6ec1c5d1f53"
+    },
+    {
+      "conceptId": "no.personal_info_i_am_a_student",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.aef259d3cdd5fa71"
+    }
   ]
 }

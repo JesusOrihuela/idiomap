@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "82",
+  "concepts": {
+    "es.accommodation_upgrade_special_occasion": {
+      "conceptId": "es.accommodation_upgrade_special_occasion",
+      "id": "accommodation_upgrade_special_occasion",
+      "target": [
+        {
+          "text": "¿Hay una mejora de habitación disponible para una ocasión especial?",
+          "audioSlug": "hay_una_mejora_de_habitacion_disponible_para_una_ocasion_especial"
+        }
+      ]
+    },
+    "es.accountability_the_sales_figures_have_increased": {
+      "conceptId": "es.accountability_the_sales_figures_have_increased",
+      "id": "accountability_the_sales_figures_have_increased",
+      "target": [
+        {
+          "text": "Las cifras de ventas han aumentado.",
+          "audioSlug": "las_cifras_de_ventas_han_aumentado"
+        }
+      ]
+    },
+    "es.airport_el_personal_aereo_es_muy_amable": {
+      "conceptId": "es.airport_el_personal_aereo_es_muy_amable",
+      "id": "airport_el_personal_aereo_es_muy_amable",
+      "target": [
+        {
+          "text": "El personal aéreo es muy amable.",
+          "audioSlug": "el_personal_aereo_es_muy_amable"
+        }
+      ]
+    },
+    "es.airport_upgrade_miles_business": {
+      "conceptId": "es.airport_upgrade_miles_business",
+      "id": "airport_upgrade_miles_business",
+      "target": [
+        {
+          "text": "Me gustaría usar mis millas para ascender de clase, ¿hay disponibilidad en ejecutiva?",
+          "audioSlug": "me_gustaria_usar_mis_millas_para_ascender_de_clase_hay_disponibilidad_en_ejecutiva"
+        }
+      ]
+    },
+    "es.emociones_i_feel_something_is_wrong": {
+      "conceptId": "es.emociones_i_feel_something_is_wrong",
+      "id": "emociones_i_feel_something_is_wrong",
+      "target": [
+        {
+          "text": "Siento que algo va mal.",
+          "audioSlug": "siento_que_algo_va_mal"
+        }
+      ]
+    },
+    "es.family_le_voy_a_regalar_un_libro": {
+      "conceptId": "es.family_le_voy_a_regalar_un_libro",
+      "id": "family_le_voy_a_regalar_un_libro",
+      "target": [
+        {
+          "text": "Le voy a regalar un libro.",
+          "audioSlug": "le_voy_a_regalar_un_libro"
+        }
+      ]
+    },
+    "es.gym_how_do_i_adjust_the_seat": {
+      "conceptId": "es.gym_how_do_i_adjust_the_seat",
+      "id": "gym_how_do_i_adjust_the_seat",
+      "target": [
+        {
+          "text": "¿Cómo ajusto la altura del asiento en esta máquina?",
+          "audioSlug": "como_ajusto_la_altura_del_asiento_en_esta_maquina"
+        }
+      ]
+    },
+    "es.health_i_have_a_cold": {
+      "conceptId": "es.health_i_have_a_cold",
+      "id": "health_i_have_a_cold",
+      "target": [
+        {
+          "text": "Estoy resfriada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_resfriada"
+        },
+        {
+          "text": "Estoy resfriado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_resfriado"
+        }
+      ]
+    },
+    "es.movies_dubbed_or_subtitled": {
+      "conceptId": "es.movies_dubbed_or_subtitled",
+      "id": "movies_dubbed_or_subtitled",
+      "target": [
+        {
+          "text": "¿La película está doblada o subtitulada?",
+          "audioSlug": "la_pelicula_esta_doblada_o_subtitulada"
+        }
+      ]
+    },
+    "es.movies_unexpected_twist_ending": {
+      "conceptId": "es.movies_unexpected_twist_ending",
+      "id": "movies_unexpected_twist_ending",
+      "target": [
+        {
+          "text": "Esa película tenía un giro inesperado al final que cambió completamente la historia.",
+          "audioSlug": "esa_pelicula_tenia_un_giro_inesperado_al_final_que_cambio_completamente_la_historia"
+        }
+      ]
+    },
+    "es.planes_organizamos_una_actividad": {
+      "conceptId": "es.planes_organizamos_una_actividad",
+      "id": "planes_organizamos_una_actividad",
+      "target": [
+        {
+          "text": "Organizamos una actividad para el sábado.",
+          "audioSlug": "organizamos_una_actividad_para_el_sabado"
+        }
+      ]
+    },
+    "es.restaurant_la_tortilla_de_patatas_esta_riquisima": {
+      "conceptId": "es.restaurant_la_tortilla_de_patatas_esta_riquisima",
+      "id": "restaurant_la_tortilla_de_patatas_esta_riquisima",
+      "target": [
+        {
+          "text": "La tortilla de papas está riquísima.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "la_tortilla_de_papas_esta_riquisima"
+        },
+        {
+          "text": "La tortilla de patatas está riquísima.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "la_tortilla_de_patatas_esta_riquisima"
+        }
+      ]
+    },
+    "es.supermarket_este_supermercado_es_economico": {
+      "conceptId": "es.supermarket_este_supermercado_es_economico",
+      "id": "supermarket_este_supermercado_es_economico",
+      "target": [
+        {
+          "text": "Este supermercado es muy económico.",
+          "audioSlug": "este_supermercado_es_muy_economico"
+        }
+      ]
+    },
+    "es.supermarket_puedo_pagar_con_tarjeta": {
+      "conceptId": "es.supermarket_puedo_pagar_con_tarjeta",
+      "id": "supermarket_puedo_pagar_con_tarjeta",
+      "target": [
+        {
+          "text": "¿Puedo pagar con tarjeta?",
+          "audioSlug": "puedo_pagar_con_tarjeta"
+        }
+      ]
+    },
+    "es.technology_can_you_copy_me_on_that": {
+      "conceptId": "es.technology_can_you_copy_me_on_that",
+      "id": "technology_can_you_copy_me_on_that",
+      "target": [
+        {
+          "text": "¿Puedes copiarme en ese correo electrónico?",
+          "audioSlug": "puedes_copiarme_en_ese_correo_electronico",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Puede copiarme en ese correo electrónico?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_copiarme_en_ese_correo_electronico"
+        }
+      ]
+    },
+    "es.technology_este_telefono_es_barato": {
+      "conceptId": "es.technology_este_telefono_es_barato",
+      "id": "technology_este_telefono_es_barato",
+      "target": [
+        {
+          "text": "Este teléfono es barato.",
+          "audioSlug": "este_telefono_es_barato"
+        }
+      ]
+    },
+    "es.technology_voy_a_descargar_una_aplicacion": {
+      "conceptId": "es.technology_voy_a_descargar_una_aplicacion",
+      "id": "technology_voy_a_descargar_una_aplicacion",
+      "target": [
+        {
+          "text": "Voy a descargar una aplicación.",
+          "audioSlug": "voy_a_descargar_una_aplicacion"
+        }
+      ]
+    }
+  }
+}

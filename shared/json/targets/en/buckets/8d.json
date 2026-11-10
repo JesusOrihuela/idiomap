@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "8d",
+  "concepts": {
+    "en.accommodation_hotel_services": {
+      "conceptId": "en.accommodation_hotel_services",
+      "id": "accommodation_hotel_services",
+      "target": [
+        {
+          "text": "What services does the hotel have?",
+          "audioSlug": "what_services_does_the_hotel_have"
+        }
+      ]
+    },
+    "en.accommodation_spa_service": {
+      "conceptId": "en.accommodation_spa_service",
+      "id": "accommodation_spa_service",
+      "target": [
+        {
+          "text": "Is there a spa or massage service in the hotel?",
+          "audioSlug": "is_there_a_spa_or_massage_service_in_the_hotel"
+        }
+      ]
+    },
+    "en.deportes_i_lost_the_game": {
+      "conceptId": "en.deportes_i_lost_the_game",
+      "id": "deportes_i_lost_the_game",
+      "target": [
+        {
+          "text": "I lost the game.",
+          "audioSlug": "i_lost_the_game"
+        }
+      ]
+    },
+    "en.emociones_why_are_you_sad": {
+      "conceptId": "en.emociones_why_are_you_sad",
+      "id": "emociones_why_are_you_sad",
+      "target": [
+        {
+          "text": "Why are you sad?",
+          "audioSlug": "why_are_you_sad"
+        }
+      ]
+    },
+    "en.music_turn_down": {
+      "conceptId": "en.music_turn_down",
+      "id": "music_turn_down",
+      "target": [
+        {
+          "text": "Can you turn down the music, please?",
+          "audioSlug": "can_you_turn_down_the_music_please"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_the_river_is_wide": {
+      "conceptId": "en.naturaleza_lugares_the_river_is_wide",
+      "id": "naturaleza_lugares_the_river_is_wide",
+      "target": [
+        {
+          "text": "The river is wide.",
+          "audioSlug": "the_river_is_wide"
+        }
+      ]
+    },
+    "en.oficina_this_is_my_office": {
+      "conceptId": "en.oficina_this_is_my_office",
+      "id": "oficina_this_is_my_office",
+      "target": [
+        {
+          "text": "This is my office.",
+          "audioSlug": "this_is_my_office"
+        }
+      ]
+    },
+    "en.personal_info_im_single": {
+      "conceptId": "en.personal_info_im_single",
+      "id": "personal_info_im_single",
+      "target": [
+        {
+          "text": "I'm single.",
+          "audioSlug": "i_m_single"
+        }
+      ]
+    },
+    "en.viajes_passport_ready": {
+      "conceptId": "en.viajes_passport_ready",
+      "id": "viajes_passport_ready",
+      "target": [
+        {
+          "text": "Do you have your passport ready?",
+          "audioSlug": "do_you_have_your_passport_ready"
+        }
+      ]
+    },
+    "en.weather_cold_in_winter": {
+      "conceptId": "en.weather_cold_in_winter",
+      "id": "weather_cold_in_winter",
+      "target": [
+        {
+          "text": "It's cold in winter.",
+          "audioSlug": "it_s_cold_in_winter"
+        }
+      ]
+    }
+  }
+}

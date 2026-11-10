@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "45",
+  "concepts": {
+    "es.accommodation_drinks_included": {
+      "conceptId": "es.accommodation_drinks_included",
+      "id": "accommodation_drinks_included",
+      "target": [
+        {
+          "text": "¿Las bebidas están incluidas?",
+          "audioSlug": "las_bebidas_estan_incluidas"
+        }
+      ]
+    },
+    "es.economia_el_cliente_siempre_tiene_la_razon": {
+      "conceptId": "es.economia_el_cliente_siempre_tiene_la_razon",
+      "id": "economia_el_cliente_siempre_tiene_la_razon",
+      "target": [
+        {
+          "text": "El cliente siempre tiene la razón.",
+          "audioSlug": "el_cliente_siempre_tiene_la_razon"
+        }
+      ]
+    },
+    "es.family_la_boda_sera_en_verano": {
+      "conceptId": "es.family_la_boda_sera_en_verano",
+      "id": "family_la_boda_sera_en_verano",
+      "target": [
+        {
+          "text": "La boda será en verano.",
+          "audioSlug": "la_boda_sera_en_verano"
+        }
+      ]
+    },
+    "es.gym_can_you_recommend_an_appropriate_weight": {
+      "conceptId": "es.gym_can_you_recommend_an_appropriate_weight",
+      "id": "gym_can_you_recommend_an_appropriate_weight",
+      "target": [
+        {
+          "text": "¿Puedes recomendarme un peso adecuado para empezar?",
+          "audioSlug": "puedes_recomendarme_un_peso_adecuado_para_empezar"
+        }
+      ]
+    },
+    "es.gym_keep_your_elbows_close_to_your": {
+      "conceptId": "es.gym_keep_your_elbows_close_to_your",
+      "id": "gym_keep_your_elbows_close_to_your",
+      "target": [
+        {
+          "text": "Mantén los codos cerca del cuerpo.",
+          "audioSlug": "manten_los_codos_cerca_del_cuerpo"
+        }
+      ]
+    },
+    "es.gym_tomorrow_will_be_arm_day": {
+      "conceptId": "es.gym_tomorrow_will_be_arm_day",
+      "id": "gym_tomorrow_will_be_arm_day",
+      "target": [
+        {
+          "text": "Mañana entreno brazos.",
+          "audioSlug": "manana_entreno_brazos"
+        }
+      ]
+    },
+    "es.technology_app_crashing": {
+      "conceptId": "es.technology_app_crashing",
+      "id": "technology_app_crashing",
+      "target": [
+        {
+          "text": "La aplicación se cierra sola todo el tiempo.",
+          "audioSlug": "la_aplicacion_se_cierra_sola_todo_el_tiempo"
+        }
+      ]
+    },
+    "es.technology_debes_marcar_el_numero": {
+      "conceptId": "es.technology_debes_marcar_el_numero",
+      "id": "technology_debes_marcar_el_numero",
+      "target": [
+        {
+          "text": "Debes marcar el número.",
+          "audioSlug": "debes_marcar_el_numero"
+        }
+      ]
+    },
+    "es.technology_do_you_have_a_cable_you": {
+      "conceptId": "es.technology_do_you_have_a_cable_you",
+      "id": "technology_do_you_have_a_cable_you",
+      "target": [
+        {
+          "text": "¿Tienes un cable que puedas prestarme?",
+          "audioSlug": "tienes_un_cable_que_puedas_prestarme"
+        }
+      ]
+    }
+  }
+}

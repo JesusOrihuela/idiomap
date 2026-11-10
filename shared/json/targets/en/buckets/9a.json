@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "9a",
+  "concepts": {
+    "en.accommodation_id_like_to_check_out": {
+      "conceptId": "en.accommodation_id_like_to_check_out",
+      "id": "accommodation_id_like_to_check_out",
+      "target": [
+        {
+          "text": "I'd like to check out, please.",
+          "audioSlug": "i_d_like_to_check_out_please"
+        }
+      ]
+    },
+    "en.accommodation_itemize_bill_expense": {
+      "conceptId": "en.accommodation_itemize_bill_expense",
+      "id": "accommodation_itemize_bill_expense",
+      "target": [
+        {
+          "text": "Could you itemize the bill? I need a detailed receipt for my company's expense report.",
+          "audioSlug": "could_you_itemize_the_bill_i_need_a_detailed_receipt_for_my_company_s_expense_report"
+        }
+      ]
+    },
+    "en.accountability_has_the_intern_already_registered_with": {
+      "conceptId": "en.accountability_has_the_intern_already_registered_with",
+      "id": "accountability_has_the_intern_already_registered_with",
+      "target": [
+        {
+          "text": "Has the intern already registered with Social Security?",
+          "audioSlug": "has_the_intern_already_registered_with_social_security"
+        }
+      ]
+    },
+    "en.cuerpo_i_have_blue_eyes": {
+      "conceptId": "en.cuerpo_i_have_blue_eyes",
+      "id": "cuerpo_i_have_blue_eyes",
+      "target": [
+        {
+          "text": "I have blue eyes.",
+          "audioSlug": "i_have_blue_eyes"
+        }
+      ]
+    },
+    "en.describiendo_personas_he_is_very_famous": {
+      "conceptId": "en.describiendo_personas_he_is_very_famous",
+      "id": "describiendo_personas_he_is_very_famous",
+      "target": [
+        {
+          "text": "He is very famous.",
+          "audioSlug": "he_is_very_famous"
+        }
+      ]
+    },
+    "en.planes_if_rains_will_stay": {
+      "conceptId": "en.planes_if_rains_will_stay",
+      "id": "planes_if_rains_will_stay",
+      "target": [
+        {
+          "text": "If it rains tomorrow, I will stay home.",
+          "audioSlug": "if_it_rains_tomorrow_i_will_stay_home"
+        }
+      ]
+    },
+    "en.profesiones_he_is_a_secret_agent": {
+      "conceptId": "en.profesiones_he_is_a_secret_agent",
+      "id": "profesiones_he_is_a_secret_agent",
+      "target": [
+        {
+          "text": "He is a secret agent.",
+          "audioSlug": "he_is_a_secret_agent"
+        }
+      ]
+    },
+    "en.technology_the_devices_firmware_needs_to": {
+      "conceptId": "en.technology_the_devices_firmware_needs_to",
+      "id": "technology_the_devices_firmware_needs_to",
+      "target": [
+        {
+          "text": "The device's firmware needs to be updated to patch a known security vulnerability.",
+          "audioSlug": "the_device_s_firmware_needs_to_be_updated_to_patch_a_known_security_vulnerability"
+        }
+      ]
+    }
+  }
+}

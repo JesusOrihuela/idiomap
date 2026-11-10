@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "e2",
+  "concepts": {
+    "en.conversacion_is_there_anything_i_can_do_for_you": {
+      "conceptId": "en.conversacion_is_there_anything_i_can_do_for_you",
+      "id": "conversacion_is_there_anything_i_can_do_for_you",
+      "target": [
+        {
+          "text": "Is there anything I can do for you?",
+          "audioSlug": "is_there_anything_i_can_do_for_you",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can I do anything for you?",
+          "audioSlug": "can_i_do_anything_for_you",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.kitchen_where_are_the_clean_dishes": {
+      "conceptId": "en.kitchen_where_are_the_clean_dishes",
+      "id": "kitchen_where_are_the_clean_dishes",
+      "target": [
+        {
+          "text": "Where are the clean dishes?",
+          "audioSlug": "where_are_the_clean_dishes"
+        }
+      ]
+    },
+    "en.viajes_enjoy_your_trip": {
+      "conceptId": "en.viajes_enjoy_your_trip",
+      "id": "viajes_enjoy_your_trip",
+      "target": [
+        {
+          "text": "Enjoy your trip.",
+          "audioSlug": "enjoy_your_trip"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "d0",
+  "concepts": {
+    "es.accommodation_room_service_24h": {
+      "conceptId": "es.accommodation_room_service_24h",
+      "id": "accommodation_room_service_24h",
+      "target": [
+        {
+          "text": "¿Hay servicio a la habitación las 24 horas?",
+          "audioSlug": "hay_servicio_a_la_habitacion_las_24_horas"
+        }
+      ]
+    },
+    "es.accommodation_spa_service": {
+      "conceptId": "es.accommodation_spa_service",
+      "id": "accommodation_spa_service",
+      "target": [
+        {
+          "text": "¿Hay servicio de spa o masajes en el hotel?",
+          "audioSlug": "hay_servicio_de_spa_o_masajes_en_el_hotel"
+        }
+      ]
+    },
+    "es.deportes_quiere_destacar_en_su_equipo": {
+      "conceptId": "es.deportes_quiere_destacar_en_su_equipo",
+      "id": "deportes_quiere_destacar_en_su_equipo",
+      "target": [
+        {
+          "text": "Quiere destacar en su equipo.",
+          "audioSlug": "quiere_destacar_en_su_equipo"
+        }
+      ]
+    },
+    "es.descripciones_el_paisaje_es_tipico_de_la_region": {
+      "conceptId": "es.descripciones_el_paisaje_es_tipico_de_la_region",
+      "id": "descripciones_el_paisaje_es_tipico_de_la_region",
+      "target": [
+        {
+          "text": "El paisaje es típico de la región.",
+          "audioSlug": "el_paisaje_es_tipico_de_la_region"
+        }
+      ]
+    },
+    "es.descripciones_es_una_persona_generosa": {
+      "conceptId": "es.descripciones_es_una_persona_generosa",
+      "id": "descripciones_es_una_persona_generosa",
+      "target": [
+        {
+          "text": "Es una persona muy generosa.",
+          "audioSlug": "es_una_persona_muy_generosa"
+        }
+      ]
+    },
+    "es.directions_la_puerta_exterior_esta_cerrada": {
+      "conceptId": "es.directions_la_puerta_exterior_esta_cerrada",
+      "id": "directions_la_puerta_exterior_esta_cerrada",
+      "target": [
+        {
+          "text": "La puerta exterior está cerrada.",
+          "audioSlug": "la_puerta_exterior_esta_cerrada"
+        }
+      ]
+    },
+    "es.emergencias_me_robaron_la_cartera": {
+      "conceptId": "es.emergencias_me_robaron_la_cartera",
+      "id": "emergencias_me_robaron_la_cartera",
+      "target": [
+        {
+          "text": "Me robaron la cartera.",
+          "audioSlug": "me_robaron_la_cartera"
+        }
+      ]
+    },
+    "es.emergencias_necesitamos_una_ambulancia": {
+      "conceptId": "es.emergencias_necesitamos_una_ambulancia",
+      "id": "emergencias_necesitamos_una_ambulancia",
+      "target": [
+        {
+          "text": "Necesitamos una ambulancia.",
+          "audioSlug": "necesitamos_una_ambulancia"
+        }
+      ]
+    },
+    "es.gym_how_much_cardio_time_do_i": {
+      "conceptId": "es.gym_how_much_cardio_time_do_i",
+      "id": "gym_how_much_cardio_time_do_i",
+      "target": [
+        {
+          "text": "¿Cuánto tiempo de cardio me corresponde hoy?",
+          "audioSlug": "cuanto_tiempo_de_cardio_me_corresponde_hoy"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_el_exito_requiere_esfuerzo": {
+      "conceptId": "es.pensamientos_opiniones_el_exito_requiere_esfuerzo",
+      "id": "pensamientos_opiniones_el_exito_requiere_esfuerzo",
+      "target": [
+        {
+          "text": "El éxito requiere esfuerzo.",
+          "audioSlug": "el_exito_requiere_esfuerzo"
+        }
+      ]
+    },
+    "es.profesiones_es_un_experto": {
+      "conceptId": "es.profesiones_es_un_experto",
+      "id": "profesiones_es_un_experto",
+      "target": [
+        {
+          "text": "Es un experto.",
+          "audioSlug": "es_un_experto"
+        }
+      ]
+    }
+  }
+}

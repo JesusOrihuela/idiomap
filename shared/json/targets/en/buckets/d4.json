@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "d4",
+  "concepts": {
+    "en.airport_direct_or_connecting": {
+      "conceptId": "en.airport_direct_or_connecting",
+      "id": "airport_direct_or_connecting",
+      "target": [
+        {
+          "text": "Is there a direct flight or must I connect?",
+          "audioSlug": "is_there_a_direct_flight_or_must_i_connect"
+        }
+      ]
+    },
+    "en.calendario_what_day_is_it_today": {
+      "conceptId": "en.calendario_what_day_is_it_today",
+      "id": "calendario_what_day_is_it_today",
+      "target": [
+        {
+          "text": "What day is it today?",
+          "audioSlug": "what_day_is_it_today"
+        }
+      ]
+    },
+    "en.deportes_i_want_to_win": {
+      "conceptId": "en.deportes_i_want_to_win",
+      "id": "deportes_i_want_to_win",
+      "target": [
+        {
+          "text": "I want to win.",
+          "audioSlug": "i_want_to_win"
+        }
+      ]
+    },
+    "en.gym_sport_specific_transfer_performance": {
+      "conceptId": "en.gym_sport_specific_transfer_performance",
+      "id": "gym_sport_specific_transfer_performance",
+      "target": [
+        {
+          "text": "My training must match my sport's demands if I want it to transfer to actual performance.",
+          "audioSlug": "my_training_must_match_my_sport_s_demands_if_i_want_it_to_transfer_to_actual_performance"
+        }
+      ]
+    },
+    "en.planes_make_a_wish": {
+      "conceptId": "en.planes_make_a_wish",
+      "id": "planes_make_a_wish",
+      "target": [
+        {
+          "text": "Make a wish.",
+          "audioSlug": "make_a_wish"
+        }
+      ]
+    }
+  }
+}

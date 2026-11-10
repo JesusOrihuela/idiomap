@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "ce",
+  "concepts": {
+    "en.accommodation_nonsmoking_room": {
+      "conceptId": "en.accommodation_nonsmoking_room",
+      "id": "accommodation_nonsmoking_room",
+      "target": [
+        {
+          "text": "Could you give me a non-smoking room, please?",
+          "audioSlug": "could_you_give_me_a_non_smoking_room_please",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you give me a non-smoking room, please?",
+          "audioSlug": "can_you_give_me_a_non_smoking_room_please",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.airport_where_is_checkin": {
+      "conceptId": "en.airport_where_is_checkin",
+      "id": "airport_where_is_checkin",
+      "target": [
+        {
+          "text": "Where is the check-in counter?",
+          "audioSlug": "where_is_the_check_in_counter"
+        }
+      ]
+    },
+    "en.family_my_grandfather_died_last_year": {
+      "conceptId": "en.family_my_grandfather_died_last_year",
+      "id": "family_my_grandfather_died_last_year",
+      "target": [
+        {
+          "text": "My grandfather died last year.",
+          "audioSlug": "my_grandfather_died_last_year"
+        }
+      ]
+    },
+    "en.health_she_suffers_from_headaches": {
+      "conceptId": "en.health_she_suffers_from_headaches",
+      "id": "health_she_suffers_from_headaches",
+      "target": [
+        {
+          "text": "She suffers from headaches.",
+          "audioSlug": "she_suffers_from_headaches"
+        }
+      ]
+    },
+    "en.kitchen_the_knives_need_sharpening": {
+      "conceptId": "en.kitchen_the_knives_need_sharpening",
+      "id": "kitchen_the_knives_need_sharpening",
+      "target": [
+        {
+          "text": "The knives need sharpening.",
+          "audioSlug": "the_knives_need_sharpening"
+        }
+      ]
+    },
+    "en.restaurant_do_you_have_any_vegetarian_options": {
+      "conceptId": "en.restaurant_do_you_have_any_vegetarian_options",
+      "id": "restaurant_do_you_have_any_vegetarian_options",
+      "target": [
+        {
+          "text": "Do you have any vegetarian options?",
+          "audioSlug": "do_you_have_any_vegetarian_options"
+        }
+      ]
+    }
+  }
+}

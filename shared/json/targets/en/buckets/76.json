@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "76",
+  "concepts": {
+    "en.kitchen_cure_salmon_salt_sugar_dill": {
+      "conceptId": "en.kitchen_cure_salmon_salt_sugar_dill",
+      "id": "kitchen_cure_salmon_salt_sugar_dill",
+      "target": [
+        {
+          "text": "Coat the salmon in salt, sugar and dill to cure it.",
+          "audioSlug": "coat_the_salmon_in_salt_sugar_and_dill_to_cure_it"
+        }
+      ]
+    },
+    "en.kitchen_we_need_to_wash_the_cheese": {
+      "conceptId": "en.kitchen_we_need_to_wash_the_cheese",
+      "id": "kitchen_we_need_to_wash_the_cheese",
+      "target": [
+        {
+          "text": "We need to wash the cheese grater.",
+          "audioSlug": "we_need_to_wash_the_cheese_grater"
+        }
+      ]
+    }
+  }
+}

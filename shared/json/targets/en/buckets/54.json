@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "54",
+  "concepts": {
+    "en.accountability_accounting_records_for_the_tax_return": {
+      "conceptId": "en.accountability_accounting_records_for_the_tax_return",
+      "id": "accountability_accounting_records_for_the_tax_return",
+      "target": [
+        {
+          "text": "Accounting records for the tax return will be closed tomorrow.",
+          "audioSlug": "accounting_records_for_the_tax_return_will_be_closed_tomorrow"
+        }
+      ]
+    },
+    "en.airport_upgrade_miles_business": {
+      "conceptId": "en.airport_upgrade_miles_business",
+      "id": "airport_upgrade_miles_business",
+      "target": [
+        {
+          "text": "I'd like to use my frequent flyer miles to upgrade. Is there availability in business class?",
+          "audioSlug": "i_d_like_to_use_my_frequent_flyer_miles_to_upgrade_is_there_availability_in_business_class"
+        }
+      ]
+    },
+    "en.descripciones_this_is_difficult": {
+      "conceptId": "en.descripciones_this_is_difficult",
+      "id": "descripciones_this_is_difficult",
+      "target": [
+        {
+          "text": "This is difficult.",
+          "audioSlug": "this_is_difficult"
+        }
+      ]
+    },
+    "en.gym_could_you_help_me_create_a": {
+      "conceptId": "en.gym_could_you_help_me_create_a",
+      "id": "gym_could_you_help_me_create_a",
+      "target": [
+        {
+          "text": "Could you help me create a personalized training routine?",
+          "audioSlug": "could_you_help_me_create_a_personalized_training_routine",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you help me create a personalized training routine?",
+          "audioSlug": "can_you_help_me_create_a_personalized_training_routine",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.gym_do_you_have_any_advice_for": {
+      "conceptId": "en.gym_do_you_have_any_advice_for",
+      "id": "gym_do_you_have_any_advice_for",
+      "target": [
+        {
+          "text": "Do you have any advice for preventing injuries?",
+          "audioSlug": "do_you_have_any_advice_for_preventing_injuries"
+        }
+      ]
+    },
+    "en.gym_how_much_rest_time_do_you": {
+      "conceptId": "en.gym_how_much_rest_time_do_you",
+      "id": "gym_how_much_rest_time_do_you",
+      "target": [
+        {
+          "text": "How much rest time do you recommend between sets for this exercise?",
+          "audioSlug": "how_much_rest_time_do_you_recommend_between_sets_for_this_exercise"
+        }
+      ]
+    },
+    "en.gym_what_type_of_membership_do_you": {
+      "conceptId": "en.gym_what_type_of_membership_do_you",
+      "id": "gym_what_type_of_membership_do_you",
+      "target": [
+        {
+          "text": "What type of membership do you offer?",
+          "audioSlug": "what_type_of_membership_do_you_offer"
+        }
+      ]
+    },
+    "en.planes_if_leave_now_arrive": {
+      "conceptId": "en.planes_if_leave_now_arrive",
+      "id": "planes_if_leave_now_arrive",
+      "target": [
+        {
+          "text": "If we leave now, we will arrive on time.",
+          "audioSlug": "if_we_leave_now_we_will_arrive_on_time"
+        }
+      ]
+    },
+    "en.restaurant_do_you_have_any_specials_for": {
+      "conceptId": "en.restaurant_do_you_have_any_specials_for",
+      "id": "restaurant_do_you_have_any_specials_for",
+      "target": [
+        {
+          "text": "Do you have any specials for holidays?",
+          "audioSlug": "do_you_have_any_specials_for_holidays"
+        }
+      ]
+    },
+    "en.technology_the_legacy_system_is_no_longer": {
+      "conceptId": "en.technology_the_legacy_system_is_no_longer",
+      "id": "technology_the_legacy_system_is_no_longer",
+      "target": [
+        {
+          "text": "The legacy system is no longer maintained, meaning any new vulnerability discovered won't be patched.",
+          "audioSlug": "the_legacy_system_is_no_longer_maintained_meaning_any_new_vulnerability_discovered_won_t_be_patched"
+        }
+      ]
+    },
+    "en.transportation_call_cab_station": {
+      "conceptId": "en.transportation_call_cab_station",
+      "id": "transportation_call_cab_station",
+      "target": [
+        {
+          "text": "Could you call me a cab? I must leave in twenty minutes.",
+          "audioSlug": "could_you_call_me_a_cab_i_must_leave_in_twenty_minutes"
+        }
+      ]
+    }
+  }
+}

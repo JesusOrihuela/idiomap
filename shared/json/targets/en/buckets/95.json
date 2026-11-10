@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "95",
+  "concepts": {
+    "en.greetings_very_well_thanks": {
+      "conceptId": "en.greetings_very_well_thanks",
+      "id": "greetings_very_well_thanks",
+      "target": [
+        {
+          "text": "Very well, thanks. And you?",
+          "audioSlug": "very_well_thanks_and_you"
+        }
+      ]
+    },
+    "en.health_i_have_to_go_to_the_hospital": {
+      "conceptId": "en.health_i_have_to_go_to_the_hospital",
+      "id": "health_i_have_to_go_to_the_hospital",
+      "target": [
+        {
+          "text": "I have to go to the hospital.",
+          "audioSlug": "i_have_to_go_to_the_hospital"
+        }
+      ]
+    },
+    "en.movies_nominated_best_foreign_film": {
+      "conceptId": "en.movies_nominated_best_foreign_film",
+      "id": "movies_nominated_best_foreign_film",
+      "target": [
+        {
+          "text": "It has been nominated for Best Foreign Film, generating a lot of buzz.",
+          "audioSlug": "it_has_been_nominated_for_best_foreign_film_generating_a_lot_of_buzz"
+        }
+      ]
+    },
+    "en.personal_info_i_am_a_medical_student": {
+      "conceptId": "en.personal_info_i_am_a_medical_student",
+      "id": "personal_info_i_am_a_medical_student",
+      "target": [
+        {
+          "text": "I'm a medical student.",
+          "audioSlug": "i_m_a_medical_student"
+        }
+      ]
+    },
+    "en.politica_we_were_under_attack": {
+      "conceptId": "en.politica_we_were_under_attack",
+      "id": "politica_we_were_under_attack",
+      "target": [
+        {
+          "text": "We were under attack.",
+          "audioSlug": "we_were_under_attack"
+        }
+      ]
+    },
+    "en.restaurant_is_there_a_time_limit_for": {
+      "conceptId": "en.restaurant_is_there_a_time_limit_for",
+      "id": "restaurant_is_there_a_time_limit_for",
+      "target": [
+        {
+          "text": "Is there a time limit for dining?",
+          "audioSlug": "is_there_a_time_limit_for_dining"
+        }
+      ]
+    },
+    "en.supermarket_is_there_a_bathroom_nearby": {
+      "conceptId": "en.supermarket_is_there_a_bathroom_nearby",
+      "id": "supermarket_is_there_a_bathroom_nearby",
+      "target": [
+        {
+          "text": "Is there a bathroom nearby?",
+          "audioSlug": "is_there_a_bathroom_nearby"
+        }
+      ]
+    },
+    "en.technology_i_want_to_increase_the_brightness": {
+      "conceptId": "en.technology_i_want_to_increase_the_brightness",
+      "id": "technology_i_want_to_increase_the_brightness",
+      "target": [
+        {
+          "text": "I want to increase the brightness of the screen.",
+          "audioSlug": "i_want_to_increase_the_brightness_of_the_screen"
+        }
+      ]
+    },
+    "en.tiempo_libre_this_is_an_important_event": {
+      "conceptId": "en.tiempo_libre_this_is_an_important_event",
+      "id": "tiempo_libre_this_is_an_important_event",
+      "target": [
+        {
+          "text": "This is an important event.",
+          "audioSlug": "this_is_an_important_event"
+        }
+      ]
+    },
+    "en.weather_take_umbrella": {
+      "conceptId": "en.weather_take_umbrella",
+      "id": "weather_take_umbrella",
+      "target": [
+        {
+          "text": "Take an umbrella, it's going to rain.",
+          "audioSlug": "take_an_umbrella_it_s_going_to_rain"
+        }
+      ]
+    }
+  }
+}

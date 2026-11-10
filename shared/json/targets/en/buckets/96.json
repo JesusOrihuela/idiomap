@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "96",
+  "concepts": {
+    "en.accountability_restatement_prior_period_accounting_standard": {
+      "conceptId": "en.accountability_restatement_prior_period_accounting_standard",
+      "id": "accountability_restatement_prior_period_accounting_standard",
+      "target": [
+        {
+          "text": "The restatement of prior-period comparatives was necessitated by the adoption of the new accounting standard.",
+          "audioSlug": "the_restatement_of_prior_period_comparatives_was_necessitated_by_the_adoption_of_the_new_ac_2c176ceb"
+        }
+      ]
+    },
+    "en.kitchen_theres_leftover_broth_for_the_soup": {
+      "conceptId": "en.kitchen_theres_leftover_broth_for_the_soup",
+      "id": "kitchen_theres_leftover_broth_for_the_soup",
+      "target": [
+        {
+          "text": "There's leftover broth for the soup.",
+          "audioSlug": "there_s_leftover_broth_for_the_soup"
+        }
+      ]
+    },
+    "en.kitchen_tonight_were_making_homemade_pizza": {
+      "conceptId": "en.kitchen_tonight_were_making_homemade_pizza",
+      "id": "kitchen_tonight_were_making_homemade_pizza",
+      "target": [
+        {
+          "text": "Tonight we're making homemade pizza.",
+          "audioSlug": "tonight_we_re_making_homemade_pizza"
+        }
+      ]
+    },
+    "en.movies_go_cinema_weekend": {
+      "conceptId": "en.movies_go_cinema_weekend",
+      "id": "movies_go_cinema_weekend",
+      "target": [
+        {
+          "text": "I want to go to the movies this weekend.",
+          "labels": {
+            "region": "US"
+          },
+          "audioSlug": "i_want_to_go_to_the_movies_this_weekend"
+        },
+        {
+          "text": "I want to go to the cinema this weekend.",
+          "labels": {
+            "region": "UK"
+          },
+          "audioSlug": "i_want_to_go_to_the_cinema_this_weekend"
+        }
+      ]
+    },
+    "en.restaurant_is_it_possible_to_split_the": {
+      "conceptId": "en.restaurant_is_it_possible_to_split_the",
+      "id": "restaurant_is_it_possible_to_split_the",
+      "target": [
+        {
+          "text": "Is it possible to split the bill?",
+          "labels": {
+            "region": "UK"
+          },
+          "audioSlug": "is_it_possible_to_split_the_bill"
+        },
+        {
+          "text": "Is it possible to split the check?",
+          "labels": {
+            "region": "US"
+          },
+          "audioSlug": "is_it_possible_to_split_the_check"
+        }
+      ]
+    }
+  }
+}

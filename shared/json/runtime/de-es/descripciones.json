@@ -1,0 +1,1357 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "descripciones",
+  "phrases": [
+    {
+      "id": "descripciones_i_am_tall",
+      "conceptId": "es.descripciones_i_am_tall",
+      "sourceId": "de.s.a4cdb8ecb230680b",
+      "source": "Ich bin groß.",
+      "level": "A1",
+      "grammar": "Una cualidad permanente usa ser, soy alto.",
+      "target": [
+        {
+          "text": "Soy alta.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "soy_alta"
+        },
+        {
+          "text": "Soy alto.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "soy_alto"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_i_am_tired",
+      "conceptId": "es.descripciones_i_am_tired",
+      "sourceId": "de.s.0e6bea078d2221ba",
+      "source": "Ich bin müde.",
+      "level": "A1",
+      "grammar": "Un estado pasajero usa estar, estoy cansado.",
+      "target": [
+        {
+          "text": "Estoy cansada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_cansada"
+        },
+        {
+          "text": "Estoy cansado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_cansado"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_he_is_very_nice",
+      "conceptId": "es.descripciones_he_is_very_nice",
+      "sourceId": "de.s.98e1a2d7a23eb3c9",
+      "source": "Er ist sehr nett.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Él es muy simpático.",
+          "audioSlug": "el_es_muy_simpatico"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_she_is_very_intelligent",
+      "conceptId": "es.descripciones_she_is_very_intelligent",
+      "sourceId": "de.s.96f3930aa91e6789",
+      "source": "Sie ist sehr intelligent.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ella es muy inteligente.",
+          "audioSlug": "ella_es_muy_inteligente"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_the_house_is_big",
+      "conceptId": "es.descripciones_the_house_is_big",
+      "sourceId": "de.s.52a216e57f77ed73",
+      "source": "Das Haus ist groß.",
+      "level": "A1",
+      "grammar": "Una característica del objeto usa ser, la casa es grande.",
+      "target": [
+        {
+          "text": "La casa es grande.",
+          "audioSlug": "la_casa_es_grande"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_the_soup_is_hot",
+      "conceptId": "es.descripciones_the_soup_is_hot",
+      "sourceId": "de.s.5a60135cd2890dc5",
+      "source": "Die Suppe ist heiß.",
+      "level": "A2",
+      "grammar": "Un estado del momento usa estar, la sopa está caliente.",
+      "target": [
+        {
+          "text": "La sopa está caliente.",
+          "audioSlug": "la_sopa_esta_caliente"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_i_am_very_happy",
+      "conceptId": "es.descripciones_i_am_very_happy",
+      "sourceId": "de.s.a89284d93396e3ec",
+      "source": "Ich bin sehr glücklich.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy muy feliz.",
+          "audioSlug": "estoy_muy_feliz"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_what_are_you_like",
+      "conceptId": "es.descripciones_what_are_you_like",
+      "sourceId": "de.s.07ee63103fc7d7ac",
+      "source": "Wie bist du?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo eres?",
+          "audioSlug": "como_eres"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_hombre_amable",
+      "conceptId": "es.descripciones_es_un_hombre_amable",
+      "sourceId": "de.s.15394b46ca101e28",
+      "source": "Er ist ein sehr netter Mann.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un hombre muy amable.",
+          "audioSlug": "es_un_hombre_muy_amable"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_una_mujer_fuerte",
+      "conceptId": "es.descripciones_es_una_mujer_fuerte",
+      "sourceId": "de.s.84baeee0e6d079fb",
+      "source": "Sie ist eine sehr starke Frau.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una mujer muy fuerte.",
+          "audioSlug": "es_una_mujer_muy_fuerte"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_mi_abuelo_es_muy_viejo",
+      "conceptId": "es.descripciones_mi_abuelo_es_muy_viejo",
+      "sourceId": "de.s.99d51ea2ecb99069",
+      "source": "Mein Großvater ist schon sehr alt.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi abuelo ya es muy viejo.",
+          "audioSlug": "mi_abuelo_ya_es_muy_viejo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_ese_chico_es_muy_joven",
+      "conceptId": "es.descripciones_ese_chico_es_muy_joven",
+      "sourceId": "de.s.8272c73c34fe5f81",
+      "source": "Der Junge ist noch sehr jung.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese chico es todavía muy joven.",
+          "audioSlug": "ese_chico_es_todavia_muy_joven"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_examen_fue_malo",
+      "conceptId": "es.descripciones_el_examen_fue_malo",
+      "sourceId": "de.s.3759b5eb7b4310c6",
+      "source": "Die Prüfung war ziemlich schlecht.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El examen fue bastante malo.",
+          "audioSlug": "el_examen_fue_bastante_malo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_este_pueblo_es_pobre",
+      "conceptId": "es.descripciones_este_pueblo_es_pobre",
+      "sourceId": "de.s.50f7648c74f11be3",
+      "source": "Dieses Dorf ist sehr arm.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este pueblo es muy pobre.",
+          "audioSlug": "este_pueblo_es_muy_pobre"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_su_familia_es_rica",
+      "conceptId": "es.descripciones_su_familia_es_rica",
+      "sourceId": "de.s.253973284dd24869",
+      "source": "Seine Familie ist ziemlich reich.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su familia es bastante rica.",
+          "audioSlug": "su_familia_es_bastante_rica"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_mi_hermano_es_mas_bajo",
+      "conceptId": "es.descripciones_mi_hermano_es_mas_bajo",
+      "sourceId": "de.s.5ae0838e2375b467",
+      "source": "Mein Bruder ist kleiner als ich.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi hermano es más bajo que yo.",
+          "audioSlug": "mi_hermano_es_mas_bajo_que_yo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_una_persona_tranquila",
+      "conceptId": "es.descripciones_es_una_persona_tranquila",
+      "sourceId": "de.s.73cad8f55a74a367",
+      "source": "Sie ist ein sehr ruhiger Mensch.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ella es una persona muy tranquila.",
+          "audioSlug": "ella_es_una_persona_muy_tranquila"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_una_historia_triste",
+      "conceptId": "es.descripciones_es_una_historia_triste",
+      "sourceId": "de.s.b663a6f1683819be",
+      "source": "Es ist eine sehr traurige Geschichte.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una historia muy triste.",
+          "audioSlug": "es_una_historia_muy_triste"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_mi_color_favorito_es_el_azul",
+      "conceptId": "es.descripciones_mi_color_favorito_es_el_azul",
+      "sourceId": "de.s.c3c383607c093b62",
+      "source": "Meine Lieblingsfarbe ist Blau.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi color favorito es el azul.",
+          "audioSlug": "mi_color_favorito_es_el_azul"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_ese_actor_es_muy_famoso",
+      "conceptId": "es.descripciones_ese_actor_es_muy_famoso",
+      "sourceId": "de.s.03252e4f57aba1c7",
+      "source": "Dieser Schauspieler ist sehr berühmt.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese actor es muy famoso.",
+          "audioSlug": "ese_actor_es_muy_famoso"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_cada_persona_es_unica",
+      "conceptId": "es.descripciones_cada_persona_es_unica",
+      "sourceId": "de.s.57a103a885cee1e4",
+      "source": "Jeder Mensch ist einzigartig.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cada persona es única.",
+          "audioSlug": "cada_persona_es_unica"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_su_ropa_es_siempre_elegante",
+      "conceptId": "es.descripciones_su_ropa_es_siempre_elegante",
+      "sourceId": "de.s.b7b7b368f660ad26",
+      "source": "Ihre Kleidung ist immer elegant.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su ropa es siempre elegante.",
+          "audioSlug": "su_ropa_es_siempre_elegante"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_novio_de_mi_hermana_es_divertido",
+      "conceptId": "es.descripciones_el_novio_de_mi_hermana_es_divertido",
+      "sourceId": "de.s.3f4ee9b5eb662fc4",
+      "source": "Der Freund meiner Schwester ist lustig.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El novio de mi hermana es divertido.",
+          "audioSlug": "el_novio_de_mi_hermana_es_divertido"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_parque_es_un_lugar_publico",
+      "conceptId": "es.descripciones_el_parque_es_un_lugar_publico",
+      "sourceId": "de.s.1c6d57904d0f0092",
+      "source": "Der Park ist ein öffentlicher Ort.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El parque es un lugar público.",
+          "audioSlug": "el_parque_es_un_lugar_publico"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_aquel_edificio_es_muy_antiguo",
+      "conceptId": "es.descripciones_aquel_edificio_es_muy_antiguo",
+      "sourceId": "de.s.04e3b7a8db607811",
+      "source": "Jenes Gebäude ist sehr alt.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Aquel edificio es muy antiguo.",
+          "audioSlug": "aquel_edificio_es_muy_antiguo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_clima_de_la_costa_es_agradable",
+      "conceptId": "es.descripciones_el_clima_de_la_costa_es_agradable",
+      "sourceId": "de.s.44c9dc93ff2c6601",
+      "source": "Das Klima an der Küste ist angenehm.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El clima de la costa es agradable.",
+          "audioSlug": "el_clima_de_la_costa_es_agradable"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_gato_es_negro",
+      "conceptId": "es.descripciones_el_gato_es_negro",
+      "sourceId": "de.s.f9b5498745a02b52",
+      "source": "Die Katze ist schwarz.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El gato es negro.",
+          "audioSlug": "el_gato_es_negro"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_este_restaurante_es_caro",
+      "conceptId": "es.descripciones_este_restaurante_es_caro",
+      "sourceId": "de.s.7fc360375870d1e8",
+      "source": "Dieses Restaurant ist etwas teuer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este restaurante es un poco caro.",
+          "audioSlug": "este_restaurante_es_un_poco_caro"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_la_diferencia_cultural_es_interesante",
+      "conceptId": "es.descripciones_la_diferencia_cultural_es_interesante",
+      "sourceId": "de.s.da687ca26148e7ec",
+      "source": "Der kulturelle Unterschied ist interessant.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La diferencia cultural es interesante.",
+          "audioSlug": "la_diferencia_cultural_es_interesante"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_tiene_una_personalidad_fuerte",
+      "conceptId": "es.descripciones_tiene_una_personalidad_fuerte",
+      "sourceId": "de.s.84a830eb25234565",
+      "source": "Sie hat eine starke Persönlichkeit.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tiene una personalidad fuerte.",
+          "audioSlug": "tiene_una_personalidad_fuerte"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_la_caja_esta_vacia",
+      "conceptId": "es.descripciones_la_caja_esta_vacia",
+      "sourceId": "de.s.09c87c96c19cf6a1",
+      "source": "Die Kiste ist leer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La caja está vacía.",
+          "audioSlug": "la_caja_esta_vacia"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_su_vestido_es_de_color_rojo",
+      "conceptId": "es.descripciones_su_vestido_es_de_color_rojo",
+      "sourceId": "de.s.b65c6e6a5f622c3a",
+      "source": "Ihr Kleid ist rot.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su vestido es de color rojo.",
+          "audioSlug": "su_vestido_es_de_color_rojo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_paquete_es_demasiado_pesado",
+      "conceptId": "es.descripciones_el_paquete_es_demasiado_pesado",
+      "sourceId": "de.s.25e2fe1eb7eb81eb",
+      "source": "Das Paket ist zu schwer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El paquete es demasiado pesado.",
+          "audioSlug": "el_paquete_es_demasiado_pesado"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_las_hojas_son_de_color_verde",
+      "conceptId": "es.descripciones_las_hojas_son_de_color_verde",
+      "sourceId": "de.s.92aa3d562cc1a042",
+      "source": "Die Blätter sind grün.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Las hojas son de color verde.",
+          "audioSlug": "las_hojas_son_de_color_verde"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_vestido_es_muy_tradicional",
+      "conceptId": "es.descripciones_el_vestido_es_muy_tradicional",
+      "sourceId": "de.s.efa0f19cf50ddcac",
+      "source": "Das Kleid ist sehr traditionell.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El vestido es muy tradicional.",
+          "audioSlug": "el_vestido_es_muy_tradicional"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_que_edad_tienes",
+      "conceptId": "es.descripciones_que_edad_tienes",
+      "sourceId": "de.s.0a1470d440827287",
+      "source": "Wie alt bist du?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué edad tienes?",
+          "audioSlug": "que_edad_tienes"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_rey_vive_en_un_palacio",
+      "conceptId": "es.descripciones_el_rey_vive_en_un_palacio",
+      "sourceId": "de.s.7dfc1601d2138dff",
+      "source": "Der König wohnt in einem Palast.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El rey vive en un palacio.",
+          "audioSlug": "el_rey_vive_en_un_palacio"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_una_persona_generosa",
+      "conceptId": "es.descripciones_es_una_persona_generosa",
+      "sourceId": "de.s.ce3c65b8aeff4672",
+      "source": "Sie ist eine sehr großzügige Person.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una persona muy generosa.",
+          "audioSlug": "es_una_persona_muy_generosa"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_mi_jefe_es_bastante_serio",
+      "conceptId": "es.descripciones_mi_jefe_es_bastante_serio",
+      "sourceId": "de.s.74113e8dbc198b8b",
+      "source": "Mein Chef ist ziemlich ernst.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi jefe es bastante serio.",
+          "audioSlug": "mi_jefe_es_bastante_serio"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_ese_nino_es_muy_timido",
+      "conceptId": "es.descripciones_ese_nino_es_muy_timido",
+      "sourceId": "de.s.493af13f9291bdc7",
+      "source": "Dieser Junge ist sehr schüchtern.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese niño es muy tímido.",
+          "audioSlug": "ese_nino_es_muy_timido"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_fue_un_acto_muy_valiente",
+      "conceptId": "es.descripciones_fue_un_acto_muy_valiente",
+      "sourceId": "de.s.93c0231d86b22eb6",
+      "source": "Das war eine sehr mutige Tat.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Fue un acto muy valiente.",
+          "audioSlug": "fue_un_acto_muy_valiente"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_siempre_es_honesto_con_todos",
+      "conceptId": "es.descripciones_siempre_es_honesto_con_todos",
+      "sourceId": "de.s.ce38f4013fc225dd",
+      "source": "Er ist immer ehrlich zu allen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Siempre es honesto con todos.",
+          "audioSlug": "siempre_es_honesto_con_todos"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_ella_es_mexicana",
+      "conceptId": "es.descripciones_ella_es_mexicana",
+      "sourceId": "de.s.508ca325ff4e88ec",
+      "source": "Sie ist Mexikanerin.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ella es mexicana.",
+          "audioSlug": "ella_es_mexicana"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_mi_amigo_es_europeo",
+      "conceptId": "es.descripciones_mi_amigo_es_europeo",
+      "sourceId": "de.s.304e46c23158265c",
+      "source": "Mein Freund ist Europäer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi amigo es europeo.",
+          "audioSlug": "mi_amigo_es_europeo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_edificio_es_historico",
+      "conceptId": "es.descripciones_el_edificio_es_historico",
+      "sourceId": "de.s.14bc37c8fd168371",
+      "source": "Das Gebäude ist historisch.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El edificio es histórico.",
+          "audioSlug": "el_edificio_es_historico"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_este_autor_es_muy_conocido",
+      "conceptId": "es.descripciones_este_autor_es_muy_conocido",
+      "sourceId": "de.s.5f93c32c4dfce2b2",
+      "source": "Dieser Autor ist sehr bekannt.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este autor es muy conocido.",
+          "audioSlug": "este_autor_es_muy_conocido"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_la_comida_mexicana_es_picante",
+      "conceptId": "es.descripciones_la_comida_mexicana_es_picante",
+      "sourceId": "de.s.3a1f4341f7f03906",
+      "source": "Das mexikanische Essen ist scharf.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La comida mexicana es picante.",
+          "audioSlug": "la_comida_mexicana_es_picante"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_su_estilo_es_bastante_clasico",
+      "conceptId": "es.descripciones_su_estilo_es_bastante_clasico",
+      "sourceId": "de.s.fa0fde1069cb9123",
+      "source": "Sein Stil ist ziemlich klassisch.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su estilo es bastante clásico.",
+          "audioSlug": "su_estilo_es_bastante_clasico"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_paisaje_es_tipico_de_la_region",
+      "conceptId": "es.descripciones_el_paisaje_es_tipico_de_la_region",
+      "sourceId": "de.s.fcbfcfc13ee06d35",
+      "source": "Die Landschaft ist typisch für die Region.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El paisaje es típico de la región.",
+          "audioSlug": "el_paisaje_es_tipico_de_la_region"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_problema_muy_comun",
+      "conceptId": "es.descripciones_es_un_problema_muy_comun",
+      "sourceId": "de.s.096db67199d82ec5",
+      "source": "Es ist ein sehr häufiges Problem.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un problema muy común.",
+          "audioSlug": "es_un_problema_muy_comun"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_ese_actor_es_muy_guapo",
+      "conceptId": "es.descripciones_ese_actor_es_muy_guapo",
+      "sourceId": "de.s.530839d765f45a19",
+      "source": "Dieser Schauspieler ist sehr gut aussehend.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese actor es muy guapo.",
+          "audioSlug": "ese_actor_es_muy_guapo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_van_a_construir_un_puente_nuevo",
+      "conceptId": "es.descripciones_van_a_construir_un_puente_nuevo",
+      "sourceId": "de.s.9b5ef7d87c97200c",
+      "source": "Sie werden eine neue Brücke bauen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Van a construir un puente nuevo.",
+          "audioSlug": "van_a_construir_un_puente_nuevo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_este_objeto_es_muy_antiguo",
+      "conceptId": "es.descripciones_este_objeto_es_muy_antiguo",
+      "sourceId": "de.s.8a0b0ffb653e6760",
+      "source": "Dieser Gegenstand ist sehr alt.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este objeto es muy antiguo.",
+          "audioSlug": "este_objeto_es_muy_antiguo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_ese_paisaje_es_simplemente_maravilloso",
+      "conceptId": "es.descripciones_ese_paisaje_es_simplemente_maravilloso",
+      "sourceId": "de.s.3d0a46580c02d502",
+      "source": "Diese Landschaft ist einfach wunderbar.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese paisaje es simplemente maravilloso.",
+          "audioSlug": "ese_paisaje_es_simplemente_maravilloso"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_anillo_es_realmente_precioso",
+      "conceptId": "es.descripciones_el_anillo_es_realmente_precioso",
+      "sourceId": "de.s.1d6cdd68e74dd4cf",
+      "source": "Der Ring ist wirklich wunderschön.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El anillo es realmente precioso.",
+          "audioSlug": "el_anillo_es_realmente_precioso"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_tiene_un_aspecto_fisico_atletico",
+      "conceptId": "es.descripciones_tiene_un_aspecto_fisico_atletico",
+      "sourceId": "de.s.6d8c5cf0affc7dd2",
+      "source": "Er hat eine athletische körperliche Erscheinung.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tiene un aspecto físico atlético.",
+          "audioSlug": "tiene_un_aspecto_fisico_atletico"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_esa_historia_me_parece_falsa",
+      "conceptId": "es.descripciones_esa_historia_me_parece_falsa",
+      "sourceId": "de.s.a149248f259051f6",
+      "source": "Diese Geschichte kommt mir falsch vor.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Esa historia me parece falsa.",
+          "audioSlug": "esa_historia_me_parece_falsa"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_resultado_del_partido_fue_increible",
+      "conceptId": "es.descripciones_el_resultado_del_partido_fue_increible",
+      "sourceId": "de.s.297c6988134ed677",
+      "source": "Das Ergebnis des Spiels war unglaublich.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El resultado del partido fue increíble.",
+          "audioSlug": "el_resultado_del_partido_fue_increible"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_tipo_de_persona_muy_rara",
+      "conceptId": "es.descripciones_es_un_tipo_de_persona_muy_rara",
+      "sourceId": "de.s.f34730d3e320cba2",
+      "source": "Er ist eine sehr seltsame Art von Mensch.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un tipo de persona muy rara.",
+          "audioSlug": "es_un_tipo_de_persona_muy_rara"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_clima_de_hoy_es_peor_que_ayer",
+      "conceptId": "es.descripciones_el_clima_de_hoy_es_peor_que_ayer",
+      "sourceId": "de.s.8a98b21d3fe5f698",
+      "source": "Das Wetter ist heute schlechter als gestern.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El clima de hoy es peor que ayer.",
+          "audioSlug": "el_clima_de_hoy_es_peor_que_ayer"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_una_costumbre_muy_extrana",
+      "conceptId": "es.descripciones_es_una_costumbre_muy_extrana",
+      "sourceId": "de.s.188e526a835e845d",
+      "source": "Das ist ein sehr seltsamer Brauch.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una costumbre muy extraña.",
+          "audioSlug": "es_una_costumbre_muy_extrana"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_tuvimos_un_viaje_fantastico",
+      "conceptId": "es.descripciones_tuvimos_un_viaje_fantastico",
+      "sourceId": "de.s.1c85acb021a6f3e6",
+      "source": "Wir hatten eine fantastische Reise.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tuvimos un viaje fantástico.",
+          "audioSlug": "tuvimos_un_viaje_fantastico"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_ese_rincon_del_jardin_es_muy_bello",
+      "conceptId": "es.descripciones_ese_rincon_del_jardin_es_muy_bello",
+      "sourceId": "de.s.a4bfc54fa444fe6b",
+      "source": "Diese Ecke des Gartens ist sehr schön.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese rincón del jardín es muy bello.",
+          "audioSlug": "ese_rincon_del_jardin_es_muy_bello"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_eso_parece_casi_imposible",
+      "conceptId": "es.descripciones_eso_parece_casi_imposible",
+      "sourceId": "de.s.63ea342109a1d657",
+      "source": "Das scheint fast unmöglich.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Eso parece casi imposible.",
+          "audioSlug": "eso_parece_casi_imposible"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_tema_muy_actual",
+      "conceptId": "es.descripciones_es_un_tema_muy_actual",
+      "sourceId": "de.s.752fe1b05e469980",
+      "source": "Das ist ein sehr aktuelles Thema.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un tema muy actual.",
+          "audioSlug": "es_un_tema_muy_actual"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_tiene_una_actitud_muy_profesional",
+      "conceptId": "es.descripciones_tiene_una_actitud_muy_profesional",
+      "sourceId": "de.s.c73af3470cbe0fbc",
+      "source": "Sie hat eine sehr professionelle Einstellung.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tiene una actitud muy profesional.",
+          "audioSlug": "tiene_una_actitud_muy_profesional"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_un_amigo_verdadero",
+      "conceptId": "es.descripciones_es_un_amigo_verdadero",
+      "sourceId": "de.s.3318870027096e61",
+      "source": "Er ist ein wahrer Freund.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un amigo verdadero.",
+          "audioSlug": "es_un_amigo_verdadero"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_me_encanta_la_comida_italiana",
+      "conceptId": "es.descripciones_me_encanta_la_comida_italiana",
+      "sourceId": "de.s.4b1f066be699196b",
+      "source": "Ich liebe italienisches Essen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me encanta la comida italiana.",
+          "audioSlug": "me_encanta_la_comida_italiana"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_prefiero_comprar_en_el_mercado_local",
+      "conceptId": "es.descripciones_prefiero_comprar_en_el_mercado_local",
+      "sourceId": "de.s.bcb50c783715bc05",
+      "source": "Ich kaufe lieber auf dem lokalen Markt.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Prefiero comprar en el mercado local.",
+          "audioSlug": "prefiero_comprar_en_el_mercado_local"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_habla_frances_con_mucha_fluidez",
+      "conceptId": "es.descripciones_habla_frances_con_mucha_fluidez",
+      "sourceId": "de.s.3c788c9f06524976",
+      "source": "Sie spricht sehr fließend Französisch.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Habla francés con mucha fluidez.",
+          "audioSlug": "habla_frances_con_mucha_fluidez"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_me_gusta_mucho_la_musica_cubana",
+      "conceptId": "es.descripciones_me_gusta_mucho_la_musica_cubana",
+      "sourceId": "de.s.791f048ecb7c0868",
+      "source": "Ich mag kubanische Musik sehr.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gusta mucho la música cubana.",
+          "audioSlug": "me_gusta_mucho_la_musica_cubana"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_tiene_un_marcado_acento_americano",
+      "conceptId": "es.descripciones_tiene_un_marcado_acento_americano",
+      "sourceId": "de.s.b897a4625b77d3fd",
+      "source": "Er hat einen ausgeprägten amerikanischen Akzent.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tiene un marcado acento americano.",
+          "audioSlug": "tiene_un_marcado_acento_americano"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_ella_aprende_una_lengua_indigena",
+      "conceptId": "es.descripciones_ella_aprende_una_lengua_indigena",
+      "sourceId": "de.s.58a6d18ac90f344a",
+      "source": "Sie lernt eine indigene Sprache.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ella aprende una lengua indígena.",
+          "audioSlug": "ella_aprende_una_lengua_indigena"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_esta_silla_es_de_plastico_duro",
+      "conceptId": "es.descripciones_esta_silla_es_de_plastico_duro",
+      "sourceId": "de.s.d8d5491123039be7",
+      "source": "Dieser Stuhl ist aus hartem Plastik.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Esta silla es de plástico duro.",
+          "audioSlug": "esta_silla_es_de_plastico_duro"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_ese_sofa_viejo_es_muy_feo",
+      "conceptId": "es.descripciones_ese_sofa_viejo_es_muy_feo",
+      "sourceId": "de.s.9a206ef1c3ddbe17",
+      "source": "Dieses alte Sofa ist sehr hässlich.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese sofá viejo es muy feo.",
+          "audioSlug": "ese_sofa_viejo_es_muy_feo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_gato_esta_un_poco_gordo",
+      "conceptId": "es.descripciones_el_gato_esta_un_poco_gordo",
+      "sourceId": "de.s.3acf225100751f55",
+      "source": "Die Katze ist ein bisschen dick.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El gato está un poco gordo.",
+          "audioSlug": "el_gato_esta_un_poco_gordo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_cielo_esta_gris_esta_manana",
+      "conceptId": "es.descripciones_el_cielo_esta_gris_esta_manana",
+      "sourceId": "de.s.26a26f8d2a63e0ec",
+      "source": "Der Himmel ist heute Morgen grau.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El cielo está gris esta mañana.",
+          "audioSlug": "el_cielo_esta_gris_esta_manana"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_oso_es_de_color_marron",
+      "conceptId": "es.descripciones_el_oso_es_de_color_marron",
+      "sourceId": "de.s.a74a2bfe87a04187",
+      "source": "Der Bär ist braun.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El oso es de color marrón.",
+          "audioSlug": "el_oso_es_de_color_marron"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_mi_hermana_tiene_el_pelo_rubio",
+      "conceptId": "es.descripciones_mi_hermana_tiene_el_pelo_rubio",
+      "sourceId": "de.s.9b09724181ec9718",
+      "source": "Meine Schwester hat blonde Haare.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi hermana tiene el pelo rubio.",
+          "audioSlug": "mi_hermana_tiene_el_pelo_rubio"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_ese_perro_es_delgado_y_rapido",
+      "conceptId": "es.descripciones_ese_perro_es_delgado_y_rapido",
+      "sourceId": "de.s.2e448ffc2396e686",
+      "source": "Dieser Hund ist schlank und schnell.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese perro es delgado y rápido.",
+          "audioSlug": "ese_perro_es_delgado_y_rapido"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_ese_vestido_azul_es_muy_lindo",
+      "conceptId": "es.descripciones_ese_vestido_azul_es_muy_lindo",
+      "sourceId": "de.s.2c1043eb70eee9bf",
+      "source": "Dieses blaue Kleid ist sehr hübsch.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese vestido azul es muy lindo.",
+          "audioSlug": "ese_vestido_azul_es_muy_lindo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_mi_primo_tiene_el_pelo_moreno",
+      "conceptId": "es.descripciones_mi_primo_tiene_el_pelo_moreno",
+      "sourceId": "de.s.e7ae0c3246c1c433",
+      "source": "Mein Cousin hat dunkles Haar.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi primo tiene el pelo moreno.",
+          "audioSlug": "mi_primo_tiene_el_pelo_moreno"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_mi_abuelo_se_quedo_calvo_muy_joven",
+      "conceptId": "es.descripciones_mi_abuelo_se_quedo_calvo_muy_joven",
+      "sourceId": "de.s.cd10d0f1979f14a9",
+      "source": "Mein Großvater wurde sehr jung kahl.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi abuelo se quedó calvo muy joven.",
+          "audioSlug": "mi_abuelo_se_quedo_calvo_muy_joven"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_sol_es_de_color_amarillo",
+      "conceptId": "es.descripciones_el_sol_es_de_color_amarillo",
+      "sourceId": "de.s.a05a593914759f5e",
+      "source": "Die Sonne ist gelb.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El sol es de color amarillo.",
+          "audioSlug": "el_sol_es_de_color_amarillo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_la_pelicula_fue_muy_aburrida",
+      "conceptId": "es.descripciones_la_pelicula_fue_muy_aburrida",
+      "sourceId": "de.s.56510a4638bb59d3",
+      "source": "Der Film war sehr langweilig.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La película fue muy aburrida.",
+          "audioSlug": "la_pelicula_fue_muy_aburrida"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_su_actitud_es_un_poco_antipatica",
+      "conceptId": "es.descripciones_su_actitud_es_un_poco_antipatica",
+      "sourceId": "de.s.227907ba97b81246",
+      "source": "Ihre Haltung ist etwas unfreundlich.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su actitud es un poco antipática.",
+          "audioSlug": "su_actitud_es_un_poco_antipatica"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_una_persona_muy_sociable",
+      "conceptId": "es.descripciones_es_una_persona_muy_sociable",
+      "sourceId": "de.s.322668dc9c8a026e",
+      "source": "Sie ist ein sehr geselliger Mensch.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una persona muy sociable.",
+          "audioSlug": "es_una_persona_muy_sociable"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_no_seas_tan_egoista_con_los_demas",
+      "conceptId": "es.descripciones_no_seas_tan_egoista_con_los_demas",
+      "sourceId": "de.s.27a66f4bc298bb8d",
+      "source": "Sei nicht so egoistisch zu den anderen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No seas tan egoísta con los demás.",
+          "audioSlug": "no_seas_tan_egoista_con_los_demas"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_el_servicio_de_hoy_fue_bastante_regular",
+      "conceptId": "es.descripciones_el_servicio_de_hoy_fue_bastante_regular",
+      "sourceId": "de.s.b78da8de766056b7",
+      "source": "Der Service war heute ziemlich mittelmäßig.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El servicio de hoy fue bastante regular.",
+          "audioSlug": "el_servicio_de_hoy_fue_bastante_regular"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_su_horario_de_trabajo_es_fijo",
+      "conceptId": "es.descripciones_su_horario_de_trabajo_es_fijo",
+      "sourceId": "de.s.299d22d5e47c1f8f",
+      "source": "Ihre Arbeitszeit ist fest.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su horario de trabajo es fijo.",
+          "audioSlug": "su_horario_de_trabajo_es_fijo"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_es_probable_que_llueva_manana",
+      "conceptId": "es.descripciones_es_probable_que_llueva_manana",
+      "sourceId": "de.s.c1ed59c88d0aa0ad",
+      "source": "Es ist wahrscheinlich, dass es morgen regnet.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es probable que llueva mañana.",
+          "audioSlug": "es_probable_que_llueva_manana"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_su_voz_es_parecida_a_la_tuya",
+      "conceptId": "es.descripciones_su_voz_es_parecida_a_la_tuya",
+      "sourceId": "de.s.c6cf2c4aa81ac164",
+      "source": "Ihre Stimme ähnelt deiner.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su voz es parecida a la tuya.",
+          "audioSlug": "su_voz_es_parecida_a_la_tuya"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_la_vista_desde_la_cima_es_impresionante",
+      "conceptId": "es.descripciones_la_vista_desde_la_cima_es_impresionante",
+      "sourceId": "de.s.070cddaaf51abf3a",
+      "source": "Die Aussicht vom Gipfel ist beeindruckend.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La vista desde la cima es impresionante.",
+          "audioSlug": "la_vista_desde_la_cima_es_impresionante"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_ese_callejon_es_demasiado_estrecho",
+      "conceptId": "es.descripciones_ese_callejon_es_demasiado_estrecho",
+      "sourceId": "de.s.022817e63e0f2b4a",
+      "source": "Diese Gasse ist zu eng.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese callejón es demasiado estrecho.",
+          "audioSlug": "ese_callejon_es_demasiado_estrecho"
+        }
+      ]
+    },
+    {
+      "id": "descripciones_quiero_un_vaso_de_tamano_mediano",
+      "conceptId": "es.descripciones_quiero_un_vaso_de_tamano_mediano",
+      "sourceId": "de.s.76b7d15280ad15d3",
+      "source": "Ich möchte ein mittelgroßes Glas.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero un vaso de tamaño mediano.",
+          "audioSlug": "quiero_un_vaso_de_tamano_mediano"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "9f",
+  "concepts": {
+    "en.accommodation_checkout_time": {
+      "conceptId": "en.accommodation_checkout_time",
+      "id": "accommodation_checkout_time",
+      "target": [
+        {
+          "text": "What time is check-out?",
+          "audioSlug": "what_time_is_check_out"
+        }
+      ]
+    },
+    "en.airport_partner_airline_baggage_liability": {
+      "conceptId": "en.airport_partner_airline_baggage_liability",
+      "id": "airport_partner_airline_baggage_liability",
+      "target": [
+        {
+          "text": "The connecting flight was operated by a partner airline. Does that affect liability for my delayed baggage?",
+          "audioSlug": "the_connecting_flight_was_operated_by_a_partner_airline_does_that_affect_liability_for_my_d_676c4e70"
+        }
+      ]
+    },
+    "en.cuerpo_the_brain_is_amazing": {
+      "conceptId": "en.cuerpo_the_brain_is_amazing",
+      "id": "cuerpo_the_brain_is_amazing",
+      "target": [
+        {
+          "text": "The brain is amazing.",
+          "audioSlug": "the_brain_is_amazing"
+        }
+      ]
+    },
+    "en.greetings_have_a_wonderful_day": {
+      "conceptId": "en.greetings_have_a_wonderful_day",
+      "id": "greetings_have_a_wonderful_day",
+      "target": [
+        {
+          "text": "Have a wonderful day!",
+          "audioSlug": "have_a_wonderful_day",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Have a great day!",
+          "audioSlug": "have_a_great_day",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.health_i_have_a_headache": {
+      "conceptId": "en.health_i_have_a_headache",
+      "id": "health_i_have_a_headache",
+      "target": [
+        {
+          "text": "I have a headache.",
+          "audioSlug": "i_have_a_headache"
+        }
+      ]
+    },
+    "en.kitchen_the_best_side_dish_for_fish": {
+      "conceptId": "en.kitchen_the_best_side_dish_for_fish",
+      "id": "kitchen_the_best_side_dish_for_fish",
+      "target": [
+        {
+          "text": "The best side dish for fish is rice.",
+          "audioSlug": "the_best_side_dish_for_fish_is_rice"
+        }
+      ]
+    },
+    "en.technology_can_you_share_your_location": {
+      "conceptId": "en.technology_can_you_share_your_location",
+      "id": "technology_can_you_share_your_location",
+      "target": [
+        {
+          "text": "Can you share your location?",
+          "audioSlug": "can_you_share_your_location"
+        }
+      ]
+    }
+  }
+}

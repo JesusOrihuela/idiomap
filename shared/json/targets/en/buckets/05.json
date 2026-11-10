@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "05",
+  "concepts": {
+    "en.airport_is_flight_on_time": {
+      "conceptId": "en.airport_is_flight_on_time",
+      "id": "airport_is_flight_on_time",
+      "target": [
+        {
+          "text": "Is my flight on time?",
+          "audioSlug": "is_my_flight_on_time"
+        }
+      ]
+    },
+    "en.emociones_im_embarrassed": {
+      "conceptId": "en.emociones_im_embarrassed",
+      "id": "emociones_im_embarrassed",
+      "target": [
+        {
+          "text": "I am embarrassed.",
+          "audioSlug": "i_am_embarrassed"
+        }
+      ]
+    },
+    "en.health_im_allergic": {
+      "conceptId": "en.health_im_allergic",
+      "id": "health_im_allergic",
+      "target": [
+        {
+          "text": "I'm allergic to penicillin.",
+          "audioSlug": "i_m_allergic_to_penicillin"
+        }
+      ]
+    },
+    "en.museums_free_admission": {
+      "conceptId": "en.museums_free_admission",
+      "id": "museums_free_admission",
+      "target": [
+        {
+          "text": "Is admission free on Sundays?",
+          "audioSlug": "is_admission_free_on_sundays"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_however_serious_flaws": {
+      "conceptId": "en.pensamientos_opiniones_however_serious_flaws",
+      "id": "pensamientos_opiniones_however_serious_flaws",
+      "target": [
+        {
+          "text": "However, the plan had serious flaws.",
+          "audioSlug": "however_the_plan_had_serious_flaws"
+        }
+      ]
+    },
+    "en.supermarket_are_these_grapes_organic": {
+      "conceptId": "en.supermarket_are_these_grapes_organic",
+      "id": "supermarket_are_these_grapes_organic",
+      "target": [
+        {
+          "text": "Are these grapes organic?",
+          "audioSlug": "are_these_grapes_organic"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "d5",
+  "concepts": {
+    "es.accommodation_book_room_two_nights": {
+      "conceptId": "es.accommodation_book_room_two_nights",
+      "id": "accommodation_book_room_two_nights",
+      "target": [
+        {
+          "text": "¿Puedes ayudarme a reservar una habitación para dos noches?",
+          "audioSlug": "puedes_ayudarme_a_reservar_una_habitacion_para_dos_noches"
+        }
+      ]
+    },
+    "es.airport_necesito_un_asiento_junto_a_la_ventana": {
+      "conceptId": "es.airport_necesito_un_asiento_junto_a_la_ventana",
+      "id": "airport_necesito_un_asiento_junto_a_la_ventana",
+      "target": [
+        {
+          "text": "Necesito un asiento junto a la ventana.",
+          "audioSlug": "necesito_un_asiento_junto_a_la_ventana"
+        }
+      ]
+    },
+    "es.daily_routine_weekends": {
+      "conceptId": "es.daily_routine_weekends",
+      "id": "daily_routine_weekends",
+      "target": [
+        {
+          "text": "¿Qué haces los fines de semana?",
+          "audioSlug": "que_haces_los_fines_de_semana"
+        }
+      ]
+    },
+    "es.estudios_el_nino_hizo_un_dibujo": {
+      "conceptId": "es.estudios_el_nino_hizo_un_dibujo",
+      "id": "estudios_el_nino_hizo_un_dibujo",
+      "target": [
+        {
+          "text": "Hice un dibujo de mi familia.",
+          "audioSlug": "hice_un_dibujo_de_mi_familia"
+        }
+      ]
+    },
+    "es.greetings_trust_message_finds_you_well": {
+      "conceptId": "es.greetings_trust_message_finds_you_well",
+      "id": "greetings_trust_message_finds_you_well",
+      "target": [
+        {
+          "text": "Espero que se encuentre bien y le escribo para retomar la conversación de la semana pasada.",
+          "audioSlug": "espero_que_se_encuentre_bien_y_le_escribo_para_retomar_la_conversacion_de_la_semana_pasada"
+        }
+      ]
+    },
+    "es.gym_monthly_membership_price": {
+      "conceptId": "es.gym_monthly_membership_price",
+      "id": "gym_monthly_membership_price",
+      "target": [
+        {
+          "text": "¿Cuánto cuesta la mensualidad?",
+          "audioSlug": "cuanto_cuesta_la_mensualidad"
+        }
+      ]
+    },
+    "es.hogar_mi_habitacion_esta_en_el_segundo_piso": {
+      "conceptId": "es.hogar_mi_habitacion_esta_en_el_segundo_piso",
+      "id": "hogar_mi_habitacion_esta_en_el_segundo_piso",
+      "target": [
+        {
+          "text": "Mi habitación está en el segundo piso.",
+          "audioSlug": "mi_habitacion_esta_en_el_segundo_piso"
+        }
+      ]
+    },
+    "es.movies_subtext_more_powerful_than_dialogue": {
+      "conceptId": "es.movies_subtext_more_powerful_than_dialogue",
+      "id": "movies_subtext_more_powerful_than_dialogue",
+      "target": [
+        {
+          "text": "Lo no dicho tiene más peso que el diálogo en los mejores momentos.",
+          "audioSlug": "lo_no_dicho_tiene_mas_peso_que_el_dialogo_en_los_mejores_momentos"
+        }
+      ]
+    },
+    "es.museums_gift_shop": {
+      "conceptId": "es.museums_gift_shop",
+      "id": "museums_gift_shop",
+      "target": [
+        {
+          "text": "¿Dónde está la tienda del museo?",
+          "audioSlug": "donde_esta_la_tienda_del_museo"
+        }
+      ]
+    },
+    "es.music_catchy": {
+      "conceptId": "es.music_catchy",
+      "id": "music_catchy",
+      "target": [
+        {
+          "text": "Esta canción es muy pegadiza.",
+          "audioSlug": "esta_cancion_es_muy_pegadiza"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_hay_que_conservar_la_naturaleza": {
+      "conceptId": "es.naturaleza_lugares_hay_que_conservar_la_naturaleza",
+      "id": "naturaleza_lugares_hay_que_conservar_la_naturaleza",
+      "target": [
+        {
+          "text": "Hay que conservar la naturaleza.",
+          "audioSlug": "hay_que_conservar_la_naturaleza"
+        }
+      ]
+    },
+    "es.planes_dame_otra_oportunidad": {
+      "conceptId": "es.planes_dame_otra_oportunidad",
+      "id": "planes_dame_otra_oportunidad",
+      "target": [
+        {
+          "text": "Dame otra oportunidad.",
+          "audioSlug": "dame_otra_oportunidad",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Deme otra oportunidad.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "deme_otra_oportunidad"
+        }
+      ]
+    },
+    "es.politica_la_princesa_saludo_desde_el_balcon": {
+      "conceptId": "es.politica_la_princesa_saludo_desde_el_balcon",
+      "id": "politica_la_princesa_saludo_desde_el_balcon",
+      "target": [
+        {
+          "text": "La princesa saludó desde el balcón.",
+          "audioSlug": "la_princesa_saludo_desde_el_balcon"
+        }
+      ]
+    },
+    "es.restaurant_allergy_chef_ingredients": {
+      "conceptId": "es.restaurant_allergy_chef_ingredients",
+      "id": "restaurant_allergy_chef_ingredients",
+      "target": [
+        {
+          "text": "Hay una alergia alimentaria en nuestra mesa, ¿podría el chef confirmar los ingredientes?",
+          "audioSlug": "hay_una_alergia_alimentaria_en_nuestra_mesa_podria_el_chef_confirmar_los_ingredientes",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "Hay una alergia alimentaria en nuestra mesa, ¿podría la chef confirmar los ingredientes?",
+          "audioSlug": "hay_una_alergia_alimentaria_en_nuestra_mesa_podria_la_chef_confirmar_los_ingredientes",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.restaurant_could_i_have_the_check_split": {
+      "conceptId": "es.restaurant_could_i_have_the_check_split",
+      "id": "restaurant_could_i_have_the_check_split",
+      "target": [
+        {
+          "text": "¿Podría dividir la cuenta entre los dos?",
+          "audioSlug": "podria_dividir_la_cuenta_entre_los_dos"
+        }
+      ]
+    },
+    "es.technology_escucho_la_radio_en_el_carro": {
+      "conceptId": "es.technology_escucho_la_radio_en_el_carro",
+      "id": "technology_escucho_la_radio_en_el_carro",
+      "target": [
+        {
+          "text": "Escucho la radio por las mañanas.",
+          "audioSlug": "escucho_la_radio_por_las_mananas"
+        }
+      ]
+    },
+    "es.technology_guardo_las_fotos_en_la_nube": {
+      "conceptId": "es.technology_guardo_las_fotos_en_la_nube",
+      "id": "technology_guardo_las_fotos_en_la_nube",
+      "target": [
+        {
+          "text": "Guardo las fotos en la nube.",
+          "audioSlug": "guardo_las_fotos_en_la_nube"
+        }
+      ]
+    }
+  }
+}

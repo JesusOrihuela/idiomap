@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "41",
+  "concepts": {
+    "en.greetings_appreciate_time_demanding_schedule": {
+      "conceptId": "en.greetings_appreciate_time_demanding_schedule",
+      "id": "greetings_appreciate_time_demanding_schedule",
+      "target": [
+        {
+          "text": "I appreciate you taking the time to meet with me, knowing how demanding your schedule is.",
+          "audioSlug": "i_appreciate_you_taking_the_time_to_meet_with_me_knowing_how_demanding_your_schedule_is"
+        }
+      ]
+    },
+    "en.kitchen_could_you_help_me_open_this": {
+      "conceptId": "en.kitchen_could_you_help_me_open_this",
+      "id": "kitchen_could_you_help_me_open_this",
+      "target": [
+        {
+          "text": "Could you help me open this jar, please?",
+          "audioSlug": "could_you_help_me_open_this_jar_please",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you help me open this jar, please?",
+          "audioSlug": "can_you_help_me_open_this_jar_please",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.kitchen_im_going_to_make_chicken_and": {
+      "conceptId": "en.kitchen_im_going_to_make_chicken_and",
+      "id": "kitchen_im_going_to_make_chicken_and",
+      "target": [
+        {
+          "text": "I am going to make chicken and rice tonight.",
+          "audioSlug": "i_am_going_to_make_chicken_and_rice_tonight"
+        }
+      ]
+    },
+    "en.kitchen_turn_off_the_stove": {
+      "conceptId": "en.kitchen_turn_off_the_stove",
+      "id": "kitchen_turn_off_the_stove",
+      "target": [
+        {
+          "text": "Turn off the stove.",
+          "audioSlug": "turn_off_the_stove"
+        }
+      ]
+    },
+    "en.kitchen_we_need_to_finely_chop_the": {
+      "conceptId": "en.kitchen_we_need_to_finely_chop_the",
+      "id": "kitchen_we_need_to_finely_chop_the",
+      "target": [
+        {
+          "text": "We need to finely chop the onions.",
+          "audioSlug": "we_need_to_finely_chop_the_onions"
+        }
+      ]
+    },
+    "en.movies_series_recommendation": {
+      "conceptId": "en.movies_series_recommendation",
+      "id": "movies_series_recommendation",
+      "target": [
+        {
+          "text": "What series do you recommend watching?",
+          "audioSlug": "what_series_do_you_recommend_watching"
+        }
+      ]
+    },
+    "en.theater_opera_surprised": {
+      "conceptId": "en.theater_opera_surprised",
+      "id": "theater_opera_surprised",
+      "target": [
+        {
+          "text": "I didn't think I would enjoy the opera so much.",
+          "audioSlug": "i_didn_t_think_i_would_enjoy_the_opera_so_much"
+        }
+      ]
+    },
+    "en.viajes_did_you_have_a_good_trip": {
+      "conceptId": "en.viajes_did_you_have_a_good_trip",
+      "id": "viajes_did_you_have_a_good_trip",
+      "target": [
+        {
+          "text": "Did you have a good trip?",
+          "audioSlug": "did_you_have_a_good_trip"
+        }
+      ]
+    }
+  }
+}

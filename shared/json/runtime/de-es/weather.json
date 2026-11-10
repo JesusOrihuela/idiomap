@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "weather",
+  "phrases": [
+    {
+      "id": "weather_hoy_hace_mucho_calor",
+      "conceptId": "es.weather_hoy_hace_mucho_calor",
+      "sourceId": "de.s.a71182302b6ec5e1",
+      "source": "Heute ist es sehr heiß.",
+      "level": "A1",
+      "grammar": "para el clima se usa hacer, hace calor.",
+      "target": [
+        {
+          "text": "Hoy hace mucho calor.",
+          "audioSlug": "hoy_hace_mucho_calor"
+        }
+      ]
+    },
+    {
+      "id": "weather_esta_lloviendo",
+      "conceptId": "es.weather_esta_lloviendo",
+      "sourceId": "de.s.677d5f5233a53b72",
+      "source": "Es regnet.",
+      "level": "A1",
+      "grammar": "estar más gerundio expresa una acción en curso, está lloviendo.",
+      "target": [
+        {
+          "text": "Está lloviendo.",
+          "audioSlug": "esta_lloviendo"
+        }
+      ]
+    },
+    {
+      "id": "weather_manana_va_a_nevar",
+      "conceptId": "es.weather_manana_va_a_nevar",
+      "sourceId": "de.s.8b17e81bdcd37db4",
+      "source": "Morgen wird es schneien.",
+      "level": "A2",
+      "grammar": "ir a más infinitivo expresa un pronóstico, va a nevar.",
+      "target": [
+        {
+          "text": "Mañana va a nevar.",
+          "audioSlug": "manana_va_a_nevar"
+        }
+      ]
+    },
+    {
+      "id": "weather_hace_mucho_viento_en_otono",
+      "conceptId": "es.weather_hace_mucho_viento_en_otono",
+      "sourceId": "de.s.016dd94c593d54e6",
+      "source": "Im Herbst ist es sehr windig.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hace mucho viento en otoño.",
+          "audioSlug": "hace_mucho_viento_en_otono"
+        }
+      ]
+    },
+    {
+      "id": "weather_el_cielo_esta_nublado",
+      "conceptId": "es.weather_el_cielo_esta_nublado",
+      "sourceId": "de.s.611c569f9e5146c2",
+      "source": "Der Himmel ist bewölkt.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El cielo está nublado.",
+          "audioSlug": "el_cielo_esta_nublado"
+        }
+      ]
+    },
+    {
+      "id": "weather_que_tiempo_hace_hoy",
+      "conceptId": "es.weather_que_tiempo_hace_hoy",
+      "sourceId": "de.s.a9169cd58a12b4d8",
+      "source": "Wie ist das Wetter heute?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué tiempo hace hoy?",
+          "audioSlug": "que_tiempo_hace_hoy"
+        }
+      ]
+    },
+    {
+      "id": "weather_en_verano_hace_sol",
+      "conceptId": "es.weather_en_verano_hace_sol",
+      "sourceId": "de.s.a62c8dcefe90e4a3",
+      "source": "Im Sommer scheint die Sonne.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En verano hace sol.",
+          "audioSlug": "en_verano_hace_sol"
+        }
+      ]
+    },
+    {
+      "id": "weather_hace_frio_ponte_un_abrigo",
+      "conceptId": "es.weather_hace_frio_ponte_un_abrigo",
+      "sourceId": "de.s.f3fcbd32fec7edd2",
+      "source": "Es ist kalt, zieh einen Mantel an.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hace frío, ponte un abrigo.",
+          "audioSlug": "hace_frio_ponte_un_abrigo"
+        }
+      ]
+    },
+    {
+      "id": "weather_parece_que_va_a_llover",
+      "conceptId": "es.weather_parece_que_va_a_llover",
+      "sourceId": "de.s.04ce4c3f6bcdf14c",
+      "source": "Es sieht nach Regen aus, nimm besser einen Regenschirm mit.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Parece que va a llover, mejor lleva paraguas.",
+          "audioSlug": "parece_que_va_a_llover_mejor_lleva_paraguas"
+        }
+      ]
+    },
+    {
+      "id": "weather_la_temperatura_bajo_mucho_anoche",
+      "conceptId": "es.weather_la_temperatura_bajo_mucho_anoche",
+      "sourceId": "de.s.827146bc3275b394",
+      "source": "Die Temperatur ist letzte Nacht stark gefallen.",
+      "level": "B1",
+      "grammar": "bajó es pretérito indefinido, para una acción terminada, anoche.",
+      "target": [
+        {
+          "text": "La temperatura bajó mucho anoche.",
+          "audioSlug": "la_temperatura_bajo_mucho_anoche"
+        }
+      ]
+    },
+    {
+      "id": "weather_hay_muchas_nubes_en_el_cielo",
+      "conceptId": "es.weather_hay_muchas_nubes_en_el_cielo",
+      "sourceId": "de.s.758dad74d2cc1bf9",
+      "source": "Es sind viele Wolken am Himmel.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay muchas nubes en el cielo.",
+          "audioSlug": "hay_muchas_nubes_en_el_cielo"
+        }
+      ]
+    },
+    {
+      "id": "weather_se_acerca_una_tormenta_fuerte",
+      "conceptId": "es.weather_se_acerca_una_tormenta_fuerte",
+      "sourceId": "de.s.f0ab544a93e3d692",
+      "source": "Ein starker Sturm zieht auf.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Se acerca una tormenta fuerte.",
+          "audioSlug": "se_acerca_una_tormenta_fuerte"
+        }
+      ]
+    },
+    {
+      "id": "weather_el_clima_esta_muy_humedo",
+      "conceptId": "es.weather_el_clima_esta_muy_humedo",
+      "sourceId": "de.s.c4811b8644bd4306",
+      "source": "Das Wetter ist heute sehr feucht.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El clima está muy húmedo hoy.",
+          "audioSlug": "el_clima_esta_muy_humedo_hoy"
+        }
+      ]
+    },
+    {
+      "id": "weather_hoy_es_un_dia_soleado",
+      "conceptId": "es.weather_hoy_es_un_dia_soleado",
+      "sourceId": "de.s.292bbbaadc521c5c",
+      "source": "Heute ist ein sonniger Tag.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hoy es un día soleado.",
+          "audioSlug": "hoy_es_un_dia_soleado"
+        }
+      ]
+    },
+    {
+      "id": "weather_el_viento_sopla_muy_fuerte",
+      "conceptId": "es.weather_el_viento_sopla_muy_fuerte",
+      "sourceId": "de.s.052e8ac684b0806f",
+      "source": "Der Wind weht sehr stark.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El viento sopla muy fuerte.",
+          "audioSlug": "el_viento_sopla_muy_fuerte"
+        }
+      ]
+    },
+    {
+      "id": "weather_en_el_desierto_casi_nunca_llueve",
+      "conceptId": "es.weather_en_el_desierto_casi_nunca_llueve",
+      "sourceId": "de.s.ec11900a4823d9e2",
+      "source": "In der Wüste regnet es fast nie.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En el desierto casi nunca llueve.",
+          "audioSlug": "en_el_desierto_casi_nunca_llueve"
+        }
+      ]
+    },
+    {
+      "id": "weather_la_primavera_es_mi_estacion_favorita",
+      "conceptId": "es.weather_la_primavera_es_mi_estacion_favorita",
+      "sourceId": "de.s.8aba9be3af62592f",
+      "source": "Der Frühling ist meine Lieblingsjahreszeit.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La primavera es mi estación favorita.",
+          "audioSlug": "la_primavera_es_mi_estacion_favorita"
+        }
+      ]
+    },
+    {
+      "id": "weather_hace_treinta_grados_a_la_sombra",
+      "conceptId": "es.weather_hace_treinta_grados_a_la_sombra",
+      "sourceId": "de.s.b83f33f1968f0f46",
+      "source": "Es sind dreißig Grad im Schatten.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hace treinta grados a la sombra.",
+          "audioSlug": "hace_treinta_grados_a_la_sombra"
+        }
+      ]
+    },
+    {
+      "id": "weather_la_lluvia_no_para_desde_ayer",
+      "conceptId": "es.weather_la_lluvia_no_para_desde_ayer",
+      "sourceId": "de.s.d19a3369585dfd05",
+      "source": "Der Regen hört seit gestern nicht auf.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La lluvia no para desde ayer.",
+          "audioSlug": "la_lluvia_no_para_desde_ayer"
+        }
+      ]
+    },
+    {
+      "id": "weather_un_fuerte_temporal_azoto_la_costa",
+      "conceptId": "es.weather_un_fuerte_temporal_azoto_la_costa",
+      "sourceId": "de.s.0764ae3bc0f6f3ce",
+      "source": "Ein starker Sturm suchte die Küste heim.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Un fuerte temporal azotó la costa anoche.",
+          "audioSlug": "un_fuerte_temporal_azoto_la_costa_anoche"
+        }
+      ]
+    }
+  ]
+}

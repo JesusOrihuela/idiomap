@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "0c",
+  "concepts": {
+    "en.accountability_the_accountant_needs_additional_information": {
+      "conceptId": "en.accountability_the_accountant_needs_additional_information",
+      "id": "accountability_the_accountant_needs_additional_information",
+      "target": [
+        {
+          "text": "The accountant needs additional information.",
+          "audioSlug": "the_accountant_needs_additional_information"
+        }
+      ]
+    },
+    "en.daily_routine_what_do_you_do_before_breakfast": {
+      "conceptId": "en.daily_routine_what_do_you_do_before_breakfast",
+      "id": "daily_routine_what_do_you_do_before_breakfast",
+      "target": [
+        {
+          "text": "What do you do before breakfast?",
+          "audioSlug": "what_do_you_do_before_breakfast"
+        }
+      ]
+    },
+    "en.deportes_catch_the_ball": {
+      "conceptId": "en.deportes_catch_the_ball",
+      "id": "deportes_catch_the_ball",
+      "target": [
+        {
+          "text": "Catch the ball!",
+          "audioSlug": "catch_the_ball"
+        }
+      ]
+    },
+    "en.gym_deload_week_overreaching": {
+      "conceptId": "en.gym_deload_week_overreaching",
+      "id": "gym_deload_week_overreaching",
+      "target": [
+        {
+          "text": "My trainer suggested a deload week. I think I've been overreaching lately.",
+          "audioSlug": "my_trainer_suggested_a_deload_week_i_think_i_ve_been_overreaching_lately"
+        }
+      ]
+    },
+    "en.health_where_is_pharmacy": {
+      "conceptId": "en.health_where_is_pharmacy",
+      "id": "health_where_is_pharmacy",
+      "target": [
+        {
+          "text": "Where is the nearest pharmacy?",
+          "audioSlug": "where_is_the_nearest_pharmacy"
+        }
+      ]
+    },
+    "en.technology_i_received_a_phishing_email": {
+      "conceptId": "en.technology_i_received_a_phishing_email",
+      "id": "technology_i_received_a_phishing_email",
+      "target": [
+        {
+          "text": "I received a phishing email pretending to be my bank, asking me to verify my account.",
+          "audioSlug": "i_received_a_phishing_email_pretending_to_be_my_bank_asking_me_to_verify_my_account"
+        }
+      ]
+    },
+    "en.transportation_driver_overcharged_complaint": {
+      "conceptId": "en.transportation_driver_overcharged_complaint",
+      "id": "transportation_driver_overcharged_complaint",
+      "target": [
+        {
+          "text": "The driver overcharged me compared to the meter. I'd like to file a complaint.",
+          "audioSlug": "the_driver_overcharged_me_compared_to_the_meter_i_d_like_to_file_a_complaint"
+        }
+      ]
+    },
+    "en.transportation_taxi_longer_route_fare": {
+      "conceptId": "en.transportation_taxi_longer_route_fare",
+      "id": "transportation_taxi_longer_route_fare",
+      "target": [
+        {
+          "text": "The driver took a noticeably longer route. I believe the fare should be adjusted accordingly.",
+          "audioSlug": "the_driver_took_a_noticeably_longer_route_i_believe_the_fare_should_be_adjusted_accordingly"
+        }
+      ]
+    }
+  }
+}

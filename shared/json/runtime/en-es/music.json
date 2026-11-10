@@ -1,0 +1,675 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "music",
+  "phrases": [
+    {
+      "id": "music_skip_song",
+      "conceptId": "es.music_skip_song",
+      "sourceId": "en.s.7c5e28b89ded1bf7",
+      "source": "Skip that song.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sáltate esa canción.",
+          "audioSlug": "saltate_esa_cancion"
+        }
+      ]
+    },
+    {
+      "id": "music_favorite_song_always",
+      "conceptId": "es.music_favorite_song_always",
+      "sourceId": "en.s.3dca3aeda20d1751",
+      "source": "I really like that song and I listen to it all the time.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gusta mucho esa canción y la escucho siempre.",
+          "audioSlug": "me_gusta_mucho_esa_cancion_y_la_escucho_siempre"
+        }
+      ]
+    },
+    {
+      "id": "music_favorite_song",
+      "conceptId": "es.music_favorite_song",
+      "sourceId": "en.s.a8fea84a583479ae",
+      "source": "That's my favorite song.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Esa es mi canción favorita.",
+          "audioSlug": "esa_es_mi_cancion_favorita"
+        }
+      ]
+    },
+    {
+      "id": "music_go_concert_year",
+      "conceptId": "es.music_go_concert_year",
+      "sourceId": "en.s.348b2e3b47fa451e",
+      "source": "We should go to a concert this year.",
+      "level": "B1",
+      "grammar": "'Deberíamos' usa el condicional de 'deber'; expresa sugerencia sin presionar al interlocutor.",
+      "target": [
+        {
+          "text": "Deberíamos ir a un concierto este año.",
+          "audioSlug": "deberiamos_ir_a_un_concierto_este_ano"
+        }
+      ]
+    },
+    {
+      "id": "music_new_concert_band",
+      "conceptId": "es.music_new_concert_band",
+      "sourceId": "en.s.a4431a9d9bf6cabd",
+      "source": "My favorite band has a new concert and I want to go.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi banda favorita tiene un nuevo concierto y quiero ir.",
+          "audioSlug": "mi_banda_favorita_tiene_un_nuevo_concierto_y_quiero_ir"
+        }
+      ]
+    },
+    {
+      "id": "music_podcasts_while_exercise",
+      "conceptId": "es.music_podcasts_while_exercise",
+      "sourceId": "en.s.d224412aba1983b1",
+      "source": "I love listening to podcasts while I exercise.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me encanta escuchar pódcasts mientras hago ejercicio.",
+          "audioSlug": "me_encanta_escuchar_podcasts_mientras_hago_ejercicio"
+        }
+      ]
+    },
+    {
+      "id": "music_podcast_recommendation",
+      "conceptId": "es.music_podcast_recommendation",
+      "sourceId": "en.s.b94ba98f827fe577",
+      "source": "I don't know what podcast to listen to, can you recommend one?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No sé qué pódcast escuchar, ¿me recomiendas alguno?",
+          "audioSlug": "no_se_que_podcast_escuchar_me_recomiendas_alguno"
+        }
+      ]
+    },
+    {
+      "id": "music_song_special_memory",
+      "conceptId": "es.music_song_special_memory",
+      "sourceId": "en.s.6a1f815ef0f0b943",
+      "source": "This song reminds me of a special moment in my life.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Esta canción me recuerda un momento especial de mi vida.",
+          "audioSlug": "esta_cancion_me_recuerda_un_momento_especial_de_mi_vida"
+        }
+      ]
+    },
+    {
+      "id": "music_new_album_disappointment",
+      "conceptId": "es.music_new_album_disappointment",
+      "sourceId": "en.s.e371c1e1618ce3d2",
+      "source": "The new album didn't impress me as much as the previous ones.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El nuevo álbum no me impresionó tanto como los anteriores.",
+          "audioSlug": "el_nuevo_album_no_me_impresiono_tanto_como_los_anteriores"
+        }
+      ]
+    },
+    {
+      "id": "music_what_kind_do_you_like",
+      "conceptId": "es.music_what_kind_do_you_like",
+      "sourceId": "en.s.b16a8b111f7d69b6",
+      "source": "What kind of music do you like?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué tipo de música te gusta?",
+          "audioSlug": "que_tipo_de_musica_te_gusta"
+        }
+      ]
+    },
+    {
+      "id": "music_love_this_song_who_sings",
+      "conceptId": "es.music_love_this_song_who_sings",
+      "sourceId": "en.s.609c3b0a87edbd72",
+      "source": "I love this song. Who sings it?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me encanta esta canción, ¿quién la canta?",
+          "audioSlug": "me_encanta_esta_cancion_quien_la_canta"
+        }
+      ]
+    },
+    {
+      "id": "music_add_song_playlist",
+      "conceptId": "es.music_add_song_playlist",
+      "sourceId": "en.s.8eb6d421f3d7ec23",
+      "source": "I'd like to add this song to my playlist.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gustaría añadir esta canción a mi lista de reproducción.",
+          "audioSlug": "me_gustaria_anadir_esta_cancion_a_mi_lista_de_reproduccion"
+        }
+      ]
+    },
+    {
+      "id": "music_learning_guitar_six_months",
+      "conceptId": "es.music_learning_guitar_six_months",
+      "sourceId": "en.s.78ef49f5ebafba82",
+      "source": "I've been learning to play the guitar for about six months.",
+      "level": "B1",
+      "grammar": "'Llevo + tiempo + gerundio' expresa duración hasta el presente; equivale al present perfect continuous.",
+      "target": [
+        {
+          "text": "Llevo unos seis meses aprendiendo a tocar la guitarra.",
+          "audioSlug": "llevo_unos_seis_meses_aprendiendo_a_tocar_la_guitarra"
+        }
+      ]
+    },
+    {
+      "id": "music_opening_act_surprised",
+      "conceptId": "es.music_opening_act_surprised",
+      "sourceId": "en.s.cf91e247f00786a0",
+      "source": "The opening act was a very pleasant surprise.",
+      "level": "B2",
+      "grammar": "'Nunca había oído hablar' usa el pluscuamperfecto; indica que el desconocimiento es anterior al concierto.",
+      "target": [
+        {
+          "text": "El grupo telonero fue una sorpresa muy agradable.",
+          "audioSlug": "el_grupo_telonero_fue_una_sorpresa_muy_agradable"
+        }
+      ]
+    },
+    {
+      "id": "music_headphones_or_speakers",
+      "conceptId": "es.music_headphones_or_speakers",
+      "sourceId": "en.s.56d960af19eaa210",
+      "source": "Do you prefer listening through headphones or on speakers?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Prefieres escuchar música con audífonos o por altavoces?",
+          "audioSlug": "prefieres_escuchar_musica_con_audifonos_o_por_altavoces"
+        }
+      ]
+    },
+    {
+      "id": "music_cover_version_back_to_original",
+      "conceptId": "es.music_cover_version_back_to_original",
+      "sourceId": "en.s.f01382342dd51d19",
+      "source": "That cover version is so good it made me revisit the original.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Esa versión es tan buena que me hizo volver a escuchar el original.",
+          "audioSlug": "esa_version_es_tan_buena_que_me_hizo_volver_a_escuchar_el_original"
+        }
+      ]
+    },
+    {
+      "id": "music_discovered_through_algorithm",
+      "conceptId": "es.music_discovered_through_algorithm",
+      "sourceId": "en.s.a2e9f76f42bf6bc3",
+      "source": "I discovered this band through a playlist algorithm. I'd never have found them otherwise.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Descubrí esta banda gracias al algoritmo y nunca la habría encontrado de otro modo.",
+          "audioSlug": "descubri_esta_banda_gracias_al_algoritmo_y_nunca_la_habria_encontrado_de_otro_modo"
+        }
+      ]
+    },
+    {
+      "id": "music_concert_sound_mix_terrible",
+      "conceptId": "es.music_concert_sound_mix_terrible",
+      "sourceId": "en.s.35092a150a1f36b2",
+      "source": "The energy was incredible but the sound mix was terrible.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La energía era increíble pero la mezcla de sonido era terrible.",
+          "audioSlug": "la_energia_era_increible_pero_la_mezcla_de_sonido_era_terrible"
+        }
+      ]
+    },
+    {
+      "id": "music_reunion_tour_expectations",
+      "conceptId": "es.music_reunion_tour_expectations",
+      "sourceId": "en.s.bec5bd2fcb6ba351",
+      "source": "When a band reunites, I always worry they won't live up to my memories.",
+      "level": "B2",
+      "grammar": "'Temo que + subjuntivo' expresa temor sobre algo que podría ocurrir; el subjuntivo indica incertidumbre.",
+      "target": [
+        {
+          "text": "Cuando una banda anuncia una gira de reunión, temo que no cumplan mis expectativas.",
+          "audioSlug": "cuando_una_banda_anuncia_una_gira_de_reunion_temo_que_no_cumplan_mis_expectativas"
+        }
+      ]
+    },
+    {
+      "id": "music_acoustic_version_reveals_songwriting",
+      "conceptId": "es.music_acoustic_version_reveals_songwriting",
+      "sourceId": "en.s.2b850bbdbe7a6c9e",
+      "source": "The acoustic version reveals how strong the songwriting is.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La versión acústica revela lo sólida que es la composición.",
+          "audioSlug": "la_version_acustica_revela_lo_solida_que_es_la_composicion"
+        }
+      ]
+    },
+    {
+      "id": "music_started_late_still_impressive",
+      "conceptId": "es.music_started_late_still_impressive",
+      "sourceId": "en.s.815999ada0110bec",
+      "source": "She learned piano at thirty and her technique is even more impressive.",
+      "level": "B2",
+      "grammar": "'Lo que + verbo' nominaliza una idea y equivale al inglés 'what + verbo'.",
+      "target": [
+        {
+          "text": "Aprendió piano a los treinta y su técnica impresiona aún más.",
+          "audioSlug": "aprendio_piano_a_los_treinta_y_su_tecnica_impresiona_aun_mas"
+        }
+      ]
+    },
+    {
+      "id": "music_more_i_listened_more_appreciated",
+      "conceptId": "es.music_more_i_listened_more_appreciated",
+      "sourceId": "en.s.6cb9e6072b4014c5",
+      "source": "The more I listened to jazz, the more I appreciated its improvisational elements.",
+      "level": "B2",
+      "grammar": "'Cuanto más + verbo, más + verbo' expresa proporcionalidad; equivale a 'the more... the more'.",
+      "target": [
+        {
+          "text": "Cuanto más escuchaba jazz, más apreciaba sus elementos de improvisación.",
+          "audioSlug": "cuanto_mas_escuchaba_jazz_mas_apreciaba_sus_elementos_de_improvisacion"
+        }
+      ]
+    },
+    {
+      "id": "music_live_better_than_studio",
+      "conceptId": "es.music_live_better_than_studio",
+      "sourceId": "en.s.c8b0610509171061",
+      "source": "The live performance was far better than the studio recording.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La actuación en vivo fue mucho mejor que la grabación de estudio.",
+          "audioSlug": "la_actuacion_en_vivo_fue_mucho_mejor_que_la_grabacion_de_estudio"
+        }
+      ]
+    },
+    {
+      "id": "music_similar_genre_film",
+      "conceptId": "es.music_similar_genre_film",
+      "sourceId": "en.s.ce327608affa3c0b",
+      "source": "I want music similar to that film's soundtrack. Do you know the genre?",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Busco música similar a la de esa película, ¿sabes qué género es?",
+          "audioSlug": "busco_musica_similar_a_la_de_esa_pelicula_sabes_que_genero_es"
+        }
+      ]
+    },
+    {
+      "id": "music_vocal_range_earlier_work",
+      "conceptId": "es.music_vocal_range_earlier_work",
+      "sourceId": "en.s.ef5f6176b0e839f1",
+      "source": "The singer's vocal range in this album is remarkable compared to her earlier work.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El rango vocal de la cantante en este álbum supera claramente su obra anterior.",
+          "audioSlug": "el_rango_vocal_de_la_cantante_en_este_album_supera_claramente_su_obra_anterior"
+        }
+      ]
+    },
+    {
+      "id": "music_festival_lineup_disappointing",
+      "conceptId": "es.music_festival_lineup_disappointing",
+      "sourceId": "en.s.f5675336cd31e3dc",
+      "source": "I think the festival lineup this year is disappointing. Too many commercial acts.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El cartel de este año es decepcionante, con demasiados artistas comerciales.",
+          "audioSlug": "el_cartel_de_este_ano_es_decepcionante_con_demasiados_artistas_comerciales"
+        }
+      ]
+    },
+    {
+      "id": "music_classical_pianist_switched_jazz",
+      "conceptId": "es.music_classical_pianist_switched_jazz",
+      "sourceId": "en.s.3fdc220a0c2b6d12",
+      "source": "He started as a classical pianist before switching to jazz in his late twenties.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Comenzó como pianista clásico y se pasó al jazz a finales de los veinte.",
+          "audioSlug": "comenzo_como_pianista_clasico_y_se_paso_al_jazz_a_finales_de_los_veinte"
+        }
+      ]
+    },
+    {
+      "id": "music_concept_album_narrative_arc",
+      "conceptId": "es.music_concept_album_narrative_arc",
+      "sourceId": "en.s.5f0109b7136fa4f5",
+      "source": "Every track on this concept album adds to the narrative arc.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cada pista de este álbum conceptual aporta al arco narrativo.",
+          "audioSlug": "cada_pista_de_este_album_conceptual_aporta_al_arco_narrativo"
+        }
+      ]
+    },
+    {
+      "id": "music_overproduction_works_against_core",
+      "conceptId": "es.music_overproduction_works_against_core",
+      "sourceId": "en.s.555a3456b4fb871b",
+      "source": "Overproduction works against the emotional core of the song.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La sobreproducción va en detrimento del núcleo emocional de la canción.",
+          "audioSlug": "la_sobreproduccion_va_en_detrimento_del_nucleo_emocional_de_la_cancion"
+        }
+      ]
+    },
+    {
+      "id": "music_live_spontaneity_studio_cant_capture",
+      "conceptId": "es.music_live_spontaneity_studio_cant_capture",
+      "sourceId": "en.s.fe5c3f0ac5761786",
+      "source": "There's a spontaneity in live recordings that studio albums rarely capture, however technically refined they are.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Las grabaciones en vivo tienen una espontaneidad que el estudio rara vez captura.",
+          "audioSlug": "las_grabaciones_en_vivo_tienen_una_espontaneidad_que_el_estudio_rara_vez_captura"
+        }
+      ]
+    },
+    {
+      "id": "music_lyrics_political_commentary",
+      "conceptId": "es.music_lyrics_political_commentary",
+      "sourceId": "en.s.17312757e0e5904c",
+      "source": "The lyrics are deceptively simple. There's a lot of political commentary beneath the surface.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Las letras son engañosamente sencillas, con mucho comentario político por debajo de la superficie.",
+          "audioSlug": "las_letras_son_enganosamente_sencillas_con_mucho_comentario_politico_por_debajo_de_la_superficie"
+        }
+      ]
+    },
+    {
+      "id": "music_blends_traditional_contemporary",
+      "conceptId": "es.music_blends_traditional_contemporary",
+      "sourceId": "en.s.877e43c6dd0b1146",
+      "source": "This album fluidly blends traditional and contemporary influences.",
+      "level": "C1",
+      "grammar": "'Lo que + verbo' funciona como sujeto nominalizado; equivale al inglés 'what + verb'.",
+      "target": [
+        {
+          "text": "Este álbum fusiona con fluidez influencias tradicionales y contemporáneas.",
+          "audioSlug": "este_album_fusiona_con_fluidez_influencias_tradicionales_y_contemporaneas"
+        }
+      ]
+    },
+    {
+      "id": "music_indie_influence_underestimated",
+      "conceptId": "es.music_indie_influence_underestimated",
+      "sourceId": "en.s.cf30380d08cc0d8b",
+      "source": "I'd argue this band's influence on indie music over the last decade has been widely underestimated.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La influencia de esta banda en la música indie de la última década ha sido subestimada.",
+          "audioSlug": "la_influencia_de_esta_banda_en_la_musica_indie_de_la_ultima_decada_ha_sido_subestimada"
+        }
+      ]
+    },
+    {
+      "id": "music_chord_progression_unsettling",
+      "conceptId": "es.music_chord_progression_unsettling",
+      "sourceId": "en.s.87ba19b96bc6ba67",
+      "source": "The unconventional chord progression gives the track its unsettling quality.",
+      "level": "C1",
+      "grammar": "'Lo que + verbo' nominaliza una idea y equivale al inglés 'what + verbo'.",
+      "target": [
+        {
+          "text": "La progresión de acordes poco convencional da a la pista su cualidad inquietante.",
+          "audioSlug": "la_progresion_de_acordes_poco_convencional_da_a_la_pista_su_cualidad_inquietante"
+        }
+      ]
+    },
+    {
+      "id": "music_reinterprets_makes_her_own",
+      "conceptId": "es.music_reinterprets_makes_her_own",
+      "sourceId": "en.s.f694d10ab02a35f3",
+      "source": "She doesn't just perform the song. She reinterprets it and makes it entirely her own.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No solo interpreta la canción, la reinterpreta de una forma que la convierte completamente en suya.",
+          "audioSlug": "no_solo_interpreta_la_cancion_la_reinterpreta_de_una_forma_que_la_convierte_completamente_en_suya"
+        }
+      ]
+    },
+    {
+      "id": "music_play_instrument",
+      "conceptId": "es.music_play_instrument",
+      "sourceId": "en.s.fc3f74415c2e2943",
+      "source": "Do you play any instrument?",
+      "level": "A1",
+      "grammar": "'Tocar' es el verbo para instrumentos musicales, no 'jugar'.",
+      "target": [
+        {
+          "text": "¿Tocas algún instrumento?",
+          "audioSlug": "tocas_algun_instrumento"
+        }
+      ]
+    },
+    {
+      "id": "music_turn_up",
+      "conceptId": "es.music_turn_up",
+      "sourceId": "en.s.82acbc14972669ae",
+      "source": "Can you turn up the music?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedes subir la música?",
+          "audioSlug": "puedes_subir_la_musica"
+        }
+      ]
+    },
+    {
+      "id": "music_catchy",
+      "conceptId": "es.music_catchy",
+      "sourceId": "en.s.471656d2a602c179",
+      "source": "This song is really catchy.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Esta canción es muy pegadiza.",
+          "audioSlug": "esta_cancion_es_muy_pegadiza"
+        }
+      ]
+    },
+    {
+      "id": "music_favorite_singer",
+      "conceptId": "es.music_favorite_singer",
+      "sourceId": "en.s.176328e3c7e80623",
+      "source": "Who's your favorite singer?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Quién es tu cantante favorito?",
+          "audioSlug": "quien_es_tu_cantante_favorito"
+        }
+      ]
+    },
+    {
+      "id": "music_what_listening",
+      "conceptId": "es.music_what_listening",
+      "sourceId": "en.s.2c0c827fbc98150c",
+      "source": "What are you listening to?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué estás escuchando?",
+          "audioSlug": "que_estas_escuchando"
+        }
+      ]
+    },
+    {
+      "id": "music_turn_on",
+      "conceptId": "es.music_turn_on",
+      "sourceId": "en.s.7a0ac32c40acfd72",
+      "source": "Let's put on some music.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Pongamos algo de música.",
+          "audioSlug": "pongamos_algo_de_musica"
+        }
+      ]
+    },
+    {
+      "id": "music_concert_tickets",
+      "conceptId": "es.music_concert_tickets",
+      "sourceId": "en.s.ed5ce9c13b34756a",
+      "source": "I have tickets for the concert.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo entradas para el concierto.",
+          "labels": {
+            "region": "General"
+          },
+          "audioSlug": "tengo_entradas_para_el_concierto"
+        },
+        {
+          "text": "Tengo boletos para el concierto.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "tengo_boletos_para_el_concierto"
+        }
+      ]
+    },
+    {
+      "id": "music_turn_down",
+      "conceptId": "es.music_turn_down",
+      "sourceId": "en.s.2d60ad11884beab6",
+      "source": "Can you turn down the music, please?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedes bajar la música, por favor?",
+          "audioSlug": "puedes_bajar_la_musica_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "music_me_gusta_mucho_la_musica",
+      "conceptId": "es.music_me_gusta_mucho_la_musica",
+      "sourceId": "en.s.afb07b99a13bf9aa",
+      "source": "I really like music.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gusta mucho la música.",
+          "audioSlug": "me_gusta_mucho_la_musica"
+        }
+      ]
+    },
+    {
+      "id": "music_me_encanta_cantar",
+      "conceptId": "es.music_me_encanta_cantar",
+      "sourceId": "en.s.4f90c814cdaad8b5",
+      "source": "I love to sing.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me encanta cantar.",
+          "audioSlug": "me_encanta_cantar"
+        }
+      ]
+    },
+    {
+      "id": "music_me_gusta_la_musica_disco",
+      "conceptId": "es.music_me_gusta_la_musica_disco",
+      "sourceId": "en.s.19d6f5b5a41ba7dc",
+      "source": "I like disco music.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gusta la música disco.",
+          "audioSlug": "me_gusta_la_musica_disco"
+        }
+      ]
+    },
+    {
+      "id": "music_toca_el_violin_en_la_orquesta",
+      "conceptId": "es.music_toca_el_violin_en_la_orquesta",
+      "sourceId": "en.s.4399e7af2634b034",
+      "source": "She plays the violin in the orchestra.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Toca el violín en la orquesta.",
+          "audioSlug": "toca_el_violin_en_la_orquesta"
+        }
+      ]
+    }
+  ]
+}

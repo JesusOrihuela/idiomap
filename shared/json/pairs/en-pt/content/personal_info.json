@@ -1,10 +1,46 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-pt",
   "topic": "personal_info",
-  "conceptIds": [
-    "pt.personal_info_my_name_is",
-    "pt.personal_info_i_am_from_brazil",
-    "pt.personal_info_i_am_a_student"
+  "phrases": [
+    {
+      "conceptId": "pt.personal_info_my_name_is",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6dd86672db378451"
+    },
+    {
+      "conceptId": "pt.personal_info_i_am_from_brazil",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.01b6e09195bc8366"
+    },
+    {
+      "conceptId": "pt.personal_info_i_am_a_student",
+      "level": "A1",
+      "grammar": "O gênero muda a terminação, aluno (masculino) e aluna (feminino).",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.aef259d3cdd5fa71"
+    }
   ]
 }

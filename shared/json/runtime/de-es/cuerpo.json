@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "cuerpo",
+  "phrases": [
+    {
+      "id": "cuerpo_tengo_el_pelo_largo",
+      "conceptId": "es.cuerpo_tengo_el_pelo_largo",
+      "sourceId": "de.s.c930583cc8af1132",
+      "source": "Ich habe lange Haare.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo el pelo largo.",
+          "audioSlug": "tengo_el_pelo_largo"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_tengo_los_ojos_oscuros",
+      "conceptId": "es.cuerpo_tengo_los_ojos_oscuros",
+      "sourceId": "de.s.b28592380f38270f",
+      "source": "Ich habe dunkle Augen.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo los ojos oscuros.",
+          "audioSlug": "tengo_los_ojos_oscuros"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_el_corazon_late_rapido",
+      "conceptId": "es.cuerpo_el_corazon_late_rapido",
+      "sourceId": "de.s.c299ca7ef0aa7ba4",
+      "source": "Das Herz schlägt schnell.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El corazón late rápido.",
+          "audioSlug": "el_corazon_late_rapido"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_tengo_las_manos_frias",
+      "conceptId": "es.cuerpo_tengo_las_manos_frias",
+      "sourceId": "de.s.0bbaaf2a3f6217b9",
+      "source": "Ich habe kalte Hände.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo las manos frías.",
+          "audioSlug": "tengo_las_manos_frias"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_tengo_los_hombros_anchos",
+      "conceptId": "es.cuerpo_tengo_los_hombros_anchos",
+      "sourceId": "de.s.e0a7fd1765a17737",
+      "source": "Ich habe breite Schultern.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo los hombros anchos.",
+          "audioSlug": "tengo_los_hombros_anchos"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_su_piel_es_muy_suave",
+      "conceptId": "es.cuerpo_su_piel_es_muy_suave",
+      "sourceId": "de.s.f87deaca2ed0b9b5",
+      "source": "Ihre Haut ist sehr weich.",
+      "level": "A2",
+      "grammar": "una cualidad de la piel usa ser, la piel es suave.",
+      "target": [
+        {
+          "text": "Su piel es muy suave.",
+          "audioSlug": "su_piel_es_muy_suave"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_abre_la_boca_por_favor",
+      "conceptId": "es.cuerpo_abre_la_boca_por_favor",
+      "sourceId": "de.s.3eddf9d18826f174",
+      "source": "Mach den Mund auf, bitte.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Abre la boca, por favor.",
+          "audioSlug": "abre_la_boca_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_tengo_las_piernas_largas",
+      "conceptId": "es.cuerpo_tengo_las_piernas_largas",
+      "sourceId": "de.s.056798d6368c14b6",
+      "source": "Ich habe lange Beine.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo las piernas largas.",
+          "audioSlug": "tengo_las_piernas_largas"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_muevo_los_dedos",
+      "conceptId": "es.cuerpo_muevo_los_dedos",
+      "sourceId": "de.s.cdd83d1154473cbb",
+      "source": "Ich bewege die Finger.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Muevo los dedos.",
+          "audioSlug": "muevo_los_dedos"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_levanta_la_mano_si_tienes_una_pregunta",
+      "conceptId": "es.cuerpo_levanta_la_mano_si_tienes_una_pregunta",
+      "sourceId": "de.s.deac214621774597",
+      "source": "Heb die Hand, wenn du eine Frage hast.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Levanta la mano si tienes una pregunta.",
+          "audioSlug": "levanta_la_mano_si_tienes_una_pregunta"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_tengo_las_unas_largas",
+      "conceptId": "es.cuerpo_tengo_las_unas_largas",
+      "sourceId": "de.s.1e305e8d25cafa84",
+      "source": "Ich habe lange Fingernägel.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo las uñas largas.",
+          "audioSlug": "tengo_las_unas_largas"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_tengo_los_pies_frios",
+      "conceptId": "es.cuerpo_tengo_los_pies_frios",
+      "sourceId": "de.s.64f9e7b644e33c79",
+      "source": "Ich habe kalte Füße.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo los pies fríos.",
+          "audioSlug": "tengo_los_pies_frios"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_levanta_el_brazo_derecho",
+      "conceptId": "es.cuerpo_levanta_el_brazo_derecho",
+      "sourceId": "de.s.9c4f2a9bb4ae1c14",
+      "source": "Heb den rechten Arm.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Levanta el brazo derecho.",
+          "audioSlug": "levanta_el_brazo_derecho"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_tiene_la_espalda_ancha",
+      "conceptId": "es.cuerpo_tiene_la_espalda_ancha",
+      "sourceId": "de.s.a788e97faede0747",
+      "source": "Er hat einen breiten Rücken.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tiene la espalda ancha.",
+          "audioSlug": "tiene_la_espalda_ancha"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_tiene_los_dientes_muy_blancos",
+      "conceptId": "es.cuerpo_tiene_los_dientes_muy_blancos",
+      "sourceId": "de.s.f14ce23c991ff215",
+      "source": "Er hat sehr weiße Zähne.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tiene los dientes muy blancos.",
+          "audioSlug": "tiene_los_dientes_muy_blancos"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_tiene_el_cabello_rizado",
+      "conceptId": "es.cuerpo_tiene_el_cabello_rizado",
+      "sourceId": "de.s.83cfe3b515e81e07",
+      "source": "Sie hat lockiges Haar.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tiene el cabello rizado.",
+          "audioSlug": "tiene_el_cabello_rizado"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_el_corazon_bombea_sangre",
+      "conceptId": "es.cuerpo_el_corazon_bombea_sangre",
+      "sourceId": "de.s.627e81f711b60edb",
+      "source": "Das Herz pumpt Blut.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El corazón bombea sangre.",
+          "audioSlug": "el_corazon_bombea_sangre"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_tiene_una_sonrisa_bonita",
+      "conceptId": "es.cuerpo_tiene_una_sonrisa_bonita",
+      "sourceId": "de.s.c4cd30b41f05f85a",
+      "source": "Sie hat ein sehr schönes Lächeln.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tiene una sonrisa muy bonita.",
+          "audioSlug": "tiene_una_sonrisa_muy_bonita"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_me_duele_la_nariz_por_el_resfriado",
+      "conceptId": "es.cuerpo_me_duele_la_nariz_por_el_resfriado",
+      "sourceId": "de.s.8c19d9050e01c4bc",
+      "source": "Meine Nase tut wegen der Erkältung weh.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me duele la nariz por el resfriado.",
+          "audioSlug": "me_duele_la_nariz_por_el_resfriado"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_mi_tio_tiene_barba_y_bigote",
+      "conceptId": "es.cuerpo_mi_tio_tiene_barba_y_bigote",
+      "sourceId": "de.s.b7f67d431107e396",
+      "source": "Mein Onkel hat Bart und Schnurrbart.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi tío tiene barba y bigote.",
+          "audioSlug": "mi_tio_tiene_barba_y_bigote"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_me_duele_el_cuello_de_dormir_mal",
+      "conceptId": "es.cuerpo_me_duele_el_cuello_de_dormir_mal",
+      "sourceId": "de.s.b2a2e7f3a596f93f",
+      "source": "Mein Nacken tut vom schlechten Schlafen weh.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me duele el cuello de dormir mal.",
+          "audioSlug": "me_duele_el_cuello_de_dormir_mal"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_me_duele_el_estomago_despues_de_comer",
+      "conceptId": "es.cuerpo_me_duele_el_estomago_despues_de_comer",
+      "sourceId": "de.s.c712c817bc7fb9c0",
+      "source": "Nach dem Essen tut mir der Magen weh.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me duele el estómago después de comer.",
+          "audioSlug": "me_duele_el_estomago_despues_de_comer"
+        }
+      ]
+    },
+    {
+      "id": "cuerpo_el_oido_izquierdo_me_molesta_un_poco",
+      "conceptId": "es.cuerpo_el_oido_izquierdo_me_molesta_un_poco",
+      "sourceId": "de.s.8d76e654ce110a22",
+      "source": "Mein linkes Ohr stört mich ein wenig.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El oído izquierdo me molesta un poco.",
+          "audioSlug": "el_oido_izquierdo_me_molesta_un_poco"
+        }
+      ]
+    }
+  ]
+}

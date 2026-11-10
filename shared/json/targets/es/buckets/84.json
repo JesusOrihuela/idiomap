@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "84",
+  "concepts": {
+    "es.conversacion_cada_quien_opina_segun_su_experiencia": {
+      "conceptId": "es.conversacion_cada_quien_opina_segun_su_experiencia",
+      "id": "conversacion_cada_quien_opina_segun_su_experiencia",
+      "target": [
+        {
+          "text": "Cada quien opina según su experiencia.",
+          "audioSlug": "cada_quien_opina_segun_su_experiencia"
+        }
+      ]
+    },
+    "es.emociones_i_am_happy": {
+      "conceptId": "es.emociones_i_am_happy",
+      "id": "emociones_i_am_happy",
+      "target": [
+        {
+          "text": "Estoy contenta.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_contenta"
+        },
+        {
+          "text": "Estoy contento.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_contento"
+        }
+      ]
+    },
+    "es.kitchen_cure_salmon_salt_sugar_dill": {
+      "conceptId": "es.kitchen_cure_salmon_salt_sugar_dill",
+      "id": "kitchen_cure_salmon_salt_sugar_dill",
+      "target": [
+        {
+          "text": "Para curar el salmón, cúbrelo con sal, azúcar y eneldo y refrigéralo durante dos días.",
+          "audioSlug": "para_curar_el_salmon_cubrelo_con_sal_azucar_y_eneldo_y_refrigeralo_durante_dos_dias"
+        }
+      ]
+    },
+    "es.museums_exhibition_accessible_multiple_levels": {
+      "conceptId": "es.museums_exhibition_accessible_multiple_levels",
+      "id": "museums_exhibition_accessible_multiple_levels",
+      "target": [
+        {
+          "text": "La exposición funcionaba en varios niveles, del disfrute casual a la lectura atenta.",
+          "audioSlug": "la_exposicion_funcionaba_en_varios_niveles_del_disfrute_casual_a_la_lectura_atenta"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_las_plantas_necesitan_agua_y_luz": {
+      "conceptId": "es.naturaleza_lugares_las_plantas_necesitan_agua_y_luz",
+      "id": "naturaleza_lugares_las_plantas_necesitan_agua_y_luz",
+      "target": [
+        {
+          "text": "Las plantas necesitan agua y luz.",
+          "audioSlug": "las_plantas_necesitan_agua_y_luz"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_tengo_una_duda": {
+      "conceptId": "es.pensamientos_opiniones_tengo_una_duda",
+      "id": "pensamientos_opiniones_tengo_una_duda",
+      "target": [
+        {
+          "text": "Tengo una duda.",
+          "audioSlug": "tengo_una_duda"
+        }
+      ]
+    },
+    "es.planes_i_plan_to_buy_a_house": {
+      "conceptId": "es.planes_i_plan_to_buy_a_house",
+      "id": "planes_i_plan_to_buy_a_house",
+      "target": [
+        {
+          "text": "Pienso comprar una casa.",
+          "audioSlug": "pienso_comprar_una_casa"
+        }
+      ]
+    },
+    "es.restaurant_la_paella_lleva_arroz": {
+      "conceptId": "es.restaurant_la_paella_lleva_arroz",
+      "id": "restaurant_la_paella_lleva_arroz",
+      "target": [
+        {
+          "text": "La paella lleva arroz y mariscos.",
+          "audioSlug": "la_paella_lleva_arroz_y_mariscos"
+        }
+      ]
+    },
+    "es.supermarket_the_strawberries_are_very_expensive": {
+      "conceptId": "es.supermarket_the_strawberries_are_very_expensive",
+      "id": "supermarket_the_strawberries_are_very_expensive",
+      "target": [
+        {
+          "text": "Las fresas están muy caras.",
+          "audioSlug": "las_fresas_estan_muy_caras"
+        }
+      ]
+    },
+    "es.viajes_guarda_tu_pasaporte_en_un_lugar_seguro": {
+      "conceptId": "es.viajes_guarda_tu_pasaporte_en_un_lugar_seguro",
+      "id": "viajes_guarda_tu_pasaporte_en_un_lugar_seguro",
+      "target": [
+        {
+          "text": "Guarda tu pasaporte en un lugar seguro.",
+          "audioSlug": "guarda_tu_pasaporte_en_un_lugar_seguro",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Guarde su pasaporte en un lugar seguro.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "guarde_su_pasaporte_en_un_lugar_seguro"
+        }
+      ]
+    },
+    "es.weather_hace_frio_ponte_un_abrigo": {
+      "conceptId": "es.weather_hace_frio_ponte_un_abrigo",
+      "id": "weather_hace_frio_ponte_un_abrigo",
+      "target": [
+        {
+          "text": "Hace frío, ponte un abrigo.",
+          "audioSlug": "hace_frio_ponte_un_abrigo"
+        }
+      ]
+    }
+  }
+}

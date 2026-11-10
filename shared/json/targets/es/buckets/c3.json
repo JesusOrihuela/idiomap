@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "c3",
+  "concepts": {
+    "es.accommodation_el_desayuno_esta_incluido": {
+      "conceptId": "es.accommodation_el_desayuno_esta_incluido",
+      "id": "accommodation_el_desayuno_esta_incluido",
+      "target": [
+        {
+          "text": "El desayuno está incluido.",
+          "audioSlug": "el_desayuno_esta_incluido"
+        }
+      ]
+    },
+    "es.accommodation_room_doesnt_match_manager": {
+      "conceptId": "es.accommodation_room_doesnt_match_manager",
+      "id": "accommodation_room_doesnt_match_manager",
+      "target": [
+        {
+          "text": "La habitación asignada no coincide con mi reserva, me gustaría hablar con el gerente.",
+          "audioSlug": "la_habitacion_asignada_no_coincide_con_mi_reserva_me_gustaria_hablar_con_el_gerente",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "La habitación asignada no coincide con mi reserva, me gustaría hablar con la gerente.",
+          "audioSlug": "la_habitacion_asignada_no_coincide_con_mi_reserva_me_gustaria_hablar_con_la_gerente",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.descripciones_la_calle_es_estrecha": {
+      "conceptId": "es.descripciones_la_calle_es_estrecha",
+      "id": "descripciones_la_calle_es_estrecha",
+      "target": [
+        {
+          "text": "La calle es estrecha.",
+          "audioSlug": "la_calle_es_estrecha"
+        }
+      ]
+    },
+    "es.greetings_hello_how_have_you_been_lately": {
+      "conceptId": "es.greetings_hello_how_have_you_been_lately",
+      "id": "greetings_hello_how_have_you_been_lately",
+      "target": [
+        {
+          "text": "Hola, ¿cómo has estado últimamente?",
+          "audioSlug": "hola_como_has_estado_ultimamente"
+        }
+      ]
+    },
+    "es.kitchen_the_pan_is_in_the_sink": {
+      "conceptId": "es.kitchen_the_pan_is_in_the_sink",
+      "id": "kitchen_the_pan_is_in_the_sink",
+      "target": [
+        {
+          "text": "La sartén está en el fregadero porque la usé ayer.",
+          "audioSlug": "la_sarten_esta_en_el_fregadero_porque_la_use_ayer"
+        }
+      ]
+    },
+    "es.kitchen_we_need_to_take_the_meat": {
+      "conceptId": "es.kitchen_we_need_to_take_the_meat",
+      "id": "kitchen_we_need_to_take_the_meat",
+      "target": [
+        {
+          "text": "Hay que sacar la carne del congelador con anticipación.",
+          "audioSlug": "hay_que_sacar_la_carne_del_congelador_con_anticipacion"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_cielo_esta_despejado": {
+      "conceptId": "es.naturaleza_lugares_el_cielo_esta_despejado",
+      "id": "naturaleza_lugares_el_cielo_esta_despejado",
+      "target": [
+        {
+          "text": "El cielo está despejado.",
+          "audioSlug": "el_cielo_esta_despejado"
+        }
+      ]
+    },
+    "es.politica_el_ejercito_desfilo_por_la_ciudad": {
+      "conceptId": "es.politica_el_ejercito_desfilo_por_la_ciudad",
+      "id": "politica_el_ejercito_desfilo_por_la_ciudad",
+      "target": [
+        {
+          "text": "El ejército desfiló por la ciudad.",
+          "audioSlug": "el_ejercito_desfilo_por_la_ciudad"
+        }
+      ]
+    },
+    "es.supermarket_where_is_the_cleaning_products_section": {
+      "conceptId": "es.supermarket_where_is_the_cleaning_products_section",
+      "id": "supermarket_where_is_the_cleaning_products_section",
+      "target": [
+        {
+          "text": "¿Dónde está la sección de productos de limpieza?",
+          "audioSlug": "donde_esta_la_seccion_de_productos_de_limpieza"
+        }
+      ]
+    },
+    "es.technology_la_pantalla_del_telefono_esta_rota": {
+      "conceptId": "es.technology_la_pantalla_del_telefono_esta_rota",
+      "id": "technology_la_pantalla_del_telefono_esta_rota",
+      "target": [
+        {
+          "text": "La pantalla del teléfono está rota.",
+          "audioSlug": "la_pantalla_del_telefono_esta_rota"
+        }
+      ]
+    },
+    "es.tiempo_libre_lets_go_hiking": {
+      "conceptId": "es.tiempo_libre_lets_go_hiking",
+      "id": "tiempo_libre_lets_go_hiking",
+      "target": [
+        {
+          "text": "Vamos de excursión el sábado.",
+          "audioSlug": "vamos_de_excursion_el_sabado"
+        }
+      ]
+    },
+    "es.vestimenta_necesito_un_guante_para_el_frio": {
+      "conceptId": "es.vestimenta_necesito_un_guante_para_el_frio",
+      "id": "vestimenta_necesito_un_guante_para_el_frio",
+      "target": [
+        {
+          "text": "Necesito un guante para el frío.",
+          "audioSlug": "necesito_un_guante_para_el_frio"
+        }
+      ]
+    },
+    "es.vestimenta_saque_un_panuelo_del_bolsillo": {
+      "conceptId": "es.vestimenta_saque_un_panuelo_del_bolsillo",
+      "id": "vestimenta_saque_un_panuelo_del_bolsillo",
+      "target": [
+        {
+          "text": "Saqué un pañuelo del bolsillo.",
+          "audioSlug": "saque_un_panuelo_del_bolsillo"
+        }
+      ]
+    }
+  }
+}

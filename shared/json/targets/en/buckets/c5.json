@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "c5",
+  "concepts": {
+    "en.accountability_deferred_tax_assets_reassessed_tax_rate": {
+      "conceptId": "en.accountability_deferred_tax_assets_reassessed_tax_rate",
+      "id": "accountability_deferred_tax_assets_reassessed_tax_rate",
+      "target": [
+        {
+          "text": "Our deferred tax assets have been reassessed following the change in corporate tax rates.",
+          "audioSlug": "our_deferred_tax_assets_have_been_reassessed_following_the_change_in_corporate_tax_rates"
+        }
+      ]
+    },
+    "en.fiesta_cheers_everyone": {
+      "conceptId": "en.fiesta_cheers_everyone",
+      "id": "fiesta_cheers_everyone",
+      "target": [
+        {
+          "text": "Cheers, everyone!",
+          "audioSlug": "cheers_everyone"
+        }
+      ]
+    },
+    "en.greetings_hi_how_are_you_holding_up": {
+      "conceptId": "en.greetings_hi_how_are_you_holding_up",
+      "id": "greetings_hi_how_are_you_holding_up",
+      "target": [
+        {
+          "text": "Hi, how are you holding up?",
+          "audioSlug": "hi_how_are_you_holding_up",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Hello, how are you holding up?",
+          "audioSlug": "hello_how_are_you_holding_up",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.health_my_arm_hurts": {
+      "conceptId": "en.health_my_arm_hurts",
+      "id": "health_my_arm_hurts",
+      "target": [
+        {
+          "text": "My arm hurts.",
+          "audioSlug": "my_arm_hurts"
+        }
+      ]
+    },
+    "en.hogar_turn_on_the_light_please": {
+      "conceptId": "en.hogar_turn_on_the_light_please",
+      "id": "hogar_turn_on_the_light_please",
+      "target": [
+        {
+          "text": "Turn on the light, please.",
+          "audioSlug": "turn_on_the_light_please"
+        }
+      ]
+    },
+    "en.kitchen_we_need_to_preheat_the_oven": {
+      "conceptId": "en.kitchen_we_need_to_preheat_the_oven",
+      "id": "kitchen_we_need_to_preheat_the_oven",
+      "target": [
+        {
+          "text": "We need to preheat the oven.",
+          "audioSlug": "we_need_to_preheat_the_oven"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_i_didn_t_realize_that": {
+      "conceptId": "en.pensamientos_opiniones_i_didn_t_realize_that",
+      "id": "pensamientos_opiniones_i_didn_t_realize_that",
+      "target": [
+        {
+          "text": "I didn't realize that.",
+          "audioSlug": "i_didn_t_realize_that"
+        }
+      ]
+    },
+    "en.personal_info_im_from": {
+      "conceptId": "en.personal_info_im_from",
+      "id": "personal_info_im_from",
+      "target": [
+        {
+          "text": "I'm from Mexico.",
+          "audioSlug": "i_m_from_mexico"
+        }
+      ]
+    },
+    "en.restaurant_is_there_a_corkage_fee_if": {
+      "conceptId": "en.restaurant_is_there_a_corkage_fee_if",
+      "id": "restaurant_is_there_a_corkage_fee_if",
+      "target": [
+        {
+          "text": "Is there a corkage fee if I bring my own wine?",
+          "audioSlug": "is_there_a_corkage_fee_if_i_bring_my_own_wine"
+        }
+      ]
+    },
+    "en.vestimenta_what_size_do_you_wear": {
+      "conceptId": "en.vestimenta_what_size_do_you_wear",
+      "id": "vestimenta_what_size_do_you_wear",
+      "target": [
+        {
+          "text": "What size do you wear?",
+          "audioSlug": "what_size_do_you_wear"
+        }
+      ]
+    }
+  }
+}

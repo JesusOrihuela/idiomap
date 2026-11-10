@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "b0",
+  "concepts": {
+    "es.airport_eu_regulation_compensation": {
+      "conceptId": "es.airport_eu_regulation_compensation",
+      "id": "airport_eu_regulation_compensation",
+      "target": [
+        {
+          "text": "Según el Reglamento UE 261/2004, creo que tengo derecho a compensación por esta cancelación.",
+          "audioSlug": "segun_el_reglamento_ue_261_2004_creo_que_tengo_derecho_a_compensacion_por_esta_cancelacion"
+        }
+      ]
+    },
+    "es.calendario_el_evento_dura_todo_el_dia": {
+      "conceptId": "es.calendario_el_evento_dura_todo_el_dia",
+      "id": "calendario_el_evento_dura_todo_el_dia",
+      "target": [
+        {
+          "text": "El evento dura todo el día.",
+          "audioSlug": "el_evento_dura_todo_el_dia"
+        }
+      ]
+    },
+    "es.conversacion_siento_que_no_me_escuchas": {
+      "conceptId": "es.conversacion_siento_que_no_me_escuchas",
+      "id": "conversacion_siento_que_no_me_escuchas",
+      "target": [
+        {
+          "text": "Siento que no me escuchas.",
+          "audioSlug": "siento_que_no_me_escuchas"
+        }
+      ]
+    },
+    "es.conversacion_te_voy_a_avisar": {
+      "conceptId": "es.conversacion_te_voy_a_avisar",
+      "id": "conversacion_te_voy_a_avisar",
+      "target": [
+        {
+          "text": "Te voy a avisar.",
+          "audioSlug": "te_voy_a_avisar"
+        }
+      ]
+    },
+    "es.descripciones_este_es_distinto": {
+      "conceptId": "es.descripciones_este_es_distinto",
+      "id": "descripciones_este_es_distinto",
+      "target": [
+        {
+          "text": "Este es distinto.",
+          "audioSlug": "este_es_distinto"
+        }
+      ]
+    },
+    "es.family_i_have_two_children": {
+      "conceptId": "es.family_i_have_two_children",
+      "id": "family_i_have_two_children",
+      "target": [
+        {
+          "text": "Tengo dos hijos.",
+          "audioSlug": "tengo_dos_hijos"
+        }
+      ]
+    },
+    "es.hogar_la_mesa_es_de_madera_maciza": {
+      "conceptId": "es.hogar_la_mesa_es_de_madera_maciza",
+      "id": "hogar_la_mesa_es_de_madera_maciza",
+      "target": [
+        {
+          "text": "La mesa es de madera maciza.",
+          "audioSlug": "la_mesa_es_de_madera_maciza"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_pienso_en_mi_futuro": {
+      "conceptId": "es.pensamientos_opiniones_pienso_en_mi_futuro",
+      "id": "pensamientos_opiniones_pienso_en_mi_futuro",
+      "target": [
+        {
+          "text": "Pienso en mi futuro.",
+          "audioSlug": "pienso_en_mi_futuro"
+        }
+      ]
+    },
+    "es.restaurant_could_i_have_this_dish_without": {
+      "conceptId": "es.restaurant_could_i_have_this_dish_without",
+      "id": "restaurant_could_i_have_this_dish_without",
+      "target": [
+        {
+          "text": "¿Podría pedir este plato sin cebolla, por favor?",
+          "audioSlug": "podria_pedir_este_plato_sin_cebolla_por_favor"
+        }
+      ]
+    },
+    "es.restaurant_voy_a_tratar_de_comer_mas_sano": {
+      "conceptId": "es.restaurant_voy_a_tratar_de_comer_mas_sano",
+      "id": "restaurant_voy_a_tratar_de_comer_mas_sano",
+      "target": [
+        {
+          "text": "Voy a tratar de comer más sano.",
+          "audioSlug": "voy_a_tratar_de_comer_mas_sano"
+        }
+      ]
+    },
+    "es.supermarket_i_cant_find_the_yogurt_brand": {
+      "conceptId": "es.supermarket_i_cant_find_the_yogurt_brand",
+      "id": "supermarket_i_cant_find_the_yogurt_brand",
+      "target": [
+        {
+          "text": "No encuentro la marca de yogurt que me gusta.",
+          "audioSlug": "no_encuentro_la_marca_de_yogurt_que_me_gusta"
+        }
+      ]
+    },
+    "es.theater_two_tickets": {
+      "conceptId": "es.theater_two_tickets",
+      "id": "theater_two_tickets",
+      "target": [
+        {
+          "text": "Dos entradas para la función de esta noche.",
+          "audioSlug": "dos_entradas_para_la_funcion_de_esta_noche"
+        }
+      ]
+    },
+    "es.transportation_metro_map_navigate": {
+      "conceptId": "es.transportation_metro_map_navigate",
+      "id": "transportation_metro_map_navigate",
+      "target": [
+        {
+          "text": "Tengo problemas con el mapa del metro, ¿podría mostrarme cómo leerlo?",
+          "audioSlug": "tengo_problemas_con_el_mapa_del_metro_podria_mostrarme_como_leerlo"
+        }
+      ]
+    },
+    "es.viajes_reserve_el_viaje_en_una_agencia": {
+      "conceptId": "es.viajes_reserve_el_viaje_en_una_agencia",
+      "id": "viajes_reserve_el_viaje_en_una_agencia",
+      "target": [
+        {
+          "text": "Reservé el viaje en una agencia.",
+          "audioSlug": "reserve_el_viaje_en_una_agencia"
+        }
+      ]
+    }
+  }
+}

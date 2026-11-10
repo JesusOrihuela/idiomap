@@ -155,12 +155,16 @@
           "hint": "yo soy, für Identität, Herkunft und Beruf."
         }
       ],
-      "related_phrases": [],
       "topics": [
         "descripciones",
         "personal_info",
         "hogar"
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "estar_location_states",
@@ -251,7 +255,6 @@
           "hint": "estoy, für Zustand und Ort."
         }
       ],
-      "related_phrases": [],
       "topics": [
         "emociones",
         "conversacion",
@@ -262,7 +265,12 @@
         "greetings",
         "estudios",
         "sitios"
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ser_vs_estar",
@@ -359,8 +367,12 @@
           "hint": "ser für Identität und Eigenschaften, estar für Zustände und den Ort."
         }
       ],
-      "related_phrases": [],
-      "topics": []
+      "topics": [],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "present_ar_verbs",
@@ -451,7 +463,6 @@
           "hint": "yo, Endung -o, hablo, tomo, preparo."
         }
       ],
-      "related_phrases": [],
       "topics": [
         "daily_routine",
         "economia",
@@ -474,7 +485,12 @@
         "descripciones",
         "conversacion",
         "airport"
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "question_words",
@@ -567,7 +583,6 @@
           "hint": "Fragewort mit Akzent, dazu ¿ am Anfang."
         }
       ],
-      "related_phrases": [],
       "topics": [
         "airport",
         "survival",
@@ -579,7 +594,12 @@
         "directions",
         "kitchen",
         "viajes"
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "reflexive_verbs_daily_routine",
@@ -670,10 +690,14 @@
           "hint": "Reflexivpronomen me vor dem Verb."
         }
       ],
-      "related_phrases": [],
       "topics": [
         "daily_routine"
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ir_a_futuro",
@@ -764,13 +788,17 @@
           "hint": "voy a + Infinitiv, für einen Plan."
         }
       ],
-      "related_phrases": [],
       "topics": [
         "planes",
         "restaurant",
         "weather",
         "deportes"
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "tu_vs_usted",
@@ -862,8 +890,12 @@
           "hint": "tú, zweite Person; usted, dritte Person."
         }
       ],
-      "related_phrases": [],
-      "topics": []
+      "topics": [],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "present_er_ir_verbs",
@@ -954,7 +986,6 @@
           "hint": "yo, Endung -o, vivo, como, escribo."
         }
       ],
-      "related_phrases": [],
       "topics": [
         "estudios",
         "tiempo_libre",
@@ -974,7 +1005,12 @@
         "restaurant",
         "supermarket",
         "kitchen"
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "gustar_structure",
@@ -1066,7 +1102,6 @@
           "hint": "indirektes Pronomen me, Verb in der dritten Person."
         }
       ],
-      "related_phrases": [],
       "topics": [
         "tiempo_libre",
         "estudios",
@@ -1075,7 +1110,12 @@
         "deportes",
         "conversacion",
         "naturaleza_lugares"
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "subjunctive_present_wishes",
@@ -1166,8 +1206,12 @@
           "hint": "ojalá und quizás lösen den Subjunktiv aus."
         }
       ],
-      "related_phrases": [],
-      "topics": []
+      "topics": [],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

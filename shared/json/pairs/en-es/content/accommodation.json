@@ -1,73 +1,865 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "accommodation",
-  "conceptIds": [
-    "es.accommodation_breakfast_included",
-    "es.accommodation_extra_towels",
-    "es.accommodation_hotel_services",
-    "es.accommodation_minibar_room",
-    "es.accommodation_recommend_restaurant",
-    "es.accommodation_gym_hotel",
-    "es.accommodation_help_luggage",
-    "es.accommodation_safe_room",
-    "es.accommodation_extra_pillow",
-    "es.accommodation_restaurant_closing",
-    "es.accommodation_atm_hotel",
-    "es.accommodation_pool_hotel",
-    "es.accommodation_checkin_time",
-    "es.accommodation_checkout_time",
-    "es.accommodation_closest_restaurant",
-    "es.accommodation_drinks_included",
-    "es.accommodation_book_room_two_nights",
-    "es.accommodation_single_room_availability",
-    "es.accommodation_confirm_reservation",
-    "es.accommodation_do_not_disturb",
-    "es.accommodation_airport_shuttle",
-    "es.accommodation_nonsmoking_room",
-    "es.accommodation_room_service_24h",
-    "es.accommodation_guest_access",
-    "es.accommodation_store_luggage",
-    "es.accommodation_spa_service",
-    "es.accommodation_transport_options",
-    "es.accommodation_room_sea_view",
-    "es.accommodation_late_checkout_policy",
-    "es.accommodation_cancellation_policy",
-    "es.accommodation_pet_policy",
-    "es.accommodation_early_checkin_policy",
-    "es.accommodation_refund_policy",
-    "es.accommodation_power_adapters",
-    "es.accommodation_extend_stay_price",
-    "es.accommodation_noisy_neighbors_keep_it_down",
-    "es.accommodation_room_service_wrong_order",
-    "es.accommodation_upgrade_special_occasion",
-    "es.accommodation_group_discount_block",
-    "es.accommodation_room_not_cleaned_discount",
-    "es.accommodation_unexplained_charge_bill",
-    "es.accommodation_early_checkin_early_flight",
-    "es.accommodation_aircon_maintenance",
-    "es.accommodation_extend_stay_same_rate",
-    "es.accommodation_security_deposit_return",
-    "es.accommodation_accessible_level_access",
-    "es.accommodation_vat_invoice_accounting",
-    "es.accommodation_corporate_rate_booking",
-    "es.accommodation_room_doesnt_match_manager",
-    "es.accommodation_formal_complaint_noise",
-    "es.accommodation_itemize_bill_expense",
-    "es.accommodation_retrieve_valuables_safe",
-    "es.accommodation_room_misrepresented_listing",
-    "es.accommodation_longstay_discount_negotiation",
-    "es.accommodation_loyalty_tier_benefits",
-    "es.accommodation_i_have_a_reservation",
-    "es.accommodation_id_like_to_check_in",
-    "es.accommodation_could_i_have_the_key",
-    "es.accommodation_how_much_per_night",
-    "es.accommodation_ac_not_working",
-    "es.accommodation_wake_up_call",
-    "es.accommodation_id_like_to_check_out",
-    "es.accommodation_late_checkout_request",
-    "es.accommodation_el_alojamiento_incluye_desayuno",
-    "es.accommodation_nos_quedamos_en_una_pension",
-    "es.accommodation_quiero_una_habitacion_doble"
+  "phrases": [
+    {
+      "conceptId": "es.accommodation_breakfast_included",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9cf7131fc8af87e1"
+    },
+    {
+      "conceptId": "es.accommodation_extra_towels",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f7cc019ea7211606"
+    },
+    {
+      "conceptId": "es.accommodation_hotel_services",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a899d727a92c1318"
+    },
+    {
+      "conceptId": "es.accommodation_minibar_room",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.834d1a2d45be49b7"
+    },
+    {
+      "conceptId": "es.accommodation_recommend_restaurant",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2999cf6ebcb88fcd"
+    },
+    {
+      "conceptId": "es.accommodation_gym_hotel",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d1b562fba1627118"
+    },
+    {
+      "conceptId": "es.accommodation_help_luggage",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8bebed8479290ce1"
+    },
+    {
+      "conceptId": "es.accommodation_safe_room",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b1bde5fd709ffb56"
+    },
+    {
+      "conceptId": "es.accommodation_extra_pillow",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.72b43cb4efa2030c"
+    },
+    {
+      "conceptId": "es.accommodation_restaurant_closing",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.76a999392ed8c006"
+    },
+    {
+      "conceptId": "es.accommodation_atm_hotel",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2bbf4e492c2ce4cf"
+    },
+    {
+      "conceptId": "es.accommodation_pool_hotel",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.69c79b1bc9da0cc8"
+    },
+    {
+      "conceptId": "es.accommodation_checkin_time",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.05adcb05f6508e6e"
+    },
+    {
+      "conceptId": "es.accommodation_checkout_time",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f6ad117b8a980f92"
+    },
+    {
+      "conceptId": "es.accommodation_closest_restaurant",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4a3e1dc1ada51b80"
+    },
+    {
+      "conceptId": "es.accommodation_drinks_included",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.97a94251683b2d79"
+    },
+    {
+      "conceptId": "es.accommodation_book_room_two_nights",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.530a83e9ba5fe83f"
+    },
+    {
+      "conceptId": "es.accommodation_single_room_availability",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8797ff75517630ca"
+    },
+    {
+      "conceptId": "es.accommodation_confirm_reservation",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.98ae4f5d107089dc"
+    },
+    {
+      "conceptId": "es.accommodation_do_not_disturb",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6baf8d3b779ee97f"
+    },
+    {
+      "conceptId": "es.accommodation_airport_shuttle",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2f828be819069284"
+    },
+    {
+      "conceptId": "es.accommodation_nonsmoking_room",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2817728c380d7812"
+    },
+    {
+      "conceptId": "es.accommodation_room_service_24h",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4d2247c8aa2f6aea"
+    },
+    {
+      "conceptId": "es.accommodation_guest_access",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0b2f92be853be22e"
+    },
+    {
+      "conceptId": "es.accommodation_store_luggage",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e99b4d325b1f6129"
+    },
+    {
+      "conceptId": "es.accommodation_spa_service",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b14bacd1f0193d11"
+    },
+    {
+      "conceptId": "es.accommodation_transport_options",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.def70b5b9409527d"
+    },
+    {
+      "conceptId": "es.accommodation_room_sea_view",
+      "level": "B1",
+      "grammar": "'Aunque + subjuntivo' expresa concesión cuando la condición es hipotética.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8d80475268c25764"
+    },
+    {
+      "conceptId": "es.accommodation_late_checkout_policy",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d4146590b395dda5"
+    },
+    {
+      "conceptId": "es.accommodation_cancellation_policy",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7b8f76bc6f87719e"
+    },
+    {
+      "conceptId": "es.accommodation_pet_policy",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.17651b06418305ce"
+    },
+    {
+      "conceptId": "es.accommodation_early_checkin_policy",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.71f09bd530da7c32"
+    },
+    {
+      "conceptId": "es.accommodation_refund_policy",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f7e58a95492bef55"
+    },
+    {
+      "conceptId": "es.accommodation_power_adapters",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e1b5f6f35ec76e2b"
+    },
+    {
+      "conceptId": "es.accommodation_extend_stay_price",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c71416c01075437f"
+    },
+    {
+      "conceptId": "es.accommodation_noisy_neighbors_keep_it_down",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.15d25cd8ed1a0c1b"
+    },
+    {
+      "conceptId": "es.accommodation_room_service_wrong_order",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.dcf67e8a307c7bd3"
+    },
+    {
+      "conceptId": "es.accommodation_upgrade_special_occasion",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.70111927fcdb81e9"
+    },
+    {
+      "conceptId": "es.accommodation_group_discount_block",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.86913e9dc95e7f67"
+    },
+    {
+      "conceptId": "es.accommodation_room_not_cleaned_discount",
+      "level": "B2",
+      "grammar": "'No fue limpiada' usa la pasiva perifrástica; equivale a la pasiva refleja 'no se limpió'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.45336f9f344b143e"
+    },
+    {
+      "conceptId": "es.accommodation_unexplained_charge_bill",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b25ac75869acccd7"
+    },
+    {
+      "conceptId": "es.accommodation_early_checkin_early_flight",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.70f747cc7bfcd6c5"
+    },
+    {
+      "conceptId": "es.accommodation_aircon_maintenance",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.afc4519341b6bda0"
+    },
+    {
+      "conceptId": "es.accommodation_extend_stay_same_rate",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2b9de5ad6ac10588"
+    },
+    {
+      "conceptId": "es.accommodation_security_deposit_return",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ace99e1adddc86a0"
+    },
+    {
+      "conceptId": "es.accommodation_accessible_level_access",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.280c80e41035dc10"
+    },
+    {
+      "conceptId": "es.accommodation_vat_invoice_accounting",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.aa28ef87f5f0cf86"
+    },
+    {
+      "conceptId": "es.accommodation_corporate_rate_booking",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d25e1456400c3c0f"
+    },
+    {
+      "conceptId": "es.accommodation_room_doesnt_match_manager",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7c01a823ea99f5ad"
+    },
+    {
+      "conceptId": "es.accommodation_formal_complaint_noise",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9c6bd08884888dc1"
+    },
+    {
+      "conceptId": "es.accommodation_itemize_bill_expense",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ac91d8099beb5dc9"
+    },
+    {
+      "conceptId": "es.accommodation_retrieve_valuables_safe",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a1497c4580bd5ac6"
+    },
+    {
+      "conceptId": "es.accommodation_room_misrepresented_listing",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fcb6014f09af4d98"
+    },
+    {
+      "conceptId": "es.accommodation_longstay_discount_negotiation",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7f77518c13c618e2"
+    },
+    {
+      "conceptId": "es.accommodation_loyalty_tier_benefits",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.80c4e708d7199ff8"
+    },
+    {
+      "conceptId": "es.accommodation_i_have_a_reservation",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.33286c90f2c9b776"
+    },
+    {
+      "conceptId": "es.accommodation_id_like_to_check_in",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2c3428bada6d9164"
+    },
+    {
+      "conceptId": "es.accommodation_could_i_have_the_key",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.21b2dab0e9ac04de"
+    },
+    {
+      "conceptId": "es.accommodation_how_much_per_night",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9a20afa2d604d7de"
+    },
+    {
+      "conceptId": "es.accommodation_ac_not_working",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a3bcdf1f946716b1"
+    },
+    {
+      "conceptId": "es.accommodation_wake_up_call",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.632b74bb58db47f7"
+    },
+    {
+      "conceptId": "es.accommodation_id_like_to_check_out",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8a6a7dea1f2ad493"
+    },
+    {
+      "conceptId": "es.accommodation_late_checkout_request",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.52911b3a8f1b49cd"
+    },
+    {
+      "conceptId": "es.accommodation_el_alojamiento_incluye_desayuno",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cf68693ba7ff4e6f"
+    },
+    {
+      "conceptId": "es.accommodation_nos_quedamos_en_una_pension",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6567efa72c6fc63a"
+    },
+    {
+      "conceptId": "es.accommodation_quiero_una_habitacion_doble",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fadce503360cef7d"
+    }
   ]
 }

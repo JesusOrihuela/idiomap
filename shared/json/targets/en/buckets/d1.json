@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "d1",
+  "concepts": {
+    "en.accountability_the_purchasing_department_will_receive_a": {
+      "conceptId": "en.accountability_the_purchasing_department_will_receive_a",
+      "id": "accountability_the_purchasing_department_will_receive_a",
+      "target": [
+        {
+          "text": "The purchasing department will receive a bonus for meeting goals.",
+          "audioSlug": "the_purchasing_department_will_receive_a_bonus_for_meeting_goals"
+        }
+      ]
+    },
+    "en.directions_turn_right": {
+      "conceptId": "en.directions_turn_right",
+      "id": "directions_turn_right",
+      "target": [
+        {
+          "text": "Turn right.",
+          "audioSlug": "turn_right"
+        }
+      ]
+    },
+    "en.museums_where_is_exhibition": {
+      "conceptId": "en.museums_where_is_exhibition",
+      "id": "museums_where_is_exhibition",
+      "target": [
+        {
+          "text": "Where is the Picasso exhibition?",
+          "audioSlug": "where_is_the_picasso_exhibition"
+        }
+      ]
+    },
+    "en.technology_app_crashing": {
+      "conceptId": "en.technology_app_crashing",
+      "id": "technology_app_crashing",
+      "target": [
+        {
+          "text": "The app keeps crashing.",
+          "audioSlug": "the_app_keeps_crashing"
+        }
+      ]
+    },
+    "en.tiempo_libre_watched_movie_last_night": {
+      "conceptId": "en.tiempo_libre_watched_movie_last_night",
+      "id": "tiempo_libre_watched_movie_last_night",
+      "target": [
+        {
+          "text": "We watched a movie last night.",
+          "audioSlug": "we_watched_a_movie_last_night"
+        }
+      ]
+    }
+  }
+}

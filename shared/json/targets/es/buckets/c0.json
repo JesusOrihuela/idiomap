@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "c0",
+  "concepts": {
+    "es.directions_el_sur_del_pais_es_calido": {
+      "conceptId": "es.directions_el_sur_del_pais_es_calido",
+      "id": "directions_el_sur_del_pais_es_calido",
+      "target": [
+        {
+          "text": "El sur del país es más cálido.",
+          "audioSlug": "el_sur_del_pais_es_mas_calido"
+        }
+      ]
+    },
+    "es.directions_its_next_to": {
+      "conceptId": "es.directions_its_next_to",
+      "id": "directions_its_next_to",
+      "target": [
+        {
+          "text": "Está al lado del supermercado.",
+          "audioSlug": "esta_al_lado_del_supermercado"
+        }
+      ]
+    },
+    "es.economia_la_empresa_quiere_reducir_costos": {
+      "conceptId": "es.economia_la_empresa_quiere_reducir_costos",
+      "id": "economia_la_empresa_quiere_reducir_costos",
+      "target": [
+        {
+          "text": "La empresa quiere reducir costos.",
+          "audioSlug": "la_empresa_quiere_reducir_costos"
+        }
+      ]
+    },
+    "es.greetings_como_te_llamas": {
+      "conceptId": "es.greetings_como_te_llamas",
+      "id": "greetings_como_te_llamas",
+      "target": [
+        {
+          "text": "¿Cómo te llamas?",
+          "audioSlug": "como_te_llamas",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cómo se llama?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "como_se_llama"
+        }
+      ]
+    },
+    "es.health_where_is_pharmacy": {
+      "conceptId": "es.health_where_is_pharmacy",
+      "id": "health_where_is_pharmacy",
+      "target": [
+        {
+          "text": "¿Dónde está la farmacia más cercana?",
+          "audioSlug": "donde_esta_la_farmacia_mas_cercana"
+        }
+      ]
+    },
+    "es.movies_sequel_live_up_original": {
+      "conceptId": "es.movies_sequel_live_up_original",
+      "id": "movies_sequel_live_up_original",
+      "target": [
+        {
+          "text": "La secuela tenía más presupuesto pero no estuvo a la altura del original.",
+          "audioSlug": "la_secuela_tenia_mas_presupuesto_pero_no_estuvo_a_la_altura_del_original"
+        }
+      ]
+    },
+    "es.movies_two_tickets": {
+      "conceptId": "es.movies_two_tickets",
+      "id": "movies_two_tickets",
+      "target": [
+        {
+          "text": "Dos entradas para la función de las ocho.",
+          "labels": {
+            "region": "General"
+          },
+          "audioSlug": "dos_entradas_para_la_funcion_de_las_ocho"
+        },
+        {
+          "text": "Dos boletos para la función de las ocho.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "dos_boletos_para_la_funcion_de_las_ocho"
+        }
+      ]
+    },
+    "es.museums_what_time_close": {
+      "conceptId": "es.museums_what_time_close",
+      "id": "museums_what_time_close",
+      "target": [
+        {
+          "text": "¿A qué hora cierra el museo?",
+          "audioSlug": "a_que_hora_cierra_el_museo"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_los_mismos_errores": {
+      "conceptId": "es.pensamientos_opiniones_los_mismos_errores",
+      "id": "pensamientos_opiniones_los_mismos_errores",
+      "target": [
+        {
+          "text": "Todos cometemos los mismos errores.",
+          "audioSlug": "todos_cometemos_los_mismos_errores"
+        }
+      ]
+    },
+    "es.planes_me_voy_a_encargar_de_eso": {
+      "conceptId": "es.planes_me_voy_a_encargar_de_eso",
+      "id": "planes_me_voy_a_encargar_de_eso",
+      "target": [
+        {
+          "text": "Me voy a encargar de eso.",
+          "audioSlug": "me_voy_a_encargar_de_eso"
+        }
+      ]
+    },
+    "es.restaurant_do_you_have_any_outdoor_seating": {
+      "conceptId": "es.restaurant_do_you_have_any_outdoor_seating",
+      "id": "restaurant_do_you_have_any_outdoor_seating",
+      "target": [
+        {
+          "text": "¿Disponen de asientos al aire libre?",
+          "audioSlug": "disponen_de_asientos_al_aire_libre"
+        }
+      ]
+    },
+    "es.restaurant_que_van_a_comer_hoy": {
+      "conceptId": "es.restaurant_que_van_a_comer_hoy",
+      "id": "restaurant_que_van_a_comer_hoy",
+      "target": [
+        {
+          "text": "¿Qué van a comer hoy?",
+          "audioSlug": "que_van_a_comer_hoy"
+        }
+      ]
+    },
+    "es.survival_donde_puedo_comprar_una_entrada": {
+      "conceptId": "es.survival_donde_puedo_comprar_una_entrada",
+      "id": "survival_donde_puedo_comprar_una_entrada",
+      "target": [
+        {
+          "text": "¿Dónde puedo comprar una entrada?",
+          "audioSlug": "donde_puedo_comprar_una_entrada"
+        }
+      ]
+    },
+    "es.technology_i_dont_know_where_the_portable": {
+      "conceptId": "es.technology_i_dont_know_where_the_portable",
+      "id": "technology_i_dont_know_where_the_portable",
+      "target": [
+        {
+          "text": "No sé dónde está la batería portátil.",
+          "audioSlug": "no_se_donde_esta_la_bateria_portatil"
+        }
+      ]
+    },
+    "es.viajes_sueno_con_viajar_por_el_mundo": {
+      "conceptId": "es.viajes_sueno_con_viajar_por_el_mundo",
+      "id": "viajes_sueno_con_viajar_por_el_mundo",
+      "target": [
+        {
+          "text": "Sueño con viajar por el mundo.",
+          "audioSlug": "sueno_con_viajar_por_el_mundo"
+        }
+      ]
+    }
+  }
+}

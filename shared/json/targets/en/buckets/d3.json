@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "d3",
+  "concepts": {
+    "en.family_this_is_my_wife": {
+      "conceptId": "en.family_this_is_my_wife",
+      "id": "family_this_is_my_wife",
+      "target": [
+        {
+          "text": "This is my wife.",
+          "audioSlug": "this_is_my_wife"
+        }
+      ]
+    },
+    "en.restaurant_ingredients_sourced_local_organic": {
+      "conceptId": "en.restaurant_ingredients_sourced_local_organic",
+      "id": "restaurant_ingredients_sourced_local_organic",
+      "target": [
+        {
+          "text": "Could you tell me where the ingredients are sourced? I prefer locally grown, organic produce.",
+          "audioSlug": "could_you_tell_me_where_the_ingredients_are_sourced_i_prefer_locally_grown_organic_produce"
+        }
+      ]
+    },
+    "en.transportation_cycling_lane_shared_road": {
+      "conceptId": "en.transportation_cycling_lane_shared_road",
+      "id": "transportation_cycling_lane_shared_road",
+      "target": [
+        {
+          "text": "Is there a dedicated cycling lane on this route, or do cyclists share the road?",
+          "audioSlug": "is_there_a_dedicated_cycling_lane_on_this_route_or_do_cyclists_share_the_road"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "bucket": "83",
+  "concepts": {
+    "de.survival_can_you_help_me": {
+      "conceptId": "de.survival_can_you_help_me",
+      "id": "survival_can_you_help_me",
+      "target": [
+        {
+          "text": "Kannst du mir helfen?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "kannst_du_mir_helfen"
+        },
+        {
+          "text": "Können Sie mir helfen?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "konnen_sie_mir_helfen"
+        }
+      ]
+    }
+  }
+}

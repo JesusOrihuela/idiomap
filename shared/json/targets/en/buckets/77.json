@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "77",
+  "concepts": {
+    "en.accountability_accounting_staff_will_be_here_tomorrow": {
+      "conceptId": "en.accountability_accounting_staff_will_be_here_tomorrow",
+      "id": "accountability_accounting_staff_will_be_here_tomorrow",
+      "target": [
+        {
+          "text": "Accounting staff will be here tomorrow.",
+          "audioSlug": "accounting_staff_will_be_here_tomorrow"
+        }
+      ]
+    },
+    "en.greetings_find_yourself_city_give_call": {
+      "conceptId": "en.greetings_find_yourself_city_give_call",
+      "id": "greetings_find_yourself_city_give_call",
+      "target": [
+        {
+          "text": "If you're ever in the city, don't hesitate to give me a call.",
+          "audioSlug": "if_you_re_ever_in_the_city_don_t_hesitate_to_give_me_a_call"
+        }
+      ]
+    },
+    "en.gym_the_gyms_music_is_too_loud": {
+      "conceptId": "en.gym_the_gyms_music_is_too_loud",
+      "id": "gym_the_gyms_music_is_too_loud",
+      "target": [
+        {
+          "text": "The gym's music is too loud.",
+          "audioSlug": "the_gym_s_music_is_too_loud"
+        }
+      ]
+    },
+    "en.music_play_instrument": {
+      "conceptId": "en.music_play_instrument",
+      "id": "music_play_instrument",
+      "target": [
+        {
+          "text": "Do you play any instrument?",
+          "audioSlug": "do_you_play_any_instrument"
+        }
+      ]
+    },
+    "en.restaurant_do_you_offer_any_lowcalorie_options": {
+      "conceptId": "en.restaurant_do_you_offer_any_lowcalorie_options",
+      "id": "restaurant_do_you_offer_any_lowcalorie_options",
+      "target": [
+        {
+          "text": "Do you offer any low-calorie options?",
+          "audioSlug": "do_you_offer_any_low_calorie_options"
+        }
+      ]
+    },
+    "en.technology_do_you_know_how_i_can": {
+      "conceptId": "en.technology_do_you_know_how_i_can",
+      "id": "technology_do_you_know_how_i_can",
+      "target": [
+        {
+          "text": "Do you know how to transfer photos to my computer?",
+          "audioSlug": "do_you_know_how_to_transfer_photos_to_my_computer"
+        }
+      ]
+    }
+  }
+}

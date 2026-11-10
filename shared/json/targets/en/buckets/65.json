@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "65",
+  "concepts": {
+    "en.airport_immigration_before_bags": {
+      "conceptId": "en.airport_immigration_before_bags",
+      "id": "airport_immigration_before_bags",
+      "target": [
+        {
+          "text": "You have to go through immigration before you can collect your bags.",
+          "audioSlug": "you_have_to_go_through_immigration_before_you_can_collect_your_bags"
+        }
+      ]
+    },
+    "en.gym_cable_machine_seated_row": {
+      "conceptId": "en.gym_cable_machine_seated_row",
+      "id": "gym_cable_machine_seated_row",
+      "target": [
+        {
+          "text": "Could you show me how to adjust the cable machine for a seated row?",
+          "audioSlug": "could_you_show_me_how_to_adjust_the_cable_machine_for_a_seated_row"
+        }
+      ]
+    },
+    "en.movies_cinematography_worth_watching": {
+      "conceptId": "en.movies_cinematography_worth_watching",
+      "id": "movies_cinematography_worth_watching",
+      "target": [
+        {
+          "text": "The cinematography alone makes it worth watching. Every frame looks like a painting.",
+          "audioSlug": "the_cinematography_alone_makes_it_worth_watching_every_frame_looks_like_a_painting"
+        }
+      ]
+    },
+    "en.music_classical_pianist_switched_jazz": {
+      "conceptId": "en.music_classical_pianist_switched_jazz",
+      "id": "music_classical_pianist_switched_jazz",
+      "target": [
+        {
+          "text": "He started as a classical pianist before switching to jazz in his late twenties.",
+          "audioSlug": "he_started_as_a_classical_pianist_before_switching_to_jazz_in_his_late_twenties"
+        }
+      ]
+    },
+    "en.politica_it_is_a_political_issue": {
+      "conceptId": "en.politica_it_is_a_political_issue",
+      "id": "politica_it_is_a_political_issue",
+      "target": [
+        {
+          "text": "It is a political issue.",
+          "audioSlug": "it_is_a_political_issue"
+        }
+      ]
+    }
+  }
+}

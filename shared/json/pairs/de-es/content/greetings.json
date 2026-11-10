@@ -1,25 +1,241 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "greetings",
-  "conceptIds": [
-    "es.greetings_hello",
-    "es.greetings_good_morning",
-    "es.greetings_good_evening",
-    "es.greetings_how_are_you",
-    "es.greetings_im_fine_thanks",
-    "es.greetings_goodbye",
-    "es.greetings_see_you_later",
-    "es.greetings_thank_you_very_much",
-    "es.greetings_youre_welcome",
-    "es.greetings_te_invito_a_mi_casa_el_sabado",
-    "es.greetings_ahi_viene_el_autobus",
-    "es.greetings_mi_vecino_es_muy_amable",
-    "es.greetings_bienvenidos_a_nuestra_casa",
-    "es.greetings_es_un_placer_conocerte",
-    "es.greetings_saludame_a_tu_familia",
-    "es.greetings_te_deseo_un_feliz_cumpleanos",
-    "es.greetings_nos_despedimos_con_un_abrazo",
-    "es.greetings_muchas_gracias_por_la_invitacion"
+  "phrases": [
+    {
+      "conceptId": "es.greetings_hello",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.35372c24acd75526"
+    },
+    {
+      "conceptId": "es.greetings_good_morning",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2e37eeac0c4c6dd8"
+    },
+    {
+      "conceptId": "es.greetings_good_evening",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.91bce005da6ea78e"
+    },
+    {
+      "conceptId": "es.greetings_how_are_you",
+      "level": "A1",
+      "grammar": "Con tú se usa estás (informal), con usted se usa está (formal).",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.78c384405a4b954c"
+    },
+    {
+      "conceptId": "es.greetings_im_fine_thanks",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fb6ffae6a8b53731"
+    },
+    {
+      "conceptId": "es.greetings_goodbye",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.351afdd276106929"
+    },
+    {
+      "conceptId": "es.greetings_see_you_later",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0d58bbc912961d74"
+    },
+    {
+      "conceptId": "es.greetings_thank_you_very_much",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1568ec299cc50437"
+    },
+    {
+      "conceptId": "es.greetings_youre_welcome",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b33831e6f530e1f2"
+    },
+    {
+      "conceptId": "es.greetings_te_invito_a_mi_casa_el_sabado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6ba8eeb4db54eec7"
+    },
+    {
+      "conceptId": "es.greetings_ahi_viene_el_autobus",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8690999cec08354a"
+    },
+    {
+      "conceptId": "es.greetings_mi_vecino_es_muy_amable",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4c576364c2929bf9"
+    },
+    {
+      "conceptId": "es.greetings_bienvenidos_a_nuestra_casa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cd35169b9f342fca"
+    },
+    {
+      "conceptId": "es.greetings_es_un_placer_conocerte",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f4bc80be25c21526"
+    },
+    {
+      "conceptId": "es.greetings_saludame_a_tu_familia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.21e21a548816b67d"
+    },
+    {
+      "conceptId": "es.greetings_te_deseo_un_feliz_cumpleanos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.106ea21d1f9f41cd"
+    },
+    {
+      "conceptId": "es.greetings_nos_despedimos_con_un_abrazo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3fca06ee170b4e79"
+    },
+    {
+      "conceptId": "es.greetings_muchas_gracias_por_la_invitacion",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.feb37707259af63b"
+    }
   ]
 }

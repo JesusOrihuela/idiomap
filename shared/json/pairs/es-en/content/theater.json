@@ -1,39 +1,423 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "theater",
-  "conceptIds": [
-    "en.theater_moving_play",
-    "en.theater_opera_surprised",
-    "en.theater_buy_tickets_tonight",
-    "en.theater_where_is_theater",
-    "en.theater_what_time_performance",
-    "en.theater_enjoy_going_theater",
-    "en.theater_actors_incredible_performance",
-    "en.theater_tickets_saturday",
-    "en.theater_intermission_refreshments",
-    "en.theater_moved_by_grief_portrayal",
-    "en.theater_standing_ovation_deserved",
-    "en.theater_original_much_stronger_revival",
-    "en.theater_costumes_reflected_era",
-    "en.theater_outdoor_atmosphere_different",
-    "en.theater_rehearsal_documentary_changed_experience",
-    "en.theater_second_viewing_reveals_layers",
-    "en.theater_staging_final_scene",
-    "en.theater_script_overambitious_themes",
-    "en.theater_physical_performance_no_dialogue",
-    "en.theater_set_design_bleak_story",
-    "en.theater_monologue_extraordinary_restraint",
-    "en.theater_subverts_expectations_first_scene",
-    "en.theater_lighting_sound_immersive",
-    "en.theater_ambiguous_ending_interpretations",
-    "en.theater_two_tickets",
-    "en.theater_whats_playing",
-    "en.theater_is_there_intermission",
-    "en.theater_where_are_seats",
-    "en.theater_play_was_great",
-    "en.theater_want_to_see_play",
-    "en.theater_how_long_performance",
-    "en.theater_box_office"
+  "phrases": [
+    {
+      "conceptId": "en.theater_moving_play",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1cd47bb509a19d96"
+    },
+    {
+      "conceptId": "en.theater_opera_surprised",
+      "level": "B1",
+      "grammar": "'Didn't think I would' expresses a past expectation that the actual experience proved wrong.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.00e96a8f03e92836"
+    },
+    {
+      "conceptId": "en.theater_buy_tickets_tonight",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5e5c0f5234376c17"
+    },
+    {
+      "conceptId": "en.theater_where_is_theater",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3902a0f6b26ea8d1"
+    },
+    {
+      "conceptId": "en.theater_what_time_performance",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1db9006024187849"
+    },
+    {
+      "conceptId": "en.theater_enjoy_going_theater",
+      "level": "A2",
+      "grammar": "'Enjoy' always takes a gerund as its object: enjoy going, enjoy watching, enjoy reading.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4a4f5e7b9cb64ea0"
+    },
+    {
+      "conceptId": "en.theater_actors_incredible_performance",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c730d26cd0bb33ad"
+    },
+    {
+      "conceptId": "en.theater_tickets_saturday",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bad362c85668da99"
+    },
+    {
+      "conceptId": "en.theater_intermission_refreshments",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6af40474677c2b25"
+    },
+    {
+      "conceptId": "en.theater_moved_by_grief_portrayal",
+      "level": "B1",
+      "grammar": "Passive 'was moved by' describes an emotional response triggered by an external source.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d458c1736cf94def"
+    },
+    {
+      "conceptId": "en.theater_standing_ovation_deserved",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c625ca686f991c05"
+    },
+    {
+      "conceptId": "en.theater_original_much_stronger_revival",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.209ab80796afe0c6"
+    },
+    {
+      "conceptId": "en.theater_costumes_reflected_era",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bb95794b71f3c7c1"
+    },
+    {
+      "conceptId": "en.theater_outdoor_atmosphere_different",
+      "level": "B2",
+      "grammar": "'There's something special about + gerund' to describe an intangible quality",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d491851ad3aad2b4"
+    },
+    {
+      "conceptId": "en.theater_rehearsal_documentary_changed_experience",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5b3b332f0bf8c58b"
+    },
+    {
+      "conceptId": "en.theater_second_viewing_reveals_layers",
+      "level": "B2",
+      "grammar": "Past perfect 'had missed' describes something that happened before the later event being narrated.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b288c886cbd03607"
+    },
+    {
+      "conceptId": "en.theater_staging_final_scene",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.489963cc0625c392"
+    },
+    {
+      "conceptId": "en.theater_script_overambitious_themes",
+      "level": "B2",
+      "grammar": "'I found + object + adjective' for expressing a personal critical assessment",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b7f153afa51acdc4"
+    },
+    {
+      "conceptId": "en.theater_physical_performance_no_dialogue",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7d887eaaf52fe914"
+    },
+    {
+      "conceptId": "en.theater_set_design_bleak_story",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.52e28b5ed6559620"
+    },
+    {
+      "conceptId": "en.theater_monologue_extraordinary_restraint",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e83dec00e06ec488"
+    },
+    {
+      "conceptId": "en.theater_subverts_expectations_first_scene",
+      "level": "C1",
+      "grammar": "'What makes X stand out' is a cleft structure that foregrounds what distinguishes something.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c9554eb5392c3dea"
+    },
+    {
+      "conceptId": "en.theater_lighting_sound_immersive",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.647773302c75687c"
+    },
+    {
+      "conceptId": "en.theater_ambiguous_ending_interpretations",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f74c0511a9e25fa7"
+    },
+    {
+      "conceptId": "en.theater_two_tickets",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9c9903aed8632ab8"
+    },
+    {
+      "conceptId": "en.theater_whats_playing",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e4628320f1917900"
+    },
+    {
+      "conceptId": "en.theater_is_there_intermission",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a576e6dbe387d49e"
+    },
+    {
+      "conceptId": "en.theater_where_are_seats",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5c14262018edeef7"
+    },
+    {
+      "conceptId": "en.theater_play_was_great",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a71d751338c8a23a"
+    },
+    {
+      "conceptId": "en.theater_want_to_see_play",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6ca40bf99657db7a"
+    },
+    {
+      "conceptId": "en.theater_how_long_performance",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9308d7a3e87d4005"
+    },
+    {
+      "conceptId": "en.theater_box_office",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b896113274991d0e"
+    }
   ]
 }

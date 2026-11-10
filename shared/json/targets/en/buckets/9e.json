@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "9e",
+  "concepts": {
+    "en.accommodation_how_much_per_night": {
+      "conceptId": "en.accommodation_how_much_per_night",
+      "id": "accommodation_how_much_per_night",
+      "target": [
+        {
+          "text": "How much is it per night?",
+          "audioSlug": "how_much_is_it_per_night"
+        }
+      ]
+    },
+    "en.greetings_it_was_lovely_to_meet_you": {
+      "conceptId": "en.greetings_it_was_lovely_to_meet_you",
+      "id": "greetings_it_was_lovely_to_meet_you",
+      "target": [
+        {
+          "text": "It was lovely to meet you.",
+          "audioSlug": "it_was_lovely_to_meet_you",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "It was nice to meet you.",
+          "audioSlug": "it_was_nice_to_meet_you",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.greetings_we_should_do_this_again_sometime": {
+      "conceptId": "en.greetings_we_should_do_this_again_sometime",
+      "id": "greetings_we_should_do_this_again_sometime",
+      "target": [
+        {
+          "text": "We should do this again sometime.",
+          "audioSlug": "we_should_do_this_again_sometime"
+        }
+      ]
+    },
+    "en.music_podcast_recommendation": {
+      "conceptId": "en.music_podcast_recommendation",
+      "id": "music_podcast_recommendation",
+      "target": [
+        {
+          "text": "Can you recommend a podcast to listen to?",
+          "audioSlug": "can_you_recommend_a_podcast_to_listen_to"
+        }
+      ]
+    },
+    "en.oficina_he_works_in_industry": {
+      "conceptId": "en.oficina_he_works_in_industry",
+      "id": "oficina_he_works_in_industry",
+      "target": [
+        {
+          "text": "He works in industry.",
+          "audioSlug": "he_works_in_industry"
+        }
+      ]
+    },
+    "en.restaurant_do_you_offer_any_discounts_for": {
+      "conceptId": "en.restaurant_do_you_offer_any_discounts_for",
+      "id": "restaurant_do_you_offer_any_discounts_for",
+      "target": [
+        {
+          "text": "Do you offer any discounts for large groups?",
+          "audioSlug": "do_you_offer_any_discounts_for_large_groups"
+        }
+      ]
+    },
+    "en.restaurant_wine_acidity_fish_pairing": {
+      "conceptId": "en.restaurant_wine_acidity_fish_pairing",
+      "id": "restaurant_wine_acidity_fish_pairing",
+      "target": [
+        {
+          "text": "Could you describe the wine's profile? I want good acidity to pair with the fish.",
+          "audioSlug": "could_you_describe_the_wine_s_profile_i_want_good_acidity_to_pair_with_the_fish"
+        }
+      ]
+    },
+    "en.technology_my_privacy_settings_dont_seem": {
+      "conceptId": "en.technology_my_privacy_settings_dont_seem",
+      "id": "technology_my_privacy_settings_dont_seem",
+      "target": [
+        {
+          "text": "My privacy settings don't seem to be working. My location is still being tracked.",
+          "audioSlug": "my_privacy_settings_don_t_seem_to_be_working_my_location_is_still_being_tracked"
+        }
+      ]
+    },
+    "en.technology_wait_my_computer_is_updating": {
+      "conceptId": "en.technology_wait_my_computer_is_updating",
+      "id": "technology_wait_my_computer_is_updating",
+      "target": [
+        {
+          "text": "Wait, my computer is updating.",
+          "audioSlug": "wait_my_computer_is_updating"
+        }
+      ]
+    }
+  }
+}

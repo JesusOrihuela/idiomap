@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "b7",
+  "concepts": {
+    "es.deportes_me_gusta_nadar": {
+      "conceptId": "es.deportes_me_gusta_nadar",
+      "id": "deportes_me_gusta_nadar",
+      "target": [
+        {
+          "text": "Me gusta nadar.",
+          "audioSlug": "me_gusta_nadar"
+        }
+      ]
+    },
+    "es.descripciones_el_gato_es_gris": {
+      "conceptId": "es.descripciones_el_gato_es_gris",
+      "id": "descripciones_el_gato_es_gris",
+      "target": [
+        {
+          "text": "El gato es gris.",
+          "audioSlug": "el_gato_es_gris"
+        }
+      ]
+    },
+    "es.directions_donde_esta_la_salida": {
+      "conceptId": "es.directions_donde_esta_la_salida",
+      "id": "directions_donde_esta_la_salida",
+      "target": [
+        {
+          "text": "¿Dónde está la salida?",
+          "audioSlug": "donde_esta_la_salida"
+        }
+      ]
+    },
+    "es.estudios_complete_el_ejercicio_a_tiempo": {
+      "conceptId": "es.estudios_complete_el_ejercicio_a_tiempo",
+      "id": "estudios_complete_el_ejercicio_a_tiempo",
+      "target": [
+        {
+          "text": "Completé el ejercicio a tiempo.",
+          "audioSlug": "complete_el_ejercicio_a_tiempo"
+        }
+      ]
+    },
+    "es.greetings_como_estas_hoy": {
+      "conceptId": "es.greetings_como_estas_hoy",
+      "id": "greetings_como_estas_hoy",
+      "target": [
+        {
+          "text": "¿Cómo estás hoy?",
+          "audioSlug": "como_estas_hoy",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cómo está hoy?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "como_esta_hoy"
+        }
+      ]
+    },
+    "es.greetings_hi_there_hope_youre_having_a": {
+      "conceptId": "es.greetings_hi_there_hope_youre_having_a",
+      "id": "greetings_hi_there_hope_youre_having_a",
+      "target": [
+        {
+          "text": "Hola, espero que tengas un buen día.",
+          "audioSlug": "hola_espero_que_tengas_un_buen_dia"
+        }
+      ]
+    },
+    "es.health_i_feel_much_better_today": {
+      "conceptId": "es.health_i_feel_much_better_today",
+      "id": "health_i_feel_much_better_today",
+      "target": [
+        {
+          "text": "Me siento mucho mejor hoy.",
+          "audioSlug": "me_siento_mucho_mejor_hoy"
+        }
+      ]
+    },
+    "es.health_the_doctor_says_im_fine": {
+      "conceptId": "es.health_the_doctor_says_im_fine",
+      "id": "health_the_doctor_says_im_fine",
+      "target": [
+        {
+          "text": "El doctor dice que estoy bien.",
+          "audioSlug": "el_doctor_dice_que_estoy_bien"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_la_libertad_es_un_valor_importante": {
+      "conceptId": "es.pensamientos_opiniones_la_libertad_es_un_valor_importante",
+      "id": "pensamientos_opiniones_la_libertad_es_un_valor_importante",
+      "target": [
+        {
+          "text": "La libertad es un valor importante.",
+          "audioSlug": "la_libertad_es_un_valor_importante"
+        }
+      ]
+    },
+    "es.profesiones_ella_es_enfermera": {
+      "conceptId": "es.profesiones_ella_es_enfermera",
+      "id": "profesiones_ella_es_enfermera",
+      "target": [
+        {
+          "text": "Ella es enfermera.",
+          "audioSlug": "ella_es_enfermera"
+        }
+      ]
+    },
+    "es.sitios_necesito_espacio": {
+      "conceptId": "es.sitios_necesito_espacio",
+      "id": "sitios_necesito_espacio",
+      "target": [
+        {
+          "text": "Necesito espacio.",
+          "audioSlug": "necesito_espacio"
+        }
+      ]
+    },
+    "es.supermarket_compra_un_yogur_natural": {
+      "conceptId": "es.supermarket_compra_un_yogur_natural",
+      "id": "supermarket_compra_un_yogur_natural",
+      "target": [
+        {
+          "text": "Compra un yogur natural.",
+          "audioSlug": "compra_un_yogur_natural"
+        }
+      ]
+    },
+    "es.technology_la_red_social_es_muy_popular": {
+      "conceptId": "es.technology_la_red_social_es_muy_popular",
+      "id": "technology_la_red_social_es_muy_popular",
+      "target": [
+        {
+          "text": "La red social es muy popular.",
+          "audioSlug": "la_red_social_es_muy_popular"
+        }
+      ]
+    },
+    "es.technology_the_router_needs_to_be_placed": {
+      "conceptId": "es.technology_the_router_needs_to_be_placed",
+      "id": "technology_the_router_needs_to_be_placed",
+      "target": [
+        {
+          "text": "El router debe estar en un lugar central para dar buena cobertura en casa.",
+          "audioSlug": "el_router_debe_estar_en_un_lugar_central_para_dar_buena_cobertura_en_casa"
+        }
+      ]
+    },
+    "es.weather_bad_weather": {
+      "conceptId": "es.weather_bad_weather",
+      "id": "weather_bad_weather",
+      "target": [
+        {
+          "text": "Hace mal tiempo.",
+          "audioSlug": "hace_mal_tiempo"
+        }
+      ]
+    }
+  }
+}

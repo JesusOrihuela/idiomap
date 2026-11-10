@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "ad",
+  "concepts": {
+    "es.accommodation_accessible_level_access": {
+      "conceptId": "es.accommodation_accessible_level_access",
+      "id": "accommodation_accessible_level_access",
+      "target": [
+        {
+          "text": "Necesito una habitación totalmente adaptada, ¿podría confirmar cuáles tienen acceso sin barreras?",
+          "audioSlug": "necesito_una_habitacion_totalmente_adaptada_podria_confirmar_cuales_tienen_acceso_sin_barreras"
+        }
+      ]
+    },
+    "es.accommodation_quiero_una_habitacion_doble": {
+      "conceptId": "es.accommodation_quiero_una_habitacion_doble",
+      "id": "accommodation_quiero_una_habitacion_doble",
+      "target": [
+        {
+          "text": "Quiero una habitación doble.",
+          "audioSlug": "quiero_una_habitacion_doble"
+        }
+      ]
+    },
+    "es.airport_how_early_arrive": {
+      "conceptId": "es.airport_how_early_arrive",
+      "id": "airport_how_early_arrive",
+      "target": [
+        {
+          "text": "¿Cuánto tiempo antes debo llegar al aeropuerto?",
+          "audioSlug": "cuanto_tiempo_antes_debo_llegar_al_aeropuerto"
+        }
+      ]
+    },
+    "es.daily_routine_voy_a_estudiar_esta_noche": {
+      "conceptId": "es.daily_routine_voy_a_estudiar_esta_noche",
+      "id": "daily_routine_voy_a_estudiar_esta_noche",
+      "target": [
+        {
+          "text": "Voy a estudiar esta noche.",
+          "audioSlug": "voy_a_estudiar_esta_noche"
+        }
+      ]
+    },
+    "es.descripciones_siempre_es_honesto_con_todos": {
+      "conceptId": "es.descripciones_siempre_es_honesto_con_todos",
+      "id": "descripciones_siempre_es_honesto_con_todos",
+      "target": [
+        {
+          "text": "Siempre es honesto con todos.",
+          "audioSlug": "siempre_es_honesto_con_todos"
+        }
+      ]
+    },
+    "es.family_my_kids_go_to_the_same_school": {
+      "conceptId": "es.family_my_kids_go_to_the_same_school",
+      "id": "family_my_kids_go_to_the_same_school",
+      "target": [
+        {
+          "text": "Mis hijos van a la misma escuela.",
+          "audioSlug": "mis_hijos_van_a_la_misma_escuela"
+        }
+      ]
+    },
+    "es.greetings_pleasure_meeting_follow_up": {
+      "conceptId": "es.greetings_pleasure_meeting_follow_up",
+      "id": "greetings_pleasure_meeting_follow_up",
+      "target": [
+        {
+          "text": "Fue un placer conocerle y le enviaré un correo con los detalles.",
+          "audioSlug": "fue_un_placer_conocerle_y_le_enviare_un_correo_con_los_detalles"
+        }
+      ]
+    },
+    "es.kitchen_pass_me_the_salt_from_the": {
+      "conceptId": "es.kitchen_pass_me_the_salt_from_the",
+      "id": "kitchen_pass_me_the_salt_from_the",
+      "target": [
+        {
+          "text": "Pásame la sal de la despensa.",
+          "audioSlug": "pasame_la_sal_de_la_despensa"
+        }
+      ]
+    },
+    "es.tiempo_libre_el_escritor_firma_su_nuevo_libro": {
+      "conceptId": "es.tiempo_libre_el_escritor_firma_su_nuevo_libro",
+      "id": "tiempo_libre_el_escritor_firma_su_nuevo_libro",
+      "target": [
+        {
+          "text": "La escritora firma su nuevo libro.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Schriftstellerin signiert ihr neues Buch.",
+          "audioSlug": "la_escritora_firma_su_nuevo_libro"
+        },
+        {
+          "text": "El escritor firma su nuevo libro.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Schriftsteller signiert sein neues Buch.",
+          "audioSlug": "el_escritor_firma_su_nuevo_libro"
+        }
+      ]
+    },
+    "es.transportation_este_tren_para_en_todas_las_estaciones": {
+      "conceptId": "es.transportation_este_tren_para_en_todas_las_estaciones",
+      "id": "transportation_este_tren_para_en_todas_las_estaciones",
+      "target": [
+        {
+          "text": "¿Este tren para en todas las estaciones?",
+          "audioSlug": "este_tren_para_en_todas_las_estaciones"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "04",
+  "concepts": {
+    "es.airport_pasa_por_el_control_de_seguridad": {
+      "conceptId": "es.airport_pasa_por_el_control_de_seguridad",
+      "id": "airport_pasa_por_el_control_de_seguridad",
+      "target": [
+        {
+          "text": "Pasa por el control de seguridad.",
+          "audioSlug": "pasa_por_el_control_de_seguridad"
+        }
+      ]
+    },
+    "es.daily_routine_i_have_breakfast_at_eight": {
+      "conceptId": "es.daily_routine_i_have_breakfast_at_eight",
+      "id": "daily_routine_i_have_breakfast_at_eight",
+      "target": [
+        {
+          "text": "Desayuno a las ocho.",
+          "audioSlug": "desayuno_a_las_ocho"
+        }
+      ]
+    },
+    "es.describiendo_personas_mi_vecino_es_muy_simpatico": {
+      "conceptId": "es.describiendo_personas_mi_vecino_es_muy_simpatico",
+      "id": "describiendo_personas_mi_vecino_es_muy_simpatico",
+      "target": [
+        {
+          "text": "Mi vecino es muy simpático.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "mi_vecino_es_muy_simpatico"
+        },
+        {
+          "text": "Mi vecina es muy simpática.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "mi_vecina_es_muy_simpatica"
+        }
+      ]
+    },
+    "es.descripciones_es_una_historia_triste": {
+      "conceptId": "es.descripciones_es_una_historia_triste",
+      "id": "descripciones_es_una_historia_triste",
+      "target": [
+        {
+          "text": "Es una historia muy triste.",
+          "audioSlug": "es_una_historia_muy_triste"
+        }
+      ]
+    },
+    "es.directions_how_far": {
+      "conceptId": "es.directions_how_far",
+      "id": "directions_how_far",
+      "target": [
+        {
+          "text": "¿A qué distancia está?",
+          "audioSlug": "a_que_distancia_esta"
+        }
+      ]
+    },
+    "es.emociones_im_bored": {
+      "conceptId": "es.emociones_im_bored",
+      "id": "emociones_im_bored",
+      "target": [
+        {
+          "text": "Estoy aburrida.",
+          "audioSlug": "estoy_aburrida",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy aburrido.",
+          "audioSlug": "estoy_aburrido",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_el_sistema_no_siempre_funciona": {
+      "conceptId": "es.pensamientos_opiniones_el_sistema_no_siempre_funciona",
+      "id": "pensamientos_opiniones_el_sistema_no_siempre_funciona",
+      "target": [
+        {
+          "text": "El sistema no siempre funciona bien.",
+          "audioSlug": "el_sistema_no_siempre_funciona_bien"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_i_think_its_a_good_idea": {
+      "conceptId": "es.pensamientos_opiniones_i_think_its_a_good_idea",
+      "id": "pensamientos_opiniones_i_think_its_a_good_idea",
+      "target": [
+        {
+          "text": "Pienso que es una buena idea.",
+          "audioSlug": "pienso_que_es_una_buena_idea"
+        }
+      ]
+    },
+    "es.sitios_hay_un_parque_cerca_de_mi_casa": {
+      "conceptId": "es.sitios_hay_un_parque_cerca_de_mi_casa",
+      "id": "sitios_hay_un_parque_cerca_de_mi_casa",
+      "target": [
+        {
+          "text": "Hay un parque cerca de mi casa.",
+          "audioSlug": "hay_un_parque_cerca_de_mi_casa"
+        }
+      ]
+    },
+    "es.sitios_mi_familia_vive_en_las_afueras": {
+      "conceptId": "es.sitios_mi_familia_vive_en_las_afueras",
+      "id": "sitios_mi_familia_vive_en_las_afueras",
+      "target": [
+        {
+          "text": "Mi familia vive en las afueras.",
+          "audioSlug": "mi_familia_vive_en_las_afueras"
+        }
+      ]
+    },
+    "es.technology_you_should_look_it_up_on": {
+      "conceptId": "es.technology_you_should_look_it_up_on",
+      "id": "technology_you_should_look_it_up_on",
+      "target": [
+        {
+          "text": "Deberías buscarlo en internet, seguro encuentras la respuesta.",
+          "audioSlug": "deberias_buscarlo_en_internet_seguro_encuentras_la_respuesta"
+        }
+      ]
+    },
+    "es.tiempo_libre_que_haces_los_domingos": {
+      "conceptId": "es.tiempo_libre_que_haces_los_domingos",
+      "id": "tiempo_libre_que_haces_los_domingos",
+      "target": [
+        {
+          "text": "¿Qué haces los domingos?",
+          "audioSlug": "que_haces_los_domingos"
+        }
+      ]
+    }
+  }
+}

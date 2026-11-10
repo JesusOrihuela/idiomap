@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "1d",
+  "concepts": {
+    "es.accountability_over_budget": {
+      "conceptId": "es.accountability_over_budget",
+      "id": "accountability_over_budget",
+      "target": [
+        {
+          "text": "Nos pasamos del presupuesto.",
+          "audioSlug": "nos_pasamos_del_presupuesto"
+        }
+      ]
+    },
+    "es.directions_camina_hacia_la_plaza": {
+      "conceptId": "es.directions_camina_hacia_la_plaza",
+      "id": "directions_camina_hacia_la_plaza",
+      "target": [
+        {
+          "text": "Camina hacia la plaza.",
+          "audioSlug": "camina_hacia_la_plaza"
+        }
+      ]
+    },
+    "es.estudios_marca_la_respuesta_con_una_cruz": {
+      "conceptId": "es.estudios_marca_la_respuesta_con_una_cruz",
+      "id": "estudios_marca_la_respuesta_con_una_cruz",
+      "target": [
+        {
+          "text": "Marca la respuesta con una cruz.",
+          "audioSlug": "marca_la_respuesta_con_una_cruz"
+        }
+      ]
+    },
+    "es.personal_info_vengo_de_un_pais_lejano": {
+      "conceptId": "es.personal_info_vengo_de_un_pais_lejano",
+      "id": "personal_info_vengo_de_un_pais_lejano",
+      "target": [
+        {
+          "text": "Vengo de un país lejano.",
+          "audioSlug": "vengo_de_un_pais_lejano"
+        }
+      ]
+    },
+    "es.restaurant_could_you_please_pack_the_leftovers": {
+      "conceptId": "es.restaurant_could_you_please_pack_the_leftovers",
+      "id": "restaurant_could_you_please_pack_the_leftovers",
+      "target": [
+        {
+          "text": "¿Podría envasar las sobras en recipientes separados?",
+          "audioSlug": "podria_envasar_las_sobras_en_recipientes_separados"
+        }
+      ]
+    },
+    "es.technology_me_gusta_navegar_por_internet": {
+      "conceptId": "es.technology_me_gusta_navegar_por_internet",
+      "id": "technology_me_gusta_navegar_por_internet",
+      "target": [
+        {
+          "text": "Me gusta navegar por internet.",
+          "audioSlug": "me_gusta_navegar_por_internet"
+        }
+      ]
+    },
+    "es.vestimenta_guardo_los_calzoncillos": {
+      "conceptId": "es.vestimenta_guardo_los_calzoncillos",
+      "id": "vestimenta_guardo_los_calzoncillos",
+      "target": [
+        {
+          "text": "Guardo los calzoncillos en el cajón.",
+          "audioSlug": "guardo_los_calzoncillos_en_el_cajon"
+        }
+      ]
+    },
+    "es.weather_nice_today": {
+      "conceptId": "es.weather_nice_today",
+      "id": "weather_nice_today",
+      "target": [
+        {
+          "text": "Hoy hace buen tiempo.",
+          "audioSlug": "hoy_hace_buen_tiempo"
+        }
+      ]
+    }
+  }
+}

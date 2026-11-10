@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "6a",
+  "concepts": {
+    "en.kitchen_make_day_ahead_flavors_meld": {
+      "conceptId": "en.kitchen_make_day_ahead_flavors_meld",
+      "id": "kitchen_make_day_ahead_flavors_meld",
+      "target": [
+        {
+          "text": "This dish benefits from being made ahead, as the flavors meld overnight.",
+          "audioSlug": "this_dish_benefits_from_being_made_ahead_as_the_flavors_meld_overnight"
+        }
+      ]
+    },
+    "en.planes_dont_force_it": {
+      "conceptId": "en.planes_dont_force_it",
+      "id": "planes_dont_force_it",
+      "target": [
+        {
+          "text": "Don't force it.",
+          "audioSlug": "don_t_force_it"
+        }
+      ]
+    },
+    "en.profesiones_he_is_a_hard_worker": {
+      "conceptId": "en.profesiones_he_is_a_hard_worker",
+      "id": "profesiones_he_is_a_hard_worker",
+      "target": [
+        {
+          "text": "He is a hard worker.",
+          "audioSlug": "he_is_a_hard_worker"
+        }
+      ]
+    },
+    "en.restaurant_could_you_please_pack_the_leftovers": {
+      "conceptId": "en.restaurant_could_you_please_pack_the_leftovers",
+      "id": "restaurant_could_you_please_pack_the_leftovers",
+      "target": [
+        {
+          "text": "Could you please pack the leftovers in separate containers?",
+          "audioSlug": "could_you_please_pack_the_leftovers_in_separate_containers",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you please pack the leftovers in separate containers?",
+          "audioSlug": "can_you_please_pack_the_leftovers_in_separate_containers",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.restaurant_could_you_turn_down_the_music": {
+      "conceptId": "en.restaurant_could_you_turn_down_the_music",
+      "id": "restaurant_could_you_turn_down_the_music",
+      "target": [
+        {
+          "text": "Could you turn down the music a bit, please?",
+          "audioSlug": "could_you_turn_down_the_music_a_bit_please",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you turn down the music a bit, please?",
+          "audioSlug": "can_you_turn_down_the_music_a_bit_please",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.transportation_stop_here_please": {
+      "conceptId": "en.transportation_stop_here_please",
+      "id": "transportation_stop_here_please",
+      "target": [
+        {
+          "text": "Stop here, please.",
+          "audioSlug": "stop_here_please"
+        }
+      ]
+    }
+  }
+}

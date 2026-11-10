@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "2a",
+  "concepts": {
+    "es.accountability_earnings_per_share_basic_diluted_disclosure": {
+      "conceptId": "es.accountability_earnings_per_share_basic_diluted_disclosure",
+      "id": "accountability_earnings_per_share_basic_diluted_disclosure",
+      "target": [
+        {
+          "text": "Las ganancias por acción deben reportarse en cifras básicas y diluidas.",
+          "audioSlug": "las_ganancias_por_accion_deben_reportarse_en_cifras_basicas_y_diluidas"
+        }
+      ]
+    },
+    "es.conversacion_es_bueno_reconocer_los_errores": {
+      "conceptId": "es.conversacion_es_bueno_reconocer_los_errores",
+      "id": "conversacion_es_bueno_reconocer_los_errores",
+      "target": [
+        {
+          "text": "Es bueno reconocer los errores.",
+          "audioSlug": "es_bueno_reconocer_los_errores"
+        }
+      ]
+    },
+    "es.descripciones_es_una_historia_verdadera": {
+      "conceptId": "es.descripciones_es_una_historia_verdadera",
+      "id": "descripciones_es_una_historia_verdadera",
+      "target": [
+        {
+          "text": "Es una historia verdadera.",
+          "audioSlug": "es_una_historia_verdadera"
+        }
+      ]
+    },
+    "es.estudios_el_profesor_explica_la_leccion": {
+      "conceptId": "es.estudios_el_profesor_explica_la_leccion",
+      "id": "estudios_el_profesor_explica_la_leccion",
+      "target": [
+        {
+          "text": "El profesor explica la lección.",
+          "audioSlug": "el_profesor_explica_la_leccion"
+        }
+      ]
+    },
+    "es.gym_is_there_a_personal_trainer_available": {
+      "conceptId": "es.gym_is_there_a_personal_trainer_available",
+      "id": "gym_is_there_a_personal_trainer_available",
+      "target": [
+        {
+          "text": "¿Hay algún entrenador personal disponible?",
+          "audioSlug": "hay_algun_entrenador_personal_disponible",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Hay alguna entrenadora personal disponible?",
+          "audioSlug": "hay_alguna_entrenadora_personal_disponible",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.health_me_entro_algo_en_el_ojo": {
+      "conceptId": "es.health_me_entro_algo_en_el_ojo",
+      "id": "health_me_entro_algo_en_el_ojo",
+      "target": [
+        {
+          "text": "Me entró algo en el ojo.",
+          "audioSlug": "me_entro_algo_en_el_ojo"
+        }
+      ]
+    }
+  }
+}

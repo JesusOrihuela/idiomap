@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "71",
+  "concepts": {
+    "en.accommodation_extend_stay_price": {
+      "conceptId": "en.accommodation_extend_stay_price",
+      "id": "accommodation_extend_stay_price",
+      "target": [
+        {
+          "text": "What is the extra charge to extend my stay one night?",
+          "audioSlug": "what_is_the_extra_charge_to_extend_my_stay_one_night"
+        }
+      ]
+    },
+    "en.conversacion_can_you_define_it": {
+      "conceptId": "en.conversacion_can_you_define_it",
+      "id": "conversacion_can_you_define_it",
+      "target": [
+        {
+          "text": "Can you define it?",
+          "audioSlug": "can_you_define_it"
+        }
+      ]
+    },
+    "en.deportes_i_want_to_join_the_team": {
+      "conceptId": "en.deportes_i_want_to_join_the_team",
+      "id": "deportes_i_want_to_join_the_team",
+      "target": [
+        {
+          "text": "I want to join the team.",
+          "audioSlug": "i_want_to_join_the_team"
+        }
+      ]
+    },
+    "en.greetings_convey_delegation_graciously_received": {
+      "conceptId": "en.greetings_convey_delegation_graciously_received",
+      "id": "greetings_convey_delegation_graciously_received",
+      "target": [
+        {
+          "text": "On behalf of the delegation, allow me to convey how delighted we are by this reception.",
+          "audioSlug": "on_behalf_of_the_delegation_allow_me_to_convey_how_delighted_we_are_by_this_reception"
+        }
+      ]
+    },
+    "en.greetings_see_you_on_friday": {
+      "conceptId": "en.greetings_see_you_on_friday",
+      "id": "greetings_see_you_on_friday",
+      "target": [
+        {
+          "text": "See you on Friday.",
+          "audioSlug": "see_you_on_friday"
+        }
+      ]
+    },
+    "en.kitchen_baking_soda_will_help_the_dough": {
+      "conceptId": "en.kitchen_baking_soda_will_help_the_dough",
+      "id": "kitchen_baking_soda_will_help_the_dough",
+      "target": [
+        {
+          "text": "Baking soda will help the dough rise.",
+          "audioSlug": "baking_soda_will_help_the_dough_rise"
+        }
+      ]
+    },
+    "en.kitchen_can_you_check_if_the_oven": {
+      "conceptId": "en.kitchen_can_you_check_if_the_oven",
+      "id": "kitchen_can_you_check_if_the_oven",
+      "target": [
+        {
+          "text": "Can you check if the oven is preheated?",
+          "audioSlug": "can_you_check_if_the_oven_is_preheated"
+        }
+      ]
+    },
+    "en.kitchen_caramelized_onions_deglaze_balsamic": {
+      "conceptId": "en.kitchen_caramelized_onions_deglaze_balsamic",
+      "id": "kitchen_caramelized_onions_deglaze_balsamic",
+      "target": [
+        {
+          "text": "Caramelize the onions and deglaze with balsamic vinegar for depth.",
+          "audioSlug": "caramelize_the_onions_and_deglaze_with_balsamic_vinegar_for_depth"
+        }
+      ]
+    },
+    "en.kitchen_flan_bake_bain_marie": {
+      "conceptId": "en.kitchen_flan_bake_bain_marie",
+      "id": "kitchen_flan_bake_bain_marie",
+      "target": [
+        {
+          "text": "Flan must be baked in a water bath inside the oven.",
+          "audioSlug": "flan_must_be_baked_in_a_water_bath_inside_the_oven"
+        }
+      ]
+    },
+    "en.personal_info_i_was_born_in": {
+      "conceptId": "en.personal_info_i_was_born_in",
+      "id": "personal_info_i_was_born_in",
+      "target": [
+        {
+          "text": "I was born in Argentina.",
+          "audioSlug": "i_was_born_in_argentina"
+        }
+      ]
+    },
+    "en.restaurant_could_i_order_a_side_of": {
+      "conceptId": "en.restaurant_could_i_order_a_side_of",
+      "id": "restaurant_could_i_order_a_side_of",
+      "target": [
+        {
+          "text": "Could I order a side of fries with my meal?",
+          "audioSlug": "could_i_order_a_side_of_fries_with_my_meal",
+          "labels": {
+            "register": "formal",
+            "region": "US"
+          }
+        },
+        {
+          "text": "Can I order a side of fries with my meal?",
+          "audioSlug": "can_i_order_a_side_of_fries_with_my_meal",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Could I order a side of chips with my meal?",
+          "audioSlug": "could_i_order_a_side_of_chips_with_my_meal",
+          "labels": {
+            "region": "UK"
+          }
+        }
+      ]
+    },
+    "en.survival_how_do_you_say": {
+      "conceptId": "en.survival_how_do_you_say",
+      "id": "survival_how_do_you_say",
+      "target": [
+        {
+          "text": "How do you say this in Spanish?",
+          "audioSlug": "how_do_you_say_this_in_spanish"
+        }
+      ]
+    }
+  }
+}

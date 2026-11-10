@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "3e",
+  "concepts": {
+    "en.daily_routine_i_wake_up_early": {
+      "conceptId": "en.daily_routine_i_wake_up_early",
+      "id": "daily_routine_i_wake_up_early",
+      "target": [
+        {
+          "text": "I wake up early.",
+          "audioSlug": "i_wake_up_early"
+        }
+      ]
+    },
+    "en.directions_can_you_show_map": {
+      "conceptId": "en.directions_can_you_show_map",
+      "id": "directions_can_you_show_map",
+      "target": [
+        {
+          "text": "Can you show me on the map?",
+          "audioSlug": "can_you_show_me_on_the_map"
+        }
+      ]
+    },
+    "en.gym_macronutrients_protein_training_load": {
+      "conceptId": "en.gym_macronutrients_protein_training_load",
+      "id": "gym_macronutrients_protein_training_load",
+      "target": [
+        {
+          "text": "I adjust my protein intake based on the training load.",
+          "audioSlug": "i_adjust_my_protein_intake_based_on_the_training_load"
+        }
+      ]
+    },
+    "en.kitchen_i_prefer_to_use_the_electric": {
+      "conceptId": "en.kitchen_i_prefer_to_use_the_electric",
+      "id": "kitchen_i_prefer_to_use_the_electric",
+      "target": [
+        {
+          "text": "I prefer the electric oven over the microwave.",
+          "audioSlug": "i_prefer_the_electric_oven_over_the_microwave"
+        }
+      ]
+    },
+    "en.kitchen_to_make_flan_you_have_to": {
+      "conceptId": "en.kitchen_to_make_flan_you_have_to",
+      "id": "kitchen_to_make_flan_you_have_to",
+      "target": [
+        {
+          "text": "To make flan, you have to caramelize the sugar.",
+          "audioSlug": "to_make_flan_you_have_to_caramelize_the_sugar"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_these_flowers_are_natural": {
+      "conceptId": "en.naturaleza_lugares_these_flowers_are_natural",
+      "id": "naturaleza_lugares_these_flowers_are_natural",
+      "target": [
+        {
+          "text": "These flowers are natural.",
+          "audioSlug": "these_flowers_are_natural"
+        }
+      ]
+    },
+    "en.personal_info_i_work_at_a_tech_company": {
+      "conceptId": "en.personal_info_i_work_at_a_tech_company",
+      "id": "personal_info_i_work_at_a_tech_company",
+      "target": [
+        {
+          "text": "I work at a technology company.",
+          "audioSlug": "i_work_at_a_technology_company"
+        }
+      ]
+    },
+    "en.politica_i_m_going_to_vote_tomorrow": {
+      "conceptId": "en.politica_i_m_going_to_vote_tomorrow",
+      "id": "politica_i_m_going_to_vote_tomorrow",
+      "target": [
+        {
+          "text": "I'm going to vote tomorrow.",
+          "audioSlug": "i_m_going_to_vote_tomorrow"
+        }
+      ]
+    }
+  }
+}

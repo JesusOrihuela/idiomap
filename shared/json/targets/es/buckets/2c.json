@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "2c",
+  "concepts": {
+    "es.daily_routine_always_busy_afternoon": {
+      "conceptId": "es.daily_routine_always_busy_afternoon",
+      "id": "daily_routine_always_busy_afternoon",
+      "target": [
+        {
+          "text": "Siempre estoy ocupada por la tarde.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "siempre_estoy_ocupada_por_la_tarde"
+        },
+        {
+          "text": "Siempre estoy ocupado por la tarde.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "siempre_estoy_ocupado_por_la_tarde"
+        }
+      ]
+    },
+    "es.descripciones_el_sol_es_amarillo": {
+      "conceptId": "es.descripciones_el_sol_es_amarillo",
+      "id": "descripciones_el_sol_es_amarillo",
+      "target": [
+        {
+          "text": "El sol es amarillo.",
+          "audioSlug": "el_sol_es_amarillo"
+        }
+      ]
+    },
+    "es.hogar_la_leche_esta_en_la_nevera": {
+      "conceptId": "es.hogar_la_leche_esta_en_la_nevera",
+      "id": "hogar_la_leche_esta_en_la_nevera",
+      "target": [
+        {
+          "text": "La leche está en la nevera.",
+          "audioSlug": "la_leche_esta_en_la_nevera"
+        }
+      ]
+    },
+    "es.kitchen_boil_the_pasta_in_hot_water": {
+      "conceptId": "es.kitchen_boil_the_pasta_in_hot_water",
+      "id": "kitchen_boil_the_pasta_in_hot_water",
+      "target": [
+        {
+          "text": "La pasta se cuece en agua hirviendo.",
+          "audioSlug": "la_pasta_se_cuece_en_agua_hirviendo"
+        }
+      ]
+    },
+    "es.politica_vamos_a_luchar": {
+      "conceptId": "es.politica_vamos_a_luchar",
+      "id": "politica_vamos_a_luchar",
+      "target": [
+        {
+          "text": "Vamos a luchar.",
+          "audioSlug": "vamos_a_luchar"
+        }
+      ]
+    }
+  }
+}

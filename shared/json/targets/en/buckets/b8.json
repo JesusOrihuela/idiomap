@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "b8",
+  "concepts": {
+    "en.accountability_the_inventory_needs_to_be_updated": {
+      "conceptId": "en.accountability_the_inventory_needs_to_be_updated",
+      "id": "accountability_the_inventory_needs_to_be_updated",
+      "target": [
+        {
+          "text": "The inventory needs to be updated.",
+          "audioSlug": "the_inventory_needs_to_be_updated"
+        }
+      ]
+    },
+    "en.animales_birds_fly_south": {
+      "conceptId": "en.animales_birds_fly_south",
+      "id": "animales_birds_fly_south",
+      "target": [
+        {
+          "text": "Birds fly south in winter.",
+          "audioSlug": "birds_fly_south_in_winter"
+        }
+      ]
+    },
+    "en.cotidianidad_have_dinner_at_seven": {
+      "conceptId": "en.cotidianidad_have_dinner_at_seven",
+      "id": "cotidianidad_have_dinner_at_seven",
+      "target": [
+        {
+          "text": "We have dinner at seven.",
+          "audioSlug": "we_have_dinner_at_seven"
+        }
+      ]
+    },
+    "en.directions_we_walked_in_that_direction": {
+      "conceptId": "en.directions_we_walked_in_that_direction",
+      "id": "directions_we_walked_in_that_direction",
+      "target": [
+        {
+          "text": "We walked in that direction.",
+          "audioSlug": "we_walked_in_that_direction"
+        }
+      ]
+    },
+    "en.economia_we_have_free_trade": {
+      "conceptId": "en.economia_we_have_free_trade",
+      "id": "economia_we_have_free_trade",
+      "target": [
+        {
+          "text": "We have free trade.",
+          "audioSlug": "we_have_free_trade"
+        }
+      ]
+    },
+    "en.greetings_hello_how_have_you_been_lately": {
+      "conceptId": "en.greetings_hello_how_have_you_been_lately",
+      "id": "greetings_hello_how_have_you_been_lately",
+      "target": [
+        {
+          "text": "Hello, how have you been lately?",
+          "audioSlug": "hello_how_have_you_been_lately",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Hi, how have you been lately?",
+          "audioSlug": "hi_how_have_you_been_lately",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.gym_today_is_leg_day": {
+      "conceptId": "en.gym_today_is_leg_day",
+      "id": "gym_today_is_leg_day",
+      "target": [
+        {
+          "text": "Today is leg day.",
+          "audioSlug": "today_is_leg_day"
+        }
+      ]
+    },
+    "en.kitchen_steam_the_vegetables": {
+      "conceptId": "en.kitchen_steam_the_vegetables",
+      "id": "kitchen_steam_the_vegetables",
+      "target": [
+        {
+          "text": "Steam the vegetables.",
+          "audioSlug": "steam_the_vegetables"
+        }
+      ]
+    },
+    "en.kitchen_the_coffee_maker_is_on_the": {
+      "conceptId": "en.kitchen_the_coffee_maker_is_on_the",
+      "id": "kitchen_the_coffee_maker_is_on_the",
+      "target": [
+        {
+          "text": "The coffee maker is on the shelf.",
+          "audioSlug": "the_coffee_maker_is_on_the_shelf"
+        }
+      ]
+    },
+    "en.theater_set_design_bleak_story": {
+      "conceptId": "en.theater_set_design_bleak_story",
+      "id": "theater_set_design_bleak_story",
+      "target": [
+        {
+          "text": "The set design was intentionally sparse, perfectly matching the bleakness of the story.",
+          "audioSlug": "the_set_design_was_intentionally_sparse_perfectly_matching_the_bleakness_of_the_story"
+        }
+      ]
+    }
+  }
+}

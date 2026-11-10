@@ -486,8 +486,7 @@
   gap: var(--space-1);
   position: relative;
   min-width: 0;
-  /* Pill zone above the bubble: reserved on every step, so all bubbles line up
-     even when only the first step of a topic shows its pill. */
+  /* Pill zone above the bubble: every step paints its topic pill. */
   padding-top: var(--space-8);
   /* One compact badge row below the label; static so it never overlaps. */
   padding-bottom: var(--space-2);
@@ -583,11 +582,12 @@
   font-size: var(--text-label);
   font-weight: var(--weight-medium);
   line-height: var(--text-label-leading);
-  color: var(--color-action-on-subtle);
-  background: var(--color-action-subtle);
-  border: 1px solid transparent;
+  /* Misma capsula neutra que la ruta de Mi Ruta. */
+  color: var(--color-text-muted);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
-  padding: 2px var(--space-1);
+  padding: 1px var(--space-1);
   white-space: nowrap;
   letter-spacing: var(--text-label-tracking);
   /* Sin pointer-events para que el title (nombre completo si se elide) funcione. */

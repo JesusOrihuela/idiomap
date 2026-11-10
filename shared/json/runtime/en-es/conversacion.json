@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "conversacion",
+  "phrases": [
+    {
+      "id": "conversacion_podemos_hablar",
+      "conceptId": "es.conversacion_podemos_hablar",
+      "sourceId": "en.s.253f1bc00897b666",
+      "source": "Can we talk?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Podemos hablar?",
+          "audioSlug": "podemos_hablar"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_puedo_preguntar_algo",
+      "conceptId": "es.conversacion_puedo_preguntar_algo",
+      "sourceId": "en.s.320d60913c1a392b",
+      "source": "Can I ask something?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedo preguntar algo?",
+          "audioSlug": "puedo_preguntar_algo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_supe_que_responder",
+      "conceptId": "es.conversacion_no_supe_que_responder",
+      "sourceId": "en.s.fab37dcd2febe618",
+      "source": "I didn't know what to answer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No supe qué responder.",
+          "audioSlug": "no_supe_que_responder"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_alguien_puede_contestar",
+      "conceptId": "es.conversacion_alguien_puede_contestar",
+      "sourceId": "en.s.f3692f07cb297ae1",
+      "source": "Can someone answer?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Alguien puede contestar?",
+          "audioSlug": "alguien_puede_contestar"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_dejame_explicarte",
+      "conceptId": "es.conversacion_dejame_explicarte",
+      "sourceId": "en.s.78bdabf989d53f47",
+      "source": "Let me explain.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Déjame explicarte.",
+          "audioSlug": "dejame_explicarte"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_me_gusta_discutir",
+      "conceptId": "es.conversacion_no_me_gusta_discutir",
+      "sourceId": "en.s.3f2c60d6708c5b74",
+      "source": "I don't like to argue.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No me gusta discutir.",
+          "audioSlug": "no_me_gusta_discutir"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_hace_falta_gritar",
+      "conceptId": "es.conversacion_no_hace_falta_gritar",
+      "sourceId": "en.s.be77f9b1fcf6d1c7",
+      "source": "There is no need to shout.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No hace falta gritar.",
+          "audioSlug": "no_hace_falta_gritar"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_volvere_a_mencionar_eso",
+      "conceptId": "es.conversacion_no_volvere_a_mencionar_eso",
+      "sourceId": "en.s.de4c9fe78039efe3",
+      "source": "I won't mention that again.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No volveré a mencionar eso.",
+          "audioSlug": "no_volvere_a_mencionar_eso"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_tengo_comentarios",
+      "conceptId": "es.conversacion_no_tengo_comentarios",
+      "sourceId": "en.s.5ae359ad65112a80",
+      "source": "I have no comment.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No tengo comentarios.",
+          "audioSlug": "no_tengo_comentarios"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_te_puedo_oir",
+      "conceptId": "es.conversacion_no_te_puedo_oir",
+      "sourceId": "en.s.aac63f14bff86fe7",
+      "source": "I can't hear you.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No te puedo oír.",
+          "audioSlug": "no_te_puedo_oir"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_te_voy_a_contar_algo",
+      "conceptId": "es.conversacion_te_voy_a_contar_algo",
+      "sourceId": "en.s.2c071d60eb3056b4",
+      "source": "I'm going to tell you something.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te voy a contar algo.",
+          "audioSlug": "te_voy_a_contar_algo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_lo_puedo_entender",
+      "conceptId": "es.conversacion_no_lo_puedo_entender",
+      "sourceId": "en.s.18fbea6bedfc01a2",
+      "source": "I can't understand it.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No lo puedo entender.",
+          "audioSlug": "no_lo_puedo_entender"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_ahora_te_comprendo",
+      "conceptId": "es.conversacion_ahora_te_comprendo",
+      "sourceId": "en.s.0ef3d68e1ce5fda5",
+      "source": "Now I understand you.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ahora te comprendo.",
+          "audioSlug": "ahora_te_comprendo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_te_rias_de_mi",
+      "conceptId": "es.conversacion_no_te_rias_de_mi",
+      "sourceId": "en.s.07bac15bf47084dd",
+      "source": "Don't laugh at me.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No te rías de mí.",
+          "audioSlug": "no_te_rias_de_mi"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_te_creo",
+      "conceptId": "es.conversacion_te_creo",
+      "sourceId": "en.s.e006a1a007e2a85e",
+      "source": "I believe you.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te creo.",
+          "audioSlug": "te_creo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_quiero_comentar_algo",
+      "conceptId": "es.conversacion_quiero_comentar_algo",
+      "sourceId": "en.s.2bba4a1cefb0f47c",
+      "source": "I want to comment on something.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero comentar algo.",
+          "audioSlug": "quiero_comentar_algo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_tengo_algo_que_anunciar",
+      "conceptId": "es.conversacion_tengo_algo_que_anunciar",
+      "sourceId": "en.s.68e158c45b570461",
+      "source": "I have something to announce.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo algo que anunciar.",
+          "audioSlug": "tengo_algo_que_anunciar"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_puedes_repetir_eso",
+      "conceptId": "es.conversacion_puedes_repetir_eso",
+      "sourceId": "en.s.fa058d43f8c054d5",
+      "source": "Can you repeat that?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedes repetir eso?",
+          "audioSlug": "puedes_repetir_eso",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Puede repetir eso?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_repetir_eso"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_te_quejes_tanto",
+      "conceptId": "es.conversacion_no_te_quejes_tanto",
+      "sourceId": "en.s.f9f13afd2c749bef",
+      "source": "Don't complain so much.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No te quejes tanto.",
+          "audioSlug": "no_te_quejes_tanto"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_te_voy_a_avisar",
+      "conceptId": "es.conversacion_te_voy_a_avisar",
+      "sourceId": "en.s.f0807e3e37c19688",
+      "source": "I'm going to let you know.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te voy a avisar.",
+          "audioSlug": "te_voy_a_avisar"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_debo_admitir_mi_error",
+      "conceptId": "es.conversacion_debo_admitir_mi_error",
+      "sourceId": "en.s.26eec2c93fa69e45",
+      "source": "I must admit my mistake.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Debo admitir mi error.",
+          "audioSlug": "debo_admitir_mi_error"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_te_quiero_agradecer",
+      "conceptId": "es.conversacion_te_quiero_agradecer",
+      "sourceId": "en.s.d264e2824de826ca",
+      "source": "I want to thank you.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te quiero agradecer.",
+          "audioSlug": "te_quiero_agradecer"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_me_refiero_a_esto",
+      "conceptId": "es.conversacion_me_refiero_a_esto",
+      "sourceId": "en.s.6be6b4f2dfee2aff",
+      "source": "I am referring to this.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me refiero a esto.",
+          "audioSlug": "me_refiero_a_esto"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_te_perdono",
+      "conceptId": "es.conversacion_te_perdono",
+      "sourceId": "en.s.54403ab870f531cd",
+      "source": "I forgive you.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te perdono.",
+          "audioSlug": "te_perdono"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_necesito_silencio",
+      "conceptId": "es.conversacion_necesito_silencio",
+      "sourceId": "en.s.0469785f8e7253d2",
+      "source": "I need silence.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito silencio.",
+          "audioSlug": "necesito_silencio"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_dime_la_verdad",
+      "conceptId": "es.conversacion_dime_la_verdad",
+      "sourceId": "en.s.3125edca0b21e7ea",
+      "source": "Tell me the truth.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Dime la verdad.",
+          "audioSlug": "dime_la_verdad",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Dígame la verdad.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "digame_la_verdad"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_que_te_preocupa",
+      "conceptId": "es.conversacion_que_te_preocupa",
+      "sourceId": "en.s.a62ed288a9248acf",
+      "source": "What's on your mind?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué te preocupa?",
+          "audioSlug": "que_te_preocupa",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Qué le preocupa?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "que_le_preocupa"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_hay_algo_que_pueda_hacer_por_ti",
+      "conceptId": "es.conversacion_hay_algo_que_pueda_hacer_por_ti",
+      "sourceId": "en.s.693aaaf18a6e206d",
+      "source": "Is there anything I can do for you?",
+      "level": "B1",
+      "grammar": "'Hay algo que + subjuntivo' expresa disponibilidad; el subjuntivo señala posibilidad abierta.",
+      "target": [
+        {
+          "text": "¿Hay algo que pueda hacer por ti?",
+          "audioSlug": "hay_algo_que_pueda_hacer_por_ti"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_la_explicacion_es_muy_clara",
+      "conceptId": "es.conversacion_la_explicacion_es_muy_clara",
+      "sourceId": "en.s.daad68f8445393a2",
+      "source": "The explanation is very clear.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La explicación es muy clara.",
+          "audioSlug": "la_explicacion_es_muy_clara"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_se_que_lo_puedes_lograr",
+      "conceptId": "es.conversacion_se_que_lo_puedes_lograr",
+      "sourceId": "en.s.1e8b114e53574e98",
+      "source": "I know you can do it.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sé que lo puedes lograr.",
+          "audioSlug": "se_que_lo_puedes_lograr"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_puedes_disponer_de_mi_ayuda",
+      "conceptId": "es.conversacion_puedes_disponer_de_mi_ayuda",
+      "sourceId": "en.s.aecf7003fe390fb9",
+      "source": "You can count on my help.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Puedes disponer de mi ayuda.",
+          "audioSlug": "puedes_disponer_de_mi_ayuda",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Puede disponer de mi ayuda.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_disponer_de_mi_ayuda"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_te_quiero_animar",
+      "conceptId": "es.conversacion_te_quiero_animar",
+      "sourceId": "en.s.a6cef78a8ba22c02",
+      "source": "I want to encourage you.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te quiero animar.",
+          "audioSlug": "te_quiero_animar"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_lo_lei_en_el_periodico",
+      "conceptId": "es.conversacion_lo_lei_en_el_periodico",
+      "sourceId": "en.s.b438e1ffa03f6ef4",
+      "source": "I read it in the newspaper.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Lo leí en el periódico.",
+          "audioSlug": "lo_lei_en_el_periodico"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_compre_una_revista",
+      "conceptId": "es.conversacion_compre_una_revista",
+      "sourceId": "en.s.d7096c3f690fb750",
+      "source": "I bought a magazine.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Compré una revista.",
+          "audioSlug": "compre_una_revista"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_lei_una_carta",
+      "conceptId": "es.conversacion_lei_una_carta",
+      "sourceId": "en.s.c6e47d12e0a6713c",
+      "source": "I read a letter.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Leí una carta.",
+          "audioSlug": "lei_una_carta"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_dame_un_ejemplo",
+      "conceptId": "es.conversacion_dame_un_ejemplo",
+      "sourceId": "en.s.21dda29d2b56fe73",
+      "source": "Give me an example.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Dame un ejemplo.",
+          "audioSlug": "dame_un_ejemplo",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Deme un ejemplo.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "deme_un_ejemplo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_sigue_mi_consejo",
+      "conceptId": "es.conversacion_sigue_mi_consejo",
+      "sourceId": "en.s.c9e69853f339ef1a",
+      "source": "Follow my advice.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sigue mi consejo.",
+          "audioSlug": "sigue_mi_consejo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_agradezco_tu_interes",
+      "conceptId": "es.conversacion_agradezco_tu_interes",
+      "sourceId": "en.s.b6c66c99eac29601",
+      "source": "I appreciate your interest.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Agradezco tu interés.",
+          "audioSlug": "agradezco_tu_interes",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Agradezco su interés.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "agradezco_su_interes"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_de_acuerdo",
+      "conceptId": "es.conversacion_de_acuerdo",
+      "sourceId": "en.s.a8b5d514196582fc",
+      "source": "I agree.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "De acuerdo.",
+          "audioSlug": "de_acuerdo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_un_momento",
+      "conceptId": "es.conversacion_un_momento",
+      "sourceId": "en.s.07a56f19b6ec2fbc",
+      "source": "Just a moment.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Un momento.",
+          "audioSlug": "un_momento"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_esa_es_la_historia",
+      "conceptId": "es.conversacion_esa_es_la_historia",
+      "sourceId": "en.s.ff0fd119aaaab4b6",
+      "source": "That's the story.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Esa es la historia.",
+          "audioSlug": "esa_es_la_historia"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_todavia_no_he_terminado",
+      "conceptId": "es.conversacion_todavia_no_he_terminado",
+      "sourceId": "en.s.8b01758b203be97a",
+      "source": "I have not finished yet.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Todavía no he terminado.",
+          "audioSlug": "todavia_no_he_terminado"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_tuvimos_una_discusion_larga",
+      "conceptId": "es.conversacion_tuvimos_una_discusion_larga",
+      "sourceId": "en.s.9f99802f1740746f",
+      "source": "We had a long argument.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tuvimos una discusión larga.",
+          "audioSlug": "tuvimos_una_discusion_larga"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_ya_habia_comido",
+      "conceptId": "es.conversacion_ya_habia_comido",
+      "sourceId": "en.s.7897f6850a656e10",
+      "source": "I had already eaten when you arrived.",
+      "level": "C1",
+      "grammar": "El pluscuamperfecto (había + participio) marca una acción anterior a otra pasada.",
+      "target": [
+        {
+          "text": "Ya había comido cuando llegaste.",
+          "audioSlug": "ya_habia_comido_cuando_llegaste"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_ya_se_habian_ido",
+      "conceptId": "es.conversacion_ya_se_habian_ido",
+      "sourceId": "en.s.ae8b9fc960869607",
+      "source": "When I arrived, they had already left.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cuando llegué, ellos ya se habían ido.",
+          "audioSlug": "cuando_llegue_ellos_ya_se_habian_ido"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_me_dijo_que_llegaria",
+      "conceptId": "es.conversacion_me_dijo_que_llegaria",
+      "sourceId": "en.s.286a18da3d276091",
+      "source": "He told me he would arrive late.",
+      "level": "C2",
+      "grammar": "En estilo indirecto el tiempo del verbo cambia (llegará pasa a llegaría).",
+      "target": [
+        {
+          "text": "Me dijo que llegaría tarde.",
+          "audioSlug": "me_dijo_que_llegaria_tarde"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_pregunto_si_terminamos",
+      "conceptId": "es.conversacion_pregunto_si_terminamos",
+      "sourceId": "en.s.6b271769b11c0321",
+      "source": "She asked if we had finished the work.",
+      "level": "C2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nos preguntó si habíamos terminado el trabajo.",
+          "audioSlug": "nos_pregunto_si_habiamos_terminado_el_trabajo"
+        }
+      ]
+    }
+  ]
+}

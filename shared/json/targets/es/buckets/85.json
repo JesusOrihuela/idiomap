@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "85",
+  "concepts": {
+    "es.cuerpo_tengo_los_pies_frios": {
+      "conceptId": "es.cuerpo_tengo_los_pies_frios",
+      "id": "cuerpo_tengo_los_pies_frios",
+      "target": [
+        {
+          "text": "Tengo los pies fríos.",
+          "audioSlug": "tengo_los_pies_frios"
+        }
+      ]
+    },
+    "es.describiendo_personas_ella_es_sociable": {
+      "conceptId": "es.describiendo_personas_ella_es_sociable",
+      "id": "describiendo_personas_ella_es_sociable",
+      "target": [
+        {
+          "text": "Ella es muy sociable.",
+          "audioSlug": "ella_es_muy_sociable"
+        }
+      ]
+    },
+    "es.descripciones_su_horario_de_trabajo_es_fijo": {
+      "conceptId": "es.descripciones_su_horario_de_trabajo_es_fijo",
+      "id": "descripciones_su_horario_de_trabajo_es_fijo",
+      "target": [
+        {
+          "text": "Su horario de trabajo es fijo.",
+          "audioSlug": "su_horario_de_trabajo_es_fijo"
+        }
+      ]
+    },
+    "es.emociones_i_am_nervous": {
+      "conceptId": "es.emociones_i_am_nervous",
+      "id": "emociones_i_am_nervous",
+      "target": [
+        {
+          "text": "Estoy nerviosa.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_nerviosa"
+        },
+        {
+          "text": "Estoy nervioso.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_nervioso"
+        }
+      ]
+    },
+    "es.family_that_woman_is_my_aunt": {
+      "conceptId": "es.family_that_woman_is_my_aunt",
+      "id": "family_that_woman_is_my_aunt",
+      "target": [
+        {
+          "text": "Esa mujer es mi tía.",
+          "audioSlug": "esa_mujer_es_mi_tia"
+        }
+      ]
+    },
+    "es.family_two_brothers_one_sister": {
+      "conceptId": "es.family_two_brothers_one_sister",
+      "id": "family_two_brothers_one_sister",
+      "target": [
+        {
+          "text": "Tengo dos hermanos y una hermana.",
+          "audioSlug": "tengo_dos_hermanos_y_una_hermana"
+        }
+      ]
+    },
+    "es.fiesta_hoy_hay_una_fiesta": {
+      "conceptId": "es.fiesta_hoy_hay_una_fiesta",
+      "id": "fiesta_hoy_hay_una_fiesta",
+      "target": [
+        {
+          "text": "Hoy hay una fiesta.",
+          "audioSlug": "hoy_hay_una_fiesta"
+        }
+      ]
+    },
+    "es.kitchen_the_recipe_calls_for_brown_sugar": {
+      "conceptId": "es.kitchen_the_recipe_calls_for_brown_sugar",
+      "id": "kitchen_the_recipe_calls_for_brown_sugar",
+      "target": [
+        {
+          "text": "La receta usa azúcar morena en vez de blanca.",
+          "audioSlug": "la_receta_usa_azucar_morena_en_vez_de_blanca"
+        }
+      ]
+    },
+    "es.music_play_instrument": {
+      "conceptId": "es.music_play_instrument",
+      "id": "music_play_instrument",
+      "target": [
+        {
+          "text": "¿Tocas algún instrumento?",
+          "audioSlug": "tocas_algun_instrumento"
+        }
+      ]
+    },
+    "es.transportation_hay_que_conducir_con_mucho_cuidado": {
+      "conceptId": "es.transportation_hay_que_conducir_con_mucho_cuidado",
+      "id": "transportation_hay_que_conducir_con_mucho_cuidado",
+      "target": [
+        {
+          "text": "Hay que conducir con mucho cuidado.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "hay_que_conducir_con_mucho_cuidado"
+        },
+        {
+          "text": "Hay que manejar con mucho cuidado.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "hay_que_manejar_con_mucho_cuidado"
+        }
+      ]
+    }
+  }
+}

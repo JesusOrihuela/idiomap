@@ -1,82 +1,982 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "restaurant",
-  "conceptIds": [
-    "en.restaurant_can_we_see_the_menu_please",
-    "en.restaurant_do_you_have_any_vegetarian_options",
-    "en.restaurant_what_do_you_recommend_as_a",
-    "en.restaurant_could_you_tell_me_about_todays",
-    "en.restaurant_is_this_dish_spicy",
-    "en.restaurant_could_i_have_this_dish_without",
-    "en.restaurant_do_you_offer_glutenfree_alternatives",
-    "en.restaurant_how_long_will_the_food_take",
-    "en.restaurant_could_i_have_a_glass_of",
-    "en.restaurant_is_it_possible_to_split_the",
-    "en.restaurant_do_you_have_any_desserts_available",
-    "en.restaurant_could_i_have_some_extra_napkins",
-    "en.restaurant_is_the_tip_included_in_the",
-    "en.restaurant_can_i_get_a_refill_on",
-    "en.restaurant_do_you_have_any_recommendations_for",
-    "en.restaurant_do_you_offer_any_childrens_menus",
-    "en.restaurant_could_i_have_some_bread_while",
-    "en.restaurant_is_there_a_minimum_order_for",
-    "en.restaurant_can_i_make_a_reservation_for",
-    "en.restaurant_could_i_have_some_more_ice",
-    "en.restaurant_do_you_offer_any_discounts_for",
-    "en.restaurant_is_there_a_corkage_fee_if",
-    "en.restaurant_could_i_have_my_steak_cooked",
-    "en.restaurant_is_there_a_limit_to_the",
-    "en.restaurant_recommendations_for_appetizers",
-    "en.restaurant_could_i_have_some_extra_sauce",
-    "en.restaurant_is_it_possible_to_have_my",
-    "en.restaurant_could_you_recommend_a_good_wine",
-    "en.restaurant_do_you_have_any_outdoor_seating",
-    "en.restaurant_could_i_have_the_bill_please",
-    "en.restaurant_do_you_offer_any_lowcalorie_options",
-    "en.restaurant_is_there_a_time_limit_for",
-    "en.restaurant_do_you_have_any_options_for",
-    "en.restaurant_could_i_have_my_coffee_with",
-    "en.restaurant_is_there_a_dress_code_for",
-    "en.restaurant_recommendations_for_cocktails",
-    "en.restaurant_could_i_have_the_check_split",
-    "en.restaurant_is_there_a_charge_for_substitutions",
-    "en.restaurant_do_you_offer_any_birthday_specials",
-    "en.restaurant_could_i_order_a_side_of",
-    "en.restaurant_is_there_a_fee_for_using",
-    "en.restaurant_could_i_have_my_burger_cooked",
-    "en.restaurant_could_you_please_pack_the_leftovers",
-    "en.restaurant_do_you_have_any_nonalcoholic_cocktails",
-    "en.restaurant_could_i_have_my_salad_with",
-    "en.restaurant_is_there_a_service_charge_for",
-    "en.restaurant_could_you_recommend_a_dish_for",
-    "en.restaurant_do_you_have_any_specials_for",
-    "en.restaurant_could_you_turn_down_the_music",
-    "en.restaurant_is_it_possible_to_make_a",
-    "en.restaurant_could_i_have_some_extra_cheese",
-    "en.restaurant_no_reservation_wait_time",
-    "en.restaurant_move_quieter_table",
-    "en.restaurant_birthday_candle_dessert",
-    "en.restaurant_dish_not_matching_description",
-    "en.restaurant_allergy_chef_ingredients",
-    "en.restaurant_steak_wrong_doneness",
-    "en.restaurant_wine_wrong_selection",
-    "en.restaurant_compliment_chef_risotto",
-    "en.restaurant_same_table_window",
-    "en.restaurant_ingredients_sourced_local_organic",
-    "en.restaurant_tasting_menu_lactose_adapt",
-    "en.restaurant_late_reservation_table_still_available",
-    "en.restaurant_tasting_menu_chef_selections",
-    "en.restaurant_wine_acidity_fish_pairing",
-    "en.restaurant_personalized_dessert_occasion",
-    "en.restaurant_price_discrepancy_charged",
-    "en.restaurant_private_dining_business",
-    "en.restaurant_sommelier_provenance_barolo",
-    "en.restaurant_a_table_for_two_please",
-    "en.restaurant_the_check_please",
-    "en.restaurant_ill_have_the_chicken",
-    "en.restaurant_how_much_is_it_all",
-    "en.restaurant_is_this_food_local",
-    "en.restaurant_i_prefer_coffee"
+  "phrases": [
+    {
+      "conceptId": "en.restaurant_can_we_see_the_menu_please",
+      "level": "A1",
+      "grammar": "'Can' is a direct request; 'could' is more polite and formal.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9a3a27a6e87d33a0"
+    },
+    {
+      "conceptId": "en.restaurant_do_you_have_any_vegetarian_options",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.030765a90a7838b4"
+    },
+    {
+      "conceptId": "en.restaurant_what_do_you_recommend_as_a",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.972d84393ec9f113"
+    },
+    {
+      "conceptId": "en.restaurant_could_you_tell_me_about_todays",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3a520f1cb4f94b54"
+    },
+    {
+      "conceptId": "en.restaurant_is_this_dish_spicy",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.65a4c2a36e0f7a8e"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_have_this_dish_without",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a49ee78bc21765d8"
+    },
+    {
+      "conceptId": "en.restaurant_do_you_offer_glutenfree_alternatives",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3d05daaccc69e8c8"
+    },
+    {
+      "conceptId": "en.restaurant_how_long_will_the_food_take",
+      "level": "A2",
+      "grammar": "'How long will it take?' uses 'will' to ask about future duration.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a58cfa0a4d930cf2"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_have_a_glass_of",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a24dff779fbe08fd"
+    },
+    {
+      "conceptId": "en.restaurant_is_it_possible_to_split_the",
+      "level": "A2",
+      "grammar": "'Is it possible to + infinitive' politely asks whether something can be done.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bfbaf432502c6f5f"
+    },
+    {
+      "conceptId": "en.restaurant_do_you_have_any_desserts_available",
+      "level": "A1",
+      "grammar": "Use 'any', not 'some', in questions about quantity.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.97d51f959a4c2b87"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_have_some_extra_napkins",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.59a3485b67f3238d"
+    },
+    {
+      "conceptId": "en.restaurant_is_the_tip_included_in_the",
+      "level": "A2",
+      "grammar": "Passive 'is included' focuses on the tip, not on who includes it.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7bd76acfe82dedbc"
+    },
+    {
+      "conceptId": "en.restaurant_can_i_get_a_refill_on",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6b305a53b42d0855"
+    },
+    {
+      "conceptId": "en.restaurant_do_you_have_any_recommendations_for",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fda727229c2814e8"
+    },
+    {
+      "conceptId": "en.restaurant_do_you_offer_any_childrens_menus",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8bd67bc2a2b36142"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_have_some_bread_while",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dffd145f50e612b2"
+    },
+    {
+      "conceptId": "en.restaurant_is_there_a_minimum_order_for",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c9e8ce6a8f3836c7"
+    },
+    {
+      "conceptId": "en.restaurant_can_i_make_a_reservation_for",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dbae546de4887f01"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_have_some_more_ice",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.38fb4779505d334d"
+    },
+    {
+      "conceptId": "en.restaurant_do_you_offer_any_discounts_for",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0626a9d1ef98e64d"
+    },
+    {
+      "conceptId": "en.restaurant_is_there_a_corkage_fee_if",
+      "level": "B1",
+      "grammar": "In the 'if' clause use the present tense, never 'will', even for future meaning.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e9c9ff2767775376"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_have_my_steak_cooked",
+      "level": "A2",
+      "grammar": "Passive 'cooked medium' focuses on the result, not who cooks it.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.489c7981d78c910d"
+    },
+    {
+      "conceptId": "en.restaurant_is_there_a_limit_to_the",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.84288e273765ca9a"
+    },
+    {
+      "conceptId": "en.restaurant_recommendations_for_appetizers",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.80234ff04b1273fd"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_have_some_extra_sauce",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f6ab7ddf02bbe23e"
+    },
+    {
+      "conceptId": "en.restaurant_is_it_possible_to_have_my",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.36aa49abf305f9e0"
+    },
+    {
+      "conceptId": "en.restaurant_could_you_recommend_a_good_wine",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7018d79ce68b1eb8"
+    },
+    {
+      "conceptId": "en.restaurant_do_you_have_any_outdoor_seating",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e3687d35a70960d3"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_have_the_bill_please",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d48d3862ae69035d"
+    },
+    {
+      "conceptId": "en.restaurant_do_you_offer_any_lowcalorie_options",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.422faec3c27f3e8b"
+    },
+    {
+      "conceptId": "en.restaurant_is_there_a_time_limit_for",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c9afe33ac01d987f"
+    },
+    {
+      "conceptId": "en.restaurant_do_you_have_any_options_for",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8db929798aeffbdd"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_have_my_coffee_with",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7d7e2c1d888c423e"
+    },
+    {
+      "conceptId": "en.restaurant_is_there_a_dress_code_for",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9f9b969b26406293"
+    },
+    {
+      "conceptId": "en.restaurant_recommendations_for_cocktails",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3212f423c066b149"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_have_the_check_split",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.343c3bebf6a6384f"
+    },
+    {
+      "conceptId": "en.restaurant_is_there_a_charge_for_substitutions",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.346759ec026a9611"
+    },
+    {
+      "conceptId": "en.restaurant_do_you_offer_any_birthday_specials",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0e06b0ce67e308a3"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_order_a_side_of",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d44114aaf7f3a9da"
+    },
+    {
+      "conceptId": "en.restaurant_is_there_a_fee_for_using",
+      "level": "A2",
+      "grammar": "After a preposition like 'for', the verb takes the '-ing' gerund form.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6d949d1afe7678ca"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_have_my_burger_cooked",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b8c01d4e88d22f15"
+    },
+    {
+      "conceptId": "en.restaurant_could_you_please_pack_the_leftovers",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0580beb1b88058d5"
+    },
+    {
+      "conceptId": "en.restaurant_do_you_have_any_nonalcoholic_cocktails",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ce5cb6af2bf608b9"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_have_my_salad_with",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f68a0e514e714d18"
+    },
+    {
+      "conceptId": "en.restaurant_is_there_a_service_charge_for",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b0631cb5638b688b"
+    },
+    {
+      "conceptId": "en.restaurant_could_you_recommend_a_dish_for",
+      "level": "B1",
+      "grammar": "The relative pronoun 'who' introduces a clause describing a person.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ed1a3caa55602354"
+    },
+    {
+      "conceptId": "en.restaurant_do_you_have_any_specials_for",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bc0935bd5fa91555"
+    },
+    {
+      "conceptId": "en.restaurant_could_you_turn_down_the_music",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5679abbf144b303c"
+    },
+    {
+      "conceptId": "en.restaurant_is_it_possible_to_make_a",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ca4a9b26cad11c37"
+    },
+    {
+      "conceptId": "en.restaurant_could_i_have_some_extra_cheese",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5e8edaf95f7a4dce"
+    },
+    {
+      "conceptId": "en.restaurant_no_reservation_wait_time",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.230f7c8dd4ea4b41"
+    },
+    {
+      "conceptId": "en.restaurant_move_quieter_table",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.41b7ae39a3a04493"
+    },
+    {
+      "conceptId": "en.restaurant_birthday_candle_dessert",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b15ad4b725d6aa58"
+    },
+    {
+      "conceptId": "en.restaurant_dish_not_matching_description",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0621795b4d2c18ca"
+    },
+    {
+      "conceptId": "en.restaurant_allergy_chef_ingredients",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.92ab1d9886bc241c"
+    },
+    {
+      "conceptId": "en.restaurant_steak_wrong_doneness",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.eb78350700f45389"
+    },
+    {
+      "conceptId": "en.restaurant_wine_wrong_selection",
+      "level": "B2",
+      "grammar": "Passive 'we were served' focuses on the experience rather than who served it.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.104d4153c1f4e358"
+    },
+    {
+      "conceptId": "en.restaurant_compliment_chef_risotto",
+      "level": "B2",
+      "grammar": "'I'd like to' ('I would like to') politely states a wish or request.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.05d5b268b97e60c9"
+    },
+    {
+      "conceptId": "en.restaurant_same_table_window",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.231ca61c9daee551"
+    },
+    {
+      "conceptId": "en.restaurant_ingredients_sourced_local_organic",
+      "level": "C1",
+      "grammar": "Indirect questions like 'tell me where' keep statement word order.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3355f14b59a5ae3f"
+    },
+    {
+      "conceptId": "en.restaurant_tasting_menu_lactose_adapt",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a53ecf9482478b39"
+    },
+    {
+      "conceptId": "en.restaurant_late_reservation_table_still_available",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d3f2c89c06f023a6"
+    },
+    {
+      "conceptId": "en.restaurant_tasting_menu_chef_selections",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9bc50b23ad0374f6"
+    },
+    {
+      "conceptId": "en.restaurant_wine_acidity_fish_pairing",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.45b98e4e96c7d153"
+    },
+    {
+      "conceptId": "en.restaurant_personalized_dessert_occasion",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1119093323604442"
+    },
+    {
+      "conceptId": "en.restaurant_price_discrepancy_charged",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.534b76324236a7a8"
+    },
+    {
+      "conceptId": "en.restaurant_private_dining_business",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.54b72b63b0f81211"
+    },
+    {
+      "conceptId": "en.restaurant_sommelier_provenance_barolo",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cb278f0248bb6250"
+    },
+    {
+      "conceptId": "en.restaurant_a_table_for_two_please",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c867353730989e12"
+    },
+    {
+      "conceptId": "en.restaurant_the_check_please",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1d1f31b63058326b"
+    },
+    {
+      "conceptId": "en.restaurant_ill_have_the_chicken",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.91fcf86a11a8a1ac"
+    },
+    {
+      "conceptId": "en.restaurant_how_much_is_it_all",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f188ba21bc74aa4f"
+    },
+    {
+      "conceptId": "en.restaurant_is_this_food_local",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3a5a3c36ca6641a3"
+    },
+    {
+      "conceptId": "en.restaurant_i_prefer_coffee",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.29374196b0da89d8"
+    }
   ]
 }

@@ -114,7 +114,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [],
       "communicative_production": [
         {
@@ -123,7 +122,12 @@
           "model_translation": "I see the man and a dog.",
           "hint": "Only the masculine article changes: der → den, ein → einen."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "gender_articles",
@@ -210,7 +214,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [],
       "communicative_production": [
         {
@@ -219,7 +222,12 @@
           "model_translation": "The woman reads a book.",
           "hint": "Learn every noun together with its article."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "separable_verbs",
@@ -306,7 +314,6 @@
           "contrast": ""
         }
       ],
-      "related_phrases": [],
       "topics": [],
       "communicative_production": [
         {
@@ -315,7 +322,12 @@
           "model_translation": "I go shopping on Saturday.",
           "hint": "The prefix moves to the end: einkaufen → kaufe ... ein."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

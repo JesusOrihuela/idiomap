@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "bb",
+  "concepts": {
+    "es.conversacion_cada_uno_tiene_su_opinion": {
+      "conceptId": "es.conversacion_cada_uno_tiene_su_opinion",
+      "id": "conversacion_cada_uno_tiene_su_opinion",
+      "target": [
+        {
+          "text": "Cada uno tiene su opinión.",
+          "audioSlug": "cada_uno_tiene_su_opinion"
+        }
+      ]
+    },
+    "es.conversacion_no_tengo_comentarios": {
+      "conceptId": "es.conversacion_no_tengo_comentarios",
+      "id": "conversacion_no_tengo_comentarios",
+      "target": [
+        {
+          "text": "No tengo comentarios.",
+          "audioSlug": "no_tengo_comentarios"
+        }
+      ]
+    },
+    "es.daily_routine_tengo_que_echar_una_carta_al_buzon": {
+      "conceptId": "es.daily_routine_tengo_que_echar_una_carta_al_buzon",
+      "id": "daily_routine_tengo_que_echar_una_carta_al_buzon",
+      "target": [
+        {
+          "text": "Tengo que echar una carta al buzón.",
+          "audioSlug": "tengo_que_echar_una_carta_al_buzon"
+        }
+      ]
+    },
+    "es.emergencias_llamen_a_los_bomberos": {
+      "conceptId": "es.emergencias_llamen_a_los_bomberos",
+      "id": "emergencias_llamen_a_los_bomberos",
+      "target": [
+        {
+          "text": "Llamen a los bomberos.",
+          "audioSlug": "llamen_a_los_bomberos"
+        }
+      ]
+    },
+    "es.greetings_dont_think_weve_met": {
+      "conceptId": "es.greetings_dont_think_weve_met",
+      "id": "greetings_dont_think_weve_met",
+      "target": [
+        {
+          "text": "Creo que no nos conocemos, soy Ana.",
+          "audioSlug": "creo_que_no_nos_conocemos_soy_ana"
+        }
+      ]
+    },
+    "es.hogar_me_lavo_las_manos_en_el_lavabo": {
+      "conceptId": "es.hogar_me_lavo_las_manos_en_el_lavabo",
+      "id": "hogar_me_lavo_las_manos_en_el_lavabo",
+      "target": [
+        {
+          "text": "Me lavo las manos en el lavabo.",
+          "audioSlug": "me_lavo_las_manos_en_el_lavabo"
+        }
+      ]
+    },
+    "es.restaurant_ill_have_the_chicken": {
+      "conceptId": "es.restaurant_ill_have_the_chicken",
+      "id": "restaurant_ill_have_the_chicken",
+      "target": [
+        {
+          "text": "Para mí, el pollo, por favor.",
+          "audioSlug": "para_mi_el_pollo_por_favor"
+        }
+      ]
+    },
+    "es.supermarket_overcharged_promotional_price_not_applied": {
+      "conceptId": "es.supermarket_overcharged_promotional_price_not_applied",
+      "id": "supermarket_overcharged_promotional_price_not_applied",
+      "target": [
+        {
+          "text": "Me cobraron de más, no se aplicó el precio promocional pese a la etiqueta.",
+          "audioSlug": "me_cobraron_de_mas_no_se_aplico_el_precio_promocional_pese_a_la_etiqueta"
+        }
+      ]
+    }
+  }
+}

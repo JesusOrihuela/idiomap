@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "family",
+  "phrases": [
+    {
+      "id": "family_this_is_my_family",
+      "conceptId": "es.family_this_is_my_family",
+      "sourceId": "de.s.4bc156490034f403",
+      "source": "Das ist meine Familie.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Esta es mi familia.",
+          "audioSlug": "esta_es_mi_familia"
+        }
+      ]
+    },
+    {
+      "id": "family_i_have_a_brother_and_a_sister",
+      "conceptId": "es.family_i_have_a_brother_and_a_sister",
+      "sourceId": "de.s.c32c1106e9d554a0",
+      "source": "Ich habe einen Bruder und eine Schwester.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo un hermano y una hermana.",
+          "audioSlug": "tengo_un_hermano_y_una_hermana"
+        }
+      ]
+    },
+    {
+      "id": "family_my_father_is_a_teacher",
+      "conceptId": "es.family_my_father_is_a_teacher",
+      "sourceId": "de.s.47373244e4a6fd2f",
+      "source": "Mein Vater ist Lehrer.",
+      "level": "A1",
+      "grammar": "El oficio usa ser, mi padre es profesor.",
+      "target": [
+        {
+          "text": "Mi padre es profesor.",
+          "audioSlug": "mi_padre_es_profesor"
+        }
+      ]
+    },
+    {
+      "id": "family_my_mother_is_a_doctor",
+      "conceptId": "es.family_my_mother_is_a_doctor",
+      "sourceId": "de.s.e0e9616b776db779",
+      "source": "Meine Mutter ist Ärztin.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi madre es médica.",
+          "audioSlug": "mi_madre_es_medica"
+        }
+      ]
+    },
+    {
+      "id": "family_i_have_two_children",
+      "conceptId": "es.family_i_have_two_children",
+      "sourceId": "de.s.4aeaf87bf94d0447",
+      "source": "Ich habe zwei Kinder.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo dos hijos.",
+          "audioSlug": "tengo_dos_hijos"
+        }
+      ]
+    },
+    {
+      "id": "family_whats_your_sisters_name",
+      "conceptId": "es.family_whats_your_sisters_name",
+      "sourceId": "de.s.b519764c93f76811",
+      "source": "Wie heißt deine Schwester?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo se llama tu hermana?",
+          "audioSlug": "como_se_llama_tu_hermana"
+        }
+      ]
+    },
+    {
+      "id": "family_my_grandparents_live_in_berlin",
+      "conceptId": "es.family_my_grandparents_live_in_berlin",
+      "sourceId": "de.s.972a88ce66b38c5b",
+      "source": "Meine Großeltern wohnen in Berlin.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mis abuelos viven en Berlín.",
+          "audioSlug": "mis_abuelos_viven_en_berlin"
+        }
+      ]
+    },
+    {
+      "id": "family_he_is_my_best_friend",
+      "conceptId": "es.family_he_is_my_best_friend",
+      "sourceId": "de.s.004773d8562ff9d7",
+      "source": "Er ist mein bester Freund.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Él es mi mejor amigo.",
+          "audioSlug": "el_es_mi_mejor_amigo"
+        }
+      ]
+    },
+    {
+      "id": "family_el_nino_de_mi_hermana",
+      "conceptId": "es.family_el_nino_de_mi_hermana",
+      "sourceId": "de.s.bb9ed814dd5fcba2",
+      "source": "Das Kind meiner Schwester ist fünf Jahre alt.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El niño de mi hermana tiene cinco años.",
+          "audioSlug": "el_nino_de_mi_hermana_tiene_cinco_anos"
+        }
+      ]
+    },
+    {
+      "id": "family_somos_un_grupo_unido",
+      "conceptId": "es.family_somos_un_grupo_unido",
+      "sourceId": "de.s.2cd404d866bad3ac",
+      "source": "Wir sind eine sehr enge Gruppe.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Somos un grupo muy unido.",
+          "audioSlug": "somos_un_grupo_muy_unido"
+        }
+      ]
+    },
+    {
+      "id": "family_ellos_son_mis_primos",
+      "conceptId": "es.family_ellos_son_mis_primos",
+      "sourceId": "de.s.f788d61a38628d18",
+      "source": "Sie sind meine Cousins.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ellos son mis primos.",
+          "audioSlug": "ellos_son_mis_primos"
+        }
+      ]
+    },
+    {
+      "id": "family_paso_gran_parte_del_dia_con_mi_familia",
+      "conceptId": "es.family_paso_gran_parte_del_dia_con_mi_familia",
+      "sourceId": "de.s.7fb1ce21cdef46a2",
+      "source": "Ich verbringe einen großen Teil des Tages mit meiner Familie.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Paso gran parte del día con mi familia.",
+          "audioSlug": "paso_gran_parte_del_dia_con_mi_familia"
+        }
+      ]
+    },
+    {
+      "id": "family_mi_tio_vive_lejos",
+      "conceptId": "es.family_mi_tio_vive_lejos",
+      "sourceId": "de.s.d7ae576dceed9bad",
+      "source": "Mein Onkel wohnt weit weg von hier.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi tío vive lejos de aquí.",
+          "audioSlug": "mi_tio_vive_lejos_de_aqui"
+        }
+      ]
+    },
+    {
+      "id": "family_mi_hija_es_la_menor",
+      "conceptId": "es.family_mi_hija_es_la_menor",
+      "sourceId": "de.s.0f612451c63bb948",
+      "source": "Meine Tochter ist die Jüngste in der Familie.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi hija es la menor de la familia.",
+          "audioSlug": "mi_hija_es_la_menor_de_la_familia"
+        }
+      ]
+    },
+    {
+      "id": "family_nos_reunimos_los_domingos",
+      "conceptId": "es.family_nos_reunimos_los_domingos",
+      "sourceId": "de.s.33d373da631d2a7f",
+      "source": "Am Sonntag kommt die ganze Familie zusammen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nos reunimos toda la familia los domingos.",
+          "audioSlug": "nos_reunimos_toda_la_familia_los_domingos"
+        }
+      ]
+    },
+    {
+      "id": "family_mi_esposa_trabaja_en_un_hospital",
+      "conceptId": "es.family_mi_esposa_trabaja_en_un_hospital",
+      "sourceId": "de.s.d5a2ea8c4b955d5a",
+      "source": "Meine Frau arbeitet in einem Krankenhaus.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi esposa trabaja en un hospital.",
+          "audioSlug": "mi_esposa_trabaja_en_un_hospital"
+        }
+      ]
+    },
+    {
+      "id": "family_tengo_una_relacion_familiar_cercana",
+      "conceptId": "es.family_tengo_una_relacion_familiar_cercana",
+      "sourceId": "de.s.02be9c65f78072c8",
+      "source": "Ich habe eine sehr enge familiäre Beziehung.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo una relación familiar muy cercana.",
+          "audioSlug": "tengo_una_relacion_familiar_muy_cercana"
+        }
+      ]
+    },
+    {
+      "id": "family_la_boda_sera_en_verano",
+      "conceptId": "es.family_la_boda_sera_en_verano",
+      "sourceId": "de.s.6ec864080c5539f7",
+      "source": "Die Hochzeit wird im Sommer sein.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La boda será en verano.",
+          "audioSlug": "la_boda_sera_en_verano"
+        }
+      ]
+    },
+    {
+      "id": "family_mis_sobrinos_son_traviesos",
+      "conceptId": "es.family_mis_sobrinos_son_traviesos",
+      "sourceId": "de.s.d4d86532a407fdb0",
+      "source": "Meine Neffen sind sehr frech.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mis sobrinos son muy traviesos.",
+          "audioSlug": "mis_sobrinos_son_muy_traviesos"
+        }
+      ]
+    },
+    {
+      "id": "family_mis_abuelos_celebran_su_aniversario",
+      "conceptId": "es.family_mis_abuelos_celebran_su_aniversario",
+      "sourceId": "de.s.19d89880832eb739",
+      "source": "Meine Großeltern feiern ihren Jahrestag.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mis abuelos celebran su aniversario.",
+          "audioSlug": "mis_abuelos_celebran_su_aniversario"
+        }
+      ]
+    },
+    {
+      "id": "family_mi_cunado_trabaja_como_medico",
+      "conceptId": "es.family_mi_cunado_trabaja_como_medico",
+      "sourceId": "de.s.93d0be3afe5a6f80",
+      "source": "Mein Schwager arbeitet als Arzt.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi cuñado trabaja como médico.",
+          "audioSlug": "mi_cunado_trabaja_como_medico"
+        }
+      ]
+    },
+    {
+      "id": "family_somos_una_familia_numerosa",
+      "conceptId": "es.family_somos_una_familia_numerosa",
+      "sourceId": "de.s.0f06bed718f419e0",
+      "source": "Wir sind eine große Familie.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Somos una familia numerosa.",
+          "audioSlug": "somos_una_familia_numerosa"
+        }
+      ]
+    },
+    {
+      "id": "family_mi_prima_es_argentina",
+      "conceptId": "es.family_mi_prima_es_argentina",
+      "sourceId": "de.s.109b73d355413571",
+      "source": "Meine Cousine ist Argentinierin.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi prima es argentina.",
+          "audioSlug": "mi_prima_es_argentina"
+        }
+      ]
+    },
+    {
+      "id": "family_en_navidad_visitamos_a_los_abuelos",
+      "conceptId": "es.family_en_navidad_visitamos_a_los_abuelos",
+      "sourceId": "de.s.bdf6a85be956bc45",
+      "source": "An Weihnachten besuchen wir die Großeltern.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En Navidad visitamos a los abuelos.",
+          "audioSlug": "en_navidad_visitamos_a_los_abuelos"
+        }
+      ]
+    },
+    {
+      "id": "family_ese_muchacho_es_mi_primo",
+      "conceptId": "es.family_ese_muchacho_es_mi_primo",
+      "sourceId": "de.s.cd3bf31b6e8786af",
+      "source": "Dieser Junge ist mein Cousin.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese muchacho es mi primo.",
+          "audioSlug": "ese_muchacho_es_mi_primo"
+        }
+      ]
+    },
+    {
+      "id": "family_suelo_visitar_a_mi_abuela_los_domingos",
+      "conceptId": "es.family_suelo_visitar_a_mi_abuela_los_domingos",
+      "sourceId": "de.s.c7890134729f2550",
+      "source": "Sonntags besuche ich meistens meine Oma.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Suelo visitar a mi abuela los domingos.",
+          "audioSlug": "suelo_visitar_a_mi_abuela_los_domingos"
+        }
+      ]
+    },
+    {
+      "id": "family_mi_marido_cocina_muy_bien",
+      "conceptId": "es.family_mi_marido_cocina_muy_bien",
+      "sourceId": "de.s.210eadfd693b8ff8",
+      "source": "Mein Mann kocht sehr gut.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi marido cocina muy bien.",
+          "audioSlug": "mi_marido_cocina_muy_bien"
+        }
+      ]
+    },
+    {
+      "id": "family_la_nina_pequena_juega_feliz",
+      "conceptId": "es.family_la_nina_pequena_juega_feliz",
+      "sourceId": "de.s.612acd9aa9b9419f",
+      "source": "Das kleine Mädchen spielt fröhlich.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La niña pequeña juega feliz.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Das kleine Mädchen spielt fröhlich.",
+          "audioSlug": "la_nina_pequena_juega_feliz"
+        },
+        {
+          "text": "El niño pequeño juega feliz.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der kleine Junge spielt fröhlich.",
+          "audioSlug": "el_nino_pequeno_juega_feliz"
+        }
+      ]
+    },
+    {
+      "id": "family_mi_nieta_vive_muy_lejos",
+      "conceptId": "es.family_mi_nieta_vive_muy_lejos",
+      "sourceId": "de.s.4614693c57afcf18",
+      "source": "Meine Enkelin wohnt sehr weit weg.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi nieta vive muy lejos.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Meine Enkelin wohnt sehr weit weg.",
+          "audioSlug": "mi_nieta_vive_muy_lejos"
+        },
+        {
+          "text": "Mi nieto vive muy lejos.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Mein Enkel wohnt sehr weit weg.",
+          "audioSlug": "mi_nieto_vive_muy_lejos"
+        }
+      ]
+    },
+    {
+      "id": "family_tiene_una_hermana_gemela",
+      "conceptId": "es.family_tiene_una_hermana_gemela",
+      "sourceId": "de.s.bb23a9613c27142d",
+      "source": "Sie hat eine Zwillingsschwester.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tiene una hermana gemela.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Sie hat eine Zwillingsschwester.",
+          "audioSlug": "tiene_una_hermana_gemela"
+        },
+        {
+          "text": "Tiene un hermano gemelo.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Er hat einen Zwillingsbruder.",
+          "audioSlug": "tiene_un_hermano_gemelo"
+        }
+      ]
+    },
+    {
+      "id": "family_la_senora_del_piso_de_arriba_es_amable",
+      "conceptId": "es.family_la_senora_del_piso_de_arriba_es_amable",
+      "sourceId": "de.s.e4894194f8f6ec99",
+      "source": "Die Dame aus der oberen Wohnung ist nett.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La señora del piso de arriba es amable.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Dame aus der oberen Wohnung ist nett.",
+          "audioSlug": "la_senora_del_piso_de_arriba_es_amable"
+        },
+        {
+          "text": "El señor del piso de arriba es amable.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Herr aus der oberen Wohnung ist nett.",
+          "audioSlug": "el_senor_del_piso_de_arriba_es_amable"
+        }
+      ]
+    },
+    {
+      "id": "family_la_princesa_vive_en_un_gran_castillo",
+      "conceptId": "es.family_la_princesa_vive_en_un_gran_castillo",
+      "sourceId": "de.s.7dd8a0e635faecf2",
+      "source": "Die Prinzessin wohnt in einem großen Schloss.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La princesa vive en un gran castillo.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Prinzessin wohnt in einem großen Schloss.",
+          "audioSlug": "la_princesa_vive_en_un_gran_castillo"
+        },
+        {
+          "text": "El príncipe vive en un gran castillo.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Prinz wohnt in einem großen Schloss.",
+          "audioSlug": "el_principe_vive_en_un_gran_castillo"
+        }
+      ]
+    },
+    {
+      "id": "family_mis_primos_van_a_casarse_en_junio",
+      "conceptId": "es.family_mis_primos_van_a_casarse_en_junio",
+      "sourceId": "de.s.780d2fd0f279a99c",
+      "source": "Meine Cousins werden im Juni heiraten.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mis primos van a casarse en junio.",
+          "audioSlug": "mis_primos_van_a_casarse_en_junio"
+        }
+      ]
+    }
+  ]
+}

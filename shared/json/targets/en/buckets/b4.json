@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "b4",
+  "concepts": {
+    "en.accommodation_breakfast_included": {
+      "conceptId": "en.accommodation_breakfast_included",
+      "id": "accommodation_breakfast_included",
+      "target": [
+        {
+          "text": "Is breakfast included?",
+          "audioSlug": "is_breakfast_included"
+        }
+      ]
+    },
+    "en.describiendo_personas_he_is_a_nice_guy": {
+      "conceptId": "en.describiendo_personas_he_is_a_nice_guy",
+      "id": "describiendo_personas_he_is_a_nice_guy",
+      "target": [
+        {
+          "text": "He is a nice guy.",
+          "audioSlug": "he_is_a_nice_guy"
+        }
+      ]
+    },
+    "en.museums_which_floor": {
+      "conceptId": "en.museums_which_floor",
+      "id": "museums_which_floor",
+      "target": [
+        {
+          "text": "Which floor is the exhibition on?",
+          "audioSlug": "which_floor_is_the_exhibition_on"
+        }
+      ]
+    },
+    "en.supermarket_i_received_a_discount_coupon_in": {
+      "conceptId": "en.supermarket_i_received_a_discount_coupon_in",
+      "id": "supermarket_i_received_a_discount_coupon_in",
+      "target": [
+        {
+          "text": "I received a discount coupon in my email.",
+          "audioSlug": "i_received_a_discount_coupon_in_my_email"
+        }
+      ]
+    },
+    "en.technology_do_you_have_a_cable_you": {
+      "conceptId": "en.technology_do_you_have_a_cable_you",
+      "id": "technology_do_you_have_a_cable_you",
+      "target": [
+        {
+          "text": "Do you have a cable you can lend me?",
+          "audioSlug": "do_you_have_a_cable_you_can_lend_me"
+        }
+      ]
+    },
+    "en.tiempo_libre_loves_painting_free_time": {
+      "conceptId": "en.tiempo_libre_loves_painting_free_time",
+      "id": "tiempo_libre_loves_painting_free_time",
+      "target": [
+        {
+          "text": "She loves painting in her free time.",
+          "audioSlug": "she_loves_painting_in_her_free_time"
+        }
+      ]
+    }
+  }
+}

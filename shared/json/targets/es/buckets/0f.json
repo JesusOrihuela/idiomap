@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "0f",
+  "concepts": {
+    "es.accountability_gross_margin_declined_supply_chain": {
+      "conceptId": "es.accountability_gross_margin_declined_supply_chain",
+      "id": "accountability_gross_margin_declined_supply_chain",
+      "target": [
+        {
+          "text": "El margen bruto ha disminuido por el encarecimiento de la cadena de suministro.",
+          "audioSlug": "el_margen_bruto_ha_disminuido_por_el_encarecimiento_de_la_cadena_de_suministro"
+        }
+      ]
+    },
+    "es.calendario_la_reunion_es_el_martes": {
+      "conceptId": "es.calendario_la_reunion_es_el_martes",
+      "id": "calendario_la_reunion_es_el_martes",
+      "target": [
+        {
+          "text": "La reunión es el martes.",
+          "audioSlug": "la_reunion_es_el_martes"
+        }
+      ]
+    },
+    "es.health_you_should_drink_water": {
+      "conceptId": "es.health_you_should_drink_water",
+      "id": "health_you_should_drink_water",
+      "target": [
+        {
+          "text": "Debes tomar mucha agua.",
+          "audioSlug": "debes_tomar_mucha_agua"
+        }
+      ]
+    },
+    "es.hogar_salimos_a_la_terraza": {
+      "conceptId": "es.hogar_salimos_a_la_terraza",
+      "id": "hogar_salimos_a_la_terraza",
+      "target": [
+        {
+          "text": "Salimos a la terraza a tomar el aire.",
+          "audioSlug": "salimos_a_la_terraza_a_tomar_el_aire"
+        }
+      ]
+    },
+    "es.kitchen_wash_the_fruit_before_cutting_it": {
+      "conceptId": "es.kitchen_wash_the_fruit_before_cutting_it",
+      "id": "kitchen_wash_the_fruit_before_cutting_it",
+      "target": [
+        {
+          "text": "Lava las frutas antes de cortarlas.",
+          "audioSlug": "lava_las_frutas_antes_de_cortarlas"
+        }
+      ]
+    },
+    "es.movies_looking_new_series": {
+      "conceptId": "es.movies_looking_new_series",
+      "id": "movies_looking_new_series",
+      "target": [
+        {
+          "text": "Estoy buscando una nueva serie para ver, ¿me recomiendas alguna?",
+          "audioSlug": "estoy_buscando_una_nueva_serie_para_ver_me_recomiendas_alguna"
+        }
+      ]
+    },
+    "es.music_new_concert_band": {
+      "conceptId": "es.music_new_concert_band",
+      "id": "music_new_concert_band",
+      "target": [
+        {
+          "text": "Mi banda favorita tiene un nuevo concierto y quiero ir.",
+          "audioSlug": "mi_banda_favorita_tiene_un_nuevo_concierto_y_quiero_ir"
+        }
+      ]
+    },
+    "es.personal_info_su_profesion_es_exigente": {
+      "conceptId": "es.personal_info_su_profesion_es_exigente",
+      "id": "personal_info_su_profesion_es_exigente",
+      "target": [
+        {
+          "text": "Su profesión es exigente.",
+          "audioSlug": "su_profesion_es_exigente"
+        }
+      ]
+    },
+    "es.sitios_es_un_edificio_moderno": {
+      "conceptId": "es.sitios_es_un_edificio_moderno",
+      "id": "sitios_es_un_edificio_moderno",
+      "target": [
+        {
+          "text": "Es un edificio moderno.",
+          "audioSlug": "es_un_edificio_moderno"
+        }
+      ]
+    },
+    "es.supermarket_are_these_grapes_organic": {
+      "conceptId": "es.supermarket_are_these_grapes_organic",
+      "id": "supermarket_are_these_grapes_organic",
+      "target": [
+        {
+          "text": "¿Estas uvas son orgánicas?",
+          "audioSlug": "estas_uvas_son_organicas"
+        }
+      ]
+    },
+    "es.supermarket_compra_una_docena_de_huevos": {
+      "conceptId": "es.supermarket_compra_una_docena_de_huevos",
+      "id": "supermarket_compra_una_docena_de_huevos",
+      "target": [
+        {
+          "text": "Compra una docena de huevos.",
+          "audioSlug": "compra_una_docena_de_huevos"
+        }
+      ]
+    }
+  }
+}

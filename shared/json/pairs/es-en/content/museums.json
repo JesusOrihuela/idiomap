@@ -1,25 +1,241 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "museums",
-  "conceptIds": [
-    "en.museums_art_exhibition_invite",
-    "en.museums_photography_exhibition",
-    "en.museums_visit_new_museum",
-    "en.museums_contemporary_art_museum",
-    "en.museums_arrive_early_installation",
-    "en.museums_exhibition_accessible_multiple_levels",
-    "en.museums_museum_retrospective_evolution",
-    "en.museums_how_much_admission",
-    "en.museums_can_i_take_photos",
-    "en.museums_where_is_exhibition",
-    "en.museums_audio_guide",
-    "en.museums_gift_shop",
-    "en.museums_what_time_close",
-    "en.museums_free_admission",
-    "en.museums_i_love_this_painting",
-    "en.museums_who_painted_this",
-    "en.museums_guided_tour",
-    "en.museums_which_floor"
+  "phrases": [
+    {
+      "conceptId": "en.museums_art_exhibition_invite",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0d8c42b7f78fd92a"
+    },
+    {
+      "conceptId": "en.museums_photography_exhibition",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.950f908a43768f79"
+    },
+    {
+      "conceptId": "en.museums_visit_new_museum",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9ca4543c8a52622c"
+    },
+    {
+      "conceptId": "en.museums_contemporary_art_museum",
+      "level": "B1",
+      "grammar": "Present perfect 'have you been to' asks about experience without specifying when it happened.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.17e6e14b6ab682ca"
+    },
+    {
+      "conceptId": "en.museums_arrive_early_installation",
+      "level": "B1",
+      "grammar": "'Recommend' takes a gerund as its object: 'recommend arriving', 'recommend visiting'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.92ccdeebe83ca250"
+    },
+    {
+      "conceptId": "en.museums_exhibition_accessible_multiple_levels",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.48579fd49e4f6d0e"
+    },
+    {
+      "conceptId": "en.museums_museum_retrospective_evolution",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9500132defdd3a43"
+    },
+    {
+      "conceptId": "en.museums_how_much_admission",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.235e1bccbc92f9ba"
+    },
+    {
+      "conceptId": "en.museums_can_i_take_photos",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.93f424988bc03308"
+    },
+    {
+      "conceptId": "en.museums_where_is_exhibition",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.74e5b2104f93ad94"
+    },
+    {
+      "conceptId": "en.museums_audio_guide",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5ccbb356469ea0b4"
+    },
+    {
+      "conceptId": "en.museums_gift_shop",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.620c95eecac8b3ca"
+    },
+    {
+      "conceptId": "en.museums_what_time_close",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.58d3012e783bc37b"
+    },
+    {
+      "conceptId": "en.museums_free_admission",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.24663bd6698f64bd"
+    },
+    {
+      "conceptId": "en.museums_i_love_this_painting",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.afe0c45b03b90b33"
+    },
+    {
+      "conceptId": "en.museums_who_painted_this",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.db69cb05e4514e36"
+    },
+    {
+      "conceptId": "en.museums_guided_tour",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.264f7851a98ed39b"
+    },
+    {
+      "conceptId": "en.museums_which_floor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4cbe2199b13d575f"
+    }
   ]
 }

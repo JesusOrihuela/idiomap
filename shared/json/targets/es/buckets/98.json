@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "98",
+  "concepts": {
+    "es.descripciones_el_sol_es_de_color_amarillo": {
+      "conceptId": "es.descripciones_el_sol_es_de_color_amarillo",
+      "id": "descripciones_el_sol_es_de_color_amarillo",
+      "target": [
+        {
+          "text": "El sol es de color amarillo.",
+          "audioSlug": "el_sol_es_de_color_amarillo"
+        }
+      ]
+    },
+    "es.emergencias_hubo_un_accidente_en_la_calle": {
+      "conceptId": "es.emergencias_hubo_un_accidente_en_la_calle",
+      "id": "emergencias_hubo_un_accidente_en_la_calle",
+      "target": [
+        {
+          "text": "Hubo un accidente en la calle.",
+          "audioSlug": "hubo_un_accidente_en_la_calle"
+        }
+      ]
+    },
+    "es.family_mis_primos_van_a_casarse_en_junio": {
+      "conceptId": "es.family_mis_primos_van_a_casarse_en_junio",
+      "id": "family_mis_primos_van_a_casarse_en_junio",
+      "target": [
+        {
+          "text": "Mis primos van a casarse en junio.",
+          "audioSlug": "mis_primos_van_a_casarse_en_junio"
+        }
+      ]
+    },
+    "es.museums_es_un_cuadro_bello": {
+      "conceptId": "es.museums_es_un_cuadro_bello",
+      "id": "museums_es_un_cuadro_bello",
+      "target": [
+        {
+          "text": "Es un cuadro bello.",
+          "audioSlug": "es_un_cuadro_bello"
+        }
+      ]
+    },
+    "es.personal_info_what_is_your_nationality": {
+      "conceptId": "es.personal_info_what_is_your_nationality",
+      "id": "personal_info_what_is_your_nationality",
+      "target": [
+        {
+          "text": "¿Cuál es tu nacionalidad?",
+          "audioSlug": "cual_es_tu_nacionalidad",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cuál es su nacionalidad?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "cual_es_su_nacionalidad"
+        }
+      ]
+    },
+    "es.planes_dime_cual_elegir": {
+      "conceptId": "es.planes_dime_cual_elegir",
+      "id": "planes_dime_cual_elegir",
+      "target": [
+        {
+          "text": "Dime cuál elegir.",
+          "audioSlug": "dime_cual_elegir",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Dígame cuál elegir.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "digame_cual_elegir"
+        }
+      ]
+    },
+    "es.planes_voy_a_intentar_hacerlo_mejor": {
+      "conceptId": "es.planes_voy_a_intentar_hacerlo_mejor",
+      "id": "planes_voy_a_intentar_hacerlo_mejor",
+      "target": [
+        {
+          "text": "Voy a intentar hacerlo mejor.",
+          "audioSlug": "voy_a_intentar_hacerlo_mejor"
+        }
+      ]
+    },
+    "es.politica_el_alcalde_visito_el_pueblo": {
+      "conceptId": "es.politica_el_alcalde_visito_el_pueblo",
+      "id": "politica_el_alcalde_visito_el_pueblo",
+      "target": [
+        {
+          "text": "El alcalde visitó el pueblo.",
+          "audioSlug": "el_alcalde_visito_el_pueblo"
+        }
+      ]
+    }
+  }
+}

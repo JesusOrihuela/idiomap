@@ -1,127 +1,1567 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "kitchen",
-  "conceptIds": [
-    "es.kitchen_do_we_have_enough_eggs_for",
-    "es.kitchen_pass_me_the_cutting_board",
-    "es.kitchen_where_do_we_keep_the_measuring",
-    "es.kitchen_can_you_pass_me_the_spatula",
-    "es.kitchen_do_we_have_any_olive_oil",
-    "es.kitchen_pass_me_the_salt_from_the",
-    "es.kitchen_we_need_to_replace_the_baking",
-    "es.kitchen_the_mixer_is_in_the_cabinet",
-    "es.kitchen_the_baking_sheets_are_on_the",
-    "es.kitchen_do_we_have_any_fresh_herbs",
-    "es.kitchen_can_you_check_if_the_oven",
-    "es.kitchen_baking_soda_will_help_the_dough",
-    "es.kitchen_do_we_have_parchment_paper_to",
-    "es.kitchen_help_me_peel_the_carrots_and",
-    "es.kitchen_we_need_to_wash_the_cheese",
-    "es.kitchen_do_we_have_vanilla_extract_for",
-    "es.kitchen_could_you_rinse_the_vegetables_with",
-    "es.kitchen_the_knives_need_sharpening",
-    "es.kitchen_we_need_to_take_the_meat",
-    "es.kitchen_the_spices_and_condiments_are_in",
-    "es.kitchen_do_we_have_aluminum_foil_to",
-    "es.kitchen_we_need_to_finely_chop_the",
-    "es.kitchen_can_you_pass_me_the_colander",
-    "es.kitchen_we_need_to_buy_unsalted_butter",
-    "es.kitchen_could_you_help_me_open_this",
-    "es.kitchen_the_recipe_calls_for_brown_sugar",
-    "es.kitchen_the_rolling_pin_to_flatten_the",
-    "es.kitchen_whats_the_difference_between_a_pot",
-    "es.kitchen_do_we_have_breadcrumbs_to_coat",
-    "es.kitchen_where_do_we_keep_the_plastic",
-    "es.kitchen_the_milk_has_curdled",
-    "es.kitchen_this_sauce_has_expired",
-    "es.kitchen_we_dont_have_the_necessary_ingredients",
-    "es.kitchen_reducing_the_sauce_will_take_time",
-    "es.kitchen_the_salad_will_need_oil_vinegar",
-    "es.kitchen_could_you_help_me_sift_the",
-    "es.kitchen_put_the_leftovers_in_plastic_containers",
-    "es.kitchen_theres_leftover_broth_for_the_soup",
-    "es.kitchen_be_careful_with_the_hot_pot",
-    "es.kitchen_the_soup_needs_more_salt",
-    "es.kitchen_have_you_already_cut_the_vegetables",
-    "es.kitchen_add_a_little_sugar_to_the",
-    "es.kitchen_we_need_to_preheat_the_oven",
-    "es.kitchen_take_the_food_out_of_the",
-    "es.kitchen_tonight_were_making_homemade_pizza",
-    "es.kitchen_im_going_to_make_chicken_and",
-    "es.kitchen_i_need_a_tablespoon_of_butter",
-    "es.kitchen_could_you_chop_the_vegetables_into",
-    "es.kitchen_the_pan_is_too_hot_lower",
-    "es.kitchen_where_are_the_clean_dishes",
-    "es.kitchen_wash_the_fruit_before_cutting_it",
-    "es.kitchen_to_make_flan_you_have_to",
-    "es.kitchen_flan_bake_bain_marie",
-    "es.kitchen_to_cook_chicken_better_you_have",
-    "es.kitchen_let_the_pizza_dough_rest_before",
-    "es.kitchen_season_the_chicken_with_salt_pepper",
-    "es.kitchen_while_i_remove_the_fish_bones",
-    "es.kitchen_the_stove_doesnt_seem_to_be",
-    "es.kitchen_we_need_to_skim_the_broth",
-    "es.kitchen_bread_the_fish_with_breadcrumbs_and",
-    "es.kitchen_the_sauce_needs_more_salt",
-    "es.kitchen_peel_the_potatoes_and_then_slice",
-    "es.kitchen_steam_the_vegetables",
-    "es.kitchen_grill_the_meat",
-    "es.kitchen_boil_the_pasta_in_hot_water",
-    "es.kitchen_fry_the_potatoes_in_hot_oil",
-    "es.kitchen_we_need_to_broil_the_cheese",
-    "es.kitchen_the_best_side_dish_for_fish",
-    "es.kitchen_the_best_side_dish_for_meat",
-    "es.kitchen_the_best_side_dish_for_pasta",
-    "es.kitchen_the_best_side_dish_for_chicken",
-    "es.kitchen_before_cooking_pasta_we_have_to",
-    "es.kitchen_dry_the_sink_after_washing_the",
-    "es.kitchen_lower_the_temperature_of_the_freezer",
-    "es.kitchen_i_prefer_to_use_the_electric",
-    "es.kitchen_the_glasses_are_hanging_on_the",
-    "es.kitchen_the_blender_is_in_the_cabinet",
-    "es.kitchen_the_mixer_is_in_the_drawer",
-    "es.kitchen_the_coffee_maker_is_on_the",
-    "es.kitchen_the_toaster_is_on_the_table",
-    "es.kitchen_the_sandwich_maker_is_in_the",
-    "es.kitchen_the_pot_is_on_the_stove",
-    "es.kitchen_the_pan_is_in_the_sink",
-    "es.kitchen_the_casserole_dish_is_in_the",
-    "es.kitchen_the_grill_is_on_the_patio",
-    "es.kitchen_the_forks_and_knives_are_in",
-    "es.kitchen_we_need_to_wash_the_spoons",
-    "es.kitchen_the_cutting_board_is_in_the",
-    "es.kitchen_the_glasses_and_cups_are_in",
-    "es.kitchen_the_fruit_bowl_is_on_the",
-    "es.kitchen_deglaze_pan_white_wine",
-    "es.kitchen_fold_egg_whites_not_stir",
-    "es.kitchen_let_meat_rest_juices_redistribute",
-    "es.kitchen_blanch_vegetables_before_stir_fry",
-    "es.kitchen_score_duck_skin_fat_renders",
-    "es.kitchen_emulsified_vinaigrette_add_oil_slowly",
-    "es.kitchen_sauce_breaks_rescue_cold_water",
-    "es.kitchen_brine_chicken_overnight_juicier",
-    "es.kitchen_caramelized_onions_deglaze_balsamic",
-    "es.kitchen_make_day_ahead_flavors_meld",
-    "es.kitchen_temper_eggs_hot_liquid",
-    "es.kitchen_season_throughout_not_just_end",
-    "es.kitchen_prep_ingredients_before_start",
-    "es.kitchen_umami_depth_fish_sauce_miso",
-    "es.kitchen_cure_salmon_salt_sugar_dill",
-    "es.kitchen_water_is_boiling",
-    "es.kitchen_it_smells_good",
-    "es.kitchen_dinner_is_ready",
-    "es.kitchen_set_the_table",
-    "es.kitchen_wash_your_hands",
-    "es.kitchen_turn_off_the_stove",
-    "es.kitchen_im_hungry",
-    "es.kitchen_cook_over_low_heat",
-    "es.kitchen_es_muy_dulce",
-    "es.kitchen_es_un_tomate_rojo",
-    "es.kitchen_la_sopa_esta_caliente",
-    "es.kitchen_el_agua_esta_fria",
-    "es.kitchen_salad_with_avocado",
-    "es.kitchen_compre_una_botella_de_agua",
-    "es.kitchen_compre_una_docena_de_huevos"
+  "phrases": [
+    {
+      "conceptId": "es.kitchen_do_we_have_enough_eggs_for",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a32f7e53130c07a1"
+    },
+    {
+      "conceptId": "es.kitchen_pass_me_the_cutting_board",
+      "level": "A1",
+      "grammar": "'Pásame' es el imperativo con el pronombre enclítico para pedir algo.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.26c4abdf6081ae67"
+    },
+    {
+      "conceptId": "es.kitchen_where_do_we_keep_the_measuring",
+      "level": "A1",
+      "grammar": "'¿Dónde está?' (singular) y '¿dónde están?' (plural) para preguntar ubicación.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.45bd4655fe1653d9"
+    },
+    {
+      "conceptId": "es.kitchen_can_you_pass_me_the_spatula",
+      "level": "A1",
+      "grammar": "'Pásame' es el imperativo con el pronombre enclítico para pedir algo.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d57b922b03e91554"
+    },
+    {
+      "conceptId": "es.kitchen_do_we_have_any_olive_oil",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e736e9ca28aab498"
+    },
+    {
+      "conceptId": "es.kitchen_pass_me_the_salt_from_the",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3ba69668842e232a"
+    },
+    {
+      "conceptId": "es.kitchen_we_need_to_replace_the_baking",
+      "level": "A2",
+      "grammar": "'Hay que + infinitivo' expresa una obligación impersonal, sin sujeto.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e44b82ad17329698"
+    },
+    {
+      "conceptId": "es.kitchen_the_mixer_is_in_the_cabinet",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.79effcd5a1d1e552"
+    },
+    {
+      "conceptId": "es.kitchen_the_baking_sheets_are_on_the",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.159d7f9e78d62257"
+    },
+    {
+      "conceptId": "es.kitchen_do_we_have_any_fresh_herbs",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5a1fc780753694e6"
+    },
+    {
+      "conceptId": "es.kitchen_can_you_check_if_the_oven",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.39d06ca38aecfcf7"
+    },
+    {
+      "conceptId": "es.kitchen_baking_soda_will_help_the_dough",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b1273dc9ea7452eb"
+    },
+    {
+      "conceptId": "es.kitchen_do_we_have_parchment_paper_to",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1a39c70c6d576bb7"
+    },
+    {
+      "conceptId": "es.kitchen_help_me_peel_the_carrots_and",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e5b7ad30cada2d44"
+    },
+    {
+      "conceptId": "es.kitchen_we_need_to_wash_the_cheese",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9f10482b9e8d0091"
+    },
+    {
+      "conceptId": "es.kitchen_do_we_have_vanilla_extract_for",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.778292c0d58287c8"
+    },
+    {
+      "conceptId": "es.kitchen_could_you_rinse_the_vegetables_with",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.396b6b4e205979e0"
+    },
+    {
+      "conceptId": "es.kitchen_the_knives_need_sharpening",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3e6a4599ae3518f6"
+    },
+    {
+      "conceptId": "es.kitchen_we_need_to_take_the_meat",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.dd472e279b7792ce"
+    },
+    {
+      "conceptId": "es.kitchen_the_spices_and_condiments_are_in",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0592453b4cb691f9"
+    },
+    {
+      "conceptId": "es.kitchen_do_we_have_aluminum_foil_to",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1987cd59d3952519"
+    },
+    {
+      "conceptId": "es.kitchen_we_need_to_finely_chop_the",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.980a6a154db63748"
+    },
+    {
+      "conceptId": "es.kitchen_can_you_pass_me_the_colander",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4c182798c4469284"
+    },
+    {
+      "conceptId": "es.kitchen_we_need_to_buy_unsalted_butter",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4b9ae7c090571fd7"
+    },
+    {
+      "conceptId": "es.kitchen_could_you_help_me_open_this",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ba6dfd5120224b19"
+    },
+    {
+      "conceptId": "es.kitchen_the_recipe_calls_for_brown_sugar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a18246e4fde73d16"
+    },
+    {
+      "conceptId": "es.kitchen_the_rolling_pin_to_flatten_the",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.aeb9fdbeb56376fd"
+    },
+    {
+      "conceptId": "es.kitchen_whats_the_difference_between_a_pot",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.328ea0b5f9216a37"
+    },
+    {
+      "conceptId": "es.kitchen_do_we_have_breadcrumbs_to_coat",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e914a946a5241395"
+    },
+    {
+      "conceptId": "es.kitchen_where_do_we_keep_the_plastic",
+      "level": "A1",
+      "grammar": "'¿Dónde está?' (singular) y '¿dónde están?' (plural) para preguntar ubicación.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.00e90ab9d3b85af6"
+    },
+    {
+      "conceptId": "es.kitchen_the_milk_has_curdled",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.db867ac6ddf6b7ca"
+    },
+    {
+      "conceptId": "es.kitchen_this_sauce_has_expired",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.67c977ee54e18a44"
+    },
+    {
+      "conceptId": "es.kitchen_we_dont_have_the_necessary_ingredients",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.47e75df051615890"
+    },
+    {
+      "conceptId": "es.kitchen_reducing_the_sauce_will_take_time",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b30df1255f2feb7c"
+    },
+    {
+      "conceptId": "es.kitchen_the_salad_will_need_oil_vinegar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.247ff729766253ab"
+    },
+    {
+      "conceptId": "es.kitchen_could_you_help_me_sift_the",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e4f1df7c379ef9b1"
+    },
+    {
+      "conceptId": "es.kitchen_put_the_leftovers_in_plastic_containers",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8c8c8f57d333cd92"
+    },
+    {
+      "conceptId": "es.kitchen_theres_leftover_broth_for_the_soup",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3186d86503e70931"
+    },
+    {
+      "conceptId": "es.kitchen_be_careful_with_the_hot_pot",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8de8893ca60920a4"
+    },
+    {
+      "conceptId": "es.kitchen_the_soup_needs_more_salt",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f4166273f13c7e4e"
+    },
+    {
+      "conceptId": "es.kitchen_have_you_already_cut_the_vegetables",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0a003f2cf4f8771f"
+    },
+    {
+      "conceptId": "es.kitchen_add_a_little_sugar_to_the",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d8799e5947654fe8"
+    },
+    {
+      "conceptId": "es.kitchen_we_need_to_preheat_the_oven",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.da6cf71291b66011"
+    },
+    {
+      "conceptId": "es.kitchen_take_the_food_out_of_the",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.314292361d1ad412"
+    },
+    {
+      "conceptId": "es.kitchen_tonight_were_making_homemade_pizza",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.04612bc8d82d6ef2"
+    },
+    {
+      "conceptId": "es.kitchen_im_going_to_make_chicken_and",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.28c071028f081bc1"
+    },
+    {
+      "conceptId": "es.kitchen_i_need_a_tablespoon_of_butter",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2eda9c2b4bbf9be4"
+    },
+    {
+      "conceptId": "es.kitchen_could_you_chop_the_vegetables_into",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f47cf244ce055589"
+    },
+    {
+      "conceptId": "es.kitchen_the_pan_is_too_hot_lower",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ee8494efafb995d8"
+    },
+    {
+      "conceptId": "es.kitchen_where_are_the_clean_dishes",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.adcc1ebf428e3ff1"
+    },
+    {
+      "conceptId": "es.kitchen_wash_the_fruit_before_cutting_it",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b5893c2882436e56"
+    },
+    {
+      "conceptId": "es.kitchen_to_make_flan_you_have_to",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1c18feb158f1f9ca"
+    },
+    {
+      "conceptId": "es.kitchen_flan_bake_bain_marie",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6a3ce8de7ed5fbae"
+    },
+    {
+      "conceptId": "es.kitchen_to_cook_chicken_better_you_have",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4d209d605b8dcb92"
+    },
+    {
+      "conceptId": "es.kitchen_let_the_pizza_dough_rest_before",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c63eafec6c4d9b9e"
+    },
+    {
+      "conceptId": "es.kitchen_season_the_chicken_with_salt_pepper",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.863e9ac1990e022f"
+    },
+    {
+      "conceptId": "es.kitchen_while_i_remove_the_fish_bones",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ee9339c0d7d7d370"
+    },
+    {
+      "conceptId": "es.kitchen_the_stove_doesnt_seem_to_be",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2f8ffdcf6d965529"
+    },
+    {
+      "conceptId": "es.kitchen_we_need_to_skim_the_broth",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3a0dfe9fc0a0b995"
+    },
+    {
+      "conceptId": "es.kitchen_bread_the_fish_with_breadcrumbs_and",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b146585b04ab4873"
+    },
+    {
+      "conceptId": "es.kitchen_the_sauce_needs_more_salt",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6b45f3036b1545e3"
+    },
+    {
+      "conceptId": "es.kitchen_peel_the_potatoes_and_then_slice",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a408c034b0634968"
+    },
+    {
+      "conceptId": "es.kitchen_steam_the_vegetables",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fc73fe0a37156498"
+    },
+    {
+      "conceptId": "es.kitchen_grill_the_meat",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e4fcd0bfa07d9fd2"
+    },
+    {
+      "conceptId": "es.kitchen_boil_the_pasta_in_hot_water",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ca08d4578fe8a0c0"
+    },
+    {
+      "conceptId": "es.kitchen_fry_the_potatoes_in_hot_oil",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d09de46f701513ce"
+    },
+    {
+      "conceptId": "es.kitchen_we_need_to_broil_the_cheese",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9d0360a794c4d00a"
+    },
+    {
+      "conceptId": "es.kitchen_the_best_side_dish_for_fish",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.156bfb7716bee860"
+    },
+    {
+      "conceptId": "es.kitchen_the_best_side_dish_for_meat",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2711791c6faa388b"
+    },
+    {
+      "conceptId": "es.kitchen_the_best_side_dish_for_pasta",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.510f163b91d54bf9"
+    },
+    {
+      "conceptId": "es.kitchen_the_best_side_dish_for_chicken",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.48da921322c2c541"
+    },
+    {
+      "conceptId": "es.kitchen_before_cooking_pasta_we_have_to",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3ce174c5fba237bb"
+    },
+    {
+      "conceptId": "es.kitchen_dry_the_sink_after_washing_the",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.30ffb32c0d811053"
+    },
+    {
+      "conceptId": "es.kitchen_lower_the_temperature_of_the_freezer",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e9e51ebfc0a0921b"
+    },
+    {
+      "conceptId": "es.kitchen_i_prefer_to_use_the_electric",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b4f82fc290d70604"
+    },
+    {
+      "conceptId": "es.kitchen_the_glasses_are_hanging_on_the",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2876adddac979ab4"
+    },
+    {
+      "conceptId": "es.kitchen_the_blender_is_in_the_cabinet",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e4ca1de1f09ac172"
+    },
+    {
+      "conceptId": "es.kitchen_the_mixer_is_in_the_drawer",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.eb5307cc15c02080"
+    },
+    {
+      "conceptId": "es.kitchen_the_coffee_maker_is_on_the",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a93b38b99d8246d7"
+    },
+    {
+      "conceptId": "es.kitchen_the_toaster_is_on_the_table",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6b0335fa9edc43e1"
+    },
+    {
+      "conceptId": "es.kitchen_the_sandwich_maker_is_in_the",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.baa1482023564f34"
+    },
+    {
+      "conceptId": "es.kitchen_the_pot_is_on_the_stove",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.54f17b7b7ebcacf0"
+    },
+    {
+      "conceptId": "es.kitchen_the_pan_is_in_the_sink",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2847617df995acd2"
+    },
+    {
+      "conceptId": "es.kitchen_the_casserole_dish_is_in_the",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.50d66bb4f79e64f6"
+    },
+    {
+      "conceptId": "es.kitchen_the_grill_is_on_the_patio",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.57dd704d655c56e9"
+    },
+    {
+      "conceptId": "es.kitchen_the_forks_and_knives_are_in",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f8bfb900b0cdd4f5"
+    },
+    {
+      "conceptId": "es.kitchen_we_need_to_wash_the_spoons",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e0ea9feaf87cf148"
+    },
+    {
+      "conceptId": "es.kitchen_the_cutting_board_is_in_the",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9ed8439d3f1e4c74"
+    },
+    {
+      "conceptId": "es.kitchen_the_glasses_and_cups_are_in",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5db755a2f1ed9506"
+    },
+    {
+      "conceptId": "es.kitchen_the_fruit_bowl_is_on_the",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1603cf58db57e21a"
+    },
+    {
+      "conceptId": "es.kitchen_deglaze_pan_white_wine",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ed7ebbfa3b65cf8a"
+    },
+    {
+      "conceptId": "es.kitchen_fold_egg_whites_not_stir",
+      "level": "B2",
+      "grammar": "'En lugar de + infinitivo' contrasta dos métodos; equivale al inglés 'rather than'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.de4f91203caab15a"
+    },
+    {
+      "conceptId": "es.kitchen_let_meat_rest_juices_redistribute",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.134e5aaa72be83b9"
+    },
+    {
+      "conceptId": "es.kitchen_blanch_vegetables_before_stir_fry",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5003669f4ade79c2"
+    },
+    {
+      "conceptId": "es.kitchen_score_duck_skin_fat_renders",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ebc16a9f28bd5c8f"
+    },
+    {
+      "conceptId": "es.kitchen_emulsified_vinaigrette_add_oil_slowly",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.444d848012cfd1c9"
+    },
+    {
+      "conceptId": "es.kitchen_sauce_breaks_rescue_cold_water",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e829ef081db8a0ae"
+    },
+    {
+      "conceptId": "es.kitchen_brine_chicken_overnight_juicier",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1dd3c750a7ed21fa"
+    },
+    {
+      "conceptId": "es.kitchen_caramelized_onions_deglaze_balsamic",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a52cac044b35dd5a"
+    },
+    {
+      "conceptId": "es.kitchen_make_day_ahead_flavors_meld",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0f7d72257b85ce9e"
+    },
+    {
+      "conceptId": "es.kitchen_temper_eggs_hot_liquid",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f44d33193ac632b0"
+    },
+    {
+      "conceptId": "es.kitchen_season_throughout_not_just_end",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6a63e5d8f0a14739"
+    },
+    {
+      "conceptId": "es.kitchen_prep_ingredients_before_start",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cf204a5bfe830a15"
+    },
+    {
+      "conceptId": "es.kitchen_umami_depth_fish_sauce_miso",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9342dcd683f9513d"
+    },
+    {
+      "conceptId": "es.kitchen_cure_salmon_salt_sugar_dill",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6abf32a6847140bc"
+    },
+    {
+      "conceptId": "es.kitchen_water_is_boiling",
+      "level": "A1",
+      "grammar": "'Estar + gerundio' expresa una acción que ocurre en este momento.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f1cb5e8b65cb19e4"
+    },
+    {
+      "conceptId": "es.kitchen_it_smells_good",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.aed0984d3ac4b6ba"
+    },
+    {
+      "conceptId": "es.kitchen_dinner_is_ready",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.17d7d2f9aefec8f5"
+    },
+    {
+      "conceptId": "es.kitchen_set_the_table",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f69ae1cd443efa56"
+    },
+    {
+      "conceptId": "es.kitchen_wash_your_hands",
+      "level": "A1",
+      "grammar": "'Lávate' es el imperativo reflexivo con el pronombre enclítico.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.286c5378919ba189"
+    },
+    {
+      "conceptId": "es.kitchen_turn_off_the_stove",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bdc784e2b8f0a018"
+    },
+    {
+      "conceptId": "es.kitchen_im_hungry",
+      "level": "A1",
+      "grammar": "En español se 'tiene' hambre ('tengo hambre'), no se 'está' hambriento.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5bb9911a912dd9ab"
+    },
+    {
+      "conceptId": "es.kitchen_cook_over_low_heat",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d4b8f90344583240"
+    },
+    {
+      "conceptId": "es.kitchen_es_muy_dulce",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8e4fdd3f3fc2e58a"
+    },
+    {
+      "conceptId": "es.kitchen_es_un_tomate_rojo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.412865ea168b1651"
+    },
+    {
+      "conceptId": "es.kitchen_la_sopa_esta_caliente",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8c38102239093309"
+    },
+    {
+      "conceptId": "es.kitchen_el_agua_esta_fria",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e078e759eba25297"
+    },
+    {
+      "conceptId": "es.kitchen_salad_with_avocado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a8d3f6a42f39eb90"
+    },
+    {
+      "conceptId": "es.kitchen_compre_una_botella_de_agua",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e7c3bf373821a981"
+    },
+    {
+      "conceptId": "es.kitchen_compre_una_docena_de_huevos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b8b3c213604aa9c4"
+    }
   ]
 }

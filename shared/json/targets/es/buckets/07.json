@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "07",
+  "concepts": {
+    "es.accommodation_a_que_hora_abre_el_restaurante": {
+      "conceptId": "es.accommodation_a_que_hora_abre_el_restaurante",
+      "id": "accommodation_a_que_hora_abre_el_restaurante",
+      "target": [
+        {
+          "text": "¿A qué hora abre el restaurante del hotel?",
+          "audioSlug": "a_que_hora_abre_el_restaurante_del_hotel"
+        }
+      ]
+    },
+    "es.accommodation_help_luggage": {
+      "conceptId": "es.accommodation_help_luggage",
+      "id": "accommodation_help_luggage",
+      "target": [
+        {
+          "text": "¿Podría ayudarme con mi equipaje?",
+          "audioSlug": "podria_ayudarme_con_mi_equipaje"
+        }
+      ]
+    },
+    "es.accommodation_la_recepcion_esta_en_la_planta_baja": {
+      "conceptId": "es.accommodation_la_recepcion_esta_en_la_planta_baja",
+      "id": "accommodation_la_recepcion_esta_en_la_planta_baja",
+      "target": [
+        {
+          "text": "La recepción está en la planta baja.",
+          "audioSlug": "la_recepcion_esta_en_la_planta_baja"
+        }
+      ]
+    },
+    "es.airport_unaccompanied_minor_procedure": {
+      "conceptId": "es.airport_unaccompanied_minor_procedure",
+      "id": "airport_unaccompanied_minor_procedure",
+      "target": [
+        {
+          "text": "Mi hija viaja sola por primera vez, ¿qué procedimientos aplican para menores no acompañados?",
+          "audioSlug": "mi_hija_viaja_sola_por_primera_vez_que_procedimientos_aplican_para_menores_no_acompanados"
+        }
+      ]
+    },
+    "es.cotidianidad_se_me_hizo_tarde": {
+      "conceptId": "es.cotidianidad_se_me_hizo_tarde",
+      "id": "cotidianidad_se_me_hizo_tarde",
+      "target": [
+        {
+          "text": "Se me hizo tarde.",
+          "audioSlug": "se_me_hizo_tarde"
+        }
+      ]
+    },
+    "es.health_debo_guardar_cama_hoy": {
+      "conceptId": "es.health_debo_guardar_cama_hoy",
+      "id": "health_debo_guardar_cama_hoy",
+      "target": [
+        {
+          "text": "Debo guardar cama hoy.",
+          "audioSlug": "debo_guardar_cama_hoy"
+        }
+      ]
+    },
+    "es.health_i_need_a_prescription": {
+      "conceptId": "es.health_i_need_a_prescription",
+      "id": "health_i_need_a_prescription",
+      "target": [
+        {
+          "text": "Necesito una receta médica.",
+          "audioSlug": "necesito_una_receta_medica"
+        }
+      ]
+    },
+    "es.music_started_late_still_impressive": {
+      "conceptId": "es.music_started_late_still_impressive",
+      "id": "music_started_late_still_impressive",
+      "target": [
+        {
+          "text": "Aprendió piano a los treinta y su técnica impresiona aún más.",
+          "audioSlug": "aprendio_piano_a_los_treinta_y_su_tecnica_impresiona_aun_mas"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_hay_un_pez_de_colores_en_el_estanque": {
+      "conceptId": "es.naturaleza_lugares_hay_un_pez_de_colores_en_el_estanque",
+      "id": "naturaleza_lugares_hay_un_pez_de_colores_en_el_estanque",
+      "target": [
+        {
+          "text": "Hay un pez de colores en el estanque.",
+          "audioSlug": "hay_un_pez_de_colores_en_el_estanque"
+        }
+      ]
+    },
+    "es.personal_info_dirijo_un_pequeno_equipo": {
+      "conceptId": "es.personal_info_dirijo_un_pequeno_equipo",
+      "id": "personal_info_dirijo_un_pequeno_equipo",
+      "target": [
+        {
+          "text": "Dirijo un pequeño equipo en el trabajo.",
+          "audioSlug": "dirijo_un_pequeno_equipo_en_el_trabajo"
+        }
+      ]
+    },
+    "es.restaurant_a_table_for_two": {
+      "conceptId": "es.restaurant_a_table_for_two",
+      "id": "restaurant_a_table_for_two",
+      "target": [
+        {
+          "text": "Una mesa para dos, por favor.",
+          "audioSlug": "una_mesa_para_dos_por_favor"
+        }
+      ]
+    },
+    "es.restaurant_los_ninos_toman_la_merienda_a_las_cinco": {
+      "conceptId": "es.restaurant_los_ninos_toman_la_merienda_a_las_cinco",
+      "id": "restaurant_los_ninos_toman_la_merienda_a_las_cinco",
+      "target": [
+        {
+          "text": "Los niños toman la merienda a las cinco.",
+          "audioSlug": "los_ninos_toman_la_merienda_a_las_cinco"
+        }
+      ]
+    },
+    "es.restaurant_tasting_menu_lactose_adapt": {
+      "conceptId": "es.restaurant_tasting_menu_lactose_adapt",
+      "id": "restaurant_tasting_menu_lactose_adapt",
+      "target": [
+        {
+          "text": "Soy intolerante a la lactosa, ¿podría la cocina adaptar algún plato del menú degustación?",
+          "audioSlug": "soy_intolerante_a_la_lactosa_podria_la_cocina_adaptar_algun_plato_del_menu_degustacion"
+        }
+      ]
+    },
+    "es.sitios_el_castillo_esta_en_la_colina": {
+      "conceptId": "es.sitios_el_castillo_esta_en_la_colina",
+      "id": "sitios_el_castillo_esta_en_la_colina",
+      "target": [
+        {
+          "text": "El castillo está en la colina.",
+          "audioSlug": "el_castillo_esta_en_la_colina"
+        }
+      ]
+    },
+    "es.technology_i_cant_connect_my_device_to": {
+      "conceptId": "es.technology_i_cant_connect_my_device_to",
+      "id": "technology_i_cant_connect_my_device_to",
+      "target": [
+        {
+          "text": "No puedo conectar mi dispositivo al Bluetooth.",
+          "audioSlug": "no_puedo_conectar_mi_dispositivo_al_bluetooth"
+        }
+      ]
+    },
+    "es.technology_the_platform_monetizes_user_attention": {
+      "conceptId": "es.technology_the_platform_monetizes_user_attention",
+      "id": "technology_the_platform_monetizes_user_attention",
+      "target": [
+        {
+          "text": "La plataforma monetiza la atención vendiendo publicidad dirigida por comportamiento.",
+          "audioSlug": "la_plataforma_monetiza_la_atencion_vendiendo_publicidad_dirigida_por_comportamiento"
+        }
+      ]
+    },
+    "es.transportation_rental_liability_provisions": {
+      "conceptId": "es.transportation_rental_liability_provisions",
+      "id": "transportation_rental_liability_provisions",
+      "target": [
+        {
+          "text": "Me gustaría revisar las cláusulas de responsabilidad en el contrato de alquiler antes de firmar.",
+          "audioSlug": "me_gustaria_revisar_las_clausulas_de_responsabilidad_en_el_contrato_de_alquiler_antes_de_firmar"
+        }
+      ]
+    }
+  }
+}

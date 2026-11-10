@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "d9",
+  "concepts": {
+    "en.animales_fish_live_in_water": {
+      "conceptId": "en.animales_fish_live_in_water",
+      "id": "animales_fish_live_in_water",
+      "target": [
+        {
+          "text": "Fish live in water.",
+          "audioSlug": "fish_live_in_water"
+        }
+      ]
+    },
+    "en.cuerpo_his_arms_are_strong": {
+      "conceptId": "en.cuerpo_his_arms_are_strong",
+      "id": "cuerpo_his_arms_are_strong",
+      "target": [
+        {
+          "text": "His arms are strong.",
+          "audioSlug": "his_arms_are_strong"
+        }
+      ]
+    },
+    "en.daily_routine_i_prepare_breakfast": {
+      "conceptId": "en.daily_routine_i_prepare_breakfast",
+      "id": "daily_routine_i_prepare_breakfast",
+      "target": [
+        {
+          "text": "I prepare breakfast for my kids.",
+          "audioSlug": "i_prepare_breakfast_for_my_kids"
+        }
+      ]
+    },
+    "en.museums_what_time_close": {
+      "conceptId": "en.museums_what_time_close",
+      "id": "museums_what_time_close",
+      "target": [
+        {
+          "text": "What time does the museum close?",
+          "audioSlug": "what_time_does_the_museum_close"
+        }
+      ]
+    }
+  }
+}

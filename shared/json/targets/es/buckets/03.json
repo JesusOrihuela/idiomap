@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "03",
+  "concepts": {
+    "es.cuerpo_tengo_los_hombros_anchos": {
+      "conceptId": "es.cuerpo_tengo_los_hombros_anchos",
+      "id": "cuerpo_tengo_los_hombros_anchos",
+      "target": [
+        {
+          "text": "Tengo los hombros anchos.",
+          "audioSlug": "tengo_los_hombros_anchos"
+        }
+      ]
+    },
+    "es.daily_routine_go_to_work_by_bus": {
+      "conceptId": "es.daily_routine_go_to_work_by_bus",
+      "id": "daily_routine_go_to_work_by_bus",
+      "target": [
+        {
+          "text": "Voy al trabajo en autobús.",
+          "audioSlug": "voy_al_trabajo_en_autobus"
+        }
+      ]
+    },
+    "es.directions_follow_the_signs": {
+      "conceptId": "es.directions_follow_the_signs",
+      "id": "directions_follow_the_signs",
+      "target": [
+        {
+          "text": "Sigue las señales.",
+          "audioSlug": "sigue_las_senales"
+        }
+      ]
+    },
+    "es.economia_la_empresa_contrato_a_diez_personas": {
+      "conceptId": "es.economia_la_empresa_contrato_a_diez_personas",
+      "id": "economia_la_empresa_contrato_a_diez_personas",
+      "target": [
+        {
+          "text": "La empresa contrató a diez personas.",
+          "audioSlug": "la_empresa_contrato_a_diez_personas"
+        }
+      ]
+    },
+    "es.economia_prefiero_pagar_siempre_en_efectivo": {
+      "conceptId": "es.economia_prefiero_pagar_siempre_en_efectivo",
+      "id": "economia_prefiero_pagar_siempre_en_efectivo",
+      "target": [
+        {
+          "text": "Prefiero pagar siempre en efectivo.",
+          "audioSlug": "prefiero_pagar_siempre_en_efectivo"
+        }
+      ]
+    },
+    "es.estudios_el_alumno_estudia_para_el_examen": {
+      "conceptId": "es.estudios_el_alumno_estudia_para_el_examen",
+      "id": "estudios_el_alumno_estudia_para_el_examen",
+      "target": [
+        {
+          "text": "La alumna estudia para el examen.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "la_alumna_estudia_para_el_examen"
+        },
+        {
+          "text": "El alumno estudia para el examen.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "el_alumno_estudia_para_el_examen"
+        }
+      ]
+    },
+    "es.greetings_convey_delegation_graciously_received": {
+      "conceptId": "es.greetings_convey_delegation_graciously_received",
+      "id": "greetings_convey_delegation_graciously_received",
+      "target": [
+        {
+          "text": "En nombre de la delegación, permítame expresar lo encantados que estamos por esta recepción.",
+          "audioSlug": "en_nombre_de_la_delegacion_permitame_expresar_lo_encantados_que_estamos_por_esta_recepcion"
+        }
+      ]
+    },
+    "es.greetings_im_fine_thanks": {
+      "conceptId": "es.greetings_im_fine_thanks",
+      "id": "greetings_im_fine_thanks",
+      "target": [
+        {
+          "text": "Estoy bien, gracias.",
+          "audioSlug": "estoy_bien_gracias"
+        }
+      ]
+    },
+    "es.kitchen_pass_me_the_cutting_board": {
+      "conceptId": "es.kitchen_pass_me_the_cutting_board",
+      "id": "kitchen_pass_me_the_cutting_board",
+      "target": [
+        {
+          "text": "Pásame la tabla de cortar.",
+          "audioSlug": "pasame_la_tabla_de_cortar"
+        }
+      ]
+    },
+    "es.personal_info_mi_hermano_esta_soltero": {
+      "conceptId": "es.personal_info_mi_hermano_esta_soltero",
+      "id": "personal_info_mi_hermano_esta_soltero",
+      "target": [
+        {
+          "text": "Mi hermano está soltero.",
+          "audioSlug": "mi_hermano_esta_soltero"
+        }
+      ]
+    },
+    "es.transportation_accessible_wheelchair_vehicle": {
+      "conceptId": "es.transportation_accessible_wheelchair_vehicle",
+      "id": "transportation_accessible_wheelchair_vehicle",
+      "target": [
+        {
+          "text": "Necesito un transporte accesible, ¿tienen vehículos adaptados para usuarios de silla de ruedas?",
+          "audioSlug": "necesito_un_transporte_accesible_tienen_vehiculos_adaptados_para_usuarios_de_silla_de_ruedas"
+        }
+      ]
+    },
+    "es.vestimenta_lleva_un_gorro_de_lana": {
+      "conceptId": "es.vestimenta_lleva_un_gorro_de_lana",
+      "id": "vestimenta_lleva_un_gorro_de_lana",
+      "target": [
+        {
+          "text": "Lleva un gorro de lana.",
+          "audioSlug": "lleva_un_gorro_de_lana"
+        }
+      ]
+    }
+  }
+}

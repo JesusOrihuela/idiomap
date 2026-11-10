@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "e8",
+  "concepts": {
+    "es.accommodation_unexplained_charge_bill": {
+      "conceptId": "es.accommodation_unexplained_charge_bill",
+      "id": "accommodation_unexplained_charge_bill",
+      "target": [
+        {
+          "text": "Hay un cargo en mi factura del que no me informaron al registrarme.",
+          "audioSlug": "hay_un_cargo_en_mi_factura_del_que_no_me_informaron_al_registrarme"
+        }
+      ]
+    },
+    "es.calendario_hay_que_continuar_con_el_plan_previsto": {
+      "conceptId": "es.calendario_hay_que_continuar_con_el_plan_previsto",
+      "id": "calendario_hay_que_continuar_con_el_plan_previsto",
+      "target": [
+        {
+          "text": "Hay que continuar con el plan previsto.",
+          "audioSlug": "hay_que_continuar_con_el_plan_previsto"
+        }
+      ]
+    },
+    "es.conversacion_los_demas_no_estan_de_acuerdo": {
+      "conceptId": "es.conversacion_los_demas_no_estan_de_acuerdo",
+      "id": "conversacion_los_demas_no_estan_de_acuerdo",
+      "target": [
+        {
+          "text": "Los demás no están de acuerdo.",
+          "audioSlug": "los_demas_no_estan_de_acuerdo"
+        }
+      ]
+    },
+    "es.descripciones_ella_es_mexicana": {
+      "conceptId": "es.descripciones_ella_es_mexicana",
+      "id": "descripciones_ella_es_mexicana",
+      "target": [
+        {
+          "text": "Ella es mexicana.",
+          "audioSlug": "ella_es_mexicana"
+        }
+      ]
+    },
+    "es.economia_el_consumo_de_energia_bajo_este_mes": {
+      "conceptId": "es.economia_el_consumo_de_energia_bajo_este_mes",
+      "id": "economia_el_consumo_de_energia_bajo_este_mes",
+      "target": [
+        {
+          "text": "El consumo de energía bajó este mes.",
+          "audioSlug": "el_consumo_de_energia_bajo_este_mes"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_cada_generacion_tiene_sus_retos": {
+      "conceptId": "es.pensamientos_opiniones_cada_generacion_tiene_sus_retos",
+      "id": "pensamientos_opiniones_cada_generacion_tiene_sus_retos",
+      "target": [
+        {
+          "text": "Cada generación tiene sus retos.",
+          "audioSlug": "cada_generacion_tiene_sus_retos"
+        }
+      ]
+    },
+    "es.restaurant_can_i_get_a_refill_on": {
+      "conceptId": "es.restaurant_can_i_get_a_refill_on",
+      "id": "restaurant_can_i_get_a_refill_on",
+      "target": [
+        {
+          "text": "¿Pueden rellenarme la bebida?",
+          "audioSlug": "pueden_rellenarme_la_bebida"
+        }
+      ]
+    },
+    "es.transportation_which_platform": {
+      "conceptId": "es.transportation_which_platform",
+      "id": "transportation_which_platform",
+      "target": [
+        {
+          "text": "¿De qué andén sale el tren a Madrid?",
+          "audioSlug": "de_que_anden_sale_el_tren_a_madrid"
+        }
+      ]
+    },
+    "es.viajes_el_paisaje_de_las_montanas_es_hermoso": {
+      "conceptId": "es.viajes_el_paisaje_de_las_montanas_es_hermoso",
+      "id": "viajes_el_paisaje_de_las_montanas_es_hermoso",
+      "target": [
+        {
+          "text": "El paisaje de las montañas es hermoso.",
+          "audioSlug": "el_paisaje_de_las_montanas_es_hermoso"
+        }
+      ]
+    }
+  }
+}

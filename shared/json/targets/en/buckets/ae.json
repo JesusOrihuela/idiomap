@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "ae",
+  "concepts": {
+    "en.health_i_cut_my_hand": {
+      "conceptId": "en.health_i_cut_my_hand",
+      "id": "health_i_cut_my_hand",
+      "target": [
+        {
+          "text": "I cut my hand.",
+          "audioSlug": "i_cut_my_hand"
+        }
+      ]
+    },
+    "en.music_learning_guitar_six_months": {
+      "conceptId": "en.music_learning_guitar_six_months",
+      "id": "music_learning_guitar_six_months",
+      "target": [
+        {
+          "text": "I've been learning to play the guitar for about six months.",
+          "audioSlug": "i_ve_been_learning_to_play_the_guitar_for_about_six_months"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_that_is_not_an_island": {
+      "conceptId": "en.naturaleza_lugares_that_is_not_an_island",
+      "id": "naturaleza_lugares_that_is_not_an_island",
+      "target": [
+        {
+          "text": "That is not an island.",
+          "audioSlug": "that_is_not_an_island"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_this_is_a_tree": {
+      "conceptId": "en.naturaleza_lugares_this_is_a_tree",
+      "id": "naturaleza_lugares_this_is_a_tree",
+      "target": [
+        {
+          "text": "This is a tree.",
+          "audioSlug": "this_is_a_tree"
+        }
+      ]
+    },
+    "en.profesiones_sister_is_scientist": {
+      "conceptId": "en.profesiones_sister_is_scientist",
+      "id": "profesiones_sister_is_scientist",
+      "target": [
+        {
+          "text": "My sister is a scientist.",
+          "audioSlug": "my_sister_is_a_scientist"
+        }
+      ]
+    },
+    "en.technology_the_streaming_quality_drops_when": {
+      "conceptId": "en.technology_the_streaming_quality_drops_when",
+      "id": "technology_the_streaming_quality_drops_when",
+      "target": [
+        {
+          "text": "The streaming quality drops whenever someone else uses the internet at home.",
+          "audioSlug": "the_streaming_quality_drops_whenever_someone_else_uses_the_internet_at_home"
+        }
+      ]
+    },
+    "en.transportation_penalty_charge_signage": {
+      "conceptId": "en.transportation_penalty_charge_signage",
+      "id": "transportation_penalty_charge_signage",
+      "target": [
+        {
+          "text": "I'd like to formally dispute this penalty charge. The parking restriction signage was inadequate.",
+          "audioSlug": "i_d_like_to_formally_dispute_this_penalty_charge_the_parking_restriction_signage_was_inadequate"
+        }
+      ]
+    },
+    "en.weather_its_windy": {
+      "conceptId": "en.weather_its_windy",
+      "id": "weather_its_windy",
+      "target": [
+        {
+          "text": "It's windy.",
+          "audioSlug": "it_s_windy"
+        }
+      ]
+    }
+  }
+}

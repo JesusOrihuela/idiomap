@@ -184,15 +184,13 @@ function _buildTrail(container, queue, position) {
     node.style.gridColumn = String(col);
     node.setAttribute('role', 'listitem');
 
-    // Pin de tema solo cuando cambia: repetirlo en cada nodo no agrupa, es ruido.
-    if (i === 0 || item.topic !== queue[i - 1].topic) {
-      var tp = document.createElement('div');
-      tp.className = 'ml-snode__topic';
-      tp.textContent = _topicLabel(item.topic);
-      // Narrow screens may ellipsize the longest names: keep the full one on hover.
-      tp.title = tp.textContent;
-      node.appendChild(tp);
-    }
+    // Cada paso lleva su tema arriba, aunque repita el del anterior.
+    var tp = document.createElement('div');
+    tp.className = 'ml-snode__topic';
+    tp.textContent = _topicLabel(item.topic);
+    // Narrow screens may ellipsize the longest names: keep the full one on hover.
+    tp.title = tp.textContent;
+    node.appendChild(tp);
 
     var bubble = isLink ? document.createElement('a') : document.createElement('div');
     bubble.className = 'ml-snode__bubble';
@@ -214,22 +212,19 @@ function _buildTrail(container, queue, position) {
     lbl.textContent = AppLang.t('act_' + item.activityId) || item.activityId;
     info.appendChild(lbl);
 
-    // Hecho / Repasar siempre; "Nuevo" solo en el paso accionable. Diez
-    // chips "Nuevo" no informan: el nodo pendiente ya se ve atenuado.
+    // Cada paso lleva su estado abajo: Hecho, Repasar o Nuevo.
     var state = document.createElement('span');
     if (isDone) {
       state.className = 'ml-snode__done-badge';
       state.textContent = AppLang.t('badge_done');
-      info.appendChild(state);
     } else if (!item.isNew) {
       state.className = 'ml-snode__review-badge';
       state.textContent = AppLang.t('badge_review');
-      info.appendChild(state);
-    } else if (isActive) {
+    } else {
       state.className = 'ml-snode__new-badge';
       state.textContent = AppLang.t('badge_new');
-      info.appendChild(state);
     }
+    info.appendChild(state);
     node.appendChild(info);
 
     container.appendChild(node);

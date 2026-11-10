@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "ef",
+  "concepts": {
+    "en.deportes_i_run_every_morning": {
+      "conceptId": "en.deportes_i_run_every_morning",
+      "id": "deportes_i_run_every_morning",
+      "target": [
+        {
+          "text": "I run every morning.",
+          "audioSlug": "i_run_every_morning"
+        }
+      ]
+    },
+    "en.fiesta_i_love_a_good_party": {
+      "conceptId": "en.fiesta_i_love_a_good_party",
+      "id": "fiesta_i_love_a_good_party",
+      "target": [
+        {
+          "text": "I love a good party.",
+          "audioSlug": "i_love_a_good_party"
+        }
+      ]
+    },
+    "en.greetings_hey_hows_life_treating_you": {
+      "conceptId": "en.greetings_hey_hows_life_treating_you",
+      "id": "greetings_hey_hows_life_treating_you",
+      "target": [
+        {
+          "text": "Hey, how's life treating you?",
+          "audioSlug": "hey_how_s_life_treating_you",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Hello, how's life treating you?",
+          "audioSlug": "hello_how_s_life_treating_you",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.kitchen_grill_the_meat": {
+      "conceptId": "en.kitchen_grill_the_meat",
+      "id": "kitchen_grill_the_meat",
+      "target": [
+        {
+          "text": "Grill the meat.",
+          "audioSlug": "grill_the_meat"
+        }
+      ]
+    },
+    "en.sitios_station_far_from_here": {
+      "conceptId": "en.sitios_station_far_from_here",
+      "id": "sitios_station_far_from_here",
+      "target": [
+        {
+          "text": "The station is far from here.",
+          "audioSlug": "the_station_is_far_from_here"
+        }
+      ]
+    },
+    "en.technology_dont_trust_all_the_information_you": {
+      "conceptId": "en.technology_dont_trust_all_the_information_you",
+      "id": "technology_dont_trust_all_the_information_you",
+      "target": [
+        {
+          "text": "Don't trust all the information you find on the internet.",
+          "audioSlug": "don_t_trust_all_the_information_you_find_on_the_internet"
+        }
+      ]
+    }
+  }
+}

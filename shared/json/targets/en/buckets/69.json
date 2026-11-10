@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "69",
+  "concepts": {
+    "en.accommodation_ac_not_working": {
+      "conceptId": "en.accommodation_ac_not_working",
+      "id": "accommodation_ac_not_working",
+      "target": [
+        {
+          "text": "The air conditioning isn't working.",
+          "audioSlug": "the_air_conditioning_isn_t_working"
+        }
+      ]
+    },
+    "en.accommodation_room_service_24h": {
+      "conceptId": "en.accommodation_room_service_24h",
+      "id": "accommodation_room_service_24h",
+      "target": [
+        {
+          "text": "Is there 24-hour room service?",
+          "audioSlug": "is_there_24_hour_room_service"
+        }
+      ]
+    },
+    "en.cotidianidad_i_am_late": {
+      "conceptId": "en.cotidianidad_i_am_late",
+      "id": "cotidianidad_i_am_late",
+      "target": [
+        {
+          "text": "I am late.",
+          "audioSlug": "i_am_late"
+        }
+      ]
+    },
+    "en.cotidianidad_it_s_late_i_have_to_go": {
+      "conceptId": "en.cotidianidad_it_s_late_i_have_to_go",
+      "id": "cotidianidad_it_s_late_i_have_to_go",
+      "target": [
+        {
+          "text": "It's late, I have to go.",
+          "audioSlug": "it_s_late_i_have_to_go"
+        }
+      ]
+    },
+    "en.greetings_mutual_acquaintance_conference": {
+      "conceptId": "en.greetings_mutual_acquaintance_conference",
+      "id": "greetings_mutual_acquaintance_conference",
+      "target": [
+        {
+          "text": "I believe we share a mutual acquaintance. You know Alex from the conference, I think?",
+          "audioSlug": "i_believe_we_share_a_mutual_acquaintance_you_know_alex_from_the_conference_i_think"
+        }
+      ]
+    },
+    "en.gym_dont_arch_your_back": {
+      "conceptId": "en.gym_dont_arch_your_back",
+      "id": "gym_dont_arch_your_back",
+      "target": [
+        {
+          "text": "Don't arch your back.",
+          "audioSlug": "don_t_arch_your_back"
+        }
+      ]
+    },
+    "en.health_there_is_no_cure_yet": {
+      "conceptId": "en.health_there_is_no_cure_yet",
+      "id": "health_there_is_no_cure_yet",
+      "target": [
+        {
+          "text": "There is no cure yet.",
+          "audioSlug": "there_is_no_cure_yet"
+        }
+      ]
+    },
+    "en.technology_where_is_the_tv_remote_control": {
+      "conceptId": "en.technology_where_is_the_tv_remote_control",
+      "id": "technology_where_is_the_tv_remote_control",
+      "target": [
+        {
+          "text": "Where is the TV remote control?",
+          "audioSlug": "where_is_the_tv_remote_control"
+        }
+      ]
+    },
+    "en.viajes_i_m_planning_my_next_vacation": {
+      "conceptId": "en.viajes_i_m_planning_my_next_vacation",
+      "id": "viajes_i_m_planning_my_next_vacation",
+      "target": [
+        {
+          "text": "I'm planning my next vacation.",
+          "labels": {
+            "region": "US"
+          },
+          "audioSlug": "i_m_planning_my_next_vacation"
+        },
+        {
+          "text": "I'm planning my next holiday.",
+          "labels": {
+            "region": "UK"
+          },
+          "audioSlug": "i_m_planning_my_next_holiday"
+        }
+      ]
+    }
+  }
+}

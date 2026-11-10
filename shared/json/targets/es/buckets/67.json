@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "67",
+  "concepts": {
+    "es.calendario_el_ano_tiene_doce_meses": {
+      "conceptId": "es.calendario_el_ano_tiene_doce_meses",
+      "id": "calendario_el_ano_tiene_doce_meses",
+      "target": [
+        {
+          "text": "El año tiene doce meses.",
+          "audioSlug": "el_ano_tiene_doce_meses"
+        }
+      ]
+    },
+    "es.conversacion_pregunto_si_terminamos": {
+      "conceptId": "es.conversacion_pregunto_si_terminamos",
+      "id": "conversacion_pregunto_si_terminamos",
+      "target": [
+        {
+          "text": "Nos preguntó si habíamos terminado el trabajo.",
+          "audioSlug": "nos_pregunto_si_habiamos_terminado_el_trabajo"
+        }
+      ]
+    },
+    "es.cotidianidad_merendamos_fruta": {
+      "conceptId": "es.cotidianidad_merendamos_fruta",
+      "id": "cotidianidad_merendamos_fruta",
+      "target": [
+        {
+          "text": "Merendamos fruta por la tarde.",
+          "audioSlug": "merendamos_fruta_por_la_tarde"
+        }
+      ]
+    },
+    "es.descripciones_la_caja_esta_vacia": {
+      "conceptId": "es.descripciones_la_caja_esta_vacia",
+      "id": "descripciones_la_caja_esta_vacia",
+      "target": [
+        {
+          "text": "La caja está vacía.",
+          "audioSlug": "la_caja_esta_vacia"
+        }
+      ]
+    },
+    "es.economia_el_comercio_en_esta_zona_es_activo": {
+      "conceptId": "es.economia_el_comercio_en_esta_zona_es_activo",
+      "id": "economia_el_comercio_en_esta_zona_es_activo",
+      "target": [
+        {
+          "text": "El comercio en esta zona es activo.",
+          "audioSlug": "el_comercio_en_esta_zona_es_activo"
+        }
+      ]
+    },
+    "es.emergencias_alguien_se_desmayo": {
+      "conceptId": "es.emergencias_alguien_se_desmayo",
+      "id": "emergencias_alguien_se_desmayo",
+      "target": [
+        {
+          "text": "Alguien se desmayó.",
+          "audioSlug": "alguien_se_desmayo"
+        }
+      ]
+    },
+    "es.emergencias_perdi_mi_pasaporte": {
+      "conceptId": "es.emergencias_perdi_mi_pasaporte",
+      "id": "emergencias_perdi_mi_pasaporte",
+      "target": [
+        {
+          "text": "Perdí mi pasaporte.",
+          "audioSlug": "perdi_mi_pasaporte"
+        }
+      ]
+    },
+    "es.estudios_la_prueba_final_fue_muy_dificil": {
+      "conceptId": "es.estudios_la_prueba_final_fue_muy_dificil",
+      "id": "estudios_la_prueba_final_fue_muy_dificil",
+      "target": [
+        {
+          "text": "La prueba final fue muy difícil.",
+          "audioSlug": "la_prueba_final_fue_muy_dificil"
+        }
+      ]
+    },
+    "es.estudios_no_quiero_suspender_esta_asignatura": {
+      "conceptId": "es.estudios_no_quiero_suspender_esta_asignatura",
+      "id": "estudios_no_quiero_suspender_esta_asignatura",
+      "target": [
+        {
+          "text": "No quiero suspender esta asignatura.",
+          "audioSlug": "no_quiero_suspender_esta_asignatura"
+        }
+      ]
+    },
+    "es.health_me_duele_la_garganta": {
+      "conceptId": "es.health_me_duele_la_garganta",
+      "id": "health_me_duele_la_garganta",
+      "target": [
+        {
+          "text": "Me duele la garganta.",
+          "audioSlug": "me_duele_la_garganta"
+        }
+      ]
+    },
+    "es.kitchen_flan_bake_bain_marie": {
+      "conceptId": "es.kitchen_flan_bake_bain_marie",
+      "id": "kitchen_flan_bake_bain_marie",
+      "target": [
+        {
+          "text": "El flan debe hornearse en baño maría dentro del horno.",
+          "audioSlug": "el_flan_debe_hornearse_en_bano_maria_dentro_del_horno"
+        }
+      ]
+    },
+    "es.kitchen_pica_la_cebolla_muy_fina": {
+      "conceptId": "es.kitchen_pica_la_cebolla_muy_fina",
+      "id": "kitchen_pica_la_cebolla_muy_fina",
+      "target": [
+        {
+          "text": "Pica la cebolla muy fina.",
+          "audioSlug": "pica_la_cebolla_muy_fina"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_un_mosquito_me_pico_anoche": {
+      "conceptId": "es.naturaleza_lugares_un_mosquito_me_pico_anoche",
+      "id": "naturaleza_lugares_un_mosquito_me_pico_anoche",
+      "target": [
+        {
+          "text": "Un mosquito me picó anoche.",
+          "audioSlug": "un_mosquito_me_pico_anoche"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_el_futuro_sera_diferente": {
+      "conceptId": "es.pensamientos_opiniones_el_futuro_sera_diferente",
+      "id": "pensamientos_opiniones_el_futuro_sera_diferente",
+      "target": [
+        {
+          "text": "Creo que el futuro será diferente.",
+          "audioSlug": "creo_que_el_futuro_sera_diferente"
+        }
+      ]
+    },
+    "es.personal_info_i_work_at_a_tech_company": {
+      "conceptId": "es.personal_info_i_work_at_a_tech_company",
+      "id": "personal_info_i_work_at_a_tech_company",
+      "target": [
+        {
+          "text": "Trabajo en una empresa de tecnología.",
+          "audioSlug": "trabajo_en_una_empresa_de_tecnologia"
+        }
+      ]
+    },
+    "es.restaurant_do_you_have_any_desserts_available": {
+      "conceptId": "es.restaurant_do_you_have_any_desserts_available",
+      "id": "restaurant_do_you_have_any_desserts_available",
+      "target": [
+        {
+          "text": "¿Tienen postres disponibles?",
+          "audioSlug": "tienen_postres_disponibles"
+        }
+      ]
+    },
+    "es.technology_clearing_the_cache_usually_fixes": {
+      "conceptId": "es.technology_clearing_the_cache_usually_fixes",
+      "id": "technology_clearing_the_cache_usually_fixes",
+      "target": [
+        {
+          "text": "Limpiar la caché suele solucionar los problemas de carga pero siguen volviendo.",
+          "audioSlug": "limpiar_la_cache_suele_solucionar_los_problemas_de_carga_pero_siguen_volviendo"
+        }
+      ]
+    }
+  }
+}

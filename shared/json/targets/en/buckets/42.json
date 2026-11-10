@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "42",
+  "concepts": {
+    "en.kitchen_the_mixer_is_in_the_cabinet": {
+      "conceptId": "en.kitchen_the_mixer_is_in_the_cabinet",
+      "id": "kitchen_the_mixer_is_in_the_cabinet",
+      "target": [
+        {
+          "text": "The mixer is in the cabinet.",
+          "audioSlug": "the_mixer_is_in_the_cabinet"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_this_is_a_beautiful_flower": {
+      "conceptId": "en.naturaleza_lugares_this_is_a_beautiful_flower",
+      "id": "naturaleza_lugares_this_is_a_beautiful_flower",
+      "target": [
+        {
+          "text": "This is a beautiful flower.",
+          "audioSlug": "this_is_a_beautiful_flower"
+        }
+      ]
+    },
+    "en.theater_what_time_performance": {
+      "conceptId": "en.theater_what_time_performance",
+      "id": "theater_what_time_performance",
+      "target": [
+        {
+          "text": "What time does the performance start?",
+          "audioSlug": "what_time_does_the_performance_start"
+        }
+      ]
+    },
+    "en.weather_its_sunny": {
+      "conceptId": "en.weather_its_sunny",
+      "id": "weather_its_sunny",
+      "target": [
+        {
+          "text": "It's sunny.",
+          "audioSlug": "it_s_sunny"
+        }
+      ]
+    }
+  }
+}

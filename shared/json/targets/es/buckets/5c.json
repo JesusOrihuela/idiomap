@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "5c",
+  "concepts": {
+    "es.conversacion_no_quiero_quejarme_demasiado": {
+      "conceptId": "es.conversacion_no_quiero_quejarme_demasiado",
+      "id": "conversacion_no_quiero_quejarme_demasiado",
+      "target": [
+        {
+          "text": "No quiero quejarme demasiado.",
+          "audioSlug": "no_quiero_quejarme_demasiado"
+        }
+      ]
+    },
+    "es.daily_routine_dinner_at_nine": {
+      "conceptId": "es.daily_routine_dinner_at_nine",
+      "id": "daily_routine_dinner_at_nine",
+      "target": [
+        {
+          "text": "Ceno a las nueve.",
+          "audioSlug": "ceno_a_las_nueve"
+        }
+      ]
+    },
+    "es.directions_hay_poca_distancia_hasta_la_playa": {
+      "conceptId": "es.directions_hay_poca_distancia_hasta_la_playa",
+      "id": "directions_hay_poca_distancia_hasta_la_playa",
+      "target": [
+        {
+          "text": "Hay poca distancia hasta la playa.",
+          "audioSlug": "hay_poca_distancia_hasta_la_playa"
+        }
+      ]
+    },
+    "es.emociones_i_love_you_very_much": {
+      "conceptId": "es.emociones_i_love_you_very_much",
+      "id": "emociones_i_love_you_very_much",
+      "target": [
+        {
+          "text": "Te quiero mucho.",
+          "audioSlug": "te_quiero_mucho"
+        }
+      ]
+    },
+    "es.fiesta_its_a_surprise_party": {
+      "conceptId": "es.fiesta_its_a_surprise_party",
+      "id": "fiesta_its_a_surprise_party",
+      "target": [
+        {
+          "text": "Es una fiesta sorpresa.",
+          "audioSlug": "es_una_fiesta_sorpresa"
+        }
+      ]
+    },
+    "es.greetings_allow_me_to_introduce_dr": {
+      "conceptId": "es.greetings_allow_me_to_introduce_dr",
+      "id": "greetings_allow_me_to_introduce_dr",
+      "target": [
+        {
+          "text": "Permítame presentarle al Dr. Martínez, quien dirigirá la sesión de esta tarde.",
+          "audioSlug": "permitame_presentarle_al_dr_martinez_quien_dirigira_la_sesion_de_esta_tarde",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "Permítame presentarle a la Dra. Martínez, quien dirigirá la sesión de esta tarde.",
+          "audioSlug": "permitame_presentarle_a_la_dra_martinez_quien_dirigira_la_sesion_de_esta_tarde",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.greetings_looking_forward_introduction_work_precedes": {
+      "conceptId": "es.greetings_looking_forward_introduction_work_precedes",
+      "id": "greetings_looking_forward_introduction_work_precedes",
+      "target": [
+        {
+          "text": "Confieso que esperaba este encuentro con entusiasmo.",
+          "audioSlug": "confieso_que_esperaba_este_encuentro_con_entusiasmo"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_es_una_idea_loca": {
+      "conceptId": "es.pensamientos_opiniones_es_una_idea_loca",
+      "id": "pensamientos_opiniones_es_una_idea_loca",
+      "target": [
+        {
+          "text": "Es una idea loca.",
+          "audioSlug": "es_una_idea_loca"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_lo_dudo_mucho": {
+      "conceptId": "es.pensamientos_opiniones_lo_dudo_mucho",
+      "id": "pensamientos_opiniones_lo_dudo_mucho",
+      "target": [
+        {
+          "text": "Lo dudo mucho.",
+          "audioSlug": "lo_dudo_mucho"
+        }
+      ]
+    },
+    "es.tiempo_libre_salimos_de_paseo": {
+      "conceptId": "es.tiempo_libre_salimos_de_paseo",
+      "id": "tiempo_libre_salimos_de_paseo",
+      "target": [
+        {
+          "text": "Salimos de paseo.",
+          "audioSlug": "salimos_de_paseo"
+        }
+      ]
+    }
+  }
+}

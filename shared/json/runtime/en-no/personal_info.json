@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-no",
+  "topic": "personal_info",
+  "phrases": [
+    {
+      "id": "personal_info_my_name_is",
+      "conceptId": "no.personal_info_my_name_is",
+      "sourceId": "en.s.0bada359414fcef3",
+      "source": "My name is Kari.",
+      "level": "A1",
+      "grammar": "Bokmål heter, nynorsk heiter, samme språk.",
+      "target": [
+        {
+          "text": "Jeg heter Kari.",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "jeg_heter_kari"
+        },
+        {
+          "text": "Eg heiter Kari.",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "eg_heiter_kari"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_i_am_from_norway",
+      "conceptId": "no.personal_info_i_am_from_norway",
+      "sourceId": "en.s.ab86b6ec1c5d1f53",
+      "source": "I am from Norway.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Jeg er fra Norge.",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "jeg_er_fra_norge"
+        },
+        {
+          "text": "Eg er frå Noreg.",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "eg_er_fra_noreg"
+        }
+      ]
+    },
+    {
+      "id": "personal_info_i_am_a_student",
+      "conceptId": "no.personal_info_i_am_a_student",
+      "sourceId": "en.s.aef259d3cdd5fa71",
+      "source": "I am a student.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Jeg er student.",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "jeg_er_student"
+        },
+        {
+          "text": "Eg er student.",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "eg_er_student"
+        }
+      ]
+    }
+  ]
+}

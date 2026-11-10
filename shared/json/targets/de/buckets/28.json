@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "bucket": "28",
+  "concepts": {
+    "de.calendario_i_arrive_in_january": {
+      "conceptId": "de.calendario_i_arrive_in_january",
+      "id": "calendario_i_arrive_in_january",
+      "target": [
+        {
+          "text": "Ich komme im Januar an.",
+          "labels": {
+            "region": "Deutschland"
+          },
+          "audioSlug": "ich_komme_im_januar_an"
+        },
+        {
+          "text": "Ich komme im Jänner an.",
+          "labels": {
+            "region": "Österreich"
+          },
+          "audioSlug": "ich_komme_im_janner_an"
+        }
+      ]
+    }
+  }
+}

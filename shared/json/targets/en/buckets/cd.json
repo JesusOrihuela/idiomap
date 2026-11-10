@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "cd",
+  "concepts": {
+    "en.deportes_she_is_a_great_player": {
+      "conceptId": "en.deportes_she_is_a_great_player",
+      "id": "deportes_she_is_a_great_player",
+      "target": [
+        {
+          "text": "She is a great player.",
+          "audioSlug": "she_is_a_great_player"
+        }
+      ]
+    },
+    "en.economia_the_property_is_mine": {
+      "conceptId": "en.economia_the_property_is_mine",
+      "id": "economia_the_property_is_mine",
+      "target": [
+        {
+          "text": "The property is mine.",
+          "audioSlug": "the_property_is_mine"
+        }
+      ]
+    },
+    "en.estudios_education_is_very_important": {
+      "conceptId": "en.estudios_education_is_very_important",
+      "id": "estudios_education_is_very_important",
+      "target": [
+        {
+          "text": "Education is very important.",
+          "audioSlug": "education_is_very_important"
+        }
+      ]
+    },
+    "en.kitchen_the_water_is_cold": {
+      "conceptId": "en.kitchen_the_water_is_cold",
+      "id": "kitchen_the_water_is_cold",
+      "target": [
+        {
+          "text": "The water is cold.",
+          "audioSlug": "the_water_is_cold"
+        }
+      ]
+    },
+    "en.kitchen_wash_your_hands": {
+      "conceptId": "en.kitchen_wash_your_hands",
+      "id": "kitchen_wash_your_hands",
+      "target": [
+        {
+          "text": "Wash your hands before eating.",
+          "audioSlug": "wash_your_hands_before_eating"
+        }
+      ]
+    },
+    "en.oficina_everyone_has_a_role_to_play": {
+      "conceptId": "en.oficina_everyone_has_a_role_to_play",
+      "id": "oficina_everyone_has_a_role_to_play",
+      "target": [
+        {
+          "text": "Everyone has a role to play.",
+          "audioSlug": "everyone_has_a_role_to_play"
+        }
+      ]
+    },
+    "en.restaurant_could_i_have_this_dish_without": {
+      "conceptId": "en.restaurant_could_i_have_this_dish_without",
+      "id": "restaurant_could_i_have_this_dish_without",
+      "target": [
+        {
+          "text": "Could I have this dish without onions, please?",
+          "audioSlug": "could_i_have_this_dish_without_onions_please",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can I have this dish without onions, please?",
+          "audioSlug": "can_i_have_this_dish_without_onions_please",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.supermarket_return_seal_broken_spoiled": {
+      "conceptId": "en.supermarket_return_seal_broken_spoiled",
+      "id": "supermarket_return_seal_broken_spoiled",
+      "target": [
+        {
+          "text": "I'd like to return this. The seal was broken and the product has spoiled.",
+          "audioSlug": "i_d_like_to_return_this_the_seal_was_broken_and_the_product_has_spoiled"
+        }
+      ]
+    }
+  }
+}

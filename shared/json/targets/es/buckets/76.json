@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "76",
+  "concepts": {
+    "es.conversacion_no_dije_tal_cosa": {
+      "conceptId": "es.conversacion_no_dije_tal_cosa",
+      "id": "conversacion_no_dije_tal_cosa",
+      "target": [
+        {
+          "text": "No dije tal cosa.",
+          "audioSlug": "no_dije_tal_cosa"
+        }
+      ]
+    },
+    "es.cuerpo_tiene_la_espalda_ancha": {
+      "conceptId": "es.cuerpo_tiene_la_espalda_ancha",
+      "id": "cuerpo_tiene_la_espalda_ancha",
+      "target": [
+        {
+          "text": "Tiene la espalda ancha.",
+          "audioSlug": "tiene_la_espalda_ancha"
+        }
+      ]
+    },
+    "es.daily_routine_los_domingos_me_quedo_en_casa": {
+      "conceptId": "es.daily_routine_los_domingos_me_quedo_en_casa",
+      "id": "daily_routine_los_domingos_me_quedo_en_casa",
+      "target": [
+        {
+          "text": "Los domingos me quedo en casa.",
+          "audioSlug": "los_domingos_me_quedo_en_casa"
+        }
+      ]
+    },
+    "es.family_mis_primos_son_gemelos": {
+      "conceptId": "es.family_mis_primos_son_gemelos",
+      "id": "family_mis_primos_son_gemelos",
+      "target": [
+        {
+          "text": "Mis primos son gemelos.",
+          "audioSlug": "mis_primos_son_gemelos"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_la_hierba_es_verde": {
+      "conceptId": "es.naturaleza_lugares_la_hierba_es_verde",
+      "id": "naturaleza_lugares_la_hierba_es_verde",
+      "target": [
+        {
+          "text": "La hierba es verde.",
+          "audioSlug": "la_hierba_es_verde"
+        }
+      ]
+    },
+    "es.supermarket_i_dont_know_which_fish_to": {
+      "conceptId": "es.supermarket_i_dont_know_which_fish_to",
+      "id": "supermarket_i_dont_know_which_fish_to",
+      "target": [
+        {
+          "text": "No sé qué pescado comprar.",
+          "audioSlug": "no_se_que_pescado_comprar"
+        }
+      ]
+    },
+    "es.theater_enjoy_going_theater": {
+      "conceptId": "es.theater_enjoy_going_theater",
+      "id": "theater_enjoy_going_theater",
+      "target": [
+        {
+          "text": "Me encanta ir al teatro.",
+          "audioSlug": "me_encanta_ir_al_teatro"
+        }
+      ]
+    },
+    "es.transportation_stop_here_please": {
+      "conceptId": "es.transportation_stop_here_please",
+      "id": "transportation_stop_here_please",
+      "target": [
+        {
+          "text": "Pare aquí, por favor.",
+          "audioSlug": "pare_aqui_por_favor"
+        }
+      ]
+    }
+  }
+}

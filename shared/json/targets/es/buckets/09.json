@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "09",
+  "concepts": {
+    "es.accommodation_id_like_to_check_in": {
+      "conceptId": "es.accommodation_id_like_to_check_in",
+      "id": "accommodation_id_like_to_check_in",
+      "target": [
+        {
+          "text": "Quisiera registrarme, por favor.",
+          "audioSlug": "quisiera_registrarme_por_favor"
+        }
+      ]
+    },
+    "es.accountability_we_are_facing_a_cash_flow": {
+      "conceptId": "es.accountability_we_are_facing_a_cash_flow",
+      "id": "accountability_we_are_facing_a_cash_flow",
+      "target": [
+        {
+          "text": "Estamos enfrentando un problema de flujo de efectivo.",
+          "audioSlug": "estamos_enfrentando_un_problema_de_flujo_de_efectivo"
+        }
+      ]
+    },
+    "es.conversacion_que_te_preocupa": {
+      "conceptId": "es.conversacion_que_te_preocupa",
+      "id": "conversacion_que_te_preocupa",
+      "target": [
+        {
+          "text": "¿Qué te preocupa?",
+          "audioSlug": "que_te_preocupa",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Qué le preocupa?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "que_le_preocupa"
+        }
+      ]
+    },
+    "es.family_parents_divorced": {
+      "conceptId": "es.family_parents_divorced",
+      "id": "family_parents_divorced",
+      "target": [
+        {
+          "text": "Mis padres están divorciados.",
+          "audioSlug": "mis_padres_estan_divorciados"
+        }
+      ]
+    },
+    "es.family_suelo_visitar_a_mi_abuela_los_domingos": {
+      "conceptId": "es.family_suelo_visitar_a_mi_abuela_los_domingos",
+      "id": "family_suelo_visitar_a_mi_abuela_los_domingos",
+      "target": [
+        {
+          "text": "Suelo visitar a mi abuela los domingos.",
+          "audioSlug": "suelo_visitar_a_mi_abuela_los_domingos"
+        }
+      ]
+    },
+    "es.kitchen_desayuno_tostadas_con_mermelada": {
+      "conceptId": "es.kitchen_desayuno_tostadas_con_mermelada",
+      "id": "kitchen_desayuno_tostadas_con_mermelada",
+      "target": [
+        {
+          "text": "Desayuno tostadas con mermelada.",
+          "audioSlug": "desayuno_tostadas_con_mermelada"
+        }
+      ]
+    },
+    "es.movies_what_kind_you_like": {
+      "conceptId": "es.movies_what_kind_you_like",
+      "id": "movies_what_kind_you_like",
+      "target": [
+        {
+          "text": "¿Qué tipo de películas te gustan?",
+          "audioSlug": "que_tipo_de_peliculas_te_gustan"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_es_un_paisaje_hermoso": {
+      "conceptId": "es.naturaleza_lugares_es_un_paisaje_hermoso",
+      "id": "naturaleza_lugares_es_un_paisaje_hermoso",
+      "target": [
+        {
+          "text": "Es un paisaje hermoso.",
+          "audioSlug": "es_un_paisaje_hermoso"
+        }
+      ]
+    },
+    "es.oficina_cuando_esta_programada_la_reunion": {
+      "conceptId": "es.oficina_cuando_esta_programada_la_reunion",
+      "id": "oficina_cuando_esta_programada_la_reunion",
+      "target": [
+        {
+          "text": "¿Cuándo está programada la reunión?",
+          "audioSlug": "cuando_esta_programada_la_reunion"
+        }
+      ]
+    },
+    "es.profesiones_mi_primo_es_mecanico": {
+      "conceptId": "es.profesiones_mi_primo_es_mecanico",
+      "id": "profesiones_mi_primo_es_mecanico",
+      "target": [
+        {
+          "text": "Mi primo es mecánico.",
+          "audioSlug": "mi_primo_es_mecanico"
+        }
+      ]
+    },
+    "es.restaurant_move_quieter_table": {
+      "conceptId": "es.restaurant_move_quieter_table",
+      "id": "restaurant_move_quieter_table",
+      "target": [
+        {
+          "text": "Nuestra mesa es un poco ruidosa, ¿podríamos movernos a un lugar más tranquilo?",
+          "audioSlug": "nuestra_mesa_es_un_poco_ruidosa_podriamos_movernos_a_un_lugar_mas_tranquilo"
+        }
+      ]
+    },
+    "es.survival_i_have_a_question": {
+      "conceptId": "es.survival_i_have_a_question",
+      "id": "survival_i_have_a_question",
+      "target": [
+        {
+          "text": "Tengo una pregunta.",
+          "audioSlug": "tengo_una_pregunta"
+        }
+      ]
+    },
+    "es.technology_my_phone_keeps_overheating_when": {
+      "conceptId": "es.technology_my_phone_keeps_overheating_when",
+      "id": "technology_my_phone_keeps_overheating_when",
+      "target": [
+        {
+          "text": "Mi teléfono se sobrecalienta cuando tengo varias aplicaciones abiertas.",
+          "audioSlug": "mi_telefono_se_sobrecalienta_cuando_tengo_varias_aplicaciones_abiertas"
+        }
+      ]
+    }
+  }
+}

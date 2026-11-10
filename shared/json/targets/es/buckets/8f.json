@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "8f",
+  "concepts": {
+    "es.descripciones_es_dificil": {
+      "conceptId": "es.descripciones_es_dificil",
+      "id": "descripciones_es_dificil",
+      "target": [
+        {
+          "text": "Es difícil.",
+          "audioSlug": "es_dificil"
+        }
+      ]
+    },
+    "es.descripciones_es_enorme": {
+      "conceptId": "es.descripciones_es_enorme",
+      "id": "descripciones_es_enorme",
+      "target": [
+        {
+          "text": "Es enorme.",
+          "audioSlug": "es_enorme"
+        }
+      ]
+    },
+    "es.economia_gano_lo_suficiente_para_vivir": {
+      "conceptId": "es.economia_gano_lo_suficiente_para_vivir",
+      "id": "economia_gano_lo_suficiente_para_vivir",
+      "target": [
+        {
+          "text": "Gano lo suficiente para vivir.",
+          "audioSlug": "gano_lo_suficiente_para_vivir"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_maybe_youre_right": {
+      "conceptId": "es.pensamientos_opiniones_maybe_youre_right",
+      "id": "pensamientos_opiniones_maybe_youre_right",
+      "target": [
+        {
+          "text": "Quizás tengas razón.",
+          "audioSlug": "quizas_tengas_razon"
+        }
+      ]
+    },
+    "es.restaurant_i_would_like_a_coffee": {
+      "conceptId": "es.restaurant_i_would_like_a_coffee",
+      "id": "restaurant_i_would_like_a_coffee",
+      "target": [
+        {
+          "text": "Quiero un café.",
+          "audioSlug": "quiero_un_cafe"
+        }
+      ]
+    },
+    "es.sitios_viven_en_las_afueras_de_la_ciudad": {
+      "conceptId": "es.sitios_viven_en_las_afueras_de_la_ciudad",
+      "id": "sitios_viven_en_las_afueras_de_la_ciudad",
+      "target": [
+        {
+          "text": "Viven en las afueras de la ciudad.",
+          "audioSlug": "viven_en_las_afueras_de_la_ciudad"
+        }
+      ]
+    },
+    "es.supermarket_cuanto_cuesta_el_kilo_de_manzanas": {
+      "conceptId": "es.supermarket_cuanto_cuesta_el_kilo_de_manzanas",
+      "id": "supermarket_cuanto_cuesta_el_kilo_de_manzanas",
+      "target": [
+        {
+          "text": "¿Cuánto cuesta el kilo de manzanas?",
+          "audioSlug": "cuanto_cuesta_el_kilo_de_manzanas"
+        }
+      ]
+    },
+    "es.supermarket_pon_un_bote_de_tomate_frito": {
+      "conceptId": "es.supermarket_pon_un_bote_de_tomate_frito",
+      "id": "supermarket_pon_un_bote_de_tomate_frito",
+      "target": [
+        {
+          "text": "Pon un bote de tomate frito.",
+          "audioSlug": "pon_un_bote_de_tomate_frito"
+        }
+      ]
+    },
+    "es.technology_i_enabled_dark_mode_to_reduce": {
+      "conceptId": "es.technology_i_enabled_dark_mode_to_reduce",
+      "id": "technology_i_enabled_dark_mode_to_reduce",
+      "target": [
+        {
+          "text": "Activé el modo oscuro para reducir la fatiga visual y consumo de batería.",
+          "audioSlug": "active_el_modo_oscuro_para_reducir_la_fatiga_visual_y_consumo_de_bateria"
+        }
+      ]
+    }
+  }
+}

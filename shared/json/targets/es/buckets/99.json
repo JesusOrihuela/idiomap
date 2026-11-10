@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "99",
+  "concepts": {
+    "es.airport_check_luggage": {
+      "conceptId": "es.airport_check_luggage",
+      "id": "airport_check_luggage",
+      "target": [
+        {
+          "text": "Necesito facturar mi equipaje.",
+          "audioSlug": "necesito_facturar_mi_equipaje"
+        }
+      ]
+    },
+    "es.daily_routine_por_la_manana_ayudo_a_vestir_a_los_ninos": {
+      "conceptId": "es.daily_routine_por_la_manana_ayudo_a_vestir_a_los_ninos",
+      "id": "daily_routine_por_la_manana_ayudo_a_vestir_a_los_ninos",
+      "target": [
+        {
+          "text": "Por la mañana ayudo a vestir a los niños.",
+          "audioSlug": "por_la_manana_ayudo_a_vestir_a_los_ninos"
+        }
+      ]
+    },
+    "es.describiendo_personas_mi_hermana_es_delgada": {
+      "conceptId": "es.describiendo_personas_mi_hermana_es_delgada",
+      "id": "describiendo_personas_mi_hermana_es_delgada",
+      "target": [
+        {
+          "text": "Mi hermana es delgada.",
+          "audioSlug": "mi_hermana_es_delgada"
+        }
+      ]
+    },
+    "es.economia_trabaja_en_una_agencia_de_viajes": {
+      "conceptId": "es.economia_trabaja_en_una_agencia_de_viajes",
+      "id": "economia_trabaja_en_una_agencia_de_viajes",
+      "target": [
+        {
+          "text": "Trabaja en una agencia de viajes.",
+          "audioSlug": "trabaja_en_una_agencia_de_viajes"
+        }
+      ]
+    },
+    "es.emergencias_hay_un_incendio": {
+      "conceptId": "es.emergencias_hay_un_incendio",
+      "id": "emergencias_hay_un_incendio",
+      "target": [
+        {
+          "text": "¡Hay un incendio!",
+          "audioSlug": "hay_un_incendio"
+        }
+      ]
+    },
+    "es.emociones_i_am_afraid": {
+      "conceptId": "es.emociones_i_am_afraid",
+      "id": "emociones_i_am_afraid",
+      "target": [
+        {
+          "text": "Tengo miedo.",
+          "audioSlug": "tengo_miedo"
+        }
+      ]
+    },
+    "es.estudios_es_mi_companero_de_clase": {
+      "conceptId": "es.estudios_es_mi_companero_de_clase",
+      "id": "estudios_es_mi_companero_de_clase",
+      "target": [
+        {
+          "text": "Es mi compañero de clase.",
+          "audioSlug": "es_mi_companero_de_clase"
+        }
+      ]
+    },
+    "es.gym_dont_overdo_it_with_the_weight": {
+      "conceptId": "es.gym_dont_overdo_it_with_the_weight",
+      "id": "gym_dont_overdo_it_with_the_weight",
+      "target": [
+        {
+          "text": "No te excedas con el peso.",
+          "audioSlug": "no_te_excedas_con_el_peso"
+        }
+      ]
+    },
+    "es.health_me_pusieron_una_vacuna_ayer": {
+      "conceptId": "es.health_me_pusieron_una_vacuna_ayer",
+      "id": "health_me_pusieron_una_vacuna_ayer",
+      "target": [
+        {
+          "text": "Me pusieron una vacuna ayer.",
+          "audioSlug": "me_pusieron_una_vacuna_ayer"
+        }
+      ]
+    },
+    "es.kitchen_se_me_quemo_el_arroz": {
+      "conceptId": "es.kitchen_se_me_quemo_el_arroz",
+      "id": "kitchen_se_me_quemo_el_arroz",
+      "target": [
+        {
+          "text": "Se me quemó el arroz.",
+          "audioSlug": "se_me_quemo_el_arroz"
+        }
+      ]
+    },
+    "es.viajes_me_encanta_viajar": {
+      "conceptId": "es.viajes_me_encanta_viajar",
+      "id": "viajes_me_encanta_viajar",
+      "target": [
+        {
+          "text": "Me encanta viajar.",
+          "audioSlug": "me_encanta_viajar"
+        }
+      ]
+    },
+    "es.viajes_necesito_hacer_la_maleta": {
+      "conceptId": "es.viajes_necesito_hacer_la_maleta",
+      "id": "viajes_necesito_hacer_la_maleta",
+      "target": [
+        {
+          "text": "Necesito hacer la maleta.",
+          "audioSlug": "necesito_hacer_la_maleta"
+        }
+      ]
+    }
+  }
+}

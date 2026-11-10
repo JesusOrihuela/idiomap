@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "no",
+  "bucket": "be",
+  "concepts": {
+    "no.survival_do_you_speak_english": {
+      "conceptId": "no.survival_do_you_speak_english",
+      "id": "survival_do_you_speak_english",
+      "target": [
+        {
+          "text": "Unnskyld, snakker du engelsk?",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "unnskyld_snakker_du_engelsk"
+        },
+        {
+          "text": "Orsak, snakkar du engelsk?",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "orsak_snakkar_du_engelsk"
+        }
+      ]
+    }
+  }
+}

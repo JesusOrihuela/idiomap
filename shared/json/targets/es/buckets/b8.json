@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "b8",
+  "concepts": {
+    "es.conversacion_no_quiero_discutir_por_eso": {
+      "conceptId": "es.conversacion_no_quiero_discutir_por_eso",
+      "id": "conversacion_no_quiero_discutir_por_eso",
+      "target": [
+        {
+          "text": "No quiero discutir por eso.",
+          "audioSlug": "no_quiero_discutir_por_eso"
+        }
+      ]
+    },
+    "es.daily_routine_i_study_english_every_day": {
+      "conceptId": "es.daily_routine_i_study_english_every_day",
+      "id": "daily_routine_i_study_english_every_day",
+      "target": [
+        {
+          "text": "Estudio inglés todos los días.",
+          "audioSlug": "estudio_ingles_todos_los_dias"
+        }
+      ]
+    },
+    "es.daily_routine_me_levanto_a_las_siete": {
+      "conceptId": "es.daily_routine_me_levanto_a_las_siete",
+      "id": "daily_routine_me_levanto_a_las_siete",
+      "target": [
+        {
+          "text": "Me levanto a las siete de la mañana.",
+          "audioSlug": "me_levanto_a_las_siete_de_la_manana"
+        }
+      ]
+    },
+    "es.describiendo_personas_es_una_persona_alegre": {
+      "conceptId": "es.describiendo_personas_es_una_persona_alegre",
+      "id": "describiendo_personas_es_una_persona_alegre",
+      "target": [
+        {
+          "text": "Es una persona muy alegre.",
+          "audioSlug": "es_una_persona_muy_alegre"
+        }
+      ]
+    },
+    "es.directions_el_sol_se_pone_por_el_oeste": {
+      "conceptId": "es.directions_el_sol_se_pone_por_el_oeste",
+      "id": "directions_el_sol_se_pone_por_el_oeste",
+      "target": [
+        {
+          "text": "El sol se pone por el oeste.",
+          "audioSlug": "el_sol_se_pone_por_el_oeste"
+        }
+      ]
+    },
+    "es.emociones_me_hace_reir": {
+      "conceptId": "es.emociones_me_hace_reir",
+      "id": "emociones_me_hace_reir",
+      "target": [
+        {
+          "text": "Me hace reír.",
+          "audioSlug": "me_hace_reir"
+        }
+      ]
+    },
+    "es.gym_is_there_a_specific_order_i": {
+      "conceptId": "es.gym_is_there_a_specific_order_i",
+      "id": "gym_is_there_a_specific_order_i",
+      "target": [
+        {
+          "text": "¿Hay un orden específico que debería seguir al usar las máquinas?",
+          "audioSlug": "hay_un_orden_especifico_que_deberia_seguir_al_usar_las_maquinas"
+        }
+      ]
+    },
+    "es.music_love_this_song_who_sings": {
+      "conceptId": "es.music_love_this_song_who_sings",
+      "id": "music_love_this_song_who_sings",
+      "target": [
+        {
+          "text": "Me encanta esta canción, ¿quién la canta?",
+          "audioSlug": "me_encanta_esta_cancion_quien_la_canta"
+        }
+      ]
+    },
+    "es.personal_info_your_phone_number": {
+      "conceptId": "es.personal_info_your_phone_number",
+      "id": "personal_info_your_phone_number",
+      "target": [
+        {
+          "text": "¿Cuál es tu número de teléfono?",
+          "audioSlug": "cual_es_tu_numero_de_telefono",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cuál es su número de teléfono?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "cual_es_su_numero_de_telefono"
+        }
+      ]
+    },
+    "es.technology_phone_froze": {
+      "conceptId": "es.technology_phone_froze",
+      "id": "technology_phone_froze",
+      "target": [
+        {
+          "text": "Se me congeló el teléfono.",
+          "audioSlug": "se_me_congelo_el_telefono"
+        }
+      ]
+    },
+    "es.technology_the_company_acknowledged_a_data": {
+      "conceptId": "es.technology_the_company_acknowledged_a_data",
+      "id": "technology_the_company_acknowledged_a_data",
+      "target": [
+        {
+          "text": "La empresa reconoció una filtración de datos pero no ha revelado cuántas cuentas fueron comprometidas.",
+          "audioSlug": "la_empresa_reconocio_una_filtracion_de_datos_pero_no_ha_revelado_cuantas_cuentas_fueron_com_25336199"
+        }
+      ]
+    },
+    "es.viajes_reservamos_una_excursion_por_la_ciudad": {
+      "conceptId": "es.viajes_reservamos_una_excursion_por_la_ciudad",
+      "id": "viajes_reservamos_una_excursion_por_la_ciudad",
+      "target": [
+        {
+          "text": "Reservamos una excursión por la ciudad.",
+          "audioSlug": "reservamos_una_excursion_por_la_ciudad"
+        }
+      ]
+    },
+    "es.viajes_tomo_muchas_fotos_cuando_viajo": {
+      "conceptId": "es.viajes_tomo_muchas_fotos_cuando_viajo",
+      "id": "viajes_tomo_muchas_fotos_cuando_viajo",
+      "target": [
+        {
+          "text": "Tomo muchas fotos cuando viajo.",
+          "audioSlug": "tomo_muchas_fotos_cuando_viajo"
+        }
+      ]
+    }
+  }
+}

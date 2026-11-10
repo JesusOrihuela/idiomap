@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "bucket": "f9",
+  "concepts": {
+    "de.piloto_puedes_repetir": {
+      "conceptId": "de.piloto_puedes_repetir",
+      "id": "piloto_puedes_repetir",
+      "target": [
+        {
+          "text": "Kannst du das wiederholen?",
+          "audioSlug": "puedes_repetir"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "9d",
+  "concepts": {
+    "en.accommodation_guest_access": {
+      "conceptId": "en.accommodation_guest_access",
+      "id": "accommodation_guest_access",
+      "target": [
+        {
+          "text": "What do I have access to as a hotel guest?",
+          "audioSlug": "what_do_i_have_access_to_as_a_hotel_guest"
+        }
+      ]
+    },
+    "en.accountability_external_auditors_requesting_documentation": {
+      "conceptId": "en.accountability_external_auditors_requesting_documentation",
+      "id": "accountability_external_auditors_requesting_documentation",
+      "target": [
+        {
+          "text": "The external auditors are requesting documentation for the last three fiscal years.",
+          "audioSlug": "the_external_auditors_are_requesting_documentation_for_the_last_three_fiscal_years"
+        }
+      ]
+    },
+    "en.accountability_we_are_facing_a_cash_flow": {
+      "conceptId": "en.accountability_we_are_facing_a_cash_flow",
+      "id": "accountability_we_are_facing_a_cash_flow",
+      "target": [
+        {
+          "text": "We are facing a cash flow problem.",
+          "audioSlug": "we_are_facing_a_cash_flow_problem"
+        }
+      ]
+    },
+    "en.animales_saw_elephant_zoo": {
+      "conceptId": "en.animales_saw_elephant_zoo",
+      "id": "animales_saw_elephant_zoo",
+      "target": [
+        {
+          "text": "I saw an elephant at the zoo.",
+          "audioSlug": "i_saw_an_elephant_at_the_zoo"
+        }
+      ]
+    },
+    "en.family_what_does_your_brother_do": {
+      "conceptId": "en.family_what_does_your_brother_do",
+      "id": "family_what_does_your_brother_do",
+      "target": [
+        {
+          "text": "What does your brother do for a living?",
+          "audioSlug": "what_does_your_brother_do_for_a_living"
+        }
+      ]
+    },
+    "en.planes_i_accept_your_offer": {
+      "conceptId": "en.planes_i_accept_your_offer",
+      "id": "planes_i_accept_your_offer",
+      "target": [
+        {
+          "text": "I accept your offer.",
+          "audioSlug": "i_accept_your_offer"
+        }
+      ]
+    },
+    "en.survival_what_did_you_say": {
+      "conceptId": "en.survival_what_did_you_say",
+      "id": "survival_what_did_you_say",
+      "target": [
+        {
+          "text": "What did you say?",
+          "audioSlug": "what_did_you_say"
+        }
+      ]
+    }
+  }
+}

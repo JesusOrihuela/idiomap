@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "64",
+  "concepts": {
+    "es.accountability_the_inventory_that_arrived_yesterday_is": {
+      "conceptId": "es.accountability_the_inventory_that_arrived_yesterday_is",
+      "id": "accountability_the_inventory_that_arrived_yesterday_is",
+      "target": [
+        {
+          "text": "El inventario que llegó ayer está listo para la venta.",
+          "audioSlug": "el_inventario_que_llego_ayer_esta_listo_para_la_venta"
+        }
+      ]
+    },
+    "es.daily_routine_i_read_before_sleeping": {
+      "conceptId": "es.daily_routine_i_read_before_sleeping",
+      "id": "daily_routine_i_read_before_sleeping",
+      "target": [
+        {
+          "text": "Leo un rato antes de dormir.",
+          "audioSlug": "leo_un_rato_antes_de_dormir"
+        }
+      ]
+    },
+    "es.emociones_a_veces_me_pongo_nervioso": {
+      "conceptId": "es.emociones_a_veces_me_pongo_nervioso",
+      "id": "emociones_a_veces_me_pongo_nervioso",
+      "target": [
+        {
+          "text": "A veces me pongo nerviosa.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "a_veces_me_pongo_nerviosa"
+        },
+        {
+          "text": "A veces me pongo nervioso.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "a_veces_me_pongo_nervioso"
+        }
+      ]
+    },
+    "es.kitchen_theres_leftover_broth_for_the_soup": {
+      "conceptId": "es.kitchen_theres_leftover_broth_for_the_soup",
+      "id": "kitchen_theres_leftover_broth_for_the_soup",
+      "target": [
+        {
+          "text": "Sobró caldo para la sopa.",
+          "audioSlug": "sobro_caldo_para_la_sopa"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_me_encanta_el_aire_del_campo": {
+      "conceptId": "es.naturaleza_lugares_me_encanta_el_aire_del_campo",
+      "id": "naturaleza_lugares_me_encanta_el_aire_del_campo",
+      "target": [
+        {
+          "text": "Me encanta el aire fresco del campo.",
+          "audioSlug": "me_encanta_el_aire_fresco_del_campo"
+        }
+      ]
+    },
+    "es.weather_its_cloudy": {
+      "conceptId": "es.weather_its_cloudy",
+      "id": "weather_its_cloudy",
+      "target": [
+        {
+          "text": "Está nublado.",
+          "audioSlug": "esta_nublado"
+        }
+      ]
+    }
+  }
+}

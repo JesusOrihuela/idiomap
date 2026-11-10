@@ -1,40 +1,436 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "theater",
-  "conceptIds": [
-    "es.theater_moving_play",
-    "es.theater_opera_surprised",
-    "es.theater_buy_tickets_tonight",
-    "es.theater_where_is_theater",
-    "es.theater_what_time_performance",
-    "es.theater_enjoy_going_theater",
-    "es.theater_actors_incredible_performance",
-    "es.theater_tickets_saturday",
-    "es.theater_intermission_refreshments",
-    "es.theater_moved_by_grief_portrayal",
-    "es.theater_standing_ovation_deserved",
-    "es.theater_original_much_stronger_revival",
-    "es.theater_costumes_reflected_era",
-    "es.theater_outdoor_atmosphere_different",
-    "es.theater_rehearsal_documentary_changed_experience",
-    "es.theater_second_viewing_reveals_layers",
-    "es.theater_staging_final_scene",
-    "es.theater_script_overambitious_themes",
-    "es.theater_physical_performance_no_dialogue",
-    "es.theater_set_design_bleak_story",
-    "es.theater_monologue_extraordinary_restraint",
-    "es.theater_subverts_expectations_first_scene",
-    "es.theater_lighting_sound_immersive",
-    "es.theater_ambiguous_ending_interpretations",
-    "es.theater_two_tickets",
-    "es.theater_whats_playing",
-    "es.theater_is_there_intermission",
-    "es.theater_where_are_seats",
-    "es.theater_play_was_great",
-    "es.theater_want_to_see_play",
-    "es.theater_how_long_performance",
-    "es.theater_box_office",
-    "es.theater_fuimos_a_ver_un_musical"
+  "phrases": [
+    {
+      "conceptId": "es.theater_moving_play",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a14d85d3190abf60"
+    },
+    {
+      "conceptId": "es.theater_opera_surprised",
+      "level": "B1",
+      "grammar": "'No pensé que + condicional' es válido; la variante más formal usa subjuntivo imperfecto: 'gustara'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.daf7744d7c2a3266"
+    },
+    {
+      "conceptId": "es.theater_buy_tickets_tonight",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c301cb898490e42e"
+    },
+    {
+      "conceptId": "es.theater_where_is_theater",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6c8f2287c9110636"
+    },
+    {
+      "conceptId": "es.theater_what_time_performance",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c342caf47209a7ad"
+    },
+    {
+      "conceptId": "es.theater_enjoy_going_theater",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8c5d6749ab123366"
+    },
+    {
+      "conceptId": "es.theater_actors_incredible_performance",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1fa070556e197615"
+    },
+    {
+      "conceptId": "es.theater_tickets_saturday",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8a460a7f482d0a10"
+    },
+    {
+      "conceptId": "es.theater_intermission_refreshments",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7131f6e548fcc51f"
+    },
+    {
+      "conceptId": "es.theater_moved_by_grief_portrayal",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3eabd7bbf0c0d121"
+    },
+    {
+      "conceptId": "es.theater_standing_ovation_deserved",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8e3daf16a43a5d13"
+    },
+    {
+      "conceptId": "es.theater_original_much_stronger_revival",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.da83e232b06c7e93"
+    },
+    {
+      "conceptId": "es.theater_costumes_reflected_era",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.83a4ff6372a59af7"
+    },
+    {
+      "conceptId": "es.theater_outdoor_atmosphere_different",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ea9652e46b356453"
+    },
+    {
+      "conceptId": "es.theater_rehearsal_documentary_changed_experience",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.51e7f272ef523bd4"
+    },
+    {
+      "conceptId": "es.theater_second_viewing_reveals_layers",
+      "level": "B2",
+      "grammar": "'Se me habían pasado' es pluscuamperfecto; indica que los aspectos eran anteriores al segundo visionado.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.453885f9c5e0add3"
+    },
+    {
+      "conceptId": "es.theater_staging_final_scene",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.20aca4e6247d9ce4"
+    },
+    {
+      "conceptId": "es.theater_script_overambitious_themes",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e1d39a6f96341a2c"
+    },
+    {
+      "conceptId": "es.theater_physical_performance_no_dialogue",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0f91cdf7842bd263"
+    },
+    {
+      "conceptId": "es.theater_set_design_bleak_story",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2cc160aa723866ec"
+    },
+    {
+      "conceptId": "es.theater_monologue_extraordinary_restraint",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5fb4300e61b0bac2"
+    },
+    {
+      "conceptId": "es.theater_subverts_expectations_first_scene",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.700ba7eb90a9824f"
+    },
+    {
+      "conceptId": "es.theater_lighting_sound_immersive",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.da46fa8b6f0a9020"
+    },
+    {
+      "conceptId": "es.theater_ambiguous_ending_interpretations",
+      "level": "C1",
+      "grammar": "'Lo que + verbo' nominaliza una idea y equivale al inglés 'what + verbo'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.50e782959f84cc54"
+    },
+    {
+      "conceptId": "es.theater_two_tickets",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.663893461be4ea1e"
+    },
+    {
+      "conceptId": "es.theater_whats_playing",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.560f71bceedbf1d3"
+    },
+    {
+      "conceptId": "es.theater_is_there_intermission",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bf70b27b6a9327b8"
+    },
+    {
+      "conceptId": "es.theater_where_are_seats",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.797a8e6ddcb2a5a9"
+    },
+    {
+      "conceptId": "es.theater_play_was_great",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4be5eb5a47171c4d"
+    },
+    {
+      "conceptId": "es.theater_want_to_see_play",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a157202a0aac4090"
+    },
+    {
+      "conceptId": "es.theater_how_long_performance",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.833c3ad03d71fa2e"
+    },
+    {
+      "conceptId": "es.theater_box_office",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.79d9a19e35326a8e"
+    },
+    {
+      "conceptId": "es.theater_fuimos_a_ver_un_musical",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.579d6bd43b479341"
+    }
   ]
 }

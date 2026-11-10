@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "f7",
+  "concepts": {
+    "en.accommodation_room_sea_view": {
+      "conceptId": "en.accommodation_room_sea_view",
+      "id": "accommodation_room_sea_view",
+      "target": [
+        {
+          "text": "I'd prefer a sea-view room, even if it costs more.",
+          "audioSlug": "i_d_prefer_a_sea_view_room_even_if_it_costs_more"
+        }
+      ]
+    },
+    "en.accountability_payment_due": {
+      "conceptId": "en.accountability_payment_due",
+      "id": "accountability_payment_due",
+      "target": [
+        {
+          "text": "The payment is due next week.",
+          "audioSlug": "the_payment_is_due_next_week"
+        }
+      ]
+    },
+    "en.conversacion_i_cant_express_it": {
+      "conceptId": "en.conversacion_i_cant_express_it",
+      "id": "conversacion_i_cant_express_it",
+      "target": [
+        {
+          "text": "I can't express it.",
+          "audioSlug": "i_can_t_express_it"
+        }
+      ]
+    },
+    "en.directions_is_it_far": {
+      "conceptId": "en.directions_is_it_far",
+      "id": "directions_is_it_far",
+      "target": [
+        {
+          "text": "Is it far from here?",
+          "audioSlug": "is_it_far_from_here"
+        }
+      ]
+    },
+    "en.family_cousin_visit": {
+      "conceptId": "en.family_cousin_visit",
+      "id": "family_cousin_visit",
+      "target": [
+        {
+          "text": "My cousin is coming to visit.",
+          "audioSlug": "my_cousin_is_coming_to_visit"
+        }
+      ]
+    },
+    "en.kitchen_the_blender_is_in_the_cabinet": {
+      "conceptId": "en.kitchen_the_blender_is_in_the_cabinet",
+      "id": "kitchen_the_blender_is_in_the_cabinet",
+      "target": [
+        {
+          "text": "The blender is in the cabinet.",
+          "audioSlug": "the_blender_is_in_the_cabinet"
+        }
+      ]
+    },
+    "en.movies_new_director_movie": {
+      "conceptId": "en.movies_new_director_movie",
+      "id": "movies_new_director_movie",
+      "target": [
+        {
+          "text": "My favorite director has a new movie to watch.",
+          "labels": {
+            "region": "US"
+          },
+          "audioSlug": "my_favorite_director_has_a_new_movie_to_watch"
+        },
+        {
+          "text": "My favorite director has a new film to watch.",
+          "labels": {
+            "region": "UK"
+          },
+          "audioSlug": "my_favorite_director_has_a_new_film_to_watch"
+        }
+      ]
+    },
+    "en.theater_original_much_stronger_revival": {
+      "conceptId": "en.theater_original_much_stronger_revival",
+      "id": "theater_original_much_stronger_revival",
+      "target": [
+        {
+          "text": "The original production was much stronger than the revival.",
+          "audioSlug": "the_original_production_was_much_stronger_than_the_revival"
+        }
+      ]
+    }
+  }
+}

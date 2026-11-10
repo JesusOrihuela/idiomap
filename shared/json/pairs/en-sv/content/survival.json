@@ -1,10 +1,46 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-sv",
   "topic": "survival",
-  "conceptIds": [
-    "sv.survival_do_you_speak_english",
-    "sv.survival_can_you_help_me",
-    "sv.survival_i_do_not_understand"
+  "phrases": [
+    {
+      "conceptId": "sv.survival_do_you_speak_english",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b53e3962d194b14d"
+    },
+    {
+      "conceptId": "sv.survival_can_you_help_me",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7e513e6c5f503d41"
+    },
+    {
+      "conceptId": "sv.survival_i_do_not_understand",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5df9cfa45859f803"
+    }
   ]
 }

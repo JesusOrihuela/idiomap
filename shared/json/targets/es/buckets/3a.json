@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "3a",
+  "concepts": {
+    "es.airport_reserve_un_asiento_individual": {
+      "conceptId": "es.airport_reserve_un_asiento_individual",
+      "id": "airport_reserve_un_asiento_individual",
+      "target": [
+        {
+          "text": "Reservé un asiento individual.",
+          "audioSlug": "reserve_un_asiento_individual"
+        }
+      ]
+    },
+    "es.calendario_que_hora_es": {
+      "conceptId": "es.calendario_que_hora_es",
+      "id": "calendario_que_hora_es",
+      "target": [
+        {
+          "text": "¿Qué hora es?",
+          "audioSlug": "que_hora_es"
+        }
+      ]
+    },
+    "es.conversacion_eso_depende_de_muchos_factores": {
+      "conceptId": "es.conversacion_eso_depende_de_muchos_factores",
+      "id": "conversacion_eso_depende_de_muchos_factores",
+      "target": [
+        {
+          "text": "Eso depende de muchos factores.",
+          "audioSlug": "eso_depende_de_muchos_factores"
+        }
+      ]
+    },
+    "es.conversacion_nunca_debes_mentir_a_un_amigo": {
+      "conceptId": "es.conversacion_nunca_debes_mentir_a_un_amigo",
+      "id": "conversacion_nunca_debes_mentir_a_un_amigo",
+      "target": [
+        {
+          "text": "Nunca debes mentir a un amigo.",
+          "audioSlug": "nunca_debes_mentir_a_un_amigo"
+        }
+      ]
+    },
+    "es.daily_routine_sirvo_el_desayuno_a_mis_hijos": {
+      "conceptId": "es.daily_routine_sirvo_el_desayuno_a_mis_hijos",
+      "id": "daily_routine_sirvo_el_desayuno_a_mis_hijos",
+      "target": [
+        {
+          "text": "Sirvo el desayuno a mis hijos.",
+          "audioSlug": "sirvo_el_desayuno_a_mis_hijos"
+        }
+      ]
+    },
+    "es.deportes_corro_tres_kilometros_cada_dia": {
+      "conceptId": "es.deportes_corro_tres_kilometros_cada_dia",
+      "id": "deportes_corro_tres_kilometros_cada_dia",
+      "target": [
+        {
+          "text": "Corro tres kilómetros cada día.",
+          "audioSlug": "corro_tres_kilometros_cada_dia"
+        }
+      ]
+    },
+    "es.descripciones_estoy_ocupada": {
+      "conceptId": "es.descripciones_estoy_ocupada",
+      "id": "descripciones_estoy_ocupada",
+      "target": [
+        {
+          "text": "Estoy ocupada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_ocupada"
+        },
+        {
+          "text": "Estoy ocupado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_ocupado"
+        }
+      ]
+    },
+    "es.directions_el_instituto_queda_muy_cerca_de_aqui": {
+      "conceptId": "es.directions_el_instituto_queda_muy_cerca_de_aqui",
+      "id": "directions_el_instituto_queda_muy_cerca_de_aqui",
+      "target": [
+        {
+          "text": "El instituto queda muy cerca de aquí.",
+          "audioSlug": "el_instituto_queda_muy_cerca_de_aqui"
+        }
+      ]
+    },
+    "es.directions_gira_a_la_derecha_en_el_semaforo": {
+      "conceptId": "es.directions_gira_a_la_derecha_en_el_semaforo",
+      "id": "directions_gira_a_la_derecha_en_el_semaforo",
+      "target": [
+        {
+          "text": "Gira a la derecha en el semáforo.",
+          "audioSlug": "gira_a_la_derecha_en_el_semaforo"
+        }
+      ]
+    },
+    "es.estudios_me_interesa_mucho_la_ciencia": {
+      "conceptId": "es.estudios_me_interesa_mucho_la_ciencia",
+      "id": "estudios_me_interesa_mucho_la_ciencia",
+      "target": [
+        {
+          "text": "Me interesa mucho la ciencia.",
+          "audioSlug": "me_interesa_mucho_la_ciencia"
+        }
+      ]
+    },
+    "es.greetings_hi_its_good_to_catch_up": {
+      "conceptId": "es.greetings_hi_its_good_to_catch_up",
+      "id": "greetings_hi_its_good_to_catch_up",
+      "target": [
+        {
+          "text": "Hola, es bueno ponerse al día contigo.",
+          "audioSlug": "hola_es_bueno_ponerse_al_dia_contigo"
+        }
+      ]
+    },
+    "es.kitchen_to_cook_chicken_better_you_have": {
+      "conceptId": "es.kitchen_to_cook_chicken_better_you_have",
+      "id": "kitchen_to_cook_chicken_better_you_have",
+      "target": [
+        {
+          "text": "Para cocinar mejor el pollo hay que bridar sus patas.",
+          "audioSlug": "para_cocinar_mejor_el_pollo_hay_que_bridar_sus_patas"
+        }
+      ]
+    },
+    "es.planes_quiero_conseguir_un_buen_trabajo": {
+      "conceptId": "es.planes_quiero_conseguir_un_buen_trabajo",
+      "id": "planes_quiero_conseguir_un_buen_trabajo",
+      "target": [
+        {
+          "text": "Quiero conseguir un buen trabajo.",
+          "audioSlug": "quiero_conseguir_un_buen_trabajo"
+        }
+      ]
+    },
+    "es.restaurant_do_you_have_any_options_for": {
+      "conceptId": "es.restaurant_do_you_have_any_options_for",
+      "id": "restaurant_do_you_have_any_options_for",
+      "target": [
+        {
+          "text": "¿Tienen alguna opción para personas con alergias alimentarias?",
+          "audioSlug": "tienen_alguna_opcion_para_personas_con_alergias_alimentarias"
+        }
+      ]
+    },
+    "es.technology_worried_lost_cell_phone": {
+      "conceptId": "es.technology_worried_lost_cell_phone",
+      "id": "technology_worried_lost_cell_phone",
+      "target": [
+        {
+          "text": "Estoy preocupada porque perdí mi celular.",
+          "labels": {
+            "region": "Latinoamérica",
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_preocupada_porque_perdi_mi_celular"
+        },
+        {
+          "text": "Estoy preocupado porque perdí mi celular.",
+          "labels": {
+            "region": "Latinoamérica",
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_preocupado_porque_perdi_mi_celular"
+        },
+        {
+          "text": "Estoy preocupada porque perdí mi móvil.",
+          "labels": {
+            "region": "España",
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_preocupada_porque_perdi_mi_movil"
+        },
+        {
+          "text": "Estoy preocupado porque perdí mi móvil.",
+          "labels": {
+            "region": "España",
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_preocupado_porque_perdi_mi_movil"
+        }
+      ]
+    },
+    "es.tiempo_libre_el_museo_tiene_una_exposicion_de_pintura": {
+      "conceptId": "es.tiempo_libre_el_museo_tiene_una_exposicion_de_pintura",
+      "id": "tiempo_libre_el_museo_tiene_una_exposicion_de_pintura",
+      "target": [
+        {
+          "text": "El museo tiene una exposición de pintura.",
+          "audioSlug": "el_museo_tiene_una_exposicion_de_pintura"
+        }
+      ]
+    },
+    "es.vestimenta_guardo_las_llaves_en_el_bolso": {
+      "conceptId": "es.vestimenta_guardo_las_llaves_en_el_bolso",
+      "id": "vestimenta_guardo_las_llaves_en_el_bolso",
+      "target": [
+        {
+          "text": "Guardo las llaves en el bolso.",
+          "audioSlug": "guardo_las_llaves_en_el_bolso"
+        }
+      ]
+    },
+    "es.vestimenta_la_camisa_es_de_tela_suave": {
+      "conceptId": "es.vestimenta_la_camisa_es_de_tela_suave",
+      "id": "vestimenta_la_camisa_es_de_tela_suave",
+      "target": [
+        {
+          "text": "La camisa es de una tela suave.",
+          "audioSlug": "la_camisa_es_de_una_tela_suave"
+        }
+      ]
+    }
+  }
+}

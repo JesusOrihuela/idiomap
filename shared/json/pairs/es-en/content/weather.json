@@ -1,34 +1,358 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "weather",
-  "conceptIds": [
-    "en.weather_whats_the_weather",
-    "en.weather_its_sunny",
-    "en.weather_its_raining",
-    "en.weather_very_cold_today",
-    "en.weather_its_hot",
-    "en.weather_its_windy",
-    "en.weather_its_cloudy",
-    "en.weather_its_snowing",
-    "en.weather_whats_temperature",
-    "en.weather_thirty_degrees",
-    "en.weather_take_umbrella",
-    "en.weather_nice_today",
-    "en.weather_bad_weather",
-    "en.weather_love_spring",
-    "en.weather_cold_in_winter",
-    "en.weather_forecast_tomorrow",
-    "en.weather_beautiful_day",
-    "en.weather_im_cold",
-    "en.weather_im_hot",
-    "en.weather_in_summer_it_is_very_hot",
-    "en.weather_it_is_cool_in_the_morning",
-    "en.weather_the_sky_is_clear",
-    "en.weather_it_is_going_to_rain_this_afternoon",
-    "en.weather_the_temperature_drops_at_night",
-    "en.weather_it_will_be_sunny_tomorrow",
-    "en.weather_the_climate_is_changing",
-    "en.weather_it_rains_a_lot_this_time_of_year"
+  "phrases": [
+    {
+      "conceptId": "en.weather_whats_the_weather",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ca83fb71a289c25a"
+    },
+    {
+      "conceptId": "en.weather_its_sunny",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ac42e245f400e807"
+    },
+    {
+      "conceptId": "en.weather_its_raining",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1d46609cb53ee429"
+    },
+    {
+      "conceptId": "en.weather_very_cold_today",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6362f38dee316284"
+    },
+    {
+      "conceptId": "en.weather_its_hot",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a8cf14368b8e9057"
+    },
+    {
+      "conceptId": "en.weather_its_windy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.73f6167ce52a2767"
+    },
+    {
+      "conceptId": "en.weather_its_cloudy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bc5ff237c00cfaed"
+    },
+    {
+      "conceptId": "en.weather_its_snowing",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f2d9151185c81e8c"
+    },
+    {
+      "conceptId": "en.weather_whats_temperature",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2bcf3ccf03336955"
+    },
+    {
+      "conceptId": "en.weather_thirty_degrees",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dbae9cfe9d25c47f"
+    },
+    {
+      "conceptId": "en.weather_take_umbrella",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e92b7d5e339a6576"
+    },
+    {
+      "conceptId": "en.weather_nice_today",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.43e2f05422821dd6"
+    },
+    {
+      "conceptId": "en.weather_bad_weather",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.05855224a8a3bc50"
+    },
+    {
+      "conceptId": "en.weather_love_spring",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.827db50713b12fd6"
+    },
+    {
+      "conceptId": "en.weather_cold_in_winter",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6bc6cb2a853e99bc"
+    },
+    {
+      "conceptId": "en.weather_forecast_tomorrow",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.62cf7987e37ee2db"
+    },
+    {
+      "conceptId": "en.weather_beautiful_day",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.925d4f88c70526d0"
+    },
+    {
+      "conceptId": "en.weather_im_cold",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2f8987b8a623b1e8"
+    },
+    {
+      "conceptId": "en.weather_im_hot",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a3d6c2500d350ded"
+    },
+    {
+      "conceptId": "en.weather_in_summer_it_is_very_hot",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8248ba65a60ea8f8"
+    },
+    {
+      "conceptId": "en.weather_it_is_cool_in_the_morning",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d7e1825dfee658fa"
+    },
+    {
+      "conceptId": "en.weather_the_sky_is_clear",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.05109708f01df8fd"
+    },
+    {
+      "conceptId": "en.weather_it_is_going_to_rain_this_afternoon",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.75df98f2cae4e05f"
+    },
+    {
+      "conceptId": "en.weather_the_temperature_drops_at_night",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9e3cfbce15f390b9"
+    },
+    {
+      "conceptId": "en.weather_it_will_be_sunny_tomorrow",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.546480d06c2caea0"
+    },
+    {
+      "conceptId": "en.weather_the_climate_is_changing",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ccd75eaaf21e2fe2"
+    },
+    {
+      "conceptId": "en.weather_it_rains_a_lot_this_time_of_year",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ce3ae48f9f8aa5c4"
+    }
   ]
 }

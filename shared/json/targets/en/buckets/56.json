@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "56",
+  "concepts": {
+    "en.deportes_i_run_in_the_park_in_the_mornings": {
+      "conceptId": "en.deportes_i_run_in_the_park_in_the_mornings",
+      "id": "deportes_i_run_in_the_park_in_the_mornings",
+      "target": [
+        {
+          "text": "I run in the park in the mornings.",
+          "audioSlug": "i_run_in_the_park_in_the_mornings"
+        }
+      ]
+    },
+    "en.music_go_concert_year": {
+      "conceptId": "en.music_go_concert_year",
+      "id": "music_go_concert_year",
+      "target": [
+        {
+          "text": "We should go to a concert this year.",
+          "audioSlug": "we_should_go_to_a_concert_this_year",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "We ought to go to a concert this year.",
+          "audioSlug": "we_ought_to_go_to_a_concert_this_year",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.survival_what_does_it_mean": {
+      "conceptId": "en.survival_what_does_it_mean",
+      "id": "survival_what_does_it_mean",
+      "target": [
+        {
+          "text": "What does this word mean?",
+          "audioSlug": "what_does_this_word_mean"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "c8",
+  "concepts": {
+    "en.accountability_keep_receipt": {
+      "conceptId": "en.accountability_keep_receipt",
+      "id": "accountability_keep_receipt",
+      "target": [
+        {
+          "text": "Please keep the receipt.",
+          "audioSlug": "please_keep_the_receipt"
+        }
+      ]
+    },
+    "en.cuerpo_head_hurts_a_little": {
+      "conceptId": "en.cuerpo_head_hurts_a_little",
+      "id": "cuerpo_head_hurts_a_little",
+      "target": [
+        {
+          "text": "My head hurts a little.",
+          "audioSlug": "my_head_hurts_a_little"
+        }
+      ]
+    },
+    "en.gym_do_you_have_any_tips_for": {
+      "conceptId": "en.gym_do_you_have_any_tips_for",
+      "id": "gym_do_you_have_any_tips_for",
+      "target": [
+        {
+          "text": "Do you have any tips for improving my balance?",
+          "audioSlug": "do_you_have_any_tips_for_improving_my_balance"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_the_forest_was_dark": {
+      "conceptId": "en.naturaleza_lugares_the_forest_was_dark",
+      "id": "naturaleza_lugares_the_forest_was_dark",
+      "target": [
+        {
+          "text": "The forest was dark.",
+          "audioSlug": "the_forest_was_dark"
+        }
+      ]
+    },
+    "en.technology_i_switched_to_a_monthly_subscription": {
+      "conceptId": "en.technology_i_switched_to_a_monthly_subscription",
+      "id": "technology_i_switched_to_a_monthly_subscription",
+      "target": [
+        {
+          "text": "I switched to a monthly subscription because it includes updates.",
+          "audioSlug": "i_switched_to_a_monthly_subscription_because_it_includes_updates"
+        }
+      ]
+    },
+    "en.transportation_how_long_to_get": {
+      "conceptId": "en.transportation_how_long_to_get",
+      "id": "transportation_how_long_to_get",
+      "target": [
+        {
+          "text": "How long does it take to get to the center?",
+          "audioSlug": "how_long_does_it_take_to_get_to_the_center"
+        }
+      ]
+    },
+    "en.viajes_i_want_to_travel_abroad": {
+      "conceptId": "en.viajes_i_want_to_travel_abroad",
+      "id": "viajes_i_want_to_travel_abroad",
+      "target": [
+        {
+          "text": "I want to travel abroad.",
+          "audioSlug": "i_want_to_travel_abroad"
+        }
+      ]
+    }
+  }
+}

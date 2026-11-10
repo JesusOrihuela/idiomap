@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "ba",
+  "concepts": {
+    "en.accommodation_wake_up_call": {
+      "conceptId": "en.accommodation_wake_up_call",
+      "id": "accommodation_wake_up_call",
+      "target": [
+        {
+          "text": "Could I have a wake-up call at seven?",
+          "audioSlug": "could_i_have_a_wake_up_call_at_seven"
+        }
+      ]
+    },
+    "en.accountability_revenue_recognition_must_comply_with": {
+      "conceptId": "en.accountability_revenue_recognition_must_comply_with",
+      "id": "accountability_revenue_recognition_must_comply_with",
+      "target": [
+        {
+          "text": "Revenue recognition must comply with the applicable accounting standards under IFRS.",
+          "audioSlug": "revenue_recognition_must_comply_with_the_applicable_accounting_standards_under_ifrs"
+        }
+      ]
+    },
+    "en.descripciones_is_it_safe": {
+      "conceptId": "en.descripciones_is_it_safe",
+      "id": "descripciones_is_it_safe",
+      "target": [
+        {
+          "text": "Is it safe?",
+          "audioSlug": "is_it_safe"
+        }
+      ]
+    },
+    "en.greetings_it_was_great_seeing_you": {
+      "conceptId": "en.greetings_it_was_great_seeing_you",
+      "id": "greetings_it_was_great_seeing_you",
+      "target": [
+        {
+          "text": "It was great seeing you!",
+          "audioSlug": "it_was_great_seeing_you",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "It was wonderful seeing you!",
+          "audioSlug": "it_was_wonderful_seeing_you",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.health_do_you_have_any_pain": {
+      "conceptId": "en.health_do_you_have_any_pain",
+      "id": "health_do_you_have_any_pain",
+      "target": [
+        {
+          "text": "Do you have any pain?",
+          "audioSlug": "do_you_have_any_pain"
+        }
+      ]
+    },
+    "en.kitchen_the_pot_is_on_the_stove": {
+      "conceptId": "en.kitchen_the_pot_is_on_the_stove",
+      "id": "kitchen_the_pot_is_on_the_stove",
+      "target": [
+        {
+          "text": "The pot is on the stove.",
+          "audioSlug": "the_pot_is_on_the_stove"
+        }
+      ]
+    }
+  }
+}

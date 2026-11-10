@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "1e",
+  "concepts": {
+    "es.estudios_estudio_la_lengua_espanola": {
+      "conceptId": "es.estudios_estudio_la_lengua_espanola",
+      "id": "estudios_estudio_la_lengua_espanola",
+      "target": [
+        {
+          "text": "Estudio la lengua española.",
+          "audioSlug": "estudio_la_lengua_espanola"
+        }
+      ]
+    },
+    "es.greetings_appreciate_time_demanding_schedule": {
+      "conceptId": "es.greetings_appreciate_time_demanding_schedule",
+      "id": "greetings_appreciate_time_demanding_schedule",
+      "target": [
+        {
+          "text": "Le agradezco que haya encontrado tiempo para reunirse conmigo, siendo tan exigente su agenda.",
+          "audioSlug": "le_agradezco_que_haya_encontrado_tiempo_para_reunirse_conmigo_siendo_tan_exigente_su_agenda"
+        }
+      ]
+    },
+    "es.profesiones_mi_hermana_es_vendedora": {
+      "conceptId": "es.profesiones_mi_hermana_es_vendedora",
+      "id": "profesiones_mi_hermana_es_vendedora",
+      "target": [
+        {
+          "text": "Mi hermana es vendedora.",
+          "audioSlug": "mi_hermana_es_vendedora"
+        }
+      ]
+    },
+    "es.restaurant_la_paella_es_para_dos_personas": {
+      "conceptId": "es.restaurant_la_paella_es_para_dos_personas",
+      "id": "restaurant_la_paella_es_para_dos_personas",
+      "target": [
+        {
+          "text": "La paella es para dos personas.",
+          "audioSlug": "la_paella_es_para_dos_personas"
+        }
+      ]
+    },
+    "es.supermarket_hay_una_oferta_en_el_cafe": {
+      "conceptId": "es.supermarket_hay_una_oferta_en_el_cafe",
+      "id": "supermarket_hay_una_oferta_en_el_cafe",
+      "target": [
+        {
+          "text": "Hay una oferta en el café.",
+          "audioSlug": "hay_una_oferta_en_el_cafe"
+        }
+      ]
+    },
+    "es.theater_buy_tickets_tonight": {
+      "conceptId": "es.theater_buy_tickets_tonight",
+      "id": "theater_buy_tickets_tonight",
+      "target": [
+        {
+          "text": "Me gustaría comprar entradas para el espectáculo de esta noche.",
+          "audioSlug": "me_gustaria_comprar_entradas_para_el_espectaculo_de_esta_noche"
+        }
+      ]
+    },
+    "es.vestimenta_me_pongo_la_bufanda": {
+      "conceptId": "es.vestimenta_me_pongo_la_bufanda",
+      "id": "vestimenta_me_pongo_la_bufanda",
+      "target": [
+        {
+          "text": "Me pongo la bufanda cuando hace frío.",
+          "audioSlug": "me_pongo_la_bufanda_cuando_hace_frio"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "6e",
+  "concepts": {
+    "en.accommodation_formal_complaint_noise": {
+      "conceptId": "en.accommodation_formal_complaint_noise",
+      "id": "accommodation_formal_complaint_noise",
+      "target": [
+        {
+          "text": "I need to file a formal complaint about the noise disturbance from upstairs last night.",
+          "audioSlug": "i_need_to_file_a_formal_complaint_about_the_noise_disturbance_from_upstairs_last_night"
+        }
+      ]
+    },
+    "en.animales_is_that_dog_male_or_female": {
+      "conceptId": "en.animales_is_that_dog_male_or_female",
+      "id": "animales_is_that_dog_male_or_female",
+      "target": [
+        {
+          "text": "Is that dog male or female?",
+          "audioSlug": "is_that_dog_male_or_female"
+        }
+      ]
+    },
+    "en.animales_my_cat_sleeps_a_lot": {
+      "conceptId": "en.animales_my_cat_sleeps_a_lot",
+      "id": "animales_my_cat_sleeps_a_lot",
+      "target": [
+        {
+          "text": "My cat sleeps a lot.",
+          "audioSlug": "my_cat_sleeps_a_lot"
+        }
+      ]
+    },
+    "en.calendario_what_time_do_you_have": {
+      "conceptId": "en.calendario_what_time_do_you_have",
+      "id": "calendario_what_time_do_you_have",
+      "target": [
+        {
+          "text": "What time do you have?",
+          "audioSlug": "what_time_do_you_have"
+        }
+      ]
+    },
+    "en.describiendo_personas_she_is_a_strong_woman": {
+      "conceptId": "en.describiendo_personas_she_is_a_strong_woman",
+      "id": "describiendo_personas_she_is_a_strong_woman",
+      "target": [
+        {
+          "text": "She is a strong woman.",
+          "audioSlug": "she_is_a_strong_woman"
+        }
+      ]
+    },
+    "en.kitchen_do_we_have_aluminum_foil_to": {
+      "conceptId": "en.kitchen_do_we_have_aluminum_foil_to",
+      "id": "kitchen_do_we_have_aluminum_foil_to",
+      "target": [
+        {
+          "text": "Do we have aluminum foil to wrap up the leftovers?",
+          "audioSlug": "do_we_have_aluminum_foil_to_wrap_up_the_leftovers",
+          "labels": {
+            "region": "US"
+          }
+        },
+        {
+          "text": "Do we have aluminium foil to wrap up the leftovers?",
+          "audioSlug": "do_we_have_aluminium_foil_to_wrap_up_the_leftovers",
+          "labels": {
+            "region": "UK"
+          }
+        }
+      ]
+    },
+    "en.movies_unexpected_twist_ending": {
+      "conceptId": "en.movies_unexpected_twist_ending",
+      "id": "movies_unexpected_twist_ending",
+      "target": [
+        {
+          "text": "That film had an unexpected twist at the end that completely changed the story.",
+          "audioSlug": "that_film_had_an_unexpected_twist_at_the_end_that_completely_changed_the_story"
+        }
+      ]
+    },
+    "en.museums_guided_tour": {
+      "conceptId": "en.museums_guided_tour",
+      "id": "museums_guided_tour",
+      "target": [
+        {
+          "text": "Is there a guided tour?",
+          "audioSlug": "is_there_a_guided_tour"
+        }
+      ]
+    },
+    "en.music_reunion_tour_expectations": {
+      "conceptId": "en.music_reunion_tour_expectations",
+      "id": "music_reunion_tour_expectations",
+      "target": [
+        {
+          "text": "When a band reunites, I always worry they won't live up to my memories.",
+          "audioSlug": "when_a_band_reunites_i_always_worry_they_won_t_live_up_to_my_memories"
+        }
+      ]
+    },
+    "en.politica_are_you_a_member_of_this_society": {
+      "conceptId": "en.politica_are_you_a_member_of_this_society",
+      "id": "politica_are_you_a_member_of_this_society",
+      "target": [
+        {
+          "text": "Are you a member of this society?",
+          "audioSlug": "are_you_a_member_of_this_society"
+        }
+      ]
+    },
+    "en.restaurant_could_i_have_some_extra_cheese": {
+      "conceptId": "en.restaurant_could_i_have_some_extra_cheese",
+      "id": "restaurant_could_i_have_some_extra_cheese",
+      "target": [
+        {
+          "text": "Could I have some extra cheese on my pasta, please?",
+          "audioSlug": "could_i_have_some_extra_cheese_on_my_pasta_please",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can I have some extra cheese on my pasta, please?",
+          "audioSlug": "can_i_have_some_extra_cheese_on_my_pasta_please",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.restaurant_could_you_tell_me_about_todays": {
+      "conceptId": "en.restaurant_could_you_tell_me_about_todays",
+      "id": "restaurant_could_you_tell_me_about_todays",
+      "target": [
+        {
+          "text": "Could you tell me about today's specials?",
+          "audioSlug": "could_you_tell_me_about_today_s_specials",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you tell me about today's specials?",
+          "audioSlug": "can_you_tell_me_about_today_s_specials",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.restaurant_is_there_a_charge_for_substitutions": {
+      "conceptId": "en.restaurant_is_there_a_charge_for_substitutions",
+      "id": "restaurant_is_there_a_charge_for_substitutions",
+      "target": [
+        {
+          "text": "Is there a charge for substitutions?",
+          "audioSlug": "is_there_a_charge_for_substitutions"
+        }
+      ]
+    }
+  }
+}

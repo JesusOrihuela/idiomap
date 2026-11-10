@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "dc",
+  "concepts": {
+    "es.accommodation_early_checkin_early_flight": {
+      "conceptId": "es.accommodation_early_checkin_early_flight",
+      "id": "accommodation_early_checkin_early_flight",
+      "target": [
+        {
+          "text": "¿Podrían adelantar mi registro porque mi vuelo aterriza a las seis de la mañana?",
+          "audioSlug": "podrian_adelantar_mi_registro_porque_mi_vuelo_aterriza_a_las_seis_de_la_manana"
+        }
+      ]
+    },
+    "es.airport_perdi_mi_vuelo_por_el_trafico": {
+      "conceptId": "es.airport_perdi_mi_vuelo_por_el_trafico",
+      "id": "airport_perdi_mi_vuelo_por_el_trafico",
+      "target": [
+        {
+          "text": "Perdí mi vuelo por el tráfico.",
+          "audioSlug": "perdi_mi_vuelo_por_el_trafico"
+        }
+      ]
+    },
+    "es.conversacion_no_te_preocupes_por_eso": {
+      "conceptId": "es.conversacion_no_te_preocupes_por_eso",
+      "id": "conversacion_no_te_preocupes_por_eso",
+      "target": [
+        {
+          "text": "No te preocupes por eso.",
+          "audioSlug": "no_te_preocupes_por_eso"
+        }
+      ]
+    },
+    "es.deportes_nuestro_equipo_gano": {
+      "conceptId": "es.deportes_nuestro_equipo_gano",
+      "id": "deportes_nuestro_equipo_gano",
+      "target": [
+        {
+          "text": "Nuestro equipo ganó.",
+          "audioSlug": "nuestro_equipo_gano"
+        }
+      ]
+    },
+    "es.economia_es_una_buena_oportunidad_de_negocio": {
+      "conceptId": "es.economia_es_una_buena_oportunidad_de_negocio",
+      "id": "economia_es_una_buena_oportunidad_de_negocio",
+      "target": [
+        {
+          "text": "Es una buena oportunidad de negocio.",
+          "audioSlug": "es_una_buena_oportunidad_de_negocio"
+        }
+      ]
+    },
+    "es.economia_su_negocio_va_bien": {
+      "conceptId": "es.economia_su_negocio_va_bien",
+      "id": "economia_su_negocio_va_bien",
+      "target": [
+        {
+          "text": "Su negocio va bien.",
+          "audioSlug": "su_negocio_va_bien"
+        }
+      ]
+    },
+    "es.emergencias_ayuda_por_favor": {
+      "conceptId": "es.emergencias_ayuda_por_favor",
+      "id": "emergencias_ayuda_por_favor",
+      "target": [
+        {
+          "text": "¡Ayuda, por favor!",
+          "audioSlug": "ayuda_por_favor"
+        }
+      ]
+    },
+    "es.emociones_im_tired": {
+      "conceptId": "es.emociones_im_tired",
+      "id": "emociones_im_tired",
+      "target": [
+        {
+          "text": "Estoy cansada.",
+          "audioSlug": "estoy_cansada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy cansado.",
+          "audioSlug": "estoy_cansado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.gym_i_dont_know_how_to_use": {
+      "conceptId": "es.gym_i_dont_know_how_to_use",
+      "id": "gym_i_dont_know_how_to_use",
+      "target": [
+        {
+          "text": "No sé cómo usar esta máquina.",
+          "audioSlug": "no_se_como_usar_esta_maquina"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_las_flores_son_muy_bonitas": {
+      "conceptId": "es.naturaleza_lugares_las_flores_son_muy_bonitas",
+      "id": "naturaleza_lugares_las_flores_son_muy_bonitas",
+      "target": [
+        {
+          "text": "Las flores son muy bonitas.",
+          "audioSlug": "las_flores_son_muy_bonitas"
+        }
+      ]
+    },
+    "es.profesiones_enseno_ingles": {
+      "conceptId": "es.profesiones_enseno_ingles",
+      "id": "profesiones_enseno_ingles",
+      "target": [
+        {
+          "text": "Enseño inglés.",
+          "audioSlug": "enseno_ingles"
+        }
+      ]
+    },
+    "es.restaurant_could_i_have_a_glass_of": {
+      "conceptId": "es.restaurant_could_i_have_a_glass_of",
+      "id": "restaurant_could_i_have_a_glass_of",
+      "target": [
+        {
+          "text": "¿Me da un vaso de agua, por favor?",
+          "audioSlug": "me_da_un_vaso_de_agua_por_favor"
+        }
+      ]
+    },
+    "es.supermarket_me_podria_decir_donde_esta_la_panaderia": {
+      "conceptId": "es.supermarket_me_podria_decir_donde_esta_la_panaderia",
+      "id": "supermarket_me_podria_decir_donde_esta_la_panaderia",
+      "target": [
+        {
+          "text": "¿Me podría decir dónde está la panadería?",
+          "audioSlug": "me_podria_decir_donde_esta_la_panaderia"
+        }
+      ]
+    },
+    "es.survival_where_is_the_bathroom": {
+      "conceptId": "es.survival_where_is_the_bathroom",
+      "id": "survival_where_is_the_bathroom",
+      "target": [
+        {
+          "text": "Perdón, ¿dónde está el baño?",
+          "audioSlug": "perdon_donde_esta_el_bano"
+        }
+      ]
+    },
+    "es.transportation_el_mecanico_revisa_el_motor": {
+      "conceptId": "es.transportation_el_mecanico_revisa_el_motor",
+      "id": "transportation_el_mecanico_revisa_el_motor",
+      "target": [
+        {
+          "text": "La mecánica revisa el motor.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Mechanikerin überprüft den Motor.",
+          "audioSlug": "la_mecanica_revisa_el_motor"
+        },
+        {
+          "text": "El mecánico revisa el motor.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Mechaniker überprüft den Motor.",
+          "audioSlug": "el_mecanico_revisa_el_motor"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "61",
+  "concepts": {
+    "es.accommodation_minibar_room": {
+      "conceptId": "es.accommodation_minibar_room",
+      "id": "accommodation_minibar_room",
+      "target": [
+        {
+          "text": "¿Hay minibar en la habitación?",
+          "audioSlug": "hay_minibar_en_la_habitacion"
+        }
+      ]
+    },
+    "es.conversacion_hay_que_aceptar_las_criticas": {
+      "conceptId": "es.conversacion_hay_que_aceptar_las_criticas",
+      "id": "conversacion_hay_que_aceptar_las_criticas",
+      "target": [
+        {
+          "text": "Hay que aceptar las críticas.",
+          "audioSlug": "hay_que_aceptar_las_criticas"
+        }
+      ]
+    },
+    "es.descripciones_no_es_natural": {
+      "conceptId": "es.descripciones_no_es_natural",
+      "id": "descripciones_no_es_natural",
+      "target": [
+        {
+          "text": "No es natural.",
+          "audioSlug": "no_es_natural"
+        }
+      ]
+    },
+    "es.economia_pago_mis_impuestos_cada_ano": {
+      "conceptId": "es.economia_pago_mis_impuestos_cada_ano",
+      "id": "economia_pago_mis_impuestos_cada_ano",
+      "target": [
+        {
+          "text": "Pago mis impuestos cada año.",
+          "audioSlug": "pago_mis_impuestos_cada_ano"
+        }
+      ]
+    },
+    "es.family_do_you_have_siblings": {
+      "conceptId": "es.family_do_you_have_siblings",
+      "id": "family_do_you_have_siblings",
+      "target": [
+        {
+          "text": "¿Tienes hermanos?",
+          "audioSlug": "tienes_hermanos"
+        }
+      ]
+    },
+    "es.greetings_gracias": {
+      "conceptId": "es.greetings_gracias",
+      "id": "greetings_gracias",
+      "target": [
+        {
+          "text": "Muchas gracias.",
+          "audioSlug": "muchas_gracias"
+        }
+      ]
+    },
+    "es.gym_dont_lift_your_shoulders_towards_your": {
+      "conceptId": "es.gym_dont_lift_your_shoulders_towards_your",
+      "id": "gym_dont_lift_your_shoulders_towards_your",
+      "target": [
+        {
+          "text": "No levantes los hombros hacia las orejas.",
+          "audioSlug": "no_levantes_los_hombros_hacia_las_orejas"
+        }
+      ]
+    },
+    "es.politica_la_ciudad_tiene_un_millon_de_habitantes": {
+      "conceptId": "es.politica_la_ciudad_tiene_un_millon_de_habitantes",
+      "id": "politica_la_ciudad_tiene_un_millon_de_habitantes",
+      "target": [
+        {
+          "text": "La ciudad tiene un millón de habitantes.",
+          "audioSlug": "la_ciudad_tiene_un_millon_de_habitantes"
+        }
+      ]
+    },
+    "es.sitios_hay_una_obra_en_la_calle": {
+      "conceptId": "es.sitios_hay_una_obra_en_la_calle",
+      "id": "sitios_hay_una_obra_en_la_calle",
+      "target": [
+        {
+          "text": "Hay una obra en construcción en la calle.",
+          "audioSlug": "hay_una_obra_en_construccion_en_la_calle"
+        }
+      ]
+    },
+    "es.transportation_el_transporte_publico_es_barato_aqui": {
+      "conceptId": "es.transportation_el_transporte_publico_es_barato_aqui",
+      "id": "transportation_el_transporte_publico_es_barato_aqui",
+      "target": [
+        {
+          "text": "El transporte público es barato aquí.",
+          "audioSlug": "el_transporte_publico_es_barato_aqui"
+        }
+      ]
+    }
+  }
+}

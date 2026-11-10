@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "sv",
+  "bucket": "3b",
+  "concepts": {
+    "sv.survival_can_you_help_me": {
+      "conceptId": "sv.survival_can_you_help_me",
+      "id": "survival_can_you_help_me",
+      "target": [
+        {
+          "text": "Kan du hjälpa mig?",
+          "audioSlug": "kan_du_hjalpa_mig"
+        }
+      ]
+    }
+  }
+}

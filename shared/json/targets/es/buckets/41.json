@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "41",
+  "concepts": {
+    "es.accountability_we_need_to_adjust_the_budget": {
+      "conceptId": "es.accountability_we_need_to_adjust_the_budget",
+      "id": "accountability_we_need_to_adjust_the_budget",
+      "target": [
+        {
+          "text": "Necesitamos ajustar el presupuesto.",
+          "audioSlug": "necesitamos_ajustar_el_presupuesto"
+        }
+      ]
+    },
+    "es.economia_la_economia_crece_lentamente": {
+      "conceptId": "es.economia_la_economia_crece_lentamente",
+      "id": "economia_la_economia_crece_lentamente",
+      "target": [
+        {
+          "text": "La economía crece lentamente.",
+          "audioSlug": "la_economia_crece_lentamente"
+        }
+      ]
+    },
+    "es.economia_necesito_pagar_las_facturas": {
+      "conceptId": "es.economia_necesito_pagar_las_facturas",
+      "id": "economia_necesito_pagar_las_facturas",
+      "target": [
+        {
+          "text": "Necesito pagar las facturas.",
+          "audioSlug": "necesito_pagar_las_facturas"
+        }
+      ]
+    },
+    "es.emociones_i_am_angry": {
+      "conceptId": "es.emociones_i_am_angry",
+      "id": "emociones_i_am_angry",
+      "target": [
+        {
+          "text": "Estoy enojada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_enojada"
+        },
+        {
+          "text": "Estoy enojado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_enojado"
+        }
+      ]
+    },
+    "es.kitchen_unta_mantequilla_en_el_pan": {
+      "conceptId": "es.kitchen_unta_mantequilla_en_el_pan",
+      "id": "kitchen_unta_mantequilla_en_el_pan",
+      "target": [
+        {
+          "text": "Unta mantequilla en el pan.",
+          "audioSlug": "unta_mantequilla_en_el_pan"
+        }
+      ]
+    },
+    "es.music_podcasts_while_exercise": {
+      "conceptId": "es.music_podcasts_while_exercise",
+      "id": "music_podcasts_while_exercise",
+      "target": [
+        {
+          "text": "Me encanta escuchar pódcasts mientras hago ejercicio.",
+          "audioSlug": "me_encanta_escuchar_podcasts_mientras_hago_ejercicio"
+        }
+      ]
+    },
+    "es.personal_info_im_single": {
+      "conceptId": "es.personal_info_im_single",
+      "id": "personal_info_im_single",
+      "target": [
+        {
+          "text": "Soy soltera.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "soy_soltera"
+        },
+        {
+          "text": "Soy soltero.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "soy_soltero"
+        }
+      ]
+    },
+    "es.personal_info_naci_en_el_siglo_veinte": {
+      "conceptId": "es.personal_info_naci_en_el_siglo_veinte",
+      "id": "personal_info_naci_en_el_siglo_veinte",
+      "target": [
+        {
+          "text": "Nací en el siglo veinte.",
+          "audioSlug": "naci_en_el_siglo_veinte"
+        }
+      ]
+    },
+    "es.technology_i_want_to_increase_the_brightness": {
+      "conceptId": "es.technology_i_want_to_increase_the_brightness",
+      "id": "technology_i_want_to_increase_the_brightness",
+      "target": [
+        {
+          "text": "Quiero subir el brillo de la pantalla.",
+          "audioSlug": "quiero_subir_el_brillo_de_la_pantalla"
+        }
+      ]
+    },
+    "es.technology_these_wireless_headphones_are_very_comfortable": {
+      "conceptId": "es.technology_these_wireless_headphones_are_very_comfortable",
+      "id": "technology_these_wireless_headphones_are_very_comfortable",
+      "target": [
+        {
+          "text": "Estos audífonos inalámbricos son muy cómodos.",
+          "audioSlug": "estos_audifonos_inalambricos_son_muy_comodos"
+        }
+      ]
+    },
+    "es.transportation_when_does_the_next_train_leave": {
+      "conceptId": "es.transportation_when_does_the_next_train_leave",
+      "id": "transportation_when_does_the_next_train_leave",
+      "target": [
+        {
+          "text": "¿A qué hora sale el próximo tren?",
+          "audioSlug": "a_que_hora_sale_el_proximo_tren"
+        }
+      ]
+    },
+    "es.weather_la_temperatura_bajo_mucho_anoche": {
+      "conceptId": "es.weather_la_temperatura_bajo_mucho_anoche",
+      "id": "weather_la_temperatura_bajo_mucho_anoche",
+      "target": [
+        {
+          "text": "La temperatura bajó mucho anoche.",
+          "audioSlug": "la_temperatura_bajo_mucho_anoche"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "dc",
+  "concepts": {
+    "en.accountability_the_payroll_is_paid": {
+      "conceptId": "en.accountability_the_payroll_is_paid",
+      "id": "accountability_the_payroll_is_paid",
+      "target": [
+        {
+          "text": "The payroll is paid.",
+          "audioSlug": "the_payroll_is_paid"
+        }
+      ]
+    },
+    "en.animales_it_is_a_small_bird": {
+      "conceptId": "en.animales_it_is_a_small_bird",
+      "id": "animales_it_is_a_small_bird",
+      "target": [
+        {
+          "text": "It is a small bird.",
+          "audioSlug": "it_is_a_small_bird"
+        }
+      ]
+    },
+    "en.emociones_im_worried": {
+      "conceptId": "en.emociones_im_worried",
+      "id": "emociones_im_worried",
+      "target": [
+        {
+          "text": "I'm worried.",
+          "audioSlug": "i_m_worried"
+        }
+      ]
+    },
+    "en.fiesta_happy_birthday": {
+      "conceptId": "en.fiesta_happy_birthday",
+      "id": "fiesta_happy_birthday",
+      "target": [
+        {
+          "text": "Happy birthday!",
+          "audioSlug": "happy_birthday"
+        }
+      ]
+    }
+  }
+}

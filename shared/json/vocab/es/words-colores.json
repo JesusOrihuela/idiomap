@@ -19,7 +19,13 @@
       "gloss_example": {
         "en": "Blue is my favorite color."
       },
-      "conceptId": "es.color"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "black",
@@ -40,7 +46,13 @@
       "gloss_example": {
         "en": "She wore a black dress to the party."
       },
-      "conceptId": "es.black"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "green",
@@ -61,7 +73,13 @@
       "gloss_example": {
         "en": "The traffic light turned green."
       },
-      "conceptId": "es.green"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "red",
@@ -82,7 +100,13 @@
       "gloss_example": {
         "en": "He drives a red car."
       },
-      "conceptId": "es.red"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "blue",
@@ -103,7 +127,13 @@
       "gloss_example": {
         "en": "Her eyes are bright blue."
       },
-      "conceptId": "es.blue"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "white",
@@ -124,7 +154,13 @@
       "gloss_example": {
         "en": "She wore a white dress."
       },
-      "conceptId": "es.white"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "yellow",
@@ -145,7 +181,13 @@
       "gloss_example": {
         "en": "The taxi is yellow."
       },
-      "conceptId": "es.yellow"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "gray",
@@ -166,7 +208,13 @@
       "gloss_example": {
         "en": "The sky is gray today."
       },
-      "conceptId": "es.gray"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "orange_color",
@@ -187,7 +235,13 @@
       "gloss_example": {
         "en": "He painted the wall orange."
       },
-      "conceptId": "es.orange_color"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "purple",
@@ -208,7 +262,13 @@
       "gloss_example": {
         "en": "Her favorite color is purple."
       },
-      "conceptId": "es.purple"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "brown",
@@ -245,7 +305,13 @@
           "audioSlug": "marron"
         }
       ],
-      "conceptId": "es.brown"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "pink",
@@ -282,7 +348,13 @@
           "audioSlug": "rosa"
         }
       ],
-      "conceptId": "es.pink"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

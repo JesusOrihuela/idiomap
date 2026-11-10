@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "af",
+  "concepts": {
+    "es.conversacion_este_regalo_es_para_ti": {
+      "conceptId": "es.conversacion_este_regalo_es_para_ti",
+      "id": "conversacion_este_regalo_es_para_ti",
+      "target": [
+        {
+          "text": "Este regalo es para ti.",
+          "audioSlug": "este_regalo_es_para_ti"
+        }
+      ]
+    },
+    "es.estudios_el_senor_perez_es_mi_profesor": {
+      "conceptId": "es.estudios_el_senor_perez_es_mi_profesor",
+      "id": "estudios_el_senor_perez_es_mi_profesor",
+      "target": [
+        {
+          "text": "El señor Pérez es mi profesor.",
+          "audioSlug": "el_senor_perez_es_mi_profesor"
+        }
+      ]
+    },
+    "es.health_cuida_tu_salud": {
+      "conceptId": "es.health_cuida_tu_salud",
+      "id": "health_cuida_tu_salud",
+      "target": [
+        {
+          "text": "Cuida tu salud.",
+          "audioSlug": "cuida_tu_salud",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Cuide su salud.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "cuide_su_salud"
+        }
+      ]
+    },
+    "es.hogar_vivo_en_el_tercer_piso": {
+      "conceptId": "es.hogar_vivo_en_el_tercer_piso",
+      "id": "hogar_vivo_en_el_tercer_piso",
+      "target": [
+        {
+          "text": "Vivo en el tercer piso.",
+          "audioSlug": "vivo_en_el_tercer_piso"
+        }
+      ]
+    },
+    "es.movies_where_buy_tickets": {
+      "conceptId": "es.movies_where_buy_tickets",
+      "id": "movies_where_buy_tickets",
+      "target": [
+        {
+          "text": "¿Dónde puedo comprar las entradas?",
+          "labels": {
+            "region": "General"
+          },
+          "audioSlug": "donde_puedo_comprar_las_entradas"
+        },
+        {
+          "text": "¿Dónde puedo comprar los boletos?",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "donde_puedo_comprar_los_boletos"
+        }
+      ]
+    },
+    "es.restaurant_the_menu_please": {
+      "conceptId": "es.restaurant_the_menu_please",
+      "id": "restaurant_the_menu_please",
+      "target": [
+        {
+          "text": "El menú, por favor.",
+          "audioSlug": "el_menu_por_favor"
+        }
+      ]
+    },
+    "es.viajes_donde_esta_la_oficina_de_turismo": {
+      "conceptId": "es.viajes_donde_esta_la_oficina_de_turismo",
+      "id": "viajes_donde_esta_la_oficina_de_turismo",
+      "target": [
+        {
+          "text": "¿Dónde está la oficina de turismo?",
+          "audioSlug": "donde_esta_la_oficina_de_turismo"
+        }
+      ]
+    }
+  }
+}

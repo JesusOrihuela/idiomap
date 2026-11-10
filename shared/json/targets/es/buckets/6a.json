@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "6a",
+  "concepts": {
+    "es.accountability_accounts_payable_has_already_closed_its": {
+      "conceptId": "es.accountability_accounts_payable_has_already_closed_its",
+      "id": "accountability_accounts_payable_has_already_closed_its",
+      "target": [
+        {
+          "text": "Cuentas por Pagar ya cerró sus registros contables para este mes.",
+          "audioSlug": "cuentas_por_pagar_ya_cerro_sus_registros_contables_para_este_mes"
+        }
+      ]
+    },
+    "es.accountability_outstanding_invoices_month_end_close": {
+      "conceptId": "es.accountability_outstanding_invoices_month_end_close",
+      "id": "accountability_outstanding_invoices_month_end_close",
+      "target": [
+        {
+          "text": "Las facturas pendientes deben recibir seguimiento antes del cierre de mes.",
+          "audioSlug": "las_facturas_pendientes_deben_recibir_seguimiento_antes_del_cierre_de_mes"
+        }
+      ]
+    },
+    "es.gym_today_is_leg_day": {
+      "conceptId": "es.gym_today_is_leg_day",
+      "id": "gym_today_is_leg_day",
+      "target": [
+        {
+          "text": "Hoy entreno piernas.",
+          "audioSlug": "hoy_entreno_piernas"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_le_regale_una_margarita_blanca": {
+      "conceptId": "es.naturaleza_lugares_le_regale_una_margarita_blanca",
+      "id": "naturaleza_lugares_le_regale_una_margarita_blanca",
+      "target": [
+        {
+          "text": "Le regalé una margarita blanca.",
+          "audioSlug": "le_regale_una_margarita_blanca"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_i_find_that_interesting": {
+      "conceptId": "es.pensamientos_opiniones_i_find_that_interesting",
+      "id": "pensamientos_opiniones_i_find_that_interesting",
+      "target": [
+        {
+          "text": "Eso me parece interesante.",
+          "audioSlug": "eso_me_parece_interesante"
+        }
+      ]
+    },
+    "es.technology_you_should_buy_a_better_mouse": {
+      "conceptId": "es.technology_you_should_buy_a_better_mouse",
+      "id": "technology_you_should_buy_a_better_mouse",
+      "target": [
+        {
+          "text": "Deberías comprar un mejor ratón y teclado.",
+          "audioSlug": "deberias_comprar_un_mejor_raton_y_teclado"
+        }
+      ]
+    }
+  }
+}

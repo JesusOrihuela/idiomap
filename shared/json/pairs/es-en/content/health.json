@@ -1,55 +1,631 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "health",
-  "conceptIds": [
-    "en.health_how_do_you_feel",
-    "en.health_i_dont_feel_well",
-    "en.health_i_have_a_headache",
-    "en.health_my_stomach_hurts",
-    "en.health_i_have_a_fever",
-    "en.health_i_have_a_cold",
-    "en.health_i_need_a_doctor",
-    "en.health_where_is_pharmacy",
-    "en.health_i_want_an_appointment",
-    "en.health_it_hurts_here",
-    "en.health_im_allergic",
-    "en.health_take_this_medicine",
-    "en.health_i_feel_dizzy",
-    "en.health_my_throat_hurts",
-    "en.health_i_cut_my_hand",
-    "en.health_get_well_soon",
-    "en.health_i_have_a_cough",
-    "en.health_im_tired_all_time",
-    "en.health_take_care_of_health",
-    "en.health_my_back_hurts",
-    "en.health_do_you_have_pain",
-    "en.health_i_have_to_go_to_the_hospital",
-    "en.health_i_feel_much_better_today",
-    "en.health_i_need_to_rest",
-    "en.health_do_you_have_any_pain",
-    "en.health_i_hurt_my_knee",
-    "en.health_the_doctor_says_im_fine",
-    "en.health_i_need_a_prescription",
-    "en.health_you_should_drink_water",
-    "en.health_i_have_been_sick_since_yesterday",
-    "en.health_she_suffers_from_headaches",
-    "en.health_the_treatment_is_working",
-    "en.health_it_is_a_serious_disease",
-    "en.health_my_arm_hurts",
-    "en.health_my_left_foot_hurts",
-    "en.health_i_feel_a_sharp_pain",
-    "en.health_you_need_to_rest",
-    "en.health_breathe_deeply",
-    "en.health_there_is_no_cure_yet",
-    "en.health_he_gave_blood_today",
-    "en.health_he_broke_a_bone",
-    "en.health_my_tooth_hurts",
-    "en.health_smoking_can_kill",
-    "en.health_i_feel_sick",
-    "en.health_i_escaped_death",
-    "en.health_my_head_hurts",
-    "en.health_the_drug_problem_is_international",
-    "en.health_stress_can_cause_headaches"
+  "phrases": [
+    {
+      "conceptId": "en.health_how_do_you_feel",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9bcac75b2d27b73b"
+    },
+    {
+      "conceptId": "en.health_i_dont_feel_well",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e95254ea4318fde4"
+    },
+    {
+      "conceptId": "en.health_i_have_a_headache",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.37e1718a4650476a"
+    },
+    {
+      "conceptId": "en.health_my_stomach_hurts",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.be63ba7e9364bd44"
+    },
+    {
+      "conceptId": "en.health_i_have_a_fever",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fe4421b61c3537a6"
+    },
+    {
+      "conceptId": "en.health_i_have_a_cold",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4a5be69f90206092"
+    },
+    {
+      "conceptId": "en.health_i_need_a_doctor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.288146fa14dc5f14"
+    },
+    {
+      "conceptId": "en.health_where_is_pharmacy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b5cc26598a174cef"
+    },
+    {
+      "conceptId": "en.health_i_want_an_appointment",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.85552fba1e3c8318"
+    },
+    {
+      "conceptId": "en.health_it_hurts_here",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.42bdc4eb5785f1c5"
+    },
+    {
+      "conceptId": "en.health_im_allergic",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.028bae78168cc9fb"
+    },
+    {
+      "conceptId": "en.health_take_this_medicine",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0da8cac607e40e00"
+    },
+    {
+      "conceptId": "en.health_i_feel_dizzy",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b3a12b980d98f04f"
+    },
+    {
+      "conceptId": "en.health_my_throat_hurts",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0a8d28624472e626"
+    },
+    {
+      "conceptId": "en.health_i_cut_my_hand",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2ad959a16e105056"
+    },
+    {
+      "conceptId": "en.health_get_well_soon",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c8a323f707d271b6"
+    },
+    {
+      "conceptId": "en.health_i_have_a_cough",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4c797b07f546ba5e"
+    },
+    {
+      "conceptId": "en.health_im_tired_all_time",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.319a7bfcaf86bc86"
+    },
+    {
+      "conceptId": "en.health_take_care_of_health",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b78b74a7bfea819b"
+    },
+    {
+      "conceptId": "en.health_my_back_hurts",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d00b52109e1032d3"
+    },
+    {
+      "conceptId": "en.health_do_you_have_pain",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d373019cd8829b4a"
+    },
+    {
+      "conceptId": "en.health_i_have_to_go_to_the_hospital",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9a998aae4bf8151e"
+    },
+    {
+      "conceptId": "en.health_i_feel_much_better_today",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d0e10dd024251224"
+    },
+    {
+      "conceptId": "en.health_i_need_to_rest",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3ebf6f5e710e4a1c"
+    },
+    {
+      "conceptId": "en.health_do_you_have_any_pain",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a17a27e7a8dd6ccd"
+    },
+    {
+      "conceptId": "en.health_i_hurt_my_knee",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9d900f04a42db52c"
+    },
+    {
+      "conceptId": "en.health_the_doctor_says_im_fine",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.65b3477b542fbe7f"
+    },
+    {
+      "conceptId": "en.health_i_need_a_prescription",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b852ee4ca3cbf583"
+    },
+    {
+      "conceptId": "en.health_you_should_drink_water",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.68cf5f3e5d2f8836"
+    },
+    {
+      "conceptId": "en.health_i_have_been_sick_since_yesterday",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d02acf99166224e1"
+    },
+    {
+      "conceptId": "en.health_she_suffers_from_headaches",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.861d12cb253e9bed"
+    },
+    {
+      "conceptId": "en.health_the_treatment_is_working",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a2ccccb8a1cd3501"
+    },
+    {
+      "conceptId": "en.health_it_is_a_serious_disease",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.72ef96f7abb4746c"
+    },
+    {
+      "conceptId": "en.health_my_arm_hurts",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.15a669e4e121054f"
+    },
+    {
+      "conceptId": "en.health_my_left_foot_hurts",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.71ead805f774fda4"
+    },
+    {
+      "conceptId": "en.health_i_feel_a_sharp_pain",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c1424b40996ba051"
+    },
+    {
+      "conceptId": "en.health_you_need_to_rest",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2035b02b3af5794d"
+    },
+    {
+      "conceptId": "en.health_breathe_deeply",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.17394f172e6484e3"
+    },
+    {
+      "conceptId": "en.health_there_is_no_cure_yet",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ddb4d269b3ac3f20"
+    },
+    {
+      "conceptId": "en.health_he_gave_blood_today",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.275e86546ab8ab1b"
+    },
+    {
+      "conceptId": "en.health_he_broke_a_bone",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dad5b1e5ef649825"
+    },
+    {
+      "conceptId": "en.health_my_tooth_hurts",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.62d536f225b7c789"
+    },
+    {
+      "conceptId": "en.health_smoking_can_kill",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.23dbe8e513737c12"
+    },
+    {
+      "conceptId": "en.health_i_feel_sick",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.105b4a10cd0eedb0"
+    },
+    {
+      "conceptId": "en.health_i_escaped_death",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.150ae5d7fa050dd5"
+    },
+    {
+      "conceptId": "en.health_my_head_hurts",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.37e1718a4650476a"
+    },
+    {
+      "conceptId": "en.health_the_drug_problem_is_international",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.96faa5382b3e3a86"
+    },
+    {
+      "conceptId": "en.health_stress_can_cause_headaches",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.075deb5205b474f1"
+    }
   ]
 }

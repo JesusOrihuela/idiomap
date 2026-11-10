@@ -1,40 +1,436 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "technology",
-  "conceptIds": [
-    "es.technology_uso_mi_telefono_todos_los_dias",
-    "es.technology_mi_computadora_no_funciona",
-    "es.technology_necesito_cargar_la_bateria",
-    "es.technology_voy_a_descargar_una_aplicacion",
-    "es.technology_te_envie_un_correo_electronico",
-    "es.technology_no_tengo_senal_aqui",
-    "es.technology_cual_es_la_contrasena_del_wifi",
-    "es.technology_guardo_las_fotos_en_la_nube",
-    "es.technology_se_me_olvido_la_contrasena",
-    "es.technology_este_programa_es_facil_de_usar",
-    "es.technology_la_pantalla_del_telefono_esta_rota",
-    "es.technology_no_tengo_conexion_a_internet",
-    "es.technology_envie_un_mensaje_a_mi_jefe",
-    "es.technology_guarda_el_archivo_antes_de_cerrar",
-    "es.technology_presiona_el_boton_verde",
-    "es.technology_la_red_social_es_muy_popular",
-    "es.technology_necesito_conectar_el_cable",
-    "es.technology_este_dispositivo_es_muy_moderno",
-    "es.technology_mi_movil_tiene_una_buena_camara",
-    "es.technology_me_gusta_el_diseno_de_esta_pagina",
-    "es.technology_guarde_el_documento_en_la_nube",
-    "es.technology_cada_elemento_de_la_pantalla_es_util",
-    "es.technology_quieren_desarrollar_una_nueva_aplicacion",
-    "es.technology_la_energia_solar_es_mas_limpia",
-    "es.technology_este_icono_puede_representar_un_error",
-    "es.technology_en_la_tele_ponen_un_buen_documental",
-    "es.technology_la_linea_del_telefono_esta_ocupada",
-    "es.technology_guarda_mi_numero_de_contacto",
-    "es.technology_olvide_el_codigo_de_la_puerta",
-    "es.technology_apaga_la_tele_antes_de_dormir",
-    "es.technology_mi_portatil_nuevo_es_muy_ligero",
-    "es.technology_el_aparato_funciona_con_energia_electrica",
-    "es.technology_grabe_un_video_del_concierto"
+  "phrases": [
+    {
+      "conceptId": "es.technology_uso_mi_telefono_todos_los_dias",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.09e2479d7047f65e"
+    },
+    {
+      "conceptId": "es.technology_mi_computadora_no_funciona",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9e7a9712377dc3c7"
+    },
+    {
+      "conceptId": "es.technology_necesito_cargar_la_bateria",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3217ca48019be55f"
+    },
+    {
+      "conceptId": "es.technology_voy_a_descargar_una_aplicacion",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.979c4c4569e2881b"
+    },
+    {
+      "conceptId": "es.technology_te_envie_un_correo_electronico",
+      "level": "A2",
+      "grammar": "envié es pretérito indefinido, una acción terminada.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e74357a4500d3541"
+    },
+    {
+      "conceptId": "es.technology_no_tengo_senal_aqui",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f2d3f83670862f87"
+    },
+    {
+      "conceptId": "es.technology_cual_es_la_contrasena_del_wifi",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.090efc083a893f4d"
+    },
+    {
+      "conceptId": "es.technology_guardo_las_fotos_en_la_nube",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.55f2489ba4035a0c"
+    },
+    {
+      "conceptId": "es.technology_se_me_olvido_la_contrasena",
+      "level": "B1",
+      "grammar": "se me olvidó expresa un olvido involuntario.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.94b2715c2fab5a03"
+    },
+    {
+      "conceptId": "es.technology_este_programa_es_facil_de_usar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f57d6391235d8c04"
+    },
+    {
+      "conceptId": "es.technology_la_pantalla_del_telefono_esta_rota",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c4c4d8e462feb52a"
+    },
+    {
+      "conceptId": "es.technology_no_tengo_conexion_a_internet",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8b3f97e2befd10b9"
+    },
+    {
+      "conceptId": "es.technology_envie_un_mensaje_a_mi_jefe",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.148f350477ec0b39"
+    },
+    {
+      "conceptId": "es.technology_guarda_el_archivo_antes_de_cerrar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.830a72765d996247"
+    },
+    {
+      "conceptId": "es.technology_presiona_el_boton_verde",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b8a2d45b11e65db2"
+    },
+    {
+      "conceptId": "es.technology_la_red_social_es_muy_popular",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2cd66dc0834c7c4a"
+    },
+    {
+      "conceptId": "es.technology_necesito_conectar_el_cable",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e10dc3acc241cde2"
+    },
+    {
+      "conceptId": "es.technology_este_dispositivo_es_muy_moderno",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9781c18d65746390"
+    },
+    {
+      "conceptId": "es.technology_mi_movil_tiene_una_buena_camara",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0a2c55fe90fe66d9"
+    },
+    {
+      "conceptId": "es.technology_me_gusta_el_diseno_de_esta_pagina",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3d1a01f2db49c85a"
+    },
+    {
+      "conceptId": "es.technology_guarde_el_documento_en_la_nube",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4e23d0fd6cf795b1"
+    },
+    {
+      "conceptId": "es.technology_cada_elemento_de_la_pantalla_es_util",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c1b60900b34b60b1"
+    },
+    {
+      "conceptId": "es.technology_quieren_desarrollar_una_nueva_aplicacion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9d60a1cd0011db71"
+    },
+    {
+      "conceptId": "es.technology_la_energia_solar_es_mas_limpia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0243434bfb927868"
+    },
+    {
+      "conceptId": "es.technology_este_icono_puede_representar_un_error",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f8f1f69d9f99f0d9"
+    },
+    {
+      "conceptId": "es.technology_en_la_tele_ponen_un_buen_documental",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a1248ee9fc5da5d7"
+    },
+    {
+      "conceptId": "es.technology_la_linea_del_telefono_esta_ocupada",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c23a728a6f46bdd4"
+    },
+    {
+      "conceptId": "es.technology_guarda_mi_numero_de_contacto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2de25298f177f684"
+    },
+    {
+      "conceptId": "es.technology_olvide_el_codigo_de_la_puerta",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dbd66096404239c5"
+    },
+    {
+      "conceptId": "es.technology_apaga_la_tele_antes_de_dormir",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5398fe386b020d85"
+    },
+    {
+      "conceptId": "es.technology_mi_portatil_nuevo_es_muy_ligero",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6af87b2d1c2642e2"
+    },
+    {
+      "conceptId": "es.technology_el_aparato_funciona_con_energia_electrica",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.80fc4898f70eaa51"
+    },
+    {
+      "conceptId": "es.technology_grabe_un_video_del_concierto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b01784807bd93520"
+    }
   ]
 }

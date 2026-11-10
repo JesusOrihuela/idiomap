@@ -15,7 +15,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const AUDIO = path.join(ROOT, 'shared/audio');
 const APPLY = process.argv.includes('--apply');
 const BACKUP = path.join(os.tmpdir(), 'opencode', 'idiomap-audio-duplicates');
-const stem = (f) => path.basename(f).replace(/\.wav$/i, '').replace(/-[a-z]{2,3}_[a-z0-9]+$/i, '');
+const stem = (f) => path.basename(f).replace(/\.(wav|m4a|mp3)$/i, '').replace(/-[a-z]{2,3}_[a-z0-9]+$/i, '');
 const sha = (b) => crypto.createHash('sha256').update(b).digest('hex');
 
 // Same pronunciation, different spelling: identical audio is correct.
@@ -28,7 +28,7 @@ const files = [];
   for (const e of fs.readdirSync(d, { withFileTypes: true })) {
     const p = path.join(d, e.name);
     if (e.isDirectory()) walk(p);
-    else if (/\.wav$/i.test(e.name)) files.push(p);
+    else if (/\.(wav|m4a|mp3)$/i.test(e.name)) files.push(p);
   }
 })(AUDIO);
 

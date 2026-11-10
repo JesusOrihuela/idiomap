@@ -1,54 +1,618 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "airport",
-  "conceptIds": [
-    "en.airport_flight_departure_time",
-    "en.airport_check_luggage",
-    "en.airport_waiting_room_location",
-    "en.airport_prefer_window_seat",
-    "en.airport_boarding_pass_gate",
-    "en.airport_carryon_size_limit",
-    "en.airport_exchange_currency",
-    "en.airport_which_terminal_departs",
-    "en.airport_how_early_arrive",
-    "en.airport_direct_or_connecting",
-    "en.airport_flight_delayed_voucher",
-    "en.airport_request_seat_front",
-    "en.airport_carryon_over_limit",
-    "en.airport_baggage_claim_flight",
-    "en.airport_connection_time_enough",
-    "en.airport_security_liquids_confiscated",
-    "en.airport_priority_boarding_boarded_together",
-    "en.airport_cancelled_rebook_today",
-    "en.airport_forgot_boarding_pass_website",
-    "en.airport_luggage_lost_claim",
-    "en.airport_denied_boarding_compensation",
-    "en.airport_immigration_before_bags",
-    "en.airport_seat_changed_no_notice",
-    "en.airport_bag_made_connection",
-    "en.airport_multi_entry_visa_duration",
-    "en.airport_duty_exceeded_pay_here",
-    "en.airport_unaccompanied_minor_procedure",
-    "en.airport_seat_assignment_not_booked",
-    "en.airport_customs_declare_allowance",
-    "en.airport_passport_expiry_visa",
-    "en.airport_transit_zone_restrictions",
-    "en.airport_upgrade_miles_business",
-    "en.airport_mishandled_bag_return",
-    "en.airport_refused_entry_return_carrier",
-    "en.airport_eu_regulation_compensation",
-    "en.airport_secondary_screening_rights",
-    "en.airport_partner_airline_baggage_liability",
-    "en.airport_where_is_checkin",
-    "en.airport_which_gate",
-    "en.airport_where_is_security",
-    "en.airport_where_passport_control",
-    "en.airport_is_flight_on_time",
-    "en.airport_where_boarding_pass",
-    "en.airport_nothing_to_declare",
-    "en.airport_is_this_gate_for",
-    "en.airport_aisle_seat",
-    "en.airport_duty_free_shop"
+  "phrases": [
+    {
+      "conceptId": "en.airport_flight_departure_time",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.21d006a732f7cc22"
+    },
+    {
+      "conceptId": "en.airport_check_luggage",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.755906729f404416"
+    },
+    {
+      "conceptId": "en.airport_waiting_room_location",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fe681b02db364068"
+    },
+    {
+      "conceptId": "en.airport_prefer_window_seat",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.90de1eb67714add0"
+    },
+    {
+      "conceptId": "en.airport_boarding_pass_gate",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c9d5b22182ddd62c"
+    },
+    {
+      "conceptId": "en.airport_carryon_size_limit",
+      "level": "A2",
+      "grammar": "Modal 'must': strong obligation or rule",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cdae96e77c1eafd8"
+    },
+    {
+      "conceptId": "en.airport_exchange_currency",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3d2e5c4e3a4f5edd"
+    },
+    {
+      "conceptId": "en.airport_which_terminal_departs",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.76ef7c31537a0dc1"
+    },
+    {
+      "conceptId": "en.airport_how_early_arrive",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.686f8b467e6a1b23"
+    },
+    {
+      "conceptId": "en.airport_direct_or_connecting",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3ef92ae495d4b73e"
+    },
+    {
+      "conceptId": "en.airport_flight_delayed_voucher",
+      "level": "B2",
+      "grammar": "Present perfect passive: 'has been delayed' for a recent change affecting the speaker",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6835248a80a4643d"
+    },
+    {
+      "conceptId": "en.airport_request_seat_front",
+      "level": "A2",
+      "grammar": "'I'd like + noun' or 'I'd like to + infinitive' both make polite requests.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3ec7ee1e6393ae54"
+    },
+    {
+      "conceptId": "en.airport_carryon_over_limit",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.263664a42debefe2"
+    },
+    {
+      "conceptId": "en.airport_baggage_claim_flight",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ebeaecf1a05c0738"
+    },
+    {
+      "conceptId": "en.airport_connection_time_enough",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b67227d8287f48c8"
+    },
+    {
+      "conceptId": "en.airport_security_liquids_confiscated",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.79f5f18119e0667a"
+    },
+    {
+      "conceptId": "en.airport_priority_boarding_boarded_together",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a896e8a3eaaefa8c"
+    },
+    {
+      "conceptId": "en.airport_cancelled_rebook_today",
+      "level": "B2",
+      "grammar": "'Need to be rebooked' requests an action to be performed on the speaker.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9c042eec10100afa"
+    },
+    {
+      "conceptId": "en.airport_forgot_boarding_pass_website",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.18a54ff7acd8d13b"
+    },
+    {
+      "conceptId": "en.airport_luggage_lost_claim",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f6daadfd2b015ca1"
+    },
+    {
+      "conceptId": "en.airport_denied_boarding_compensation",
+      "level": "B2",
+      "grammar": "Passive voice: 'was denied' to describe an action received by the subject",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.63070ba8ba4a7320"
+    },
+    {
+      "conceptId": "en.airport_immigration_before_bags",
+      "level": "B2",
+      "grammar": "Modal 'have to' expressing a rule or required step",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5d003cb231014857"
+    },
+    {
+      "conceptId": "en.airport_seat_changed_no_notice",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fa7885f1e681f828"
+    },
+    {
+      "conceptId": "en.airport_bag_made_connection",
+      "level": "B2",
+      "grammar": "Indirect question: 'whether + subject + verb' inside a main clause",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1261541c2cdc73c2"
+    },
+    {
+      "conceptId": "en.airport_multi_entry_visa_duration",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3e663537a9ecadc7"
+    },
+    {
+      "conceptId": "en.airport_duty_exceeded_pay_here",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d715f9b678deeb44"
+    },
+    {
+      "conceptId": "en.airport_unaccompanied_minor_procedure",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.456fd82dc00f0733"
+    },
+    {
+      "conceptId": "en.airport_seat_assignment_not_booked",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.55db4858423b12b8"
+    },
+    {
+      "conceptId": "en.airport_customs_declare_allowance",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.72a709e829759714"
+    },
+    {
+      "conceptId": "en.airport_passport_expiry_visa",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ea2664a61b9f9f47"
+    },
+    {
+      "conceptId": "en.airport_transit_zone_restrictions",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9892d3a35583662f"
+    },
+    {
+      "conceptId": "en.airport_upgrade_miles_business",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1da33ba6b139e80b"
+    },
+    {
+      "conceptId": "en.airport_mishandled_bag_return",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.43ded0f2e066203b"
+    },
+    {
+      "conceptId": "en.airport_refused_entry_return_carrier",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7cecab524f442b43"
+    },
+    {
+      "conceptId": "en.airport_eu_regulation_compensation",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9c0e4ba2a9e5f2d2"
+    },
+    {
+      "conceptId": "en.airport_secondary_screening_rights",
+      "level": "C2",
+      "grammar": "Present perfect passive focuses on the result of an action, not who performed it.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.299abf7c71812040"
+    },
+    {
+      "conceptId": "en.airport_partner_airline_baggage_liability",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c5baeb2cc8d3f6aa"
+    },
+    {
+      "conceptId": "en.airport_where_is_checkin",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a8d89053eab6b3ef"
+    },
+    {
+      "conceptId": "en.airport_which_gate",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d836ddd28d659212"
+    },
+    {
+      "conceptId": "en.airport_where_is_security",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b8b65a75dee7a83a"
+    },
+    {
+      "conceptId": "en.airport_where_passport_control",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6dbdf41c08c98c7b"
+    },
+    {
+      "conceptId": "en.airport_is_flight_on_time",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8018797360871e43"
+    },
+    {
+      "conceptId": "en.airport_where_boarding_pass",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.76e3c97c0a440c44"
+    },
+    {
+      "conceptId": "en.airport_nothing_to_declare",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d606026d98e2fd62"
+    },
+    {
+      "conceptId": "en.airport_is_this_gate_for",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b237ead7a9d129e0"
+    },
+    {
+      "conceptId": "en.airport_aisle_seat",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.668e806c651d31f0"
+    },
+    {
+      "conceptId": "en.airport_duty_free_shop",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.65f8a5d9a3183ccf"
+    }
   ]
 }

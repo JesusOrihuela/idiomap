@@ -1,46 +1,514 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "daily_routine",
-  "conceptIds": [
-    "es.daily_routine_what_time_get_up",
-    "es.daily_routine_i_get_up_at_seven",
-    "es.daily_routine_breakfast_at_eight",
-    "es.daily_routine_go_to_work_by_bus",
-    "es.daily_routine_lunch_at_one",
-    "es.daily_routine_get_home_at_six",
-    "es.daily_routine_dinner_at_nine",
-    "es.daily_routine_go_to_bed_at_eleven",
-    "es.daily_routine_i_sleep_eight_hours",
-    "es.daily_routine_morning_go_to_gym",
-    "es.daily_routine_shower_every_day",
-    "es.daily_routine_weekends",
-    "es.daily_routine_always_busy_afternoon",
-    "es.daily_routine_usually_coffee",
-    "es.daily_routine_brush_teeth",
-    "es.daily_routine_rest_on_sundays",
-    "es.daily_routine_i_wake_up_early",
-    "es.daily_routine_i_leave_home_at_eight",
-    "es.daily_routine_i_study_english_every_day",
-    "es.daily_routine_i_watch_tv_at_night",
-    "es.daily_routine_i_prepare_breakfast",
-    "es.daily_routine_i_have_coffee_before_leaving",
-    "es.daily_routine_i_read_before_sleeping",
-    "es.daily_routine_what_do_you_do_before_breakfast",
-    "es.daily_routine_i_check_email_at_work",
-    "es.daily_routine_i_drink_a_lot_of_water",
-    "es.daily_routine_i_watch_the_news_in_the_morning",
-    "es.daily_routine_i_play_for_a_while_in_the_afternoon",
-    "es.daily_routine_i_think_about_my_day_before_sleeping",
-    "es.daily_routine_me_visto_rapido",
-    "es.daily_routine_voy_a_estudiar_esta_noche",
-    "es.daily_routine_suelo_caminar",
-    "es.daily_routine_me_levanto_a_las_siete",
-    "es.daily_routine_me_lavo_la_cara",
-    "es.daily_routine_me_ducho_antes_de_desayunar",
-    "es.daily_routine_me_siento_a_leer_un_rato",
-    "es.daily_routine_los_domingos_me_quedo_en_casa",
-    "es.daily_routine_normalmente_ceno_a_las_ocho",
-    "es.daily_routine_los_viernes_me_acuesto_tarde"
+  "phrases": [
+    {
+      "conceptId": "es.daily_routine_what_time_get_up",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.56b3c71d2b27ac34"
+    },
+    {
+      "conceptId": "es.daily_routine_i_get_up_at_seven",
+      "level": "A1",
+      "grammar": "'Levantarse' es reflexivo: 'me levanto', 'te levantas'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3f03d481e1577f68"
+    },
+    {
+      "conceptId": "es.daily_routine_breakfast_at_eight",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.98a20b17bca66177"
+    },
+    {
+      "conceptId": "es.daily_routine_go_to_work_by_bus",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0579401545491e18"
+    },
+    {
+      "conceptId": "es.daily_routine_lunch_at_one",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.39fad03ecfa4c379"
+    },
+    {
+      "conceptId": "es.daily_routine_get_home_at_six",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.42a192954be631b8"
+    },
+    {
+      "conceptId": "es.daily_routine_dinner_at_nine",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c37340a85558282b"
+    },
+    {
+      "conceptId": "es.daily_routine_go_to_bed_at_eleven",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.304412f01300d145"
+    },
+    {
+      "conceptId": "es.daily_routine_i_sleep_eight_hours",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3e2a24b3ce22b5ab"
+    },
+    {
+      "conceptId": "es.daily_routine_morning_go_to_gym",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.dfa46ba517b6710d"
+    },
+    {
+      "conceptId": "es.daily_routine_shower_every_day",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a9d1a74a65f95df8"
+    },
+    {
+      "conceptId": "es.daily_routine_weekends",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d827212f4d0656e0"
+    },
+    {
+      "conceptId": "es.daily_routine_always_busy_afternoon",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bdbc768a299372eb"
+    },
+    {
+      "conceptId": "es.daily_routine_usually_coffee",
+      "level": "A2",
+      "grammar": "'Soler + infinitivo' expresa un hábito o costumbre.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.004e363d1ed47c1a"
+    },
+    {
+      "conceptId": "es.daily_routine_brush_teeth",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d106bb2d70c5847c"
+    },
+    {
+      "conceptId": "es.daily_routine_rest_on_sundays",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cb0d8d87c4208000"
+    },
+    {
+      "conceptId": "es.daily_routine_i_wake_up_early",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1f0bf1e5819fa135"
+    },
+    {
+      "conceptId": "es.daily_routine_i_leave_home_at_eight",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0655ac9003c985cf"
+    },
+    {
+      "conceptId": "es.daily_routine_i_study_english_every_day",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.205b7245260883ee"
+    },
+    {
+      "conceptId": "es.daily_routine_i_watch_tv_at_night",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6f514dcc592d4bfd"
+    },
+    {
+      "conceptId": "es.daily_routine_i_prepare_breakfast",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f66399e0d852b1f4"
+    },
+    {
+      "conceptId": "es.daily_routine_i_have_coffee_before_leaving",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cd363a00fdcc62e6"
+    },
+    {
+      "conceptId": "es.daily_routine_i_read_before_sleeping",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f17ccbe4b9cdd2cf"
+    },
+    {
+      "conceptId": "es.daily_routine_what_do_you_do_before_breakfast",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0414fc608179d707"
+    },
+    {
+      "conceptId": "es.daily_routine_i_check_email_at_work",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1278e6e61afcb766"
+    },
+    {
+      "conceptId": "es.daily_routine_i_drink_a_lot_of_water",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.127db94609d764d3"
+    },
+    {
+      "conceptId": "es.daily_routine_i_watch_the_news_in_the_morning",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.edd391b2e85de900"
+    },
+    {
+      "conceptId": "es.daily_routine_i_play_for_a_while_in_the_afternoon",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b61202f114ad4f62"
+    },
+    {
+      "conceptId": "es.daily_routine_i_think_about_my_day_before_sleeping",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d2097d681eb408e5"
+    },
+    {
+      "conceptId": "es.daily_routine_me_visto_rapido",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1ac6692241c4562b"
+    },
+    {
+      "conceptId": "es.daily_routine_voy_a_estudiar_esta_noche",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.88e5e6545e407978"
+    },
+    {
+      "conceptId": "es.daily_routine_suelo_caminar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1f0ddeea71e7e3a6"
+    },
+    {
+      "conceptId": "es.daily_routine_me_levanto_a_las_siete",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0e54317a86ad002b"
+    },
+    {
+      "conceptId": "es.daily_routine_me_lavo_la_cara",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3e90db59f1a2bdff"
+    },
+    {
+      "conceptId": "es.daily_routine_me_ducho_antes_de_desayunar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ffa6dc0d9c0c3bac"
+    },
+    {
+      "conceptId": "es.daily_routine_me_siento_a_leer_un_rato",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c3abe09c44a6f9a3"
+    },
+    {
+      "conceptId": "es.daily_routine_los_domingos_me_quedo_en_casa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5690933fee30b288"
+    },
+    {
+      "conceptId": "es.daily_routine_normalmente_ceno_a_las_ocho",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3fe9c49bc4a31bc4"
+    },
+    {
+      "conceptId": "es.daily_routine_los_viernes_me_acuesto_tarde",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.32f3f5bb2cb9983b"
+    }
   ]
 }

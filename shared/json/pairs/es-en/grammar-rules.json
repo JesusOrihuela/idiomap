@@ -85,7 +85,6 @@
       "level": "A2",
       "title": "Present Simple",
       "title_es": "Presente Simple, Hábitos y estados",
-      "prerequisites": [],
       "context_dialogue": [
         {
           "speaker": "Ana",
@@ -243,7 +242,12 @@
           "model_translation": "Me levanto a las siete, tomo un café y reviso mi correo.",
           "hint": "Recuerda la -s en he/she/it si hablas de otra persona."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "present_continuous_now",
@@ -251,9 +255,6 @@
       "level": "A2",
       "title": "Present Continuous",
       "title_es": "Presente Continuo, Acciones en progreso",
-      "prerequisites": [
-        "present_simple_habits"
-      ],
       "context_dialogue": [
         {
           "speaker": "Mia",
@@ -419,7 +420,12 @@
           "model_translation": "Estoy tomando un café y leyendo las noticias.",
           "hint": "am/is/are + verbo-ing."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "simple_past",
@@ -427,9 +433,6 @@
       "level": "A2",
       "title": "Simple Past",
       "title_es": "Pasado Simple, Acciones completadas",
-      "prerequisites": [
-        "present_simple_habits"
-      ],
       "context_dialogue": [
         {
           "speaker": "Sam",
@@ -616,7 +619,12 @@
           "model_translation": "Visité a mis abuelos y cocinamos juntos.",
           "hint": "Regulares +ed. Irregulares: go→went, have→had."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "past_continuous",
@@ -624,9 +632,6 @@
       "level": "B1",
       "title": "Past Continuous",
       "title_es": "Pasado Continuo, Acciones en progreso",
-      "prerequisites": [
-        "simple_past"
-      ],
       "context_dialogue": [
         {
           "speaker": "Ana",
@@ -778,7 +783,12 @@
           "model_translation": "Estaba leyendo cuando se fue la luz.",
           "hint": "was/were + verbo-ing para la acción en progreso."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "present_perfect_experience",
@@ -786,9 +796,6 @@
       "level": "B1",
       "title": "Present Perfect",
       "title_es": "Present Perfect, Experiencias y resultados presentes",
-      "prerequisites": [
-        "simple_past"
-      ],
       "context_dialogue": [
         {
           "speaker": "Host",
@@ -956,7 +963,12 @@
           "model_translation": "He visitado tres países en Europa.",
           "hint": "have/has + participio pasado."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "future_will_going_to",
@@ -964,10 +976,6 @@
       "level": "B1",
       "title": "will vs. going to",
       "title_es": "Futuro: will vs. going to",
-      "prerequisites": [
-        "present_simple_habits",
-        "present_continuous_now"
-      ],
       "context_dialogue": [
         {
           "speaker": "Lena",
@@ -1131,7 +1139,12 @@
           "model_translation": "Voy a empezar un libro nuevo esta noche.",
           "hint": "going to = plan, will = decisión o predicción."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "past_perfect",
@@ -1139,10 +1152,6 @@
       "level": "B2",
       "title": "Past Perfect",
       "title_es": "Past Perfect, Pasado antes del pasado",
-      "prerequisites": [
-        "simple_past",
-        "present_perfect_experience"
-      ],
       "context_dialogue": [
         {
           "speaker": "Nora",
@@ -1300,7 +1309,12 @@
           "model_translation": "Cuando llegué a casa, mi familia ya había comido.",
           "hint": "had + participio para el pasado anterior al pasado."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "article_a_an",
@@ -1308,7 +1322,6 @@
       "level": "A2",
       "title": "A / An",
       "title_es": "Artículos indefinidos: a / an",
-      "prerequisites": [],
       "context_dialogue": [
         {
           "speaker": "Kai",
@@ -1461,7 +1474,12 @@
           "model_translation": "Quiero comprar una computadora nueva y una pantalla externa.",
           "hint": "a + consonante, an + vocal, según el sonido."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "article_the",
@@ -1469,9 +1487,6 @@
       "level": "A2",
       "title": "The",
       "title_es": "Artículo definido: the",
-      "prerequisites": [
-        "article_a_an"
-      ],
       "context_dialogue": [
         {
           "speaker": "Rex",
@@ -1628,7 +1643,12 @@
           "model_translation": "El mercado de los domingos es mi lugar favorito.",
           "hint": "'the' = algo definido o ya conocido."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "article_zero",
@@ -1636,10 +1656,6 @@
       "level": "B1",
       "title": "Zero Article",
       "title_es": "Artículo cero, Cuándo NO usar artículo",
-      "prerequisites": [
-        "article_a_an",
-        "article_the"
-      ],
       "context_dialogue": [
         {
           "speaker": "Zoe",
@@ -1804,7 +1820,12 @@
           "model_translation": "Me encantan los libros y las mañanas tranquilas.",
           "hint": "Generalidades e incontables van sin artículo."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "modal_can_ability",
@@ -1812,7 +1833,6 @@
       "level": "A2",
       "title": "can / can't",
       "title_es": "can / can't, Habilidad y posibilidad",
-      "prerequisites": [],
       "context_dialogue": [
         {
           "speaker": "Leo",
@@ -1984,7 +2004,12 @@
           "model_translation": "Sé cocinar, pero no sé hornear muy bien.",
           "hint": "can/can't + verbo base."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "modal_should_advice",
@@ -1992,9 +2017,6 @@
       "level": "A2",
       "title": "should / shouldn't",
       "title_es": "should / shouldn't, Consejo y recomendación",
-      "prerequisites": [
-        "modal_can_ability"
-      ],
       "context_dialogue": [
         {
           "speaker": "Dr. Patel",
@@ -2151,7 +2173,12 @@
           "model_translation": "Debería pasar menos tiempo en el teléfono.",
           "hint": "should/shouldn't + verbo base."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "modal_must_obligation",
@@ -2159,9 +2186,6 @@
       "level": "B1",
       "title": "must / have to",
       "title_es": "must / have to, Obligación y necesidad",
-      "prerequisites": [
-        "modal_should_advice"
-      ],
       "context_dialogue": [
         {
           "speaker": "Boss",
@@ -2322,7 +2346,12 @@
           "model_translation": "Tengo que entregar el informe para el viernes.",
           "hint": "must/have to + verbo base = obligación."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "conditional_zero",
@@ -2330,9 +2359,6 @@
       "level": "A2",
       "title": "Zero Conditional",
       "title_es": "Condicional Cero, Hechos y verdades generales",
-      "prerequisites": [
-        "present_simple_habits"
-      ],
       "context_dialogue": [
         {
           "speaker": "Prof",
@@ -2487,7 +2513,12 @@
           "model_translation": "Si me salto el desayuno, me siento cansado toda la mañana.",
           "hint": "If + presente, presente."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "conditional_first",
@@ -2495,10 +2526,6 @@
       "level": "B1",
       "title": "First Conditional",
       "title_es": "Primer Condicional, Situaciones reales y posibles",
-      "prerequisites": [
-        "conditional_zero",
-        "future_will_going_to"
-      ],
       "context_dialogue": [
         {
           "speaker": "Tara",
@@ -2652,7 +2679,12 @@
           "model_translation": "Si hace buen tiempo, iré caminando al trabajo.",
           "hint": "If + presente, will + infinitivo."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "conditional_second",
@@ -2660,9 +2692,6 @@
       "level": "B1",
       "title": "Second Conditional",
       "title_es": "Segundo Condicional, Situaciones hipotéticas",
-      "prerequisites": [
-        "conditional_first"
-      ],
       "context_dialogue": [
         {
           "speaker": "Jay",
@@ -2820,7 +2849,12 @@
           "model_translation": "Si viviera en el extranjero, aprendería el idioma rápido.",
           "hint": "If + pasado, would + infinitivo."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "conditional_third",
@@ -2828,10 +2862,6 @@
       "level": "B2",
       "title": "Third Conditional",
       "title_es": "Tercer Condicional, El pasado que no fue",
-      "prerequisites": [
-        "conditional_second",
-        "past_perfect"
-      ],
       "context_dialogue": [
         {
           "speaker": "Rio",
@@ -2987,7 +3017,12 @@
           "model_translation": "Si hubiera ahorrado dinero, habría comprado esa casa.",
           "hint": "If + had + participio, would have + participio."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "passive_present_simple",
@@ -2995,9 +3030,6 @@
       "level": "B1",
       "title": "Passive Voice, Present Simple",
       "title_es": "Voz pasiva, Presente Simple",
-      "prerequisites": [
-        "present_simple_habits"
-      ],
       "context_dialogue": [
         {
           "speaker": "Tour",
@@ -3153,7 +3185,12 @@
           "model_translation": "El chocolate se hace con granos de cacao.",
           "hint": "is/are + participio pasado."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "questions_wh",
@@ -3161,7 +3198,6 @@
       "level": "A2",
       "title": "Wh- Questions",
       "title_es": "Preguntas con Wh-, Información específica",
-      "prerequisites": [],
       "context_dialogue": [
         {
           "speaker": "HR",
@@ -3337,7 +3373,12 @@
           "model_translation": "¿Dónde creciste?",
           "hint": "Wh- + do/did + sujeto + verbo base."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "comparatives_short",
@@ -3345,7 +3386,6 @@
       "level": "A2",
       "title": "Comparatives",
       "title_es": "Comparativos, Comparar dos cosas",
-      "prerequisites": [],
       "context_dialogue": [
         {
           "speaker": "Pia",
@@ -3497,7 +3537,12 @@
           "model_translation": "Mi nuevo trabajo es más ajetreado que el anterior.",
           "hint": "adjetivo corto + -er + than."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "verb_gerund",
@@ -3505,9 +3550,6 @@
       "level": "B1",
       "title": "Verb + Gerund (-ing)",
       "title_es": "Verbo + Gerundio, Verbos que van seguidos de -ing",
-      "prerequisites": [
-        "present_continuous_now"
-      ],
       "context_dialogue": [
         {
           "speaker": "Cole",
@@ -3668,7 +3710,12 @@
           "model_translation": "Disfruto escuchar música mientras trabajo.",
           "hint": "enjoy/avoid/keep/finish + verbo-ing."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "verb_infinitive",
@@ -3676,9 +3723,6 @@
       "level": "B1",
       "title": "Verb + Infinitive (to)",
       "title_es": "Verbo + Infinitivo, Verbos que van seguidos de to + infinitivo",
-      "prerequisites": [
-        "verb_gerund"
-      ],
       "context_dialogue": [
         {
           "speaker": "Marc",
@@ -3854,7 +3898,12 @@
           "model_translation": "Quiero mejorar mi inglés este año.",
           "hint": "want/hope/decide/need + to + infinitivo."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "prepositions_time",
@@ -3862,7 +3911,6 @@
       "level": "A2",
       "title": "Prepositions of Time: at, on, in",
       "title_es": "Preposiciones de tiempo: at, on, in",
-      "prerequisites": [],
       "context_dialogue": [
         {
           "speaker": "Mia",
@@ -4025,7 +4073,12 @@
           "model_translation": "Normalmente hago ejercicio por la tarde los lunes.",
           "hint": "at hora, on día, in mes/año/parte del día."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "prepositions_place",
@@ -4033,9 +4086,6 @@
       "level": "A2",
       "title": "Prepositions of Place: at, on, in",
       "title_es": "Preposiciones de lugar: at, on, in",
-      "prerequisites": [
-        "prepositions_time"
-      ],
       "context_dialogue": [
         {
           "speaker": "Leo",
@@ -4203,7 +4253,12 @@
           "model_translation": "Mi computadora está sobre la mesa en la sala.",
           "hint": "at punto, in dentro, on superficie."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "prepositions_after_verbs",
@@ -4211,9 +4266,6 @@
       "level": "B1",
       "title": "Verb + Preposition Collocations",
       "title_es": "Colocaciones: verbo + preposicion",
-      "prerequisites": [
-        "prepositions_place"
-      ],
       "context_dialogue": [
         {
           "speaker": "Ana",
@@ -4375,7 +4427,12 @@
           "model_translation": "Siempre me preocupo por llegar tarde.",
           "hint": "La preposición es fija: good at, depend on, worry about."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "phrasal_common",
@@ -4383,7 +4440,6 @@
       "level": "B1",
       "title": "Common Phrasal Verbs",
       "title_es": "Verbos frasales comunes",
-      "prerequisites": [],
       "context_dialogue": [
         {
           "speaker": "Jake",
@@ -4550,7 +4606,12 @@
           "model_translation": "Normalmente me levanto a las siete y hago ejercicio antes del desayuno.",
           "hint": "verbo + partícula con un significado propio."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "phrasal_separable",
@@ -4558,9 +4619,6 @@
       "level": "B1",
       "title": "Separable vs Inseparable Phrasal Verbs",
       "title_es": "Verbos frasales separables e inseparables",
-      "prerequisites": [
-        "phrasal_common"
-      ],
       "context_dialogue": [
         {
           "speaker": "Lena",
@@ -4725,7 +4783,12 @@
           "model_translation": "Apago el teléfono antes de dormir.",
           "hint": "Separable: turn the TV off. Con pronombre solo en medio: turn it off."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "phrasal_idiomatic",
@@ -4733,9 +4796,6 @@
       "level": "B2",
       "title": "Idiomatic Phrasal Verbs",
       "title_es": "Verbos frasales idiomaticos",
-      "prerequisites": [
-        "phrasal_separable"
-      ],
       "context_dialogue": [
         {
           "speaker": "Eva",
@@ -4897,7 +4957,12 @@
           "model_translation": "Siempre pospongo la limpieza hasta el fin de semana.",
           "hint": "Significado no literal: put off = posponer."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "inversion_negative_adverbials",
@@ -5009,7 +5074,12 @@
           "model_translation": "Nunca me he sentido tan orgulloso de un proyecto.",
           "hint": "Adverbio negativo + auxiliar + sujeto."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "mixed_conditionals",
@@ -5119,7 +5189,12 @@
           "model_translation": "Si hubiera aprendido a programar antes, ahora tendría más opciones.",
           "hint": "If + past perfect, would + infinitivo (resultado presente)."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "subjunctive_formal",
@@ -5225,7 +5300,12 @@
           "model_translation": "Recomiendo que cada estudiante lea primero el manual.",
           "hint": "recommend/suggest that + forma base, sin -s."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "nominalization",
@@ -5337,7 +5417,12 @@
           "model_translation": "La mejora en nuestras ventas fue clara.",
           "hint": "verbo o adjetivo → sustantivo (improve → improvement)."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cleft_sentences",
@@ -5450,7 +5535,12 @@
           "model_translation": "Lo que de verdad quiero es más tiempo para viajar.",
           "hint": "What + oración + is + foco, o It's + foco + that..."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ellipsis_substitution",
@@ -5562,7 +5652,12 @@
           "model_translation": "¿Vienes esta noche? Me encantaría, pero no puedo.",
           "hint": "Omite lo repetido (I can't [come]) o sustituye con so/one/do."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "discourse_markers_advanced",
@@ -5674,7 +5769,12 @@
           "model_translation": "Disfruto mi trabajo. No obstante, necesito más equilibrio.",
           "hint": "Nevertheless/Whereas/Moreover al inicio, seguido de coma."
         }
-      ]
+      ],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

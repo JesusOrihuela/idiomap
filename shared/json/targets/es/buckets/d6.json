@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "d6",
+  "concepts": {
+    "es.airport_forgot_boarding_pass_download": {
+      "conceptId": "es.airport_forgot_boarding_pass_download",
+      "id": "airport_forgot_boarding_pass_download",
+      "target": [
+        {
+          "text": "Olvidé mi pase de abordar, ¿puedo acceder en el sitio web de la aerolínea?",
+          "audioSlug": "olvide_mi_pase_de_abordar_puedo_acceder_en_el_sitio_web_de_la_aerolinea"
+        }
+      ]
+    },
+    "es.conversacion_no_lo_puedo_entender": {
+      "conceptId": "es.conversacion_no_lo_puedo_entender",
+      "id": "conversacion_no_lo_puedo_entender",
+      "target": [
+        {
+          "text": "No lo puedo entender.",
+          "audioSlug": "no_lo_puedo_entender"
+        }
+      ]
+    },
+    "es.conversacion_siempre_digo_lo_que_siento": {
+      "conceptId": "es.conversacion_siempre_digo_lo_que_siento",
+      "id": "conversacion_siempre_digo_lo_que_siento",
+      "target": [
+        {
+          "text": "Siempre digo lo que siento.",
+          "audioSlug": "siempre_digo_lo_que_siento"
+        }
+      ]
+    },
+    "es.conversacion_te_quiero_animar": {
+      "conceptId": "es.conversacion_te_quiero_animar",
+      "id": "conversacion_te_quiero_animar",
+      "target": [
+        {
+          "text": "Te quiero animar.",
+          "audioSlug": "te_quiero_animar"
+        }
+      ]
+    },
+    "es.describiendo_personas_siempre_sonrie": {
+      "conceptId": "es.describiendo_personas_siempre_sonrie",
+      "id": "describiendo_personas_siempre_sonrie",
+      "target": [
+        {
+          "text": "Siempre sonríe.",
+          "audioSlug": "siempre_sonrie"
+        }
+      ]
+    },
+    "es.family_grandmother_eighty": {
+      "conceptId": "es.family_grandmother_eighty",
+      "id": "family_grandmother_eighty",
+      "target": [
+        {
+          "text": "Mi abuela tiene ochenta años.",
+          "audioSlug": "mi_abuela_tiene_ochenta_anos"
+        }
+      ]
+    },
+    "es.fiesta_quiero_disfrutar_el_momento": {
+      "conceptId": "es.fiesta_quiero_disfrutar_el_momento",
+      "id": "fiesta_quiero_disfrutar_el_momento",
+      "target": [
+        {
+          "text": "Quiero disfrutar el momento.",
+          "audioSlug": "quiero_disfrutar_el_momento"
+        }
+      ]
+    },
+    "es.kitchen_brine_chicken_overnight_juicier": {
+      "conceptId": "es.kitchen_brine_chicken_overnight_juicier",
+      "id": "kitchen_brine_chicken_overnight_juicier",
+      "target": [
+        {
+          "text": "Dejar el pollo en salmuera durante la noche produce una carne notablemente más jugosa y sabrosa.",
+          "audioSlug": "dejar_el_pollo_en_salmuera_durante_la_noche_produce_una_carne_notablemente_mas_jugosa_y_sabrosa"
+        }
+      ]
+    },
+    "es.music_turn_down": {
+      "conceptId": "es.music_turn_down",
+      "id": "music_turn_down",
+      "target": [
+        {
+          "text": "¿Puedes bajar la música, por favor?",
+          "audioSlug": "puedes_bajar_la_musica_por_favor"
+        }
+      ]
+    },
+    "es.supermarket_las_fresas_son_de_temporada": {
+      "conceptId": "es.supermarket_las_fresas_son_de_temporada",
+      "id": "supermarket_las_fresas_son_de_temporada",
+      "target": [
+        {
+          "text": "Las fresas son de temporada.",
+          "audioSlug": "las_fresas_son_de_temporada"
+        }
+      ]
+    }
+  }
+}

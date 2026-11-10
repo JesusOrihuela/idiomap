@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "it",
+  "bucket": "6f",
+  "concepts": {
+    "it.piloto_hablo_un_poco_de_italiano": {
+      "conceptId": "it.piloto_hablo_un_poco_de_italiano",
+      "id": "piloto_hablo_un_poco_de_italiano",
+      "target": [
+        {
+          "text": "Parlo un po' di italiano.",
+          "audioSlug": "hablo_un_poco_de_italiano"
+        }
+      ]
+    }
+  }
+}

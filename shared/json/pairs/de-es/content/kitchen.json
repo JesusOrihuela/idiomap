@@ -1,43 +1,475 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "kitchen",
-  "conceptIds": [
-    "es.kitchen_donde_esta_la_sarten",
-    "es.kitchen_necesito_un_cuchillo_afilado",
-    "es.kitchen_voy_a_cocinar_la_cena",
-    "es.kitchen_hay_que_lavar_los_platos",
-    "es.kitchen_el_agua_esta_hirviendo",
-    "es.kitchen_corta_las_verduras_por_favor",
-    "es.kitchen_me_pasas_la_sal",
-    "es.kitchen_la_comida_esta_en_el_horno",
-    "es.kitchen_primero_calienta_el_aceite",
-    "es.kitchen_se_me_quemo_el_arroz",
-    "es.kitchen_sirvo_la_cena_a_las_ocho",
-    "es.kitchen_necesito_una_receta_facil",
-    "es.kitchen_esta_salsa_tiene_mucho_sabor",
-    "es.kitchen_el_postre_esta_muy_dulce",
-    "es.kitchen_voy_a_freir_unos_huevos",
-    "es.kitchen_mezcla_la_harina_con_el_agua",
-    "es.kitchen_la_comida_esta_demasiado_salada",
-    "es.kitchen_anade_sal_y_pimienta",
-    "es.kitchen_la_salsa_lleva_tomate_y_ajo",
-    "es.kitchen_necesito_azucar_para_el_postre",
-    "es.kitchen_falta_un_ingrediente_en_la_receta",
-    "es.kitchen_me_encanta_el_chocolate_negro",
-    "es.kitchen_hay_una_botella_de_agua_en_la_mesa",
-    "es.kitchen_que_bebida_prefieres_con_la_comida",
-    "es.kitchen_pica_la_cebolla_muy_fina",
-    "es.kitchen_ralla_una_zanahoria_para_la_ensalada",
-    "es.kitchen_unta_mantequilla_en_el_pan",
-    "es.kitchen_desayuno_tostadas_con_mermelada",
-    "es.kitchen_abre_una_lata_de_atun",
-    "es.kitchen_el_salmon_se_hace_al_horno",
-    "es.kitchen_el_cordero_asado_es_su_especialidad",
-    "es.kitchen_brindamos_con_una_copa_de_champan",
-    "es.kitchen_tomate_una_taza_de_cafe_caliente",
-    "es.kitchen_la_crema_pastelera_esta_deliciosa",
-    "es.kitchen_este_postre_lleva_un_poco_de_ron",
-    "es.kitchen_servimos_un_aperitivo_antes_de_comer"
+  "phrases": [
+    {
+      "conceptId": "es.kitchen_donde_esta_la_sarten",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0fa99d45038e18f2"
+    },
+    {
+      "conceptId": "es.kitchen_necesito_un_cuchillo_afilado",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e64b59291b29f2a5"
+    },
+    {
+      "conceptId": "es.kitchen_voy_a_cocinar_la_cena",
+      "level": "A2",
+      "grammar": "ir a más infinitivo expresa un plan, voy a cocinar.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7752dcb006c25d1a"
+    },
+    {
+      "conceptId": "es.kitchen_hay_que_lavar_los_platos",
+      "level": "A2",
+      "grammar": "hay que más infinitivo expresa una obligación general.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e891efdf8e0f1023"
+    },
+    {
+      "conceptId": "es.kitchen_el_agua_esta_hirviendo",
+      "level": "A2",
+      "grammar": "estar más gerundio expresa una acción en curso, está hirviendo.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2ae278f20fdd0f7f"
+    },
+    {
+      "conceptId": "es.kitchen_corta_las_verduras_por_favor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ccbad1f1c0687097"
+    },
+    {
+      "conceptId": "es.kitchen_me_pasas_la_sal",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f75142dbef2f7d79"
+    },
+    {
+      "conceptId": "es.kitchen_la_comida_esta_en_el_horno",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.19bda8595cbcd327"
+    },
+    {
+      "conceptId": "es.kitchen_primero_calienta_el_aceite",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5eee92c8712841c1"
+    },
+    {
+      "conceptId": "es.kitchen_se_me_quemo_el_arroz",
+      "level": "B1",
+      "grammar": "el se involuntario expresa un hecho no intencional, se me quemó.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.022544843f35678f"
+    },
+    {
+      "conceptId": "es.kitchen_sirvo_la_cena_a_las_ocho",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bd1b978d00c86327"
+    },
+    {
+      "conceptId": "es.kitchen_necesito_una_receta_facil",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.738637b1b49cb93f"
+    },
+    {
+      "conceptId": "es.kitchen_esta_salsa_tiene_mucho_sabor",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.54c1765d39e1896a"
+    },
+    {
+      "conceptId": "es.kitchen_el_postre_esta_muy_dulce",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.08c6bf0570fa251f"
+    },
+    {
+      "conceptId": "es.kitchen_voy_a_freir_unos_huevos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f3755ddd2fc67ba7"
+    },
+    {
+      "conceptId": "es.kitchen_mezcla_la_harina_con_el_agua",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dbc3dbd189869ebc"
+    },
+    {
+      "conceptId": "es.kitchen_la_comida_esta_demasiado_salada",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.eac84e74d5e4b8ed"
+    },
+    {
+      "conceptId": "es.kitchen_anade_sal_y_pimienta",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.64c66c0ff3433206"
+    },
+    {
+      "conceptId": "es.kitchen_la_salsa_lleva_tomate_y_ajo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a6e363745a297d44"
+    },
+    {
+      "conceptId": "es.kitchen_necesito_azucar_para_el_postre",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0b4e79e3a2811ba4"
+    },
+    {
+      "conceptId": "es.kitchen_falta_un_ingrediente_en_la_receta",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.62741207cc7aa939"
+    },
+    {
+      "conceptId": "es.kitchen_me_encanta_el_chocolate_negro",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f148f7f26605aa6c"
+    },
+    {
+      "conceptId": "es.kitchen_hay_una_botella_de_agua_en_la_mesa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4af7664ebf36977c"
+    },
+    {
+      "conceptId": "es.kitchen_que_bebida_prefieres_con_la_comida",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d20ea79f19e77b4c"
+    },
+    {
+      "conceptId": "es.kitchen_pica_la_cebolla_muy_fina",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.871d7f3f6d04d0dc"
+    },
+    {
+      "conceptId": "es.kitchen_ralla_una_zanahoria_para_la_ensalada",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c5b6a70b2cb128ee"
+    },
+    {
+      "conceptId": "es.kitchen_unta_mantequilla_en_el_pan",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3296799625478838"
+    },
+    {
+      "conceptId": "es.kitchen_desayuno_tostadas_con_mermelada",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4d72d408a4ce9c95"
+    },
+    {
+      "conceptId": "es.kitchen_abre_una_lata_de_atun",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1e30733cc2c54c81"
+    },
+    {
+      "conceptId": "es.kitchen_el_salmon_se_hace_al_horno",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6c2580204aa9177a"
+    },
+    {
+      "conceptId": "es.kitchen_el_cordero_asado_es_su_especialidad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d9277c9103ed302d"
+    },
+    {
+      "conceptId": "es.kitchen_brindamos_con_una_copa_de_champan",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.02a6437089139d17"
+    },
+    {
+      "conceptId": "es.kitchen_tomate_una_taza_de_cafe_caliente",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.123d8233f2771950"
+    },
+    {
+      "conceptId": "es.kitchen_la_crema_pastelera_esta_deliciosa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.50248a851e03802f"
+    },
+    {
+      "conceptId": "es.kitchen_este_postre_lleva_un_poco_de_ron",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.675885e7f2d2204b"
+    },
+    {
+      "conceptId": "es.kitchen_servimos_un_aperitivo_antes_de_comer",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9cf1fa2bcc486d3e"
+    }
   ]
 }

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "68",
+  "concepts": {
+    "en.accommodation_group_discount_block": {
+      "conceptId": "en.accommodation_group_discount_block",
+      "id": "accommodation_group_discount_block",
+      "target": [
+        {
+          "text": "We're twelve guests. Is there a group discount or a block rate?",
+          "audioSlug": "we_re_twelve_guests_is_there_a_group_discount_or_a_block_rate"
+        }
+      ]
+    },
+    "en.accountability_a_companys_fiscal_year_does_not": {
+      "conceptId": "en.accountability_a_companys_fiscal_year_does_not",
+      "id": "accountability_a_companys_fiscal_year_does_not",
+      "target": [
+        {
+          "text": "A company's fiscal year does not have to start in January.",
+          "audioSlug": "a_company_s_fiscal_year_does_not_have_to_start_in_january"
+        }
+      ]
+    },
+    "en.accountability_cost_benefit_analysis_before_approval": {
+      "conceptId": "en.accountability_cost_benefit_analysis_before_approval",
+      "id": "accountability_cost_benefit_analysis_before_approval",
+      "target": [
+        {
+          "text": "Could you run a quick cost-benefit analysis before we approve the expenditure?",
+          "audioSlug": "could_you_run_a_quick_cost_benefit_analysis_before_we_approve_the_expenditure"
+        }
+      ]
+    },
+    "en.airport_duty_free_shop": {
+      "conceptId": "en.airport_duty_free_shop",
+      "id": "airport_duty_free_shop",
+      "target": [
+        {
+          "text": "Where is the duty-free shop?",
+          "audioSlug": "where_is_the_duty_free_shop"
+        }
+      ]
+    },
+    "en.descripciones_it_is_very_common": {
+      "conceptId": "en.descripciones_it_is_very_common",
+      "id": "descripciones_it_is_very_common",
+      "target": [
+        {
+          "text": "It is very common.",
+          "audioSlug": "it_is_very_common"
+        }
+      ]
+    },
+    "en.family_my_mother_works": {
+      "conceptId": "en.family_my_mother_works",
+      "id": "family_my_mother_works",
+      "target": [
+        {
+          "text": "My mother works at a school.",
+          "audioSlug": "my_mother_works_at_a_school"
+        }
+      ]
+    },
+    "en.kitchen_the_pan_is_in_the_sink": {
+      "conceptId": "en.kitchen_the_pan_is_in_the_sink",
+      "id": "kitchen_the_pan_is_in_the_sink",
+      "target": [
+        {
+          "text": "The pan is in the sink.",
+          "audioSlug": "the_pan_is_in_the_sink"
+        }
+      ]
+    },
+    "en.music_turn_up": {
+      "conceptId": "en.music_turn_up",
+      "id": "music_turn_up",
+      "target": [
+        {
+          "text": "Can you turn up the music?",
+          "audioSlug": "can_you_turn_up_the_music"
+        }
+      ]
+    },
+    "en.transportation_when_next_bus": {
+      "conceptId": "en.transportation_when_next_bus",
+      "id": "transportation_when_next_bus",
+      "target": [
+        {
+          "text": "When is the next bus?",
+          "audioSlug": "when_is_the_next_bus"
+        }
+      ]
+    },
+    "en.vestimenta_this_dress_is_very_pretty": {
+      "conceptId": "en.vestimenta_this_dress_is_very_pretty",
+      "id": "vestimenta_this_dress_is_very_pretty",
+      "target": [
+        {
+          "text": "This dress is very pretty.",
+          "audioSlug": "this_dress_is_very_pretty"
+        }
+      ]
+    }
+  }
+}

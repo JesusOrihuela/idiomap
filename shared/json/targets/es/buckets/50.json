@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "50",
+  "concepts": {
+    "es.accountability_the_accountant_needs_additional_information": {
+      "conceptId": "es.accountability_the_accountant_needs_additional_information",
+      "id": "accountability_the_accountant_needs_additional_information",
+      "target": [
+        {
+          "text": "El contador necesita información adicional.",
+          "audioSlug": "el_contador_necesita_informacion_adicional",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "La contadora necesita información adicional.",
+          "audioSlug": "la_contadora_necesita_informacion_adicional",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.greetings_give_regards_family": {
+      "conceptId": "es.greetings_give_regards_family",
+      "id": "greetings_give_regards_family",
+      "target": [
+        {
+          "text": "Saluda a tu familia de mi parte, por favor.",
+          "audioSlug": "saluda_a_tu_familia_de_mi_parte_por_favor",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Salude a su familia de mi parte, por favor.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "salude_a_su_familia_de_mi_parte_por_favor"
+        }
+      ]
+    },
+    "es.greetings_hey_there_hows_your_week_been": {
+      "conceptId": "es.greetings_hey_there_hows_your_week_been",
+      "id": "greetings_hey_there_hows_your_week_been",
+      "target": [
+        {
+          "text": "Hola, ¿cómo ha estado tu semana?",
+          "audioSlug": "hola_como_ha_estado_tu_semana"
+        }
+      ]
+    },
+    "es.hogar_el_sofa_esta_en_la_sala": {
+      "conceptId": "es.hogar_el_sofa_esta_en_la_sala",
+      "id": "hogar_el_sofa_esta_en_la_sala",
+      "target": [
+        {
+          "text": "El sofá está en la sala.",
+          "audioSlug": "el_sofa_esta_en_la_sala"
+        }
+      ]
+    },
+    "es.kitchen_we_need_to_broil_the_cheese": {
+      "conceptId": "es.kitchen_we_need_to_broil_the_cheese",
+      "id": "kitchen_we_need_to_broil_the_cheese",
+      "target": [
+        {
+          "text": "Hay que gratinar el queso para que la lasaña quede dorada.",
+          "audioSlug": "hay_que_gratinar_el_queso_para_que_la_lasana_quede_dorada"
+        }
+      ]
+    },
+    "es.music_what_listening": {
+      "conceptId": "es.music_what_listening",
+      "id": "music_what_listening",
+      "target": [
+        {
+          "text": "¿Qué estás escuchando?",
+          "audioSlug": "que_estas_escuchando"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_la_tierra_gira": {
+      "conceptId": "es.naturaleza_lugares_la_tierra_gira",
+      "id": "naturaleza_lugares_la_tierra_gira",
+      "target": [
+        {
+          "text": "La Tierra gira.",
+          "audioSlug": "la_tierra_gira"
+        }
+      ]
+    },
+    "es.planes_voy_a_mudarme_a_otra_ciudad": {
+      "conceptId": "es.planes_voy_a_mudarme_a_otra_ciudad",
+      "id": "planes_voy_a_mudarme_a_otra_ciudad",
+      "target": [
+        {
+          "text": "Voy a mudarme a otra ciudad.",
+          "audioSlug": "voy_a_mudarme_a_otra_ciudad"
+        }
+      ]
+    },
+    "es.sitios_el_guia_nos_mostro_la_ciudad_vieja": {
+      "conceptId": "es.sitios_el_guia_nos_mostro_la_ciudad_vieja",
+      "id": "sitios_el_guia_nos_mostro_la_ciudad_vieja",
+      "target": [
+        {
+          "text": "El guía nos mostró la ciudad vieja.",
+          "audioSlug": "el_guia_nos_mostro_la_ciudad_vieja"
+        }
+      ]
+    },
+    "es.survival_speak_slowly": {
+      "conceptId": "es.survival_speak_slowly",
+      "id": "survival_speak_slowly",
+      "target": [
+        {
+          "text": "¿Puedes hablar más despacio, por favor?",
+          "audioSlug": "puedes_hablar_mas_despacio_por_favor",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Puede hablar más despacio, por favor?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_hablar_mas_despacio_por_favor"
+        }
+      ]
+    },
+    "es.technology_i_forgot_my_password": {
+      "conceptId": "es.technology_i_forgot_my_password",
+      "id": "technology_i_forgot_my_password",
+      "target": [
+        {
+          "text": "Olvidé mi contraseña.",
+          "audioSlug": "olvide_mi_contrasena"
+        }
+      ]
+    },
+    "es.theater_script_overambitious_themes": {
+      "conceptId": "es.theater_script_overambitious_themes",
+      "id": "theater_script_overambitious_themes",
+      "target": [
+        {
+          "text": "Encontré el guion demasiado ambicioso, intentando abordar demasiados temas a la vez.",
+          "audioSlug": "encontre_el_guion_demasiado_ambicioso_intentando_abordar_demasiados_temas_a_la_vez"
+        }
+      ]
+    },
+    "es.transportation_rideshare_late_arrival": {
+      "conceptId": "es.transportation_rideshare_late_arrival",
+      "id": "transportation_rideshare_late_arrival",
+      "target": [
+        {
+          "text": "El conductor tarda siete minutos y yo salgo en cinco.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "el_conductor_tarda_siete_minutos_y_yo_salgo_en_cinco"
+        },
+        {
+          "text": "La conductora tarda siete minutos y yo salgo en cinco.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "la_conductora_tarda_siete_minutos_y_yo_salgo_en_cinco"
+        }
+      ]
+    },
+    "es.vestimenta_hoy_llevo_una_camisa_blanca": {
+      "conceptId": "es.vestimenta_hoy_llevo_una_camisa_blanca",
+      "id": "vestimenta_hoy_llevo_una_camisa_blanca",
+      "target": [
+        {
+          "text": "Hoy llevo una camisa blanca.",
+          "audioSlug": "hoy_llevo_una_camisa_blanca"
+        }
+      ]
+    },
+    "es.vestimenta_tu_corbata_combina_con_el_traje": {
+      "conceptId": "es.vestimenta_tu_corbata_combina_con_el_traje",
+      "id": "vestimenta_tu_corbata_combina_con_el_traje",
+      "target": [
+        {
+          "text": "Tu corbata combina con el traje.",
+          "audioSlug": "tu_corbata_combina_con_el_traje"
+        }
+      ]
+    }
+  }
+}

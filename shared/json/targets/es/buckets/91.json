@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "91",
+  "concepts": {
+    "es.cuerpo_tiene_los_dientes_muy_blancos": {
+      "conceptId": "es.cuerpo_tiene_los_dientes_muy_blancos",
+      "id": "cuerpo_tiene_los_dientes_muy_blancos",
+      "target": [
+        {
+          "text": "Tiene los dientes muy blancos.",
+          "audioSlug": "tiene_los_dientes_muy_blancos"
+        }
+      ]
+    },
+    "es.estudios_la_clase_empieza_a_las_ocho": {
+      "conceptId": "es.estudios_la_clase_empieza_a_las_ocho",
+      "id": "estudios_la_clase_empieza_a_las_ocho",
+      "target": [
+        {
+          "text": "La clase empieza a las ocho.",
+          "audioSlug": "la_clase_empieza_a_las_ocho"
+        }
+      ]
+    },
+    "es.hogar_necesito_una_mesa_nueva_para_el_comedor": {
+      "conceptId": "es.hogar_necesito_una_mesa_nueva_para_el_comedor",
+      "id": "hogar_necesito_una_mesa_nueva_para_el_comedor",
+      "target": [
+        {
+          "text": "Necesito una mesa nueva para el comedor.",
+          "audioSlug": "necesito_una_mesa_nueva_para_el_comedor"
+        }
+      ]
+    },
+    "es.museums_art_exhibition_invite": {
+      "conceptId": "es.museums_art_exhibition_invite",
+      "id": "museums_art_exhibition_invite",
+      "target": [
+        {
+          "text": "¿Quieres ir a una exposición de arte conmigo?",
+          "audioSlug": "quieres_ir_a_una_exposicion_de_arte_conmigo"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_la_poblacion_mundial_crece": {
+      "conceptId": "es.pensamientos_opiniones_la_poblacion_mundial_crece",
+      "id": "pensamientos_opiniones_la_poblacion_mundial_crece",
+      "target": [
+        {
+          "text": "La población mundial sigue creciendo.",
+          "audioSlug": "la_poblacion_mundial_sigue_creciendo"
+        }
+      ]
+    },
+    "es.restaurant_para_llevar_un_sandwich_de_pollo": {
+      "conceptId": "es.restaurant_para_llevar_un_sandwich_de_pollo",
+      "id": "restaurant_para_llevar_un_sandwich_de_pollo",
+      "target": [
+        {
+          "text": "Para llevar, un sándwich de pollo.",
+          "audioSlug": "para_llevar_un_sandwich_de_pollo"
+        }
+      ]
+    },
+    "es.supermarket_how_much_does_a_kilo_of": {
+      "conceptId": "es.supermarket_how_much_does_a_kilo_of",
+      "id": "supermarket_how_much_does_a_kilo_of",
+      "target": [
+        {
+          "text": "¿Cuánto cuesta el kilo de carne?",
+          "audioSlug": "cuanto_cuesta_el_kilo_de_carne"
+        }
+      ]
+    },
+    "es.technology_uso_mi_telefono_todos_los_dias": {
+      "conceptId": "es.technology_uso_mi_telefono_todos_los_dias",
+      "id": "technology_uso_mi_telefono_todos_los_dias",
+      "target": [
+        {
+          "text": "Uso mi teléfono todos los días.",
+          "audioSlug": "uso_mi_telefono_todos_los_dias"
+        }
+      ]
+    }
+  }
+}

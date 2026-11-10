@@ -1,98 +1,1190 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "gym",
-  "conceptIds": [
-    "en.gym_can_you_show_me_how_to",
-    "en.gym_what_is_the_correct_form_for",
-    "en.gym_increase_the_elevation_of_the_treadmill",
-    "en.gym_increase_the_speed_of_the_treadmill",
-    "en.gym_how_many_repetitions_should_i_do",
-    "en.gym_could_you_demonstrate_how_to_do",
-    "en.gym_can_you_recommend_an_appropriate_weight",
-    "en.gym_is_there_a_warmup_i_should",
-    "en.gym_how_do_i_adjust_the_seat",
-    "en.gym_can_you_give_me_some_tips",
-    "en.gym_what_exercises_do_you_recommend_for",
-    "en.gym_could_you_tell_me_if_im",
-    "en.gym_today_is_leg_day",
-    "en.gym_tomorrow_is_arm_day",
-    "en.gym_is_it_okay_if_i_work",
-    "en.gym_could_you_explain_the_benefits_of",
-    "en.gym_what_is_the_proper_breathing_technique",
-    "en.gym_do_you_have_any_suggestions_for",
-    "en.gym_should_i_follow_any_kind_of",
-    "en.gym_we_all_must_properly_disinfect_the",
-    "en.gym_could_you_recommend_a_stretching_routine",
-    "en.gym_do_you_have_any_advice_for",
-    "en.gym_show_me_adjust_resistance",
-    "en.gym_what_routine_should_i_follow",
-    "en.gym_what_is_the_best_way_to",
-    "en.gym_how_much_cardio_time_do_i",
-    "en.gym_is_there_a_specific_order_i",
-    "en.gym_what_is_the_correct_posture_for",
-    "en.gym_how_much_rest_time_do_you",
-    "en.gym_do_you_have_any_tips_for",
-    "en.gym_could_you_demonstrate_how_to_use",
-    "en.gym_is_it_okay_if_i_use",
-    "en.gym_im_going_to_do_cardio_and",
-    "en.gym_i_dont_know_how_to_use",
-    "en.gym_where_can_i_find_towels",
-    "en.gym_could_you_help_me_create_a",
-    "en.gym_what_type_of_membership_do_you",
-    "en.gym_is_there_a_personal_trainer_available",
-    "en.gym_are_group_classes_available",
-    "en.gym_how_can_i_book_a_class",
-    "en.gym_what_is_the_gyms_schedule",
-    "en.gym_what_muscles_are_worked_with_this",
-    "en.gym_i_feel_a_pain_in_my",
-    "en.gym_the_gyms_music_is_too_loud",
-    "en.gym_im_motivated",
-    "en.gym_could_you_inform_me_about_the",
-    "en.gym_that_effort_was_worth_it",
-    "en.gym_is_there_an_alternative_for_that",
-    "en.gym_i_need_to_work_on_my",
-    "en.gym_i_need_to_rest_a_bit",
-    "en.gym_how_long_should_i_rest_between",
-    "en.gym_i_would_like_to_work_on",
-    "en.gym_this_exercise_will_help_me_strengthen",
-    "en.gym_this_routine_is_designed_to_work",
-    "en.gym_keep_your_back_straight",
-    "en.gym_push_with_your_heels_not_with",
-    "en.gym_keep_your_elbows_close_to_your",
-    "en.gym_dont_lift_your_shoulders_towards_your",
-    "en.gym_keep_your_abs_contracted",
-    "en.gym_dont_arch_your_back",
-    "en.gym_maintain_a_steady_pace",
-    "en.gym_breathe_deeply_and_through_your_nose",
-    "en.gym_dont_forget_to_hydrate",
-    "en.gym_eat_healthily_to_get_better_results",
-    "en.gym_rest_enough_for_your_body_to",
-    "en.gym_dont_overdo_it_with_the_weight",
-    "en.gym_they_are_cleaning_the_locker_rooms",
-    "en.gym_shoulder_discomfort_overhead_press",
-    "en.gym_cable_machine_seated_row",
-    "en.gym_progress_plateaued_modify_program",
-    "en.gym_hiit_cardiovascular_endurance",
-    "en.gym_knee_injury_high_impact_avoid",
-    "en.gym_periodization_hypertrophy_strength",
-    "en.gym_macronutrients_protein_training_load",
-    "en.gym_strength_imbalance_dominant_side",
-    "en.gym_overtraining_recovery_as_important",
-    "en.gym_progressive_overload_adaptations",
-    "en.gym_doms_few_days_after_leg_day",
-    "en.gym_pre_workout_meal_timing",
-    "en.gym_deload_week_overreaching",
-    "en.gym_free_weights_vs_machines_stability",
-    "en.gym_rpe_scale_autoregulation",
-    "en.gym_mobility_end_range_strength",
-    "en.gym_sport_specific_transfer_performance",
-    "en.gym_signup_membership",
-    "en.gym_monthly_membership_price",
-    "en.gym_where_locker_room",
-    "en.gym_can_you_spot_me",
-    "en.gym_where_dumbbells",
-    "en.gym_how_many_sets_reps",
-    "en.gym_im_sore"
+  "phrases": [
+    {
+      "conceptId": "en.gym_can_you_show_me_how_to",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.63a0aae13a55e0b2"
+    },
+    {
+      "conceptId": "en.gym_what_is_the_correct_form_for",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c4e463034bb9946c"
+    },
+    {
+      "conceptId": "en.gym_increase_the_elevation_of_the_treadmill",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f746f765944b5fb1"
+    },
+    {
+      "conceptId": "en.gym_increase_the_speed_of_the_treadmill",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.56cf5c897dfc1b82"
+    },
+    {
+      "conceptId": "en.gym_how_many_repetitions_should_i_do",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0c7eba3bfd58c2cc"
+    },
+    {
+      "conceptId": "en.gym_could_you_demonstrate_how_to_do",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0847b67429229717"
+    },
+    {
+      "conceptId": "en.gym_can_you_recommend_an_appropriate_weight",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.93ad6b5171643795"
+    },
+    {
+      "conceptId": "en.gym_is_there_a_warmup_i_should",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.659c9af294d6bea9"
+    },
+    {
+      "conceptId": "en.gym_how_do_i_adjust_the_seat",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e6cb9b424378b8bd"
+    },
+    {
+      "conceptId": "en.gym_can_you_give_me_some_tips",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9fe4010b9fcd75af"
+    },
+    {
+      "conceptId": "en.gym_what_exercises_do_you_recommend_for",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.98b57e90be58e9a4"
+    },
+    {
+      "conceptId": "en.gym_could_you_tell_me_if_im",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8ca587d97026d4aa"
+    },
+    {
+      "conceptId": "en.gym_today_is_leg_day",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b2482b1fde7437f4"
+    },
+    {
+      "conceptId": "en.gym_tomorrow_is_arm_day",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bea8c2f47cc9b461"
+    },
+    {
+      "conceptId": "en.gym_is_it_okay_if_i_work",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2211009b345f76e2"
+    },
+    {
+      "conceptId": "en.gym_could_you_explain_the_benefits_of",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1d6b8398895a04cf"
+    },
+    {
+      "conceptId": "en.gym_what_is_the_proper_breathing_technique",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ad795b450d7a8328"
+    },
+    {
+      "conceptId": "en.gym_do_you_have_any_suggestions_for",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.74442a88aa98ef1a"
+    },
+    {
+      "conceptId": "en.gym_should_i_follow_any_kind_of",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.758e66336c146e8d"
+    },
+    {
+      "conceptId": "en.gym_we_all_must_properly_disinfect_the",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.92e9f2af8b2a2de3"
+    },
+    {
+      "conceptId": "en.gym_could_you_recommend_a_stretching_routine",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.92e10ddbcd69e706"
+    },
+    {
+      "conceptId": "en.gym_do_you_have_any_advice_for",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cc1b8d619df28a7e"
+    },
+    {
+      "conceptId": "en.gym_show_me_adjust_resistance",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f705bb6453f86b9e"
+    },
+    {
+      "conceptId": "en.gym_what_routine_should_i_follow",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.42a823e836e0f22e"
+    },
+    {
+      "conceptId": "en.gym_what_is_the_best_way_to",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3665dff88b511d75"
+    },
+    {
+      "conceptId": "en.gym_how_much_cardio_time_do_i",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d0d5e7557c483e8f"
+    },
+    {
+      "conceptId": "en.gym_is_there_a_specific_order_i",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4b6bba953c2898da"
+    },
+    {
+      "conceptId": "en.gym_what_is_the_correct_posture_for",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.98e37dee1552664d"
+    },
+    {
+      "conceptId": "en.gym_how_much_rest_time_do_you",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.79e37091f35c568a"
+    },
+    {
+      "conceptId": "en.gym_do_you_have_any_tips_for",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.52f0963052824447"
+    },
+    {
+      "conceptId": "en.gym_could_you_demonstrate_how_to_use",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7b6babbb0e63766a"
+    },
+    {
+      "conceptId": "en.gym_is_it_okay_if_i_use",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.69da992fbea58280"
+    },
+    {
+      "conceptId": "en.gym_im_going_to_do_cardio_and",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bc138e6b0daf7389"
+    },
+    {
+      "conceptId": "en.gym_i_dont_know_how_to_use",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d61632824f521779"
+    },
+    {
+      "conceptId": "en.gym_where_can_i_find_towels",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d10ef71676618af9"
+    },
+    {
+      "conceptId": "en.gym_could_you_help_me_create_a",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e049e5dcb1a298b6"
+    },
+    {
+      "conceptId": "en.gym_what_type_of_membership_do_you",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7539edd679555dfc"
+    },
+    {
+      "conceptId": "en.gym_is_there_a_personal_trainer_available",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7c5a54ce10b0bdaa"
+    },
+    {
+      "conceptId": "en.gym_are_group_classes_available",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cf3f5de839f7f27a"
+    },
+    {
+      "conceptId": "en.gym_how_can_i_book_a_class",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f5c92759c2f99d20"
+    },
+    {
+      "conceptId": "en.gym_what_is_the_gyms_schedule",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.65184f1d65fbb802"
+    },
+    {
+      "conceptId": "en.gym_what_muscles_are_worked_with_this",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dc634acaadcfa06c"
+    },
+    {
+      "conceptId": "en.gym_i_feel_a_pain_in_my",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d19316272e42506f"
+    },
+    {
+      "conceptId": "en.gym_the_gyms_music_is_too_loud",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0c92c3b7e1769948"
+    },
+    {
+      "conceptId": "en.gym_im_motivated",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cf4ffed7b7865f88"
+    },
+    {
+      "conceptId": "en.gym_could_you_inform_me_about_the",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a1045f37297e9869"
+    },
+    {
+      "conceptId": "en.gym_that_effort_was_worth_it",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cae792c7329a94ec"
+    },
+    {
+      "conceptId": "en.gym_is_there_an_alternative_for_that",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e3a8719ac15c18af"
+    },
+    {
+      "conceptId": "en.gym_i_need_to_work_on_my",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.25f674cc6bdbfdcc"
+    },
+    {
+      "conceptId": "en.gym_i_need_to_rest_a_bit",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a94be7018ebe8c17"
+    },
+    {
+      "conceptId": "en.gym_how_long_should_i_rest_between",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.15f1e8c35b853f0d"
+    },
+    {
+      "conceptId": "en.gym_i_would_like_to_work_on",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.929bb9d67908d34d"
+    },
+    {
+      "conceptId": "en.gym_this_exercise_will_help_me_strengthen",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e90458e46c4148f3"
+    },
+    {
+      "conceptId": "en.gym_this_routine_is_designed_to_work",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ae72f1be72912642"
+    },
+    {
+      "conceptId": "en.gym_keep_your_back_straight",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a3fcad66aee092a2"
+    },
+    {
+      "conceptId": "en.gym_push_with_your_heels_not_with",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fb27cf6045a67897"
+    },
+    {
+      "conceptId": "en.gym_keep_your_elbows_close_to_your",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f6ee684545b231ab"
+    },
+    {
+      "conceptId": "en.gym_dont_lift_your_shoulders_towards_your",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.af51e7edf03d86f9"
+    },
+    {
+      "conceptId": "en.gym_keep_your_abs_contracted",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b738c76a083ac29b"
+    },
+    {
+      "conceptId": "en.gym_dont_arch_your_back",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.847445f1ef3ce464"
+    },
+    {
+      "conceptId": "en.gym_maintain_a_steady_pace",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.736b67561c8ee356"
+    },
+    {
+      "conceptId": "en.gym_breathe_deeply_and_through_your_nose",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.31c71aae587edd2f"
+    },
+    {
+      "conceptId": "en.gym_dont_forget_to_hydrate",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.190fa6a05750d27d"
+    },
+    {
+      "conceptId": "en.gym_eat_healthily_to_get_better_results",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d62f898dcaca32ec"
+    },
+    {
+      "conceptId": "en.gym_rest_enough_for_your_body_to",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.df81801ae6826a89"
+    },
+    {
+      "conceptId": "en.gym_dont_overdo_it_with_the_weight",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fa9a523c5bb99731"
+    },
+    {
+      "conceptId": "en.gym_they_are_cleaning_the_locker_rooms",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bec2caf658673c47"
+    },
+    {
+      "conceptId": "en.gym_shoulder_discomfort_overhead_press",
+      "level": "B2",
+      "grammar": "Present perfect continuous: 'I've been experiencing' for a recurring problem ongoing up to now",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b6f6a7785e6ee2b0"
+    },
+    {
+      "conceptId": "en.gym_cable_machine_seated_row",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.176ac0bccf3c56ff"
+    },
+    {
+      "conceptId": "en.gym_progress_plateaued_modify_program",
+      "level": "B2",
+      "grammar": "Present perfect 'has plateaued' describes a change that recently occurred and still holds.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a245d213f364246e"
+    },
+    {
+      "conceptId": "en.gym_hiit_cardiovascular_endurance",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.86a09014c954ce9d"
+    },
+    {
+      "conceptId": "en.gym_knee_injury_high_impact_avoid",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.74de3c910c996041"
+    },
+    {
+      "conceptId": "en.gym_periodization_hypertrophy_strength",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f32a4877836b3886"
+    },
+    {
+      "conceptId": "en.gym_macronutrients_protein_training_load",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.51cb20535902f39a"
+    },
+    {
+      "conceptId": "en.gym_strength_imbalance_dominant_side",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.58f771d549bd00b1"
+    },
+    {
+      "conceptId": "en.gym_overtraining_recovery_as_important",
+      "level": "C1",
+      "grammar": "'Just as + adjective + as' for expressing equal importance",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b1519d0ca12baa8b"
+    },
+    {
+      "conceptId": "en.gym_progressive_overload_adaptations",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7317c576cdaad279"
+    },
+    {
+      "conceptId": "en.gym_doms_few_days_after_leg_day",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d27fd0ef5f8a3905"
+    },
+    {
+      "conceptId": "en.gym_pre_workout_meal_timing",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b2c7e8156c1d08b0"
+    },
+    {
+      "conceptId": "en.gym_deload_week_overreaching",
+      "level": "B2",
+      "grammar": "Present perfect continuous: 'I've been overreaching' for a recurring pattern up to the present.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bee0435320101aa0"
+    },
+    {
+      "conceptId": "en.gym_free_weights_vs_machines_stability",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0931b5ad1baf1079"
+    },
+    {
+      "conceptId": "en.gym_rpe_scale_autoregulation",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.49091267023525a5"
+    },
+    {
+      "conceptId": "en.gym_mobility_end_range_strength",
+      "level": "C1",
+      "grammar": "'Not just X, it's about + gerund' reframes a misconception to show the broader purpose.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b4081cabd9c2af9a"
+    },
+    {
+      "conceptId": "en.gym_sport_specific_transfer_performance",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4fd7049b8d4be03d"
+    },
+    {
+      "conceptId": "en.gym_signup_membership",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9d8c2b0b6db41e15"
+    },
+    {
+      "conceptId": "en.gym_monthly_membership_price",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.121dcbd0d15a0832"
+    },
+    {
+      "conceptId": "en.gym_where_locker_room",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fd02542510747d1f"
+    },
+    {
+      "conceptId": "en.gym_can_you_spot_me",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7a0081542de4d19c"
+    },
+    {
+      "conceptId": "en.gym_where_dumbbells",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.190b99c79e60157c"
+    },
+    {
+      "conceptId": "en.gym_how_many_sets_reps",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8cb3ef98e9dab7dd"
+    },
+    {
+      "conceptId": "en.gym_im_sore",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.77a1403cf1bf9f6c"
+    }
   ]
 }

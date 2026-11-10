@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "92",
+  "concepts": {
+    "en.accommodation_store_luggage": {
+      "conceptId": "en.accommodation_store_luggage",
+      "id": "accommodation_store_luggage",
+      "target": [
+        {
+          "text": "Is there a place to store luggage after check-out?",
+          "audioSlug": "is_there_a_place_to_store_luggage_after_check_out"
+        }
+      ]
+    },
+    "en.accountability_gross_margin_declined_supply_chain": {
+      "conceptId": "en.accountability_gross_margin_declined_supply_chain",
+      "id": "accountability_gross_margin_declined_supply_chain",
+      "target": [
+        {
+          "text": "The gross margin has declined due to rising supply chain costs.",
+          "audioSlug": "the_gross_margin_has_declined_due_to_rising_supply_chain_costs"
+        }
+      ]
+    },
+    "en.emociones_please_remain_calm": {
+      "conceptId": "en.emociones_please_remain_calm",
+      "id": "emociones_please_remain_calm",
+      "target": [
+        {
+          "text": "Please remain calm.",
+          "audioSlug": "please_remain_calm"
+        }
+      ]
+    },
+    "en.greetings_hope_not_interrupting": {
+      "conceptId": "en.greetings_hope_not_interrupting",
+      "id": "greetings_hope_not_interrupting",
+      "target": [
+        {
+          "text": "I hope I'm not interrupting. Do you have a moment?",
+          "audioSlug": "i_hope_i_m_not_interrupting_do_you_have_a_moment"
+        }
+      ]
+    },
+    "en.movies_its_a_comedy": {
+      "conceptId": "en.movies_its_a_comedy",
+      "id": "movies_its_a_comedy",
+      "target": [
+        {
+          "text": "It's a comedy.",
+          "audioSlug": "it_s_a_comedy"
+        }
+      ]
+    },
+    "en.music_indie_influence_underestimated": {
+      "conceptId": "en.music_indie_influence_underestimated",
+      "id": "music_indie_influence_underestimated",
+      "target": [
+        {
+          "text": "I'd argue this band's influence on indie music over the last decade has been widely underestimated.",
+          "audioSlug": "i_d_argue_this_band_s_influence_on_indie_music_over_the_last_decade_has_been_widely_underestimated"
+        }
+      ]
+    },
+    "en.restaurant_can_we_see_the_menu_please": {
+      "conceptId": "en.restaurant_can_we_see_the_menu_please",
+      "id": "restaurant_can_we_see_the_menu_please",
+      "target": [
+        {
+          "text": "Can we see the menu, please?",
+          "audioSlug": "can_we_see_the_menu_please",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Could we see the menu, please?",
+          "audioSlug": "could_we_see_the_menu_please",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.technology_how_do_i_delete_this_app": {
+      "conceptId": "en.technology_how_do_i_delete_this_app",
+      "id": "technology_how_do_i_delete_this_app",
+      "target": [
+        {
+          "text": "How do I delete this app from my phone?",
+          "audioSlug": "how_do_i_delete_this_app_from_my_phone",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "How do I remove this app from my phone?",
+          "audioSlug": "how_do_i_remove_this_app_from_my_phone",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    }
+  }
+}

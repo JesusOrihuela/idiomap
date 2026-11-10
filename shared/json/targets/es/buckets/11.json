@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "11",
+  "concepts": {
+    "es.accountability_the_presentation_of_the_financial_reports": {
+      "conceptId": "es.accountability_the_presentation_of_the_financial_reports",
+      "id": "accountability_the_presentation_of_the_financial_reports",
+      "target": [
+        {
+          "text": "La presentación de los informes financieros fue exitosa.",
+          "audioSlug": "la_presentacion_de_los_informes_financieros_fue_exitosa"
+        }
+      ]
+    },
+    "es.animales_cat_likes_climb_trees": {
+      "conceptId": "es.animales_cat_likes_climb_trees",
+      "id": "animales_cat_likes_climb_trees",
+      "target": [
+        {
+          "text": "A mi gato le gusta trepar árboles.",
+          "audioSlug": "a_mi_gato_le_gusta_trepar_arboles"
+        }
+      ]
+    },
+    "es.descripciones_tuvimos_un_viaje_fantastico": {
+      "conceptId": "es.descripciones_tuvimos_un_viaje_fantastico",
+      "id": "descripciones_tuvimos_un_viaje_fantastico",
+      "target": [
+        {
+          "text": "Tuvimos un viaje fantástico.",
+          "audioSlug": "tuvimos_un_viaje_fantastico"
+        }
+      ]
+    },
+    "es.family_can_i_bring_my_family": {
+      "conceptId": "es.family_can_i_bring_my_family",
+      "id": "family_can_i_bring_my_family",
+      "target": [
+        {
+          "text": "¿Puedo traer a mi familia?",
+          "audioSlug": "puedo_traer_a_mi_familia"
+        }
+      ]
+    },
+    "es.greetings_hello": {
+      "conceptId": "es.greetings_hello",
+      "id": "greetings_hello",
+      "target": [
+        {
+          "text": "Hola.",
+          "audioSlug": "hola"
+        }
+      ]
+    },
+    "es.greetings_hows_your_day_been": {
+      "conceptId": "es.greetings_hows_your_day_been",
+      "id": "greetings_hows_your_day_been",
+      "target": [
+        {
+          "text": "¿Cómo te ha ido hoy?",
+          "audioSlug": "como_te_ha_ido_hoy",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cómo le ha ido hoy?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "como_le_ha_ido_hoy"
+        }
+      ]
+    },
+    "es.kitchen_el_agua_esta_fria": {
+      "conceptId": "es.kitchen_el_agua_esta_fria",
+      "id": "kitchen_el_agua_esta_fria",
+      "target": [
+        {
+          "text": "El agua está fría.",
+          "audioSlug": "el_agua_esta_fria"
+        }
+      ]
+    },
+    "es.kitchen_el_salmon_se_hace_al_horno": {
+      "conceptId": "es.kitchen_el_salmon_se_hace_al_horno",
+      "id": "kitchen_el_salmon_se_hace_al_horno",
+      "target": [
+        {
+          "text": "El salmón se hace al horno.",
+          "audioSlug": "el_salmon_se_hace_al_horno"
+        }
+      ]
+    },
+    "es.kitchen_esta_salsa_tiene_mucho_sabor": {
+      "conceptId": "es.kitchen_esta_salsa_tiene_mucho_sabor",
+      "id": "kitchen_esta_salsa_tiene_mucho_sabor",
+      "target": [
+        {
+          "text": "Esta salsa tiene mucho sabor.",
+          "audioSlug": "esta_salsa_tiene_mucho_sabor"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_las_rosas_del_jardin_huelen_muy_bien": {
+      "conceptId": "es.naturaleza_lugares_las_rosas_del_jardin_huelen_muy_bien",
+      "id": "naturaleza_lugares_las_rosas_del_jardin_huelen_muy_bien",
+      "target": [
+        {
+          "text": "Las rosas del jardín huelen muy bien.",
+          "audioSlug": "las_rosas_del_jardin_huelen_muy_bien"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_la_situacion_es_seria": {
+      "conceptId": "es.pensamientos_opiniones_la_situacion_es_seria",
+      "id": "pensamientos_opiniones_la_situacion_es_seria",
+      "target": [
+        {
+          "text": "La situación es seria.",
+          "audioSlug": "la_situacion_es_seria"
+        }
+      ]
+    },
+    "es.planes_dejame_intentarlo": {
+      "conceptId": "es.planes_dejame_intentarlo",
+      "id": "planes_dejame_intentarlo",
+      "target": [
+        {
+          "text": "Déjame intentarlo.",
+          "audioSlug": "dejame_intentarlo"
+        }
+      ]
+    },
+    "es.restaurant_can_we_see_the_menu_please": {
+      "conceptId": "es.restaurant_can_we_see_the_menu_please",
+      "id": "restaurant_can_we_see_the_menu_please",
+      "target": [
+        {
+          "text": "¿Podemos ver el menú, por favor?",
+          "audioSlug": "podemos_ver_el_menu_por_favor"
+        }
+      ]
+    },
+    "es.restaurant_steak_wrong_doneness": {
+      "conceptId": "es.restaurant_steak_wrong_doneness",
+      "id": "restaurant_steak_wrong_doneness",
+      "target": [
+        {
+          "text": "El filete que pedí poco hecho llegó muy hecho.",
+          "audioSlug": "el_filete_que_pedi_poco_hecho_llego_muy_hecho"
+        }
+      ]
+    },
+    "es.sitios_el_personal_del_hotel_es_amable": {
+      "conceptId": "es.sitios_el_personal_del_hotel_es_amable",
+      "id": "sitios_el_personal_del_hotel_es_amable",
+      "target": [
+        {
+          "text": "El personal del hotel es muy amable.",
+          "audioSlug": "el_personal_del_hotel_es_muy_amable"
+        }
+      ]
+    },
+    "es.theater_tickets_saturday": {
+      "conceptId": "es.theater_tickets_saturday",
+      "id": "theater_tickets_saturday",
+      "target": [
+        {
+          "text": "¿Quedan entradas para la función del sábado?",
+          "audioSlug": "quedan_entradas_para_la_funcion_del_sabado"
+        }
+      ]
+    },
+    "es.weather_hoy_hace_mucho_calor": {
+      "conceptId": "es.weather_hoy_hace_mucho_calor",
+      "id": "weather_hoy_hace_mucho_calor",
+      "target": [
+        {
+          "text": "Hoy hace mucho calor.",
+          "audioSlug": "hoy_hace_mucho_calor"
+        }
+      ]
+    }
+  }
+}

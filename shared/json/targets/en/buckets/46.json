@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "46",
+  "concepts": {
+    "en.accommodation_recommend_restaurant": {
+      "conceptId": "en.accommodation_recommend_restaurant",
+      "id": "accommodation_recommend_restaurant",
+      "target": [
+        {
+          "text": "Could you recommend a good restaurant nearby?",
+          "audioSlug": "could_you_recommend_a_good_restaurant_nearby",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you recommend a good restaurant nearby?",
+          "audioSlug": "can_you_recommend_a_good_restaurant_nearby",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.kitchen_reducing_the_sauce_will_take_time": {
+      "conceptId": "en.kitchen_reducing_the_sauce_will_take_time",
+      "id": "kitchen_reducing_the_sauce_will_take_time",
+      "target": [
+        {
+          "text": "Reducing the sauce will take time.",
+          "audioSlug": "reducing_the_sauce_will_take_time"
+        }
+      ]
+    },
+    "en.music_blends_traditional_contemporary": {
+      "conceptId": "en.music_blends_traditional_contemporary",
+      "id": "music_blends_traditional_contemporary",
+      "target": [
+        {
+          "text": "What strikes me most is how seamlessly this album blends traditional and contemporary influences.",
+          "audioSlug": "what_strikes_me_most_is_how_seamlessly_this_album_blends_traditional_and_contemporary_influences"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_the_image_does_not_match_reality": {
+      "conceptId": "en.pensamientos_opiniones_the_image_does_not_match_reality",
+      "id": "pensamientos_opiniones_the_image_does_not_match_reality",
+      "target": [
+        {
+          "text": "The image does not match reality.",
+          "audioSlug": "the_image_does_not_match_reality"
+        }
+      ]
+    }
+  }
+}

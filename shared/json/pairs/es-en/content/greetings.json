@@ -1,79 +1,943 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "greetings",
-  "conceptIds": [
-    "en.greetings_hello_how_are_you_today",
-    "en.greetings_good_morning_its_nice_to_see",
-    "en.greetings_hi_there_hows_your_day_going",
-    "en.greetings_good_afternoon_how_have_you_been",
-    "en.greetings_hey_hows_everything_with_you",
-    "en.greetings_morning_hope_youre_doing_well",
-    "en.greetings_good_evening_hows_your_day_been",
-    "en.greetings_hey_hows_life_treating_you",
-    "en.greetings_hi_its_good_to_catch_up",
-    "en.greetings_hello_how_have_you_been_lately",
-    "en.greetings_hi_there_hope_youre_having_a",
-    "en.greetings_hey_whats_new_with_you",
-    "en.greetings_good_morning_hows_everything_going",
-    "en.greetings_hi_how_are_you_holding_up",
-    "en.greetings_hey_there_hows_your_week_been",
-    "en.greetings_hello_hope_youre_doing_fine",
-    "en.greetings_hi_its_been_a_while_how",
-    "en.greetings_good_afternoon_hows_life_treating_you",
-    "en.greetings_hey_nice_to_see_you_again",
-    "en.greetings_it_was_great_seeing_you",
-    "en.greetings_take_care_of_yourself",
-    "en.greetings_have_a_wonderful_day",
-    "en.greetings_see_you_around",
-    "en.greetings_it_was_lovely_to_meet_you",
-    "en.greetings_dont_be_a_stranger",
-    "en.greetings_we_should_do_this_again_sometime",
-    "en.greetings_it_was_a_pleasure_hope_to",
-    "en.greetings_say_hi_to_everyone_for_me",
-    "en.greetings_take_care_and_stay_in_touch",
-    "en.greetings_it_was_so_good_catching_up",
-    "en.greetings_nice_to_meet_you_im_glad",
-    "en.greetings_i_could_be_better",
-    "en.greetings_hows_your_day_been",
-    "en.greetings_ive_had_a_great_day",
-    "en.greetings_hows_your_week_been",
-    "en.greetings_ive_had_better_days",
-    "en.greetings_introduce_myself_account_manager",
-    "en.greetings_pleasure_meeting_follow_up",
-    "en.greetings_allow_me_to_introduce_dr",
-    "en.greetings_welcome_aboard_team",
-    "en.greetings_trust_message_finds_you_well",
-    "en.greetings_pleasure_introduce_keynote_speaker",
-    "en.greetings_dont_believe_formally_introduced",
-    "en.greetings_convey_delegation_graciously_received",
-    "en.greetings_appreciate_time_demanding_schedule",
-    "en.greetings_been_ages_how_keeping",
-    "en.greetings_dont_think_weve_met",
-    "en.greetings_small_world_knew_each_other",
-    "en.greetings_heard_so_much_face_to_name",
-    "en.greetings_let_me_introduce_colleague",
-    "en.greetings_hope_not_interrupting",
-    "en.greetings_great_catching_up_more_often",
-    "en.greetings_give_regards_family",
-    "en.greetings_pleasant_surprise_not_expecting",
-    "en.greetings_lovely_see_you_looking_well",
-    "en.greetings_find_yourself_city_give_call",
-    "en.greetings_mutual_acquaintance_conference",
-    "en.greetings_looking_forward_introduction_work_precedes",
-    "en.greetings_good_morning",
-    "en.greetings_good_afternoon",
-    "en.greetings_good_evening",
-    "en.greetings_goodbye",
-    "en.greetings_thank_you",
-    "en.greetings_youre_welcome",
-    "en.greetings_whats_your_name",
-    "en.greetings_nice_to_meet_you",
-    "en.greetings_excuse_me",
-    "en.greetings_see_you_later",
-    "en.greetings_see_you_tomorrow",
-    "en.greetings_very_well_thanks",
-    "en.greetings_see_you_on_friday",
-    "en.greetings_this_is_my_friend_ana"
+  "phrases": [
+    {
+      "conceptId": "en.greetings_hello_how_are_you_today",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c0c8201d39d77dcc"
+    },
+    {
+      "conceptId": "en.greetings_good_morning_its_nice_to_see",
+      "level": "A1",
+      "grammar": "Use 'it's' (it is), not 'its' (possessive).",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b6a210ffb3088a03"
+    },
+    {
+      "conceptId": "en.greetings_hi_there_hows_your_day_going",
+      "level": "A1",
+      "grammar": "'How's' = 'how is'; 'going' shows this is an ongoing action, not a fact.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d0ce134c2ea47ff7"
+    },
+    {
+      "conceptId": "en.greetings_good_afternoon_how_have_you_been",
+      "level": "A2",
+      "grammar": "Use the present perfect for a period up to now, not just this moment.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b98b4ed289f5545a"
+    },
+    {
+      "conceptId": "en.greetings_hey_hows_everything_with_you",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6f10e0fd6eaff8dc"
+    },
+    {
+      "conceptId": "en.greetings_morning_hope_youre_doing_well",
+      "level": "A2",
+      "grammar": "Dropping 'Good' and 'I' makes it more informal: 'Morning, hope you're well.'",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6d8a86ea6d20cba7"
+    },
+    {
+      "conceptId": "en.greetings_good_evening_hows_your_day_been",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.530965b8ad24f611"
+    },
+    {
+      "conceptId": "en.greetings_hey_hows_life_treating_you",
+      "level": "A2",
+      "grammar": "'Life treating you' is idiomatic for 'Is life going well for you?'",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9309469cf17ac0dd"
+    },
+    {
+      "conceptId": "en.greetings_hi_its_good_to_catch_up",
+      "level": "A2",
+      "grammar": "'Catch up' means to share news after time apart; say 'catch up with someone'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.12f059bc429d183e"
+    },
+    {
+      "conceptId": "en.greetings_hello_how_have_you_been_lately",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1cff67c5e58aaa50"
+    },
+    {
+      "conceptId": "en.greetings_hi_there_hope_youre_having_a",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fbc7a94881a0d8ea"
+    },
+    {
+      "conceptId": "en.greetings_hey_whats_new_with_you",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0c1e52388b1227ae"
+    },
+    {
+      "conceptId": "en.greetings_good_morning_hows_everything_going",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0ad753e1b6a68e1c"
+    },
+    {
+      "conceptId": "en.greetings_hi_how_are_you_holding_up",
+      "level": "A2",
+      "grammar": "'Holding up' means coping under pressure, used to check in with empathy.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4abf33c2dd0770a3"
+    },
+    {
+      "conceptId": "en.greetings_hey_there_hows_your_week_been",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.82a1d323b3061774"
+    },
+    {
+      "conceptId": "en.greetings_hello_hope_youre_doing_fine",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6e0d62c4fa6e82cc"
+    },
+    {
+      "conceptId": "en.greetings_hi_its_been_a_while_how",
+      "level": "A2",
+      "grammar": "Present perfect: 'It's been a while' connects the past gap to now.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9f3315e3933f0452"
+    },
+    {
+      "conceptId": "en.greetings_good_afternoon_hows_life_treating_you",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4f9d049539d700c1"
+    },
+    {
+      "conceptId": "en.greetings_hey_nice_to_see_you_again",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ce218357d24b85b9"
+    },
+    {
+      "conceptId": "en.greetings_it_was_great_seeing_you",
+      "level": "A2",
+      "grammar": "Both 'seeing you' and 'to see you' are correct; the gerund sounds slightly more casual.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.47ab4598ad9f7b30"
+    },
+    {
+      "conceptId": "en.greetings_take_care_of_yourself",
+      "level": "A1",
+      "grammar": "Use 'yourself' for emphasis; 'take care' alone is a shorter, equally common farewell.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.baaaa73e2e6923ac"
+    },
+    {
+      "conceptId": "en.greetings_have_a_wonderful_day",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bb8bd2e9ff908a78"
+    },
+    {
+      "conceptId": "en.greetings_see_you_around",
+      "level": "A1",
+      "grammar": "'Around' means without a fixed time; more casual than 'see you later' or 'soon'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.01663157bd3c4c40"
+    },
+    {
+      "conceptId": "en.greetings_it_was_lovely_to_meet_you",
+      "level": "A1",
+      "grammar": "Use 'meet' for first encounters; use 'see' when you've met before.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.64e86b72dbadfb9a"
+    },
+    {
+      "conceptId": "en.greetings_dont_be_a_stranger",
+      "level": "B1",
+      "grammar": "'Don't be a stranger' idiomatically means 'keep in touch and visit again'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1f8edf303b1fd9e6"
+    },
+    {
+      "conceptId": "en.greetings_we_should_do_this_again_sometime",
+      "level": "A2",
+      "grammar": "Modal 'should' here is a suggestion, not an obligation, common in farewells.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9af164d2b06a2ebf"
+    },
+    {
+      "conceptId": "en.greetings_it_was_a_pleasure_hope_to",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6d27561f314a15e4"
+    },
+    {
+      "conceptId": "en.greetings_say_hi_to_everyone_for_me",
+      "level": "A2",
+      "grammar": "An indirect greeting sent through someone else; formality varies: 'hi', 'regards', 'love'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1b03c4bd9a42d71d"
+    },
+    {
+      "conceptId": "en.greetings_take_care_and_stay_in_touch",
+      "level": "A2",
+      "grammar": "'Stay in touch' means keep communicating; also: 'keep in touch' or 'keep me posted'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0b1014f23f3b89ab"
+    },
+    {
+      "conceptId": "en.greetings_it_was_so_good_catching_up",
+      "level": "B1",
+      "grammar": "'Catching up' is the gerund of 'catch up', used after adjectives like 'good' or 'great'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.96d2509ad384ab8f"
+    },
+    {
+      "conceptId": "en.greetings_nice_to_meet_you_im_glad",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6c0849de3f877b24"
+    },
+    {
+      "conceptId": "en.greetings_i_could_be_better",
+      "level": "A2",
+      "grammar": "'Could be better' is a polite understatement; English often avoids direct negative statements.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9cbadf4eaa1e981c"
+    },
+    {
+      "conceptId": "en.greetings_hows_your_day_been",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.61c895bed903ed60"
+    },
+    {
+      "conceptId": "en.greetings_ive_had_a_great_day",
+      "level": "A2",
+      "grammar": "Present perfect 'I've had' links past experience to your current feeling.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e25c4e5a9385ff76"
+    },
+    {
+      "conceptId": "en.greetings_hows_your_week_been",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.94b54a25b9ebb758"
+    },
+    {
+      "conceptId": "en.greetings_ive_had_better_days",
+      "level": "B1",
+      "grammar": "'Better days' is an understatement meaning today was bad; very common polite complaint.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.764a14bd555c5eba"
+    },
+    {
+      "conceptId": "en.greetings_introduce_myself_account_manager",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fd1c3a99312f5bfe"
+    },
+    {
+      "conceptId": "en.greetings_pleasure_meeting_follow_up",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bb4e420ce625ffd0"
+    },
+    {
+      "conceptId": "en.greetings_allow_me_to_introduce_dr",
+      "level": "B2",
+      "grammar": "'Please allow me to introduce' is a formal third-party introduction phrase.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.82e65a547f038c63"
+    },
+    {
+      "conceptId": "en.greetings_welcome_aboard_team",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3a1ed79454358e65"
+    },
+    {
+      "conceptId": "en.greetings_trust_message_finds_you_well",
+      "level": "C1",
+      "grammar": "'I trust this message finds you well' is a formal epistolary opener for professional correspondence.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9512ffa948b5be17"
+    },
+    {
+      "conceptId": "en.greetings_pleasure_introduce_keynote_speaker",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5034143f4734348d"
+    },
+    {
+      "conceptId": "en.greetings_dont_believe_formally_introduced",
+      "level": "C1",
+      "grammar": "'I don't believe we've been formally introduced' is a polished opener in formal settings.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e0ad95abf5d16e79"
+    },
+    {
+      "conceptId": "en.greetings_convey_delegation_graciously_received",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.58580e7f0c136099"
+    },
+    {
+      "conceptId": "en.greetings_appreciate_time_demanding_schedule",
+      "level": "C1",
+      "grammar": "After 'appreciate', use the gerund: 'I appreciate you taking the time'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4d80794769270306"
+    },
+    {
+      "conceptId": "en.greetings_been_ages_how_keeping",
+      "level": "B1",
+      "grammar": "'It's been ages' is an idiom for a long absence; the present perfect adds informality.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e034e6acf049003f"
+    },
+    {
+      "conceptId": "en.greetings_dont_think_weve_met",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a51222c2777b0ceb"
+    },
+    {
+      "conceptId": "en.greetings_small_world_knew_each_other",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.57031566a467855a"
+    },
+    {
+      "conceptId": "en.greetings_heard_so_much_face_to_name",
+      "level": "B1",
+      "grammar": "Present perfect: 'I've heard' links past experience to the current introduction.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5785c95815308b69"
+    },
+    {
+      "conceptId": "en.greetings_let_me_introduce_colleague",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d5a60979652e0646"
+    },
+    {
+      "conceptId": "en.greetings_hope_not_interrupting",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.750b6de5f58d6111"
+    },
+    {
+      "conceptId": "en.greetings_great_catching_up_more_often",
+      "level": "B1",
+      "grammar": "'Catching up' is a gerund meaning reconnecting with someone after time apart.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fcee8d1edb67bc9c"
+    },
+    {
+      "conceptId": "en.greetings_give_regards_family",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.92e7ce5fee75ea59"
+    },
+    {
+      "conceptId": "en.greetings_pleasant_surprise_not_expecting",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.434c21837a942c2c"
+    },
+    {
+      "conceptId": "en.greetings_lovely_see_you_looking_well",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.029a859ab19f2cd4"
+    },
+    {
+      "conceptId": "en.greetings_find_yourself_city_give_call",
+      "level": "B2",
+      "grammar": "'If you're ever' uses present simple for an open-ended, standing invitation.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.97f26e1f76a2b58e"
+    },
+    {
+      "conceptId": "en.greetings_mutual_acquaintance_conference",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.995fc7f3b991dac0"
+    },
+    {
+      "conceptId": "en.greetings_looking_forward_introduction_work_precedes",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cdd0937ab7030ee3"
+    },
+    {
+      "conceptId": "en.greetings_good_morning",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b6599ab0fcb0649a"
+    },
+    {
+      "conceptId": "en.greetings_good_afternoon",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fac842b69a8be5d0"
+    },
+    {
+      "conceptId": "en.greetings_good_evening",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ea3792056ba7e655"
+    },
+    {
+      "conceptId": "en.greetings_goodbye",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fb1e4f00970efee7"
+    },
+    {
+      "conceptId": "en.greetings_thank_you",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b53ea6e2b0a2f4dc"
+    },
+    {
+      "conceptId": "en.greetings_youre_welcome",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4624debb6be1d15a"
+    },
+    {
+      "conceptId": "en.greetings_whats_your_name",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e4dbe27df3502a96"
+    },
+    {
+      "conceptId": "en.greetings_nice_to_meet_you",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5ccc0385661182eb"
+    },
+    {
+      "conceptId": "en.greetings_excuse_me",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.319a2be7a5bc4863"
+    },
+    {
+      "conceptId": "en.greetings_see_you_later",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e7a1df86404ae16f"
+    },
+    {
+      "conceptId": "en.greetings_see_you_tomorrow",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.68c19af49eba3a11"
+    },
+    {
+      "conceptId": "en.greetings_very_well_thanks",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d2c976df1eb4229b"
+    },
+    {
+      "conceptId": "en.greetings_see_you_on_friday",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c60f7ea1cdfac5c3"
+    },
+    {
+      "conceptId": "en.greetings_this_is_my_friend_ana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.59d6d8f0bda33528"
+    }
   ]
 }

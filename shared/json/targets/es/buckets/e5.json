@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "e5",
+  "concepts": {
+    "es.accountability_external_auditors_requesting_documentation": {
+      "conceptId": "es.accountability_external_auditors_requesting_documentation",
+      "id": "accountability_external_auditors_requesting_documentation",
+      "target": [
+        {
+          "text": "Los auditores externos están solicitando documentación de los últimos tres años fiscales.",
+          "audioSlug": "los_auditores_externos_estan_solicitando_documentacion_de_los_ultimos_tres_anos_fiscales"
+        }
+      ]
+    },
+    "es.daily_routine_suelo_caminar": {
+      "conceptId": "es.daily_routine_suelo_caminar",
+      "id": "daily_routine_suelo_caminar",
+      "target": [
+        {
+          "text": "Yo suelo caminar.",
+          "audioSlug": "yo_suelo_caminar"
+        }
+      ]
+    },
+    "es.directions_two_blocks": {
+      "conceptId": "es.directions_two_blocks",
+      "id": "directions_two_blocks",
+      "target": [
+        {
+          "text": "Está a dos cuadras de aquí.",
+          "audioSlug": "esta_a_dos_cuadras_de_aqui"
+        }
+      ]
+    },
+    "es.kitchen_the_cutting_board_is_in_the": {
+      "conceptId": "es.kitchen_the_cutting_board_is_in_the",
+      "id": "kitchen_the_cutting_board_is_in_the",
+      "target": [
+        {
+          "text": "La tabla de cortar está en el cajón.",
+          "audioSlug": "la_tabla_de_cortar_esta_en_el_cajon"
+        }
+      ]
+    },
+    "es.politica_el_principe_visito_la_ciudad": {
+      "conceptId": "es.politica_el_principe_visito_la_ciudad",
+      "id": "politica_el_principe_visito_la_ciudad",
+      "target": [
+        {
+          "text": "El príncipe visitó la ciudad.",
+          "audioSlug": "el_principe_visito_la_ciudad"
+        }
+      ]
+    },
+    "es.profesiones_el_carnicero_corta_la_carne": {
+      "conceptId": "es.profesiones_el_carnicero_corta_la_carne",
+      "id": "profesiones_el_carnicero_corta_la_carne",
+      "target": [
+        {
+          "text": "El carnicero corta la carne.",
+          "audioSlug": "el_carnicero_corta_la_carne"
+        }
+      ]
+    },
+    "es.restaurant_compre_una_barra_de_pan": {
+      "conceptId": "es.restaurant_compre_una_barra_de_pan",
+      "id": "restaurant_compre_una_barra_de_pan",
+      "target": [
+        {
+          "text": "Compré una barra de pan.",
+          "audioSlug": "compre_una_barra_de_pan"
+        }
+      ]
+    },
+    "es.restaurant_is_there_a_childrens_menu_available": {
+      "conceptId": "es.restaurant_is_there_a_childrens_menu_available",
+      "id": "restaurant_is_there_a_childrens_menu_available",
+      "target": [
+        {
+          "text": "¿Hay menú infantil?",
+          "audioSlug": "hay_menu_infantil"
+        }
+      ]
+    },
+    "es.tiempo_libre_vamos_a_caminar": {
+      "conceptId": "es.tiempo_libre_vamos_a_caminar",
+      "id": "tiempo_libre_vamos_a_caminar",
+      "target": [
+        {
+          "text": "Vamos a caminar.",
+          "audioSlug": "vamos_a_caminar"
+        }
+      ]
+    },
+    "es.viajes_necesito_cambiar_dinero": {
+      "conceptId": "es.viajes_necesito_cambiar_dinero",
+      "id": "viajes_necesito_cambiar_dinero",
+      "target": [
+        {
+          "text": "Necesito cambiar dinero.",
+          "audioSlug": "necesito_cambiar_dinero"
+        }
+      ]
+    }
+  }
+}

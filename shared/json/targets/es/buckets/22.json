@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "22",
+  "concepts": {
+    "es.accommodation_could_i_have_the_key": {
+      "conceptId": "es.accommodation_could_i_have_the_key",
+      "id": "accommodation_could_i_have_the_key",
+      "target": [
+        {
+          "text": "¿Me da la llave, por favor?",
+          "audioSlug": "me_da_la_llave_por_favor"
+        }
+      ]
+    },
+    "es.descripciones_ella_aprende_una_lengua_indigena": {
+      "conceptId": "es.descripciones_ella_aprende_una_lengua_indigena",
+      "id": "descripciones_ella_aprende_una_lengua_indigena",
+      "target": [
+        {
+          "text": "Ella aprende una lengua indígena.",
+          "audioSlug": "ella_aprende_una_lengua_indigena"
+        }
+      ]
+    },
+    "es.family_i_have_a_brother_and_a_sister": {
+      "conceptId": "es.family_i_have_a_brother_and_a_sister",
+      "id": "family_i_have_a_brother_and_a_sister",
+      "target": [
+        {
+          "text": "Tengo un hermano y una hermana.",
+          "audioSlug": "tengo_un_hermano_y_una_hermana"
+        }
+      ]
+    },
+    "es.family_my_son_is_five": {
+      "conceptId": "es.family_my_son_is_five",
+      "id": "family_my_son_is_five",
+      "target": [
+        {
+          "text": "Mi hijo tiene cinco años.",
+          "audioSlug": "mi_hijo_tiene_cinco_anos"
+        }
+      ]
+    },
+    "es.greetings_small_world_knew_each_other": {
+      "conceptId": "es.greetings_small_world_knew_each_other",
+      "id": "greetings_small_world_knew_each_other",
+      "target": [
+        {
+          "text": "¡Qué pequeño es el mundo, no sabía que se conocían!",
+          "audioSlug": "que_pequeno_es_el_mundo_no_sabia_que_se_conocian"
+        }
+      ]
+    },
+    "es.gym_free_weights_vs_machines_stability": {
+      "conceptId": "es.gym_free_weights_vs_machines_stability",
+      "id": "gym_free_weights_vs_machines_stability",
+      "target": [
+        {
+          "text": "Prefiero el peso libre a las máquinas porque requieren más estabilidad del tronco.",
+          "audioSlug": "prefiero_el_peso_libre_a_las_maquinas_porque_requieren_mas_estabilidad_del_tronco"
+        }
+      ]
+    },
+    "es.gym_what_exercises_do_you_recommend_for": {
+      "conceptId": "es.gym_what_exercises_do_you_recommend_for",
+      "id": "gym_what_exercises_do_you_recommend_for",
+      "target": [
+        {
+          "text": "¿Qué ejercicios recomiendas para fortalecer mi espalda baja?",
+          "audioSlug": "que_ejercicios_recomiendas_para_fortalecer_mi_espalda_baja"
+        }
+      ]
+    },
+    "es.kitchen_necesito_una_receta_facil": {
+      "conceptId": "es.kitchen_necesito_una_receta_facil",
+      "id": "kitchen_necesito_una_receta_facil",
+      "target": [
+        {
+          "text": "Necesito una receta fácil.",
+          "audioSlug": "necesito_una_receta_facil"
+        }
+      ]
+    },
+    "es.music_concert_sound_mix_terrible": {
+      "conceptId": "es.music_concert_sound_mix_terrible",
+      "id": "music_concert_sound_mix_terrible",
+      "target": [
+        {
+          "text": "La energía era increíble pero la mezcla de sonido era terrible.",
+          "audioSlug": "la_energia_era_increible_pero_la_mezcla_de_sonido_era_terrible"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_es_una_piedra_grande": {
+      "conceptId": "es.naturaleza_lugares_es_una_piedra_grande",
+      "id": "naturaleza_lugares_es_una_piedra_grande",
+      "target": [
+        {
+          "text": "Es una piedra grande.",
+          "audioSlug": "es_una_piedra_grande"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_los_animales_viven_en_el_bosque": {
+      "conceptId": "es.naturaleza_lugares_los_animales_viven_en_el_bosque",
+      "id": "naturaleza_lugares_los_animales_viven_en_el_bosque",
+      "target": [
+        {
+          "text": "Los animales viven en el bosque.",
+          "audioSlug": "los_animales_viven_en_el_bosque"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_eso_es_cierto": {
+      "conceptId": "es.pensamientos_opiniones_eso_es_cierto",
+      "id": "pensamientos_opiniones_eso_es_cierto",
+      "target": [
+        {
+          "text": "Eso es cierto.",
+          "audioSlug": "eso_es_cierto"
+        }
+      ]
+    },
+    "es.technology_en_la_tele_ponen_un_buen_documental": {
+      "conceptId": "es.technology_en_la_tele_ponen_un_buen_documental",
+      "id": "technology_en_la_tele_ponen_un_buen_documental",
+      "target": [
+        {
+          "text": "En la tele ponen un buen documental.",
+          "audioSlug": "en_la_tele_ponen_un_buen_documental"
+        }
+      ]
+    },
+    "es.weather_whats_temperature": {
+      "conceptId": "es.weather_whats_temperature",
+      "id": "weather_whats_temperature",
+      "target": [
+        {
+          "text": "¿Qué temperatura hace?",
+          "audioSlug": "que_temperatura_hace"
+        }
+      ]
+    }
+  }
+}

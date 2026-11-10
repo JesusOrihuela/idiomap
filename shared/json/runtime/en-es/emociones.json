@@ -1,0 +1,1005 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "emociones",
+  "phrases": [
+    {
+      "id": "emociones_im_sad",
+      "conceptId": "es.emociones_im_sad",
+      "sourceId": "en.s.6e96d59955b9dea2",
+      "source": "I'm sad.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy triste.",
+          "audioSlug": "estoy_triste"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_happy",
+      "conceptId": "es.emociones_im_happy",
+      "sourceId": "en.s.5251665e192eb502",
+      "source": "I'm happy.",
+      "level": "A1",
+      "grammar": "Con estados de ánimo y emociones se usa 'estar', no 'ser'.",
+      "target": [
+        {
+          "text": "Estoy feliz.",
+          "audioSlug": "estoy_feliz"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_excited",
+      "conceptId": "es.emociones_im_excited",
+      "sourceId": "en.s.adb0d13c254a0730",
+      "source": "I'm excited.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy emocionada.",
+          "audioSlug": "estoy_emocionada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy emocionado.",
+          "audioSlug": "estoy_emocionado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_bored",
+      "conceptId": "es.emociones_im_bored",
+      "sourceId": "en.s.7b4dfa5604e203a8",
+      "source": "I'm bored.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy aburrida.",
+          "audioSlug": "estoy_aburrida",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy aburrido.",
+          "audioSlug": "estoy_aburrido",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_tired",
+      "conceptId": "es.emociones_im_tired",
+      "sourceId": "en.s.4a839c033ddc454a",
+      "source": "I'm tired.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy cansada.",
+          "audioSlug": "estoy_cansada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy cansado.",
+          "audioSlug": "estoy_cansado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_angry",
+      "conceptId": "es.emociones_im_angry",
+      "sourceId": "en.s.a8e3800a475581de",
+      "source": "I'm angry.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy enojada.",
+          "audioSlug": "estoy_enojada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy enojado.",
+          "audioSlug": "estoy_enojado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_surprised",
+      "conceptId": "es.emociones_im_surprised",
+      "sourceId": "en.s.8885b632bcf5c2dd",
+      "source": "I'm surprised.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy sorprendida.",
+          "audioSlug": "estoy_sorprendida",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy sorprendido.",
+          "audioSlug": "estoy_sorprendido",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_confused",
+      "conceptId": "es.emociones_im_confused",
+      "sourceId": "en.s.dca626a17b79a7da",
+      "source": "I'm confused.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy confundida.",
+          "audioSlug": "estoy_confundida",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy confundido.",
+          "audioSlug": "estoy_confundido",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_worried",
+      "conceptId": "es.emociones_im_worried",
+      "sourceId": "en.s.2b43e270e483fc63",
+      "source": "I'm worried.",
+      "level": "A1",
+      "grammar": "Con estados de ánimo y emociones se usa 'estar', no 'ser'.",
+      "target": [
+        {
+          "text": "Estoy preocupada.",
+          "audioSlug": "estoy_preocupada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy preocupado.",
+          "audioSlug": "estoy_preocupado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_nervous",
+      "conceptId": "es.emociones_im_nervous",
+      "sourceId": "en.s.0f7bb15796b40d07",
+      "source": "I'm nervous.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy nerviosa.",
+          "audioSlug": "estoy_nerviosa",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy nervioso.",
+          "audioSlug": "estoy_nervioso",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_scared",
+      "conceptId": "es.emociones_im_scared",
+      "sourceId": "en.s.e7e6e31cf43f8473",
+      "source": "I'm scared.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy asustada.",
+          "audioSlug": "estoy_asustada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy asustado.",
+          "audioSlug": "estoy_asustado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_relaxed",
+      "conceptId": "es.emociones_im_relaxed",
+      "sourceId": "en.s.49ece5b958f614ef",
+      "source": "I'm relaxed.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy relajada.",
+          "audioSlug": "estoy_relajada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy relajado.",
+          "audioSlug": "estoy_relajado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_stressed",
+      "conceptId": "es.emociones_im_stressed",
+      "sourceId": "en.s.a686a8b14b8f39df",
+      "source": "I'm stressed.",
+      "level": "A2",
+      "grammar": "Con estados de ánimo y emociones se usa 'estar', no 'ser'.",
+      "target": [
+        {
+          "text": "Estoy estresada.",
+          "audioSlug": "estoy_estresada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy estresado.",
+          "audioSlug": "estoy_estresado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_sad",
+      "conceptId": "es.emociones_why_are_you_sad",
+      "sourceId": "en.s.649210f552a5331e",
+      "source": "Why are you sad?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por qué estás triste?",
+          "audioSlug": "por_que_estas_triste"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_so_happy",
+      "conceptId": "es.emociones_why_are_you_so_happy",
+      "sourceId": "en.s.d4704f567132eb05",
+      "source": "Why are you so happy?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por qué estás tan feliz?",
+          "audioSlug": "por_que_estas_tan_feliz"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_excited",
+      "conceptId": "es.emociones_why_are_you_excited",
+      "sourceId": "en.s.719e1b3bc19acb76",
+      "source": "Why are you excited?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por qué estás emocionado?",
+          "audioSlug": "por_que_estas_emocionado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás emocionada?",
+          "audioSlug": "por_que_estas_emocionada",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_bored",
+      "conceptId": "es.emociones_why_are_you_bored",
+      "sourceId": "en.s.d30cc14ed5de8cd8",
+      "source": "Why are you bored?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por qué estás aburrido?",
+          "audioSlug": "por_que_estas_aburrido",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás aburrida?",
+          "audioSlug": "por_que_estas_aburrida",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_tired",
+      "conceptId": "es.emociones_why_are_you_tired",
+      "sourceId": "en.s.bc687abc7f71fae3",
+      "source": "Why are you tired?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por qué estás cansado?",
+          "audioSlug": "por_que_estas_cansado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás cansada?",
+          "audioSlug": "por_que_estas_cansada",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_angry",
+      "conceptId": "es.emociones_why_are_you_angry",
+      "sourceId": "en.s.98ca1a31982f3ec5",
+      "source": "Why are you angry?",
+      "level": "A1",
+      "grammar": "'¿Por qué estás...?' usa 'estar' para preguntar por un estado de ánimo.",
+      "target": [
+        {
+          "text": "¿Por qué estás enojado?",
+          "audioSlug": "por_que_estas_enojado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás enojada?",
+          "audioSlug": "por_que_estas_enojada",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_surprised",
+      "conceptId": "es.emociones_why_are_you_surprised",
+      "sourceId": "en.s.af38a9d58c70b98b",
+      "source": "Why are you surprised?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por qué estás sorprendido?",
+          "audioSlug": "por_que_estas_sorprendido",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás sorprendida?",
+          "audioSlug": "por_que_estas_sorprendida",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_confused",
+      "conceptId": "es.emociones_why_are_you_confused",
+      "sourceId": "en.s.4e06d7b408701e5a",
+      "source": "Why are you confused?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por qué estás confundido?",
+          "audioSlug": "por_que_estas_confundido",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás confundida?",
+          "audioSlug": "por_que_estas_confundida",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_worried",
+      "conceptId": "es.emociones_why_are_you_worried",
+      "sourceId": "en.s.b11facf6b7990bc3",
+      "source": "Why are you worried?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por qué estás preocupado?",
+          "audioSlug": "por_que_estas_preocupado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás preocupada?",
+          "audioSlug": "por_que_estas_preocupada",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_nervous",
+      "conceptId": "es.emociones_why_are_you_nervous",
+      "sourceId": "en.s.e1812bf4273bc22f",
+      "source": "Why are you nervous?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por qué estás nervioso?",
+          "audioSlug": "por_que_estas_nervioso",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás nerviosa?",
+          "audioSlug": "por_que_estas_nerviosa",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_scared",
+      "conceptId": "es.emociones_why_are_you_scared",
+      "sourceId": "en.s.5f356c52b16b110a",
+      "source": "Why are you scared?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por qué estás asustado?",
+          "audioSlug": "por_que_estas_asustado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás asustada?",
+          "audioSlug": "por_que_estas_asustada",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_relaxed",
+      "conceptId": "es.emociones_why_are_you_relaxed",
+      "sourceId": "en.s.098b5f6a7b3b5cd3",
+      "source": "Why are you relaxed?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por qué estás relajado?",
+          "audioSlug": "por_que_estas_relajado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás relajada?",
+          "audioSlug": "por_que_estas_relajada",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_stressed",
+      "conceptId": "es.emociones_why_are_you_stressed",
+      "sourceId": "en.s.e77d83afa690d5ba",
+      "source": "Why are you stressed?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por qué estás estresado?",
+          "audioSlug": "por_que_estas_estresado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás estresada?",
+          "audioSlug": "por_que_estas_estresada",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emociones_how_do_you_feel",
+      "conceptId": "es.emociones_how_do_you_feel",
+      "sourceId": "en.s.5a0ae02142077c83",
+      "source": "How do you feel?",
+      "level": "A1",
+      "grammar": "'¿Cómo te sientes?' usa el verbo reflexivo 'sentirse' para preguntar por el estado.",
+      "target": [
+        {
+          "text": "¿Cómo te sientes?",
+          "audioSlug": "como_te_sientes"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_feel_fine",
+      "conceptId": "es.emociones_i_feel_fine",
+      "sourceId": "en.s.05ad46c6724336d0",
+      "source": "I feel fine.",
+      "level": "A1",
+      "grammar": "'Me siento' es el reflexivo 'sentirse'; se usa con adverbios (bien, mal).",
+      "target": [
+        {
+          "text": "Me siento bien.",
+          "audioSlug": "me_siento_bien"
+        }
+      ]
+    },
+    {
+      "id": "emociones_are_you_okay",
+      "conceptId": "es.emociones_are_you_okay",
+      "sourceId": "en.s.45719d73424c8a0b",
+      "source": "Are you okay?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Estás bien?",
+          "audioSlug": "estas_bien"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_embarrassed",
+      "conceptId": "es.emociones_im_embarrassed",
+      "sourceId": "en.s.e12f2c153c71a2f6",
+      "source": "I am embarrassed.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy avergonzada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_avergonzada"
+        },
+        {
+          "text": "Estoy avergonzado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_avergonzado"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_proud",
+      "conceptId": "es.emociones_im_proud",
+      "sourceId": "en.s.917127a1e61f633d",
+      "source": "I am proud.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy orgullosa.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_orgullosa"
+        },
+        {
+          "text": "Estoy orgulloso.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_orgulloso"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_disappointed",
+      "conceptId": "es.emociones_im_disappointed",
+      "sourceId": "en.s.9d01cb6f6bcac503",
+      "source": "I am disappointed.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy decepcionada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_decepcionada"
+        },
+        {
+          "text": "Estoy decepcionado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_decepcionado"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_love_you_very_much",
+      "conceptId": "es.emociones_i_love_you_very_much",
+      "sourceId": "en.s.a7f778bb225b4155",
+      "source": "I love you very much.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te quiero mucho.",
+          "audioSlug": "te_quiero_mucho"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_miss_you_a_lot",
+      "conceptId": "es.emociones_i_miss_you_a_lot",
+      "sourceId": "en.s.2122acc2452e78cd",
+      "source": "I miss you a lot.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te extraño mucho.",
+          "audioSlug": "te_extrano_mucho"
+        }
+      ]
+    },
+    {
+      "id": "emociones_flying_scares_me",
+      "conceptId": "es.emociones_flying_scares_me",
+      "sourceId": "en.s.5a3f1da032929f52",
+      "source": "Flying scares me.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me da miedo volar.",
+          "audioSlug": "me_da_miedo_volar"
+        }
+      ]
+    },
+    {
+      "id": "emociones_noise_bothers_me",
+      "conceptId": "es.emociones_noise_bothers_me",
+      "sourceId": "en.s.7dd803d4ecc3a94d",
+      "source": "Noise bothers me.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me molesta el ruido.",
+          "audioSlug": "me_molesta_el_ruido"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_feel_something_is_wrong",
+      "conceptId": "es.emociones_i_feel_something_is_wrong",
+      "sourceId": "en.s.406cf93ed8f64a3c",
+      "source": "I feel that something is wrong.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Siento que algo va mal.",
+          "audioSlug": "siento_que_algo_va_mal"
+        }
+      ]
+    },
+    {
+      "id": "emociones_im_glad_to_see_you",
+      "conceptId": "es.emociones_im_glad_to_see_you",
+      "sourceId": "en.s.ae039cd5aecc0873",
+      "source": "I'm glad to see you.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me alegro de verte.",
+          "audioSlug": "me_alegro_de_verte"
+        }
+      ]
+    },
+    {
+      "id": "emociones_that_news_makes_me_sad",
+      "conceptId": "es.emociones_that_news_makes_me_sad",
+      "sourceId": "en.s.0aebcf9e6b103661",
+      "source": "That news makes me sad.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Esa noticia me pone triste.",
+          "audioSlug": "esa_noticia_me_pone_triste"
+        }
+      ]
+    },
+    {
+      "id": "emociones_esta_de_buen_humor",
+      "conceptId": "es.emociones_esta_de_buen_humor",
+      "sourceId": "en.s.b30daad5fa13b706",
+      "source": "He is in a good mood.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está de buen humor.",
+          "audioSlug": "esta_de_buen_humor"
+        }
+      ]
+    },
+    {
+      "id": "emociones_salte_de_alegria",
+      "conceptId": "es.emociones_salte_de_alegria",
+      "sourceId": "en.s.9f0a143156c6d682",
+      "source": "I jumped for joy.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Salté de alegría.",
+          "audioSlug": "salte_de_alegria"
+        }
+      ]
+    },
+    {
+      "id": "emociones_te_voy_a_echar_de_menos",
+      "conceptId": "es.emociones_te_voy_a_echar_de_menos",
+      "sourceId": "en.s.060bcd3a52da5f24",
+      "source": "I'm going to miss you.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te voy a echar de menos.",
+          "audioSlug": "te_voy_a_echar_de_menos"
+        }
+      ]
+    },
+    {
+      "id": "emociones_senti_una_gran_emocion",
+      "conceptId": "es.emociones_senti_una_gran_emocion",
+      "sourceId": "en.s.d7e02ded766a2ad4",
+      "source": "I felt great emotion.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sentí una gran emoción.",
+          "audioSlug": "senti_una_gran_emocion"
+        }
+      ]
+    },
+    {
+      "id": "emociones_estoy_contenta",
+      "conceptId": "es.emociones_estoy_contenta",
+      "sourceId": "en.s.cffbf6f088504d22",
+      "source": "I am happy.",
+      "level": "A1",
+      "grammar": "Con estados de ánimo se usa 'estar', no 'ser'.",
+      "target": [
+        {
+          "text": "Estoy contenta.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_contenta"
+        },
+        {
+          "text": "Estoy contento.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_contento"
+        }
+      ]
+    },
+    {
+      "id": "emociones_me_hace_reir",
+      "conceptId": "es.emociones_me_hace_reir",
+      "sourceId": "en.s.36a40eca8b0c242a",
+      "source": "It makes me laugh.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me hace reír.",
+          "audioSlug": "me_hace_reir"
+        }
+      ]
+    },
+    {
+      "id": "emociones_eres_feliz",
+      "conceptId": "es.emociones_eres_feliz",
+      "sourceId": "en.s.4a3098f1669f6312",
+      "source": "Are you happy?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Eres feliz?",
+          "audioSlug": "eres_feliz"
+        }
+      ]
+    },
+    {
+      "id": "emociones_estoy_tranquila",
+      "conceptId": "es.emociones_estoy_tranquila",
+      "sourceId": "en.s.f03a90fb1066c1d6",
+      "source": "I am calm.",
+      "level": "A2",
+      "grammar": "Usa 'estar' para describir cómo te sientes en este momento.",
+      "target": [
+        {
+          "text": "Estoy tranquila.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_tranquila"
+        },
+        {
+          "text": "Estoy tranquilo.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_tranquilo"
+        }
+      ]
+    },
+    {
+      "id": "emociones_debes_mantener_la_calma",
+      "conceptId": "es.emociones_debes_mantener_la_calma",
+      "sourceId": "en.s.92f02879981a65b2",
+      "source": "You must stay calm.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Debes mantener la calma.",
+          "audioSlug": "debes_mantener_la_calma"
+        }
+      ]
+    },
+    {
+      "id": "emociones_no_mi_amor",
+      "conceptId": "es.emociones_no_mi_amor",
+      "sourceId": "en.s.fa2cce9ea4537959",
+      "source": "No, my love.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No, mi amor.",
+          "audioSlug": "no_mi_amor"
+        }
+      ]
+    },
+    {
+      "id": "emociones_dame_un_beso",
+      "conceptId": "es.emociones_dame_un_beso",
+      "sourceId": "en.s.b4200300b5e3ad68",
+      "source": "Give me a kiss.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Dame un beso.",
+          "audioSlug": "dame_un_beso"
+        }
+      ]
+    },
+    {
+      "id": "emociones_llore",
+      "conceptId": "es.emociones_llore",
+      "sourceId": "en.s.f0532f2b3ba65347",
+      "source": "I cried.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Lloré.",
+          "audioSlug": "llore"
+        }
+      ]
+    },
+    {
+      "id": "emociones_no_quiero_sufrir",
+      "conceptId": "es.emociones_no_quiero_sufrir",
+      "sourceId": "en.s.0fae98308597fe10",
+      "source": "I don't want to suffer.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No quiero sufrir.",
+          "audioSlug": "no_quiero_sufrir"
+        }
+      ]
+    }
+  ]
+}

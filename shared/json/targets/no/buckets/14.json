@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "no",
+  "bucket": "14",
+  "concepts": {
+    "no.survival_what_is_this": {
+      "conceptId": "no.survival_what_is_this",
+      "id": "survival_what_is_this",
+      "target": [
+        {
+          "text": "Hva er dette?",
+          "labels": {
+            "standard": "bokmål"
+          },
+          "audioSlug": "hva_er_dette"
+        },
+        {
+          "text": "Kva er dette?",
+          "labels": {
+            "standard": "nynorsk"
+          },
+          "audioSlug": "kva_er_dette"
+        }
+      ]
+    }
+  }
+}

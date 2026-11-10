@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "13",
+  "concepts": {
+    "es.accountability_keep_receipt": {
+      "conceptId": "es.accountability_keep_receipt",
+      "id": "accountability_keep_receipt",
+      "target": [
+        {
+          "text": "Guarda el recibo, por favor.",
+          "audioSlug": "guarda_el_recibo_por_favor"
+        }
+      ]
+    },
+    "es.airport_bag_made_connection": {
+      "conceptId": "es.airport_bag_made_connection",
+      "id": "airport_bag_made_connection",
+      "target": [
+        {
+          "text": "¿Podría confirmar si mi maleta documentada alcanzó el vuelo de conexión?",
+          "audioSlug": "podria_confirmar_si_mi_maleta_documentada_alcanzo_el_vuelo_de_conexion"
+        }
+      ]
+    },
+    "es.animales_mi_gato_duerme_mucho": {
+      "conceptId": "es.animales_mi_gato_duerme_mucho",
+      "id": "animales_mi_gato_duerme_mucho",
+      "target": [
+        {
+          "text": "Mi gato duerme mucho.",
+          "audioSlug": "mi_gato_duerme_mucho"
+        }
+      ]
+    },
+    "es.conversacion_prefiero_el_silencio_por_la_manana": {
+      "conceptId": "es.conversacion_prefiero_el_silencio_por_la_manana",
+      "id": "conversacion_prefiero_el_silencio_por_la_manana",
+      "target": [
+        {
+          "text": "Prefiero el silencio por la mañana.",
+          "audioSlug": "prefiero_el_silencio_por_la_manana"
+        }
+      ]
+    },
+    "es.daily_routine_i_get_up_at_seven": {
+      "conceptId": "es.daily_routine_i_get_up_at_seven",
+      "id": "daily_routine_i_get_up_at_seven",
+      "target": [
+        {
+          "text": "Me levanto a las siete.",
+          "audioSlug": "me_levanto_a_las_siete"
+        }
+      ]
+    },
+    "es.directions_take_first_street": {
+      "conceptId": "es.directions_take_first_street",
+      "id": "directions_take_first_street",
+      "target": [
+        {
+          "text": "Toma la primera calle a la derecha.",
+          "audioSlug": "toma_la_primera_calle_a_la_derecha"
+        }
+      ]
+    },
+    "es.estudios_tengo_que_hacer_la_tarea": {
+      "conceptId": "es.estudios_tengo_que_hacer_la_tarea",
+      "id": "estudios_tengo_que_hacer_la_tarea",
+      "target": [
+        {
+          "text": "Tengo que hacer la tarea.",
+          "audioSlug": "tengo_que_hacer_la_tarea"
+        }
+      ]
+    },
+    "es.greetings_great_catching_up_more_often": {
+      "conceptId": "es.greetings_great_catching_up_more_often",
+      "id": "greetings_great_catching_up_more_often",
+      "target": [
+        {
+          "text": "Fue genial ponernos al día, deberíamos hacer esto más seguido.",
+          "audioSlug": "fue_genial_ponernos_al_dia_deberiamos_hacer_esto_mas_seguido"
+        }
+      ]
+    },
+    "es.supermarket_quiero_comprar_papas": {
+      "conceptId": "es.supermarket_quiero_comprar_papas",
+      "id": "supermarket_quiero_comprar_papas",
+      "target": [
+        {
+          "text": "Quiero comprar papas.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "quiero_comprar_papas"
+        },
+        {
+          "text": "Quiero comprar patatas.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "quiero_comprar_patatas"
+        }
+      ]
+    },
+    "es.survival_necesito_practicar_mas_el_espanol": {
+      "conceptId": "es.survival_necesito_practicar_mas_el_espanol",
+      "id": "survival_necesito_practicar_mas_el_espanol",
+      "target": [
+        {
+          "text": "Necesito practicar más el español.",
+          "audioSlug": "necesito_practicar_mas_el_espanol"
+        }
+      ]
+    },
+    "es.weather_forecast_tomorrow": {
+      "conceptId": "es.weather_forecast_tomorrow",
+      "id": "weather_forecast_tomorrow",
+      "target": [
+        {
+          "text": "¿Cuál es el pronóstico para mañana?",
+          "audioSlug": "cual_es_el_pronostico_para_manana"
+        }
+      ]
+    }
+  }
+}

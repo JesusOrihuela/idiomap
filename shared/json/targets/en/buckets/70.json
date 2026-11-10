@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "70",
+  "concepts": {
+    "en.conversacion_i_have_nothing_particular_to_say": {
+      "conceptId": "en.conversacion_i_have_nothing_particular_to_say",
+      "id": "conversacion_i_have_nothing_particular_to_say",
+      "target": [
+        {
+          "text": "I have nothing particular to say.",
+          "audioSlug": "i_have_nothing_particular_to_say"
+        }
+      ]
+    },
+    "en.daily_routine_get_home_at_six": {
+      "conceptId": "en.daily_routine_get_home_at_six",
+      "id": "daily_routine_get_home_at_six",
+      "target": [
+        {
+          "text": "I get home at six.",
+          "audioSlug": "i_get_home_at_six"
+        }
+      ]
+    },
+    "en.estudios_this_exam_is_hard": {
+      "conceptId": "en.estudios_this_exam_is_hard",
+      "id": "estudios_this_exam_is_hard",
+      "target": [
+        {
+          "text": "This exam is hard.",
+          "audioSlug": "this_exam_is_hard"
+        }
+      ]
+    },
+    "en.kitchen_the_best_side_dish_for_chicken": {
+      "conceptId": "en.kitchen_the_best_side_dish_for_chicken",
+      "id": "kitchen_the_best_side_dish_for_chicken",
+      "target": [
+        {
+          "text": "The best side dish for chicken is mashed potatoes.",
+          "audioSlug": "the_best_side_dish_for_chicken_is_mashed_potatoes"
+        }
+      ]
+    },
+    "en.restaurant_could_i_have_some_more_ice": {
+      "conceptId": "en.restaurant_could_i_have_some_more_ice",
+      "id": "restaurant_could_i_have_some_more_ice",
+      "target": [
+        {
+          "text": "Could I have some more ice in my drink, please?",
+          "audioSlug": "could_i_have_some_more_ice_in_my_drink_please",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can I have some more ice in my drink, please?",
+          "audioSlug": "can_i_have_some_more_ice_in_my_drink_please",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "90",
+  "concepts": {
+    "es.accountability_what_was_the_gross_loss_from": {
+      "conceptId": "es.accountability_what_was_the_gross_loss_from",
+      "id": "accountability_what_was_the_gross_loss_from",
+      "target": [
+        {
+          "text": "¿Cuál fue la pérdida bruta de las ventas del bimestre pasado?",
+          "audioSlug": "cual_fue_la_perdida_bruta_de_las_ventas_del_bimestre_pasado"
+        }
+      ]
+    },
+    "es.airport_donde_esta_la_sala_de_espera": {
+      "conceptId": "es.airport_donde_esta_la_sala_de_espera",
+      "id": "airport_donde_esta_la_sala_de_espera",
+      "target": [
+        {
+          "text": "¿Dónde está la sala de espera?",
+          "audioSlug": "donde_esta_la_sala_de_espera"
+        }
+      ]
+    },
+    "es.conversacion_te_quiero_presentar_a_un_amigo": {
+      "conceptId": "es.conversacion_te_quiero_presentar_a_un_amigo",
+      "id": "conversacion_te_quiero_presentar_a_un_amigo",
+      "target": [
+        {
+          "text": "Te quiero presentar a un amigo.",
+          "audioSlug": "te_quiero_presentar_a_un_amigo"
+        }
+      ]
+    },
+    "es.daily_routine_i_come_home_at_six": {
+      "conceptId": "es.daily_routine_i_come_home_at_six",
+      "id": "daily_routine_i_come_home_at_six",
+      "target": [
+        {
+          "text": "Vuelvo a casa a las seis.",
+          "audioSlug": "vuelvo_a_casa_a_las_seis"
+        }
+      ]
+    },
+    "es.deportes_me_gusta_el_futbol": {
+      "conceptId": "es.deportes_me_gusta_el_futbol",
+      "id": "deportes_me_gusta_el_futbol",
+      "target": [
+        {
+          "text": "Me gusta el fútbol.",
+          "audioSlug": "me_gusta_el_futbol"
+        }
+      ]
+    },
+    "es.economia_el_valor_de_la_casa_aumento": {
+      "conceptId": "es.economia_el_valor_de_la_casa_aumento",
+      "id": "economia_el_valor_de_la_casa_aumento",
+      "target": [
+        {
+          "text": "El valor de la casa aumentó.",
+          "audioSlug": "el_valor_de_la_casa_aumento"
+        }
+      ]
+    },
+    "es.health_take_care_of_health": {
+      "conceptId": "es.health_take_care_of_health",
+      "id": "health_take_care_of_health",
+      "target": [
+        {
+          "text": "Deberías cuidar tu salud.",
+          "audioSlug": "deberias_cuidar_tu_salud",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Debería cuidar su salud.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "deberia_cuidar_su_salud"
+        }
+      ]
+    },
+    "es.hogar_cierra_la_ventana_por_favor": {
+      "conceptId": "es.hogar_cierra_la_ventana_por_favor",
+      "id": "hogar_cierra_la_ventana_por_favor",
+      "target": [
+        {
+          "text": "Cierra la ventana, por favor.",
+          "audioSlug": "cierra_la_ventana_por_favor"
+        }
+      ]
+    },
+    "es.kitchen_ralla_una_zanahoria_para_la_ensalada": {
+      "conceptId": "es.kitchen_ralla_una_zanahoria_para_la_ensalada",
+      "id": "kitchen_ralla_una_zanahoria_para_la_ensalada",
+      "target": [
+        {
+          "text": "Ralla una zanahoria para la ensalada.",
+          "audioSlug": "ralla_una_zanahoria_para_la_ensalada"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_es_dificil_demostrar_una_teoria": {
+      "conceptId": "es.pensamientos_opiniones_es_dificil_demostrar_una_teoria",
+      "id": "pensamientos_opiniones_es_dificil_demostrar_una_teoria",
+      "target": [
+        {
+          "text": "Es difícil demostrar una teoría.",
+          "audioSlug": "es_dificil_demostrar_una_teoria"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_tengo_una_duda_sobre_ese_asunto": {
+      "conceptId": "es.pensamientos_opiniones_tengo_una_duda_sobre_ese_asunto",
+      "id": "pensamientos_opiniones_tengo_una_duda_sobre_ese_asunto",
+      "target": [
+        {
+          "text": "Tengo una duda sobre ese asunto.",
+          "audioSlug": "tengo_una_duda_sobre_ese_asunto"
+        }
+      ]
+    },
+    "es.personal_info_que_edad_tienes": {
+      "conceptId": "es.personal_info_que_edad_tienes",
+      "id": "personal_info_que_edad_tienes",
+      "target": [
+        {
+          "text": "¿Qué edad tienes?",
+          "audioSlug": "que_edad_tienes",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Qué edad tiene?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "que_edad_tiene"
+        }
+      ]
+    },
+    "es.restaurant_recommendations_for_appetizers": {
+      "conceptId": "es.restaurant_recommendations_for_appetizers",
+      "id": "restaurant_recommendations_for_appetizers",
+      "target": [
+        {
+          "text": "¿Tiene alguna recomendación para los aperitivos?",
+          "audioSlug": "tiene_alguna_recomendacion_para_los_aperitivos"
+        }
+      ]
+    },
+    "es.sitios_visitamos_un_monumento_muy_antiguo": {
+      "conceptId": "es.sitios_visitamos_un_monumento_muy_antiguo",
+      "id": "sitios_visitamos_un_monumento_muy_antiguo",
+      "target": [
+        {
+          "text": "Visitamos un monumento muy antiguo.",
+          "audioSlug": "visitamos_un_monumento_muy_antiguo"
+        }
+      ]
+    },
+    "es.weather_in_summer_it_is_very_hot": {
+      "conceptId": "es.weather_in_summer_it_is_very_hot",
+      "id": "weather_in_summer_it_is_very_hot",
+      "target": [
+        {
+          "text": "En verano hace mucho calor.",
+          "audioSlug": "en_verano_hace_mucho_calor"
+        }
+      ]
+    }
+  }
+}

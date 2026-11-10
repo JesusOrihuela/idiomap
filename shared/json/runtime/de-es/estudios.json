@@ -1,0 +1,767 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "estudios",
+  "phrases": [
+    {
+      "id": "estudios_estudio_en_la_universidad",
+      "conceptId": "es.estudios_estudio_en_la_universidad",
+      "sourceId": "de.s.b278a49b483bf194",
+      "source": "Ich studiere an der Universität.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estudio en la universidad.",
+          "audioSlug": "estudio_en_la_universidad"
+        }
+      ]
+    },
+    {
+      "id": "estudios_tengo_un_examen_el_lunes",
+      "conceptId": "es.estudios_tengo_un_examen_el_lunes",
+      "sourceId": "de.s.a16304ccc21e5f3c",
+      "source": "Ich habe am Montag eine Prüfung.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo un examen el lunes.",
+          "audioSlug": "tengo_un_examen_el_lunes"
+        }
+      ]
+    },
+    {
+      "id": "estudios_tengo_que_hacer_la_tarea",
+      "conceptId": "es.estudios_tengo_que_hacer_la_tarea",
+      "sourceId": "de.s.9e4dade47bad45e1",
+      "source": "Ich muss die Hausaufgaben machen.",
+      "level": "A2",
+      "grammar": "tener que más infinitivo expresa una obligación, tengo que hacer.",
+      "target": [
+        {
+          "text": "Tengo que hacer la tarea.",
+          "audioSlug": "tengo_que_hacer_la_tarea"
+        }
+      ]
+    },
+    {
+      "id": "estudios_el_profesor_explica_la_leccion",
+      "conceptId": "es.estudios_el_profesor_explica_la_leccion",
+      "sourceId": "de.s.3682579ab812ba9a",
+      "source": "Der Lehrer erklärt die Lektion.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El profesor explica la lección.",
+          "audioSlug": "el_profesor_explica_la_leccion"
+        }
+      ]
+    },
+    {
+      "id": "estudios_me_gusta_aprender_idiomas",
+      "conceptId": "es.estudios_me_gusta_aprender_idiomas",
+      "sourceId": "de.s.d9cba76b75167238",
+      "source": "Ich lerne gern Sprachen.",
+      "level": "A2",
+      "grammar": "me gusta más infinitivo, me gusta aprender.",
+      "target": [
+        {
+          "text": "Me gusta aprender idiomas.",
+          "audioSlug": "me_gusta_aprender_idiomas"
+        }
+      ]
+    },
+    {
+      "id": "estudios_saque_una_buena_nota",
+      "conceptId": "es.estudios_saque_una_buena_nota",
+      "sourceId": "de.s.4e1ac3cda2a704d5",
+      "source": "Ich habe eine gute Note in der Prüfung bekommen.",
+      "level": "B1",
+      "grammar": "saqué es pretérito indefinido, una acción terminada.",
+      "target": [
+        {
+          "text": "Saqué una buena nota en el examen.",
+          "audioSlug": "saque_una_buena_nota_en_el_examen"
+        }
+      ]
+    },
+    {
+      "id": "estudios_la_biblioteca_esta_abierta",
+      "conceptId": "es.estudios_la_biblioteca_esta_abierta",
+      "sourceId": "de.s.45b6e14dafeef788",
+      "source": "Die Bibliothek ist bis zehn geöffnet.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La biblioteca está abierta hasta las diez.",
+          "audioSlug": "la_biblioteca_esta_abierta_hasta_las_diez"
+        }
+      ]
+    },
+    {
+      "id": "estudios_estudio_para_ser_ingeniera",
+      "conceptId": "es.estudios_estudio_para_ser_ingeniera",
+      "sourceId": "de.s.9ee5c1420e02d03e",
+      "source": "Ich studiere, um Ingenieur/in zu werden.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estudio para ser ingeniera.",
+          "source": "Ich studiere, um Ingenieurin zu werden.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estudio_para_ser_ingeniera"
+        },
+        {
+          "text": "Estudio para ser ingeniero.",
+          "source": "Ich studiere, um Ingenieur zu werden.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estudio_para_ser_ingeniero"
+        }
+      ]
+    },
+    {
+      "id": "estudios_que_carrera_estudias",
+      "conceptId": "es.estudios_que_carrera_estudias",
+      "sourceId": "de.s.a58da8b5bb664e6b",
+      "source": "Was studierst du?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué carrera estudias?",
+          "audioSlug": "que_carrera_estudias"
+        }
+      ]
+    },
+    {
+      "id": "estudios_escribo_en_mi_cuaderno",
+      "conceptId": "es.estudios_escribo_en_mi_cuaderno",
+      "sourceId": "de.s.4760767f4b946421",
+      "source": "Ich schreibe in mein Heft.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Escribo en mi cuaderno.",
+          "audioSlug": "escribo_en_mi_cuaderno"
+        }
+      ]
+    },
+    {
+      "id": "estudios_leo_un_libro_nuevo_cada_mes",
+      "conceptId": "es.estudios_leo_un_libro_nuevo_cada_mes",
+      "sourceId": "de.s.643ffa8fa9d02d61",
+      "source": "Ich lese jeden Monat ein neues Buch.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Leo un libro nuevo cada mes.",
+          "audioSlug": "leo_un_libro_nuevo_cada_mes"
+        }
+      ]
+    },
+    {
+      "id": "estudios_mi_clase_empieza_a_las_nueve",
+      "conceptId": "es.estudios_mi_clase_empieza_a_las_nueve",
+      "sourceId": "de.s.5358fa0bad24523e",
+      "source": "Mein Unterricht beginnt um neun.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi clase empieza a las nueve.",
+          "audioSlug": "mi_clase_empieza_a_las_nueve"
+        }
+      ]
+    },
+    {
+      "id": "estudios_estudio_con_mis_companeros",
+      "conceptId": "es.estudios_estudio_con_mis_companeros",
+      "sourceId": "de.s.4e25e8c7bd77b020",
+      "source": "Ich lerne mit meinen Mitschülern.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estudio con mis compañeros de clase.",
+          "audioSlug": "estudio_con_mis_companeros_de_clase"
+        }
+      ]
+    },
+    {
+      "id": "estudios_estudio_la_lengua_espanola",
+      "conceptId": "es.estudios_estudio_la_lengua_espanola",
+      "sourceId": "de.s.8a985b6e49cf06e7",
+      "source": "Ich studiere die spanische Sprache.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estudio la lengua española.",
+          "audioSlug": "estudio_la_lengua_espanola"
+        }
+      ]
+    },
+    {
+      "id": "estudios_mi_hermano_mayor_va_a_la_universidad",
+      "conceptId": "es.estudios_mi_hermano_mayor_va_a_la_universidad",
+      "sourceId": "de.s.123e8f748b6e409d",
+      "source": "Mein älterer Bruder geht zur Universität.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi hermano mayor va a la universidad.",
+          "audioSlug": "mi_hermano_mayor_va_a_la_universidad"
+        }
+      ]
+    },
+    {
+      "id": "estudios_necesito_varios_libros_para_el_curso",
+      "conceptId": "es.estudios_necesito_varios_libros_para_el_curso",
+      "sourceId": "de.s.e2018f57db79c773",
+      "source": "Ich brauche mehrere Bücher für den Kurs.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito varios libros para el curso.",
+          "audioSlug": "necesito_varios_libros_para_el_curso"
+        }
+      ]
+    },
+    {
+      "id": "estudios_el_senor_perez_es_mi_profesor",
+      "conceptId": "es.estudios_el_senor_perez_es_mi_profesor",
+      "sourceId": "de.s.2533f87eb1d7c5df",
+      "source": "Herr Pérez ist mein Lehrer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El señor Pérez es mi profesor.",
+          "audioSlug": "el_senor_perez_es_mi_profesor"
+        }
+      ]
+    },
+    {
+      "id": "estudios_este_tema_es_mas_dificil_que_el_anterior",
+      "conceptId": "es.estudios_este_tema_es_mas_dificil_que_el_anterior",
+      "sourceId": "de.s.093adff6cb96cdcc",
+      "source": "Dieses Thema ist schwieriger als das vorige.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este tema es más difícil que el anterior.",
+          "audioSlug": "este_tema_es_mas_dificil_que_el_anterior"
+        }
+      ]
+    },
+    {
+      "id": "estudios_mis_hijos_van_a_la_escuela",
+      "conceptId": "es.estudios_mis_hijos_van_a_la_escuela",
+      "sourceId": "de.s.e30dc3d155b0a41d",
+      "source": "Meine Kinder gehen zur Schule.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mis hijos van a la escuela.",
+          "audioSlug": "mis_hijos_van_a_la_escuela"
+        }
+      ]
+    },
+    {
+      "id": "estudios_quiero_crear_un_proyecto_nuevo",
+      "conceptId": "es.estudios_quiero_crear_un_proyecto_nuevo",
+      "sourceId": "de.s.8db25567eb0ac209",
+      "source": "Ich will ein neues Projekt schaffen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero crear un proyecto nuevo.",
+          "audioSlug": "quiero_crear_un_proyecto_nuevo"
+        }
+      ]
+    },
+    {
+      "id": "estudios_pasamos_al_siguiente_ejercicio",
+      "conceptId": "es.estudios_pasamos_al_siguiente_ejercicio",
+      "sourceId": "de.s.94aaf585bbc14ce5",
+      "source": "Wir gehen zur nächsten Übung über.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Pasamos al siguiente ejercicio.",
+          "audioSlug": "pasamos_al_siguiente_ejercicio"
+        }
+      ]
+    },
+    {
+      "id": "estudios_no_entiendo_este_punto",
+      "conceptId": "es.estudios_no_entiendo_este_punto",
+      "sourceId": "de.s.2cf82d24131b248d",
+      "source": "Ich verstehe diesen Punkt der Lektion nicht.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No entiendo este punto de la lección.",
+          "audioSlug": "no_entiendo_este_punto_de_la_leccion"
+        }
+      ]
+    },
+    {
+      "id": "estudios_aprender_idiomas_forma_el_caracter",
+      "conceptId": "es.estudios_aprender_idiomas_forma_el_caracter",
+      "sourceId": "de.s.131a77a49b85d1bc",
+      "source": "Sprachen lernen formt den Charakter.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Aprender idiomas forma el carácter.",
+          "audioSlug": "aprender_idiomas_forma_el_caracter"
+        }
+      ]
+    },
+    {
+      "id": "estudios_necesito_una_imagen_para_mi_presentacion",
+      "conceptId": "es.estudios_necesito_una_imagen_para_mi_presentacion",
+      "sourceId": "de.s.64e959e33658d1cb",
+      "source": "Ich brauche ein Bild für meine Präsentation.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito una imagen para mi presentación.",
+          "audioSlug": "necesito_una_imagen_para_mi_presentacion"
+        }
+      ]
+    },
+    {
+      "id": "estudios_la_educacion_es_un_derecho",
+      "conceptId": "es.estudios_la_educacion_es_un_derecho",
+      "sourceId": "de.s.5f9e7cb58beeaba3",
+      "source": "Bildung ist ein Recht für alle.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La educación es un derecho de todos.",
+          "audioSlug": "la_educacion_es_un_derecho_de_todos"
+        }
+      ]
+    },
+    {
+      "id": "estudios_cada_estudiante_tiene_un_horario",
+      "conceptId": "es.estudios_cada_estudiante_tiene_un_horario",
+      "sourceId": "de.s.727d2f9640c49362",
+      "source": "Jeder Schüler hat einen anderen Stundenplan.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cada estudiante tiene un horario diferente.",
+          "audioSlug": "cada_estudiante_tiene_un_horario_diferente"
+        }
+      ]
+    },
+    {
+      "id": "estudios_el_alumno_estudia_para_el_examen",
+      "conceptId": "es.estudios_el_alumno_estudia_para_el_examen",
+      "sourceId": "de.s.777e72cc45e4f345",
+      "source": "Der Schüler lernt für die Prüfung.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La alumna estudia para el examen.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "la_alumna_estudia_para_el_examen"
+        },
+        {
+          "text": "El alumno estudia para el examen.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "el_alumno_estudia_para_el_examen"
+        }
+      ]
+    },
+    {
+      "id": "estudios_me_gusta_ensenar_a_los_mas_jovenes",
+      "conceptId": "es.estudios_me_gusta_ensenar_a_los_mas_jovenes",
+      "sourceId": "de.s.22c18922ed49129e",
+      "source": "Ich unterrichte gern die Jüngeren.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gusta enseñar a los más jóvenes.",
+          "audioSlug": "me_gusta_ensenar_a_los_mas_jovenes"
+        }
+      ]
+    },
+    {
+      "id": "estudios_la_prueba_final_fue_muy_dificil",
+      "conceptId": "es.estudios_la_prueba_final_fue_muy_dificil",
+      "sourceId": "de.s.3238d368331a6a3e",
+      "source": "Die Abschlussprüfung war sehr schwierig.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La prueba final fue muy difícil.",
+          "audioSlug": "la_prueba_final_fue_muy_dificil"
+        }
+      ]
+    },
+    {
+      "id": "estudios_dame_un_ejemplo_concreto_por_favor",
+      "conceptId": "es.estudios_dame_un_ejemplo_concreto_por_favor",
+      "sourceId": "de.s.9170f468241c172a",
+      "source": "Gib mir bitte ein konkretes Beispiel.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Dame un ejemplo concreto, por favor.",
+          "audioSlug": "dame_un_ejemplo_concreto_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "estudios_la_literatura_espanola_es_muy_rica",
+      "conceptId": "es.estudios_la_literatura_espanola_es_muy_rica",
+      "sourceId": "de.s.141efa9ba0ec545e",
+      "source": "Die spanische Literatur ist sehr reich.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La literatura española es muy rica.",
+          "audioSlug": "la_literatura_espanola_es_muy_rica"
+        }
+      ]
+    },
+    {
+      "id": "estudios_guarde_todos_los_datos_del_estudio",
+      "conceptId": "es.estudios_guarde_todos_los_datos_del_estudio",
+      "sourceId": "de.s.81328123bbdf4df3",
+      "source": "Ich habe alle Daten der Studie gespeichert.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Guardé todos los datos del estudio.",
+          "audioSlug": "guarde_todos_los_datos_del_estudio"
+        }
+      ]
+    },
+    {
+      "id": "estudios_me_gustan_las_novelas_de_detective",
+      "conceptId": "es.estudios_me_gustan_las_novelas_de_detective",
+      "sourceId": "de.s.3d29f96a10bd0187",
+      "source": "Ich mag Detektivromane.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me gustan las novelas de detective.",
+          "audioSlug": "me_gustan_las_novelas_de_detective"
+        }
+      ]
+    },
+    {
+      "id": "estudios_ese_cuento_infantil_es_precioso",
+      "conceptId": "es.estudios_ese_cuento_infantil_es_precioso",
+      "sourceId": "de.s.cd60da5e47bf730e",
+      "source": "Diese Kindergeschichte ist wunderschön.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese cuento infantil es precioso.",
+          "audioSlug": "ese_cuento_infantil_es_precioso"
+        }
+      ]
+    },
+    {
+      "id": "estudios_sigue_el_modelo_del_libro",
+      "conceptId": "es.estudios_sigue_el_modelo_del_libro",
+      "sourceId": "de.s.3a0646abea246f8c",
+      "source": "Folge dem Muster im Buch.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sigue el modelo del libro.",
+          "audioSlug": "sigue_el_modelo_del_libro"
+        }
+      ]
+    },
+    {
+      "id": "estudios_escribo_en_mi_diario_cada_noche",
+      "conceptId": "es.estudios_escribo_en_mi_diario_cada_noche",
+      "sourceId": "de.s.b824e7ddbb243887",
+      "source": "Ich schreibe jeden Abend in mein Tagebuch.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Escribo en mi diario cada noche.",
+          "audioSlug": "escribo_en_mi_diario_cada_noche"
+        }
+      ]
+    },
+    {
+      "id": "estudios_casi_no_entiendo_tu_letra",
+      "conceptId": "es.estudios_casi_no_entiendo_tu_letra",
+      "sourceId": "de.s.d0a4f83abebf5bff",
+      "source": "Ich kann deine Handschrift kaum lesen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Casi no entiendo tu letra.",
+          "audioSlug": "casi_no_entiendo_tu_letra"
+        }
+      ]
+    },
+    {
+      "id": "estudios_escribo_con_un_boligrafo_azul",
+      "conceptId": "es.estudios_escribo_con_un_boligrafo_azul",
+      "sourceId": "de.s.2bf45033f818cdf1",
+      "source": "Ich schreibe mit einem blauen Kugelschreiber.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Escribo con un bolígrafo azul.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "escribo_con_un_boligrafo_azul"
+        },
+        {
+          "text": "Escribo con una pluma azul.",
+          "labels": {
+            "region": "México y Centroamérica"
+          },
+          "audioSlug": "escribo_con_una_pluma_azul"
+        },
+        {
+          "text": "Escribo con un lapicero azul.",
+          "labels": {
+            "region": "Región andina"
+          },
+          "audioSlug": "escribo_con_un_lapicero_azul"
+        },
+        {
+          "text": "Escribo con una birome azul.",
+          "labels": {
+            "region": "Río de la Plata"
+          },
+          "audioSlug": "escribo_con_una_birome_azul"
+        }
+      ]
+    },
+    {
+      "id": "estudios_dibujo_con_lapiz_y_goma",
+      "conceptId": "es.estudios_dibujo_con_lapiz_y_goma",
+      "sourceId": "de.s.eb2a903e26f4ad48",
+      "source": "Ich zeichne mit Bleistift und Radiergummi.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Dibujo con lápiz y goma.",
+          "audioSlug": "dibujo_con_lapiz_y_goma"
+        }
+      ]
+    },
+    {
+      "id": "estudios_busco_la_palabra_en_el_diccionario",
+      "conceptId": "es.estudios_busco_la_palabra_en_el_diccionario",
+      "sourceId": "de.s.b5a3f85a0a1a7f57",
+      "source": "Ich schlage das Wort im Wörterbuch nach.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Busco la palabra en el diccionario.",
+          "audioSlug": "busco_la_palabra_en_el_diccionario"
+        }
+      ]
+    },
+    {
+      "id": "estudios_el_profesor_escribe_en_la_pizarra",
+      "conceptId": "es.estudios_el_profesor_escribe_en_la_pizarra",
+      "sourceId": "de.s.44526b2115f2bd62",
+      "source": "Der Lehrer schreibt an die Tafel.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El profesor escribe en la pizarra.",
+          "audioSlug": "el_profesor_escribe_en_la_pizarra"
+        }
+      ]
+    },
+    {
+      "id": "estudios_los_libros_estan_en_la_estanteria",
+      "conceptId": "es.estudios_los_libros_estan_en_la_estanteria",
+      "sourceId": "de.s.adc1077896ceefcd",
+      "source": "Die Bücher stehen im Regal.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los libros están en la estantería.",
+          "audioSlug": "los_libros_estan_en_la_estanteria"
+        }
+      ]
+    },
+    {
+      "id": "estudios_meto_los_cuadernos_en_la_cartera",
+      "conceptId": "es.estudios_meto_los_cuadernos_en_la_cartera",
+      "sourceId": "de.s.6a5ff0683dd19345",
+      "source": "Ich stecke die Hefte in die Schultasche.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Meto los cuadernos en la cartera.",
+          "audioSlug": "meto_los_cuadernos_en_la_cartera"
+        }
+      ]
+    },
+    {
+      "id": "estudios_espero_aprobar_todos_los_examenes",
+      "conceptId": "es.estudios_espero_aprobar_todos_los_examenes",
+      "sourceId": "de.s.65f74906c7a50dcd",
+      "source": "Ich hoffe, alle Prüfungen zu bestehen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Espero aprobar todos los exámenes.",
+          "audioSlug": "espero_aprobar_todos_los_examenes"
+        }
+      ]
+    },
+    {
+      "id": "estudios_no_quiero_suspender_esta_asignatura",
+      "conceptId": "es.estudios_no_quiero_suspender_esta_asignatura",
+      "sourceId": "de.s.b8a4b3e8552f2c77",
+      "source": "Ich will dieses Fach nicht durchfallen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No quiero suspender esta asignatura.",
+          "audioSlug": "no_quiero_suspender_esta_asignatura"
+        }
+      ]
+    },
+    {
+      "id": "estudios_ya_pague_la_matricula_del_curso",
+      "conceptId": "es.estudios_ya_pague_la_matricula_del_curso",
+      "sourceId": "de.s.39fc47b61192bbaf",
+      "source": "Ich habe die Kursgebühr schon bezahlt.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ya pagué la matrícula del curso.",
+          "audioSlug": "ya_pague_la_matricula_del_curso"
+        }
+      ]
+    },
+    {
+      "id": "estudios_necesito_un_certificado_de_estudios",
+      "conceptId": "es.estudios_necesito_un_certificado_de_estudios",
+      "sourceId": "de.s.f4c33cdd5517b33e",
+      "source": "Ich brauche ein Studienzeugnis.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito un certificado de estudios.",
+          "audioSlug": "necesito_un_certificado_de_estudios"
+        }
+      ]
+    },
+    {
+      "id": "estudios_la_gramatica_alemana_es_dificil",
+      "conceptId": "es.estudios_la_gramatica_alemana_es_dificil",
+      "sourceId": "de.s.35e1fddaacabca97",
+      "source": "Die deutsche Grammatik ist schwer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La gramática alemana es difícil.",
+          "audioSlug": "la_gramatica_alemana_es_dificil"
+        }
+      ]
+    },
+    {
+      "id": "estudios_escribe_una_oracion_completa",
+      "conceptId": "es.estudios_escribe_una_oracion_completa",
+      "sourceId": "de.s.6d47e31c63682523",
+      "source": "Schreib einen vollständigen Satz.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Escribe una oración completa.",
+          "audioSlug": "escribe_una_oracion_completa"
+        }
+      ]
+    },
+    {
+      "id": "estudios_me_interesa_mucho_la_ciencia",
+      "conceptId": "es.estudios_me_interesa_mucho_la_ciencia",
+      "sourceId": "de.s.7f08bf89e8b95cc7",
+      "source": "Ich interessiere mich sehr für Wissenschaft.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me interesa mucho la ciencia.",
+          "audioSlug": "me_interesa_mucho_la_ciencia"
+        }
+      ]
+    },
+    {
+      "id": "estudios_la_clase_de_ciencias_es_mi_favorita",
+      "conceptId": "es.estudios_la_clase_de_ciencias_es_mi_favorita",
+      "sourceId": "de.s.68db1b6f3cd4ca1c",
+      "source": "Der Naturwissenschaftsunterricht ist mein Lieblingsfach.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La clase de ciencias es mi favorita.",
+          "audioSlug": "la_clase_de_ciencias_es_mi_favorita"
+        }
+      ]
+    }
+  ]
+}

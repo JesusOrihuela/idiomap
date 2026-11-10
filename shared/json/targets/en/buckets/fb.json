@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "fb",
+  "concepts": {
+    "en.emergencias_call_the_police": {
+      "conceptId": "en.emergencias_call_the_police",
+      "id": "emergencias_call_the_police",
+      "target": [
+        {
+          "text": "Call the police!",
+          "audioSlug": "call_the_police"
+        }
+      ]
+    },
+    "en.emociones_i_feel_a_lot_of_pressure": {
+      "conceptId": "en.emociones_i_feel_a_lot_of_pressure",
+      "id": "emociones_i_feel_a_lot_of_pressure",
+      "target": [
+        {
+          "text": "I feel a lot of pressure.",
+          "audioSlug": "i_feel_a_lot_of_pressure"
+        }
+      ]
+    },
+    "en.gym_i_feel_a_pain_in_my": {
+      "conceptId": "en.gym_i_feel_a_pain_in_my",
+      "id": "gym_i_feel_a_pain_in_my",
+      "target": [
+        {
+          "text": "I feel a pain in my calf.",
+          "audioSlug": "i_feel_a_pain_in_my_calf"
+        }
+      ]
+    },
+    "en.gym_what_exercises_do_you_recommend_for": {
+      "conceptId": "en.gym_what_exercises_do_you_recommend_for",
+      "id": "gym_what_exercises_do_you_recommend_for",
+      "target": [
+        {
+          "text": "What exercises do you recommend for strengthening my lower back?",
+          "audioSlug": "what_exercises_do_you_recommend_for_strengthening_my_lower_back"
+        }
+      ]
+    },
+    "en.movies_previous_film_more_compelling": {
+      "conceptId": "en.movies_previous_film_more_compelling",
+      "id": "movies_previous_film_more_compelling",
+      "target": [
+        {
+          "text": "The director's previous film was far more compelling. This one felt formulaic.",
+          "audioSlug": "the_director_s_previous_film_was_far_more_compelling_this_one_felt_formulaic"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_the_sea_is_calm_today": {
+      "conceptId": "en.naturaleza_lugares_the_sea_is_calm_today",
+      "id": "naturaleza_lugares_the_sea_is_calm_today",
+      "target": [
+        {
+          "text": "The sea is calm today.",
+          "audioSlug": "the_sea_is_calm_today"
+        }
+      ]
+    },
+    "en.supermarket_i_went_to_the_market": {
+      "conceptId": "en.supermarket_i_went_to_the_market",
+      "id": "supermarket_i_went_to_the_market",
+      "target": [
+        {
+          "text": "I went to the market.",
+          "audioSlug": "i_went_to_the_market"
+        }
+      ]
+    },
+    "en.transportation_her_car_is_red": {
+      "conceptId": "en.transportation_her_car_is_red",
+      "id": "transportation_her_car_is_red",
+      "target": [
+        {
+          "text": "Her car is red.",
+          "audioSlug": "her_car_is_red"
+        }
+      ]
+    },
+    "en.vestimenta_hang_up_your_coat_please": {
+      "conceptId": "en.vestimenta_hang_up_your_coat_please",
+      "id": "vestimenta_hang_up_your_coat_please",
+      "target": [
+        {
+          "text": "Hang up your coat, please.",
+          "audioSlug": "hang_up_your_coat_please"
+        }
+      ]
+    }
+  }
+}

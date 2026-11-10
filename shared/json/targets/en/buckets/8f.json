@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "8f",
+  "concepts": {
+    "en.accountability_board_approved_share_buyback_shareholders": {
+      "conceptId": "en.accountability_board_approved_share_buyback_shareholders",
+      "id": "accountability_board_approved_share_buyback_shareholders",
+      "target": [
+        {
+          "text": "The board approved a share buyback program to return value to shareholders.",
+          "audioSlug": "the_board_approved_a_share_buyback_program_to_return_value_to_shareholders"
+        }
+      ]
+    },
+    "en.accountability_we_need_to_reconcile_the_bank": {
+      "conceptId": "en.accountability_we_need_to_reconcile_the_bank",
+      "id": "accountability_we_need_to_reconcile_the_bank",
+      "target": [
+        {
+          "text": "We need to reconcile the bank accounts.",
+          "audioSlug": "we_need_to_reconcile_the_bank_accounts"
+        }
+      ]
+    },
+    "en.airport_flight_departure_time": {
+      "conceptId": "en.airport_flight_departure_time",
+      "id": "airport_flight_departure_time",
+      "target": [
+        {
+          "text": "What time is our flight?",
+          "audioSlug": "what_time_is_our_flight"
+        }
+      ]
+    },
+    "en.greetings_pleasure_introduce_keynote_speaker": {
+      "conceptId": "en.greetings_pleasure_introduce_keynote_speaker",
+      "id": "greetings_pleasure_introduce_keynote_speaker",
+      "target": [
+        {
+          "text": "It is my pleasure to introduce our keynote speaker.",
+          "audioSlug": "it_is_my_pleasure_to_introduce_our_keynote_speaker"
+        }
+      ]
+    },
+    "en.kitchen_it_smells_good": {
+      "conceptId": "en.kitchen_it_smells_good",
+      "id": "kitchen_it_smells_good",
+      "target": [
+        {
+          "text": "It smells really good.",
+          "audioSlug": "it_smells_really_good"
+        }
+      ]
+    },
+    "en.politica_many_young_people_vote_for_the_first_time": {
+      "conceptId": "en.politica_many_young_people_vote_for_the_first_time",
+      "id": "politica_many_young_people_vote_for_the_first_time",
+      "target": [
+        {
+          "text": "Many young people vote for the first time.",
+          "audioSlug": "many_young_people_vote_for_the_first_time"
+        }
+      ]
+    },
+    "en.supermarket_overcharged_promotional_price_not_applied": {
+      "conceptId": "en.supermarket_overcharged_promotional_price_not_applied",
+      "id": "supermarket_overcharged_promotional_price_not_applied",
+      "target": [
+        {
+          "text": "I was overcharged. The promotional price wasn't applied, despite the label.",
+          "audioSlug": "i_was_overcharged_the_promotional_price_wasn_t_applied_despite_the_label"
+        }
+      ]
+    },
+    "en.supermarket_where_are_gluten_free_products": {
+      "conceptId": "en.supermarket_where_are_gluten_free_products",
+      "id": "supermarket_where_are_gluten_free_products",
+      "target": [
+        {
+          "text": "Could you tell me where I can find gluten-free products?",
+          "audioSlug": "could_you_tell_me_where_i_can_find_gluten_free_products"
+        }
+      ]
+    },
+    "en.supermarket_where_is_the_bakery_section": {
+      "conceptId": "en.supermarket_where_is_the_bakery_section",
+      "id": "supermarket_where_is_the_bakery_section",
+      "target": [
+        {
+          "text": "Where is the bakery section?",
+          "audioSlug": "where_is_the_bakery_section"
+        }
+      ]
+    }
+  }
+}

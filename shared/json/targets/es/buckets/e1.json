@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "e1",
+  "concepts": {
+    "es.accommodation_quisiera_quedarme_una_noche_mas": {
+      "conceptId": "es.accommodation_quisiera_quedarme_una_noche_mas",
+      "id": "accommodation_quisiera_quedarme_una_noche_mas",
+      "target": [
+        {
+          "text": "Quisiera quedarme una noche más.",
+          "audioSlug": "quisiera_quedarme_una_noche_mas"
+        }
+      ]
+    },
+    "es.cotidianidad_tengo_mil_cosas_que_hacer": {
+      "conceptId": "es.cotidianidad_tengo_mil_cosas_que_hacer",
+      "id": "cotidianidad_tengo_mil_cosas_que_hacer",
+      "target": [
+        {
+          "text": "Tengo mil cosas que hacer.",
+          "audioSlug": "tengo_mil_cosas_que_hacer"
+        }
+      ]
+    },
+    "es.deportes_viste_el_partido": {
+      "conceptId": "es.deportes_viste_el_partido",
+      "id": "deportes_viste_el_partido",
+      "target": [
+        {
+          "text": "¿Viste el partido?",
+          "audioSlug": "viste_el_partido"
+        }
+      ]
+    },
+    "es.descripciones_es_peligroso": {
+      "conceptId": "es.descripciones_es_peligroso",
+      "id": "descripciones_es_peligroso",
+      "target": [
+        {
+          "text": "Es peligroso.",
+          "audioSlug": "es_peligroso"
+        }
+      ]
+    },
+    "es.kitchen_the_best_side_dish_for_fish": {
+      "conceptId": "es.kitchen_the_best_side_dish_for_fish",
+      "id": "kitchen_the_best_side_dish_for_fish",
+      "target": [
+        {
+          "text": "La mejor guarnición para el pescado es el arroz.",
+          "audioSlug": "la_mejor_guarnicion_para_el_pescado_es_el_arroz"
+        }
+      ]
+    },
+    "es.movies_oscars_best_picture_overhyped": {
+      "conceptId": "es.movies_oscars_best_picture_overhyped",
+      "id": "movies_oscars_best_picture_overhyped",
+      "target": [
+        {
+          "text": "Ganó el Óscar a Mejor Película pero creo que estaba sobrevalorada.",
+          "audioSlug": "gano_el_oscar_a_mejor_pelicula_pero_creo_que_estaba_sobrevalorada"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_prefiero_calidad_a_cantidad": {
+      "conceptId": "es.pensamientos_opiniones_prefiero_calidad_a_cantidad",
+      "id": "pensamientos_opiniones_prefiero_calidad_a_cantidad",
+      "target": [
+        {
+          "text": "Prefiero calidad a cantidad.",
+          "audioSlug": "prefiero_calidad_a_cantidad"
+        }
+      ]
+    },
+    "es.restaurant_do_you_have_any_recommendations_for": {
+      "conceptId": "es.restaurant_do_you_have_any_recommendations_for",
+      "id": "restaurant_do_you_have_any_recommendations_for",
+      "target": [
+        {
+          "text": "¿Tiene alguna recomendación para el maridaje de vinos?",
+          "audioSlug": "tiene_alguna_recomendacion_para_el_maridaje_de_vinos"
+        }
+      ]
+    },
+    "es.technology_i_requested_a_copy_of_all_data": {
+      "conceptId": "es.technology_i_requested_a_copy_of_all_data",
+      "id": "technology_i_requested_a_copy_of_all_data",
+      "target": [
+        {
+          "text": "Solicité una copia de todos mis datos de la plataforma y los resultados fueron inquietantes.",
+          "audioSlug": "solicite_una_copia_de_todos_mis_datos_de_la_plataforma_y_los_resultados_fueron_inquietantes"
+        }
+      ]
+    },
+    "es.vestimenta_usa_una_gorra_para_el_sol": {
+      "conceptId": "es.vestimenta_usa_una_gorra_para_el_sol",
+      "id": "vestimenta_usa_una_gorra_para_el_sol",
+      "target": [
+        {
+          "text": "Usa una gorra para el sol.",
+          "audioSlug": "usa_una_gorra_para_el_sol"
+        }
+      ]
+    },
+    "es.viajes_voy_a_alquilar_un_carro": {
+      "conceptId": "es.viajes_voy_a_alquilar_un_carro",
+      "id": "viajes_voy_a_alquilar_un_carro",
+      "target": [
+        {
+          "text": "Voy a alquilar un carro.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "voy_a_alquilar_un_carro"
+        },
+        {
+          "text": "Voy a alquilar un coche.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "voy_a_alquilar_un_coche"
+        },
+        {
+          "text": "Voy a alquilar un auto.",
+          "labels": {
+            "region": "Cono Sur"
+          },
+          "audioSlug": "voy_a_alquilar_un_auto"
+        }
+      ]
+    }
+  }
+}

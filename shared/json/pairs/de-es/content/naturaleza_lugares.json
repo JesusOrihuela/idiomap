@@ -1,49 +1,553 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "naturaleza_lugares",
-  "conceptIds": [
-    "es.naturaleza_lugares_me_gusta_caminar_por_la_montana",
-    "es.naturaleza_lugares_el_mar_esta_tranquilo",
-    "es.naturaleza_lugares_en_el_bosque_hay_muchos_arboles",
-    "es.naturaleza_lugares_el_cielo_esta_despejado",
-    "es.naturaleza_lugares_debemos_cuidar_el_medio_ambiente",
-    "es.naturaleza_lugares_el_rio_pasa_por_el_valle",
-    "es.naturaleza_lugares_las_flores_son_muy_bonitas",
-    "es.naturaleza_lugares_vamos_a_la_playa_el_domingo",
-    "es.naturaleza_lugares_en_primavera_florecen_los_arboles",
-    "es.naturaleza_lugares_hay_muchas_estrellas_esta_noche",
-    "es.naturaleza_lugares_la_tierra_es_fertil",
-    "es.naturaleza_lugares_la_luna_brilla_esta_noche",
-    "es.naturaleza_lugares_los_animales_viven_en_el_bosque",
-    "es.naturaleza_lugares_hay_muchos_peces_en_el_lago",
-    "es.naturaleza_lugares_las_plantas_necesitan_agua_y_luz",
-    "es.naturaleza_lugares_el_fuego_destruyo_parte_del_bosque",
-    "es.naturaleza_lugares_me_encanta_el_aire_del_campo",
-    "es.naturaleza_lugares_en_invierno_cae_mucha_nieve",
-    "es.naturaleza_lugares_la_isla_esta_rodeada_de_mar",
-    "es.naturaleza_lugares_muchas_especies_en_peligro",
-    "es.naturaleza_lugares_el_ser_humano_depende_de_la_naturaleza",
-    "es.naturaleza_lugares_la_ciudad_tiene_un_millon_de_habitantes",
-    "es.naturaleza_lugares_el_oceano_cubre_gran_parte_del_planeta",
-    "es.naturaleza_lugares_en_la_selva_llueve_casi_todos_los_dias",
-    "es.naturaleza_lugares_el_volcan_esta_inactivo",
-    "es.naturaleza_lugares_hay_que_proteger_el_planeta",
-    "es.naturaleza_lugares_un_pajaro_canta_en_el_arbol",
-    "es.naturaleza_lugares_recogi_una_piedra_del_rio",
-    "es.naturaleza_lugares_las_rosas_del_jardin_huelen_muy_bien",
-    "es.naturaleza_lugares_los_pajaros_pueden_volar_muy_alto",
-    "es.naturaleza_lugares_dimos_un_paseo_por_la_playa",
-    "es.naturaleza_lugares_el_caballo_corre_por_el_campo",
-    "es.naturaleza_lugares_el_cerdo_vive_en_la_granja",
-    "es.naturaleza_lugares_hay_un_pez_de_colores_en_el_estanque",
-    "es.naturaleza_lugares_le_tengo_miedo_a_las_aranas",
-    "es.naturaleza_lugares_el_lago_se_cubre_de_hielo_en_invierno",
-    "es.naturaleza_lugares_hay_mucha_niebla_en_la_montana",
-    "es.naturaleza_lugares_el_pino_es_un_arbol_muy_alto",
-    "es.naturaleza_lugares_le_regale_una_margarita_blanca",
-    "es.naturaleza_lugares_un_mosquito_me_pico_anoche",
-    "es.naturaleza_lugares_el_canguro_vive_en_australia",
-    "es.naturaleza_lugares_el_ternero_sigue_a_su_madre"
+  "phrases": [
+    {
+      "conceptId": "es.naturaleza_lugares_me_gusta_caminar_por_la_montana",
+      "level": "A1",
+      "grammar": "me gusta más infinitivo, me gusta caminar.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b86ef577173550e6"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_mar_esta_tranquilo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.51d204b273bf5c3f"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_en_el_bosque_hay_muchos_arboles",
+      "level": "A2",
+      "grammar": "hay expresa que algo existe, hay muchos árboles.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f6d2c27305cf1578"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_cielo_esta_despejado",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bb6572c7de0a386f"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_debemos_cuidar_el_medio_ambiente",
+      "level": "B1",
+      "grammar": "deber más infinitivo expresa una obligación, debemos cuidar.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3b5c594e20cb8a7c"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_rio_pasa_por_el_valle",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8c8d92dbff468421"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_las_flores_son_muy_bonitas",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fa78ce075aea108b"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_vamos_a_la_playa_el_domingo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.caf180f1f7488efa"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_en_primavera_florecen_los_arboles",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8fad6bb3e1c8dc7b"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_hay_muchas_estrellas_esta_noche",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.504f107e18c92535"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_la_tierra_es_fertil",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.135755cd933d9fc8"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_la_luna_brilla_esta_noche",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.830052f0e5dab03c"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_los_animales_viven_en_el_bosque",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.89edbc2122c80f14"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_hay_muchos_peces_en_el_lago",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.aa1202541d7933ff"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_las_plantas_necesitan_agua_y_luz",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.adeabee39bc61b67"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_fuego_destruyo_parte_del_bosque",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4973170291ac1155"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_me_encanta_el_aire_del_campo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1a9e027b4fb59edf"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_en_invierno_cae_mucha_nieve",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6afc80df6bb55d10"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_la_isla_esta_rodeada_de_mar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1db129b6f950b608"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_muchas_especies_en_peligro",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c15a7a7f2330e97e"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_ser_humano_depende_de_la_naturaleza",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fd79f34fed6ec341"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_la_ciudad_tiene_un_millon_de_habitantes",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5e54c2fd305449cd"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_oceano_cubre_gran_parte_del_planeta",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f901fe94daa485a4"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_en_la_selva_llueve_casi_todos_los_dias",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.64d9cc915f5e0a3b"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_volcan_esta_inactivo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2db767ee84b6274d"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_hay_que_proteger_el_planeta",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1f7c3a037051adf8"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_un_pajaro_canta_en_el_arbol",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c1ef01e1cd5d7ab7"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_recogi_una_piedra_del_rio",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.71fecc4cfbfc011b"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_las_rosas_del_jardin_huelen_muy_bien",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a235edb0bb88186e"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_los_pajaros_pueden_volar_muy_alto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d4206176a4ca1509"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_dimos_un_paseo_por_la_playa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fe07375de30d882f"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_caballo_corre_por_el_campo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d7672e115b0060bb"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_cerdo_vive_en_la_granja",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dd194f2468763f97"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_hay_un_pez_de_colores_en_el_estanque",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dadf24d78d6a9b62"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_le_tengo_miedo_a_las_aranas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b0ea05f998a1bebe"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_lago_se_cubre_de_hielo_en_invierno",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a95525839c6f423d"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_hay_mucha_niebla_en_la_montana",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6fc6d85ee0d19236"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_pino_es_un_arbol_muy_alto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c8f16d5af64b89fb"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_le_regale_una_margarita_blanca",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4931100c18b905fb"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_un_mosquito_me_pico_anoche",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5f915ac94cdf2d8b"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_canguro_vive_en_australia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f66206f77f3d8b5c"
+    },
+    {
+      "conceptId": "es.naturaleza_lugares_el_ternero_sigue_a_su_madre",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3c7d128b68426ff2"
+    }
   ]
 }

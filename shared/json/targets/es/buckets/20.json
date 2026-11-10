@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "20",
+  "concepts": {
+    "es.conversacion_no_tengo_nada_en_contra": {
+      "conceptId": "es.conversacion_no_tengo_nada_en_contra",
+      "id": "conversacion_no_tengo_nada_en_contra",
+      "target": [
+        {
+          "text": "No tengo nada en contra de eso.",
+          "audioSlug": "no_tengo_nada_en_contra_de_eso"
+        }
+      ]
+    },
+    "es.cotidianidad_hay_bastante_comida": {
+      "conceptId": "es.cotidianidad_hay_bastante_comida",
+      "id": "cotidianidad_hay_bastante_comida",
+      "target": [
+        {
+          "text": "Hay bastante comida.",
+          "audioSlug": "hay_bastante_comida"
+        }
+      ]
+    },
+    "es.daily_routine_trabajo_desde_las_nueve": {
+      "conceptId": "es.daily_routine_trabajo_desde_las_nueve",
+      "id": "daily_routine_trabajo_desde_las_nueve",
+      "target": [
+        {
+          "text": "Trabajo desde las nueve hasta las cinco.",
+          "audioSlug": "trabajo_desde_las_nueve_hasta_las_cinco"
+        }
+      ]
+    },
+    "es.descripciones_la_pelicula_fue_muy_aburrida": {
+      "conceptId": "es.descripciones_la_pelicula_fue_muy_aburrida",
+      "id": "descripciones_la_pelicula_fue_muy_aburrida",
+      "target": [
+        {
+          "text": "La película fue muy aburrida.",
+          "audioSlug": "la_pelicula_fue_muy_aburrida"
+        }
+      ]
+    },
+    "es.directions_sigue_recto_por_esta_avenida": {
+      "conceptId": "es.directions_sigue_recto_por_esta_avenida",
+      "id": "directions_sigue_recto_por_esta_avenida",
+      "target": [
+        {
+          "text": "Sigue recto por esta avenida.",
+          "audioSlug": "sigue_recto_por_esta_avenida"
+        }
+      ]
+    },
+    "es.estudios_escribe_una_oracion_completa": {
+      "conceptId": "es.estudios_escribe_una_oracion_completa",
+      "id": "estudios_escribe_una_oracion_completa",
+      "target": [
+        {
+          "text": "Escribe una oración completa.",
+          "audioSlug": "escribe_una_oracion_completa"
+        }
+      ]
+    },
+    "es.health_respira_profundo_y_relajate": {
+      "conceptId": "es.health_respira_profundo_y_relajate",
+      "id": "health_respira_profundo_y_relajate",
+      "target": [
+        {
+          "text": "Respira profundo y relájate.",
+          "audioSlug": "respira_profundo_y_relajate"
+        }
+      ]
+    },
+    "es.kitchen_donde_esta_la_sarten": {
+      "conceptId": "es.kitchen_donde_esta_la_sarten",
+      "id": "kitchen_donde_esta_la_sarten",
+      "target": [
+        {
+          "text": "¿Dónde está la sartén?",
+          "audioSlug": "donde_esta_la_sarten"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_la_mayoria_esta_de_acuerdo": {
+      "conceptId": "es.pensamientos_opiniones_la_mayoria_esta_de_acuerdo",
+      "id": "pensamientos_opiniones_la_mayoria_esta_de_acuerdo",
+      "target": [
+        {
+          "text": "La mayoría está de acuerdo.",
+          "audioSlug": "la_mayoria_esta_de_acuerdo"
+        }
+      ]
+    },
+    "es.profesiones_ella_es_arquitecta": {
+      "conceptId": "es.profesiones_ella_es_arquitecta",
+      "id": "profesiones_ella_es_arquitecta",
+      "target": [
+        {
+          "text": "Ella es arquitecta.",
+          "audioSlug": "ella_es_arquitecta"
+        }
+      ]
+    },
+    "es.technology_cada_elemento_de_la_pantalla_es_util": {
+      "conceptId": "es.technology_cada_elemento_de_la_pantalla_es_util",
+      "id": "technology_cada_elemento_de_la_pantalla_es_util",
+      "target": [
+        {
+          "text": "Cada elemento de la pantalla es útil.",
+          "audioSlug": "cada_elemento_de_la_pantalla_es_util"
+        }
+      ]
+    },
+    "es.theater_staging_final_scene": {
+      "conceptId": "es.theater_staging_final_scene",
+      "id": "theater_staging_final_scene",
+      "target": [
+        {
+          "text": "La puesta en escena del director fue poco convencional pero notablemente efectiva.",
+          "audioSlug": "la_puesta_en_escena_del_director_fue_poco_convencional_pero_notablemente_efectiva",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "La puesta en escena de la directora fue poco convencional pero notablemente efectiva.",
+          "audioSlug": "la_puesta_en_escena_de_la_directora_fue_poco_convencional_pero_notablemente_efectiva",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.theater_want_to_see_play": {
+      "conceptId": "es.theater_want_to_see_play",
+      "id": "theater_want_to_see_play",
+      "target": [
+        {
+          "text": "¿Quieres ver una obra este fin de semana?",
+          "audioSlug": "quieres_ver_una_obra_este_fin_de_semana"
+        }
+      ]
+    },
+    "es.vestimenta_necesito_un_sueter": {
+      "conceptId": "es.vestimenta_necesito_un_sueter",
+      "id": "vestimenta_necesito_un_sueter",
+      "target": [
+        {
+          "text": "Necesito un suéter para el invierno.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "necesito_un_sueter_para_el_invierno"
+        },
+        {
+          "text": "Necesito un jersey para el invierno.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "necesito_un_jersey_para_el_invierno"
+        }
+      ]
+    },
+    "es.viajes_guardo_buenos_recuerdos_de_ese_viaje": {
+      "conceptId": "es.viajes_guardo_buenos_recuerdos_de_ese_viaje",
+      "id": "viajes_guardo_buenos_recuerdos_de_ese_viaje",
+      "target": [
+        {
+          "text": "Guardo buenos recuerdos de ese viaje.",
+          "audioSlug": "guardo_buenos_recuerdos_de_ese_viaje"
+        }
+      ]
+    }
+  }
+}

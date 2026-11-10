@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "96",
+  "concepts": {
+    "es.accommodation_confirm_reservation": {
+      "conceptId": "es.accommodation_confirm_reservation",
+      "id": "accommodation_confirm_reservation",
+      "target": [
+        {
+          "text": "Quisiera confirmar mi reserva para mañana por la noche.",
+          "audioSlug": "quisiera_confirmar_mi_reserva_para_manana_por_la_noche"
+        }
+      ]
+    },
+    "es.airport_el_avion_despega_en_diez_minutos": {
+      "conceptId": "es.airport_el_avion_despega_en_diez_minutos",
+      "id": "airport_el_avion_despega_en_diez_minutos",
+      "target": [
+        {
+          "text": "El avión despega en diez minutos.",
+          "audioSlug": "el_avion_despega_en_diez_minutos"
+        }
+      ]
+    },
+    "es.calendario_hoy_es_quince_de_mayo": {
+      "conceptId": "es.calendario_hoy_es_quince_de_mayo",
+      "id": "calendario_hoy_es_quince_de_mayo",
+      "target": [
+        {
+          "text": "Hoy es quince de mayo.",
+          "audioSlug": "hoy_es_quince_de_mayo"
+        }
+      ]
+    },
+    "es.daily_routine_i_think_about_my_day_before_sleeping": {
+      "conceptId": "es.daily_routine_i_think_about_my_day_before_sleeping",
+      "id": "daily_routine_i_think_about_my_day_before_sleeping",
+      "target": [
+        {
+          "text": "Pienso en mi día antes de dormir.",
+          "audioSlug": "pienso_en_mi_dia_antes_de_dormir"
+        }
+      ]
+    },
+    "es.directions_where_is_the_bus_stop": {
+      "conceptId": "es.directions_where_is_the_bus_stop",
+      "id": "directions_where_is_the_bus_stop",
+      "target": [
+        {
+          "text": "¿Dónde está la parada de autobús?",
+          "labels": {
+            "region": "General"
+          },
+          "audioSlug": "donde_esta_la_parada_de_autobus"
+        },
+        {
+          "text": "¿Dónde está la parada del camión?",
+          "labels": {
+            "region": "México"
+          },
+          "audioSlug": "donde_esta_la_parada_del_camion"
+        },
+        {
+          "text": "¿Dónde está la parada del colectivo?",
+          "labels": {
+            "region": "Argentina"
+          },
+          "audioSlug": "donde_esta_la_parada_del_colectivo"
+        },
+        {
+          "text": "¿Dónde está la parada de la guagua?",
+          "labels": {
+            "region": "Caribe"
+          },
+          "audioSlug": "donde_esta_la_parada_de_la_guagua"
+        }
+      ]
+    },
+    "es.emergencias_llamen_a_una_ambulancia": {
+      "conceptId": "es.emergencias_llamen_a_una_ambulancia",
+      "id": "emergencias_llamen_a_una_ambulancia",
+      "target": [
+        {
+          "text": "¡Llamen a una ambulancia!",
+          "audioSlug": "llamen_a_una_ambulancia"
+        }
+      ]
+    },
+    "es.estudios_escribo_en_mi_diario_cada_noche": {
+      "conceptId": "es.estudios_escribo_en_mi_diario_cada_noche",
+      "id": "estudios_escribo_en_mi_diario_cada_noche",
+      "target": [
+        {
+          "text": "Escribo en mi diario cada noche.",
+          "audioSlug": "escribo_en_mi_diario_cada_noche"
+        }
+      ]
+    },
+    "es.movies_character_arc_fully_earned": {
+      "conceptId": "es.movies_character_arc_fully_earned",
+      "id": "movies_character_arc_fully_earned",
+      "target": [
+        {
+          "text": "La transformación del personaje se sentía justificada en el acto final.",
+          "audioSlug": "la_transformacion_del_personaje_se_sentia_justificada_en_el_acto_final"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_it_seems_complicated_to_me": {
+      "conceptId": "es.pensamientos_opiniones_it_seems_complicated_to_me",
+      "id": "pensamientos_opiniones_it_seems_complicated_to_me",
+      "target": [
+        {
+          "text": "Me parece complicado.",
+          "audioSlug": "me_parece_complicado"
+        }
+      ]
+    },
+    "es.personal_info_estudio_espanol_como_pasatiempo": {
+      "conceptId": "es.personal_info_estudio_espanol_como_pasatiempo",
+      "id": "personal_info_estudio_espanol_como_pasatiempo",
+      "target": [
+        {
+          "text": "Estudio español como pasatiempo.",
+          "audioSlug": "estudio_espanol_como_pasatiempo"
+        }
+      ]
+    },
+    "es.supermarket_where_are_the_shopping_carts": {
+      "conceptId": "es.supermarket_where_are_the_shopping_carts",
+      "id": "supermarket_where_are_the_shopping_carts",
+      "target": [
+        {
+          "text": "¿Dónde están los carritos de compra?",
+          "audioSlug": "donde_estan_los_carritos_de_compra"
+        }
+      ]
+    },
+    "es.viajes_viajo_con_poco_equipaje": {
+      "conceptId": "es.viajes_viajo_con_poco_equipaje",
+      "id": "viajes_viajo_con_poco_equipaje",
+      "target": [
+        {
+          "text": "Viajo con poco equipaje.",
+          "audioSlug": "viajo_con_poco_equipaje"
+        }
+      ]
+    },
+    "es.weather_take_umbrella": {
+      "conceptId": "es.weather_take_umbrella",
+      "id": "weather_take_umbrella",
+      "target": [
+        {
+          "text": "Lleva un paraguas, va a llover.",
+          "audioSlug": "lleva_un_paraguas_va_a_llover"
+        }
+      ]
+    }
+  }
+}

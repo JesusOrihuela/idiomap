@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "d2",
+  "concepts": {
+    "es.conversacion_la_comunicacion_es_clave_en_pareja": {
+      "conceptId": "es.conversacion_la_comunicacion_es_clave_en_pareja",
+      "id": "conversacion_la_comunicacion_es_clave_en_pareja",
+      "target": [
+        {
+          "text": "La comunicación es clave en pareja.",
+          "audioSlug": "la_comunicacion_es_clave_en_pareja"
+        }
+      ]
+    },
+    "es.descripciones_tiene_un_marcado_acento_americano": {
+      "conceptId": "es.descripciones_tiene_un_marcado_acento_americano",
+      "id": "descripciones_tiene_un_marcado_acento_americano",
+      "target": [
+        {
+          "text": "Tiene un marcado acento americano.",
+          "audioSlug": "tiene_un_marcado_acento_americano"
+        }
+      ]
+    },
+    "es.emociones_i_am_surprised": {
+      "conceptId": "es.emociones_i_am_surprised",
+      "id": "emociones_i_am_surprised",
+      "target": [
+        {
+          "text": "Estoy sorprendida.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_sorprendida"
+        },
+        {
+          "text": "Estoy sorprendido.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_sorprendido"
+        }
+      ]
+    },
+    "es.family_es_mi_mejor_amigo": {
+      "conceptId": "es.family_es_mi_mejor_amigo",
+      "id": "family_es_mi_mejor_amigo",
+      "target": [
+        {
+          "text": "Es mi mejor amigo.",
+          "audioSlug": "es_mi_mejor_amigo",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "Es mi mejor amiga.",
+          "audioSlug": "es_mi_mejor_amiga",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.family_tengo_una_relacion_familiar_cercana": {
+      "conceptId": "es.family_tengo_una_relacion_familiar_cercana",
+      "id": "family_tengo_una_relacion_familiar_cercana",
+      "target": [
+        {
+          "text": "Tengo una relación familiar muy cercana.",
+          "audioSlug": "tengo_una_relacion_familiar_muy_cercana"
+        }
+      ]
+    },
+    "es.greetings_ahi_viene_el_autobus": {
+      "conceptId": "es.greetings_ahi_viene_el_autobus",
+      "id": "greetings_ahi_viene_el_autobus",
+      "target": [
+        {
+          "text": "Ahí viene el autobús.",
+          "audioSlug": "ahi_viene_el_autobus"
+        }
+      ]
+    },
+    "es.health_take_this_medicine": {
+      "conceptId": "es.health_take_this_medicine",
+      "id": "health_take_this_medicine",
+      "target": [
+        {
+          "text": "Toma esta medicina dos veces al día.",
+          "audioSlug": "toma_esta_medicina_dos_veces_al_dia"
+        }
+      ]
+    },
+    "es.hogar_la_cocina_es_pequena": {
+      "conceptId": "es.hogar_la_cocina_es_pequena",
+      "id": "hogar_la_cocina_es_pequena",
+      "target": [
+        {
+          "text": "La cocina es pequeña.",
+          "audioSlug": "la_cocina_es_pequena"
+        }
+      ]
+    },
+    "es.movies_performances_script_characters": {
+      "conceptId": "es.movies_performances_script_characters",
+      "id": "movies_performances_script_characters",
+      "target": [
+        {
+          "text": "El guion no logró desarrollar a los personajes secundarios.",
+          "audioSlug": "el_guion_no_logro_desarrollar_a_los_personajes_secundarios"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_es_bueno_observar_antes_de_juzgar": {
+      "conceptId": "es.pensamientos_opiniones_es_bueno_observar_antes_de_juzgar",
+      "id": "pensamientos_opiniones_es_bueno_observar_antes_de_juzgar",
+      "target": [
+        {
+          "text": "Es bueno observar antes de juzgar.",
+          "audioSlug": "es_bueno_observar_antes_de_juzgar"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_nunca_debes_abandonar_tus_metas": {
+      "conceptId": "es.pensamientos_opiniones_nunca_debes_abandonar_tus_metas",
+      "id": "pensamientos_opiniones_nunca_debes_abandonar_tus_metas",
+      "target": [
+        {
+          "text": "Nunca debes abandonar tus metas.",
+          "audioSlug": "nunca_debes_abandonar_tus_metas"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "9e",
+  "concepts": {
+    "es.accommodation_el_hotel_ofrece_servicio_de_limpieza": {
+      "conceptId": "es.accommodation_el_hotel_ofrece_servicio_de_limpieza",
+      "id": "accommodation_el_hotel_ofrece_servicio_de_limpieza",
+      "target": [
+        {
+          "text": "El hotel ofrece servicio de limpieza.",
+          "audioSlug": "el_hotel_ofrece_servicio_de_limpieza"
+        }
+      ]
+    },
+    "es.conversacion_no_te_rias_de_mi": {
+      "conceptId": "es.conversacion_no_te_rias_de_mi",
+      "id": "conversacion_no_te_rias_de_mi",
+      "target": [
+        {
+          "text": "No te rías de mí.",
+          "audioSlug": "no_te_rias_de_mi"
+        }
+      ]
+    },
+    "es.emociones_salte_de_alegria": {
+      "conceptId": "es.emociones_salte_de_alegria",
+      "id": "emociones_salte_de_alegria",
+      "target": [
+        {
+          "text": "Salté de alegría.",
+          "audioSlug": "salte_de_alegria"
+        }
+      ]
+    },
+    "es.greetings_good_afternoon_how_have_you_been": {
+      "conceptId": "es.greetings_good_afternoon_how_have_you_been",
+      "id": "greetings_good_afternoon_how_have_you_been",
+      "target": [
+        {
+          "text": "Buenas tardes, ¿cómo has estado?",
+          "audioSlug": "buenas_tardes_como_has_estado"
+        }
+      ]
+    },
+    "es.health_me_rompi_un_hueso": {
+      "conceptId": "es.health_me_rompi_un_hueso",
+      "id": "health_me_rompi_un_hueso",
+      "target": [
+        {
+          "text": "Me rompí un hueso.",
+          "audioSlug": "me_rompi_un_hueso"
+        }
+      ]
+    },
+    "es.profesiones_es_un_escritor_famoso": {
+      "conceptId": "es.profesiones_es_un_escritor_famoso",
+      "id": "profesiones_es_un_escritor_famoso",
+      "target": [
+        {
+          "text": "Es un escritor famoso.",
+          "audioSlug": "es_un_escritor_famoso"
+        }
+      ]
+    },
+    "es.restaurant_la_mayoria_pide_postre": {
+      "conceptId": "es.restaurant_la_mayoria_pide_postre",
+      "id": "restaurant_la_mayoria_pide_postre",
+      "target": [
+        {
+          "text": "La mayoría de la gente pide postre.",
+          "audioSlug": "la_mayoria_de_la_gente_pide_postre"
+        }
+      ]
+    },
+    "es.restaurant_what_do_you_recommend_as_a": {
+      "conceptId": "es.restaurant_what_do_you_recommend_as_a",
+      "id": "restaurant_what_do_you_recommend_as_a",
+      "target": [
+        {
+          "text": "¿Qué recomienda como especialidad de la casa?",
+          "audioSlug": "que_recomienda_como_especialidad_de_la_casa"
+        }
+      ]
+    },
+    "es.supermarket_customer_service_lodge_complaint": {
+      "conceptId": "es.supermarket_customer_service_lodge_complaint",
+      "id": "supermarket_customer_service_lodge_complaint",
+      "target": [
+        {
+          "text": "¿Hay un servicio al cliente donde pueda presentar una queja formal?",
+          "audioSlug": "hay_un_servicio_al_cliente_donde_pueda_presentar_una_queja_formal"
+        }
+      ]
+    },
+    "es.supermarket_unto_mermelada_en_el_pan": {
+      "conceptId": "es.supermarket_unto_mermelada_en_el_pan",
+      "id": "supermarket_unto_mermelada_en_el_pan",
+      "target": [
+        {
+          "text": "Unto mermelada en el pan.",
+          "audioSlug": "unto_mermelada_en_el_pan"
+        }
+      ]
+    },
+    "es.theater_box_office": {
+      "conceptId": "es.theater_box_office",
+      "id": "theater_box_office",
+      "target": [
+        {
+          "text": "¿Dónde está la taquilla?",
+          "audioSlug": "donde_esta_la_taquilla"
+        }
+      ]
+    },
+    "es.theater_rehearsal_documentary_changed_experience": {
+      "conceptId": "es.theater_rehearsal_documentary_changed_experience",
+      "id": "theater_rehearsal_documentary_changed_experience",
+      "target": [
+        {
+          "text": "Un documental sobre los ensayos cambió cómo viví el espectáculo.",
+          "audioSlug": "un_documental_sobre_los_ensayos_cambio_como_vivi_el_espectaculo"
+        }
+      ]
+    },
+    "es.weather_its_hot": {
+      "conceptId": "es.weather_its_hot",
+      "id": "weather_its_hot",
+      "target": [
+        {
+          "text": "Hace calor.",
+          "audioSlug": "hace_calor"
+        }
+      ]
+    }
+  }
+}

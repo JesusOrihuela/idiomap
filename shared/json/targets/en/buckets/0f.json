@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "0f",
+  "concepts": {
+    "en.accountability_what_are_the_projections_for_the": {
+      "conceptId": "en.accountability_what_are_the_projections_for_the",
+      "id": "accountability_what_are_the_projections_for_the",
+      "target": [
+        {
+          "text": "What are the projections for the new fiscal year?",
+          "audioSlug": "what_are_the_projections_for_the_new_fiscal_year"
+        }
+      ]
+    },
+    "en.calendario_i_ll_be_there_in_five_minutes": {
+      "conceptId": "en.calendario_i_ll_be_there_in_five_minutes",
+      "id": "calendario_i_ll_be_there_in_five_minutes",
+      "target": [
+        {
+          "text": "I'll be there in five minutes.",
+          "audioSlug": "i_ll_be_there_in_five_minutes"
+        }
+      ]
+    },
+    "en.supermarket_i_need_a_receipt": {
+      "conceptId": "en.supermarket_i_need_a_receipt",
+      "id": "supermarket_i_need_a_receipt",
+      "target": [
+        {
+          "text": "I need a receipt.",
+          "audioSlug": "i_need_a_receipt"
+        }
+      ]
+    },
+    "en.survival_do_you_speak_english": {
+      "conceptId": "en.survival_do_you_speak_english",
+      "id": "survival_do_you_speak_english",
+      "target": [
+        {
+          "text": "Do you speak English?",
+          "audioSlug": "do_you_speak_english"
+        }
+      ]
+    },
+    "en.technology_if_press_button_starts": {
+      "conceptId": "en.technology_if_press_button_starts",
+      "id": "technology_if_press_button_starts",
+      "target": [
+        {
+          "text": "If you press this button, the machine starts.",
+          "audioSlug": "if_you_press_this_button_the_machine_starts"
+        }
+      ]
+    },
+    "en.transportation_does_this_bus_go": {
+      "conceptId": "en.transportation_does_this_bus_go",
+      "id": "transportation_does_this_bus_go",
+      "target": [
+        {
+          "text": "Does this bus go to the center?",
+          "audioSlug": "does_this_bus_go_to_the_center"
+        }
+      ]
+    }
+  }
+}

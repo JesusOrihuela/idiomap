@@ -1,25 +1,241 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "emergencias",
-  "conceptIds": [
-    "en.emergencias_i_lost_my_passport",
-    "en.emergencias_can_you_call_the_police",
-    "en.emergencias_i_can_t_find_my_phone",
-    "en.emergencias_call_an_ambulance",
-    "en.emergencias_call_the_police",
-    "en.emergencias_we_need_an_ambulance",
-    "en.emergencias_there_s_a_fire",
-    "en.emergencias_my_wallet_was_stolen",
-    "en.emergencias_is_there_any_danger",
-    "en.emergencias_there_was_an_accident_on_the_street",
-    "en.emergencias_i_lost_my_keys",
-    "en.emergencias_help_please",
-    "en.emergencias_where_is_the_emergency_exit",
-    "en.emergencias_call_the_firefighters",
-    "en.emergencias_it_s_an_emergency",
-    "en.emergencias_someone_fainted",
-    "en.emergencias_i_am_in_trouble",
-    "en.emergencias_the_damage_is_done"
+  "phrases": [
+    {
+      "conceptId": "en.emergencias_i_lost_my_passport",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9398b9181c2b617d"
+    },
+    {
+      "conceptId": "en.emergencias_can_you_call_the_police",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f8ffd06e9ec36cf8"
+    },
+    {
+      "conceptId": "en.emergencias_i_can_t_find_my_phone",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bbee344e8433ad01"
+    },
+    {
+      "conceptId": "en.emergencias_call_an_ambulance",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.35e9290c88fe8ce4"
+    },
+    {
+      "conceptId": "en.emergencias_call_the_police",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.da930c356295002b"
+    },
+    {
+      "conceptId": "en.emergencias_we_need_an_ambulance",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7ea87f1211c9657e"
+    },
+    {
+      "conceptId": "en.emergencias_there_s_a_fire",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a1a73230b9b0c43c"
+    },
+    {
+      "conceptId": "en.emergencias_my_wallet_was_stolen",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.27c06f36804e2a40"
+    },
+    {
+      "conceptId": "en.emergencias_is_there_any_danger",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bac395f0c5b3ec65"
+    },
+    {
+      "conceptId": "en.emergencias_there_was_an_accident_on_the_street",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7e6c7408d6473de3"
+    },
+    {
+      "conceptId": "en.emergencias_i_lost_my_keys",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.06a0f67b46284e77"
+    },
+    {
+      "conceptId": "en.emergencias_help_please",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ee42c075086a93d6"
+    },
+    {
+      "conceptId": "en.emergencias_where_is_the_emergency_exit",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4303ced9d96aa58a"
+    },
+    {
+      "conceptId": "en.emergencias_call_the_firefighters",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1f08005d6280b324"
+    },
+    {
+      "conceptId": "en.emergencias_it_s_an_emergency",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dce7338ee2e081c3"
+    },
+    {
+      "conceptId": "en.emergencias_someone_fainted",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.56a1d160f5537bcb"
+    },
+    {
+      "conceptId": "en.emergencias_i_am_in_trouble",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.031dae8fe29eec13"
+    },
+    {
+      "conceptId": "en.emergencias_the_damage_is_done",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.33eb0487e31e8fc3"
+    }
   ]
 }

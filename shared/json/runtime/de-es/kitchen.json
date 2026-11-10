@@ -1,0 +1,511 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "kitchen",
+  "phrases": [
+    {
+      "id": "kitchen_donde_esta_la_sarten",
+      "conceptId": "es.kitchen_donde_esta_la_sarten",
+      "sourceId": "de.s.0fa99d45038e18f2",
+      "source": "Wo ist die Pfanne?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde está la sartén?",
+          "audioSlug": "donde_esta_la_sarten"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_necesito_un_cuchillo_afilado",
+      "conceptId": "es.kitchen_necesito_un_cuchillo_afilado",
+      "sourceId": "de.s.e64b59291b29f2a5",
+      "source": "Ich brauche ein scharfes Messer.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito un cuchillo afilado.",
+          "audioSlug": "necesito_un_cuchillo_afilado"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_voy_a_cocinar_la_cena",
+      "conceptId": "es.kitchen_voy_a_cocinar_la_cena",
+      "sourceId": "de.s.7752dcb006c25d1a",
+      "source": "Ich werde das Abendessen kochen.",
+      "level": "A2",
+      "grammar": "ir a más infinitivo expresa un plan, voy a cocinar.",
+      "target": [
+        {
+          "text": "Voy a cocinar la cena.",
+          "audioSlug": "voy_a_cocinar_la_cena"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_hay_que_lavar_los_platos",
+      "conceptId": "es.kitchen_hay_que_lavar_los_platos",
+      "sourceId": "de.s.e891efdf8e0f1023",
+      "source": "Man muss das Geschirr abwaschen.",
+      "level": "A2",
+      "grammar": "hay que más infinitivo expresa una obligación general.",
+      "target": [
+        {
+          "text": "Hay que lavar los platos.",
+          "audioSlug": "hay_que_lavar_los_platos"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_el_agua_esta_hirviendo",
+      "conceptId": "es.kitchen_el_agua_esta_hirviendo",
+      "sourceId": "de.s.2ae278f20fdd0f7f",
+      "source": "Das Wasser kocht.",
+      "level": "A2",
+      "grammar": "estar más gerundio expresa una acción en curso, está hirviendo.",
+      "target": [
+        {
+          "text": "El agua está hirviendo.",
+          "audioSlug": "el_agua_esta_hirviendo"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_corta_las_verduras_por_favor",
+      "conceptId": "es.kitchen_corta_las_verduras_por_favor",
+      "sourceId": "de.s.ccbad1f1c0687097",
+      "source": "Schneide das Gemüse, bitte.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Corta las verduras, por favor.",
+          "audioSlug": "corta_las_verduras_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_me_pasas_la_sal",
+      "conceptId": "es.kitchen_me_pasas_la_sal",
+      "sourceId": "de.s.f75142dbef2f7d79",
+      "source": "Reichst du mir das Salz?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me pasas la sal?",
+          "audioSlug": "me_pasas_la_sal"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_la_comida_esta_en_el_horno",
+      "conceptId": "es.kitchen_la_comida_esta_en_el_horno",
+      "sourceId": "de.s.19bda8595cbcd327",
+      "source": "Das Essen ist im Ofen.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La comida está en el horno.",
+          "audioSlug": "la_comida_esta_en_el_horno"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_primero_calienta_el_aceite",
+      "conceptId": "es.kitchen_primero_calienta_el_aceite",
+      "sourceId": "de.s.5eee92c8712841c1",
+      "source": "Zuerst erhitze das Öl in der Pfanne.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Primero calienta el aceite en la sartén.",
+          "audioSlug": "primero_calienta_el_aceite_en_la_sarten"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_se_me_quemo_el_arroz",
+      "conceptId": "es.kitchen_se_me_quemo_el_arroz",
+      "sourceId": "de.s.022544843f35678f",
+      "source": "Mir ist der Reis angebrannt.",
+      "level": "B1",
+      "grammar": "el se involuntario expresa un hecho no intencional, se me quemó.",
+      "target": [
+        {
+          "text": "Se me quemó el arroz.",
+          "audioSlug": "se_me_quemo_el_arroz"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_sirvo_la_cena_a_las_ocho",
+      "conceptId": "es.kitchen_sirvo_la_cena_a_las_ocho",
+      "sourceId": "de.s.bd1b978d00c86327",
+      "source": "Ich serviere das Abendessen um acht.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sirvo la cena a las ocho.",
+          "audioSlug": "sirvo_la_cena_a_las_ocho"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_necesito_una_receta_facil",
+      "conceptId": "es.kitchen_necesito_una_receta_facil",
+      "sourceId": "de.s.738637b1b49cb93f",
+      "source": "Ich brauche ein einfaches Rezept.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito una receta fácil.",
+          "audioSlug": "necesito_una_receta_facil"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_esta_salsa_tiene_mucho_sabor",
+      "conceptId": "es.kitchen_esta_salsa_tiene_mucho_sabor",
+      "sourceId": "de.s.54c1765d39e1896a",
+      "source": "Diese Soße hat viel Geschmack.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Esta salsa tiene mucho sabor.",
+          "audioSlug": "esta_salsa_tiene_mucho_sabor"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_el_postre_esta_muy_dulce",
+      "conceptId": "es.kitchen_el_postre_esta_muy_dulce",
+      "sourceId": "de.s.08c6bf0570fa251f",
+      "source": "Der Nachtisch ist sehr süß.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El postre está muy dulce.",
+          "audioSlug": "el_postre_esta_muy_dulce"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_voy_a_freir_unos_huevos",
+      "conceptId": "es.kitchen_voy_a_freir_unos_huevos",
+      "sourceId": "de.s.f3755ddd2fc67ba7",
+      "source": "Ich werde ein paar Eier braten.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Voy a freír unos huevos.",
+          "audioSlug": "voy_a_freir_unos_huevos"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_mezcla_la_harina_con_el_agua",
+      "conceptId": "es.kitchen_mezcla_la_harina_con_el_agua",
+      "sourceId": "de.s.dbc3dbd189869ebc",
+      "source": "Misch das Mehl mit dem Wasser.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mezcla la harina con el agua.",
+          "audioSlug": "mezcla_la_harina_con_el_agua"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_la_comida_esta_demasiado_salada",
+      "conceptId": "es.kitchen_la_comida_esta_demasiado_salada",
+      "sourceId": "de.s.eac84e74d5e4b8ed",
+      "source": "Das Essen ist zu salzig.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La comida está demasiado salada.",
+          "audioSlug": "la_comida_esta_demasiado_salada"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_anade_sal_y_pimienta",
+      "conceptId": "es.kitchen_anade_sal_y_pimienta",
+      "sourceId": "de.s.64c66c0ff3433206",
+      "source": "Füge etwas Salz und Pfeffer hinzu.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Añade un poco de sal y pimienta.",
+          "audioSlug": "anade_un_poco_de_sal_y_pimienta"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_la_salsa_lleva_tomate_y_ajo",
+      "conceptId": "es.kitchen_la_salsa_lleva_tomate_y_ajo",
+      "sourceId": "de.s.a6e363745a297d44",
+      "source": "Die Soße enthält Tomate und Knoblauch.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La salsa lleva tomate y ajo.",
+          "audioSlug": "la_salsa_lleva_tomate_y_ajo"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_necesito_azucar_para_el_postre",
+      "conceptId": "es.kitchen_necesito_azucar_para_el_postre",
+      "sourceId": "de.s.0b4e79e3a2811ba4",
+      "source": "Ich brauche Zucker für den Nachtisch.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito azúcar para el postre.",
+          "audioSlug": "necesito_azucar_para_el_postre"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_falta_un_ingrediente_en_la_receta",
+      "conceptId": "es.kitchen_falta_un_ingrediente_en_la_receta",
+      "sourceId": "de.s.62741207cc7aa939",
+      "source": "In dem Rezept fehlt eine Zutat.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Falta un ingrediente en la receta.",
+          "audioSlug": "falta_un_ingrediente_en_la_receta"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_me_encanta_el_chocolate_negro",
+      "conceptId": "es.kitchen_me_encanta_el_chocolate_negro",
+      "sourceId": "de.s.f148f7f26605aa6c",
+      "source": "Ich liebe dunkle Schokolade.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me encanta el chocolate negro.",
+          "audioSlug": "me_encanta_el_chocolate_negro"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_hay_una_botella_de_agua_en_la_mesa",
+      "conceptId": "es.kitchen_hay_una_botella_de_agua_en_la_mesa",
+      "sourceId": "de.s.4af7664ebf36977c",
+      "source": "Auf dem Tisch steht eine Flasche Wasser.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay una botella de agua en la mesa.",
+          "audioSlug": "hay_una_botella_de_agua_en_la_mesa"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_que_bebida_prefieres_con_la_comida",
+      "conceptId": "es.kitchen_que_bebida_prefieres_con_la_comida",
+      "sourceId": "de.s.d20ea79f19e77b4c",
+      "source": "Welches Getränk möchtest du zum Essen?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué bebida prefieres con la comida?",
+          "audioSlug": "que_bebida_prefieres_con_la_comida"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_pica_la_cebolla_muy_fina",
+      "conceptId": "es.kitchen_pica_la_cebolla_muy_fina",
+      "sourceId": "de.s.871d7f3f6d04d0dc",
+      "source": "Schneide die Zwiebel sehr fein.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Pica la cebolla muy fina.",
+          "audioSlug": "pica_la_cebolla_muy_fina"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_ralla_una_zanahoria_para_la_ensalada",
+      "conceptId": "es.kitchen_ralla_una_zanahoria_para_la_ensalada",
+      "sourceId": "de.s.c5b6a70b2cb128ee",
+      "source": "Reibe eine Karotte für den Salat.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ralla una zanahoria para la ensalada.",
+          "audioSlug": "ralla_una_zanahoria_para_la_ensalada"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_unta_mantequilla_en_el_pan",
+      "conceptId": "es.kitchen_unta_mantequilla_en_el_pan",
+      "sourceId": "de.s.3296799625478838",
+      "source": "Streiche Butter auf das Brot.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Unta mantequilla en el pan.",
+          "audioSlug": "unta_mantequilla_en_el_pan"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_desayuno_tostadas_con_mermelada",
+      "conceptId": "es.kitchen_desayuno_tostadas_con_mermelada",
+      "sourceId": "de.s.4d72d408a4ce9c95",
+      "source": "Zum Frühstück gibt es Toast mit Marmelade.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Desayuno tostadas con mermelada.",
+          "audioSlug": "desayuno_tostadas_con_mermelada"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_abre_una_lata_de_atun",
+      "conceptId": "es.kitchen_abre_una_lata_de_atun",
+      "sourceId": "de.s.1e30733cc2c54c81",
+      "source": "Öffne eine Dose Thunfisch.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Abre una lata de atún.",
+          "audioSlug": "abre_una_lata_de_atun"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_el_salmon_se_hace_al_horno",
+      "conceptId": "es.kitchen_el_salmon_se_hace_al_horno",
+      "sourceId": "de.s.6c2580204aa9177a",
+      "source": "Der Lachs wird im Ofen zubereitet.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El salmón se hace al horno.",
+          "audioSlug": "el_salmon_se_hace_al_horno"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_el_cordero_asado_es_su_especialidad",
+      "conceptId": "es.kitchen_el_cordero_asado_es_su_especialidad",
+      "sourceId": "de.s.d9277c9103ed302d",
+      "source": "Der Lammbraten ist ihre Spezialität.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El cordero asado es su especialidad.",
+          "audioSlug": "el_cordero_asado_es_su_especialidad"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_brindamos_con_una_copa_de_champan",
+      "conceptId": "es.kitchen_brindamos_con_una_copa_de_champan",
+      "sourceId": "de.s.02a6437089139d17",
+      "source": "Wir stoßen mit einem Glas Champagner an.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Brindamos con una copa de champán.",
+          "audioSlug": "brindamos_con_una_copa_de_champan"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_tomate_una_taza_de_cafe_caliente",
+      "conceptId": "es.kitchen_tomate_una_taza_de_cafe_caliente",
+      "sourceId": "de.s.123d8233f2771950",
+      "source": "Trink eine Tasse heißen Kaffee.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tómate una taza de café caliente.",
+          "audioSlug": "tomate_una_taza_de_cafe_caliente"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_la_crema_pastelera_esta_deliciosa",
+      "conceptId": "es.kitchen_la_crema_pastelera_esta_deliciosa",
+      "sourceId": "de.s.50248a851e03802f",
+      "source": "Die Konditorcreme ist köstlich.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La crema pastelera está deliciosa.",
+          "audioSlug": "la_crema_pastelera_esta_deliciosa"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_este_postre_lleva_un_poco_de_ron",
+      "conceptId": "es.kitchen_este_postre_lleva_un_poco_de_ron",
+      "sourceId": "de.s.675885e7f2d2204b",
+      "source": "Dieser Nachtisch enthält etwas Rum.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este postre lleva un poco de ron.",
+          "audioSlug": "este_postre_lleva_un_poco_de_ron"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_servimos_un_aperitivo_antes_de_comer",
+      "conceptId": "es.kitchen_servimos_un_aperitivo_antes_de_comer",
+      "sourceId": "de.s.9cf1fa2bcc486d3e",
+      "source": "Wir servieren einen Aperitif vor dem Essen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Servimos un aperitivo antes de comer.",
+          "audioSlug": "servimos_un_aperitivo_antes_de_comer"
+        }
+      ]
+    }
+  ]
+}

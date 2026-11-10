@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "be",
+  "concepts": {
+    "en.gym_this_routine_is_designed_to_work": {
+      "conceptId": "en.gym_this_routine_is_designed_to_work",
+      "id": "gym_this_routine_is_designed_to_work",
+      "target": [
+        {
+          "text": "This routine is designed to work on the triceps.",
+          "audioSlug": "this_routine_is_designed_to_work_on_the_triceps"
+        }
+      ]
+    },
+    "en.health_he_gave_blood_today": {
+      "conceptId": "en.health_he_gave_blood_today",
+      "id": "health_he_gave_blood_today",
+      "target": [
+        {
+          "text": "He gave blood today.",
+          "audioSlug": "he_gave_blood_today"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_the_sky_is_blue": {
+      "conceptId": "en.naturaleza_lugares_the_sky_is_blue",
+      "id": "naturaleza_lugares_the_sky_is_blue",
+      "target": [
+        {
+          "text": "The sky is blue.",
+          "audioSlug": "the_sky_is_blue"
+        }
+      ]
+    },
+    "en.technology_send_me_that_file_via_whatsapp": {
+      "conceptId": "en.technology_send_me_that_file_via_whatsapp",
+      "id": "technology_send_me_that_file_via_whatsapp",
+      "target": [
+        {
+          "text": "Send me that file via WhatsApp.",
+          "audioSlug": "send_me_that_file_via_whatsapp"
+        }
+      ]
+    },
+    "en.theater_intermission_refreshments": {
+      "conceptId": "en.theater_intermission_refreshments",
+      "id": "theater_intermission_refreshments",
+      "target": [
+        {
+          "text": "The intermission is a chance to get refreshments and discuss the play.",
+          "audioSlug": "the_intermission_is_a_chance_to_get_refreshments_and_discuss_the_play"
+        }
+      ]
+    },
+    "en.tiempo_libre_i_like_to_paint": {
+      "conceptId": "en.tiempo_libre_i_like_to_paint",
+      "id": "tiempo_libre_i_like_to_paint",
+      "target": [
+        {
+          "text": "I like to paint.",
+          "audioSlug": "i_like_to_paint"
+        }
+      ]
+    }
+  }
+}

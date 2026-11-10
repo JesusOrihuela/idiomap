@@ -17,7 +17,13 @@
       "gloss_example": {
         "es": "Nos alojamos en un hotel cerca de la playa durante las vacaciones."
       },
-      "conceptId": "en.hotel"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "room",
@@ -36,7 +42,13 @@
       "gloss_example": {
         "es": "Nuestra habitación de hotel tenía vista al mar."
       },
-      "conceptId": "en.room"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "reservation",
@@ -55,7 +67,13 @@
       "gloss_example": {
         "es": "Hice una reserva para dos noches en un hotel cerca del aeropuerto."
       },
-      "conceptId": "en.reservation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "hostel",
@@ -74,7 +92,13 @@
       "gloss_example": {
         "es": "Se hospedó en un hostal para ahorrar dinero durante su viaje de mochilero."
       },
-      "conceptId": "en.hostel"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "key",
@@ -93,7 +117,13 @@
       "gloss_example": {
         "es": "Dejé la llave de mi habitación en recepción antes de ir a la piscina."
       },
-      "conceptId": "en.key"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "checkout",
@@ -112,7 +142,13 @@
       "gloss_example": {
         "es": "La salida es a mediodía. Por favor, devuelve la llave en recepción antes de esa hora."
       },
-      "conceptId": "en.checkout"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "reception",
@@ -131,7 +167,13 @@
       "gloss_example": {
         "es": "Ve a recepción si necesitas toallas adicionales o que te despierten."
       },
-      "conceptId": "en.reception"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "balcony",
@@ -150,7 +192,13 @@
       "gloss_example": {
         "es": "Nuestra habitación tenía un balcón con una hermosa vista al mar."
       },
-      "conceptId": "en.balcony"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "parking",
@@ -169,7 +217,13 @@
       "gloss_example": {
         "es": "¿El hotel ofrece estacionamiento gratuito o tiene un costo adicional?"
       },
-      "conceptId": "en.parking"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "towel",
@@ -188,7 +242,13 @@
       "gloss_example": {
         "es": "Llamamos a recepción para pedir toallas adicionales para la habitación."
       },
-      "conceptId": "en.towel"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "accommodation",
@@ -207,7 +267,13 @@
       "gloss_example": {
         "es": "Reservamos alojamiento cerca del centro de la ciudad durante tres noches."
       },
-      "conceptId": "en.accommodation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "amenities",
@@ -226,7 +292,13 @@
       "gloss_example": {
         "es": "Las instalaciones del hotel incluyen una piscina en la azotea y un spa completo."
       },
-      "conceptId": "en.amenities"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "complimentary",
@@ -245,7 +317,13 @@
       "gloss_example": {
         "es": "El hotel ofrecía desayuno gratuito a todos los huéspedes los fines de semana."
       },
-      "conceptId": "en.complimentary"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "suite",
@@ -264,7 +342,13 @@
       "gloss_example": {
         "es": "Nos mejoraron a una suite en el último piso con una vista espectacular."
       },
-      "conceptId": "en.suite"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "housekeeping",
@@ -283,7 +367,13 @@
       "gloss_example": {
         "es": "Llama al servicio de limpieza si necesitas toallas limpias o que arreglen tu habitación."
       },
-      "conceptId": "en.housekeeping"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "tariff",
@@ -302,7 +392,13 @@
       "gloss_example": {
         "es": "La tarifa del hotel varía según la temporada, con precios más altos en verano."
       },
-      "conceptId": "en.tariff"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "concierge",
@@ -321,7 +417,13 @@
       "gloss_example": {
         "es": "El conserje nos organizó las reservas en restaurantes y las entradas al museo."
       },
-      "conceptId": "en.concierge"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "occupancy",
@@ -340,7 +442,13 @@
       "gloss_example": {
         "es": "El hotel alcanzó la ocupación total durante el congreso internacional."
       },
-      "conceptId": "en.occupancy"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "refund",
@@ -359,7 +467,13 @@
       "gloss_example": {
         "es": "Solicitó un reembolso completo después de que el hotel no pudo darle la habitación reservada."
       },
-      "conceptId": "en.refund"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "invoice",
@@ -378,7 +492,13 @@
       "gloss_example": {
         "es": "Por favor, facilita una factura detallada. La necesito para la contabilidad de mi empresa."
       },
-      "conceptId": "en.invoice"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "complaint",
@@ -397,7 +517,13 @@
       "gloss_example": {
         "es": "Presentó una queja formal por el ruido y recibió un descuento en su factura."
       },
-      "conceptId": "en.complaint"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "waiver",
@@ -416,7 +542,13 @@
       "gloss_example": {
         "es": "Los huéspedes que firman la exención reconocen que el hotel no se hace responsable de las lesiones en el gimnasio."
       },
-      "conceptId": "en.waiver"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "corporate_rate",
@@ -435,7 +567,13 @@
       "gloss_example": {
         "es": "Nuestra empresa tiene una tarifa corporativa con la cadena hotelera que nos ahorra un 20 % por noche."
       },
-      "conceptId": "en.corporate_rate"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "misrepresentation",
@@ -454,7 +592,13 @@
       "gloss_example": {
         "es": "Argumentó que el anuncio constituía una representación falsa y exigió un reembolso completo."
       },
-      "conceptId": "en.misrepresentation"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "arbitration",
@@ -473,7 +617,13 @@
       "gloss_example": {
         "es": "Los términos del servicio del hotel exigen que las disputas se resuelvan mediante arbitraje."
       },
-      "conceptId": "en.arbitration"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "discretion",
@@ -492,7 +642,13 @@
       "gloss_example": {
         "es": "Los cargos por daños se evalúan a discreción exclusiva del hotel, sin un baremo fijo."
       },
-      "conceptId": "en.discretion"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "remittance",
@@ -511,7 +667,13 @@
       "gloss_example": {
         "es": "Por favor, tramita la remesa en un plazo de catorce días a partir de la recepción de la factura."
       },
-      "conceptId": "en.remittance"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bed",
@@ -530,7 +692,13 @@
       "gloss_example": {
         "es": "La cama del hotel era muy cómoda."
       },
-      "conceptId": "en.bed"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "building",
@@ -549,7 +717,13 @@
       "gloss_example": {
         "es": "Viven en un edificio alto en el centro."
       },
-      "conceptId": "en.building"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "garden",
@@ -568,7 +742,13 @@
       "gloss_example": {
         "es": "Cultivan verduras en el jardín."
       },
-      "conceptId": "en.garden"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "wall",
@@ -587,7 +767,13 @@
       "gloss_example": {
         "es": "Colgó un cuadro en la pared."
       },
-      "conceptId": "en.wall"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

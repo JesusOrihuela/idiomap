@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "c2",
+  "concepts": {
+    "es.accommodation_la_habitacion_esta_sucia": {
+      "conceptId": "es.accommodation_la_habitacion_esta_sucia",
+      "id": "accommodation_la_habitacion_esta_sucia",
+      "target": [
+        {
+          "text": "La habitación está sucia, ¿pueden limpiarla?",
+          "audioSlug": "la_habitacion_esta_sucia_pueden_limpiarla"
+        }
+      ]
+    },
+    "es.descripciones_el_oso_es_de_color_marron": {
+      "conceptId": "es.descripciones_el_oso_es_de_color_marron",
+      "id": "descripciones_el_oso_es_de_color_marron",
+      "target": [
+        {
+          "text": "El oso es de color marrón.",
+          "audioSlug": "el_oso_es_de_color_marron"
+        }
+      ]
+    },
+    "es.descripciones_no_seas_tan_egoista_con_los_demas": {
+      "conceptId": "es.descripciones_no_seas_tan_egoista_con_los_demas",
+      "id": "descripciones_no_seas_tan_egoista_con_los_demas",
+      "target": [
+        {
+          "text": "No seas tan egoísta con los demás.",
+          "audioSlug": "no_seas_tan_egoista_con_los_demas"
+        }
+      ]
+    },
+    "es.economia_esta_en_el_paro_desde_enero": {
+      "conceptId": "es.economia_esta_en_el_paro_desde_enero",
+      "id": "economia_esta_en_el_paro_desde_enero",
+      "target": [
+        {
+          "text": "Está en el paro desde enero.",
+          "audioSlug": "esta_en_el_paro_desde_enero"
+        }
+      ]
+    },
+    "es.estudios_me_gusta_aprender_idiomas": {
+      "conceptId": "es.estudios_me_gusta_aprender_idiomas",
+      "id": "estudios_me_gusta_aprender_idiomas",
+      "target": [
+        {
+          "text": "Me gusta aprender idiomas.",
+          "audioSlug": "me_gusta_aprender_idiomas"
+        }
+      ]
+    },
+    "es.family_cuando_es_la_boda": {
+      "conceptId": "es.family_cuando_es_la_boda",
+      "id": "family_cuando_es_la_boda",
+      "target": [
+        {
+          "text": "¿Cuándo es la boda?",
+          "audioSlug": "cuando_es_la_boda"
+        }
+      ]
+    },
+    "es.family_la_nina_pequena_juega_feliz": {
+      "conceptId": "es.family_la_nina_pequena_juega_feliz",
+      "id": "family_la_nina_pequena_juega_feliz",
+      "target": [
+        {
+          "text": "La niña pequeña juega feliz.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Das kleine Mädchen spielt fröhlich.",
+          "audioSlug": "la_nina_pequena_juega_feliz"
+        },
+        {
+          "text": "El niño pequeño juega feliz.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der kleine Junge spielt fröhlich.",
+          "audioSlug": "el_nino_pequeno_juega_feliz"
+        }
+      ]
+    },
+    "es.fiesta_we_danced_all_night": {
+      "conceptId": "es.fiesta_we_danced_all_night",
+      "id": "fiesta_we_danced_all_night",
+      "target": [
+        {
+          "text": "Bailamos toda la noche.",
+          "audioSlug": "bailamos_toda_la_noche"
+        }
+      ]
+    },
+    "es.kitchen_dry_the_sink_after_washing_the": {
+      "conceptId": "es.kitchen_dry_the_sink_after_washing_the",
+      "id": "kitchen_dry_the_sink_after_washing_the",
+      "target": [
+        {
+          "text": "Seca el fregadero después de lavar los platos.",
+          "audioSlug": "seca_el_fregadero_despues_de_lavar_los_platos"
+        }
+      ]
+    },
+    "es.kitchen_the_baking_sheets_are_on_the": {
+      "conceptId": "es.kitchen_the_baking_sheets_are_on_the",
+      "id": "kitchen_the_baking_sheets_are_on_the",
+      "target": [
+        {
+          "text": "Las bandejas para hornear están en la repisa superior.",
+          "audioSlug": "las_bandejas_para_hornear_estan_en_la_repisa_superior"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_debes_recordar_eso": {
+      "conceptId": "es.pensamientos_opiniones_debes_recordar_eso",
+      "id": "pensamientos_opiniones_debes_recordar_eso",
+      "target": [
+        {
+          "text": "Debes recordar eso.",
+          "audioSlug": "debes_recordar_eso"
+        }
+      ]
+    },
+    "es.politica_la_gente_protesta_en_la_calle": {
+      "conceptId": "es.politica_la_gente_protesta_en_la_calle",
+      "id": "politica_la_gente_protesta_en_la_calle",
+      "target": [
+        {
+          "text": "La gente protesta en la calle.",
+          "audioSlug": "la_gente_protesta_en_la_calle"
+        }
+      ]
+    },
+    "es.viajes_necesito_cambiar_euros_por_dolares": {
+      "conceptId": "es.viajes_necesito_cambiar_euros_por_dolares",
+      "id": "viajes_necesito_cambiar_euros_por_dolares",
+      "target": [
+        {
+          "text": "Necesito cambiar euros por dólares.",
+          "audioSlug": "necesito_cambiar_euros_por_dolares"
+        }
+      ]
+    }
+  }
+}

@@ -1,44 +1,488 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "planes",
-  "conceptIds": [
-    "es.planes_tengo_que_decidir",
-    "es.planes_dime_cual_elegir",
-    "es.planes_dejame_intentarlo",
-    "es.planes_voy_a_esperar",
-    "es.planes_voy_a_necesitar_tu_ayuda",
-    "es.planes_necesito_conseguir_uno",
-    "es.planes_te_lo_prometo",
-    "es.planes_prefiero_quedarme_en_casa",
-    "es.planes_aqui_no_lo_permiten",
-    "es.planes_acepto_tu_oferta",
-    "es.planes_vamos_a_acordar_un_plan",
-    "es.planes_quiero_sorprenderte",
-    "es.planes_no_quiero_provocar_problemas",
-    "es.planes_esto_nos_va_a_unir",
-    "es.planes_vamos_a_continuar",
-    "es.planes_hay_que_actuar_ya",
-    "es.planes_no_voy_a_abandonar",
-    "es.planes_hay_que_aprovechar_el_tiempo",
-    "es.planes_nada_me_va_a_detener",
-    "es.planes_me_voy_a_encargar_de_eso",
-    "es.planes_no_me_puedes_obligar",
-    "es.planes_quiero_realizar_mi_sueno",
-    "es.planes_vamos_a_terminar",
-    "es.planes_quiero_participar",
-    "es.planes_necesito_practicar_mas",
-    "es.planes_quiero_mejorar",
-    "es.planes_vamos_a_resolver_el_problema",
-    "es.planes_no_quiero_complicar_las_cosas",
-    "es.planes_es_la_decision_final",
-    "es.planes_ese_es_mi_objetivo",
-    "es.planes_dame_otra_oportunidad",
-    "es.planes_quiero_proponer_una_idea",
-    "es.planes_se_van_a_casar_en_verano",
-    "es.planes_organizamos_una_actividad",
-    "es.planes_quizas_llueva_manana",
-    "es.planes_habre_terminado_manana",
-    "es.planes_habremos_ahorrado"
+  "phrases": [
+    {
+      "conceptId": "es.planes_tengo_que_decidir",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c70ae6573970aa59"
+    },
+    {
+      "conceptId": "es.planes_dime_cual_elegir",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7423ba97f704e3c0"
+    },
+    {
+      "conceptId": "es.planes_dejame_intentarlo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c837744b7e5bc276"
+    },
+    {
+      "conceptId": "es.planes_voy_a_esperar",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bca5f32c91c45fc5"
+    },
+    {
+      "conceptId": "es.planes_voy_a_necesitar_tu_ayuda",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d8c8107967be5cef"
+    },
+    {
+      "conceptId": "es.planes_necesito_conseguir_uno",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b1f0600ceccead4e"
+    },
+    {
+      "conceptId": "es.planes_te_lo_prometo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.85080e043adc2bb6"
+    },
+    {
+      "conceptId": "es.planes_prefiero_quedarme_en_casa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.58f7ddd31c52cd30"
+    },
+    {
+      "conceptId": "es.planes_aqui_no_lo_permiten",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fed9cb883c1e12a7"
+    },
+    {
+      "conceptId": "es.planes_acepto_tu_oferta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d04ff31df1095589"
+    },
+    {
+      "conceptId": "es.planes_vamos_a_acordar_un_plan",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2a5abfc735463749"
+    },
+    {
+      "conceptId": "es.planes_quiero_sorprenderte",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0e47cae6b916bccb"
+    },
+    {
+      "conceptId": "es.planes_no_quiero_provocar_problemas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fe4ee531335e45e0"
+    },
+    {
+      "conceptId": "es.planes_esto_nos_va_a_unir",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.288e21825859ea1d"
+    },
+    {
+      "conceptId": "es.planes_vamos_a_continuar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3ac610cefd120053"
+    },
+    {
+      "conceptId": "es.planes_hay_que_actuar_ya",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3a1735c5babf3b01"
+    },
+    {
+      "conceptId": "es.planes_no_voy_a_abandonar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9aa4532b56819ea4"
+    },
+    {
+      "conceptId": "es.planes_hay_que_aprovechar_el_tiempo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6557bb95d64448a9"
+    },
+    {
+      "conceptId": "es.planes_nada_me_va_a_detener",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.592011c0065984cd"
+    },
+    {
+      "conceptId": "es.planes_me_voy_a_encargar_de_eso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.de967c266c2d15e7"
+    },
+    {
+      "conceptId": "es.planes_no_me_puedes_obligar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.62de6a91dca07cc0"
+    },
+    {
+      "conceptId": "es.planes_quiero_realizar_mi_sueno",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2b65c83df1523fe5"
+    },
+    {
+      "conceptId": "es.planes_vamos_a_terminar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0047b68f495af04a"
+    },
+    {
+      "conceptId": "es.planes_quiero_participar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3ccfa9fa5f666ce5"
+    },
+    {
+      "conceptId": "es.planes_necesito_practicar_mas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0712a1ab4d326d0f"
+    },
+    {
+      "conceptId": "es.planes_quiero_mejorar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.371d05c7995f643e"
+    },
+    {
+      "conceptId": "es.planes_vamos_a_resolver_el_problema",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8ea54851b18a47fa"
+    },
+    {
+      "conceptId": "es.planes_no_quiero_complicar_las_cosas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5b04d06c2f6b8684"
+    },
+    {
+      "conceptId": "es.planes_es_la_decision_final",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.26451e0dfc1276ce"
+    },
+    {
+      "conceptId": "es.planes_ese_es_mi_objetivo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.52df0146924fd33e"
+    },
+    {
+      "conceptId": "es.planes_dame_otra_oportunidad",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.872e3e32814e65c2"
+    },
+    {
+      "conceptId": "es.planes_quiero_proponer_una_idea",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9f7ccdfcbda924df"
+    },
+    {
+      "conceptId": "es.planes_se_van_a_casar_en_verano",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c539632fcad8034a"
+    },
+    {
+      "conceptId": "es.planes_organizamos_una_actividad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bc9e3c1d0a8720ba"
+    },
+    {
+      "conceptId": "es.planes_quizas_llueva_manana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7b09fc77220f94a1"
+    },
+    {
+      "conceptId": "es.planes_habre_terminado_manana",
+      "level": "C2",
+      "grammar": "El futuro perfecto (habré + participio) expresa una acción futura ya completada.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4435ed6972f5080c"
+    },
+    {
+      "conceptId": "es.planes_habremos_ahorrado",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cb7cebed4a718576"
+    }
   ]
 }

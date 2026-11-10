@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "e9",
+  "concepts": {
+    "es.calendario_in_winter_its_cold": {
+      "conceptId": "es.calendario_in_winter_its_cold",
+      "id": "calendario_in_winter_its_cold",
+      "target": [
+        {
+          "text": "En invierno hace frío.",
+          "audioSlug": "en_invierno_hace_frio"
+        }
+      ]
+    },
+    "es.conversacion_dejame_explicarte": {
+      "conceptId": "es.conversacion_dejame_explicarte",
+      "id": "conversacion_dejame_explicarte",
+      "target": [
+        {
+          "text": "Déjame explicarte.",
+          "audioSlug": "dejame_explicarte"
+        }
+      ]
+    },
+    "es.emociones_im_worried": {
+      "conceptId": "es.emociones_im_worried",
+      "id": "emociones_im_worried",
+      "target": [
+        {
+          "text": "Estoy preocupada.",
+          "audioSlug": "estoy_preocupada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy preocupado.",
+          "audioSlug": "estoy_preocupado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.greetings_good_morning_its_nice_to_see": {
+      "conceptId": "es.greetings_good_morning_its_nice_to_see",
+      "id": "greetings_good_morning_its_nice_to_see",
+      "target": [
+        {
+          "text": "Buenos días, es un placer verte.",
+          "audioSlug": "buenos_dias_es_un_placer_verte"
+        }
+      ]
+    },
+    "es.kitchen_compre_una_botella_de_agua": {
+      "conceptId": "es.kitchen_compre_una_botella_de_agua",
+      "id": "kitchen_compre_una_botella_de_agua",
+      "target": [
+        {
+          "text": "Compré una botella de agua.",
+          "audioSlug": "compre_una_botella_de_agua"
+        }
+      ]
+    },
+    "es.movies_series_recommendation": {
+      "conceptId": "es.movies_series_recommendation",
+      "id": "movies_series_recommendation",
+      "target": [
+        {
+          "text": "¿Qué serie me recomiendas ver?",
+          "audioSlug": "que_serie_me_recomiendas_ver"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_es_un_bonito_recuerdo": {
+      "conceptId": "es.pensamientos_opiniones_es_un_bonito_recuerdo",
+      "id": "pensamientos_opiniones_es_un_bonito_recuerdo",
+      "target": [
+        {
+          "text": "Es un bonito recuerdo.",
+          "audioSlug": "es_un_bonito_recuerdo"
+        }
+      ]
+    },
+    "es.technology_me_gusta_el_diseno_de_esta_pagina": {
+      "conceptId": "es.technology_me_gusta_el_diseno_de_esta_pagina",
+      "id": "technology_me_gusta_el_diseno_de_esta_pagina",
+      "target": [
+        {
+          "text": "Me gusta el diseño de esta página.",
+          "audioSlug": "me_gusta_el_diseno_de_esta_pagina"
+        }
+      ]
+    }
+  }
+}

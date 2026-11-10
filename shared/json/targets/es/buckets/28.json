@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "28",
+  "concepts": {
+    "es.conversacion_i_understand_what_you_mean": {
+      "conceptId": "es.conversacion_i_understand_what_you_mean",
+      "id": "conversacion_i_understand_what_you_mean",
+      "target": [
+        {
+          "text": "Entiendo lo que quieres decir.",
+          "audioSlug": "entiendo_lo_que_quieres_decir"
+        }
+      ]
+    },
+    "es.conversacion_ya_se_habian_ido": {
+      "conceptId": "es.conversacion_ya_se_habian_ido",
+      "id": "conversacion_ya_se_habian_ido",
+      "target": [
+        {
+          "text": "Cuando llegué, ellos ya se habían ido.",
+          "audioSlug": "cuando_llegue_ellos_ya_se_habian_ido"
+        }
+      ]
+    },
+    "es.descripciones_el_gato_esta_un_poco_gordo": {
+      "conceptId": "es.descripciones_el_gato_esta_un_poco_gordo",
+      "id": "descripciones_el_gato_esta_un_poco_gordo",
+      "target": [
+        {
+          "text": "El gato está un poco gordo.",
+          "audioSlug": "el_gato_esta_un_poco_gordo"
+        }
+      ]
+    },
+    "es.economia_pega_un_sello_en_el_sobre": {
+      "conceptId": "es.economia_pega_un_sello_en_el_sobre",
+      "id": "economia_pega_un_sello_en_el_sobre",
+      "target": [
+        {
+          "text": "Pega un sello en el sobre.",
+          "audioSlug": "pega_un_sello_en_el_sobre"
+        }
+      ]
+    },
+    "es.estudios_saque_una_buena_nota": {
+      "conceptId": "es.estudios_saque_una_buena_nota",
+      "id": "estudios_saque_una_buena_nota",
+      "target": [
+        {
+          "text": "Saqué una buena nota en el examen.",
+          "audioSlug": "saque_una_buena_nota_en_el_examen"
+        }
+      ]
+    },
+    "es.greetings_lovely_see_you_looking_well": {
+      "conceptId": "es.greetings_lovely_see_you_looking_well",
+      "id": "greetings_lovely_see_you_looking_well",
+      "target": [
+        {
+          "text": "Qué bueno verte tan bien.",
+          "audioSlug": "que_bueno_verte_tan_bien"
+        }
+      ]
+    },
+    "es.greetings_muy_bien_gracias_y_tu": {
+      "conceptId": "es.greetings_muy_bien_gracias_y_tu",
+      "id": "greetings_muy_bien_gracias_y_tu",
+      "target": [
+        {
+          "text": "Muy bien, gracias, ¿y tú?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "muy_bien_gracias_y_tu"
+        },
+        {
+          "text": "Muy bien, gracias, ¿y usted?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "muy_bien_gracias_y_usted"
+        }
+      ]
+    },
+    "es.health_debes_tomar_la_medicina_dos_veces_al_dia": {
+      "conceptId": "es.health_debes_tomar_la_medicina_dos_veces_al_dia",
+      "id": "health_debes_tomar_la_medicina_dos_veces_al_dia",
+      "target": [
+        {
+          "text": "Debes tomar la medicina dos veces al día.",
+          "audioSlug": "debes_tomar_la_medicina_dos_veces_al_dia"
+        }
+      ]
+    },
+    "es.kitchen_cook_over_low_heat": {
+      "conceptId": "es.kitchen_cook_over_low_heat",
+      "id": "kitchen_cook_over_low_heat",
+      "target": [
+        {
+          "text": "Cocínalo a fuego lento.",
+          "audioSlug": "cocinalo_a_fuego_lento"
+        }
+      ]
+    },
+    "es.kitchen_el_cordero_asado_es_su_especialidad": {
+      "conceptId": "es.kitchen_el_cordero_asado_es_su_especialidad",
+      "id": "kitchen_el_cordero_asado_es_su_especialidad",
+      "target": [
+        {
+          "text": "El cordero asado es su especialidad.",
+          "audioSlug": "el_cordero_asado_es_su_especialidad"
+        }
+      ]
+    },
+    "es.kitchen_umami_depth_fish_sauce_miso": {
+      "conceptId": "es.kitchen_umami_depth_fish_sauce_miso",
+      "id": "kitchen_umami_depth_fish_sauce_miso",
+      "target": [
+        {
+          "text": "Unas gotas de salsa de pescado o pasta de miso intensifican el umami de cualquier plato.",
+          "audioSlug": "unas_gotas_de_salsa_de_pescado_o_pasta_de_miso_intensifican_el_umami_de_cualquier_plato"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_mar_esta_tranquilo_hoy": {
+      "conceptId": "es.naturaleza_lugares_el_mar_esta_tranquilo_hoy",
+      "id": "naturaleza_lugares_el_mar_esta_tranquilo_hoy",
+      "target": [
+        {
+          "text": "El mar está tranquilo hoy.",
+          "audioSlug": "el_mar_esta_tranquilo_hoy"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_un_pajaro_canta_en_el_arbol": {
+      "conceptId": "es.naturaleza_lugares_un_pajaro_canta_en_el_arbol",
+      "id": "naturaleza_lugares_un_pajaro_canta_en_el_arbol",
+      "target": [
+        {
+          "text": "Un pájaro canta en el árbol.",
+          "audioSlug": "un_pajaro_canta_en_el_arbol"
+        }
+      ]
+    },
+    "es.politica_la_reina_saludo_a_la_gente": {
+      "conceptId": "es.politica_la_reina_saludo_a_la_gente",
+      "id": "politica_la_reina_saludo_a_la_gente",
+      "target": [
+        {
+          "text": "La reina saludó a la gente.",
+          "audioSlug": "la_reina_saludo_a_la_gente"
+        }
+      ]
+    },
+    "es.technology_the_information_is_in_the_attached": {
+      "conceptId": "es.technology_the_information_is_in_the_attached",
+      "id": "technology_the_information_is_in_the_attached",
+      "target": [
+        {
+          "text": "La información está en el archivo adjunto.",
+          "audioSlug": "la_informacion_esta_en_el_archivo_adjunto"
+        }
+      ]
+    }
+  }
+}

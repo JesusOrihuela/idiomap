@@ -1,36 +1,384 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "daily_routine",
-  "conceptIds": [
-    "en.daily_routine_what_time_get_up",
-    "en.daily_routine_i_get_up_at_seven",
-    "en.daily_routine_breakfast_at_eight",
-    "en.daily_routine_go_to_work_by_bus",
-    "en.daily_routine_lunch_at_one",
-    "en.daily_routine_get_home_at_six",
-    "en.daily_routine_dinner_at_nine",
-    "en.daily_routine_go_to_bed_at_eleven",
-    "en.daily_routine_i_sleep_eight_hours",
-    "en.daily_routine_morning_go_to_gym",
-    "en.daily_routine_shower_every_day",
-    "en.daily_routine_weekends",
-    "en.daily_routine_always_busy_afternoon",
-    "en.daily_routine_usually_coffee",
-    "en.daily_routine_brush_teeth",
-    "en.daily_routine_rest_on_sundays",
-    "en.daily_routine_i_wake_up_early",
-    "en.daily_routine_i_leave_home_at_eight",
-    "en.daily_routine_i_study_english_every_day",
-    "en.daily_routine_i_watch_tv_at_night",
-    "en.daily_routine_i_prepare_breakfast",
-    "en.daily_routine_i_have_coffee_before_leaving",
-    "en.daily_routine_i_read_before_sleeping",
-    "en.daily_routine_what_do_you_do_before_breakfast",
-    "en.daily_routine_i_check_email_at_work",
-    "en.daily_routine_i_study_every_night",
-    "en.daily_routine_sometimes_i_sit_and_read",
-    "en.daily_routine_was_cooking_when_called",
-    "en.daily_routine_was_walking_when_rained"
+  "phrases": [
+    {
+      "conceptId": "en.daily_routine_what_time_get_up",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3d618df77aac8da2"
+    },
+    {
+      "conceptId": "en.daily_routine_i_get_up_at_seven",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a73616b4bf77f3c2"
+    },
+    {
+      "conceptId": "en.daily_routine_breakfast_at_eight",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.af42b7b652402be8"
+    },
+    {
+      "conceptId": "en.daily_routine_go_to_work_by_bus",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e505873ff4b85a4b"
+    },
+    {
+      "conceptId": "en.daily_routine_lunch_at_one",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6be19a18d146f55b"
+    },
+    {
+      "conceptId": "en.daily_routine_get_home_at_six",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8cfbec1af8fa2dd9"
+    },
+    {
+      "conceptId": "en.daily_routine_dinner_at_nine",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f78627e30b28fcf3"
+    },
+    {
+      "conceptId": "en.daily_routine_go_to_bed_at_eleven",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a00c9f801e9f262d"
+    },
+    {
+      "conceptId": "en.daily_routine_i_sleep_eight_hours",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.11fee45dcb40f7a0"
+    },
+    {
+      "conceptId": "en.daily_routine_morning_go_to_gym",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ac30b7947baadbd1"
+    },
+    {
+      "conceptId": "en.daily_routine_shower_every_day",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.21dd83677c95ec8e"
+    },
+    {
+      "conceptId": "en.daily_routine_weekends",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.07e991b17c9911d9"
+    },
+    {
+      "conceptId": "en.daily_routine_always_busy_afternoon",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b26d6b549db748eb"
+    },
+    {
+      "conceptId": "en.daily_routine_usually_coffee",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.91013f0adbdc4a49"
+    },
+    {
+      "conceptId": "en.daily_routine_brush_teeth",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d175684015b1aebd"
+    },
+    {
+      "conceptId": "en.daily_routine_rest_on_sundays",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.aef4b8dbb8742687"
+    },
+    {
+      "conceptId": "en.daily_routine_i_wake_up_early",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8960310b8e95cef1"
+    },
+    {
+      "conceptId": "en.daily_routine_i_leave_home_at_eight",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.16e96a35629f5fc7"
+    },
+    {
+      "conceptId": "en.daily_routine_i_study_english_every_day",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e0d56f2d227853bb"
+    },
+    {
+      "conceptId": "en.daily_routine_i_watch_tv_at_night",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.70ad2c550238b498"
+    },
+    {
+      "conceptId": "en.daily_routine_i_prepare_breakfast",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f85277a316cf583f"
+    },
+    {
+      "conceptId": "en.daily_routine_i_have_coffee_before_leaving",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9881e8deedab5462"
+    },
+    {
+      "conceptId": "en.daily_routine_i_read_before_sleeping",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6cbaf1d99ef81f85"
+    },
+    {
+      "conceptId": "en.daily_routine_what_do_you_do_before_breakfast",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e3267c835e8d971e"
+    },
+    {
+      "conceptId": "en.daily_routine_i_check_email_at_work",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.65c7cc29ea4a9a09"
+    },
+    {
+      "conceptId": "en.daily_routine_i_study_every_night",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c4d8026bc9fd5fb4"
+    },
+    {
+      "conceptId": "en.daily_routine_sometimes_i_sit_and_read",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.745b3f20b73b01b1"
+    },
+    {
+      "conceptId": "en.daily_routine_was_cooking_when_called",
+      "level": "B1",
+      "grammar": "'Was/were + -ing' is the past continuous, an action in progress interrupted by another.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.72d1649bd2e4a78d"
+    },
+    {
+      "conceptId": "en.daily_routine_was_walking_when_rained",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dd002b193182ef21"
+    }
   ]
 }

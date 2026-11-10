@@ -1,54 +1,618 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "conversacion",
-  "conceptIds": [
-    "es.conversacion_podemos_hablar",
-    "es.conversacion_puedo_preguntar_algo",
-    "es.conversacion_no_supe_que_responder",
-    "es.conversacion_alguien_puede_contestar",
-    "es.conversacion_dejame_explicarte",
-    "es.conversacion_no_me_gusta_discutir",
-    "es.conversacion_no_hace_falta_gritar",
-    "es.conversacion_no_volvere_a_mencionar_eso",
-    "es.conversacion_no_tengo_comentarios",
-    "es.conversacion_no_te_puedo_oir",
-    "es.conversacion_te_voy_a_contar_algo",
-    "es.conversacion_no_lo_puedo_entender",
-    "es.conversacion_ahora_te_comprendo",
-    "es.conversacion_no_te_rias_de_mi",
-    "es.conversacion_te_creo",
-    "es.conversacion_quiero_comentar_algo",
-    "es.conversacion_tengo_algo_que_anunciar",
-    "es.conversacion_puedes_repetir_eso",
-    "es.conversacion_no_te_quejes_tanto",
-    "es.conversacion_te_voy_a_avisar",
-    "es.conversacion_debo_admitir_mi_error",
-    "es.conversacion_te_quiero_agradecer",
-    "es.conversacion_me_refiero_a_esto",
-    "es.conversacion_te_perdono",
-    "es.conversacion_necesito_silencio",
-    "es.conversacion_dime_la_verdad",
-    "es.conversacion_que_te_preocupa",
-    "es.conversacion_hay_algo_que_pueda_hacer_por_ti",
-    "es.conversacion_la_explicacion_es_muy_clara",
-    "es.conversacion_se_que_lo_puedes_lograr",
-    "es.conversacion_puedes_disponer_de_mi_ayuda",
-    "es.conversacion_te_quiero_animar",
-    "es.conversacion_lo_lei_en_el_periodico",
-    "es.conversacion_compre_una_revista",
-    "es.conversacion_lei_una_carta",
-    "es.conversacion_dame_un_ejemplo",
-    "es.conversacion_sigue_mi_consejo",
-    "es.conversacion_agradezco_tu_interes",
-    "es.conversacion_de_acuerdo",
-    "es.conversacion_un_momento",
-    "es.conversacion_esa_es_la_historia",
-    "es.conversacion_todavia_no_he_terminado",
-    "es.conversacion_tuvimos_una_discusion_larga",
-    "es.conversacion_ya_habia_comido",
-    "es.conversacion_ya_se_habian_ido",
-    "es.conversacion_me_dijo_que_llegaria",
-    "es.conversacion_pregunto_si_terminamos"
+  "phrases": [
+    {
+      "conceptId": "es.conversacion_podemos_hablar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.253f1bc00897b666"
+    },
+    {
+      "conceptId": "es.conversacion_puedo_preguntar_algo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.320d60913c1a392b"
+    },
+    {
+      "conceptId": "es.conversacion_no_supe_que_responder",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fab37dcd2febe618"
+    },
+    {
+      "conceptId": "es.conversacion_alguien_puede_contestar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f3692f07cb297ae1"
+    },
+    {
+      "conceptId": "es.conversacion_dejame_explicarte",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.78bdabf989d53f47"
+    },
+    {
+      "conceptId": "es.conversacion_no_me_gusta_discutir",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3f2c60d6708c5b74"
+    },
+    {
+      "conceptId": "es.conversacion_no_hace_falta_gritar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.be77f9b1fcf6d1c7"
+    },
+    {
+      "conceptId": "es.conversacion_no_volvere_a_mencionar_eso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.de4c9fe78039efe3"
+    },
+    {
+      "conceptId": "es.conversacion_no_tengo_comentarios",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5ae359ad65112a80"
+    },
+    {
+      "conceptId": "es.conversacion_no_te_puedo_oir",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.aac63f14bff86fe7"
+    },
+    {
+      "conceptId": "es.conversacion_te_voy_a_contar_algo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2c071d60eb3056b4"
+    },
+    {
+      "conceptId": "es.conversacion_no_lo_puedo_entender",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.18fbea6bedfc01a2"
+    },
+    {
+      "conceptId": "es.conversacion_ahora_te_comprendo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0ef3d68e1ce5fda5"
+    },
+    {
+      "conceptId": "es.conversacion_no_te_rias_de_mi",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.07bac15bf47084dd"
+    },
+    {
+      "conceptId": "es.conversacion_te_creo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e006a1a007e2a85e"
+    },
+    {
+      "conceptId": "es.conversacion_quiero_comentar_algo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2bba4a1cefb0f47c"
+    },
+    {
+      "conceptId": "es.conversacion_tengo_algo_que_anunciar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.68e158c45b570461"
+    },
+    {
+      "conceptId": "es.conversacion_puedes_repetir_eso",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fa058d43f8c054d5"
+    },
+    {
+      "conceptId": "es.conversacion_no_te_quejes_tanto",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f9f13afd2c749bef"
+    },
+    {
+      "conceptId": "es.conversacion_te_voy_a_avisar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f0807e3e37c19688"
+    },
+    {
+      "conceptId": "es.conversacion_debo_admitir_mi_error",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.26eec2c93fa69e45"
+    },
+    {
+      "conceptId": "es.conversacion_te_quiero_agradecer",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d264e2824de826ca"
+    },
+    {
+      "conceptId": "es.conversacion_me_refiero_a_esto",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6be6b4f2dfee2aff"
+    },
+    {
+      "conceptId": "es.conversacion_te_perdono",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.54403ab870f531cd"
+    },
+    {
+      "conceptId": "es.conversacion_necesito_silencio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0469785f8e7253d2"
+    },
+    {
+      "conceptId": "es.conversacion_dime_la_verdad",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3125edca0b21e7ea"
+    },
+    {
+      "conceptId": "es.conversacion_que_te_preocupa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a62ed288a9248acf"
+    },
+    {
+      "conceptId": "es.conversacion_hay_algo_que_pueda_hacer_por_ti",
+      "level": "B1",
+      "grammar": "'Hay algo que + subjuntivo' expresa disponibilidad; el subjuntivo señala posibilidad abierta.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.693aaaf18a6e206d"
+    },
+    {
+      "conceptId": "es.conversacion_la_explicacion_es_muy_clara",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.daad68f8445393a2"
+    },
+    {
+      "conceptId": "es.conversacion_se_que_lo_puedes_lograr",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1e8b114e53574e98"
+    },
+    {
+      "conceptId": "es.conversacion_puedes_disponer_de_mi_ayuda",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.aecf7003fe390fb9"
+    },
+    {
+      "conceptId": "es.conversacion_te_quiero_animar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a6cef78a8ba22c02"
+    },
+    {
+      "conceptId": "es.conversacion_lo_lei_en_el_periodico",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b438e1ffa03f6ef4"
+    },
+    {
+      "conceptId": "es.conversacion_compre_una_revista",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d7096c3f690fb750"
+    },
+    {
+      "conceptId": "es.conversacion_lei_una_carta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c6e47d12e0a6713c"
+    },
+    {
+      "conceptId": "es.conversacion_dame_un_ejemplo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.21dda29d2b56fe73"
+    },
+    {
+      "conceptId": "es.conversacion_sigue_mi_consejo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c9e69853f339ef1a"
+    },
+    {
+      "conceptId": "es.conversacion_agradezco_tu_interes",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b6c66c99eac29601"
+    },
+    {
+      "conceptId": "es.conversacion_de_acuerdo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a8b5d514196582fc"
+    },
+    {
+      "conceptId": "es.conversacion_un_momento",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.07a56f19b6ec2fbc"
+    },
+    {
+      "conceptId": "es.conversacion_esa_es_la_historia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ff0fd119aaaab4b6"
+    },
+    {
+      "conceptId": "es.conversacion_todavia_no_he_terminado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8b01758b203be97a"
+    },
+    {
+      "conceptId": "es.conversacion_tuvimos_una_discusion_larga",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9f99802f1740746f"
+    },
+    {
+      "conceptId": "es.conversacion_ya_habia_comido",
+      "level": "C1",
+      "grammar": "El pluscuamperfecto (había + participio) marca una acción anterior a otra pasada.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7897f6850a656e10"
+    },
+    {
+      "conceptId": "es.conversacion_ya_se_habian_ido",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ae8b9fc960869607"
+    },
+    {
+      "conceptId": "es.conversacion_me_dijo_que_llegaria",
+      "level": "C2",
+      "grammar": "En estilo indirecto el tiempo del verbo cambia (llegará pasa a llegaría).",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.286a18da3d276091"
+    },
+    {
+      "conceptId": "es.conversacion_pregunto_si_terminamos",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6b271769b11c0321"
+    }
   ]
 }

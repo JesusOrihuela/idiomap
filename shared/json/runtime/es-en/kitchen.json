@@ -1,0 +1,1697 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "kitchen",
+  "phrases": [
+    {
+      "id": "kitchen_do_we_have_enough_eggs_for",
+      "conceptId": "en.kitchen_do_we_have_enough_eggs_for",
+      "sourceId": "es.s.b7bbf939ba793c75",
+      "source": "¿Tenemos suficientes huevos para la receta?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do we have enough eggs for the recipe?",
+          "audioSlug": "do_we_have_enough_eggs_for_the_recipe"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_pass_me_the_cutting_board",
+      "conceptId": "en.kitchen_pass_me_the_cutting_board",
+      "sourceId": "es.s.0d06e281dcdabb97",
+      "source": "Pásame la tabla de cortar.",
+      "level": "A1",
+      "grammar": "'Can you pass me...?' politely asks someone to hand you something.",
+      "target": [
+        {
+          "text": "Pass me the cutting board.",
+          "audioSlug": "pass_me_the_cutting_board"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_where_do_we_keep_the_measuring",
+      "conceptId": "en.kitchen_where_do_we_keep_the_measuring",
+      "sourceId": "es.s.72b0aaddfbf2aabf",
+      "source": "¿Dónde guardamos las tazas de medir?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where do we keep the measuring cups?",
+          "audioSlug": "where_do_we_keep_the_measuring_cups"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_can_you_pass_me_the_spatula",
+      "conceptId": "en.kitchen_can_you_pass_me_the_spatula",
+      "sourceId": "es.s.e9ab502d7acf6440",
+      "source": "¿Me pasas la espátula?",
+      "level": "A1",
+      "grammar": "'Can you pass me...?' politely asks someone to hand you something.",
+      "target": [
+        {
+          "text": "Can you pass me the spatula?",
+          "audioSlug": "can_you_pass_me_the_spatula"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_do_we_have_any_olive_oil",
+      "conceptId": "en.kitchen_do_we_have_any_olive_oil",
+      "sourceId": "es.s.31527cfd157fc459",
+      "source": "¿Nos queda aceite de oliva?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do we have any olive oil left?",
+          "audioSlug": "do_we_have_any_olive_oil_left"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_pass_me_the_salt_from_the",
+      "conceptId": "en.kitchen_pass_me_the_salt_from_the",
+      "sourceId": "es.s.6e9a67eaeaad2722",
+      "source": "Pásame la sal de la despensa.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Pass me the salt from the pantry.",
+          "audioSlug": "pass_me_the_salt_from_the_pantry"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_we_need_to_replace_the_baking",
+      "conceptId": "en.kitchen_we_need_to_replace_the_baking",
+      "sourceId": "es.s.14c8c04f69ba4851",
+      "source": "Hay que sustituir la levadura en polvo.",
+      "level": "A2",
+      "grammar": "'We need to + verb' expresses a necessary action or step.",
+      "target": [
+        {
+          "text": "We need to replace the baking powder.",
+          "audioSlug": "we_need_to_replace_the_baking_powder"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_mixer_is_in_the_cabinet",
+      "conceptId": "en.kitchen_the_mixer_is_in_the_cabinet",
+      "sourceId": "es.s.a5b7dfadde6b1931",
+      "source": "La batidora está en el armario.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The mixer is in the cabinet.",
+          "audioSlug": "the_mixer_is_in_the_cabinet"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_baking_sheets_are_on_the",
+      "conceptId": "en.kitchen_the_baking_sheets_are_on_the",
+      "sourceId": "es.s.1afd492ec7babb87",
+      "source": "Las bandejas para hornear están en la repisa de arriba.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The baking sheets are on the top shelf.",
+          "audioSlug": "the_baking_sheets_are_on_the_top_shelf"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_do_we_have_any_fresh_herbs",
+      "conceptId": "en.kitchen_do_we_have_any_fresh_herbs",
+      "sourceId": "es.s.ec56ab5de982b13d",
+      "source": "¿Tenemos hierbas frescas?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do we have any fresh herbs?",
+          "audioSlug": "do_we_have_any_fresh_herbs"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_can_you_check_if_the_oven",
+      "conceptId": "en.kitchen_can_you_check_if_the_oven",
+      "sourceId": "es.s.e10dc38e1b949839",
+      "source": "¿Puedes comprobar si el horno está precalentado?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Can you check if the oven is preheated?",
+          "audioSlug": "can_you_check_if_the_oven_is_preheated"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_baking_soda_will_help_the_dough",
+      "conceptId": "en.kitchen_baking_soda_will_help_the_dough",
+      "sourceId": "es.s.05447dec3c469b10",
+      "source": "El bicarbonato de sodio ayudará a que la masa suba.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Baking soda will help the dough rise.",
+          "audioSlug": "baking_soda_will_help_the_dough_rise"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_do_we_have_parchment_paper_to",
+      "conceptId": "en.kitchen_do_we_have_parchment_paper_to",
+      "sourceId": "es.s.b76621109f17804d",
+      "source": "¿Tenemos papel pergamino para forrar la bandeja del horno?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do we have parchment paper to line the baking sheet?",
+          "audioSlug": "do_we_have_parchment_paper_to_line_the_baking_sheet"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_help_me_peel_the_carrots_and",
+      "conceptId": "en.kitchen_help_me_peel_the_carrots_and",
+      "sourceId": "es.s.ce2674cffc7a3b03",
+      "source": "Ayúdame a pelar las zanahorias y las papas.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Help me peel the carrots and potatoes.",
+          "audioSlug": "help_me_peel_the_carrots_and_potatoes"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_we_need_to_wash_the_cheese",
+      "conceptId": "en.kitchen_we_need_to_wash_the_cheese",
+      "sourceId": "es.s.788887b93696ef98",
+      "source": "Hay que lavar el rallador para el queso.",
+      "level": "A1",
+      "grammar": "'We need to + verb' expresses a necessary action or step.",
+      "target": [
+        {
+          "text": "We need to wash the cheese grater.",
+          "audioSlug": "we_need_to_wash_the_cheese_grater"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_do_we_have_vanilla_extract_for",
+      "conceptId": "en.kitchen_do_we_have_vanilla_extract_for",
+      "sourceId": "es.s.6018faa36c6f90a7",
+      "source": "¿Tenemos extracto de vainilla para la tarta?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do we have vanilla extract for the cake?",
+          "audioSlug": "do_we_have_vanilla_extract_for_the_cake"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_could_you_rinse_the_vegetables_with",
+      "conceptId": "en.kitchen_could_you_rinse_the_vegetables_with",
+      "sourceId": "es.s.ad511d8f773f9f97",
+      "source": "¿Podrías enjuagar las verduras con agua fría?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you rinse the vegetables with cold water?",
+          "audioSlug": "could_you_rinse_the_vegetables_with_cold_water",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you rinse the vegetables with cold water?",
+          "audioSlug": "can_you_rinse_the_vegetables_with_cold_water",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_knives_need_sharpening",
+      "conceptId": "en.kitchen_the_knives_need_sharpening",
+      "sourceId": "es.s.aec7ef96fe58e5b4",
+      "source": "A los cuchillos les falta filo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The knives need sharpening.",
+          "audioSlug": "the_knives_need_sharpening"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_we_need_to_take_the_meat",
+      "conceptId": "en.kitchen_we_need_to_take_the_meat",
+      "sourceId": "es.s.685db8518a4efdf5",
+      "source": "Hay que sacar la carne del congelador con tiempo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We need to take the meat out of the freezer.",
+          "audioSlug": "we_need_to_take_the_meat_out_of_the_freezer"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_spices_and_condiments_are_in",
+      "conceptId": "en.kitchen_the_spices_and_condiments_are_in",
+      "sourceId": "es.s.56e630d22e8f3270",
+      "source": "Las especias están en el gabinete junto al fregadero.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The spices are in the cabinet next to the sink.",
+          "audioSlug": "the_spices_are_in_the_cabinet_next_to_the_sink"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_do_we_have_aluminum_foil_to",
+      "conceptId": "en.kitchen_do_we_have_aluminum_foil_to",
+      "sourceId": "es.s.8b1daee825241c74",
+      "source": "¿Tenemos papel de aluminio para envolver las sobras?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do we have aluminum foil to wrap up the leftovers?",
+          "audioSlug": "do_we_have_aluminum_foil_to_wrap_up_the_leftovers",
+          "labels": {
+            "region": "US"
+          }
+        },
+        {
+          "text": "Do we have aluminium foil to wrap up the leftovers?",
+          "audioSlug": "do_we_have_aluminium_foil_to_wrap_up_the_leftovers",
+          "labels": {
+            "region": "UK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kitchen_we_need_to_finely_chop_the",
+      "conceptId": "en.kitchen_we_need_to_finely_chop_the",
+      "sourceId": "es.s.5e1e5c2a3ae74001",
+      "source": "Hay que picar las cebollas finamente.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We need to finely chop the onions.",
+          "audioSlug": "we_need_to_finely_chop_the_onions"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_can_you_pass_me_the_colander",
+      "conceptId": "en.kitchen_can_you_pass_me_the_colander",
+      "sourceId": "es.s.cd5a7a7c86bf286e",
+      "source": "¿Puedes pasarme el escurridor para escurrir la pasta?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Can you pass me the colander to drain the pasta?",
+          "audioSlug": "can_you_pass_me_the_colander_to_drain_the_pasta",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Could you pass me the colander to drain the pasta?",
+          "audioSlug": "could_you_pass_me_the_colander_to_drain_the_pasta",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kitchen_we_need_to_buy_unsalted_butter",
+      "conceptId": "en.kitchen_we_need_to_buy_unsalted_butter",
+      "sourceId": "es.s.ab4a11e51ff5de9b",
+      "source": "Hay que comprar mantequilla sin sal.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We need to buy unsalted butter.",
+          "audioSlug": "we_need_to_buy_unsalted_butter"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_could_you_help_me_open_this",
+      "conceptId": "en.kitchen_could_you_help_me_open_this",
+      "sourceId": "es.s.488ae672f618ab76",
+      "source": "¿Podrías ayudarme a abrir este tarro, por favor?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you help me open this jar, please?",
+          "audioSlug": "could_you_help_me_open_this_jar_please",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you help me open this jar, please?",
+          "audioSlug": "can_you_help_me_open_this_jar_please",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_recipe_calls_for_brown_sugar",
+      "conceptId": "en.kitchen_the_recipe_calls_for_brown_sugar",
+      "sourceId": "es.s.c548c3037a4796c3",
+      "source": "En la receta se utiliza azúcar morena en lugar de azúcar blanca.",
+      "level": "B1",
+      "grammar": "'The recipe calls for' means the recipe requires that ingredient.",
+      "target": [
+        {
+          "text": "The recipe calls for brown sugar instead of white sugar.",
+          "audioSlug": "the_recipe_calls_for_brown_sugar_instead_of_white_sugar"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_rolling_pin_to_flatten_the",
+      "conceptId": "en.kitchen_the_rolling_pin_to_flatten_the",
+      "sourceId": "es.s.389497e4c6961875",
+      "source": "El rodillo está en el cajón.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The rolling pin is in the drawer.",
+          "audioSlug": "the_rolling_pin_is_in_the_drawer"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_whats_the_difference_between_a_pot",
+      "conceptId": "en.kitchen_whats_the_difference_between_a_pot",
+      "sourceId": "es.s.f37e5ab90c10622c",
+      "source": "¿Cuál es la diferencia entre una cacerola y una sartén?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What's the difference between a pot and a pan?",
+          "audioSlug": "what_s_the_difference_between_a_pot_and_a_pan"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_do_we_have_breadcrumbs_to_coat",
+      "conceptId": "en.kitchen_do_we_have_breadcrumbs_to_coat",
+      "sourceId": "es.s.02d649b2042b57c5",
+      "source": "¿Tenemos pan rallado para rebozar el pollo?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Do we have breadcrumbs to coat the chicken?",
+          "audioSlug": "do_we_have_breadcrumbs_to_coat_the_chicken"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_where_do_we_keep_the_plastic",
+      "conceptId": "en.kitchen_where_do_we_keep_the_plastic",
+      "sourceId": "es.s.be47329cb1326842",
+      "source": "¿Dónde guardamos el plástico para envolver?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where do we keep the plastic wrap?",
+          "audioSlug": "where_do_we_keep_the_plastic_wrap"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_milk_has_curdled",
+      "conceptId": "en.kitchen_the_milk_has_curdled",
+      "sourceId": "es.s.01000d57c6aced7a",
+      "source": "La leche se cortó.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The milk has curdled.",
+          "audioSlug": "the_milk_has_curdled"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_this_sauce_has_expired",
+      "conceptId": "en.kitchen_this_sauce_has_expired",
+      "sourceId": "es.s.3eba4fc6e8eef359",
+      "source": "Esta salsa está caducada.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This sauce has expired.",
+          "audioSlug": "this_sauce_has_expired"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_we_dont_have_the_necessary_ingredients",
+      "conceptId": "en.kitchen_we_dont_have_the_necessary_ingredients",
+      "sourceId": "es.s.1a5d88efcf48d98e",
+      "source": "No tenemos los ingredientes necesarios para hacer la receta.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We don't have the necessary ingredients to make the recipe.",
+          "audioSlug": "we_don_t_have_the_necessary_ingredients_to_make_the_recipe"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_reducing_the_sauce_will_take_time",
+      "conceptId": "en.kitchen_reducing_the_sauce_will_take_time",
+      "sourceId": "es.s.e3ab3e66b2580d42",
+      "source": "La reducción de la salsa llevará tiempo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Reducing the sauce will take time.",
+          "audioSlug": "reducing_the_sauce_will_take_time"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_salad_will_need_oil_vinegar",
+      "conceptId": "en.kitchen_the_salad_will_need_oil_vinegar",
+      "sourceId": "es.s.d16c42fd9870009d",
+      "source": "La ensalada va a llevar aceite, vinagre y sal.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The salad will need oil, vinegar, and salt.",
+          "audioSlug": "the_salad_will_need_oil_vinegar_and_salt"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_could_you_help_me_sift_the",
+      "conceptId": "en.kitchen_could_you_help_me_sift_the",
+      "sourceId": "es.s.54cc9aeec7e44892",
+      "source": "¿Podrías ayudarme a tamizar la harina?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you help me sift the flour?",
+          "audioSlug": "could_you_help_me_sift_the_flour",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you help me sift the flour?",
+          "audioSlug": "can_you_help_me_sift_the_flour",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kitchen_put_the_leftovers_in_plastic_containers",
+      "conceptId": "en.kitchen_put_the_leftovers_in_plastic_containers",
+      "sourceId": "es.s.bc4e8cc5b2d93966",
+      "source": "Pon las sobras en recipientes de plástico.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Put the leftovers in plastic containers.",
+          "audioSlug": "put_the_leftovers_in_plastic_containers"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_theres_leftover_broth_for_the_soup",
+      "conceptId": "en.kitchen_theres_leftover_broth_for_the_soup",
+      "sourceId": "es.s.735d84f458d40ee8",
+      "source": "Sobró caldo para la sopa.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "There's leftover broth for the soup.",
+          "audioSlug": "there_s_leftover_broth_for_the_soup"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_be_careful_with_the_hot_pot",
+      "conceptId": "en.kitchen_be_careful_with_the_hot_pot",
+      "sourceId": "es.s.1ebfbc82170d0dcd",
+      "source": "Ten cuidado con la olla caliente.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Be careful with the hot pot.",
+          "audioSlug": "be_careful_with_the_hot_pot"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_soup_needs_more_salt",
+      "conceptId": "en.kitchen_the_soup_needs_more_salt",
+      "sourceId": "es.s.b692006f88f1f22b",
+      "source": "Le falta sal a la sopa.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The soup needs more salt.",
+          "audioSlug": "the_soup_needs_more_salt"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_have_you_already_cut_the_vegetables",
+      "conceptId": "en.kitchen_have_you_already_cut_the_vegetables",
+      "sourceId": "es.s.ff499f33d456997b",
+      "source": "¿Ya cortaste las verduras?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Have you already cut the vegetables?",
+          "audioSlug": "have_you_already_cut_the_vegetables"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_add_a_little_sugar_to_the",
+      "conceptId": "en.kitchen_add_a_little_sugar_to_the",
+      "sourceId": "es.s.5236dee17a7028a2",
+      "source": "Agrega un poco de azúcar a la salsa.",
+      "level": "A2",
+      "grammar": "The imperative gives direct recipe instructions: 'chop', 'add', 'fold'.",
+      "target": [
+        {
+          "text": "Add a little sugar to the sauce.",
+          "audioSlug": "add_a_little_sugar_to_the_sauce"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_we_need_to_preheat_the_oven",
+      "conceptId": "en.kitchen_we_need_to_preheat_the_oven",
+      "sourceId": "es.s.cfd7ccf685402314",
+      "source": "Hay que precalentar el horno.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We need to preheat the oven.",
+          "audioSlug": "we_need_to_preheat_the_oven"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_take_the_food_out_of_the",
+      "conceptId": "en.kitchen_take_the_food_out_of_the",
+      "sourceId": "es.s.b2174d0c55fe2234",
+      "source": "Saca la comida del refrigerador.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Take the food out of the refrigerator.",
+          "audioSlug": "take_the_food_out_of_the_refrigerator",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Take the food out of the fridge.",
+          "audioSlug": "take_the_food_out_of_the_fridge",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kitchen_tonight_were_making_homemade_pizza",
+      "conceptId": "en.kitchen_tonight_were_making_homemade_pizza",
+      "sourceId": "es.s.70fbcdc5911aebdf",
+      "source": "Esta noche hacemos pizza casera.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tonight we're making homemade pizza.",
+          "audioSlug": "tonight_we_re_making_homemade_pizza"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_im_going_to_make_chicken_and",
+      "conceptId": "en.kitchen_im_going_to_make_chicken_and",
+      "sourceId": "es.s.624d2fe0f80ecbaa",
+      "source": "Voy a hacer pollo con arroz esta noche.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I am going to make chicken and rice tonight.",
+          "audioSlug": "i_am_going_to_make_chicken_and_rice_tonight"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_i_need_a_tablespoon_of_butter",
+      "conceptId": "en.kitchen_i_need_a_tablespoon_of_butter",
+      "sourceId": "es.s.ed0ac9fe6a042c5a",
+      "source": "Necesito una cucharada de mantequilla para esta receta.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I need a tablespoon of butter for this recipe.",
+          "audioSlug": "i_need_a_tablespoon_of_butter_for_this_recipe"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_could_you_chop_the_vegetables_into",
+      "conceptId": "en.kitchen_could_you_chop_the_vegetables_into",
+      "sourceId": "es.s.5cc55eb94f20f2b5",
+      "source": "¿Podrías cortar las verduras en trozos pequeños, por favor?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you chop the vegetables into small pieces, please?",
+          "audioSlug": "could_you_chop_the_vegetables_into_small_pieces_please",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you chop the vegetables into small pieces, please?",
+          "audioSlug": "can_you_chop_the_vegetables_into_small_pieces_please",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_pan_is_too_hot_lower",
+      "conceptId": "en.kitchen_the_pan_is_too_hot_lower",
+      "sourceId": "es.s.02c8c64441c4652d",
+      "source": "Baja el fuego porque la sartén está muy caliente.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Lower the heat because the pan is too hot.",
+          "audioSlug": "lower_the_heat_because_the_pan_is_too_hot"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_where_are_the_clean_dishes",
+      "conceptId": "en.kitchen_where_are_the_clean_dishes",
+      "sourceId": "es.s.610bb415ad78bc62",
+      "source": "¿Dónde están los platos limpios?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where are the clean dishes?",
+          "audioSlug": "where_are_the_clean_dishes"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_wash_the_fruit_before_cutting_it",
+      "conceptId": "en.kitchen_wash_the_fruit_before_cutting_it",
+      "sourceId": "es.s.59e36d80997b744f",
+      "source": "Lava las frutas antes de cortarlas.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Wash the fruit before cutting it.",
+          "audioSlug": "wash_the_fruit_before_cutting_it"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_to_make_flan_you_have_to",
+      "conceptId": "en.kitchen_to_make_flan_you_have_to",
+      "sourceId": "es.s.54424d6432827d9a",
+      "source": "Para hacer el flan hay que caramelizar el azúcar.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "To make flan, you have to caramelize the sugar.",
+          "audioSlug": "to_make_flan_you_have_to_caramelize_the_sugar"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_flan_bake_bain_marie",
+      "conceptId": "en.kitchen_flan_bake_bain_marie",
+      "sourceId": "es.s.2ee6675f7662f418",
+      "source": "El flan debe hornearse en baño maría dentro del horno.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Flan must be baked in a water bath inside the oven.",
+          "audioSlug": "flan_must_be_baked_in_a_water_bath_inside_the_oven"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_to_cook_chicken_better_you_have",
+      "conceptId": "en.kitchen_to_cook_chicken_better_you_have",
+      "sourceId": "es.s.39a24f131cdde536",
+      "source": "Para cocinar mejor el pollo hay que bridar sus patas.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "To cook chicken better, you have to truss its legs.",
+          "audioSlug": "to_cook_chicken_better_you_have_to_truss_its_legs"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_let_the_pizza_dough_rest_before",
+      "conceptId": "en.kitchen_let_the_pizza_dough_rest_before",
+      "sourceId": "es.s.e49fc5dd13cf1098",
+      "source": "Hay que dejar reposar la masa de la pizza antes de estirarla.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Let the pizza dough rest before stretching it.",
+          "audioSlug": "let_the_pizza_dough_rest_before_stretching_it"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_season_the_chicken_with_salt_pepper",
+      "conceptId": "en.kitchen_season_the_chicken_with_salt_pepper",
+      "sourceId": "es.s.078ba16333cd318a",
+      "source": "Condimenta el pollo con sal, pimienta y ajo.",
+      "level": "A2",
+      "grammar": "The imperative gives direct recipe instructions: 'chop', 'add', 'fold'.",
+      "target": [
+        {
+          "text": "Season the chicken with salt, pepper, and garlic.",
+          "audioSlug": "season_the_chicken_with_salt_pepper_and_garlic"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_while_i_remove_the_fish_bones",
+      "conceptId": "en.kitchen_while_i_remove_the_fish_bones",
+      "sourceId": "es.s.4c969d83b7ab7f03",
+      "source": "¿Puedes precalentar el horno mientras limpio el pescado?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Could you preheat the oven while I clean the fish?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "could_you_preheat_the_oven_while_i_clean_the_fish"
+        },
+        {
+          "text": "Can you preheat the oven while I clean the fish?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "can_you_preheat_the_oven_while_i_clean_the_fish"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_stove_doesnt_seem_to_be",
+      "conceptId": "en.kitchen_the_stove_doesnt_seem_to_be",
+      "sourceId": "es.s.d9faa8aff73645bf",
+      "source": "La estufa no parece estar funcionando.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The stove doesn't seem to be working.",
+          "audioSlug": "the_stove_doesn_t_seem_to_be_working"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_we_need_to_skim_the_broth",
+      "conceptId": "en.kitchen_we_need_to_skim_the_broth",
+      "sourceId": "es.s.658069ce9f065812",
+      "source": "Hay que desgrasar el caldo antes de servirlo.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We need to skim the broth before serving it.",
+          "audioSlug": "we_need_to_skim_the_broth_before_serving_it"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_bread_the_fish_with_breadcrumbs_and",
+      "conceptId": "en.kitchen_bread_the_fish_with_breadcrumbs_and",
+      "sourceId": "es.s.5a825d1c6024c3c8",
+      "source": "Empaniza el pescado con pan rallado y huevo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Bread the fish with breadcrumbs and egg.",
+          "audioSlug": "bread_the_fish_with_breadcrumbs_and_egg"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_sauce_needs_more_salt",
+      "conceptId": "en.kitchen_the_sauce_needs_more_salt",
+      "sourceId": "es.s.67ee90d847b67b85",
+      "source": "A la salsa le falta sal.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The sauce needs more salt.",
+          "audioSlug": "the_sauce_needs_more_salt"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_peel_the_potatoes_and_then_slice",
+      "conceptId": "en.kitchen_peel_the_potatoes_and_then_slice",
+      "sourceId": "es.s.3d526b9274f69459",
+      "source": "Se pelan las papas y luego se cortan en rodajas.",
+      "level": "A2",
+      "grammar": "The imperative gives direct recipe instructions: 'chop', 'add', 'fold'.",
+      "target": [
+        {
+          "text": "Peel the potatoes and then slice them.",
+          "audioSlug": "peel_the_potatoes_and_then_slice_them"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_steam_the_vegetables",
+      "conceptId": "en.kitchen_steam_the_vegetables",
+      "sourceId": "es.s.045f3718bba086d4",
+      "source": "Las verduras se cocinan al vapor.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Steam the vegetables.",
+          "audioSlug": "steam_the_vegetables"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_grill_the_meat",
+      "conceptId": "en.kitchen_grill_the_meat",
+      "sourceId": "es.s.b70776d14f4c32d1",
+      "source": "La carne se cocina a la parrilla.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Grill the meat.",
+          "audioSlug": "grill_the_meat"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_boil_the_pasta_in_hot_water",
+      "conceptId": "en.kitchen_boil_the_pasta_in_hot_water",
+      "sourceId": "es.s.4c0441ceea452904",
+      "source": "La pasta se cuece en agua hirviendo.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Boil the pasta in hot water.",
+          "audioSlug": "boil_the_pasta_in_hot_water"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_fry_the_potatoes_in_hot_oil",
+      "conceptId": "en.kitchen_fry_the_potatoes_in_hot_oil",
+      "sourceId": "es.s.6d1a6123927e9bc4",
+      "source": "Las papas se fríen en aceite caliente.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Fry the potatoes in hot oil.",
+          "audioSlug": "fry_the_potatoes_in_hot_oil"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_we_need_to_broil_the_cheese",
+      "conceptId": "en.kitchen_we_need_to_broil_the_cheese",
+      "sourceId": "es.s.c7dabc2be6a0646b",
+      "source": "Hay que gratinar el queso para que la lasaña quede dorada.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We need to broil the cheese to make the lasagna golden.",
+          "audioSlug": "we_need_to_broil_the_cheese_to_make_the_lasagna_golden"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_best_side_dish_for_fish",
+      "conceptId": "en.kitchen_the_best_side_dish_for_fish",
+      "sourceId": "es.s.917b46443c880b76",
+      "source": "La mejor guarnición para el pescado es el arroz.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The best side dish for fish is rice.",
+          "audioSlug": "the_best_side_dish_for_fish_is_rice"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_best_side_dish_for_meat",
+      "conceptId": "en.kitchen_the_best_side_dish_for_meat",
+      "sourceId": "es.s.0037b032819824ef",
+      "source": "La mejor guarnición para la carne es la ensalada.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The best side dish for meat is salad.",
+          "audioSlug": "the_best_side_dish_for_meat_is_salad"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_best_side_dish_for_pasta",
+      "conceptId": "en.kitchen_the_best_side_dish_for_pasta",
+      "sourceId": "es.s.2edf05ad3b086a30",
+      "source": "La mejor guarnición para la pasta es el pan de ajo.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The best side dish for pasta is garlic bread.",
+          "audioSlug": "the_best_side_dish_for_pasta_is_garlic_bread"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_best_side_dish_for_chicken",
+      "conceptId": "en.kitchen_the_best_side_dish_for_chicken",
+      "sourceId": "es.s.59a43fc2842715ff",
+      "source": "La mejor guarnición para el pollo es el puré de papa.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The best side dish for chicken is mashed potatoes.",
+          "audioSlug": "the_best_side_dish_for_chicken_is_mashed_potatoes"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_before_cooking_pasta_we_have_to",
+      "conceptId": "en.kitchen_before_cooking_pasta_we_have_to",
+      "sourceId": "es.s.08cb6fd3d967a0d7",
+      "source": "Hay que esperar a que el agua hierva.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We have to wait for the water to boil.",
+          "audioSlug": "we_have_to_wait_for_the_water_to_boil"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_dry_the_sink_after_washing_the",
+      "conceptId": "en.kitchen_dry_the_sink_after_washing_the",
+      "sourceId": "es.s.b29e99f44b1aa944",
+      "source": "Seca el fregadero después de lavar los platos.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Dry the sink after washing the dishes.",
+          "audioSlug": "dry_the_sink_after_washing_the_dishes"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_lower_the_temperature_of_the_freezer",
+      "conceptId": "en.kitchen_lower_the_temperature_of_the_freezer",
+      "sourceId": "es.s.449a7c74deb8f3ba",
+      "source": "Baja la temperatura del congelador.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Lower the temperature of the freezer.",
+          "audioSlug": "lower_the_temperature_of_the_freezer"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_i_prefer_to_use_the_electric",
+      "conceptId": "en.kitchen_i_prefer_to_use_the_electric",
+      "sourceId": "es.s.65bdcd631c16dae1",
+      "source": "Prefiero el horno eléctrico al microondas.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I prefer the electric oven over the microwave.",
+          "audioSlug": "i_prefer_the_electric_oven_over_the_microwave"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_glasses_are_hanging_on_the",
+      "conceptId": "en.kitchen_the_glasses_are_hanging_on_the",
+      "sourceId": "es.s.0619404dc29912cd",
+      "source": "Las copas están colgadas en el estante.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The glasses are hanging on the shelf.",
+          "audioSlug": "the_glasses_are_hanging_on_the_shelf"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_blender_is_in_the_cabinet",
+      "conceptId": "en.kitchen_the_blender_is_in_the_cabinet",
+      "sourceId": "es.s.a2725f1781dc6e66",
+      "source": "La licuadora está en el gabinete.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The blender is in the cabinet.",
+          "audioSlug": "the_blender_is_in_the_cabinet"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_mixer_is_in_the_drawer",
+      "conceptId": "en.kitchen_the_mixer_is_in_the_drawer",
+      "sourceId": "es.s.ce6db2de237706a9",
+      "source": "La batidora está en el cajón.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The mixer is in the drawer.",
+          "audioSlug": "the_mixer_is_in_the_drawer"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_coffee_maker_is_on_the",
+      "conceptId": "en.kitchen_the_coffee_maker_is_on_the",
+      "sourceId": "es.s.cde8dd23c658829e",
+      "source": "La cafetera está en la repisa.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The coffee maker is on the shelf.",
+          "audioSlug": "the_coffee_maker_is_on_the_shelf"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_toaster_is_on_the_table",
+      "conceptId": "en.kitchen_the_toaster_is_on_the_table",
+      "sourceId": "es.s.002b94b6b3cc58e6",
+      "source": "La tostadora está en la mesa.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The toaster is on the table.",
+          "audioSlug": "the_toaster_is_on_the_table"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_sandwich_maker_is_in_the",
+      "conceptId": "en.kitchen_the_sandwich_maker_is_in_the",
+      "sourceId": "es.s.d4be8885af805e75",
+      "source": "La sandwichera está en el armario.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The sandwich maker is in the cabinet.",
+          "audioSlug": "the_sandwich_maker_is_in_the_cabinet"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_pot_is_on_the_stove",
+      "conceptId": "en.kitchen_the_pot_is_on_the_stove",
+      "sourceId": "es.s.a196388dbf894df1",
+      "source": "La olla está en la estufa.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The pot is on the stove.",
+          "audioSlug": "the_pot_is_on_the_stove"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_pan_is_in_the_sink",
+      "conceptId": "en.kitchen_the_pan_is_in_the_sink",
+      "sourceId": "es.s.60c06a502c51ace2",
+      "source": "La sartén está en el fregadero.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The pan is in the sink.",
+          "audioSlug": "the_pan_is_in_the_sink"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_casserole_dish_is_in_the",
+      "conceptId": "en.kitchen_the_casserole_dish_is_in_the",
+      "sourceId": "es.s.93ac0cd7064e160b",
+      "source": "La cacerola está en el horno.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The casserole dish is in the oven.",
+          "audioSlug": "the_casserole_dish_is_in_the_oven"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_grill_is_on_the_patio",
+      "conceptId": "en.kitchen_the_grill_is_on_the_patio",
+      "sourceId": "es.s.cd7e3e1bfb268d34",
+      "source": "La parrilla está en el patio.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The grill is on the patio.",
+          "audioSlug": "the_grill_is_on_the_patio"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_forks_and_knives_are_in",
+      "conceptId": "en.kitchen_the_forks_and_knives_are_in",
+      "sourceId": "es.s.c45d48a6bf04bef8",
+      "source": "Los tenedores y cuchillos están en el cajón.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The forks and knives are in the drawer.",
+          "audioSlug": "the_forks_and_knives_are_in_the_drawer"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_we_need_to_wash_the_spoons",
+      "conceptId": "en.kitchen_we_need_to_wash_the_spoons",
+      "sourceId": "es.s.18da45e2923b690e",
+      "source": "Hay que lavar las cucharas.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We need to wash the spoons.",
+          "audioSlug": "we_need_to_wash_the_spoons"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_cutting_board_is_in_the",
+      "conceptId": "en.kitchen_the_cutting_board_is_in_the",
+      "sourceId": "es.s.5b34884d01ea67bd",
+      "source": "La tabla de cortar está en el cajón.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The cutting board is in the drawer.",
+          "audioSlug": "the_cutting_board_is_in_the_drawer"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_glasses_and_cups_are_in",
+      "conceptId": "en.kitchen_the_glasses_and_cups_are_in",
+      "sourceId": "es.s.776c6d7a006eca0d",
+      "source": "Los vasos y tazas están en el gabinete.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The glasses and cups are in the cabinet.",
+          "audioSlug": "the_glasses_and_cups_are_in_the_cabinet"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_fruit_bowl_is_on_the",
+      "conceptId": "en.kitchen_the_fruit_bowl_is_on_the",
+      "sourceId": "es.s.d7f4e8a748a3f235",
+      "source": "El frutero está en la mesa.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The fruit bowl is on the table.",
+          "audioSlug": "the_fruit_bowl_is_on_the_table"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_deglaze_pan_white_wine",
+      "conceptId": "en.kitchen_deglaze_pan_white_wine",
+      "sourceId": "es.s.cd641bed1bc839e9",
+      "source": "Normalmente desglaso la sartén con vino blanco para crear la base de sabor de la salsa.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I usually deglaze the pan with white wine to build the sauce's flavor base.",
+          "audioSlug": "i_usually_deglaze_the_pan_with_white_wine_to_build_the_sauce_s_flavor_base"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_fold_egg_whites_not_stir",
+      "conceptId": "en.kitchen_fold_egg_whites_not_stir",
+      "sourceId": "es.s.774aedad65b4b236",
+      "source": "Incorpora las claras a la mezcla con movimientos envolventes en lugar de revolver.",
+      "level": "B2",
+      "grammar": "'Rather than + gerund' contrasts two methods: 'fold rather than stirring'.",
+      "target": [
+        {
+          "text": "Fold the egg whites into the batter rather than stirring them in.",
+          "audioSlug": "fold_the_egg_whites_into_the_batter_rather_than_stirring_them_in"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_let_meat_rest_juices_redistribute",
+      "conceptId": "en.kitchen_let_meat_rest_juices_redistribute",
+      "sourceId": "es.s.849972753db7e1c5",
+      "source": "Deja reposar la carne cinco minutos después de cocinarla para que los jugos se redistribuyan.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Let the meat rest for five minutes after cooking so the juices redistribute.",
+          "audioSlug": "let_the_meat_rest_for_five_minutes_after_cooking_so_the_juices_redistribute"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_blanch_vegetables_before_stir_fry",
+      "conceptId": "en.kitchen_blanch_vegetables_before_stir_fry",
+      "sourceId": "es.s.faf1b28a863eb41c",
+      "source": "Esta receta requiere blanquear las verduras antes de agregarlas al salteado.",
+      "level": "B2",
+      "grammar": "'Calls for + gerund' means 'requires': 'this recipe calls for blanching'.",
+      "target": [
+        {
+          "text": "This recipe calls for blanching the vegetables before adding them to the stir-fry.",
+          "audioSlug": "this_recipe_calls_for_blanching_the_vegetables_before_adding_them_to_the_stir_fry"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_score_duck_skin_fat_renders",
+      "conceptId": "en.kitchen_score_duck_skin_fat_renders",
+      "sourceId": "es.s.9eeee1600d3c6c5c",
+      "source": "Hacer cortes en la piel de la pechuga de pato ayuda a que la grasa se derrita de forma más uniforme.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Scoring the duck breast skin helps the fat render more evenly.",
+          "audioSlug": "scoring_the_duck_breast_skin_helps_the_fat_render_more_evenly"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_emulsified_vinaigrette_add_oil_slowly",
+      "conceptId": "en.kitchen_emulsified_vinaigrette_add_oil_slowly",
+      "sourceId": "es.s.681e496153575c17",
+      "source": "La clave de una vinagreta bien emulsionada es añadir el aceite muy despacio mientras se bate constantemente.",
+      "level": "C1",
+      "grammar": "'The key to X is + gerund' states the essential condition for success.",
+      "target": [
+        {
+          "text": "The key to a well-emulsified vinaigrette is adding the oil very slowly while whisking constantly.",
+          "audioSlug": "the_key_to_a_well_emulsified_vinaigrette_is_adding_the_oil_very_slowly_while_whisking_constantly"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_sauce_breaks_rescue_cold_water",
+      "conceptId": "en.kitchen_sauce_breaks_rescue_cold_water",
+      "sourceId": "es.s.8971a9afee03e933",
+      "source": "Si la salsa se corta, recupérala añadiendo agua fría y batiendo con energía.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "If the sauce breaks, rescue it by adding cold water and whisking vigorously.",
+          "audioSlug": "if_the_sauce_breaks_rescue_it_by_adding_cold_water_and_whisking_vigorously"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_brine_chicken_overnight_juicier",
+      "conceptId": "en.kitchen_brine_chicken_overnight_juicier",
+      "sourceId": "es.s.61629f2a4622feac",
+      "source": "Dejar el pollo en salmuera durante la noche produce una carne notablemente más jugosa y sabrosa.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Brining the chicken overnight in salted water results in noticeably juicier and more flavorful meat.",
+          "audioSlug": "brining_the_chicken_overnight_in_salted_water_results_in_noticeably_juicier_and_more_flavorful_meat"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_caramelized_onions_deglaze_balsamic",
+      "conceptId": "en.kitchen_caramelized_onions_deglaze_balsamic",
+      "sourceId": "es.s.d1f41de9a7b264f8",
+      "source": "Carameliza las cebollas y desglasa con vinagre balsámico para dar profundidad.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Caramelize the onions and deglaze with balsamic vinegar for depth.",
+          "audioSlug": "caramelize_the_onions_and_deglaze_with_balsamic_vinegar_for_depth"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_make_day_ahead_flavors_meld",
+      "conceptId": "en.kitchen_make_day_ahead_flavors_meld",
+      "sourceId": "es.s.c5229534d7873948",
+      "source": "Este plato mejora si se prepara con anticipación, ya que los sabores se fusionan durante la noche.",
+      "level": "C1",
+      "grammar": "'Benefits from being made' uses gerund after 'from' when the subject is not the actor.",
+      "target": [
+        {
+          "text": "This dish benefits from being made ahead, as the flavors meld overnight.",
+          "audioSlug": "this_dish_benefits_from_being_made_ahead_as_the_flavors_meld_overnight"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_temper_eggs_hot_liquid",
+      "conceptId": "en.kitchen_temper_eggs_hot_liquid",
+      "sourceId": "es.s.34da4208b70b95f5",
+      "source": "Para temperar los huevos, incorpora poco a poco un cucharón de líquido caliente antes de mezclar.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "To temper eggs, slowly whisk in a ladleful of hot liquid before combining.",
+          "audioSlug": "to_temper_eggs_slowly_whisk_in_a_ladleful_of_hot_liquid_before_combining"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_season_throughout_not_just_end",
+      "conceptId": "en.kitchen_season_throughout_not_just_end",
+      "sourceId": "es.s.41e24be6c2eb2c36",
+      "source": "No esperes hasta el final para sazonar. Prueba y ajusta durante toda la cocción.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Don't wait until the end to season. Taste and adjust throughout cooking.",
+          "audioSlug": "don_t_wait_until_the_end_to_season_taste_and_adjust_throughout_cooking"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_prep_ingredients_before_start",
+      "conceptId": "en.kitchen_prep_ingredients_before_start",
+      "sourceId": "es.s.bb44c522ebf83009",
+      "source": "Siempre preparo todos los ingredientes antes de cocinar. Eso hace que todo fluya mejor.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I always prep all my ingredients before cooking. It makes everything run smoothly.",
+          "audioSlug": "i_always_prep_all_my_ingredients_before_cooking_it_makes_everything_run_smoothly"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_umami_depth_fish_sauce_miso",
+      "conceptId": "en.kitchen_umami_depth_fish_sauce_miso",
+      "sourceId": "es.s.f47e4117b0549239",
+      "source": "Una pequeña cantidad de salsa de pescado o pasta de miso intensifica el umami en cualquier plato salado.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "A small amount of fish sauce or miso paste deepens the umami in any savory dish.",
+          "audioSlug": "a_small_amount_of_fish_sauce_or_miso_paste_deepens_the_umami_in_any_savory_dish"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_cure_salmon_salt_sugar_dill",
+      "conceptId": "en.kitchen_cure_salmon_salt_sugar_dill",
+      "sourceId": "es.s.50ee90e34675acf3",
+      "source": "Cubre el salmón con sal, azúcar y eneldo para curarlo.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Coat the salmon in salt, sugar and dill to cure it.",
+          "audioSlug": "coat_the_salmon_in_salt_sugar_and_dill_to_cure_it"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_water_is_boiling",
+      "conceptId": "en.kitchen_water_is_boiling",
+      "sourceId": "es.s.d0ddf9662733ad13",
+      "source": "El agua está hirviendo.",
+      "level": "A1",
+      "grammar": "For something happening now, use the present continuous ('is boiling'), not the simple present.",
+      "target": [
+        {
+          "text": "The water is boiling.",
+          "audioSlug": "the_water_is_boiling"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_it_smells_good",
+      "conceptId": "en.kitchen_it_smells_good",
+      "sourceId": "es.s.51e972d281deea22",
+      "source": "Huele muy bien.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It smells really good.",
+          "audioSlug": "it_smells_really_good"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_dinner_is_ready",
+      "conceptId": "en.kitchen_dinner_is_ready",
+      "sourceId": "es.s.7b0a205fdc5c23d9",
+      "source": "La cena está lista.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Dinner is ready.",
+          "audioSlug": "dinner_is_ready"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_set_the_table",
+      "conceptId": "en.kitchen_set_the_table",
+      "sourceId": "es.s.6d848288e19b7346",
+      "source": "¿Puedes poner la mesa?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Can you set the table?",
+          "audioSlug": "can_you_set_the_table"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_wash_your_hands",
+      "conceptId": "en.kitchen_wash_your_hands",
+      "sourceId": "es.s.d68e1085b3ad7833",
+      "source": "Lávate las manos antes de comer.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Wash your hands before eating.",
+          "audioSlug": "wash_your_hands_before_eating"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_turn_off_the_stove",
+      "conceptId": "en.kitchen_turn_off_the_stove",
+      "sourceId": "es.s.591270849dbd6d3d",
+      "source": "Apaga la estufa.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Turn off the stove.",
+          "audioSlug": "turn_off_the_stove"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_im_hungry",
+      "conceptId": "en.kitchen_im_hungry",
+      "sourceId": "es.s.1c92f5548f68c73c",
+      "source": "Tengo hambre.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm hungry.",
+          "audioSlug": "i_m_hungry"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_cook_over_low_heat",
+      "conceptId": "en.kitchen_cook_over_low_heat",
+      "sourceId": "es.s.772dacd4ed6781ca",
+      "source": "Cocínalo a fuego lento.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cook it over low heat.",
+          "audioSlug": "cook_it_over_low_heat"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_soup_is_hot",
+      "conceptId": "en.kitchen_the_soup_is_hot",
+      "sourceId": "es.s.728e8fb76a5f8987",
+      "source": "La sopa está caliente.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The soup is hot.",
+          "audioSlug": "the_soup_is_hot"
+        }
+      ]
+    },
+    {
+      "id": "kitchen_the_water_is_cold",
+      "conceptId": "en.kitchen_the_water_is_cold",
+      "sourceId": "es.s.71579dfd8a8b9849",
+      "source": "El agua está fría.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The water is cold.",
+          "audioSlug": "the_water_is_cold"
+        }
+      ]
+    }
+  ]
+}

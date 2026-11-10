@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "a6",
+  "concepts": {
+    "en.conversacion_tell_me_the_truth": {
+      "conceptId": "en.conversacion_tell_me_the_truth",
+      "id": "conversacion_tell_me_the_truth",
+      "target": [
+        {
+          "text": "Tell me the truth.",
+          "audioSlug": "tell_me_the_truth"
+        }
+      ]
+    },
+    "en.conversacion_what_s_on_your_mind": {
+      "conceptId": "en.conversacion_what_s_on_your_mind",
+      "id": "conversacion_what_s_on_your_mind",
+      "target": [
+        {
+          "text": "What's on your mind?",
+          "audioSlug": "what_s_on_your_mind"
+        }
+      ]
+    },
+    "en.emergencias_i_lost_my_keys": {
+      "conceptId": "en.emergencias_i_lost_my_keys",
+      "id": "emergencias_i_lost_my_keys",
+      "target": [
+        {
+          "text": "I lost my keys.",
+          "audioSlug": "i_lost_my_keys"
+        }
+      ]
+    },
+    "en.estudios_the_library_is_quiet": {
+      "conceptId": "en.estudios_the_library_is_quiet",
+      "id": "estudios_the_library_is_quiet",
+      "target": [
+        {
+          "text": "The library is quiet.",
+          "audioSlug": "the_library_is_quiet"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_it_is_a_big_rock": {
+      "conceptId": "en.naturaleza_lugares_it_is_a_big_rock",
+      "id": "naturaleza_lugares_it_is_a_big_rock",
+      "target": [
+        {
+          "text": "It is a big rock.",
+          "audioSlug": "it_is_a_big_rock"
+        }
+      ]
+    },
+    "en.restaurant_dish_not_matching_description": {
+      "conceptId": "en.restaurant_dish_not_matching_description",
+      "id": "restaurant_dish_not_matching_description",
+      "target": [
+        {
+          "text": "This dish doesn't match the menu description. Could you clarify what's in it?",
+          "audioSlug": "this_dish_doesn_t_match_the_menu_description_could_you_clarify_what_s_in_it"
+        }
+      ]
+    },
+    "en.supermarket_im_looking_for_a_cake_for": {
+      "conceptId": "en.supermarket_im_looking_for_a_cake_for",
+      "id": "supermarket_im_looking_for_a_cake_for",
+      "target": [
+        {
+          "text": "I'm looking for a cake for a birthday party.",
+          "audioSlug": "i_m_looking_for_a_cake_for_a_birthday_party"
+        }
+      ]
+    },
+    "en.theater_moving_play": {
+      "conceptId": "en.theater_moving_play",
+      "id": "theater_moving_play",
+      "target": [
+        {
+          "text": "The play was very moving.",
+          "audioSlug": "the_play_was_very_moving"
+        }
+      ]
+    },
+    "en.tiempo_libre_play_guitar_weekends": {
+      "conceptId": "en.tiempo_libre_play_guitar_weekends",
+      "id": "tiempo_libre_play_guitar_weekends",
+      "target": [
+        {
+          "text": "I play the guitar on weekends.",
+          "audioSlug": "i_play_the_guitar_on_weekends"
+        }
+      ]
+    },
+    "en.viajes_i_love_trips": {
+      "conceptId": "en.viajes_i_love_trips",
+      "id": "viajes_i_love_trips",
+      "target": [
+        {
+          "text": "I love trips.",
+          "audioSlug": "i_love_trips"
+        }
+      ]
+    },
+    "en.viajes_where_will_you_spend_your_vacation": {
+      "conceptId": "en.viajes_where_will_you_spend_your_vacation",
+      "id": "viajes_where_will_you_spend_your_vacation",
+      "target": [
+        {
+          "text": "Where will you spend your vacation?",
+          "labels": {
+            "region": "US"
+          },
+          "audioSlug": "where_will_you_spend_your_vacation"
+        },
+        {
+          "text": "Where will you spend your holiday?",
+          "labels": {
+            "region": "UK"
+          },
+          "audioSlug": "where_will_you_spend_your_holiday"
+        }
+      ]
+    }
+  }
+}

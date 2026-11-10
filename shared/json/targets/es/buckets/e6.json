@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "e6",
+  "concepts": {
+    "es.airport_partner_airline_baggage_liability": {
+      "conceptId": "es.airport_partner_airline_baggage_liability",
+      "id": "airport_partner_airline_baggage_liability",
+      "target": [
+        {
+          "text": "¿La aerolínea asociada que operó la conexión responde por mi equipaje retrasado?",
+          "audioSlug": "la_aerolinea_asociada_que_opero_la_conexion_responde_por_mi_equipaje_retrasado"
+        }
+      ]
+    },
+    "es.conversacion_podemos_hablar": {
+      "conceptId": "es.conversacion_podemos_hablar",
+      "id": "conversacion_podemos_hablar",
+      "target": [
+        {
+          "text": "¿Podemos hablar?",
+          "audioSlug": "podemos_hablar"
+        }
+      ]
+    },
+    "es.cuerpo_tiene_el_cabello_rizado": {
+      "conceptId": "es.cuerpo_tiene_el_cabello_rizado",
+      "id": "cuerpo_tiene_el_cabello_rizado",
+      "target": [
+        {
+          "text": "Tiene el cabello rizado.",
+          "audioSlug": "tiene_el_cabello_rizado"
+        }
+      ]
+    },
+    "es.greetings_ve_a_saludar_a_los_invitados": {
+      "conceptId": "es.greetings_ve_a_saludar_a_los_invitados",
+      "id": "greetings_ve_a_saludar_a_los_invitados",
+      "target": [
+        {
+          "text": "Ve a saludar a los invitados.",
+          "audioSlug": "ve_a_saludar_a_los_invitados"
+        }
+      ]
+    },
+    "es.health_tengo_fiebre_alta": {
+      "conceptId": "es.health_tengo_fiebre_alta",
+      "id": "health_tengo_fiebre_alta",
+      "target": [
+        {
+          "text": "Tengo fiebre alta.",
+          "audioSlug": "tengo_fiebre_alta"
+        }
+      ]
+    },
+    "es.kitchen_bread_the_fish_with_breadcrumbs_and": {
+      "conceptId": "es.kitchen_bread_the_fish_with_breadcrumbs_and",
+      "id": "kitchen_bread_the_fish_with_breadcrumbs_and",
+      "target": [
+        {
+          "text": "Empaniza el pescado con pan rallado y huevo.",
+          "audioSlug": "empaniza_el_pescado_con_pan_rallado_y_huevo"
+        }
+      ]
+    },
+    "es.kitchen_to_make_flan_you_have_to": {
+      "conceptId": "es.kitchen_to_make_flan_you_have_to",
+      "id": "kitchen_to_make_flan_you_have_to",
+      "target": [
+        {
+          "text": "Para hacer el flan hay que caramelizar el azúcar.",
+          "audioSlug": "para_hacer_el_flan_hay_que_caramelizar_el_azucar"
+        }
+      ]
+    },
+    "es.planes_quiero_realizar_mi_sueno": {
+      "conceptId": "es.planes_quiero_realizar_mi_sueno",
+      "id": "planes_quiero_realizar_mi_sueno",
+      "target": [
+        {
+          "text": "Quiero realizar mi sueño.",
+          "audioSlug": "quiero_realizar_mi_sueno"
+        }
+      ]
+    },
+    "es.restaurant_birthday_candle_dessert": {
+      "conceptId": "es.restaurant_birthday_candle_dessert",
+      "id": "restaurant_birthday_candle_dessert",
+      "target": [
+        {
+          "text": "Estamos celebrando un cumpleaños, ¿podrían traer el postre con una vela?",
+          "audioSlug": "estamos_celebrando_un_cumpleanos_podrian_traer_el_postre_con_una_vela"
+        }
+      ]
+    },
+    "es.restaurant_dish_not_matching_description": {
+      "conceptId": "es.restaurant_dish_not_matching_description",
+      "id": "restaurant_dish_not_matching_description",
+      "target": [
+        {
+          "text": "Este plato no coincide con la descripción del menú, ¿podría aclarar qué lleva?",
+          "audioSlug": "este_plato_no_coincide_con_la_descripcion_del_menu_podria_aclarar_que_lleva"
+        }
+      ]
+    },
+    "es.restaurant_quiero_probar_un_plato_tipico": {
+      "conceptId": "es.restaurant_quiero_probar_un_plato_tipico",
+      "id": "restaurant_quiero_probar_un_plato_tipico",
+      "target": [
+        {
+          "text": "Quiero probar un plato típico.",
+          "audioSlug": "quiero_probar_un_plato_tipico"
+        }
+      ]
+    },
+    "es.supermarket_prefiero_el_zumo_de_naranja": {
+      "conceptId": "es.supermarket_prefiero_el_zumo_de_naranja",
+      "id": "supermarket_prefiero_el_zumo_de_naranja",
+      "target": [
+        {
+          "text": "Prefiero el jugo de naranja.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "prefiero_el_jugo_de_naranja"
+        },
+        {
+          "text": "Prefiero el zumo de naranja.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "prefiero_el_zumo_de_naranja"
+        }
+      ]
+    }
+  }
+}

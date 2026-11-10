@@ -1,32 +1,332 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "cotidianidad",
-  "conceptIds": [
-    "es.cotidianidad_voy_a_colocar_los_libros",
-    "es.cotidianidad_necesito_ir_al_bano",
-    "es.cotidianidad_es_tarde_tengo_que_irme",
-    "es.cotidianidad_me_falta_tiempo",
-    "es.cotidianidad_se_me_hizo_tarde",
-    "es.cotidianidad_tengo_que_hacer_varios_recados",
-    "es.cotidianidad_se_me_olvido_comprar_pan",
-    "es.cotidianidad_no_paro_en_todo_el_dia",
-    "es.cotidianidad_tengo_mil_cosas_que_hacer",
-    "es.cotidianidad_se_me_acabo_el_tiempo",
-    "es.cotidianidad_hoy_fue_un_dia_largo",
-    "es.cotidianidad_al_fin_puedo_descansar",
-    "es.cotidianidad_hoy_tengo_mucho_trabajo",
-    "es.cotidianidad_donde_esta_el_resto",
-    "es.cotidianidad_coge_el_paraguas",
-    "es.cotidianidad_mandame_un_mensaje",
-    "es.cotidianidad_merendamos_fruta",
-    "es.cotidianidad_odio_esperar_en_la_fila",
-    "es.cotidianidad_guardo_el_pasaporte_en_el_maletin",
-    "es.cotidianidad_hay_bastante_comida",
-    "es.cotidianidad_no_queda_ninguno",
-    "es.cotidianidad_no_te_enfades",
-    "es.cotidianidad_los_ninos_se_banan_en_el_rio",
-    "es.cotidianidad_el_plato_esta_sucio",
-    "es.cotidianidad_recibi_una_llamada_importante"
+  "phrases": [
+    {
+      "conceptId": "es.cotidianidad_voy_a_colocar_los_libros",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.583ee9f996732ee3"
+    },
+    {
+      "conceptId": "es.cotidianidad_necesito_ir_al_bano",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.03d9292a4fd21bfb"
+    },
+    {
+      "conceptId": "es.cotidianidad_es_tarde_tengo_que_irme",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.314f94b7b6857bcd"
+    },
+    {
+      "conceptId": "es.cotidianidad_me_falta_tiempo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8f6784a3b4a6cfe6"
+    },
+    {
+      "conceptId": "es.cotidianidad_se_me_hizo_tarde",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.268b81932a974795"
+    },
+    {
+      "conceptId": "es.cotidianidad_tengo_que_hacer_varios_recados",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a198c6dd2ee7c5d1"
+    },
+    {
+      "conceptId": "es.cotidianidad_se_me_olvido_comprar_pan",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ae79285185cf48bc"
+    },
+    {
+      "conceptId": "es.cotidianidad_no_paro_en_todo_el_dia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0f4edee75fc4a390"
+    },
+    {
+      "conceptId": "es.cotidianidad_tengo_mil_cosas_que_hacer",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d50f4cac652d5255"
+    },
+    {
+      "conceptId": "es.cotidianidad_se_me_acabo_el_tiempo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cd94464841bce09a"
+    },
+    {
+      "conceptId": "es.cotidianidad_hoy_fue_un_dia_largo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6f8642c430b78bb5"
+    },
+    {
+      "conceptId": "es.cotidianidad_al_fin_puedo_descansar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6c58477232275e39"
+    },
+    {
+      "conceptId": "es.cotidianidad_hoy_tengo_mucho_trabajo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.201273304fe82d5b"
+    },
+    {
+      "conceptId": "es.cotidianidad_donde_esta_el_resto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1d269510b64c7671"
+    },
+    {
+      "conceptId": "es.cotidianidad_coge_el_paraguas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5f10150e6adc4e45"
+    },
+    {
+      "conceptId": "es.cotidianidad_mandame_un_mensaje",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.de616aba1432a8b8"
+    },
+    {
+      "conceptId": "es.cotidianidad_merendamos_fruta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.33c6964d78efd58b"
+    },
+    {
+      "conceptId": "es.cotidianidad_odio_esperar_en_la_fila",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c28fea9a8021cb1f"
+    },
+    {
+      "conceptId": "es.cotidianidad_guardo_el_pasaporte_en_el_maletin",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.41bd135f3047b3c5"
+    },
+    {
+      "conceptId": "es.cotidianidad_hay_bastante_comida",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9a8a5c6c6b967462"
+    },
+    {
+      "conceptId": "es.cotidianidad_no_queda_ninguno",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f608c7ed0bde61bf"
+    },
+    {
+      "conceptId": "es.cotidianidad_no_te_enfades",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cf4f8a7c696da9bd"
+    },
+    {
+      "conceptId": "es.cotidianidad_los_ninos_se_banan_en_el_rio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bfc0c964a357c3c9"
+    },
+    {
+      "conceptId": "es.cotidianidad_el_plato_esta_sucio",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c241714f7af057d4"
+    },
+    {
+      "conceptId": "es.cotidianidad_recibi_una_llamada_importante",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1bc14e2eb10e1040"
+    }
   ]
 }

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "1b",
+  "concepts": {
+    "es.accountability_salary_is_paid_weekly_biweekly_or": {
+      "conceptId": "es.accountability_salary_is_paid_weekly_biweekly_or",
+      "id": "accountability_salary_is_paid_weekly_biweekly_or",
+      "target": [
+        {
+          "text": "El salario se paga semanal, quincenal o mensualmente.",
+          "audioSlug": "el_salario_se_paga_semanal_quincenal_o_mensualmente"
+        }
+      ]
+    },
+    "es.accountability_the_impairment_of_goodwill_has": {
+      "conceptId": "es.accountability_the_impairment_of_goodwill_has",
+      "id": "accountability_the_impairment_of_goodwill_has",
+      "target": [
+        {
+          "text": "El deterioro del crédito mercantil ha sido reconocido conforme a la valuación vigente.",
+          "audioSlug": "el_deterioro_del_credito_mercantil_ha_sido_reconocido_conforme_a_la_valuacion_vigente"
+        }
+      ]
+    },
+    "es.calendario_que_fecha_es_hoy": {
+      "conceptId": "es.calendario_que_fecha_es_hoy",
+      "id": "calendario_que_fecha_es_hoy",
+      "target": [
+        {
+          "text": "¿Qué fecha es hoy?",
+          "audioSlug": "que_fecha_es_hoy"
+        }
+      ]
+    },
+    "es.daily_routine_what_do_you_do_before_breakfast": {
+      "conceptId": "es.daily_routine_what_do_you_do_before_breakfast",
+      "id": "daily_routine_what_do_you_do_before_breakfast",
+      "target": [
+        {
+          "text": "¿Qué haces antes del desayuno?",
+          "audioSlug": "que_haces_antes_del_desayuno"
+        }
+      ]
+    },
+    "es.directions_turn_left.de-es": {
+      "conceptId": "es.directions_turn_left.de-es",
+      "id": "directions_turn_left_de",
+      "target": [
+        {
+          "text": "Gira a la izquierda.",
+          "source": "Bieg links ab.",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "gira_a_la_izquierda"
+        },
+        {
+          "text": "Gire a la izquierda.",
+          "source": "Biegen Sie links ab.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "gire_a_la_izquierda"
+        }
+      ]
+    },
+    "es.planes_planeo_ahorrar_mas_este_ano": {
+      "conceptId": "es.planes_planeo_ahorrar_mas_este_ano",
+      "id": "planes_planeo_ahorrar_mas_este_ano",
+      "target": [
+        {
+          "text": "Planeo ahorrar más este año.",
+          "audioSlug": "planeo_ahorrar_mas_este_ano"
+        }
+      ]
+    },
+    "es.weather_its_raining": {
+      "conceptId": "es.weather_its_raining",
+      "id": "weather_its_raining",
+      "target": [
+        {
+          "text": "Está lloviendo.",
+          "audioSlug": "esta_lloviendo"
+        }
+      ]
+    }
+  }
+}

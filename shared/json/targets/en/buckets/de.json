@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "de",
+  "concepts": {
+    "en.daily_routine_sometimes_i_sit_and_read": {
+      "conceptId": "en.daily_routine_sometimes_i_sit_and_read",
+      "id": "daily_routine_sometimes_i_sit_and_read",
+      "target": [
+        {
+          "text": "Sometimes I sit down and read.",
+          "audioSlug": "sometimes_i_sit_down_and_read"
+        }
+      ]
+    },
+    "en.emergencias_help_please": {
+      "conceptId": "en.emergencias_help_please",
+      "id": "emergencias_help_please",
+      "target": [
+        {
+          "text": "Help, please!",
+          "audioSlug": "help_please"
+        }
+      ]
+    },
+    "en.estudios_i_learn_something_new_every_day": {
+      "conceptId": "en.estudios_i_learn_something_new_every_day",
+      "id": "estudios_i_learn_something_new_every_day",
+      "target": [
+        {
+          "text": "I learn something new every day.",
+          "audioSlug": "i_learn_something_new_every_day"
+        }
+      ]
+    },
+    "en.gym_i_need_to_rest_a_bit": {
+      "conceptId": "en.gym_i_need_to_rest_a_bit",
+      "id": "gym_i_need_to_rest_a_bit",
+      "target": [
+        {
+          "text": "I need to rest a bit.",
+          "audioSlug": "i_need_to_rest_a_bit"
+        }
+      ]
+    },
+    "en.gym_maintain_a_steady_pace": {
+      "conceptId": "en.gym_maintain_a_steady_pace",
+      "id": "gym_maintain_a_steady_pace",
+      "target": [
+        {
+          "text": "Maintain a steady pace.",
+          "audioSlug": "maintain_a_steady_pace"
+        }
+      ]
+    },
+    "en.music_i_really_enjoy_music": {
+      "conceptId": "en.music_i_really_enjoy_music",
+      "id": "music_i_really_enjoy_music",
+      "target": [
+        {
+          "text": "I really enjoy music.",
+          "audioSlug": "i_really_enjoy_music"
+        }
+      ]
+    },
+    "en.survival_one_moment": {
+      "conceptId": "en.survival_one_moment",
+      "id": "survival_one_moment",
+      "target": [
+        {
+          "text": "One moment, please.",
+          "audioSlug": "one_moment_please"
+        }
+      ]
+    },
+    "en.technology_after_the_ransomware_attack_the_company": {
+      "conceptId": "en.technology_after_the_ransomware_attack_the_company",
+      "id": "technology_after_the_ransomware_attack_the_company",
+      "target": [
+        {
+          "text": "After the ransomware attack, the company had no choice but to restore from their last backup.",
+          "audioSlug": "after_the_ransomware_attack_the_company_had_no_choice_but_to_restore_from_their_last_backup"
+        }
+      ]
+    }
+  }
+}

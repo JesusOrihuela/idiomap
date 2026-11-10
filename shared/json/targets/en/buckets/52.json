@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "52",
+  "concepts": {
+    "en.accountability_earnings_per_share_basic_diluted_disclosure": {
+      "conceptId": "en.accountability_earnings_per_share_basic_diluted_disclosure",
+      "id": "accountability_earnings_per_share_basic_diluted_disclosure",
+      "target": [
+        {
+          "text": "Earnings per share must be reported using both basic and diluted figures to ensure full disclosure.",
+          "audioSlug": "earnings_per_share_must_be_reported_using_both_basic_and_diluted_figures_to_ensure_full_disclosure"
+        }
+      ]
+    },
+    "en.conversacion_i_want_to_encourage_you": {
+      "conceptId": "en.conversacion_i_want_to_encourage_you",
+      "id": "conversacion_i_want_to_encourage_you",
+      "target": [
+        {
+          "text": "I want to encourage you.",
+          "audioSlug": "i_want_to_encourage_you"
+        }
+      ]
+    },
+    "en.cuerpo_she_has_curly_hair": {
+      "conceptId": "en.cuerpo_she_has_curly_hair",
+      "id": "cuerpo_she_has_curly_hair",
+      "target": [
+        {
+          "text": "She has curly hair.",
+          "audioSlug": "she_has_curly_hair"
+        }
+      ]
+    },
+    "en.politica_is_this_legal": {
+      "conceptId": "en.politica_is_this_legal",
+      "id": "politica_is_this_legal",
+      "target": [
+        {
+          "text": "Is this legal?",
+          "audioSlug": "is_this_legal"
+        }
+      ]
+    },
+    "en.sitios_market_opens_early": {
+      "conceptId": "en.sitios_market_opens_early",
+      "id": "sitios_market_opens_early",
+      "target": [
+        {
+          "text": "The market opens early.",
+          "audioSlug": "the_market_opens_early"
+        }
+      ]
+    },
+    "en.transportation_avoid_peak_hours": {
+      "conceptId": "en.transportation_avoid_peak_hours",
+      "id": "transportation_avoid_peak_hours",
+      "target": [
+        {
+          "text": "I try to avoid traveling during peak hours because the metro is unbearably crowded.",
+          "audioSlug": "i_try_to_avoid_traveling_during_peak_hours_because_the_metro_is_unbearably_crowded"
+        }
+      ]
+    }
+  }
+}

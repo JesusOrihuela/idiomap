@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "ac",
+  "concepts": {
+    "en.airport_refused_entry_return_carrier": {
+      "conceptId": "en.airport_refused_entry_return_carrier",
+      "id": "airport_refused_entry_return_carrier",
+      "target": [
+        {
+          "text": "I've been refused entry. Which carrier is legally required to return me to my point of departure?",
+          "audioSlug": "i_ve_been_refused_entry_which_carrier_is_legally_required_to_return_me_to_my_point_of_departure"
+        }
+      ]
+    },
+    "en.calendario_it_s_noon": {
+      "conceptId": "en.calendario_it_s_noon",
+      "id": "calendario_it_s_noon",
+      "target": [
+        {
+          "text": "It's noon.",
+          "audioSlug": "it_s_noon"
+        }
+      ]
+    },
+    "en.conversacion_did_tom_mention_me": {
+      "conceptId": "en.conversacion_did_tom_mention_me",
+      "id": "conversacion_did_tom_mention_me",
+      "target": [
+        {
+          "text": "Did Tom mention me?",
+          "audioSlug": "did_tom_mention_me"
+        }
+      ]
+    },
+    "en.conversacion_i_cant_hear_you": {
+      "conceptId": "en.conversacion_i_cant_hear_you",
+      "id": "conversacion_i_cant_hear_you",
+      "target": [
+        {
+          "text": "I can't hear you.",
+          "audioSlug": "i_can_t_hear_you"
+        }
+      ]
+    },
+    "en.greetings_this_is_my_friend_ana": {
+      "conceptId": "en.greetings_this_is_my_friend_ana",
+      "id": "greetings_this_is_my_friend_ana",
+      "target": [
+        {
+          "text": "This is my friend Ana.",
+          "audioSlug": "this_is_my_friend_ana"
+        }
+      ]
+    },
+    "en.supermarket_where_are_the_shopping_carts": {
+      "conceptId": "en.supermarket_where_are_the_shopping_carts",
+      "id": "supermarket_where_are_the_shopping_carts",
+      "target": [
+        {
+          "text": "Where are the shopping carts?",
+          "audioSlug": "where_are_the_shopping_carts",
+          "labels": {
+            "region": "US"
+          }
+        },
+        {
+          "text": "Where are the trolleys?",
+          "audioSlug": "where_are_the_trolleys",
+          "labels": {
+            "region": "UK"
+          }
+        }
+      ]
+    }
+  }
+}

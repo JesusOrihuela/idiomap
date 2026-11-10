@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "8b",
+  "concepts": {
+    "en.directions_is_there_nearby": {
+      "conceptId": "en.directions_is_there_nearby",
+      "id": "directions_is_there_nearby",
+      "target": [
+        {
+          "text": "Is there a supermarket nearby?",
+          "audioSlug": "is_there_a_supermarket_nearby"
+        }
+      ]
+    },
+    "en.emergencias_it_s_an_emergency": {
+      "conceptId": "en.emergencias_it_s_an_emergency",
+      "id": "emergencias_it_s_an_emergency",
+      "target": [
+        {
+          "text": "It's an emergency.",
+          "audioSlug": "it_s_an_emergency"
+        }
+      ]
+    },
+    "en.kitchen_the_spices_and_condiments_are_in": {
+      "conceptId": "en.kitchen_the_spices_and_condiments_are_in",
+      "id": "kitchen_the_spices_and_condiments_are_in",
+      "target": [
+        {
+          "text": "The spices are in the cabinet next to the sink.",
+          "audioSlug": "the_spices_are_in_the_cabinet_next_to_the_sink"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_that_makes_sense": {
+      "conceptId": "en.pensamientos_opiniones_that_makes_sense",
+      "id": "pensamientos_opiniones_that_makes_sense",
+      "target": [
+        {
+          "text": "That makes sense.",
+          "audioSlug": "that_makes_sense"
+        }
+      ]
+    },
+    "en.supermarket_i_cant_find_an_employee_to": {
+      "conceptId": "en.supermarket_i_cant_find_an_employee_to",
+      "id": "supermarket_i_cant_find_an_employee_to",
+      "target": [
+        {
+          "text": "I can't find an employee to help me.",
+          "audioSlug": "i_can_t_find_an_employee_to_help_me"
+        }
+      ]
+    },
+    "en.transportation_rental_car_location": {
+      "conceptId": "en.transportation_rental_car_location",
+      "id": "transportation_rental_car_location",
+      "target": [
+        {
+          "text": "I don't know where to rent a car.",
+          "audioSlug": "i_don_t_know_where_to_rent_a_car"
+        }
+      ]
+    },
+    "en.vestimenta_put_on_your_shoes": {
+      "conceptId": "en.vestimenta_put_on_your_shoes",
+      "id": "vestimenta_put_on_your_shoes",
+      "target": [
+        {
+          "text": "Put on your shoes.",
+          "audioSlug": "put_on_your_shoes"
+        }
+      ]
+    }
+  }
+}

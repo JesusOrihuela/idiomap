@@ -1,32 +1,332 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "deportes",
-  "conceptIds": [
-    "es.deportes_me_gusta_el_futbol",
-    "es.deportes_juego_tenis_los_martes",
-    "es.deportes_nuestro_equipo_gano_el_partido",
-    "es.deportes_quiero_ganar_el_torneo",
-    "es.deportes_el_partido_empieza_a_las_ocho",
-    "es.deportes_entreno_todos_los_dias",
-    "es.deportes_quien_gano_el_partido_de_ayer",
-    "es.deportes_perdimos_por_dos_goles",
-    "es.deportes_me_gusta_nadar",
-    "es.deportes_el_equipo_juega_muy_bien",
-    "es.deportes_el_deporte_es_bueno_para_la_salud",
-    "es.deportes_este_deporte_es_muy_competitivo",
-    "es.deportes_hago_actividad_fisica_cada_dia",
-    "es.deportes_corro_demasiado_rapido_a_veces",
-    "es.deportes_escucho_musica_mientras_entreno",
-    "es.deportes_ningun_equipo_gano_el_torneo",
-    "es.deportes_este_juego_requiere_practica",
-    "es.deportes_el_entrenador_cambio_la_estrategia",
-    "es.deportes_salgo_a_montar_en_bicicleta_los_domingos",
-    "es.deportes_todo_ese_esfuerzo_va_a_valer_la_pena",
-    "es.deportes_sigo_el_partido_con_mucho_interes",
-    "es.deportes_es_dificil_marcar_un_gol_asi",
-    "es.deportes_quiere_destacar_en_su_equipo",
-    "es.deportes_en_invierno_vamos_a_esquiar_a_la_montana",
-    "es.deportes_me_encanta_navegar_en_el_lago"
+  "phrases": [
+    {
+      "conceptId": "es.deportes_me_gusta_el_futbol",
+      "level": "A1",
+      "grammar": "me gusta más sustantivo, me gusta el fútbol.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.91a3c9bf411bcb65"
+    },
+    {
+      "conceptId": "es.deportes_juego_tenis_los_martes",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2340750b1c514ba3"
+    },
+    {
+      "conceptId": "es.deportes_nuestro_equipo_gano_el_partido",
+      "level": "A2",
+      "grammar": "ganó es pretérito indefinido, una acción terminada.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8907315a14c3616c"
+    },
+    {
+      "conceptId": "es.deportes_quiero_ganar_el_torneo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.498b3463bda38cc1"
+    },
+    {
+      "conceptId": "es.deportes_el_partido_empieza_a_las_ocho",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ec96d3bd492d0451"
+    },
+    {
+      "conceptId": "es.deportes_entreno_todos_los_dias",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fe9fb07b2216ef91"
+    },
+    {
+      "conceptId": "es.deportes_quien_gano_el_partido_de_ayer",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4afc5d339f0482a3"
+    },
+    {
+      "conceptId": "es.deportes_perdimos_por_dos_goles",
+      "level": "B1",
+      "grammar": "perdimos es pretérito indefinido, una acción terminada.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.30cf129e03f5a7ea"
+    },
+    {
+      "conceptId": "es.deportes_me_gusta_nadar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.26278c676f0f4351"
+    },
+    {
+      "conceptId": "es.deportes_el_equipo_juega_muy_bien",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.14fc58cdfe0045e7"
+    },
+    {
+      "conceptId": "es.deportes_el_deporte_es_bueno_para_la_salud",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.41e9fc4df0b9a5f5"
+    },
+    {
+      "conceptId": "es.deportes_este_deporte_es_muy_competitivo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.30b89635de70684c"
+    },
+    {
+      "conceptId": "es.deportes_hago_actividad_fisica_cada_dia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ab30cb1d6780dbbf"
+    },
+    {
+      "conceptId": "es.deportes_corro_demasiado_rapido_a_veces",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cc4e9481a3769fb6"
+    },
+    {
+      "conceptId": "es.deportes_escucho_musica_mientras_entreno",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.507048a013b2f018"
+    },
+    {
+      "conceptId": "es.deportes_ningun_equipo_gano_el_torneo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0d16c5c40eccbb43"
+    },
+    {
+      "conceptId": "es.deportes_este_juego_requiere_practica",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b77aa2ce41fd3552"
+    },
+    {
+      "conceptId": "es.deportes_el_entrenador_cambio_la_estrategia",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a3bdbf26b4487ae6"
+    },
+    {
+      "conceptId": "es.deportes_salgo_a_montar_en_bicicleta_los_domingos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.61143c8c5d358ab2"
+    },
+    {
+      "conceptId": "es.deportes_todo_ese_esfuerzo_va_a_valer_la_pena",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.80d37acc5ab865c1"
+    },
+    {
+      "conceptId": "es.deportes_sigo_el_partido_con_mucho_interes",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7dfa8eb09eb79047"
+    },
+    {
+      "conceptId": "es.deportes_es_dificil_marcar_un_gol_asi",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.58c1d12116550e78"
+    },
+    {
+      "conceptId": "es.deportes_quiere_destacar_en_su_equipo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b0b904e0b4ab9057"
+    },
+    {
+      "conceptId": "es.deportes_en_invierno_vamos_a_esquiar_a_la_montana",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0eb0be1d054db449"
+    },
+    {
+      "conceptId": "es.deportes_me_encanta_navegar_en_el_lago",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3b8eb0a7bc21e610"
+    }
   ]
 }

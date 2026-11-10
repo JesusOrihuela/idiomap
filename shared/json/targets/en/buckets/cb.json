@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "cb",
+  "concepts": {
+    "en.airport_bag_made_connection": {
+      "conceptId": "en.airport_bag_made_connection",
+      "id": "airport_bag_made_connection",
+      "target": [
+        {
+          "text": "Could you confirm whether my checked bag made it onto the connecting flight?",
+          "audioSlug": "could_you_confirm_whether_my_checked_bag_made_it_onto_the_connecting_flight"
+        }
+      ]
+    },
+    "en.gym_do_you_have_any_suggestions_for": {
+      "conceptId": "en.gym_do_you_have_any_suggestions_for",
+      "id": "gym_do_you_have_any_suggestions_for",
+      "target": [
+        {
+          "text": "Do you have any suggestions for increasing the intensity of my workout?",
+          "audioSlug": "do_you_have_any_suggestions_for_increasing_the_intensity_of_my_workout"
+        }
+      ]
+    },
+    "en.gym_knee_injury_high_impact_avoid": {
+      "conceptId": "en.gym_knee_injury_high_impact_avoid",
+      "id": "gym_knee_injury_high_impact_avoid",
+      "target": [
+        {
+          "text": "I am recovering from a knee injury and must avoid high-impact exercise.",
+          "audioSlug": "i_am_recovering_from_a_knee_injury_and_must_avoid_high_impact_exercise"
+        }
+      ]
+    },
+    "en.technology_tomorrow_we_are_going_to_have": {
+      "conceptId": "en.technology_tomorrow_we_are_going_to_have",
+      "id": "technology_tomorrow_we_are_going_to_have",
+      "target": [
+        {
+          "text": "Tomorrow we will have a video call with the family.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "tomorrow_we_will_have_a_video_call_with_the_family"
+        },
+        {
+          "text": "Tomorrow we'll have a video call with the family.",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "tomorrow_we_ll_have_a_video_call_with_the_family"
+        }
+      ]
+    },
+    "en.transportation_reduced_fare_students": {
+      "conceptId": "en.transportation_reduced_fare_students",
+      "id": "transportation_reduced_fare_students",
+      "target": [
+        {
+          "text": "Is there a reduced fare for senior citizens or students on this route?",
+          "audioSlug": "is_there_a_reduced_fare_for_senior_citizens_or_students_on_this_route"
+        }
+      ]
+    },
+    "en.weather_whats_temperature": {
+      "conceptId": "en.weather_whats_temperature",
+      "id": "weather_whats_temperature",
+      "target": [
+        {
+          "text": "What's the temperature?",
+          "audioSlug": "what_s_the_temperature"
+        }
+      ]
+    }
+  }
+}

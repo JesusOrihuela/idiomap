@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "b6",
+  "concepts": {
+    "es.airport_where_is_checkin": {
+      "conceptId": "es.airport_where_is_checkin",
+      "id": "airport_where_is_checkin",
+      "target": [
+        {
+          "text": "¿Dónde está el mostrador de facturación?",
+          "audioSlug": "donde_esta_el_mostrador_de_facturacion"
+        }
+      ]
+    },
+    "es.descripciones_la_comida_mexicana_es_picante": {
+      "conceptId": "es.descripciones_la_comida_mexicana_es_picante",
+      "id": "descripciones_la_comida_mexicana_es_picante",
+      "target": [
+        {
+          "text": "La comida mexicana es picante.",
+          "audioSlug": "la_comida_mexicana_es_picante"
+        }
+      ]
+    },
+    "es.directions_how_long_walk": {
+      "conceptId": "es.directions_how_long_walk",
+      "id": "directions_how_long_walk",
+      "target": [
+        {
+          "text": "¿Cuánto se tarda a pie?",
+          "audioSlug": "cuanto_se_tarda_a_pie"
+        }
+      ]
+    },
+    "es.greetings_take_care_and_stay_in_touch": {
+      "conceptId": "es.greetings_take_care_and_stay_in_touch",
+      "id": "greetings_take_care_and_stay_in_touch",
+      "target": [
+        {
+          "text": "Cuídate y mantengámonos en contacto.",
+          "audioSlug": "cuidate_y_mantengamonos_en_contacto"
+        }
+      ]
+    },
+    "es.health_el_medico_receto_un_medicamento": {
+      "conceptId": "es.health_el_medico_receto_un_medicamento",
+      "id": "health_el_medico_receto_un_medicamento",
+      "target": [
+        {
+          "text": "El médico recetó un medicamento.",
+          "audioSlug": "el_medico_receto_un_medicamento"
+        }
+      ]
+    },
+    "es.kitchen_corta_las_verduras_por_favor": {
+      "conceptId": "es.kitchen_corta_las_verduras_por_favor",
+      "id": "kitchen_corta_las_verduras_por_favor",
+      "target": [
+        {
+          "text": "Corta las verduras, por favor.",
+          "audioSlug": "corta_las_verduras_por_favor"
+        }
+      ]
+    },
+    "es.restaurant_a_glass_of_water_for_me": {
+      "conceptId": "es.restaurant_a_glass_of_water_for_me",
+      "id": "restaurant_a_glass_of_water_for_me",
+      "target": [
+        {
+          "text": "Para mí, un vaso de agua.",
+          "audioSlug": "para_mi_un_vaso_de_agua"
+        }
+      ]
+    },
+    "es.sitios_entrenan_en_el_gimnasio_del_barrio": {
+      "conceptId": "es.sitios_entrenan_en_el_gimnasio_del_barrio",
+      "id": "sitios_entrenan_en_el_gimnasio_del_barrio",
+      "target": [
+        {
+          "text": "Entrenan en el gimnasio del barrio.",
+          "audioSlug": "entrenan_en_el_gimnasio_del_barrio"
+        }
+      ]
+    },
+    "es.technology_can_i_connect_the_speaker_to": {
+      "conceptId": "es.technology_can_i_connect_the_speaker_to",
+      "id": "technology_can_i_connect_the_speaker_to",
+      "target": [
+        {
+          "text": "¿Puedo conectar la bocina al Bluetooth?",
+          "audioSlug": "puedo_conectar_la_bocina_al_bluetooth"
+        }
+      ]
+    },
+    "es.transportation_cual_es_la_mejor_forma_de_llegar": {
+      "conceptId": "es.transportation_cual_es_la_mejor_forma_de_llegar",
+      "id": "transportation_cual_es_la_mejor_forma_de_llegar",
+      "target": [
+        {
+          "text": "¿Cuál es la mejor forma de llegar?",
+          "audioSlug": "cual_es_la_mejor_forma_de_llegar"
+        }
+      ]
+    },
+    "es.viajes_hay_que_deshacer_las_maletas": {
+      "conceptId": "es.viajes_hay_que_deshacer_las_maletas",
+      "id": "viajes_hay_que_deshacer_las_maletas",
+      "target": [
+        {
+          "text": "Hay que deshacer las maletas.",
+          "audioSlug": "hay_que_deshacer_las_maletas"
+        }
+      ]
+    }
+  }
+}

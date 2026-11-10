@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "26",
+  "concepts": {
+    "en.accommodation_late_checkout_request": {
+      "conceptId": "en.accommodation_late_checkout_request",
+      "id": "accommodation_late_checkout_request",
+      "target": [
+        {
+          "text": "Could I have a late check-out?",
+          "audioSlug": "could_i_have_a_late_check_out"
+        }
+      ]
+    },
+    "en.cuerpo_she_has_beautiful_eyes": {
+      "conceptId": "en.cuerpo_she_has_beautiful_eyes",
+      "id": "cuerpo_she_has_beautiful_eyes",
+      "target": [
+        {
+          "text": "She has beautiful eyes.",
+          "audioSlug": "she_has_beautiful_eyes"
+        }
+      ]
+    },
+    "en.directions_its_on_the_corner": {
+      "conceptId": "en.directions_its_on_the_corner",
+      "id": "directions_its_on_the_corner",
+      "target": [
+        {
+          "text": "It's on the corner.",
+          "audioSlug": "it_s_on_the_corner"
+        }
+      ]
+    },
+    "en.greetings_heard_so_much_face_to_name": {
+      "conceptId": "en.greetings_heard_so_much_face_to_name",
+      "id": "greetings_heard_so_much_face_to_name",
+      "target": [
+        {
+          "text": "I've heard so much about you. It's great to finally meet you!",
+          "audioSlug": "i_ve_heard_so_much_about_you_it_s_great_to_finally_meet_you"
+        }
+      ]
+    },
+    "en.gym_this_exercise_will_help_me_strengthen": {
+      "conceptId": "en.gym_this_exercise_will_help_me_strengthen",
+      "id": "gym_this_exercise_will_help_me_strengthen",
+      "target": [
+        {
+          "text": "This exercise will help me strengthen my biceps.",
+          "audioSlug": "this_exercise_will_help_me_strengthen_my_biceps"
+        }
+      ]
+    },
+    "en.kitchen_do_we_have_any_olive_oil": {
+      "conceptId": "en.kitchen_do_we_have_any_olive_oil",
+      "id": "kitchen_do_we_have_any_olive_oil",
+      "target": [
+        {
+          "text": "Do we have any olive oil left?",
+          "audioSlug": "do_we_have_any_olive_oil_left"
+        }
+      ]
+    },
+    "en.oficina_he_is_sure_of_success": {
+      "conceptId": "en.oficina_he_is_sure_of_success",
+      "id": "oficina_he_is_sure_of_success",
+      "target": [
+        {
+          "text": "He is sure of success.",
+          "audioSlug": "he_is_sure_of_success"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_i_have_a_doubt": {
+      "conceptId": "en.pensamientos_opiniones_i_have_a_doubt",
+      "id": "pensamientos_opiniones_i_have_a_doubt",
+      "target": [
+        {
+          "text": "I have a doubt.",
+          "audioSlug": "i_have_a_doubt"
+        }
+      ]
+    },
+    "en.restaurant_could_i_have_my_burger_cooked": {
+      "conceptId": "en.restaurant_could_i_have_my_burger_cooked",
+      "id": "restaurant_could_i_have_my_burger_cooked",
+      "target": [
+        {
+          "text": "Could I have my burger cooked well-done?",
+          "audioSlug": "could_i_have_my_burger_cooked_well_done",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can I have my burger cooked well-done?",
+          "audioSlug": "can_i_have_my_burger_cooked_well_done",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    }
+  }
+}

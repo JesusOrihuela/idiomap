@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "8b",
+  "concepts": {
+    "es.conversacion_te_lo_prometo_de_verdad": {
+      "conceptId": "es.conversacion_te_lo_prometo_de_verdad",
+      "id": "conversacion_te_lo_prometo_de_verdad",
+      "target": [
+        {
+          "text": "Te lo prometo de verdad.",
+          "audioSlug": "te_lo_prometo_de_verdad"
+        }
+      ]
+    },
+    "es.describiendo_personas_mi_tio_es_calvo": {
+      "conceptId": "es.describiendo_personas_mi_tio_es_calvo",
+      "id": "describiendo_personas_mi_tio_es_calvo",
+      "target": [
+        {
+          "text": "Mi tío es calvo.",
+          "audioSlug": "mi_tio_es_calvo"
+        }
+      ]
+    },
+    "es.gym_knee_injury_high_impact_avoid": {
+      "conceptId": "es.gym_knee_injury_high_impact_avoid",
+      "id": "gym_knee_injury_high_impact_avoid",
+      "target": [
+        {
+          "text": "Tengo una lesión de rodilla y necesito evitar el ejercicio de alto impacto.",
+          "audioSlug": "tengo_una_lesion_de_rodilla_y_necesito_evitar_el_ejercicio_de_alto_impacto"
+        }
+      ]
+    },
+    "es.music_turn_on": {
+      "conceptId": "es.music_turn_on",
+      "id": "music_turn_on",
+      "target": [
+        {
+          "text": "Pongamos algo de música.",
+          "audioSlug": "pongamos_algo_de_musica"
+        }
+      ]
+    },
+    "es.restaurant_same_table_window": {
+      "conceptId": "es.restaurant_same_table_window",
+      "id": "restaurant_same_table_window",
+      "target": [
+        {
+          "text": "¿Podríamos tener la misma mesa que la última vez, cerca de la ventana?",
+          "audioSlug": "podriamos_tener_la_misma_mesa_que_la_ultima_vez_cerca_de_la_ventana"
+        }
+      ]
+    },
+    "es.theater_where_are_seats": {
+      "conceptId": "es.theater_where_are_seats",
+      "id": "theater_where_are_seats",
+      "target": [
+        {
+          "text": "¿Dónde están nuestros asientos?",
+          "audioSlug": "donde_estan_nuestros_asientos"
+        }
+      ]
+    }
+  }
+}

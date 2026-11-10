@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "26",
+  "concepts": {
+    "es.accommodation_room_not_cleaned_discount": {
+      "conceptId": "es.accommodation_room_not_cleaned_discount",
+      "id": "accommodation_room_not_cleaned_discount",
+      "target": [
+        {
+          "text": "Pido un reembolso parcial porque no limpiaron mi habitación.",
+          "audioSlug": "pido_un_reembolso_parcial_porque_no_limpiaron_mi_habitacion"
+        }
+      ]
+    },
+    "es.conversacion_lei_una_carta": {
+      "conceptId": "es.conversacion_lei_una_carta",
+      "id": "conversacion_lei_una_carta",
+      "target": [
+        {
+          "text": "Leí una carta.",
+          "audioSlug": "lei_una_carta"
+        }
+      ]
+    },
+    "es.economia_este_material_es_muy_resistente": {
+      "conceptId": "es.economia_este_material_es_muy_resistente",
+      "id": "economia_este_material_es_muy_resistente",
+      "target": [
+        {
+          "text": "Este material es muy resistente.",
+          "audioSlug": "este_material_es_muy_resistente"
+        }
+      ]
+    },
+    "es.estudios_saque_buena_nota_en_el_examen": {
+      "conceptId": "es.estudios_saque_buena_nota_en_el_examen",
+      "id": "estudios_saque_buena_nota_en_el_examen",
+      "target": [
+        {
+          "text": "Saqué buena nota en el examen.",
+          "audioSlug": "saque_buena_nota_en_el_examen"
+        }
+      ]
+    },
+    "es.kitchen_we_need_to_wash_the_spoons": {
+      "conceptId": "es.kitchen_we_need_to_wash_the_spoons",
+      "id": "kitchen_we_need_to_wash_the_spoons",
+      "target": [
+        {
+          "text": "Hay que lavar las cucharas.",
+          "audioSlug": "hay_que_lavar_las_cucharas"
+        }
+      ]
+    },
+    "es.sitios_es_el_lugar_ideal": {
+      "conceptId": "es.sitios_es_el_lugar_ideal",
+      "id": "sitios_es_el_lugar_ideal",
+      "target": [
+        {
+          "text": "Es el lugar ideal.",
+          "audioSlug": "es_el_lugar_ideal"
+        }
+      ]
+    }
+  }
+}

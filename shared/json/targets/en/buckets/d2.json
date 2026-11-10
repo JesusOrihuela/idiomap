@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "d2",
+  "concepts": {
+    "en.cotidianidad_i_ran_out_of_time": {
+      "conceptId": "en.cotidianidad_i_ran_out_of_time",
+      "id": "cotidianidad_i_ran_out_of_time",
+      "target": [
+        {
+          "text": "I ran out of time.",
+          "audioSlug": "i_ran_out_of_time"
+        }
+      ]
+    },
+    "en.gym_signup_membership": {
+      "conceptId": "en.gym_signup_membership",
+      "id": "gym_signup_membership",
+      "target": [
+        {
+          "text": "I'd like to sign up for a membership.",
+          "audioSlug": "i_d_like_to_sign_up_for_a_membership"
+        }
+      ]
+    },
+    "en.health_get_well_soon": {
+      "conceptId": "en.health_get_well_soon",
+      "id": "health_get_well_soon",
+      "target": [
+        {
+          "text": "Get well soon!",
+          "audioSlug": "get_well_soon"
+        }
+      ]
+    },
+    "en.personal_info_what_is_your_nationality": {
+      "conceptId": "en.personal_info_what_is_your_nationality",
+      "id": "personal_info_what_is_your_nationality",
+      "target": [
+        {
+          "text": "What is your nationality?",
+          "audioSlug": "what_is_your_nationality"
+        }
+      ]
+    },
+    "en.profesiones_works_as_a_nurse": {
+      "conceptId": "en.profesiones_works_as_a_nurse",
+      "id": "profesiones_works_as_a_nurse",
+      "target": [
+        {
+          "text": "She works as a nurse.",
+          "audioSlug": "she_works_as_a_nurse"
+        }
+      ]
+    },
+    "en.restaurant_is_there_a_limit_to_the": {
+      "conceptId": "en.restaurant_is_there_a_limit_to_the",
+      "id": "restaurant_is_there_a_limit_to_the",
+      "target": [
+        {
+          "text": "Is there a limit on people per reservation?",
+          "audioSlug": "is_there_a_limit_on_people_per_reservation"
+        }
+      ]
+    }
+  }
+}

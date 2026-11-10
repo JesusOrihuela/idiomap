@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "naturaleza_lugares",
+  "phrases": [
+    {
+      "id": "naturaleza_lugares_vamos_a_la_montana",
+      "conceptId": "es.naturaleza_lugares_vamos_a_la_montana",
+      "sourceId": "en.s.272a1566f76edd2b",
+      "source": "Let's go to the mountain.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos a la montaña.",
+          "audioSlug": "vamos_a_la_montana"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_vamos_a_la_playa",
+      "conceptId": "es.naturaleza_lugares_vamos_a_la_playa",
+      "sourceId": "en.s.37386047b0738d4a",
+      "source": "Let's go to the beach.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos a la playa.",
+          "audioSlug": "vamos_a_la_playa"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_la_tierra_gira",
+      "conceptId": "es.naturaleza_lugares_la_tierra_gira",
+      "sourceId": "en.s.94ff25cdf0596df6",
+      "source": "The Earth turns.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La Tierra gira.",
+          "audioSlug": "la_tierra_gira"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_estoy_en_el_jardin",
+      "conceptId": "es.naturaleza_lugares_estoy_en_el_jardin",
+      "sourceId": "en.s.b1d5c8e04ffdc23e",
+      "source": "I'm in the garden.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy en el jardín.",
+          "audioSlug": "estoy_en_el_jardin"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_fuimos_al_rio",
+      "conceptId": "es.naturaleza_lugares_fuimos_al_rio",
+      "sourceId": "en.s.11126fd1bb6812ae",
+      "source": "We went to the river.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Fuimos al río.",
+          "audioSlug": "fuimos_al_rio"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_eso_no_es_una_isla",
+      "conceptId": "es.naturaleza_lugares_eso_no_es_una_isla",
+      "sourceId": "en.s.afdf2a043d5063ec",
+      "source": "That is not an island.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Eso no es una isla.",
+          "audioSlug": "eso_no_es_una_isla"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_arbol_se_cayo",
+      "conceptId": "es.naturaleza_lugares_el_arbol_se_cayo",
+      "sourceId": "en.s.d9375045d0a727af",
+      "source": "The tree fell down.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El árbol se cayó.",
+          "audioSlug": "el_arbol_se_cayo"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_lago_es_muy_grande",
+      "conceptId": "es.naturaleza_lugares_el_lago_es_muy_grande",
+      "sourceId": "en.s.480f3929e9fe6739",
+      "source": "The lake is very big.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El lago es muy grande.",
+          "audioSlug": "el_lago_es_muy_grande"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_mar_esta_tranquilo_hoy",
+      "conceptId": "es.naturaleza_lugares_el_mar_esta_tranquilo_hoy",
+      "sourceId": "en.s.55cf4e9d82f98b10",
+      "source": "The sea is calm today.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El mar está tranquilo hoy.",
+          "audioSlug": "el_mar_esta_tranquilo_hoy"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_amo_la_naturaleza",
+      "conceptId": "es.naturaleza_lugares_amo_la_naturaleza",
+      "sourceId": "en.s.c4c21338b1a0bc90",
+      "source": "I love nature.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Amo la naturaleza.",
+          "audioSlug": "amo_la_naturaleza"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_es_una_flor_bonita",
+      "conceptId": "es.naturaleza_lugares_es_una_flor_bonita",
+      "sourceId": "en.s.3813911201195cab",
+      "source": "It is a pretty flower.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una flor bonita.",
+          "audioSlug": "es_una_flor_bonita"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_veo_una_estrella",
+      "conceptId": "es.naturaleza_lugares_veo_una_estrella",
+      "sourceId": "en.s.30ff708de8633228",
+      "source": "I see a star.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Veo una estrella.",
+          "audioSlug": "veo_una_estrella"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_es_una_piedra_grande",
+      "conceptId": "es.naturaleza_lugares_es_una_piedra_grande",
+      "sourceId": "en.s.b7a64d7efa1aefcd",
+      "source": "It is a big stone.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una piedra grande.",
+          "audioSlug": "es_una_piedra_grande"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_la_hoja_es_verde",
+      "conceptId": "es.naturaleza_lugares_la_hoja_es_verde",
+      "sourceId": "en.s.260409208301f1f7",
+      "source": "The leaf is green.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La hoja es verde.",
+          "audioSlug": "la_hoja_es_verde"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_la_tierra_es_un_planeta",
+      "conceptId": "es.naturaleza_lugares_la_tierra_es_un_planeta",
+      "sourceId": "en.s.25c390d7245d4bd5",
+      "source": "The Earth is a planet.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La Tierra es un planeta.",
+          "audioSlug": "la_tierra_es_un_planeta"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_los_arboles_rodean_la_casa",
+      "conceptId": "es.naturaleza_lugares_los_arboles_rodean_la_casa",
+      "sourceId": "en.s.72894f9e68e21e40",
+      "source": "The trees surround the house.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los árboles rodean la casa.",
+          "audioSlug": "los_arboles_rodean_la_casa"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_hay_que_conservar_la_naturaleza",
+      "conceptId": "es.naturaleza_lugares_hay_que_conservar_la_naturaleza",
+      "sourceId": "en.s.7595cfb42448fa25",
+      "source": "We must conserve nature.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que conservar la naturaleza.",
+          "audioSlug": "hay_que_conservar_la_naturaleza"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_cuida_el_entorno",
+      "conceptId": "es.naturaleza_lugares_cuida_el_entorno",
+      "sourceId": "en.s.687b40ec7b86f419",
+      "source": "Take care of the environment.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cuida el entorno.",
+          "audioSlug": "cuida_el_entorno"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_la_hierba_es_verde",
+      "conceptId": "es.naturaleza_lugares_la_hierba_es_verde",
+      "sourceId": "en.s.3e5c121f2296b829",
+      "source": "The grass is green.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La hierba es verde.",
+          "audioSlug": "la_hierba_es_verde"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_es_un_paisaje_hermoso",
+      "conceptId": "es.naturaleza_lugares_es_un_paisaje_hermoso",
+      "sourceId": "en.s.14277c3e425b1b41",
+      "source": "It is a beautiful landscape.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un paisaje hermoso.",
+          "audioSlug": "es_un_paisaje_hermoso"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_la_rosa_es_roja",
+      "conceptId": "es.naturaleza_lugares_la_rosa_es_roja",
+      "sourceId": "en.s.b65f55bd22c7ccfd",
+      "source": "The rose is red.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La rosa es roja.",
+          "audioSlug": "la_rosa_es_roja"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_volvera_a_crecer",
+      "conceptId": "es.naturaleza_lugares_volvera_a_crecer",
+      "sourceId": "en.s.d7a8c89f7d438518",
+      "source": "It will grow back.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Volverá a crecer.",
+          "audioSlug": "volvera_a_crecer"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_bosque_esta_lleno_de_arboles",
+      "conceptId": "es.naturaleza_lugares_el_bosque_esta_lleno_de_arboles",
+      "sourceId": "en.s.e23bce22e9758d63",
+      "source": "The forest is full of trees.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El bosque está lleno de árboles.",
+          "audioSlug": "el_bosque_esta_lleno_de_arboles"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_el_desierto_es_muy_seco",
+      "conceptId": "es.naturaleza_lugares_el_desierto_es_muy_seco",
+      "sourceId": "en.s.d0f874d0fdd2bb0a",
+      "source": "The desert is very dry.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El desierto es muy seco.",
+          "audioSlug": "el_desierto_es_muy_seco"
+        }
+      ]
+    },
+    {
+      "id": "naturaleza_lugares_la_luna_brilla_en_el_cielo",
+      "conceptId": "es.naturaleza_lugares_la_luna_brilla_en_el_cielo",
+      "sourceId": "en.s.229a33602f9f6b40",
+      "source": "The moon shines in the sky.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La luna brilla en el cielo.",
+          "audioSlug": "la_luna_brilla_en_el_cielo"
+        }
+      ]
+    }
+  ]
+}

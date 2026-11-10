@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "0c",
+  "concepts": {
+    "es.animales_dog_barking_loudly": {
+      "conceptId": "es.animales_dog_barking_loudly",
+      "id": "animales_dog_barking_loudly",
+      "target": [
+        {
+          "text": "El perro está ladrando fuerte.",
+          "audioSlug": "el_perro_esta_ladrando_fuerte"
+        }
+      ]
+    },
+    "es.daily_routine_dejo_las_llaves_en_la_mesa": {
+      "conceptId": "es.daily_routine_dejo_las_llaves_en_la_mesa",
+      "id": "daily_routine_dejo_las_llaves_en_la_mesa",
+      "target": [
+        {
+          "text": "Dejo las llaves en la mesa.",
+          "audioSlug": "dejo_las_llaves_en_la_mesa"
+        }
+      ]
+    },
+    "es.descripciones_el_edificio_es_historico": {
+      "conceptId": "es.descripciones_el_edificio_es_historico",
+      "id": "descripciones_el_edificio_es_historico",
+      "target": [
+        {
+          "text": "El edificio es histórico.",
+          "audioSlug": "el_edificio_es_historico"
+        }
+      ]
+    },
+    "es.economia_hay_que_controlar_los_gastos": {
+      "conceptId": "es.economia_hay_que_controlar_los_gastos",
+      "id": "economia_hay_que_controlar_los_gastos",
+      "target": [
+        {
+          "text": "Hay que controlar los gastos.",
+          "audioSlug": "hay_que_controlar_los_gastos"
+        }
+      ]
+    },
+    "es.gym_show_me_how_to_adjust_resistance": {
+      "conceptId": "es.gym_show_me_how_to_adjust_resistance",
+      "id": "gym_show_me_how_to_adjust_resistance",
+      "target": [
+        {
+          "text": "¿Puedes mostrarme cómo ajustar la resistencia en esta máquina?",
+          "audioSlug": "puedes_mostrarme_como_ajustar_la_resistencia_en_esta_maquina"
+        }
+      ]
+    },
+    "es.gym_they_are_cleaning_the_locker_rooms": {
+      "conceptId": "es.gym_they_are_cleaning_the_locker_rooms",
+      "id": "gym_they_are_cleaning_the_locker_rooms",
+      "target": [
+        {
+          "text": "Están aseando los vestidores.",
+          "audioSlug": "estan_aseando_los_vestidores"
+        }
+      ]
+    },
+    "es.gym_this_routine_is_designed_to_work": {
+      "conceptId": "es.gym_this_routine_is_designed_to_work",
+      "id": "gym_this_routine_is_designed_to_work",
+      "target": [
+        {
+          "text": "Esta rutina está diseñada para trabajar en los tríceps.",
+          "audioSlug": "esta_rutina_esta_disenada_para_trabajar_en_los_triceps"
+        }
+      ]
+    },
+    "es.kitchen_steam_the_vegetables": {
+      "conceptId": "es.kitchen_steam_the_vegetables",
+      "id": "kitchen_steam_the_vegetables",
+      "target": [
+        {
+          "text": "Las verduras se cocinan al vapor.",
+          "audioSlug": "las_verduras_se_cocinan_al_vapor"
+        }
+      ]
+    },
+    "es.movies_prefer_thrillers_not_action": {
+      "conceptId": "es.movies_prefer_thrillers_not_action",
+      "id": "movies_prefer_thrillers_not_action",
+      "target": [
+        {
+          "text": "No soy muy aficionada a la acción, prefiero el suspenso psicológico.",
+          "audioSlug": "no_soy_muy_aficionada_a_la_accion_prefiero_el_suspenso_psicologico",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "No soy muy aficionado a la acción, prefiero el suspenso psicológico.",
+          "audioSlug": "no_soy_muy_aficionado_a_la_accion_prefiero_el_suspenso_psicologico",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.oficina_el_es_mi_jefe": {
+      "conceptId": "es.oficina_el_es_mi_jefe",
+      "id": "oficina_el_es_mi_jefe",
+      "target": [
+        {
+          "text": "Él es mi jefe.",
+          "audioSlug": "el_es_mi_jefe"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_mirar_el_lado_positivo": {
+      "conceptId": "es.pensamientos_opiniones_mirar_el_lado_positivo",
+      "id": "pensamientos_opiniones_mirar_el_lado_positivo",
+      "target": [
+        {
+          "text": "Hay que mirar el lado positivo.",
+          "audioSlug": "hay_que_mirar_el_lado_positivo"
+        }
+      ]
+    },
+    "es.planes_quiero_participar": {
+      "conceptId": "es.planes_quiero_participar",
+      "id": "planes_quiero_participar",
+      "target": [
+        {
+          "text": "Quiero participar.",
+          "audioSlug": "quiero_participar"
+        }
+      ]
+    },
+    "es.tiempo_libre_a_veces_juego_videojuegos": {
+      "conceptId": "es.tiempo_libre_a_veces_juego_videojuegos",
+      "id": "tiempo_libre_a_veces_juego_videojuegos",
+      "target": [
+        {
+          "text": "A veces juego videojuegos por la noche.",
+          "audioSlug": "a_veces_juego_videojuegos_por_la_noche"
+        }
+      ]
+    },
+    "es.tiempo_libre_ese_musico_tiene_un_disco_nuevo": {
+      "conceptId": "es.tiempo_libre_ese_musico_tiene_un_disco_nuevo",
+      "id": "tiempo_libre_ese_musico_tiene_un_disco_nuevo",
+      "target": [
+        {
+          "text": "Ese músico tiene un disco nuevo.",
+          "audioSlug": "ese_musico_tiene_un_disco_nuevo"
+        }
+      ]
+    },
+    "es.transportation_does_this_bus_go_downtown": {
+      "conceptId": "es.transportation_does_this_bus_go_downtown",
+      "id": "transportation_does_this_bus_go_downtown",
+      "target": [
+        {
+          "text": "¿Este autobús va al centro?",
+          "audioSlug": "este_autobus_va_al_centro"
+        }
+      ]
+    },
+    "es.transportation_right_bus_for": {
+      "conceptId": "es.transportation_right_bus_for",
+      "id": "transportation_right_bus_for",
+      "target": [
+        {
+          "text": "¿Es este el autobús para el museo?",
+          "audioSlug": "es_este_el_autobus_para_el_museo"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "bucket": "ab",
+  "concepts": {
+    "de.piloto_hablo_un_poco_de_aleman": {
+      "conceptId": "de.piloto_hablo_un_poco_de_aleman",
+      "id": "piloto_hablo_un_poco_de_aleman",
+      "target": [
+        {
+          "text": "Ich spreche ein wenig Deutsch.",
+          "audioSlug": "hablo_un_poco_de_aleman"
+        }
+      ]
+    }
+  }
+}

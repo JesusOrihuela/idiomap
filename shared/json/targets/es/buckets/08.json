@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "08",
+  "concepts": {
+    "es.accommodation_late_checkout_request": {
+      "conceptId": "es.accommodation_late_checkout_request",
+      "id": "accommodation_late_checkout_request",
+      "target": [
+        {
+          "text": "¿Es posible una salida tardía?",
+          "audioSlug": "es_posible_una_salida_tardia"
+        }
+      ]
+    },
+    "es.accountability_deadline": {
+      "conceptId": "es.accountability_deadline",
+      "id": "accountability_deadline",
+      "target": [
+        {
+          "text": "¿Cuándo es la fecha límite?",
+          "audioSlug": "cuando_es_la_fecha_limite"
+        }
+      ]
+    },
+    "es.economia_company_reported_profit": {
+      "conceptId": "es.economia_company_reported_profit",
+      "id": "economia_company_reported_profit",
+      "target": [
+        {
+          "text": "La empresa reportó una ganancia.",
+          "audioSlug": "la_empresa_reporto_una_ganancia"
+        }
+      ]
+    },
+    "es.hogar_puedes_abrir_la_ventana": {
+      "conceptId": "es.hogar_puedes_abrir_la_ventana",
+      "id": "hogar_puedes_abrir_la_ventana",
+      "target": [
+        {
+          "text": "¿Puedes abrir la ventana?",
+          "audioSlug": "puedes_abrir_la_ventana",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Puede abrir la ventana?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_abrir_la_ventana"
+        }
+      ]
+    },
+    "es.movies_bad_ending": {
+      "conceptId": "es.movies_bad_ending",
+      "id": "movies_bad_ending",
+      "target": [
+        {
+          "text": "No me gustó el final de esa película.",
+          "audioSlug": "no_me_gusto_el_final_de_esa_pelicula"
+        }
+      ]
+    },
+    "es.technology_the_algorithm_keeps_recommending_content": {
+      "conceptId": "es.technology_the_algorithm_keeps_recommending_content",
+      "id": "technology_the_algorithm_keeps_recommending_content",
+      "target": [
+        {
+          "text": "El algoritmo solo me recomienda contenido según mi comportamiento pasado.",
+          "audioSlug": "el_algoritmo_solo_me_recomienda_contenido_segun_mi_comportamiento_pasado"
+        }
+      ]
+    },
+    "es.vestimenta_su_blusa_es_blanca": {
+      "conceptId": "es.vestimenta_su_blusa_es_blanca",
+      "id": "vestimenta_su_blusa_es_blanca",
+      "target": [
+        {
+          "text": "Su blusa es blanca.",
+          "audioSlug": "su_blusa_es_blanca"
+        }
+      ]
+    },
+    "es.viajes_siempre_llevo_una_camara": {
+      "conceptId": "es.viajes_siempre_llevo_una_camara",
+      "id": "viajes_siempre_llevo_una_camara",
+      "target": [
+        {
+          "text": "Siempre llevo una cámara cuando viajo.",
+          "audioSlug": "siempre_llevo_una_camara_cuando_viajo"
+        }
+      ]
+    }
+  }
+}

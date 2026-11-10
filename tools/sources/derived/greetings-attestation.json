@@ -1,0 +1,791 @@
+{
+  "_doc": "Atestiguacion frase por frase — topic greetings. Todas las frases son actos de saludo estandar (saludar/responder/presentar/despedir/felicitar/condolencias/bienvenida/dar recuerdos), atestiguados en PCIC (funciones) + fuentes de saludos formales/informales EN/ES.",
+  "sources_es": [
+    "PCIC funciones de saludo/presentacion/despedida (pcic-greetings.json)",
+    "Enforex/Promova saludos"
+  ],
+  "sources_en": [
+    "Promova English Greetings and Introductions",
+    "FluentU business greetings",
+    "LearnLaughSpeak formal greetings"
+  ],
+  "retired": [
+    "greetings_honor_welcome_distinguished_delegates",
+    "greetings_cultural_awareness_not_merely_etiquette",
+    "greetings_protocol_introductions_senior_first",
+    "greetings_remiss_not_acknowledge_contribution"
+  ],
+  "phrases": {
+    "en.greetings_allow_me_to_introduce_dr": {
+      "level": "B2",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "Please allow me to introduce Dr. Martínez, who will lead the session this afternoon."
+    },
+    "en.greetings_appreciate_time_demanding_schedule": {
+      "level": "C1",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "I appreciate you taking the time to meet with me, knowing how demanding your schedule is."
+    },
+    "en.greetings_been_ages_how_keeping": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "It's been ages! How have you been keeping?"
+    },
+    "en.greetings_convey_delegation_graciously_received": {
+      "level": "C1",
+      "function": "saludar",
+      "attested": true,
+      "intent": "On behalf of the delegation, allow me to convey how delighted we are by this reception."
+    },
+    "en.greetings_dont_be_a_stranger": {
+      "level": "B1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "Don't be a stranger!"
+    },
+    "en.greetings_dont_believe_formally_introduced": {
+      "level": "C1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "I don't believe we've been formally introduced. I'm here representing the European delegation."
+    },
+    "en.greetings_dont_think_weve_met": {
+      "level": "B1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "I don't think we've met. I'm Ana."
+    },
+    "en.greetings_find_yourself_city_give_call": {
+      "level": "B2",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "If you're ever in the city, don't hesitate to give me a call."
+    },
+    "en.greetings_give_regards_family": {
+      "level": "B1",
+      "function": "dar_recuerdos",
+      "attested": true,
+      "intent": "Please give my regards to your family."
+    },
+    "en.greetings_good_afternoon_how_have_you_been": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Good afternoon, how have you been?"
+    },
+    "en.greetings_good_afternoon_hows_life_treating_you": {
+      "level": "A2",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Good afternoon, how's life treating you?"
+    },
+    "en.greetings_good_evening_hows_your_day_been": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Good evening, how's your day been?"
+    },
+    "en.greetings_good_morning_its_nice_to_see": {
+      "level": "A2",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "Good morning, it's nice to see you."
+    },
+    "en.greetings_great_catching_up_more_often": {
+      "level": "B1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "It was great catching up. We should do this more often."
+    },
+    "en.greetings_have_a_wonderful_day": {
+      "level": "A2",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "Have a wonderful day!"
+    },
+    "en.greetings_heard_so_much_face_to_name": {
+      "level": "B1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "I've heard so much about you. It's great to finally meet you!"
+    },
+    "en.greetings_hello_hope_youre_doing_fine": {
+      "level": "B1",
+      "function": "saludar",
+      "attested": true,
+      "intent": "Hello, hope you're doing fine."
+    },
+    "en.greetings_hello_how_have_you_been_lately": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Hello, how have you been lately?"
+    },
+    "en.greetings_hey_hows_life_treating_you": {
+      "level": "A2",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Hey, how's life treating you?"
+    },
+    "en.greetings_hey_nice_to_see_you_again": {
+      "level": "B1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "Hey, nice to see you again, how have you been?"
+    },
+    "en.greetings_hey_there_hows_your_week_been": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Hey there, how's your week been?"
+    },
+    "en.greetings_hi_how_are_you_holding_up": {
+      "level": "A2",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Hi, how are you holding up?"
+    },
+    "en.greetings_hi_its_been_a_while_how": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Hi, it's been a while, how are you?"
+    },
+    "en.greetings_hi_its_good_to_catch_up": {
+      "level": "A2",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "Hi, it's good to catch up with you."
+    },
+    "en.greetings_hi_there_hope_youre_having_a": {
+      "level": "B1",
+      "function": "saludar",
+      "attested": true,
+      "intent": "Hi there, hope you're having a good day."
+    },
+    "en.greetings_hope_not_interrupting": {
+      "level": "B1",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "I hope I'm not interrupting. Do you have a moment?"
+    },
+    "en.greetings_hows_your_day_been": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "How's your day been?"
+    },
+    "en.greetings_hows_your_week_been": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "How's your week been?"
+    },
+    "en.greetings_i_could_be_better": {
+      "level": "B1",
+      "function": "responder_estado",
+      "attested": true,
+      "intent": "I could be better."
+    },
+    "en.greetings_introduce_myself_account_manager": {
+      "level": "B2",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "I'd like to introduce myself. I'm the new account manager for your region."
+    },
+    "en.greetings_it_was_a_pleasure_hope_to": {
+      "level": "A2",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "It was a pleasure, hope to see you again."
+    },
+    "en.greetings_it_was_great_seeing_you": {
+      "level": "A2",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "It was great seeing you!"
+    },
+    "en.greetings_it_was_lovely_to_meet_you": {
+      "level": "A2",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "It was lovely to meet you."
+    },
+    "en.greetings_it_was_so_good_catching_up": {
+      "level": "A2",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "It was so good catching up with you."
+    },
+    "en.greetings_ive_had_a_great_day": {
+      "level": "B1",
+      "function": "responder_estado",
+      "attested": true,
+      "intent": "I've had a great day."
+    },
+    "en.greetings_ive_had_better_days": {
+      "level": "B1",
+      "function": "responder_estado",
+      "attested": true,
+      "intent": "I've had better days."
+    },
+    "en.greetings_let_me_introduce_colleague": {
+      "level": "B1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "Let me introduce you to a colleague of mine."
+    },
+    "en.greetings_looking_forward_introduction_work_precedes": {
+      "level": "C1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "I must confess, I've been looking forward to this introduction. Your work precedes you."
+    },
+    "en.greetings_lovely_see_you_looking_well": {
+      "level": "B2",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "It's lovely to see you looking so well."
+    },
+    "en.greetings_morning_hope_youre_doing_well": {
+      "level": "B1",
+      "function": "responder_estado",
+      "attested": true,
+      "intent": "Morning, hope you're doing well."
+    },
+    "en.greetings_mutual_acquaintance_conference": {
+      "level": "C1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "I believe we share a mutual acquaintance. You know Ana from the conference?"
+    },
+    "en.greetings_nice_to_meet_you_im_glad": {
+      "level": "B2",
+      "function": "responder_presentacion",
+      "attested": true,
+      "intent": "Nice to meet you, I'm glad we connected."
+    },
+    "en.greetings_pleasant_surprise_not_expecting": {
+      "level": "B2",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "I wasn't expecting to see you here. What a pleasant surprise!"
+    },
+    "en.greetings_pleasure_introduce_keynote_speaker": {
+      "level": "C1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "It is my pleasure to introduce our keynote speaker, whose work has shaped this field."
+    },
+    "en.greetings_pleasure_meeting_follow_up": {
+      "level": "B2",
+      "function": "responder_presentacion",
+      "attested": true,
+      "intent": "It was a pleasure meeting you. I'll follow up by email with the details."
+    },
+    "en.greetings_say_hi_to_everyone_for_me": {
+      "level": "A2",
+      "function": "dar_recuerdos",
+      "attested": true,
+      "intent": "Say hi to everyone for me."
+    },
+    "en.greetings_small_world_knew_each_other": {
+      "level": "B1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "What a small world! I had no idea you knew each other!"
+    },
+    "en.greetings_take_care_and_stay_in_touch": {
+      "level": "B1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "Take care and stay in touch."
+    },
+    "en.greetings_trust_message_finds_you_well": {
+      "level": "C1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "I trust this message finds you well. I'm writing to follow up on last week's conversation."
+    },
+    "en.greetings_we_should_do_this_again_sometime": {
+      "level": "B1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "We should do this again sometime."
+    },
+    "en.greetings_welcome_aboard_team": {
+      "level": "B2",
+      "function": "bienvenida",
+      "attested": true,
+      "intent": "On behalf of the entire team, welcome aboard. We're thrilled to have you."
+    },
+    "es.greetings_adios": {
+      "level": "A1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "Goodbye!"
+    },
+    "es.greetings_allow_me_to_introduce_dr": {
+      "level": "B2",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "Please allow me to introduce Dr. Martínez, who will lead the session this afternoon."
+    },
+    "es.greetings_appreciate_time_demanding_schedule": {
+      "level": "C1",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "I appreciate you taking the time to meet with me, knowing how demanding your schedule is."
+    },
+    "es.greetings_been_ages_how_keeping": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "It's been ages! How have you been keeping?"
+    },
+    "es.greetings_buenas_noches": {
+      "level": "A1",
+      "function": "saludar",
+      "attested": true,
+      "intent": "Good evening!"
+    },
+    "es.greetings_buenas_tardes": {
+      "level": "A1",
+      "function": "saludar",
+      "attested": true,
+      "intent": "Good afternoon!"
+    },
+    "es.greetings_buenos_dias": {
+      "level": "A1",
+      "function": "saludar",
+      "attested": true,
+      "intent": "Good morning!"
+    },
+    "es.greetings_como_estas_hoy": {
+      "level": "A1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "How are you today?"
+    },
+    "es.greetings_como_te_llamas": {
+      "level": "A1",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "What's your name?"
+    },
+    "es.greetings_como_te_va": {
+      "level": "A1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "How's it going with you?"
+    },
+    "es.greetings_convey_delegation_graciously_received": {
+      "level": "C1",
+      "function": "saludar",
+      "attested": true,
+      "intent": "On behalf of the delegation, allow me to convey how delighted we are by this reception."
+    },
+    "es.greetings_cuidate": {
+      "level": "A1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "Take care!"
+    },
+    "es.greetings_de_nada": {
+      "level": "A1",
+      "function": "cortesia",
+      "attested": true,
+      "intent": "You're welcome."
+    },
+    "es.greetings_dont_be_a_stranger": {
+      "level": "B1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "Don't be a stranger!"
+    },
+    "es.greetings_dont_believe_formally_introduced": {
+      "level": "C1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "I don't believe we've been formally introduced. I'm here representing the European delegation."
+    },
+    "es.greetings_dont_think_weve_met": {
+      "level": "B1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "I don't think we've met. I'm Ana."
+    },
+    "es.greetings_encantado": {
+      "level": "A1",
+      "function": "responder_presentacion",
+      "attested": true,
+      "intent": "Pleased to meet you."
+    },
+    "es.greetings_find_yourself_city_give_call": {
+      "level": "B2",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "If you're ever in the city, don't hesitate to give me a call."
+    },
+    "es.greetings_give_regards_family": {
+      "level": "B1",
+      "function": "dar_recuerdos",
+      "attested": true,
+      "intent": "Please give my regards to your family."
+    },
+    "es.greetings_good_afternoon_how_have_you_been": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Good afternoon, how have you been?"
+    },
+    "es.greetings_good_afternoon_hows_life_treating_you": {
+      "level": "A2",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Good afternoon, how's life treating you?"
+    },
+    "es.greetings_good_evening_hows_your_day_been": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Good evening, how's your day been?"
+    },
+    "es.greetings_good_morning_its_nice_to_see": {
+      "level": "A2",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "Good morning, it's nice to see you."
+    },
+    "es.greetings_gracias": {
+      "level": "A1",
+      "function": "cortesia",
+      "attested": true,
+      "intent": "Thank you very much."
+    },
+    "es.greetings_great_catching_up_more_often": {
+      "level": "B1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "It was great catching up. We should do this more often."
+    },
+    "es.greetings_hasta_luego": {
+      "level": "A1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "See you later!"
+    },
+    "es.greetings_hasta_manana": {
+      "level": "A1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "See you tomorrow."
+    },
+    "es.greetings_have_a_wonderful_day": {
+      "level": "A2",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "Have a wonderful day!"
+    },
+    "es.greetings_heard_so_much_face_to_name": {
+      "level": "B1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "I've heard so much about you. It's great to finally meet you!"
+    },
+    "es.greetings_hello_hope_youre_doing_fine": {
+      "level": "B1",
+      "function": "saludar",
+      "attested": true,
+      "intent": "Hello, hope you're doing fine."
+    },
+    "es.greetings_hello_how_have_you_been_lately": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Hello, how have you been lately?"
+    },
+    "es.greetings_hey_hows_life_treating_you": {
+      "level": "A2",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Hey, how's life treating you?"
+    },
+    "es.greetings_hey_nice_to_see_you_again": {
+      "level": "B1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "Hey, nice to see you again, how have you been?"
+    },
+    "es.greetings_hey_there_hows_your_week_been": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Hey there, how's your week been?"
+    },
+    "es.greetings_hi_how_are_you_holding_up": {
+      "level": "A2",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Hi, how are you holding up?"
+    },
+    "es.greetings_hi_its_been_a_while_how": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Hi, it's been a while, how are you?"
+    },
+    "es.greetings_hi_its_good_to_catch_up": {
+      "level": "A2",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "Hi, it's good to catch up with you."
+    },
+    "es.greetings_hi_there_hope_youre_having_a": {
+      "level": "B1",
+      "function": "saludar",
+      "attested": true,
+      "intent": "Hi there, hope you're having a good day."
+    },
+    "es.greetings_hola_como_estas": {
+      "level": "A1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Hi, how are you?"
+    },
+    "es.greetings_hola_que_tal": {
+      "level": "A1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "Hi, how's it going?"
+    },
+    "es.greetings_hope_not_interrupting": {
+      "level": "B1",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "I hope I'm not interrupting. Do you have a moment?"
+    },
+    "es.greetings_hows_your_day_been": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "How's your day been?"
+    },
+    "es.greetings_hows_your_week_been": {
+      "level": "B1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "How's your week been?"
+    },
+    "es.greetings_i_could_be_better": {
+      "level": "B1",
+      "function": "responder_estado",
+      "attested": true,
+      "intent": "I could be better."
+    },
+    "es.greetings_introduce_myself_account_manager": {
+      "level": "B2",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "I'd like to introduce myself. I'm the new account manager for your region."
+    },
+    "es.greetings_it_was_a_pleasure_hope_to": {
+      "level": "A2",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "It was a pleasure, hope to see you again."
+    },
+    "es.greetings_it_was_great_seeing_you": {
+      "level": "A2",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "It was great seeing you!"
+    },
+    "es.greetings_it_was_lovely_to_meet_you": {
+      "level": "A2",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "It was lovely to meet you."
+    },
+    "es.greetings_it_was_so_good_catching_up": {
+      "level": "A2",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "It was so good catching up with you."
+    },
+    "es.greetings_ive_had_a_great_day": {
+      "level": "B1",
+      "function": "responder_estado",
+      "attested": true,
+      "intent": "I've had a great day."
+    },
+    "es.greetings_ive_had_better_days": {
+      "level": "B1",
+      "function": "responder_estado",
+      "attested": true,
+      "intent": "I've had better days."
+    },
+    "es.greetings_let_me_introduce_colleague": {
+      "level": "B1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "Let me introduce you to a colleague of mine."
+    },
+    "es.greetings_looking_forward_introduction_work_precedes": {
+      "level": "C1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "I must confess, I've been looking forward to this introduction. Your work precedes you."
+    },
+    "es.greetings_lovely_see_you_looking_well": {
+      "level": "B2",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "It's lovely to see you looking so well."
+    },
+    "es.greetings_morning_hope_youre_doing_well": {
+      "level": "B1",
+      "function": "responder_estado",
+      "attested": true,
+      "intent": "Morning, hope you're doing well."
+    },
+    "es.greetings_mucho_gusto": {
+      "level": "A1",
+      "function": "responder_presentacion",
+      "attested": true,
+      "intent": "Nice to meet you."
+    },
+    "es.greetings_mutual_acquaintance_conference": {
+      "level": "C1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "I believe we share a mutual acquaintance. You know Ana from the conference?"
+    },
+    "es.greetings_muy_bien_gracias_y_tu": {
+      "level": "A1",
+      "function": "responder_estado",
+      "attested": true,
+      "intent": "Very well, thanks. And you?"
+    },
+    "es.greetings_nice_to_meet_you_im_glad": {
+      "level": "B2",
+      "function": "responder_presentacion",
+      "attested": true,
+      "intent": "Nice to meet you, I'm glad we connected."
+    },
+    "es.greetings_nos_vemos": {
+      "level": "A1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "See you around!"
+    },
+    "es.greetings_perdon": {
+      "level": "A1",
+      "function": "cortesia",
+      "attested": true,
+      "intent": "Excuse me."
+    },
+    "es.greetings_pleasant_surprise_not_expecting": {
+      "level": "B2",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "I wasn't expecting to see you here. What a pleasant surprise!"
+    },
+    "es.greetings_pleasure_introduce_keynote_speaker": {
+      "level": "C1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "It is my pleasure to introduce our keynote speaker, whose work has shaped this field."
+    },
+    "es.greetings_pleasure_meeting_follow_up": {
+      "level": "B2",
+      "function": "responder_presentacion",
+      "attested": true,
+      "intent": "It was a pleasure meeting you. I'll follow up by email with the details."
+    },
+    "es.greetings_por_favor": {
+      "level": "A1",
+      "function": "cortesia",
+      "attested": true,
+      "intent": "Please."
+    },
+    "es.greetings_say_hi_to_everyone_for_me": {
+      "level": "A2",
+      "function": "dar_recuerdos",
+      "attested": true,
+      "intent": "Say hi to everyone for me."
+    },
+    "es.greetings_small_world_knew_each_other": {
+      "level": "B1",
+      "function": "presentar/presentarse",
+      "attested": true,
+      "intent": "What a small world! I had no idea you knew each other!"
+    },
+    "es.greetings_take_care_and_stay_in_touch": {
+      "level": "B1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "Take care and stay in touch."
+    },
+    "es.greetings_trust_message_finds_you_well": {
+      "level": "C1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "I trust this message finds you well. I'm writing to follow up on last week's conversation."
+    },
+    "es.greetings_un_abrazo": {
+      "level": "A1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "Sending you a hug."
+    },
+    "es.greetings_we_should_do_this_again_sometime": {
+      "level": "B1",
+      "function": "despedirse",
+      "attested": true,
+      "intent": "We should do this again sometime."
+    },
+    "es.greetings_welcome_aboard_team": {
+      "level": "B2",
+      "function": "bienvenida",
+      "attested": true,
+      "intent": "On behalf of the entire team, welcome aboard. We're thrilled to have you."
+    },
+    "es.greetings_y_tu_como_estas": {
+      "level": "A1",
+      "function": "preguntar_estado",
+      "attested": true,
+      "intent": "And you, how are you?"
+    }
+  },
+  "_unmatched": {
+    "greetings_whats_on_your_mind": {
+      "level": "A2",
+      "function": "saludo_social",
+      "attested": true,
+      "intent": "What's on your mind?"
+    },
+    "greetings_is_there_anything_i_can_do": {
+      "level": "B1",
+      "function": "saludar",
+      "attested": true,
+      "intent": "Is there anything I can do for you?"
+    },
+    "greetings_sincere_condolences_loss": {
+      "level": "B2",
+      "function": "condolencias",
+      "attested": true,
+      "intent": "I wanted to reach out and offer my sincere condolences on your loss."
+    },
+    "greetings_sincere_felicitations_promotion": {
+      "level": "C2",
+      "function": "felicitar",
+      "attested": true,
+      "intent": "Please accept my most sincere felicitations on the occasion of your well-deserved promotion."
+    }
+  },
+  "_keyFormat": "target.conceptSlug"
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "11",
+  "concepts": {
+    "en.airport_boarding_pass_gate": {
+      "conceptId": "en.airport_boarding_pass_gate",
+      "id": "airport_boarding_pass_gate",
+      "target": [
+        {
+          "text": "I must show my boarding pass at the gate.",
+          "audioSlug": "i_must_show_my_boarding_pass_at_the_gate"
+        }
+      ]
+    },
+    "en.animales_dog_barking_loudly": {
+      "conceptId": "en.animales_dog_barking_loudly",
+      "id": "animales_dog_barking_loudly",
+      "target": [
+        {
+          "text": "The dog is barking loudly.",
+          "audioSlug": "the_dog_is_barking_loudly"
+        }
+      ]
+    },
+    "en.greetings_pleasure_meeting_follow_up": {
+      "conceptId": "en.greetings_pleasure_meeting_follow_up",
+      "id": "greetings_pleasure_meeting_follow_up",
+      "target": [
+        {
+          "text": "It was a pleasure meeting you. I'll follow up by email with the details.",
+          "audioSlug": "it_was_a_pleasure_meeting_you_i_ll_follow_up_by_email_with_the_details"
+        }
+      ]
+    },
+    "en.health_the_drug_problem_is_international": {
+      "conceptId": "en.health_the_drug_problem_is_international",
+      "id": "health_the_drug_problem_is_international",
+      "target": [
+        {
+          "text": "The drug problem is international.",
+          "audioSlug": "the_drug_problem_is_international"
+        }
+      ]
+    },
+    "en.kitchen_can_you_pass_me_the_colander": {
+      "conceptId": "en.kitchen_can_you_pass_me_the_colander",
+      "id": "kitchen_can_you_pass_me_the_colander",
+      "target": [
+        {
+          "text": "Can you pass me the colander to drain the pasta?",
+          "audioSlug": "can_you_pass_me_the_colander_to_drain_the_pasta",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Could you pass me the colander to drain the pasta?",
+          "audioSlug": "could_you_pass_me_the_colander_to_drain_the_pasta",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.music_chord_progression_unsettling": {
+      "conceptId": "en.music_chord_progression_unsettling",
+      "id": "music_chord_progression_unsettling",
+      "target": [
+        {
+          "text": "The unconventional chord progression gives the track its unsettling quality.",
+          "audioSlug": "the_unconventional_chord_progression_gives_the_track_its_unsettling_quality"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_i_wonder_why": {
+      "conceptId": "en.pensamientos_opiniones_i_wonder_why",
+      "id": "pensamientos_opiniones_i_wonder_why",
+      "target": [
+        {
+          "text": "I wonder why.",
+          "audioSlug": "i_wonder_why"
+        }
+      ]
+    },
+    "en.sitios_it_is_a_small_village": {
+      "conceptId": "en.sitios_it_is_a_small_village",
+      "id": "sitios_it_is_a_small_village",
+      "target": [
+        {
+          "text": "It is a small village.",
+          "audioSlug": "it_is_a_small_village"
+        }
+      ]
+    },
+    "en.transportation_luggage_locker_station": {
+      "conceptId": "en.transportation_luggage_locker_station",
+      "id": "transportation_luggage_locker_station",
+      "target": [
+        {
+          "text": "Can I rent a luggage locker at the station before my train?",
+          "audioSlug": "can_i_rent_a_luggage_locker_at_the_station_before_my_train"
+        }
+      ]
+    }
+  }
+}

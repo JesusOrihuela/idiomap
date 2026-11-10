@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "88",
+  "concepts": {
+    "en.gym_what_is_the_best_way_to": {
+      "conceptId": "en.gym_what_is_the_best_way_to",
+      "id": "gym_what_is_the_best_way_to",
+      "target": [
+        {
+          "text": "What is the best way to work the abdominal muscles?",
+          "audioSlug": "what_is_the_best_way_to_work_the_abdominal_muscles"
+        }
+      ]
+    },
+    "en.supermarket_do_you_have_almond_milk": {
+      "conceptId": "en.supermarket_do_you_have_almond_milk",
+      "id": "supermarket_do_you_have_almond_milk",
+      "target": [
+        {
+          "text": "Do you have almond milk?",
+          "audioSlug": "do_you_have_almond_milk"
+        }
+      ]
+    },
+    "en.supermarket_there_is_a_long_line_at": {
+      "conceptId": "en.supermarket_there_is_a_long_line_at",
+      "id": "supermarket_there_is_a_long_line_at",
+      "target": [
+        {
+          "text": "There is a long line at the cash registers.",
+          "audioSlug": "there_is_a_long_line_at_the_cash_registers"
+        }
+      ]
+    }
+  }
+}

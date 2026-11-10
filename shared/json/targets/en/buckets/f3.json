@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "f3",
+  "concepts": {
+    "en.accountability_if_the_company_buys_new_assets": {
+      "conceptId": "en.accountability_if_the_company_buys_new_assets",
+      "id": "accountability_if_the_company_buys_new_assets",
+      "target": [
+        {
+          "text": "If the company buys new assets, you debit banks and credit assets.",
+          "audioSlug": "if_the_company_buys_new_assets_you_debit_banks_and_credit_assets"
+        }
+      ]
+    },
+    "en.airport_customs_declare_allowance": {
+      "conceptId": "en.airport_customs_declare_allowance",
+      "id": "airport_customs_declare_allowance",
+      "target": [
+        {
+          "text": "I'd like to declare these goods. Could you tell me the duty-free allowance?",
+          "audioSlug": "i_d_like_to_declare_these_goods_could_you_tell_me_the_duty_free_allowance"
+        }
+      ]
+    },
+    "en.conversacion_this_is_a_newspaper": {
+      "conceptId": "en.conversacion_this_is_a_newspaper",
+      "id": "conversacion_this_is_a_newspaper",
+      "target": [
+        {
+          "text": "This is a newspaper.",
+          "audioSlug": "this_is_a_newspaper"
+        }
+      ]
+    },
+    "en.family_big_family": {
+      "conceptId": "en.family_big_family",
+      "id": "family_big_family",
+      "target": [
+        {
+          "text": "We're a big family.",
+          "audioSlug": "we_re_a_big_family"
+        }
+      ]
+    },
+    "en.kitchen_add_a_little_sugar_to_the": {
+      "conceptId": "en.kitchen_add_a_little_sugar_to_the",
+      "id": "kitchen_add_a_little_sugar_to_the",
+      "target": [
+        {
+          "text": "Add a little sugar to the sauce.",
+          "audioSlug": "add_a_little_sugar_to_the_sauce"
+        }
+      ]
+    },
+    "en.kitchen_we_need_to_broil_the_cheese": {
+      "conceptId": "en.kitchen_we_need_to_broil_the_cheese",
+      "id": "kitchen_we_need_to_broil_the_cheese",
+      "target": [
+        {
+          "text": "We need to broil the cheese to make the lasagna golden.",
+          "audioSlug": "we_need_to_broil_the_cheese_to_make_the_lasagna_golden"
+        }
+      ]
+    },
+    "en.supermarket_the_strawberries_are_very_expensive": {
+      "conceptId": "en.supermarket_the_strawberries_are_very_expensive",
+      "id": "supermarket_the_strawberries_are_very_expensive",
+      "target": [
+        {
+          "text": "The strawberries are very expensive.",
+          "audioSlug": "the_strawberries_are_very_expensive"
+        }
+      ]
+    },
+    "en.transportation_boat_arrive_port": {
+      "conceptId": "en.transportation_boat_arrive_port",
+      "id": "transportation_boat_arrive_port",
+      "target": [
+        {
+          "text": "What time does our boat arrive at the port?",
+          "audioSlug": "what_time_does_our_boat_arrive_at_the_port"
+        }
+      ]
+    }
+  }
+}

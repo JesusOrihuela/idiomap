@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "hogar",
+  "phrases": [
+    {
+      "id": "hogar_eres_mi_invitado",
+      "conceptId": "es.hogar_eres_mi_invitado",
+      "sourceId": "en.s.1602dbe2f09e77a0",
+      "source": "You are my guest.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Eres mi invitado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "eres_mi_invitado"
+        },
+        {
+          "text": "Eres mi invitada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "eres_mi_invitada"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_salon_es_grande",
+      "conceptId": "es.hogar_el_salon_es_grande",
+      "sourceId": "en.s.bca4bd2664f16362",
+      "source": "The living room is big.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El salón es grande.",
+          "audioSlug": "el_salon_es_grande"
+        }
+      ]
+    },
+    {
+      "id": "hogar_la_pared_es_blanca",
+      "conceptId": "es.hogar_la_pared_es_blanca",
+      "sourceId": "en.s.9b0bed9fa8d2e03f",
+      "source": "The wall is white.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La pared es blanca.",
+          "audioSlug": "la_pared_es_blanca"
+        }
+      ]
+    },
+    {
+      "id": "hogar_es_una_mesa_de_madera",
+      "conceptId": "es.hogar_es_una_mesa_de_madera",
+      "sourceId": "en.s.d7e793d7cfdbe27c",
+      "source": "It is a wooden table.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es una mesa de madera.",
+          "audioSlug": "es_una_mesa_de_madera"
+        }
+      ]
+    },
+    {
+      "id": "hogar_vamos_a_construir_una_casa",
+      "conceptId": "es.hogar_vamos_a_construir_una_casa",
+      "sourceId": "en.s.578b4aaf5755081a",
+      "source": "We are going to build a house.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos a construir una casa.",
+          "audioSlug": "vamos_a_construir_una_casa"
+        }
+      ]
+    },
+    {
+      "id": "hogar_cierra_la_puerta_al_salir",
+      "conceptId": "es.hogar_cierra_la_puerta_al_salir",
+      "sourceId": "en.s.378194ed7e0dc88e",
+      "source": "Close the door when you leave.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cierra la puerta al salir.",
+          "audioSlug": "cierra_la_puerta_al_salir"
+        }
+      ]
+    },
+    {
+      "id": "hogar_puedes_abrir_la_ventana",
+      "conceptId": "es.hogar_puedes_abrir_la_ventana",
+      "sourceId": "en.s.58a433ecf821d5d0",
+      "source": "Can you open the window?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedes abrir la ventana?",
+          "audioSlug": "puedes_abrir_la_ventana",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Puede abrir la ventana?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_abrir_la_ventana"
+        }
+      ]
+    },
+    {
+      "id": "hogar_los_muebles_son_nuevos",
+      "conceptId": "es.hogar_los_muebles_son_nuevos",
+      "sourceId": "en.s.2a80a7f369d15de0",
+      "source": "The furniture is new.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los muebles son nuevos.",
+          "audioSlug": "los_muebles_son_nuevos"
+        }
+      ]
+    },
+    {
+      "id": "hogar_vivo_en_un_apartamento_pequeno",
+      "conceptId": "es.hogar_vivo_en_un_apartamento_pequeno",
+      "sourceId": "en.s.cdc2fa3f1ef9bc7d",
+      "source": "I live in a small apartment.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vivo en un apartamento pequeño.",
+          "audioSlug": "vivo_en_un_apartamento_pequeno"
+        }
+      ]
+    },
+    {
+      "id": "hogar_mi_habitacion_esta_en_el_segundo_piso",
+      "conceptId": "es.hogar_mi_habitacion_esta_en_el_segundo_piso",
+      "sourceId": "en.s.1315b18b3df05ce3",
+      "source": "My room is on the second floor.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi habitación está en el segundo piso.",
+          "audioSlug": "mi_habitacion_esta_en_el_segundo_piso"
+        }
+      ]
+    },
+    {
+      "id": "hogar_enciende_la_luz_por_favor",
+      "conceptId": "es.hogar_enciende_la_luz_por_favor",
+      "sourceId": "en.s.b80d11d29673d9f8",
+      "source": "Turn on the light, please.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Enciende la luz, por favor.",
+          "audioSlug": "enciende_la_luz_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_techo_tiene_una_gotera",
+      "conceptId": "es.hogar_el_techo_tiene_una_gotera",
+      "sourceId": "en.s.e0d8eb2db9ca7c0e",
+      "source": "The roof has a leak.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El techo tiene una gotera.",
+          "audioSlug": "el_techo_tiene_una_gotera"
+        }
+      ]
+    },
+    {
+      "id": "hogar_sientete_como_en_tu_casa",
+      "conceptId": "es.hogar_sientete_como_en_tu_casa",
+      "sourceId": "en.s.0c890f78b53dfcc5",
+      "source": "Make yourself at home.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Siéntete como en tu casa.",
+          "audioSlug": "sientete_como_en_tu_casa"
+        }
+      ]
+    },
+    {
+      "id": "hogar_hay_que_limpiar_la_cocina",
+      "conceptId": "es.hogar_hay_que_limpiar_la_cocina",
+      "sourceId": "en.s.55a2f0dd6ffebc40",
+      "source": "We need to clean the kitchen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que limpiar la cocina.",
+          "audioSlug": "hay_que_limpiar_la_cocina"
+        }
+      ]
+    },
+    {
+      "id": "hogar_la_casa_tiene_tres_dormitorios",
+      "conceptId": "es.hogar_la_casa_tiene_tres_dormitorios",
+      "sourceId": "en.s.c746c38b07933718",
+      "source": "The house has three bedrooms.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La casa tiene tres dormitorios.",
+          "audioSlug": "la_casa_tiene_tres_dormitorios"
+        }
+      ]
+    },
+    {
+      "id": "hogar_barre_el_suelo_por_favor",
+      "conceptId": "es.hogar_barre_el_suelo_por_favor",
+      "sourceId": "en.s.4eb22f8d8267851f",
+      "source": "Sweep the floor, please.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Barre el suelo, por favor.",
+          "audioSlug": "barre_el_suelo_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "hogar_apaga_la_luz_antes_de_dormir",
+      "conceptId": "es.hogar_apaga_la_luz_antes_de_dormir",
+      "sourceId": "en.s.6cd1c530360b90a2",
+      "source": "Turn off the light before sleeping.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Apaga la luz antes de dormir.",
+          "audioSlug": "apaga_la_luz_antes_de_dormir"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_sofa_es_comodo",
+      "conceptId": "es.hogar_el_sofa_es_comodo",
+      "sourceId": "en.s.29b4a6eb8f112c2d",
+      "source": "The sofa is very comfortable.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El sofá es muy cómodo.",
+          "audioSlug": "el_sofa_es_muy_comodo"
+        }
+      ]
+    },
+    {
+      "id": "hogar_hay_un_sillon_junto_a_la_ventana",
+      "conceptId": "es.hogar_hay_un_sillon_junto_a_la_ventana",
+      "sourceId": "en.s.2483aa9b7360a785",
+      "source": "There is an armchair next to the window.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay un sillón junto a la ventana.",
+          "audioSlug": "hay_un_sillon_junto_a_la_ventana"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_ascensor_no_funciona",
+      "conceptId": "es.hogar_el_ascensor_no_funciona",
+      "sourceId": "en.s.434e772af61fe897",
+      "source": "The elevator is not working today.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El ascensor no funciona hoy.",
+          "audioSlug": "el_ascensor_no_funciona_hoy"
+        }
+      ]
+    },
+    {
+      "id": "hogar_subimos_por_la_escalera",
+      "conceptId": "es.hogar_subimos_por_la_escalera",
+      "sourceId": "en.s.03377e4c0e6bf924",
+      "source": "We go up the stairs.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Subimos por la escalera.",
+          "audioSlug": "subimos_por_la_escalera"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_garaje_esta_debajo_del_edificio",
+      "conceptId": "es.hogar_el_garaje_esta_debajo_del_edificio",
+      "sourceId": "en.s.5097880eb0ec4c30",
+      "source": "The garage is under the building.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El garaje está debajo del edificio.",
+          "audioSlug": "el_garaje_esta_debajo_del_edificio"
+        }
+      ]
+    },
+    {
+      "id": "hogar_el_bano_tiene_una_ducha_grande",
+      "conceptId": "es.hogar_el_bano_tiene_una_ducha_grande",
+      "sourceId": "en.s.495f4268450b28a8",
+      "source": "The bathroom has a big shower.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El baño tiene una ducha grande.",
+          "audioSlug": "el_bano_tiene_una_ducha_grande"
+        }
+      ]
+    },
+    {
+      "id": "hogar_me_lavo_las_manos_en_el_lavabo",
+      "conceptId": "es.hogar_me_lavo_las_manos_en_el_lavabo",
+      "sourceId": "en.s.03b0c61a67b6ec08",
+      "source": "I wash my hands in the sink.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me lavo las manos en el lavabo.",
+          "audioSlug": "me_lavo_las_manos_en_el_lavabo"
+        }
+      ]
+    },
+    {
+      "id": "hogar_la_calefaccion_esta_encendida",
+      "conceptId": "es.hogar_la_calefaccion_esta_encendida",
+      "sourceId": "en.s.019e2cc55cef3c5d",
+      "source": "The heating is on.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La calefacción está encendida.",
+          "audioSlug": "la_calefaccion_esta_encendida"
+        }
+      ]
+    },
+    {
+      "id": "hogar_necesito_jabon_para_lavarme",
+      "conceptId": "es.hogar_necesito_jabon_para_lavarme",
+      "sourceId": "en.s.ff608ed573893828",
+      "source": "I need soap to wash myself.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito jabón para lavarme.",
+          "audioSlug": "necesito_jabon_para_lavarme"
+        }
+      ]
+    },
+    {
+      "id": "hogar_salimos_a_la_terraza",
+      "conceptId": "es.hogar_salimos_a_la_terraza",
+      "sourceId": "en.s.355debebbdbfdf32",
+      "source": "We go out to the terrace for fresh air.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Salimos a la terraza a tomar el aire.",
+          "audioSlug": "salimos_a_la_terraza_a_tomar_el_aire"
+        }
+      ]
+    },
+    {
+      "id": "hogar_los_libros_estan_en_la_estanteria",
+      "conceptId": "es.hogar_los_libros_estan_en_la_estanteria",
+      "sourceId": "en.s.34b7dff3141e2f00",
+      "source": "The books are on the shelf.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los libros están en la estantería.",
+          "audioSlug": "los_libros_estan_en_la_estanteria"
+        }
+      ]
+    },
+    {
+      "id": "hogar_la_banera_es_muy_grande",
+      "conceptId": "es.hogar_la_banera_es_muy_grande",
+      "sourceId": "en.s.5ce8f84375f24853",
+      "source": "The bathtub is very big.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La bañera es muy grande.",
+          "audioSlug": "la_banera_es_muy_grande"
+        }
+      ]
+    },
+    {
+      "id": "hogar_la_lavadora_no_funciona",
+      "conceptId": "es.hogar_la_lavadora_no_funciona",
+      "sourceId": "en.s.af3109c58f75528a",
+      "source": "The washing machine is not working.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La lavadora no funciona.",
+          "audioSlug": "la_lavadora_no_funciona"
+        }
+      ]
+    }
+  ]
+}

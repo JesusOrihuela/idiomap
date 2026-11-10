@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "f1",
+  "concepts": {
+    "en.describiendo_personas_i_have_many_abilities": {
+      "conceptId": "en.describiendo_personas_i_have_many_abilities",
+      "id": "describiendo_personas_i_have_many_abilities",
+      "target": [
+        {
+          "text": "I have many abilities.",
+          "audioSlug": "i_have_many_abilities"
+        }
+      ]
+    },
+    "en.kitchen_while_i_remove_the_fish_bones": {
+      "conceptId": "en.kitchen_while_i_remove_the_fish_bones",
+      "id": "kitchen_while_i_remove_the_fish_bones",
+      "target": [
+        {
+          "text": "Could you preheat the oven while I clean the fish?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "could_you_preheat_the_oven_while_i_clean_the_fish"
+        },
+        {
+          "text": "Can you preheat the oven while I clean the fish?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "can_you_preheat_the_oven_while_i_clean_the_fish"
+        }
+      ]
+    },
+    "en.museums_museum_retrospective_evolution": {
+      "conceptId": "en.museums_museum_retrospective_evolution",
+      "id": "museums_museum_retrospective_evolution",
+      "target": [
+        {
+          "text": "The museum's retrospective traces thirty years of the artist's creative evolution.",
+          "audioSlug": "the_museum_s_retrospective_traces_thirty_years_of_the_artist_s_creative_evolution"
+        }
+      ]
+    },
+    "en.oficina_when_is_the_meeting_scheduled": {
+      "conceptId": "en.oficina_when_is_the_meeting_scheduled",
+      "id": "oficina_when_is_the_meeting_scheduled",
+      "target": [
+        {
+          "text": "When is the meeting scheduled?",
+          "audioSlug": "when_is_the_meeting_scheduled",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "When is the meeting planned?",
+          "audioSlug": "when_is_the_meeting_planned",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.restaurant_is_the_tip_included_in_the": {
+      "conceptId": "en.restaurant_is_the_tip_included_in_the",
+      "id": "restaurant_is_the_tip_included_in_the",
+      "target": [
+        {
+          "text": "Is the tip included in the bill?",
+          "labels": {
+            "region": "UK"
+          },
+          "audioSlug": "is_the_tip_included_in_the_bill"
+        },
+        {
+          "text": "Is the tip included in the check?",
+          "labels": {
+            "region": "US"
+          },
+          "audioSlug": "is_the_tip_included_in_the_check"
+        }
+      ]
+    }
+  }
+}

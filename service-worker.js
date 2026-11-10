@@ -10,7 +10,7 @@
 // stale-while-revalidate instead, and the cache name carries a version so a
 // bump force-purges stale images when one is intentionally replaced.
 const IMG_CACHE   = 'pe-images-v9'; // photos/icons: stale-while-revalidate (bumped: banderas reimportadas a su razón real)
-const AUDIO_CACHE = 'pe-audio';     // pre-generated WAV: cache-first forever (slug-named, immutable)
+const AUDIO_CACHE = 'pe-audio';     // pre-generated AAC/M4A: cache-first forever (slug-named, immutable)
 const APP_CACHE   = 'pe-app';       // HTML/JS/CSS/JSON: network-first, cached for offline
 const APP_CACHE_MAX = 250;          // cap network-first growth (all visited JSON would accumulate otherwise)
 
@@ -34,8 +34,8 @@ const isImage = url =>
 
 // Audio files are named by content slug and never change after upload, so they
 // are safe to serve cache-first forever — the same reasoning as images. Serving
-// them network-first (the old default) re-downloaded a 100-300 KB WAV on every
-// single playback, which is what made repeat audio feel slow to load.
+// them network-first (the old default) re-downloaded a 100-300 KB audio file on
+// every single playback, which is what made repeat audio feel slow to load.
 const isAudio = url =>
   url.pathname.match(/\.(wav|mp3|ogg|opus|m4a|aac)$/i) !== null;
 

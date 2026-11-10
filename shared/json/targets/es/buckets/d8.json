@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "d8",
+  "concepts": {
+    "es.daily_routine_saco_la_basura_cada_noche": {
+      "conceptId": "es.daily_routine_saco_la_basura_cada_noche",
+      "id": "daily_routine_saco_la_basura_cada_noche",
+      "target": [
+        {
+          "text": "Saco la basura cada noche.",
+          "audioSlug": "saco_la_basura_cada_noche"
+        }
+      ]
+    },
+    "es.economia_hay_que_dedicarse_con_pasion_al_trabajo": {
+      "conceptId": "es.economia_hay_que_dedicarse_con_pasion_al_trabajo",
+      "id": "economia_hay_que_dedicarse_con_pasion_al_trabajo",
+      "target": [
+        {
+          "text": "Hay que dedicarse con pasión al trabajo.",
+          "audioSlug": "hay_que_dedicarse_con_pasion_al_trabajo"
+        }
+      ]
+    },
+    "es.emociones_im_relaxed": {
+      "conceptId": "es.emociones_im_relaxed",
+      "id": "emociones_im_relaxed",
+      "target": [
+        {
+          "text": "Estoy relajada.",
+          "audioSlug": "estoy_relajada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy relajado.",
+          "audioSlug": "estoy_relajado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.estudios_casi_no_entiendo_tu_letra": {
+      "conceptId": "es.estudios_casi_no_entiendo_tu_letra",
+      "id": "estudios_casi_no_entiendo_tu_letra",
+      "target": [
+        {
+          "text": "Casi no entiendo tu letra.",
+          "audioSlug": "casi_no_entiendo_tu_letra"
+        }
+      ]
+    },
+    "es.family_get_along": {
+      "conceptId": "es.family_get_along",
+      "id": "family_get_along",
+      "target": [
+        {
+          "text": "¿Te llevas bien con tu familia?",
+          "audioSlug": "te_llevas_bien_con_tu_familia"
+        }
+      ]
+    },
+    "es.kitchen_the_blender_is_in_the_cabinet": {
+      "conceptId": "es.kitchen_the_blender_is_in_the_cabinet",
+      "id": "kitchen_the_blender_is_in_the_cabinet",
+      "target": [
+        {
+          "text": "La licuadora está en el gabinete.",
+          "audioSlug": "la_licuadora_esta_en_el_gabinete"
+        }
+      ]
+    },
+    "es.music_reinterprets_makes_her_own": {
+      "conceptId": "es.music_reinterprets_makes_her_own",
+      "id": "music_reinterprets_makes_her_own",
+      "target": [
+        {
+          "text": "No solo interpreta la canción, la reinterpreta de una forma que la convierte completamente en suya.",
+          "audioSlug": "no_solo_interpreta_la_cancion_la_reinterpreta_de_una_forma_que_la_convierte_completamente_en_suya"
+        }
+      ]
+    },
+    "es.personal_info_la_ministra_visita_el_hospital": {
+      "conceptId": "es.personal_info_la_ministra_visita_el_hospital",
+      "id": "personal_info_la_ministra_visita_el_hospital",
+      "target": [
+        {
+          "text": "La ministra visita el hospital.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Ministerin besucht das Krankenhaus.",
+          "audioSlug": "la_ministra_visita_el_hospital"
+        },
+        {
+          "text": "El ministro visita el hospital.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Minister besucht das Krankenhaus.",
+          "audioSlug": "el_ministro_visita_el_hospital"
+        }
+      ]
+    },
+    "es.restaurant_el_camarero_nos_trae_la_carta": {
+      "conceptId": "es.restaurant_el_camarero_nos_trae_la_carta",
+      "id": "restaurant_el_camarero_nos_trae_la_carta",
+      "target": [
+        {
+          "text": "La camarera nos trae la carta.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Kellnerin bringt uns die Speisekarte.",
+          "audioSlug": "la_camarera_nos_trae_la_carta"
+        },
+        {
+          "text": "El camarero nos trae la carta.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Kellner bringt uns die Speisekarte.",
+          "audioSlug": "el_camarero_nos_trae_la_carta"
+        }
+      ]
+    },
+    "es.technology_how_do_i_save_this_file": {
+      "conceptId": "es.technology_how_do_i_save_this_file",
+      "id": "technology_how_do_i_save_this_file",
+      "target": [
+        {
+          "text": "¿Cómo guardo este archivo en la nube?",
+          "audioSlug": "como_guardo_este_archivo_en_la_nube"
+        }
+      ]
+    },
+    "es.tiempo_libre_vamos_a_pasear": {
+      "conceptId": "es.tiempo_libre_vamos_a_pasear",
+      "id": "tiempo_libre_vamos_a_pasear",
+      "target": [
+        {
+          "text": "Vamos a pasear.",
+          "audioSlug": "vamos_a_pasear"
+        }
+      ]
+    }
+  }
+}

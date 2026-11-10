@@ -121,8 +121,12 @@
           "hint": "Masculine ends in -o, feminine in -a, and the article and adjective agree."
         }
       ],
-      "related_phrases": [],
-      "topics": []
+      "topics": [],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "forms_of_address",
@@ -219,8 +223,12 @@
           "hint": "tu takes the 2nd person (tens), o senhor takes the 3rd person (tem)."
         }
       ],
-      "related_phrases": [],
-      "topics": []
+      "topics": [],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ser_vs_estar",
@@ -317,8 +325,12 @@
           "hint": "Use ser for identity and traits, estar for states and location."
         }
       ],
-      "related_phrases": [],
-      "topics": []
+      "topics": [],
+      "inventoryRef": "legacy",
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

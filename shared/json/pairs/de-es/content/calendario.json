@@ -1,40 +1,436 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "calendario",
-  "conceptIds": [
-    "es.calendario_today_is_monday",
-    "es.calendario_tomorrow_is_tuesday",
-    "es.calendario_what_day_is_today",
-    "es.calendario_my_birthday_is_in_may",
-    "es.calendario_we_meet_on_friday",
-    "es.calendario_the_appointment_is_on_march_tenth",
-    "es.calendario_in_winter_its_cold",
-    "es.calendario_next_week_i_have_vacation",
-    "es.calendario_la_fiesta_es_el_sabado_por_la_tarde",
-    "es.calendario_el_ultimo_dia_del_mes_es_feriado",
-    "es.calendario_durante_las_vacaciones_descanso",
-    "es.calendario_comemos_juntos_los_domingos",
-    "es.calendario_nos_vemos_dentro_de_una_semana",
-    "es.calendario_falta_poco_para_las_vacaciones",
-    "es.calendario_celebro_mi_cumpleanos_con_amigos",
-    "es.calendario_hoy_es_un_dia_especial",
-    "es.calendario_el_fin_de_semana_es_corto",
-    "es.calendario_el_lunes_es_un_dia_festivo",
-    "es.calendario_tengo_una_cita_a_mediodia",
-    "es.calendario_el_plazo_termina_el_viernes",
-    "es.calendario_anoto_todo_en_mi_agenda",
-    "es.calendario_el_evento_dura_todo_el_dia",
-    "es.calendario_cada_manana_reviso_mi_correo",
-    "es.calendario_la_reunion_se_pospuso_hasta_manana",
-    "es.calendario_la_navidad_es_una_tradicion_familiar",
-    "es.calendario_apunte_la_fecha_en_el_calendario",
-    "es.calendario_le_di_un_beso_a_mi_mama",
-    "es.calendario_mi_papa_cumple_anos_en_mayo",
-    "es.calendario_al_principio_del_ano_hago_planes",
-    "es.calendario_el_despertador_va_a_sonar_muy_temprano",
-    "es.calendario_hay_que_continuar_con_el_plan_previsto",
-    "es.calendario_espera_un_segundo_por_favor",
-    "es.calendario_ya_son_las_tres_y_media"
+  "phrases": [
+    {
+      "conceptId": "es.calendario_today_is_monday",
+      "level": "A2",
+      "grammar": "En español los días van en minúscula, lunes.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2276cfcdc6bdc206"
+    },
+    {
+      "conceptId": "es.calendario_tomorrow_is_tuesday",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4e3854d25cf9a8b6"
+    },
+    {
+      "conceptId": "es.calendario_what_day_is_today",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4dbe4883fb31dc78"
+    },
+    {
+      "conceptId": "es.calendario_my_birthday_is_in_may",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.74c8d4e1ec3fd432"
+    },
+    {
+      "conceptId": "es.calendario_we_meet_on_friday",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.91cc38cd3a7c9e82"
+    },
+    {
+      "conceptId": "es.calendario_the_appointment_is_on_march_tenth",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5c72f09238c42d6c"
+    },
+    {
+      "conceptId": "es.calendario_in_winter_its_cold",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b14eb9c243260c0a"
+    },
+    {
+      "conceptId": "es.calendario_next_week_i_have_vacation",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3858a4495d160fb6"
+    },
+    {
+      "conceptId": "es.calendario_la_fiesta_es_el_sabado_por_la_tarde",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c4657daefcfe00f3"
+    },
+    {
+      "conceptId": "es.calendario_el_ultimo_dia_del_mes_es_feriado",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c89c93591284d244"
+    },
+    {
+      "conceptId": "es.calendario_durante_las_vacaciones_descanso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6f4a0881a77cfc24"
+    },
+    {
+      "conceptId": "es.calendario_comemos_juntos_los_domingos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a474a6027878876f"
+    },
+    {
+      "conceptId": "es.calendario_nos_vemos_dentro_de_una_semana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ccf2e0ea8e436d76"
+    },
+    {
+      "conceptId": "es.calendario_falta_poco_para_las_vacaciones",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bac35c936c59460d"
+    },
+    {
+      "conceptId": "es.calendario_celebro_mi_cumpleanos_con_amigos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.65282a6a8cf0eae3"
+    },
+    {
+      "conceptId": "es.calendario_hoy_es_un_dia_especial",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.37afc7bea98db291"
+    },
+    {
+      "conceptId": "es.calendario_el_fin_de_semana_es_corto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9f2b7e4c6d8f6b6c"
+    },
+    {
+      "conceptId": "es.calendario_el_lunes_es_un_dia_festivo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b3e98d9d12845316"
+    },
+    {
+      "conceptId": "es.calendario_tengo_una_cita_a_mediodia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.47bc0f6a606d2617"
+    },
+    {
+      "conceptId": "es.calendario_el_plazo_termina_el_viernes",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f76f44de88772c58"
+    },
+    {
+      "conceptId": "es.calendario_anoto_todo_en_mi_agenda",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.846b206fa30b76d2"
+    },
+    {
+      "conceptId": "es.calendario_el_evento_dura_todo_el_dia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b88af898cf7a429a"
+    },
+    {
+      "conceptId": "es.calendario_cada_manana_reviso_mi_correo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.61667acb17e2d875"
+    },
+    {
+      "conceptId": "es.calendario_la_reunion_se_pospuso_hasta_manana",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b8ee84aaab7c18d8"
+    },
+    {
+      "conceptId": "es.calendario_la_navidad_es_una_tradicion_familiar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9fbe62d2e3ddf5ea"
+    },
+    {
+      "conceptId": "es.calendario_apunte_la_fecha_en_el_calendario",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7652283ff7ae6de4"
+    },
+    {
+      "conceptId": "es.calendario_le_di_un_beso_a_mi_mama",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d960c88e183c865f"
+    },
+    {
+      "conceptId": "es.calendario_mi_papa_cumple_anos_en_mayo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fb82b7293dee9084"
+    },
+    {
+      "conceptId": "es.calendario_al_principio_del_ano_hago_planes",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a8bd4af69fc930df"
+    },
+    {
+      "conceptId": "es.calendario_el_despertador_va_a_sonar_muy_temprano",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bc47a5cc82a42d40"
+    },
+    {
+      "conceptId": "es.calendario_hay_que_continuar_con_el_plan_previsto",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b39d20e1d949f5fd"
+    },
+    {
+      "conceptId": "es.calendario_espera_un_segundo_por_favor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.59ecd7e672cc69b7"
+    },
+    {
+      "conceptId": "es.calendario_ya_son_las_tres_y_media",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.03c6fea372a6ebc2"
+    }
   ]
 }

@@ -1,38 +1,410 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "profesiones",
-  "conceptIds": [
-    "es.profesiones_es_mi_socio",
-    "es.profesiones_es_un_escritor_famoso",
-    "es.profesiones_es_un_buen_detective",
-    "es.profesiones_es_un_gran_pintor",
-    "es.profesiones_es_un_poeta_conocido",
-    "es.profesiones_es_periodista",
-    "es.profesiones_es_un_cientifico",
-    "es.profesiones_es_un_musico_talentoso",
-    "es.profesiones_es_un_experto",
-    "es.profesiones_es_nuestro_guia",
-    "es.profesiones_es_un_buen_trabajador",
-    "es.profesiones_enseno_ingles",
-    "es.profesiones_el_autor_firma_su_libro",
-    "es.profesiones_quiero_convertirme_en_medico",
-    "es.profesiones_mi_padre_es_abogado",
-    "es.profesiones_ella_es_enfermera",
-    "es.profesiones_mi_hermano_es_camarero",
-    "es.profesiones_mi_tio_es_ingeniero",
-    "es.profesiones_ella_es_vendedora",
-    "es.profesiones_su_abuelo_es_cocinero",
-    "es.profesiones_mi_primo_es_mecanico",
-    "es.profesiones_el_taxista_conoce_la_ciudad",
-    "es.profesiones_mi_hermano_es_fotografo",
-    "es.profesiones_ella_es_arquitecta",
-    "es.profesiones_mi_hermana_es_vendedora",
-    "es.profesiones_mi_tio_es_piloto",
-    "es.profesiones_mi_padre_es_matematico",
-    "es.profesiones_el_carnicero_corta_la_carne",
-    "es.profesiones_el_empresario_abrio_una_tienda",
-    "es.profesiones_el_comprador_negocio_el_precio",
-    "es.profesiones_mi_tia_es_funcionaria"
+  "phrases": [
+    {
+      "conceptId": "es.profesiones_es_mi_socio",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.524a0bf5f454bce6"
+    },
+    {
+      "conceptId": "es.profesiones_es_un_escritor_famoso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.67811ffe00f8e29e"
+    },
+    {
+      "conceptId": "es.profesiones_es_un_buen_detective",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e0ac74c73fd812de"
+    },
+    {
+      "conceptId": "es.profesiones_es_un_gran_pintor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1cb0397f7971e8e8"
+    },
+    {
+      "conceptId": "es.profesiones_es_un_poeta_conocido",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ec208fcedbfb875c"
+    },
+    {
+      "conceptId": "es.profesiones_es_periodista",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6f7a74f9ea2808cf"
+    },
+    {
+      "conceptId": "es.profesiones_es_un_cientifico",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.98b5208c4d495fb5"
+    },
+    {
+      "conceptId": "es.profesiones_es_un_musico_talentoso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7b65e94dd70d1c1b"
+    },
+    {
+      "conceptId": "es.profesiones_es_un_experto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d90189aee4c4f74a"
+    },
+    {
+      "conceptId": "es.profesiones_es_nuestro_guia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b09eb9b7324c9bd1"
+    },
+    {
+      "conceptId": "es.profesiones_es_un_buen_trabajador",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.694c62d53153ceaa"
+    },
+    {
+      "conceptId": "es.profesiones_enseno_ingles",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9358bac3f97821df"
+    },
+    {
+      "conceptId": "es.profesiones_el_autor_firma_su_libro",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d5554b1034eb90f1"
+    },
+    {
+      "conceptId": "es.profesiones_quiero_convertirme_en_medico",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.79a41e69bf3a2d11"
+    },
+    {
+      "conceptId": "es.profesiones_mi_padre_es_abogado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.47619bff8ba058b5"
+    },
+    {
+      "conceptId": "es.profesiones_ella_es_enfermera",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.41598cc971f707e3"
+    },
+    {
+      "conceptId": "es.profesiones_mi_hermano_es_camarero",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7027064565fe1c77"
+    },
+    {
+      "conceptId": "es.profesiones_mi_tio_es_ingeniero",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.58e32d3247c05144"
+    },
+    {
+      "conceptId": "es.profesiones_ella_es_vendedora",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d907caca7ae6f407"
+    },
+    {
+      "conceptId": "es.profesiones_su_abuelo_es_cocinero",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e66fe0214c203841"
+    },
+    {
+      "conceptId": "es.profesiones_mi_primo_es_mecanico",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7416ef8119caa385"
+    },
+    {
+      "conceptId": "es.profesiones_el_taxista_conoce_la_ciudad",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.efdfedb80d5aa07b"
+    },
+    {
+      "conceptId": "es.profesiones_mi_hermano_es_fotografo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6f1b21ae367f8b41"
+    },
+    {
+      "conceptId": "es.profesiones_ella_es_arquitecta",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5fce877f7a8377f5"
+    },
+    {
+      "conceptId": "es.profesiones_mi_hermana_es_vendedora",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b6d6e0bda240df83"
+    },
+    {
+      "conceptId": "es.profesiones_mi_tio_es_piloto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ab334218d6dce8d1"
+    },
+    {
+      "conceptId": "es.profesiones_mi_padre_es_matematico",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8a31b258e54beb88"
+    },
+    {
+      "conceptId": "es.profesiones_el_carnicero_corta_la_carne",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fe218b16f88e5d2e"
+    },
+    {
+      "conceptId": "es.profesiones_el_empresario_abrio_una_tienda",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.dbd5debca43d8c9c"
+    },
+    {
+      "conceptId": "es.profesiones_el_comprador_negocio_el_precio",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.46abd248a58922fa"
+    },
+    {
+      "conceptId": "es.profesiones_mi_tia_es_funcionaria",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.06bf857536828140"
+    }
   ]
 }

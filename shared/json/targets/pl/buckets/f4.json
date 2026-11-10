@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "pl",
+  "bucket": "f4",
+  "concepts": {
+    "pl.personal_info_i_am_from_germany": {
+      "conceptId": "pl.personal_info_i_am_from_germany",
+      "id": "personal_info_i_am_from_germany",
+      "target": [
+        {
+          "text": "Pochodzę z Niemiec.",
+          "audioSlug": "pochodze_z_niemiec"
+        }
+      ]
+    }
+  }
+}

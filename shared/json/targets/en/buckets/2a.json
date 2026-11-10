@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "2a",
+  "concepts": {
+    "en.estudios_the_course_lasts_a_year": {
+      "conceptId": "en.estudios_the_course_lasts_a_year",
+      "id": "estudios_the_course_lasts_a_year",
+      "target": [
+        {
+          "text": "The course lasts a year.",
+          "audioSlug": "the_course_lasts_a_year"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_birds_above_trees": {
+      "conceptId": "en.naturaleza_lugares_birds_above_trees",
+      "id": "naturaleza_lugares_birds_above_trees",
+      "target": [
+        {
+          "text": "The birds flew above the trees.",
+          "audioSlug": "the_birds_flew_above_the_trees"
+        }
+      ]
+    },
+    "en.technology_is_there_an_app_to_scan": {
+      "conceptId": "en.technology_is_there_an_app_to_scan",
+      "id": "technology_is_there_an_app_to_scan",
+      "target": [
+        {
+          "text": "Is there an app to scan documents?",
+          "audioSlug": "is_there_an_app_to_scan_documents"
+        }
+      ]
+    },
+    "en.theater_script_overambitious_themes": {
+      "conceptId": "en.theater_script_overambitious_themes",
+      "id": "theater_script_overambitious_themes",
+      "target": [
+        {
+          "text": "I found the script overambitious, trying to address too many themes at once.",
+          "audioSlug": "i_found_the_script_overambitious_trying_to_address_too_many_themes_at_once"
+        }
+      ]
+    }
+  }
+}

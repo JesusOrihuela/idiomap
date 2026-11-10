@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "73",
+  "concepts": {
+    "en.cotidianidad_brush_teeth_morning": {
+      "conceptId": "en.cotidianidad_brush_teeth_morning",
+      "id": "cotidianidad_brush_teeth_morning",
+      "target": [
+        {
+          "text": "I brush my teeth every morning.",
+          "audioSlug": "i_brush_my_teeth_every_morning"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_never_before_had_seen": {
+      "conceptId": "en.pensamientos_opiniones_never_before_had_seen",
+      "id": "pensamientos_opiniones_never_before_had_seen",
+      "target": [
+        {
+          "text": "Never before had I seen such talent.",
+          "audioSlug": "never_before_had_i_seen_such_talent"
+        }
+      ]
+    },
+    "en.profesiones_she_is_a_famous_author": {
+      "conceptId": "en.profesiones_she_is_a_famous_author",
+      "id": "profesiones_she_is_a_famous_author",
+      "target": [
+        {
+          "text": "She is a famous author.",
+          "audioSlug": "she_is_a_famous_author"
+        }
+      ]
+    },
+    "en.survival_i_dont_know": {
+      "conceptId": "en.survival_i_dont_know",
+      "id": "survival_i_dont_know",
+      "target": [
+        {
+          "text": "I don't know.",
+          "audioSlug": "i_don_t_know"
+        }
+      ]
+    },
+    "en.technology_the_wifi_is_not_working_can": {
+      "conceptId": "en.technology_the_wifi_is_not_working_can",
+      "id": "technology_the_wifi_is_not_working_can",
+      "target": [
+        {
+          "text": "The WiFi is not working, can you restart it?",
+          "audioSlug": "the_wifi_is_not_working_can_you_restart_it"
+        }
+      ]
+    },
+    "en.transportation_rideshare_late_arrival": {
+      "conceptId": "en.transportation_rideshare_late_arrival",
+      "id": "transportation_rideshare_late_arrival",
+      "target": [
+        {
+          "text": "The driver is seven minutes away but I leave in five.",
+          "audioSlug": "the_driver_is_seven_minutes_away_but_i_leave_in_five"
+        }
+      ]
+    }
+  }
+}

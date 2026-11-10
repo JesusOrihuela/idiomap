@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "be",
+  "concepts": {
+    "es.animales_rabbit_hopped_away": {
+      "conceptId": "es.animales_rabbit_hopped_away",
+      "id": "animales_rabbit_hopped_away",
+      "target": [
+        {
+          "text": "El conejo se alejó saltando rápido.",
+          "audioSlug": "el_conejo_se_alejo_saltando_rapido"
+        }
+      ]
+    },
+    "es.cotidianidad_necesito_ir_al_bano": {
+      "conceptId": "es.cotidianidad_necesito_ir_al_bano",
+      "id": "cotidianidad_necesito_ir_al_bano",
+      "target": [
+        {
+          "text": "Necesito ir al baño.",
+          "audioSlug": "necesito_ir_al_bano"
+        }
+      ]
+    },
+    "es.deportes_fin_del_juego": {
+      "conceptId": "es.deportes_fin_del_juego",
+      "id": "deportes_fin_del_juego",
+      "target": [
+        {
+          "text": "Fin del juego.",
+          "audioSlug": "fin_del_juego"
+        }
+      ]
+    },
+    "es.descripciones_es_un_carro_japones": {
+      "conceptId": "es.descripciones_es_un_carro_japones",
+      "id": "descripciones_es_un_carro_japones",
+      "target": [
+        {
+          "text": "Es un carro japonés.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "es_un_carro_japones"
+        },
+        {
+          "text": "Es un coche japonés.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "es_un_coche_japones"
+        },
+        {
+          "text": "Es un auto japonés.",
+          "labels": {
+            "region": "Cono Sur"
+          },
+          "audioSlug": "es_un_auto_japones"
+        }
+      ]
+    },
+    "es.descripciones_este_autor_es_muy_conocido": {
+      "conceptId": "es.descripciones_este_autor_es_muy_conocido",
+      "id": "descripciones_este_autor_es_muy_conocido",
+      "target": [
+        {
+          "text": "Este autor es muy conocido.",
+          "audioSlug": "este_autor_es_muy_conocido"
+        }
+      ]
+    },
+    "es.emociones_es_facil_enfadarse_por_tonterias": {
+      "conceptId": "es.emociones_es_facil_enfadarse_por_tonterias",
+      "id": "emociones_es_facil_enfadarse_por_tonterias",
+      "target": [
+        {
+          "text": "Es fácil enfadarse por tonterías.",
+          "audioSlug": "es_facil_enfadarse_por_tonterias"
+        }
+      ]
+    },
+    "es.fiesta_cheers_everyone": {
+      "conceptId": "es.fiesta_cheers_everyone",
+      "id": "fiesta_cheers_everyone",
+      "target": [
+        {
+          "text": "¡Salud a todos!",
+          "audioSlug": "salud_a_todos"
+        }
+      ]
+    },
+    "es.hogar_el_hogar_siempre_debe_estar_limpio": {
+      "conceptId": "es.hogar_el_hogar_siempre_debe_estar_limpio",
+      "id": "hogar_el_hogar_siempre_debe_estar_limpio",
+      "target": [
+        {
+          "text": "El hogar siempre debe estar limpio.",
+          "audioSlug": "el_hogar_siempre_debe_estar_limpio"
+        }
+      ]
+    },
+    "es.kitchen_brindamos_con_una_copa_de_champan": {
+      "conceptId": "es.kitchen_brindamos_con_una_copa_de_champan",
+      "id": "kitchen_brindamos_con_una_copa_de_champan",
+      "target": [
+        {
+          "text": "Brindamos con una copa de champán.",
+          "audioSlug": "brindamos_con_una_copa_de_champan"
+        }
+      ]
+    },
+    "es.kitchen_have_you_already_cut_the_vegetables": {
+      "conceptId": "es.kitchen_have_you_already_cut_the_vegetables",
+      "id": "kitchen_have_you_already_cut_the_vegetables",
+      "target": [
+        {
+          "text": "¿Ya cortaste las verduras?",
+          "audioSlug": "ya_cortaste_las_verduras"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_los_arboles_rodean_la_casa": {
+      "conceptId": "es.naturaleza_lugares_los_arboles_rodean_la_casa",
+      "id": "naturaleza_lugares_los_arboles_rodean_la_casa",
+      "target": [
+        {
+          "text": "Los árboles rodean la casa.",
+          "audioSlug": "los_arboles_rodean_la_casa"
+        }
+      ]
+    },
+    "es.sitios_es_un_lugar_publico": {
+      "conceptId": "es.sitios_es_un_lugar_publico",
+      "id": "sitios_es_un_lugar_publico",
+      "target": [
+        {
+          "text": "Es un lugar público.",
+          "audioSlug": "es_un_lugar_publico"
+        }
+      ]
+    },
+    "es.survival_what_did_you_say": {
+      "conceptId": "es.survival_what_did_you_say",
+      "id": "survival_what_did_you_say",
+      "target": [
+        {
+          "text": "¿Qué dijiste?",
+          "audioSlug": "que_dijiste"
+        }
+      ]
+    },
+    "es.vestimenta_cuelga_tu_abrigo_por_favor": {
+      "conceptId": "es.vestimenta_cuelga_tu_abrigo_por_favor",
+      "id": "vestimenta_cuelga_tu_abrigo_por_favor",
+      "target": [
+        {
+          "text": "Cuelga tu abrigo, por favor.",
+          "audioSlug": "cuelga_tu_abrigo_por_favor"
+        }
+      ]
+    }
+  }
+}

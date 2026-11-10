@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "emociones",
+  "phrases": [
+    {
+      "id": "emociones_i_am_happy",
+      "conceptId": "es.emociones_i_am_happy",
+      "sourceId": "de.s.111622d4845e0f07",
+      "source": "Ich bin glücklich.",
+      "level": "A1",
+      "grammar": "Las emociones usan estar, estoy contenta.",
+      "target": [
+        {
+          "text": "Estoy contenta.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_contenta"
+        },
+        {
+          "text": "Estoy contento.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_contento"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_am_sad",
+      "conceptId": "es.emociones_i_am_sad",
+      "sourceId": "de.s.04caecaee641585d",
+      "source": "Ich bin traurig.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy triste.",
+          "audioSlug": "estoy_triste"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_am_angry",
+      "conceptId": "es.emociones_i_am_angry",
+      "sourceId": "de.s.c7d16adb4be8f9b6",
+      "source": "Ich bin wütend.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy enojada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_enojada"
+        },
+        {
+          "text": "Estoy enojado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_enojado"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_am_nervous",
+      "conceptId": "es.emociones_i_am_nervous",
+      "sourceId": "de.s.12c3b98597b006a3",
+      "source": "Ich bin nervös.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy nerviosa.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_nerviosa"
+        },
+        {
+          "text": "Estoy nervioso.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_nervioso"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_am_afraid",
+      "conceptId": "es.emociones_i_am_afraid",
+      "sourceId": "de.s.429cd87c717c9b76",
+      "source": "Ich habe Angst.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo miedo.",
+          "audioSlug": "tengo_miedo"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_am_surprised",
+      "conceptId": "es.emociones_i_am_surprised",
+      "sourceId": "de.s.86e1c665b8daba63",
+      "source": "Ich bin überrascht.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy sorprendida.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_sorprendida"
+        },
+        {
+          "text": "Estoy sorprendido.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_sorprendido"
+        }
+      ]
+    },
+    {
+      "id": "emociones_i_am_excited",
+      "conceptId": "es.emociones_i_am_excited",
+      "sourceId": "de.s.ec5d6693bcc82ac5",
+      "source": "Ich bin aufgeregt.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy emocionada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_emocionada"
+        },
+        {
+          "text": "Estoy emocionado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_emocionado"
+        }
+      ]
+    },
+    {
+      "id": "emociones_why_are_you_sad",
+      "conceptId": "es.emociones_why_are_you_sad",
+      "sourceId": "de.s.133cb307ff15526b",
+      "source": "Warum bist du traurig?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Por qué estás triste?",
+          "audioSlug": "por_que_estas_triste"
+        }
+      ]
+    },
+    {
+      "id": "emociones_a_veces_me_pongo_nervioso",
+      "conceptId": "es.emociones_a_veces_me_pongo_nervioso",
+      "sourceId": "de.s.358b8319d568f04c",
+      "source": "Manchmal werde ich nervös.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "A veces me pongo nerviosa.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "a_veces_me_pongo_nerviosa"
+        },
+        {
+          "text": "A veces me pongo nervioso.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "a_veces_me_pongo_nervioso"
+        }
+      ]
+    },
+    {
+      "id": "emociones_nunca_tengo_miedo_de_nada",
+      "conceptId": "es.emociones_nunca_tengo_miedo_de_nada",
+      "sourceId": "de.s.7f2bbcade42a4e61",
+      "source": "Ich habe nie vor irgendetwas Angst.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nunca tengo miedo de nada.",
+          "audioSlug": "nunca_tengo_miedo_de_nada"
+        }
+      ]
+    },
+    {
+      "id": "emociones_ese_momento_me_hizo_feliz",
+      "conceptId": "es.emociones_ese_momento_me_hizo_feliz",
+      "sourceId": "de.s.457e60293d32fd12",
+      "source": "Dieser Moment hat mich sehr glücklich gemacht.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese momento me hizo muy feliz.",
+          "audioSlug": "ese_momento_me_hizo_muy_feliz"
+        }
+      ]
+    },
+    {
+      "id": "emociones_despues_de_llorar_me_senti_mejor",
+      "conceptId": "es.emociones_despues_de_llorar_me_senti_mejor",
+      "sourceId": "de.s.0bf845b3fe04e888",
+      "source": "Nach dem Weinen fühlte ich mich besser.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Después de llorar, me sentí mejor.",
+          "audioSlug": "despues_de_llorar_me_senti_mejor"
+        }
+      ]
+    },
+    {
+      "id": "emociones_estoy_tan_contento_hoy",
+      "conceptId": "es.emociones_estoy_tan_contento_hoy",
+      "sourceId": "de.s.55461607f55bc18b",
+      "source": "Ich bin heute so froh.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy tan contenta hoy.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_tan_contenta_hoy"
+        },
+        {
+          "text": "Estoy tan contento hoy.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_tan_contento_hoy"
+        }
+      ]
+    },
+    {
+      "id": "emociones_casi_lloro_de_la_emocion",
+      "conceptId": "es.emociones_casi_lloro_de_la_emocion",
+      "sourceId": "de.s.4e3852a5d6b1b917",
+      "source": "Ich hätte fast vor Rührung geweint.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Casi lloro de la emoción.",
+          "audioSlug": "casi_lloro_de_la_emocion"
+        }
+      ]
+    },
+    {
+      "id": "emociones_nunca_habia_sentido_tanto_amor",
+      "conceptId": "es.emociones_nunca_habia_sentido_tanto_amor",
+      "sourceId": "de.s.33675134ac86661f",
+      "source": "Ich hatte nie so viel Liebe gefühlt.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nunca había sentido tanto amor.",
+          "audioSlug": "nunca_habia_sentido_tanto_amor"
+        }
+      ]
+    },
+    {
+      "id": "emociones_a_veces_me_siento_diferente",
+      "conceptId": "es.emociones_a_veces_me_siento_diferente",
+      "sourceId": "de.s.67aac2dedb789774",
+      "source": "Manchmal fühle ich mich anders.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "A veces me siento diferente.",
+          "audioSlug": "a_veces_me_siento_diferente"
+        }
+      ]
+    },
+    {
+      "id": "emociones_es_facil_enamorarse_en_primavera",
+      "conceptId": "es.emociones_es_facil_enamorarse_en_primavera",
+      "sourceId": "de.s.f2dacaf97f060dce",
+      "source": "Im Frühling verliebt man sich leicht.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es fácil enamorarse en primavera.",
+          "audioSlug": "es_facil_enamorarse_en_primavera"
+        }
+      ]
+    },
+    {
+      "id": "emociones_hoy_no_tengo_ganas_de_salir",
+      "conceptId": "es.emociones_hoy_no_tengo_ganas_de_salir",
+      "sourceId": "de.s.9c6539fff6391926",
+      "source": "Heute habe ich keine Lust auszugehen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hoy no tengo ganas de salir.",
+          "audioSlug": "hoy_no_tengo_ganas_de_salir"
+        }
+      ]
+    },
+    {
+      "id": "emociones_esta_loca_de_alegria_por_la_noticia",
+      "conceptId": "es.emociones_esta_loca_de_alegria_por_la_noticia",
+      "sourceId": "de.s.e4edc97cdee547f4",
+      "source": "Sie ist außer sich vor Freude über die Nachricht.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Está loca de alegría por la noticia.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "esta_loca_de_alegria_por_la_noticia"
+        },
+        {
+          "text": "Está loco de alegría por la noticia.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "esta_loco_de_alegria_por_la_noticia"
+        }
+      ]
+    },
+    {
+      "id": "emociones_lo_hago_con_mucho_gusto",
+      "conceptId": "es.emociones_lo_hago_con_mucho_gusto",
+      "sourceId": "de.s.2d2b444dd6581d30",
+      "source": "Ich mache es sehr gern.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Lo hago con mucho gusto.",
+          "audioSlug": "lo_hago_con_mucho_gusto"
+        }
+      ]
+    },
+    {
+      "id": "emociones_nos_vemos_en_un_rato",
+      "conceptId": "es.emociones_nos_vemos_en_un_rato",
+      "sourceId": "de.s.7e6878e626697d43",
+      "source": "Wir sehen uns gleich.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nos vemos en un rato.",
+          "audioSlug": "nos_vemos_en_un_rato"
+        }
+      ]
+    },
+    {
+      "id": "emociones_es_facil_enfadarse_por_tonterias",
+      "conceptId": "es.emociones_es_facil_enfadarse_por_tonterias",
+      "sourceId": "de.s.b9ceb7ad80304c32",
+      "source": "Man ärgert sich leicht über Kleinigkeiten.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es fácil enfadarse por tonterías.",
+          "audioSlug": "es_facil_enfadarse_por_tonterias"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "aa",
+  "concepts": {
+    "en.accountability_check_numbers": {
+      "conceptId": "en.accountability_check_numbers",
+      "id": "accountability_check_numbers",
+      "target": [
+        {
+          "text": "Can you check these numbers?",
+          "audioSlug": "can_you_check_these_numbers"
+        }
+      ]
+    },
+    "en.accountability_how_much_owe": {
+      "conceptId": "en.accountability_how_much_owe",
+      "id": "accountability_how_much_owe",
+      "target": [
+        {
+          "text": "How much do we owe?",
+          "audioSlug": "how_much_do_we_owe"
+        }
+      ]
+    },
+    "en.accountability_send_invoice": {
+      "conceptId": "en.accountability_send_invoice",
+      "id": "accountability_send_invoice",
+      "target": [
+        {
+          "text": "Can you send me the invoice?",
+          "audioSlug": "can_you_send_me_the_invoice"
+        }
+      ]
+    },
+    "en.conversacion_i_want_to_thank_you": {
+      "conceptId": "en.conversacion_i_want_to_thank_you",
+      "id": "conversacion_i_want_to_thank_you",
+      "target": [
+        {
+          "text": "I want to thank you.",
+          "audioSlug": "i_want_to_thank_you"
+        }
+      ]
+    },
+    "en.cotidianidad_i_have_a_thousand_things_to_do": {
+      "conceptId": "en.cotidianidad_i_have_a_thousand_things_to_do",
+      "id": "cotidianidad_i_have_a_thousand_things_to_do",
+      "target": [
+        {
+          "text": "I have a thousand things to do.",
+          "audioSlug": "i_have_a_thousand_things_to_do"
+        }
+      ]
+    },
+    "en.daily_routine_i_study_english_every_day": {
+      "conceptId": "en.daily_routine_i_study_english_every_day",
+      "id": "daily_routine_i_study_english_every_day",
+      "target": [
+        {
+          "text": "I study English every day.",
+          "audioSlug": "i_study_english_every_day"
+        }
+      ]
+    },
+    "en.descripciones_this_place_is_huge": {
+      "conceptId": "en.descripciones_this_place_is_huge",
+      "id": "descripciones_this_place_is_huge",
+      "target": [
+        {
+          "text": "This place is huge.",
+          "audioSlug": "this_place_is_huge"
+        }
+      ]
+    },
+    "en.greetings_good_afternoon_hows_life_treating_you": {
+      "conceptId": "en.greetings_good_afternoon_hows_life_treating_you",
+      "id": "greetings_good_afternoon_hows_life_treating_you",
+      "target": [
+        {
+          "text": "Good afternoon, how's life treating you?",
+          "audioSlug": "good_afternoon_how_s_life_treating_you"
+        }
+      ]
+    },
+    "en.gym_is_it_okay_if_i_use": {
+      "conceptId": "en.gym_is_it_okay_if_i_use",
+      "id": "gym_is_it_okay_if_i_use",
+      "target": [
+        {
+          "text": "Is it okay if I use this bench?",
+          "audioSlug": "is_it_okay_if_i_use_this_bench"
+        }
+      ]
+    },
+    "en.survival_can_you_repeat": {
+      "conceptId": "en.survival_can_you_repeat",
+      "id": "survival_can_you_repeat",
+      "target": [
+        {
+          "text": "Can you repeat that, please?",
+          "audioSlug": "can_you_repeat_that_please"
+        }
+      ]
+    },
+    "en.technology_can_you_copy_me_on_that": {
+      "conceptId": "en.technology_can_you_copy_me_on_that",
+      "id": "technology_can_you_copy_me_on_that",
+      "target": [
+        {
+          "text": "Can you copy me on that email?",
+          "audioSlug": "can_you_copy_me_on_that_email"
+        }
+      ]
+    },
+    "en.weather_the_sky_is_clear": {
+      "conceptId": "en.weather_the_sky_is_clear",
+      "id": "weather_the_sky_is_clear",
+      "target": [
+        {
+          "text": "The sky is clear.",
+          "audioSlug": "the_sky_is_clear"
+        }
+      ]
+    }
+  }
+}

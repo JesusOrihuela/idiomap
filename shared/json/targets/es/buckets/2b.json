@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "2b",
+  "concepts": {
+    "es.accommodation_room_service_wrong_order": {
+      "conceptId": "es.accommodation_room_service_wrong_order",
+      "id": "accommodation_room_service_wrong_order",
+      "target": [
+        {
+          "text": "Mi servicio a la habitación llegó con los artículos equivocados.",
+          "audioSlug": "mi_servicio_a_la_habitacion_llego_con_los_articulos_equivocados"
+        }
+      ]
+    },
+    "es.accountability_has_the_intern_already_registered_with": {
+      "conceptId": "es.accountability_has_the_intern_already_registered_with",
+      "id": "accountability_has_the_intern_already_registered_with",
+      "target": [
+        {
+          "text": "¿El practicante ya hizo su registro en el Seguro Social?",
+          "audioSlug": "el_practicante_ya_hizo_su_registro_en_el_seguro_social",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿La practicante ya hizo su registro en el Seguro Social?",
+          "audioSlug": "la_practicante_ya_hizo_su_registro_en_el_seguro_social",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.conversacion_sigue_mi_consejo": {
+      "conceptId": "es.conversacion_sigue_mi_consejo",
+      "id": "conversacion_sigue_mi_consejo",
+      "target": [
+        {
+          "text": "Sigue mi consejo.",
+          "audioSlug": "sigue_mi_consejo"
+        }
+      ]
+    },
+    "es.estudios_no_se_nada_de_ciencia": {
+      "conceptId": "es.estudios_no_se_nada_de_ciencia",
+      "id": "estudios_no_se_nada_de_ciencia",
+      "target": [
+        {
+          "text": "No sé nada de ciencia.",
+          "audioSlug": "no_se_nada_de_ciencia"
+        }
+      ]
+    },
+    "es.greetings_welcome_aboard_team": {
+      "conceptId": "es.greetings_welcome_aboard_team",
+      "id": "greetings_welcome_aboard_team",
+      "target": [
+        {
+          "text": "En nombre de todo el equipo, bienvenido. Estamos encantados de tenerte con nosotros.",
+          "audioSlug": "en_nombre_de_todo_el_equipo_bienvenido_estamos_encantados_de_tenerte_con_nosotros",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "En nombre de todo el equipo, bienvenida. Estamos encantados de tenerte con nosotros.",
+          "audioSlug": "en_nombre_de_todo_el_equipo_bienvenida_estamos_encantados_de_tenerte_con_nosotros",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.gym_is_it_okay_if_i_use": {
+      "conceptId": "es.gym_is_it_okay_if_i_use",
+      "id": "gym_is_it_okay_if_i_use",
+      "target": [
+        {
+          "text": "¿Está bien si uso este banco para mi próxima serie?",
+          "audioSlug": "esta_bien_si_uso_este_banco_para_mi_proxima_serie"
+        }
+      ]
+    },
+    "es.health_i_have_to_go_to_the_hospital": {
+      "conceptId": "es.health_i_have_to_go_to_the_hospital",
+      "id": "health_i_have_to_go_to_the_hospital",
+      "target": [
+        {
+          "text": "Tengo que ir al hospital.",
+          "audioSlug": "tengo_que_ir_al_hospital"
+        }
+      ]
+    },
+    "es.hogar_el_bano_tiene_una_ducha_grande": {
+      "conceptId": "es.hogar_el_bano_tiene_una_ducha_grande",
+      "id": "hogar_el_bano_tiene_una_ducha_grande",
+      "target": [
+        {
+          "text": "El baño tiene una ducha grande.",
+          "audioSlug": "el_bano_tiene_una_ducha_grande"
+        }
+      ]
+    },
+    "es.kitchen_we_need_to_buy_unsalted_butter": {
+      "conceptId": "es.kitchen_we_need_to_buy_unsalted_butter",
+      "id": "kitchen_we_need_to_buy_unsalted_butter",
+      "target": [
+        {
+          "text": "Hay que comprar mantequilla sin sal.",
+          "audioSlug": "hay_que_comprar_mantequilla_sin_sal"
+        }
+      ]
+    },
+    "es.personal_info_i_was_born_in": {
+      "conceptId": "es.personal_info_i_was_born_in",
+      "id": "personal_info_i_was_born_in",
+      "target": [
+        {
+          "text": "Nací en Argentina.",
+          "audioSlug": "naci_en_argentina"
+        }
+      ]
+    },
+    "es.politica_el_juez_escucho_a_las_partes": {
+      "conceptId": "es.politica_el_juez_escucho_a_las_partes",
+      "id": "politica_el_juez_escucho_a_las_partes",
+      "target": [
+        {
+          "text": "El juez escuchó a las dos partes.",
+          "audioSlug": "el_juez_escucho_a_las_dos_partes"
+        }
+      ]
+    },
+    "es.restaurant_is_there_a_service_charge_for": {
+      "conceptId": "es.restaurant_is_there_a_service_charge_for",
+      "id": "restaurant_is_there_a_service_charge_for",
+      "target": [
+        {
+          "text": "¿Hay un cargo por servicio para grupos numerosos?",
+          "audioSlug": "hay_un_cargo_por_servicio_para_grupos_numerosos"
+        }
+      ]
+    },
+    "es.transportation_buy_train_ticket": {
+      "conceptId": "es.transportation_buy_train_ticket",
+      "id": "transportation_buy_train_ticket",
+      "target": [
+        {
+          "text": "Necesito comprar un boleto para el tren de alta velocidad.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "necesito_comprar_un_boleto_para_el_tren_de_alta_velocidad"
+        },
+        {
+          "text": "Necesito comprar un billete para el tren de alta velocidad.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "necesito_comprar_un_billete_para_el_tren_de_alta_velocidad"
+        }
+      ]
+    }
+  }
+}

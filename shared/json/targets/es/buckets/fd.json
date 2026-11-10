@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "fd",
+  "concepts": {
+    "es.economia_prices_went_up": {
+      "conceptId": "es.economia_prices_went_up",
+      "id": "economia_prices_went_up",
+      "target": [
+        {
+          "text": "Los precios subieron este año.",
+          "audioSlug": "los_precios_subieron_este_ano"
+        }
+      ]
+    },
+    "es.greetings_dont_be_a_stranger": {
+      "conceptId": "es.greetings_dont_be_a_stranger",
+      "id": "greetings_dont_be_a_stranger",
+      "target": [
+        {
+          "text": "¡No desaparezcas!",
+          "audioSlug": "no_desaparezcas"
+        }
+      ]
+    },
+    "es.gym_is_there_a_warmup_i_should": {
+      "conceptId": "es.gym_is_there_a_warmup_i_should",
+      "id": "gym_is_there_a_warmup_i_should",
+      "target": [
+        {
+          "text": "¿Hay algún calentamiento que debería seguir?",
+          "audioSlug": "hay_algun_calentamiento_que_deberia_seguir"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_eso_es_imposible": {
+      "conceptId": "es.pensamientos_opiniones_eso_es_imposible",
+      "id": "pensamientos_opiniones_eso_es_imposible",
+      "target": [
+        {
+          "text": "Eso es imposible.",
+          "audioSlug": "eso_es_imposible"
+        }
+      ]
+    },
+    "es.restaurant_ponme_una_cana_bien_fria": {
+      "conceptId": "es.restaurant_ponme_una_cana_bien_fria",
+      "id": "restaurant_ponme_una_cana_bien_fria",
+      "target": [
+        {
+          "text": "Ponme una caña bien fría.",
+          "audioSlug": "ponme_una_cana_bien_fria"
+        }
+      ]
+    },
+    "es.restaurant_vamos_a_compartir_una_pizza": {
+      "conceptId": "es.restaurant_vamos_a_compartir_una_pizza",
+      "id": "restaurant_vamos_a_compartir_una_pizza",
+      "target": [
+        {
+          "text": "Vamos a compartir una pizza.",
+          "audioSlug": "vamos_a_compartir_una_pizza"
+        }
+      ]
+    },
+    "es.supermarket_compre_una_lata_de_atun": {
+      "conceptId": "es.supermarket_compre_una_lata_de_atun",
+      "id": "supermarket_compre_una_lata_de_atun",
+      "target": [
+        {
+          "text": "Compré una lata de atún.",
+          "audioSlug": "compre_una_lata_de_atun"
+        }
+      ]
+    },
+    "es.supermarket_escalate_staff_assurance_not_honored": {
+      "conceptId": "es.supermarket_escalate_staff_assurance_not_honored",
+      "id": "supermarket_escalate_staff_assurance_not_honored",
+      "target": [
+        {
+          "text": "Me aseguraron que respetarían el precio promocional y no lo cumplieron.",
+          "audioSlug": "me_aseguraron_que_respetarian_el_precio_promocional_y_no_lo_cumplieron"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "84",
+  "concepts": {
+    "en.restaurant_birthday_candle_dessert": {
+      "conceptId": "en.restaurant_birthday_candle_dessert",
+      "id": "restaurant_birthday_candle_dessert",
+      "target": [
+        {
+          "text": "We're celebrating a birthday. Could you bring the dessert with a candle?",
+          "audioSlug": "we_re_celebrating_a_birthday_could_you_bring_the_dessert_with_a_candle"
+        }
+      ]
+    },
+    "en.sitios_this_house_is_old": {
+      "conceptId": "en.sitios_this_house_is_old",
+      "id": "sitios_this_house_is_old",
+      "target": [
+        {
+          "text": "This house is old.",
+          "audioSlug": "this_house_is_old"
+        }
+      ]
+    },
+    "en.supermarket_i_cant_find_the_yogurt_brand": {
+      "conceptId": "en.supermarket_i_cant_find_the_yogurt_brand",
+      "id": "supermarket_i_cant_find_the_yogurt_brand",
+      "target": [
+        {
+          "text": "I can't find the yogurt brand I like.",
+          "audioSlug": "i_can_t_find_the_yogurt_brand_i_like"
+        }
+      ]
+    },
+    "en.supermarket_speak_to_manager_mislabeled": {
+      "conceptId": "en.supermarket_speak_to_manager_mislabeled",
+      "id": "supermarket_speak_to_manager_mislabeled",
+      "target": [
+        {
+          "text": "I'd like to speak to the manager about this mislabeled product.",
+          "audioSlug": "i_d_like_to_speak_to_the_manager_about_this_mislabeled_product"
+        }
+      ]
+    },
+    "en.tiempo_libre_lets_play_board_game": {
+      "conceptId": "en.tiempo_libre_lets_play_board_game",
+      "id": "tiempo_libre_lets_play_board_game",
+      "target": [
+        {
+          "text": "Let's play a board game.",
+          "audioSlug": "let_s_play_a_board_game"
+        }
+      ]
+    }
+  }
+}

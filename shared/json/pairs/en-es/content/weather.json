@@ -1,38 +1,410 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "weather",
-  "conceptIds": [
-    "es.weather_whats_the_weather",
-    "es.weather_its_sunny",
-    "es.weather_its_raining",
-    "es.weather_very_cold_today",
-    "es.weather_its_hot",
-    "es.weather_its_windy",
-    "es.weather_its_cloudy",
-    "es.weather_its_snowing",
-    "es.weather_whats_temperature",
-    "es.weather_thirty_degrees",
-    "es.weather_take_umbrella",
-    "es.weather_nice_today",
-    "es.weather_bad_weather",
-    "es.weather_love_spring",
-    "es.weather_cold_in_winter",
-    "es.weather_forecast_tomorrow",
-    "es.weather_beautiful_day",
-    "es.weather_im_cold",
-    "es.weather_im_hot",
-    "es.weather_in_summer_it_is_very_hot",
-    "es.weather_it_is_cool_in_the_morning",
-    "es.weather_the_sky_is_clear",
-    "es.weather_it_is_going_to_rain_this_afternoon",
-    "es.weather_the_temperature_drops_at_night",
-    "es.weather_it_will_be_sunny_tomorrow",
-    "es.weather_the_climate_is_changing",
-    "es.weather_it_rains_a_lot_this_time_of_year",
-    "es.weather_siento_mucho_frio",
-    "es.weather_la_nieve_cubrio_las_montanas",
-    "es.weather_habia_niebla_en_la_carretera",
-    "es.weather_la_tormenta_duro_toda_la_noche"
+  "phrases": [
+    {
+      "conceptId": "es.weather_whats_the_weather",
+      "level": "A1",
+      "grammar": "El clima se expresa con 'hacer' impersonal: 'hace sol', 'hace frío'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2156921fd0a0df30"
+    },
+    {
+      "conceptId": "es.weather_its_sunny",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.47737223851a76b8"
+    },
+    {
+      "conceptId": "es.weather_its_raining",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.29e6dfbdde281f70"
+    },
+    {
+      "conceptId": "es.weather_very_cold_today",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.dc0d13a56ed81dc1"
+    },
+    {
+      "conceptId": "es.weather_its_hot",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fbdc703e23a447ef"
+    },
+    {
+      "conceptId": "es.weather_its_windy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.357f031000c2af5d"
+    },
+    {
+      "conceptId": "es.weather_its_cloudy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f316e553de68294a"
+    },
+    {
+      "conceptId": "es.weather_its_snowing",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d46425cd24879ceb"
+    },
+    {
+      "conceptId": "es.weather_whats_temperature",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9edf7d3f617f4908"
+    },
+    {
+      "conceptId": "es.weather_thirty_degrees",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d91cc398f3afd422"
+    },
+    {
+      "conceptId": "es.weather_take_umbrella",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a5b09ae7dbc87870"
+    },
+    {
+      "conceptId": "es.weather_nice_today",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.715f76e2a719d424"
+    },
+    {
+      "conceptId": "es.weather_bad_weather",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.75ba4ecf0186ad0a"
+    },
+    {
+      "conceptId": "es.weather_love_spring",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a8029fe4ebbbbc6f"
+    },
+    {
+      "conceptId": "es.weather_cold_in_winter",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.468ceff1b0979340"
+    },
+    {
+      "conceptId": "es.weather_forecast_tomorrow",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fe5e1d0259e7761a"
+    },
+    {
+      "conceptId": "es.weather_beautiful_day",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.311c9e3c81530cf9"
+    },
+    {
+      "conceptId": "es.weather_im_cold",
+      "level": "A1",
+      "grammar": "Las personas 'tienen' frío/calor ('tengo frío'); el clima 'hace' frío/calor.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.39027813f4a6ec20"
+    },
+    {
+      "conceptId": "es.weather_im_hot",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f204dfa47b23bbae"
+    },
+    {
+      "conceptId": "es.weather_in_summer_it_is_very_hot",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f18865dcc01f612c"
+    },
+    {
+      "conceptId": "es.weather_it_is_cool_in_the_morning",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4cc82eeb409a48e3"
+    },
+    {
+      "conceptId": "es.weather_the_sky_is_clear",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.141af06129c2cf61"
+    },
+    {
+      "conceptId": "es.weather_it_is_going_to_rain_this_afternoon",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.043c48b20b0fe2bb"
+    },
+    {
+      "conceptId": "es.weather_the_temperature_drops_at_night",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.477aac94217b89d0"
+    },
+    {
+      "conceptId": "es.weather_it_will_be_sunny_tomorrow",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cb1832be2a7ffd85"
+    },
+    {
+      "conceptId": "es.weather_the_climate_is_changing",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4ae7a8eeb43f4dcc"
+    },
+    {
+      "conceptId": "es.weather_it_rains_a_lot_this_time_of_year",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bf9b9fe72033ee72"
+    },
+    {
+      "conceptId": "es.weather_siento_mucho_frio",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8b15c20c41306260"
+    },
+    {
+      "conceptId": "es.weather_la_nieve_cubrio_las_montanas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.645d5f5ae66b3f1a"
+    },
+    {
+      "conceptId": "es.weather_habia_niebla_en_la_carretera",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c5b44dfc5cd586b4"
+    },
+    {
+      "conceptId": "es.weather_la_tormenta_duro_toda_la_noche",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3cd99af65216c309"
+    }
   ]
 }

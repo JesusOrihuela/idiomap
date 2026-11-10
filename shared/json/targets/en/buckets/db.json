@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "db",
+  "concepts": {
+    "en.conversacion_please_do_not_shout": {
+      "conceptId": "en.conversacion_please_do_not_shout",
+      "id": "conversacion_please_do_not_shout",
+      "target": [
+        {
+          "text": "Please don't shout.",
+          "audioSlug": "please_don_t_shout"
+        }
+      ]
+    },
+    "en.emociones_im_nervous": {
+      "conceptId": "en.emociones_im_nervous",
+      "id": "emociones_im_nervous",
+      "target": [
+        {
+          "text": "I'm nervous.",
+          "audioSlug": "i_m_nervous"
+        }
+      ]
+    },
+    "en.supermarket_can_you_help_me_carry_the": {
+      "conceptId": "en.supermarket_can_you_help_me_carry_the",
+      "id": "supermarket_can_you_help_me_carry_the",
+      "target": [
+        {
+          "text": "Can you help me carry the grocery bags?",
+          "audioSlug": "can_you_help_me_carry_the_grocery_bags"
+        }
+      ]
+    },
+    "en.transportation_cancelled_train_refund": {
+      "conceptId": "en.transportation_cancelled_train_refund",
+      "id": "transportation_cancelled_train_refund",
+      "target": [
+        {
+          "text": "The train was cancelled without prior notice. Am I entitled to a full refund?",
+          "audioSlug": "the_train_was_cancelled_without_prior_notice_am_i_entitled_to_a_full_refund"
+        }
+      ]
+    },
+    "en.transportation_carpooling_cuts_commute_costs": {
+      "conceptId": "en.transportation_carpooling_cuts_commute_costs",
+      "id": "transportation_carpooling_cuts_commute_costs",
+      "target": [
+        {
+          "text": "My colleagues and I carpool to work to cut commute costs.",
+          "audioSlug": "my_colleagues_and_i_carpool_to_work_to_cut_commute_costs"
+        }
+      ]
+    }
+  }
+}

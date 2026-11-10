@@ -1,0 +1,925 @@
+{
+  "_doc": "Atestiguacion frase por frase — topic restaurant. attested=true: existe frase estandar equivalente por funcion en las fuentes ELE/ESL del tema. attested=false: retirada por idiosincrasica/no estandar.",
+  "sources_en": [
+    "Espresso English",
+    "7ESL",
+    "ESL Teacher"
+  ],
+  "sources_es": [
+    "Enforex",
+    "Burbuja del Espanol",
+    "What's Up"
+  ],
+  "retired": [
+    "restaurant_could_you_help_me_pronounce_this",
+    "restaurant_do_you_have_a_dogfriendly_patio"
+  ],
+  "phrases": {
+    "en.restaurant_a_table_for_two_please": {
+      "level": "A1",
+      "function": "reservar/mesa",
+      "intent": "A table for two, please.",
+      "attested": true,
+      "added_from_source": true
+    },
+    "en.restaurant_allergy_chef_ingredients": {
+      "level": "B2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "There's a food allergy at our table. Could the chef confirm the ingredients?"
+    },
+    "en.restaurant_birthday_candle_dessert": {
+      "level": "B2",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "We're celebrating a birthday. Could you bring the dessert with a candle?"
+    },
+    "en.restaurant_can_i_get_a_refill_on": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Can I get a refill on my drink?"
+    },
+    "en.restaurant_can_i_make_a_reservation_for": {
+      "level": "A2",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "Can I make a reservation for two for tonight?"
+    },
+    "en.restaurant_can_we_see_the_menu_please": {
+      "level": "A1",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Can we see the menu, please?"
+    },
+    "en.restaurant_compliment_chef_risotto": {
+      "level": "B2",
+      "function": "felicitar",
+      "attested": true,
+      "intent": "I'd like to compliment the chef on the risotto. The seasoning was absolutely perfect."
+    },
+    "en.restaurant_could_i_have_a_glass_of": {
+      "level": "A1",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have a glass of water, please?"
+    },
+    "en.restaurant_could_i_have_my_burger_cooked": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have my burger cooked well-done?"
+    },
+    "en.restaurant_could_i_have_my_coffee_with": {
+      "level": "A2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Could I have my coffee with almond milk, please?"
+    },
+    "en.restaurant_could_i_have_my_salad_with": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have my salad with the dressing on the side?"
+    },
+    "en.restaurant_could_i_have_my_steak_cooked": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have my steak cooked medium, please?"
+    },
+    "en.restaurant_could_i_have_some_bread_while": {
+      "level": "A1",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have some bread while we wait?"
+    },
+    "en.restaurant_could_i_have_some_extra_cheese": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have some extra cheese on my pasta, please?"
+    },
+    "en.restaurant_could_i_have_some_extra_napkins": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have some extra napkins, please?"
+    },
+    "en.restaurant_could_i_have_some_extra_sauce": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have some extra sauce on the side?"
+    },
+    "en.restaurant_could_i_have_some_more_ice": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have some more ice in my drink, please?"
+    },
+    "en.restaurant_could_i_have_the_bill_please": {
+      "level": "A2",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Could I have the bill, please?"
+    },
+    "en.restaurant_could_i_have_the_check_split": {
+      "level": "B1",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Could I have the check split evenly between us?"
+    },
+    "en.restaurant_could_i_have_this_dish_without": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have this dish without onions, please?"
+    },
+    "en.restaurant_could_i_order_a_side_of": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I order a side of fries with my meal?"
+    },
+    "en.restaurant_could_you_please_pack_the_leftovers": {
+      "level": "B1",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could you please pack the leftovers in separate containers?"
+    },
+    "en.restaurant_could_you_recommend_a_dish_for": {
+      "level": "B1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Could you recommend a dish for someone who is gluten intolerant?"
+    },
+    "en.restaurant_could_you_recommend_a_good_wine": {
+      "level": "B1",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Could you recommend a good wine within a reasonable price range?"
+    },
+    "en.restaurant_could_you_tell_me_about_todays": {
+      "level": "A2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Could you tell me about today's specials?"
+    },
+    "en.restaurant_could_you_turn_down_the_music": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could you turn down the music a bit, please?"
+    },
+    "en.restaurant_dish_not_matching_description": {
+      "level": "B2",
+      "function": "queja",
+      "attested": true,
+      "intent": "This dish doesn't match the menu description. Could you clarify what's in it?"
+    },
+    "en.restaurant_do_you_have_any_desserts_available": {
+      "level": "A1",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Do you have any desserts available?"
+    },
+    "en.restaurant_do_you_have_any_nonalcoholic_cocktails": {
+      "level": "A2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Do you have any non-alcoholic cocktails?"
+    },
+    "en.restaurant_do_you_have_any_options_for": {
+      "level": "B1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Do you have any options for people with food allergies?"
+    },
+    "en.restaurant_do_you_have_any_outdoor_seating": {
+      "level": "A2",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Do you have any outdoor seating available?"
+    },
+    "en.restaurant_do_you_have_any_recommendations_for": {
+      "level": "B1",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Do you have any recommendations for wine pairings?"
+    },
+    "en.restaurant_do_you_have_any_specials_for": {
+      "level": "A2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Do you have any specials for holidays?"
+    },
+    "en.restaurant_do_you_have_any_vegetarian_options": {
+      "level": "A2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Do you have any vegetarian options?"
+    },
+    "en.restaurant_do_you_offer_any_birthday_specials": {
+      "level": "A2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Do you offer any birthday specials?"
+    },
+    "en.restaurant_do_you_offer_any_childrens_menus": {
+      "level": "A1",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Do you offer any children's menus?"
+    },
+    "en.restaurant_do_you_offer_any_discounts_for": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Do you offer any discounts for large groups?"
+    },
+    "en.restaurant_do_you_offer_any_lowcalorie_options": {
+      "level": "B1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Do you offer any low-calorie options?"
+    },
+    "en.restaurant_do_you_offer_glutenfree_alternatives": {
+      "level": "A2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Do you offer gluten-free alternatives?"
+    },
+    "en.restaurant_how_long_will_the_food_take": {
+      "level": "B1",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "How long will the food take to arrive?"
+    },
+    "en.restaurant_how_much_is_it_all": {
+      "level": "A1",
+      "function": "pago/cuenta",
+      "intent": "How much is it all together?",
+      "attested": true,
+      "added_from_source": true
+    },
+    "en.restaurant_ill_have_the_chicken": {
+      "level": "A1",
+      "function": "peticion/pedido",
+      "intent": "I'll have the chicken, please.",
+      "attested": true,
+      "added_from_source": true
+    },
+    "en.restaurant_ingredients_sourced_local_organic": {
+      "level": "C1",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Could you tell me where the ingredients are sourced? I prefer locally grown, organic produce."
+    },
+    "en.restaurant_is_it_possible_to_have_my": {
+      "level": "B1",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Is it possible to have my meal packed to go?"
+    },
+    "en.restaurant_is_it_possible_to_make_a": {
+      "level": "A2",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "Is it possible to make a reservation for later tonight?"
+    },
+    "en.restaurant_is_it_possible_to_split_the": {
+      "level": "A2",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Is it possible to split the bill?"
+    },
+    "en.restaurant_is_the_tip_included_in_the": {
+      "level": "A2",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Is the tip included in the bill?"
+    },
+    "en.restaurant_is_there_a_charge_for_substitutions": {
+      "level": "B1",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Is there a charge for substitutions?"
+    },
+    "en.restaurant_is_there_a_corkage_fee_if": {
+      "level": "B1",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Is there a corkage fee if I bring my own wine?"
+    },
+    "en.restaurant_is_there_a_dress_code_for": {
+      "level": "B1",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Is there a dress code for dining here?"
+    },
+    "en.restaurant_is_there_a_fee_for_using": {
+      "level": "A2",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Is there a fee for using a credit card?"
+    },
+    "en.restaurant_is_there_a_limit_to_the": {
+      "level": "A2",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "Is there a limit to the number of people for a reservation?"
+    },
+    "en.restaurant_is_there_a_minimum_order_for": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Is there a minimum order for delivery?"
+    },
+    "en.restaurant_is_there_a_service_charge_for": {
+      "level": "B1",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Is there a service charge for large parties?"
+    },
+    "en.restaurant_is_there_a_time_limit_for": {
+      "level": "A2",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Is there a time limit for dining?"
+    },
+    "en.restaurant_is_this_dish_spicy": {
+      "level": "A2",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Is this dish spicy?"
+    },
+    "en.restaurant_late_reservation_table_still_available": {
+      "level": "C1",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "We're under Thompson for eight o'clock. We're a bit late, is our table still held?"
+    },
+    "en.restaurant_move_quieter_table": {
+      "level": "B2",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "Our table is a bit noisy. Could we move to a quieter spot?"
+    },
+    "en.restaurant_no_reservation_wait_time": {
+      "level": "B2",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "We have no reservation. How long is the wait for a table of four?"
+    },
+    "en.restaurant_personalized_dessert_occasion": {
+      "level": "C1",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "We're celebrating a special occasion. Could you arrange for a personalized dessert?"
+    },
+    "en.restaurant_price_discrepancy_charged": {
+      "level": "C1",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "The service was excellent, but there's a discrepancy between the menu price and our bill."
+    },
+    "en.restaurant_private_dining_business": {
+      "level": "C1",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "I'd like to reserve a private dining area for a business dinner. Is anything available?"
+    },
+    "en.restaurant_recommendations_for_appetizers": {
+      "level": "A2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Do you have any recommendations for appetizers?"
+    },
+    "en.restaurant_recommendations_for_cocktails": {
+      "level": "A2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Do you have any recommendations for cocktails?"
+    },
+    "en.restaurant_same_table_window": {
+      "level": "B2",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "Could we have the same table as last time? It was near the window."
+    },
+    "en.restaurant_sommelier_provenance_barolo": {
+      "level": "C2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Could I speak with the sommelier? I'd like to know the provenance and vintage of the Barolo."
+    },
+    "en.restaurant_steak_wrong_doneness": {
+      "level": "B2",
+      "function": "queja",
+      "attested": true,
+      "intent": "I ordered medium-rare, but this steak is well-done. Could you send it back?"
+    },
+    "en.restaurant_tasting_menu_chef_selections": {
+      "level": "C1",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "I'd like to explore the tasting menu. Are there chef's selections available this evening?"
+    },
+    "en.restaurant_tasting_menu_lactose_adapt": {
+      "level": "C1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "I'm lactose intolerant. Could the kitchen adapt any courses on the tasting menu?"
+    },
+    "en.restaurant_the_check_please": {
+      "level": "A1",
+      "function": "pago/cuenta",
+      "intent": "The check, please.",
+      "attested": true,
+      "added_from_source": true
+    },
+    "en.restaurant_what_do_you_recommend_as_a": {
+      "level": "A2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "What do you recommend as a specialty of the house?"
+    },
+    "en.restaurant_wine_acidity_fish_pairing": {
+      "level": "C1",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Could you describe the wine's profile? I want good acidity to pair with the fish."
+    },
+    "en.restaurant_wine_wrong_selection": {
+      "level": "B2",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "The wine we were served doesn't match our selection. Could you check the bottle?"
+    },
+    "es.restaurant_a_table_for_two_please": {
+      "level": "A1",
+      "function": "reservar/mesa",
+      "intent": "A table for two, please.",
+      "attested": true,
+      "added_from_source": true
+    },
+    "es.restaurant_allergy_chef_ingredients": {
+      "level": "B2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "There's a food allergy at our table. Could the chef confirm the ingredients?"
+    },
+    "es.restaurant_birthday_candle_dessert": {
+      "level": "B2",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "We're celebrating a birthday. Could you bring the dessert with a candle?"
+    },
+    "es.restaurant_can_i_get_a_refill_on": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Can I get a refill on my drink?"
+    },
+    "es.restaurant_can_i_make_a_reservation_for": {
+      "level": "A2",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "Can I make a reservation for two for tonight?"
+    },
+    "es.restaurant_can_we_see_the_menu_please": {
+      "level": "A1",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Can we see the menu, please?"
+    },
+    "es.restaurant_compliment_chef_risotto": {
+      "level": "B2",
+      "function": "felicitar",
+      "attested": true,
+      "intent": "I'd like to compliment the chef on the risotto. The seasoning was absolutely perfect."
+    },
+    "es.restaurant_could_i_have_a_glass_of": {
+      "level": "A1",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have a glass of water, please?"
+    },
+    "es.restaurant_could_i_have_my_burger_cooked": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have my burger cooked well-done?"
+    },
+    "es.restaurant_could_i_have_my_coffee_with": {
+      "level": "A2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Could I have my coffee with almond milk, please?"
+    },
+    "es.restaurant_could_i_have_my_salad_with": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have my salad with the dressing on the side?"
+    },
+    "es.restaurant_could_i_have_my_steak_cooked": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have my steak cooked medium, please?"
+    },
+    "es.restaurant_could_i_have_some_bread_while": {
+      "level": "A1",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have some bread while we wait?"
+    },
+    "es.restaurant_could_i_have_some_extra_cheese": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have some extra cheese on my pasta, please?"
+    },
+    "es.restaurant_could_i_have_some_extra_napkins": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have some extra napkins, please?"
+    },
+    "es.restaurant_could_i_have_some_extra_sauce": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have some extra sauce on the side?"
+    },
+    "es.restaurant_could_i_have_some_more_ice": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have some more ice in my drink, please?"
+    },
+    "es.restaurant_could_i_have_the_bill_please": {
+      "level": "A2",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Could I have the bill, please?"
+    },
+    "es.restaurant_could_i_have_the_check_split": {
+      "level": "B1",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Could I have the check split evenly between us?"
+    },
+    "es.restaurant_could_i_have_this_dish_without": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I have this dish without onions, please?"
+    },
+    "es.restaurant_could_i_order_a_side_of": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could I order a side of fries with my meal?"
+    },
+    "es.restaurant_could_you_please_pack_the_leftovers": {
+      "level": "B1",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could you please pack the leftovers in separate containers?"
+    },
+    "es.restaurant_could_you_recommend_a_dish_for": {
+      "level": "B1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Could you recommend a dish for someone who is gluten intolerant?"
+    },
+    "es.restaurant_could_you_recommend_a_good_wine": {
+      "level": "B1",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Could you recommend a good wine within a reasonable price range?"
+    },
+    "es.restaurant_could_you_tell_me_about_todays": {
+      "level": "A2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Could you tell me about today's specials?"
+    },
+    "es.restaurant_could_you_turn_down_the_music": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Could you turn down the music a bit, please?"
+    },
+    "es.restaurant_dish_not_matching_description": {
+      "level": "B2",
+      "function": "queja",
+      "attested": true,
+      "intent": "This dish doesn't match the menu description. Could you clarify what's in it?"
+    },
+    "es.restaurant_do_you_have_any_desserts_available": {
+      "level": "A1",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Do you have any desserts available?"
+    },
+    "es.restaurant_do_you_have_any_nonalcoholic_cocktails": {
+      "level": "A2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Do you have any non-alcoholic cocktails?"
+    },
+    "es.restaurant_do_you_have_any_options_for": {
+      "level": "B1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Do you have any options for people with food allergies?"
+    },
+    "es.restaurant_do_you_have_any_outdoor_seating": {
+      "level": "A2",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Do you have any outdoor seating available?"
+    },
+    "es.restaurant_do_you_have_any_recommendations_for": {
+      "level": "B1",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Do you have any recommendations for wine pairings?"
+    },
+    "es.restaurant_do_you_have_any_specials_for": {
+      "level": "A2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Do you have any specials for holidays?"
+    },
+    "es.restaurant_do_you_have_any_vegetarian_options": {
+      "level": "A2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Do you have any vegetarian options?"
+    },
+    "es.restaurant_do_you_offer_any_birthday_specials": {
+      "level": "A2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Do you offer any birthday specials?"
+    },
+    "es.restaurant_do_you_offer_any_childrens_menus": {
+      "level": "A1",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Do you offer any children's menus?"
+    },
+    "es.restaurant_do_you_offer_any_discounts_for": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Do you offer any discounts for large groups?"
+    },
+    "es.restaurant_do_you_offer_any_lowcalorie_options": {
+      "level": "B1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Do you offer any low-calorie options?"
+    },
+    "es.restaurant_do_you_offer_glutenfree_alternatives": {
+      "level": "A2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Do you offer gluten-free alternatives?"
+    },
+    "es.restaurant_how_long_will_the_food_take": {
+      "level": "B1",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "How long will the food take to arrive?"
+    },
+    "es.restaurant_how_much_is_it_all": {
+      "level": "A1",
+      "function": "pago/cuenta",
+      "intent": "How much is it all together?",
+      "attested": true,
+      "added_from_source": true
+    },
+    "es.restaurant_ill_have_the_chicken": {
+      "level": "A1",
+      "function": "peticion/pedido",
+      "intent": "I'll have the chicken, please.",
+      "attested": true,
+      "added_from_source": true
+    },
+    "es.restaurant_ingredients_sourced_local_organic": {
+      "level": "C1",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Could you tell me where the ingredients are sourced? I prefer locally grown, organic produce."
+    },
+    "es.restaurant_is_it_possible_to_have_my": {
+      "level": "B1",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Is it possible to have my meal packed to go?"
+    },
+    "es.restaurant_is_it_possible_to_make_a": {
+      "level": "A2",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "Is it possible to make a reservation for later tonight?"
+    },
+    "es.restaurant_is_it_possible_to_split_the": {
+      "level": "A2",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Is it possible to split the bill?"
+    },
+    "es.restaurant_is_the_tip_included_in_the": {
+      "level": "A2",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Is the tip included in the bill?"
+    },
+    "es.restaurant_is_there_a_charge_for_substitutions": {
+      "level": "B1",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Is there a charge for substitutions?"
+    },
+    "es.restaurant_is_there_a_childrens_menu_available": {
+      "level": "A1",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Is there a children's menu available?"
+    },
+    "es.restaurant_is_there_a_corkage_fee_if": {
+      "level": "B1",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Is there a corkage fee if I bring my own wine?"
+    },
+    "es.restaurant_is_there_a_dress_code_for": {
+      "level": "B1",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Is there a dress code for dining here?"
+    },
+    "es.restaurant_is_there_a_fee_for_using": {
+      "level": "A2",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Is there a fee for using a credit card?"
+    },
+    "es.restaurant_is_there_a_limit_to_the": {
+      "level": "A2",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "Is there a limit to the number of people for a reservation?"
+    },
+    "es.restaurant_is_there_a_minimum_order_for": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": true,
+      "intent": "Is there a minimum order for delivery?"
+    },
+    "es.restaurant_is_there_a_service_charge_for": {
+      "level": "B1",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "Is there a service charge for large parties?"
+    },
+    "es.restaurant_is_there_a_time_limit_for": {
+      "level": "A2",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Is there a time limit for dining?"
+    },
+    "es.restaurant_is_this_dish_spicy": {
+      "level": "A2",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "Is this dish spicy?"
+    },
+    "es.restaurant_late_reservation_table_still_available": {
+      "level": "C1",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "We're under Thompson for eight o'clock. We're a bit late, is our table still held?"
+    },
+    "es.restaurant_move_quieter_table": {
+      "level": "B2",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "Our table is a bit noisy. Could we move to a quieter spot?"
+    },
+    "es.restaurant_no_reservation_wait_time": {
+      "level": "B2",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "We have no reservation. How long is the wait for a table of four?"
+    },
+    "es.restaurant_personalized_dessert_occasion": {
+      "level": "C1",
+      "function": "informacion/disponibilidad",
+      "attested": true,
+      "intent": "We're celebrating a special occasion. Could you arrange for a personalized dessert?"
+    },
+    "es.restaurant_price_discrepancy_charged": {
+      "level": "C1",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "The service was excellent, but there's a discrepancy between the menu price and our bill."
+    },
+    "es.restaurant_private_dining_business": {
+      "level": "C1",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "I'd like to reserve a private dining area for a business dinner. Is anything available?"
+    },
+    "es.restaurant_recommendations_for_appetizers": {
+      "level": "A2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Do you have any recommendations for appetizers?"
+    },
+    "es.restaurant_recommendations_for_cocktails": {
+      "level": "A2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Do you have any recommendations for cocktails?"
+    },
+    "es.restaurant_same_table_window": {
+      "level": "B2",
+      "function": "reservar/mesa",
+      "attested": true,
+      "intent": "Could we have the same table as last time? It was near the window."
+    },
+    "es.restaurant_sommelier_provenance_barolo": {
+      "level": "C2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Could I speak with the sommelier? I'd like to know the provenance and vintage of the Barolo."
+    },
+    "es.restaurant_steak_wrong_doneness": {
+      "level": "B2",
+      "function": "queja",
+      "attested": true,
+      "intent": "I ordered medium-rare, but this steak is well-done. Could you send it back?"
+    },
+    "es.restaurant_tasting_menu_chef_selections": {
+      "level": "C1",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "I'd like to explore the tasting menu. Are there chef's selections available this evening?"
+    },
+    "es.restaurant_tasting_menu_lactose_adapt": {
+      "level": "C1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "I'm lactose intolerant. Could the kitchen adapt any courses on the tasting menu?"
+    },
+    "es.restaurant_the_check_please": {
+      "level": "A1",
+      "function": "pago/cuenta",
+      "intent": "The check, please.",
+      "attested": true,
+      "added_from_source": true
+    },
+    "es.restaurant_what_do_you_recommend_as_a": {
+      "level": "A2",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "What do you recommend as a specialty of the house?"
+    },
+    "es.restaurant_wine_acidity_fish_pairing": {
+      "level": "C1",
+      "function": "recomendacion",
+      "attested": true,
+      "intent": "Could you describe the wine's profile? I want good acidity to pair with the fish."
+    },
+    "es.restaurant_wine_wrong_selection": {
+      "level": "B2",
+      "function": "pago/cuenta",
+      "attested": true,
+      "intent": "The wine we were served doesn't match our selection. Could you check the bottle?"
+    }
+  },
+  "_gap_fill": "4 basicos A1 anadidos desde fuentes (Enforex, Espresso English, Tatoeba) para cubrir el hueco del tier A1: mesa, cuenta, ordenar, total. Variante regional check(US)/bill(UK) en es-en.",
+  "_unmatched": {
+    "restaurant_could_you_help_me_pronounce_this": {
+      "level": "A2",
+      "function": "peticion/pedido",
+      "attested": false,
+      "intent": "Could you help me pronounce this dish?"
+    },
+    "restaurant_do_you_have_a_dogfriendly_patio": {
+      "level": "B1",
+      "function": "informacion/disponibilidad",
+      "attested": false,
+      "intent": "Do you have a dog-friendly patio?"
+    }
+  },
+  "_keyFormat": "target.conceptSlug"
+}

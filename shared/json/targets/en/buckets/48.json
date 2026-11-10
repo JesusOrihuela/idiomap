@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "48",
+  "concepts": {
+    "en.conversacion_quite_true": {
+      "conceptId": "en.conversacion_quite_true",
+      "id": "conversacion_quite_true",
+      "target": [
+        {
+          "text": "Yes, that's quite true.",
+          "audioSlug": "yes_that_s_quite_true"
+        }
+      ]
+    },
+    "en.describiendo_personas_he_looks_like_his_father": {
+      "conceptId": "en.describiendo_personas_he_looks_like_his_father",
+      "id": "describiendo_personas_he_looks_like_his_father",
+      "target": [
+        {
+          "text": "He looks like his father.",
+          "audioSlug": "he_looks_like_his_father"
+        }
+      ]
+    },
+    "en.greetings_hey_nice_to_see_you_again": {
+      "conceptId": "en.greetings_hey_nice_to_see_you_again",
+      "id": "greetings_hey_nice_to_see_you_again",
+      "target": [
+        {
+          "text": "Hey, nice to see you again, how have you been?",
+          "audioSlug": "hey_nice_to_see_you_again_how_have_you_been",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Hello, nice to see you again, how have you been?",
+          "audioSlug": "hello_nice_to_see_you_again_how_have_you_been",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.oficina_the_work_is_complete": {
+      "conceptId": "en.oficina_the_work_is_complete",
+      "id": "oficina_the_work_is_complete",
+      "target": [
+        {
+          "text": "The work is complete.",
+          "audioSlug": "the_work_is_complete"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_does_truth_matter": {
+      "conceptId": "en.pensamientos_opiniones_does_truth_matter",
+      "id": "pensamientos_opiniones_does_truth_matter",
+      "target": [
+        {
+          "text": "Does truth matter?",
+          "audioSlug": "does_truth_matter"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_this_is_my_favorite": {
+      "conceptId": "en.pensamientos_opiniones_this_is_my_favorite",
+      "id": "pensamientos_opiniones_this_is_my_favorite",
+      "target": [
+        {
+          "text": "This is my favorite.",
+          "audioSlug": "this_is_my_favorite"
+        }
+      ]
+    },
+    "en.restaurant_i_prefer_coffee": {
+      "conceptId": "en.restaurant_i_prefer_coffee",
+      "id": "restaurant_i_prefer_coffee",
+      "target": [
+        {
+          "text": "I prefer coffee.",
+          "audioSlug": "i_prefer_coffee"
+        }
+      ]
+    },
+    "en.theater_where_are_seats": {
+      "conceptId": "en.theater_where_are_seats",
+      "id": "theater_where_are_seats",
+      "target": [
+        {
+          "text": "Where are our seats?",
+          "audioSlug": "where_are_our_seats"
+        }
+      ]
+    },
+    "en.weather_nice_today": {
+      "conceptId": "en.weather_nice_today",
+      "id": "weather_nice_today",
+      "target": [
+        {
+          "text": "The weather is nice today.",
+          "audioSlug": "the_weather_is_nice_today"
+        }
+      ]
+    }
+  }
+}

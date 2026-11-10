@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "bc",
+  "concepts": {
+    "en.conversacion_ran_into_old_friend": {
+      "conceptId": "en.conversacion_ran_into_old_friend",
+      "id": "conversacion_ran_into_old_friend",
+      "target": [
+        {
+          "text": "I ran into an old friend downtown.",
+          "audioSlug": "i_ran_into_an_old_friend_downtown"
+        }
+      ]
+    },
+    "en.daily_routine_lunch_at_one": {
+      "conceptId": "en.daily_routine_lunch_at_one",
+      "id": "daily_routine_lunch_at_one",
+      "target": [
+        {
+          "text": "I have lunch at one.",
+          "audioSlug": "i_have_lunch_at_one"
+        }
+      ]
+    },
+    "en.directions_the_museum_is_near_here": {
+      "conceptId": "en.directions_the_museum_is_near_here",
+      "id": "directions_the_museum_is_near_here",
+      "target": [
+        {
+          "text": "The museum is near here.",
+          "audioSlug": "the_museum_is_near_here"
+        }
+      ]
+    },
+    "en.kitchen_sauce_breaks_rescue_cold_water": {
+      "conceptId": "en.kitchen_sauce_breaks_rescue_cold_water",
+      "id": "kitchen_sauce_breaks_rescue_cold_water",
+      "target": [
+        {
+          "text": "If the sauce breaks, rescue it by adding cold water and whisking vigorously.",
+          "audioSlug": "if_the_sauce_breaks_rescue_it_by_adding_cold_water_and_whisking_vigorously"
+        }
+      ]
+    },
+    "en.restaurant_could_i_have_some_extra_napkins": {
+      "conceptId": "en.restaurant_could_i_have_some_extra_napkins",
+      "id": "restaurant_could_i_have_some_extra_napkins",
+      "target": [
+        {
+          "text": "Could I have some extra napkins, please?",
+          "audioSlug": "could_i_have_some_extra_napkins_please",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can I have some extra napkins, please?",
+          "audioSlug": "can_i_have_some_extra_napkins_please",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "59",
+  "concepts": {
+    "en.health_i_hurt_my_knee": {
+      "conceptId": "en.health_i_hurt_my_knee",
+      "id": "health_i_hurt_my_knee",
+      "target": [
+        {
+          "text": "I hurt my knee.",
+          "audioSlug": "i_hurt_my_knee"
+        }
+      ]
+    },
+    "en.restaurant_is_there_a_dress_code_for": {
+      "conceptId": "en.restaurant_is_there_a_dress_code_for",
+      "id": "restaurant_is_there_a_dress_code_for",
+      "target": [
+        {
+          "text": "Is there a dress code for dining here?",
+          "audioSlug": "is_there_a_dress_code_for_dining_here"
+        }
+      ]
+    },
+    "en.tiempo_libre_collects_old_coins": {
+      "conceptId": "en.tiempo_libre_collects_old_coins",
+      "id": "tiempo_libre_collects_old_coins",
+      "target": [
+        {
+          "text": "He collects old coins.",
+          "audioSlug": "he_collects_old_coins"
+        }
+      ]
+    },
+    "en.vestimenta_i_ll_wear_a_t_shirt": {
+      "conceptId": "en.vestimenta_i_ll_wear_a_t_shirt",
+      "id": "vestimenta_i_ll_wear_a_t_shirt",
+      "target": [
+        {
+          "text": "I'll wear a T-shirt.",
+          "audioSlug": "i_ll_wear_a_t_shirt"
+        }
+      ]
+    },
+    "en.weather_it_rains_a_lot_this_time_of_year": {
+      "conceptId": "en.weather_it_rains_a_lot_this_time_of_year",
+      "id": "weather_it_rains_a_lot_this_time_of_year",
+      "target": [
+        {
+          "text": "It rains a lot this time of year.",
+          "audioSlug": "it_rains_a_lot_this_time_of_year"
+        }
+      ]
+    }
+  }
+}

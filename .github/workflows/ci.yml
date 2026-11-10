@@ -33,6 +33,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install ffmpeg (AAC probe/decode)
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
       # Both scripts use only Node built-ins — no npm install needed.
       - name: Content rule checks (check-content.mjs)
         run: node tools/check-content.mjs
@@ -45,8 +48,8 @@ jobs:
       - name: Language model (build --check + check-language-model.mjs)
         run: node tools/build-language-model.mjs --check && node tools/check-language-model.mjs
 
-      - name: Language profiles + UI bundles in sync
-        run: node tools/build-lang-profiles.mjs --check && node tools/build-ui-bundles.mjs --check
+      - name: Language profiles in sync
+        run: node tools/build-lang-profiles.mjs --check
 
       - name: Logical CSS properties
         run: node tools/migrate-logical-css.mjs --check && node tools/check-lang-attrs.mjs
@@ -59,6 +62,12 @@ jobs:
 
       - name: Audio references
         run: node tools/check-audio-refs.mjs
+
+      - name: Audio orphans (no unreferenced files)
+        run: node tools/check-audio-orphans.mjs
+
+      - name: Audio text versions
+        run: node tools/build-audio-versions.mjs --check
 
       - name: Audio duplicates + signal
         run: node tools/dedupe-audio.mjs --gate && node tools/build-audio-manifest.mjs --check && node tools/check-audio.mjs
@@ -164,6 +173,33 @@ jobs:
 
       - name: Category taxonomy conforms (check-taxonomy.mjs)
         run: node tools/check-taxonomy.mjs
+
+      - name: Topic fallbacks match topics.json (check-topics-sync.mjs)
+        run: node tools/check-topics-sync.mjs
+
+      - name: Source store is current (build-source-store.mjs --check)
+        run: node tools/build-source-store.mjs --check
+
+      - name: Target store is current (build-target-store.mjs --check)
+        run: node tools/build-target-store.mjs --check
+
+      - name: Runtime packs are current (build-runtime-packs.mjs --check)
+        run: node tools/build-runtime-packs.mjs --check
+
+      - name: Content graph is current (build-content-index.mjs --check)
+        run: node tools/build-content-index.mjs --check
+
+      - name: Pedagogy evidence gate (check-pedagogy.mjs)
+        run: node tools/check-pedagogy.mjs
+
+      - name: Pedagogy gate regression (check-pedagogy.test.mjs)
+        run: node tools/check-pedagogy.test.mjs
+
+      - name: License gate (check-licenses.mjs)
+        run: node tools/check-licenses.mjs
+
+      - name: Hosting budget (GitHub Pages 1 GB / Cloudflare 20k)
+        run: node tools/check-hosting-budget.mjs
 
   # Topic-card images: every (activity, topic) slot must have both jpg (1280×720)
   # and webp (800×450), correctly framed (no letterbox/pillarbox bar), sharp, unique

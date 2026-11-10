@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "25",
+  "concepts": {
+    "en.emociones_why_are_you_relaxed": {
+      "conceptId": "en.emociones_why_are_you_relaxed",
+      "id": "emociones_why_are_you_relaxed",
+      "target": [
+        {
+          "text": "Why are you relaxed?",
+          "audioSlug": "why_are_you_relaxed"
+        }
+      ]
+    },
+    "en.kitchen_the_recipe_calls_for_brown_sugar": {
+      "conceptId": "en.kitchen_the_recipe_calls_for_brown_sugar",
+      "id": "kitchen_the_recipe_calls_for_brown_sugar",
+      "target": [
+        {
+          "text": "The recipe calls for brown sugar instead of white sugar.",
+          "audioSlug": "the_recipe_calls_for_brown_sugar_instead_of_white_sugar"
+        }
+      ]
+    },
+    "en.movies_dont_understand_popularity": {
+      "conceptId": "en.movies_dont_understand_popularity",
+      "id": "movies_dont_understand_popularity",
+      "target": [
+        {
+          "text": "I do not understand why that series is so popular.",
+          "audioSlug": "i_do_not_understand_why_that_series_is_so_popular"
+        }
+      ]
+    },
+    "en.technology_you_should_buy_a_better_mouse": {
+      "conceptId": "en.technology_you_should_buy_a_better_mouse",
+      "id": "technology_you_should_buy_a_better_mouse",
+      "target": [
+        {
+          "text": "You should buy a better mouse and keyboard.",
+          "audioSlug": "you_should_buy_a_better_mouse_and_keyboard"
+        }
+      ]
+    },
+    "en.weather_its_raining": {
+      "conceptId": "en.weather_its_raining",
+      "id": "weather_its_raining",
+      "target": [
+        {
+          "text": "It's raining.",
+          "audioSlug": "it_s_raining"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "4e",
+  "concepts": {
+    "en.directions_enter_here": {
+      "conceptId": "en.directions_enter_here",
+      "id": "directions_enter_here",
+      "target": [
+        {
+          "text": "Enter here!",
+          "audioSlug": "enter_here"
+        }
+      ]
+    },
+    "en.emociones_why_are_you_stressed": {
+      "conceptId": "en.emociones_why_are_you_stressed",
+      "id": "emociones_why_are_you_stressed",
+      "target": [
+        {
+          "text": "Why are you stressed?",
+          "audioSlug": "why_are_you_stressed"
+        }
+      ]
+    },
+    "en.greetings_hows_your_day_been": {
+      "conceptId": "en.greetings_hows_your_day_been",
+      "id": "greetings_hows_your_day_been",
+      "target": [
+        {
+          "text": "How's your day been?",
+          "audioSlug": "how_s_your_day_been"
+        }
+      ]
+    },
+    "en.gym_keep_your_abs_contracted": {
+      "conceptId": "en.gym_keep_your_abs_contracted",
+      "id": "gym_keep_your_abs_contracted",
+      "target": [
+        {
+          "text": "Keep your abs contracted.",
+          "audioSlug": "keep_your_abs_contracted"
+        }
+      ]
+    },
+    "en.gym_shoulder_discomfort_overhead_press": {
+      "conceptId": "en.gym_shoulder_discomfort_overhead_press",
+      "id": "gym_shoulder_discomfort_overhead_press",
+      "target": [
+        {
+          "text": "I've been experiencing discomfort in my left shoulder whenever I do overhead presses.",
+          "audioSlug": "i_ve_been_experiencing_discomfort_in_my_left_shoulder_whenever_i_do_overhead_presses"
+        }
+      ]
+    },
+    "en.survival_i_dont_understand": {
+      "conceptId": "en.survival_i_dont_understand",
+      "id": "survival_i_dont_understand",
+      "target": [
+        {
+          "text": "I don't understand.",
+          "audioSlug": "i_don_t_understand"
+        }
+      ]
+    },
+    "en.survival_what_is_this": {
+      "conceptId": "en.survival_what_is_this",
+      "id": "survival_what_is_this",
+      "target": [
+        {
+          "text": "What is this called?",
+          "audioSlug": "what_is_this_called"
+        }
+      ]
+    },
+    "en.transportation_take_me_to_address": {
+      "conceptId": "en.transportation_take_me_to_address",
+      "id": "transportation_take_me_to_address",
+      "target": [
+        {
+          "text": "Take me to this address, please.",
+          "audioSlug": "take_me_to_this_address_please"
+        }
+      ]
+    }
+  }
+}

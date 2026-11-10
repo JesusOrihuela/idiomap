@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "it",
+  "bucket": "2d",
+  "concepts": {
+    "it.piloto_hola_como_estas": {
+      "conceptId": "it.piloto_hola_como_estas",
+      "id": "piloto_hola_como_estas",
+      "target": [
+        {
+          "text": "Ciao, come stai?",
+          "audioSlug": "hola_como_estas"
+        }
+      ]
+    }
+  }
+}

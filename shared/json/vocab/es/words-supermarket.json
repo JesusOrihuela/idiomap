@@ -19,7 +19,13 @@
       "gloss_example": {
         "en": "The breakfast cereals are in aisle seven."
       },
-      "conceptId": "es.aisle"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "checkout",
@@ -40,7 +46,13 @@
       "gloss_example": {
         "en": "There was a long queue at the self-service checkout."
       },
-      "conceptId": "es.checkout"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "coupon",
@@ -61,7 +73,13 @@
       "gloss_example": {
         "en": "I used a coupon to save two dollars on my breakfast cereal."
       },
-      "conceptId": "es.coupon"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "discount",
@@ -82,7 +100,13 @@
       "gloss_example": {
         "en": "This store offers a ten percent discount for students."
       },
-      "conceptId": "es.discount"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "receipt",
@@ -119,7 +143,13 @@
           "audioSlug": "ticket"
         }
       ],
-      "conceptId": "es.receipt"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "expiration",
@@ -140,7 +170,13 @@
       "gloss_example": {
         "en": "Always check the expiration date before buying dairy products."
       },
-      "conceptId": "es.expiration"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "organic",
@@ -177,7 +213,13 @@
           "audioSlug": "ecologico"
         }
       ],
-      "conceptId": "es.organic"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "promotion",
@@ -214,7 +256,13 @@
           "audioSlug": "oferta"
         }
       ],
-      "conceptId": "es.promotion"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "loyalty",
@@ -235,7 +283,13 @@
       "gloss_example": {
         "en": "Scan your loyalty card at checkout to earn points on every purchase."
       },
-      "conceptId": "es.loyalty"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bulk",
@@ -272,7 +326,13 @@
           "audioSlug": "a_granel"
         }
       ],
-      "conceptId": "es.bulk"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "generic",
@@ -309,7 +369,13 @@
           "audioSlug": "marca_blanca"
         }
       ],
-      "conceptId": "es.generic"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "perishable",
@@ -330,7 +396,13 @@
       "gloss_example": {
         "en": "Keep all perishable items refrigerated at the correct temperature."
       },
-      "conceptId": "es.perishable"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "wholesale",
@@ -367,7 +439,13 @@
           "audioSlug": "al_por_mayor"
         }
       ],
-      "conceptId": "es.wholesale"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "allergen",
@@ -388,7 +466,13 @@
       "gloss_example": {
         "en": "The packaging must list all fourteen major allergens in accordance with food labeling law."
       },
-      "conceptId": "es.allergen"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "traceability",
@@ -409,7 +493,13 @@
       "gloss_example": {
         "en": "Retailers must guarantee traceability from farm to shelf for all fresh produce."
       },
-      "conceptId": "es.traceability"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "markup",
@@ -446,7 +536,13 @@
           "audioSlug": "sobrecoste"
         }
       ],
-      "conceptId": "es.markup"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "recall",
@@ -467,7 +563,13 @@
       "gloss_example": {
         "en": "The manufacturer issued a recall after a contamination risk was identified in the batch."
       },
-      "conceptId": "es.recall"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cold_chain",
@@ -488,7 +590,13 @@
       "gloss_example": {
         "en": "A break in the cold chain during transport can compromise the safety of frozen or chilled products."
       },
-      "conceptId": "es.cold_chain"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "shrinkage",
@@ -525,7 +633,13 @@
           "audioSlug": "perdida_de_inventario"
         }
       ],
-      "conceptId": "es.shrinkage"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "supply_chain",
@@ -546,7 +660,13 @@
       "gloss_example": {
         "en": "Disruptions to the global supply chain caused widespread shortages and price increases."
       },
-      "conceptId": "es.supply_chain"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "adulteration",
@@ -567,7 +687,13 @@
       "gloss_example": {
         "en": "The food fraud investigation revealed widespread adulteration of imported honey with cheaper syrups."
       },
-      "conceptId": "es.adulteration"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "carne",
@@ -588,7 +714,13 @@
       "gloss_example": {
         "en": "I bought meat for dinner."
       },
-      "conceptId": "es.carne"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "leche",
@@ -609,7 +741,13 @@
       "gloss_example": {
         "en": "We need milk for breakfast."
       },
-      "conceptId": "es.leche"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "huevo",
@@ -630,7 +768,13 @@
       "gloss_example": {
         "en": "I want two eggs with bread."
       },
-      "conceptId": "es.huevo"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "pan",
@@ -651,7 +795,13 @@
       "gloss_example": {
         "en": "This bread is freshly baked."
       },
-      "conceptId": "es.pan"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "arroz",
@@ -672,7 +822,13 @@
       "gloss_example": {
         "en": "Rice goes with many dishes."
       },
-      "conceptId": "es.arroz"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "verdura",
@@ -693,7 +849,13 @@
       "gloss_example": {
         "en": "Eat more vegetables."
       },
-      "conceptId": "es.verdura"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "pescado",
@@ -714,7 +876,13 @@
       "gloss_example": {
         "en": "I bought fresh fish."
       },
-      "conceptId": "es.pescado"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bebida",
@@ -735,7 +903,13 @@
       "gloss_example": {
         "en": "What drink do you want?"
       },
-      "conceptId": "es.bebida"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "tea",
@@ -756,7 +930,13 @@
       "gloss_example": {
         "en": "In the morning I have tea."
       },
-      "conceptId": "es.tea"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "sandwich",
@@ -777,7 +957,13 @@
       "gloss_example": {
         "en": "I made a ham and cheese sandwich."
       },
-      "conceptId": "es.sandwich"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ham",
@@ -798,7 +984,13 @@
       "gloss_example": {
         "en": "I bought ham for the sandwiches."
       },
-      "conceptId": "es.ham"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cheese",
@@ -819,7 +1011,13 @@
       "gloss_example": {
         "en": "I like cheese on pizza."
       },
-      "conceptId": "es.cheese"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "onion",
@@ -840,7 +1038,13 @@
       "gloss_example": {
         "en": "The recipe uses half an onion."
       },
-      "conceptId": "es.onion"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "garlic",
@@ -861,7 +1065,13 @@
       "gloss_example": {
         "en": "Add a clove of garlic to the sauce."
       },
-      "conceptId": "es.garlic"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "carrot",
@@ -882,7 +1092,13 @@
       "gloss_example": {
         "en": "The rabbit eats carrots."
       },
-      "conceptId": "es.carrot"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "strawberry",
@@ -903,7 +1119,13 @@
       "gloss_example": {
         "en": "I bought strawberries for dessert."
       },
-      "conceptId": "es.strawberry"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "banana",
@@ -924,7 +1146,13 @@
       "gloss_example": {
         "en": "I eat a banana after exercising."
       },
-      "conceptId": "es.banana"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "apple",
@@ -945,7 +1173,13 @@
       "gloss_example": {
         "en": "An apple a day is healthy."
       },
-      "conceptId": "es.apple"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "yogurt",
@@ -966,7 +1200,13 @@
       "gloss_example": {
         "en": "I have yogurt with fruit for breakfast."
       },
-      "conceptId": "es.yogurt"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ice_cream",
@@ -987,7 +1227,13 @@
       "gloss_example": {
         "en": "In summer we have ice cream."
       },
-      "conceptId": "es.ice_cream"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cookie",
@@ -1008,7 +1254,13 @@
       "gloss_example": {
         "en": "She dipped the cookies in the milk."
       },
-      "conceptId": "es.cookie"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "butter",
@@ -1029,7 +1281,13 @@
       "gloss_example": {
         "en": "He spread butter on the bread."
       },
-      "conceptId": "es.butter"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "flour",
@@ -1050,7 +1308,13 @@
       "gloss_example": {
         "en": "You need flour to make the cake."
       },
-      "conceptId": "es.flour"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "salt",
@@ -1071,7 +1335,13 @@
       "gloss_example": {
         "en": "The soup needs a little more salt."
       },
-      "conceptId": "es.salt"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "sauce",
@@ -1092,7 +1362,13 @@
       "gloss_example": {
         "en": "The pasta comes with tomato sauce."
       },
-      "conceptId": "es.sauce"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "chicken_meat",
@@ -1113,7 +1389,13 @@
       "gloss_example": {
         "en": "We had chicken with rice for dinner."
       },
-      "conceptId": "es.chicken_meat"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "potato",
@@ -1150,7 +1432,13 @@
           "audioSlug": "patata"
         }
       ],
-      "conceptId": "es.potato"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "fruit_generic",
@@ -1171,7 +1459,13 @@
       "gloss_example": {
         "en": "I eat fresh fruit after every meal."
       },
-      "conceptId": "es.fruit_generic"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "lamb_meat",
@@ -1192,7 +1486,13 @@
       "gloss_example": {
         "en": "We made roast lamb for the Christmas dinner."
       },
-      "conceptId": "es.lamb_meat"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "salmon",
@@ -1213,7 +1513,13 @@
       "gloss_example": {
         "en": "I had grilled salmon with vegetables for dinner."
       },
-      "conceptId": "es.salmon"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "tuna",
@@ -1234,7 +1540,13 @@
       "gloss_example": {
         "en": "I made a salad with tuna and egg."
       },
-      "conceptId": "es.tuna"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cereal",
@@ -1255,7 +1567,13 @@
       "gloss_example": {
         "en": "The children have cereal with milk for breakfast."
       },
-      "conceptId": "es.cereal"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "black_pepper",
@@ -1276,7 +1594,13 @@
       "gloss_example": {
         "en": "Add a little salt and pepper to the soup."
       },
-      "conceptId": "es.black_pepper"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "veal",
@@ -1313,7 +1637,13 @@
           "audioSlug": "ternera"
         }
       ],
-      "conceptId": "es.veal"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "jam",
@@ -1334,7 +1664,13 @@
       "gloss_example": {
         "en": "I spread strawberry jam on the bread."
       },
-      "conceptId": "es.jam"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "vanilla",
@@ -1355,7 +1691,13 @@
       "gloss_example": {
         "en": "I bought a vanilla ice cream."
       },
-      "conceptId": "es.vanilla"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "juice_drink",
@@ -1392,7 +1734,13 @@
           "audioSlug": "zumo"
         }
       ],
-      "conceptId": "es.juice_drink"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "alcohol_drink",
@@ -1413,7 +1761,13 @@
       "gloss_example": {
         "en": "No alcohol was served at the party."
       },
-      "conceptId": "es.alcohol_drink"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

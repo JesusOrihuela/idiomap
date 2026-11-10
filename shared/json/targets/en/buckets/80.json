@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "80",
+  "concepts": {
+    "en.accommodation_could_i_have_the_key": {
+      "conceptId": "en.accommodation_could_i_have_the_key",
+      "id": "accommodation_could_i_have_the_key",
+      "target": [
+        {
+          "text": "Could I have the key, please?",
+          "audioSlug": "could_i_have_the_key_please"
+        }
+      ]
+    },
+    "en.emociones_why_are_you_scared": {
+      "conceptId": "en.emociones_why_are_you_scared",
+      "id": "emociones_why_are_you_scared",
+      "target": [
+        {
+          "text": "Why are you scared?",
+          "audioSlug": "why_are_you_scared"
+        }
+      ]
+    },
+    "en.gym_what_is_the_gyms_schedule": {
+      "conceptId": "en.gym_what_is_the_gyms_schedule",
+      "id": "gym_what_is_the_gyms_schedule",
+      "target": [
+        {
+          "text": "What is the gym's schedule?",
+          "audioSlug": "what_is_the_gym_s_schedule"
+        }
+      ]
+    },
+    "en.health_take_this_medicine": {
+      "conceptId": "en.health_take_this_medicine",
+      "id": "health_take_this_medicine",
+      "target": [
+        {
+          "text": "Take this medicine twice a day.",
+          "audioSlug": "take_this_medicine_twice_a_day"
+        }
+      ]
+    },
+    "en.hogar_new_furniture": {
+      "conceptId": "en.hogar_new_furniture",
+      "id": "hogar_new_furniture",
+      "target": [
+        {
+          "text": "The furniture is new.",
+          "audioSlug": "the_furniture_is_new"
+        }
+      ]
+    },
+    "en.survival_how_spell": {
+      "conceptId": "en.survival_how_spell",
+      "id": "survival_how_spell",
+      "target": [
+        {
+          "text": "How do you spell it?",
+          "audioSlug": "how_do_you_spell_it"
+        }
+      ]
+    },
+    "en.theater_standing_ovation_deserved": {
+      "conceptId": "en.theater_standing_ovation_deserved",
+      "id": "theater_standing_ovation_deserved",
+      "target": [
+        {
+          "text": "The cast received a standing ovation, absolutely deserved after a performance like that.",
+          "audioSlug": "the_cast_received_a_standing_ovation_absolutely_deserved_after_a_performance_like_that"
+        }
+      ]
+    },
+    "en.theater_tickets_saturday": {
+      "conceptId": "en.theater_tickets_saturday",
+      "id": "theater_tickets_saturday",
+      "target": [
+        {
+          "text": "Do you have any tickets left for Saturday's performance?",
+          "audioSlug": "do_you_have_any_tickets_left_for_saturday_s_performance"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "d4",
+  "concepts": {
+    "es.conversacion_es_un_honor_recibir_tu_visita": {
+      "conceptId": "es.conversacion_es_un_honor_recibir_tu_visita",
+      "id": "conversacion_es_un_honor_recibir_tu_visita",
+      "target": [
+        {
+          "text": "Es un honor recibir tu visita.",
+          "audioSlug": "es_un_honor_recibir_tu_visita"
+        }
+      ]
+    },
+    "es.daily_routine_i_go_to_bed_at_eleven": {
+      "conceptId": "es.daily_routine_i_go_to_bed_at_eleven",
+      "id": "daily_routine_i_go_to_bed_at_eleven",
+      "target": [
+        {
+          "text": "Me acuesto a las once.",
+          "audioSlug": "me_acuesto_a_las_once"
+        }
+      ]
+    },
+    "es.descripciones_es_muy_facil": {
+      "conceptId": "es.descripciones_es_muy_facil",
+      "id": "descripciones_es_muy_facil",
+      "target": [
+        {
+          "text": "Es muy fácil.",
+          "audioSlug": "es_muy_facil"
+        }
+      ]
+    },
+    "es.health_el_doctor_me_dio_una_receta": {
+      "conceptId": "es.health_el_doctor_me_dio_una_receta",
+      "id": "health_el_doctor_me_dio_una_receta",
+      "target": [
+        {
+          "text": "El doctor me dio una receta.",
+          "audioSlug": "el_doctor_me_dio_una_receta"
+        }
+      ]
+    },
+    "es.health_me_torci_el_tobillo_en_el_parque": {
+      "conceptId": "es.health_me_torci_el_tobillo_en_el_parque",
+      "id": "health_me_torci_el_tobillo_en_el_parque",
+      "target": [
+        {
+          "text": "Me torcí el tobillo en el parque.",
+          "audioSlug": "me_torci_el_tobillo_en_el_parque"
+        }
+      ]
+    },
+    "es.personal_info_im_from_germany": {
+      "conceptId": "es.personal_info_im_from_germany",
+      "id": "personal_info_im_from_germany",
+      "target": [
+        {
+          "text": "Soy de Alemania.",
+          "audioSlug": "soy_de_alemania"
+        }
+      ]
+    },
+    "es.planes_sueno_con_viajar_por_el_mundo": {
+      "conceptId": "es.planes_sueno_con_viajar_por_el_mundo",
+      "id": "planes_sueno_con_viajar_por_el_mundo",
+      "target": [
+        {
+          "text": "Sueño con viajar por el mundo.",
+          "audioSlug": "sueno_con_viajar_por_el_mundo"
+        }
+      ]
+    },
+    "es.supermarket_speak_to_manager_mislabeled": {
+      "conceptId": "es.supermarket_speak_to_manager_mislabeled",
+      "id": "supermarket_speak_to_manager_mislabeled",
+      "target": [
+        {
+          "text": "Me gustaría hablar con el gerente sobre este producto mal etiquetado.",
+          "audioSlug": "me_gustaria_hablar_con_el_gerente_sobre_este_producto_mal_etiquetado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "Me gustaría hablar con la gerente sobre este producto mal etiquetado.",
+          "audioSlug": "me_gustaria_hablar_con_la_gerente_sobre_este_producto_mal_etiquetado",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.technology_do_you_know_how_i_can": {
+      "conceptId": "es.technology_do_you_know_how_i_can",
+      "id": "technology_do_you_know_how_i_can",
+      "target": [
+        {
+          "text": "¿Sabes cómo transferir fotos del teléfono a la computadora?",
+          "audioSlug": "sabes_como_transferir_fotos_del_telefono_a_la_computadora",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "¿Sabes cómo transferir fotos del teléfono al ordenador?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "sabes_como_transferir_fotos_del_telefono_al_ordenador"
+        }
+      ]
+    },
+    "es.tiempo_libre_anoche_vi_una_pelicula_buena": {
+      "conceptId": "es.tiempo_libre_anoche_vi_una_pelicula_buena",
+      "id": "tiempo_libre_anoche_vi_una_pelicula_buena",
+      "target": [
+        {
+          "text": "Anoche vi una película muy buena.",
+          "audioSlug": "anoche_vi_una_pelicula_muy_buena"
+        }
+      ]
+    },
+    "es.transportation_where_is_the_bus_stop": {
+      "conceptId": "es.transportation_where_is_the_bus_stop",
+      "id": "transportation_where_is_the_bus_stop",
+      "target": [
+        {
+          "text": "¿Dónde está la parada de autobús?",
+          "audioSlug": "donde_esta_la_parada_de_autobus"
+        }
+      ]
+    }
+  }
+}

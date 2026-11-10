@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "ee",
+  "concepts": {
+    "en.daily_routine_usually_coffee": {
+      "conceptId": "en.daily_routine_usually_coffee",
+      "id": "daily_routine_usually_coffee",
+      "target": [
+        {
+          "text": "I usually have coffee in the morning.",
+          "audioSlug": "i_usually_have_coffee_in_the_morning"
+        }
+      ]
+    },
+    "en.gym_free_weights_vs_machines_stability": {
+      "conceptId": "en.gym_free_weights_vs_machines_stability",
+      "id": "gym_free_weights_vs_machines_stability",
+      "target": [
+        {
+          "text": "I prefer free weights over machines because they require more core stability.",
+          "audioSlug": "i_prefer_free_weights_over_machines_because_they_require_more_core_stability"
+        }
+      ]
+    },
+    "en.health_i_feel_a_sharp_pain": {
+      "conceptId": "en.health_i_feel_a_sharp_pain",
+      "id": "health_i_feel_a_sharp_pain",
+      "target": [
+        {
+          "text": "I feel a sharp pain.",
+          "audioSlug": "i_feel_a_sharp_pain"
+        }
+      ]
+    },
+    "en.health_my_tooth_hurts": {
+      "conceptId": "en.health_my_tooth_hurts",
+      "id": "health_my_tooth_hurts",
+      "target": [
+        {
+          "text": "My tooth hurts.",
+          "audioSlug": "my_tooth_hurts"
+        }
+      ]
+    },
+    "en.technology_working_remotely_requires_not_just": {
+      "conceptId": "en.technology_working_remotely_requires_not_just",
+      "id": "technology_working_remotely_requires_not_just",
+      "target": [
+        {
+          "text": "Remote work requires a reliable connection and tools for asynchronous collaboration.",
+          "audioSlug": "remote_work_requires_a_reliable_connection_and_tools_for_asynchronous_collaboration"
+        }
+      ]
+    }
+  }
+}

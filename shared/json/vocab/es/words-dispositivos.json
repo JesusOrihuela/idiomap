@@ -19,7 +19,13 @@
       "gloss_example": {
         "en": "My phone is new."
       },
-      "conceptId": "es.telefono"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "foto",
@@ -40,7 +46,13 @@
       "gloss_example": {
         "en": "I'll take a photo of you."
       },
-      "conceptId": "es.foto"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "device",
@@ -61,7 +73,13 @@
       "gloss_example": {
         "en": "My device ran out of battery during the meeting."
       },
-      "conceptId": "es.device"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "television",
@@ -98,7 +116,13 @@
           "audioSlug": "televisor"
         }
       ],
-      "conceptId": "es.television"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "radio",
@@ -119,7 +143,13 @@
       "gloss_example": {
         "en": "I listen to the news on the radio."
       },
-      "conceptId": "es.radio"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "video",
@@ -140,7 +170,13 @@
       "gloss_example": {
         "en": "I recorded a video of the party with my phone."
       },
-      "conceptId": "es.video"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cellphone_device",
@@ -177,7 +213,13 @@
           "audioSlug": "movil"
         }
       ],
-      "conceptId": "es.cellphone_device"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "computer_device",
@@ -214,7 +256,13 @@
           "audioSlug": "ordenador"
         }
       ],
-      "conceptId": "es.computer_device"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "laptop",
@@ -246,12 +294,18 @@
         {
           "text": "laptop",
           "labels": {
-            "loanword": ""
+            "loanword": "anglicismo"
           },
           "audioSlug": "laptop"
         }
       ],
-      "conceptId": "es.laptop"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "camera",
@@ -272,7 +326,13 @@
       "gloss_example": {
         "en": "I bought a new camera for the trip."
       },
-      "conceptId": "es.camera"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "program_tv",
@@ -293,7 +353,13 @@
       "gloss_example": {
         "en": "We watch a cooking program on Sundays."
       },
-      "conceptId": "es.program_tv"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

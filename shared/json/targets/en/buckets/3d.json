@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "3d",
+  "concepts": {
+    "en.animales_it_is_a_wild_animal": {
+      "conceptId": "en.animales_it_is_a_wild_animal",
+      "id": "animales_it_is_a_wild_animal",
+      "target": [
+        {
+          "text": "It is a wild animal.",
+          "audioSlug": "it_is_a_wild_animal"
+        }
+      ]
+    },
+    "en.conversacion_dont_lie_to_me": {
+      "conceptId": "en.conversacion_dont_lie_to_me",
+      "id": "conversacion_dont_lie_to_me",
+      "target": [
+        {
+          "text": "Don't lie to me.",
+          "audioSlug": "don_t_lie_to_me"
+        }
+      ]
+    },
+    "en.politica_i_want_to_apply": {
+      "conceptId": "en.politica_i_want_to_apply",
+      "id": "politica_i_want_to_apply",
+      "target": [
+        {
+          "text": "I want to apply.",
+          "audioSlug": "i_want_to_apply"
+        }
+      ]
+    },
+    "en.politica_we_need_a_leader": {
+      "conceptId": "en.politica_we_need_a_leader",
+      "id": "politica_we_need_a_leader",
+      "target": [
+        {
+          "text": "We need a leader.",
+          "audioSlug": "we_need_a_leader"
+        }
+      ]
+    },
+    "en.profesiones_i_love_my_career": {
+      "conceptId": "en.profesiones_i_love_my_career",
+      "id": "profesiones_i_love_my_career",
+      "target": [
+        {
+          "text": "I love my career.",
+          "audioSlug": "i_love_my_career"
+        }
+      ]
+    },
+    "en.restaurant_could_i_have_a_glass_of": {
+      "conceptId": "en.restaurant_could_i_have_a_glass_of",
+      "id": "restaurant_could_i_have_a_glass_of",
+      "target": [
+        {
+          "text": "Could I have a glass of water, please?",
+          "audioSlug": "could_i_have_a_glass_of_water_please",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can I have a glass of water, please?",
+          "audioSlug": "can_i_have_a_glass_of_water_please",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.supermarket_have_you_made_the_grocery_list": {
+      "conceptId": "en.supermarket_have_you_made_the_grocery_list",
+      "id": "supermarket_have_you_made_the_grocery_list",
+      "target": [
+        {
+          "text": "Have you made the grocery list yet?",
+          "audioSlug": "have_you_made_the_grocery_list_yet",
+          "labels": {
+            "region": "US"
+          }
+        },
+        {
+          "text": "Have you made the shopping list yet?",
+          "audioSlug": "have_you_made_the_shopping_list_yet",
+          "labels": {
+            "region": "UK"
+          }
+        }
+      ]
+    },
+    "en.technology_i_really_liked_this_image_im": {
+      "conceptId": "en.technology_i_really_liked_this_image_im",
+      "id": "technology_i_really_liked_this_image_im",
+      "target": [
+        {
+          "text": "I am going to set this image as my wallpaper.",
+          "audioSlug": "i_am_going_to_set_this_image_as_my_wallpaper"
+        }
+      ]
+    },
+    "en.theater_want_to_see_play": {
+      "conceptId": "en.theater_want_to_see_play",
+      "id": "theater_want_to_see_play",
+      "target": [
+        {
+          "text": "Do you want to see a play this weekend?",
+          "audioSlug": "do_you_want_to_see_a_play_this_weekend"
+        }
+      ]
+    },
+    "en.vestimenta_your_tie_matches_the_suit": {
+      "conceptId": "en.vestimenta_your_tie_matches_the_suit",
+      "id": "vestimenta_your_tie_matches_the_suit",
+      "target": [
+        {
+          "text": "Your tie matches the suit.",
+          "audioSlug": "your_tie_matches_the_suit"
+        }
+      ]
+    }
+  }
+}

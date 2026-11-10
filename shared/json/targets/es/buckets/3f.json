@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "3f",
+  "concepts": {
+    "es.airport_prefer_window_seat": {
+      "conceptId": "es.airport_prefer_window_seat",
+      "id": "airport_prefer_window_seat",
+      "target": [
+        {
+          "text": "Prefiero un asiento junto a la ventana.",
+          "audioSlug": "prefiero_un_asiento_junto_a_la_ventana"
+        }
+      ]
+    },
+    "es.daily_routine_termino_de_trabajar_a_las_seis": {
+      "conceptId": "es.daily_routine_termino_de_trabajar_a_las_seis",
+      "id": "daily_routine_termino_de_trabajar_a_las_seis",
+      "target": [
+        {
+          "text": "Termino de trabajar a las seis.",
+          "audioSlug": "termino_de_trabajar_a_las_seis"
+        }
+      ]
+    },
+    "es.descripciones_quiero_un_cafe_mediano": {
+      "conceptId": "es.descripciones_quiero_un_cafe_mediano",
+      "id": "descripciones_quiero_un_cafe_mediano",
+      "target": [
+        {
+          "text": "Quiero un café mediano.",
+          "audioSlug": "quiero_un_cafe_mediano"
+        }
+      ]
+    },
+    "es.movies_new_director_movie": {
+      "conceptId": "es.movies_new_director_movie",
+      "id": "movies_new_director_movie",
+      "target": [
+        {
+          "text": "Mi director favorito tiene una nueva película y quiero verla.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "mi_director_favorito_tiene_una_nueva_pelicula_y_quiero_verla"
+        },
+        {
+          "text": "Mi directora favorita tiene una nueva película y quiero verla.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "mi_directora_favorita_tiene_una_nueva_pelicula_y_quiero_verla"
+        }
+      ]
+    },
+    "es.music_favorite_song_always": {
+      "conceptId": "es.music_favorite_song_always",
+      "id": "music_favorite_song_always",
+      "target": [
+        {
+          "text": "Me gusta mucho esa canción y la escucho siempre.",
+          "audioSlug": "me_gusta_mucho_esa_cancion_y_la_escucho_siempre"
+        }
+      ]
+    },
+    "es.personal_info_im_a_teacher": {
+      "conceptId": "es.personal_info_im_a_teacher",
+      "id": "personal_info_im_a_teacher",
+      "target": [
+        {
+          "text": "Soy profesora.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "soy_profesora"
+        },
+        {
+          "text": "Soy profesor.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "soy_profesor"
+        }
+      ]
+    },
+    "es.personal_info_my_last_name_is_garcia": {
+      "conceptId": "es.personal_info_my_last_name_is_garcia",
+      "id": "personal_info_my_last_name_is_garcia",
+      "target": [
+        {
+          "text": "Mi apellido es García.",
+          "audioSlug": "mi_apellido_es_garcia"
+        }
+      ]
+    },
+    "es.personal_info_tengo_la_cara_redonda": {
+      "conceptId": "es.personal_info_tengo_la_cara_redonda",
+      "id": "personal_info_tengo_la_cara_redonda",
+      "target": [
+        {
+          "text": "Tengo la cara redonda.",
+          "audioSlug": "tengo_la_cara_redonda"
+        }
+      ]
+    },
+    "es.planes_quiero_quedarme_aqui_mas_tiempo": {
+      "conceptId": "es.planes_quiero_quedarme_aqui_mas_tiempo",
+      "id": "planes_quiero_quedarme_aqui_mas_tiempo",
+      "target": [
+        {
+          "text": "Quiero quedarme aquí un tiempo más.",
+          "audioSlug": "quiero_quedarme_aqui_un_tiempo_mas"
+        }
+      ]
+    },
+    "es.politica_paz_en_el_mundo": {
+      "conceptId": "es.politica_paz_en_el_mundo",
+      "id": "politica_paz_en_el_mundo",
+      "target": [
+        {
+          "text": "Paz en el mundo.",
+          "audioSlug": "paz_en_el_mundo"
+        }
+      ]
+    },
+    "es.restaurant_do_you_have_any_vegetarian_options": {
+      "conceptId": "es.restaurant_do_you_have_any_vegetarian_options",
+      "id": "restaurant_do_you_have_any_vegetarian_options",
+      "target": [
+        {
+          "text": "¿Tienen alguna opción vegetariana?",
+          "audioSlug": "tienen_alguna_opcion_vegetariana"
+        }
+      ]
+    }
+  }
+}

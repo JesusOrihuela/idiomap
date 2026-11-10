@@ -42,14 +42,11 @@ for (const { fp, rel } of htmlFiles) {
 }
 
 const uiBundles = {};
-for (const loc of ['es', 'en', 'de']) {
-  const f = path.join(ROOT, `lang/ui/${loc}.js`);
-  if (!fs.existsSync(f)) continue;
-  const raw = fs.readFileSync(f, 'utf8');
-  const start = raw.indexOf('{');
-  const end = raw.lastIndexOf('};');
-  try { uiBundles[loc] = JSON.parse(raw.slice(start, end + 1)); } catch { uiBundles[loc] = {}; }
-}
+try {
+  const raw = fs.readFileSync(path.join(ROOT, 'lang/ui.js'), 'utf8');
+  const m = raw.match(/const _DATA = (\{[\s\S]*?\n  \});/);
+  if (m) Object.assign(uiBundles, new Function(`return ${m[1]};`)());
+} catch { /* empty: links still check rel/noopener */ }
 const disclosure = (key) => key && ['es', 'en', 'de'].every((loc) =>
   /pestaña nueva|new tab|neue[mn] tab/i.test(String((uiBundles[loc] || {})[key] || '')));
 

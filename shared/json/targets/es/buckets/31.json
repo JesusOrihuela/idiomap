@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "31",
+  "concepts": {
+    "es.airport_customs_declare_allowance": {
+      "conceptId": "es.airport_customs_declare_allowance",
+      "id": "airport_customs_declare_allowance",
+      "target": [
+        {
+          "text": "Quisiera declarar estos artículos, ¿podría indicarme el límite de franquicia?",
+          "audioSlug": "quisiera_declarar_estos_articulos_podria_indicarme_el_limite_de_franquicia"
+        }
+      ]
+    },
+    "es.calendario_tomorrow_is_tuesday": {
+      "conceptId": "es.calendario_tomorrow_is_tuesday",
+      "id": "calendario_tomorrow_is_tuesday",
+      "target": [
+        {
+          "text": "Mañana es martes.",
+          "audioSlug": "manana_es_martes"
+        }
+      ]
+    },
+    "es.conversacion_quiero_mostrar_mi_punto_de_vista": {
+      "conceptId": "es.conversacion_quiero_mostrar_mi_punto_de_vista",
+      "id": "conversacion_quiero_mostrar_mi_punto_de_vista",
+      "target": [
+        {
+          "text": "Quiero mostrar mi punto de vista.",
+          "audioSlug": "quiero_mostrar_mi_punto_de_vista"
+        }
+      ]
+    },
+    "es.descripciones_el_material_de_la_mesa_es_madera": {
+      "conceptId": "es.descripciones_el_material_de_la_mesa_es_madera",
+      "id": "descripciones_el_material_de_la_mesa_es_madera",
+      "target": [
+        {
+          "text": "El material de la mesa es madera.",
+          "audioSlug": "el_material_de_la_mesa_es_madera"
+        }
+      ]
+    },
+    "es.greetings_es_un_placer_conocerte": {
+      "conceptId": "es.greetings_es_un_placer_conocerte",
+      "id": "greetings_es_un_placer_conocerte",
+      "target": [
+        {
+          "text": "Es un placer conocerte.",
+          "audioSlug": "es_un_placer_conocerte"
+        }
+      ]
+    },
+    "es.greetings_say_hi_to_everyone_for_me": {
+      "conceptId": "es.greetings_say_hi_to_everyone_for_me",
+      "id": "greetings_say_hi_to_everyone_for_me",
+      "target": [
+        {
+          "text": "Salúdame a todos.",
+          "audioSlug": "saludame_a_todos"
+        }
+      ]
+    },
+    "es.health_do_you_have_pain": {
+      "conceptId": "es.health_do_you_have_pain",
+      "id": "health_do_you_have_pain",
+      "target": [
+        {
+          "text": "¿Dónde te duele?",
+          "audioSlug": "donde_te_duele",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Dónde le duele?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "donde_le_duele"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_recogi_una_piedra_del_rio": {
+      "conceptId": "es.naturaleza_lugares_recogi_una_piedra_del_rio",
+      "id": "naturaleza_lugares_recogi_una_piedra_del_rio",
+      "target": [
+        {
+          "text": "Recogí una piedra del río.",
+          "audioSlug": "recogi_una_piedra_del_rio"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_no_es_justo": {
+      "conceptId": "es.pensamientos_opiniones_no_es_justo",
+      "id": "pensamientos_opiniones_no_es_justo",
+      "target": [
+        {
+          "text": "No es justo.",
+          "audioSlug": "no_es_justo"
+        }
+      ]
+    },
+    "es.restaurant_is_this_dish_spicy": {
+      "conceptId": "es.restaurant_is_this_dish_spicy",
+      "id": "restaurant_is_this_dish_spicy",
+      "target": [
+        {
+          "text": "¿Este plato es picante?",
+          "audioSlug": "este_plato_es_picante"
+        }
+      ]
+    },
+    "es.supermarket_i_cant_find_an_employee_to": {
+      "conceptId": "es.supermarket_i_cant_find_an_employee_to",
+      "id": "supermarket_i_cant_find_an_employee_to",
+      "target": [
+        {
+          "text": "No puedo encontrar a un empleado para que me ayude.",
+          "audioSlug": "no_puedo_encontrar_a_un_empleado_para_que_me_ayude",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "No puedo encontrar a una empleada para que me ayude.",
+          "audioSlug": "no_puedo_encontrar_a_una_empleada_para_que_me_ayude",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.technology_mi_computadora_no_funciona": {
+      "conceptId": "es.technology_mi_computadora_no_funciona",
+      "id": "technology_mi_computadora_no_funciona",
+      "target": [
+        {
+          "text": "Mi computadora no funciona.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "mi_computadora_no_funciona"
+        },
+        {
+          "text": "Mi ordenador no funciona.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "mi_ordenador_no_funciona"
+        }
+      ]
+    },
+    "es.theater_is_there_intermission": {
+      "conceptId": "es.theater_is_there_intermission",
+      "id": "theater_is_there_intermission",
+      "target": [
+        {
+          "text": "¿Hay intermedio?",
+          "audioSlug": "hay_intermedio"
+        }
+      ]
+    },
+    "es.weather_la_nieve_cubrio_las_montanas": {
+      "conceptId": "es.weather_la_nieve_cubrio_las_montanas",
+      "id": "weather_la_nieve_cubrio_las_montanas",
+      "target": [
+        {
+          "text": "La nieve cubrió las montañas.",
+          "audioSlug": "la_nieve_cubrio_las_montanas"
+        }
+      ]
+    }
+  }
+}

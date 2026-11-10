@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "dd",
+  "concepts": {
+    "en.conversacion_get_to_the_point": {
+      "conceptId": "en.conversacion_get_to_the_point",
+      "id": "conversacion_get_to_the_point",
+      "target": [
+        {
+          "text": "Get to the point!",
+          "audioSlug": "get_to_the_point"
+        }
+      ]
+    },
+    "en.greetings_looking_forward_introduction_work_precedes": {
+      "conceptId": "en.greetings_looking_forward_introduction_work_precedes",
+      "id": "greetings_looking_forward_introduction_work_precedes",
+      "target": [
+        {
+          "text": "I must confess, I've been looking forward to this introduction. Your reputation precedes you.",
+          "audioSlug": "i_must_confess_i_ve_been_looking_forward_to_this_introduction_your_reputation_precedes_you"
+        }
+      ]
+    },
+    "en.kitchen_set_the_table": {
+      "conceptId": "en.kitchen_set_the_table",
+      "id": "kitchen_set_the_table",
+      "target": [
+        {
+          "text": "Can you set the table?",
+          "audioSlug": "can_you_set_the_table"
+        }
+      ]
+    },
+    "en.music_concert_sound_mix_terrible": {
+      "conceptId": "en.music_concert_sound_mix_terrible",
+      "id": "music_concert_sound_mix_terrible",
+      "target": [
+        {
+          "text": "The energy was incredible but the sound mix was terrible.",
+          "audioSlug": "the_energy_was_incredible_but_the_sound_mix_was_terrible"
+        }
+      ]
+    },
+    "en.personal_info_what_do_you_do": {
+      "conceptId": "en.personal_info_what_do_you_do",
+      "id": "personal_info_what_do_you_do",
+      "target": [
+        {
+          "text": "What do you do for a living?",
+          "audioSlug": "what_do_you_do_for_a_living"
+        }
+      ]
+    },
+    "en.politica_the_nation_was_at_peace": {
+      "conceptId": "en.politica_the_nation_was_at_peace",
+      "id": "politica_the_nation_was_at_peace",
+      "target": [
+        {
+          "text": "The nation was at peace.",
+          "audioSlug": "the_nation_was_at_peace"
+        }
+      ]
+    },
+    "en.restaurant_do_you_have_any_recommendations_for": {
+      "conceptId": "en.restaurant_do_you_have_any_recommendations_for",
+      "id": "restaurant_do_you_have_any_recommendations_for",
+      "target": [
+        {
+          "text": "Do you have any recommendations for wine pairings?",
+          "audioSlug": "do_you_have_any_recommendations_for_wine_pairings"
+        }
+      ]
+    },
+    "en.supermarket_where_is_the_checkout": {
+      "conceptId": "en.supermarket_where_is_the_checkout",
+      "id": "supermarket_where_is_the_checkout",
+      "target": [
+        {
+          "text": "Where is the checkout?",
+          "audioSlug": "where_is_the_checkout"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "59",
+  "concepts": {
+    "es.airport_security_liquids_confiscated": {
+      "conceptId": "es.airport_security_liquids_confiscated",
+      "id": "airport_security_liquids_confiscated",
+      "target": [
+        {
+          "text": "Me confiscaron el protector solar por superar el límite de líquidos.",
+          "audioSlug": "me_confiscaron_el_protector_solar_por_superar_el_limite_de_liquidos"
+        }
+      ]
+    },
+    "es.airport_viajo_con_mi_pareja_a_italia": {
+      "conceptId": "es.airport_viajo_con_mi_pareja_a_italia",
+      "id": "airport_viajo_con_mi_pareja_a_italia",
+      "target": [
+        {
+          "text": "Viajo con mi pareja a Italia.",
+          "audioSlug": "viajo_con_mi_pareja_a_italia"
+        }
+      ]
+    },
+    "es.calendario_next_week_i_have_vacation": {
+      "conceptId": "es.calendario_next_week_i_have_vacation",
+      "id": "calendario_next_week_i_have_vacation",
+      "target": [
+        {
+          "text": "La próxima semana tengo vacaciones.",
+          "audioSlug": "la_proxima_semana_tengo_vacaciones"
+        }
+      ]
+    },
+    "es.descripciones_el_novio_de_mi_hermana_es_divertido": {
+      "conceptId": "es.descripciones_el_novio_de_mi_hermana_es_divertido",
+      "id": "descripciones_el_novio_de_mi_hermana_es_divertido",
+      "target": [
+        {
+          "text": "El novio de mi hermana es divertido.",
+          "audioSlug": "el_novio_de_mi_hermana_es_divertido"
+        }
+      ]
+    },
+    "es.estudios_la_clase_de_ciencias_es_mi_favorita": {
+      "conceptId": "es.estudios_la_clase_de_ciencias_es_mi_favorita",
+      "id": "estudios_la_clase_de_ciencias_es_mi_favorita",
+      "target": [
+        {
+          "text": "La clase de ciencias es mi favorita.",
+          "audioSlug": "la_clase_de_ciencias_es_mi_favorita"
+        }
+      ]
+    },
+    "es.estudios_pague_la_matricula_del_curso": {
+      "conceptId": "es.estudios_pague_la_matricula_del_curso",
+      "id": "estudios_pague_la_matricula_del_curso",
+      "target": [
+        {
+          "text": "Pagué la matrícula del curso.",
+          "audioSlug": "pague_la_matricula_del_curso"
+        }
+      ]
+    },
+    "es.fiesta_lets_throw_a_party": {
+      "conceptId": "es.fiesta_lets_throw_a_party",
+      "id": "fiesta_lets_throw_a_party",
+      "target": [
+        {
+          "text": "Hagamos una fiesta.",
+          "audioSlug": "hagamos_una_fiesta"
+        }
+      ]
+    },
+    "es.gym_increase_the_elevation_of_the_treadmill": {
+      "conceptId": "es.gym_increase_the_elevation_of_the_treadmill",
+      "id": "gym_increase_the_elevation_of_the_treadmill",
+      "target": [
+        {
+          "text": "Aumenta la inclinación de la caminadora.",
+          "audioSlug": "aumenta_la_inclinacion_de_la_caminadora"
+        }
+      ]
+    },
+    "es.health_descansa_y_recuperate_pronto": {
+      "conceptId": "es.health_descansa_y_recuperate_pronto",
+      "id": "health_descansa_y_recuperate_pronto",
+      "target": [
+        {
+          "text": "Descansa y recupérate pronto.",
+          "audioSlug": "descansa_y_recuperate_pronto"
+        }
+      ]
+    },
+    "es.hogar_vamos_a_construir_una_casa": {
+      "conceptId": "es.hogar_vamos_a_construir_una_casa",
+      "id": "hogar_vamos_a_construir_una_casa",
+      "target": [
+        {
+          "text": "Vamos a construir una casa.",
+          "audioSlug": "vamos_a_construir_una_casa"
+        }
+      ]
+    },
+    "es.kitchen_the_soup_needs_more_salt": {
+      "conceptId": "es.kitchen_the_soup_needs_more_salt",
+      "id": "kitchen_the_soup_needs_more_salt",
+      "target": [
+        {
+          "text": "Le falta sal a la sopa.",
+          "audioSlug": "le_falta_sal_a_la_sopa"
+        }
+      ]
+    },
+    "es.movies_prefer_cinema_home": {
+      "conceptId": "es.movies_prefer_cinema_home",
+      "id": "movies_prefer_cinema_home",
+      "target": [
+        {
+          "text": "Prefiero ver películas en el cine que en casa.",
+          "audioSlug": "prefiero_ver_peliculas_en_el_cine_que_en_casa"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_eso_no_es_una_isla": {
+      "conceptId": "es.naturaleza_lugares_eso_no_es_una_isla",
+      "id": "naturaleza_lugares_eso_no_es_una_isla",
+      "target": [
+        {
+          "text": "Eso no es una isla.",
+          "audioSlug": "eso_no_es_una_isla"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_fuimos_al_rio": {
+      "conceptId": "es.naturaleza_lugares_fuimos_al_rio",
+      "id": "naturaleza_lugares_fuimos_al_rio",
+      "target": [
+        {
+          "text": "Fuimos al río.",
+          "audioSlug": "fuimos_al_rio"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_sin_embargo_fallas": {
+      "conceptId": "es.pensamientos_opiniones_sin_embargo_fallas",
+      "id": "pensamientos_opiniones_sin_embargo_fallas",
+      "target": [
+        {
+          "text": "Sin embargo, el plan tenía fallas graves.",
+          "audioSlug": "sin_embargo_el_plan_tenia_fallas_graves"
+        }
+      ]
+    },
+    "es.planes_tengo_la_intencion_de_estudiar_mas": {
+      "conceptId": "es.planes_tengo_la_intencion_de_estudiar_mas",
+      "id": "planes_tengo_la_intencion_de_estudiar_mas",
+      "target": [
+        {
+          "text": "Tengo la intención de estudiar más.",
+          "audioSlug": "tengo_la_intencion_de_estudiar_mas"
+        }
+      ]
+    },
+    "es.profesiones_mi_tia_es_funcionaria": {
+      "conceptId": "es.profesiones_mi_tia_es_funcionaria",
+      "id": "profesiones_mi_tia_es_funcionaria",
+      "target": [
+        {
+          "text": "Mi tía es funcionaria.",
+          "audioSlug": "mi_tia_es_funcionaria"
+        }
+      ]
+    },
+    "es.sitios_es_posible_llegar_a_pie": {
+      "conceptId": "es.sitios_es_posible_llegar_a_pie",
+      "id": "sitios_es_posible_llegar_a_pie",
+      "target": [
+        {
+          "text": "Es posible llegar a pie.",
+          "audioSlug": "es_posible_llegar_a_pie"
+        }
+      ]
+    },
+    "es.technology_olvide_el_codigo_de_la_puerta": {
+      "conceptId": "es.technology_olvide_el_codigo_de_la_puerta",
+      "id": "technology_olvide_el_codigo_de_la_puerta",
+      "target": [
+        {
+          "text": "Olvidé el código de la puerta.",
+          "audioSlug": "olvide_el_codigo_de_la_puerta"
+        }
+      ]
+    }
+  }
+}

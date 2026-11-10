@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "5a",
+  "concepts": {
+    "en.accountability_the_financial_statements_are_up_to": {
+      "conceptId": "en.accountability_the_financial_statements_are_up_to",
+      "id": "accountability_the_financial_statements_are_up_to",
+      "target": [
+        {
+          "text": "The financial statements are up to date.",
+          "audioSlug": "the_financial_statements_are_up_to_date"
+        }
+      ]
+    },
+    "en.deportes_i_can_swim_well": {
+      "conceptId": "en.deportes_i_can_swim_well",
+      "id": "deportes_i_can_swim_well",
+      "target": [
+        {
+          "text": "I can swim well.",
+          "audioSlug": "i_can_swim_well"
+        }
+      ]
+    },
+    "en.greetings_take_care_and_stay_in_touch": {
+      "conceptId": "en.greetings_take_care_and_stay_in_touch",
+      "id": "greetings_take_care_and_stay_in_touch",
+      "target": [
+        {
+          "text": "Take care and stay in touch.",
+          "audioSlug": "take_care_and_stay_in_touch",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.gym_increase_the_speed_of_the_treadmill": {
+      "conceptId": "en.gym_increase_the_speed_of_the_treadmill",
+      "id": "gym_increase_the_speed_of_the_treadmill",
+      "target": [
+        {
+          "text": "Increase the speed of the treadmill.",
+          "audioSlug": "increase_the_speed_of_the_treadmill"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_i_doubt_it": {
+      "conceptId": "en.pensamientos_opiniones_i_doubt_it",
+      "id": "pensamientos_opiniones_i_doubt_it",
+      "target": [
+        {
+          "text": "I doubt it.",
+          "audioSlug": "i_doubt_it"
+        }
+      ]
+    },
+    "en.technology_be_careful_with_that_link_it": {
+      "conceptId": "en.technology_be_careful_with_that_link_it",
+      "id": "technology_be_careful_with_that_link_it",
+      "target": [
+        {
+          "text": "Be careful with that link, it could be a virus.",
+          "audioSlug": "be_careful_with_that_link_it_could_be_a_virus"
+        }
+      ]
+    },
+    "en.transportation_metro_faster_than_bus": {
+      "conceptId": "en.transportation_metro_faster_than_bus",
+      "id": "transportation_metro_faster_than_bus",
+      "target": [
+        {
+          "text": "Is the metro faster than the bus right now?",
+          "audioSlug": "is_the_metro_faster_than_the_bus_right_now"
+        }
+      ]
+    }
+  }
+}

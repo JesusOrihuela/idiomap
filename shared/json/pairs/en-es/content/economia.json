@@ -1,23 +1,215 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "economia",
-  "conceptIds": [
-    "es.economia_no_tengo_dinero",
-    "es.economia_su_negocio_va_bien",
-    "es.economia_tenemos_una_empresa",
-    "es.economia_quiero_comprarlo",
-    "es.economia_voy_a_pagar_yo",
-    "es.economia_ese_billete_es_falso",
-    "es.economia_europa_esta_en_crisis",
-    "es.economia_el_cafe_cuesta_dos_euros",
-    "es.economia_la_entrada_cuesta_cien_euros",
-    "es.economia_el_vuelo_cuesta_doscientos_euros",
-    "es.economia_recibi_un_paquete_con_la_compra",
-    "es.economia_el_propietario_subio_el_alquiler",
-    "es.economia_prices_went_up",
-    "es.economia_company_reported_profit",
-    "es.economia_reduce_our_expenses",
-    "es.economia_economy_growing_slowly"
+  "phrases": [
+    {
+      "conceptId": "es.economia_no_tengo_dinero",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.80799f70aab495fb"
+    },
+    {
+      "conceptId": "es.economia_su_negocio_va_bien",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.61b5ff7b2e8415c7"
+    },
+    {
+      "conceptId": "es.economia_tenemos_una_empresa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.286246718a827630"
+    },
+    {
+      "conceptId": "es.economia_quiero_comprarlo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bcc74beb36a53a33"
+    },
+    {
+      "conceptId": "es.economia_voy_a_pagar_yo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.deb37b30a5b2b5e4"
+    },
+    {
+      "conceptId": "es.economia_ese_billete_es_falso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.706bf7ae48c2e995"
+    },
+    {
+      "conceptId": "es.economia_europa_esta_en_crisis",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.253f93bac3793b50"
+    },
+    {
+      "conceptId": "es.economia_el_cafe_cuesta_dos_euros",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.155e72f6301eaf42"
+    },
+    {
+      "conceptId": "es.economia_la_entrada_cuesta_cien_euros",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c0b1c054ab644196"
+    },
+    {
+      "conceptId": "es.economia_el_vuelo_cuesta_doscientos_euros",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b9579dba62f0a901"
+    },
+    {
+      "conceptId": "es.economia_recibi_un_paquete_con_la_compra",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e4d2c2c1e5c791be"
+    },
+    {
+      "conceptId": "es.economia_el_propietario_subio_el_alquiler",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.975c3da0096b37e4"
+    },
+    {
+      "conceptId": "es.economia_prices_went_up",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.807d68ac305ad0ec"
+    },
+    {
+      "conceptId": "es.economia_company_reported_profit",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.004ff2d1a44f9d6f"
+    },
+    {
+      "conceptId": "es.economia_reduce_our_expenses",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.dad5d314f825c670"
+    },
+    {
+      "conceptId": "es.economia_economy_growing_slowly",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.37a00a6c35b13e65"
+    }
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "1c",
+  "concepts": {
+    "en.accommodation_upgrade_special_occasion": {
+      "conceptId": "en.accommodation_upgrade_special_occasion",
+      "id": "accommodation_upgrade_special_occasion",
+      "target": [
+        {
+          "text": "Are there any room upgrades available for my stay? I'm celebrating a special occasion.",
+          "audioSlug": "are_there_any_room_upgrades_available_for_my_stay_i_m_celebrating_a_special_occasion"
+        }
+      ]
+    },
+    "en.accountability_walk_through_reconciliation_management_statutory": {
+      "conceptId": "en.accountability_walk_through_reconciliation_management_statutory",
+      "id": "accountability_walk_through_reconciliation_management_statutory",
+      "target": [
+        {
+          "text": "Could you walk me through the reconciliation between management and statutory accounts?",
+          "audioSlug": "could_you_walk_me_through_the_reconciliation_between_management_and_statutory_accounts"
+        }
+      ]
+    },
+    "en.calendario_what_s_the_date_today": {
+      "conceptId": "en.calendario_what_s_the_date_today",
+      "id": "calendario_what_s_the_date_today",
+      "target": [
+        {
+          "text": "What's the date today?",
+          "audioSlug": "what_s_the_date_today"
+        }
+      ]
+    },
+    "en.greetings_dont_be_a_stranger": {
+      "conceptId": "en.greetings_dont_be_a_stranger",
+      "id": "greetings_dont_be_a_stranger",
+      "target": [
+        {
+          "text": "Don't be a stranger!",
+          "audioSlug": "don_t_be_a_stranger"
+        }
+      ]
+    },
+    "en.gym_what_is_the_proper_breathing_technique": {
+      "conceptId": "en.gym_what_is_the_proper_breathing_technique",
+      "id": "gym_what_is_the_proper_breathing_technique",
+      "target": [
+        {
+          "text": "What is the proper breathing technique for this exercise?",
+          "audioSlug": "what_is_the_proper_breathing_technique_for_this_exercise"
+        }
+      ]
+    },
+    "en.supermarket_can_you_give_me_the_receipt": {
+      "conceptId": "en.supermarket_can_you_give_me_the_receipt",
+      "id": "supermarket_can_you_give_me_the_receipt",
+      "target": [
+        {
+          "text": "Can you give me the receipt, please?",
+          "audioSlug": "can_you_give_me_the_receipt_please"
+        }
+      ]
+    }
+  }
+}

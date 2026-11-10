@@ -1,23 +1,215 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "profesiones",
-  "conceptIds": [
-    "en.profesiones_he_is_a_young_officer",
-    "en.profesiones_she_is_a_famous_author",
-    "en.profesiones_he_is_a_secret_agent",
-    "en.profesiones_she_is_a_fair_judge",
-    "en.profesiones_he_is_a_hard_worker",
-    "en.profesiones_i_teach_english",
-    "en.profesiones_i_want_to_become_a_teacher",
-    "en.profesiones_i_love_my_career",
-    "en.profesiones_works_as_a_nurse",
-    "en.profesiones_father_is_engineer",
-    "en.profesiones_teacher_explained_lesson",
-    "en.profesiones_wants_to_become_doctor",
-    "en.profesiones_chef_prepared_meal",
-    "en.profesiones_firefighter_saved_cat",
-    "en.profesiones_lawyer_reviewed_contract",
-    "en.profesiones_sister_is_scientist"
+  "phrases": [
+    {
+      "conceptId": "en.profesiones_he_is_a_young_officer",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0b1989b824faf89d"
+    },
+    {
+      "conceptId": "en.profesiones_she_is_a_famous_author",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.223237ba7f442ed8"
+    },
+    {
+      "conceptId": "en.profesiones_he_is_a_secret_agent",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c89c5b3140de1df6"
+    },
+    {
+      "conceptId": "en.profesiones_she_is_a_fair_judge",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.57f81d43f75abe93"
+    },
+    {
+      "conceptId": "en.profesiones_he_is_a_hard_worker",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4f28e45c012dff7e"
+    },
+    {
+      "conceptId": "en.profesiones_i_teach_english",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ae96df3f000bc7d2"
+    },
+    {
+      "conceptId": "en.profesiones_i_want_to_become_a_teacher",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cc27e8c95587a28a"
+    },
+    {
+      "conceptId": "en.profesiones_i_love_my_career",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.25bcac211d473233"
+    },
+    {
+      "conceptId": "en.profesiones_works_as_a_nurse",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.31a8d90e11a0060a"
+    },
+    {
+      "conceptId": "en.profesiones_father_is_engineer",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8a82b752f2771c0b"
+    },
+    {
+      "conceptId": "en.profesiones_teacher_explained_lesson",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.992fee79c719cb9d"
+    },
+    {
+      "conceptId": "en.profesiones_wants_to_become_doctor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2ed7be476e042d32"
+    },
+    {
+      "conceptId": "en.profesiones_chef_prepared_meal",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b929b7f19a96f244"
+    },
+    {
+      "conceptId": "en.profesiones_firefighter_saved_cat",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2c16ba6a9c751324"
+    },
+    {
+      "conceptId": "en.profesiones_lawyer_reviewed_contract",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bdfa9e6bca79dbfa"
+    },
+    {
+      "conceptId": "en.profesiones_sister_is_scientist",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1533e8edd1b50adb"
+    }
   ]
 }

@@ -1,0 +1,668 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "restaurant",
+  "phrases": [
+    {
+      "id": "restaurant_a_table_for_two",
+      "conceptId": "es.restaurant_a_table_for_two",
+      "sourceId": "de.s.88a3e3a52e250c8a",
+      "source": "Ein Tisch für zwei, bitte.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Una mesa para dos, por favor.",
+          "audioSlug": "una_mesa_para_dos_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_the_menu_please",
+      "conceptId": "es.restaurant_the_menu_please",
+      "sourceId": "de.s.98866f8365497448",
+      "source": "Die Speisekarte, bitte.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El menú, por favor.",
+          "audioSlug": "el_menu_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_what_do_you_recommend",
+      "conceptId": "es.restaurant_what_do_you_recommend",
+      "sourceId": "de.s.01429d5be2d77c23",
+      "source": "Was empfiehlst du?",
+      "level": "A2",
+      "grammar": "Con usted se dice recomienda, con tú recomiendas.",
+      "target": [
+        {
+          "text": "¿Qué recomiendas?",
+          "source": "Was empfiehlst du?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "que_recomiendas"
+        },
+        {
+          "text": "¿Qué recomienda?",
+          "source": "Was empfehlen Sie?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "que_recomienda"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_i_would_like_a_coffee",
+      "conceptId": "es.restaurant_i_would_like_a_coffee",
+      "sourceId": "de.s.254a158b2a03fd12",
+      "source": "Ich möchte einen Kaffee.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero un café.",
+          "audioSlug": "quiero_un_cafe"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_a_glass_of_water_for_me",
+      "conceptId": "es.restaurant_a_glass_of_water_for_me",
+      "sourceId": "de.s.856faf98a56709e9",
+      "source": "Für mich ein Glas Wasser.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Para mí, un vaso de agua.",
+          "audioSlug": "para_mi_un_vaso_de_agua"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_the_bill_please",
+      "conceptId": "es.restaurant_the_bill_please",
+      "sourceId": "de.s.155f689b433c553e",
+      "source": "Die Rechnung, bitte.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La cuenta, por favor.",
+          "audioSlug": "la_cuenta_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_the_food_is_delicious",
+      "conceptId": "es.restaurant_the_food_is_delicious",
+      "sourceId": "de.s.f6930ac8f6427909",
+      "source": "Das Essen ist köstlich.",
+      "level": "A2",
+      "grammar": "El sabor del momento usa estar, está deliciosa.",
+      "target": [
+        {
+          "text": "La comida está deliciosa.",
+          "audioSlug": "la_comida_esta_deliciosa"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_im_allergic_to_nuts",
+      "conceptId": "es.restaurant_im_allergic_to_nuts",
+      "sourceId": "de.s.d4ea0622e433e16e",
+      "source": "Ich bin allergisch gegen Nüsse.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Soy alérgica a los frutos secos.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "soy_alergica_a_los_frutos_secos"
+        },
+        {
+          "text": "Soy alérgico a los frutos secos.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "soy_alergico_a_los_frutos_secos"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_que_van_a_comer_hoy",
+      "conceptId": "es.restaurant_que_van_a_comer_hoy",
+      "sourceId": "de.s.30432e779e16b56b",
+      "source": "Was möchten Sie heute essen?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué van a comer hoy?",
+          "audioSlug": "que_van_a_comer_hoy"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_quiero_probar_un_plato_tipico",
+      "conceptId": "es.restaurant_quiero_probar_un_plato_tipico",
+      "sourceId": "de.s.2ee8c37c51a68d3d",
+      "source": "Ich möchte ein typisches Gericht probieren.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero probar un plato típico.",
+          "audioSlug": "quiero_probar_un_plato_tipico"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_me_puede_traer_la_carta",
+      "conceptId": "es.restaurant_me_puede_traer_la_carta",
+      "sourceId": "de.s.8139716a9a52de41",
+      "source": "Können Sie mir die Speisekarte bringen?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me puede traer la carta?",
+          "audioSlug": "me_puede_traer_la_carta"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_el_pescado_esta_muy_rico",
+      "conceptId": "es.restaurant_el_pescado_esta_muy_rico",
+      "sourceId": "de.s.5889c2eb9be60588",
+      "source": "Der Fisch ist sehr lecker.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El pescado está muy rico.",
+          "audioSlug": "el_pescado_esta_muy_rico"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_que_me_recomienda_para_beber",
+      "conceptId": "es.restaurant_que_me_recomienda_para_beber",
+      "sourceId": "de.s.4c948141660921f4",
+      "source": "Was empfehlen Sie zu trinken?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué me recomienda para beber?",
+          "audioSlug": "que_me_recomienda_para_beber"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_esta_incluida_la_propina",
+      "conceptId": "es.restaurant_esta_incluida_la_propina",
+      "sourceId": "de.s.048a4d93ff5ab240",
+      "source": "Ist das Trinkgeld inbegriffen?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Está incluida la propina?",
+          "audioSlug": "esta_incluida_la_propina"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_tienen_platos_vegetarianos",
+      "conceptId": "es.restaurant_tienen_platos_vegetarianos",
+      "sourceId": "de.s.192e553a09ee6c60",
+      "source": "Haben Sie vegetarische Gerichte?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Tienen platos vegetarianos?",
+          "audioSlug": "tienen_platos_vegetarianos"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_la_comida_aqui_es_fresca",
+      "conceptId": "es.restaurant_la_comida_aqui_es_fresca",
+      "sourceId": "de.s.6d097a1a993dd393",
+      "source": "Das Essen hier ist immer frisch.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La comida aquí siempre es fresca.",
+          "audioSlug": "la_comida_aqui_siempre_es_fresca"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_la_carne_esta_muy_tierna",
+      "conceptId": "es.restaurant_la_carne_esta_muy_tierna",
+      "sourceId": "de.s.4804ce36bc10dfb5",
+      "source": "Das Fleisch ist sehr zart.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La carne está muy tierna.",
+          "audioSlug": "la_carne_esta_muy_tierna"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_prefiere_pollo_o_pescado",
+      "conceptId": "es.restaurant_prefiere_pollo_o_pescado",
+      "sourceId": "de.s.7b7391bcc71f465e",
+      "source": "Möchten Sie Hähnchen oder Fisch?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Prefiere pollo o pescado?",
+          "audioSlug": "prefiere_pollo_o_pescado"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_aqui_sirven_comida_tipica",
+      "conceptId": "es.restaurant_aqui_sirven_comida_tipica",
+      "sourceId": "de.s.fbdf6789d7145cd3",
+      "source": "Hier servieren sie typisches Essen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Aquí sirven comida típica.",
+          "audioSlug": "aqui_sirven_comida_tipica"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_el_queso_esta_delicioso",
+      "conceptId": "es.restaurant_el_queso_esta_delicioso",
+      "sourceId": "de.s.af1506cc8620e1e4",
+      "source": "Der Käse ist köstlich.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El queso está delicioso.",
+          "audioSlug": "el_queso_esta_delicioso"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_este_plato_es_muy_popular",
+      "conceptId": "es.restaurant_este_plato_es_muy_popular",
+      "sourceId": "de.s.eab3ec8dd2fde94b",
+      "source": "Dieses Gericht ist sehr beliebt.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este plato es muy popular.",
+          "audioSlug": "este_plato_es_muy_popular"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_voy_a_tratar_de_comer_mas_sano",
+      "conceptId": "es.restaurant_voy_a_tratar_de_comer_mas_sano",
+      "sourceId": "de.s.fd36fe371d0218a4",
+      "source": "Ich werde versuchen, gesünder zu essen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Voy a tratar de comer más sano.",
+          "audioSlug": "voy_a_tratar_de_comer_mas_sano"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_la_mayoria_pide_postre",
+      "conceptId": "es.restaurant_la_mayoria_pide_postre",
+      "sourceId": "de.s.ad4128f2e57ae964",
+      "source": "Die meisten Leute bestellen Nachtisch.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La mayoría de la gente pide postre.",
+          "audioSlug": "la_mayoria_de_la_gente_pide_postre"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_el_menu_tiene_muchas_opciones",
+      "conceptId": "es.restaurant_el_menu_tiene_muchas_opciones",
+      "sourceId": "de.s.cfab746ee8c43feb",
+      "source": "Die Speisekarte hat viele Optionen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El menú tiene muchas opciones.",
+          "audioSlug": "el_menu_tiene_muchas_opciones"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_vamos_a_compartir_una_pizza",
+      "conceptId": "es.restaurant_vamos_a_compartir_una_pizza",
+      "sourceId": "de.s.cc925a4bb89101f2",
+      "source": "Wir teilen uns eine Pizza.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vamos a compartir una pizza.",
+          "audioSlug": "vamos_a_compartir_una_pizza"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_una_cerveza_bien_fria_por_favor",
+      "conceptId": "es.restaurant_una_cerveza_bien_fria_por_favor",
+      "sourceId": "de.s.9003f29c9a35dada",
+      "source": "Ein gut gekühltes Bier, bitte.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Una cerveza bien fría, por favor.",
+          "audioSlug": "una_cerveza_bien_fria_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_el_pan_es_un_alimento_basico",
+      "conceptId": "es.restaurant_el_pan_es_un_alimento_basico",
+      "sourceId": "de.s.99c14f5b6b49ef31",
+      "source": "Brot ist ein Grundnahrungsmittel.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El pan es un alimento básico.",
+          "audioSlug": "el_pan_es_un_alimento_basico"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_quiero_una_hamburguesa_con_queso",
+      "conceptId": "es.restaurant_quiero_una_hamburguesa_con_queso",
+      "sourceId": "de.s.05f1221c1156e89f",
+      "source": "Ich möchte einen Hamburger mit Käse.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero una hamburguesa con queso.",
+          "audioSlug": "quiero_una_hamburguesa_con_queso"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_de_primero_una_ensalada_mixta",
+      "conceptId": "es.restaurant_de_primero_una_ensalada_mixta",
+      "sourceId": "de.s.8821faabf1397ed8",
+      "source": "Als Vorspeise einen gemischten Salat.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "De primero, una ensalada mixta.",
+          "audioSlug": "de_primero_una_ensalada_mixta"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_para_llevar_un_sandwich_de_pollo",
+      "conceptId": "es.restaurant_para_llevar_un_sandwich_de_pollo",
+      "sourceId": "de.s.bcf4ecfb5cfbf476",
+      "source": "Zum Mitnehmen ein Hähnchen-Sandwich.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Para llevar, un sándwich de pollo.",
+          "audioSlug": "para_llevar_un_sandwich_de_pollo"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_me_pongo_un_bocadillo_de_jamon",
+      "conceptId": "es.restaurant_me_pongo_un_bocadillo_de_jamon",
+      "sourceId": "de.s.4b734cb2dc101bfc",
+      "source": "Ich nehme ein Schinken-Sandwich.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me pongo un bocadillo de jamón.",
+          "audioSlug": "me_pongo_un_bocadillo_de_jamon"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_la_tortilla_de_patatas_esta_riquisima",
+      "conceptId": "es.restaurant_la_tortilla_de_patatas_esta_riquisima",
+      "sourceId": "de.s.ef979b928aa2c7b6",
+      "source": "Die Kartoffeltortilla ist superlecker.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La tortilla de papas está riquísima.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "la_tortilla_de_papas_esta_riquisima"
+        },
+        {
+          "text": "La tortilla de patatas está riquísima.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "la_tortilla_de_patatas_esta_riquisima"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_la_paella_es_para_dos_personas",
+      "conceptId": "es.restaurant_la_paella_es_para_dos_personas",
+      "sourceId": "de.s.d5021d3b50a9e3be",
+      "source": "Die Paella ist für zwei Personen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La paella es para dos personas.",
+          "audioSlug": "la_paella_es_para_dos_personas"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_de_segundo_un_filete_a_la_plancha",
+      "conceptId": "es.restaurant_de_segundo_un_filete_a_la_plancha",
+      "sourceId": "de.s.c64334c413bb4427",
+      "source": "Als Hauptgang ein Steak vom Grill.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "De segundo, un filete a la plancha.",
+          "audioSlug": "de_segundo_un_filete_a_la_plancha"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_de_postre_un_helado_de_vainilla",
+      "conceptId": "es.restaurant_de_postre_un_helado_de_vainilla",
+      "sourceId": "de.s.ede74f102ce7070c",
+      "source": "Als Nachtisch ein Vanilleeis.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "De postre, un helado de vainilla.",
+          "audioSlug": "de_postre_un_helado_de_vainilla"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_la_tarta_de_chocolate_es_casera",
+      "conceptId": "es.restaurant_la_tarta_de_chocolate_es_casera",
+      "sourceId": "de.s.186f3480f3d6139a",
+      "source": "Die Schokoladentorte ist hausgemacht.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El pastel de chocolate es casero.",
+          "labels": {
+            "region": "México y Centroamérica"
+          },
+          "audioSlug": "el_pastel_de_chocolate_es_casero"
+        },
+        {
+          "text": "La torta de chocolate es casera.",
+          "labels": {
+            "region": "Sudamérica"
+          },
+          "audioSlug": "la_torta_de_chocolate_es_casera"
+        },
+        {
+          "text": "La tarta de chocolate es casera.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "la_tarta_de_chocolate_es_casera"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_el_camarero_nos_trae_la_carta",
+      "conceptId": "es.restaurant_el_camarero_nos_trae_la_carta",
+      "sourceId": "de.s.0804cbf29f2d0bae",
+      "source": "Der Kellner bringt uns die Speisekarte.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La camarera nos trae la carta.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Kellnerin bringt uns die Speisekarte.",
+          "audioSlug": "la_camarera_nos_trae_la_carta"
+        },
+        {
+          "text": "El camarero nos trae la carta.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Kellner bringt uns die Speisekarte.",
+          "audioSlug": "el_camarero_nos_trae_la_carta"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_el_cocinero_prepara_el_plato",
+      "conceptId": "es.restaurant_el_cocinero_prepara_el_plato",
+      "sourceId": "de.s.bd80e15e163b4f3a",
+      "source": "Der Koch bereitet das Gericht zu.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La cocinera prepara el plato.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Köchin bereitet das Gericht zu.",
+          "audioSlug": "la_cocinera_prepara_el_plato"
+        },
+        {
+          "text": "El cocinero prepara el plato.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Koch bereitet das Gericht zu.",
+          "audioSlug": "el_cocinero_prepara_el_plato"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_los_ninos_toman_la_merienda_a_las_cinco",
+      "conceptId": "es.restaurant_los_ninos_toman_la_merienda_a_las_cinco",
+      "sourceId": "de.s.3029df9993f64433",
+      "source": "Die Kinder essen um fünf ihre Zwischenmahlzeit.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los niños toman la merienda a las cinco.",
+          "audioSlug": "los_ninos_toman_la_merienda_a_las_cinco"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_ponme_una_cana_bien_fria",
+      "conceptId": "es.restaurant_ponme_una_cana_bien_fria",
+      "sourceId": "de.s.258b1e9d90bebe44",
+      "source": "Gib mir ein kühles Bier vom Fass.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ponme una caña bien fría.",
+          "audioSlug": "ponme_una_cana_bien_fria"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_necesito_una_servilleta_limpia",
+      "conceptId": "es.restaurant_necesito_una_servilleta_limpia",
+      "sourceId": "de.s.58c75895ae13ebd0",
+      "source": "Ich brauche eine saubere Serviette.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito una servilleta limpia.",
+          "audioSlug": "necesito_una_servilleta_limpia"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_no_bebo_alcohol_cuando_conduzco",
+      "conceptId": "es.restaurant_no_bebo_alcohol_cuando_conduzco",
+      "sourceId": "de.s.3093ec65b5c063eb",
+      "source": "Ich trinke keinen Alkohol, wenn ich fahre.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No bebo alcohol cuando conduzco.",
+          "audioSlug": "no_bebo_alcohol_cuando_conduzco"
+        }
+      ]
+    }
+  ]
+}

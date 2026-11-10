@@ -1,41 +1,449 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "estudios",
-  "conceptIds": [
-    "es.estudios_la_educacion_es_importante",
-    "es.estudios_estudio_en_la_universidad",
-    "es.estudios_es_mi_companero_de_clase",
-    "es.estudios_estudio_para_el_examen",
-    "es.estudios_la_clase_empieza_a_las_ocho",
-    "es.estudios_tengo_que_hacer_la_tarea",
-    "es.estudios_el_profesor_explica_la_leccion",
-    "es.estudios_saque_buena_nota_en_el_examen",
-    "es.estudios_necesito_un_cuaderno_nuevo",
-    "es.estudios_aprendo_algo_nuevo_cada_dia",
-    "es.estudios_la_biblioteca_cierra_tarde",
-    "es.estudios_el_curso_dura_un_ano",
-    "es.estudios_levanta_la_mano_para_preguntar",
-    "es.estudios_no_se_nada_de_ciencia",
-    "es.estudios_el_conocimiento_es_poder",
-    "es.estudios_los_ninos_van_al_colegio",
-    "es.estudios_mi_hija_estudia_en_el_instituto",
-    "es.estudios_el_profesor_escribe_en_la_pizarra",
-    "es.estudios_necesito_un_lapiz",
-    "es.estudios_escribo_con_un_boligrafo",
-    "es.estudios_uso_la_goma_para_borrar",
-    "es.estudios_apunto_la_tarea_en_el_cuaderno",
-    "es.estudios_busco_la_palabra_en_el_diccionario",
-    "es.estudios_tengo_que_repasar_la_leccion",
-    "es.estudios_voy_a_consultar_el_diccionario",
-    "es.estudios_complete_el_ejercicio_a_tiempo",
-    "es.estudios_casi_suspendo_el_examen",
-    "es.estudios_pague_la_matricula_del_curso",
-    "es.estudios_llevo_la_mochila_al_colegio",
-    "es.estudios_el_nino_hizo_un_dibujo",
-    "es.estudios_marca_la_respuesta_con_una_cruz",
-    "es.estudios_estudio_en_una_academia",
-    "es.estudios_abre_el_libro_en_la_pagina_diez",
-    "es.estudios_recibio_su_diploma_con_honores"
+  "phrases": [
+    {
+      "conceptId": "es.estudios_la_educacion_es_importante",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ee57d23cdbd816b0"
+    },
+    {
+      "conceptId": "es.estudios_estudio_en_la_universidad",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.952f01a43a4ae557"
+    },
+    {
+      "conceptId": "es.estudios_es_mi_companero_de_clase",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ab51bd07f422a880"
+    },
+    {
+      "conceptId": "es.estudios_estudio_para_el_examen",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5dcf834b5aa7b0e0"
+    },
+    {
+      "conceptId": "es.estudios_la_clase_empieza_a_las_ocho",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f62d8fa4c9aecb7c"
+    },
+    {
+      "conceptId": "es.estudios_tengo_que_hacer_la_tarea",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.aae3bb4073e996bd"
+    },
+    {
+      "conceptId": "es.estudios_el_profesor_explica_la_leccion",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.355e78e24ca01ea5"
+    },
+    {
+      "conceptId": "es.estudios_saque_buena_nota_en_el_examen",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b33da38546ec838f"
+    },
+    {
+      "conceptId": "es.estudios_necesito_un_cuaderno_nuevo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0237c17d03f5a460"
+    },
+    {
+      "conceptId": "es.estudios_aprendo_algo_nuevo_cada_dia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e7e46e1c3a60e9ba"
+    },
+    {
+      "conceptId": "es.estudios_la_biblioteca_cierra_tarde",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2d165cd2b96fd00b"
+    },
+    {
+      "conceptId": "es.estudios_el_curso_dura_un_ano",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ef30f4f6f75034ec"
+    },
+    {
+      "conceptId": "es.estudios_levanta_la_mano_para_preguntar",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c81f34da15e7607d"
+    },
+    {
+      "conceptId": "es.estudios_no_se_nada_de_ciencia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c4aaae53652ad074"
+    },
+    {
+      "conceptId": "es.estudios_el_conocimiento_es_poder",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.113165ba0e6a1e16"
+    },
+    {
+      "conceptId": "es.estudios_los_ninos_van_al_colegio",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.59b5630823d1fbfc"
+    },
+    {
+      "conceptId": "es.estudios_mi_hija_estudia_en_el_instituto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.37e62b73711a2542"
+    },
+    {
+      "conceptId": "es.estudios_el_profesor_escribe_en_la_pizarra",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.710f89292ea5ff1e"
+    },
+    {
+      "conceptId": "es.estudios_necesito_un_lapiz",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.56d89dfc8fe221f5"
+    },
+    {
+      "conceptId": "es.estudios_escribo_con_un_boligrafo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5b261fd305e86816"
+    },
+    {
+      "conceptId": "es.estudios_uso_la_goma_para_borrar",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c2674da8ac3f2643"
+    },
+    {
+      "conceptId": "es.estudios_apunto_la_tarea_en_el_cuaderno",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f79f6676349c52cd"
+    },
+    {
+      "conceptId": "es.estudios_busco_la_palabra_en_el_diccionario",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.547fdbb4ef264c4d"
+    },
+    {
+      "conceptId": "es.estudios_tengo_que_repasar_la_leccion",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1cbfaf8c559470c9"
+    },
+    {
+      "conceptId": "es.estudios_voy_a_consultar_el_diccionario",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.abc9a783bdecf774"
+    },
+    {
+      "conceptId": "es.estudios_complete_el_ejercicio_a_tiempo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bd3d615ad7409318"
+    },
+    {
+      "conceptId": "es.estudios_casi_suspendo_el_examen",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.66525cb2c72a01a0"
+    },
+    {
+      "conceptId": "es.estudios_pague_la_matricula_del_curso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.003fba5fd14e2df2"
+    },
+    {
+      "conceptId": "es.estudios_llevo_la_mochila_al_colegio",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6fdb2e14bb042d4d"
+    },
+    {
+      "conceptId": "es.estudios_el_nino_hizo_un_dibujo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f973ef3e26dae55b"
+    },
+    {
+      "conceptId": "es.estudios_marca_la_respuesta_con_una_cruz",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6a3de930d479584a"
+    },
+    {
+      "conceptId": "es.estudios_estudio_en_una_academia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fa8f2a5679081152"
+    },
+    {
+      "conceptId": "es.estudios_abre_el_libro_en_la_pagina_diez",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0925562dda264be8"
+    },
+    {
+      "conceptId": "es.estudios_recibio_su_diploma_con_honores",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9ea49f2e43b3feac"
+    }
   ]
 }

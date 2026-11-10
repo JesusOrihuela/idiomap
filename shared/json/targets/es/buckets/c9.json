@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "c9",
+  "concepts": {
+    "es.accountability_the_accounts_receivable_turnover_ratio": {
+      "conceptId": "es.accountability_the_accounts_receivable_turnover_ratio",
+      "id": "accountability_the_accounts_receivable_turnover_ratio",
+      "target": [
+        {
+          "text": "El índice de rotación de cuentas por cobrar mide la eficiencia con que cobramos las deudas.",
+          "audioSlug": "el_indice_de_rotacion_de_cuentas_por_cobrar_mide_la_eficiencia_con_que_cobramos_las_deudas"
+        }
+      ]
+    },
+    "es.cuerpo_tengo_los_ojos_oscuros": {
+      "conceptId": "es.cuerpo_tengo_los_ojos_oscuros",
+      "id": "cuerpo_tengo_los_ojos_oscuros",
+      "target": [
+        {
+          "text": "Tengo los ojos oscuros.",
+          "audioSlug": "tengo_los_ojos_oscuros"
+        }
+      ]
+    },
+    "es.daily_routine_i_watch_tv_at_night": {
+      "conceptId": "es.daily_routine_i_watch_tv_at_night",
+      "id": "daily_routine_i_watch_tv_at_night",
+      "target": [
+        {
+          "text": "Veo la televisión por la noche.",
+          "audioSlug": "veo_la_television_por_la_noche"
+        }
+      ]
+    },
+    "es.directions_im_lost": {
+      "conceptId": "es.directions_im_lost",
+      "id": "directions_im_lost",
+      "target": [
+        {
+          "text": "Estoy perdida.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_perdida"
+        },
+        {
+          "text": "Estoy perdido.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_perdido"
+        }
+      ]
+    },
+    "es.estudios_estudio_en_la_universidad": {
+      "conceptId": "es.estudios_estudio_en_la_universidad",
+      "id": "estudios_estudio_en_la_universidad",
+      "target": [
+        {
+          "text": "Estudio en la universidad.",
+          "audioSlug": "estudio_en_la_universidad"
+        }
+      ]
+    },
+    "es.movies_original_version_subtitles": {
+      "conceptId": "es.movies_original_version_subtitles",
+      "id": "movies_original_version_subtitles",
+      "target": [
+        {
+          "text": "Prefiero verla en versión original con subtítulos.",
+          "audioSlug": "prefiero_verla_en_version_original_con_subtitulos"
+        }
+      ]
+    },
+    "es.movies_what_time_starts": {
+      "conceptId": "es.movies_what_time_starts",
+      "id": "movies_what_time_starts",
+      "target": [
+        {
+          "text": "¿A qué hora empieza la película?",
+          "audioSlug": "a_que_hora_empieza_la_pelicula"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_oceano_cubre_gran_parte_del_planeta": {
+      "conceptId": "es.naturaleza_lugares_el_oceano_cubre_gran_parte_del_planeta",
+      "id": "naturaleza_lugares_el_oceano_cubre_gran_parte_del_planeta",
+      "target": [
+        {
+          "text": "El océano cubre gran parte del planeta.",
+          "audioSlug": "el_oceano_cubre_gran_parte_del_planeta"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_vamos_a_la_playa_el_domingo": {
+      "conceptId": "es.naturaleza_lugares_vamos_a_la_playa_el_domingo",
+      "id": "naturaleza_lugares_vamos_a_la_playa_el_domingo",
+      "target": [
+        {
+          "text": "Vamos a la playa el domingo.",
+          "audioSlug": "vamos_a_la_playa_el_domingo"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_es_una_decision_politica_dificil": {
+      "conceptId": "es.pensamientos_opiniones_es_una_decision_politica_dificil",
+      "id": "pensamientos_opiniones_es_una_decision_politica_dificil",
+      "target": [
+        {
+          "text": "Es una decisión política difícil.",
+          "audioSlug": "es_una_decision_politica_dificil"
+        }
+      ]
+    },
+    "es.restaurant_do_you_offer_any_discounts_for": {
+      "conceptId": "es.restaurant_do_you_offer_any_discounts_for",
+      "id": "restaurant_do_you_offer_any_discounts_for",
+      "target": [
+        {
+          "text": "¿Ofrecen algún descuento para grupos grandes?",
+          "audioSlug": "ofrecen_algun_descuento_para_grupos_grandes"
+        }
+      ]
+    },
+    "es.sitios_el_barco_sale_del_puerto_al_amanecer": {
+      "conceptId": "es.sitios_el_barco_sale_del_puerto_al_amanecer",
+      "id": "sitios_el_barco_sale_del_puerto_al_amanecer",
+      "target": [
+        {
+          "text": "El barco sale del puerto al amanecer.",
+          "audioSlug": "el_barco_sale_del_puerto_al_amanecer"
+        }
+      ]
+    },
+    "es.sitios_tomamos_cafe_en_la_cafeteria": {
+      "conceptId": "es.sitios_tomamos_cafe_en_la_cafeteria",
+      "id": "sitios_tomamos_cafe_en_la_cafeteria",
+      "target": [
+        {
+          "text": "Tomamos café en la cafetería.",
+          "audioSlug": "tomamos_cafe_en_la_cafeteria"
+        }
+      ]
+    },
+    "es.survival_asi_se_dice_en_espanol": {
+      "conceptId": "es.survival_asi_se_dice_en_espanol",
+      "id": "survival_asi_se_dice_en_espanol",
+      "target": [
+        {
+          "text": "Así se dice en español.",
+          "audioSlug": "asi_se_dice_en_espanol"
+        }
+      ]
+    },
+    "es.technology_necesito_cargar_la_bateria": {
+      "conceptId": "es.technology_necesito_cargar_la_bateria",
+      "id": "technology_necesito_cargar_la_bateria",
+      "target": [
+        {
+          "text": "Necesito cargar la batería.",
+          "audioSlug": "necesito_cargar_la_bateria"
+        }
+      ]
+    }
+  }
+}

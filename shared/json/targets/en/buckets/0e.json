@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "0e",
+  "concepts": {
+    "en.accommodation_safe_room": {
+      "conceptId": "en.accommodation_safe_room",
+      "id": "accommodation_safe_room",
+      "target": [
+        {
+          "text": "Is there a safe in the room?",
+          "audioSlug": "is_there_a_safe_in_the_room"
+        }
+      ]
+    },
+    "en.airport_passport_expiry_visa": {
+      "conceptId": "en.airport_passport_expiry_visa",
+      "id": "airport_passport_expiry_visa",
+      "target": [
+        {
+          "text": "My passport expires in three months. Is that sufficient for a tourist visa on arrival?",
+          "audioSlug": "my_passport_expires_in_three_months_is_that_sufficient_for_a_tourist_visa_on_arrival"
+        }
+      ]
+    },
+    "en.conversacion_i_need_your_help": {
+      "conceptId": "en.conversacion_i_need_your_help",
+      "id": "conversacion_i_need_your_help",
+      "target": [
+        {
+          "text": "I need your help.",
+          "audioSlug": "i_need_your_help"
+        }
+      ]
+    },
+    "en.kitchen_score_duck_skin_fat_renders": {
+      "conceptId": "en.kitchen_score_duck_skin_fat_renders",
+      "id": "kitchen_score_duck_skin_fat_renders",
+      "target": [
+        {
+          "text": "Scoring the duck breast skin helps the fat render more evenly.",
+          "audioSlug": "scoring_the_duck_breast_skin_helps_the_fat_render_more_evenly"
+        }
+      ]
+    },
+    "en.music_discovered_through_algorithm": {
+      "conceptId": "en.music_discovered_through_algorithm",
+      "id": "music_discovered_through_algorithm",
+      "target": [
+        {
+          "text": "I discovered this band through a playlist algorithm. I'd never have found them otherwise.",
+          "audioSlug": "i_discovered_this_band_through_a_playlist_algorithm_i_d_never_have_found_them_otherwise"
+        }
+      ]
+    },
+    "en.survival_write_it_down": {
+      "conceptId": "en.survival_write_it_down",
+      "id": "survival_write_it_down",
+      "target": [
+        {
+          "text": "Can you write it down for me?",
+          "audioSlug": "can_you_write_it_down_for_me"
+        }
+      ]
+    }
+  }
+}

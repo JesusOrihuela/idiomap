@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "b5",
+  "concepts": {
+    "en.airport_forgot_boarding_pass_website": {
+      "conceptId": "en.airport_forgot_boarding_pass_website",
+      "id": "airport_forgot_boarding_pass_website",
+      "target": [
+        {
+          "text": "I forgot my boarding pass. Can I pull it up on the airline's website?",
+          "audioSlug": "i_forgot_my_boarding_pass_can_i_pull_it_up_on_the_airline_s_website"
+        }
+      ]
+    },
+    "en.cuerpo_my_heart_is_beating_fast": {
+      "conceptId": "en.cuerpo_my_heart_is_beating_fast",
+      "id": "cuerpo_my_heart_is_beating_fast",
+      "target": [
+        {
+          "text": "My heart is beating fast.",
+          "audioSlug": "my_heart_is_beating_fast"
+        }
+      ]
+    },
+    "en.directions_two_blocks": {
+      "conceptId": "en.directions_two_blocks",
+      "id": "directions_two_blocks",
+      "target": [
+        {
+          "text": "It's two blocks from here.",
+          "audioSlug": "it_s_two_blocks_from_here"
+        }
+      ]
+    },
+    "en.economia_we_must_save_money": {
+      "conceptId": "en.economia_we_must_save_money",
+      "id": "economia_we_must_save_money",
+      "target": [
+        {
+          "text": "We must save money.",
+          "audioSlug": "we_must_save_money"
+        }
+      ]
+    },
+    "en.gym_dont_lift_your_shoulders_towards_your": {
+      "conceptId": "en.gym_dont_lift_your_shoulders_towards_your",
+      "id": "gym_dont_lift_your_shoulders_towards_your",
+      "target": [
+        {
+          "text": "Don't lift your shoulders towards your ears.",
+          "audioSlug": "don_t_lift_your_shoulders_towards_your_ears"
+        }
+      ]
+    }
+  }
+}

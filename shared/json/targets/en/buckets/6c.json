@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "6c",
+  "concepts": {
+    "en.family_live_with_partner": {
+      "conceptId": "en.family_live_with_partner",
+      "id": "family_live_with_partner",
+      "target": [
+        {
+          "text": "I live with my partner.",
+          "audioSlug": "i_live_with_my_partner"
+        }
+      ]
+    },
+    "en.greetings_good_evening_hows_your_day_been": {
+      "conceptId": "en.greetings_good_evening_hows_your_day_been",
+      "id": "greetings_good_evening_hows_your_day_been",
+      "target": [
+        {
+          "text": "Good evening, how's your day been?",
+          "audioSlug": "good_evening_how_s_your_day_been"
+        }
+      ]
+    },
+    "en.kitchen_we_need_to_skim_the_broth": {
+      "conceptId": "en.kitchen_we_need_to_skim_the_broth",
+      "id": "kitchen_we_need_to_skim_the_broth",
+      "target": [
+        {
+          "text": "We need to skim the broth before serving it.",
+          "audioSlug": "we_need_to_skim_the_broth_before_serving_it"
+        }
+      ]
+    },
+    "en.technology_make_sure_your_internet_connection_is": {
+      "conceptId": "en.technology_make_sure_your_internet_connection_is",
+      "id": "technology_make_sure_your_internet_connection_is",
+      "target": [
+        {
+          "text": "Make sure your internet connection is stable.",
+          "audioSlug": "make_sure_your_internet_connection_is_stable"
+        }
+      ]
+    }
+  }
+}

@@ -1,33 +1,345 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "personal_info",
-  "conceptIds": [
-    "en.personal_info_im_ana_and_you",
-    "en.personal_info_how_old_are_you",
-    "en.personal_info_im_years_old",
-    "en.personal_info_where_are_you_from",
-    "en.personal_info_im_from",
-    "en.personal_info_where_do_you_live",
-    "en.personal_info_i_live_in",
-    "en.personal_info_what_do_you_do",
-    "en.personal_info_im_a_teacher",
-    "en.personal_info_what_languages",
-    "en.personal_info_i_speak",
-    "en.personal_info_your_phone_number",
-    "en.personal_info_can_i_have_your_number",
-    "en.personal_info_are_you_married",
-    "en.personal_info_im_single",
-    "en.personal_info_whats_your_email",
-    "en.personal_info_how_spell_name",
-    "en.personal_info_where_were_you_born",
-    "en.personal_info_i_was_born_in",
-    "en.personal_info_my_last_name_is_garcia",
-    "en.personal_info_i_live_with_my_family",
-    "en.personal_info_i_work_at_a_tech_company",
-    "en.personal_info_what_is_your_address",
-    "en.personal_info_what_is_your_nationality",
-    "en.personal_info_i_am_a_medical_student",
-    "en.personal_info_i_speak_three_languages"
+  "phrases": [
+    {
+      "conceptId": "en.personal_info_im_ana_and_you",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d2abfa62d37e7010"
+    },
+    {
+      "conceptId": "en.personal_info_how_old_are_you",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cc86295b4baf9056"
+    },
+    {
+      "conceptId": "en.personal_info_im_years_old",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dcd2887e515d022a"
+    },
+    {
+      "conceptId": "en.personal_info_where_are_you_from",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.27995b95d46f6be5"
+    },
+    {
+      "conceptId": "en.personal_info_im_from",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.51c77fb22db80289"
+    },
+    {
+      "conceptId": "en.personal_info_where_do_you_live",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3c6669e8ff8c20a7"
+    },
+    {
+      "conceptId": "en.personal_info_i_live_in",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.507916c81e6b63a5"
+    },
+    {
+      "conceptId": "en.personal_info_what_do_you_do",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.500d25048f79fea8"
+    },
+    {
+      "conceptId": "en.personal_info_im_a_teacher",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.40178c7ddc7741ab"
+    },
+    {
+      "conceptId": "en.personal_info_what_languages",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f57e1565a16f49f4"
+    },
+    {
+      "conceptId": "en.personal_info_i_speak",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.55ea36d9797364e5"
+    },
+    {
+      "conceptId": "en.personal_info_your_phone_number",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5ff4cc89f24a7a28"
+    },
+    {
+      "conceptId": "en.personal_info_can_i_have_your_number",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.be1aa120de968e81"
+    },
+    {
+      "conceptId": "en.personal_info_are_you_married",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.01c1a617e9d0a40c"
+    },
+    {
+      "conceptId": "en.personal_info_im_single",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.01da13193d2bc676"
+    },
+    {
+      "conceptId": "en.personal_info_whats_your_email",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8cf6e4ca5f6b7fff"
+    },
+    {
+      "conceptId": "en.personal_info_how_spell_name",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f2a2391457614adf"
+    },
+    {
+      "conceptId": "en.personal_info_where_were_you_born",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ad0fd623da82d8df"
+    },
+    {
+      "conceptId": "en.personal_info_i_was_born_in",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.717a9fbcfaf00f75"
+    },
+    {
+      "conceptId": "en.personal_info_my_last_name_is_garcia",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.facd4de8ded68496"
+    },
+    {
+      "conceptId": "en.personal_info_i_live_with_my_family",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8d320fa071574a80"
+    },
+    {
+      "conceptId": "en.personal_info_i_work_at_a_tech_company",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8e45b33e951ed0d0"
+    },
+    {
+      "conceptId": "en.personal_info_what_is_your_address",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e9716288a8f06c20"
+    },
+    {
+      "conceptId": "en.personal_info_what_is_your_nationality",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ff24a8a37516e405"
+    },
+    {
+      "conceptId": "en.personal_info_i_am_a_medical_student",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.32bdadbd624bd20a"
+    },
+    {
+      "conceptId": "en.personal_info_i_speak_three_languages",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fddc62e4a4c83e40"
+    }
   ]
 }

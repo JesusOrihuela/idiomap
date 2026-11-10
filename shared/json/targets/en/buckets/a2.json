@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "a2",
+  "concepts": {
+    "en.accountability_we_need_to_adjust_the_budget": {
+      "conceptId": "en.accountability_we_need_to_adjust_the_budget",
+      "id": "accountability_we_need_to_adjust_the_budget",
+      "target": [
+        {
+          "text": "We need to adjust the budget.",
+          "audioSlug": "we_need_to_adjust_the_budget",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "We need to modify the budget.",
+          "audioSlug": "we_need_to_modify_the_budget",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.gym_could_you_demonstrate_how_to_use": {
+      "conceptId": "en.gym_could_you_demonstrate_how_to_use",
+      "id": "gym_could_you_demonstrate_how_to_use",
+      "target": [
+        {
+          "text": "Could you demonstrate how to use resistance bands?",
+          "audioSlug": "could_you_demonstrate_how_to_use_resistance_bands",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you demonstrate how to use resistance bands?",
+          "audioSlug": "can_you_demonstrate_how_to_use_resistance_bands",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.museums_contemporary_art_museum": {
+      "conceptId": "en.museums_contemporary_art_museum",
+      "id": "museums_contemporary_art_museum",
+      "target": [
+        {
+          "text": "Have you been to the new exhibition at the contemporary art museum?",
+          "audioSlug": "have_you_been_to_the_new_exhibition_at_the_contemporary_art_museum"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_i_remember": {
+      "conceptId": "en.pensamientos_opiniones_i_remember",
+      "id": "pensamientos_opiniones_i_remember",
+      "target": [
+        {
+          "text": "I remember.",
+          "audioSlug": "i_remember"
+        }
+      ]
+    },
+    "en.personal_info_my_last_name_is_garcia": {
+      "conceptId": "en.personal_info_my_last_name_is_garcia",
+      "id": "personal_info_my_last_name_is_garcia",
+      "target": [
+        {
+          "text": "My last name is García.",
+          "audioSlug": "my_last_name_is_garcia"
+        }
+      ]
+    },
+    "en.technology_help_install_app": {
+      "conceptId": "en.technology_help_install_app",
+      "id": "technology_help_install_app",
+      "target": [
+        {
+          "text": "Can you help me install this app?",
+          "audioSlug": "can_you_help_me_install_this_app"
+        }
+      ]
+    }
+  }
+}

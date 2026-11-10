@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "1b",
+  "concepts": {
+    "en.describiendo_personas_she_is_very_nice": {
+      "conceptId": "en.describiendo_personas_she_is_very_nice",
+      "id": "describiendo_personas_she_is_very_nice",
+      "target": [
+        {
+          "text": "She is very nice.",
+          "audioSlug": "she_is_very_nice"
+        }
+      ]
+    },
+    "en.directions_im_lost": {
+      "conceptId": "en.directions_im_lost",
+      "id": "directions_im_lost",
+      "target": [
+        {
+          "text": "I'm lost.",
+          "audioSlug": "i_m_lost"
+        }
+      ]
+    },
+    "en.hogar_the_room_is_clean": {
+      "conceptId": "en.hogar_the_room_is_clean",
+      "id": "hogar_the_room_is_clean",
+      "target": [
+        {
+          "text": "The room is clean.",
+          "audioSlug": "the_room_is_clean"
+        }
+      ]
+    },
+    "en.movies_what_time_starts": {
+      "conceptId": "en.movies_what_time_starts",
+      "id": "movies_what_time_starts",
+      "target": [
+        {
+          "text": "What time does the movie start?",
+          "audioSlug": "what_time_does_the_movie_start"
+        }
+      ]
+    },
+    "en.politica_it_is_a_free_state": {
+      "conceptId": "en.politica_it_is_a_free_state",
+      "id": "politica_it_is_a_free_state",
+      "target": [
+        {
+          "text": "It is a free state.",
+          "audioSlug": "it_is_a_free_state"
+        }
+      ]
+    },
+    "en.supermarket_this_supermarket_has_a_very_useful": {
+      "conceptId": "en.supermarket_this_supermarket_has_a_very_useful",
+      "id": "supermarket_this_supermarket_has_a_very_useful",
+      "target": [
+        {
+          "text": "This supermarket has a very useful app.",
+          "audioSlug": "this_supermarket_has_a_very_useful_app"
+        }
+      ]
+    },
+    "en.vestimenta_wear_uniform_to_school": {
+      "conceptId": "en.vestimenta_wear_uniform_to_school",
+      "id": "vestimenta_wear_uniform_to_school",
+      "target": [
+        {
+          "text": "I wear a uniform to school.",
+          "audioSlug": "i_wear_a_uniform_to_school"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "fa",
+  "concepts": {
+    "es.accommodation_aircon_maintenance": {
+      "conceptId": "es.accommodation_aircon_maintenance",
+      "id": "accommodation_aircon_maintenance",
+      "target": [
+        {
+          "text": "El aire acondicionado no funciona bien, ¿podrían enviar a alguien de mantenimiento?",
+          "audioSlug": "el_aire_acondicionado_no_funciona_bien_podrian_enviar_a_alguien_de_mantenimiento"
+        }
+      ]
+    },
+    "es.economia_hubo_un_movimiento_fuerte_en_el_mercado": {
+      "conceptId": "es.economia_hubo_un_movimiento_fuerte_en_el_mercado",
+      "id": "economia_hubo_un_movimiento_fuerte_en_el_mercado",
+      "target": [
+        {
+          "text": "Hubo un movimiento fuerte en el mercado.",
+          "audioSlug": "hubo_un_movimiento_fuerte_en_el_mercado"
+        }
+      ]
+    },
+    "es.economia_la_fabrica_produce_muchos_autos": {
+      "conceptId": "es.economia_la_fabrica_produce_muchos_autos",
+      "id": "economia_la_fabrica_produce_muchos_autos",
+      "target": [
+        {
+          "text": "La fábrica produce muchos autos.",
+          "audioSlug": "la_fabrica_produce_muchos_autos"
+        }
+      ]
+    },
+    "es.emociones_why_are_you_relaxed": {
+      "conceptId": "es.emociones_why_are_you_relaxed",
+      "id": "emociones_why_are_you_relaxed",
+      "target": [
+        {
+          "text": "¿Por qué estás relajado?",
+          "audioSlug": "por_que_estas_relajado",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás relajada?",
+          "audioSlug": "por_que_estas_relajada",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.estudios_necesito_una_imagen_para_mi_presentacion": {
+      "conceptId": "es.estudios_necesito_una_imagen_para_mi_presentacion",
+      "id": "estudios_necesito_una_imagen_para_mi_presentacion",
+      "target": [
+        {
+          "text": "Necesito una imagen para mi presentación.",
+          "audioSlug": "necesito_una_imagen_para_mi_presentacion"
+        }
+      ]
+    },
+    "es.family_mi_abuela_murio_el_ano_pasado": {
+      "conceptId": "es.family_mi_abuela_murio_el_ano_pasado",
+      "id": "family_mi_abuela_murio_el_ano_pasado",
+      "target": [
+        {
+          "text": "Mi abuela murió el año pasado.",
+          "audioSlug": "mi_abuela_murio_el_ano_pasado"
+        }
+      ]
+    },
+    "es.fiesta_nos_vamos_a_divertir": {
+      "conceptId": "es.fiesta_nos_vamos_a_divertir",
+      "id": "fiesta_nos_vamos_a_divertir",
+      "target": [
+        {
+          "text": "Nos vamos a divertir.",
+          "audioSlug": "nos_vamos_a_divertir"
+        }
+      ]
+    },
+    "es.health_no_puedo_respirar_bien": {
+      "conceptId": "es.health_no_puedo_respirar_bien",
+      "id": "health_no_puedo_respirar_bien",
+      "target": [
+        {
+          "text": "No puedo respirar bien.",
+          "audioSlug": "no_puedo_respirar_bien"
+        }
+      ]
+    },
+    "es.kitchen_could_you_help_me_open_this": {
+      "conceptId": "es.kitchen_could_you_help_me_open_this",
+      "id": "kitchen_could_you_help_me_open_this",
+      "target": [
+        {
+          "text": "¿Podrías ayudarme a abrir este tarro, por favor?",
+          "audioSlug": "podrias_ayudarme_a_abrir_este_tarro_por_favor"
+        }
+      ]
+    },
+    "es.kitchen_do_we_have_breadcrumbs_to_coat": {
+      "conceptId": "es.kitchen_do_we_have_breadcrumbs_to_coat",
+      "id": "kitchen_do_we_have_breadcrumbs_to_coat",
+      "target": [
+        {
+          "text": "¿Tenemos pan rallado para rebozar el pollo?",
+          "audioSlug": "tenemos_pan_rallado_para_rebozar_el_pollo"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_la_muerte_es_parte_de_la_vida": {
+      "conceptId": "es.pensamientos_opiniones_la_muerte_es_parte_de_la_vida",
+      "id": "pensamientos_opiniones_la_muerte_es_parte_de_la_vida",
+      "target": [
+        {
+          "text": "La muerte es parte de la vida.",
+          "audioSlug": "la_muerte_es_parte_de_la_vida"
+        }
+      ]
+    },
+    "es.planes_pienso_seguir_estudiando": {
+      "conceptId": "es.planes_pienso_seguir_estudiando",
+      "id": "planes_pienso_seguir_estudiando",
+      "target": [
+        {
+          "text": "Pienso seguir estudiando el año próximo.",
+          "audioSlug": "pienso_seguir_estudiando_el_ano_proximo"
+        }
+      ]
+    },
+    "es.profesiones_el_taxista_conoce_la_ciudad": {
+      "conceptId": "es.profesiones_el_taxista_conoce_la_ciudad",
+      "id": "profesiones_el_taxista_conoce_la_ciudad",
+      "target": [
+        {
+          "text": "El taxista conoce bien la ciudad.",
+          "audioSlug": "el_taxista_conoce_bien_la_ciudad"
+        }
+      ]
+    },
+    "es.vestimenta_lleva_una_gorra_azul": {
+      "conceptId": "es.vestimenta_lleva_una_gorra_azul",
+      "id": "vestimenta_lleva_una_gorra_azul",
+      "target": [
+        {
+          "text": "Lleva una gorra azul.",
+          "audioSlug": "lleva_una_gorra_azul"
+        }
+      ]
+    },
+    "es.vestimenta_los_calcetines_son_blancos": {
+      "conceptId": "es.vestimenta_los_calcetines_son_blancos",
+      "id": "vestimenta_los_calcetines_son_blancos",
+      "target": [
+        {
+          "text": "Los calcetines son blancos.",
+          "audioSlug": "los_calcetines_son_blancos"
+        }
+      ]
+    },
+    "es.weather_en_verano_hace_sol": {
+      "conceptId": "es.weather_en_verano_hace_sol",
+      "id": "weather_en_verano_hace_sol",
+      "target": [
+        {
+          "text": "En verano hace sol.",
+          "audioSlug": "en_verano_hace_sol"
+        }
+      ]
+    }
+  }
+}

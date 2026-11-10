@@ -1,58 +1,670 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "movies",
-  "conceptIds": [
-    "es.movies_bad_ending",
-    "es.movies_go_cinema_weekend",
-    "es.movies_good_actor",
-    "es.movies_watching_netflix_series",
-    "es.movies_good_movie_recommend",
-    "es.movies_seen_horror_movie",
-    "es.movies_looking_new_series",
-    "es.movies_classic_movie",
-    "es.movies_new_director_movie",
-    "es.movies_disappointed_last_season",
-    "es.movies_seen_latest_episode",
-    "es.movies_dont_understand_popularity",
-    "es.movies_series_recommendation",
-    "es.movies_seen_new_trailer",
-    "es.movies_prefer_cinema_home",
-    "es.movies_film_festival_city",
-    "es.movies_what_time_starts",
-    "es.movies_documentary_streaming",
-    "es.movies_special_effects_incredible",
-    "es.movies_binge_watching_cant_stop",
-    "es.movies_midnight_premiere_sells_out",
-    "es.movies_prefer_thrillers_not_action",
-    "es.movies_sequel_live_up_original",
-    "es.movies_prefer_subtitles_dubbing",
-    "es.movies_soundtrack_adds_atmosphere",
-    "es.movies_casting_was_perfect_choice",
-    "es.movies_streaming_release_instead_theaters",
-    "es.movies_nominated_best_foreign_film",
-    "es.movies_character_motivations_hard_to_believe",
-    "es.movies_unexpected_twist_ending",
-    "es.movies_second_half_pacing_rushed",
-    "es.movies_book_adaptation_missing_scenes",
-    "es.movies_previous_film_more_compelling",
-    "es.movies_oscars_best_picture_overhyped",
-    "es.movies_unreliable_narrator_keeps_guessing",
-    "es.movies_subtext_more_powerful_than_dialogue",
-    "es.movies_character_arc_fully_earned",
-    "es.movies_editing_creates_tension",
-    "es.movies_nonlinear_storytelling_effective",
-    "es.movies_performances_script_characters",
-    "es.movies_cinematography_worth_watching",
-    "es.movies_two_tickets",
-    "es.movies_whats_showing",
-    "es.movies_dubbed_or_subtitled",
-    "es.movies_what_kind_you_like",
-    "es.movies_favorite_movie",
-    "es.movies_its_a_comedy",
-    "es.movies_want_to_watch_tonight",
-    "es.movies_where_buy_tickets",
-    "es.movies_original_version_subtitles",
-    "es.movies_me_gusto_el_programa"
+  "phrases": [
+    {
+      "conceptId": "es.movies_bad_ending",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3e04e31291b49756"
+    },
+    {
+      "conceptId": "es.movies_go_cinema_weekend",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b599a2012290c4c1"
+    },
+    {
+      "conceptId": "es.movies_good_actor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.49b80f74ce0001bd"
+    },
+    {
+      "conceptId": "es.movies_watching_netflix_series",
+      "level": "A2",
+      "grammar": "'Estás viendo' usa estar + gerundio, reservado para acciones en curso, no planes futuros.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.dbf91a760eb132b3"
+    },
+    {
+      "conceptId": "es.movies_good_movie_recommend",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6743293a6ab5f593"
+    },
+    {
+      "conceptId": "es.movies_seen_horror_movie",
+      "level": "A2",
+      "grammar": "'Ya viste' usa el pretérito indefinido donde el inglés usaría el presente perfecto.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2fd940862fbf1cef"
+    },
+    {
+      "conceptId": "es.movies_looking_new_series",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.806f25edbad1eff6"
+    },
+    {
+      "conceptId": "es.movies_classic_movie",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bb2f83d30e85fa54"
+    },
+    {
+      "conceptId": "es.movies_new_director_movie",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fe1956240c62028e"
+    },
+    {
+      "conceptId": "es.movies_disappointed_last_season",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b83e96da476e16f3"
+    },
+    {
+      "conceptId": "es.movies_seen_latest_episode",
+      "level": "A2",
+      "grammar": "'Ya + pretérito' expresa una acción completada donde el inglés usaría el presente perfecto.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a3f94d7be045c556"
+    },
+    {
+      "conceptId": "es.movies_dont_understand_popularity",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.39aec32f0ba58584"
+    },
+    {
+      "conceptId": "es.movies_series_recommendation",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2de230c1cb38be84"
+    },
+    {
+      "conceptId": "es.movies_seen_new_trailer",
+      "level": "A2",
+      "grammar": "'Ya + pretérito' expresa una acción completada donde el inglés usaría el presente perfecto.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1a6a2dce041ed250"
+    },
+    {
+      "conceptId": "es.movies_prefer_cinema_home",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.caa1c0e405e62b6d"
+    },
+    {
+      "conceptId": "es.movies_film_festival_city",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6e5152978aebd12d"
+    },
+    {
+      "conceptId": "es.movies_what_time_starts",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9adc32ab7507ab0c"
+    },
+    {
+      "conceptId": "es.movies_documentary_streaming",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.078c688fc29677dc"
+    },
+    {
+      "conceptId": "es.movies_special_effects_incredible",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.29dd522b21ef21de"
+    },
+    {
+      "conceptId": "es.movies_binge_watching_cant_stop",
+      "level": "B1",
+      "grammar": "'Llevo + tiempo + gerundio' expresa duración hasta el presente; equivale al present perfect continuous.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.072e46aae85e8ac0"
+    },
+    {
+      "conceptId": "es.movies_midnight_premiere_sells_out",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4b6fc2df59915f36"
+    },
+    {
+      "conceptId": "es.movies_prefer_thrillers_not_action",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.53d0df96aa276810"
+    },
+    {
+      "conceptId": "es.movies_sequel_live_up_original",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e48ee1b74c28d6ee"
+    },
+    {
+      "conceptId": "es.movies_prefer_subtitles_dubbing",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2c1f365695002617"
+    },
+    {
+      "conceptId": "es.movies_soundtrack_adds_atmosphere",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2ab34f25f89f5b41"
+    },
+    {
+      "conceptId": "es.movies_casting_was_perfect_choice",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.aa49fd4e79e4c939"
+    },
+    {
+      "conceptId": "es.movies_streaming_release_instead_theaters",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.27c66f98dc648f2a"
+    },
+    {
+      "conceptId": "es.movies_nominated_best_foreign_film",
+      "level": "B2",
+      "grammar": "'Ha sido nominada' usa la pasiva perifrástica en pretérito perfecto; el agente no se menciona.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.379ffa3a89e40713"
+    },
+    {
+      "conceptId": "es.movies_character_motivations_hard_to_believe",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.15cd0067aab971b5"
+    },
+    {
+      "conceptId": "es.movies_unexpected_twist_ending",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d7f6fe7a8f113678"
+    },
+    {
+      "conceptId": "es.movies_second_half_pacing_rushed",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9f0ba9f9772d81f1"
+    },
+    {
+      "conceptId": "es.movies_book_adaptation_missing_scenes",
+      "level": "B2",
+      "grammar": "'Me decepcionó que + subjuntivo' expresa reacción emocional; el verbo de emoción activa el subjuntivo.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c9eada54d63d9966"
+    },
+    {
+      "conceptId": "es.movies_previous_film_more_compelling",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e361538bebda9664"
+    },
+    {
+      "conceptId": "es.movies_oscars_best_picture_overhyped",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8efd7c9073edc8ab"
+    },
+    {
+      "conceptId": "es.movies_unreliable_narrator_keeps_guessing",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5cf24ffa16b18a3e"
+    },
+    {
+      "conceptId": "es.movies_subtext_more_powerful_than_dialogue",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.82bc69e0bd264bf6"
+    },
+    {
+      "conceptId": "es.movies_character_arc_fully_earned",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.686a3c642590e4e2"
+    },
+    {
+      "conceptId": "es.movies_editing_creates_tension",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.61a551ab29b4c92d"
+    },
+    {
+      "conceptId": "es.movies_nonlinear_storytelling_effective",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e3421416b03ed90a"
+    },
+    {
+      "conceptId": "es.movies_performances_script_characters",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e2749fc2601d52b8"
+    },
+    {
+      "conceptId": "es.movies_cinematography_worth_watching",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c37eeb54c2f0daea"
+    },
+    {
+      "conceptId": "es.movies_two_tickets",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e2c8976e36b12b5e"
+    },
+    {
+      "conceptId": "es.movies_whats_showing",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9bc01b62f2f091ff"
+    },
+    {
+      "conceptId": "es.movies_dubbed_or_subtitled",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.234f62ff38477c3c"
+    },
+    {
+      "conceptId": "es.movies_what_kind_you_like",
+      "level": "A1",
+      "grammar": "Gustar concuerda con lo que gusta: me gusta la película, me gustan las películas.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ca5cce0367952029"
+    },
+    {
+      "conceptId": "es.movies_favorite_movie",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.48ff820678fa1ba0"
+    },
+    {
+      "conceptId": "es.movies_its_a_comedy",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7b3896ce9103a1a4"
+    },
+    {
+      "conceptId": "es.movies_want_to_watch_tonight",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4272edf7d80ba9c6"
+    },
+    {
+      "conceptId": "es.movies_where_buy_tickets",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a030aa3ecb3ebad8"
+    },
+    {
+      "conceptId": "es.movies_original_version_subtitles",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f790b02ccb48db05"
+    },
+    {
+      "conceptId": "es.movies_me_gusto_el_programa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.718a8f524f523a63"
+    }
   ]
 }

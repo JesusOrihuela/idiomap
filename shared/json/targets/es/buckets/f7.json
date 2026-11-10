@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "f7",
+  "concepts": {
+    "es.airport_flight_departure_time": {
+      "conceptId": "es.airport_flight_departure_time",
+      "id": "airport_flight_departure_time",
+      "target": [
+        {
+          "text": "¿A qué hora sale nuestro vuelo?",
+          "audioSlug": "a_que_hora_sale_nuestro_vuelo"
+        }
+      ]
+    },
+    "es.calendario_durante_las_vacaciones_descanso": {
+      "conceptId": "es.calendario_durante_las_vacaciones_descanso",
+      "id": "calendario_durante_las_vacaciones_descanso",
+      "target": [
+        {
+          "text": "Durante las vacaciones descanso mucho.",
+          "audioSlug": "durante_las_vacaciones_descanso_mucho"
+        }
+      ]
+    },
+    "es.calendario_falta_poco_para_las_vacaciones": {
+      "conceptId": "es.calendario_falta_poco_para_las_vacaciones",
+      "id": "calendario_falta_poco_para_las_vacaciones",
+      "target": [
+        {
+          "text": "Falta poco para las vacaciones.",
+          "audioSlug": "falta_poco_para_las_vacaciones"
+        }
+      ]
+    },
+    "es.conversacion_es_dificil_elegir_entre_los_dos": {
+      "conceptId": "es.conversacion_es_dificil_elegir_entre_los_dos",
+      "id": "conversacion_es_dificil_elegir_entre_los_dos",
+      "target": [
+        {
+          "text": "Es difícil elegir entre los dos.",
+          "audioSlug": "es_dificil_elegir_entre_los_dos"
+        }
+      ]
+    },
+    "es.cuerpo_tengo_las_piernas_largas": {
+      "conceptId": "es.cuerpo_tengo_las_piernas_largas",
+      "id": "cuerpo_tengo_las_piernas_largas",
+      "target": [
+        {
+          "text": "Tengo las piernas largas.",
+          "audioSlug": "tengo_las_piernas_largas"
+        }
+      ]
+    },
+    "es.daily_routine_me_ducho_antes_de_desayunar": {
+      "conceptId": "es.daily_routine_me_ducho_antes_de_desayunar",
+      "id": "daily_routine_me_ducho_antes_de_desayunar",
+      "target": [
+        {
+          "text": "Me ducho antes de desayunar.",
+          "audioSlug": "me_ducho_antes_de_desayunar"
+        }
+      ]
+    },
+    "es.family_en_navidad_visitamos_a_los_abuelos": {
+      "conceptId": "es.family_en_navidad_visitamos_a_los_abuelos",
+      "id": "family_en_navidad_visitamos_a_los_abuelos",
+      "target": [
+        {
+          "text": "En Navidad visitamos a los abuelos.",
+          "audioSlug": "en_navidad_visitamos_a_los_abuelos"
+        }
+      ]
+    },
+    "es.health_debes_descansar_y_beber_agua": {
+      "conceptId": "es.health_debes_descansar_y_beber_agua",
+      "id": "health_debes_descansar_y_beber_agua",
+      "target": [
+        {
+          "text": "Debes descansar y beber agua.",
+          "audioSlug": "debes_descansar_y_beber_agua"
+        }
+      ]
+    },
+    "es.hogar_la_cocina_siempre_esta_limpia": {
+      "conceptId": "es.hogar_la_cocina_siempre_esta_limpia",
+      "id": "hogar_la_cocina_siempre_esta_limpia",
+      "target": [
+        {
+          "text": "La cocina siempre está limpia.",
+          "audioSlug": "la_cocina_siempre_esta_limpia"
+        }
+      ]
+    },
+    "es.kitchen_before_cooking_pasta_we_have_to": {
+      "conceptId": "es.kitchen_before_cooking_pasta_we_have_to",
+      "id": "kitchen_before_cooking_pasta_we_have_to",
+      "target": [
+        {
+          "text": "Antes de cocer pasta tenemos que esperar a que el agua empiece a hervir.",
+          "audioSlug": "antes_de_cocer_pasta_tenemos_que_esperar_a_que_el_agua_empiece_a_hervir"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_hay_que_valorar_lo_que_tenemos": {
+      "conceptId": "es.pensamientos_opiniones_hay_que_valorar_lo_que_tenemos",
+      "id": "pensamientos_opiniones_hay_que_valorar_lo_que_tenemos",
+      "target": [
+        {
+          "text": "Hay que valorar lo que tenemos.",
+          "audioSlug": "hay_que_valorar_lo_que_tenemos"
+        }
+      ]
+    },
+    "es.sitios_la_comisaria_de_policia_esta_cerca": {
+      "conceptId": "es.sitios_la_comisaria_de_policia_esta_cerca",
+      "id": "sitios_la_comisaria_de_policia_esta_cerca",
+      "target": [
+        {
+          "text": "La comisaría de policía está cerca.",
+          "audioSlug": "la_comisaria_de_policia_esta_cerca"
+        }
+      ]
+    },
+    "es.tiempo_libre_me_gusta_la_literatura": {
+      "conceptId": "es.tiempo_libre_me_gusta_la_literatura",
+      "id": "tiempo_libre_me_gusta_la_literatura",
+      "target": [
+        {
+          "text": "Me gusta la literatura clásica.",
+          "audioSlug": "me_gusta_la_literatura_clasica"
+        }
+      ]
+    },
+    "es.tiempo_libre_me_relaja_dibujar_por_las_tardes": {
+      "conceptId": "es.tiempo_libre_me_relaja_dibujar_por_las_tardes",
+      "id": "tiempo_libre_me_relaja_dibujar_por_las_tardes",
+      "target": [
+        {
+          "text": "Me relaja dibujar por las tardes.",
+          "audioSlug": "me_relaja_dibujar_por_las_tardes"
+        }
+      ]
+    },
+    "es.tiempo_libre_no_se_me_da_mal_el_ajedrez": {
+      "conceptId": "es.tiempo_libre_no_se_me_da_mal_el_ajedrez",
+      "id": "tiempo_libre_no_se_me_da_mal_el_ajedrez",
+      "target": [
+        {
+          "text": "No se me da mal el ajedrez.",
+          "audioSlug": "no_se_me_da_mal_el_ajedrez"
+        }
+      ]
+    },
+    "es.weather_en_el_desierto_casi_nunca_llueve": {
+      "conceptId": "es.weather_en_el_desierto_casi_nunca_llueve",
+      "id": "weather_en_el_desierto_casi_nunca_llueve",
+      "target": [
+        {
+          "text": "En el desierto casi nunca llueve.",
+          "audioSlug": "en_el_desierto_casi_nunca_llueve"
+        }
+      ]
+    }
+  }
+}

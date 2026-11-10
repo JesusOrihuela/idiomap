@@ -67,17 +67,7 @@ for (const id of scopePhrase.keys()) if (!phraseTopics.has(id)) fail(`scope phra
 for (const id of vocabDecks) if (!scopeVocab.has(id)) fail(`vocab deck "${id}" has content but NO scope in category-scopes.json`);
 for (const id of scopeVocab.keys()) if (!vocabDecks.has(id)) fail(`scope vocab:"${id}" has no matching vocab deck (orphan scope)`);
 
-// 3. phrase id prefix convention
-for (const pair of pairs) {
-  const tj = JSON.parse(fs.readFileSync(path.join(PAIRS_DIR, pair, 'topics.json'), 'utf8'));
-  for (const t of tj.topics.filter(x => x.phrase)) {
-    let data;
-    try { data = loadTopic(pair, t.id); } catch { continue; }
-    const phrases = data.phrases || [];
-    for (const p of phrases)
-      if (!p.id.startsWith(t.id + '_')) fail(`${pair}/${t.id}: phrase id "${p.id}" does not start with "${t.id}_"`);
-  }
-}
+// Stable IDs do not encode their topic: membership lives in content/<topic>.json.
 
 console.log(`Taxonomía: ${scopePhrase.size} scopes de frase, ${scopeVocab.size} de vocab; contenido: ${phraseTopics.size} topics, ${vocabDecks.size} mazos.`);
 if (fails.length) {

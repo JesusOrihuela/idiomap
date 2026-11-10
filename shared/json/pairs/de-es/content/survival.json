@@ -1,29 +1,293 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "survival",
-  "conceptIds": [
-    "es.survival_can_you_repeat.de-es",
-    "es.survival_i_dont_understand",
-    "es.survival_how_do_you_say_this_in_spanish",
-    "es.survival_what_does_this_mean",
-    "es.survival_can_you_help_me",
-    "es.survival_i_dont_know.de-es",
-    "es.survival_speak_more_slowly",
-    "es.survival_where_is_the_bathroom",
-    "es.survival_disculpe_usted_habla_ingles",
-    "es.survival_como_se_escribe_tu_nombre",
-    "es.survival_asi_se_dice_en_espanol",
-    "es.survival_me_lo_puede_explicar_de_otra_manera",
-    "es.survival_necesito_practicar_mas_el_espanol",
-    "es.survival_que_quiere_decir_esta_palabra",
-    "es.survival_hay_alguien_que_hable_aleman",
-    "es.survival_perdon_no_comprendo_la_pregunta",
-    "es.survival_no_quiero_ocupar_mucho_de_tu_tiempo",
-    "es.survival_donde_puedo_comprar_una_entrada",
-    "es.survival_me_puede_situar_en_el_mapa",
-    "es.survival_me_puede_mandar_la_informacion_por_correo",
-    "es.survival_necesito_consultar_el_horario_del_tren",
-    "es.survival_tengo_que_devolver_este_libro_hoy"
+  "phrases": [
+    {
+      "conceptId": "es.survival_can_you_repeat.de-es",
+      "level": "A1",
+      "grammar": "Con usted se conjuga en tercera persona, puede repetir.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7aad85acee4b920c"
+    },
+    {
+      "conceptId": "es.survival_i_dont_understand",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a833c555cd1a1500"
+    },
+    {
+      "conceptId": "es.survival_how_do_you_say_this_in_spanish",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.18637e90445c03b6"
+    },
+    {
+      "conceptId": "es.survival_what_does_this_mean",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3b5e4b2e5a502dfd"
+    },
+    {
+      "conceptId": "es.survival_can_you_help_me",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1d5b4938d197f125"
+    },
+    {
+      "conceptId": "es.survival_i_dont_know.de-es",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ed05194c1f5e7780"
+    },
+    {
+      "conceptId": "es.survival_speak_more_slowly",
+      "level": "A2",
+      "grammar": "El imperativo con usted usa la forma hable, no habla.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.07ac6d6be5640762"
+    },
+    {
+      "conceptId": "es.survival_where_is_the_bathroom",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.89d9cec1f1047bd2"
+    },
+    {
+      "conceptId": "es.survival_disculpe_usted_habla_ingles",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c0fff9512dbb5551"
+    },
+    {
+      "conceptId": "es.survival_como_se_escribe_tu_nombre",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4e17de8f613fd4d6"
+    },
+    {
+      "conceptId": "es.survival_asi_se_dice_en_espanol",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d68ba63dd423457a"
+    },
+    {
+      "conceptId": "es.survival_me_lo_puede_explicar_de_otra_manera",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4fd0e2b1475060f9"
+    },
+    {
+      "conceptId": "es.survival_necesito_practicar_mas_el_espanol",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a62a133915af64a4"
+    },
+    {
+      "conceptId": "es.survival_que_quiere_decir_esta_palabra",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.19f24ac32f17f09b"
+    },
+    {
+      "conceptId": "es.survival_hay_alguien_que_hable_aleman",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.acb0cde4a2bc0917"
+    },
+    {
+      "conceptId": "es.survival_perdon_no_comprendo_la_pregunta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.981b7683439c6000"
+    },
+    {
+      "conceptId": "es.survival_no_quiero_ocupar_mucho_de_tu_tiempo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.12670c5db9f08373"
+    },
+    {
+      "conceptId": "es.survival_donde_puedo_comprar_una_entrada",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c430231423a12cfc"
+    },
+    {
+      "conceptId": "es.survival_me_puede_situar_en_el_mapa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d2ee7d6c64b0e1b8"
+    },
+    {
+      "conceptId": "es.survival_me_puede_mandar_la_informacion_por_correo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e9e3787c4f93b895"
+    },
+    {
+      "conceptId": "es.survival_necesito_consultar_el_horario_del_tren",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.136564fdced9b56a"
+    },
+    {
+      "conceptId": "es.survival_tengo_que_devolver_este_libro_hoy",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.691c1d508b137825"
+    }
   ]
 }

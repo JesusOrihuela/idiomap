@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "7e",
+  "concepts": {
+    "es.airport_el_vuelo_esta_retrasado": {
+      "conceptId": "es.airport_el_vuelo_esta_retrasado",
+      "id": "airport_el_vuelo_esta_retrasado",
+      "target": [
+        {
+          "text": "El vuelo está retrasado.",
+          "audioSlug": "el_vuelo_esta_retrasado"
+        }
+      ]
+    },
+    "es.daily_routine_los_ninos_deben_acostarse_pronto": {
+      "conceptId": "es.daily_routine_los_ninos_deben_acostarse_pronto",
+      "id": "daily_routine_los_ninos_deben_acostarse_pronto",
+      "target": [
+        {
+          "text": "Los niños deben acostarse pronto.",
+          "audioSlug": "los_ninos_deben_acostarse_pronto"
+        }
+      ]
+    },
+    "es.estudios_cada_estudiante_tiene_un_horario": {
+      "conceptId": "es.estudios_cada_estudiante_tiene_un_horario",
+      "id": "estudios_cada_estudiante_tiene_un_horario",
+      "target": [
+        {
+          "text": "Cada estudiante tiene un horario diferente.",
+          "audioSlug": "cada_estudiante_tiene_un_horario_diferente"
+        }
+      ]
+    },
+    "es.family_el_bebe_esta_dormido": {
+      "conceptId": "es.family_el_bebe_esta_dormido",
+      "id": "family_el_bebe_esta_dormido",
+      "target": [
+        {
+          "text": "El bebé está dormido.",
+          "audioSlug": "el_bebe_esta_dormido"
+        }
+      ]
+    },
+    "es.family_mi_mama_cocina_muy_bien": {
+      "conceptId": "es.family_mi_mama_cocina_muy_bien",
+      "id": "family_mi_mama_cocina_muy_bien",
+      "target": [
+        {
+          "text": "Mi mamá cocina muy bien.",
+          "audioSlug": "mi_mama_cocina_muy_bien"
+        }
+      ]
+    },
+    "es.hogar_guardo_la_ropa_en_el_armario": {
+      "conceptId": "es.hogar_guardo_la_ropa_en_el_armario",
+      "id": "hogar_guardo_la_ropa_en_el_armario",
+      "target": [
+        {
+          "text": "Guardo la ropa en el armario.",
+          "audioSlug": "guardo_la_ropa_en_el_armario"
+        }
+      ]
+    },
+    "es.movies_disappointed_last_season": {
+      "conceptId": "es.movies_disappointed_last_season",
+      "id": "movies_disappointed_last_season",
+      "target": [
+        {
+          "text": "La última temporada de esa serie me decepcionó.",
+          "audioSlug": "la_ultima_temporada_de_esa_serie_me_decepciono"
+        }
+      ]
+    },
+    "es.supermarket_los_platanos_estan_muy_maduros": {
+      "conceptId": "es.supermarket_los_platanos_estan_muy_maduros",
+      "id": "supermarket_los_platanos_estan_muy_maduros",
+      "target": [
+        {
+          "text": "Los plátanos están muy maduros.",
+          "audioSlug": "los_platanos_estan_muy_maduros"
+        }
+      ]
+    },
+    "es.technology_can_you_help_me_set_up": {
+      "conceptId": "es.technology_can_you_help_me_set_up",
+      "id": "technology_can_you_help_me_set_up",
+      "target": [
+        {
+          "text": "¿Puedes ayudarme a configurar mi nueva impresora?",
+          "audioSlug": "puedes_ayudarme_a_configurar_mi_nueva_impresora",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Puede ayudarme a configurar mi nueva impresora?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_ayudarme_a_configurar_mi_nueva_impresora"
+        }
+      ]
+    }
+  }
+}

@@ -1,26 +1,254 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "museums",
-  "conceptIds": [
-    "es.museums_art_exhibition_invite",
-    "es.museums_photography_exhibition",
-    "es.museums_visit_new_museum",
-    "es.museums_contemporary_art_museum",
-    "es.museums_arrive_early_installation",
-    "es.museums_exhibition_accessible_multiple_levels",
-    "es.museums_museum_retrospective_evolution",
-    "es.museums_how_much_admission",
-    "es.museums_can_i_take_photos",
-    "es.museums_where_is_exhibition",
-    "es.museums_audio_guide",
-    "es.museums_gift_shop",
-    "es.museums_what_time_close",
-    "es.museums_free_admission",
-    "es.museums_i_love_this_painting",
-    "es.museums_who_painted_this",
-    "es.museums_guided_tour",
-    "es.museums_which_floor",
-    "es.museums_es_un_cuadro_bello"
+  "phrases": [
+    {
+      "conceptId": "es.museums_art_exhibition_invite",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0a7a34735561b982"
+    },
+    {
+      "conceptId": "es.museums_photography_exhibition",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.12d361771d4cbc09"
+    },
+    {
+      "conceptId": "es.museums_visit_new_museum",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.89e27b4ed79eb344"
+    },
+    {
+      "conceptId": "es.museums_contemporary_art_museum",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d0b1ae859fc58806"
+    },
+    {
+      "conceptId": "es.museums_arrive_early_installation",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ad287e2e83e7d69e"
+    },
+    {
+      "conceptId": "es.museums_exhibition_accessible_multiple_levels",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.06f54a6a823d8947"
+    },
+    {
+      "conceptId": "es.museums_museum_retrospective_evolution",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.19df872abebfb06c"
+    },
+    {
+      "conceptId": "es.museums_how_much_admission",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.11e8be90e177b808"
+    },
+    {
+      "conceptId": "es.museums_can_i_take_photos",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.37784a037e98d7df"
+    },
+    {
+      "conceptId": "es.museums_where_is_exhibition",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b53605e7c6df7648"
+    },
+    {
+      "conceptId": "es.museums_audio_guide",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.706e3c3c659f4ac3"
+    },
+    {
+      "conceptId": "es.museums_gift_shop",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a4b60a4c955998cd"
+    },
+    {
+      "conceptId": "es.museums_what_time_close",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0470d7036eee030c"
+    },
+    {
+      "conceptId": "es.museums_free_admission",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.781007ac3bbe9cbe"
+    },
+    {
+      "conceptId": "es.museums_i_love_this_painting",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d9219788e879d0ea"
+    },
+    {
+      "conceptId": "es.museums_who_painted_this",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.db6ba6e43c7d9014"
+    },
+    {
+      "conceptId": "es.museums_guided_tour",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.42731c85d7777180"
+    },
+    {
+      "conceptId": "es.museums_which_floor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b096490f68871b2e"
+    },
+    {
+      "conceptId": "es.museums_es_un_cuadro_bello",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9067ecb766d20904"
+    }
   ]
 }

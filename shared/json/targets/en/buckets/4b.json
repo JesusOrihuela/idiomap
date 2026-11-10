@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "4b",
+  "concepts": {
+    "en.accommodation_checkin_time": {
+      "conceptId": "en.accommodation_checkin_time",
+      "id": "accommodation_checkin_time",
+      "target": [
+        {
+          "text": "What time is check-in?",
+          "audioSlug": "what_time_is_check_in"
+        }
+      ]
+    },
+    "en.airport_where_boarding_pass": {
+      "conceptId": "en.airport_where_boarding_pass",
+      "id": "airport_where_boarding_pass",
+      "target": [
+        {
+          "text": "Where do I get my boarding pass?",
+          "audioSlug": "where_do_i_get_my_boarding_pass"
+        }
+      ]
+    },
+    "en.cuerpo_the_teeth_are_white": {
+      "conceptId": "en.cuerpo_the_teeth_are_white",
+      "id": "cuerpo_the_teeth_are_white",
+      "target": [
+        {
+          "text": "The teeth are white.",
+          "audioSlug": "the_teeth_are_white"
+        }
+      ]
+    },
+    "en.describiendo_personas_he_is_a_kind_man": {
+      "conceptId": "en.describiendo_personas_he_is_a_kind_man",
+      "id": "describiendo_personas_he_is_a_kind_man",
+      "target": [
+        {
+          "text": "He is a kind man.",
+          "audioSlug": "he_is_a_kind_man"
+        }
+      ]
+    },
+    "en.emociones_im_scared": {
+      "conceptId": "en.emociones_im_scared",
+      "id": "emociones_im_scared",
+      "target": [
+        {
+          "text": "I'm scared.",
+          "audioSlug": "i_m_scared"
+        }
+      ]
+    },
+    "en.family_my_older_brother": {
+      "conceptId": "en.family_my_older_brother",
+      "id": "family_my_older_brother",
+      "target": [
+        {
+          "text": "This is my older brother.",
+          "audioSlug": "this_is_my_older_brother"
+        }
+      ]
+    },
+    "en.kitchen_dry_the_sink_after_washing_the": {
+      "conceptId": "en.kitchen_dry_the_sink_after_washing_the",
+      "id": "kitchen_dry_the_sink_after_washing_the",
+      "target": [
+        {
+          "text": "Dry the sink after washing the dishes.",
+          "audioSlug": "dry_the_sink_after_washing_the_dishes"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_it_can_occur_again": {
+      "conceptId": "en.pensamientos_opiniones_it_can_occur_again",
+      "id": "pensamientos_opiniones_it_can_occur_again",
+      "target": [
+        {
+          "text": "It can occur again.",
+          "audioSlug": "it_can_occur_again"
+        }
+      ]
+    },
+    "en.supermarket_this_supermarket_is_very_expensive_lets": {
+      "conceptId": "en.supermarket_this_supermarket_is_very_expensive_lets",
+      "id": "supermarket_this_supermarket_is_very_expensive_lets",
+      "target": [
+        {
+          "text": "This supermarket is too expensive, let's go elsewhere.",
+          "audioSlug": "this_supermarket_is_too_expensive_let_s_go_elsewhere"
+        }
+      ]
+    },
+    "en.technology_what_cell_phone_do_you_recommend": {
+      "conceptId": "en.technology_what_cell_phone_do_you_recommend",
+      "id": "technology_what_cell_phone_do_you_recommend",
+      "target": [
+        {
+          "text": "What cell phone do you recommend?",
+          "audioSlug": "what_cell_phone_do_you_recommend"
+        }
+      ]
+    },
+    "en.transportation_i_missed_the_bus": {
+      "conceptId": "en.transportation_i_missed_the_bus",
+      "id": "transportation_i_missed_the_bus",
+      "target": [
+        {
+          "text": "I missed the bus.",
+          "audioSlug": "i_missed_the_bus"
+        }
+      ]
+    },
+    "en.vestimenta_can_i_try_on_this_jacket": {
+      "conceptId": "en.vestimenta_can_i_try_on_this_jacket",
+      "id": "vestimenta_can_i_try_on_this_jacket",
+      "target": [
+        {
+          "text": "Can I try on this jacket?",
+          "audioSlug": "can_i_try_on_this_jacket"
+        }
+      ]
+    }
+  }
+}

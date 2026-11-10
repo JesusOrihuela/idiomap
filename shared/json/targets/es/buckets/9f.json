@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "9f",
+  "concepts": {
+    "es.greetings_good_afternoon_hows_life_treating_you": {
+      "conceptId": "es.greetings_good_afternoon_hows_life_treating_you",
+      "id": "greetings_good_afternoon_hows_life_treating_you",
+      "target": [
+        {
+          "text": "Buenas tardes, ¿cómo te trata la vida?",
+          "audioSlug": "buenas_tardes_como_te_trata_la_vida"
+        }
+      ]
+    },
+    "es.greetings_see_you_later": {
+      "conceptId": "es.greetings_see_you_later",
+      "id": "greetings_see_you_later",
+      "target": [
+        {
+          "text": "Hasta luego.",
+          "audioSlug": "hasta_luego"
+        }
+      ]
+    },
+    "es.gym_could_you_explain_the_benefits_of": {
+      "conceptId": "es.gym_could_you_explain_the_benefits_of",
+      "id": "gym_could_you_explain_the_benefits_of",
+      "target": [
+        {
+          "text": "¿Podrías explicarme los beneficios de usar pesas?",
+          "audioSlug": "podrias_explicarme_los_beneficios_de_usar_pesas"
+        }
+      ]
+    },
+    "es.health_necesito_descansar": {
+      "conceptId": "es.health_necesito_descansar",
+      "id": "health_necesito_descansar",
+      "target": [
+        {
+          "text": "Necesito descansar.",
+          "audioSlug": "necesito_descansar"
+        }
+      ]
+    },
+    "es.kitchen_the_toaster_is_on_the_table": {
+      "conceptId": "es.kitchen_the_toaster_is_on_the_table",
+      "id": "kitchen_the_toaster_is_on_the_table",
+      "target": [
+        {
+          "text": "La tostadora está en la mesa.",
+          "audioSlug": "la_tostadora_esta_en_la_mesa"
+        }
+      ]
+    }
+  }
+}

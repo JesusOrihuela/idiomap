@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "de",
+  "concepts": {
+    "es.economia_la_propietaria_vive_arriba": {
+      "conceptId": "es.economia_la_propietaria_vive_arriba",
+      "id": "economia_la_propietaria_vive_arriba",
+      "target": [
+        {
+          "text": "La propietaria vive arriba.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Eigentümerin wohnt oben.",
+          "audioSlug": "la_propietaria_vive_arriba"
+        },
+        {
+          "text": "El propietario vive arriba.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Eigentümer wohnt oben.",
+          "audioSlug": "el_propietario_vive_arriba"
+        }
+      ]
+    },
+    "es.estudios_este_tema_es_mas_dificil_que_el_anterior": {
+      "conceptId": "es.estudios_este_tema_es_mas_dificil_que_el_anterior",
+      "id": "estudios_este_tema_es_mas_dificil_que_el_anterior",
+      "target": [
+        {
+          "text": "Este tema es más difícil que el anterior.",
+          "audioSlug": "este_tema_es_mas_dificil_que_el_anterior"
+        }
+      ]
+    },
+    "es.hogar_tengo_que_ordenar_mi_cuarto": {
+      "conceptId": "es.hogar_tengo_que_ordenar_mi_cuarto",
+      "id": "hogar_tengo_que_ordenar_mi_cuarto",
+      "target": [
+        {
+          "text": "Tengo que ordenar mi cuarto.",
+          "audioSlug": "tengo_que_ordenar_mi_cuarto"
+        }
+      ]
+    },
+    "es.museums_guided_tour": {
+      "conceptId": "es.museums_guided_tour",
+      "id": "museums_guided_tour",
+      "target": [
+        {
+          "text": "¿Hay visita guiada?",
+          "audioSlug": "hay_visita_guiada"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_volvera_a_crecer": {
+      "conceptId": "es.naturaleza_lugares_volvera_a_crecer",
+      "id": "naturaleza_lugares_volvera_a_crecer",
+      "target": [
+        {
+          "text": "Volverá a crecer.",
+          "audioSlug": "volvera_a_crecer"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_in_my_opinion_this_is_important": {
+      "conceptId": "es.pensamientos_opiniones_in_my_opinion_this_is_important",
+      "id": "pensamientos_opiniones_in_my_opinion_this_is_important",
+      "target": [
+        {
+          "text": "En mi opinión, esto es importante.",
+          "audioSlug": "en_mi_opinion_esto_es_importante"
+        }
+      ]
+    },
+    "es.planes_ojala_pueda_descansar_pronto": {
+      "conceptId": "es.planes_ojala_pueda_descansar_pronto",
+      "id": "planes_ojala_pueda_descansar_pronto",
+      "target": [
+        {
+          "text": "Ojalá pueda descansar pronto.",
+          "audioSlug": "ojala_pueda_descansar_pronto"
+        }
+      ]
+    },
+    "es.restaurant_could_i_have_some_bread_while": {
+      "conceptId": "es.restaurant_could_i_have_some_bread_while",
+      "id": "restaurant_could_i_have_some_bread_while",
+      "target": [
+        {
+          "text": "¿Me traen pan mientras esperamos?",
+          "audioSlug": "me_traen_pan_mientras_esperamos"
+        }
+      ]
+    },
+    "es.technology_lets_look_for_an_internet_tutorial": {
+      "conceptId": "es.technology_lets_look_for_an_internet_tutorial",
+      "id": "technology_lets_look_for_an_internet_tutorial",
+      "target": [
+        {
+          "text": "Busquemos un tutorial en internet para solucionar esto.",
+          "audioSlug": "busquemos_un_tutorial_en_internet_para_solucionar_esto"
+        }
+      ]
+    },
+    "es.technology_necesito_conectar_el_cable": {
+      "conceptId": "es.technology_necesito_conectar_el_cable",
+      "id": "technology_necesito_conectar_el_cable",
+      "target": [
+        {
+          "text": "Necesito conectar el cable.",
+          "audioSlug": "necesito_conectar_el_cable"
+        }
+      ]
+    },
+    "es.weather_la_tormenta_duro_toda_la_noche": {
+      "conceptId": "es.weather_la_tormenta_duro_toda_la_noche",
+      "id": "weather_la_tormenta_duro_toda_la_noche",
+      "target": [
+        {
+          "text": "La tormenta duró toda la noche.",
+          "audioSlug": "la_tormenta_duro_toda_la_noche"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "calendario",
+  "phrases": [
+    {
+      "id": "calendario_today_is_monday",
+      "conceptId": "es.calendario_today_is_monday",
+      "sourceId": "de.s.2276cfcdc6bdc206",
+      "source": "Heute ist Montag.",
+      "level": "A2",
+      "grammar": "En español los días van en minúscula, lunes.",
+      "target": [
+        {
+          "text": "Hoy es lunes.",
+          "audioSlug": "hoy_es_lunes"
+        }
+      ]
+    },
+    {
+      "id": "calendario_tomorrow_is_tuesday",
+      "conceptId": "es.calendario_tomorrow_is_tuesday",
+      "sourceId": "de.s.4e3854d25cf9a8b6",
+      "source": "Morgen ist Dienstag.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mañana es martes.",
+          "audioSlug": "manana_es_martes"
+        }
+      ]
+    },
+    {
+      "id": "calendario_what_day_is_today",
+      "conceptId": "es.calendario_what_day_is_today",
+      "sourceId": "de.s.4dbe4883fb31dc78",
+      "source": "Welcher Tag ist heute?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué día es hoy?",
+          "audioSlug": "que_dia_es_hoy"
+        }
+      ]
+    },
+    {
+      "id": "calendario_my_birthday_is_in_may",
+      "conceptId": "es.calendario_my_birthday_is_in_may",
+      "sourceId": "de.s.74c8d4e1ec3fd432",
+      "source": "Mein Geburtstag ist im Mai.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi cumpleaños es en mayo.",
+          "audioSlug": "mi_cumpleanos_es_en_mayo"
+        }
+      ]
+    },
+    {
+      "id": "calendario_we_meet_on_friday",
+      "conceptId": "es.calendario_we_meet_on_friday",
+      "sourceId": "de.s.91cc38cd3a7c9e82",
+      "source": "Wir treffen uns am Freitag.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nos vemos el viernes.",
+          "audioSlug": "nos_vemos_el_viernes"
+        }
+      ]
+    },
+    {
+      "id": "calendario_the_appointment_is_on_march_tenth",
+      "conceptId": "es.calendario_the_appointment_is_on_march_tenth",
+      "sourceId": "de.s.5c72f09238c42d6c",
+      "source": "Der Termin ist am zehnten März.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La cita es el diez de marzo.",
+          "audioSlug": "la_cita_es_el_diez_de_marzo"
+        }
+      ]
+    },
+    {
+      "id": "calendario_in_winter_its_cold",
+      "conceptId": "es.calendario_in_winter_its_cold",
+      "sourceId": "de.s.b14eb9c243260c0a",
+      "source": "Im Winter ist es kalt.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En invierno hace frío.",
+          "audioSlug": "en_invierno_hace_frio"
+        }
+      ]
+    },
+    {
+      "id": "calendario_next_week_i_have_vacation",
+      "conceptId": "es.calendario_next_week_i_have_vacation",
+      "sourceId": "de.s.3858a4495d160fb6",
+      "source": "Nächste Woche habe ich Urlaub.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La próxima semana tengo vacaciones.",
+          "audioSlug": "la_proxima_semana_tengo_vacaciones"
+        }
+      ]
+    },
+    {
+      "id": "calendario_la_fiesta_es_el_sabado_por_la_tarde",
+      "conceptId": "es.calendario_la_fiesta_es_el_sabado_por_la_tarde",
+      "sourceId": "de.s.c4657daefcfe00f3",
+      "source": "Die Party ist am Samstagnachmittag.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La fiesta es el sábado por la tarde.",
+          "audioSlug": "la_fiesta_es_el_sabado_por_la_tarde"
+        }
+      ]
+    },
+    {
+      "id": "calendario_el_ultimo_dia_del_mes_es_feriado",
+      "conceptId": "es.calendario_el_ultimo_dia_del_mes_es_feriado",
+      "sourceId": "de.s.c89c93591284d244",
+      "source": "Der letzte Tag des Monats ist ein Feiertag.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El último día del mes es feriado.",
+          "audioSlug": "el_ultimo_dia_del_mes_es_feriado"
+        }
+      ]
+    },
+    {
+      "id": "calendario_durante_las_vacaciones_descanso",
+      "conceptId": "es.calendario_durante_las_vacaciones_descanso",
+      "sourceId": "de.s.6f4a0881a77cfc24",
+      "source": "Während der Ferien ruhe ich mich viel aus.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Durante las vacaciones descanso mucho.",
+          "audioSlug": "durante_las_vacaciones_descanso_mucho"
+        }
+      ]
+    },
+    {
+      "id": "calendario_comemos_juntos_los_domingos",
+      "conceptId": "es.calendario_comemos_juntos_los_domingos",
+      "sourceId": "de.s.a474a6027878876f",
+      "source": "Wir essen jeden Sonntag zusammen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Comemos juntos todos los domingos.",
+          "audioSlug": "comemos_juntos_todos_los_domingos"
+        }
+      ]
+    },
+    {
+      "id": "calendario_nos_vemos_dentro_de_una_semana",
+      "conceptId": "es.calendario_nos_vemos_dentro_de_una_semana",
+      "sourceId": "de.s.ccf2e0ea8e436d76",
+      "source": "Wir sehen uns in einer Woche.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nos vemos dentro de una semana.",
+          "audioSlug": "nos_vemos_dentro_de_una_semana"
+        }
+      ]
+    },
+    {
+      "id": "calendario_falta_poco_para_las_vacaciones",
+      "conceptId": "es.calendario_falta_poco_para_las_vacaciones",
+      "sourceId": "de.s.bac35c936c59460d",
+      "source": "Es ist nicht mehr lange bis zu den Ferien.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Falta poco para las vacaciones.",
+          "audioSlug": "falta_poco_para_las_vacaciones"
+        }
+      ]
+    },
+    {
+      "id": "calendario_celebro_mi_cumpleanos_con_amigos",
+      "conceptId": "es.calendario_celebro_mi_cumpleanos_con_amigos",
+      "sourceId": "de.s.65282a6a8cf0eae3",
+      "source": "Ich feiere meinen Geburtstag immer mit Freunden.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Siempre celebro mi cumpleaños con amigos.",
+          "audioSlug": "siempre_celebro_mi_cumpleanos_con_amigos"
+        }
+      ]
+    },
+    {
+      "id": "calendario_hoy_es_un_dia_especial",
+      "conceptId": "es.calendario_hoy_es_un_dia_especial",
+      "sourceId": "de.s.37afc7bea98db291",
+      "source": "Heute ist ein sehr besonderer Tag.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hoy es un día muy especial.",
+          "audioSlug": "hoy_es_un_dia_muy_especial"
+        }
+      ]
+    },
+    {
+      "id": "calendario_el_fin_de_semana_es_corto",
+      "conceptId": "es.calendario_el_fin_de_semana_es_corto",
+      "sourceId": "de.s.9f2b7e4c6d8f6b6c",
+      "source": "Das Wochenende ist sehr kurz.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El fin de semana es muy corto.",
+          "audioSlug": "el_fin_de_semana_es_muy_corto"
+        }
+      ]
+    },
+    {
+      "id": "calendario_el_lunes_es_un_dia_festivo",
+      "conceptId": "es.calendario_el_lunes_es_un_dia_festivo",
+      "sourceId": "de.s.b3e98d9d12845316",
+      "source": "Am Montag ist ein Feiertag.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El lunes es un día festivo.",
+          "audioSlug": "el_lunes_es_un_dia_festivo"
+        }
+      ]
+    },
+    {
+      "id": "calendario_tengo_una_cita_a_mediodia",
+      "conceptId": "es.calendario_tengo_una_cita_a_mediodia",
+      "sourceId": "de.s.47bc0f6a606d2617",
+      "source": "Ich habe einen Termin am Mittag.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo una cita a mediodía.",
+          "audioSlug": "tengo_una_cita_a_mediodia"
+        }
+      ]
+    },
+    {
+      "id": "calendario_el_plazo_termina_el_viernes",
+      "conceptId": "es.calendario_el_plazo_termina_el_viernes",
+      "sourceId": "de.s.f76f44de88772c58",
+      "source": "Die Frist endet am Freitag.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El plazo termina el viernes.",
+          "audioSlug": "el_plazo_termina_el_viernes"
+        }
+      ]
+    },
+    {
+      "id": "calendario_anoto_todo_en_mi_agenda",
+      "conceptId": "es.calendario_anoto_todo_en_mi_agenda",
+      "sourceId": "de.s.846b206fa30b76d2",
+      "source": "Ich notiere alles in meinem Kalender.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Anoto todo en mi agenda.",
+          "audioSlug": "anoto_todo_en_mi_agenda"
+        }
+      ]
+    },
+    {
+      "id": "calendario_el_evento_dura_todo_el_dia",
+      "conceptId": "es.calendario_el_evento_dura_todo_el_dia",
+      "sourceId": "de.s.b88af898cf7a429a",
+      "source": "Die Veranstaltung dauert den ganzen Tag.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El evento dura todo el día.",
+          "audioSlug": "el_evento_dura_todo_el_dia"
+        }
+      ]
+    },
+    {
+      "id": "calendario_cada_manana_reviso_mi_correo",
+      "conceptId": "es.calendario_cada_manana_reviso_mi_correo",
+      "sourceId": "de.s.61667acb17e2d875",
+      "source": "Jeden Morgen prüfe ich meine E-Mails.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cada mañana reviso mi correo.",
+          "audioSlug": "cada_manana_reviso_mi_correo"
+        }
+      ]
+    },
+    {
+      "id": "calendario_la_reunion_se_pospuso_hasta_manana",
+      "conceptId": "es.calendario_la_reunion_se_pospuso_hasta_manana",
+      "sourceId": "de.s.b8ee84aaab7c18d8",
+      "source": "Das Treffen wurde auf morgen verschoben.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La reunión se pospuso hasta mañana.",
+          "audioSlug": "la_reunion_se_pospuso_hasta_manana"
+        }
+      ]
+    },
+    {
+      "id": "calendario_la_navidad_es_una_tradicion_familiar",
+      "conceptId": "es.calendario_la_navidad_es_una_tradicion_familiar",
+      "sourceId": "de.s.9fbe62d2e3ddf5ea",
+      "source": "Weihnachten ist eine Familientradition.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La Navidad es una tradición familiar.",
+          "audioSlug": "la_navidad_es_una_tradicion_familiar"
+        }
+      ]
+    },
+    {
+      "id": "calendario_apunte_la_fecha_en_el_calendario",
+      "conceptId": "es.calendario_apunte_la_fecha_en_el_calendario",
+      "sourceId": "de.s.7652283ff7ae6de4",
+      "source": "Ich habe das Datum im Kalender notiert.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Apunté la fecha en el calendario.",
+          "audioSlug": "apunte_la_fecha_en_el_calendario"
+        }
+      ]
+    },
+    {
+      "id": "calendario_le_di_un_beso_a_mi_mama",
+      "conceptId": "es.calendario_le_di_un_beso_a_mi_mama",
+      "sourceId": "de.s.d960c88e183c865f",
+      "source": "Ich habe meiner Mama einen Kuss gegeben.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Le di un beso a mi mamá.",
+          "audioSlug": "le_di_un_beso_a_mi_mama"
+        }
+      ]
+    },
+    {
+      "id": "calendario_mi_papa_cumple_anos_en_mayo",
+      "conceptId": "es.calendario_mi_papa_cumple_anos_en_mayo",
+      "sourceId": "de.s.fb82b7293dee9084",
+      "source": "Mein Papa hat im Mai Geburtstag.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi papá cumple años en mayo.",
+          "audioSlug": "mi_papa_cumple_anos_en_mayo"
+        }
+      ]
+    },
+    {
+      "id": "calendario_al_principio_del_ano_hago_planes",
+      "conceptId": "es.calendario_al_principio_del_ano_hago_planes",
+      "sourceId": "de.s.a8bd4af69fc930df",
+      "source": "Am Anfang des Jahres mache ich Pläne.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Al principio del año hago planes.",
+          "audioSlug": "al_principio_del_ano_hago_planes"
+        }
+      ]
+    },
+    {
+      "id": "calendario_el_despertador_va_a_sonar_muy_temprano",
+      "conceptId": "es.calendario_el_despertador_va_a_sonar_muy_temprano",
+      "sourceId": "de.s.bc47a5cc82a42d40",
+      "source": "Der Wecker wird sehr früh klingeln.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El despertador va a sonar muy temprano.",
+          "audioSlug": "el_despertador_va_a_sonar_muy_temprano"
+        }
+      ]
+    },
+    {
+      "id": "calendario_hay_que_continuar_con_el_plan_previsto",
+      "conceptId": "es.calendario_hay_que_continuar_con_el_plan_previsto",
+      "sourceId": "de.s.b39d20e1d949f5fd",
+      "source": "Wir müssen mit dem geplanten Vorhaben fortfahren.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que continuar con el plan previsto.",
+          "audioSlug": "hay_que_continuar_con_el_plan_previsto"
+        }
+      ]
+    },
+    {
+      "id": "calendario_espera_un_segundo_por_favor",
+      "conceptId": "es.calendario_espera_un_segundo_por_favor",
+      "sourceId": "de.s.59ecd7e672cc69b7",
+      "source": "Warte eine Sekunde, bitte.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Espera un segundo, por favor.",
+          "audioSlug": "espera_un_segundo_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "calendario_ya_son_las_tres_y_media",
+      "conceptId": "es.calendario_ya_son_las_tres_y_media",
+      "sourceId": "de.s.03c6fea372a6ebc2",
+      "source": "Es ist schon halb vier.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ya son las tres y media.",
+          "audioSlug": "ya_son_las_tres_y_media"
+        }
+      ]
+    }
+  ]
+}

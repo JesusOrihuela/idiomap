@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "42",
+  "concepts": {
+    "es.accountability_deferred_tax_assets_reassessed_tax_rate": {
+      "conceptId": "es.accountability_deferred_tax_assets_reassessed_tax_rate",
+      "id": "accountability_deferred_tax_assets_reassessed_tax_rate",
+      "target": [
+        {
+          "text": "Los activos por impuesto diferido se revaluaron tras el cambio en la tasa del impuesto corporativo.",
+          "audioSlug": "los_activos_por_impuesto_diferido_se_revaluaron_tras_el_cambio_en_la_tasa_del_impuesto_corporativo"
+        }
+      ]
+    },
+    "es.calendario_today_is_monday": {
+      "conceptId": "es.calendario_today_is_monday",
+      "id": "calendario_today_is_monday",
+      "target": [
+        {
+          "text": "Hoy es lunes.",
+          "audioSlug": "hoy_es_lunes"
+        }
+      ]
+    },
+    "es.deportes_quiero_ganar_el_torneo": {
+      "conceptId": "es.deportes_quiero_ganar_el_torneo",
+      "id": "deportes_quiero_ganar_el_torneo",
+      "target": [
+        {
+          "text": "Quiero ganar el torneo este año.",
+          "audioSlug": "quiero_ganar_el_torneo_este_ano"
+        }
+      ]
+    },
+    "es.family_are_you_married_single": {
+      "conceptId": "es.family_are_you_married_single",
+      "id": "family_are_you_married_single",
+      "target": [
+        {
+          "text": "¿Estás casado o soltero?",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estas_casado_o_soltero"
+        },
+        {
+          "text": "¿Estás casada o soltera?",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estas_casada_o_soltera"
+        }
+      ]
+    },
+    "es.greetings_buenos_dias": {
+      "conceptId": "es.greetings_buenos_dias",
+      "id": "greetings_buenos_dias",
+      "target": [
+        {
+          "text": "¡Buenos días!",
+          "audioSlug": "buenos_dias"
+        }
+      ]
+    },
+    "es.greetings_it_was_a_pleasure_hope_to": {
+      "conceptId": "es.greetings_it_was_a_pleasure_hope_to",
+      "id": "greetings_it_was_a_pleasure_hope_to",
+      "target": [
+        {
+          "text": "Fue un placer, espero verte de nuevo.",
+          "audioSlug": "fue_un_placer_espero_verte_de_nuevo"
+        }
+      ]
+    },
+    "es.hogar_la_pared_es_blanca": {
+      "conceptId": "es.hogar_la_pared_es_blanca",
+      "id": "hogar_la_pared_es_blanca",
+      "target": [
+        {
+          "text": "La pared es blanca.",
+          "audioSlug": "la_pared_es_blanca"
+        }
+      ]
+    },
+    "es.kitchen_the_fruit_bowl_is_on_the": {
+      "conceptId": "es.kitchen_the_fruit_bowl_is_on_the",
+      "id": "kitchen_the_fruit_bowl_is_on_the",
+      "target": [
+        {
+          "text": "El frutero está en la mesa.",
+          "audioSlug": "el_frutero_esta_en_la_mesa"
+        }
+      ]
+    },
+    "es.restaurant_could_i_have_some_more_ice": {
+      "conceptId": "es.restaurant_could_i_have_some_more_ice",
+      "id": "restaurant_could_i_have_some_more_ice",
+      "target": [
+        {
+          "text": "¿Podría poner más hielo en mi bebida, por favor?",
+          "audioSlug": "podria_poner_mas_hielo_en_mi_bebida_por_favor"
+        }
+      ]
+    },
+    "es.sitios_donde_esta_la_parada_mas_cercana": {
+      "conceptId": "es.sitios_donde_esta_la_parada_mas_cercana",
+      "id": "sitios_donde_esta_la_parada_mas_cercana",
+      "target": [
+        {
+          "text": "¿Dónde está la parada más cercana?",
+          "audioSlug": "donde_esta_la_parada_mas_cercana"
+        }
+      ]
+    }
+  }
+}

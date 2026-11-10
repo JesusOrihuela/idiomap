@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "07",
+  "concepts": {
+    "en.accountability_the_audit_committee_has_raised": {
+      "conceptId": "en.accountability_the_audit_committee_has_raised",
+      "id": "accountability_the_audit_committee_has_raised",
+      "target": [
+        {
+          "text": "The audit committee has raised concerns about our internal controls.",
+          "audioSlug": "the_audit_committee_has_raised_concerns_about_our_internal_controls"
+        }
+      ]
+    },
+    "en.estudios_you_broke_the_rule": {
+      "conceptId": "en.estudios_you_broke_the_rule",
+      "id": "estudios_you_broke_the_rule",
+      "target": [
+        {
+          "text": "You broke the rule.",
+          "audioSlug": "you_broke_the_rule"
+        }
+      ]
+    },
+    "en.family_she_is_my_partner": {
+      "conceptId": "en.family_she_is_my_partner",
+      "id": "family_she_is_my_partner",
+      "target": [
+        {
+          "text": "She is my partner.",
+          "audioSlug": "she_is_my_partner"
+        }
+      ]
+    },
+    "en.kitchen_take_the_food_out_of_the": {
+      "conceptId": "en.kitchen_take_the_food_out_of_the",
+      "id": "kitchen_take_the_food_out_of_the",
+      "target": [
+        {
+          "text": "Take the food out of the refrigerator.",
+          "audioSlug": "take_the_food_out_of_the_refrigerator",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Take the food out of the fridge.",
+          "audioSlug": "take_the_food_out_of_the_fridge",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.movies_want_to_watch_tonight": {
+      "conceptId": "en.movies_want_to_watch_tonight",
+      "id": "movies_want_to_watch_tonight",
+      "target": [
+        {
+          "text": "Do you want to watch a movie tonight?",
+          "audioSlug": "do_you_want_to_watch_a_movie_tonight"
+        }
+      ]
+    },
+    "en.music_started_late_still_impressive": {
+      "conceptId": "en.music_started_late_still_impressive",
+      "id": "music_started_late_still_impressive",
+      "target": [
+        {
+          "text": "She learned piano in her thirties and her technique is even more impressive.",
+          "audioSlug": "she_learned_piano_in_her_thirties_and_her_technique_is_even_more_impressive"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_this_is_a_fact": {
+      "conceptId": "en.pensamientos_opiniones_this_is_a_fact",
+      "id": "pensamientos_opiniones_this_is_a_fact",
+      "target": [
+        {
+          "text": "This is a fact.",
+          "audioSlug": "this_is_a_fact"
+        }
+      ]
+    },
+    "en.supermarket_where_is_the_cleaning_products_section": {
+      "conceptId": "en.supermarket_where_is_the_cleaning_products_section",
+      "id": "supermarket_where_is_the_cleaning_products_section",
+      "target": [
+        {
+          "text": "Where is the cleaning products section?",
+          "audioSlug": "where_is_the_cleaning_products_section"
+        }
+      ]
+    },
+    "en.transportation_taxi_fare_city": {
+      "conceptId": "en.transportation_taxi_fare_city",
+      "id": "transportation_taxi_fare_city",
+      "target": [
+        {
+          "text": "What is the taxi fare to the city center?",
+          "audioSlug": "what_is_the_taxi_fare_to_the_city_center"
+        }
+      ]
+    }
+  }
+}

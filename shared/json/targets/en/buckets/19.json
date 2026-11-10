@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "19",
+  "concepts": {
+    "en.animales_horse_ran_field": {
+      "conceptId": "en.animales_horse_ran_field",
+      "id": "animales_horse_ran_field",
+      "target": [
+        {
+          "text": "The horse ran across the field.",
+          "audioSlug": "the_horse_ran_across_the_field"
+        }
+      ]
+    },
+    "en.conversacion_a_major_concern": {
+      "conceptId": "en.conversacion_a_major_concern",
+      "id": "conversacion_a_major_concern",
+      "target": [
+        {
+          "text": "In general, that's a major concern.",
+          "audioSlug": "in_general_that_s_a_major_concern"
+        }
+      ]
+    },
+    "en.directions_take_first_street": {
+      "conceptId": "en.directions_take_first_street",
+      "id": "directions_take_first_street",
+      "target": [
+        {
+          "text": "Take the first street on the right.",
+          "audioSlug": "take_the_first_street_on_the_right"
+        }
+      ]
+    },
+    "en.estudios_we_met_in_college": {
+      "conceptId": "en.estudios_we_met_in_college",
+      "id": "estudios_we_met_in_college",
+      "target": [
+        {
+          "text": "We met in college.",
+          "audioSlug": "we_met_in_college"
+        }
+      ]
+    },
+    "en.family_grandmother_eighty": {
+      "conceptId": "en.family_grandmother_eighty",
+      "id": "family_grandmother_eighty",
+      "target": [
+        {
+          "text": "My grandmother is eighty years old.",
+          "audioSlug": "my_grandmother_is_eighty_years_old"
+        }
+      ]
+    },
+    "en.gym_dont_forget_to_hydrate": {
+      "conceptId": "en.gym_dont_forget_to_hydrate",
+      "id": "gym_dont_forget_to_hydrate",
+      "target": [
+        {
+          "text": "Don't forget to hydrate.",
+          "audioSlug": "don_t_forget_to_hydrate"
+        }
+      ]
+    },
+    "en.hogar_the_roof_has_a_leak": {
+      "conceptId": "en.hogar_the_roof_has_a_leak",
+      "id": "hogar_the_roof_has_a_leak",
+      "target": [
+        {
+          "text": "The roof has a leak.",
+          "audioSlug": "the_roof_has_a_leak"
+        }
+      ]
+    },
+    "en.kitchen_to_cook_chicken_better_you_have": {
+      "conceptId": "en.kitchen_to_cook_chicken_better_you_have",
+      "id": "kitchen_to_cook_chicken_better_you_have",
+      "target": [
+        {
+          "text": "To cook chicken better, you have to truss its legs.",
+          "audioSlug": "to_cook_chicken_better_you_have_to_truss_its_legs"
+        }
+      ]
+    },
+    "en.restaurant_do_you_offer_any_childrens_menus": {
+      "conceptId": "en.restaurant_do_you_offer_any_childrens_menus",
+      "id": "restaurant_do_you_offer_any_childrens_menus",
+      "target": [
+        {
+          "text": "Do you offer any children's menus?",
+          "audioSlug": "do_you_offer_any_children_s_menus"
+        }
+      ]
+    },
+    "en.theater_costumes_reflected_era": {
+      "conceptId": "en.theater_costumes_reflected_era",
+      "id": "theater_costumes_reflected_era",
+      "target": [
+        {
+          "text": "The costumes perfectly reflected the historical era without feeling like a museum piece.",
+          "audioSlug": "the_costumes_perfectly_reflected_the_historical_era_without_feeling_like_a_museum_piece"
+        }
+      ]
+    }
+  }
+}

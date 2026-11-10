@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "06",
+  "concepts": {
+    "en.accountability_we_are_closing_the_fiscal_year": {
+      "conceptId": "en.accountability_we_are_closing_the_fiscal_year",
+      "id": "accountability_we_are_closing_the_fiscal_year",
+      "target": [
+        {
+          "text": "We are closing the fiscal year.",
+          "audioSlug": "we_are_closing_the_fiscal_year"
+        }
+      ]
+    },
+    "en.economia_let_me_pay": {
+      "conceptId": "en.economia_let_me_pay",
+      "id": "economia_let_me_pay",
+      "target": [
+        {
+          "text": "Let me pay.",
+          "audioSlug": "let_me_pay"
+        }
+      ]
+    },
+    "en.emociones_why_are_you_surprised": {
+      "conceptId": "en.emociones_why_are_you_surprised",
+      "id": "emociones_why_are_you_surprised",
+      "target": [
+        {
+          "text": "Why are you surprised?",
+          "audioSlug": "why_are_you_surprised"
+        }
+      ]
+    },
+    "en.family_my_son_is_five": {
+      "conceptId": "en.family_my_son_is_five",
+      "id": "family_my_son_is_five",
+      "target": [
+        {
+          "text": "My son is five years old.",
+          "audioSlug": "my_son_is_five_years_old"
+        }
+      ]
+    },
+    "en.greetings_allow_me_to_introduce_dr": {
+      "conceptId": "en.greetings_allow_me_to_introduce_dr",
+      "id": "greetings_allow_me_to_introduce_dr",
+      "target": [
+        {
+          "text": "Allow me to introduce Dr. Martínez, our session leader today.",
+          "audioSlug": "allow_me_to_introduce_dr_martinez_our_session_leader_today"
+        }
+      ]
+    },
+    "en.weather_its_snowing": {
+      "conceptId": "en.weather_its_snowing",
+      "id": "weather_its_snowing",
+      "target": [
+        {
+          "text": "It's snowing.",
+          "audioSlug": "it_s_snowing"
+        }
+      ]
+    }
+  }
+}

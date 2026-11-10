@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "9d",
+  "concepts": {
+    "es.accountability_accounting_records_for_the_tax_return": {
+      "conceptId": "es.accountability_accounting_records_for_the_tax_return",
+      "id": "accountability_accounting_records_for_the_tax_return",
+      "target": [
+        {
+          "text": "Mañana se cierran los registros contables para la declaración de impuestos.",
+          "audioSlug": "manana_se_cierran_los_registros_contables_para_la_declaracion_de_impuestos"
+        }
+      ]
+    },
+    "es.calendario_apunte_la_fecha_en_el_calendario": {
+      "conceptId": "es.calendario_apunte_la_fecha_en_el_calendario",
+      "id": "calendario_apunte_la_fecha_en_el_calendario",
+      "target": [
+        {
+          "text": "Apunté la fecha en el calendario.",
+          "audioSlug": "apunte_la_fecha_en_el_calendario"
+        }
+      ]
+    },
+    "es.conversacion_por_lo_general_estoy_de_acuerdo": {
+      "conceptId": "es.conversacion_por_lo_general_estoy_de_acuerdo",
+      "id": "conversacion_por_lo_general_estoy_de_acuerdo",
+      "target": [
+        {
+          "text": "Por lo general estoy de acuerdo.",
+          "audioSlug": "por_lo_general_estoy_de_acuerdo"
+        }
+      ]
+    },
+    "es.economia_el_propietario_subio_el_alquiler": {
+      "conceptId": "es.economia_el_propietario_subio_el_alquiler",
+      "id": "economia_el_propietario_subio_el_alquiler",
+      "target": [
+        {
+          "text": "El propietario subió el alquiler.",
+          "audioSlug": "el_propietario_subio_el_alquiler"
+        }
+      ]
+    },
+    "es.emergencias_hubo_un_accidente": {
+      "conceptId": "es.emergencias_hubo_un_accidente",
+      "id": "emergencias_hubo_un_accidente",
+      "target": [
+        {
+          "text": "Hubo un accidente.",
+          "audioSlug": "hubo_un_accidente"
+        }
+      ]
+    },
+    "es.kitchen_emulsified_vinaigrette_add_oil_slowly": {
+      "conceptId": "es.kitchen_emulsified_vinaigrette_add_oil_slowly",
+      "id": "kitchen_emulsified_vinaigrette_add_oil_slowly",
+      "target": [
+        {
+          "text": "Añade el aceite muy despacio mientras bates para emulsionar la vinagreta.",
+          "audioSlug": "anade_el_aceite_muy_despacio_mientras_bates_para_emulsionar_la_vinagreta"
+        }
+      ]
+    },
+    "es.movies_watching_netflix_series": {
+      "conceptId": "es.movies_watching_netflix_series",
+      "id": "movies_watching_netflix_series",
+      "target": [
+        {
+          "text": "¿Estás viendo la nueva serie de Netflix?",
+          "audioSlug": "estas_viendo_la_nueva_serie_de_netflix"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_pino_es_un_arbol_muy_alto": {
+      "conceptId": "es.naturaleza_lugares_el_pino_es_un_arbol_muy_alto",
+      "id": "naturaleza_lugares_el_pino_es_un_arbol_muy_alto",
+      "target": [
+        {
+          "text": "El pino es un árbol muy alto.",
+          "audioSlug": "el_pino_es_un_arbol_muy_alto"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_quiero_conservar_la_calma_siempre": {
+      "conceptId": "es.pensamientos_opiniones_quiero_conservar_la_calma_siempre",
+      "id": "pensamientos_opiniones_quiero_conservar_la_calma_siempre",
+      "target": [
+        {
+          "text": "Quiero conservar la calma siempre.",
+          "audioSlug": "quiero_conservar_la_calma_siempre"
+        }
+      ]
+    },
+    "es.technology_the_new_operating_system_update": {
+      "conceptId": "es.technology_the_new_operating_system_update",
+      "id": "technology_the_new_operating_system_update",
+      "target": [
+        {
+          "text": "La actualización del sistema operativo rompió la compatibilidad con varias aplicaciones.",
+          "audioSlug": "la_actualizacion_del_sistema_operativo_rompio_la_compatibilidad_con_varias_aplicaciones"
+        }
+      ]
+    },
+    "es.weather_manana_va_a_nevar": {
+      "conceptId": "es.weather_manana_va_a_nevar",
+      "id": "weather_manana_va_a_nevar",
+      "target": [
+        {
+          "text": "Mañana va a nevar.",
+          "audioSlug": "manana_va_a_nevar"
+        }
+      ]
+    }
+  }
+}

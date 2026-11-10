@@ -19,11 +19,11 @@ It ships as three production language pairs:
 
 | Pair | You speak | You learn |
 |------|-----------|-----------|
-| `es-en` | Spanish | English |
-| `en-es` | English | Spanish (neutral) |
-| `de-es` | German  | Spanish (neutral) |
+| `es-en` | Spanish (es-419) | English |
+| `en-es` | English | Spanish (neutral, es-419) |
+| `de-es` | German | Spanish (neutral, es-419) |
 
-Six more **stress-test pairs** (`en-de`, `en-fi`, `en-pt`, `en-sv`, `en-no`, `de-pl`) exercise the same content model on other languages and are exempt from the coverage gate.
+Nine more **stress-test pairs** (`en-de`, `en-fi`, `en-pt`, `en-sv`, `en-no`, `de-pl`, `es-de`, `es-it`, `es-pt`) exercise the same content model on other languages; they are hidden from the picker and exempt from the coverage gate.
 
 Each pair has its own independent content, and switching pairs is a completely separate session — no data is shared or lost.
 
@@ -39,7 +39,7 @@ Each pair has its own independent content, and switching pairs is a completely s
   - 🧠 **Quiz** — adaptive multiple-choice vocabulary
   - 📐 **Grammar** — rules browser + fill-in-the-blank exercises
 - **My Learning** — a guided learning path with a daily session queue, mastery tracking, and a CEFR progression.
-- **Placement test** — a 14-question CEFR test (A1–C2) to start at the right level.
+- **Placement test** — an up-to-14-question CEFR test (A1–C2) to start at the right level.
 - **On-device audio** — pre-generated natural speech for instant playback, with [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) TTS and [Whisper](https://huggingface.co/onnx-community/whisper-tiny) STT running fully in the browser (no audio ever leaves your device).
 - **Works offline** — installable PWA with a network-first service worker; models and audio are cached after first use.
 - **Accessible** — WCAG 2.1 AA target: labelled controls, live regions, keyboard support.
@@ -51,7 +51,7 @@ Deliberately minimal and dependency-free at runtime:
 - **Pure HTML + CSS + vanilla JavaScript** — no framework, **no build step**, no bundler.
 - **No backend, no auth** — all state in `localStorage`; hosted on **GitHub Pages**.
 - **On-device ML** via [`@huggingface/transformers`](https://github.com/huggingface/transformers.js) (Kokoro TTS ~92 MB, Whisper STT ~41 MB), cached in the browser Cache API.
-- **Pre-generated WAV audio** committed to the repo so playback is instant without downloading the TTS model.
+- **Pre-generated AAC audio** committed to the repo so playback is instant without downloading the TTS model.
 
 ## Getting started
 
@@ -66,7 +66,7 @@ python -m http.server 8000
 # then open http://localhost:8000/
 ```
 
-> **Note:** the repository includes the pre-generated audio, so the clone is large (~3.4 GB). This is intentional — it gives users instant playback without downloading the TTS model.
+> **Note:** the repository history includes the old WAV masters, so a fresh clone is still large (~4.2 GB); the shipped audio is AAC/M4A. This is intentional — it gives users instant playback without downloading the TTS model.
 
 ## Project structure
 
@@ -82,7 +82,7 @@ python -m http.server 8000
 │   │   ├── vocab/{lang}/      # per-language vocabulary lists
 │   │   └── common/            # shared content (categories, word equivalents…)
 │   ├── img/                   # topic photos, real flags, region maps
-│   └── audio/                 # pre-generated WAV, per pair + shared vocabulary
+│   └── audio/                 # pre-generated AAC/M4A, per pair + shared vocabulary
 ├── lang/                      # UI strings + target-language labels
 ├── tools/                     # content, UI and asset gates + generators
 └── .github/workflows/         # CI (content + UI gates, Lighthouse)
@@ -94,17 +94,20 @@ Content lives in JSON and is validated by scripts in [`tools/`](tools/):
 
 - `node tools/check-content.mjs` / `node tools/audit.mjs` — validate schema, spelling, punctuation, ID uniqueness, anglicisms, audio alignment, and more.
 - `node tools/assign-alt-slugs.mjs` — assign stable audio slugs to new phrase forms.
-- `node tools/generate-audio.mjs` (English, Kokoro) and `python tools/generate-audio-tgt.py --lang es` (other languages, edge-tts) — generate the WAV audio.
+- `node tools/generate-audio.mjs` (English, Kokoro) and `python tools/generate-audio-tgt.py --lang es` (other languages, edge-tts) — generate the WAV masters; run tools/encode-audio.mjs to produce the shipped AAC/M4A.
 - `node tools/fix-phrase-ids.js` — sync the learning-path ID map after content changes.
 
-Adding a new language pair is data-only: create `shared/json/pairs/{pairId}/`, add the pair to `lang-pair.js` and a UI-strings block to `lang/ui.js`, then generate audio. No activity code changes.
+Adding a new language pair is data-only: create `shared/json/pairs/{pairId}/pair.json` (plus `topics.json`, `content/`, `grammar-rules.json` and `placement.json`), add the source text to `source-texts/`, the target forms to `targets/<tag>/buckets/`, a UI-strings block to `lang/ui.js` if the source language is new, then generate the runtime packs and audio. The pair schema and shippable breadth are gated by `check-language-model` and `check-pair-completeness`; no activity code changes.
 
 ## CI/CD
 
 - **Gates** ([`ci.yml`](.github/workflows/ci.yml)) run on every push and pull request to `main`:
-  content (`check-content`, `audit`, `check-variants`, `coverage`, taxonomy, pair completeness) and
-  UI (`check-ui-system`, `check-components`, `check-flags`, `check-a11y`, `check-i18n`), plus the
-  Playwright smoke suite.
+  content (`check-content`, `check-layered-content`, `build-source-store`, `build-target-store`,
+  `build-runtime-packs`, `build-content-index`, `check-topics-sync`,
+  `check-pedagogy`, `check-licenses`, `check-variants`, `coverage`, taxonomy, pair completeness),
+  audio (`check-audio-refs`, `check-audio-orphans`, manifest/versions), UI (`check-ui-system`,
+  `check-components`, `check-flags`, `check-a11y`, `check-i18n`) and the Playwright smoke suite,
+  plus `check-hosting-budget`.
 - **Lighthouse** ([`lighthouse.yml`](.github/workflows/lighthouse.yml)) audits the live site after each deploy (report-only).
 - Deployment is handled by GitHub Pages on every push to `main` — there is no build step.
 
@@ -112,7 +115,9 @@ Adding a new language pair is data-only: create `shared/json/pairs/{pairId}/`, a
 
 Released under the [MIT License](LICENSE) — free to use, modify, and distribute with attribution.
 
-Learning content is curated with the help of open linguistic resources (Tatoeba, FrequencyWords, Instituto Cervantes PCIC, and others). See [CREDITS.md](CREDITS.md) for sources and their licenses.
+Learning content is curated with the help of open linguistic resources (Tatoeba, FrequencyWords, Instituto Cervantes PCIC, and others). See [CREDITS.md](CREDITS.md) for sources, audio and licenses.
+
+Documentation index: [docs/README.md](docs/README.md). Architecture and authoring references: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md), [docs/ADD-A-LANGUAGE.md](docs/ADD-A-LANGUAGE.md), [docs/GRAMMAR.md](docs/GRAMMAR.md).
 
 ---
 

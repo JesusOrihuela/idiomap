@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "e7",
+  "concepts": {
+    "es.accommodation_id_like_to_check_out": {
+      "conceptId": "es.accommodation_id_like_to_check_out",
+      "id": "accommodation_id_like_to_check_out",
+      "target": [
+        {
+          "text": "Quisiera dejar la habitación, por favor.",
+          "audioSlug": "quisiera_dejar_la_habitacion_por_favor"
+        }
+      ]
+    },
+    "es.conversacion_te_voy_a_contar_algo": {
+      "conceptId": "es.conversacion_te_voy_a_contar_algo",
+      "id": "conversacion_te_voy_a_contar_algo",
+      "target": [
+        {
+          "text": "Te voy a contar algo.",
+          "audioSlug": "te_voy_a_contar_algo"
+        }
+      ]
+    },
+    "es.directions_is_there_nearby": {
+      "conceptId": "es.directions_is_there_nearby",
+      "id": "directions_is_there_nearby",
+      "target": [
+        {
+          "text": "¿Hay un supermercado cerca?",
+          "audioSlug": "hay_un_supermercado_cerca"
+        }
+      ]
+    },
+    "es.emociones_i_am_sad": {
+      "conceptId": "es.emociones_i_am_sad",
+      "id": "emociones_i_am_sad",
+      "target": [
+        {
+          "text": "Estoy triste.",
+          "audioSlug": "estoy_triste"
+        }
+      ]
+    },
+    "es.estudios_estudio_para_ser_ingeniera": {
+      "conceptId": "es.estudios_estudio_para_ser_ingeniera",
+      "id": "estudios_estudio_para_ser_ingeniera",
+      "target": [
+        {
+          "text": "Estudio para ser ingeniera.",
+          "source": "Ich studiere, um Ingenieurin zu werden.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estudio_para_ser_ingeniera"
+        },
+        {
+          "text": "Estudio para ser ingeniero.",
+          "source": "Ich studiere, um Ingenieur zu werden.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estudio_para_ser_ingeniero"
+        }
+      ]
+    },
+    "es.family_paso_gran_parte_del_dia_con_mi_familia": {
+      "conceptId": "es.family_paso_gran_parte_del_dia_con_mi_familia",
+      "id": "family_paso_gran_parte_del_dia_con_mi_familia",
+      "target": [
+        {
+          "text": "Paso gran parte del día con mi familia.",
+          "audioSlug": "paso_gran_parte_del_dia_con_mi_familia"
+        }
+      ]
+    },
+    "es.greetings_i_could_be_better": {
+      "conceptId": "es.greetings_i_could_be_better",
+      "id": "greetings_i_could_be_better",
+      "target": [
+        {
+          "text": "Podría estar mejor.",
+          "audioSlug": "podria_estar_mejor"
+        }
+      ]
+    },
+    "es.health_im_tired_all_time": {
+      "conceptId": "es.health_im_tired_all_time",
+      "id": "health_im_tired_all_time",
+      "target": [
+        {
+          "text": "Estoy cansada todo el tiempo.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_cansada_todo_el_tiempo"
+        },
+        {
+          "text": "Estoy cansado todo el tiempo.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_cansado_todo_el_tiempo"
+        }
+      ]
+    },
+    "es.hogar_el_ascensor_no_funciona": {
+      "conceptId": "es.hogar_el_ascensor_no_funciona",
+      "id": "hogar_el_ascensor_no_funciona",
+      "target": [
+        {
+          "text": "El ascensor no funciona hoy.",
+          "audioSlug": "el_ascensor_no_funciona_hoy"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_lago_es_muy_grande": {
+      "conceptId": "es.naturaleza_lugares_el_lago_es_muy_grande",
+      "id": "naturaleza_lugares_el_lago_es_muy_grande",
+      "target": [
+        {
+          "text": "El lago es muy grande.",
+          "audioSlug": "el_lago_es_muy_grande"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_la_situacion_es_complicada": {
+      "conceptId": "es.pensamientos_opiniones_la_situacion_es_complicada",
+      "id": "pensamientos_opiniones_la_situacion_es_complicada",
+      "target": [
+        {
+          "text": "La situación es complicada.",
+          "audioSlug": "la_situacion_es_complicada"
+        }
+      ]
+    },
+    "es.sitios_visitamos_la_catedral": {
+      "conceptId": "es.sitios_visitamos_la_catedral",
+      "id": "sitios_visitamos_la_catedral",
+      "target": [
+        {
+          "text": "Visitamos la catedral antigua.",
+          "audioSlug": "visitamos_la_catedral_antigua"
+        }
+      ]
+    },
+    "es.tiempo_libre_el_actor_principal_es_talentoso": {
+      "conceptId": "es.tiempo_libre_el_actor_principal_es_talentoso",
+      "id": "tiempo_libre_el_actor_principal_es_talentoso",
+      "target": [
+        {
+          "text": "El actor principal es muy talentoso.",
+          "audioSlug": "el_actor_principal_es_muy_talentoso"
+        }
+      ]
+    },
+    "es.vestimenta_ese_pantalon_te_queda_muy_bien": {
+      "conceptId": "es.vestimenta_ese_pantalon_te_queda_muy_bien",
+      "id": "vestimenta_ese_pantalon_te_queda_muy_bien",
+      "target": [
+        {
+          "text": "Ese pantalón te queda muy bien.",
+          "audioSlug": "ese_pantalon_te_queda_muy_bien"
+        }
+      ]
+    }
+  }
+}

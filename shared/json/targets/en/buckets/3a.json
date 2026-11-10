@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "3a",
+  "concepts": {
+    "en.daily_routine_rest_on_sundays": {
+      "conceptId": "en.daily_routine_rest_on_sundays",
+      "id": "daily_routine_rest_on_sundays",
+      "target": [
+        {
+          "text": "I rest on Sundays.",
+          "audioSlug": "i_rest_on_sundays"
+        }
+      ]
+    },
+    "en.directions_across_from": {
+      "conceptId": "en.directions_across_from",
+      "id": "directions_across_from",
+      "target": [
+        {
+          "text": "It's across from the park.",
+          "audioSlug": "it_s_across_from_the_park"
+        }
+      ]
+    },
+    "en.gym_is_there_an_alternative_for_that": {
+      "conceptId": "en.gym_is_there_an_alternative_for_that",
+      "id": "gym_is_there_an_alternative_for_that",
+      "target": [
+        {
+          "text": "Is there an alternative for that exercise?",
+          "audioSlug": "is_there_an_alternative_for_that_exercise"
+        }
+      ]
+    },
+    "en.technology_the_battery_of_this_phone_could": {
+      "conceptId": "en.technology_the_battery_of_this_phone_could",
+      "id": "technology_the_battery_of_this_phone_could",
+      "target": [
+        {
+          "text": "The battery of this phone could be better.",
+          "audioSlug": "the_battery_of_this_phone_could_be_better"
+        }
+      ]
+    },
+    "en.transportation_nearest_bus_stop": {
+      "conceptId": "en.transportation_nearest_bus_stop",
+      "id": "transportation_nearest_bus_stop",
+      "target": [
+        {
+          "text": "Where is the nearest bus stop?",
+          "audioSlug": "where_is_the_nearest_bus_stop"
+        }
+      ]
+    },
+    "en.weather_it_will_be_sunny_tomorrow": {
+      "conceptId": "en.weather_it_will_be_sunny_tomorrow",
+      "id": "weather_it_will_be_sunny_tomorrow",
+      "target": [
+        {
+          "text": "It will be sunny tomorrow.",
+          "audioSlug": "it_will_be_sunny_tomorrow"
+        }
+      ]
+    }
+  }
+}

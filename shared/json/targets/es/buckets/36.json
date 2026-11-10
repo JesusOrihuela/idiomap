@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "36",
+  "concepts": {
+    "es.accountability_check_numbers": {
+      "conceptId": "es.accountability_check_numbers",
+      "id": "accountability_check_numbers",
+      "target": [
+        {
+          "text": "¿Puedes revisar estas cifras?",
+          "audioSlug": "puedes_revisar_estas_cifras"
+        }
+      ]
+    },
+    "es.accountability_the_inventory_needs_to_be_updated": {
+      "conceptId": "es.accountability_the_inventory_needs_to_be_updated",
+      "id": "accountability_the_inventory_needs_to_be_updated",
+      "target": [
+        {
+          "text": "El inventario debe actualizarse.",
+          "audioSlug": "el_inventario_debe_actualizarse"
+        }
+      ]
+    },
+    "es.conversacion_te_aconsejo_que_descanses": {
+      "conceptId": "es.conversacion_te_aconsejo_que_descanses",
+      "id": "conversacion_te_aconsejo_que_descanses",
+      "target": [
+        {
+          "text": "Te aconsejo que descanses.",
+          "audioSlug": "te_aconsejo_que_descanses"
+        }
+      ]
+    },
+    "es.cuerpo_me_duele_el_cuello": {
+      "conceptId": "es.cuerpo_me_duele_el_cuello",
+      "id": "cuerpo_me_duele_el_cuello",
+      "target": [
+        {
+          "text": "Me duele el cuello.",
+          "audioSlug": "me_duele_el_cuello"
+        }
+      ]
+    },
+    "es.kitchen_do_we_have_any_fresh_herbs": {
+      "conceptId": "es.kitchen_do_we_have_any_fresh_herbs",
+      "id": "kitchen_do_we_have_any_fresh_herbs",
+      "target": [
+        {
+          "text": "¿Tenemos hierbas frescas?",
+          "audioSlug": "tenemos_hierbas_frescas"
+        }
+      ]
+    },
+    "es.museums_who_painted_this": {
+      "conceptId": "es.museums_who_painted_this",
+      "id": "museums_who_painted_this",
+      "target": [
+        {
+          "text": "¿Quién pintó esto?",
+          "audioSlug": "quien_pinto_esto"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_desierto_es_muy_seco": {
+      "conceptId": "es.naturaleza_lugares_el_desierto_es_muy_seco",
+      "id": "naturaleza_lugares_el_desierto_es_muy_seco",
+      "target": [
+        {
+          "text": "El desierto es muy seco.",
+          "audioSlug": "el_desierto_es_muy_seco"
+        }
+      ]
+    },
+    "es.planes_esto_nos_va_a_unir": {
+      "conceptId": "es.planes_esto_nos_va_a_unir",
+      "id": "planes_esto_nos_va_a_unir",
+      "target": [
+        {
+          "text": "Esto nos va a unir.",
+          "audioSlug": "esto_nos_va_a_unir"
+        }
+      ]
+    },
+    "es.planes_necesito_practicar_mas": {
+      "conceptId": "es.planes_necesito_practicar_mas",
+      "id": "planes_necesito_practicar_mas",
+      "target": [
+        {
+          "text": "Necesito practicar más.",
+          "audioSlug": "necesito_practicar_mas"
+        }
+      ]
+    },
+    "es.restaurant_el_cocinero_prepara_el_plato": {
+      "conceptId": "es.restaurant_el_cocinero_prepara_el_plato",
+      "id": "restaurant_el_cocinero_prepara_el_plato",
+      "target": [
+        {
+          "text": "La cocinera prepara el plato.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Köchin bereitet das Gericht zu.",
+          "audioSlug": "la_cocinera_prepara_el_plato"
+        },
+        {
+          "text": "El cocinero prepara el plato.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Koch bereitet das Gericht zu.",
+          "audioSlug": "el_cocinero_prepara_el_plato"
+        }
+      ]
+    },
+    "es.restaurant_late_reservation_table_still_available": {
+      "conceptId": "es.restaurant_late_reservation_table_still_available",
+      "id": "restaurant_late_reservation_table_still_available",
+      "target": [
+        {
+          "text": "Llegamos tarde a la reserva de las ocho, ¿la mesa sigue disponible?",
+          "audioSlug": "llegamos_tarde_a_la_reserva_de_las_ocho_la_mesa_sigue_disponible"
+        }
+      ]
+    }
+  }
+}

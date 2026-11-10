@@ -1,42 +1,462 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "pensamientos_opiniones",
-  "conceptIds": [
-    "es.pensamientos_opiniones_lo_dudo_mucho",
-    "es.pensamientos_opiniones_estoy_de_acuerdo_contigo",
-    "es.pensamientos_opiniones_supongo_que_si",
-    "es.pensamientos_opiniones_quiero_saber_tu_opinion",
-    "es.pensamientos_opiniones_te_lo_puedes_imaginar",
-    "es.pensamientos_opiniones_no_voy_a_olvidarte",
-    "es.pensamientos_opiniones_debes_recordar_eso",
-    "es.pensamientos_opiniones_se_lo_que_tengo_que_hacer",
-    "es.pensamientos_opiniones_para_mi_es_igual",
-    "es.pensamientos_opiniones_eso_me_suena_familiar",
-    "es.pensamientos_opiniones_tengo_una_buena_idea",
-    "es.pensamientos_opiniones_tienes_razon",
-    "es.pensamientos_opiniones_no_tiene_sentido",
-    "es.pensamientos_opiniones_tengo_una_duda",
-    "es.pensamientos_opiniones_prefiero_calidad_a_cantidad",
-    "es.pensamientos_opiniones_es_un_bonito_recuerdo",
-    "es.pensamientos_opiniones_la_mayoria_esta_de_acuerdo",
-    "es.pensamientos_opiniones_no_me_importa_esperar",
-    "es.pensamientos_opiniones_es_una_idea_loca",
-    "es.pensamientos_opiniones_es_una_idea_fantastica",
-    "es.pensamientos_opiniones_eso_es_cierto",
-    "es.pensamientos_opiniones_eso_es_imposible",
-    "es.pensamientos_opiniones_no_es_justo",
-    "es.pensamientos_opiniones_pienso_en_mi_futuro",
-    "es.pensamientos_opiniones_se_valorar_lo_que_tengo",
-    "es.pensamientos_opiniones_tengo_la_solucion",
-    "es.pensamientos_opiniones_esa_es_la_realidad",
-    "es.pensamientos_opiniones_no_tiene_importancia",
-    "es.pensamientos_opiniones_fui_alli_por_necesidad",
-    "es.pensamientos_opiniones_la_situacion_es_seria",
-    "es.pensamientos_opiniones_acepto_mi_idea",
-    "es.pensamientos_opiniones_no_quiero_cometer_el_mismo_error",
-    "es.pensamientos_opiniones_puedes_adivinar_el_regalo",
-    "es.pensamientos_opiniones_sin_embargo_fallas",
-    "es.pensamientos_opiniones_por_lo_tanto_cambiamos"
+  "phrases": [
+    {
+      "conceptId": "es.pensamientos_opiniones_lo_dudo_mucho",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.99089cf7be7d172a"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_estoy_de_acuerdo_contigo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a41497301bfe510d"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_supongo_que_si",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e01e5dacc984103b"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_quiero_saber_tu_opinion",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ed4aa846f5737c66"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_te_lo_puedes_imaginar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.519e2d7cb9e34ab8"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_no_voy_a_olvidarte",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f110571579b3e242"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_debes_recordar_eso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3f5908142b7d0354"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_se_lo_que_tengo_que_hacer",
+      "level": "A2",
+      "grammar": "'Lo que' equivale al inglés 'what' e introduce una idea como objeto del verbo.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fdd22e7e01b15e42"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_para_mi_es_igual",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ecdc4dfd692d8576"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_eso_me_suena_familiar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.72aed58d09385b1e"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_tengo_una_buena_idea",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.27dcc56505608cae"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_tienes_razon",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.34c94d75a937af88"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_no_tiene_sentido",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.33719a7a97508c07"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_tengo_una_duda",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bedd3289bfbbc92d"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_prefiero_calidad_a_cantidad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.60c4fc796ff1088f"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_es_un_bonito_recuerdo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0f695dfb2d2226c5"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_la_mayoria_esta_de_acuerdo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c154587336af03df"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_no_me_importa_esperar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c3fa47e0c59d3643"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_es_una_idea_loca",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.856ca773abdd8872"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_es_una_idea_fantastica",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.92596d145428c2a6"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_eso_es_cierto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a0c7a14beac0c289"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_eso_es_imposible",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d7a5975fff79889c"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_no_es_justo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c20764824d526d22"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_pienso_en_mi_futuro",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fe6648acd786fed1"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_se_valorar_lo_que_tengo",
+      "level": "B1",
+      "grammar": "'Lo que + verbo' nominaliza una idea y equivale al inglés 'what'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.021d325d5bf0d131"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_tengo_la_solucion",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ebcec85f2fa3b45d"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_esa_es_la_realidad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9a3a36198b0c0c20"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_no_tiene_importancia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fcc919276c5de2d0"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_fui_alli_por_necesidad",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.42344a89d07a4534"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_la_situacion_es_seria",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.92b5617bd02b8834"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_acepto_mi_idea",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.12c2f5048868049d"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_no_quiero_cometer_el_mismo_error",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.95a89a207c587428"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_puedes_adivinar_el_regalo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3eecc55873ba70fc"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_sin_embargo_fallas",
+      "level": "C2",
+      "grammar": "Sin embargo introduce un contraste (marcador del discurso).",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d4bb2b79eb412c63"
+    },
+    {
+      "conceptId": "es.pensamientos_opiniones_por_lo_tanto_cambiamos",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.acd0645739a8e9c0"
+    }
   ]
 }

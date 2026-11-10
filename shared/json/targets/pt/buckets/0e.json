@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "tag": "pt",
+  "bucket": "0e",
+  "concepts": {
+    "pt.personal_info_i_am_a_student": {
+      "conceptId": "pt.personal_info_i_am_a_student",
+      "id": "personal_info_i_am_a_student",
+      "target": [
+        {
+          "text": "Sou aluno.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "sou_aluno"
+        },
+        {
+          "text": "Sou aluna.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "sou_aluna"
+        }
+      ]
+    },
+    "pt.survival_can_you_help_me": {
+      "conceptId": "pt.survival_can_you_help_me",
+      "id": "survival_can_you_help_me",
+      "target": [
+        {
+          "text": "Tu podes me ajudar?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "tu_podes_me_ajudar"
+        },
+        {
+          "text": "Você pode me ajudar?",
+          "labels": {
+            "register": "neutral"
+          },
+          "audioSlug": "voce_pode_me_ajudar"
+        },
+        {
+          "text": "O senhor pode me ajudar?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "o_senhor_pode_me_ajudar"
+        }
+      ]
+    }
+  }
+}

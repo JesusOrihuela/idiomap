@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "db",
+  "concepts": {
+    "es.health_casi_mori": {
+      "conceptId": "es.health_casi_mori",
+      "id": "health_casi_mori",
+      "target": [
+        {
+          "text": "Casi morí.",
+          "audioSlug": "casi_mori"
+        }
+      ]
+    },
+    "es.oficina_boss_in_meeting": {
+      "conceptId": "es.oficina_boss_in_meeting",
+      "id": "oficina_boss_in_meeting",
+      "target": [
+        {
+          "text": "Mi jefe está en una reunión.",
+          "audioSlug": "mi_jefe_esta_en_una_reunion"
+        }
+      ]
+    }
+  }
+}

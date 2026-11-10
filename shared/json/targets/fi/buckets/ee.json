@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "fi",
+  "bucket": "ee",
+  "concepts": {
+    "fi.personal_info_i_am_a_student": {
+      "conceptId": "fi.personal_info_i_am_a_student",
+      "id": "personal_info_i_am_a_student",
+      "target": [
+        {
+          "text": "Olen opiskelija.",
+          "audioSlug": "olen_opiskelija"
+        }
+      ]
+    }
+  }
+}

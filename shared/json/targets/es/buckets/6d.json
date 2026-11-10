@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "6d",
+  "concepts": {
+    "es.accommodation_transport_options": {
+      "conceptId": "es.accommodation_transport_options",
+      "id": "accommodation_transport_options",
+      "target": [
+        {
+          "text": "¿Qué opciones de transporte hay para llegar al hotel?",
+          "audioSlug": "que_opciones_de_transporte_hay_para_llegar_al_hotel"
+        }
+      ]
+    },
+    "es.accountability_the_company_had_higher_sales_and": {
+      "conceptId": "es.accountability_the_company_had_higher_sales_and",
+      "id": "accountability_the_company_had_higher_sales_and",
+      "target": [
+        {
+          "text": "La compañía tuvo mayores ventas y un aumento en las ganancias.",
+          "audioSlug": "la_compania_tuvo_mayores_ventas_y_un_aumento_en_las_ganancias"
+        }
+      ]
+    },
+    "es.animales_una_mosca_entro_por_la_ventana": {
+      "conceptId": "es.animales_una_mosca_entro_por_la_ventana",
+      "id": "animales_una_mosca_entro_por_la_ventana",
+      "target": [
+        {
+          "text": "Una mosca entró por la ventana.",
+          "audioSlug": "una_mosca_entro_por_la_ventana"
+        }
+      ]
+    },
+    "es.conversacion_escuchame_sin_interrumpir": {
+      "conceptId": "es.conversacion_escuchame_sin_interrumpir",
+      "id": "conversacion_escuchame_sin_interrumpir",
+      "target": [
+        {
+          "text": "Escúchame sin interrumpir.",
+          "audioSlug": "escuchame_sin_interrumpir"
+        }
+      ]
+    },
+    "es.conversacion_que_hacemos_entonces": {
+      "conceptId": "es.conversacion_que_hacemos_entonces",
+      "id": "conversacion_que_hacemos_entonces",
+      "target": [
+        {
+          "text": "¿Qué hacemos entonces?",
+          "audioSlug": "que_hacemos_entonces"
+        }
+      ]
+    },
+    "es.daily_routine_nunca_llego_tarde": {
+      "conceptId": "es.daily_routine_nunca_llego_tarde",
+      "id": "daily_routine_nunca_llego_tarde",
+      "target": [
+        {
+          "text": "Nunca llego tarde a mis citas.",
+          "audioSlug": "nunca_llego_tarde_a_mis_citas"
+        }
+      ]
+    },
+    "es.oficina_esta_es_mi_oficina": {
+      "conceptId": "es.oficina_esta_es_mi_oficina",
+      "id": "oficina_esta_es_mi_oficina",
+      "target": [
+        {
+          "text": "Esta es mi oficina.",
+          "audioSlug": "esta_es_mi_oficina"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_realizar_nuestros_suenos": {
+      "conceptId": "es.pensamientos_opiniones_realizar_nuestros_suenos",
+      "id": "pensamientos_opiniones_realizar_nuestros_suenos",
+      "target": [
+        {
+          "text": "Todos queremos realizar nuestros sueños.",
+          "audioSlug": "todos_queremos_realizar_nuestros_suenos"
+        }
+      ]
+    },
+    "es.personal_info_how_old_are_you": {
+      "conceptId": "es.personal_info_how_old_are_you",
+      "id": "personal_info_how_old_are_you",
+      "target": [
+        {
+          "text": "¿Cuántos años tienes?",
+          "audioSlug": "cuantos_anos_tienes",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Cuántos años tiene?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "cuantos_anos_tiene"
+        }
+      ]
+    },
+    "es.supermarket_do_you_know_which_pasta_brand": {
+      "conceptId": "es.supermarket_do_you_know_which_pasta_brand",
+      "id": "supermarket_do_you_know_which_pasta_brand",
+      "target": [
+        {
+          "text": "¿Sabes qué marca de pasta es la mejor?",
+          "audioSlug": "sabes_que_marca_de_pasta_es_la_mejor"
+        }
+      ]
+    },
+    "es.technology_could_you_send_me_that_document": {
+      "conceptId": "es.technology_could_you_send_me_that_document",
+      "id": "technology_could_you_send_me_that_document",
+      "target": [
+        {
+          "text": "¿Podrías enviarme ese documento por correo electrónico?",
+          "audioSlug": "podrias_enviarme_ese_documento_por_correo_electronico",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Podría enviarme ese documento por correo electrónico?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "podria_enviarme_ese_documento_por_correo_electronico"
+        }
+      ]
+    },
+    "es.transportation_reduced_fare_students": {
+      "conceptId": "es.transportation_reduced_fare_students",
+      "id": "transportation_reduced_fare_students",
+      "target": [
+        {
+          "text": "¿Hay una tarifa reducida para adultos mayores o estudiantes en esta ruta?",
+          "audioSlug": "hay_una_tarifa_reducida_para_adultos_mayores_o_estudiantes_en_esta_ruta"
+        }
+      ]
+    }
+  }
+}

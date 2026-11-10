@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "60",
+  "concepts": {
+    "en.accountability_provision_litigation_claim": {
+      "conceptId": "en.accountability_provision_litigation_claim",
+      "id": "accountability_provision_litigation_claim",
+      "target": [
+        {
+          "text": "We need to set aside a provision for the litigation claim pending resolution.",
+          "audioSlug": "we_need_to_set_aside_a_provision_for_the_litigation_claim_pending_resolution"
+        }
+      ]
+    },
+    "en.daily_routine_always_busy_afternoon": {
+      "conceptId": "en.daily_routine_always_busy_afternoon",
+      "id": "daily_routine_always_busy_afternoon",
+      "target": [
+        {
+          "text": "I'm always busy in the afternoon.",
+          "audioSlug": "i_m_always_busy_in_the_afternoon"
+        }
+      ]
+    },
+    "en.economia_economic_growth_is_slow": {
+      "conceptId": "en.economia_economic_growth_is_slow",
+      "id": "economia_economic_growth_is_slow",
+      "target": [
+        {
+          "text": "Economic growth is slow.",
+          "audioSlug": "economic_growth_is_slow"
+        }
+      ]
+    },
+    "en.family_they_have_one_kid": {
+      "conceptId": "en.family_they_have_one_kid",
+      "id": "family_they_have_one_kid",
+      "target": [
+        {
+          "text": "They have one kid.",
+          "audioSlug": "they_have_one_kid"
+        }
+      ]
+    }
+  }
+}

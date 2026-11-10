@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "0b",
+  "concepts": {
+    "es.accommodation_longstay_discount_negotiation": {
+      "conceptId": "es.accommodation_longstay_discount_negotiation",
+      "id": "accommodation_longstay_discount_negotiation",
+      "target": [
+        {
+          "text": "Me gustaría negociar una tarifa de estancia prolongada para una reserva de un mes desde el próximo lunes.",
+          "audioSlug": "me_gustaria_negociar_una_tarifa_de_estancia_prolongada_para_una_reserva_de_un_mes_desde_el_33f81439"
+        }
+      ]
+    },
+    "es.cuerpo_su_piel_es_muy_suave": {
+      "conceptId": "es.cuerpo_su_piel_es_muy_suave",
+      "id": "cuerpo_su_piel_es_muy_suave",
+      "target": [
+        {
+          "text": "Su piel es muy suave.",
+          "audioSlug": "su_piel_es_muy_suave"
+        }
+      ]
+    },
+    "es.estudios_el_conocimiento_es_poder": {
+      "conceptId": "es.estudios_el_conocimiento_es_poder",
+      "id": "estudios_el_conocimiento_es_poder",
+      "target": [
+        {
+          "text": "El conocimiento es poder.",
+          "audioSlug": "el_conocimiento_es_poder"
+        }
+      ]
+    },
+    "es.kitchen_necesito_azucar_para_el_postre": {
+      "conceptId": "es.kitchen_necesito_azucar_para_el_postre",
+      "id": "kitchen_necesito_azucar_para_el_postre",
+      "target": [
+        {
+          "text": "Necesito azúcar para el postre.",
+          "audioSlug": "necesito_azucar_para_el_postre"
+        }
+      ]
+    },
+    "es.kitchen_the_mixer_is_in_the_cabinet": {
+      "conceptId": "es.kitchen_the_mixer_is_in_the_cabinet",
+      "id": "kitchen_the_mixer_is_in_the_cabinet",
+      "target": [
+        {
+          "text": "La batidora está en el armario.",
+          "audioSlug": "la_batidora_esta_en_el_armario"
+        }
+      ]
+    },
+    "es.planes_voy_a_pedir_ayuda": {
+      "conceptId": "es.planes_voy_a_pedir_ayuda",
+      "id": "planes_voy_a_pedir_ayuda",
+      "target": [
+        {
+          "text": "Voy a pedir ayuda si la necesito.",
+          "audioSlug": "voy_a_pedir_ayuda_si_la_necesito"
+        }
+      ]
+    },
+    "es.profesiones_su_abuelo_es_cocinero": {
+      "conceptId": "es.profesiones_su_abuelo_es_cocinero",
+      "id": "profesiones_su_abuelo_es_cocinero",
+      "target": [
+        {
+          "text": "Su abuelo es cocinero.",
+          "audioSlug": "su_abuelo_es_cocinero"
+        }
+      ]
+    }
+  }
+}

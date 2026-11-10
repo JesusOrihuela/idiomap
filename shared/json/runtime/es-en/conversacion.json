@@ -1,0 +1,815 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "conversacion",
+  "phrases": [
+    {
+      "id": "conversacion_talk_to_me",
+      "conceptId": "en.conversacion_talk_to_me",
+      "sourceId": "es.s.fd45d83e4733c0f7",
+      "source": "Háblame.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Talk to me.",
+          "audioSlug": "talk_to_me"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_ask_tom",
+      "conceptId": "en.conversacion_ask_tom",
+      "sourceId": "es.s.8672436440de261d",
+      "source": "Pregúntale a Tom.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ask Tom.",
+          "audioSlug": "ask_tom"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_answer_me",
+      "conceptId": "en.conversacion_answer_me",
+      "sourceId": "es.s.557c8b49f4e13017",
+      "source": "Respóndeme.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Answer me.",
+          "audioSlug": "answer_me"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_let_me_explain",
+      "conceptId": "en.conversacion_let_me_explain",
+      "sourceId": "es.s.a61e2a43c6bd93da",
+      "source": "Déjame explicar.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Let me explain.",
+          "audioSlug": "let_me_explain"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_please_speak_up",
+      "conceptId": "en.conversacion_please_speak_up",
+      "sourceId": "es.s.217a2807f2fc474e",
+      "source": "Habla más fuerte, por favor.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Please speak up.",
+          "audioSlug": "please_speak_up"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_please_do_not_shout",
+      "conceptId": "en.conversacion_please_do_not_shout",
+      "sourceId": "es.s.42446110fdb5dfbc",
+      "source": "Por favor, no grites.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Please don't shout.",
+          "audioSlug": "please_don_t_shout"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_dont_like_to_argue",
+      "conceptId": "en.conversacion_i_dont_like_to_argue",
+      "sourceId": "es.s.745e4394fe9a4b4b",
+      "source": "No me gusta discutir.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I don't like to argue.",
+          "audioSlug": "i_don_t_like_to_argue"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_did_tom_mention_me",
+      "conceptId": "en.conversacion_did_tom_mention_me",
+      "sourceId": "es.s.2eeae5995c4e006d",
+      "source": "¿Tom me mencionó?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Did Tom mention me?",
+          "audioSlug": "did_tom_mention_me"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_we_have_nothing_to_discuss",
+      "conceptId": "en.conversacion_we_have_nothing_to_discuss",
+      "sourceId": "es.s.6cbd724889a22af7",
+      "source": "No tenemos nada que discutir.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We have nothing to discuss.",
+          "audioSlug": "we_have_nothing_to_discuss"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_have_no_comment",
+      "conceptId": "en.conversacion_i_have_no_comment",
+      "sourceId": "es.s.a74fe374a6c70c66",
+      "source": "No tengo comentarios.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have no comment.",
+          "audioSlug": "i_have_no_comment"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_cant_hear_you",
+      "conceptId": "en.conversacion_i_cant_hear_you",
+      "sourceId": "es.s.df7d9bc087ae28d0",
+      "source": "No te puedo oír.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I can't hear you.",
+          "audioSlug": "i_can_t_hear_you"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_try_to_guess",
+      "conceptId": "en.conversacion_try_to_guess",
+      "sourceId": "es.s.acf1b72d198a55de",
+      "source": "Trata de adivinar.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Try to guess.",
+          "audioSlug": "try_to_guess"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_cant_express_it",
+      "conceptId": "en.conversacion_i_cant_express_it",
+      "sourceId": "es.s.3f168238c0a741de",
+      "source": "No lo puedo expresar.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I can't express it.",
+          "audioSlug": "i_can_t_express_it"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_dont_laugh_at_me",
+      "conceptId": "en.conversacion_dont_laugh_at_me",
+      "sourceId": "es.s.05de19a74ca1d84a",
+      "source": "No te rías de mí.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Don't laugh at me.",
+          "audioSlug": "don_t_laugh_at_me"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_believe_you",
+      "conceptId": "en.conversacion_i_believe_you",
+      "sourceId": "es.s.7f8336ef6f2d17fe",
+      "source": "Te creo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I believe you.",
+          "audioSlug": "i_believe_you"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_mean_it",
+      "conceptId": "en.conversacion_i_mean_it",
+      "sourceId": "es.s.2a285adfe6bcb027",
+      "source": "Lo digo en serio.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I mean it.",
+          "audioSlug": "i_mean_it"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_understand_you",
+      "conceptId": "en.conversacion_i_understand_you",
+      "sourceId": "es.s.8aaee151d67f7380",
+      "source": "Te entiendo.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I understand you.",
+          "audioSlug": "i_understand_you"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_can_you_repeat_that",
+      "conceptId": "en.conversacion_can_you_repeat_that",
+      "sourceId": "es.s.906f46d0e0a7d509",
+      "source": "¿Puedes repetir eso?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Can you repeat that?",
+          "audioSlug": "can_you_repeat_that"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_admit_my_mistake",
+      "conceptId": "en.conversacion_i_admit_my_mistake",
+      "sourceId": "es.s.ff6906ea721d6810",
+      "source": "Admito mi error.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I admit my mistake.",
+          "audioSlug": "i_admit_my_mistake"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_dont_complain_so_much",
+      "conceptId": "en.conversacion_dont_complain_so_much",
+      "sourceId": "es.s.9478bc0c3aa830bb",
+      "source": "No te quejes tanto.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Don't complain so much.",
+          "audioSlug": "don_t_complain_so_much"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_want_to_warn_you",
+      "conceptId": "en.conversacion_i_want_to_warn_you",
+      "sourceId": "es.s.987b8d0260d5413f",
+      "source": "Quiero advertirte.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I want to warn you.",
+          "audioSlug": "i_want_to_warn_you"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_want_to_thank_you",
+      "conceptId": "en.conversacion_i_want_to_thank_you",
+      "sourceId": "es.s.3d797d6778f0f558",
+      "source": "Quiero agradecerte.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I want to thank you.",
+          "audioSlug": "i_want_to_thank_you"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_dont_lie_to_me",
+      "conceptId": "en.conversacion_dont_lie_to_me",
+      "sourceId": "es.s.21157241028b5f06",
+      "source": "No me mientas.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Don't lie to me.",
+          "audioSlug": "don_t_lie_to_me"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_refer_to_this_book",
+      "conceptId": "en.conversacion_i_refer_to_this_book",
+      "sourceId": "es.s.fef5df9cdf8b0c43",
+      "source": "Me refiero a este libro.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I refer to this book.",
+          "audioSlug": "i_refer_to_this_book"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_can_you_define_it",
+      "conceptId": "en.conversacion_can_you_define_it",
+      "sourceId": "es.s.5f13cf241fa70deb",
+      "source": "¿Puedes definirlo?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Can you define it?",
+          "audioSlug": "can_you_define_it"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_have_nothing_particular_to_say",
+      "conceptId": "en.conversacion_i_have_nothing_particular_to_say",
+      "sourceId": "es.s.4de816c0bf9e67e5",
+      "source": "No tengo nada en particular que decir.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have nothing particular to say.",
+          "audioSlug": "i_have_nothing_particular_to_say"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_please_be_patient",
+      "conceptId": "en.conversacion_please_be_patient",
+      "sourceId": "es.s.de9f49c794dceaa2",
+      "source": "Ten paciencia, por favor.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Please be patient.",
+          "audioSlug": "please_be_patient"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_let_s_change_the_subject",
+      "conceptId": "en.conversacion_let_s_change_the_subject",
+      "sourceId": "es.s.7550511d70b78fd9",
+      "source": "Cambiemos de tema.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Let's change the subject.",
+          "audioSlug": "let_s_change_the_subject"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_tell_me_the_truth",
+      "conceptId": "en.conversacion_tell_me_the_truth",
+      "sourceId": "es.s.a12827be389bb563",
+      "source": "Dime la verdad.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tell me the truth.",
+          "audioSlug": "tell_me_the_truth"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_they_had_an_argument",
+      "conceptId": "en.conversacion_they_had_an_argument",
+      "sourceId": "es.s.10bf8f950f2aa184",
+      "source": "Tuvieron una discusión.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "They had an argument.",
+          "audioSlug": "they_had_an_argument"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_he_gave_a_speech",
+      "conceptId": "en.conversacion_he_gave_a_speech",
+      "sourceId": "es.s.72f6c900a3b704fa",
+      "source": "Él dio un discurso.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "He gave a speech.",
+          "audioSlug": "he_gave_a_speech"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_write_me_a_note",
+      "conceptId": "en.conversacion_write_me_a_note",
+      "sourceId": "es.s.db9365587f5db61a",
+      "source": "Escríbeme una nota.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Write me a note.",
+          "audioSlug": "write_me_a_note"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_respect_you",
+      "conceptId": "en.conversacion_i_respect_you",
+      "sourceId": "es.s.e158f0e9b332d3fa",
+      "source": "Te respeto.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I respect you.",
+          "audioSlug": "i_respect_you"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_what_s_on_your_mind",
+      "conceptId": "en.conversacion_what_s_on_your_mind",
+      "sourceId": "es.s.393b5cc667bf46fb",
+      "source": "¿Qué te preocupa?",
+      "level": "A2",
+      "grammar": "'What's on your mind?' is an idiom for 'What are you thinking about?'",
+      "target": [
+        {
+          "text": "What's on your mind?",
+          "audioSlug": "what_s_on_your_mind"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_is_there_anything_i_can_do_for_you",
+      "conceptId": "en.conversacion_is_there_anything_i_can_do_for_you",
+      "sourceId": "es.s.b9ffa54b451086d4",
+      "source": "¿Hay algo que pueda hacer por ti?",
+      "level": "A2",
+      "grammar": "A polite offer of help; 'Can I help you?' is the less formal version.",
+      "target": [
+        {
+          "text": "Is there anything I can do for you?",
+          "audioSlug": "is_there_anything_i_can_do_for_you",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can I do anything for you?",
+          "audioSlug": "can_i_do_anything_for_you",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_need_your_help",
+      "conceptId": "en.conversacion_i_need_your_help",
+      "sourceId": "es.s.05b50f7c3b6b8adf",
+      "source": "Necesito tu ayuda.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I need your help.",
+          "audioSlug": "i_need_your_help"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_want_to_encourage_you",
+      "conceptId": "en.conversacion_i_want_to_encourage_you",
+      "sourceId": "es.s.8c4784017e10c49f",
+      "source": "Quiero animarte.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I want to encourage you.",
+          "audioSlug": "i_want_to_encourage_you"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_give_me_an_example",
+      "conceptId": "en.conversacion_give_me_an_example",
+      "sourceId": "es.s.01b44754399c594f",
+      "source": "Dame un ejemplo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Give me an example.",
+          "audioSlug": "give_me_an_example"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_is_it_good_news",
+      "conceptId": "en.conversacion_is_it_good_news",
+      "sourceId": "es.s.995529336b27195d",
+      "source": "¿Son buenas noticias?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is it good news?",
+          "audioSlug": "is_it_good_news"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_get_to_the_point",
+      "conceptId": "en.conversacion_get_to_the_point",
+      "sourceId": "es.s.0f6a6d6402a48a7c",
+      "source": "¡Ve al grano!",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Get to the point!",
+          "audioSlug": "get_to_the_point"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_this_is_a_newspaper",
+      "conceptId": "en.conversacion_this_is_a_newspaper",
+      "sourceId": "es.s.8af84ac782b7e3a8",
+      "source": "Esto es un periódico.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This is a newspaper.",
+          "audioSlug": "this_is_a_newspaper"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_bought_a_magazine",
+      "conceptId": "en.conversacion_i_bought_a_magazine",
+      "sourceId": "es.s.9f78d2851bb048df",
+      "source": "Compré una revista.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I bought a magazine.",
+          "audioSlug": "i_bought_a_magazine"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_this_news_is_official",
+      "conceptId": "en.conversacion_this_news_is_official",
+      "sourceId": "es.s.b118bec4ace1ea14",
+      "source": "Esta noticia es oficial.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "This news is official.",
+          "audioSlug": "this_news_is_official"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_however_also_continue",
+      "conceptId": "en.conversacion_however_also_continue",
+      "sourceId": "es.s.407c0d14c96fb701",
+      "source": "Sin embargo, yo también creo que deberíamos continuar.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "However, I also think we should continue.",
+          "audioSlug": "however_i_also_think_we_should_continue"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_such_a_good_idea",
+      "conceptId": "en.conversacion_such_a_good_idea",
+      "sourceId": "es.s.5b00a7c7818d0343",
+      "source": "Fue una idea tan buena.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It was such a good idea.",
+          "audioSlug": "it_was_such_a_good_idea"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_at_least_we_tried",
+      "conceptId": "en.conversacion_at_least_we_tried",
+      "sourceId": "es.s.5176bcfc8080cc18",
+      "source": "Aunque fue difícil, al menos lo intentamos.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Although it was hard, at least we tried.",
+          "audioSlug": "although_it_was_hard_at_least_we_tried"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_a_major_concern",
+      "conceptId": "en.conversacion_a_major_concern",
+      "sourceId": "es.s.d95ef94685061444",
+      "source": "En general, esa es una preocupación importante.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "In general, that's a major concern.",
+          "audioSlug": "in_general_that_s_a_major_concern"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_discuss_it_further",
+      "conceptId": "en.conversacion_discuss_it_further",
+      "sourceId": "es.s.c91cf9d5fb2bbe5d",
+      "source": "Discutámoslo más a fondo.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Let's discuss it further.",
+          "audioSlug": "let_s_discuss_it_further"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_quite_true",
+      "conceptId": "en.conversacion_quite_true",
+      "sourceId": "es.s.d23e9a1f0c89cbdb",
+      "source": "Sí, eso es bastante cierto.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Yes, that's quite true.",
+          "audioSlug": "yes_that_s_quite_true"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_had_already_left",
+      "conceptId": "en.conversacion_had_already_left",
+      "sourceId": "es.s.ec62f9f166de6e6c",
+      "source": "Ella ya se había ido cuando llegué.",
+      "level": "B2",
+      "grammar": "The past perfect (had + past participle) marks an action completed before another past action.",
+      "target": [
+        {
+          "text": "She had already left when I arrived.",
+          "audioSlug": "she_had_already_left_when_i_arrived"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_had_never_seen_angry",
+      "conceptId": "en.conversacion_had_never_seen_angry",
+      "sourceId": "es.s.8fa8b3839f255ab4",
+      "source": "Nunca lo había visto tan enojado.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I had never seen him so angry before.",
+          "audioSlug": "i_had_never_seen_him_so_angry_before"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_if_known_would_called",
+      "conceptId": "en.conversacion_if_known_would_called",
+      "sourceId": "es.s.19c6058e6097b134",
+      "source": "Si lo hubiera sabido, te habría llamado.",
+      "level": "B2",
+      "grammar": "The third conditional (if + past perfect, would have) describes an unreal past.",
+      "target": [
+        {
+          "text": "If I had known, I would have called you.",
+          "audioSlug": "if_i_had_known_i_would_have_called_you"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_if_asked_would_helped",
+      "conceptId": "en.conversacion_if_asked_would_helped",
+      "sourceId": "es.s.e5e89eb9e6029f8a",
+      "source": "Si me hubieran preguntado, los habría ayudado.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "If they had asked, I would have helped them.",
+          "audioSlug": "if_they_had_asked_i_would_have_helped_them"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_ran_into_old_friend",
+      "conceptId": "en.conversacion_ran_into_old_friend",
+      "sourceId": "es.s.f4a81b9d114a55ce",
+      "source": "Me encontré con un viejo amigo en el centro.",
+      "level": "B2",
+      "grammar": "'Run into' is an idiomatic phrasal verb meaning to meet someone by chance.",
+      "target": [
+        {
+          "text": "I ran into an old friend downtown.",
+          "audioSlug": "i_ran_into_an_old_friend_downtown"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_come_up_with_idea",
+      "conceptId": "en.conversacion_come_up_with_idea",
+      "sourceId": "es.s.68c63767891b3d54",
+      "source": "Se nos ocurrió una gran idea juntos.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "We came up with a great idea together.",
+          "audioSlug": "we_came_up_with_a_great_idea_together"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_love_coffee_so_does_she",
+      "conceptId": "en.conversacion_love_coffee_so_does_she",
+      "sourceId": "es.s.bc4a95a2fba9919e",
+      "source": "Me encanta el café, y a ella también.",
+      "level": "C2",
+      "grammar": "'So do/does + subject' avoids repeating the verb (substitution).",
+      "target": [
+        {
+          "text": "I love coffee, and so does she.",
+          "audioSlug": "i_love_coffee_and_so_does_she"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_can_swim_so_can_i",
+      "conceptId": "en.conversacion_can_swim_so_can_i",
+      "sourceId": "es.s.8e960cc5ca9d5768",
+      "source": "Él sabe nadar, y yo también.",
+      "level": "C2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "He can swim, and so can I.",
+          "audioSlug": "he_can_swim_and_so_can_i"
+        }
+      ]
+    }
+  ]
+}

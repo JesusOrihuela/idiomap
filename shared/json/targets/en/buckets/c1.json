@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "c1",
+  "concepts": {
+    "en.conversacion_love_coffee_so_does_she": {
+      "conceptId": "en.conversacion_love_coffee_so_does_she",
+      "id": "conversacion_love_coffee_so_does_she",
+      "target": [
+        {
+          "text": "I love coffee, and so does she.",
+          "audioSlug": "i_love_coffee_and_so_does_she"
+        }
+      ]
+    },
+    "en.planes_i_have_a_plan": {
+      "conceptId": "en.planes_i_have_a_plan",
+      "id": "planes_i_have_a_plan",
+      "target": [
+        {
+          "text": "I have a plan.",
+          "audioSlug": "i_have_a_plan"
+        }
+      ]
+    },
+    "en.planes_let_me_dream": {
+      "conceptId": "en.planes_let_me_dream",
+      "id": "planes_let_me_dream",
+      "target": [
+        {
+          "text": "Let me dream.",
+          "audioSlug": "let_me_dream"
+        }
+      ]
+    },
+    "en.planes_that_is_my_main_goal": {
+      "conceptId": "en.planes_that_is_my_main_goal",
+      "id": "planes_that_is_my_main_goal",
+      "target": [
+        {
+          "text": "That is my main goal.",
+          "audioSlug": "that_is_my_main_goal"
+        }
+      ]
+    },
+    "en.technology_the_virtual_assistant_has_been_failing": {
+      "conceptId": "en.technology_the_virtual_assistant_has_been_failing",
+      "id": "technology_the_virtual_assistant_has_been_failing",
+      "target": [
+        {
+          "text": "The virtual assistant has been failing.",
+          "audioSlug": "the_virtual_assistant_has_been_failing"
+        }
+      ]
+    },
+    "en.technology_what_is_the_wifi_password": {
+      "conceptId": "en.technology_what_is_the_wifi_password",
+      "id": "technology_what_is_the_wifi_password",
+      "target": [
+        {
+          "text": "What is the WiFi password?",
+          "audioSlug": "what_is_the_wifi_password"
+        }
+      ]
+    }
+  }
+}

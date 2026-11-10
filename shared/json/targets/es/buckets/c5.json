@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "c5",
+  "concepts": {
+    "es.calendario_the_appointment_is_on_march_tenth": {
+      "conceptId": "es.calendario_the_appointment_is_on_march_tenth",
+      "id": "calendario_the_appointment_is_on_march_tenth",
+      "target": [
+        {
+          "text": "La cita es el diez de marzo.",
+          "audioSlug": "la_cita_es_el_diez_de_marzo"
+        }
+      ]
+    },
+    "es.conversacion_avisame_cuando_llegues": {
+      "conceptId": "es.conversacion_avisame_cuando_llegues",
+      "id": "conversacion_avisame_cuando_llegues",
+      "target": [
+        {
+          "text": "Avísame cuando llegues.",
+          "audioSlug": "avisame_cuando_llegues"
+        }
+      ]
+    },
+    "es.directions_turn_right": {
+      "conceptId": "es.directions_turn_right",
+      "id": "directions_turn_right",
+      "target": [
+        {
+          "text": "Gira a la derecha.",
+          "audioSlug": "gira_a_la_derecha"
+        }
+      ]
+    },
+    "es.economia_tenemos_una_empresa": {
+      "conceptId": "es.economia_tenemos_una_empresa",
+      "id": "economia_tenemos_una_empresa",
+      "target": [
+        {
+          "text": "Tenemos una empresa.",
+          "audioSlug": "tenemos_una_empresa"
+        }
+      ]
+    },
+    "es.hogar_guardo_cada_herramienta_en_su_caja": {
+      "conceptId": "es.hogar_guardo_cada_herramienta_en_su_caja",
+      "id": "hogar_guardo_cada_herramienta_en_su_caja",
+      "target": [
+        {
+          "text": "Guardo cada herramienta en su caja.",
+          "audioSlug": "guardo_cada_herramienta_en_su_caja"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_tienes_razon": {
+      "conceptId": "es.pensamientos_opiniones_tienes_razon",
+      "id": "pensamientos_opiniones_tienes_razon",
+      "target": [
+        {
+          "text": "Tienes razón.",
+          "audioSlug": "tienes_razon"
+        }
+      ]
+    },
+    "es.planes_algun_dia_quiero_conocer_japon": {
+      "conceptId": "es.planes_algun_dia_quiero_conocer_japon",
+      "id": "planes_algun_dia_quiero_conocer_japon",
+      "target": [
+        {
+          "text": "Algún día quiero conocer Japón.",
+          "audioSlug": "algun_dia_quiero_conocer_japon"
+        }
+      ]
+    },
+    "es.sitios_trabajo_en_una_oficina_del_centro": {
+      "conceptId": "es.sitios_trabajo_en_una_oficina_del_centro",
+      "id": "sitios_trabajo_en_una_oficina_del_centro",
+      "target": [
+        {
+          "text": "Trabajo en una oficina del centro.",
+          "audioSlug": "trabajo_en_una_oficina_del_centro"
+        }
+      ]
+    },
+    "es.technology_i_need_to_back_up_my": {
+      "conceptId": "es.technology_i_need_to_back_up_my",
+      "id": "technology_i_need_to_back_up_my",
+      "target": [
+        {
+          "text": "Necesito hacer una copia de seguridad de mis datos.",
+          "audioSlug": "necesito_hacer_una_copia_de_seguridad_de_mis_datos"
+        }
+      ]
+    },
+    "es.tiempo_libre_me_gusta_el_baile": {
+      "conceptId": "es.tiempo_libre_me_gusta_el_baile",
+      "id": "tiempo_libre_me_gusta_el_baile",
+      "target": [
+        {
+          "text": "Me gusta el baile.",
+          "audioSlug": "me_gusta_el_baile"
+        }
+      ]
+    },
+    "es.tiempo_libre_what_do_you_do_for_fun": {
+      "conceptId": "es.tiempo_libre_what_do_you_do_for_fun",
+      "id": "tiempo_libre_what_do_you_do_for_fun",
+      "target": [
+        {
+          "text": "¿Qué haces para divertirte?",
+          "audioSlug": "que_haces_para_divertirte"
+        }
+      ]
+    }
+  }
+}

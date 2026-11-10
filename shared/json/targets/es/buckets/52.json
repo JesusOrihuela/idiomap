@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "52",
+  "concepts": {
+    "es.accommodation_safe_room": {
+      "conceptId": "es.accommodation_safe_room",
+      "id": "accommodation_safe_room",
+      "target": [
+        {
+          "text": "¿Hay caja fuerte en la habitación?",
+          "audioSlug": "hay_caja_fuerte_en_la_habitacion"
+        }
+      ]
+    },
+    "es.accountability_depreciation_must_be_calculated_using": {
+      "conceptId": "es.accountability_depreciation_must_be_calculated_using",
+      "id": "accountability_depreciation_must_be_calculated_using",
+      "target": [
+        {
+          "text": "La depreciación debe calcularse usando el método de línea recta para activos fijos.",
+          "audioSlug": "la_depreciacion_debe_calcularse_usando_el_metodo_de_linea_recta_para_activos_fijos"
+        }
+      ]
+    },
+    "es.accountability_if_the_company_buys_new_assets": {
+      "conceptId": "es.accountability_if_the_company_buys_new_assets",
+      "id": "accountability_if_the_company_buys_new_assets",
+      "target": [
+        {
+          "text": "Si la empresa compra nuevos activos, debitas bancos y acreditas activos.",
+          "audioSlug": "si_la_empresa_compra_nuevos_activos_debitas_bancos_y_acreditas_activos"
+        }
+      ]
+    },
+    "es.daily_routine_hay_que_ducharse_antes_de_salir": {
+      "conceptId": "es.daily_routine_hay_que_ducharse_antes_de_salir",
+      "id": "daily_routine_hay_que_ducharse_antes_de_salir",
+      "target": [
+        {
+          "text": "Hay que ducharse antes de salir.",
+          "audioSlug": "hay_que_ducharse_antes_de_salir"
+        }
+      ]
+    },
+    "es.deportes_perdimos_por_dos_goles": {
+      "conceptId": "es.deportes_perdimos_por_dos_goles",
+      "id": "deportes_perdimos_por_dos_goles",
+      "target": [
+        {
+          "text": "Perdimos por dos goles.",
+          "audioSlug": "perdimos_por_dos_goles"
+        }
+      ]
+    },
+    "es.describiendo_personas_tiene_una_voz_bonita": {
+      "conceptId": "es.describiendo_personas_tiene_una_voz_bonita",
+      "id": "describiendo_personas_tiene_una_voz_bonita",
+      "target": [
+        {
+          "text": "Tiene una voz bonita.",
+          "audioSlug": "tiene_una_voz_bonita"
+        }
+      ]
+    },
+    "es.greetings_de_nada": {
+      "conceptId": "es.greetings_de_nada",
+      "id": "greetings_de_nada",
+      "target": [
+        {
+          "text": "De nada.",
+          "audioSlug": "de_nada"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_hay_muchas_estrellas_esta_noche": {
+      "conceptId": "es.naturaleza_lugares_hay_muchas_estrellas_esta_noche",
+      "id": "naturaleza_lugares_hay_muchas_estrellas_esta_noche",
+      "target": [
+        {
+          "text": "Hay muchas estrellas esta noche.",
+          "audioSlug": "hay_muchas_estrellas_esta_noche"
+        }
+      ]
+    },
+    "es.tiempo_libre_los_fines_de_semana_salgo_a_pasear": {
+      "conceptId": "es.tiempo_libre_los_fines_de_semana_salgo_a_pasear",
+      "id": "tiempo_libre_los_fines_de_semana_salgo_a_pasear",
+      "target": [
+        {
+          "text": "Los fines de semana salgo a pasear.",
+          "audioSlug": "los_fines_de_semana_salgo_a_pasear"
+        }
+      ]
+    }
+  }
+}

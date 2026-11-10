@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "46",
+  "concepts": {
+    "es.accountability_the_audit_committee_has_raised": {
+      "conceptId": "es.accountability_the_audit_committee_has_raised",
+      "id": "accountability_the_audit_committee_has_raised",
+      "target": [
+        {
+          "text": "El comité de auditoría ha expresado preocupaciones sobre nuestros controles internos.",
+          "audioSlug": "el_comite_de_auditoria_ha_expresado_preocupaciones_sobre_nuestros_controles_internos"
+        }
+      ]
+    },
+    "es.conversacion_la_reunion_termino_en_una_fuerte_discusion": {
+      "conceptId": "es.conversacion_la_reunion_termino_en_una_fuerte_discusion",
+      "id": "conversacion_la_reunion_termino_en_una_fuerte_discusion",
+      "target": [
+        {
+          "text": "La reunión terminó en una fuerte discusión.",
+          "audioSlug": "la_reunion_termino_en_una_fuerte_discusion"
+        }
+      ]
+    },
+    "es.daily_routine_brush_teeth": {
+      "conceptId": "es.daily_routine_brush_teeth",
+      "id": "daily_routine_brush_teeth",
+      "target": [
+        {
+          "text": "Me lavo los dientes después de desayunar.",
+          "audioSlug": "me_lavo_los_dientes_despues_de_desayunar"
+        }
+      ]
+    },
+    "es.daily_routine_empiezo_el_dia_con_un_cafe": {
+      "conceptId": "es.daily_routine_empiezo_el_dia_con_un_cafe",
+      "id": "daily_routine_empiezo_el_dia_con_un_cafe",
+      "target": [
+        {
+          "text": "Empiezo el día con un café.",
+          "audioSlug": "empiezo_el_dia_con_un_cafe"
+        }
+      ]
+    },
+    "es.economia_el_alquiler_subio_este_ano": {
+      "conceptId": "es.economia_el_alquiler_subio_este_ano",
+      "id": "economia_el_alquiler_subio_este_ano",
+      "target": [
+        {
+          "text": "El alquiler subió este año.",
+          "audioSlug": "el_alquiler_subio_este_ano"
+        }
+      ]
+    },
+    "es.economia_saco_dinero_del_cajero": {
+      "conceptId": "es.economia_saco_dinero_del_cajero",
+      "id": "economia_saco_dinero_del_cajero",
+      "target": [
+        {
+          "text": "Saco dinero del cajero.",
+          "audioSlug": "saco_dinero_del_cajero"
+        }
+      ]
+    },
+    "es.estudios_estudio_con_mis_companeros": {
+      "conceptId": "es.estudios_estudio_con_mis_companeros",
+      "id": "estudios_estudio_con_mis_companeros",
+      "target": [
+        {
+          "text": "Estudio con mis compañeros de clase.",
+          "audioSlug": "estudio_con_mis_companeros_de_clase"
+        }
+      ]
+    },
+    "es.gym_should_i_follow_any_kind_of": {
+      "conceptId": "es.gym_should_i_follow_any_kind_of",
+      "id": "gym_should_i_follow_any_kind_of",
+      "target": [
+        {
+          "text": "¿Debería seguir algún tipo de rutina para acabar mi entrenamiento?",
+          "audioSlug": "deberia_seguir_algun_tipo_de_rutina_para_acabar_mi_entrenamiento"
+        }
+      ]
+    },
+    "es.health_fuimos_a_urgencias": {
+      "conceptId": "es.health_fuimos_a_urgencias",
+      "id": "health_fuimos_a_urgencias",
+      "target": [
+        {
+          "text": "Fuimos a urgencias anoche.",
+          "audioSlug": "fuimos_a_urgencias_anoche"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_tengo_la_solucion": {
+      "conceptId": "es.pensamientos_opiniones_tengo_la_solucion",
+      "id": "pensamientos_opiniones_tengo_la_solucion",
+      "target": [
+        {
+          "text": "Tengo la solución.",
+          "audioSlug": "tengo_la_solucion"
+        }
+      ]
+    },
+    "es.personal_info_mi_padre_esta_casado": {
+      "conceptId": "es.personal_info_mi_padre_esta_casado",
+      "id": "personal_info_mi_padre_esta_casado",
+      "target": [
+        {
+          "text": "Mi padre está casado.",
+          "audioSlug": "mi_padre_esta_casado"
+        }
+      ]
+    },
+    "es.personal_info_what_languages": {
+      "conceptId": "es.personal_info_what_languages",
+      "id": "personal_info_what_languages",
+      "target": [
+        {
+          "text": "¿Qué idiomas hablas?",
+          "audioSlug": "que_idiomas_hablas"
+        }
+      ]
+    },
+    "es.planes_vamos_a_acordar_un_plan": {
+      "conceptId": "es.planes_vamos_a_acordar_un_plan",
+      "id": "planes_vamos_a_acordar_un_plan",
+      "target": [
+        {
+          "text": "Vamos a acordar un plan.",
+          "audioSlug": "vamos_a_acordar_un_plan"
+        }
+      ]
+    },
+    "es.technology_this_powerpoint_presentation_is_very_boring": {
+      "conceptId": "es.technology_this_powerpoint_presentation_is_very_boring",
+      "id": "technology_this_powerpoint_presentation_is_very_boring",
+      "target": [
+        {
+          "text": "Esta presentación de PowerPoint está muy aburrida.",
+          "audioSlug": "esta_presentacion_de_powerpoint_esta_muy_aburrida"
+        }
+      ]
+    }
+  }
+}

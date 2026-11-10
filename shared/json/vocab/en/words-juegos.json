@@ -17,7 +17,13 @@
       "gloss_example": {
         "es": "Los niños inventaron un nuevo juego."
       },
-      "conceptId": "en.game"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "party",
@@ -36,7 +42,13 @@
       "gloss_example": {
         "es": "Hicimos una fiesta de cumpleaños."
       },
-      "conceptId": "en.party"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "ball",
@@ -55,7 +67,13 @@
       "gloss_example": {
         "es": "Pateó la pelota con fuerza."
       },
-      "conceptId": "en.ball"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "toy",
@@ -74,7 +92,13 @@
       "gloss_example": {
         "es": "El bebé soltó su juguete."
       },
-      "conceptId": "en.toy"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "match",
@@ -93,7 +117,13 @@
       "gloss_example": {
         "es": "El partido de fútbol terminó en empate."
       },
-      "conceptId": "en.match"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "board_game",
@@ -112,7 +142,13 @@
       "gloss_example": {
         "es": "Prepara el tablero antes de empezar."
       },
-      "conceptId": "en.board_game"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "puzzle",
@@ -131,7 +167,13 @@
       "gloss_example": {
         "es": "Ella resolvió el rompecabezas rápido."
       },
-      "conceptId": "en.puzzle"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "prize",
@@ -150,7 +192,13 @@
       "gloss_example": {
         "es": "Él ganó el primer premio."
       },
-      "conceptId": "en.prize"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "chess",
@@ -169,7 +217,13 @@
       "gloss_example": {
         "es": "Jugaron ajedrez toda la tarde."
       },
-      "conceptId": "en.chess"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "riddle",
@@ -188,7 +242,13 @@
       "gloss_example": {
         "es": "¿Puedes resolver este acertijo?"
       },
-      "conceptId": "en.riddle"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "trophy",
@@ -207,7 +267,13 @@
       "gloss_example": {
         "es": "Levantó el trofeo con orgullo."
       },
-      "conceptId": "en.trophy"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

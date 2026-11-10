@@ -17,7 +17,13 @@
       "gloss_example": {
         "es": "Los cereales de desayuno están en el pasillo siete."
       },
-      "conceptId": "en.aisle"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "checkout",
@@ -36,7 +42,13 @@
       "gloss_example": {
         "es": "Había una fila larga en la caja."
       },
-      "conceptId": "en.checkout"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "coupon",
@@ -55,7 +67,13 @@
       "gloss_example": {
         "es": "Usé un cupón para ahorrar dos dólares en los cereales."
       },
-      "conceptId": "en.coupon"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "discount",
@@ -74,7 +92,13 @@
       "gloss_example": {
         "es": "Esta tienda ofrece un descuento del diez por ciento para estudiantes."
       },
-      "conceptId": "en.discount"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "receipt",
@@ -93,7 +117,13 @@
       "gloss_example": {
         "es": "Guarda el recibo por si necesitas devolver el artículo."
       },
-      "conceptId": "en.receipt"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cashier",
@@ -112,7 +142,13 @@
       "gloss_example": {
         "es": "La cajera escaneó todos mis artículos y los metió en una bolsa."
       },
-      "conceptId": "en.cashier"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "expiration",
@@ -131,7 +167,13 @@
       "gloss_example": {
         "es": "Siempre revisa la fecha de caducidad antes de comprar productos lácteos."
       },
-      "conceptId": "en.expiration"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "organic",
@@ -150,7 +192,13 @@
       "gloss_example": {
         "es": "Las verduras orgánicas suelen costar más que las cultivadas de forma convencional."
       },
-      "conceptId": "en.organic"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "quantity",
@@ -169,7 +217,13 @@
       "gloss_example": {
         "es": "Por favor, ingresa la cantidad exacta que deseas pedir."
       },
-      "conceptId": "en.quantity"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "promotion",
@@ -188,7 +242,13 @@
       "gloss_example": {
         "es": "El supermercado tiene una promoción de lleva dos paga uno esta semana."
       },
-      "conceptId": "en.promotion"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "loyalty",
@@ -207,7 +267,13 @@
       "gloss_example": {
         "es": "Escanea tu tarjeta de fidelización en la caja para acumular puntos en cada compra."
       },
-      "conceptId": "en.loyalty"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "bulk",
@@ -226,7 +292,13 @@
       "gloss_example": {
         "es": "Es mucho más barato comprar arroz y pasta a granel."
       },
-      "conceptId": "en.bulk"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "generic",
@@ -245,7 +317,13 @@
       "gloss_example": {
         "es": "Los analgésicos genéricos contienen el mismo principio activo que los de marca."
       },
-      "conceptId": "en.generic"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "perishable",
@@ -264,7 +342,13 @@
       "gloss_example": {
         "es": "Mantén todos los productos perecederos refrigerados a la temperatura correcta."
       },
-      "conceptId": "en.perishable"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "wholesale",
@@ -283,7 +367,13 @@
       "gloss_example": {
         "es": "El restaurante compra sus productos a precios de mayorista para ahorrar dinero."
       },
-      "conceptId": "en.wholesale"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "allergen",
@@ -302,7 +392,13 @@
       "gloss_example": {
         "es": "El envase debe enumerar los catorce alérgenos principales conforme a la normativa de etiquetado alimentario."
       },
-      "conceptId": "en.allergen"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "traceability",
@@ -321,7 +417,13 @@
       "gloss_example": {
         "es": "Los minoristas deben garantizar la trazabilidad del campo al estante para todos los productos frescos."
       },
-      "conceptId": "en.traceability"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "markup",
@@ -340,7 +442,13 @@
       "gloss_example": {
         "es": "El margen del supermercado en las líneas orgánicas premium es significativamente mayor que en los productos estándar."
       },
-      "conceptId": "en.markup"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "recall",
@@ -359,7 +467,13 @@
       "gloss_example": {
         "es": "El fabricante emitió una orden de retirada tras identificar un riesgo de contaminación en el lote."
       },
-      "conceptId": "en.recall"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "supplier",
@@ -378,7 +492,13 @@
       "gloss_example": {
         "es": "El supermercado trabaja con más de doscientos proveedores aprobados en varios países."
       },
-      "conceptId": "en.supplier"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "procurement",
@@ -397,7 +517,13 @@
       "gloss_example": {
         "es": "El equipo de aprovisionamiento negocia contratos a largo plazo para asegurar precios estables con los proveedores clave."
       },
-      "conceptId": "en.procurement"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "cold_chain",
@@ -416,7 +542,13 @@
       "gloss_example": {
         "es": "Una ruptura en la cadena de frío durante el transporte puede comprometer la seguridad de los productos congelados o refrigerados."
       },
-      "conceptId": "en.cold_chain"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "shrinkage",
@@ -435,7 +567,13 @@
       "gloss_example": {
         "es": "La tienda implementó nuevas medidas de seguridad tras el aumento significativo de la merma el trimestre pasado."
       },
-      "conceptId": "en.shrinkage"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "supply_chain",
@@ -454,7 +592,13 @@
       "gloss_example": {
         "es": "Las interrupciones en la cadena de suministro global provocaron escasez generalizada y aumentos de precios."
       },
-      "conceptId": "en.supply_chain"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     },
     {
       "id": "adulteration",
@@ -473,7 +617,13 @@
       "gloss_example": {
         "es": "La investigación sobre fraude alimentario reveló una adulteración generalizada de la miel importada con jarabes más baratos."
       },
-      "conceptId": "en.adulteration"
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      }
     }
   ]
 }

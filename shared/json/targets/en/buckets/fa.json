@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "fa",
+  "concepts": {
+    "en.accountability_over_budget": {
+      "conceptId": "en.accountability_over_budget",
+      "id": "accountability_over_budget",
+      "target": [
+        {
+          "text": "We are over budget.",
+          "audioSlug": "we_are_over_budget"
+        }
+      ]
+    },
+    "en.cuerpo_the_human_body_is_complex": {
+      "conceptId": "en.cuerpo_the_human_body_is_complex",
+      "id": "cuerpo_the_human_body_is_complex",
+      "target": [
+        {
+          "text": "The human body is complex.",
+          "audioSlug": "the_human_body_is_complex"
+        }
+      ]
+    },
+    "en.politica_the_party_won_the_election": {
+      "conceptId": "en.politica_the_party_won_the_election",
+      "id": "politica_the_party_won_the_election",
+      "target": [
+        {
+          "text": "The party won the election.",
+          "audioSlug": "the_party_won_the_election"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "78",
+  "concepts": {
+    "es.accommodation_breakfast_included": {
+      "conceptId": "es.accommodation_breakfast_included",
+      "id": "accommodation_breakfast_included",
+      "target": [
+        {
+          "text": "¿Está incluido el desayuno?",
+          "audioSlug": "esta_incluido_el_desayuno"
+        }
+      ]
+    },
+    "es.accountability_liquidity_ratios_short_term_obligations": {
+      "conceptId": "es.accountability_liquidity_ratios_short_term_obligations",
+      "id": "accountability_liquidity_ratios_short_term_obligations",
+      "target": [
+        {
+          "text": "Los índices de liquidez sugieren que la empresa podría no cumplir sus obligaciones a corto plazo.",
+          "audioSlug": "los_indices_de_liquidez_sugieren_que_la_empresa_podria_no_cumplir_sus_obligaciones_a_corto_plazo"
+        }
+      ]
+    },
+    "es.calendario_what_day_is_today": {
+      "conceptId": "es.calendario_what_day_is_today",
+      "id": "calendario_what_day_is_today",
+      "target": [
+        {
+          "text": "¿Qué día es hoy?",
+          "audioSlug": "que_dia_es_hoy"
+        }
+      ]
+    },
+    "es.descripciones_ese_sofa_viejo_es_muy_feo": {
+      "conceptId": "es.descripciones_ese_sofa_viejo_es_muy_feo",
+      "id": "descripciones_ese_sofa_viejo_es_muy_feo",
+      "target": [
+        {
+          "text": "Ese sofá viejo es muy feo.",
+          "audioSlug": "ese_sofa_viejo_es_muy_feo"
+        }
+      ]
+    },
+    "es.economia_nuestro_objetivo_principal_es_claro": {
+      "conceptId": "es.economia_nuestro_objetivo_principal_es_claro",
+      "id": "economia_nuestro_objetivo_principal_es_claro",
+      "target": [
+        {
+          "text": "Nuestro objetivo principal es claro.",
+          "audioSlug": "nuestro_objetivo_principal_es_claro"
+        }
+      ]
+    },
+    "es.gym_can_you_spot_me": {
+      "conceptId": "es.gym_can_you_spot_me",
+      "id": "gym_can_you_spot_me",
+      "target": [
+        {
+          "text": "¿Me puedes cuidar mientras levanto?",
+          "audioSlug": "me_puedes_cuidar_mientras_levanto"
+        }
+      ]
+    },
+    "es.kitchen_it_smells_good": {
+      "conceptId": "es.kitchen_it_smells_good",
+      "id": "kitchen_it_smells_good",
+      "target": [
+        {
+          "text": "Huele muy bien.",
+          "audioSlug": "huele_muy_bien"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_nadie_sabe_lo_que_pasara": {
+      "conceptId": "es.pensamientos_opiniones_nadie_sabe_lo_que_pasara",
+      "id": "pensamientos_opiniones_nadie_sabe_lo_que_pasara",
+      "target": [
+        {
+          "text": "Nadie sabe lo que pasará mañana.",
+          "audioSlug": "nadie_sabe_lo_que_pasara_manana"
+        }
+      ]
+    },
+    "es.planes_next_year_im_going_to_move": {
+      "conceptId": "es.planes_next_year_im_going_to_move",
+      "id": "planes_next_year_im_going_to_move",
+      "target": [
+        {
+          "text": "El año que viene me voy a mudar.",
+          "audioSlug": "el_ano_que_viene_me_voy_a_mudar"
+        }
+      ]
+    },
+    "es.politica_el_rey_viene": {
+      "conceptId": "es.politica_el_rey_viene",
+      "id": "politica_el_rey_viene",
+      "target": [
+        {
+          "text": "El rey viene.",
+          "audioSlug": "el_rey_viene"
+        }
+      ]
+    },
+    "es.politica_hay_elecciones_este_ano": {
+      "conceptId": "es.politica_hay_elecciones_este_ano",
+      "id": "politica_hay_elecciones_este_ano",
+      "target": [
+        {
+          "text": "Hay elecciones este año.",
+          "audioSlug": "hay_elecciones_este_ano"
+        }
+      ]
+    },
+    "es.technology_turn_on_the_scanner_i_need": {
+      "conceptId": "es.technology_turn_on_the_scanner_i_need",
+      "id": "technology_turn_on_the_scanner_i_need",
+      "target": [
+        {
+          "text": "Prende el escáner, necesito digitalizar este documento.",
+          "audioSlug": "prende_el_escaner_necesito_digitalizar_este_documento"
+        }
+      ]
+    }
+  }
+}

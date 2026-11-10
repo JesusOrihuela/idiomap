@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "7c",
+  "concepts": {
+    "es.accommodation_recommend_restaurant": {
+      "conceptId": "es.accommodation_recommend_restaurant",
+      "id": "accommodation_recommend_restaurant",
+      "target": [
+        {
+          "text": "¿Podría recomendarme un buen restaurante cercano?",
+          "audioSlug": "podria_recomendarme_un_buen_restaurante_cercano"
+        }
+      ]
+    },
+    "es.airport_passport_expiry_visa": {
+      "conceptId": "es.airport_passport_expiry_visa",
+      "id": "airport_passport_expiry_visa",
+      "target": [
+        {
+          "text": "Mi pasaporte vence en tres meses, ¿es suficiente para una visa de turista a la llegada?",
+          "audioSlug": "mi_pasaporte_vence_en_tres_meses_es_suficiente_para_una_visa_de_turista_a_la_llegada"
+        }
+      ]
+    },
+    "es.conversacion_te_deseo_mucha_suerte": {
+      "conceptId": "es.conversacion_te_deseo_mucha_suerte",
+      "id": "conversacion_te_deseo_mucha_suerte",
+      "target": [
+        {
+          "text": "Te deseo mucha suerte.",
+          "audioSlug": "te_deseo_mucha_suerte"
+        }
+      ]
+    },
+    "es.daily_routine_normalmente_ceno_a_las_ocho": {
+      "conceptId": "es.daily_routine_normalmente_ceno_a_las_ocho",
+      "id": "daily_routine_normalmente_ceno_a_las_ocho",
+      "target": [
+        {
+          "text": "Normalmente ceno a las ocho.",
+          "audioSlug": "normalmente_ceno_a_las_ocho"
+        }
+      ]
+    },
+    "es.describiendo_personas_es_muy_famoso": {
+      "conceptId": "es.describiendo_personas_es_muy_famoso",
+      "id": "describiendo_personas_es_muy_famoso",
+      "target": [
+        {
+          "text": "Es muy famoso.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "es_muy_famoso"
+        },
+        {
+          "text": "Es muy famosa.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "es_muy_famosa"
+        }
+      ]
+    },
+    "es.descripciones_que_edad_tienes": {
+      "conceptId": "es.descripciones_que_edad_tienes",
+      "id": "descripciones_que_edad_tienes",
+      "target": [
+        {
+          "text": "¿Qué edad tienes?",
+          "audioSlug": "que_edad_tienes"
+        }
+      ]
+    },
+    "es.directions_cross_the_street_carefully": {
+      "conceptId": "es.directions_cross_the_street_carefully",
+      "id": "directions_cross_the_street_carefully",
+      "target": [
+        {
+          "text": "Cruza la calle con cuidado.",
+          "audioSlug": "cruza_la_calle_con_cuidado"
+        }
+      ]
+    },
+    "es.estudios_la_educacion_es_importante": {
+      "conceptId": "es.estudios_la_educacion_es_importante",
+      "id": "estudios_la_educacion_es_importante",
+      "target": [
+        {
+          "text": "La educación es importante.",
+          "audioSlug": "la_educacion_es_importante"
+        }
+      ]
+    },
+    "es.family_el_nino_de_mi_hermana": {
+      "conceptId": "es.family_el_nino_de_mi_hermana",
+      "id": "family_el_nino_de_mi_hermana",
+      "target": [
+        {
+          "text": "El niño de mi hermana tiene cinco años.",
+          "audioSlug": "el_nino_de_mi_hermana_tiene_cinco_anos"
+        }
+      ]
+    },
+    "es.supermarket_shelf_price_doesnt_match_register": {
+      "conceptId": "es.supermarket_shelf_price_doesnt_match_register",
+      "id": "supermarket_shelf_price_doesnt_match_register",
+      "target": [
+        {
+          "text": "El precio del estante no coincide con lo que marca la caja.",
+          "audioSlug": "el_precio_del_estante_no_coincide_con_lo_que_marca_la_caja"
+        }
+      ]
+    },
+    "es.technology_after_the_ransomware_attack_the_company": {
+      "conceptId": "es.technology_after_the_ransomware_attack_the_company",
+      "id": "technology_after_the_ransomware_attack_the_company",
+      "target": [
+        {
+          "text": "Después del ataque de ransomware, la empresa solo pudo restaurar desde su copia de seguridad.",
+          "audioSlug": "despues_del_ataque_de_ransomware_la_empresa_solo_pudo_restaurar_desde_su_copia_de_seguridad"
+        }
+      ]
+    },
+    "es.technology_este_programa_es_facil_de_usar": {
+      "conceptId": "es.technology_este_programa_es_facil_de_usar",
+      "id": "technology_este_programa_es_facil_de_usar",
+      "target": [
+        {
+          "text": "Este programa es muy fácil de usar.",
+          "audioSlug": "este_programa_es_muy_facil_de_usar"
+        }
+      ]
+    }
+  }
+}

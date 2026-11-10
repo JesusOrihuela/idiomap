@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "94",
+  "concepts": {
+    "es.accommodation_group_discount_block": {
+      "conceptId": "es.accommodation_group_discount_block",
+      "id": "accommodation_group_discount_block",
+      "target": [
+        {
+          "text": "¿Hay descuento de grupo o bloque de habitaciones para doce personas?",
+          "audioSlug": "hay_descuento_de_grupo_o_bloque_de_habitaciones_para_doce_personas"
+        }
+      ]
+    },
+    "es.calendario_mi_cumpleanos_es_en_marzo": {
+      "conceptId": "es.calendario_mi_cumpleanos_es_en_marzo",
+      "id": "calendario_mi_cumpleanos_es_en_marzo",
+      "target": [
+        {
+          "text": "Mi cumpleaños es en marzo.",
+          "audioSlug": "mi_cumpleanos_es_en_marzo"
+        }
+      ]
+    },
+    "es.calendario_tengo_una_cita_a_mediodia": {
+      "conceptId": "es.calendario_tengo_una_cita_a_mediodia",
+      "id": "calendario_tengo_una_cita_a_mediodia",
+      "target": [
+        {
+          "text": "Tengo una cita a mediodía.",
+          "audioSlug": "tengo_una_cita_a_mediodia"
+        }
+      ]
+    },
+    "es.conversacion_ya_habia_comido": {
+      "conceptId": "es.conversacion_ya_habia_comido",
+      "id": "conversacion_ya_habia_comido",
+      "target": [
+        {
+          "text": "Ya había comido cuando llegaste.",
+          "audioSlug": "ya_habia_comido_cuando_llegaste"
+        }
+      ]
+    },
+    "es.cotidianidad_no_te_enfades": {
+      "conceptId": "es.cotidianidad_no_te_enfades",
+      "id": "cotidianidad_no_te_enfades",
+      "target": [
+        {
+          "text": "No te enfades.",
+          "audioSlug": "no_te_enfades"
+        }
+      ]
+    },
+    "es.deportes_el_entrenador_cambio_la_estrategia": {
+      "conceptId": "es.deportes_el_entrenador_cambio_la_estrategia",
+      "id": "deportes_el_entrenador_cambio_la_estrategia",
+      "target": [
+        {
+          "text": "El entrenador cambió la estrategia.",
+          "audioSlug": "el_entrenador_cambio_la_estrategia"
+        }
+      ]
+    },
+    "es.emociones_estoy_tan_contento_hoy": {
+      "conceptId": "es.emociones_estoy_tan_contento_hoy",
+      "id": "emociones_estoy_tan_contento_hoy",
+      "target": [
+        {
+          "text": "Estoy tan contenta hoy.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_tan_contenta_hoy"
+        },
+        {
+          "text": "Estoy tan contento hoy.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_tan_contento_hoy"
+        }
+      ]
+    },
+    "es.kitchen_fold_egg_whites_not_stir": {
+      "conceptId": "es.kitchen_fold_egg_whites_not_stir",
+      "id": "kitchen_fold_egg_whites_not_stir",
+      "target": [
+        {
+          "text": "Incorpora las claras a la mezcla con movimientos envolventes en lugar de revolver.",
+          "audioSlug": "incorpora_las_claras_a_la_mezcla_con_movimientos_envolventes_en_lugar_de_revolver"
+        }
+      ]
+    },
+    "es.kitchen_primero_calienta_el_aceite": {
+      "conceptId": "es.kitchen_primero_calienta_el_aceite",
+      "id": "kitchen_primero_calienta_el_aceite",
+      "target": [
+        {
+          "text": "Primero calienta el aceite en la sartén.",
+          "audioSlug": "primero_calienta_el_aceite_en_la_sarten"
+        }
+      ]
+    },
+    "es.supermarket_expiration_date": {
+      "conceptId": "es.supermarket_expiration_date",
+      "id": "supermarket_expiration_date",
+      "target": [
+        {
+          "text": "¿Cuál es la fecha de caducidad?",
+          "audioSlug": "cual_es_la_fecha_de_caducidad"
+        }
+      ]
+    },
+    "es.technology_guarda_el_archivo_antes_de_cerrar": {
+      "conceptId": "es.technology_guarda_el_archivo_antes_de_cerrar",
+      "id": "technology_guarda_el_archivo_antes_de_cerrar",
+      "target": [
+        {
+          "text": "Guarda el archivo antes de cerrar.",
+          "audioSlug": "guarda_el_archivo_antes_de_cerrar"
+        }
+      ]
+    },
+    "es.transportation_weekly_travel_pass": {
+      "conceptId": "es.transportation_weekly_travel_pass",
+      "id": "transportation_weekly_travel_pass",
+      "target": [
+        {
+          "text": "Me gustaría comprar un pase semanal de transporte.",
+          "audioSlug": "me_gustaria_comprar_un_pase_semanal_de_transporte"
+        }
+      ]
+    }
+  }
+}

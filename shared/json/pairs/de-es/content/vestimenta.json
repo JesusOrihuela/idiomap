@@ -1,26 +1,254 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "vestimenta",
-  "conceptIds": [
-    "es.vestimenta_hoy_llevo_una_camisa_blanca",
-    "es.vestimenta_ese_pantalon_te_queda_muy_bien",
-    "es.vestimenta_ella_lleva_una_falda_larga",
-    "es.vestimenta_necesito_unos_zapatos_comodos",
-    "es.vestimenta_guardo_las_llaves_en_el_bolso",
-    "es.vestimenta_si_tienes_frio_ponte_el_jersey",
-    "es.vestimenta_se_puso_una_corbata_azul",
-    "es.vestimenta_llevo_calcetines_de_lana_en_invierno",
-    "es.vestimenta_usa_una_gorra_para_el_sol",
-    "es.vestimenta_ella_tiene_una_blusa_de_seda",
-    "es.vestimenta_se_compro_un_sombrero_elegante",
-    "es.vestimenta_los_ninos_usan_botas_de_goma",
-    "es.vestimenta_duermo_con_un_pijama_comodo",
-    "es.vestimenta_lleva_un_traje_gris_a_la_oficina",
-    "es.vestimenta_llevo_los_libros_en_la_mochila",
-    "es.vestimenta_en_invierno_uso_gorro_y_bufanda",
-    "es.vestimenta_necesito_un_guante_para_el_frio",
-    "es.vestimenta_necesito_una_talla_mas_grande",
-    "es.vestimenta_esta_tela_es_muy_suave"
+  "phrases": [
+    {
+      "conceptId": "es.vestimenta_hoy_llevo_una_camisa_blanca",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c56c86bec192dcc5"
+    },
+    {
+      "conceptId": "es.vestimenta_ese_pantalon_te_queda_muy_bien",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a80967cda3872445"
+    },
+    {
+      "conceptId": "es.vestimenta_ella_lleva_una_falda_larga",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c64d50d160c0aaf6"
+    },
+    {
+      "conceptId": "es.vestimenta_necesito_unos_zapatos_comodos",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4b53b218f3c16de4"
+    },
+    {
+      "conceptId": "es.vestimenta_guardo_las_llaves_en_el_bolso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.acb7d84af10e26d2"
+    },
+    {
+      "conceptId": "es.vestimenta_si_tienes_frio_ponte_el_jersey",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6a2237b4ac1faf9a"
+    },
+    {
+      "conceptId": "es.vestimenta_se_puso_una_corbata_azul",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a80ce5c9bb8a1fe8"
+    },
+    {
+      "conceptId": "es.vestimenta_llevo_calcetines_de_lana_en_invierno",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6d29de4e5429f3a4"
+    },
+    {
+      "conceptId": "es.vestimenta_usa_una_gorra_para_el_sol",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0b139236266009a3"
+    },
+    {
+      "conceptId": "es.vestimenta_ella_tiene_una_blusa_de_seda",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.332e4fb750d56ec6"
+    },
+    {
+      "conceptId": "es.vestimenta_se_compro_un_sombrero_elegante",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.553fa41e9d152347"
+    },
+    {
+      "conceptId": "es.vestimenta_los_ninos_usan_botas_de_goma",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9d3cce95f6269ceb"
+    },
+    {
+      "conceptId": "es.vestimenta_duermo_con_un_pijama_comodo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.54cb3a8c7c07fba2"
+    },
+    {
+      "conceptId": "es.vestimenta_lleva_un_traje_gris_a_la_oficina",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.76a8c8f2a035771f"
+    },
+    {
+      "conceptId": "es.vestimenta_llevo_los_libros_en_la_mochila",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2492211d6a61b1c6"
+    },
+    {
+      "conceptId": "es.vestimenta_en_invierno_uso_gorro_y_bufanda",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4ca22409020f2e81"
+    },
+    {
+      "conceptId": "es.vestimenta_necesito_un_guante_para_el_frio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ddfb26dcf6cbfc0e"
+    },
+    {
+      "conceptId": "es.vestimenta_necesito_una_talla_mas_grande",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b7bb22f5f3fce58b"
+    },
+    {
+      "conceptId": "es.vestimenta_esta_tela_es_muy_suave",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ee89296b8d20fd16"
+    }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "bucket": "35",
+  "concepts": {
+    "de.piloto_hola_como_estas": {
+      "conceptId": "de.piloto_hola_como_estas",
+      "id": "piloto_hola_como_estas",
+      "target": [
+        {
+          "text": "Hallo, wie geht es dir?",
+          "audioSlug": "hola_como_estas"
+        }
+      ]
+    }
+  }
+}

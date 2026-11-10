@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "3c",
+  "concepts": {
+    "es.accountability_salary_is_paid_in_cash_check": {
+      "conceptId": "es.accountability_salary_is_paid_in_cash_check",
+      "id": "accountability_salary_is_paid_in_cash_check",
+      "target": [
+        {
+          "text": "El salario se paga en efectivo, cheque o depósito bancario.",
+          "audioSlug": "el_salario_se_paga_en_efectivo_cheque_o_deposito_bancario"
+        }
+      ]
+    },
+    "es.cuerpo_me_duele_el_estomago_despues_de_comer": {
+      "conceptId": "es.cuerpo_me_duele_el_estomago_despues_de_comer",
+      "id": "cuerpo_me_duele_el_estomago_despues_de_comer",
+      "target": [
+        {
+          "text": "Me duele el estómago después de comer.",
+          "audioSlug": "me_duele_el_estomago_despues_de_comer"
+        }
+      ]
+    },
+    "es.descripciones_es_comida_italiana": {
+      "conceptId": "es.descripciones_es_comida_italiana",
+      "id": "descripciones_es_comida_italiana",
+      "target": [
+        {
+          "text": "Es comida italiana.",
+          "audioSlug": "es_comida_italiana"
+        }
+      ]
+    },
+    "es.gym_how_many_sets_reps": {
+      "conceptId": "es.gym_how_many_sets_reps",
+      "id": "gym_how_many_sets_reps",
+      "target": [
+        {
+          "text": "¿Cuántas series y repeticiones hago?",
+          "audioSlug": "cuantas_series_y_repeticiones_hago"
+        }
+      ]
+    },
+    "es.music_festival_lineup_disappointing": {
+      "conceptId": "es.music_festival_lineup_disappointing",
+      "id": "music_festival_lineup_disappointing",
+      "target": [
+        {
+          "text": "El cartel de este año es decepcionante, con demasiados artistas comerciales.",
+          "audioSlug": "el_cartel_de_este_ano_es_decepcionante_con_demasiados_artistas_comerciales"
+        }
+      ]
+    },
+    "es.personal_info_tengo_una_voz_grave": {
+      "conceptId": "es.personal_info_tengo_una_voz_grave",
+      "id": "personal_info_tengo_una_voz_grave",
+      "target": [
+        {
+          "text": "Tengo una voz grave.",
+          "audioSlug": "tengo_una_voz_grave"
+        }
+      ]
+    },
+    "es.restaurant_el_menu_tiene_muchas_opciones": {
+      "conceptId": "es.restaurant_el_menu_tiene_muchas_opciones",
+      "id": "restaurant_el_menu_tiene_muchas_opciones",
+      "target": [
+        {
+          "text": "El menú tiene muchas opciones.",
+          "audioSlug": "el_menu_tiene_muchas_opciones"
+        }
+      ]
+    },
+    "es.theater_set_design_bleak_story": {
+      "conceptId": "es.theater_set_design_bleak_story",
+      "id": "theater_set_design_bleak_story",
+      "target": [
+        {
+          "text": "La escenografía era intencionalmente austera, perfecta para la crudeza de la historia.",
+          "audioSlug": "la_escenografia_era_intencionalmente_austera_perfecta_para_la_crudeza_de_la_historia"
+        }
+      ]
+    },
+    "es.theater_whats_playing": {
+      "conceptId": "es.theater_whats_playing",
+      "id": "theater_whats_playing",
+      "target": [
+        {
+          "text": "¿Qué obra hay en cartelera?",
+          "audioSlug": "que_obra_hay_en_cartelera"
+        }
+      ]
+    },
+    "es.viajes_voy_a_reservar_un_hotel": {
+      "conceptId": "es.viajes_voy_a_reservar_un_hotel",
+      "id": "viajes_voy_a_reservar_un_hotel",
+      "target": [
+        {
+          "text": "Voy a reservar un hotel cerca de la playa.",
+          "audioSlug": "voy_a_reservar_un_hotel_cerca_de_la_playa"
+        }
+      ]
+    }
+  }
+}

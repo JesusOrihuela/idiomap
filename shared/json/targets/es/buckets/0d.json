@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "0d",
+  "concepts": {
+    "es.cuerpo_levanta_el_brazo_derecho": {
+      "conceptId": "es.cuerpo_levanta_el_brazo_derecho",
+      "id": "cuerpo_levanta_el_brazo_derecho",
+      "target": [
+        {
+          "text": "Levanta el brazo derecho.",
+          "audioSlug": "levanta_el_brazo_derecho"
+        }
+      ]
+    },
+    "es.cuerpo_tiene_una_sonrisa_bonita": {
+      "conceptId": "es.cuerpo_tiene_una_sonrisa_bonita",
+      "id": "cuerpo_tiene_una_sonrisa_bonita",
+      "target": [
+        {
+          "text": "Tiene una sonrisa muy bonita.",
+          "audioSlug": "tiene_una_sonrisa_muy_bonita"
+        }
+      ]
+    },
+    "es.directions_el_ayuntamiento_esta_en_la_plaza_central": {
+      "conceptId": "es.directions_el_ayuntamiento_esta_en_la_plaza_central",
+      "id": "directions_el_ayuntamiento_esta_en_la_plaza_central",
+      "target": [
+        {
+          "text": "El ayuntamiento está en la plaza central.",
+          "audioSlug": "el_ayuntamiento_esta_en_la_plaza_central"
+        }
+      ]
+    },
+    "es.estudios_tengo_que_repasar_la_leccion": {
+      "conceptId": "es.estudios_tengo_que_repasar_la_leccion",
+      "id": "estudios_tengo_que_repasar_la_leccion",
+      "target": [
+        {
+          "text": "Tengo que repasar la lección.",
+          "audioSlug": "tengo_que_repasar_la_leccion"
+        }
+      ]
+    },
+    "es.health_estoy_enferma": {
+      "conceptId": "es.health_estoy_enferma",
+      "id": "health_estoy_enferma",
+      "target": [
+        {
+          "text": "Estoy enferma.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_enferma"
+        },
+        {
+          "text": "Estoy enfermo.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_enfermo"
+        }
+      ]
+    },
+    "es.technology_i_set_up_automatic_cloud_backups": {
+      "conceptId": "es.technology_i_set_up_automatic_cloud_backups",
+      "id": "technology_i_set_up_automatic_cloud_backups",
+      "target": [
+        {
+          "text": "Configuré copias de seguridad automáticas en la nube para no perder fotos ni archivos.",
+          "audioSlug": "configure_copias_de_seguridad_automaticas_en_la_nube_para_no_perder_fotos_ni_archivos"
+        }
+      ]
+    },
+    "es.technology_the_app_works_better_than_the": {
+      "conceptId": "es.technology_the_app_works_better_than_the",
+      "id": "technology_the_app_works_better_than_the",
+      "target": [
+        {
+          "text": "La aplicación funciona mejor que el sitio web.",
+          "audioSlug": "la_aplicacion_funciona_mejor_que_el_sitio_web"
+        }
+      ]
+    },
+    "es.weather_hay_muchas_nubes_en_el_cielo": {
+      "conceptId": "es.weather_hay_muchas_nubes_en_el_cielo",
+      "id": "weather_hay_muchas_nubes_en_el_cielo",
+      "target": [
+        {
+          "text": "Hay muchas nubes en el cielo.",
+          "audioSlug": "hay_muchas_nubes_en_el_cielo"
+        }
+      ]
+    }
+  }
+}

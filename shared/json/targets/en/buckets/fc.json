@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "fc",
+  "concepts": {
+    "en.accountability_all_the_money_a_person_receives": {
+      "conceptId": "en.accountability_all_the_money_a_person_receives",
+      "id": "accountability_all_the_money_a_person_receives",
+      "target": [
+        {
+          "text": "All the money a person receives as payment is called salary.",
+          "audioSlug": "all_the_money_a_person_receives_as_payment_is_called_salary"
+        }
+      ]
+    },
+    "en.calendario_what_time_is_it": {
+      "conceptId": "en.calendario_what_time_is_it",
+      "id": "calendario_what_time_is_it",
+      "target": [
+        {
+          "text": "What time is it?",
+          "audioSlug": "what_time_is_it"
+        }
+      ]
+    },
+    "en.directions_where_is_the_bus_stop": {
+      "conceptId": "en.directions_where_is_the_bus_stop",
+      "id": "directions_where_is_the_bus_stop",
+      "target": [
+        {
+          "text": "Where is the bus stop?",
+          "audioSlug": "where_is_the_bus_stop"
+        }
+      ]
+    },
+    "en.kitchen_bread_the_fish_with_breadcrumbs_and": {
+      "conceptId": "en.kitchen_bread_the_fish_with_breadcrumbs_and",
+      "id": "kitchen_bread_the_fish_with_breadcrumbs_and",
+      "target": [
+        {
+          "text": "Bread the fish with breadcrumbs and egg.",
+          "audioSlug": "bread_the_fish_with_breadcrumbs_and_egg"
+        }
+      ]
+    },
+    "en.planes_you_decide": {
+      "conceptId": "en.planes_you_decide",
+      "id": "planes_you_decide",
+      "target": [
+        {
+          "text": "You decide.",
+          "audioSlug": "you_decide"
+        }
+      ]
+    }
+  }
+}

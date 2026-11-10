@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "pl",
+  "bucket": "31",
+  "concepts": {
+    "pl.survival_do_you_speak_english": {
+      "conceptId": "pl.survival_do_you_speak_english",
+      "id": "survival_do_you_speak_english",
+      "target": [
+        {
+          "text": "Przepraszam, czy mówisz po angielsku?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "przepraszam_czy_mowisz_po_angielsku"
+        },
+        {
+          "text": "Przepraszam, czy mówi pan po angielsku?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "przepraszam_czy_mowi_pan_po_angielsku"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "ca",
+  "concepts": {
+    "es.airport_duty_exceeded_pay_here": {
+      "conceptId": "es.airport_duty_exceeded_pay_here",
+      "id": "airport_duty_exceeded_pay_here",
+      "target": [
+        {
+          "text": "He superado el límite de franquicia, ¿puedo pagar el arancel de importación aquí?",
+          "audioSlug": "he_superado_el_limite_de_franquicia_puedo_pagar_el_arancel_de_importacion_aqui"
+        }
+      ]
+    },
+    "es.conversacion_la_politica_no_me_interesa": {
+      "conceptId": "es.conversacion_la_politica_no_me_interesa",
+      "id": "conversacion_la_politica_no_me_interesa",
+      "target": [
+        {
+          "text": "La política no me interesa nada.",
+          "audioSlug": "la_politica_no_me_interesa_nada"
+        }
+      ]
+    },
+    "es.conversacion_no_quiero_hablar_de_eso_ahora": {
+      "conceptId": "es.conversacion_no_quiero_hablar_de_eso_ahora",
+      "id": "conversacion_no_quiero_hablar_de_eso_ahora",
+      "target": [
+        {
+          "text": "No quiero hablar de eso ahora.",
+          "audioSlug": "no_quiero_hablar_de_eso_ahora"
+        }
+      ]
+    },
+    "es.conversacion_que_tipo_de_musica_te_gusta": {
+      "conceptId": "es.conversacion_que_tipo_de_musica_te_gusta",
+      "id": "conversacion_que_tipo_de_musica_te_gusta",
+      "target": [
+        {
+          "text": "¿Qué tipo de música te gusta?",
+          "audioSlug": "que_tipo_de_musica_te_gusta"
+        }
+      ]
+    },
+    "es.describiendo_personas_es_un_hombre_honrado": {
+      "conceptId": "es.describiendo_personas_es_un_hombre_honrado",
+      "id": "describiendo_personas_es_un_hombre_honrado",
+      "target": [
+        {
+          "text": "Es un hombre honrado.",
+          "audioSlug": "es_un_hombre_honrado"
+        }
+      ]
+    },
+    "es.describiendo_personas_soy_responsable": {
+      "conceptId": "es.describiendo_personas_soy_responsable",
+      "id": "describiendo_personas_soy_responsable",
+      "target": [
+        {
+          "text": "Soy responsable.",
+          "audioSlug": "soy_responsable"
+        }
+      ]
+    },
+    "es.economia_todos_buscan_estabilidad_laboral": {
+      "conceptId": "es.economia_todos_buscan_estabilidad_laboral",
+      "id": "economia_todos_buscan_estabilidad_laboral",
+      "target": [
+        {
+          "text": "Todos buscan estabilidad laboral.",
+          "audioSlug": "todos_buscan_estabilidad_laboral"
+        }
+      ]
+    },
+    "es.personal_info_i_am_a_medical_student": {
+      "conceptId": "es.personal_info_i_am_a_medical_student",
+      "id": "personal_info_i_am_a_medical_student",
+      "target": [
+        {
+          "text": "Soy estudiante de medicina.",
+          "audioSlug": "soy_estudiante_de_medicina"
+        }
+      ]
+    },
+    "es.planes_ese_es_mi_objetivo": {
+      "conceptId": "es.planes_ese_es_mi_objetivo",
+      "id": "planes_ese_es_mi_objetivo",
+      "target": [
+        {
+          "text": "Ese es mi objetivo.",
+          "audioSlug": "ese_es_mi_objetivo"
+        }
+      ]
+    },
+    "es.planes_we_are_going_to_get_married": {
+      "conceptId": "es.planes_we_are_going_to_get_married",
+      "id": "planes_we_are_going_to_get_married",
+      "target": [
+        {
+          "text": "Nos vamos a casar en verano.",
+          "audioSlug": "nos_vamos_a_casar_en_verano"
+        }
+      ]
+    },
+    "es.sitios_el_centro_esta_lleno_de_gente": {
+      "conceptId": "es.sitios_el_centro_esta_lleno_de_gente",
+      "id": "sitios_el_centro_esta_lleno_de_gente",
+      "target": [
+        {
+          "text": "El centro está lleno de gente.",
+          "audioSlug": "el_centro_esta_lleno_de_gente"
+        }
+      ]
+    },
+    "es.supermarket_is_this_product_vegan": {
+      "conceptId": "es.supermarket_is_this_product_vegan",
+      "id": "supermarket_is_this_product_vegan",
+      "target": [
+        {
+          "text": "¿Este producto es vegano?",
+          "audioSlug": "este_producto_es_vegano"
+        }
+      ]
+    },
+    "es.technology_working_remotely_requires_not_just": {
+      "conceptId": "es.technology_working_remotely_requires_not_just",
+      "id": "technology_working_remotely_requires_not_just",
+      "target": [
+        {
+          "text": "El trabajo remoto requiere buena conexión y herramientas para la colaboración asíncrona.",
+          "audioSlug": "el_trabajo_remoto_requiere_buena_conexion_y_herramientas_para_la_colaboracion_asincrona"
+        }
+      ]
+    },
+    "es.transportation_when_next_bus": {
+      "conceptId": "es.transportation_when_next_bus",
+      "id": "transportation_when_next_bus",
+      "target": [
+        {
+          "text": "¿Cuándo pasa el próximo autobús?",
+          "labels": {
+            "region": "General"
+          },
+          "audioSlug": "cuando_pasa_el_proximo_autobus"
+        },
+        {
+          "text": "¿Cuándo pasa el próximo camión?",
+          "labels": {
+            "region": "México"
+          },
+          "audioSlug": "cuando_pasa_el_proximo_camion"
+        },
+        {
+          "text": "¿Cuándo pasa el próximo colectivo?",
+          "labels": {
+            "region": "Argentina"
+          },
+          "audioSlug": "cuando_pasa_el_proximo_colectivo"
+        },
+        {
+          "text": "¿Cuándo pasa la próxima guagua?",
+          "labels": {
+            "region": "Caribe"
+          },
+          "audioSlug": "cuando_pasa_la_proxima_guagua"
+        }
+      ]
+    },
+    "es.viajes_la_aventura_comienza": {
+      "conceptId": "es.viajes_la_aventura_comienza",
+      "id": "viajes_la_aventura_comienza",
+      "target": [
+        {
+          "text": "La aventura comienza.",
+          "audioSlug": "la_aventura_comienza"
+        }
+      ]
+    }
+  }
+}

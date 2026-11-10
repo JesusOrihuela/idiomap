@@ -1,23 +1,215 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "tiempo_libre",
-  "conceptIds": [
-    "es.tiempo_libre_no_se_bailar",
-    "es.tiempo_libre_vamos_a_pasear",
-    "es.tiempo_libre_me_gusta_el_baile",
-    "es.tiempo_libre_leo_una_novela",
-    "es.tiempo_libre_vamos_a_caminar",
-    "es.tiempo_libre_hablaron_de_cultura",
-    "es.tiempo_libre_salimos_de_paseo",
-    "es.tiempo_libre_lei_un_cuento_a_los_ninos",
-    "es.tiempo_libre_cada_juego_tiene_sus_reglas",
-    "es.tiempo_libre_me_gusta_la_literatura",
-    "es.tiempo_libre_jugamos_al_ajedrez",
-    "es.tiempo_libre_la_montana_rusa_es_la_mejor_atraccion",
-    "es.tiempo_libre_do_you_have_hobbies",
-    "es.tiempo_libre_lets_go_hiking",
-    "es.tiempo_libre_enjoy_reading_before_bed",
-    "es.tiempo_libre_what_do_you_do_for_fun"
+  "phrases": [
+    {
+      "conceptId": "es.tiempo_libre_no_se_bailar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ede31b26d0e3048b"
+    },
+    {
+      "conceptId": "es.tiempo_libre_vamos_a_pasear",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.433bd82297cdecc8"
+    },
+    {
+      "conceptId": "es.tiempo_libre_me_gusta_el_baile",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e15d8eaec70030c0"
+    },
+    {
+      "conceptId": "es.tiempo_libre_leo_una_novela",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e6edbc3219fbff27"
+    },
+    {
+      "conceptId": "es.tiempo_libre_vamos_a_caminar",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.666b31ba47f4f483"
+    },
+    {
+      "conceptId": "es.tiempo_libre_hablaron_de_cultura",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.26ab8c7d0b09d8ad"
+    },
+    {
+      "conceptId": "es.tiempo_libre_salimos_de_paseo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2f4e4ca69936cf15"
+    },
+    {
+      "conceptId": "es.tiempo_libre_lei_un_cuento_a_los_ninos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.88f4fa5881625320"
+    },
+    {
+      "conceptId": "es.tiempo_libre_cada_juego_tiene_sus_reglas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.409a09a81a315f8e"
+    },
+    {
+      "conceptId": "es.tiempo_libre_me_gusta_la_literatura",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bed237ba0a85ae3b"
+    },
+    {
+      "conceptId": "es.tiempo_libre_jugamos_al_ajedrez",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0c1773aea2c8cc78"
+    },
+    {
+      "conceptId": "es.tiempo_libre_la_montana_rusa_es_la_mejor_atraccion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c8486ae08c16db65"
+    },
+    {
+      "conceptId": "es.tiempo_libre_do_you_have_hobbies",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8a1d6193c140ccb0"
+    },
+    {
+      "conceptId": "es.tiempo_libre_lets_go_hiking",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.158a7459dbd8492d"
+    },
+    {
+      "conceptId": "es.tiempo_libre_enjoy_reading_before_bed",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.05bdd213a129fdb9"
+    },
+    {
+      "conceptId": "es.tiempo_libre_what_do_you_do_for_fun",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.02fdf1003362d8d3"
+    }
   ]
 }

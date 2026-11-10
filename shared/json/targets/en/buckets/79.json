@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "79",
+  "concepts": {
+    "en.accommodation_room_not_cleaned_discount": {
+      "conceptId": "en.accommodation_room_not_cleaned_discount",
+      "id": "accommodation_room_not_cleaned_discount",
+      "target": [
+        {
+          "text": "My room wasn't cleaned during my stay. I'd like to request a partial refund.",
+          "audioSlug": "my_room_wasn_t_cleaned_during_my_stay_i_d_like_to_request_a_partial_refund"
+        }
+      ]
+    },
+    "en.estudios_knowledge_is_power": {
+      "conceptId": "en.estudios_knowledge_is_power",
+      "id": "estudios_knowledge_is_power",
+      "target": [
+        {
+          "text": "Knowledge is power.",
+          "audioSlug": "knowledge_is_power"
+        }
+      ]
+    },
+    "en.gym_could_you_demonstrate_how_to_do": {
+      "conceptId": "en.gym_could_you_demonstrate_how_to_do",
+      "id": "gym_could_you_demonstrate_how_to_do",
+      "target": [
+        {
+          "text": "Could you demonstrate how to do a squat correctly?",
+          "audioSlug": "could_you_demonstrate_how_to_do_a_squat_correctly",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you demonstrate how to do a squat correctly?",
+          "audioSlug": "can_you_demonstrate_how_to_do_a_squat_correctly",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.technology_are_you_sure_you_are_connected": {
+      "conceptId": "en.technology_are_you_sure_you_are_connected",
+      "id": "technology_are_you_sure_you_are_connected",
+      "target": [
+        {
+          "text": "Are you sure you are connected to the internet?",
+          "audioSlug": "are_you_sure_you_are_connected_to_the_internet"
+        }
+      ]
+    },
+    "en.theater_box_office": {
+      "conceptId": "en.theater_box_office",
+      "id": "theater_box_office",
+      "target": [
+        {
+          "text": "Where is the box office?",
+          "audioSlug": "where_is_the_box_office"
+        }
+      ]
+    },
+    "en.theater_how_long_performance": {
+      "conceptId": "en.theater_how_long_performance",
+      "id": "theater_how_long_performance",
+      "target": [
+        {
+          "text": "How long is the performance?",
+          "audioSlug": "how_long_is_the_performance"
+        }
+      ]
+    }
+  }
+}

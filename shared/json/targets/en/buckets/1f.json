@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "1f",
+  "concepts": {
+    "en.animales_rabbit_hopped_away": {
+      "conceptId": "en.animales_rabbit_hopped_away",
+      "id": "animales_rabbit_hopped_away",
+      "target": [
+        {
+          "text": "The rabbit hopped away quickly.",
+          "audioSlug": "the_rabbit_hopped_away_quickly"
+        }
+      ]
+    },
+    "en.gym_im_sore": {
+      "conceptId": "en.gym_im_sore",
+      "id": "gym_im_sore",
+      "target": [
+        {
+          "text": "I'm really sore today.",
+          "audioSlug": "i_m_really_sore_today"
+        }
+      ]
+    },
+    "en.theater_where_is_theater": {
+      "conceptId": "en.theater_where_is_theater",
+      "id": "theater_where_is_theater",
+      "target": [
+        {
+          "text": "Where can I find the theater?",
+          "audioSlug": "where_can_i_find_the_theater"
+        }
+      ]
+    }
+  }
+}

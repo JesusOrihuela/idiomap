@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "it",
+  "bucket": "2f",
+  "concepts": {
+    "it.piloto_hasta_luego": {
+      "conceptId": "it.piloto_hasta_luego",
+      "id": "piloto_hasta_luego",
+      "target": [
+        {
+          "text": "A dopo.",
+          "audioSlug": "hasta_luego"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "7a",
+  "concepts": {
+    "en.accommodation_room_doesnt_match_manager": {
+      "conceptId": "en.accommodation_room_doesnt_match_manager",
+      "id": "accommodation_room_doesnt_match_manager",
+      "target": [
+        {
+          "text": "The room assigned to me doesn't match my booking. I'd like to speak with the manager.",
+          "audioSlug": "the_room_assigned_to_me_doesn_t_match_my_booking_i_d_like_to_speak_with_the_manager"
+        }
+      ]
+    },
+    "en.museums_visit_new_museum": {
+      "conceptId": "en.museums_visit_new_museum",
+      "id": "museums_visit_new_museum",
+      "target": [
+        {
+          "text": "I would like to see the new museum that opened.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "i_would_like_to_see_the_new_museum_that_opened"
+        },
+        {
+          "text": "I'd like to see the new museum that opened.",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "i_d_like_to_see_the_new_museum_that_opened"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_i_water_the_plant": {
+      "conceptId": "en.naturaleza_lugares_i_water_the_plant",
+      "id": "naturaleza_lugares_i_water_the_plant",
+      "target": [
+        {
+          "text": "I water the plant.",
+          "audioSlug": "i_water_the_plant"
+        }
+      ]
+    },
+    "en.planes_i_want_to_propose_a_plan": {
+      "conceptId": "en.planes_i_want_to_propose_a_plan",
+      "id": "planes_i_want_to_propose_a_plan",
+      "target": [
+        {
+          "text": "I want to propose a plan.",
+          "audioSlug": "i_want_to_propose_a_plan"
+        }
+      ]
+    },
+    "en.planes_this_will_involve_everyone": {
+      "conceptId": "en.planes_this_will_involve_everyone",
+      "id": "planes_this_will_involve_everyone",
+      "target": [
+        {
+          "text": "This will involve everyone.",
+          "audioSlug": "this_will_involve_everyone"
+        }
+      ]
+    },
+    "en.restaurant_same_table_window": {
+      "conceptId": "en.restaurant_same_table_window",
+      "id": "restaurant_same_table_window",
+      "target": [
+        {
+          "text": "Could we have the same table as last time? It was near the window.",
+          "audioSlug": "could_we_have_the_same_table_as_last_time_it_was_near_the_window"
+        }
+      ]
+    },
+    "en.technology_i_suggest_you_use_a_vpn": {
+      "conceptId": "en.technology_i_suggest_you_use_a_vpn",
+      "id": "technology_i_suggest_you_use_a_vpn",
+      "target": [
+        {
+          "text": "I suggest you use a VPN to protect your privacy online.",
+          "audioSlug": "i_suggest_you_use_a_vpn_to_protect_your_privacy_online"
+        }
+      ]
+    },
+    "en.transportation_rental_liability_provisions": {
+      "conceptId": "en.transportation_rental_liability_provisions",
+      "id": "transportation_rental_liability_provisions",
+      "target": [
+        {
+          "text": "I'd like to review the liability provisions in the rental agreement before signing.",
+          "audioSlug": "i_d_like_to_review_the_liability_provisions_in_the_rental_agreement_before_signing"
+        }
+      ]
+    }
+  }
+}

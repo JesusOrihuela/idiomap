@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-sv",
+  "topic": "survival",
+  "phrases": [
+    {
+      "id": "survival_do_you_speak_english",
+      "conceptId": "sv.survival_do_you_speak_english",
+      "sourceId": "en.s.b53e3962d194b14d",
+      "source": "Excuse me, do you speak English?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ursäkta, talar du engelska?",
+          "audioSlug": "ursakta_talar_du_engelska"
+        }
+      ]
+    },
+    {
+      "id": "survival_can_you_help_me",
+      "conceptId": "sv.survival_can_you_help_me",
+      "sourceId": "en.s.7e513e6c5f503d41",
+      "source": "Can you help me?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Kan du hjälpa mig?",
+          "audioSlug": "kan_du_hjalpa_mig"
+        }
+      ]
+    },
+    {
+      "id": "survival_i_do_not_understand",
+      "conceptId": "sv.survival_i_do_not_understand",
+      "sourceId": "en.s.5df9cfa45859f803",
+      "source": "I don't understand.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Jag förstår inte.",
+          "audioSlug": "jag_forstar_inte"
+        }
+      ]
+    }
+  ]
+}

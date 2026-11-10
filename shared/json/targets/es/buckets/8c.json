@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "8c",
+  "concepts": {
+    "es.conversacion_uso_una_expresion_muy_formal": {
+      "conceptId": "es.conversacion_uso_una_expresion_muy_formal",
+      "id": "conversacion_uso_una_expresion_muy_formal",
+      "target": [
+        {
+          "text": "Usó una expresión muy formal.",
+          "audioSlug": "uso_una_expresion_muy_formal"
+        }
+      ]
+    },
+    "es.deportes_quiero_ganar": {
+      "conceptId": "es.deportes_quiero_ganar",
+      "id": "deportes_quiero_ganar",
+      "target": [
+        {
+          "text": "Quiero ganar.",
+          "audioSlug": "quiero_ganar"
+        }
+      ]
+    },
+    "es.museums_photography_exhibition": {
+      "conceptId": "es.museums_photography_exhibition",
+      "id": "museums_photography_exhibition",
+      "target": [
+        {
+          "text": "La exposición de fotografías fue muy interesante.",
+          "audioSlug": "la_exposicion_de_fotografias_fue_muy_interesante"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_la_guerra_causa_sufrimiento": {
+      "conceptId": "es.pensamientos_opiniones_la_guerra_causa_sufrimiento",
+      "id": "pensamientos_opiniones_la_guerra_causa_sufrimiento",
+      "target": [
+        {
+          "text": "La guerra causa mucho sufrimiento.",
+          "audioSlug": "la_guerra_causa_mucho_sufrimiento"
+        }
+      ]
+    },
+    "es.sitios_el_ayuntamiento_esta_en_el_centro": {
+      "conceptId": "es.sitios_el_ayuntamiento_esta_en_el_centro",
+      "id": "sitios_el_ayuntamiento_esta_en_el_centro",
+      "target": [
+        {
+          "text": "El ayuntamiento está en el centro.",
+          "audioSlug": "el_ayuntamiento_esta_en_el_centro"
+        }
+      ]
+    },
+    "es.survival_is_that_correct": {
+      "conceptId": "es.survival_is_that_correct",
+      "id": "survival_is_that_correct",
+      "target": [
+        {
+          "text": "¿Está bien así?",
+          "audioSlug": "esta_bien_asi"
+        }
+      ]
+    }
+  }
+}

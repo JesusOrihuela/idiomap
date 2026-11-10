@@ -1,47 +1,527 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "descripciones",
-  "conceptIds": [
-    "es.descripciones_es_dificil",
-    "es.descripciones_es_enorme",
-    "es.descripciones_es_un_libro_antiguo",
-    "es.descripciones_esta_lleno",
-    "es.descripciones_es_peligroso",
-    "es.descripciones_es_una_historia_verdadera",
-    "es.descripciones_este_es_distinto",
-    "es.descripciones_el_cuarto_esta_limpio",
-    "es.descripciones_la_habitacion_esta_oscura",
-    "es.descripciones_esta_bolsa_es_muy_pesada",
-    "es.descripciones_la_caja_es_muy_ligera",
-    "es.descripciones_es_muy_facil",
-    "es.descripciones_estoy_lista",
-    "es.descripciones_estoy_ocupada",
-    "es.descripciones_es_un_dia_especial",
-    "es.descripciones_es_un_vino_frances",
-    "es.descripciones_es_comida_italiana",
-    "es.descripciones_es_un_producto_aleman",
-    "es.descripciones_es_un_carro_japones",
-    "es.descripciones_es_un_plato_mexicano",
-    "es.descripciones_es_musica_cubana",
-    "es.descripciones_es_un_vino_chileno",
-    "es.descripciones_es_comida_peruana",
-    "es.descripciones_es_un_pais_arabe",
-    "es.descripciones_es_un_producto_americano",
-    "es.descripciones_es_una_lengua_indigena",
-    "es.descripciones_su_color_es_rojo",
-    "es.descripciones_no_es_natural",
-    "es.descripciones_el_sol_es_amarillo",
-    "es.descripciones_la_flor_es_naranja",
-    "es.descripciones_el_gato_es_gris",
-    "es.descripciones_los_zapatos_son_marrones",
-    "es.descripciones_ese_edificio_es_feo",
-    "es.descripciones_el_rio_es_ancho",
-    "es.descripciones_la_calle_es_estrecha",
-    "es.descripciones_quiero_un_cafe_mediano",
-    "es.descripciones_la_mesa_es_de_cristal",
-    "es.descripciones_el_puente_es_de_metal",
-    "es.descripciones_el_material_de_la_mesa_es_madera",
-    "es.descripciones_la_caja_es_cuadrada"
+  "phrases": [
+    {
+      "conceptId": "es.descripciones_es_dificil",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1fdda9bee4b12446"
+    },
+    {
+      "conceptId": "es.descripciones_es_enorme",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9be50d59117bf0da"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_libro_antiguo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d35e966fe5564969"
+    },
+    {
+      "conceptId": "es.descripciones_esta_lleno",
+      "level": "A1",
+      "grammar": "'Estar' expresa un estado o resultado, no una cualidad.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1a3e0f208666cbb2"
+    },
+    {
+      "conceptId": "es.descripciones_es_peligroso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1159143acc732dad"
+    },
+    {
+      "conceptId": "es.descripciones_es_una_historia_verdadera",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c66e7cfdf9011109"
+    },
+    {
+      "conceptId": "es.descripciones_este_es_distinto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c157a86e18e21b55"
+    },
+    {
+      "conceptId": "es.descripciones_el_cuarto_esta_limpio",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.461bb3f428fd6038"
+    },
+    {
+      "conceptId": "es.descripciones_la_habitacion_esta_oscura",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a03de0ebbbe6bbf0"
+    },
+    {
+      "conceptId": "es.descripciones_esta_bolsa_es_muy_pesada",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d2faa97540968ca0"
+    },
+    {
+      "conceptId": "es.descripciones_la_caja_es_muy_ligera",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7691ff42bc67705e"
+    },
+    {
+      "conceptId": "es.descripciones_es_muy_facil",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4ed16d03bf20997d"
+    },
+    {
+      "conceptId": "es.descripciones_estoy_lista",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5fc3fc215d0a774c"
+    },
+    {
+      "conceptId": "es.descripciones_estoy_ocupada",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b726944d11d47085"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_dia_especial",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9fe651323858aa68"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_vino_frances",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.53f69cf1c7e7410f"
+    },
+    {
+      "conceptId": "es.descripciones_es_comida_italiana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5650f0bdb3b3875e"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_producto_aleman",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ce4f5a4ecf7ac831"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_carro_japones",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c561612f4b144bc5"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_plato_mexicano",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.11671da3c5aff109"
+    },
+    {
+      "conceptId": "es.descripciones_es_musica_cubana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fdf4955e764f6b80"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_vino_chileno",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8134f21567a7988c"
+    },
+    {
+      "conceptId": "es.descripciones_es_comida_peruana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.848995f33d89d7e2"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_pais_arabe",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.dafdca3c5913fbb8"
+    },
+    {
+      "conceptId": "es.descripciones_es_un_producto_americano",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4ac9f859a5ea9840"
+    },
+    {
+      "conceptId": "es.descripciones_es_una_lengua_indigena",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.686c9a0887763778"
+    },
+    {
+      "conceptId": "es.descripciones_su_color_es_rojo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cf06c24d5e2679c8"
+    },
+    {
+      "conceptId": "es.descripciones_no_es_natural",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.196158440d1e6a5f"
+    },
+    {
+      "conceptId": "es.descripciones_el_sol_es_amarillo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f2cf6656fd407fd2"
+    },
+    {
+      "conceptId": "es.descripciones_la_flor_es_naranja",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.59d3997b596a0247"
+    },
+    {
+      "conceptId": "es.descripciones_el_gato_es_gris",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ccf74bd856fb9966"
+    },
+    {
+      "conceptId": "es.descripciones_los_zapatos_son_marrones",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.180b1c7ca836caf2"
+    },
+    {
+      "conceptId": "es.descripciones_ese_edificio_es_feo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f4dc4639a32a3602"
+    },
+    {
+      "conceptId": "es.descripciones_el_rio_es_ancho",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4d7dd41fda92045c"
+    },
+    {
+      "conceptId": "es.descripciones_la_calle_es_estrecha",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.83107361dac252bc"
+    },
+    {
+      "conceptId": "es.descripciones_quiero_un_cafe_mediano",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ede9d9b1178d01d8"
+    },
+    {
+      "conceptId": "es.descripciones_la_mesa_es_de_cristal",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fcd718ce118c82c5"
+    },
+    {
+      "conceptId": "es.descripciones_el_puente_es_de_metal",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e0ebff32c69f1533"
+    },
+    {
+      "conceptId": "es.descripciones_el_material_de_la_mesa_es_madera",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.137f80e270d87e4b"
+    },
+    {
+      "conceptId": "es.descripciones_la_caja_es_cuadrada",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.88281de9b0db9f6f"
+    }
   ]
 }

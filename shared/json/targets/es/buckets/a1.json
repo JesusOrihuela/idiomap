@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "a1",
+  "concepts": {
+    "es.accommodation_do_not_disturb": {
+      "conceptId": "es.accommodation_do_not_disturb",
+      "id": "accommodation_do_not_disturb",
+      "target": [
+        {
+          "text": "Está puesto el letrero de no molestar.",
+          "audioSlug": "esta_puesto_el_letrero_de_no_molestar"
+        }
+      ]
+    },
+    "es.calendario_el_ultimo_dia_del_mes_es_feriado": {
+      "conceptId": "es.calendario_el_ultimo_dia_del_mes_es_feriado",
+      "id": "calendario_el_ultimo_dia_del_mes_es_feriado",
+      "target": [
+        {
+          "text": "El último día del mes es feriado.",
+          "audioSlug": "el_ultimo_dia_del_mes_es_feriado"
+        }
+      ]
+    },
+    "es.cotidianidad_al_fin_puedo_descansar": {
+      "conceptId": "es.cotidianidad_al_fin_puedo_descansar",
+      "id": "cotidianidad_al_fin_puedo_descansar",
+      "target": [
+        {
+          "text": "Al fin puedo descansar.",
+          "audioSlug": "al_fin_puedo_descansar"
+        }
+      ]
+    },
+    "es.cotidianidad_no_paro_en_todo_el_dia": {
+      "conceptId": "es.cotidianidad_no_paro_en_todo_el_dia",
+      "id": "cotidianidad_no_paro_en_todo_el_dia",
+      "target": [
+        {
+          "text": "No paro en todo el día.",
+          "audioSlug": "no_paro_en_todo_el_dia"
+        }
+      ]
+    },
+    "es.daily_routine_antes_de_salir_hay_que_ponerse_el_abrigo": {
+      "conceptId": "es.daily_routine_antes_de_salir_hay_que_ponerse_el_abrigo",
+      "id": "daily_routine_antes_de_salir_hay_que_ponerse_el_abrigo",
+      "target": [
+        {
+          "text": "Antes de salir hay que ponerse el abrigo.",
+          "audioSlug": "antes_de_salir_hay_que_ponerse_el_abrigo"
+        }
+      ]
+    },
+    "es.economia_existen_muchas_tiendas_en_el_mercado": {
+      "conceptId": "es.economia_existen_muchas_tiendas_en_el_mercado",
+      "id": "economia_existen_muchas_tiendas_en_el_mercado",
+      "target": [
+        {
+          "text": "Existen muchas tiendas en el mercado.",
+          "audioSlug": "existen_muchas_tiendas_en_el_mercado"
+        }
+      ]
+    },
+    "es.economia_los_precios_suben_por_la_inflacion": {
+      "conceptId": "es.economia_los_precios_suben_por_la_inflacion",
+      "id": "economia_los_precios_suben_por_la_inflacion",
+      "target": [
+        {
+          "text": "Los precios suben por la inflación.",
+          "audioSlug": "los_precios_suben_por_la_inflacion"
+        }
+      ]
+    },
+    "es.family_es_mi_vecino": {
+      "conceptId": "es.family_es_mi_vecino",
+      "id": "family_es_mi_vecino",
+      "target": [
+        {
+          "text": "Es mi vecino.",
+          "audioSlug": "es_mi_vecino"
+        }
+      ]
+    },
+    "es.family_my_daughter_is_not_a_child_anymore": {
+      "conceptId": "es.family_my_daughter_is_not_a_child_anymore",
+      "id": "family_my_daughter_is_not_a_child_anymore",
+      "target": [
+        {
+          "text": "Mi hija ya no es una niña.",
+          "audioSlug": "mi_hija_ya_no_es_una_nina"
+        }
+      ]
+    },
+    "es.family_nos_reunimos_los_domingos": {
+      "conceptId": "es.family_nos_reunimos_los_domingos",
+      "id": "family_nos_reunimos_los_domingos",
+      "target": [
+        {
+          "text": "Nos reunimos toda la familia los domingos.",
+          "audioSlug": "nos_reunimos_toda_la_familia_los_domingos"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_quiero_saber_tu_opinion": {
+      "conceptId": "es.pensamientos_opiniones_quiero_saber_tu_opinion",
+      "id": "pensamientos_opiniones_quiero_saber_tu_opinion",
+      "target": [
+        {
+          "text": "Quiero saber tu opinión.",
+          "audioSlug": "quiero_saber_tu_opinion"
+        }
+      ]
+    },
+    "es.restaurant_could_i_order_a_side_of": {
+      "conceptId": "es.restaurant_could_i_order_a_side_of",
+      "id": "restaurant_could_i_order_a_side_of",
+      "target": [
+        {
+          "text": "¿Puedo pedir una guarnición de papas fritas con mi comida?",
+          "audioSlug": "puedo_pedir_una_guarnicion_de_papas_fritas_con_mi_comida",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "¿Puedo pedir una guarnición de patatas fritas con mi comida?",
+          "audioSlug": "puedo_pedir_una_guarnicion_de_patatas_fritas_con_mi_comida",
+          "labels": {
+            "region": "España"
+          }
+        }
+      ]
+    },
+    "es.restaurant_preparo_una_tortilla": {
+      "conceptId": "es.restaurant_preparo_una_tortilla",
+      "id": "restaurant_preparo_una_tortilla",
+      "target": [
+        {
+          "text": "Preparo una tortilla para la cena.",
+          "audioSlug": "preparo_una_tortilla_para_la_cena"
+        }
+      ]
+    },
+    "es.sitios_amo_mi_pais": {
+      "conceptId": "es.sitios_amo_mi_pais",
+      "id": "sitios_amo_mi_pais",
+      "target": [
+        {
+          "text": "Amo mi país.",
+          "audioSlug": "amo_mi_pais"
+        }
+      ]
+    }
+  }
+}

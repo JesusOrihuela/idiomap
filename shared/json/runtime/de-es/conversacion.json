@@ -1,0 +1,1323 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "conversacion",
+  "phrases": [
+    {
+      "id": "conversacion_i_want_to_ask_something",
+      "conceptId": "es.conversacion_i_want_to_ask_something",
+      "sourceId": "de.s.1f029fd66a495a55",
+      "source": "Ich möchte etwas fragen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero preguntar algo.",
+          "audioSlug": "quiero_preguntar_algo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_agree",
+      "conceptId": "es.conversacion_i_agree",
+      "sourceId": "de.s.399e45228507b1a7",
+      "source": "Ich bin einverstanden.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy de acuerdo.",
+          "audioSlug": "estoy_de_acuerdo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_dont_agree",
+      "conceptId": "es.conversacion_i_dont_agree",
+      "sourceId": "de.s.e83941298a1d733a",
+      "source": "Ich bin nicht einverstanden.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No estoy de acuerdo.",
+          "audioSlug": "no_estoy_de_acuerdo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_what_do_you_think",
+      "conceptId": "es.conversacion_what_do_you_think",
+      "sourceId": "de.s.f163ae7cd1bfa2fd",
+      "source": "Was denkst du?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué piensas?",
+          "audioSlug": "que_piensas"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_think_youre_right",
+      "conceptId": "es.conversacion_i_think_youre_right",
+      "sourceId": "de.s.c1f9f4e2fcf7298b",
+      "source": "Ich glaube, dass du recht hast.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Creo que tienes razón.",
+          "audioSlug": "creo_que_tienes_razon"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_understand_what_you_mean",
+      "conceptId": "es.conversacion_i_understand_what_you_mean",
+      "sourceId": "de.s.c2936aaffaf9ff71",
+      "source": "Ich verstehe, was du meinst.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Entiendo lo que quieres decir.",
+          "audioSlug": "entiendo_lo_que_quieres_decir"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_lets_talk_about_it",
+      "conceptId": "es.conversacion_lets_talk_about_it",
+      "sourceId": "de.s.4265d70d02266fc0",
+      "source": "Lass uns darüber reden.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hablemos de eso.",
+          "audioSlug": "hablemos_de_eso"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_i_agree_with_you",
+      "conceptId": "es.conversacion_i_agree_with_you",
+      "sourceId": "de.s.962cbd7ad87fc5e7",
+      "source": "Ich stimme dir zu.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estoy de acuerdo contigo.",
+          "audioSlug": "estoy_de_acuerdo_contigo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_yo_tambien_quiero_decir_algo",
+      "conceptId": "es.conversacion_yo_tambien_quiero_decir_algo",
+      "sourceId": "de.s.9de261f641839fea",
+      "source": "Ich möchte auch etwas sagen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Yo también quiero decir algo.",
+          "audioSlug": "yo_tambien_quiero_decir_algo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_se_que_responder",
+      "conceptId": "es.conversacion_no_se_que_responder",
+      "sourceId": "de.s.79a937211358d762",
+      "source": "Ich weiß nicht, was ich antworten soll.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No sé qué responder.",
+          "audioSlug": "no_se_que_responder"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_pero_eso_no_es_verdad",
+      "conceptId": "es.conversacion_pero_eso_no_es_verdad",
+      "sourceId": "de.s.1aaa13e8cc7d1198",
+      "source": "Aber das ist nicht wahr.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Pero eso no es verdad.",
+          "audioSlug": "pero_eso_no_es_verdad"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_me_puedes_dar_tu_opinion",
+      "conceptId": "es.conversacion_me_puedes_dar_tu_opinion",
+      "sourceId": "de.s.dc99571363c768fd",
+      "source": "Kannst du mir deine Meinung sagen?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me puedes dar tu opinión?",
+          "audioSlug": "me_puedes_dar_tu_opinion"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_cada_persona_piensa_distinto",
+      "conceptId": "es.conversacion_cada_persona_piensa_distinto",
+      "sourceId": "de.s.86606514bfa7771b",
+      "source": "Jede Person denkt anders.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cada persona piensa distinto.",
+          "audioSlug": "cada_persona_piensa_distinto"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_dime_la_verdad_por_favor",
+      "conceptId": "es.conversacion_dime_la_verdad_por_favor",
+      "sourceId": "de.s.0ddeb01f5a735610",
+      "source": "Sag mir die Wahrheit, bitte.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Dime la verdad, por favor.",
+          "audioSlug": "dime_la_verdad_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_siempre_digo_lo_que_siento",
+      "conceptId": "es.conversacion_siempre_digo_lo_que_siento",
+      "sourceId": "de.s.88a65d3963dbaade",
+      "source": "Ich sage immer, was ich fühle.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Siempre digo lo que siento.",
+          "audioSlug": "siempre_digo_lo_que_siento"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_hablamos_de_muchas_cosas",
+      "conceptId": "es.conversacion_hablamos_de_muchas_cosas",
+      "sourceId": "de.s.e2572e7854e591b6",
+      "source": "Wir reden über viele Dinge.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hablamos de muchas cosas.",
+          "audioSlug": "hablamos_de_muchas_cosas"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_si_eso_es_justo_lo_que_pienso",
+      "conceptId": "es.conversacion_si_eso_es_justo_lo_que_pienso",
+      "sourceId": "de.s.b8f1524eaffe1b65",
+      "source": "Ja, genau das denke ich.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sí, eso es justo lo que pienso.",
+          "audioSlug": "si_eso_es_justo_lo_que_pienso"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_quiero_hablar_de_eso_ahora",
+      "conceptId": "es.conversacion_no_quiero_hablar_de_eso_ahora",
+      "sourceId": "de.s.eca0eccf6b6db52b",
+      "source": "Ich will jetzt nicht darüber reden.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No quiero hablar de eso ahora.",
+          "audioSlug": "no_quiero_hablar_de_eso_ahora"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_cada_uno_tiene_su_opinion",
+      "conceptId": "es.conversacion_cada_uno_tiene_su_opinion",
+      "sourceId": "de.s.3d6e2b8d709386a0",
+      "source": "Jeder hat seine eigene Meinung.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cada uno tiene su opinión.",
+          "audioSlug": "cada_uno_tiene_su_opinion"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_escuchame_sin_interrumpir",
+      "conceptId": "es.conversacion_escuchame_sin_interrumpir",
+      "sourceId": "de.s.10d5bea3d8b8be4d",
+      "source": "Hör mir zu, ohne zu unterbrechen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Escúchame sin interrumpir.",
+          "audioSlug": "escuchame_sin_interrumpir"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_claro_que_puedo_ayudarte",
+      "conceptId": "es.conversacion_claro_que_puedo_ayudarte",
+      "sourceId": "de.s.ce4c83a37ca3c1a2",
+      "source": "Natürlich kann ich dir helfen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Claro que puedo ayudarte.",
+          "audioSlug": "claro_que_puedo_ayudarte"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_ese_es_un_problema_dificil",
+      "conceptId": "es.conversacion_ese_es_un_problema_dificil",
+      "sourceId": "de.s.fdeba8cdf93485f7",
+      "source": "Das ist ein schwieriges Problem.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ese es un problema difícil.",
+          "audioSlug": "ese_es_un_problema_dificil"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_es_un_buen_plan_y_ademas_barato",
+      "conceptId": "es.conversacion_es_un_buen_plan_y_ademas_barato",
+      "sourceId": "de.s.f3c12bdb5b673885",
+      "source": "Es ist ein guter Plan und außerdem billig.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un buen plan y además es barato.",
+          "audioSlug": "es_un_buen_plan_y_ademas_es_barato"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_que_hacemos_entonces",
+      "conceptId": "es.conversacion_que_hacemos_entonces",
+      "sourceId": "de.s.6be56eeba92c9456",
+      "source": "Was machen wir dann?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué hacemos entonces?",
+          "audioSlug": "que_hacemos_entonces"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_que_tipo_de_musica_te_gusta",
+      "conceptId": "es.conversacion_que_tipo_de_musica_te_gusta",
+      "sourceId": "de.s.c6f061cb37490715",
+      "source": "Welche Art von Musik magst du?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué tipo de música te gusta?",
+          "audioSlug": "que_tipo_de_musica_te_gusta"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_en_ese_caso_prefiero_esperar",
+      "conceptId": "es.conversacion_en_ese_caso_prefiero_esperar",
+      "sourceId": "de.s.bbc7553a74eab8fb",
+      "source": "In dem Fall warte ich lieber.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "En ese caso prefiero esperar.",
+          "audioSlug": "en_ese_caso_prefiero_esperar"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_siento_que_no_me_escuchas",
+      "conceptId": "es.conversacion_siento_que_no_me_escuchas",
+      "sourceId": "de.s.5bbe8a1125e8590d",
+      "source": "Ich habe das Gefühl, dass du mir nicht zuhörst.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Siento que no me escuchas.",
+          "audioSlug": "siento_que_no_me_escuchas"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_te_entiendo_aunque_no_estoy_de_acuerdo",
+      "conceptId": "es.conversacion_te_entiendo_aunque_no_estoy_de_acuerdo",
+      "sourceId": "de.s.7479250b8dab9ff3",
+      "source": "Ich verstehe dich, auch wenn ich nicht einverstanden bin.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te entiendo aunque no estoy de acuerdo.",
+          "audioSlug": "te_entiendo_aunque_no_estoy_de_acuerdo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_recuerdo_su_nombre",
+      "conceptId": "es.conversacion_no_recuerdo_su_nombre",
+      "sourceId": "de.s.07150f1e218d285d",
+      "source": "Ich erinnere mich nicht an seinen Namen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No recuerdo su nombre.",
+          "audioSlug": "no_recuerdo_su_nombre"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_cada_quien_opina_segun_su_experiencia",
+      "conceptId": "es.conversacion_cada_quien_opina_segun_su_experiencia",
+      "sourceId": "de.s.e8fb0f1e7c1001d3",
+      "source": "Jeder urteilt nach seiner Erfahrung.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cada quien opina según su experiencia.",
+          "audioSlug": "cada_quien_opina_segun_su_experiencia"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_nosotros_llegamos_a_un_acuerdo",
+      "conceptId": "es.conversacion_nosotros_llegamos_a_un_acuerdo",
+      "sourceId": "de.s.8854be3e922c905e",
+      "source": "Wir haben eine Einigung erreicht.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nosotros llegamos a un acuerdo.",
+          "audioSlug": "nosotros_llegamos_a_un_acuerdo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_la_politica_no_me_interesa",
+      "conceptId": "es.conversacion_la_politica_no_me_interesa",
+      "sourceId": "de.s.74630b22d6938da0",
+      "source": "Politik interessiert mich überhaupt nicht.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La política no me interesa nada.",
+          "audioSlug": "la_politica_no_me_interesa_nada"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_te_quiero_presentar_a_un_amigo",
+      "conceptId": "es.conversacion_te_quiero_presentar_a_un_amigo",
+      "sourceId": "de.s.755ac6d24ca01ee5",
+      "source": "Ich möchte dir einen Freund vorstellen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te quiero presentar a un amigo.",
+          "audioSlug": "te_quiero_presentar_a_un_amigo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_pues_eso_no_tiene_sentido",
+      "conceptId": "es.conversacion_pues_eso_no_tiene_sentido",
+      "sourceId": "de.s.d3aafeba71596a8a",
+      "source": "Na ja, das ergibt keinen Sinn.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Pues eso no tiene sentido.",
+          "audioSlug": "pues_eso_no_tiene_sentido"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_aquella_idea_fue_muy_buena",
+      "conceptId": "es.conversacion_aquella_idea_fue_muy_buena",
+      "sourceId": "de.s.270b1df3ec6d34a5",
+      "source": "Jene Idee war sehr gut.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Aquella idea fue muy buena.",
+          "audioSlug": "aquella_idea_fue_muy_buena"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_necesito_mas_informacion",
+      "conceptId": "es.conversacion_necesito_mas_informacion",
+      "sourceId": "de.s.53797235d1765df5",
+      "source": "Ich brauche mehr Informationen darüber.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito más información sobre eso.",
+          "audioSlug": "necesito_mas_informacion_sobre_eso"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_dije_tal_cosa",
+      "conceptId": "es.conversacion_no_dije_tal_cosa",
+      "sourceId": "de.s.f8adf85220b242a2",
+      "source": "Das habe ich nicht gesagt.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No dije tal cosa.",
+          "audioSlug": "no_dije_tal_cosa"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_es_necesario_hablar_con_claridad",
+      "conceptId": "es.conversacion_es_necesario_hablar_con_claridad",
+      "sourceId": "de.s.4206c443dae498a8",
+      "source": "Es ist nötig, klar zu sprechen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es necesario hablar con claridad.",
+          "audioSlug": "es_necesario_hablar_con_claridad"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_me_resulta_dificil_expresarme",
+      "conceptId": "es.conversacion_me_resulta_dificil_expresarme",
+      "sourceId": "de.s.5e2dc1fa97dbb0e3",
+      "source": "Es fällt mir schwer, mich auszudrücken.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Me resulta difícil expresarme.",
+          "audioSlug": "me_resulta_dificil_expresarme"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_eso_depende_de_muchos_factores",
+      "conceptId": "es.conversacion_eso_depende_de_muchos_factores",
+      "sourceId": "de.s.90172969075a8752",
+      "source": "Das hängt von vielen Faktoren ab.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Eso depende de muchos factores.",
+          "audioSlug": "eso_depende_de_muchos_factores"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_vale_la_pena_intentarlo",
+      "conceptId": "es.conversacion_vale_la_pena_intentarlo",
+      "sourceId": "de.s.ddfd607a93c47653",
+      "source": "Es lohnt sich, es zu versuchen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vale la pena intentarlo.",
+          "audioSlug": "vale_la_pena_intentarlo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_insisto_en_que_tengo_razon",
+      "conceptId": "es.conversacion_insisto_en_que_tengo_razon",
+      "sourceId": "de.s.0cc9198b9bf6c7b1",
+      "source": "Ich bestehe darauf, dass ich recht habe.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Insisto en que tengo razón.",
+          "audioSlug": "insisto_en_que_tengo_razon"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_cada_quien_tiene_derecho_a_opinar",
+      "conceptId": "es.conversacion_cada_quien_tiene_derecho_a_opinar",
+      "sourceId": "de.s.3d51d39aa387c0d1",
+      "source": "Jeder hat das Recht, seine Meinung zu sagen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cada quien tiene derecho a opinar.",
+          "audioSlug": "cada_quien_tiene_derecho_a_opinar"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_quiero_discutir_por_eso",
+      "conceptId": "es.conversacion_no_quiero_discutir_por_eso",
+      "sourceId": "de.s.6447c66329d2dc22",
+      "source": "Ich will deswegen nicht streiten.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No quiero discutir por eso.",
+          "audioSlug": "no_quiero_discutir_por_eso"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_tengo_nada_en_contra",
+      "conceptId": "es.conversacion_no_tengo_nada_en_contra",
+      "sourceId": "de.s.a95beaef7db07ce7",
+      "source": "Ich habe nichts dagegen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No tengo nada en contra de eso.",
+          "audioSlug": "no_tengo_nada_en_contra_de_eso"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_te_lo_prometo_de_verdad",
+      "conceptId": "es.conversacion_te_lo_prometo_de_verdad",
+      "sourceId": "de.s.b77e7298dbe2e350",
+      "source": "Ich verspreche es dir wirklich.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te lo prometo de verdad.",
+          "audioSlug": "te_lo_prometo_de_verdad"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_nunca_debes_mentir_a_un_amigo",
+      "conceptId": "es.conversacion_nunca_debes_mentir_a_un_amigo",
+      "sourceId": "de.s.52775600ef976ec2",
+      "source": "Du solltest einen Freund nie anlügen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Nunca debes mentir a un amigo.",
+          "audioSlug": "nunca_debes_mentir_a_un_amigo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_avisame_cuando_llegues",
+      "conceptId": "es.conversacion_avisame_cuando_llegues",
+      "sourceId": "de.s.b90cac35a74545c8",
+      "source": "Sag mir Bescheid, wenn du ankommst.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Avísame cuando llegues.",
+          "audioSlug": "avisame_cuando_llegues"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_te_aconsejo_que_descanses",
+      "conceptId": "es.conversacion_te_aconsejo_que_descanses",
+      "sourceId": "de.s.395d5a6d3bd6ec7c",
+      "source": "Ich rate dir, dich auszuruhen.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te aconsejo que descanses.",
+          "audioSlug": "te_aconsejo_que_descanses"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_este_regalo_es_para_ti",
+      "conceptId": "es.conversacion_este_regalo_es_para_ti",
+      "sourceId": "de.s.2c4105486874ed9c",
+      "source": "Dieses Geschenk ist für dich.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Este regalo es para ti.",
+          "audioSlug": "este_regalo_es_para_ti"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_alguno_de_ustedes_debe_saberlo",
+      "conceptId": "es.conversacion_alguno_de_ustedes_debe_saberlo",
+      "sourceId": "de.s.a283dd6d90ce8df6",
+      "source": "Einer von euch muss es wissen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Alguno de ustedes debe saberlo.",
+          "audioSlug": "alguno_de_ustedes_debe_saberlo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_quiero_quejarme_demasiado",
+      "conceptId": "es.conversacion_no_quiero_quejarme_demasiado",
+      "sourceId": "de.s.af867fa0ae9d372b",
+      "source": "Ich will mich nicht zu sehr beschweren.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No quiero quejarme demasiado.",
+          "audioSlug": "no_quiero_quejarme_demasiado"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_te_preocupes_por_eso",
+      "conceptId": "es.conversacion_no_te_preocupes_por_eso",
+      "sourceId": "de.s.6a5b8b9dbbb016af",
+      "source": "Mach dir darüber keine Sorgen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No te preocupes por eso.",
+          "audioSlug": "no_te_preocupes_por_eso"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_es_dificil_elegir_entre_los_dos",
+      "conceptId": "es.conversacion_es_dificil_elegir_entre_los_dos",
+      "sourceId": "de.s.548e168da99ff4d1",
+      "source": "Es ist schwer, zwischen beiden zu wählen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es difícil elegir entre los dos.",
+          "audioSlug": "es_dificil_elegir_entre_los_dos"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_tengo_buenas_noticias_para_ti",
+      "conceptId": "es.conversacion_tengo_buenas_noticias_para_ti",
+      "sourceId": "de.s.01b626d4402c6a98",
+      "source": "Ich habe gute Nachrichten für dich.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo buenas noticias para ti.",
+          "audioSlug": "tengo_buenas_noticias_para_ti"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_los_demas_no_estan_de_acuerdo",
+      "conceptId": "es.conversacion_los_demas_no_estan_de_acuerdo",
+      "sourceId": "de.s.70b648bf114b596d",
+      "source": "Die anderen sind nicht einverstanden.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los demás no están de acuerdo.",
+          "audioSlug": "los_demas_no_estan_de_acuerdo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_quiero_sugerir_una_idea",
+      "conceptId": "es.conversacion_quiero_sugerir_una_idea",
+      "sourceId": "de.s.8e9c8897affa0c15",
+      "source": "Ich möchte eine Idee vorschlagen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero sugerir una idea.",
+          "audioSlug": "quiero_sugerir_una_idea"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_dejame_aclarar_un_punto",
+      "conceptId": "es.conversacion_dejame_aclarar_un_punto",
+      "sourceId": "de.s.af737a0f0d399e23",
+      "source": "Lass mich einen Punkt klarstellen.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Déjame aclarar un punto.",
+          "audioSlug": "dejame_aclarar_un_punto"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_prefiero_no_comentar_nada",
+      "conceptId": "es.conversacion_prefiero_no_comentar_nada",
+      "sourceId": "de.s.cbec510522085c01",
+      "source": "Ich ziehe es vor, nichts zu kommentieren.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Prefiero no comentar nada.",
+          "audioSlug": "prefiero_no_comentar_nada"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_eso_me_da_igual",
+      "conceptId": "es.conversacion_eso_me_da_igual",
+      "sourceId": "de.s.849634b61e58a42e",
+      "source": "Das ist mir egal.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Eso me da igual.",
+          "audioSlug": "eso_me_da_igual"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_no_contesto_mi_pregunta",
+      "conceptId": "es.conversacion_no_contesto_mi_pregunta",
+      "sourceId": "de.s.b91dfa9e363280b9",
+      "source": "Er hat meine Frage nicht beantwortet.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No contestó mi pregunta.",
+          "audioSlug": "no_contesto_mi_pregunta"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_leeme_el_texto_en_voz_alta",
+      "conceptId": "es.conversacion_leeme_el_texto_en_voz_alta",
+      "sourceId": "de.s.a19ba60556a843a8",
+      "source": "Lies mir den Text laut vor.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Léeme el texto en voz alta.",
+          "audioSlug": "leeme_el_texto_en_voz_alta"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_todos_quieren_participar",
+      "conceptId": "es.conversacion_todos_quieren_participar",
+      "sourceId": "de.s.92921407f0bd4eb1",
+      "source": "Alle wollen an der Besprechung teilnehmen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Todos quieren participar en la reunión.",
+          "audioSlug": "todos_quieren_participar_en_la_reunion"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_te_deseo_mucha_suerte",
+      "conceptId": "es.conversacion_te_deseo_mucha_suerte",
+      "sourceId": "de.s.176adccea8987fb4",
+      "source": "Ich wünsche dir viel Glück.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te deseo mucha suerte.",
+          "audioSlug": "te_deseo_mucha_suerte"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_por_lo_general_estoy_de_acuerdo",
+      "conceptId": "es.conversacion_por_lo_general_estoy_de_acuerdo",
+      "sourceId": "de.s.045dd96a82535516",
+      "source": "Im Allgemeinen stimme ich zu.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Por lo general estoy de acuerdo.",
+          "audioSlug": "por_lo_general_estoy_de_acuerdo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_deja_de_repetir_lo_mismo",
+      "conceptId": "es.conversacion_deja_de_repetir_lo_mismo",
+      "sourceId": "de.s.e5cb5f1407cda4bb",
+      "source": "Hör auf, dasselbe zu wiederholen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Deja de repetir lo mismo.",
+          "audioSlug": "deja_de_repetir_lo_mismo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_prefiero_la_verdad_a_la_mentira",
+      "conceptId": "es.conversacion_prefiero_la_verdad_a_la_mentira",
+      "sourceId": "de.s.0e722e40cc276371",
+      "source": "Ich bevorzuge die Wahrheit vor der Lüge.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Prefiero la verdad a la mentira.",
+          "audioSlug": "prefiero_la_verdad_a_la_mentira"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_quiero_expresar_mi_agradecimiento",
+      "conceptId": "es.conversacion_quiero_expresar_mi_agradecimiento",
+      "sourceId": "de.s.708c93dbbc662a7a",
+      "source": "Ich möchte meinen Dank ausdrücken.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero expresar mi agradecimiento.",
+          "audioSlug": "quiero_expresar_mi_agradecimiento"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_es_un_honor_recibir_tu_visita",
+      "conceptId": "es.conversacion_es_un_honor_recibir_tu_visita",
+      "sourceId": "de.s.c04f4af598a0d61f",
+      "source": "Es ist eine Ehre, deinen Besuch zu empfangen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es un honor recibir tu visita.",
+          "audioSlug": "es_un_honor_recibir_tu_visita"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_hay_que_servir_con_dedicacion",
+      "conceptId": "es.conversacion_hay_que_servir_con_dedicacion",
+      "sourceId": "de.s.6945007195399029",
+      "source": "Man muss mit Hingabe dienen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que servir con dedicación.",
+          "audioSlug": "hay_que_servir_con_dedicacion"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_es_importante_formar_buenas_relaciones",
+      "conceptId": "es.conversacion_es_importante_formar_buenas_relaciones",
+      "sourceId": "de.s.d5fd518f02035a20",
+      "source": "Es ist wichtig, gute Beziehungen aufzubauen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es importante formar buenas relaciones.",
+          "audioSlug": "es_importante_formar_buenas_relaciones"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_quiero_mostrar_mi_punto_de_vista",
+      "conceptId": "es.conversacion_quiero_mostrar_mi_punto_de_vista",
+      "sourceId": "de.s.0e8ec911d4579c64",
+      "source": "Ich möchte meinen Standpunkt darlegen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Quiero mostrar mi punto de vista.",
+          "audioSlug": "quiero_mostrar_mi_punto_de_vista"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_es_dificil_dirigir_un_grupo_grande",
+      "conceptId": "es.conversacion_es_dificil_dirigir_un_grupo_grande",
+      "sourceId": "de.s.b2af6c2c320e0d76",
+      "source": "Es ist schwer, eine große Gruppe zu leiten.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es difícil dirigir un grupo grande.",
+          "audioSlug": "es_dificil_dirigir_un_grupo_grande"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_es_normal_desear_una_vida_mejor",
+      "conceptId": "es.conversacion_es_normal_desear_una_vida_mejor",
+      "sourceId": "de.s.084d902908142e14",
+      "source": "Es ist normal, sich ein besseres Leben zu wünschen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es normal desear una vida mejor.",
+          "audioSlug": "es_normal_desear_una_vida_mejor"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_uso_una_expresion_muy_formal",
+      "conceptId": "es.conversacion_uso_una_expresion_muy_formal",
+      "sourceId": "de.s.1de80b07ba21655e",
+      "source": "Er benutzte einen sehr förmlichen Ausdruck.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Usó una expresión muy formal.",
+          "audioSlug": "uso_una_expresion_muy_formal"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_debemos_comenzar_de_nuevo",
+      "conceptId": "es.conversacion_debemos_comenzar_de_nuevo",
+      "sourceId": "de.s.b11e51757247e2bf",
+      "source": "Wir müssen von vorn anfangen.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Debemos comenzar de nuevo.",
+          "audioSlug": "debemos_comenzar_de_nuevo"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_repite_la_frase_por_favor",
+      "conceptId": "es.conversacion_repite_la_frase_por_favor",
+      "sourceId": "de.s.5192d2cee1c357ef",
+      "source": "Wiederhole den Satz, bitte.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Repite la frase, por favor.",
+          "audioSlug": "repite_la_frase_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_tuvimos_una_conversacion_muy_larga",
+      "conceptId": "es.conversacion_tuvimos_una_conversacion_muy_larga",
+      "sourceId": "de.s.1a3b4bc76f089bf7",
+      "source": "Wir hatten ein sehr langes Gespräch.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tuvimos una conversación muy larga.",
+          "audioSlug": "tuvimos_una_conversacion_muy_larga"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_hay_que_aceptar_las_criticas",
+      "conceptId": "es.conversacion_hay_que_aceptar_las_criticas",
+      "sourceId": "de.s.940584cd2adc2b6d",
+      "source": "Man muss Kritik annehmen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que aceptar las críticas.",
+          "audioSlug": "hay_que_aceptar_las_criticas"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_es_bueno_reconocer_los_errores",
+      "conceptId": "es.conversacion_es_bueno_reconocer_los_errores",
+      "sourceId": "de.s.ca38b9c3c3c02629",
+      "source": "Es ist gut, seine Fehler einzugestehen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es bueno reconocer los errores.",
+          "audioSlug": "es_bueno_reconocer_los_errores"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_prefiero_el_silencio_por_la_manana",
+      "conceptId": "es.conversacion_prefiero_el_silencio_por_la_manana",
+      "sourceId": "de.s.b2b4f85465a64049",
+      "source": "Ich mag morgens lieber die Stille.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Prefiero el silencio por la mañana.",
+          "audioSlug": "prefiero_el_silencio_por_la_manana"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_es_dificil_comunicar_lo_que_siento",
+      "conceptId": "es.conversacion_es_dificil_comunicar_lo_que_siento",
+      "sourceId": "de.s.6546b4c79d76741b",
+      "source": "Es ist schwer, das auszudrücken, was ich fühle.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es difícil comunicar lo que siento.",
+          "audioSlug": "es_dificil_comunicar_lo_que_siento"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_la_comunicacion_es_clave_en_pareja",
+      "conceptId": "es.conversacion_la_comunicacion_es_clave_en_pareja",
+      "sourceId": "de.s.090c841cd5cdf410",
+      "source": "Kommunikation ist in einer Beziehung entscheidend.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La comunicación es clave en pareja.",
+          "audioSlug": "la_comunicacion_es_clave_en_pareja"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_de_hecho_tienes_toda_la_razon",
+      "conceptId": "es.conversacion_de_hecho_tienes_toda_la_razon",
+      "sourceId": "de.s.0eea72f3e5e973d9",
+      "source": "Tatsächlich hast du völlig recht.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "De hecho, tienes toda la razón.",
+          "audioSlug": "de_hecho_tienes_toda_la_razon"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_el_resto_del_grupo_ya_llego",
+      "conceptId": "es.conversacion_el_resto_del_grupo_ya_llego",
+      "sourceId": "de.s.afe325ba248b7be3",
+      "source": "Der Rest der Gruppe ist schon da.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El resto del grupo ya llegó.",
+          "audioSlug": "el_resto_del_grupo_ya_llego"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_te_doy_un_consejo_sincero",
+      "conceptId": "es.conversacion_te_doy_un_consejo_sincero",
+      "sourceId": "de.s.9e2bfe7819abe095",
+      "source": "Ich gebe dir einen aufrichtigen Rat.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Te doy un consejo sincero.",
+          "audioSlug": "te_doy_un_consejo_sincero"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_hay_que_acordar_una_fecha_pronto",
+      "conceptId": "es.conversacion_hay_que_acordar_una_fecha_pronto",
+      "sourceId": "de.s.664bc2084e6a5dfc",
+      "source": "Wir müssen bald einen Termin vereinbaren.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que acordar una fecha pronto.",
+          "audioSlug": "hay_que_acordar_una_fecha_pronto"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_presta_atencion_a_los_detalles",
+      "conceptId": "es.conversacion_presta_atencion_a_los_detalles",
+      "sourceId": "de.s.51e969e274d48999",
+      "source": "Achte auf die Einzelheiten.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Presta atención a los detalles.",
+          "audioSlug": "presta_atencion_a_los_detalles"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_vivo_en_una_comunidad_muy_tranquila",
+      "conceptId": "es.conversacion_vivo_en_una_comunidad_muy_tranquila",
+      "sourceId": "de.s.e0226665bdf3665c",
+      "source": "Ich lebe in einer sehr ruhigen Gemeinschaft.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Vivo en una comunidad muy tranquila.",
+          "audioSlug": "vivo_en_una_comunidad_muy_tranquila"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_la_reunion_termino_en_una_fuerte_discusion",
+      "conceptId": "es.conversacion_la_reunion_termino_en_una_fuerte_discusion",
+      "sourceId": "de.s.ab3905bf7a6f0b44",
+      "source": "Das Treffen endete in einem heftigen Streit.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La reunión terminó en una fuerte discusión.",
+          "audioSlug": "la_reunion_termino_en_una_fuerte_discusion"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_su_comportamiento_me_sorprendio_mucho",
+      "conceptId": "es.conversacion_su_comportamiento_me_sorprendio_mucho",
+      "sourceId": "de.s.dd712e37e81c9283",
+      "source": "Ihr Verhalten hat mich sehr überrascht.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Su comportamiento me sorprendió mucho.",
+          "audioSlug": "su_comportamiento_me_sorprendio_mucho"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_hay_que_respetar_las_reglas",
+      "conceptId": "es.conversacion_hay_que_respetar_las_reglas",
+      "sourceId": "de.s.3ddeff97ecc57732",
+      "source": "Man muss die Regeln beachten.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hay que respetar las reglas.",
+          "audioSlug": "hay_que_respetar_las_reglas"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_tengo_una_llamada_importante_ahora",
+      "conceptId": "es.conversacion_tengo_una_llamada_importante_ahora",
+      "sourceId": "de.s.ff2a70b65186b0cf",
+      "source": "Ich habe jetzt einen wichtigen Anruf.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo una llamada importante ahora.",
+          "audioSlug": "tengo_una_llamada_importante_ahora"
+        }
+      ]
+    },
+    {
+      "id": "conversacion_lleva_una_cruz_de_plata_al_cuello",
+      "conceptId": "es.conversacion_lleva_una_cruz_de_plata_al_cuello",
+      "sourceId": "de.s.d873da1b42b6ad34",
+      "source": "Sie trägt ein Silberkreuz um den Hals.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Lleva una cruz de plata al cuello.",
+          "audioSlug": "lleva_una_cruz_de_plata_al_cuello"
+        }
+      ]
+    }
+  ]
+}

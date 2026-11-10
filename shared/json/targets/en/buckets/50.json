@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "50",
+  "concepts": {
+    "en.deportes_we_might_lose": {
+      "conceptId": "en.deportes_we_might_lose",
+      "id": "deportes_we_might_lose",
+      "target": [
+        {
+          "text": "We might lose.",
+          "audioSlug": "we_might_lose"
+        }
+      ]
+    },
+    "en.health_my_left_foot_hurts": {
+      "conceptId": "en.health_my_left_foot_hurts",
+      "id": "health_my_left_foot_hurts",
+      "target": [
+        {
+          "text": "My left foot hurts.",
+          "audioSlug": "my_left_foot_hurts"
+        }
+      ]
+    },
+    "en.music_reinterprets_makes_her_own": {
+      "conceptId": "en.music_reinterprets_makes_her_own",
+      "id": "music_reinterprets_makes_her_own",
+      "target": [
+        {
+          "text": "She doesn't just perform the song. She reinterprets it and makes it entirely her own.",
+          "audioSlug": "she_doesn_t_just_perform_the_song_she_reinterprets_it_and_makes_it_entirely_her_own"
+        }
+      ]
+    },
+    "en.restaurant_could_i_have_my_coffee_with": {
+      "conceptId": "en.restaurant_could_i_have_my_coffee_with",
+      "id": "restaurant_could_i_have_my_coffee_with",
+      "target": [
+        {
+          "text": "Could I have my coffee with almond milk, please?",
+          "audioSlug": "could_i_have_my_coffee_with_almond_milk_please",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can I have my coffee with almond milk, please?",
+          "audioSlug": "can_i_have_my_coffee_with_almond_milk_please",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.restaurant_could_you_recommend_a_good_wine": {
+      "conceptId": "en.restaurant_could_you_recommend_a_good_wine",
+      "id": "restaurant_could_you_recommend_a_good_wine",
+      "target": [
+        {
+          "text": "Could you recommend a good wine within a reasonable price range?",
+          "audioSlug": "could_you_recommend_a_good_wine_within_a_reasonable_price_range",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you recommend a good wine within a reasonable price range?",
+          "audioSlug": "can_you_recommend_a_good_wine_within_a_reasonable_price_range",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.restaurant_recommendations_for_cocktails": {
+      "conceptId": "en.restaurant_recommendations_for_cocktails",
+      "id": "restaurant_recommendations_for_cocktails",
+      "target": [
+        {
+          "text": "Do you have any recommendations for cocktails?",
+          "audioSlug": "do_you_have_any_recommendations_for_cocktails"
+        }
+      ]
+    },
+    "en.technology_the_app_uses_dark_patterns_to": {
+      "conceptId": "en.technology_the_app_uses_dark_patterns_to",
+      "id": "technology_the_app_uses_dark_patterns_to",
+      "target": [
+        {
+          "text": "The app uses dark patterns to make canceling your subscription as confusing as possible.",
+          "audioSlug": "the_app_uses_dark_patterns_to_make_canceling_your_subscription_as_confusing_as_possible"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "ea",
+  "concepts": {
+    "en.animales_a_dog_runs_fast": {
+      "conceptId": "en.animales_a_dog_runs_fast",
+      "id": "animales_a_dog_runs_fast",
+      "target": [
+        {
+          "text": "A dog runs fast.",
+          "audioSlug": "a_dog_runs_fast"
+        }
+      ]
+    },
+    "en.conversacion_dont_laugh_at_me": {
+      "conceptId": "en.conversacion_dont_laugh_at_me",
+      "id": "conversacion_dont_laugh_at_me",
+      "target": [
+        {
+          "text": "Don't laugh at me.",
+          "audioSlug": "don_t_laugh_at_me"
+        }
+      ]
+    },
+    "en.descripciones_i_am_ready": {
+      "conceptId": "en.descripciones_i_am_ready",
+      "id": "descripciones_i_am_ready",
+      "target": [
+        {
+          "text": "I am ready.",
+          "audioSlug": "i_am_ready"
+        }
+      ]
+    },
+    "en.gym_is_there_a_warmup_i_should": {
+      "conceptId": "en.gym_is_there_a_warmup_i_should",
+      "id": "gym_is_there_a_warmup_i_should",
+      "target": [
+        {
+          "text": "Is there a warm-up I should follow?",
+          "audioSlug": "is_there_a_warm_up_i_should_follow"
+        }
+      ]
+    },
+    "en.weather_its_hot": {
+      "conceptId": "en.weather_its_hot",
+      "id": "weather_its_hot",
+      "target": [
+        {
+          "text": "It's hot.",
+          "audioSlug": "it_s_hot"
+        }
+      ]
+    },
+    "en.weather_the_climate_is_changing": {
+      "conceptId": "en.weather_the_climate_is_changing",
+      "id": "weather_the_climate_is_changing",
+      "target": [
+        {
+          "text": "The climate is changing.",
+          "audioSlug": "the_climate_is_changing"
+        }
+      ]
+    }
+  }
+}

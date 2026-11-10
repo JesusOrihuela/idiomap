@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "pt",
+  "bucket": "68",
+  "concepts": {
+    "pt.piloto_buenos_dias": {
+      "conceptId": "pt.piloto_buenos_dias",
+      "id": "piloto_buenos_dias",
+      "target": [
+        {
+          "text": "Bom dia.",
+          "audioSlug": "buenos_dias"
+        }
+      ]
+    }
+  }
+}

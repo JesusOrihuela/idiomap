@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "8a",
+  "concepts": {
+    "es.accommodation_el_precio_incluye_el_desayuno": {
+      "conceptId": "es.accommodation_el_precio_incluye_el_desayuno",
+      "id": "accommodation_el_precio_incluye_el_desayuno",
+      "target": [
+        {
+          "text": "El precio incluye el desayuno.",
+          "audioSlug": "el_precio_incluye_el_desayuno"
+        }
+      ]
+    },
+    "es.accommodation_itemize_bill_expense": {
+      "conceptId": "es.accommodation_itemize_bill_expense",
+      "id": "accommodation_itemize_bill_expense",
+      "target": [
+        {
+          "text": "¿Podría desglosar la factura para el informe de gastos de mi empresa?",
+          "audioSlug": "podria_desglosar_la_factura_para_el_informe_de_gastos_de_mi_empresa"
+        }
+      ]
+    },
+    "es.accountability_everything_went_well_during_the_tax": {
+      "conceptId": "es.accountability_everything_went_well_during_the_tax",
+      "id": "accountability_everything_went_well_during_the_tax",
+      "target": [
+        {
+          "text": "Todo salió bien durante la auditoría fiscal.",
+          "audioSlug": "todo_salio_bien_durante_la_auditoria_fiscal"
+        }
+      ]
+    },
+    "es.conversacion_dejame_aclarar_un_punto": {
+      "conceptId": "es.conversacion_dejame_aclarar_un_punto",
+      "id": "conversacion_dejame_aclarar_un_punto",
+      "target": [
+        {
+          "text": "Déjame aclarar un punto.",
+          "audioSlug": "dejame_aclarar_un_punto"
+        }
+      ]
+    },
+    "es.daily_routine_acompano_a_mis_hijos_a_la_escuela": {
+      "conceptId": "es.daily_routine_acompano_a_mis_hijos_a_la_escuela",
+      "id": "daily_routine_acompano_a_mis_hijos_a_la_escuela",
+      "target": [
+        {
+          "text": "Acompaño a mis hijos a la escuela.",
+          "audioSlug": "acompano_a_mis_hijos_a_la_escuela"
+        }
+      ]
+    },
+    "es.descripciones_i_am_tall": {
+      "conceptId": "es.descripciones_i_am_tall",
+      "id": "descripciones_i_am_tall",
+      "target": [
+        {
+          "text": "Soy alta.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "soy_alta"
+        },
+        {
+          "text": "Soy alto.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "soy_alto"
+        }
+      ]
+    },
+    "es.emociones_im_nervous": {
+      "conceptId": "es.emociones_im_nervous",
+      "id": "emociones_im_nervous",
+      "target": [
+        {
+          "text": "Estoy nerviosa.",
+          "audioSlug": "estoy_nerviosa",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy nervioso.",
+          "audioSlug": "estoy_nervioso",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.estudios_dibujo_con_lapiz_y_goma": {
+      "conceptId": "es.estudios_dibujo_con_lapiz_y_goma",
+      "id": "estudios_dibujo_con_lapiz_y_goma",
+      "target": [
+        {
+          "text": "Dibujo con lápiz y goma.",
+          "audioSlug": "dibujo_con_lapiz_y_goma"
+        }
+      ]
+    },
+    "es.family_es_su_novio": {
+      "conceptId": "es.family_es_su_novio",
+      "id": "family_es_su_novio",
+      "target": [
+        {
+          "text": "Es su novio.",
+          "audioSlug": "es_su_novio"
+        }
+      ]
+    },
+    "es.kitchen_abre_una_lata_de_atun": {
+      "conceptId": "es.kitchen_abre_una_lata_de_atun",
+      "id": "kitchen_abre_una_lata_de_atun",
+      "target": [
+        {
+          "text": "Abre una lata de atún.",
+          "audioSlug": "abre_una_lata_de_atun"
+        }
+      ]
+    },
+    "es.kitchen_do_we_have_aluminum_foil_to": {
+      "conceptId": "es.kitchen_do_we_have_aluminum_foil_to",
+      "id": "kitchen_do_we_have_aluminum_foil_to",
+      "target": [
+        {
+          "text": "¿Tenemos papel de aluminio para envolver las sobras?",
+          "audioSlug": "tenemos_papel_de_aluminio_para_envolver_las_sobras"
+        }
+      ]
+    },
+    "es.museums_i_love_this_painting": {
+      "conceptId": "es.museums_i_love_this_painting",
+      "id": "museums_i_love_this_painting",
+      "target": [
+        {
+          "text": "Me encanta este cuadro.",
+          "audioSlug": "me_encanta_este_cuadro"
+        }
+      ]
+    },
+    "es.oficina_trabajo_en_este_sector": {
+      "conceptId": "es.oficina_trabajo_en_este_sector",
+      "id": "oficina_trabajo_en_este_sector",
+      "target": [
+        {
+          "text": "Trabajo en este sector.",
+          "audioSlug": "trabajo_en_este_sector"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_hay_una_necesidad_real_de_cambio": {
+      "conceptId": "es.pensamientos_opiniones_hay_una_necesidad_real_de_cambio",
+      "id": "pensamientos_opiniones_hay_una_necesidad_real_de_cambio",
+      "target": [
+        {
+          "text": "Hay una necesidad real de cambio.",
+          "audioSlug": "hay_una_necesidad_real_de_cambio"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_para_mi_es_igual": {
+      "conceptId": "es.pensamientos_opiniones_para_mi_es_igual",
+      "id": "pensamientos_opiniones_para_mi_es_igual",
+      "target": [
+        {
+          "text": "Para mí es igual.",
+          "audioSlug": "para_mi_es_igual"
+        }
+      ]
+    },
+    "es.politica_el_monje_budista_vive_en_un_templo": {
+      "conceptId": "es.politica_el_monje_budista_vive_en_un_templo",
+      "id": "politica_el_monje_budista_vive_en_un_templo",
+      "target": [
+        {
+          "text": "El monje budista vive en un templo.",
+          "audioSlug": "el_monje_budista_vive_en_un_templo"
+        }
+      ]
+    },
+    "es.supermarket_online_listing_out_of_stock_delivery": {
+      "conceptId": "es.supermarket_online_listing_out_of_stock_delivery",
+      "id": "supermarket_online_listing_out_of_stock_delivery",
+      "target": [
+        {
+          "text": "Su sitio lo muestra disponible pero lleva una semana agotado.",
+          "audioSlug": "su_sitio_lo_muestra_disponible_pero_lleva_una_semana_agotado"
+        }
+      ]
+    },
+    "es.technology_can_i_turn_off_notifications_for": {
+      "conceptId": "es.technology_can_i_turn_off_notifications_for",
+      "id": "technology_can_i_turn_off_notifications_for",
+      "target": [
+        {
+          "text": "¿Puedo desactivar las notificaciones de esta aplicación?",
+          "audioSlug": "puedo_desactivar_las_notificaciones_de_esta_aplicacion"
+        }
+      ]
+    },
+    "es.theater_what_time_performance": {
+      "conceptId": "es.theater_what_time_performance",
+      "id": "theater_what_time_performance",
+      "target": [
+        {
+          "text": "¿A qué hora empieza la función?",
+          "audioSlug": "a_que_hora_empieza_la_funcion"
+        }
+      ]
+    },
+    "es.vestimenta_ella_tiene_una_blusa_de_seda": {
+      "conceptId": "es.vestimenta_ella_tiene_una_blusa_de_seda",
+      "id": "vestimenta_ella_tiene_una_blusa_de_seda",
+      "target": [
+        {
+          "text": "Ella tiene una blusa de seda.",
+          "audioSlug": "ella_tiene_una_blusa_de_seda"
+        }
+      ]
+    }
+  }
+}

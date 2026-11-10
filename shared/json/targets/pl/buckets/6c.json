@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "pl",
+  "bucket": "6c",
+  "concepts": {
+    "pl.survival_can_you_help_me": {
+      "conceptId": "pl.survival_can_you_help_me",
+      "id": "survival_can_you_help_me",
+      "target": [
+        {
+          "text": "Czy możesz mi pomóc?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "czy_mozesz_mi_pomoc"
+        },
+        {
+          "text": "Czy może pan mi pomóc?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "czy_moze_pan_mi_pomoc"
+        }
+      ]
+    }
+  }
+}

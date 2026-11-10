@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "83",
+  "concepts": {
+    "es.accountability_pay_invoice": {
+      "conceptId": "es.accountability_pay_invoice",
+      "id": "accountability_pay_invoice",
+      "target": [
+        {
+          "text": "Necesito pagar esta factura.",
+          "audioSlug": "necesito_pagar_esta_factura"
+        }
+      ]
+    },
+    "es.accountability_the_financial_statements_are_up_to": {
+      "conceptId": "es.accountability_the_financial_statements_are_up_to",
+      "id": "accountability_the_financial_statements_are_up_to",
+      "target": [
+        {
+          "text": "Los estados financieros están al día.",
+          "audioSlug": "los_estados_financieros_estan_al_dia"
+        }
+      ]
+    },
+    "es.daily_routine_en_verano_es_genial_banarse_en_el_mar": {
+      "conceptId": "es.daily_routine_en_verano_es_genial_banarse_en_el_mar",
+      "id": "daily_routine_en_verano_es_genial_banarse_en_el_mar",
+      "target": [
+        {
+          "text": "En verano es genial bañarse en el mar.",
+          "audioSlug": "en_verano_es_genial_banarse_en_el_mar"
+        }
+      ]
+    },
+    "es.descripciones_the_house_is_big": {
+      "conceptId": "es.descripciones_the_house_is_big",
+      "id": "descripciones_the_house_is_big",
+      "target": [
+        {
+          "text": "La casa es grande.",
+          "audioSlug": "la_casa_es_grande"
+        }
+      ]
+    },
+    "es.emociones_im_angry": {
+      "conceptId": "es.emociones_im_angry",
+      "id": "emociones_im_angry",
+      "target": [
+        {
+          "text": "Estoy enojada.",
+          "audioSlug": "estoy_enojada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy enojado.",
+          "audioSlug": "estoy_enojado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.estudios_mi_clase_empieza_a_las_nueve": {
+      "conceptId": "es.estudios_mi_clase_empieza_a_las_nueve",
+      "id": "estudios_mi_clase_empieza_a_las_nueve",
+      "target": [
+        {
+          "text": "Mi clase empieza a las nueve.",
+          "audioSlug": "mi_clase_empieza_a_las_nueve"
+        }
+      ]
+    },
+    "es.kitchen_tonight_were_making_homemade_pizza": {
+      "conceptId": "es.kitchen_tonight_were_making_homemade_pizza",
+      "id": "kitchen_tonight_were_making_homemade_pizza",
+      "target": [
+        {
+          "text": "Esta noche hacemos pizza casera.",
+          "audioSlug": "esta_noche_hacemos_pizza_casera"
+        }
+      ]
+    },
+    "es.supermarket_compre_ternera_para_el_guiso": {
+      "conceptId": "es.supermarket_compre_ternera_para_el_guiso",
+      "id": "supermarket_compre_ternera_para_el_guiso",
+      "target": [
+        {
+          "text": "Compré ternera para el guiso.",
+          "audioSlug": "compre_ternera_para_el_guiso"
+        }
+      ]
+    },
+    "es.technology_the_legacy_system_is_no_longer": {
+      "conceptId": "es.technology_the_legacy_system_is_no_longer",
+      "id": "technology_the_legacy_system_is_no_longer",
+      "target": [
+        {
+          "text": "El sistema heredado ya no recibe mantenimiento ni correcciones de seguridad.",
+          "audioSlug": "el_sistema_heredado_ya_no_recibe_mantenimiento_ni_correcciones_de_seguridad"
+        }
+      ]
+    },
+    "es.vestimenta_lleva_un_traje_gris_a_la_oficina": {
+      "conceptId": "es.vestimenta_lleva_un_traje_gris_a_la_oficina",
+      "id": "vestimenta_lleva_un_traje_gris_a_la_oficina",
+      "target": [
+        {
+          "text": "Lleva un traje gris a la oficina.",
+          "audioSlug": "lleva_un_traje_gris_a_la_oficina"
+        }
+      ]
+    },
+    "es.vestimenta_se_puso_una_corbata_azul": {
+      "conceptId": "es.vestimenta_se_puso_una_corbata_azul",
+      "id": "vestimenta_se_puso_una_corbata_azul",
+      "target": [
+        {
+          "text": "Se puso una corbata azul.",
+          "audioSlug": "se_puso_una_corbata_azul"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "5c",
+  "concepts": {
+    "en.accountability_the_balance_sheet_shows_the_assets": {
+      "conceptId": "en.accountability_the_balance_sheet_shows_the_assets",
+      "id": "accountability_the_balance_sheet_shows_the_assets",
+      "target": [
+        {
+          "text": "The balance sheet shows the assets, liabilities and equity of the company.",
+          "audioSlug": "the_balance_sheet_shows_the_assets_liabilities_and_equity_of_the_company"
+        }
+      ]
+    },
+    "en.kitchen_the_salad_will_need_oil_vinegar": {
+      "conceptId": "en.kitchen_the_salad_will_need_oil_vinegar",
+      "id": "kitchen_the_salad_will_need_oil_vinegar",
+      "target": [
+        {
+          "text": "The salad will need oil, vinegar, and salt.",
+          "audioSlug": "the_salad_will_need_oil_vinegar_and_salt"
+        }
+      ]
+    },
+    "en.naturaleza_lugares_i_like_the_beach": {
+      "conceptId": "en.naturaleza_lugares_i_like_the_beach",
+      "id": "naturaleza_lugares_i_like_the_beach",
+      "target": [
+        {
+          "text": "I like the beach.",
+          "audioSlug": "i_like_the_beach"
+        }
+      ]
+    }
+  }
+}

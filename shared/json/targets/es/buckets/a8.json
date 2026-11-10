@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "a8",
+  "concepts": {
+    "es.accommodation_single_room_availability": {
+      "conceptId": "es.accommodation_single_room_availability",
+      "id": "accommodation_single_room_availability",
+      "target": [
+        {
+          "text": "¿Hay disponibilidad para una habitación individual?",
+          "audioSlug": "hay_disponibilidad_para_una_habitacion_individual"
+        }
+      ]
+    },
+    "es.cotidianidad_voy_a_colocar_los_libros": {
+      "conceptId": "es.cotidianidad_voy_a_colocar_los_libros",
+      "id": "cotidianidad_voy_a_colocar_los_libros",
+      "target": [
+        {
+          "text": "Voy a colocar los libros.",
+          "audioSlug": "voy_a_colocar_los_libros"
+        }
+      ]
+    },
+    "es.family_mi_papa_trabaja_mucho": {
+      "conceptId": "es.family_mi_papa_trabaja_mucho",
+      "id": "family_mi_papa_trabaja_mucho",
+      "target": [
+        {
+          "text": "Mi papá trabaja mucho.",
+          "audioSlug": "mi_papa_trabaja_mucho"
+        }
+      ]
+    },
+    "es.personal_info_trabaja_como_periodista": {
+      "conceptId": "es.personal_info_trabaja_como_periodista",
+      "id": "personal_info_trabaja_como_periodista",
+      "target": [
+        {
+          "text": "Trabaja como periodista.",
+          "audioSlug": "trabaja_como_periodista"
+        }
+      ]
+    }
+  }
+}

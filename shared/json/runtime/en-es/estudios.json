@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-es",
+  "topic": "estudios",
+  "phrases": [
+    {
+      "id": "estudios_la_educacion_es_importante",
+      "conceptId": "es.estudios_la_educacion_es_importante",
+      "sourceId": "en.s.ee57d23cdbd816b0",
+      "source": "Education is important.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La educación es importante.",
+          "audioSlug": "la_educacion_es_importante"
+        }
+      ]
+    },
+    {
+      "id": "estudios_estudio_en_la_universidad",
+      "conceptId": "es.estudios_estudio_en_la_universidad",
+      "sourceId": "en.s.952f01a43a4ae557",
+      "source": "I study at the university.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estudio en la universidad.",
+          "audioSlug": "estudio_en_la_universidad"
+        }
+      ]
+    },
+    {
+      "id": "estudios_es_mi_companero_de_clase",
+      "conceptId": "es.estudios_es_mi_companero_de_clase",
+      "sourceId": "en.s.ab51bd07f422a880",
+      "source": "He is my classmate.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Es mi compañero de clase.",
+          "audioSlug": "es_mi_companero_de_clase"
+        }
+      ]
+    },
+    {
+      "id": "estudios_estudio_para_el_examen",
+      "conceptId": "es.estudios_estudio_para_el_examen",
+      "sourceId": "en.s.5dcf834b5aa7b0e0",
+      "source": "I study for the exam.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estudio para el examen.",
+          "audioSlug": "estudio_para_el_examen"
+        }
+      ]
+    },
+    {
+      "id": "estudios_la_clase_empieza_a_las_ocho",
+      "conceptId": "es.estudios_la_clase_empieza_a_las_ocho",
+      "sourceId": "en.s.f62d8fa4c9aecb7c",
+      "source": "The class starts at eight.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La clase empieza a las ocho.",
+          "audioSlug": "la_clase_empieza_a_las_ocho"
+        }
+      ]
+    },
+    {
+      "id": "estudios_tengo_que_hacer_la_tarea",
+      "conceptId": "es.estudios_tengo_que_hacer_la_tarea",
+      "sourceId": "en.s.aae3bb4073e996bd",
+      "source": "I have to do my homework.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo que hacer la tarea.",
+          "audioSlug": "tengo_que_hacer_la_tarea"
+        }
+      ]
+    },
+    {
+      "id": "estudios_el_profesor_explica_la_leccion",
+      "conceptId": "es.estudios_el_profesor_explica_la_leccion",
+      "sourceId": "en.s.355e78e24ca01ea5",
+      "source": "The teacher explains the lesson.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El profesor explica la lección.",
+          "audioSlug": "el_profesor_explica_la_leccion"
+        }
+      ]
+    },
+    {
+      "id": "estudios_saque_buena_nota_en_el_examen",
+      "conceptId": "es.estudios_saque_buena_nota_en_el_examen",
+      "sourceId": "en.s.b33da38546ec838f",
+      "source": "I got a good grade on the exam.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Saqué buena nota en el examen.",
+          "audioSlug": "saque_buena_nota_en_el_examen"
+        }
+      ]
+    },
+    {
+      "id": "estudios_necesito_un_cuaderno_nuevo",
+      "conceptId": "es.estudios_necesito_un_cuaderno_nuevo",
+      "sourceId": "en.s.0237c17d03f5a460",
+      "source": "I need a new notebook.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito un cuaderno nuevo.",
+          "audioSlug": "necesito_un_cuaderno_nuevo"
+        }
+      ]
+    },
+    {
+      "id": "estudios_aprendo_algo_nuevo_cada_dia",
+      "conceptId": "es.estudios_aprendo_algo_nuevo_cada_dia",
+      "sourceId": "en.s.e7e46e1c3a60e9ba",
+      "source": "I learn something new every day.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Aprendo algo nuevo cada día.",
+          "audioSlug": "aprendo_algo_nuevo_cada_dia"
+        }
+      ]
+    },
+    {
+      "id": "estudios_la_biblioteca_cierra_tarde",
+      "conceptId": "es.estudios_la_biblioteca_cierra_tarde",
+      "sourceId": "en.s.2d165cd2b96fd00b",
+      "source": "The library closes late.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "La biblioteca cierra tarde.",
+          "audioSlug": "la_biblioteca_cierra_tarde"
+        }
+      ]
+    },
+    {
+      "id": "estudios_el_curso_dura_un_ano",
+      "conceptId": "es.estudios_el_curso_dura_un_ano",
+      "sourceId": "en.s.ef30f4f6f75034ec",
+      "source": "The course lasts a year.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El curso dura un año.",
+          "audioSlug": "el_curso_dura_un_ano"
+        }
+      ]
+    },
+    {
+      "id": "estudios_levanta_la_mano_para_preguntar",
+      "conceptId": "es.estudios_levanta_la_mano_para_preguntar",
+      "sourceId": "en.s.c81f34da15e7607d",
+      "source": "Raise your hand to ask.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Levanta la mano para preguntar.",
+          "audioSlug": "levanta_la_mano_para_preguntar"
+        }
+      ]
+    },
+    {
+      "id": "estudios_no_se_nada_de_ciencia",
+      "conceptId": "es.estudios_no_se_nada_de_ciencia",
+      "sourceId": "en.s.c4aaae53652ad074",
+      "source": "I know nothing about science.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No sé nada de ciencia.",
+          "audioSlug": "no_se_nada_de_ciencia"
+        }
+      ]
+    },
+    {
+      "id": "estudios_el_conocimiento_es_poder",
+      "conceptId": "es.estudios_el_conocimiento_es_poder",
+      "sourceId": "en.s.113165ba0e6a1e16",
+      "source": "Knowledge is power.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El conocimiento es poder.",
+          "audioSlug": "el_conocimiento_es_poder"
+        }
+      ]
+    },
+    {
+      "id": "estudios_los_ninos_van_al_colegio",
+      "conceptId": "es.estudios_los_ninos_van_al_colegio",
+      "sourceId": "en.s.59b5630823d1fbfc",
+      "source": "The children go to school by bus.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Los niños van al colegio en autobús.",
+          "audioSlug": "los_ninos_van_al_colegio_en_autobus"
+        }
+      ]
+    },
+    {
+      "id": "estudios_mi_hija_estudia_en_el_instituto",
+      "conceptId": "es.estudios_mi_hija_estudia_en_el_instituto",
+      "sourceId": "en.s.37e62b73711a2542",
+      "source": "My daughter studies at the high school.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Mi hija estudia en el instituto.",
+          "audioSlug": "mi_hija_estudia_en_el_instituto"
+        }
+      ]
+    },
+    {
+      "id": "estudios_el_profesor_escribe_en_la_pizarra",
+      "conceptId": "es.estudios_el_profesor_escribe_en_la_pizarra",
+      "sourceId": "en.s.710f89292ea5ff1e",
+      "source": "The teacher writes on the blackboard.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "El profesor escribe en la pizarra.",
+          "audioSlug": "el_profesor_escribe_en_la_pizarra"
+        }
+      ]
+    },
+    {
+      "id": "estudios_necesito_un_lapiz",
+      "conceptId": "es.estudios_necesito_un_lapiz",
+      "sourceId": "en.s.56d89dfc8fe221f5",
+      "source": "I need a pencil to draw.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito un lápiz para dibujar.",
+          "audioSlug": "necesito_un_lapiz_para_dibujar"
+        }
+      ]
+    },
+    {
+      "id": "estudios_escribo_con_un_boligrafo",
+      "conceptId": "es.estudios_escribo_con_un_boligrafo",
+      "sourceId": "en.s.5b261fd305e86816",
+      "source": "I write with a blue pen.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Escribo con un bolígrafo azul.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "escribo_con_un_boligrafo_azul"
+        },
+        {
+          "text": "Escribo con una pluma azul.",
+          "labels": {
+            "region": "México y Centroamérica"
+          },
+          "audioSlug": "escribo_con_una_pluma_azul"
+        },
+        {
+          "text": "Escribo con un lapicero azul.",
+          "labels": {
+            "region": "Región andina"
+          },
+          "audioSlug": "escribo_con_un_lapicero_azul"
+        },
+        {
+          "text": "Escribo con una birome azul.",
+          "labels": {
+            "region": "Río de la Plata"
+          },
+          "audioSlug": "escribo_con_una_birome_azul"
+        }
+      ]
+    },
+    {
+      "id": "estudios_uso_la_goma_para_borrar",
+      "conceptId": "es.estudios_uso_la_goma_para_borrar",
+      "sourceId": "en.s.c2674da8ac3f2643",
+      "source": "I use the eraser to rub out the mistake.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Uso la goma para borrar el error.",
+          "audioSlug": "uso_la_goma_para_borrar_el_error"
+        }
+      ]
+    },
+    {
+      "id": "estudios_apunto_la_tarea_en_el_cuaderno",
+      "conceptId": "es.estudios_apunto_la_tarea_en_el_cuaderno",
+      "sourceId": "en.s.f79f6676349c52cd",
+      "source": "I write the homework in the notebook.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Apunto la tarea en el cuaderno.",
+          "audioSlug": "apunto_la_tarea_en_el_cuaderno"
+        }
+      ]
+    },
+    {
+      "id": "estudios_busco_la_palabra_en_el_diccionario",
+      "conceptId": "es.estudios_busco_la_palabra_en_el_diccionario",
+      "sourceId": "en.s.547fdbb4ef264c4d",
+      "source": "I look up the word in the dictionary.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Busco la palabra en el diccionario.",
+          "audioSlug": "busco_la_palabra_en_el_diccionario"
+        }
+      ]
+    },
+    {
+      "id": "estudios_tengo_que_repasar_la_leccion",
+      "conceptId": "es.estudios_tengo_que_repasar_la_leccion",
+      "sourceId": "en.s.1cbfaf8c559470c9",
+      "source": "I have to review the lesson.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo que repasar la lección.",
+          "audioSlug": "tengo_que_repasar_la_leccion"
+        }
+      ]
+    },
+    {
+      "id": "estudios_voy_a_consultar_el_diccionario",
+      "conceptId": "es.estudios_voy_a_consultar_el_diccionario",
+      "sourceId": "en.s.abc9a783bdecf774",
+      "source": "I am going to check the dictionary.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Voy a consultar el diccionario.",
+          "audioSlug": "voy_a_consultar_el_diccionario"
+        }
+      ]
+    },
+    {
+      "id": "estudios_complete_el_ejercicio_a_tiempo",
+      "conceptId": "es.estudios_complete_el_ejercicio_a_tiempo",
+      "sourceId": "en.s.bd3d615ad7409318",
+      "source": "I completed the exercise on time.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Completé el ejercicio a tiempo.",
+          "audioSlug": "complete_el_ejercicio_a_tiempo"
+        }
+      ]
+    },
+    {
+      "id": "estudios_casi_suspendo_el_examen",
+      "conceptId": "es.estudios_casi_suspendo_el_examen",
+      "sourceId": "en.s.66525cb2c72a01a0",
+      "source": "I almost failed the exam.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Casi suspendo el examen.",
+          "audioSlug": "casi_suspendo_el_examen"
+        }
+      ]
+    },
+    {
+      "id": "estudios_pague_la_matricula_del_curso",
+      "conceptId": "es.estudios_pague_la_matricula_del_curso",
+      "sourceId": "en.s.003fba5fd14e2df2",
+      "source": "I paid the tuition for the course.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Pagué la matrícula del curso.",
+          "audioSlug": "pague_la_matricula_del_curso"
+        }
+      ]
+    },
+    {
+      "id": "estudios_llevo_la_mochila_al_colegio",
+      "conceptId": "es.estudios_llevo_la_mochila_al_colegio",
+      "sourceId": "en.s.6fdb2e14bb042d4d",
+      "source": "I take the backpack to school.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Llevo la mochila al colegio.",
+          "audioSlug": "llevo_la_mochila_al_colegio"
+        }
+      ]
+    },
+    {
+      "id": "estudios_el_nino_hizo_un_dibujo",
+      "conceptId": "es.estudios_el_nino_hizo_un_dibujo",
+      "sourceId": "en.s.f973ef3e26dae55b",
+      "source": "I made a drawing of my family.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hice un dibujo de mi familia.",
+          "audioSlug": "hice_un_dibujo_de_mi_familia"
+        }
+      ]
+    },
+    {
+      "id": "estudios_marca_la_respuesta_con_una_cruz",
+      "conceptId": "es.estudios_marca_la_respuesta_con_una_cruz",
+      "sourceId": "en.s.6a3de930d479584a",
+      "source": "Mark the answer with a cross.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Marca la respuesta con una cruz.",
+          "audioSlug": "marca_la_respuesta_con_una_cruz"
+        }
+      ]
+    },
+    {
+      "id": "estudios_estudio_en_una_academia",
+      "conceptId": "es.estudios_estudio_en_una_academia",
+      "sourceId": "en.s.fa8f2a5679081152",
+      "source": "I study at a language academy.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Estudio en una academia de idiomas.",
+          "audioSlug": "estudio_en_una_academia_de_idiomas"
+        }
+      ]
+    },
+    {
+      "id": "estudios_abre_el_libro_en_la_pagina_diez",
+      "conceptId": "es.estudios_abre_el_libro_en_la_pagina_diez",
+      "sourceId": "en.s.0925562dda264be8",
+      "source": "Open the book to page ten.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Abre el libro en la página diez.",
+          "audioSlug": "abre_el_libro_en_la_pagina_diez"
+        }
+      ]
+    },
+    {
+      "id": "estudios_recibio_su_diploma_con_honores",
+      "conceptId": "es.estudios_recibio_su_diploma_con_honores",
+      "sourceId": "en.s.9ea49f2e43b3feac",
+      "source": "She received her diploma with honours.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Recibió su diploma con honores.",
+          "audioSlug": "recibio_su_diploma_con_honores"
+        }
+      ]
+    }
+  ]
+}

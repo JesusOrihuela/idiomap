@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "bucket": "79",
+  "concepts": {
+    "de.survival_do_you_speak_english": {
+      "conceptId": "de.survival_do_you_speak_english",
+      "id": "survival_do_you_speak_english",
+      "target": [
+        {
+          "text": "Entschuldigung, sprichst du Englisch?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "entschuldigung_sprichst_du_englisch"
+        },
+        {
+          "text": "Entschuldigung, sprechen Sie Englisch?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "entschuldigung_sprechen_sie_englisch"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "75",
+  "concepts": {
+    "es.accommodation_early_checkin_policy": {
+      "conceptId": "es.accommodation_early_checkin_policy",
+      "id": "accommodation_early_checkin_policy",
+      "target": [
+        {
+          "text": "¿Cuál es la política de registro anticipado?",
+          "audioSlug": "cual_es_la_politica_de_registro_anticipado"
+        }
+      ]
+    },
+    "es.accommodation_el_aire_acondicionado_no_funciona": {
+      "conceptId": "es.accommodation_el_aire_acondicionado_no_funciona",
+      "id": "accommodation_el_aire_acondicionado_no_funciona",
+      "target": [
+        {
+          "text": "El aire acondicionado no funciona.",
+          "audioSlug": "el_aire_acondicionado_no_funciona"
+        }
+      ]
+    },
+    "es.accommodation_pet_policy": {
+      "conceptId": "es.accommodation_pet_policy",
+      "id": "accommodation_pet_policy",
+      "target": [
+        {
+          "text": "¿Cuál es la política para mascotas del hotel?",
+          "audioSlug": "cual_es_la_politica_para_mascotas_del_hotel"
+        }
+      ]
+    },
+    "es.cotidianidad_los_ninos_se_banan_en_el_rio": {
+      "conceptId": "es.cotidianidad_los_ninos_se_banan_en_el_rio",
+      "id": "cotidianidad_los_ninos_se_banan_en_el_rio",
+      "target": [
+        {
+          "text": "Los niños se bañan en el río.",
+          "audioSlug": "los_ninos_se_banan_en_el_rio"
+        }
+      ]
+    },
+    "es.cuerpo_muevo_los_dedos": {
+      "conceptId": "es.cuerpo_muevo_los_dedos",
+      "id": "cuerpo_muevo_los_dedos",
+      "target": [
+        {
+          "text": "Muevo los dedos.",
+          "audioSlug": "muevo_los_dedos"
+        }
+      ]
+    },
+    "es.descripciones_what_are_you_like": {
+      "conceptId": "es.descripciones_what_are_you_like",
+      "id": "descripciones_what_are_you_like",
+      "target": [
+        {
+          "text": "¿Cómo eres?",
+          "audioSlug": "como_eres"
+        }
+      ]
+    },
+    "es.economia_quiero_obtener_mejores_resultados": {
+      "conceptId": "es.economia_quiero_obtener_mejores_resultados",
+      "id": "economia_quiero_obtener_mejores_resultados",
+      "target": [
+        {
+          "text": "Quiero obtener mejores resultados.",
+          "audioSlug": "quiero_obtener_mejores_resultados"
+        }
+      ]
+    },
+    "es.emociones_llore": {
+      "conceptId": "es.emociones_llore",
+      "id": "emociones_llore",
+      "target": [
+        {
+          "text": "Lloré.",
+          "audioSlug": "llore"
+        }
+      ]
+    },
+    "es.emociones_why_are_you_surprised": {
+      "conceptId": "es.emociones_why_are_you_surprised",
+      "id": "emociones_why_are_you_surprised",
+      "target": [
+        {
+          "text": "¿Por qué estás sorprendido?",
+          "audioSlug": "por_que_estas_sorprendido",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "¿Por qué estás sorprendida?",
+          "audioSlug": "por_que_estas_sorprendida",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.gym_what_is_the_correct_posture_for": {
+      "conceptId": "es.gym_what_is_the_correct_posture_for",
+      "id": "gym_what_is_the_correct_posture_for",
+      "target": [
+        {
+          "text": "¿Cuál es la postura correcta para usar esta máquina?",
+          "audioSlug": "cual_es_la_postura_correcta_para_usar_esta_maquina"
+        }
+      ]
+    },
+    "es.health_me_siento_mareada": {
+      "conceptId": "es.health_me_siento_mareada",
+      "id": "health_me_siento_mareada",
+      "target": [
+        {
+          "text": "Me siento mareada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "me_siento_mareada"
+        },
+        {
+          "text": "Me siento mareado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "me_siento_mareado"
+        }
+      ]
+    },
+    "es.transportation_los_domingos_hay_menos_gente": {
+      "conceptId": "es.transportation_los_domingos_hay_menos_gente",
+      "id": "transportation_los_domingos_hay_menos_gente",
+      "target": [
+        {
+          "text": "Los domingos hay menos gente en el metro.",
+          "audioSlug": "los_domingos_hay_menos_gente_en_el_metro"
+        }
+      ]
+    },
+    "es.weather_esta_lloviendo": {
+      "conceptId": "es.weather_esta_lloviendo",
+      "id": "weather_esta_lloviendo",
+      "target": [
+        {
+          "text": "Está lloviendo.",
+          "audioSlug": "esta_lloviendo"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "bucket": "d5",
+  "concepts": {
+    "de.piloto_no_entiendo": {
+      "conceptId": "de.piloto_no_entiendo",
+      "id": "piloto_no_entiendo",
+      "target": [
+        {
+          "text": "Ich verstehe nicht.",
+          "audioSlug": "no_entiendo"
+        }
+      ]
+    }
+  }
+}

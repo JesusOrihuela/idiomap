@@ -63,9 +63,16 @@
   }
 
   // Activity prefixes to strip when extracting topic from card key
-  var ACTIVITY_PREFIXES = ['dict_', 'cloze_', 'scramble_', 'trans_', 'quiz_', 'vocab_'];
+  var ACTIVITY_PREFIXES = (typeof Progress !== 'undefined' && Progress.ACTIVITY_PREFIX)
+    ? Object.keys(Progress.ACTIVITY_PREFIX).map(function (k) { return Progress.ACTIVITY_PREFIX[k]; }).filter(Boolean)
+    : ['dict_', 'cloze_', 'scramble_', 'trans_', 'quiz_', 'vocab_'];
 
   function _topicFromKey(key) {
+    // Stable phrase IDs do not encode their topic; resolve via the id-map first.
+    if (typeof Progress !== 'undefined' && Progress.getCardTopic) {
+      var resolved = Progress.getCardTopic(key);
+      if (resolved) return resolved;
+    }
     var k = key;
     for (var i = 0; i < ACTIVITY_PREFIXES.length; i++) {
       if (k.startsWith(ACTIVITY_PREFIXES[i])) {
@@ -114,8 +121,10 @@
 
     if (topDueTopic && topDueCount > 0) {
       var totalDue = Object.keys(dueCounts).reduce(function (s, k) { return s + dueCounts[k]; }, 0);
-      var s = topDueCount > 1 ? 's' : '';
-      var bodyText = AppLang.t('notif_body_due', { count: topDueCount, s: s, topic: _topicLabel(topDueTopic) });
+      var bodyText = AppLang.t(
+        topDueCount === 1 ? 'notif_body_due_one' : 'notif_body_due',
+        { count: topDueCount, topic: _topicLabel(topDueTopic) }
+      );
       if (totalDue > topDueCount) {
         bodyText += ' ' + AppLang.t('notif_more_topics', { n: totalDue - topDueCount });
       }

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "e0",
+  "concepts": {
+    "es.accommodation_loyalty_tier_benefits": {
+      "conceptId": "es.accommodation_loyalty_tier_benefits",
+      "id": "accommodation_loyalty_tier_benefits",
+      "target": [
+        {
+          "text": "¿Podría confirmar si mi nivel de fidelidad me da derecho a desayuno gratuito y salida tardía?",
+          "audioSlug": "podria_confirmar_si_mi_nivel_de_fidelidad_me_da_derecho_a_desayuno_gratuito_y_salida_tardia"
+        }
+      ]
+    },
+    "es.animales_vi_un_perro_en_la_calle": {
+      "conceptId": "es.animales_vi_un_perro_en_la_calle",
+      "id": "animales_vi_un_perro_en_la_calle",
+      "target": [
+        {
+          "text": "Vi un perro en la calle.",
+          "audioSlug": "vi_un_perro_en_la_calle"
+        }
+      ]
+    },
+    "es.calendario_la_navidad_es_una_tradicion_familiar": {
+      "conceptId": "es.calendario_la_navidad_es_una_tradicion_familiar",
+      "id": "calendario_la_navidad_es_una_tradicion_familiar",
+      "target": [
+        {
+          "text": "La Navidad es una tradición familiar.",
+          "audioSlug": "la_navidad_es_una_tradicion_familiar"
+        }
+      ]
+    },
+    "es.health_get_well_soon": {
+      "conceptId": "es.health_get_well_soon",
+      "id": "health_get_well_soon",
+      "target": [
+        {
+          "text": "¡Que te mejores pronto!",
+          "audioSlug": "que_te_mejores_pronto",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¡Que se mejore pronto!",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "que_se_mejore_pronto"
+        }
+      ]
+    },
+    "es.health_me_encuentro_mejor": {
+      "conceptId": "es.health_me_encuentro_mejor",
+      "id": "health_me_encuentro_mejor",
+      "target": [
+        {
+          "text": "Me encuentro mejor.",
+          "audioSlug": "me_encuentro_mejor"
+        }
+      ]
+    },
+    "es.health_my_stomach_hurts": {
+      "conceptId": "es.health_my_stomach_hurts",
+      "id": "health_my_stomach_hurts",
+      "target": [
+        {
+          "text": "Me duele el estómago.",
+          "audioSlug": "me_duele_el_estomago"
+        }
+      ]
+    },
+    "es.personal_info_my_name_is": {
+      "conceptId": "es.personal_info_my_name_is",
+      "id": "personal_info_my_name_is",
+      "target": [
+        {
+          "text": "Me llamo Ana.",
+          "audioSlug": "me_llamo_ana"
+        }
+      ]
+    },
+    "es.restaurant_the_food_is_delicious": {
+      "conceptId": "es.restaurant_the_food_is_delicious",
+      "id": "restaurant_the_food_is_delicious",
+      "target": [
+        {
+          "text": "La comida está deliciosa.",
+          "audioSlug": "la_comida_esta_deliciosa"
+        }
+      ]
+    },
+    "es.technology_the_devices_firmware_needs_to": {
+      "conceptId": "es.technology_the_devices_firmware_needs_to",
+      "id": "technology_the_devices_firmware_needs_to",
+      "target": [
+        {
+          "text": "El firmware del dispositivo necesita actualizarse para corregir una vulnerabilidad conocida.",
+          "audioSlug": "el_firmware_del_dispositivo_necesita_actualizarse_para_corregir_una_vulnerabilidad_conocida"
+        }
+      ]
+    },
+    "es.transportation_avoid_peak_hours": {
+      "conceptId": "es.transportation_avoid_peak_hours",
+      "id": "transportation_avoid_peak_hours",
+      "target": [
+        {
+          "text": "Trato de evitar viajar en horas pico porque el metro está insoportablemente lleno.",
+          "audioSlug": "trato_de_evitar_viajar_en_horas_pico_porque_el_metro_esta_insoportablemente_lleno"
+        }
+      ]
+    },
+    "es.transportation_turn_on_meter": {
+      "conceptId": "es.transportation_turn_on_meter",
+      "id": "transportation_turn_on_meter",
+      "target": [
+        {
+          "text": "¿Puede poner el taxímetro, por favor?",
+          "audioSlug": "puede_poner_el_taximetro_por_favor"
+        }
+      ]
+    },
+    "es.viajes_disfruta_tu_viaje": {
+      "conceptId": "es.viajes_disfruta_tu_viaje",
+      "id": "viajes_disfruta_tu_viaje",
+      "target": [
+        {
+          "text": "Disfruta tu viaje.",
+          "audioSlug": "disfruta_tu_viaje",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Disfrute su viaje.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "disfrute_su_viaje"
+        }
+      ]
+    }
+  }
+}

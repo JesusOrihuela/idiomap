@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "53",
+  "concepts": {
+    "es.calendario_el_fin_de_semana_es_corto": {
+      "conceptId": "es.calendario_el_fin_de_semana_es_corto",
+      "id": "calendario_el_fin_de_semana_es_corto",
+      "target": [
+        {
+          "text": "El fin de semana es muy corto.",
+          "audioSlug": "el_fin_de_semana_es_muy_corto"
+        }
+      ]
+    },
+    "es.conversacion_hay_que_respetar_las_reglas": {
+      "conceptId": "es.conversacion_hay_que_respetar_las_reglas",
+      "id": "conversacion_hay_que_respetar_las_reglas",
+      "target": [
+        {
+          "text": "Hay que respetar las reglas.",
+          "audioSlug": "hay_que_respetar_las_reglas"
+        }
+      ]
+    },
+    "es.directions_la_salida_de_emergencia_esta_a_la_derecha": {
+      "conceptId": "es.directions_la_salida_de_emergencia_esta_a_la_derecha",
+      "id": "directions_la_salida_de_emergencia_esta_a_la_derecha",
+      "target": [
+        {
+          "text": "La salida de emergencia está a la derecha.",
+          "audioSlug": "la_salida_de_emergencia_esta_a_la_derecha"
+        }
+      ]
+    },
+    "es.economia_firme_un_papel_importante": {
+      "conceptId": "es.economia_firme_un_papel_importante",
+      "id": "economia_firme_un_papel_importante",
+      "target": [
+        {
+          "text": "Firmé un papel importante hoy.",
+          "audioSlug": "firme_un_papel_importante_hoy"
+        }
+      ]
+    },
+    "es.estudios_espero_aprobar_todos_los_examenes": {
+      "conceptId": "es.estudios_espero_aprobar_todos_los_examenes",
+      "id": "estudios_espero_aprobar_todos_los_examenes",
+      "target": [
+        {
+          "text": "Espero aprobar todos los exámenes.",
+          "audioSlug": "espero_aprobar_todos_los_examenes"
+        }
+      ]
+    },
+    "es.kitchen_the_spices_and_condiments_are_in": {
+      "conceptId": "es.kitchen_the_spices_and_condiments_are_in",
+      "id": "kitchen_the_spices_and_condiments_are_in",
+      "target": [
+        {
+          "text": "Las especias están en el gabinete junto al fregadero.",
+          "audioSlug": "las_especias_estan_en_el_gabinete_junto_al_fregadero"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_eso_me_suena_familiar": {
+      "conceptId": "es.pensamientos_opiniones_eso_me_suena_familiar",
+      "id": "pensamientos_opiniones_eso_me_suena_familiar",
+      "target": [
+        {
+          "text": "Eso me suena familiar.",
+          "audioSlug": "eso_me_suena_familiar"
+        }
+      ]
+    },
+    "es.personal_info_en_clase_hay_alumnos_cristianos_musulmanes_y_judios": {
+      "conceptId": "es.personal_info_en_clase_hay_alumnos_cristianos_musulmanes_y_judios",
+      "id": "personal_info_en_clase_hay_alumnos_cristianos_musulmanes_y_judios",
+      "target": [
+        {
+          "text": "En clase hay alumnos cristianos, musulmanes y judíos.",
+          "audioSlug": "en_clase_hay_alumnos_cristianos_musulmanes_y_judios"
+        }
+      ]
+    },
+    "es.personal_info_me_considero_una_persona_optimista": {
+      "conceptId": "es.personal_info_me_considero_una_persona_optimista",
+      "id": "personal_info_me_considero_una_persona_optimista",
+      "target": [
+        {
+          "text": "Me considero una persona optimista.",
+          "audioSlug": "me_considero_una_persona_optimista"
+        }
+      ]
+    },
+    "es.restaurant_comemos_en_un_restaurante_chino": {
+      "conceptId": "es.restaurant_comemos_en_un_restaurante_chino",
+      "id": "restaurant_comemos_en_un_restaurante_chino",
+      "target": [
+        {
+          "text": "Comemos en un restaurante chino.",
+          "audioSlug": "comemos_en_un_restaurante_chino"
+        }
+      ]
+    },
+    "es.vestimenta_necesito_unos_zapatos_comodos": {
+      "conceptId": "es.vestimenta_necesito_unos_zapatos_comodos",
+      "id": "vestimenta_necesito_unos_zapatos_comodos",
+      "target": [
+        {
+          "text": "Necesito unos zapatos cómodos.",
+          "audioSlug": "necesito_unos_zapatos_comodos"
+        }
+      ]
+    }
+  }
+}

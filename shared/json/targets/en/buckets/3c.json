@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "3c",
+  "concepts": {
+    "en.accommodation_loyalty_tier_benefits": {
+      "conceptId": "en.accommodation_loyalty_tier_benefits",
+      "id": "accommodation_loyalty_tier_benefits",
+      "target": [
+        {
+          "text": "Could you confirm whether my loyalty status entitles me to complimentary breakfast and late checkout?",
+          "audioSlug": "could_you_confirm_whether_my_loyalty_status_entitles_me_to_complimentary_breakfast_and_late_checkout"
+        }
+      ]
+    },
+    "en.calendario_today_is_monday": {
+      "conceptId": "en.calendario_today_is_monday",
+      "id": "calendario_today_is_monday",
+      "target": [
+        {
+          "text": "Today is Monday.",
+          "audioSlug": "today_is_monday"
+        }
+      ]
+    },
+    "en.directions_can_you_show_me_the_way": {
+      "conceptId": "en.directions_can_you_show_me_the_way",
+      "id": "directions_can_you_show_me_the_way",
+      "target": [
+        {
+          "text": "Can you show me the way?",
+          "audioSlug": "can_you_show_me_the_way"
+        }
+      ]
+    },
+    "en.estudios_your_answer_is_wrong": {
+      "conceptId": "en.estudios_your_answer_is_wrong",
+      "id": "estudios_your_answer_is_wrong",
+      "target": [
+        {
+          "text": "Your answer is wrong.",
+          "audioSlug": "your_answer_is_wrong"
+        }
+      ]
+    },
+    "en.movies_soundtrack_adds_atmosphere": {
+      "conceptId": "en.movies_soundtrack_adds_atmosphere",
+      "id": "movies_soundtrack_adds_atmosphere",
+      "target": [
+        {
+          "text": "The soundtrack really adds to the atmosphere of those scenes.",
+          "audioSlug": "the_soundtrack_really_adds_to_the_atmosphere_of_those_scenes"
+        }
+      ]
+    },
+    "en.personal_info_where_do_you_live": {
+      "conceptId": "en.personal_info_where_do_you_live",
+      "id": "personal_info_where_do_you_live",
+      "target": [
+        {
+          "text": "Where do you live?",
+          "audioSlug": "where_do_you_live"
+        }
+      ]
+    },
+    "en.sitios_the_town_is_quiet": {
+      "conceptId": "en.sitios_the_town_is_quiet",
+      "id": "sitios_the_town_is_quiet",
+      "target": [
+        {
+          "text": "The town is quiet.",
+          "audioSlug": "the_town_is_quiet"
+        }
+      ]
+    },
+    "en.weather_it_is_cool_in_the_morning": {
+      "conceptId": "en.weather_it_is_cool_in_the_morning",
+      "id": "weather_it_is_cool_in_the_morning",
+      "target": [
+        {
+          "text": "It's cool in the morning.",
+          "audioSlug": "it_s_cool_in_the_morning"
+        }
+      ]
+    }
+  }
+}

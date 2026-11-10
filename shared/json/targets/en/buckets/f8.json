@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "f8",
+  "concepts": {
+    "en.conversacion_answer_me": {
+      "conceptId": "en.conversacion_answer_me",
+      "id": "conversacion_answer_me",
+      "target": [
+        {
+          "text": "Answer me.",
+          "audioSlug": "answer_me"
+        }
+      ]
+    },
+    "en.emociones_im_excited": {
+      "conceptId": "en.emociones_im_excited",
+      "id": "emociones_im_excited",
+      "target": [
+        {
+          "text": "I'm excited.",
+          "audioSlug": "i_m_excited"
+        }
+      ]
+    },
+    "en.family_two_brothers_one_sister": {
+      "conceptId": "en.family_two_brothers_one_sister",
+      "id": "family_two_brothers_one_sister",
+      "target": [
+        {
+          "text": "I have two brothers and one sister.",
+          "audioSlug": "i_have_two_brothers_and_one_sister"
+        }
+      ]
+    },
+    "en.greetings_welcome_aboard_team": {
+      "conceptId": "en.greetings_welcome_aboard_team",
+      "id": "greetings_welcome_aboard_team",
+      "target": [
+        {
+          "text": "On behalf of the entire team, welcome aboard. We're thrilled to have you.",
+          "audioSlug": "on_behalf_of_the_entire_team_welcome_aboard_we_re_thrilled_to_have_you"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_who_searches_finds": {
+      "conceptId": "en.pensamientos_opiniones_who_searches_finds",
+      "id": "pensamientos_opiniones_who_searches_finds",
+      "target": [
+        {
+          "text": "Who searches, finds.",
+          "audioSlug": "who_searches_finds"
+        }
+      ]
+    }
+  }
+}

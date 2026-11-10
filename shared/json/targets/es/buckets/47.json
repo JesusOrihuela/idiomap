@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "47",
+  "concepts": {
+    "es.conversacion_presta_atencion_a_los_detalles": {
+      "conceptId": "es.conversacion_presta_atencion_a_los_detalles",
+      "id": "conversacion_presta_atencion_a_los_detalles",
+      "target": [
+        {
+          "text": "Presta atención a los detalles.",
+          "audioSlug": "presta_atencion_a_los_detalles"
+        }
+      ]
+    },
+    "es.conversacion_quiero_expresar_mi_agradecimiento": {
+      "conceptId": "es.conversacion_quiero_expresar_mi_agradecimiento",
+      "id": "conversacion_quiero_expresar_mi_agradecimiento",
+      "target": [
+        {
+          "text": "Quiero expresar mi agradecimiento.",
+          "audioSlug": "quiero_expresar_mi_agradecimiento"
+        }
+      ]
+    },
+    "es.emergencias_hay_algun_peligro": {
+      "conceptId": "es.emergencias_hay_algun_peligro",
+      "id": "emergencias_hay_algun_peligro",
+      "target": [
+        {
+          "text": "¿Hay algún peligro?",
+          "audioSlug": "hay_algun_peligro"
+        }
+      ]
+    },
+    "es.estudios_leo_un_libro_nuevo_cada_mes": {
+      "conceptId": "es.estudios_leo_un_libro_nuevo_cada_mes",
+      "id": "estudios_leo_un_libro_nuevo_cada_mes",
+      "target": [
+        {
+          "text": "Leo un libro nuevo cada mes.",
+          "audioSlug": "leo_un_libro_nuevo_cada_mes"
+        }
+      ]
+    },
+    "es.gym_sport_specific_transfer_performance": {
+      "conceptId": "es.gym_sport_specific_transfer_performance",
+      "id": "gym_sport_specific_transfer_performance",
+      "target": [
+        {
+          "text": "Mi entrenamiento debe ajustarse a mi deporte para transferirse al rendimiento real.",
+          "audioSlug": "mi_entrenamiento_debe_ajustarse_a_mi_deporte_para_transferirse_al_rendimiento_real"
+        }
+      ]
+    },
+    "es.health_el_medico_me_va_a_curar": {
+      "conceptId": "es.health_el_medico_me_va_a_curar",
+      "id": "health_el_medico_me_va_a_curar",
+      "target": [
+        {
+          "text": "El médico me va a curar.",
+          "audioSlug": "el_medico_me_va_a_curar"
+        }
+      ]
+    },
+    "es.kitchen_the_salad_will_need_oil_vinegar": {
+      "conceptId": "es.kitchen_the_salad_will_need_oil_vinegar",
+      "id": "kitchen_the_salad_will_need_oil_vinegar",
+      "target": [
+        {
+          "text": "La ensalada va a llevar aceite, vinagre y sal.",
+          "audioSlug": "la_ensalada_va_a_llevar_aceite_vinagre_y_sal"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_im_sure_it_works": {
+      "conceptId": "es.pensamientos_opiniones_im_sure_it_works",
+      "id": "pensamientos_opiniones_im_sure_it_works",
+      "target": [
+        {
+          "text": "Estoy segura de que funciona.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "estoy_segura_de_que_funciona"
+        },
+        {
+          "text": "Estoy seguro de que funciona.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "estoy_seguro_de_que_funciona"
+        }
+      ]
+    },
+    "es.planes_es_la_decision_final": {
+      "conceptId": "es.planes_es_la_decision_final",
+      "id": "planes_es_la_decision_final",
+      "target": [
+        {
+          "text": "Es la decisión final.",
+          "audioSlug": "es_la_decision_final"
+        }
+      ]
+    },
+    "es.restaurant_can_i_make_a_reservation_for": {
+      "conceptId": "es.restaurant_can_i_make_a_reservation_for",
+      "id": "restaurant_can_i_make_a_reservation_for",
+      "target": [
+        {
+          "text": "¿Puedo hacer una reserva para dos para esta noche?",
+          "audioSlug": "puedo_hacer_una_reserva_para_dos_para_esta_noche"
+        }
+      ]
+    },
+    "es.supermarket_i_dont_like_this_supermarket_its": {
+      "conceptId": "es.supermarket_i_dont_like_this_supermarket_its",
+      "id": "supermarket_i_dont_like_this_supermarket_its",
+      "target": [
+        {
+          "text": "No me gusta este supermercado, está muy desordenado.",
+          "audioSlug": "no_me_gusta_este_supermercado_esta_muy_desordenado"
+        }
+      ]
+    },
+    "es.tiempo_libre_no_se_bailar": {
+      "conceptId": "es.tiempo_libre_no_se_bailar",
+      "id": "tiempo_libre_no_se_bailar",
+      "target": [
+        {
+          "text": "No sé bailar.",
+          "audioSlug": "no_se_bailar"
+        }
+      ]
+    },
+    "es.transportation_luggage_locker_station": {
+      "conceptId": "es.transportation_luggage_locker_station",
+      "id": "transportation_luggage_locker_station",
+      "target": [
+        {
+          "text": "¿Puedo alquilar una consigna en la estación antes de que salga mi tren?",
+          "audioSlug": "puedo_alquilar_una_consigna_en_la_estacion_antes_de_que_salga_mi_tren"
+        }
+      ]
+    },
+    "es.transportation_tengo_que_subir_al_tren": {
+      "conceptId": "es.transportation_tengo_que_subir_al_tren",
+      "id": "transportation_tengo_que_subir_al_tren",
+      "target": [
+        {
+          "text": "Tengo que subir al tren rápido.",
+          "audioSlug": "tengo_que_subir_al_tren_rapido"
+        }
+      ]
+    }
+  }
+}

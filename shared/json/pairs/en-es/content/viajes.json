@@ -1,28 +1,280 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "viajes",
-  "conceptIds": [
-    "es.viajes_sueno_con_viajar_por_el_mundo",
-    "es.viajes_vamos_a_planear_el_viaje",
-    "es.viajes_me_encanta_viajar",
-    "es.viajes_estoy_de_vacaciones",
-    "es.viajes_la_aventura_comienza",
-    "es.viajes_viaje_por_america",
-    "es.viajes_tuviste_un_buen_viaje",
-    "es.viajes_quiero_viajar_al_extranjero",
-    "es.viajes_donde_vas_a_pasar_las_vacaciones",
-    "es.viajes_necesito_hacer_la_maleta",
-    "es.viajes_donde_esta_la_oficina_de_turismo",
-    "es.viajes_disfruta_tu_viaje",
-    "es.viajes_voy_a_alquilar_un_carro",
-    "es.viajes_es_un_boleto_de_ida_y_vuelta",
-    "es.viajes_estoy_planeando_mis_proximas_vacaciones",
-    "es.viajes_me_encanta_conocer_lugares_nuevos",
-    "es.viajes_cuanto_pesa_tu_maleta",
-    "es.viajes_guarda_tu_pasaporte_en_un_lugar_seguro",
-    "es.viajes_hay_que_deshacer_las_maletas",
-    "es.viajes_reserve_el_viaje_en_una_agencia",
-    "es.viajes_hicimos_una_excursion_al_campo"
+  "phrases": [
+    {
+      "conceptId": "es.viajes_sueno_con_viajar_por_el_mundo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.33ef5a398f581993"
+    },
+    {
+      "conceptId": "es.viajes_vamos_a_planear_el_viaje",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1a51a99fb320a80f"
+    },
+    {
+      "conceptId": "es.viajes_me_encanta_viajar",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.96cbfe5621937074"
+    },
+    {
+      "conceptId": "es.viajes_estoy_de_vacaciones",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.67051d80a25f22ca"
+    },
+    {
+      "conceptId": "es.viajes_la_aventura_comienza",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d79b5d1dcb611a4a"
+    },
+    {
+      "conceptId": "es.viajes_viaje_por_america",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.68f90cb0f2e64add"
+    },
+    {
+      "conceptId": "es.viajes_tuviste_un_buen_viaje",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d95f85eb0f6d8897"
+    },
+    {
+      "conceptId": "es.viajes_quiero_viajar_al_extranjero",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c9827759864f7abe"
+    },
+    {
+      "conceptId": "es.viajes_donde_vas_a_pasar_las_vacaciones",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8b1329155331d333"
+    },
+    {
+      "conceptId": "es.viajes_necesito_hacer_la_maleta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c00adbc123f545f5"
+    },
+    {
+      "conceptId": "es.viajes_donde_esta_la_oficina_de_turismo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.348685c055a1c760"
+    },
+    {
+      "conceptId": "es.viajes_disfruta_tu_viaje",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cc4a99805ec39cf0"
+    },
+    {
+      "conceptId": "es.viajes_voy_a_alquilar_un_carro",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.384119399c5524c3"
+    },
+    {
+      "conceptId": "es.viajes_es_un_boleto_de_ida_y_vuelta",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.102403fb01d4be60"
+    },
+    {
+      "conceptId": "es.viajes_estoy_planeando_mis_proximas_vacaciones",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.678fe57a5a702059"
+    },
+    {
+      "conceptId": "es.viajes_me_encanta_conocer_lugares_nuevos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.19abbaef42ee44ef"
+    },
+    {
+      "conceptId": "es.viajes_cuanto_pesa_tu_maleta",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3b79b964eedfbbc6"
+    },
+    {
+      "conceptId": "es.viajes_guarda_tu_pasaporte_en_un_lugar_seguro",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a5828c2c175084b9"
+    },
+    {
+      "conceptId": "es.viajes_hay_que_deshacer_las_maletas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.eeeb1aefa6ff45a1"
+    },
+    {
+      "conceptId": "es.viajes_reserve_el_viaje_en_una_agencia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c37ce75ecc088d39"
+    },
+    {
+      "conceptId": "es.viajes_hicimos_una_excursion_al_campo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.838708d03c87d13d"
+    }
   ]
 }

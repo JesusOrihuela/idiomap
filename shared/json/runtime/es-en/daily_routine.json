@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "daily_routine",
+  "phrases": [
+    {
+      "id": "daily_routine_what_time_get_up",
+      "conceptId": "en.daily_routine_what_time_get_up",
+      "sourceId": "es.s.3d618df77aac8da2",
+      "source": "¿A qué hora te levantas?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What time do you get up?",
+          "audioSlug": "what_time_do_you_get_up"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_get_up_at_seven",
+      "conceptId": "en.daily_routine_i_get_up_at_seven",
+      "sourceId": "es.s.a73616b4bf77f3c2",
+      "source": "Me levanto a las siete.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I get up at seven.",
+          "audioSlug": "i_get_up_at_seven"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_breakfast_at_eight",
+      "conceptId": "en.daily_routine_breakfast_at_eight",
+      "sourceId": "es.s.af42b7b652402be8",
+      "source": "Desayuno a las ocho.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have breakfast at eight.",
+          "audioSlug": "i_have_breakfast_at_eight"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_go_to_work_by_bus",
+      "conceptId": "en.daily_routine_go_to_work_by_bus",
+      "sourceId": "es.s.e505873ff4b85a4b",
+      "source": "Voy al trabajo en autobús.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I go to work by bus.",
+          "audioSlug": "i_go_to_work_by_bus"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_lunch_at_one",
+      "conceptId": "en.daily_routine_lunch_at_one",
+      "sourceId": "es.s.6be19a18d146f55b",
+      "source": "Almuerzo a la una.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have lunch at one.",
+          "audioSlug": "i_have_lunch_at_one"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_get_home_at_six",
+      "conceptId": "en.daily_routine_get_home_at_six",
+      "sourceId": "es.s.8cfbec1af8fa2dd9",
+      "source": "Llego a casa a las seis.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I get home at six.",
+          "audioSlug": "i_get_home_at_six"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_dinner_at_nine",
+      "conceptId": "en.daily_routine_dinner_at_nine",
+      "sourceId": "es.s.f78627e30b28fcf3",
+      "source": "Ceno a las nueve.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have dinner at nine.",
+          "audioSlug": "i_have_dinner_at_nine"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_go_to_bed_at_eleven",
+      "conceptId": "en.daily_routine_go_to_bed_at_eleven",
+      "sourceId": "es.s.a00c9f801e9f262d",
+      "source": "Me acuesto a las once.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I go to bed at eleven.",
+          "audioSlug": "i_go_to_bed_at_eleven"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_sleep_eight_hours",
+      "conceptId": "en.daily_routine_i_sleep_eight_hours",
+      "sourceId": "es.s.11fee45dcb40f7a0",
+      "source": "Duermo ocho horas.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I sleep eight hours.",
+          "audioSlug": "i_sleep_eight_hours"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_morning_go_to_gym",
+      "conceptId": "en.daily_routine_morning_go_to_gym",
+      "sourceId": "es.s.ac30b7947baadbd1",
+      "source": "Por la mañana voy al gimnasio.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "In the morning I go to the gym.",
+          "audioSlug": "in_the_morning_i_go_to_the_gym"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_shower_every_day",
+      "conceptId": "en.daily_routine_shower_every_day",
+      "sourceId": "es.s.21dd83677c95ec8e",
+      "source": "Me ducho todos los días.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I take a shower every day.",
+          "audioSlug": "i_take_a_shower_every_day"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_weekends",
+      "conceptId": "en.daily_routine_weekends",
+      "sourceId": "es.s.07e991b17c9911d9",
+      "source": "¿Qué haces los fines de semana?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What do you do on weekends?",
+          "audioSlug": "what_do_you_do_on_weekends"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_always_busy_afternoon",
+      "conceptId": "en.daily_routine_always_busy_afternoon",
+      "sourceId": "es.s.b26d6b549db748eb",
+      "source": "Siempre estoy ocupado/a por la tarde.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm always busy in the afternoon.",
+          "audioSlug": "i_m_always_busy_in_the_afternoon"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_usually_coffee",
+      "conceptId": "en.daily_routine_usually_coffee",
+      "sourceId": "es.s.91013f0adbdc4a49",
+      "source": "Suelo tomar café por la mañana.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I usually have coffee in the morning.",
+          "audioSlug": "i_usually_have_coffee_in_the_morning"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_brush_teeth",
+      "conceptId": "en.daily_routine_brush_teeth",
+      "sourceId": "es.s.d175684015b1aebd",
+      "source": "Me lavo los dientes después de desayunar.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I brush my teeth after breakfast.",
+          "audioSlug": "i_brush_my_teeth_after_breakfast"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_rest_on_sundays",
+      "conceptId": "en.daily_routine_rest_on_sundays",
+      "sourceId": "es.s.aef4b8dbb8742687",
+      "source": "Descanso los domingos.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I rest on Sundays.",
+          "audioSlug": "i_rest_on_sundays"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_wake_up_early",
+      "conceptId": "en.daily_routine_i_wake_up_early",
+      "sourceId": "es.s.8960310b8e95cef1",
+      "source": "Me despierto temprano.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I wake up early.",
+          "audioSlug": "i_wake_up_early"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_leave_home_at_eight",
+      "conceptId": "en.daily_routine_i_leave_home_at_eight",
+      "sourceId": "es.s.16e96a35629f5fc7",
+      "source": "Salgo de casa a las ocho.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I leave home at eight.",
+          "audioSlug": "i_leave_home_at_eight"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_study_english_every_day",
+      "conceptId": "en.daily_routine_i_study_english_every_day",
+      "sourceId": "es.s.e0d56f2d227853bb",
+      "source": "Estudio inglés todos los días.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I study English every day.",
+          "audioSlug": "i_study_english_every_day"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_watch_tv_at_night",
+      "conceptId": "en.daily_routine_i_watch_tv_at_night",
+      "sourceId": "es.s.70ad2c550238b498",
+      "source": "Veo la televisión por la noche.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I watch television at night.",
+          "audioSlug": "i_watch_television_at_night"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_prepare_breakfast",
+      "conceptId": "en.daily_routine_i_prepare_breakfast",
+      "sourceId": "es.s.f85277a316cf583f",
+      "source": "Preparo el desayuno para mis hijos.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I prepare breakfast for my kids.",
+          "audioSlug": "i_prepare_breakfast_for_my_kids"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_have_coffee_before_leaving",
+      "conceptId": "en.daily_routine_i_have_coffee_before_leaving",
+      "sourceId": "es.s.9881e8deedab5462",
+      "source": "Tomo un café antes de salir.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have a coffee before leaving.",
+          "audioSlug": "i_have_a_coffee_before_leaving"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_read_before_sleeping",
+      "conceptId": "en.daily_routine_i_read_before_sleeping",
+      "sourceId": "es.s.6cbaf1d99ef81f85",
+      "source": "Leo un rato antes de dormir.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I read for a while before sleeping.",
+          "audioSlug": "i_read_for_a_while_before_sleeping"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_what_do_you_do_before_breakfast",
+      "conceptId": "en.daily_routine_what_do_you_do_before_breakfast",
+      "sourceId": "es.s.e3267c835e8d971e",
+      "source": "¿Qué haces antes del desayuno?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What do you do before breakfast?",
+          "audioSlug": "what_do_you_do_before_breakfast"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_check_email_at_work",
+      "conceptId": "en.daily_routine_i_check_email_at_work",
+      "sourceId": "es.s.65c7cc29ea4a9a09",
+      "source": "Reviso el correo al llegar al trabajo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I check my email when I get to work.",
+          "audioSlug": "i_check_my_email_when_i_get_to_work"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_i_study_every_night",
+      "conceptId": "en.daily_routine_i_study_every_night",
+      "sourceId": "es.s.c4d8026bc9fd5fb4",
+      "source": "Estudio todas las noches.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I study every night.",
+          "audioSlug": "i_study_every_night"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_sometimes_i_sit_and_read",
+      "conceptId": "en.daily_routine_sometimes_i_sit_and_read",
+      "sourceId": "es.s.745b3f20b73b01b1",
+      "source": "A veces me siento a leer.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Sometimes I sit down and read.",
+          "audioSlug": "sometimes_i_sit_down_and_read"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_was_cooking_when_called",
+      "conceptId": "en.daily_routine_was_cooking_when_called",
+      "sourceId": "es.s.72d1649bd2e4a78d",
+      "source": "Estaba preparando la cena cuando llamaste.",
+      "level": "B1",
+      "grammar": "'Was/were + -ing' is the past continuous, an action in progress interrupted by another.",
+      "target": [
+        {
+          "text": "I was cooking dinner when you called.",
+          "audioSlug": "i_was_cooking_dinner_when_you_called"
+        }
+      ]
+    },
+    {
+      "id": "daily_routine_was_walking_when_rained",
+      "conceptId": "en.daily_routine_was_walking_when_rained",
+      "sourceId": "es.s.dd002b193182ef21",
+      "source": "Iba caminando al trabajo cuando empezó a llover.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I was walking to work when it started to rain.",
+          "audioSlug": "i_was_walking_to_work_when_it_started_to_rain"
+        }
+      ]
+    }
+  ]
+}

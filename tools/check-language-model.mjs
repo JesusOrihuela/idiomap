@@ -58,7 +58,6 @@ const pairManifests = contentDirs.map((id) => {
 const manifestIds = pairManifests.map((p) => p.id).sort();
 if (manifestIds.join(',') !== contentDirs.join(',')) fails.push(`pair.json set (${manifestIds.join(',')}) does not match content dirs (${contentDirs.join(',')})`);
 
-const pairsIndex = read('shared/json/pairs.index.json');
 for (const p of pairManifests) {
   const src = byTag.get(p.source?.code);
   const tgt = byTag.get(p.target?.code);
@@ -70,10 +69,24 @@ for (const p of pairManifests) {
   if (p.status === 'stress' && !p.stressTest) fails.push(`[${p.id}] stress status requires stressTest:true`);
   if (p.status === 'wip' && !p.wip) fails.push(`[${p.id}] wip status requires wip:true`);
   if (p.status === 'shippable' && (p.stressTest || p.wip)) fails.push(`[${p.id}] shippable pair must not be stressTest/wip`);
+  if (p.quality && !['legacy', 'required'].includes(p.quality)) fails.push(`[${p.id}] invalid quality ${p.quality}`);
+  if (!p.label || !String(p.label).trim()) fails.push(`[${p.id}] missing label`);
+  for (const side of ['source', 'target']) {
+    for (const field of ['name', 'localName']) {
+      if (!p[side]?.[field] || !String(p[side][field]).trim())
+        fails.push(`[${p.id}] missing ${side}.${field}`);
+    }
+  }
+  if (!Array.isArray(p.ttsVoices) || !p.ttsVoices.length) {
+    fails.push(`[${p.id}] ttsVoices missing/empty`);
+  } else if (tgt) {
+    const allowed = new Set(tgt.tts?.voices || []);
+    for (const voice of p.ttsVoices) if (!allowed.has(voice))
+      fails.push(`[${p.id}] ttsVoice ${voice} is not in the ${tgt.tag} profile voices`);
+  }
+  if (!p.sttLanguage || !tgt?.stt || p.sttLanguage !== tgt.stt)
+    fails.push(`[${p.id}] sttLanguage ${p.sttLanguage} != target profile stt ${tgt?.stt}`);
 }
-const indexIds = (pairsIndex.pairs ?? []).map((p) => p.id).sort();
-if (indexIds.join(',') !== manifestIds.join(',')) fails.push('pairs.index.json does not list exactly the pair manifests');
-
 // Generated runtime artifacts must exist and match the registry.
 for (const f of ['shared/js/pairs.js', 'shared/js/languages.js']) if (!exists(f)) fails.push(`missing generated ${f}`);
 const AppPairs = require('../shared/js/pairs.js');
@@ -90,6 +103,15 @@ for (const l of langs) if (l.ui && !uiCodes.includes(l.tag)) fails.push(`[${l.ta
 for (const code of uiCodes) {
   const l = byTag.get(code);
   if (l && !l.ui) fails.push(`[${code}] has a UI bundle but ui:false in the registry`);
+}
+// A shippable pair must have a real UI in its SOURCE language; otherwise the
+// picker offers a course whose chrome falls back to another language.
+for (const p of pairManifests) {
+  if (p.status !== 'shippable') continue;
+  const src = byTag.get(p.source?.code);
+  if (!src || !src.ui || !uiCodes.includes(src.tag)) {
+    fails.push(`[${p.id}] shippable source ${p.source?.code} has no UI block in lang/ui.js`);
+  }
 }
 
 if (fails.length) {

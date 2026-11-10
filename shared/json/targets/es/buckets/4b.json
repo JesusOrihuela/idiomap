@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "4b",
+  "concepts": {
+    "es.accommodation_checkout_time": {
+      "conceptId": "es.accommodation_checkout_time",
+      "id": "accommodation_checkout_time",
+      "target": [
+        {
+          "text": "¿A qué hora es la salida?",
+          "audioSlug": "a_que_hora_es_la_salida"
+        }
+      ]
+    },
+    "es.accommodation_los_huespedes_pueden_usar_la_piscina": {
+      "conceptId": "es.accommodation_los_huespedes_pueden_usar_la_piscina",
+      "id": "accommodation_los_huespedes_pueden_usar_la_piscina",
+      "target": [
+        {
+          "text": "Los huéspedes pueden usar la piscina.",
+          "audioSlug": "los_huespedes_pueden_usar_la_piscina"
+        }
+      ]
+    },
+    "es.emociones_im_stressed": {
+      "conceptId": "es.emociones_im_stressed",
+      "id": "emociones_im_stressed",
+      "target": [
+        {
+          "text": "Estoy estresada.",
+          "audioSlug": "estoy_estresada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy estresado.",
+          "audioSlug": "estoy_estresado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.greetings_te_deseo_mucha_suerte": {
+      "conceptId": "es.greetings_te_deseo_mucha_suerte",
+      "id": "greetings_te_deseo_mucha_suerte",
+      "target": [
+        {
+          "text": "Te deseo mucha suerte.",
+          "audioSlug": "te_deseo_mucha_suerte",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Le deseo mucha suerte.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "le_deseo_mucha_suerte"
+        }
+      ]
+    },
+    "es.gym_could_you_tell_me_if_im": {
+      "conceptId": "es.gym_could_you_tell_me_if_im",
+      "id": "gym_could_you_tell_me_if_im",
+      "target": [
+        {
+          "text": "¿Podrías decirme si estoy haciendo este ejercicio correctamente?",
+          "audioSlug": "podrias_decirme_si_estoy_haciendo_este_ejercicio_correctamente"
+        }
+      ]
+    },
+    "es.politica_voy_a_votar_manana": {
+      "conceptId": "es.politica_voy_a_votar_manana",
+      "id": "politica_voy_a_votar_manana",
+      "target": [
+        {
+          "text": "Voy a votar mañana.",
+          "audioSlug": "voy_a_votar_manana"
+        }
+      ]
+    },
+    "es.supermarket_is_there_any_offer_on_cereals": {
+      "conceptId": "es.supermarket_is_there_any_offer_on_cereals",
+      "id": "supermarket_is_there_any_offer_on_cereals",
+      "target": [
+        {
+          "text": "¿Hay alguna oferta en los cereales?",
+          "audioSlug": "hay_alguna_oferta_en_los_cereales"
+        }
+      ]
+    },
+    "es.survival_me_puede_situar_en_el_mapa": {
+      "conceptId": "es.survival_me_puede_situar_en_el_mapa",
+      "id": "survival_me_puede_situar_en_el_mapa",
+      "target": [
+        {
+          "text": "¿Me puede situar en el mapa?",
+          "audioSlug": "me_puede_situar_en_el_mapa"
+        }
+      ]
+    },
+    "es.transportation_el_hotel_esta_en_una_avenida": {
+      "conceptId": "es.transportation_el_hotel_esta_en_una_avenida",
+      "id": "transportation_el_hotel_esta_en_una_avenida",
+      "target": [
+        {
+          "text": "El hotel está en una avenida ancha.",
+          "audioSlug": "el_hotel_esta_en_una_avenida_ancha"
+        }
+      ]
+    }
+  }
+}

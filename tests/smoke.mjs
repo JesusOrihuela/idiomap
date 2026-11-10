@@ -340,6 +340,62 @@ try {
     check(plays >= 2, `Listen plays EVERY variant form, not just the first (played ${plays})`);
     await page.close();
   }
+
+  // Vocabulary — the L1 example (gloss_example) is actually rendered on the back.
+  {
+    console.log('Vocabulary — L1 example is rendered');
+    const page = await browser.newPage();
+    const errs = []; page.on('pageerror', e => errs.push(e.message));
+    await page.addInitScript(() => localStorage.setItem('pe_active_pair', 'en-es'));
+    await page.goto(BASE + '/vocabulary/?topic=family', { waitUntil: 'load' });
+    await page.waitForSelector('.pb-chip', { timeout: 8000 }).catch(() => {});
+    await page.click('.pb-chip').catch(() => {});
+    await page.click('#flip-btn').catch(() => {});
+    await page.waitForTimeout(300);
+    const r = await page.evaluate(() => {
+      const el = document.getElementById('word-example-l1');
+      return { exists: !!el, hidden: !el || el.hidden, text: el ? el.textContent.trim() : '' };
+    });
+    check(errs.length === 0, `L1 example: no page errors (${errs[0] || ''})`);
+    check(r.exists && !r.hidden && r.text.length > 0, `L1 example rendered ("${r.text.slice(0, 40)}")`);
+    await page.close();
+  }
+
+  // Progress — stable phrase IDs resolve their topic from the id-map, not from
+  // a `topic_` prefix in the card key (a moved phrase keeps its ID).
+  {
+    console.log('Progress — stable phrase IDs resolve topic');
+    const page = await browser.newPage();
+    const errs = []; page.on('pageerror', e => errs.push(e.message));
+    await page.addInitScript(() => localStorage.setItem('pe_active_pair', 'en-es'));
+    await page.goto(BASE + '/progress/', { waitUntil: 'load' });
+    await page.waitForFunction(() => typeof Progress !== 'undefined' && Progress.ensureIdMap, { timeout: 8000 }).catch(() => {});
+    const r = await page.evaluate(async () => {
+      if (typeof Progress === 'undefined' || !Progress.getCardTopic) return null;
+      await Progress.ensureIdMap();
+      const id = (Progress.getPhraseIds('greetings') || [])[0];
+      if (!id) return null;
+      const vocabId = (Progress.getVocabIds('family') || [])[0];
+      return {
+        id,
+        topic: Progress.getCardTopic(id),
+        dictTopic: Progress.getCardTopic('dict_' + id),
+        dictAct: Progress.getCardActivity('dict_' + id),
+        speakAct: Progress.getCardActivity(id),
+        vocabTopic: vocabId ? Progress.getCardTopic('vocab_family_' + vocabId) : null,
+        vocabAct: vocabId ? Progress.getCardActivity('vocab_family_' + vocabId) : null,
+        quizTopic: vocabId ? Progress.getCardTopic('quiz_family_' + vocabId) : null,
+      };
+    });
+    check(errs.length === 0, `progress: no page errors (${errs[0] || ''})`);
+    check(r && r.topic === 'greetings', `phrase topic resolves from id-map (${r && r.topic})`);
+    check(r && r.dictTopic === 'greetings', `prefixed phrase topic resolves from id-map (${r && r.dictTopic})`);
+    check(r && r.dictAct === 'dictation', `dictation activity detected (${r && r.dictAct})`);
+    check(r && r.speakAct === 'speaking', `speaking activity detected (${r && r.speakAct})`);
+    check(r && r.vocabTopic === 'family' && r.vocabAct === 'vocabulary', `vocab topic/activity resolves (${r && r.vocabTopic}/${r && r.vocabAct})`);
+    check(r && r.quizTopic === 'family', `quiz topic resolves (${r && r.quizTopic})`);
+    await page.close();
+  }
 } finally {
   await browser.close();
   server.close();

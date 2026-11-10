@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "7e",
+  "concepts": {
+    "en.accommodation_minibar_room": {
+      "conceptId": "en.accommodation_minibar_room",
+      "id": "accommodation_minibar_room",
+      "target": [
+        {
+          "text": "Is there a minibar in the room?",
+          "audioSlug": "is_there_a_minibar_in_the_room"
+        }
+      ]
+    },
+    "en.descripciones_the_cup_is_full": {
+      "conceptId": "en.descripciones_the_cup_is_full",
+      "id": "descripciones_the_cup_is_full",
+      "target": [
+        {
+          "text": "The cup is full.",
+          "audioSlug": "the_cup_is_full"
+        }
+      ]
+    },
+    "en.fiesta_lets_throw_a_party": {
+      "conceptId": "en.fiesta_lets_throw_a_party",
+      "id": "fiesta_lets_throw_a_party",
+      "target": [
+        {
+          "text": "Let's throw a party.",
+          "audioSlug": "let_s_throw_a_party"
+        }
+      ]
+    },
+    "en.music_acoustic_version_reveals_songwriting": {
+      "conceptId": "en.music_acoustic_version_reveals_songwriting",
+      "id": "music_acoustic_version_reveals_songwriting",
+      "target": [
+        {
+          "text": "I prefer the acoustic version. Stripping it down reveals how strong the songwriting is.",
+          "audioSlug": "i_prefer_the_acoustic_version_stripping_it_down_reveals_how_strong_the_songwriting_is"
+        }
+      ]
+    },
+    "en.music_song_special_memory": {
+      "conceptId": "en.music_song_special_memory",
+      "id": "music_song_special_memory",
+      "target": [
+        {
+          "text": "This song reminds me of a special moment in my life.",
+          "audioSlug": "this_song_reminds_me_of_a_special_moment_in_my_life"
+        }
+      ]
+    },
+    "en.restaurant_compliment_chef_risotto": {
+      "conceptId": "en.restaurant_compliment_chef_risotto",
+      "id": "restaurant_compliment_chef_risotto",
+      "target": [
+        {
+          "text": "I'd like to compliment the chef on the risotto. The seasoning was absolutely perfect.",
+          "audioSlug": "i_d_like_to_compliment_the_chef_on_the_risotto_the_seasoning_was_absolutely_perfect"
+        }
+      ]
+    },
+    "en.restaurant_do_you_offer_any_birthday_specials": {
+      "conceptId": "en.restaurant_do_you_offer_any_birthday_specials",
+      "id": "restaurant_do_you_offer_any_birthday_specials",
+      "target": [
+        {
+          "text": "Do you offer any birthday specials?",
+          "audioSlug": "do_you_offer_any_birthday_specials"
+        }
+      ]
+    },
+    "en.technology_do_you_have_coverage_in_this": {
+      "conceptId": "en.technology_do_you_have_coverage_in_this",
+      "id": "technology_do_you_have_coverage_in_this",
+      "target": [
+        {
+          "text": "Do you have coverage in this place?",
+          "audioSlug": "do_you_have_coverage_in_this_place"
+        }
+      ]
+    },
+    "en.transportation_the_bus_is_slow": {
+      "conceptId": "en.transportation_the_bus_is_slow",
+      "id": "transportation_the_bus_is_slow",
+      "target": [
+        {
+          "text": "The bus is slow.",
+          "audioSlug": "the_bus_is_slow"
+        }
+      ]
+    }
+  }
+}

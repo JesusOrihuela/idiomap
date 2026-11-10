@@ -1,28 +1,280 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "deportes",
-  "conceptIds": [
-    "es.deportes_me_gusta_el_deporte",
-    "es.deportes_quiero_ganar",
-    "es.deportes_odio_perder",
-    "es.deportes_fin_del_juego",
-    "es.deportes_ella_gano_el_concurso",
-    "es.deportes_salgo_a_correr_temprano",
-    "es.deportes_no_se_nadar",
-    "es.deportes_tom_gano_la_carrera",
-    "es.deportes_viste_el_partido",
-    "es.deportes_no_me_interesa_el_futbol",
-    "es.deportes_soy_miembro_del_equipo",
-    "es.deportes_gano_un_premio",
-    "es.deportes_vamos_a_formar_un_equipo",
-    "es.deportes_corro_en_el_parque_por_las_mananas",
-    "es.deportes_corro_tres_kilometros_cada_dia",
-    "es.deportes_nuestro_equipo_gano",
-    "es.deportes_juego_al_tenis_los_sabados",
-    "es.deportes_mi_equipo_de_baloncesto_gano",
-    "es.deportes_hago_gimnasia_por_la_manana",
-    "es.deportes_en_invierno_vamos_a_esquiar",
-    "es.deportes_los_jugadores_llevan_uniforme"
+  "phrases": [
+    {
+      "conceptId": "es.deportes_me_gusta_el_deporte",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.60d67f6a05c79d2e"
+    },
+    {
+      "conceptId": "es.deportes_quiero_ganar",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d431b2ca25def786"
+    },
+    {
+      "conceptId": "es.deportes_odio_perder",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.1a4d54cb0364c711"
+    },
+    {
+      "conceptId": "es.deportes_fin_del_juego",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6f4f767004a40ba8"
+    },
+    {
+      "conceptId": "es.deportes_ella_gano_el_concurso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bf049e107350b456"
+    },
+    {
+      "conceptId": "es.deportes_salgo_a_correr_temprano",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b9ad7132897fbd0e"
+    },
+    {
+      "conceptId": "es.deportes_no_se_nadar",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d22618b38e04e015"
+    },
+    {
+      "conceptId": "es.deportes_tom_gano_la_carrera",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.62919c98cd1adf36"
+    },
+    {
+      "conceptId": "es.deportes_viste_el_partido",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.700d7fcfa667eab3"
+    },
+    {
+      "conceptId": "es.deportes_no_me_interesa_el_futbol",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.32e0d1029a3e13ad"
+    },
+    {
+      "conceptId": "es.deportes_soy_miembro_del_equipo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ff40ce24829fa4c3"
+    },
+    {
+      "conceptId": "es.deportes_gano_un_premio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7382cd61a7d94f43"
+    },
+    {
+      "conceptId": "es.deportes_vamos_a_formar_un_equipo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f213d298a4f0f3fe"
+    },
+    {
+      "conceptId": "es.deportes_corro_en_el_parque_por_las_mananas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8acc83cfa6b92ec6"
+    },
+    {
+      "conceptId": "es.deportes_corro_tres_kilometros_cada_dia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.25144429b93a6ec5"
+    },
+    {
+      "conceptId": "es.deportes_nuestro_equipo_gano",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d929ab736deb5dba"
+    },
+    {
+      "conceptId": "es.deportes_juego_al_tenis_los_sabados",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0b2a670572c5082f"
+    },
+    {
+      "conceptId": "es.deportes_mi_equipo_de_baloncesto_gano",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5a3fe32968ae49da"
+    },
+    {
+      "conceptId": "es.deportes_hago_gimnasia_por_la_manana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9dc4ee4049aefea6"
+    },
+    {
+      "conceptId": "es.deportes_en_invierno_vamos_a_esquiar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.be5969ecd34f8e0f"
+    },
+    {
+      "conceptId": "es.deportes_los_jugadores_llevan_uniforme",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a8de1751e371b644"
+    }
   ]
 }

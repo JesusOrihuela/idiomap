@@ -1,23 +1,215 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "fiesta",
-  "conceptIds": [
-    "es.fiesta_quiero_jugar",
-    "es.fiesta_hoy_hay_una_fiesta",
-    "es.fiesta_vamos_a_celebrar_juntos",
-    "es.fiesta_quiero_disfrutar_el_momento",
-    "es.fiesta_nos_vamos_a_divertir",
-    "es.fiesta_en_navidad_nos_reunimos_en_familia",
-    "es.fiesta_nadie_llego_tarde",
-    "es.fiesta_acepte_la_invitacion_a_la_boda",
-    "es.fiesta_happy_birthday",
-    "es.fiesta_lets_throw_a_party",
-    "es.fiesta_party_starts_at_eight",
-    "es.fiesta_we_danced_all_night",
-    "es.fiesta_blow_out_the_candles",
-    "es.fiesta_cheers_everyone",
-    "es.fiesta_its_a_surprise_party",
-    "es.fiesta_lets_make_a_toast"
+  "phrases": [
+    {
+      "conceptId": "es.fiesta_quiero_jugar",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c629dfb10154bb15"
+    },
+    {
+      "conceptId": "es.fiesta_hoy_hay_una_fiesta",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.33ed143275649706"
+    },
+    {
+      "conceptId": "es.fiesta_vamos_a_celebrar_juntos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bc5d59bcd433f0fe"
+    },
+    {
+      "conceptId": "es.fiesta_quiero_disfrutar_el_momento",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2620d97f7a3c9ac7"
+    },
+    {
+      "conceptId": "es.fiesta_nos_vamos_a_divertir",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3e53ae9c8b58f882"
+    },
+    {
+      "conceptId": "es.fiesta_en_navidad_nos_reunimos_en_familia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e4c91fb18ee6f5b6"
+    },
+    {
+      "conceptId": "es.fiesta_nadie_llego_tarde",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b92c1e0e0d0202c0"
+    },
+    {
+      "conceptId": "es.fiesta_acepte_la_invitacion_a_la_boda",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.df772745e9667ad4"
+    },
+    {
+      "conceptId": "es.fiesta_happy_birthday",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3b23197c2a20ec06"
+    },
+    {
+      "conceptId": "es.fiesta_lets_throw_a_party",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ecd6d73b0bd2d67f"
+    },
+    {
+      "conceptId": "es.fiesta_party_starts_at_eight",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7b6bdf0603361952"
+    },
+    {
+      "conceptId": "es.fiesta_we_danced_all_night",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fc3c2fd8565b0286"
+    },
+    {
+      "conceptId": "es.fiesta_blow_out_the_candles",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0e1f58e7405b6ce5"
+    },
+    {
+      "conceptId": "es.fiesta_cheers_everyone",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4f4dc037ff4bec7f"
+    },
+    {
+      "conceptId": "es.fiesta_its_a_surprise_party",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b38999ee98ae0740"
+    },
+    {
+      "conceptId": "es.fiesta_lets_make_a_toast",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4cebf170b9852f0d"
+    }
   ]
 }

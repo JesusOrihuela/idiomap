@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "eb",
+  "concepts": {
+    "en.descripciones_the_story_is_true": {
+      "conceptId": "en.descripciones_the_story_is_true",
+      "id": "descripciones_the_story_is_true",
+      "target": [
+        {
+          "text": "The story is true.",
+          "audioSlug": "the_story_is_true"
+        }
+      ]
+    },
+    "en.descripciones_the_task_is_simple": {
+      "conceptId": "en.descripciones_the_task_is_simple",
+      "id": "descripciones_the_task_is_simple",
+      "target": [
+        {
+          "text": "The task is simple.",
+          "audioSlug": "the_task_is_simple"
+        }
+      ]
+    },
+    "en.emociones_why_are_you_excited": {
+      "conceptId": "en.emociones_why_are_you_excited",
+      "id": "emociones_why_are_you_excited",
+      "target": [
+        {
+          "text": "Why are you excited?",
+          "audioSlug": "why_are_you_excited"
+        }
+      ]
+    },
+    "en.gym_are_group_classes_available": {
+      "conceptId": "en.gym_are_group_classes_available",
+      "id": "gym_are_group_classes_available",
+      "target": [
+        {
+          "text": "Are group classes available?",
+          "audioSlug": "are_group_classes_available"
+        }
+      ]
+    },
+    "en.gym_can_you_spot_me": {
+      "conceptId": "en.gym_can_you_spot_me",
+      "id": "gym_can_you_spot_me",
+      "target": [
+        {
+          "text": "Can you spot me?",
+          "audioSlug": "can_you_spot_me"
+        }
+      ]
+    },
+    "en.planes_if_more_time_would_learn": {
+      "conceptId": "en.planes_if_more_time_would_learn",
+      "id": "planes_if_more_time_would_learn",
+      "target": [
+        {
+          "text": "If I had more time, I would learn to paint.",
+          "audioSlug": "if_i_had_more_time_i_would_learn_to_paint"
+        }
+      ]
+    },
+    "en.politica_politics_interests_me_a_lot": {
+      "conceptId": "en.politica_politics_interests_me_a_lot",
+      "id": "politica_politics_interests_me_a_lot",
+      "target": [
+        {
+          "text": "Politics interests me a lot.",
+          "audioSlug": "politics_interests_me_a_lot"
+        }
+      ]
+    },
+    "en.politica_there_are_elections_this_year": {
+      "conceptId": "en.politica_there_are_elections_this_year",
+      "id": "politica_there_are_elections_this_year",
+      "target": [
+        {
+          "text": "There are elections this year.",
+          "audioSlug": "there_are_elections_this_year"
+        }
+      ]
+    }
+  }
+}

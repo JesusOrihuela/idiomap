@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "ec",
+  "concepts": {
+    "en.deportes_tom_won_the_competition": {
+      "conceptId": "en.deportes_tom_won_the_competition",
+      "id": "deportes_tom_won_the_competition",
+      "target": [
+        {
+          "text": "Tom won the competition.",
+          "audioSlug": "tom_won_the_competition"
+        }
+      ]
+    },
+    "en.directions_where_is_the_bank": {
+      "conceptId": "en.directions_where_is_the_bank",
+      "id": "directions_where_is_the_bank",
+      "target": [
+        {
+          "text": "Where is the bank?",
+          "audioSlug": "where_is_the_bank"
+        }
+      ]
+    },
+    "en.estudios_i_need_a_new_notebook": {
+      "conceptId": "en.estudios_i_need_a_new_notebook",
+      "id": "estudios_i_need_a_new_notebook",
+      "target": [
+        {
+          "text": "I need a new notebook.",
+          "audioSlug": "i_need_a_new_notebook"
+        }
+      ]
+    },
+    "en.movies_seen_latest_episode": {
+      "conceptId": "en.movies_seen_latest_episode",
+      "id": "movies_seen_latest_episode",
+      "target": [
+        {
+          "text": "Have you seen the latest episode of the series?",
+          "audioSlug": "have_you_seen_the_latest_episode_of_the_series"
+        }
+      ]
+    },
+    "en.movies_seen_new_trailer": {
+      "conceptId": "en.movies_seen_new_trailer",
+      "id": "movies_seen_new_trailer",
+      "target": [
+        {
+          "text": "Have you seen the new movie trailer?",
+          "audioSlug": "have_you_seen_the_new_movie_trailer",
+          "labels": {
+            "region": "US"
+          }
+        },
+        {
+          "text": "Have you seen the new film trailer?",
+          "audioSlug": "have_you_seen_the_new_film_trailer",
+          "labels": {
+            "region": "UK"
+          }
+        }
+      ]
+    },
+    "en.profesiones_i_want_to_become_a_teacher": {
+      "conceptId": "en.profesiones_i_want_to_become_a_teacher",
+      "id": "profesiones_i_want_to_become_a_teacher",
+      "target": [
+        {
+          "text": "I want to become a teacher.",
+          "audioSlug": "i_want_to_become_a_teacher"
+        }
+      ]
+    }
+  }
+}

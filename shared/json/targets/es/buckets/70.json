@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "70",
+  "concepts": {
+    "es.airport_which_terminal_departs": {
+      "conceptId": "es.airport_which_terminal_departs",
+      "id": "airport_which_terminal_departs",
+      "target": [
+        {
+          "text": "¿Desde qué terminal sale mi vuelo?",
+          "audioSlug": "desde_que_terminal_sale_mi_vuelo"
+        }
+      ]
+    },
+    "es.conversacion_hay_que_servir_con_dedicacion": {
+      "conceptId": "es.conversacion_hay_que_servir_con_dedicacion",
+      "id": "conversacion_hay_que_servir_con_dedicacion",
+      "target": [
+        {
+          "text": "Hay que servir con dedicación.",
+          "audioSlug": "hay_que_servir_con_dedicacion"
+        }
+      ]
+    },
+    "es.conversacion_prefiero_no_comentar_nada": {
+      "conceptId": "es.conversacion_prefiero_no_comentar_nada",
+      "id": "conversacion_prefiero_no_comentar_nada",
+      "target": [
+        {
+          "text": "Prefiero no comentar nada.",
+          "audioSlug": "prefiero_no_comentar_nada"
+        }
+      ]
+    },
+    "es.descripciones_es_musica_cubana": {
+      "conceptId": "es.descripciones_es_musica_cubana",
+      "id": "descripciones_es_musica_cubana",
+      "target": [
+        {
+          "text": "Es música cubana.",
+          "audioSlug": "es_musica_cubana"
+        }
+      ]
+    },
+    "es.descripciones_es_un_libro_antiguo": {
+      "conceptId": "es.descripciones_es_un_libro_antiguo",
+      "id": "descripciones_es_un_libro_antiguo",
+      "target": [
+        {
+          "text": "Es un libro antiguo.",
+          "audioSlug": "es_un_libro_antiguo"
+        }
+      ]
+    },
+    "es.descripciones_van_a_construir_un_puente_nuevo": {
+      "conceptId": "es.descripciones_van_a_construir_un_puente_nuevo",
+      "id": "descripciones_van_a_construir_un_puente_nuevo",
+      "target": [
+        {
+          "text": "Van a construir un puente nuevo.",
+          "audioSlug": "van_a_construir_un_puente_nuevo"
+        }
+      ]
+    },
+    "es.greetings_good_morning": {
+      "conceptId": "es.greetings_good_morning",
+      "id": "greetings_good_morning",
+      "target": [
+        {
+          "text": "Buenos días.",
+          "audioSlug": "buenos_dias"
+        }
+      ]
+    },
+    "es.greetings_it_was_great_seeing_you": {
+      "conceptId": "es.greetings_it_was_great_seeing_you",
+      "id": "greetings_it_was_great_seeing_you",
+      "target": [
+        {
+          "text": "¡Qué gusto verte!",
+          "audioSlug": "que_gusto_verte"
+        }
+      ]
+    },
+    "es.gym_rpe_scale_autoregulation": {
+      "conceptId": "es.gym_rpe_scale_autoregulation",
+      "id": "gym_rpe_scale_autoregulation",
+      "target": [
+        {
+          "text": "Cambié a la escala RPE para autorregular la intensidad según mi recuperación real.",
+          "audioSlug": "cambie_a_la_escala_rpe_para_autorregular_la_intensidad_segun_mi_recuperacion_real"
+        }
+      ]
+    },
+    "es.gym_where_dumbbells": {
+      "conceptId": "es.gym_where_dumbbells",
+      "id": "gym_where_dumbbells",
+      "target": [
+        {
+          "text": "¿Dónde están las mancuernas?",
+          "audioSlug": "donde_estan_las_mancuernas"
+        }
+      ]
+    },
+    "es.health_toma_una_pastilla_si_te_duele_la_cabeza": {
+      "conceptId": "es.health_toma_una_pastilla_si_te_duele_la_cabeza",
+      "id": "health_toma_una_pastilla_si_te_duele_la_cabeza",
+      "target": [
+        {
+          "text": "Toma una pastilla si te duele la cabeza.",
+          "audioSlug": "toma_una_pastilla_si_te_duele_la_cabeza"
+        }
+      ]
+    },
+    "es.hogar_la_calefaccion_esta_encendida": {
+      "conceptId": "es.hogar_la_calefaccion_esta_encendida",
+      "id": "hogar_la_calefaccion_esta_encendida",
+      "target": [
+        {
+          "text": "La calefacción está encendida.",
+          "audioSlug": "la_calefaccion_esta_encendida"
+        }
+      ]
+    },
+    "es.kitchen_anade_sal_y_pimienta": {
+      "conceptId": "es.kitchen_anade_sal_y_pimienta",
+      "id": "kitchen_anade_sal_y_pimienta",
+      "target": [
+        {
+          "text": "Añade un poco de sal y pimienta.",
+          "audioSlug": "anade_un_poco_de_sal_y_pimienta"
+        }
+      ]
+    },
+    "es.movies_documentary_streaming": {
+      "conceptId": "es.movies_documentary_streaming",
+      "id": "movies_documentary_streaming",
+      "target": [
+        {
+          "text": "He oído que ese documental es genial, ¿está en alguna plataforma?",
+          "audioSlug": "he_oido_que_ese_documental_es_genial_esta_en_alguna_plataforma"
+        }
+      ]
+    },
+    "es.music_what_kind_do_you_like": {
+      "conceptId": "es.music_what_kind_do_you_like",
+      "id": "music_what_kind_do_you_like",
+      "target": [
+        {
+          "text": "¿Qué tipo de música te gusta?",
+          "audioSlug": "que_tipo_de_musica_te_gusta"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_en_el_bosque_hay_muchos_arboles": {
+      "conceptId": "es.naturaleza_lugares_en_el_bosque_hay_muchos_arboles",
+      "id": "naturaleza_lugares_en_el_bosque_hay_muchos_arboles",
+      "target": [
+        {
+          "text": "En el bosque hay muchos árboles.",
+          "audioSlug": "en_el_bosque_hay_muchos_arboles"
+        }
+      ]
+    },
+    "es.profesiones_el_autor_firma_su_libro": {
+      "conceptId": "es.profesiones_el_autor_firma_su_libro",
+      "id": "profesiones_el_autor_firma_su_libro",
+      "target": [
+        {
+          "text": "El autor firma su libro.",
+          "audioSlug": "el_autor_firma_su_libro"
+        }
+      ]
+    }
+  }
+}

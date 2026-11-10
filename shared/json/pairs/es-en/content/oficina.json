@@ -1,26 +1,254 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "oficina",
-  "conceptIds": [
-    "en.oficina_let_s_start_the_meeting",
-    "en.oficina_when_is_the_meeting_scheduled",
-    "en.oficina_we_have_a_new_client",
-    "en.oficina_this_is_my_office",
-    "en.oficina_he_is_my_boss",
-    "en.oficina_he_works_in_industry",
-    "en.oficina_i_will_attend_the_meeting",
-    "en.oficina_the_work_is_complete",
-    "en.oficina_i_have_an_interview_today",
-    "en.oficina_i_need_a_new_job",
-    "en.oficina_i_work_from_monday_to_friday",
-    "en.oficina_he_is_sure_of_success",
-    "en.oficina_everyone_has_a_role_to_play",
-    "en.oficina_sign_here",
-    "en.oficina_i_need_to_organize_this",
-    "en.oficina_please_fill_the_form",
-    "en.oficina_everyone_was_present",
-    "en.oficina_recommends_that_he_arrive",
-    "en.oficina_essential_everyone_be_on_time"
+  "phrases": [
+    {
+      "conceptId": "en.oficina_let_s_start_the_meeting",
+      "level": "A2",
+      "grammar": "'Let's + infinitive' is the standard way to make an inclusive suggestion.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b2834908feddb662"
+    },
+    {
+      "conceptId": "en.oficina_when_is_the_meeting_scheduled",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c0dbe72e9114c250"
+    },
+    {
+      "conceptId": "en.oficina_we_have_a_new_client",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c5c4964c004d7134"
+    },
+    {
+      "conceptId": "en.oficina_this_is_my_office",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b4457754659ad391"
+    },
+    {
+      "conceptId": "en.oficina_he_is_my_boss",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0246ef39f3e76c8c"
+    },
+    {
+      "conceptId": "en.oficina_he_works_in_industry",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.77d41ec0dd792942"
+    },
+    {
+      "conceptId": "en.oficina_i_will_attend_the_meeting",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6a09e21c614ad2ba"
+    },
+    {
+      "conceptId": "en.oficina_the_work_is_complete",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e72d7fd35c23098b"
+    },
+    {
+      "conceptId": "en.oficina_i_have_an_interview_today",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c6d1144a7f1da036"
+    },
+    {
+      "conceptId": "en.oficina_i_need_a_new_job",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a82e00def73a977a"
+    },
+    {
+      "conceptId": "en.oficina_i_work_from_monday_to_friday",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.81f52b2452dfb0b7"
+    },
+    {
+      "conceptId": "en.oficina_he_is_sure_of_success",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.01d44debfb5aae20"
+    },
+    {
+      "conceptId": "en.oficina_everyone_has_a_role_to_play",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3d0a04a86a2c079b"
+    },
+    {
+      "conceptId": "en.oficina_sign_here",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4623de36f0063005"
+    },
+    {
+      "conceptId": "en.oficina_i_need_to_organize_this",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d8fdc8a642fb7aea"
+    },
+    {
+      "conceptId": "en.oficina_please_fill_the_form",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.20c4f4c7178079a7"
+    },
+    {
+      "conceptId": "en.oficina_everyone_was_present",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b85cad1bbf7faa68"
+    },
+    {
+      "conceptId": "en.oficina_recommends_that_he_arrive",
+      "level": "C1",
+      "grammar": "After 'recommend that', use the base form (formal subjunctive): 'that he arrive'.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0a0a602e512472fa"
+    },
+    {
+      "conceptId": "en.oficina_essential_everyone_be_on_time",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1220a8d990315d65"
+    }
   ]
 }

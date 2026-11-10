@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "a1",
+  "concepts": {
+    "en.daily_routine_shower_every_day": {
+      "conceptId": "en.daily_routine_shower_every_day",
+      "id": "daily_routine_shower_every_day",
+      "target": [
+        {
+          "text": "I take a shower every day.",
+          "audioSlug": "i_take_a_shower_every_day"
+        }
+      ]
+    },
+    "en.directions_where_is_the_exit": {
+      "conceptId": "en.directions_where_is_the_exit",
+      "id": "directions_where_is_the_exit",
+      "target": [
+        {
+          "text": "Where is the exit?",
+          "audioSlug": "where_is_the_exit"
+        }
+      ]
+    },
+    "en.economia_you_will_gain_a_lot": {
+      "conceptId": "en.economia_you_will_gain_a_lot",
+      "id": "economia_you_will_gain_a_lot",
+      "target": [
+        {
+          "text": "You will gain a lot.",
+          "audioSlug": "you_will_gain_a_lot"
+        }
+      ]
+    },
+    "en.movies_what_kind_you_like": {
+      "conceptId": "en.movies_what_kind_you_like",
+      "id": "movies_what_kind_you_like",
+      "target": [
+        {
+          "text": "What kind of movies do you like?",
+          "audioSlug": "what_kind_of_movies_do_you_like"
+        }
+      ]
+    },
+    "en.oficina_i_have_an_interview_today": {
+      "conceptId": "en.oficina_i_have_an_interview_today",
+      "id": "oficina_i_have_an_interview_today",
+      "target": [
+        {
+          "text": "I have an interview today.",
+          "audioSlug": "i_have_an_interview_today"
+        }
+      ]
+    },
+    "en.technology_how_connect_wifi": {
+      "conceptId": "en.technology_how_connect_wifi",
+      "id": "technology_how_connect_wifi",
+      "target": [
+        {
+          "text": "How do I connect to the WiFi?",
+          "audioSlug": "how_do_i_connect_to_the_wifi"
+        }
+      ]
+    }
+  }
+}

@@ -1,48 +1,540 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "hogar",
-  "conceptIds": [
-    "es.hogar_la_cocina_es_pequena",
-    "es.hogar_mi_habitacion_tiene_una_ventana_grande",
-    "es.hogar_el_sofa_esta_en_la_sala",
-    "es.hogar_hay_que_limpiar_la_casa_el_sabado",
-    "es.hogar_la_pared_es_blanca",
-    "es.hogar_enciende_la_luz_por_favor",
-    "es.hogar_el_bano_esta_al_final_del_pasillo",
-    "es.hogar_necesito_una_mesa_nueva_para_el_comedor",
-    "es.hogar_acabamos_de_mudarnos",
-    "es.hogar_la_lampara_esta_sobre_la_mesa",
-    "es.hogar_vivo_en_el_tercer_piso",
-    "es.hogar_tengo_que_ordenar_mi_cuarto",
-    "es.hogar_cierra_la_ventana_por_favor",
-    "es.hogar_guardo_la_ropa_en_el_armario",
-    "es.hogar_la_cocina_siempre_esta_limpia",
-    "es.hogar_necesito_arreglar_la_puerta",
-    "es.hogar_el_techo_es_muy_alto",
-    "es.hogar_cuelga_el_cuadro_en_la_pared",
-    "es.hogar_mi_perro_juega_en_el_jardin",
-    "es.hogar_la_mesa_es_de_madera_maciza",
-    "es.hogar_el_hogar_siempre_debe_estar_limpio",
-    "es.hogar_arreglo_la_bicicleta_en_el_taller",
-    "es.hogar_el_salon_de_la_casa_es_muy_amplio",
-    "es.hogar_busco_una_vivienda_mas_grande",
-    "es.hogar_necesito_un_par_de_zapatos_nuevos",
-    "es.hogar_voy_a_colocar_los_libros_en_el_estante",
-    "es.hogar_hay_que_quitar_el_polvo_de_los_muebles",
-    "es.hogar_el_reloj_de_la_pared_esta_parado",
-    "es.hogar_me_siento_en_el_sillon_a_leer",
-    "es.hogar_en_invierno_enciendo_la_calefaccion",
-    "es.hogar_guardo_cada_herramienta_en_su_caja",
-    "es.hogar_el_lavabo_del_bano_esta_atascado",
-    "es.hogar_escucho_la_radio_en_la_cocina",
-    "es.hogar_el_dormitorio_principal_es_muy_amplio",
-    "es.hogar_necesito_jabon_para_lavarme_las_manos",
-    "es.hogar_usa_el_cepillo_de_dientes_cada_dia",
-    "es.hogar_la_ventana_del_salon_es_de_cristal",
-    "es.hogar_la_leche_esta_en_la_nevera",
-    "es.hogar_pon_la_ropa_sucia_en_la_lavadora",
-    "es.hogar_caliento_la_comida_en_el_microondas",
-    "es.hogar_lleno_la_banera_de_agua_caliente"
+  "phrases": [
+    {
+      "conceptId": "es.hogar_la_cocina_es_pequena",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6ac29e6c9d1a7665"
+    },
+    {
+      "conceptId": "es.hogar_mi_habitacion_tiene_una_ventana_grande",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e8039681ded57ccf"
+    },
+    {
+      "conceptId": "es.hogar_el_sofa_esta_en_la_sala",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fa6dc7a4e958a13d"
+    },
+    {
+      "conceptId": "es.hogar_hay_que_limpiar_la_casa_el_sabado",
+      "level": "A2",
+      "grammar": "hay que más infinitivo expresa una obligación, hay que limpiar.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bd299db94d11ffa0"
+    },
+    {
+      "conceptId": "es.hogar_la_pared_es_blanca",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.69cf0babe80860ec"
+    },
+    {
+      "conceptId": "es.hogar_enciende_la_luz_por_favor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8cd5c766db044d64"
+    },
+    {
+      "conceptId": "es.hogar_el_bano_esta_al_final_del_pasillo",
+      "level": "A2",
+      "grammar": "estar indica ubicación, está al final del pasillo.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ac4da6ab669a292b"
+    },
+    {
+      "conceptId": "es.hogar_necesito_una_mesa_nueva_para_el_comedor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9db9e565243d6ab6"
+    },
+    {
+      "conceptId": "es.hogar_acabamos_de_mudarnos",
+      "level": "B1",
+      "grammar": "acabar de más infinitivo expresa un pasado reciente, acabamos de mudarnos.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.347e4cd5665f6cbe"
+    },
+    {
+      "conceptId": "es.hogar_la_lampara_esta_sobre_la_mesa",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6694c486da47db1c"
+    },
+    {
+      "conceptId": "es.hogar_vivo_en_el_tercer_piso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e6d3bc6f633d3456"
+    },
+    {
+      "conceptId": "es.hogar_tengo_que_ordenar_mi_cuarto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.22382c052e522039"
+    },
+    {
+      "conceptId": "es.hogar_cierra_la_ventana_por_favor",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.870190ab4dcf3df0"
+    },
+    {
+      "conceptId": "es.hogar_guardo_la_ropa_en_el_armario",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.965adab6bddb59ef"
+    },
+    {
+      "conceptId": "es.hogar_la_cocina_siempre_esta_limpia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.61f9b7860ea8e31b"
+    },
+    {
+      "conceptId": "es.hogar_necesito_arreglar_la_puerta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3fffaab05d2caf34"
+    },
+    {
+      "conceptId": "es.hogar_el_techo_es_muy_alto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.87d4b34fe3075ebd"
+    },
+    {
+      "conceptId": "es.hogar_cuelga_el_cuadro_en_la_pared",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ffc25e5d0f7ee206"
+    },
+    {
+      "conceptId": "es.hogar_mi_perro_juega_en_el_jardin",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e8fecd27b3300f6b"
+    },
+    {
+      "conceptId": "es.hogar_la_mesa_es_de_madera_maciza",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f2ea8f9039976638"
+    },
+    {
+      "conceptId": "es.hogar_el_hogar_siempre_debe_estar_limpio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8f2b3ad07f7a166a"
+    },
+    {
+      "conceptId": "es.hogar_arreglo_la_bicicleta_en_el_taller",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4ed061a69a5c5df5"
+    },
+    {
+      "conceptId": "es.hogar_el_salon_de_la_casa_es_muy_amplio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.42439750abc29800"
+    },
+    {
+      "conceptId": "es.hogar_busco_una_vivienda_mas_grande",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7c1864e1c1675ad1"
+    },
+    {
+      "conceptId": "es.hogar_necesito_un_par_de_zapatos_nuevos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.97be4e71561e8a4b"
+    },
+    {
+      "conceptId": "es.hogar_voy_a_colocar_los_libros_en_el_estante",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bb0eb5891c21c091"
+    },
+    {
+      "conceptId": "es.hogar_hay_que_quitar_el_polvo_de_los_muebles",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.79d72b9986e97c40"
+    },
+    {
+      "conceptId": "es.hogar_el_reloj_de_la_pared_esta_parado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a5c93466de8f8d70"
+    },
+    {
+      "conceptId": "es.hogar_me_siento_en_el_sillon_a_leer",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.335742f39910a971"
+    },
+    {
+      "conceptId": "es.hogar_en_invierno_enciendo_la_calefaccion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.353991d505cc86ff"
+    },
+    {
+      "conceptId": "es.hogar_guardo_cada_herramienta_en_su_caja",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2274eb3c039ecf27"
+    },
+    {
+      "conceptId": "es.hogar_el_lavabo_del_bano_esta_atascado",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dd35018a32f34640"
+    },
+    {
+      "conceptId": "es.hogar_escucho_la_radio_en_la_cocina",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.16962d9b6e4ec71b"
+    },
+    {
+      "conceptId": "es.hogar_el_dormitorio_principal_es_muy_amplio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c3d95b57db6451e3"
+    },
+    {
+      "conceptId": "es.hogar_necesito_jabon_para_lavarme_las_manos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d77ef789c1ca8b8d"
+    },
+    {
+      "conceptId": "es.hogar_usa_el_cepillo_de_dientes_cada_dia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.162c05804a447c0b"
+    },
+    {
+      "conceptId": "es.hogar_la_ventana_del_salon_es_de_cristal",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bba27a9eb91adbaf"
+    },
+    {
+      "conceptId": "es.hogar_la_leche_esta_en_la_nevera",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d56b904c7e009745"
+    },
+    {
+      "conceptId": "es.hogar_pon_la_ropa_sucia_en_la_lavadora",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6bbc5038c79fb0cb"
+    },
+    {
+      "conceptId": "es.hogar_caliento_la_comida_en_el_microondas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.33f464900dc90fb3"
+    },
+    {
+      "conceptId": "es.hogar_lleno_la_banera_de_agua_caliente",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c2c5272fc576a997"
+    }
   ]
 }

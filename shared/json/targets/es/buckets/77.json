@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "77",
+  "concepts": {
+    "es.deportes_hago_actividad_fisica_cada_dia": {
+      "conceptId": "es.deportes_hago_actividad_fisica_cada_dia",
+      "id": "deportes_hago_actividad_fisica_cada_dia",
+      "target": [
+        {
+          "text": "Hago actividad física cada día.",
+          "audioSlug": "hago_actividad_fisica_cada_dia"
+        }
+      ]
+    },
+    "es.describiendo_personas_es_muy_guapo": {
+      "conceptId": "es.describiendo_personas_es_muy_guapo",
+      "id": "describiendo_personas_es_muy_guapo",
+      "target": [
+        {
+          "text": "Es muy guapo.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "es_muy_guapo"
+        },
+        {
+          "text": "Es muy guapa.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "es_muy_guapa"
+        }
+      ]
+    },
+    "es.describiendo_personas_soy_joven": {
+      "conceptId": "es.describiendo_personas_soy_joven",
+      "id": "describiendo_personas_soy_joven",
+      "target": [
+        {
+          "text": "Soy joven.",
+          "audioSlug": "soy_joven"
+        }
+      ]
+    },
+    "es.greetings_thank_you_very_much": {
+      "conceptId": "es.greetings_thank_you_very_much",
+      "id": "greetings_thank_you_very_much",
+      "target": [
+        {
+          "text": "Muchas gracias.",
+          "audioSlug": "muchas_gracias"
+        }
+      ]
+    },
+    "es.health_hoy_me_siento_peor": {
+      "conceptId": "es.health_hoy_me_siento_peor",
+      "id": "health_hoy_me_siento_peor",
+      "target": [
+        {
+          "text": "Hoy me siento peor.",
+          "audioSlug": "hoy_me_siento_peor"
+        }
+      ]
+    },
+    "es.health_me_duele_la_cabeza": {
+      "conceptId": "es.health_me_duele_la_cabeza",
+      "id": "health_me_duele_la_cabeza",
+      "target": [
+        {
+          "text": "Me duele la cabeza.",
+          "audioSlug": "me_duele_la_cabeza"
+        }
+      ]
+    },
+    "es.hogar_vivo_en_un_apartamento_pequeno": {
+      "conceptId": "es.hogar_vivo_en_un_apartamento_pequeno",
+      "id": "hogar_vivo_en_un_apartamento_pequeno",
+      "target": [
+        {
+          "text": "Vivo en un apartamento pequeño.",
+          "audioSlug": "vivo_en_un_apartamento_pequeno"
+        }
+      ]
+    },
+    "es.kitchen_sauce_breaks_rescue_cold_water": {
+      "conceptId": "es.kitchen_sauce_breaks_rescue_cold_water",
+      "id": "kitchen_sauce_breaks_rescue_cold_water",
+      "target": [
+        {
+          "text": "Si la salsa se corta, recupérala añadiendo agua fría y batiendo con energía.",
+          "audioSlug": "si_la_salsa_se_corta_recuperala_anadiendo_agua_fria_y_batiendo_con_energia"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_acepto_mi_idea": {
+      "conceptId": "es.pensamientos_opiniones_acepto_mi_idea",
+      "id": "pensamientos_opiniones_acepto_mi_idea",
+      "target": [
+        {
+          "text": "Él aceptó mi idea.",
+          "audioSlug": "el_acepto_mi_idea"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_tengo_una_buena_idea": {
+      "conceptId": "es.pensamientos_opiniones_tengo_una_buena_idea",
+      "id": "pensamientos_opiniones_tengo_una_buena_idea",
+      "target": [
+        {
+          "text": "Tengo una buena idea.",
+          "audioSlug": "tengo_una_buena_idea"
+        }
+      ]
+    },
+    "es.personal_info_im_from": {
+      "conceptId": "es.personal_info_im_from",
+      "id": "personal_info_im_from",
+      "target": [
+        {
+          "text": "Soy de México.",
+          "audioSlug": "soy_de_mexico"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "04",
+  "concepts": {
+    "en.accommodation_early_checkin_policy": {
+      "conceptId": "en.accommodation_early_checkin_policy",
+      "id": "accommodation_early_checkin_policy",
+      "target": [
+        {
+          "text": "What is the early check-in policy?",
+          "audioSlug": "what_is_the_early_check_in_policy"
+        }
+      ]
+    },
+    "en.airport_eu_regulation_compensation": {
+      "conceptId": "en.airport_eu_regulation_compensation",
+      "id": "airport_eu_regulation_compensation",
+      "target": [
+        {
+          "text": "Under EU Regulation 261/2004, I believe I'm entitled to compensation for this cancellation.",
+          "audioSlug": "under_eu_regulation_261_2004_i_believe_i_m_entitled_to_compensation_for_this_cancellation"
+        }
+      ]
+    },
+    "en.airport_how_early_arrive": {
+      "conceptId": "en.airport_how_early_arrive",
+      "id": "airport_how_early_arrive",
+      "target": [
+        {
+          "text": "How early should I arrive at the airport before my flight?",
+          "audioSlug": "how_early_should_i_arrive_at_the_airport_before_my_flight"
+        }
+      ]
+    },
+    "en.gym_how_long_should_i_rest_between": {
+      "conceptId": "en.gym_how_long_should_i_rest_between",
+      "id": "gym_how_long_should_i_rest_between",
+      "target": [
+        {
+          "text": "How long should I rest between training sessions?",
+          "audioSlug": "how_long_should_i_rest_between_training_sessions"
+        }
+      ]
+    },
+    "en.restaurant_could_i_have_some_extra_sauce": {
+      "conceptId": "en.restaurant_could_i_have_some_extra_sauce",
+      "id": "restaurant_could_i_have_some_extra_sauce",
+      "target": [
+        {
+          "text": "Could I have some extra sauce on the side?",
+          "audioSlug": "could_i_have_some_extra_sauce_on_the_side",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can I have some extra sauce on the side?",
+          "audioSlug": "can_i_have_some_extra_sauce_on_the_side",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.survival_can_you_help": {
+      "conceptId": "en.survival_can_you_help",
+      "id": "survival_can_you_help",
+      "target": [
+        {
+          "text": "Can you help me, please?",
+          "audioSlug": "can_you_help_me_please"
+        }
+      ]
+    }
+  }
+}

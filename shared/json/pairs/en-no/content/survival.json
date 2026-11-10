@@ -1,10 +1,46 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-no",
   "topic": "survival",
-  "conceptIds": [
-    "no.survival_do_you_speak_english",
-    "no.survival_i_do_not_understand",
-    "no.survival_what_is_this"
+  "phrases": [
+    {
+      "conceptId": "no.survival_do_you_speak_english",
+      "level": "A1",
+      "grammar": "Bokmål bruker snakker, nynorsk bruker snakkar, samme språk.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b53e3962d194b14d"
+    },
+    {
+      "conceptId": "no.survival_i_do_not_understand",
+      "level": "A1",
+      "grammar": "Bokmål jeg/ikke, nynorsk eg/ikkje, to skriftformer.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5df9cfa45859f803"
+    },
+    {
+      "conceptId": "no.survival_what_is_this",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c0be50c8ef61185a"
+    }
   ]
 }

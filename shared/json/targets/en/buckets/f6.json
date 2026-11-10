@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "f6",
+  "concepts": {
+    "en.accountability_operating_expenses_exceeded_budget": {
+      "conceptId": "en.accountability_operating_expenses_exceeded_budget",
+      "id": "accountability_operating_expenses_exceeded_budget",
+      "target": [
+        {
+          "text": "Operating expenses exceeded the budget by twelve percent last quarter.",
+          "audioSlug": "operating_expenses_exceeded_the_budget_by_twelve_percent_last_quarter"
+        }
+      ]
+    },
+    "en.emergencias_can_you_call_the_police": {
+      "conceptId": "en.emergencias_can_you_call_the_police",
+      "id": "emergencias_can_you_call_the_police",
+      "target": [
+        {
+          "text": "Can you call the police?",
+          "audioSlug": "can_you_call_the_police"
+        }
+      ]
+    },
+    "en.greetings_hey_there_hows_your_week_been": {
+      "conceptId": "en.greetings_hey_there_hows_your_week_been",
+      "id": "greetings_hey_there_hows_your_week_been",
+      "target": [
+        {
+          "text": "Hey there, how's your week been?",
+          "audioSlug": "hey_there_how_s_your_week_been",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Hello there, how's your week been?",
+          "audioSlug": "hello_there_how_s_your_week_been",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.gym_im_motivated": {
+      "conceptId": "en.gym_im_motivated",
+      "id": "gym_im_motivated",
+      "target": [
+        {
+          "text": "I'm motivated!",
+          "audioSlug": "i_m_motivated"
+        }
+      ]
+    },
+    "en.kitchen_the_milk_has_curdled": {
+      "conceptId": "en.kitchen_the_milk_has_curdled",
+      "id": "kitchen_the_milk_has_curdled",
+      "target": [
+        {
+          "text": "The milk has curdled.",
+          "audioSlug": "the_milk_has_curdled"
+        }
+      ]
+    },
+    "en.museums_art_exhibition_invite": {
+      "conceptId": "en.museums_art_exhibition_invite",
+      "id": "museums_art_exhibition_invite",
+      "target": [
+        {
+          "text": "Do you want to go to an art exhibition?",
+          "audioSlug": "do_you_want_to_go_to_an_art_exhibition"
+        }
+      ]
+    },
+    "en.planes_choose_one": {
+      "conceptId": "en.planes_choose_one",
+      "id": "planes_choose_one",
+      "target": [
+        {
+          "text": "Choose one.",
+          "audioSlug": "choose_one"
+        }
+      ]
+    },
+    "en.supermarket_check_stockroom_out_of_shelf": {
+      "conceptId": "en.supermarket_check_stockroom_out_of_shelf",
+      "id": "supermarket_check_stockroom_out_of_shelf",
+      "target": [
+        {
+          "text": "Could you check the stockroom? This has been out of stock for two days.",
+          "audioSlug": "could_you_check_the_stockroom_this_has_been_out_of_stock_for_two_days"
+        }
+      ]
+    }
+  }
+}

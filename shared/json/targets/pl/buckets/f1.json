@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "pl",
+  "bucket": "f1",
+  "concepts": {
+    "pl.personal_info_my_name_is": {
+      "conceptId": "pl.personal_info_my_name_is",
+      "id": "personal_info_my_name_is",
+      "target": [
+        {
+          "text": "Nazywam się Anna.",
+          "audioSlug": "nazywam_sie_anna"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "tag": "de",
+  "bucket": "bd",
+  "concepts": {
+    "de.piloto_buenos_dias": {
+      "conceptId": "de.piloto_buenos_dias",
+      "id": "piloto_buenos_dias",
+      "target": [
+        {
+          "text": "Guten Morgen.",
+          "audioSlug": "buenos_dias"
+        }
+      ]
+    }
+  }
+}

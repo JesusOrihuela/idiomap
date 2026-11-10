@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "32",
+  "concepts": {
+    "en.greetings_it_was_a_pleasure_hope_to": {
+      "conceptId": "en.greetings_it_was_a_pleasure_hope_to",
+      "id": "greetings_it_was_a_pleasure_hope_to",
+      "target": [
+        {
+          "text": "It was a pleasure, hope to see you again.",
+          "audioSlug": "it_was_a_pleasure_hope_to_see_you_again",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "It was a pleasure, I hope to see you again.",
+          "audioSlug": "it_was_a_pleasure_i_hope_to_see_you_again",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    }
+  }
+}

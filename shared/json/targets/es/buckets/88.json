@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "88",
+  "concepts": {
+    "es.calendario_my_birthday_is_in_may": {
+      "conceptId": "es.calendario_my_birthday_is_in_may",
+      "id": "calendario_my_birthday_is_in_may",
+      "target": [
+        {
+          "text": "Mi cumpleaños es en mayo.",
+          "audioSlug": "mi_cumpleanos_es_en_mayo"
+        }
+      ]
+    },
+    "es.conversacion_no_contesto_mi_pregunta": {
+      "conceptId": "es.conversacion_no_contesto_mi_pregunta",
+      "id": "conversacion_no_contesto_mi_pregunta",
+      "target": [
+        {
+          "text": "No contestó mi pregunta.",
+          "audioSlug": "no_contesto_mi_pregunta"
+        }
+      ]
+    },
+    "es.descripciones_el_anillo_es_realmente_precioso": {
+      "conceptId": "es.descripciones_el_anillo_es_realmente_precioso",
+      "id": "descripciones_el_anillo_es_realmente_precioso",
+      "target": [
+        {
+          "text": "El anillo es realmente precioso.",
+          "audioSlug": "el_anillo_es_realmente_precioso"
+        }
+      ]
+    },
+    "es.economia_el_cafe_cuesta_dos_euros": {
+      "conceptId": "es.economia_el_cafe_cuesta_dos_euros",
+      "id": "economia_el_cafe_cuesta_dos_euros",
+      "target": [
+        {
+          "text": "El café cuesta dos euros.",
+          "audioSlug": "el_cafe_cuesta_dos_euros"
+        }
+      ]
+    },
+    "es.emociones_a_veces_me_siento_diferente": {
+      "conceptId": "es.emociones_a_veces_me_siento_diferente",
+      "id": "emociones_a_veces_me_siento_diferente",
+      "target": [
+        {
+          "text": "A veces me siento diferente.",
+          "audioSlug": "a_veces_me_siento_diferente"
+        }
+      ]
+    },
+    "es.emociones_noise_bothers_me": {
+      "conceptId": "es.emociones_noise_bothers_me",
+      "id": "emociones_noise_bothers_me",
+      "target": [
+        {
+          "text": "Me molesta el ruido.",
+          "audioSlug": "me_molesta_el_ruido"
+        }
+      ]
+    },
+    "es.greetings_dont_believe_formally_introduced": {
+      "conceptId": "es.greetings_dont_believe_formally_introduced",
+      "id": "greetings_dont_believe_formally_introduced",
+      "target": [
+        {
+          "text": "Creo que no nos han presentado formalmente, estoy aquí representando a la delegación europea.",
+          "audioSlug": "creo_que_no_nos_han_presentado_formalmente_estoy_aqui_representando_a_la_delegacion_europea"
+        }
+      ]
+    },
+    "es.greetings_hey_nice_to_see_you_again": {
+      "conceptId": "es.greetings_hey_nice_to_see_you_again",
+      "id": "greetings_hey_nice_to_see_you_again",
+      "target": [
+        {
+          "text": "Oye, es bueno verte de nuevo, ¿cómo has estado?",
+          "audioSlug": "oye_es_bueno_verte_de_nuevo_como_has_estado"
+        }
+      ]
+    },
+    "es.gym_could_you_demonstrate_how_to_use": {
+      "conceptId": "es.gym_could_you_demonstrate_how_to_use",
+      "id": "gym_could_you_demonstrate_how_to_use",
+      "target": [
+        {
+          "text": "¿Podrías demostrarme cómo usar las bandas de resistencia?",
+          "audioSlug": "podrias_demostrarme_como_usar_las_bandas_de_resistencia"
+        }
+      ]
+    },
+    "es.hogar_es_una_mesa_de_madera": {
+      "conceptId": "es.hogar_es_una_mesa_de_madera",
+      "id": "hogar_es_una_mesa_de_madera",
+      "target": [
+        {
+          "text": "Es una mesa de madera.",
+          "audioSlug": "es_una_mesa_de_madera"
+        }
+      ]
+    },
+    "es.museums_audio_guide": {
+      "conceptId": "es.museums_audio_guide",
+      "id": "museums_audio_guide",
+      "target": [
+        {
+          "text": "¿Hay audioguía?",
+          "audioSlug": "hay_audioguia"
+        }
+      ]
+    },
+    "es.music_headphones_or_speakers": {
+      "conceptId": "es.music_headphones_or_speakers",
+      "id": "music_headphones_or_speakers",
+      "target": [
+        {
+          "text": "¿Prefieres escuchar música con audífonos o por altavoces?",
+          "audioSlug": "prefieres_escuchar_musica_con_audifonos_o_por_altavoces"
+        }
+      ]
+    },
+    "es.planes_hay_que_actuar_ya": {
+      "conceptId": "es.planes_hay_que_actuar_ya",
+      "id": "planes_hay_que_actuar_ya",
+      "target": [
+        {
+          "text": "Hay que actuar ya.",
+          "audioSlug": "hay_que_actuar_ya"
+        }
+      ]
+    },
+    "es.politica_somos_la_sociedad": {
+      "conceptId": "es.politica_somos_la_sociedad",
+      "id": "politica_somos_la_sociedad",
+      "target": [
+        {
+          "text": "Somos la sociedad.",
+          "audioSlug": "somos_la_sociedad"
+        }
+      ]
+    },
+    "es.restaurant_prepare_cordero_asado": {
+      "conceptId": "es.restaurant_prepare_cordero_asado",
+      "id": "restaurant_prepare_cordero_asado",
+      "target": [
+        {
+          "text": "Preparé cordero asado el domingo.",
+          "audioSlug": "prepare_cordero_asado_el_domingo"
+        }
+      ]
+    },
+    "es.tiempo_libre_prefiero_quedarme_en_casa": {
+      "conceptId": "es.tiempo_libre_prefiero_quedarme_en_casa",
+      "id": "tiempo_libre_prefiero_quedarme_en_casa",
+      "target": [
+        {
+          "text": "Prefiero quedarme en casa a descansar.",
+          "audioSlug": "prefiero_quedarme_en_casa_a_descansar"
+        }
+      ]
+    }
+  }
+}

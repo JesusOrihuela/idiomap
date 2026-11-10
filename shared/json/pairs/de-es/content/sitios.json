@@ -1,46 +1,514 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "sitios",
-  "conceptIds": [
-    "es.sitios_vivo_en_este_barrio",
-    "es.sitios_nos_vemos_en_la_plaza",
-    "es.sitios_la_ciudad_es_muy_grande",
-    "es.sitios_mi_pueblo_es_pequeno_y_tranquilo",
-    "es.sitios_hay_un_parque_cerca_de_mi_casa",
-    "es.sitios_el_centro_esta_lleno_de_gente",
-    "es.sitios_me_mude_a_una_ciudad_nueva",
-    "es.sitios_donde_esta_la_parada_mas_cercana",
-    "es.sitios_hay_muchas_tiendas_en_esta_calle",
-    "es.sitios_el_museo_esta_en_el_centro",
-    "es.sitios_la_comisaria_de_policia_esta_cerca",
-    "es.sitios_vamos_a_tomar_algo_a_un_bar",
-    "es.sitios_trabajo_en_una_oficina_del_centro",
-    "es.sitios_hay_una_obra_en_la_calle",
-    "es.sitios_la_iglesia_esta_en_la_esquina",
-    "es.sitios_es_posible_llegar_a_pie",
-    "es.sitios_cualquier_taxi_te_lleva_al_aeropuerto",
-    "es.sitios_el_personal_del_hotel_es_amable",
-    "es.sitios_madrid_es_la_capital_de_espana",
-    "es.sitios_el_museo_nacional_es_enorme",
-    "es.sitios_no_hay_espacio_para_estacionar",
-    "es.sitios_el_puente_cruza_el_rio",
-    "es.sitios_la_torre_es_el_edificio_mas_alto",
-    "es.sitios_vivo_cerca_del_centro_comercial",
-    "es.sitios_el_pueblo_tiene_mil_habitantes",
-    "es.sitios_el_barrio_es_tranquilo_y_seguro",
-    "es.sitios_el_barco_sale_del_puerto_al_amanecer",
-    "es.sitios_esta_zona_es_muy_turistica",
-    "es.sitios_el_guia_nos_mostro_la_ciudad_vieja",
-    "es.sitios_es_un_aeropuerto_internacional_muy_grande",
-    "es.sitios_el_museo_esta_al_sur_de_la_ciudad",
-    "es.sitios_mi_familia_vive_en_las_afueras",
-    "es.sitios_visitamos_un_monumento_muy_antiguo",
-    "es.sitios_entrenan_en_el_gimnasio_del_barrio",
-    "es.sitios_tomamos_un_cafe_en_la_cafeteria",
-    "es.sitios_bailamos_toda_la_noche_en_la_discoteca",
-    "es.sitios_compro_novelas_en_la_libreria",
-    "es.sitios_estudio_idiomas_en_una_academia",
-    "es.sitios_los_ninos_disfrutan_en_el_zoo"
+  "phrases": [
+    {
+      "conceptId": "es.sitios_vivo_en_este_barrio",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5213b292a7a876dd"
+    },
+    {
+      "conceptId": "es.sitios_nos_vemos_en_la_plaza",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b6bd29e5311fcdc2"
+    },
+    {
+      "conceptId": "es.sitios_la_ciudad_es_muy_grande",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.17960797c51c2516"
+    },
+    {
+      "conceptId": "es.sitios_mi_pueblo_es_pequeno_y_tranquilo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.74abc41506103a45"
+    },
+    {
+      "conceptId": "es.sitios_hay_un_parque_cerca_de_mi_casa",
+      "level": "A2",
+      "grammar": "hay expresa que algo existe, hay un parque.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ee86edff9eab12b2"
+    },
+    {
+      "conceptId": "es.sitios_el_centro_esta_lleno_de_gente",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c883d7eca6b2bc53"
+    },
+    {
+      "conceptId": "es.sitios_me_mude_a_una_ciudad_nueva",
+      "level": "B1",
+      "grammar": "me mudé es pretérito de un verbo reflexivo, acción terminada.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ae20e40a0a8c9ad7"
+    },
+    {
+      "conceptId": "es.sitios_donde_esta_la_parada_mas_cercana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3cede2ee02e41cb1"
+    },
+    {
+      "conceptId": "es.sitios_hay_muchas_tiendas_en_esta_calle",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9f72530bc31ae121"
+    },
+    {
+      "conceptId": "es.sitios_el_museo_esta_en_el_centro",
+      "level": "A2",
+      "grammar": "estar indica ubicación, el museo está en el centro.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cb01a16bf897df2b"
+    },
+    {
+      "conceptId": "es.sitios_la_comisaria_de_policia_esta_cerca",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bc9c04cd5b2a1dd5"
+    },
+    {
+      "conceptId": "es.sitios_vamos_a_tomar_algo_a_un_bar",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5b5a74b1920d69b5"
+    },
+    {
+      "conceptId": "es.sitios_trabajo_en_una_oficina_del_centro",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.729cdf7a246b792e"
+    },
+    {
+      "conceptId": "es.sitios_hay_una_obra_en_la_calle",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4bf6369d37e5c55c"
+    },
+    {
+      "conceptId": "es.sitios_la_iglesia_esta_en_la_esquina",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3f16dcc684535a80"
+    },
+    {
+      "conceptId": "es.sitios_es_posible_llegar_a_pie",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.30d24d5516bec8f9"
+    },
+    {
+      "conceptId": "es.sitios_cualquier_taxi_te_lleva_al_aeropuerto",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2d7483b0ba9b921b"
+    },
+    {
+      "conceptId": "es.sitios_el_personal_del_hotel_es_amable",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.76646e80f1a8865e"
+    },
+    {
+      "conceptId": "es.sitios_madrid_es_la_capital_de_espana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ec90706f06a6b70e"
+    },
+    {
+      "conceptId": "es.sitios_el_museo_nacional_es_enorme",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.678e0fa9d0975fb5"
+    },
+    {
+      "conceptId": "es.sitios_no_hay_espacio_para_estacionar",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5b07ae89569255ab"
+    },
+    {
+      "conceptId": "es.sitios_el_puente_cruza_el_rio",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4ad0da71e6efec4b"
+    },
+    {
+      "conceptId": "es.sitios_la_torre_es_el_edificio_mas_alto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2395acb6a31ede10"
+    },
+    {
+      "conceptId": "es.sitios_vivo_cerca_del_centro_comercial",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dafc4f3ad68c90ee"
+    },
+    {
+      "conceptId": "es.sitios_el_pueblo_tiene_mil_habitantes",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dd4f30a00df22141"
+    },
+    {
+      "conceptId": "es.sitios_el_barrio_es_tranquilo_y_seguro",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.de23f8f383244292"
+    },
+    {
+      "conceptId": "es.sitios_el_barco_sale_del_puerto_al_amanecer",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d1ff8b8efd8009c7"
+    },
+    {
+      "conceptId": "es.sitios_esta_zona_es_muy_turistica",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.92662ac37677ff5a"
+    },
+    {
+      "conceptId": "es.sitios_el_guia_nos_mostro_la_ciudad_vieja",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.278d8420ed1d0030"
+    },
+    {
+      "conceptId": "es.sitios_es_un_aeropuerto_internacional_muy_grande",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1b2616172576985d"
+    },
+    {
+      "conceptId": "es.sitios_el_museo_esta_al_sur_de_la_ciudad",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7e1e3da44be5a2ee"
+    },
+    {
+      "conceptId": "es.sitios_mi_familia_vive_en_las_afueras",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e7e6e873e9816452"
+    },
+    {
+      "conceptId": "es.sitios_visitamos_un_monumento_muy_antiguo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.251c548eeb0924f8"
+    },
+    {
+      "conceptId": "es.sitios_entrenan_en_el_gimnasio_del_barrio",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.01d2691cb85415f0"
+    },
+    {
+      "conceptId": "es.sitios_tomamos_un_cafe_en_la_cafeteria",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.669cd6bb5af271a2"
+    },
+    {
+      "conceptId": "es.sitios_bailamos_toda_la_noche_en_la_discoteca",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d00657af0c80fcf8"
+    },
+    {
+      "conceptId": "es.sitios_compro_novelas_en_la_libreria",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ea88e69f8aa91176"
+    },
+    {
+      "conceptId": "es.sitios_estudio_idiomas_en_una_academia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.79af9c5762b80a1a"
+    },
+    {
+      "conceptId": "es.sitios_los_ninos_disfrutan_en_el_zoo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.20271464c7a73e62"
+    }
   ]
 }

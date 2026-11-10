@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "pair": "en-de",
+  "topic": "personal_info",
+  "phrases": [
+    {
+      "id": "personal_info_i_am_a_student",
+      "conceptId": "de.personal_info_i_am_a_student",
+      "sourceId": "en.s.aef259d3cdd5fa71",
+      "source": "I am a student.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ich bin Student.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "ich_bin_student"
+        },
+        {
+          "text": "Ich bin Studentin.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "ich_bin_studentin"
+        }
+      ]
+    }
+  ]
+}

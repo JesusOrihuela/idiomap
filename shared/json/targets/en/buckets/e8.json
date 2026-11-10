@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "e8",
+  "concepts": {
+    "en.accountability_the_variance_between_projected_and": {
+      "conceptId": "en.accountability_the_variance_between_projected_and",
+      "id": "accountability_the_variance_between_projected_and",
+      "target": [
+        {
+          "text": "The variance between projected and actual revenue must be thoroughly analyzed.",
+          "audioSlug": "the_variance_between_projected_and_actual_revenue_must_be_thoroughly_analyzed"
+        }
+      ]
+    },
+    "en.conversacion_he_gave_a_speech": {
+      "conceptId": "en.conversacion_he_gave_a_speech",
+      "id": "conversacion_he_gave_a_speech",
+      "target": [
+        {
+          "text": "He gave a speech.",
+          "audioSlug": "he_gave_a_speech"
+        }
+      ]
+    },
+    "en.conversacion_such_a_good_idea": {
+      "conceptId": "en.conversacion_such_a_good_idea",
+      "id": "conversacion_such_a_good_idea",
+      "target": [
+        {
+          "text": "It was such a good idea.",
+          "audioSlug": "it_was_such_a_good_idea"
+        }
+      ]
+    },
+    "en.describiendo_personas_you_are_strong": {
+      "conceptId": "en.describiendo_personas_you_are_strong",
+      "id": "describiendo_personas_you_are_strong",
+      "target": [
+        {
+          "text": "You are strong.",
+          "audioSlug": "you_are_strong"
+        }
+      ]
+    },
+    "en.descripciones_this_is_very_strange": {
+      "conceptId": "en.descripciones_this_is_very_strange",
+      "id": "descripciones_this_is_very_strange",
+      "target": [
+        {
+          "text": "This is very strange.",
+          "audioSlug": "this_is_very_strange"
+        }
+      ]
+    },
+    "en.emergencias_i_am_in_trouble": {
+      "conceptId": "en.emergencias_i_am_in_trouble",
+      "id": "emergencias_i_am_in_trouble",
+      "target": [
+        {
+          "text": "I am in trouble.",
+          "audioSlug": "i_am_in_trouble"
+        }
+      ]
+    },
+    "en.emociones_don_t_be_afraid_to_fail": {
+      "conceptId": "en.emociones_don_t_be_afraid_to_fail",
+      "id": "emociones_don_t_be_afraid_to_fail",
+      "target": [
+        {
+          "text": "Don't be afraid to fail.",
+          "audioSlug": "don_t_be_afraid_to_fail"
+        }
+      ]
+    },
+    "en.greetings_say_hi_to_everyone_for_me": {
+      "conceptId": "en.greetings_say_hi_to_everyone_for_me",
+      "id": "greetings_say_hi_to_everyone_for_me",
+      "target": [
+        {
+          "text": "Say hi to everyone for me.",
+          "audioSlug": "say_hi_to_everyone_for_me",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Say hello to everyone for me.",
+          "audioSlug": "say_hello_to_everyone_for_me",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_rarely_do_we_see": {
+      "conceptId": "en.pensamientos_opiniones_rarely_do_we_see",
+      "id": "pensamientos_opiniones_rarely_do_we_see",
+      "target": [
+        {
+          "text": "Rarely do we see such dedication.",
+          "audioSlug": "rarely_do_we_see_such_dedication"
+        }
+      ]
+    },
+    "en.personal_info_im_years_old": {
+      "conceptId": "en.personal_info_im_years_old",
+      "id": "personal_info_im_years_old",
+      "target": [
+        {
+          "text": "I'm twenty-five years old.",
+          "audioSlug": "i_m_twenty_five_years_old"
+        }
+      ]
+    },
+    "en.technology_how_do_i_save_this_file": {
+      "conceptId": "en.technology_how_do_i_save_this_file",
+      "id": "technology_how_do_i_save_this_file",
+      "target": [
+        {
+          "text": "How do I save this file to the cloud?",
+          "audioSlug": "how_do_i_save_this_file_to_the_cloud"
+        }
+      ]
+    },
+    "en.theater_subverts_expectations_first_scene": {
+      "conceptId": "en.theater_subverts_expectations_first_scene",
+      "id": "theater_subverts_expectations_first_scene",
+      "target": [
+        {
+          "text": "What makes this production stand out is how the director subverts expectations from scene one.",
+          "audioSlug": "what_makes_this_production_stand_out_is_how_the_director_subverts_expectations_from_scene_one"
+        }
+      ]
+    },
+    "en.transportation_turn_on_meter": {
+      "conceptId": "en.transportation_turn_on_meter",
+      "id": "transportation_turn_on_meter",
+      "target": [
+        {
+          "text": "Can you turn on the meter, please?",
+          "audioSlug": "can_you_turn_on_the_meter_please"
+        }
+      ]
+    },
+    "en.vestimenta_i_like_that_blue_shirt": {
+      "conceptId": "en.vestimenta_i_like_that_blue_shirt",
+      "id": "vestimenta_i_like_that_blue_shirt",
+      "target": [
+        {
+          "text": "I like that blue shirt.",
+          "audioSlug": "i_like_that_blue_shirt"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "animales",
+  "phrases": [
+    {
+      "id": "animales_it_is_a_wild_animal",
+      "conceptId": "en.animales_it_is_a_wild_animal",
+      "sourceId": "es.s.e1212d8236930da8",
+      "source": "Es un animal salvaje.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It is a wild animal.",
+          "audioSlug": "it_is_a_wild_animal"
+        }
+      ]
+    },
+    {
+      "id": "animales_a_dog_runs_fast",
+      "conceptId": "en.animales_a_dog_runs_fast",
+      "sourceId": "es.s.2b060a7e0c8ee0f7",
+      "source": "Un perro corre rápido.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "A dog runs fast.",
+          "audioSlug": "a_dog_runs_fast"
+        }
+      ]
+    },
+    {
+      "id": "animales_my_cat_sleeps_a_lot",
+      "conceptId": "en.animales_my_cat_sleeps_a_lot",
+      "sourceId": "es.s.79eef2894097e034",
+      "source": "Mi gato duerme mucho.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My cat sleeps a lot.",
+          "audioSlug": "my_cat_sleeps_a_lot"
+        }
+      ]
+    },
+    {
+      "id": "animales_it_is_a_small_bird",
+      "conceptId": "en.animales_it_is_a_small_bird",
+      "sourceId": "es.s.da61d82b5b0d7c18",
+      "source": "Es un pájaro pequeño.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "It is a small bird.",
+          "audioSlug": "it_is_a_small_bird"
+        }
+      ]
+    },
+    {
+      "id": "animales_birds_can_fly",
+      "conceptId": "en.animales_birds_can_fly",
+      "sourceId": "es.s.95b6b9e08b4f6909",
+      "source": "Los pájaros pueden volar.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Birds can fly.",
+          "audioSlug": "birds_can_fly"
+        }
+      ]
+    },
+    {
+      "id": "animales_the_cat_is_black",
+      "conceptId": "en.animales_the_cat_is_black",
+      "sourceId": "es.s.aa8fdd9b3263b9b5",
+      "source": "El gato es negro.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The cat is black.",
+          "audioSlug": "the_cat_is_black"
+        }
+      ]
+    },
+    {
+      "id": "animales_is_that_dog_male_or_female",
+      "conceptId": "en.animales_is_that_dog_male_or_female",
+      "sourceId": "es.s.b2794fa7a296031f",
+      "source": "¿Ese perro es macho o hembra?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is that dog male or female?",
+          "audioSlug": "is_that_dog_male_or_female"
+        }
+      ]
+    },
+    {
+      "id": "animales_dog_barking_loudly",
+      "conceptId": "en.animales_dog_barking_loudly",
+      "sourceId": "es.s.35825781a9d8ba53",
+      "source": "El perro está ladrando fuerte.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The dog is barking loudly.",
+          "audioSlug": "the_dog_is_barking_loudly"
+        }
+      ]
+    },
+    {
+      "id": "animales_cats_sleep_most_day",
+      "conceptId": "en.animales_cats_sleep_most_day",
+      "sourceId": "es.s.ef9b50b048347a10",
+      "source": "Los gatos duermen casi todo el día.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cats sleep most of the day.",
+          "audioSlug": "cats_sleep_most_of_the_day"
+        }
+      ]
+    },
+    {
+      "id": "animales_birds_fly_south",
+      "conceptId": "en.animales_birds_fly_south",
+      "sourceId": "es.s.46b958f33204955f",
+      "source": "Los pájaros vuelan al sur en invierno.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Birds fly south in winter.",
+          "audioSlug": "birds_fly_south_in_winter"
+        }
+      ]
+    },
+    {
+      "id": "animales_saw_elephant_zoo",
+      "conceptId": "en.animales_saw_elephant_zoo",
+      "sourceId": "es.s.62f99f4524f6f1b4",
+      "source": "Vi un elefante en el zoológico.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I saw an elephant at the zoo.",
+          "audioSlug": "i_saw_an_elephant_at_the_zoo"
+        }
+      ]
+    },
+    {
+      "id": "animales_horse_ran_field",
+      "conceptId": "en.animales_horse_ran_field",
+      "sourceId": "es.s.24237032189888e9",
+      "source": "El caballo corrió por el campo.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The horse ran across the field.",
+          "audioSlug": "the_horse_ran_across_the_field"
+        }
+      ]
+    },
+    {
+      "id": "animales_fish_live_in_water",
+      "conceptId": "en.animales_fish_live_in_water",
+      "sourceId": "es.s.78e68976200b6605",
+      "source": "Los peces viven en el agua.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Fish live in water.",
+          "audioSlug": "fish_live_in_water"
+        }
+      ]
+    },
+    {
+      "id": "animales_cat_likes_climb_trees",
+      "conceptId": "en.animales_cat_likes_climb_trees",
+      "sourceId": "es.s.db3d71ac533c5794",
+      "source": "A mi gato le gusta trepar árboles.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My cat likes to climb trees.",
+          "audioSlug": "my_cat_likes_to_climb_trees"
+        }
+      ]
+    },
+    {
+      "id": "animales_cows_give_milk",
+      "conceptId": "en.animales_cows_give_milk",
+      "sourceId": "es.s.6db3c32344733911",
+      "source": "Las vacas nos dan leche.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Cows give us milk.",
+          "audioSlug": "cows_give_us_milk"
+        }
+      ]
+    },
+    {
+      "id": "animales_rabbit_hopped_away",
+      "conceptId": "en.animales_rabbit_hopped_away",
+      "sourceId": "es.s.dfb4090a2a027221",
+      "source": "El conejo se alejó saltando rápido.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The rabbit hopped away quickly.",
+          "audioSlug": "the_rabbit_hopped_away_quickly"
+        }
+      ]
+    }
+  ]
+}

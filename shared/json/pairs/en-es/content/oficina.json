@@ -1,23 +1,215 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "oficina",
-  "conceptIds": [
-    "es.oficina_empecemos_la_reunion",
-    "es.oficina_cuando_esta_programada_la_reunion",
-    "es.oficina_es_importante_considerar_las_nuevas_tendencias_del_mercado",
-    "es.oficina_tenemos_un_nuevo_cliente",
-    "es.oficina_esta_es_mi_oficina",
-    "es.oficina_el_es_mi_jefe",
-    "es.oficina_trabajo_para_una_organizacion",
-    "es.oficina_trabajo_en_este_sector",
-    "es.oficina_como_fue_la_entrevista",
-    "es.oficina_trabajo_de_lunes_a_viernes",
-    "es.oficina_este_es_mi_proyecto",
-    "es.oficina_tiene_experiencia",
-    "es.oficina_send_me_the_report",
-    "es.oficina_meeting_at_ten",
-    "es.oficina_print_this_document",
-    "es.oficina_boss_in_meeting"
+  "phrases": [
+    {
+      "conceptId": "es.oficina_empecemos_la_reunion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.9bbdf478248e6596"
+    },
+    {
+      "conceptId": "es.oficina_cuando_esta_programada_la_reunion",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d82535ca2edc2542"
+    },
+    {
+      "conceptId": "es.oficina_es_importante_considerar_las_nuevas_tendencias_del_mercado",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c09740202371886d"
+    },
+    {
+      "conceptId": "es.oficina_tenemos_un_nuevo_cliente",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2f4d6ad3852fd846"
+    },
+    {
+      "conceptId": "es.oficina_esta_es_mi_oficina",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7194ca43e4ca4485"
+    },
+    {
+      "conceptId": "es.oficina_el_es_mi_jefe",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ac7b6505c2f43db2"
+    },
+    {
+      "conceptId": "es.oficina_trabajo_para_una_organizacion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.642f8392c10b7af2"
+    },
+    {
+      "conceptId": "es.oficina_trabajo_en_este_sector",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.29119fe371f5adc5"
+    },
+    {
+      "conceptId": "es.oficina_como_fue_la_entrevista",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5f3696b8e1c8f395"
+    },
+    {
+      "conceptId": "es.oficina_trabajo_de_lunes_a_viernes",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f5562dff58687438"
+    },
+    {
+      "conceptId": "es.oficina_este_es_mi_proyecto",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.25fc35c74a4460dc"
+    },
+    {
+      "conceptId": "es.oficina_tiene_experiencia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a52d6d7a2cab86dd"
+    },
+    {
+      "conceptId": "es.oficina_send_me_the_report",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4c37446e502158dd"
+    },
+    {
+      "conceptId": "es.oficina_meeting_at_ten",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5436f1948014f63c"
+    },
+    {
+      "conceptId": "es.oficina_print_this_document",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.0fb97acc22c1957e"
+    },
+    {
+      "conceptId": "es.oficina_boss_in_meeting",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.643c037e3a2ffe14"
+    }
   ]
 }

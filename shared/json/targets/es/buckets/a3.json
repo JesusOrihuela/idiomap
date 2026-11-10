@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "a3",
+  "concepts": {
+    "es.conversacion_es_normal_desear_una_vida_mejor": {
+      "conceptId": "es.conversacion_es_normal_desear_una_vida_mejor",
+      "id": "conversacion_es_normal_desear_una_vida_mejor",
+      "target": [
+        {
+          "text": "Es normal desear una vida mejor.",
+          "audioSlug": "es_normal_desear_una_vida_mejor"
+        }
+      ]
+    },
+    "es.descripciones_el_clima_de_hoy_es_peor_que_ayer": {
+      "conceptId": "es.descripciones_el_clima_de_hoy_es_peor_que_ayer",
+      "id": "descripciones_el_clima_de_hoy_es_peor_que_ayer",
+      "target": [
+        {
+          "text": "El clima de hoy es peor que ayer.",
+          "audioSlug": "el_clima_de_hoy_es_peor_que_ayer"
+        }
+      ]
+    },
+    "es.economia_trabajo_en_una_compania_muy_grande": {
+      "conceptId": "es.economia_trabajo_en_una_compania_muy_grande",
+      "id": "economia_trabajo_en_una_compania_muy_grande",
+      "target": [
+        {
+          "text": "Trabajo en una compañía muy grande.",
+          "audioSlug": "trabajo_en_una_compania_muy_grande"
+        }
+      ]
+    },
+    "es.emociones_es_facil_enamorarse_en_primavera": {
+      "conceptId": "es.emociones_es_facil_enamorarse_en_primavera",
+      "id": "emociones_es_facil_enamorarse_en_primavera",
+      "target": [
+        {
+          "text": "Es fácil enamorarse en primavera.",
+          "audioSlug": "es_facil_enamorarse_en_primavera"
+        }
+      ]
+    },
+    "es.family_my_daughter_student": {
+      "conceptId": "es.family_my_daughter_student",
+      "id": "family_my_daughter_student",
+      "target": [
+        {
+          "text": "Mi hija es estudiante.",
+          "audioSlug": "mi_hija_es_estudiante"
+        }
+      ]
+    },
+    "es.fiesta_blow_out_the_candles": {
+      "conceptId": "es.fiesta_blow_out_the_candles",
+      "id": "fiesta_blow_out_the_candles",
+      "target": [
+        {
+          "text": "Sopla las velas.",
+          "audioSlug": "sopla_las_velas"
+        }
+      ]
+    },
+    "es.greetings_encantado": {
+      "conceptId": "es.greetings_encantado",
+      "id": "greetings_encantado",
+      "target": [
+        {
+          "text": "Encantada.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "encantada"
+        },
+        {
+          "text": "Encantado.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "encantado"
+        }
+      ]
+    },
+    "es.greetings_hasta_manana": {
+      "conceptId": "es.greetings_hasta_manana",
+      "id": "greetings_hasta_manana",
+      "target": [
+        {
+          "text": "Hasta mañana.",
+          "audioSlug": "hasta_manana"
+        }
+      ]
+    },
+    "es.gym_how_long_should_i_rest_between": {
+      "conceptId": "es.gym_how_long_should_i_rest_between",
+      "id": "gym_how_long_should_i_rest_between",
+      "target": [
+        {
+          "text": "¿Cuánto tiempo debo descansar entre sesiones de entrenamiento?",
+          "audioSlug": "cuanto_tiempo_debo_descansar_entre_sesiones_de_entrenamiento"
+        }
+      ]
+    },
+    "es.hogar_los_libros_estan_en_la_estanteria": {
+      "conceptId": "es.hogar_los_libros_estan_en_la_estanteria",
+      "id": "hogar_los_libros_estan_en_la_estanteria",
+      "target": [
+        {
+          "text": "Los libros están en la estantería.",
+          "audioSlug": "los_libros_estan_en_la_estanteria"
+        }
+      ]
+    },
+    "es.kitchen_blanch_vegetables_before_stir_fry": {
+      "conceptId": "es.kitchen_blanch_vegetables_before_stir_fry",
+      "id": "kitchen_blanch_vegetables_before_stir_fry",
+      "target": [
+        {
+          "text": "Esta receta requiere blanquear las verduras antes de agregarlas al salteado.",
+          "audioSlug": "esta_receta_requiere_blanquear_las_verduras_antes_de_agregarlas_al_salteado"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_la_tierra_es_fertil": {
+      "conceptId": "es.naturaleza_lugares_la_tierra_es_fertil",
+      "id": "naturaleza_lugares_la_tierra_es_fertil",
+      "target": [
+        {
+          "text": "La tierra es fértil en esta región.",
+          "audioSlug": "la_tierra_es_fertil_en_esta_region"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_cualquier_decision_tiene_consecuencias": {
+      "conceptId": "es.pensamientos_opiniones_cualquier_decision_tiene_consecuencias",
+      "id": "pensamientos_opiniones_cualquier_decision_tiene_consecuencias",
+      "target": [
+        {
+          "text": "Cualquier decisión tiene consecuencias.",
+          "audioSlug": "cualquier_decision_tiene_consecuencias"
+        }
+      ]
+    },
+    "es.viajes_tuviste_un_buen_viaje": {
+      "conceptId": "es.viajes_tuviste_un_buen_viaje",
+      "id": "viajes_tuviste_un_buen_viaje",
+      "target": [
+        {
+          "text": "¿Tuviste un buen viaje?",
+          "audioSlug": "tuviste_un_buen_viaje"
+        }
+      ]
+    }
+  }
+}

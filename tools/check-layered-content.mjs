@@ -1,12 +1,13 @@
 #!/usr/bin/env node
-/* Layered-content gate (F7): every pair topic resolves from C1 order/gloss + C3
- * concepts, with no orphans in either direction.
+/* Layered-content gate: every pair topic resolves from its C1 content file
+ * (source/level/grammar) + C3 concepts, with no orphans in either direction.
  *
  * Usage: node tools/check-layered-content.mjs
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { sourceText } from './lib-source-store.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const R = (p) => path.join(ROOT, p);
@@ -18,6 +19,8 @@ const pairs = fs.readdirSync(R('shared/json/pairs'), { withFileTypes: true })
 
 for (const pair of pairs) {
   const meta = read(`shared/json/pairs/${pair}/topics.json`);
+  const pairInfo = read(`shared/json/pairs/${pair}/pair.json`);
+  const sourceLang = pairInfo.source.code;
   const phraseTopics = meta.topics.filter((t) => t.phrase).map((t) => t.id);
   const target = pair.split('-')[1];
   const pack = read(`shared/json/targets/${target}/concepts.json`);
@@ -26,20 +29,30 @@ for (const pair of pairs) {
     if (byId.has(c.conceptId)) fails.push(`[${target}] duplicate conceptId ${c.conceptId}`);
     byId.set(c.conceptId, c);
   }
-  const gloss = read(`shared/json/pairs/${pair}/gloss.json`).glosses;
   const contentDir = R(`shared/json/pairs/${pair}/content`);
   if (!fs.existsSync(contentDir)) { fails.push(`[${pair}] missing content/`); continue; }
   const orderFiles = fs.readdirSync(contentDir).filter((f) => f.endsWith('.json')).map((f) => f.replace(/\.json$/, ''));
   for (const topic of phraseTopics) {
     if (!orderFiles.includes(topic)) { fails.push(`[${pair}] missing content/${topic}.json`); continue; }
     const order = read(`shared/json/pairs/${pair}/content/${topic}.json`);
-    for (const cid of order.conceptIds) {
+    if (order.schemaVersion !== 3) fails.push(`[${pair}/${topic}] content schemaVersion must be 3`);
+    const seen = new Set();
+    for (const row of (order.phrases || [])) {
+      const cid = row.conceptId;
+      if (seen.has(cid)) fails.push(`[${pair}/${topic}] duplicate concept ${cid}`);
+      seen.add(cid);
       const c = byId.get(cid);
       if (!c) { fails.push(`[${pair}/${topic}] concept ${cid} missing in targets/${target}`); continue; }
-      if (!gloss[cid]) fails.push(`[${pair}/${topic}] gloss ${cid} missing`);
+      if (!row.sourceId) fails.push(`[${pair}/${topic}] sourceId missing for ${cid}`);
+      else {
+        try { sourceText(sourceLang, row.sourceId); }
+        catch { fails.push(`[${pair}/${topic}] sourceId ${row.sourceId} missing from source-texts/${sourceLang}`); }
+      }
+      if (!row.level) fails.push(`[${pair}/${topic}] level missing for ${cid}`);
       if (!Array.isArray(c.target) || !c.target.length) fails.push(`[${pair}/${topic}] concept ${cid} has no target forms`);
       for (const f of c.target) if (!f.text || !f.audioSlug) fails.push(`[${pair}/${topic}] concept ${cid} form missing text/audioSlug`);
     }
+    if (!Array.isArray(order.phrases)) fails.push(`[${pair}/${topic}] old content schema (conceptIds); run tools/merge-gloss.mjs`);
   }
   for (const t of orderFiles) if (!phraseTopics.includes(t)) fails.push(`[${pair}] orphan content/${t}.json (not in topics.json)`);
 }

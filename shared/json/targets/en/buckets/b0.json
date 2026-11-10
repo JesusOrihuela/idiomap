@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "b0",
+  "concepts": {
+    "en.descripciones_is_it_private": {
+      "conceptId": "en.descripciones_is_it_private",
+      "id": "descripciones_is_it_private",
+      "target": [
+        {
+          "text": "Is it private?",
+          "audioSlug": "is_it_private"
+        }
+      ]
+    },
+    "en.emociones_im_happy": {
+      "conceptId": "en.emociones_im_happy",
+      "id": "emociones_im_happy",
+      "target": [
+        {
+          "text": "I'm happy.",
+          "audioSlug": "i_m_happy"
+        }
+      ]
+    },
+    "en.estudios_science_is_too_hard": {
+      "conceptId": "en.estudios_science_is_too_hard",
+      "id": "estudios_science_is_too_hard",
+      "target": [
+        {
+          "text": "Science is too hard.",
+          "audioSlug": "science_is_too_hard"
+        }
+      ]
+    },
+    "en.fiesta_lets_celebrate_together": {
+      "conceptId": "en.fiesta_lets_celebrate_together",
+      "id": "fiesta_lets_celebrate_together",
+      "target": [
+        {
+          "text": "Let's celebrate together.",
+          "audioSlug": "let_s_celebrate_together"
+        }
+      ]
+    },
+    "en.movies_nonlinear_storytelling_effective": {
+      "conceptId": "en.movies_nonlinear_storytelling_effective",
+      "id": "movies_nonlinear_storytelling_effective",
+      "target": [
+        {
+          "text": "I find the director's use of non-linear storytelling particularly effective in this piece.",
+          "audioSlug": "i_find_the_director_s_use_of_non_linear_storytelling_particularly_effective_in_this_piece"
+        }
+      ]
+    },
+    "en.music_turn_on": {
+      "conceptId": "en.music_turn_on",
+      "id": "music_turn_on",
+      "target": [
+        {
+          "text": "Let's put on some music.",
+          "audioSlug": "let_s_put_on_some_music"
+        }
+      ]
+    },
+    "en.restaurant_no_reservation_wait_time": {
+      "conceptId": "en.restaurant_no_reservation_wait_time",
+      "id": "restaurant_no_reservation_wait_time",
+      "target": [
+        {
+          "text": "We have no reservation. How long is the wait for a table of four?",
+          "audioSlug": "we_have_no_reservation_how_long_is_the_wait_for_a_table_of_four"
+        }
+      ]
+    },
+    "en.theater_physical_performance_no_dialogue": {
+      "conceptId": "en.theater_physical_performance_no_dialogue",
+      "id": "theater_physical_performance_no_dialogue",
+      "target": [
+        {
+          "text": "The lead actor's physical performance was remarkable, almost entirely without dialogue.",
+          "audioSlug": "the_lead_actor_s_physical_performance_was_remarkable_almost_entirely_without_dialogue"
+        }
+      ]
+    }
+  }
+}

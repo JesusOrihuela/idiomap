@@ -1,61 +1,709 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "tiempo_libre",
-  "conceptIds": [
-    "es.tiempo_libre_me_gusta_leer_novelas",
-    "es.tiempo_libre_los_fines_de_semana_salgo_a_pasear",
-    "es.tiempo_libre_toco_la_guitarra",
-    "es.tiempo_libre_que_haces_los_domingos",
-    "es.tiempo_libre_me_encanta_ir_al_cine",
-    "es.tiempo_libre_estoy_aprendiendo_a_pintar",
-    "es.tiempo_libre_escucho_musica_todos_los_dias",
-    "es.tiempo_libre_juego_a_las_cartas_con_amigos",
-    "es.tiempo_libre_cuando_tengo_tiempo_visito_museos",
-    "es.tiempo_libre_prefiero_quedarme_en_casa",
-    "es.tiempo_libre_anoche_vi_una_pelicula_buena",
-    "es.tiempo_libre_me_gusta_oir_musica_clasica",
-    "es.tiempo_libre_los_domingos_duermo_hasta_tarde",
-    "es.tiempo_libre_suelo_poner_musica_por_la_tarde",
-    "es.tiempo_libre_no_se_me_da_mal_el_ajedrez",
-    "es.tiempo_libre_alli_hay_un_parque_grande",
-    "es.tiempo_libre_prefiero_ver_series_en_casa",
-    "es.tiempo_libre_toco_el_piano_desde_hace_anos",
-    "es.tiempo_libre_me_gusta_bailar_salsa",
-    "es.tiempo_libre_suelo_leer_antes_de_dormir",
-    "es.tiempo_libre_ese_actor_aparece_en_muchas_peliculas",
-    "es.tiempo_libre_un_cambio_de_rutina_ayuda",
-    "es.tiempo_libre_colecciono_monedas_antiguas",
-    "es.tiempo_libre_pintar_me_ayuda_a_relajarme",
-    "es.tiempo_libre_los_conciertos_en_vivo_son_emocionantes",
-    "es.tiempo_libre_a_veces_juego_videojuegos",
-    "es.tiempo_libre_me_gusta_cantar_en_la_ducha",
-    "es.tiempo_libre_vamos_al_teatro_esta_noche",
-    "es.tiempo_libre_estoy_leyendo_el_ultimo_capitulo",
-    "es.tiempo_libre_el_director_de_la_pelicula_es_famoso",
-    "es.tiempo_libre_me_dedico_a_la_fotografia",
-    "es.tiempo_libre_salimos_a_andar_por_el_parque",
-    "es.tiempo_libre_toco_en_una_banda_con_amigos",
-    "es.tiempo_libre_el_actor_principal_es_talentoso",
-    "es.tiempo_libre_los_domingos_me_gusta_jugar_a_las_cartas",
-    "es.tiempo_libre_ver_una_comedia_siempre_me_hace_reir",
-    "es.tiempo_libre_los_ninos_se_van_a_divertir_en_la_feria",
-    "es.tiempo_libre_leo_el_periodico_todas_las_mananas",
-    "es.tiempo_libre_me_gusta_imaginar_historias_nuevas",
-    "es.tiempo_libre_fuimos_a_un_espectaculo_de_baile",
-    "es.tiempo_libre_gano_el_concurso_de_talentos",
-    "es.tiempo_libre_el_museo_tiene_una_exposicion_de_pintura",
-    "es.tiempo_libre_compre_una_revista_de_moda",
-    "es.tiempo_libre_ese_musico_tiene_un_disco_nuevo",
-    "es.tiempo_libre_tiene_un_gran_sentido_del_humor",
-    "es.tiempo_libre_el_arte_moderno_me_resulta_interesante",
-    "es.tiempo_libre_ese_actor_es_muy_conocido",
-    "es.tiempo_libre_el_escritor_firma_su_nuevo_libro",
-    "es.tiempo_libre_ese_cantante_tiene_mucho_exito",
-    "es.tiempo_libre_toco_un_instrumento_musical",
-    "es.tiempo_libre_me_relaja_dibujar_por_las_tardes",
-    "es.tiempo_libre_en_el_parque_hay_una_estatua_de_bronce",
-    "es.tiempo_libre_la_pintora_expone_sus_cuadros",
-    "es.tiempo_libre_me_gusta_leer_poesia_por_la_noche"
+  "phrases": [
+    {
+      "conceptId": "es.tiempo_libre_me_gusta_leer_novelas",
+      "level": "A1",
+      "grammar": "me gusta más infinitivo, me gusta leer.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.55b8c0463e3c1e7e"
+    },
+    {
+      "conceptId": "es.tiempo_libre_los_fines_de_semana_salgo_a_pasear",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bfb79fdbce8415bc"
+    },
+    {
+      "conceptId": "es.tiempo_libre_toco_la_guitarra",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c42d6b11297a22e0"
+    },
+    {
+      "conceptId": "es.tiempo_libre_que_haces_los_domingos",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.41041b3c77690098"
+    },
+    {
+      "conceptId": "es.tiempo_libre_me_encanta_ir_al_cine",
+      "level": "A2",
+      "grammar": "encantar funciona como gustar, me encanta ir.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4db68ae3b3716579"
+    },
+    {
+      "conceptId": "es.tiempo_libre_estoy_aprendiendo_a_pintar",
+      "level": "B1",
+      "grammar": "estar más gerundio expresa una acción en curso, estoy aprendiendo.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.97c1156b2785fba6"
+    },
+    {
+      "conceptId": "es.tiempo_libre_escucho_musica_todos_los_dias",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.540c8d7cdd6b90a0"
+    },
+    {
+      "conceptId": "es.tiempo_libre_juego_a_las_cartas_con_amigos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1ee12248480d62f5"
+    },
+    {
+      "conceptId": "es.tiempo_libre_cuando_tengo_tiempo_visito_museos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3be4edebd8122bfe"
+    },
+    {
+      "conceptId": "es.tiempo_libre_prefiero_quedarme_en_casa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.174dee148c22c70f"
+    },
+    {
+      "conceptId": "es.tiempo_libre_anoche_vi_una_pelicula_buena",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cd941a471647b0b6"
+    },
+    {
+      "conceptId": "es.tiempo_libre_me_gusta_oir_musica_clasica",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d45cb3e037d82e31"
+    },
+    {
+      "conceptId": "es.tiempo_libre_los_domingos_duermo_hasta_tarde",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e2a5c2cf60b3b1b3"
+    },
+    {
+      "conceptId": "es.tiempo_libre_suelo_poner_musica_por_la_tarde",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.993263320b013b04"
+    },
+    {
+      "conceptId": "es.tiempo_libre_no_se_me_da_mal_el_ajedrez",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ea42d5f9b2573788"
+    },
+    {
+      "conceptId": "es.tiempo_libre_alli_hay_un_parque_grande",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.29f69e416a4b4eef"
+    },
+    {
+      "conceptId": "es.tiempo_libre_prefiero_ver_series_en_casa",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ca8870a316f4385e"
+    },
+    {
+      "conceptId": "es.tiempo_libre_toco_el_piano_desde_hace_anos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7483f911fa7e7c37"
+    },
+    {
+      "conceptId": "es.tiempo_libre_me_gusta_bailar_salsa",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3b9e967c03aeb8c1"
+    },
+    {
+      "conceptId": "es.tiempo_libre_suelo_leer_antes_de_dormir",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.48f9bf3ec5551048"
+    },
+    {
+      "conceptId": "es.tiempo_libre_ese_actor_aparece_en_muchas_peliculas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.11bb43a354892503"
+    },
+    {
+      "conceptId": "es.tiempo_libre_un_cambio_de_rutina_ayuda",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3ef3fa749c9f4a1c"
+    },
+    {
+      "conceptId": "es.tiempo_libre_colecciono_monedas_antiguas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9ad946e6e1439dbd"
+    },
+    {
+      "conceptId": "es.tiempo_libre_pintar_me_ayuda_a_relajarme",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e33a1507143c3328"
+    },
+    {
+      "conceptId": "es.tiempo_libre_los_conciertos_en_vivo_son_emocionantes",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b3e542bfd7794dfc"
+    },
+    {
+      "conceptId": "es.tiempo_libre_a_veces_juego_videojuegos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.45a85e49813db4b2"
+    },
+    {
+      "conceptId": "es.tiempo_libre_me_gusta_cantar_en_la_ducha",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.75c94be23e498b05"
+    },
+    {
+      "conceptId": "es.tiempo_libre_vamos_al_teatro_esta_noche",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.99166c5075e138f8"
+    },
+    {
+      "conceptId": "es.tiempo_libre_estoy_leyendo_el_ultimo_capitulo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.28ade628ee0f5674"
+    },
+    {
+      "conceptId": "es.tiempo_libre_el_director_de_la_pelicula_es_famoso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8f5f4bbe5fb093f2"
+    },
+    {
+      "conceptId": "es.tiempo_libre_me_dedico_a_la_fotografia",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0cb75ff29722c6fd"
+    },
+    {
+      "conceptId": "es.tiempo_libre_salimos_a_andar_por_el_parque",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3c9ae0f58257dc48"
+    },
+    {
+      "conceptId": "es.tiempo_libre_toco_en_una_banda_con_amigos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0e099277080ad52c"
+    },
+    {
+      "conceptId": "es.tiempo_libre_el_actor_principal_es_talentoso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f481cb0ef9cabf61"
+    },
+    {
+      "conceptId": "es.tiempo_libre_los_domingos_me_gusta_jugar_a_las_cartas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3f525daf1735124e"
+    },
+    {
+      "conceptId": "es.tiempo_libre_ver_una_comedia_siempre_me_hace_reir",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7f3eaea3fcd8a210"
+    },
+    {
+      "conceptId": "es.tiempo_libre_los_ninos_se_van_a_divertir_en_la_feria",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.94b6c8fdbec8c1ff"
+    },
+    {
+      "conceptId": "es.tiempo_libre_leo_el_periodico_todas_las_mananas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f43b812049d7c63b"
+    },
+    {
+      "conceptId": "es.tiempo_libre_me_gusta_imaginar_historias_nuevas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0c4a18036b3a07da"
+    },
+    {
+      "conceptId": "es.tiempo_libre_fuimos_a_un_espectaculo_de_baile",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.aa473c9c176f0637"
+    },
+    {
+      "conceptId": "es.tiempo_libre_gano_el_concurso_de_talentos",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c250206a23f2ad62"
+    },
+    {
+      "conceptId": "es.tiempo_libre_el_museo_tiene_una_exposicion_de_pintura",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c70ab487c8739d17"
+    },
+    {
+      "conceptId": "es.tiempo_libre_compre_una_revista_de_moda",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8870fcacd4ea8750"
+    },
+    {
+      "conceptId": "es.tiempo_libre_ese_musico_tiene_un_disco_nuevo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b96b15b4090ad7b4"
+    },
+    {
+      "conceptId": "es.tiempo_libre_tiene_un_gran_sentido_del_humor",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8ae22b7e2443221f"
+    },
+    {
+      "conceptId": "es.tiempo_libre_el_arte_moderno_me_resulta_interesante",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b8a079155297b734"
+    },
+    {
+      "conceptId": "es.tiempo_libre_ese_actor_es_muy_conocido",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.887dad7aba26d5d0"
+    },
+    {
+      "conceptId": "es.tiempo_libre_el_escritor_firma_su_nuevo_libro",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f705612dd3e6404a"
+    },
+    {
+      "conceptId": "es.tiempo_libre_ese_cantante_tiene_mucho_exito",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b5b8615ad1ef5425"
+    },
+    {
+      "conceptId": "es.tiempo_libre_toco_un_instrumento_musical",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.1bc1d643a02ab713"
+    },
+    {
+      "conceptId": "es.tiempo_libre_me_relaja_dibujar_por_las_tardes",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.624fbada52be2e79"
+    },
+    {
+      "conceptId": "es.tiempo_libre_en_el_parque_hay_una_estatua_de_bronce",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.39abb48991a07b8a"
+    },
+    {
+      "conceptId": "es.tiempo_libre_la_pintora_expone_sus_cuadros",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4d0907f51956faf9"
+    },
+    {
+      "conceptId": "es.tiempo_libre_me_gusta_leer_poesia_por_la_noche",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.b1b92071ff77754a"
+    }
   ]
 }

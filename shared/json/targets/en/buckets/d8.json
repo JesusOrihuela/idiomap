@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "d8",
+  "concepts": {
+    "en.accommodation_extra_pillow": {
+      "conceptId": "en.accommodation_extra_pillow",
+      "id": "accommodation_extra_pillow",
+      "target": [
+        {
+          "text": "Could you provide an extra pillow, please?",
+          "audioSlug": "could_you_provide_an_extra_pillow_please",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you provide an extra pillow, please?",
+          "audioSlug": "can_you_provide_an_extra_pillow_please",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.gym_is_there_a_personal_trainer_available": {
+      "conceptId": "en.gym_is_there_a_personal_trainer_available",
+      "id": "gym_is_there_a_personal_trainer_available",
+      "target": [
+        {
+          "text": "Is there a personal trainer available?",
+          "audioSlug": "is_there_a_personal_trainer_available"
+        }
+      ]
+    },
+    "en.health_my_throat_hurts": {
+      "conceptId": "en.health_my_throat_hurts",
+      "id": "health_my_throat_hurts",
+      "target": [
+        {
+          "text": "My throat hurts.",
+          "audioSlug": "my_throat_hurts"
+        }
+      ]
+    },
+    "en.kitchen_could_you_rinse_the_vegetables_with": {
+      "conceptId": "en.kitchen_could_you_rinse_the_vegetables_with",
+      "id": "kitchen_could_you_rinse_the_vegetables_with",
+      "target": [
+        {
+          "text": "Could you rinse the vegetables with cold water?",
+          "audioSlug": "could_you_rinse_the_vegetables_with_cold_water",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you rinse the vegetables with cold water?",
+          "audioSlug": "can_you_rinse_the_vegetables_with_cold_water",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.music_what_sort_of_music": {
+      "conceptId": "en.music_what_sort_of_music",
+      "id": "music_what_sort_of_music",
+      "target": [
+        {
+          "text": "What sort of music is that?",
+          "audioSlug": "what_sort_of_music_is_that"
+        }
+      ]
+    },
+    "en.supermarket_can_you_help_me_reach_that": {
+      "conceptId": "en.supermarket_can_you_help_me_reach_that",
+      "id": "supermarket_can_you_help_me_reach_that",
+      "target": [
+        {
+          "text": "Can you help me reach that shelf?",
+          "audioSlug": "can_you_help_me_reach_that_shelf"
+        }
+      ]
+    }
+  }
+}

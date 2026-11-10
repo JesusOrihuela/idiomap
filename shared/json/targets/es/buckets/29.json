@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "29",
+  "concepts": {
+    "es.airport_denied_boarding_compensation": {
+      "conceptId": "es.airport_denied_boarding_compensation",
+      "id": "airport_denied_boarding_compensation",
+      "target": [
+        {
+          "text": "Me negaron el embarque por sobreventas, ¿a qué compensación tengo derecho?",
+          "audioSlug": "me_negaron_el_embarque_por_sobreventas_a_que_compensacion_tengo_derecho"
+        }
+      ]
+    },
+    "es.conversacion_no_se_que_responder": {
+      "conceptId": "es.conversacion_no_se_que_responder",
+      "id": "conversacion_no_se_que_responder",
+      "target": [
+        {
+          "text": "No sé qué responder.",
+          "audioSlug": "no_se_que_responder"
+        }
+      ]
+    },
+    "es.deportes_juego_al_tenis_los_sabados": {
+      "conceptId": "es.deportes_juego_al_tenis_los_sabados",
+      "id": "deportes_juego_al_tenis_los_sabados",
+      "target": [
+        {
+          "text": "Juego al tenis los sábados.",
+          "audioSlug": "juego_al_tenis_los_sabados"
+        }
+      ]
+    },
+    "es.descripciones_es_comida_peruana": {
+      "conceptId": "es.descripciones_es_comida_peruana",
+      "id": "descripciones_es_comida_peruana",
+      "target": [
+        {
+          "text": "Es comida peruana.",
+          "audioSlug": "es_comida_peruana"
+        }
+      ]
+    },
+    "es.emergencias_donde_esta_la_salida_de_emergencia": {
+      "conceptId": "es.emergencias_donde_esta_la_salida_de_emergencia",
+      "id": "emergencias_donde_esta_la_salida_de_emergencia",
+      "target": [
+        {
+          "text": "¿Dónde está la salida de emergencia?",
+          "audioSlug": "donde_esta_la_salida_de_emergencia"
+        }
+      ]
+    },
+    "es.family_mi_cunado_trabaja_como_medico": {
+      "conceptId": "es.family_mi_cunado_trabaja_como_medico",
+      "id": "family_mi_cunado_trabaja_como_medico",
+      "target": [
+        {
+          "text": "Mi cuñado trabaja como médico.",
+          "audioSlug": "mi_cunado_trabaja_como_medico"
+        }
+      ]
+    },
+    "es.hogar_cierra_la_puerta_al_salir": {
+      "conceptId": "es.hogar_cierra_la_puerta_al_salir",
+      "id": "hogar_cierra_la_puerta_al_salir",
+      "target": [
+        {
+          "text": "Cierra la puerta al salir.",
+          "audioSlug": "cierra_la_puerta_al_salir"
+        }
+      ]
+    },
+    "es.hogar_necesito_jabon_para_lavarme_las_manos": {
+      "conceptId": "es.hogar_necesito_jabon_para_lavarme_las_manos",
+      "id": "hogar_necesito_jabon_para_lavarme_las_manos",
+      "target": [
+        {
+          "text": "Necesito jabón para lavarme las manos.",
+          "audioSlug": "necesito_jabon_para_lavarme_las_manos"
+        }
+      ]
+    },
+    "es.hogar_subimos_por_la_escalera": {
+      "conceptId": "es.hogar_subimos_por_la_escalera",
+      "id": "hogar_subimos_por_la_escalera",
+      "target": [
+        {
+          "text": "Subimos por la escalera.",
+          "audioSlug": "subimos_por_la_escalera"
+        }
+      ]
+    },
+    "es.kitchen_season_the_chicken_with_salt_pepper": {
+      "conceptId": "es.kitchen_season_the_chicken_with_salt_pepper",
+      "id": "kitchen_season_the_chicken_with_salt_pepper",
+      "target": [
+        {
+          "text": "Condimenta el pollo con sal, pimienta y ajo.",
+          "audioSlug": "condimenta_el_pollo_con_sal_pimienta_y_ajo"
+        }
+      ]
+    },
+    "es.kitchen_this_sauce_has_expired": {
+      "conceptId": "es.kitchen_this_sauce_has_expired",
+      "id": "kitchen_this_sauce_has_expired",
+      "target": [
+        {
+          "text": "Esta salsa está caducada.",
+          "audioSlug": "esta_salsa_esta_caducada"
+        }
+      ]
+    },
+    "es.movies_cinematography_worth_watching": {
+      "conceptId": "es.movies_cinematography_worth_watching",
+      "id": "movies_cinematography_worth_watching",
+      "target": [
+        {
+          "text": "La cinematografía por sí sola ya vale la pena, cada fotograma parece una pintura.",
+          "audioSlug": "la_cinematografia_por_si_sola_ya_vale_la_pena_cada_fotograma_parece_una_pintura"
+        }
+      ]
+    },
+    "es.movies_streaming_release_instead_theaters": {
+      "conceptId": "es.movies_streaming_release_instead_theaters",
+      "id": "movies_streaming_release_instead_theaters",
+      "target": [
+        {
+          "text": "Aunque estaba hecha para la pantalla grande, se estrenó en plataformas, no en cines.",
+          "audioSlug": "aunque_estaba_hecha_para_la_pantalla_grande_se_estreno_en_plataformas_no_en_cines"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_no_me_gusta_ni_el_frio_ni_el_calor": {
+      "conceptId": "es.pensamientos_opiniones_no_me_gusta_ni_el_frio_ni_el_calor",
+      "id": "pensamientos_opiniones_no_me_gusta_ni_el_frio_ni_el_calor",
+      "target": [
+        {
+          "text": "No me gusta ni el frío ni el calor.",
+          "audioSlug": "no_me_gusta_ni_el_frio_ni_el_calor"
+        }
+      ]
+    },
+    "es.personal_info_can_i_have_your_number": {
+      "conceptId": "es.personal_info_can_i_have_your_number",
+      "id": "personal_info_can_i_have_your_number",
+      "target": [
+        {
+          "text": "¿Me das tu número?",
+          "audioSlug": "me_das_tu_numero",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "¿Me da su número?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "me_da_su_numero"
+        }
+      ]
+    },
+    "es.personal_info_where_do_you_live": {
+      "conceptId": "es.personal_info_where_do_you_live",
+      "id": "personal_info_where_do_you_live",
+      "target": [
+        {
+          "text": "¿Dónde vives?",
+          "audioSlug": "donde_vives"
+        }
+      ]
+    },
+    "es.tiempo_libre_toco_en_una_banda_con_amigos": {
+      "conceptId": "es.tiempo_libre_toco_en_una_banda_con_amigos",
+      "id": "tiempo_libre_toco_en_una_banda_con_amigos",
+      "target": [
+        {
+          "text": "Toco en una banda con amigos.",
+          "audioSlug": "toco_en_una_banda_con_amigos"
+        }
+      ]
+    }
+  }
+}

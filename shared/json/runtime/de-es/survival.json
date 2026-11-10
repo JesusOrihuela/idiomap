@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "pair": "de-es",
+  "topic": "survival",
+  "phrases": [
+    {
+      "id": "survival_can_you_repeat_de",
+      "conceptId": "es.survival_can_you_repeat.de-es",
+      "sourceId": "de.s.7aad85acee4b920c",
+      "source": "Kannst du das wiederholen?",
+      "level": "A1",
+      "grammar": "Con usted se conjuga en tercera persona, puede repetir.",
+      "target": [
+        {
+          "text": "¿Puedes repetir?",
+          "source": "Kannst du das wiederholen?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "puedes_repetir"
+        },
+        {
+          "text": "¿Puede repetir?",
+          "source": "Können Sie das wiederholen?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_repetir"
+        }
+      ]
+    },
+    {
+      "id": "survival_i_dont_understand",
+      "conceptId": "es.survival_i_dont_understand",
+      "sourceId": "de.s.a833c555cd1a1500",
+      "source": "Ich verstehe nicht.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No entiendo.",
+          "audioSlug": "no_entiendo"
+        }
+      ]
+    },
+    {
+      "id": "survival_how_do_you_say_this_in_spanish",
+      "conceptId": "es.survival_how_do_you_say_this_in_spanish",
+      "sourceId": "de.s.18637e90445c03b6",
+      "source": "Wie sagt man das auf Spanisch?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo se dice esto en español?",
+          "audioSlug": "como_se_dice_esto_en_espanol"
+        }
+      ]
+    },
+    {
+      "id": "survival_what_does_this_mean",
+      "conceptId": "es.survival_what_does_this_mean",
+      "sourceId": "de.s.3b5e4b2e5a502dfd",
+      "source": "Was bedeutet das?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué significa esto?",
+          "audioSlug": "que_significa_esto"
+        }
+      ]
+    },
+    {
+      "id": "survival_can_you_help_me",
+      "conceptId": "es.survival_can_you_help_me",
+      "sourceId": "de.s.1d5b4938d197f125",
+      "source": "Kannst du mir helfen?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Puedes ayudarme?",
+          "source": "Kannst du mir helfen?",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "puedes_ayudarme"
+        },
+        {
+          "text": "¿Puede ayudarme?",
+          "source": "Können Sie mir helfen?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "puede_ayudarme"
+        }
+      ]
+    },
+    {
+      "id": "survival_i_dont_know_de",
+      "conceptId": "es.survival_i_dont_know.de-es",
+      "sourceId": "de.s.ed05194c1f5e7780",
+      "source": "Ich weiß nicht.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No sé.",
+          "audioSlug": "no_se"
+        }
+      ]
+    },
+    {
+      "id": "survival_speak_more_slowly",
+      "conceptId": "es.survival_speak_more_slowly",
+      "sourceId": "de.s.07ac6d6be5640762",
+      "source": "Sprich bitte langsamer.",
+      "level": "A2",
+      "grammar": "El imperativo con usted usa la forma hable, no habla.",
+      "target": [
+        {
+          "text": "Habla más despacio, por favor.",
+          "source": "Sprich bitte langsamer.",
+          "labels": {
+            "register": "informal"
+          },
+          "audioSlug": "habla_mas_despacio_por_favor"
+        },
+        {
+          "text": "Hable más despacio, por favor.",
+          "source": "Sprechen Sie bitte langsamer.",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "hable_mas_despacio_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "survival_where_is_the_bathroom",
+      "conceptId": "es.survival_where_is_the_bathroom",
+      "sourceId": "de.s.89d9cec1f1047bd2",
+      "source": "Entschuldigung, wo ist die Toilette?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Perdón, ¿dónde está el baño?",
+          "audioSlug": "perdon_donde_esta_el_bano"
+        }
+      ]
+    },
+    {
+      "id": "survival_disculpe_usted_habla_ingles",
+      "conceptId": "es.survival_disculpe_usted_habla_ingles",
+      "sourceId": "de.s.c0fff9512dbb5551",
+      "source": "Entschuldigung, sprechen Sie Englisch?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Disculpe, ¿usted habla inglés?",
+          "audioSlug": "disculpe_usted_habla_ingles"
+        }
+      ]
+    },
+    {
+      "id": "survival_como_se_escribe_tu_nombre",
+      "conceptId": "es.survival_como_se_escribe_tu_nombre",
+      "sourceId": "de.s.4e17de8f613fd4d6",
+      "source": "Wie schreibt man deinen Namen?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Cómo se escribe tu nombre?",
+          "audioSlug": "como_se_escribe_tu_nombre"
+        }
+      ]
+    },
+    {
+      "id": "survival_asi_se_dice_en_espanol",
+      "conceptId": "es.survival_asi_se_dice_en_espanol",
+      "sourceId": "de.s.d68ba63dd423457a",
+      "source": "So sagt man es auf Spanisch.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Así se dice en español.",
+          "audioSlug": "asi_se_dice_en_espanol"
+        }
+      ]
+    },
+    {
+      "id": "survival_me_lo_puede_explicar_de_otra_manera",
+      "conceptId": "es.survival_me_lo_puede_explicar_de_otra_manera",
+      "sourceId": "de.s.4fd0e2b1475060f9",
+      "source": "Können Sie es mir anders erklären?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me lo puede explicar de otra manera?",
+          "audioSlug": "me_lo_puede_explicar_de_otra_manera"
+        }
+      ]
+    },
+    {
+      "id": "survival_necesito_practicar_mas_el_espanol",
+      "conceptId": "es.survival_necesito_practicar_mas_el_espanol",
+      "sourceId": "de.s.a62a133915af64a4",
+      "source": "Ich muss mehr Spanisch üben.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito practicar más el español.",
+          "audioSlug": "necesito_practicar_mas_el_espanol"
+        }
+      ]
+    },
+    {
+      "id": "survival_que_quiere_decir_esta_palabra",
+      "conceptId": "es.survival_que_quiere_decir_esta_palabra",
+      "sourceId": "de.s.19f24ac32f17f09b",
+      "source": "Was bedeutet dieses Wort?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Qué quiere decir esta palabra?",
+          "audioSlug": "que_quiere_decir_esta_palabra"
+        }
+      ]
+    },
+    {
+      "id": "survival_hay_alguien_que_hable_aleman",
+      "conceptId": "es.survival_hay_alguien_que_hable_aleman",
+      "sourceId": "de.s.acb0cde4a2bc0917",
+      "source": "Gibt es hier jemanden, der Deutsch spricht?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Hay alguien aquí que hable alemán?",
+          "audioSlug": "hay_alguien_aqui_que_hable_aleman"
+        }
+      ]
+    },
+    {
+      "id": "survival_perdon_no_comprendo_la_pregunta",
+      "conceptId": "es.survival_perdon_no_comprendo_la_pregunta",
+      "sourceId": "de.s.981b7683439c6000",
+      "source": "Entschuldigung, ich verstehe die Frage nicht.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Perdón, no comprendo la pregunta.",
+          "audioSlug": "perdon_no_comprendo_la_pregunta"
+        }
+      ]
+    },
+    {
+      "id": "survival_no_quiero_ocupar_mucho_de_tu_tiempo",
+      "conceptId": "es.survival_no_quiero_ocupar_mucho_de_tu_tiempo",
+      "sourceId": "de.s.12670c5db9f08373",
+      "source": "Ich möchte nicht viel von deiner Zeit beanspruchen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "No quiero ocupar mucho de tu tiempo.",
+          "audioSlug": "no_quiero_ocupar_mucho_de_tu_tiempo"
+        }
+      ]
+    },
+    {
+      "id": "survival_donde_puedo_comprar_una_entrada",
+      "conceptId": "es.survival_donde_puedo_comprar_una_entrada",
+      "sourceId": "de.s.c430231423a12cfc",
+      "source": "Wo kann ich eine Eintrittskarte kaufen?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Dónde puedo comprar una entrada?",
+          "audioSlug": "donde_puedo_comprar_una_entrada"
+        }
+      ]
+    },
+    {
+      "id": "survival_me_puede_situar_en_el_mapa",
+      "conceptId": "es.survival_me_puede_situar_en_el_mapa",
+      "sourceId": "de.s.d2ee7d6c64b0e1b8",
+      "source": "Können Sie mich auf der Karte verorten?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me puede situar en el mapa?",
+          "audioSlug": "me_puede_situar_en_el_mapa"
+        }
+      ]
+    },
+    {
+      "id": "survival_me_puede_mandar_la_informacion_por_correo",
+      "conceptId": "es.survival_me_puede_mandar_la_informacion_por_correo",
+      "sourceId": "de.s.e9e3787c4f93b895",
+      "source": "Können Sie mir die Informationen per E-Mail schicken?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "¿Me puede mandar la información por correo?",
+          "audioSlug": "me_puede_mandar_la_informacion_por_correo"
+        }
+      ]
+    },
+    {
+      "id": "survival_necesito_consultar_el_horario_del_tren",
+      "conceptId": "es.survival_necesito_consultar_el_horario_del_tren",
+      "sourceId": "de.s.136564fdced9b56a",
+      "source": "Ich muss den Zugfahrplan nachsehen.",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Necesito consultar el horario del tren.",
+          "audioSlug": "necesito_consultar_el_horario_del_tren"
+        }
+      ]
+    },
+    {
+      "id": "survival_tengo_que_devolver_este_libro_hoy",
+      "conceptId": "es.survival_tengo_que_devolver_este_libro_hoy",
+      "sourceId": "de.s.691c1d508b137825",
+      "source": "Ich muss dieses Buch heute zurückgeben.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Tengo que devolver este libro hoy.",
+          "audioSlug": "tengo_que_devolver_este_libro_hoy"
+        }
+      ]
+    }
+  ]
+}

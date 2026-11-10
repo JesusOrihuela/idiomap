@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "94",
+  "concepts": {
+    "en.calendario_it_s_half_past_eight": {
+      "conceptId": "en.calendario_it_s_half_past_eight",
+      "id": "calendario_it_s_half_past_eight",
+      "target": [
+        {
+          "text": "It's half past eight.",
+          "audioSlug": "it_s_half_past_eight"
+        }
+      ]
+    },
+    "en.conversacion_this_news_is_official": {
+      "conceptId": "en.conversacion_this_news_is_official",
+      "id": "conversacion_this_news_is_official",
+      "target": [
+        {
+          "text": "This news is official.",
+          "audioSlug": "this_news_is_official"
+        }
+      ]
+    },
+    "en.gym_should_i_follow_any_kind_of": {
+      "conceptId": "en.gym_should_i_follow_any_kind_of",
+      "id": "gym_should_i_follow_any_kind_of",
+      "target": [
+        {
+          "text": "Should I follow a routine to finish my workout?",
+          "audioSlug": "should_i_follow_a_routine_to_finish_my_workout"
+        }
+      ]
+    },
+    "en.politica_the_war_goes_on": {
+      "conceptId": "en.politica_the_war_goes_on",
+      "id": "politica_the_war_goes_on",
+      "target": [
+        {
+          "text": "The war goes on.",
+          "audioSlug": "the_war_goes_on"
+        }
+      ]
+    },
+    "en.restaurant_could_you_recommend_a_dish_for": {
+      "conceptId": "en.restaurant_could_you_recommend_a_dish_for",
+      "id": "restaurant_could_you_recommend_a_dish_for",
+      "target": [
+        {
+          "text": "Could you recommend a dish for someone who is gluten intolerant?",
+          "audioSlug": "could_you_recommend_a_dish_for_someone_who_is_gluten_intolerant",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you recommend a dish for someone who is gluten intolerant?",
+          "audioSlug": "can_you_recommend_a_dish_for_someone_who_is_gluten_intolerant",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.supermarket_do_you_have_fresh_chicken": {
+      "conceptId": "en.supermarket_do_you_have_fresh_chicken",
+      "id": "supermarket_do_you_have_fresh_chicken",
+      "target": [
+        {
+          "text": "Do you have fresh chicken?",
+          "audioSlug": "do_you_have_fresh_chicken"
+        }
+      ]
+    },
+    "en.technology_i_cant_connect_my_device_to": {
+      "conceptId": "en.technology_i_cant_connect_my_device_to",
+      "id": "technology_i_cant_connect_my_device_to",
+      "target": [
+        {
+          "text": "I can't connect my device to Bluetooth.",
+          "audioSlug": "i_can_t_connect_my_device_to_bluetooth"
+        }
+      ]
+    },
+    "en.technology_turn_on_the_scanner_i_need": {
+      "conceptId": "en.technology_turn_on_the_scanner_i_need",
+      "id": "technology_turn_on_the_scanner_i_need",
+      "target": [
+        {
+          "text": "Turn on the scanner, I need to digitize this document.",
+          "audioSlug": "turn_on_the_scanner_i_need_to_digitize_this_document"
+        }
+      ]
+    }
+  }
+}

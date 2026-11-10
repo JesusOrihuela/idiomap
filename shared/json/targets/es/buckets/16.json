@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "16",
+  "concepts": {
+    "es.conversacion_insisto_en_que_tengo_razon": {
+      "conceptId": "es.conversacion_insisto_en_que_tengo_razon",
+      "id": "conversacion_insisto_en_que_tengo_razon",
+      "target": [
+        {
+          "text": "Insisto en que tengo razón.",
+          "audioSlug": "insisto_en_que_tengo_razon"
+        }
+      ]
+    },
+    "es.conversacion_lleva_una_cruz_de_plata_al_cuello": {
+      "conceptId": "es.conversacion_lleva_una_cruz_de_plata_al_cuello",
+      "id": "conversacion_lleva_una_cruz_de_plata_al_cuello",
+      "target": [
+        {
+          "text": "Lleva una cruz de plata al cuello.",
+          "audioSlug": "lleva_una_cruz_de_plata_al_cuello"
+        }
+      ]
+    },
+    "es.cotidianidad_hoy_fue_un_dia_largo": {
+      "conceptId": "es.cotidianidad_hoy_fue_un_dia_largo",
+      "id": "cotidianidad_hoy_fue_un_dia_largo",
+      "target": [
+        {
+          "text": "Hoy fue un día largo.",
+          "audioSlug": "hoy_fue_un_dia_largo"
+        }
+      ]
+    },
+    "es.descripciones_el_cuarto_esta_limpio": {
+      "conceptId": "es.descripciones_el_cuarto_esta_limpio",
+      "id": "descripciones_el_cuarto_esta_limpio",
+      "target": [
+        {
+          "text": "El cuarto está limpio.",
+          "audioSlug": "el_cuarto_esta_limpio"
+        }
+      ]
+    },
+    "es.hogar_el_salon_de_la_casa_es_muy_amplio": {
+      "conceptId": "es.hogar_el_salon_de_la_casa_es_muy_amplio",
+      "id": "hogar_el_salon_de_la_casa_es_muy_amplio",
+      "target": [
+        {
+          "text": "El salón de la casa es muy amplio.",
+          "audioSlug": "el_salon_de_la_casa_es_muy_amplio"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_la_ciudad_tiene_un_millon_de_habitantes": {
+      "conceptId": "es.naturaleza_lugares_la_ciudad_tiene_un_millon_de_habitantes",
+      "id": "naturaleza_lugares_la_ciudad_tiene_un_millon_de_habitantes",
+      "target": [
+        {
+          "text": "La ciudad tiene un millón de habitantes.",
+          "audioSlug": "la_ciudad_tiene_un_millon_de_habitantes"
+        }
+      ]
+    },
+    "es.supermarket_i_prefer_to_go_to_the": {
+      "conceptId": "es.supermarket_i_prefer_to_go_to_the",
+      "id": "supermarket_i_prefer_to_go_to_the",
+      "target": [
+        {
+          "text": "Prefiero ir al mercado, hay más variedad de productos.",
+          "audioSlug": "prefiero_ir_al_mercado_hay_mas_variedad_de_productos"
+        }
+      ]
+    },
+    "es.supermarket_i_will_need_a_purchase_ticket": {
+      "conceptId": "es.supermarket_i_will_need_a_purchase_ticket",
+      "id": "supermarket_i_will_need_a_purchase_ticket",
+      "target": [
+        {
+          "text": "Voy a necesitar un comprobante de compra.",
+          "audioSlug": "voy_a_necesitar_un_comprobante_de_compra"
+        }
+      ]
+    },
+    "es.technology_can_you_share_your_location": {
+      "conceptId": "es.technology_can_you_share_your_location",
+      "id": "technology_can_you_share_your_location",
+      "target": [
+        {
+          "text": "¿Puedes compartir tu ubicación?",
+          "audioSlug": "puedes_compartir_tu_ubicacion"
+        }
+      ]
+    },
+    "es.technology_how_can_i_recover_a_deleted": {
+      "conceptId": "es.technology_how_can_i_recover_a_deleted",
+      "id": "technology_how_can_i_recover_a_deleted",
+      "target": [
+        {
+          "text": "¿Cómo puedo recuperar un archivo borrado?",
+          "audioSlug": "como_puedo_recuperar_un_archivo_borrado"
+        }
+      ]
+    },
+    "es.theater_costumes_reflected_era": {
+      "conceptId": "es.theater_costumes_reflected_era",
+      "id": "theater_costumes_reflected_era",
+      "target": [
+        {
+          "text": "El vestuario reflejaba perfectamente la época histórica sin parecer una pieza de museo.",
+          "audioSlug": "el_vestuario_reflejaba_perfectamente_la_epoca_historica_sin_parecer_una_pieza_de_museo"
+        }
+      ]
+    },
+    "es.transportation_cycling_lane_shared_road": {
+      "conceptId": "es.transportation_cycling_lane_shared_road",
+      "id": "transportation_cycling_lane_shared_road",
+      "target": [
+        {
+          "text": "¿Hay un carril bici exclusivo en esta ruta, o los ciclistas comparten la vía?",
+          "audioSlug": "hay_un_carril_bici_exclusivo_en_esta_ruta_o_los_ciclistas_comparten_la_via"
+        }
+      ]
+    },
+    "es.vestimenta_lleva_un_sombrero_negro": {
+      "conceptId": "es.vestimenta_lleva_un_sombrero_negro",
+      "id": "vestimenta_lleva_un_sombrero_negro",
+      "target": [
+        {
+          "text": "Lleva un sombrero negro.",
+          "audioSlug": "lleva_un_sombrero_negro"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,687 @@
+{
+  "_doc": "Atestiguacion frase por frase — topic supermarket. Todas las frases son actos de COMPRADOR estandar, atestiguados en fuentes de compras EN/ES (Espresso English, 7ESL, Preply; Enforex, StudySmarter, Hispania) + inventario PCIC/Core Inventory.",
+  "sources_en": [
+    "Espresso English — Supermarket phrases",
+    "7ESL — 50 supermarket phrases",
+    "Preply — grocery shopping in English"
+  ],
+  "sources_es": [
+    "StudySmarter — frases de compras",
+    "Hispania Valencia — expresiones para ir de compras",
+    "Expreso Espanol — supermercado"
+  ],
+  "retired": [
+    "supermarket_fair_trade_certifications_suppliers",
+    "supermarket_cold_chain_thaw_refreeze_food_safety",
+    "supermarket_traceability_protocols_supply_chain",
+    "supermarket_sustainability_report_food_waste_measures",
+    "supermarket_food_safety_inspector_temperature_logs",
+    "supermarket_deli_cross_contamination_intolerance",
+    "supermarket_best_before_use_by_mislead",
+    "supermarket_sourcing_policy_free_range_certification",
+    "supermarket_plastic_packaging_concern"
+  ],
+  "phrases": {
+    "en.supermarket_are_these_grapes_organic": {
+      "level": "A1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Are these grapes organic?"
+    },
+    "en.supermarket_buy_new_toothbrush": {
+      "level": "A1",
+      "function": "planear_compra",
+      "attested": true,
+      "intent": "I need to buy a new toothbrush."
+    },
+    "en.supermarket_can_you_give_me_a_bag": {
+      "level": "A1",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "Can you give me a bag, please?"
+    },
+    "en.supermarket_can_you_give_me_the_receipt": {
+      "level": "A1",
+      "function": "pago/caja",
+      "attested": true,
+      "intent": "Can you give me the receipt, please?"
+    },
+    "en.supermarket_can_you_help_me_carry_the": {
+      "level": "A1",
+      "function": "pedir_ayuda",
+      "attested": true,
+      "intent": "Can you help me carry the grocery bags?"
+    },
+    "en.supermarket_can_you_help_me_reach_that": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Can you help me reach that product on the shelf?"
+    },
+    "en.supermarket_check_stockroom_out_of_shelf": {
+      "level": "B2",
+      "function": "disponibilidad/stock",
+      "attested": true,
+      "intent": "Could you check the stockroom? This has been out of stock for two days."
+    },
+    "en.supermarket_customer_service_lodge_complaint": {
+      "level": "B2",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "Is there a customer service desk where I can lodge a formal complaint?"
+    },
+    "en.supermarket_do_you_have_almond_milk": {
+      "level": "A1",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "Do you have almond milk?"
+    },
+    "en.supermarket_do_you_have_fresh_chicken": {
+      "level": "A1",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "Do you have fresh chicken?"
+    },
+    "en.supermarket_do_you_have_larger_size": {
+      "level": "A2",
+      "function": "disponibilidad/stock",
+      "attested": true,
+      "intent": "Do you have this product in a larger size?"
+    },
+    "en.supermarket_do_you_know_which_pasta_brand": {
+      "level": "A2",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "Do you know which pasta brand is the best?"
+    },
+    "en.supermarket_dont_forget_to_buy_fruits_and": {
+      "level": "A1",
+      "function": "planear_compra",
+      "attested": true,
+      "intent": "Don't forget to buy fruits and vegetables for the week."
+    },
+    "en.supermarket_escalate_staff_assurance_not_honored": {
+      "level": "C1",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "Please escalate this. I was assured the promotional price would be honored, but it wasn't."
+    },
+    "en.supermarket_have_you_made_the_grocery_list": {
+      "level": "A2",
+      "function": "planear_compra",
+      "attested": true,
+      "intent": "Have you made the grocery list yet?"
+    },
+    "en.supermarket_how_much_does_a_kilo_of": {
+      "level": "A1",
+      "function": "precio",
+      "attested": true,
+      "intent": "How much does a kilo of meat cost?"
+    },
+    "en.supermarket_i_am_here_to_make_a": {
+      "level": "A2",
+      "function": "devolver/reclamar",
+      "attested": true,
+      "intent": "I am here to make a return."
+    },
+    "en.supermarket_i_cant_find_an_employee_to": {
+      "level": "B1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "I can't find an employee to help me."
+    },
+    "en.supermarket_i_cant_find_the_yogurt_brand": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "I can't find the yogurt brand I like."
+    },
+    "en.supermarket_i_didnt_find_the_product_i": {
+      "level": "A2",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "I didn't find the product I was looking for."
+    },
+    "en.supermarket_i_dont_have_cash_can_i": {
+      "level": "A1",
+      "function": "pago/caja",
+      "attested": true,
+      "intent": "I don't have cash, can I pay with a card?"
+    },
+    "en.supermarket_i_dont_know_which_fish_to": {
+      "level": "A1",
+      "function": "planear_compra",
+      "attested": true,
+      "intent": "I don't know which fish to buy."
+    },
+    "en.supermarket_i_dont_like_this_supermarket_its": {
+      "level": "A1",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "I don't like this supermarket, it's very messy."
+    },
+    "en.supermarket_i_dont_like_this_supermarket_the": {
+      "level": "A1",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "I don't like this supermarket, the prices are very high."
+    },
+    "en.supermarket_i_need_to_buy_milk_bread": {
+      "level": "A1",
+      "function": "planear_compra",
+      "attested": true,
+      "intent": "I need to buy milk, bread and eggs."
+    },
+    "en.supermarket_i_prefer_to_go_to_the": {
+      "level": "A2",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "I prefer to go to the market, there is more variety of products."
+    },
+    "en.supermarket_i_received_a_discount_coupon_in": {
+      "level": "A2",
+      "function": "ofertas/lealtad",
+      "attested": true,
+      "intent": "I received a discount coupon in my email."
+    },
+    "en.supermarket_im_looking_for_a_cake_for": {
+      "level": "A1",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "I'm looking for a cake for a birthday party."
+    },
+    "en.supermarket_is_there_a_bathroom_nearby": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Is there a bathroom nearby?"
+    },
+    "en.supermarket_is_there_any_offer_on_cereals": {
+      "level": "A1",
+      "function": "ofertas/lealtad",
+      "attested": true,
+      "intent": "Is there any offer on cereals?"
+    },
+    "en.supermarket_is_this_product_vegan": {
+      "level": "A1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Is this product vegan?"
+    },
+    "en.supermarket_loyalty_program_sign_up": {
+      "level": "B2",
+      "function": "ofertas/lealtad",
+      "attested": true,
+      "intent": "How do I sign up for the loyalty program? Can I use points immediately?"
+    },
+    "en.supermarket_nut_allergy_processed_facility": {
+      "level": "B2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "I have a nut allergy. Was this product processed in a nut-handling facility?"
+    },
+    "en.supermarket_online_listing_out_of_stock_delivery": {
+      "level": "C1",
+      "function": "disponibilidad/stock",
+      "attested": true,
+      "intent": "Your site shows this as available, but it's been out all week. When will you restock?"
+    },
+    "en.supermarket_overcharged_promotional_price_not_applied": {
+      "level": "B2",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "I was overcharged. The promotional price wasn't applied, despite the label."
+    },
+    "en.supermarket_price_match_cheaper_elsewhere": {
+      "level": "B2",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "Do you have a price-match policy? I found this item cheaper at another store."
+    },
+    "en.supermarket_return_seal_broken_spoiled": {
+      "level": "B2",
+      "function": "devolver/reclamar",
+      "attested": true,
+      "intent": "I'd like to return this. The seal was broken and the product has spoiled."
+    },
+    "en.supermarket_shelf_price_doesnt_match_register": {
+      "level": "B1",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "The shelf price doesn't match what showed up at the register."
+    },
+    "en.supermarket_speak_to_manager_mislabeled": {
+      "level": "B1",
+      "function": "pedir_ayuda",
+      "attested": true,
+      "intent": "I'd like to speak to the manager about this mislabeled product."
+    },
+    "en.supermarket_store_brand_less_expensive": {
+      "level": "B1",
+      "function": "precio",
+      "attested": true,
+      "intent": "Is there a store brand option that's less expensive?"
+    },
+    "en.supermarket_the_strawberries_are_very_expensive": {
+      "level": "A1",
+      "function": "precio",
+      "attested": true,
+      "intent": "The strawberries are very expensive."
+    },
+    "en.supermarket_there_is_a_long_line_at": {
+      "level": "A1",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "There is a long line at the cash registers."
+    },
+    "en.supermarket_there_is_an_offer_on_the": {
+      "level": "A2",
+      "function": "ofertas/lealtad",
+      "attested": true,
+      "intent": "There is an offer on the detergent, let's buy two."
+    },
+    "en.supermarket_this_supermarket_has_a_very_useful": {
+      "level": "A2",
+      "function": "ofertas/lealtad",
+      "attested": true,
+      "intent": "This supermarket has a very useful app."
+    },
+    "en.supermarket_this_supermarket_is_very_expensive_lets": {
+      "level": "A1",
+      "function": "precio",
+      "attested": true,
+      "intent": "This supermarket is very expensive, let's go to another one."
+    },
+    "en.supermarket_what_time_does_the_supermarket_close": {
+      "level": "A1",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "What time does the supermarket close?"
+    },
+    "en.supermarket_where_are_gluten_free_products": {
+      "level": "B1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Could you tell me where I can find gluten-free products?"
+    },
+    "en.supermarket_where_are_the_cookies": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Where are the cookies?"
+    },
+    "en.supermarket_where_are_the_shopping_carts": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Where are the shopping carts?"
+    },
+    "en.supermarket_where_is_the_bakery_section": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Where is the bakery section?"
+    },
+    "en.supermarket_where_is_the_cleaning_products_section": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Where is the cleaning products section?"
+    },
+    "en.supermarket_where_is_the_glutenfree_products_section": {
+      "level": "A2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Where is the gluten-free products section?"
+    },
+    "en.supermarket_where_is_the_personal_hygiene_products": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Where is the personal hygiene products section?"
+    },
+    "en.supermarket_you_have_to_go_to_the": {
+      "level": "A2",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "You have to go to the supermarket earlier to avoid the lines."
+    },
+    "es.supermarket_are_these_grapes_organic": {
+      "level": "A1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Are these grapes organic?"
+    },
+    "es.supermarket_buy_new_toothbrush": {
+      "level": "A1",
+      "function": "planear_compra",
+      "attested": true,
+      "intent": "I need to buy a new toothbrush."
+    },
+    "es.supermarket_can_you_give_me_a_bag": {
+      "level": "A1",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "Can you give me a bag, please?"
+    },
+    "es.supermarket_can_you_give_me_the_receipt": {
+      "level": "A1",
+      "function": "pago/caja",
+      "attested": true,
+      "intent": "Can you give me the receipt, please?"
+    },
+    "es.supermarket_can_you_help_me_carry_the": {
+      "level": "A1",
+      "function": "pedir_ayuda",
+      "attested": true,
+      "intent": "Can you help me carry the grocery bags?"
+    },
+    "es.supermarket_can_you_help_me_reach_that": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Can you help me reach that product on the shelf?"
+    },
+    "es.supermarket_check_stockroom_out_of_shelf": {
+      "level": "B2",
+      "function": "disponibilidad/stock",
+      "attested": true,
+      "intent": "Could you check the stockroom? This has been out of stock for two days."
+    },
+    "es.supermarket_customer_service_lodge_complaint": {
+      "level": "B2",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "Is there a customer service desk where I can lodge a formal complaint?"
+    },
+    "es.supermarket_do_you_have_almond_milk": {
+      "level": "A1",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "Do you have almond milk?"
+    },
+    "es.supermarket_do_you_have_fresh_chicken": {
+      "level": "A1",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "Do you have fresh chicken?"
+    },
+    "es.supermarket_do_you_have_larger_size": {
+      "level": "A2",
+      "function": "disponibilidad/stock",
+      "attested": true,
+      "intent": "Do you have this product in a larger size?"
+    },
+    "es.supermarket_do_you_know_which_pasta_brand": {
+      "level": "A2",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "Do you know which pasta brand is the best?"
+    },
+    "es.supermarket_dont_forget_to_buy_fruits_and": {
+      "level": "A1",
+      "function": "planear_compra",
+      "attested": true,
+      "intent": "Don't forget to buy fruits and vegetables for the week."
+    },
+    "es.supermarket_escalate_staff_assurance_not_honored": {
+      "level": "C1",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "Please escalate this. I was assured the promotional price would be honored, but it wasn't."
+    },
+    "es.supermarket_have_you_made_the_grocery_list": {
+      "level": "A2",
+      "function": "planear_compra",
+      "attested": true,
+      "intent": "Have you made the grocery list yet?"
+    },
+    "es.supermarket_how_much_does_a_kilo_of": {
+      "level": "A1",
+      "function": "precio",
+      "attested": true,
+      "intent": "How much does a kilo of meat cost?"
+    },
+    "es.supermarket_i_am_here_to_make_a": {
+      "level": "A2",
+      "function": "devolver/reclamar",
+      "attested": true,
+      "intent": "I am here to make a return."
+    },
+    "es.supermarket_i_cant_find_an_employee_to": {
+      "level": "B1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "I can't find an employee to help me."
+    },
+    "es.supermarket_i_cant_find_the_yogurt_brand": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "I can't find the yogurt brand I like."
+    },
+    "es.supermarket_i_didnt_find_the_product_i": {
+      "level": "A2",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "I didn't find the product I was looking for."
+    },
+    "es.supermarket_i_dont_have_cash_can_i": {
+      "level": "A1",
+      "function": "pago/caja",
+      "attested": true,
+      "intent": "I don't have cash, can I pay with a card?"
+    },
+    "es.supermarket_i_dont_know_which_fish_to": {
+      "level": "A1",
+      "function": "planear_compra",
+      "attested": true,
+      "intent": "I don't know which fish to buy."
+    },
+    "es.supermarket_i_dont_like_this_supermarket_its": {
+      "level": "A1",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "I don't like this supermarket, it's very messy."
+    },
+    "es.supermarket_i_dont_like_this_supermarket_the": {
+      "level": "A1",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "I don't like this supermarket, the prices are very high."
+    },
+    "es.supermarket_i_like_to_use_the_selfservice": {
+      "level": "A2",
+      "function": "pago/caja",
+      "attested": true,
+      "intent": "I like to use the self-service to pay for the purchase."
+    },
+    "es.supermarket_i_need_to_buy_milk_bread": {
+      "level": "A1",
+      "function": "planear_compra",
+      "attested": true,
+      "intent": "I need to buy milk, bread and eggs."
+    },
+    "es.supermarket_i_prefer_to_go_to_the": {
+      "level": "A2",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "I prefer to go to the market, there is more variety of products."
+    },
+    "es.supermarket_i_received_a_discount_coupon_in": {
+      "level": "A2",
+      "function": "ofertas/lealtad",
+      "attested": true,
+      "intent": "I received a discount coupon in my email."
+    },
+    "es.supermarket_i_will_need_a_purchase_ticket": {
+      "level": "A2",
+      "function": "pago/caja",
+      "attested": true,
+      "intent": "I will need a purchase ticket."
+    },
+    "es.supermarket_im_looking_for_a_cake_for": {
+      "level": "A1",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "I'm looking for a cake for a birthday party."
+    },
+    "es.supermarket_is_there_a_bathroom_nearby": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Is there a bathroom nearby?"
+    },
+    "es.supermarket_is_there_any_offer_on_cereals": {
+      "level": "A1",
+      "function": "ofertas/lealtad",
+      "attested": true,
+      "intent": "Is there any offer on cereals?"
+    },
+    "es.supermarket_is_this_product_vegan": {
+      "level": "A1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Is this product vegan?"
+    },
+    "es.supermarket_loyalty_program_sign_up": {
+      "level": "B2",
+      "function": "ofertas/lealtad",
+      "attested": true,
+      "intent": "How do I sign up for the loyalty program? Can I use points immediately?"
+    },
+    "es.supermarket_nut_allergy_processed_facility": {
+      "level": "B2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "I have a nut allergy. Was this product processed in a nut-handling facility?"
+    },
+    "es.supermarket_online_listing_out_of_stock_delivery": {
+      "level": "C1",
+      "function": "disponibilidad/stock",
+      "attested": true,
+      "intent": "Your site shows this as available, but it's been out all week. When will you restock?"
+    },
+    "es.supermarket_overcharged_promotional_price_not_applied": {
+      "level": "B2",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "I was overcharged. The promotional price wasn't applied, despite the label."
+    },
+    "es.supermarket_price_match_cheaper_elsewhere": {
+      "level": "B2",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "Do you have a price-match policy? I found this item cheaper at another store."
+    },
+    "es.supermarket_return_seal_broken_spoiled": {
+      "level": "B2",
+      "function": "devolver/reclamar",
+      "attested": true,
+      "intent": "I'd like to return this. The seal was broken and the product has spoiled."
+    },
+    "es.supermarket_shelf_price_doesnt_match_register": {
+      "level": "B1",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "The shelf price doesn't match what showed up at the register."
+    },
+    "es.supermarket_speak_to_manager_mislabeled": {
+      "level": "B1",
+      "function": "pedir_ayuda",
+      "attested": true,
+      "intent": "I'd like to speak to the manager about this mislabeled product."
+    },
+    "es.supermarket_store_brand_less_expensive": {
+      "level": "B1",
+      "function": "precio",
+      "attested": true,
+      "intent": "Is there a store brand option that's less expensive?"
+    },
+    "es.supermarket_the_strawberries_are_very_expensive": {
+      "level": "A1",
+      "function": "precio",
+      "attested": true,
+      "intent": "The strawberries are very expensive."
+    },
+    "es.supermarket_there_is_a_long_line_at": {
+      "level": "A1",
+      "function": "queja_precio",
+      "attested": true,
+      "intent": "There is a long line at the cash registers."
+    },
+    "es.supermarket_there_is_an_offer_on_the": {
+      "level": "A2",
+      "function": "ofertas/lealtad",
+      "attested": true,
+      "intent": "There is an offer on the detergent, let's buy two."
+    },
+    "es.supermarket_this_supermarket_has_a_very_useful": {
+      "level": "A2",
+      "function": "ofertas/lealtad",
+      "attested": true,
+      "intent": "This supermarket has a very useful app."
+    },
+    "es.supermarket_this_supermarket_is_very_expensive_lets": {
+      "level": "A1",
+      "function": "precio",
+      "attested": true,
+      "intent": "This supermarket is very expensive, let's go to another one."
+    },
+    "es.supermarket_what_time_does_the_supermarket_close": {
+      "level": "A1",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "What time does the supermarket close?"
+    },
+    "es.supermarket_where_are_gluten_free_products": {
+      "level": "B1",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Could you tell me where I can find gluten-free products?"
+    },
+    "es.supermarket_where_are_the_cookies": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Where are the cookies?"
+    },
+    "es.supermarket_where_are_the_shopping_carts": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Where are the shopping carts?"
+    },
+    "es.supermarket_where_is_the_bakery_section": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Where is the bakery section?"
+    },
+    "es.supermarket_where_is_the_cleaning_products_section": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Where is the cleaning products section?"
+    },
+    "es.supermarket_where_is_the_glutenfree_products_section": {
+      "level": "A2",
+      "function": "dieta/alergia",
+      "attested": true,
+      "intent": "Where is the gluten-free products section?"
+    },
+    "es.supermarket_where_is_the_personal_hygiene_products": {
+      "level": "A1",
+      "function": "ubicación/buscar",
+      "attested": true,
+      "intent": "Where is the personal hygiene products section?"
+    },
+    "es.supermarket_you_have_to_go_to_the": {
+      "level": "A2",
+      "function": "compra_general",
+      "attested": true,
+      "intent": "You have to go to the supermarket earlier to avoid the lines."
+    }
+  },
+  "_keyFormat": "target.conceptSlug"
+}

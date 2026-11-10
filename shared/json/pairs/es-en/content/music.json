@@ -1,53 +1,605 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "music",
-  "conceptIds": [
-    "en.music_skip_song",
-    "en.music_favorite_song_always",
-    "en.music_favorite_song",
-    "en.music_go_concert_year",
-    "en.music_new_concert_band",
-    "en.music_podcasts_while_exercise",
-    "en.music_podcast_recommendation",
-    "en.music_song_special_memory",
-    "en.music_new_album_disappointment",
-    "en.music_what_kind_do_you_like",
-    "en.music_love_this_song_who_sings",
-    "en.music_add_song_playlist",
-    "en.music_learning_guitar_six_months",
-    "en.music_opening_act_surprised",
-    "en.music_headphones_or_speakers",
-    "en.music_cover_version_back_to_original",
-    "en.music_discovered_through_algorithm",
-    "en.music_concert_sound_mix_terrible",
-    "en.music_reunion_tour_expectations",
-    "en.music_acoustic_version_reveals_songwriting",
-    "en.music_started_late_still_impressive",
-    "en.music_more_i_listened_more_appreciated",
-    "en.music_live_better_than_studio",
-    "en.music_similar_genre_film",
-    "en.music_vocal_range_earlier_work",
-    "en.music_festival_lineup_disappointing",
-    "en.music_classical_pianist_switched_jazz",
-    "en.music_concept_album_narrative_arc",
-    "en.music_overproduction_works_against_core",
-    "en.music_live_spontaneity_studio_cant_capture",
-    "en.music_lyrics_political_commentary",
-    "en.music_blends_traditional_contemporary",
-    "en.music_indie_influence_underestimated",
-    "en.music_chord_progression_unsettling",
-    "en.music_reinterprets_makes_her_own",
-    "en.music_play_instrument",
-    "en.music_turn_up",
-    "en.music_catchy",
-    "en.music_favorite_singer",
-    "en.music_what_listening",
-    "en.music_turn_on",
-    "en.music_concert_tickets",
-    "en.music_turn_down",
-    "en.music_i_really_enjoy_music",
-    "en.music_i_love_to_sing",
-    "en.music_what_sort_of_music"
+  "phrases": [
+    {
+      "conceptId": "en.music_skip_song",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1bd694cb5dfc95ee"
+    },
+    {
+      "conceptId": "en.music_favorite_song_always",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5179d8050193ac4c"
+    },
+    {
+      "conceptId": "en.music_favorite_song",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.61c060e9007b3e24"
+    },
+    {
+      "conceptId": "en.music_go_concert_year",
+      "level": "B1",
+      "grammar": "Modal 'should': advice or recommendation",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1e5ed90d22cb58d8"
+    },
+    {
+      "conceptId": "en.music_new_concert_band",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9aaf0d44e0b1e0fc"
+    },
+    {
+      "conceptId": "en.music_podcasts_while_exercise",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.27e461d2d54ab437"
+    },
+    {
+      "conceptId": "en.music_podcast_recommendation",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9c723096a25bb632"
+    },
+    {
+      "conceptId": "en.music_song_special_memory",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d943dcb9195aa939"
+    },
+    {
+      "conceptId": "en.music_new_album_disappointment",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3af4cede69963db3"
+    },
+    {
+      "conceptId": "en.music_what_kind_do_you_like",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d8b45952179fec73"
+    },
+    {
+      "conceptId": "en.music_love_this_song_who_sings",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.aa7927dc28e425ff"
+    },
+    {
+      "conceptId": "en.music_add_song_playlist",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1f17e53ed6e1f458"
+    },
+    {
+      "conceptId": "en.music_learning_guitar_six_months",
+      "level": "B2",
+      "grammar": "Present perfect continuous: 'I've been learning' for an ongoing activity that started in the past",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.348fe4485fa94eed"
+    },
+    {
+      "conceptId": "en.music_opening_act_surprised",
+      "level": "B2",
+      "grammar": "Past perfect: 'hadn't heard' for an action completed before another past event",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.96ed99f50c1e5fef"
+    },
+    {
+      "conceptId": "en.music_headphones_or_speakers",
+      "level": "B1",
+      "grammar": "'Prefer + gerund' for expressing a general preference",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f47c9aa7c59a9dbb"
+    },
+    {
+      "conceptId": "en.music_cover_version_back_to_original",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9cc41e214386d806"
+    },
+    {
+      "conceptId": "en.music_discovered_through_algorithm",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.646f105fcdd4d5c6"
+    },
+    {
+      "conceptId": "en.music_concert_sound_mix_terrible",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.22c148f7e386a0c7"
+    },
+    {
+      "conceptId": "en.music_reunion_tour_expectations",
+      "level": "B2",
+      "grammar": "'Live up to' means to meet or match an expected standard or reputation.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.262c403a48486401"
+    },
+    {
+      "conceptId": "en.music_acoustic_version_reveals_songwriting",
+      "level": "B2",
+      "grammar": "'Strip down' means to remove layers to reveal the essential form of something.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6ce7a74f6d17faea"
+    },
+    {
+      "conceptId": "en.music_started_late_still_impressive",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.006527fbaae77f40"
+    },
+    {
+      "conceptId": "en.music_more_i_listened_more_appreciated",
+      "level": "B2",
+      "grammar": "'The more... the more' shows that two qualities increase proportionally together.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6c22c513d0641fef"
+    },
+    {
+      "conceptId": "en.music_live_better_than_studio",
+      "level": "B2",
+      "grammar": "'Far better than' uses 'far' to intensify a comparative adjective.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4095e00685050f4b"
+    },
+    {
+      "conceptId": "en.music_similar_genre_film",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.88827de9f1690bbc"
+    },
+    {
+      "conceptId": "en.music_vocal_range_earlier_work",
+      "level": "B2",
+      "grammar": "'Compared to' for drawing a contrast between two things",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.08c9bde4f24b4c34"
+    },
+    {
+      "conceptId": "en.music_festival_lineup_disappointing",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.07155835131efbf0"
+    },
+    {
+      "conceptId": "en.music_classical_pianist_switched_jazz",
+      "level": "B2",
+      "grammar": "'Before + gerund': 'before switching' to sequence two stages of a career",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a483bc616ed28aa9"
+    },
+    {
+      "conceptId": "en.music_concept_album_narrative_arc",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d2264f52d334f621"
+    },
+    {
+      "conceptId": "en.music_overproduction_works_against_core",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c09ec2789898e4bb"
+    },
+    {
+      "conceptId": "en.music_live_spontaneity_studio_cant_capture",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.88428f13f92c20e6"
+    },
+    {
+      "conceptId": "en.music_lyrics_political_commentary",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.18249ffb3d588ca5"
+    },
+    {
+      "conceptId": "en.music_blends_traditional_contemporary",
+      "level": "C1",
+      "grammar": "'What strikes me' starts a cleft-like clause that emphasizes what you find most notable.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.578a53b73a328ab8"
+    },
+    {
+      "conceptId": "en.music_indie_influence_underestimated",
+      "level": "C1",
+      "grammar": "'I'd argue that' hedges an assertion with a conditional, softening it as a personal stance.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9bd47aed73ce8dc8"
+    },
+    {
+      "conceptId": "en.music_chord_progression_unsettling",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1e371eaa1eda67f9"
+    },
+    {
+      "conceptId": "en.music_reinterprets_makes_her_own",
+      "level": "C1",
+      "grammar": "'Makes it her own' means to reinterpret something so distinctively it feels original.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a23105439e23134d"
+    },
+    {
+      "conceptId": "en.music_play_instrument",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.04c2e3ae358f6fdd"
+    },
+    {
+      "conceptId": "en.music_turn_up",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e6ecf01867fb5808"
+    },
+    {
+      "conceptId": "en.music_catchy",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.07d4bb73eb29433e"
+    },
+    {
+      "conceptId": "en.music_favorite_singer",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7209eba55425ee20"
+    },
+    {
+      "conceptId": "en.music_what_listening",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e668b33edaf2a551"
+    },
+    {
+      "conceptId": "en.music_turn_on",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.eb801034a38d9181"
+    },
+    {
+      "conceptId": "en.music_concert_tickets",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.daf7885d11237cbe"
+    },
+    {
+      "conceptId": "en.music_turn_down",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cbc63f4f58191696"
+    },
+    {
+      "conceptId": "en.music_i_really_enjoy_music",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.125d8af8f467ad10"
+    },
+    {
+      "conceptId": "en.music_i_love_to_sing",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.75919b55fdb06918"
+    },
+    {
+      "conceptId": "en.music_what_sort_of_music",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dc5c288283a0507d"
+    }
   ]
 }

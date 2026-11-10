@@ -1,23 +1,215 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "animales",
-  "conceptIds": [
-    "en.animales_it_is_a_wild_animal",
-    "en.animales_a_dog_runs_fast",
-    "en.animales_my_cat_sleeps_a_lot",
-    "en.animales_it_is_a_small_bird",
-    "en.animales_birds_can_fly",
-    "en.animales_the_cat_is_black",
-    "en.animales_is_that_dog_male_or_female",
-    "en.animales_dog_barking_loudly",
-    "en.animales_cats_sleep_most_day",
-    "en.animales_birds_fly_south",
-    "en.animales_saw_elephant_zoo",
-    "en.animales_horse_ran_field",
-    "en.animales_fish_live_in_water",
-    "en.animales_cat_likes_climb_trees",
-    "en.animales_cows_give_milk",
-    "en.animales_rabbit_hopped_away"
+  "phrases": [
+    {
+      "conceptId": "en.animales_it_is_a_wild_animal",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e1212d8236930da8"
+    },
+    {
+      "conceptId": "en.animales_a_dog_runs_fast",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2b060a7e0c8ee0f7"
+    },
+    {
+      "conceptId": "en.animales_my_cat_sleeps_a_lot",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.79eef2894097e034"
+    },
+    {
+      "conceptId": "en.animales_it_is_a_small_bird",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.da61d82b5b0d7c18"
+    },
+    {
+      "conceptId": "en.animales_birds_can_fly",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.95b6b9e08b4f6909"
+    },
+    {
+      "conceptId": "en.animales_the_cat_is_black",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.aa8fdd9b3263b9b5"
+    },
+    {
+      "conceptId": "en.animales_is_that_dog_male_or_female",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b2794fa7a296031f"
+    },
+    {
+      "conceptId": "en.animales_dog_barking_loudly",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.35825781a9d8ba53"
+    },
+    {
+      "conceptId": "en.animales_cats_sleep_most_day",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ef9b50b048347a10"
+    },
+    {
+      "conceptId": "en.animales_birds_fly_south",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.46b958f33204955f"
+    },
+    {
+      "conceptId": "en.animales_saw_elephant_zoo",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.62f99f4524f6f1b4"
+    },
+    {
+      "conceptId": "en.animales_horse_ran_field",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.24237032189888e9"
+    },
+    {
+      "conceptId": "en.animales_fish_live_in_water",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.78e68976200b6605"
+    },
+    {
+      "conceptId": "en.animales_cat_likes_climb_trees",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.db3d71ac533c5794"
+    },
+    {
+      "conceptId": "en.animales_cows_give_milk",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6db3c32344733911"
+    },
+    {
+      "conceptId": "en.animales_rabbit_hopped_away",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dfb4090a2a027221"
+    }
   ]
 }

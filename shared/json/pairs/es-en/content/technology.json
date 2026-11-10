@@ -1,106 +1,1294 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "technology",
-  "conceptIds": [
-    "en.technology_could_you_send_me_that_document",
-    "en.technology_i_need_to_charge_my_phone",
-    "en.technology_can_you_help_me_set_up",
-    "en.technology_what_is_the_wifi_password",
-    "en.technology_wait_my_computer_is_updating",
-    "en.technology_tomorrow_we_are_going_to_have",
-    "en.technology_do_you_know_how_i_can",
-    "en.technology_can_you_copy_me_on_that",
-    "en.technology_send_me_that_file_via_whatsapp",
-    "en.technology_can_you_share_your_location",
-    "en.technology_i_need_to_back_up_my",
-    "en.technology_is_there_a_way_to_block",
-    "en.technology_how_do_i_delete_this_app",
-    "en.technology_i_forgot_my_password",
-    "en.technology_is_there_an_app_to_scan",
-    "en.technology_do_you_have_a_cable_you",
-    "en.technology_how_do_i_save_this_file",
-    "en.technology_i_want_to_buy_a_camera",
-    "en.technology_can_i_turn_off_notifications_for",
-    "en.technology_how_do_i_take_a_screenshot",
-    "en.technology_make_sure_your_internet_connection_is",
-    "en.technology_i_recommend_using_a_strong_and",
-    "en.technology_can_i_connect_the_speaker_to",
-    "en.technology_i_suggest_you_use_a_vpn",
-    "en.technology_where_is_the_tv_remote_control",
-    "en.technology_we_need_to_buy_more_ink",
-    "en.technology_i_really_liked_this_image_im",
-    "en.technology_have_you_seen_my_message_in",
-    "en.technology_check_your_spam_the_email_might",
-    "en.technology_do_you_have_coverage_in_this",
-    "en.technology_the_battery_of_my_smartwatch_doesnt",
-    "en.technology_i_cant_connect_my_device_to",
-    "en.technology_i_need_a_new_usb_cable",
-    "en.technology_the_wifi_is_not_working_can",
-    "en.technology_be_careful_with_that_link_it",
-    "en.technology_the_app_works_better_than_the",
-    "en.technology_lets_look_for_an_internet_tutorial",
-    "en.technology_what_cell_phone_do_you_recommend",
-    "en.technology_scan_this_qr_code_for_more",
-    "en.technology_i_cant_open_this_file_what",
-    "en.technology_i_need_to_download_this_program",
-    "en.technology_how_can_i_recover_a_deleted",
-    "en.technology_you_should_look_it_up_on",
-    "en.technology_i_accidentally_deleted_the_conversation_can",
-    "en.technology_dont_trust_all_the_information_you",
-    "en.technology_do_you_know_how_to_use",
-    "en.technology_i_cant_open_this_pdf_file",
-    "en.technology_im_looking_for_software_to_record",
-    "en.technology_what_is_this_formula_in_excel",
-    "en.technology_this_powerpoint_presentation_is_very_boring",
-    "en.technology_the_information_is_in_the_attached",
-    "en.technology_i_want_to_increase_the_brightness",
-    "en.technology_turn_on_the_scanner_i_need",
-    "en.technology_you_should_buy_a_better_mouse",
-    "en.technology_these_wireless_headphones_are_very_comfortable",
-    "en.technology_the_virtual_assistant_has_been_failing",
-    "en.technology_the_battery_of_this_phone_could",
-    "en.technology_i_love_the_camera_on_this",
-    "en.technology_how_can_i_change_the_language",
-    "en.technology_i_dont_know_where_the_portable",
-    "en.technology_look_for_the_file_in_the",
-    "en.technology_are_you_sure_you_are_connected",
-    "en.technology_please_turn_on_the_printer",
-    "en.technology_how_do_you_do_this_in",
-    "en.technology_the_app_was_requesting_access_to",
-    "en.technology_my_storage_is_almost_full_so",
-    "en.technology_i_switched_to_a_monthly_subscription",
-    "en.technology_the_battery_life_significantly_improved_after",
-    "en.technology_i_enabled_dark_mode_to_reduce",
-    "en.technology_the_router_needs_to_be_placed",
-    "en.technology_i_use_a_separate_browser_profile",
-    "en.technology_my_phone_keeps_overheating_when",
-    "en.technology_the_new_operating_system_update",
-    "en.technology_i_enabled_twofactor_authentication_on",
-    "en.technology_the_streaming_quality_drops_when",
-    "en.technology_i_set_up_automatic_cloud_backups",
-    "en.technology_the_algorithm_keeps_recommending_content",
-    "en.technology_i_enabled_biometric_authentication_so",
-    "en.technology_after_the_ransomware_attack_the_company",
-    "en.technology_i_requested_a_copy_of_all_data",
-    "en.technology_the_app_uses_dark_patterns_to",
-    "en.technology_working_remotely_requires_not_just",
-    "en.technology_the_platform_monetizes_user_attention",
-    "en.technology_my_privacy_settings_dont_seem",
-    "en.technology_i_received_a_phishing_email",
-    "en.technology_clearing_the_cache_usually_fixes",
-    "en.technology_the_devices_firmware_needs_to",
-    "en.technology_im_considering_switching_ecosystems_but",
-    "en.technology_the_company_acknowledged_a_data",
-    "en.technology_the_legacy_system_is_no_longer",
-    "en.technology_phone_froze",
-    "en.technology_battery_low",
-    "en.technology_app_crashing",
-    "en.technology_how_connect_wifi",
-    "en.technology_help_install_app",
-    "en.technology_this_phone_is_cheap",
-    "en.technology_this_is_a_new_model",
-    "en.technology_if_press_button_starts",
-    "en.technology_if_battery_dies_screen_off"
+  "phrases": [
+    {
+      "conceptId": "en.technology_could_you_send_me_that_document",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4470d9407345ce58"
+    },
+    {
+      "conceptId": "en.technology_i_need_to_charge_my_phone",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a3059b7b5d6f0bba"
+    },
+    {
+      "conceptId": "en.technology_can_you_help_me_set_up",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2e9bb90b036b99fa"
+    },
+    {
+      "conceptId": "en.technology_what_is_the_wifi_password",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3c208da1d777eef3"
+    },
+    {
+      "conceptId": "en.technology_wait_my_computer_is_updating",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.959af5997fd24821"
+    },
+    {
+      "conceptId": "en.technology_tomorrow_we_are_going_to_have",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4b3f21a86b61a6c7"
+    },
+    {
+      "conceptId": "en.technology_do_you_know_how_i_can",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.248a56b758931a51"
+    },
+    {
+      "conceptId": "en.technology_can_you_copy_me_on_that",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.21542c59c8441042"
+    },
+    {
+      "conceptId": "en.technology_send_me_that_file_via_whatsapp",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.49b9d677ea37a619"
+    },
+    {
+      "conceptId": "en.technology_can_you_share_your_location",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.67402948860c0956"
+    },
+    {
+      "conceptId": "en.technology_i_need_to_back_up_my",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2b5ba3b9a3dc2f32"
+    },
+    {
+      "conceptId": "en.technology_is_there_a_way_to_block",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.774f8295b44f42cf"
+    },
+    {
+      "conceptId": "en.technology_how_do_i_delete_this_app",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.cb5fd9b35618e4d0"
+    },
+    {
+      "conceptId": "en.technology_i_forgot_my_password",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0694b37abfd9c5b8"
+    },
+    {
+      "conceptId": "en.technology_is_there_an_app_to_scan",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.3b2ddd925f880ac0"
+    },
+    {
+      "conceptId": "en.technology_do_you_have_a_cable_you",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.49dfa3d042f1978e"
+    },
+    {
+      "conceptId": "en.technology_how_do_i_save_this_file",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c86eb87da6795654"
+    },
+    {
+      "conceptId": "en.technology_i_want_to_buy_a_camera",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.46531f33250418b5"
+    },
+    {
+      "conceptId": "en.technology_can_i_turn_off_notifications_for",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.27cea396fbb4886b"
+    },
+    {
+      "conceptId": "en.technology_how_do_i_take_a_screenshot",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a3166b410d7e84ea"
+    },
+    {
+      "conceptId": "en.technology_make_sure_your_internet_connection_is",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.787d17606465c61f"
+    },
+    {
+      "conceptId": "en.technology_i_recommend_using_a_strong_and",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d8388fd03e0451a4"
+    },
+    {
+      "conceptId": "en.technology_can_i_connect_the_speaker_to",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.75cf77a958b855b5"
+    },
+    {
+      "conceptId": "en.technology_i_suggest_you_use_a_vpn",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.faa28a169e1f38b5"
+    },
+    {
+      "conceptId": "en.technology_where_is_the_tv_remote_control",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.79140cf20da9c387"
+    },
+    {
+      "conceptId": "en.technology_we_need_to_buy_more_ink",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.995d6679dc8ca5da"
+    },
+    {
+      "conceptId": "en.technology_i_really_liked_this_image_im",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7ed6641f66269354"
+    },
+    {
+      "conceptId": "en.technology_have_you_seen_my_message_in",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1b29228b2ac57f1d"
+    },
+    {
+      "conceptId": "en.technology_check_your_spam_the_email_might",
+      "level": "B2",
+      "grammar": "'Might have + past participle' expresses weak possibility about a past event.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b4b50225c3b2af55"
+    },
+    {
+      "conceptId": "en.technology_do_you_have_coverage_in_this",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5dac1070c20cb77e"
+    },
+    {
+      "conceptId": "en.technology_the_battery_of_my_smartwatch_doesnt",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.33848f1d928bdda0"
+    },
+    {
+      "conceptId": "en.technology_i_cant_connect_my_device_to",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.95385d5d4c207ad8"
+    },
+    {
+      "conceptId": "en.technology_i_need_a_new_usb_cable",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4b1a33a2e8672194"
+    },
+    {
+      "conceptId": "en.technology_the_wifi_is_not_working_can",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.52df52810982e542"
+    },
+    {
+      "conceptId": "en.technology_be_careful_with_that_link_it",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.73c6cdc7d336df8e"
+    },
+    {
+      "conceptId": "en.technology_the_app_works_better_than_the",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.47bcefe444768ff4"
+    },
+    {
+      "conceptId": "en.technology_lets_look_for_an_internet_tutorial",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.63a2750743a7f36d"
+    },
+    {
+      "conceptId": "en.technology_what_cell_phone_do_you_recommend",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9c83443fd729d757"
+    },
+    {
+      "conceptId": "en.technology_scan_this_qr_code_for_more",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2ad0de33b2e676db"
+    },
+    {
+      "conceptId": "en.technology_i_cant_open_this_file_what",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5d53f357f4ed046a"
+    },
+    {
+      "conceptId": "en.technology_i_need_to_download_this_program",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f17bc3df4dc626d0"
+    },
+    {
+      "conceptId": "en.technology_how_can_i_recover_a_deleted",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ad6aa1a2fb3753e5"
+    },
+    {
+      "conceptId": "en.technology_you_should_look_it_up_on",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f947ee821d74582f"
+    },
+    {
+      "conceptId": "en.technology_i_accidentally_deleted_the_conversation_can",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9eff059e7cc1f07e"
+    },
+    {
+      "conceptId": "en.technology_dont_trust_all_the_information_you",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.2271fa359d793793"
+    },
+    {
+      "conceptId": "en.technology_do_you_know_how_to_use",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4e2f7e0d23871a1e"
+    },
+    {
+      "conceptId": "en.technology_i_cant_open_this_pdf_file",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0540002ae414632d"
+    },
+    {
+      "conceptId": "en.technology_im_looking_for_software_to_record",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.bc135ec64b10eda2"
+    },
+    {
+      "conceptId": "en.technology_what_is_this_formula_in_excel",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7413264185c85edb"
+    },
+    {
+      "conceptId": "en.technology_this_powerpoint_presentation_is_very_boring",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.11e792f87fa8715d"
+    },
+    {
+      "conceptId": "en.technology_the_information_is_in_the_attached",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6c7aa5cee8c21e2e"
+    },
+    {
+      "conceptId": "en.technology_i_want_to_increase_the_brightness",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.396d0d8394880039"
+    },
+    {
+      "conceptId": "en.technology_turn_on_the_scanner_i_need",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8e14420a6a8448cf"
+    },
+    {
+      "conceptId": "en.technology_you_should_buy_a_better_mouse",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f7c557f9a5c679cf"
+    },
+    {
+      "conceptId": "en.technology_these_wireless_headphones_are_very_comfortable",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.67a7624ea8787c79"
+    },
+    {
+      "conceptId": "en.technology_the_virtual_assistant_has_been_failing",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.12a610cb5ee7e846"
+    },
+    {
+      "conceptId": "en.technology_the_battery_of_this_phone_could",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4a42b595be542c1b"
+    },
+    {
+      "conceptId": "en.technology_i_love_the_camera_on_this",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.85cd89d2ece23621"
+    },
+    {
+      "conceptId": "en.technology_how_can_i_change_the_language",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.05a522749ee2181c"
+    },
+    {
+      "conceptId": "en.technology_i_dont_know_where_the_portable",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d88e485a09311579"
+    },
+    {
+      "conceptId": "en.technology_look_for_the_file_in_the",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4f0375bd3dd3fc86"
+    },
+    {
+      "conceptId": "en.technology_are_you_sure_you_are_connected",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.beffbcaae4b5de8d"
+    },
+    {
+      "conceptId": "en.technology_please_turn_on_the_printer",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.857cb8030d3c04ad"
+    },
+    {
+      "conceptId": "en.technology_how_do_you_do_this_in",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fadfbcacfb5a8789"
+    },
+    {
+      "conceptId": "en.technology_the_app_was_requesting_access_to",
+      "level": "B2",
+      "grammar": "Past continuous for an action in progress at a key decision moment",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.97d65935fc53714d"
+    },
+    {
+      "conceptId": "en.technology_my_storage_is_almost_full_so",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.edf5d2b24aa547f4"
+    },
+    {
+      "conceptId": "en.technology_i_switched_to_a_monthly_subscription",
+      "level": "B2",
+      "grammar": "'Instead of + gerund' to contrast alternatives",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ea0d5911623b246f"
+    },
+    {
+      "conceptId": "en.technology_the_battery_life_significantly_improved_after",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7d0964353acadff3"
+    },
+    {
+      "conceptId": "en.technology_i_enabled_dark_mode_to_reduce",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.50ee6123b64b9a45"
+    },
+    {
+      "conceptId": "en.technology_the_router_needs_to_be_placed",
+      "level": "B2",
+      "grammar": "Passive infinitive 'needs to be placed' makes an impersonal recommendation.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c3cbdae7ac3a63fb"
+    },
+    {
+      "conceptId": "en.technology_i_use_a_separate_browser_profile",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.017385f97ed28031"
+    },
+    {
+      "conceptId": "en.technology_my_phone_keeps_overheating_when",
+      "level": "B2",
+      "grammar": "'Keep + gerund' to describe a repeated or continuing problem",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.26fe500a4825e279"
+    },
+    {
+      "conceptId": "en.technology_the_new_operating_system_update",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.57de2d1f3c70449d"
+    },
+    {
+      "conceptId": "en.technology_i_enabled_twofactor_authentication_on",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a0973adb0086e013"
+    },
+    {
+      "conceptId": "en.technology_the_streaming_quality_drops_when",
+      "level": "B2",
+      "grammar": "'Whenever' to express every time a condition is true",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.75c667ede5ccfc0e"
+    },
+    {
+      "conceptId": "en.technology_i_set_up_automatic_cloud_backups",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.9880018c6a66c816"
+    },
+    {
+      "conceptId": "en.technology_the_algorithm_keeps_recommending_content",
+      "level": "C1",
+      "grammar": "'Keep + gerund' describes a persistent, recurring pattern.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c2cda48d81cdd0b4"
+    },
+    {
+      "conceptId": "en.technology_i_enabled_biometric_authentication_so",
+      "level": "C1",
+      "grammar": "'So that' to express purpose with a compound result",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1e77087bf50d6293"
+    },
+    {
+      "conceptId": "en.technology_after_the_ransomware_attack_the_company",
+      "level": "C1",
+      "grammar": "'Had no choice but to' describes being forced into a specific action.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.eeddfb0fbd3198f0"
+    },
+    {
+      "conceptId": "en.technology_i_requested_a_copy_of_all_data",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.54dbae628be04776"
+    },
+    {
+      "conceptId": "en.technology_the_app_uses_dark_patterns_to",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.1e22c81a35f47175"
+    },
+    {
+      "conceptId": "en.technology_working_remotely_requires_not_just",
+      "level": "C1",
+      "grammar": "'Not just... but also' for additive emphasis",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.46a8f18b7e7ac74c"
+    },
+    {
+      "conceptId": "en.technology_the_platform_monetizes_user_attention",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.964ea3189d73175c"
+    },
+    {
+      "conceptId": "en.technology_my_privacy_settings_dont_seem",
+      "level": "C1",
+      "grammar": "Passive continuous: 'is being tracked' for an ongoing background action",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8dafc56cfb69d353"
+    },
+    {
+      "conceptId": "en.technology_i_received_a_phishing_email",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.59f67ec18caa9dc6"
+    },
+    {
+      "conceptId": "en.technology_clearing_the_cache_usually_fixes",
+      "level": "C1",
+      "grammar": "A gerund can act as the sentence subject: 'Clearing the cache usually fixes…'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.600297c5c6b9d831"
+    },
+    {
+      "conceptId": "en.technology_the_devices_firmware_needs_to",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b91241ad3d0a87ef"
+    },
+    {
+      "conceptId": "en.technology_im_considering_switching_ecosystems_but",
+      "level": "C1",
+      "grammar": "'Consider + gerund' for weighing an option",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.0b94433c01dbcd7d"
+    },
+    {
+      "conceptId": "en.technology_the_company_acknowledged_a_data",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.980670118e6aa333"
+    },
+    {
+      "conceptId": "en.technology_the_legacy_system_is_no_longer",
+      "level": "C2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fa43d0c90a116582"
+    },
+    {
+      "conceptId": "en.technology_phone_froze",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e6b8481d857b2e3c"
+    },
+    {
+      "conceptId": "en.technology_battery_low",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.7ba8ba0b117313b3"
+    },
+    {
+      "conceptId": "en.technology_app_crashing",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b5cc4829a29f041c"
+    },
+    {
+      "conceptId": "en.technology_how_connect_wifi",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6f8d956dc9244c49"
+    },
+    {
+      "conceptId": "en.technology_help_install_app",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e98b46dff2ea6e09"
+    },
+    {
+      "conceptId": "en.technology_this_phone_is_cheap",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f0a8582b67f0823c"
+    },
+    {
+      "conceptId": "en.technology_this_is_a_new_model",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.8e66d221879937ac"
+    },
+    {
+      "conceptId": "en.technology_if_press_button_starts",
+      "level": "A2",
+      "grammar": "The zero conditional (if + present, present) states a general truth or automatic result.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.fd9b9b127ad28d09"
+    },
+    {
+      "conceptId": "en.technology_if_battery_dies_screen_off",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.215e6c29e0f509ac"
+    }
   ]
 }

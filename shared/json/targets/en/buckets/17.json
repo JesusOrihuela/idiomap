@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "17",
+  "concepts": {
+    "en.accommodation_drinks_included": {
+      "conceptId": "en.accommodation_drinks_included",
+      "id": "accommodation_drinks_included",
+      "target": [
+        {
+          "text": "Are drinks included?",
+          "audioSlug": "are_drinks_included"
+        }
+      ]
+    },
+    "en.health_it_is_a_serious_disease": {
+      "conceptId": "en.health_it_is_a_serious_disease",
+      "id": "health_it_is_a_serious_disease",
+      "target": [
+        {
+          "text": "It is a serious disease.",
+          "audioSlug": "it_is_a_serious_disease"
+        }
+      ]
+    },
+    "en.kitchen_do_we_have_any_fresh_herbs": {
+      "conceptId": "en.kitchen_do_we_have_any_fresh_herbs",
+      "id": "kitchen_do_we_have_any_fresh_herbs",
+      "target": [
+        {
+          "text": "Do we have any fresh herbs?",
+          "audioSlug": "do_we_have_any_fresh_herbs"
+        }
+      ]
+    },
+    "en.kitchen_the_grill_is_on_the_patio": {
+      "conceptId": "en.kitchen_the_grill_is_on_the_patio",
+      "id": "kitchen_the_grill_is_on_the_patio",
+      "target": [
+        {
+          "text": "The grill is on the patio.",
+          "audioSlug": "the_grill_is_on_the_patio"
+        }
+      ]
+    },
+    "en.pensamientos_opiniones_i_like_challenges": {
+      "conceptId": "en.pensamientos_opiniones_i_like_challenges",
+      "id": "pensamientos_opiniones_i_like_challenges",
+      "target": [
+        {
+          "text": "I like challenges.",
+          "audioSlug": "i_like_challenges"
+        }
+      ]
+    },
+    "en.politica_silence_in_the_court": {
+      "conceptId": "en.politica_silence_in_the_court",
+      "id": "politica_silence_in_the_court",
+      "target": [
+        {
+          "text": "Silence in the court!",
+          "audioSlug": "silence_in_the_court"
+        }
+      ]
+    }
+  }
+}

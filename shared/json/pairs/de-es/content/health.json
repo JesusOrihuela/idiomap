@@ -1,39 +1,423 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "health",
-  "conceptIds": [
-    "es.health_me_duele_la_cabeza",
-    "es.health_necesito_ver_a_un_medico",
-    "es.health_estoy_enferma",
-    "es.health_tengo_fiebre_y_tos",
-    "es.health_donde_esta_la_farmacia_mas_cercana",
-    "es.health_necesito_un_medicamento_para_el_dolor",
-    "es.health_me_siento_mareada",
-    "es.health_debes_descansar_y_beber_agua",
-    "es.health_me_torci_el_tobillo_en_el_parque",
-    "es.health_tienes_algun_sintoma_mas",
-    "es.health_toma_una_pastilla_si_te_duele_la_cabeza",
-    "es.health_el_doctor_me_dio_una_receta",
-    "es.health_es_importante_mantenerse_sano",
-    "es.health_tengo_una_herida_en_la_rodilla",
-    "es.health_el_medico_curo_al_paciente",
-    "es.health_debes_tomar_la_medicina_dos_veces_al_dia",
-    "es.health_me_duele_la_garganta",
-    "es.health_respira_profundo_y_relajate",
-    "es.health_el_ejercicio_fortalece_el_cuerpo",
-    "es.health_necesito_una_cita_con_el_especialista",
-    "es.health_el_tratamiento_dura_varias_semanas",
-    "es.health_me_pusieron_una_vacuna_ayer",
-    "es.health_descansa_y_recuperate_pronto",
-    "es.health_el_paciente_necesita_una_operacion",
-    "es.health_tomo_vitaminas_todas_las_mananas",
-    "es.health_el_dolor_desaparece_con_el_descanso",
-    "es.health_es_una_enfermedad_poco_comun",
-    "es.health_llama_a_una_ambulancia_por_favor",
-    "es.health_tengo_gripe_y_mucha_tos",
-    "es.health_tenemos_que_ir_a_urgencias_ya",
-    "es.health_este_virus_se_contagia_muy_rapido",
-    "es.health_tengo_alergia_al_polen_en_primavera"
+  "phrases": [
+    {
+      "conceptId": "es.health_me_duele_la_cabeza",
+      "level": "A1",
+      "grammar": "doler funciona como gustar, me duele la cabeza.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0dd3725fb3cc6c23"
+    },
+    {
+      "conceptId": "es.health_necesito_ver_a_un_medico",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f536614c591ca0c8"
+    },
+    {
+      "conceptId": "es.health_estoy_enferma",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.dccc118138a4e922"
+    },
+    {
+      "conceptId": "es.health_tengo_fiebre_y_tos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a768c49bab48f145"
+    },
+    {
+      "conceptId": "es.health_donde_esta_la_farmacia_mas_cercana",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.55feaeb82c41d219"
+    },
+    {
+      "conceptId": "es.health_necesito_un_medicamento_para_el_dolor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fc94369cf238fd72"
+    },
+    {
+      "conceptId": "es.health_me_siento_mareada",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d678893d73ad0c6b"
+    },
+    {
+      "conceptId": "es.health_debes_descansar_y_beber_agua",
+      "level": "A2",
+      "grammar": "deber más infinitivo da un consejo, debes descansar.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5b6a0cfa940c6d1e"
+    },
+    {
+      "conceptId": "es.health_me_torci_el_tobillo_en_el_parque",
+      "level": "B1",
+      "grammar": "me torcí es pretérito de un verbo reflexivo.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.68237f50a3d142d7"
+    },
+    {
+      "conceptId": "es.health_tienes_algun_sintoma_mas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ed1fcbb61d13290d"
+    },
+    {
+      "conceptId": "es.health_toma_una_pastilla_si_te_duele_la_cabeza",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.933743decb8bf6e4"
+    },
+    {
+      "conceptId": "es.health_el_doctor_me_dio_una_receta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fe01e2468236aefb"
+    },
+    {
+      "conceptId": "es.health_es_importante_mantenerse_sano",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a0684eedb869d992"
+    },
+    {
+      "conceptId": "es.health_tengo_una_herida_en_la_rodilla",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.a5ea02a61384a0fb"
+    },
+    {
+      "conceptId": "es.health_el_medico_curo_al_paciente",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.abd787d04dcf5f20"
+    },
+    {
+      "conceptId": "es.health_debes_tomar_la_medicina_dos_veces_al_dia",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.82171e66f7331585"
+    },
+    {
+      "conceptId": "es.health_me_duele_la_garganta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.98c536ab804965ce"
+    },
+    {
+      "conceptId": "es.health_respira_profundo_y_relajate",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f78ef924e59c4f76"
+    },
+    {
+      "conceptId": "es.health_el_ejercicio_fortalece_el_cuerpo",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.797b4577e9280b01"
+    },
+    {
+      "conceptId": "es.health_necesito_una_cita_con_el_especialista",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7293295dee4d0212"
+    },
+    {
+      "conceptId": "es.health_el_tratamiento_dura_varias_semanas",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0945267586167429"
+    },
+    {
+      "conceptId": "es.health_me_pusieron_una_vacuna_ayer",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.326019ee2078ab73"
+    },
+    {
+      "conceptId": "es.health_descansa_y_recuperate_pronto",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.661b5d8e549bfbfe"
+    },
+    {
+      "conceptId": "es.health_el_paciente_necesita_una_operacion",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6f222a21c2841fc8"
+    },
+    {
+      "conceptId": "es.health_tomo_vitaminas_todas_las_mananas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.64dcaf1f018345ed"
+    },
+    {
+      "conceptId": "es.health_el_dolor_desaparece_con_el_descanso",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2aae9d5777b1d001"
+    },
+    {
+      "conceptId": "es.health_es_una_enfermedad_poco_comun",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9cfa8ef185c59f51"
+    },
+    {
+      "conceptId": "es.health_llama_a_una_ambulancia_por_favor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.e4b030c9e3771e81"
+    },
+    {
+      "conceptId": "es.health_tengo_gripe_y_mucha_tos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2c4e54802a74a6a4"
+    },
+    {
+      "conceptId": "es.health_tenemos_que_ir_a_urgencias_ya",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.56d28e2edfc86bfa"
+    },
+    {
+      "conceptId": "es.health_este_virus_se_contagia_muy_rapido",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.58b4c04b0f70c921"
+    },
+    {
+      "conceptId": "es.health_tengo_alergia_al_polen_en_primavera",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.047bc77689671330"
+    }
   ]
 }

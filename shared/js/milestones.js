@@ -9,6 +9,20 @@
 
   var SPEAKING_PREFIX = /^(dict_|cloze_|trans_|scramble_|quiz_vocab_|vocab_|grammar_)/;
 
+  function _isSpeakingKey(k) {
+    var act = (typeof Progress !== 'undefined' && Progress.getCardActivity) ? Progress.getCardActivity(k) : null;
+    if (act) return act === 'speaking';
+    return !SPEAKING_PREFIX.test(k) && !k.startsWith('quiz_') && !k.startsWith('vocab');
+  }
+
+  function _topicOf(k) {
+    if (typeof Progress !== 'undefined' && Progress.getCardTopic) {
+      var t = Progress.getCardTopic(k);
+      if (t) return t;
+    }
+    return null;
+  }
+
   var MILESTONES = [
     {
       id: 'first_streak',
@@ -22,7 +36,7 @@
       emoji: '📖',
       check: function (cards) {
         return Object.entries(cards).filter(function (kv) {
-          return !kv[0].startsWith('_') && kv[1].reps >= 1;
+          return !kv[0].startsWith('_') && _isSpeakingKey(kv[0]) && kv[1].reps >= 1;
         }).length >= 10;
       }
     },
@@ -33,7 +47,7 @@
       check: function (cards) {
         var hasSpeaking  = Object.entries(cards).some(function (kv) {
           var k = kv[0];
-          return !k.startsWith('_') && !SPEAKING_PREFIX.test(k) && !k.startsWith('quiz_') && !k.startsWith('vocab') && kv[1].reps >= 1;
+          return !k.startsWith('_') && _isSpeakingKey(k) && kv[1].reps >= 1;
         });
         var hasDict     = Object.keys(cards).some(function (k) { return k.startsWith('dict_')     && cards[k].reps >= 1; });
         var hasCloze    = Object.keys(cards).some(function (k) { return k.startsWith('cloze_')    && cards[k].reps >= 1; });
@@ -47,11 +61,13 @@
     icon: 'i-lock-open',
       emoji: '🗝️',
       check: function (cards) {
-        var next = ['restaurant_', 'supermarket_', 'kitchen_', 'transportation_', 'airport_', 'accommodation_', 'movies_', 'music_', 'theater_', 'gym_', 'technology_', 'accountability_'];
+        var next = ['restaurant', 'supermarket', 'kitchen', 'transportation', 'airport', 'accommodation', 'movies', 'music', 'theater', 'gym', 'technology', 'accountability'];
         return Object.entries(cards).some(function (kv) {
           var k = kv[0];
           if (k.startsWith('_')) return false;
-          return next.some(function (t) { return k.startsWith(t); }) && kv[1].reps >= 1;
+          var topic = _topicOf(k);
+          var hit = topic ? next.indexOf(topic) !== -1 : next.some(function (t) { return k.startsWith(t + '_'); });
+          return hit && kv[1].reps >= 1;
         });
       }
     },
@@ -61,7 +77,7 @@
       emoji: '🗣️',
       check: function (cards) {
         return Object.entries(cards).filter(function (kv) {
-          return !kv[0].startsWith('_') && !SPEAKING_PREFIX.test(kv[0]) && kv[1].reps >= 1;
+          return !kv[0].startsWith('_') && _isSpeakingKey(kv[0]) && kv[1].reps >= 1;
         }).length >= 50;
       }
     },

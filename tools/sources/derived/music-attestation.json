@@ -1,0 +1,533 @@
+{
+  "_doc": "Atestiguacion frase por frase — topic music. Comunicacion real sobre musica (tocar, conciertos, escuchar/reproducir, gustos, recomendar, opinar conversacionalmente). Retirada la musicologia/critica academica.",
+  "sources_en": [
+    "music ESL guides",
+    "Core Inventory (opinions)"
+  ],
+  "sources_es": [
+    "PCIC funciones de gustos/opinion",
+    "recursos ELE de musica"
+  ],
+  "retired": [
+    "9 C2 de musicologia + 2-3 C1 de ensayo (ver music-provenance.json)"
+  ],
+  "phrases": {
+    "en.music_acoustic_version_reveals_songwriting": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "I prefer the acoustic version. Stripping it down reveals how strong the songwriting is."
+    },
+    "en.music_add_song_playlist": {
+      "level": "A2",
+      "function": "tocar",
+      "attested": true,
+      "intent": "I'd like to add this song to my playlist."
+    },
+    "en.music_blends_traditional_contemporary": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "What strikes me most is how seamlessly this album blends traditional and contemporary influences."
+    },
+    "en.music_catchy": {
+      "level": "A2",
+      "function": "gustos",
+      "attested": true,
+      "intent": "This song is really catchy."
+    },
+    "en.music_chord_progression_unsettling": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The chord progression is unconventional, which gives the track its distinctively unsettling quality."
+    },
+    "en.music_classical_pianist_switched_jazz": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "He started as a classical pianist before switching to jazz in his late twenties."
+    },
+    "en.music_concept_album_narrative_arc": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "This is a concept album in the truest sense, with every track feeding into a larger arc."
+    },
+    "en.music_concert_sound_mix_terrible": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "The energy was incredible, but the sound mix was terrible."
+    },
+    "en.music_concert_tickets": {
+      "level": "A1",
+      "function": "conciertos",
+      "attested": true,
+      "intent": "I have tickets for the concert."
+    },
+    "en.music_cover_version_back_to_original": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "That cover version is so good it made me revisit the original."
+    },
+    "en.music_discovered_through_algorithm": {
+      "level": "B2",
+      "function": "tocar",
+      "attested": true,
+      "intent": "I discovered this band through a playlist algorithm. I'd never have found them otherwise."
+    },
+    "en.music_favorite_singer": {
+      "level": "A1",
+      "function": "gustos",
+      "attested": true,
+      "intent": "Who's your favorite singer?"
+    },
+    "en.music_favorite_song": {
+      "level": "A1",
+      "function": "gustos",
+      "attested": true,
+      "intent": "That's my favorite song."
+    },
+    "en.music_favorite_song_always": {
+      "level": "A1",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "I really like that song, I listen to it all the time."
+    },
+    "en.music_festival_lineup_disappointing": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "I think the festival lineup this year is disappointing. Too many commercial acts."
+    },
+    "en.music_go_concert_year": {
+      "level": "B1",
+      "function": "conciertos",
+      "attested": true,
+      "intent": "We should go to a concert this year."
+    },
+    "en.music_headphones_or_speakers": {
+      "level": "B1",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "Do you prefer listening through headphones or on speakers?"
+    },
+    "en.music_indie_influence_underestimated": {
+      "level": "C1",
+      "function": "conciertos",
+      "attested": true,
+      "intent": "I'd argue this band's influence on indie music over the last decade has been widely underestimated."
+    },
+    "en.music_learning_guitar_six_months": {
+      "level": "B1",
+      "function": "tocar",
+      "attested": true,
+      "intent": "I've been learning to play the guitar for about six months."
+    },
+    "en.music_live_better_than_studio": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "The live performance was far better than the studio recording."
+    },
+    "en.music_live_spontaneity_studio_cant_capture": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "There's a spontaneity in live recordings that studio albums rarely capture, however technically refined they are."
+    },
+    "en.music_love_this_song_who_sings": {
+      "level": "A1",
+      "function": "gustos",
+      "attested": true,
+      "intent": "I love this song. Who sings it?"
+    },
+    "en.music_lyrics_political_commentary": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The lyrics are deceptively simple. There's a lot of political commentary beneath the surface."
+    },
+    "en.music_more_i_listened_more_appreciated": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "The more I listened to jazz, the more I appreciated its improvisational elements."
+    },
+    "en.music_new_album_disappointment": {
+      "level": "B1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The new album didn't impress me as much as the previous ones."
+    },
+    "en.music_new_concert_band": {
+      "level": "A2",
+      "function": "conciertos",
+      "attested": true,
+      "intent": "There is a new concert by my favorite band, I have to go."
+    },
+    "en.music_opening_act_surprised": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "The opening act was surprisingly good. I hadn't heard of them before."
+    },
+    "en.music_overproduction_works_against_core": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The overproduced sound actually works against the song's emotional core, creating an unintended coldness."
+    },
+    "en.music_play_instrument": {
+      "level": "A1",
+      "function": "tocar",
+      "attested": true,
+      "intent": "Do you play any instrument?"
+    },
+    "en.music_podcast_recommendation": {
+      "level": "A2",
+      "function": "recomendar/podcast",
+      "attested": true,
+      "intent": "I don't know what podcast to listen to, can you recommend one?"
+    },
+    "en.music_podcasts_while_exercise": {
+      "level": "A2",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "I love listening to podcasts while I exercise."
+    },
+    "en.music_reinterprets_makes_her_own": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "She doesn't just perform the song. She reinterprets it and makes it entirely her own."
+    },
+    "en.music_reunion_tour_expectations": {
+      "level": "B2",
+      "function": "conciertos",
+      "attested": true,
+      "intent": "When a band reunites, I always worry they won't live up to my memories."
+    },
+    "en.music_similar_genre_film": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "I want music similar to that film's soundtrack. Do you know the genre?"
+    },
+    "en.music_skip_song": {
+      "level": "A1",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "Skip that song."
+    },
+    "en.music_song_special_memory": {
+      "level": "B1",
+      "function": "gustos",
+      "attested": true,
+      "intent": "This song reminds me of a special moment in my life."
+    },
+    "en.music_started_late_still_impressive": {
+      "level": "B2",
+      "function": "tocar",
+      "attested": true,
+      "intent": "She started playing piano in her thirties, which makes her technique even more impressive."
+    },
+    "en.music_turn_down": {
+      "level": "A1",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "Can you turn down the music, please?"
+    },
+    "en.music_turn_on": {
+      "level": "A1",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "Let's put on some music."
+    },
+    "en.music_turn_up": {
+      "level": "A1",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "Can you turn up the music?"
+    },
+    "en.music_vocal_range_earlier_work": {
+      "level": "B2",
+      "function": "gustos",
+      "attested": true,
+      "intent": "The singer's vocal range in this album is remarkable compared to her earlier work."
+    },
+    "en.music_what_kind_do_you_like": {
+      "level": "A1",
+      "function": "gustos",
+      "attested": true,
+      "intent": "What kind of music do you like?"
+    },
+    "en.music_what_listening": {
+      "level": "A1",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "What are you listening to?"
+    },
+    "es.music_acoustic_version_reveals_songwriting": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "I prefer the acoustic version. Stripping it down reveals how strong the songwriting is."
+    },
+    "es.music_add_song_playlist": {
+      "level": "A2",
+      "function": "tocar",
+      "attested": true,
+      "intent": "I'd like to add this song to my playlist."
+    },
+    "es.music_blends_traditional_contemporary": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "What strikes me most is how seamlessly this album blends traditional and contemporary influences."
+    },
+    "es.music_catchy": {
+      "level": "A2",
+      "function": "gustos",
+      "attested": true,
+      "intent": "This song is really catchy."
+    },
+    "es.music_chord_progression_unsettling": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The chord progression is unconventional, which gives the track its distinctively unsettling quality."
+    },
+    "es.music_classical_pianist_switched_jazz": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "He started as a classical pianist before switching to jazz in his late twenties."
+    },
+    "es.music_concept_album_narrative_arc": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "This is a concept album in the truest sense, with every track feeding into a larger arc."
+    },
+    "es.music_concert_sound_mix_terrible": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "The energy was incredible, but the sound mix was terrible."
+    },
+    "es.music_concert_tickets": {
+      "level": "A1",
+      "function": "conciertos",
+      "attested": true,
+      "intent": "I have tickets for the concert."
+    },
+    "es.music_cover_version_back_to_original": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "That cover version is so good it made me revisit the original."
+    },
+    "es.music_discovered_through_algorithm": {
+      "level": "B2",
+      "function": "tocar",
+      "attested": true,
+      "intent": "I discovered this band through a playlist algorithm. I'd never have found them otherwise."
+    },
+    "es.music_favorite_singer": {
+      "level": "A1",
+      "function": "gustos",
+      "attested": true,
+      "intent": "Who's your favorite singer?"
+    },
+    "es.music_favorite_song": {
+      "level": "A1",
+      "function": "gustos",
+      "attested": true,
+      "intent": "That's my favorite song."
+    },
+    "es.music_favorite_song_always": {
+      "level": "A1",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "I really like that song, I listen to it all the time."
+    },
+    "es.music_festival_lineup_disappointing": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "I think the festival lineup this year is disappointing. Too many commercial acts."
+    },
+    "es.music_go_concert_year": {
+      "level": "B1",
+      "function": "conciertos",
+      "attested": true,
+      "intent": "We should go to a concert this year."
+    },
+    "es.music_headphones_or_speakers": {
+      "level": "B1",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "Do you prefer listening through headphones or on speakers?"
+    },
+    "es.music_indie_influence_underestimated": {
+      "level": "C1",
+      "function": "conciertos",
+      "attested": true,
+      "intent": "I'd argue this band's influence on indie music over the last decade has been widely underestimated."
+    },
+    "es.music_learning_guitar_six_months": {
+      "level": "B1",
+      "function": "tocar",
+      "attested": true,
+      "intent": "I've been learning to play the guitar for about six months."
+    },
+    "es.music_live_better_than_studio": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "The live performance was far better than the studio recording."
+    },
+    "es.music_live_spontaneity_studio_cant_capture": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "There's a spontaneity in live recordings that studio albums rarely capture, however technically refined they are."
+    },
+    "es.music_love_this_song_who_sings": {
+      "level": "A1",
+      "function": "gustos",
+      "attested": true,
+      "intent": "I love this song. Who sings it?"
+    },
+    "es.music_lyrics_political_commentary": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The lyrics are deceptively simple. There's a lot of political commentary beneath the surface."
+    },
+    "es.music_more_i_listened_more_appreciated": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "The more I listened to jazz, the more I appreciated its improvisational elements."
+    },
+    "es.music_new_album_disappointment": {
+      "level": "B1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The new album didn't impress me as much as the previous ones."
+    },
+    "es.music_new_concert_band": {
+      "level": "A2",
+      "function": "conciertos",
+      "attested": true,
+      "intent": "There is a new concert by my favorite band, I have to go."
+    },
+    "es.music_opening_act_surprised": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "The opening act was surprisingly good. I hadn't heard of them before."
+    },
+    "es.music_overproduction_works_against_core": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "The overproduced sound actually works against the song's emotional core, creating an unintended coldness."
+    },
+    "es.music_play_instrument": {
+      "level": "A1",
+      "function": "tocar",
+      "attested": true,
+      "intent": "Do you play any instrument?"
+    },
+    "es.music_podcast_recommendation": {
+      "level": "A2",
+      "function": "recomendar/podcast",
+      "attested": true,
+      "intent": "I don't know what podcast to listen to, can you recommend one?"
+    },
+    "es.music_podcasts_while_exercise": {
+      "level": "A2",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "I love listening to podcasts while I exercise."
+    },
+    "es.music_reinterprets_makes_her_own": {
+      "level": "C1",
+      "function": "opinar/valorar",
+      "attested": true,
+      "intent": "She doesn't just perform the song. She reinterprets it and makes it entirely her own."
+    },
+    "es.music_reunion_tour_expectations": {
+      "level": "B2",
+      "function": "conciertos",
+      "attested": true,
+      "intent": "When a band reunites, I always worry they won't live up to my memories."
+    },
+    "es.music_similar_genre_film": {
+      "level": "B2",
+      "function": "musica_general",
+      "attested": true,
+      "intent": "I want music similar to that film's soundtrack. Do you know the genre?"
+    },
+    "es.music_skip_song": {
+      "level": "A1",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "Skip that song."
+    },
+    "es.music_song_special_memory": {
+      "level": "B1",
+      "function": "gustos",
+      "attested": true,
+      "intent": "This song reminds me of a special moment in my life."
+    },
+    "es.music_started_late_still_impressive": {
+      "level": "B2",
+      "function": "tocar",
+      "attested": true,
+      "intent": "She started playing piano in her thirties, which makes her technique even more impressive."
+    },
+    "es.music_turn_down": {
+      "level": "A1",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "Can you turn down the music, please?"
+    },
+    "es.music_turn_on": {
+      "level": "A1",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "Let's put on some music."
+    },
+    "es.music_turn_up": {
+      "level": "A1",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "Can you turn up the music?"
+    },
+    "es.music_vocal_range_earlier_work": {
+      "level": "B2",
+      "function": "gustos",
+      "attested": true,
+      "intent": "The singer's vocal range in this album is remarkable compared to her earlier work."
+    },
+    "es.music_what_kind_do_you_like": {
+      "level": "A1",
+      "function": "gustos",
+      "attested": true,
+      "intent": "What kind of music do you like?"
+    },
+    "es.music_what_listening": {
+      "level": "A1",
+      "function": "escuchar/reproducir",
+      "attested": true,
+      "intent": "What are you listening to?"
+    }
+  },
+  "_keyFormat": "target.conceptSlug"
+}

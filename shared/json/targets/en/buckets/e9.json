@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "e9",
+  "concepts": {
+    "en.economia_i_want_to_buy_it": {
+      "conceptId": "en.economia_i_want_to_buy_it",
+      "id": "economia_i_want_to_buy_it",
+      "target": [
+        {
+          "text": "I want to buy it.",
+          "audioSlug": "i_want_to_buy_it"
+        }
+      ]
+    },
+    "en.health_the_treatment_is_working": {
+      "conceptId": "en.health_the_treatment_is_working",
+      "id": "health_the_treatment_is_working",
+      "target": [
+        {
+          "text": "The treatment is working.",
+          "audioSlug": "the_treatment_is_working"
+        }
+      ]
+    },
+    "en.music_concept_album_narrative_arc": {
+      "conceptId": "en.music_concept_album_narrative_arc",
+      "id": "music_concept_album_narrative_arc",
+      "target": [
+        {
+          "text": "This is a concept album in the truest sense, every track feeds into a larger arc.",
+          "audioSlug": "this_is_a_concept_album_in_the_truest_sense_every_track_feeds_into_a_larger_arc"
+        }
+      ]
+    },
+    "en.supermarket_do_you_know_which_pasta_brand": {
+      "conceptId": "en.supermarket_do_you_know_which_pasta_brand",
+      "id": "supermarket_do_you_know_which_pasta_brand",
+      "target": [
+        {
+          "text": "Do you know which pasta brand is the best?",
+          "audioSlug": "do_you_know_which_pasta_brand_is_the_best"
+        }
+      ]
+    },
+    "en.transportation_metro_map_navigate": {
+      "conceptId": "en.transportation_metro_map_navigate",
+      "id": "transportation_metro_map_navigate",
+      "target": [
+        {
+          "text": "I'm struggling with the metro map. Could you show me how to read it?",
+          "audioSlug": "i_m_struggling_with_the_metro_map_could_you_show_me_how_to_read_it"
+        }
+      ]
+    },
+    "en.viajes_traveling_by_train": {
+      "conceptId": "en.viajes_traveling_by_train",
+      "id": "viajes_traveling_by_train",
+      "target": [
+        {
+          "text": "We are traveling by train.",
+          "audioSlug": "we_are_traveling_by_train"
+        }
+      ]
+    }
+  }
+}

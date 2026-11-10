@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "79",
+  "concepts": {
+    "es.conversacion_deja_de_repetir_lo_mismo": {
+      "conceptId": "es.conversacion_deja_de_repetir_lo_mismo",
+      "id": "conversacion_deja_de_repetir_lo_mismo",
+      "target": [
+        {
+          "text": "Deja de repetir lo mismo.",
+          "audioSlug": "deja_de_repetir_lo_mismo"
+        }
+      ]
+    },
+    "es.describiendo_personas_eres_fuerte": {
+      "conceptId": "es.describiendo_personas_eres_fuerte",
+      "id": "describiendo_personas_eres_fuerte",
+      "target": [
+        {
+          "text": "Eres fuerte.",
+          "audioSlug": "eres_fuerte"
+        }
+      ]
+    },
+    "es.describiendo_personas_ese_hombre_es_antipatico": {
+      "conceptId": "es.describiendo_personas_ese_hombre_es_antipatico",
+      "id": "describiendo_personas_ese_hombre_es_antipatico",
+      "target": [
+        {
+          "text": "Ese hombre es antipático.",
+          "audioSlug": "ese_hombre_es_antipatico"
+        }
+      ]
+    },
+    "es.kitchen_el_agua_esta_hirviendo": {
+      "conceptId": "es.kitchen_el_agua_esta_hirviendo",
+      "id": "kitchen_el_agua_esta_hirviendo",
+      "target": [
+        {
+          "text": "El agua está hirviendo.",
+          "audioSlug": "el_agua_esta_hirviendo"
+        }
+      ]
+    },
+    "es.museums_visit_new_museum": {
+      "conceptId": "es.museums_visit_new_museum",
+      "id": "museums_visit_new_museum",
+      "target": [
+        {
+          "text": "Me gustaría ir al nuevo museo que abrieron.",
+          "audioSlug": "me_gustaria_ir_al_nuevo_museo_que_abrieron"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_el_progreso_trae_beneficios_y_riesgos": {
+      "conceptId": "es.pensamientos_opiniones_el_progreso_trae_beneficios_y_riesgos",
+      "id": "pensamientos_opiniones_el_progreso_trae_beneficios_y_riesgos",
+      "target": [
+        {
+          "text": "El progreso trae beneficios y riesgos.",
+          "audioSlug": "el_progreso_trae_beneficios_y_riesgos"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_es_algo_completamente_natural": {
+      "conceptId": "es.pensamientos_opiniones_es_algo_completamente_natural",
+      "id": "pensamientos_opiniones_es_algo_completamente_natural",
+      "target": [
+        {
+          "text": "Es algo completamente natural.",
+          "audioSlug": "es_algo_completamente_natural"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_vivimos_en_una_epoca_dificil": {
+      "conceptId": "es.pensamientos_opiniones_vivimos_en_una_epoca_dificil",
+      "id": "pensamientos_opiniones_vivimos_en_una_epoca_dificil",
+      "target": [
+        {
+          "text": "Vivimos en una época difícil.",
+          "audioSlug": "vivimos_en_una_epoca_dificil"
+        }
+      ]
+    }
+  }
+}

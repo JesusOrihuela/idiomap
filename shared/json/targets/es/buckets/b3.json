@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "b3",
+  "concepts": {
+    "es.calendario_comemos_juntos_los_domingos": {
+      "conceptId": "es.calendario_comemos_juntos_los_domingos",
+      "id": "calendario_comemos_juntos_los_domingos",
+      "target": [
+        {
+          "text": "Comemos juntos todos los domingos.",
+          "audioSlug": "comemos_juntos_todos_los_domingos"
+        }
+      ]
+    },
+    "es.deportes_salgo_a_correr_temprano": {
+      "conceptId": "es.deportes_salgo_a_correr_temprano",
+      "id": "deportes_salgo_a_correr_temprano",
+      "target": [
+        {
+          "text": "Salgo a correr temprano.",
+          "audioSlug": "salgo_a_correr_temprano"
+        }
+      ]
+    },
+    "es.economia_el_comprador_pide_un_descuento": {
+      "conceptId": "es.economia_el_comprador_pide_un_descuento",
+      "id": "economia_el_comprador_pide_un_descuento",
+      "target": [
+        {
+          "text": "La compradora pide un descuento.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Die Käuferin bittet um einen Rabatt.",
+          "audioSlug": "la_compradora_pide_un_descuento"
+        },
+        {
+          "text": "El comprador pide un descuento.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Der Käufer bittet um einen Rabatt.",
+          "audioSlug": "el_comprador_pide_un_descuento"
+        }
+      ]
+    },
+    "es.economia_elige_una_profesion_con_futuro": {
+      "conceptId": "es.economia_elige_una_profesion_con_futuro",
+      "id": "economia_elige_una_profesion_con_futuro",
+      "target": [
+        {
+          "text": "Elige una profesión con futuro.",
+          "audioSlug": "elige_una_profesion_con_futuro"
+        }
+      ]
+    },
+    "es.kitchen_could_you_rinse_the_vegetables_with": {
+      "conceptId": "es.kitchen_could_you_rinse_the_vegetables_with",
+      "id": "kitchen_could_you_rinse_the_vegetables_with",
+      "target": [
+        {
+          "text": "¿Podrías enjuagar las verduras con agua fría?",
+          "audioSlug": "podrias_enjuagar_las_verduras_con_agua_fria"
+        }
+      ]
+    },
+    "es.kitchen_do_we_have_vanilla_extract_for": {
+      "conceptId": "es.kitchen_do_we_have_vanilla_extract_for",
+      "id": "kitchen_do_we_have_vanilla_extract_for",
+      "target": [
+        {
+          "text": "¿Tenemos extracto de vainilla para el pastel?",
+          "labels": {
+            "region": "México y Centroamérica"
+          },
+          "audioSlug": "tenemos_extracto_de_vainilla_para_el_pastel"
+        },
+        {
+          "text": "¿Tenemos extracto de vainilla para la tarta?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "tenemos_extracto_de_vainilla_para_la_tarta"
+        },
+        {
+          "text": "¿Tenemos extracto de vainilla para la torta?",
+          "labels": {
+            "region": "Sudamérica"
+          },
+          "audioSlug": "tenemos_extracto_de_vainilla_para_la_torta"
+        }
+      ]
+    },
+    "es.kitchen_we_need_to_skim_the_broth": {
+      "conceptId": "es.kitchen_we_need_to_skim_the_broth",
+      "id": "kitchen_we_need_to_skim_the_broth",
+      "target": [
+        {
+          "text": "Hay que desgrasar el caldo antes de servirlo.",
+          "audioSlug": "hay_que_desgrasar_el_caldo_antes_de_servirlo"
+        }
+      ]
+    },
+    "es.kitchen_where_do_we_keep_the_plastic": {
+      "conceptId": "es.kitchen_where_do_we_keep_the_plastic",
+      "id": "kitchen_where_do_we_keep_the_plastic",
+      "target": [
+        {
+          "text": "¿Dónde guardamos el plástico para cubrir las sobras?",
+          "audioSlug": "donde_guardamos_el_plastico_para_cubrir_las_sobras"
+        }
+      ]
+    },
+    "es.restaurant_could_i_have_my_burger_cooked": {
+      "conceptId": "es.restaurant_could_i_have_my_burger_cooked",
+      "id": "restaurant_could_i_have_my_burger_cooked",
+      "target": [
+        {
+          "text": "¿Puedo pedir mi hamburguesa bien cocida?",
+          "audioSlug": "puedo_pedir_mi_hamburguesa_bien_cocida"
+        }
+      ]
+    },
+    "es.restaurant_prefiere_pollo_o_pescado": {
+      "conceptId": "es.restaurant_prefiere_pollo_o_pescado",
+      "id": "restaurant_prefiere_pollo_o_pescado",
+      "target": [
+        {
+          "text": "¿Prefiere pollo o pescado?",
+          "audioSlug": "prefiere_pollo_o_pescado"
+        }
+      ]
+    },
+    "es.supermarket_there_is_an_offer_on_the": {
+      "conceptId": "es.supermarket_there_is_an_offer_on_the",
+      "id": "supermarket_there_is_an_offer_on_the",
+      "target": [
+        {
+          "text": "Hay una oferta en el detergente, vamos a comprar dos.",
+          "audioSlug": "hay_una_oferta_en_el_detergente_vamos_a_comprar_dos"
+        }
+      ]
+    }
+  }
+}

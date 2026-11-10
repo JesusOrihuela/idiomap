@@ -1,8 +1,20 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-de",
   "topic": "restaurant",
-  "conceptIds": [
-    "de.restaurant_i_take_a_bread_roll"
+  "phrases": [
+    {
+      "conceptId": "de.restaurant_i_take_a_bread_roll",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d88f828cb6bfea8f"
+    }
   ]
 }

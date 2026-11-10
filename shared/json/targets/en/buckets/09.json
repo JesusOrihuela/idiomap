@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "09",
+  "concepts": {
+    "en.accountability_the_sales_projection_for_the_next": {
+      "conceptId": "en.accountability_the_sales_projection_for_the_next",
+      "id": "accountability_the_sales_projection_for_the_next",
+      "target": [
+        {
+          "text": "The sales projection for the next quarter will be made.",
+          "audioSlug": "the_sales_projection_for_the_next_quarter_will_be_made"
+        }
+      ]
+    },
+    "en.accountability_we_should_hedge_our_foreign": {
+      "conceptId": "en.accountability_we_should_hedge_our_foreign",
+      "id": "accountability_we_should_hedge_our_foreign",
+      "target": [
+        {
+          "text": "We should hedge our foreign currency exposure to mitigate exchange rate risk.",
+          "audioSlug": "we_should_hedge_our_foreign_currency_exposure_to_mitigate_exchange_rate_risk"
+        }
+      ]
+    },
+    "en.family_this_man_is_my_uncle": {
+      "conceptId": "en.family_this_man_is_my_uncle",
+      "id": "family_this_man_is_my_uncle",
+      "target": [
+        {
+          "text": "This man is my uncle.",
+          "audioSlug": "this_man_is_my_uncle"
+        }
+      ]
+    },
+    "en.gym_progress_plateaued_modify_program": {
+      "conceptId": "en.gym_progress_plateaued_modify_program",
+      "id": "gym_progress_plateaued_modify_program",
+      "target": [
+        {
+          "text": "My progress has plateaued. I think I need to modify my training program.",
+          "audioSlug": "my_progress_has_plateaued_i_think_i_need_to_modify_my_training_program"
+        }
+      ]
+    },
+    "en.supermarket_i_didnt_find_the_product_i": {
+      "conceptId": "en.supermarket_i_didnt_find_the_product_i",
+      "id": "supermarket_i_didnt_find_the_product_i",
+      "target": [
+        {
+          "text": "I didn't find the product I was looking for.",
+          "audioSlug": "i_didn_t_find_the_product_i_was_looking_for"
+        }
+      ]
+    },
+    "en.theater_two_tickets": {
+      "conceptId": "en.theater_two_tickets",
+      "id": "theater_two_tickets",
+      "target": [
+        {
+          "text": "Two tickets for tonight's show, please.",
+          "audioSlug": "two_tickets_for_tonight_s_show_please"
+        }
+      ]
+    }
+  }
+}

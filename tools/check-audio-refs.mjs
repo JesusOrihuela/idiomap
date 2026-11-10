@@ -20,8 +20,8 @@ const fails = [];
 
 const audioFiles = (dir) => new Set(
   fs.existsSync(dir) ? fs.readdirSync(dir, { withFileTypes: true })
-    .filter((e) => e.isFile() && /\.(wav|mp3)$/i.test(e.name))
-    .map((e) => e.name.replace(/\.(wav|mp3)$/i, '')) : []
+    .filter((e) => e.isFile() && /\.(wav|mp3|m4a)$/i.test(e.name))
+    .map((e) => e.name.replace(/\.(wav|mp3|m4a)$/i, '')) : []
 );
 
 for (const pair of pairManifests) {
@@ -42,20 +42,24 @@ for (const pair of pairManifests) {
   }
 }
 
-// Vocab: audio lives under audio/<lang>/vocab*/word-voice.wav.
+// Vocab: each deck has its own folder, and every variant slug is checked too.
 for (const lang of fs.readdirSync(R('shared/json/vocab'), { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => e.name)) {
   const vocabAudio = R(`shared/audio/${lang}`);
   if (!fs.existsSync(vocabAudio)) continue;
-  const files = new Set();
-  for (const d of fs.readdirSync(vocabAudio, { withFileTypes: true })) {
-    if (!d.isDirectory()) continue;
-    for (const name of fs.readdirSync(path.join(vocabAudio, d.name))) files.add(name.replace(/\.(wav|mp3)$/i, ''));
-  }
   for (const f of fs.readdirSync(R(`shared/json/vocab/${lang}`)).filter((x) => x.endsWith('.json'))) {
+    const deck = f === 'words.json' ? 'vocab' : `vocab_${f.replace(/^words-/, '').replace(/\.json$/, '')}`;
+    const dir = path.join(vocabAudio, deck);
+    const files = new Set(fs.existsSync(dir)
+      ? fs.readdirSync(dir).map((name) => name.replace(/\.(wav|mp3|m4a)$/i, ''))
+      : []);
     const data = JSON.parse(fs.readFileSync(R(`shared/json/vocab/${lang}/${f}`), 'utf8'));
     for (const word of data.words || []) {
-      const hit = [...files].some((x) => x === word.id || x.startsWith(word.id + '-'));
-      if (!hit) fails.push(`[vocab/${lang}/${f}] ${word.id}: missing audio`);
+      const hit = (slug) => [...files].some((x) => x === slug || x.startsWith(slug + '-'));
+      if (!hit(word.id)) fails.push(`[vocab/${lang}/${f}] ${word.id}: missing audio`);
+      for (const variant of word.variants || []) {
+        if (!variant.audioSlug) { fails.push(`[vocab/${lang}/${f}] ${word.id}: variant without audioSlug`); continue; }
+        if (!hit(variant.audioSlug)) fails.push(`[vocab/${lang}/${f}] ${word.id}: missing variant audio ${variant.audioSlug}`);
+      }
     }
   }
 }

@@ -1,54 +1,618 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-es",
   "topic": "music",
-  "conceptIds": [
-    "es.music_skip_song",
-    "es.music_favorite_song_always",
-    "es.music_favorite_song",
-    "es.music_go_concert_year",
-    "es.music_new_concert_band",
-    "es.music_podcasts_while_exercise",
-    "es.music_podcast_recommendation",
-    "es.music_song_special_memory",
-    "es.music_new_album_disappointment",
-    "es.music_what_kind_do_you_like",
-    "es.music_love_this_song_who_sings",
-    "es.music_add_song_playlist",
-    "es.music_learning_guitar_six_months",
-    "es.music_opening_act_surprised",
-    "es.music_headphones_or_speakers",
-    "es.music_cover_version_back_to_original",
-    "es.music_discovered_through_algorithm",
-    "es.music_concert_sound_mix_terrible",
-    "es.music_reunion_tour_expectations",
-    "es.music_acoustic_version_reveals_songwriting",
-    "es.music_started_late_still_impressive",
-    "es.music_more_i_listened_more_appreciated",
-    "es.music_live_better_than_studio",
-    "es.music_similar_genre_film",
-    "es.music_vocal_range_earlier_work",
-    "es.music_festival_lineup_disappointing",
-    "es.music_classical_pianist_switched_jazz",
-    "es.music_concept_album_narrative_arc",
-    "es.music_overproduction_works_against_core",
-    "es.music_live_spontaneity_studio_cant_capture",
-    "es.music_lyrics_political_commentary",
-    "es.music_blends_traditional_contemporary",
-    "es.music_indie_influence_underestimated",
-    "es.music_chord_progression_unsettling",
-    "es.music_reinterprets_makes_her_own",
-    "es.music_play_instrument",
-    "es.music_turn_up",
-    "es.music_catchy",
-    "es.music_favorite_singer",
-    "es.music_what_listening",
-    "es.music_turn_on",
-    "es.music_concert_tickets",
-    "es.music_turn_down",
-    "es.music_me_gusta_mucho_la_musica",
-    "es.music_me_encanta_cantar",
-    "es.music_me_gusta_la_musica_disco",
-    "es.music_toca_el_violin_en_la_orquesta"
+  "phrases": [
+    {
+      "conceptId": "es.music_skip_song",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7c5e28b89ded1bf7"
+    },
+    {
+      "conceptId": "es.music_favorite_song_always",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3dca3aeda20d1751"
+    },
+    {
+      "conceptId": "es.music_favorite_song",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a8fea84a583479ae"
+    },
+    {
+      "conceptId": "es.music_go_concert_year",
+      "level": "B1",
+      "grammar": "'Deberíamos' usa el condicional de 'deber'; expresa sugerencia sin presionar al interlocutor.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.348b2e3b47fa451e"
+    },
+    {
+      "conceptId": "es.music_new_concert_band",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a4431a9d9bf6cabd"
+    },
+    {
+      "conceptId": "es.music_podcasts_while_exercise",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.d224412aba1983b1"
+    },
+    {
+      "conceptId": "es.music_podcast_recommendation",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b94ba98f827fe577"
+    },
+    {
+      "conceptId": "es.music_song_special_memory",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6a1f815ef0f0b943"
+    },
+    {
+      "conceptId": "es.music_new_album_disappointment",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.e371c1e1618ce3d2"
+    },
+    {
+      "conceptId": "es.music_what_kind_do_you_like",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.b16a8b111f7d69b6"
+    },
+    {
+      "conceptId": "es.music_love_this_song_who_sings",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.609c3b0a87edbd72"
+    },
+    {
+      "conceptId": "es.music_add_song_playlist",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.8eb6d421f3d7ec23"
+    },
+    {
+      "conceptId": "es.music_learning_guitar_six_months",
+      "level": "B1",
+      "grammar": "'Llevo + tiempo + gerundio' expresa duración hasta el presente; equivale al present perfect continuous.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.78ef49f5ebafba82"
+    },
+    {
+      "conceptId": "es.music_opening_act_surprised",
+      "level": "B2",
+      "grammar": "'Nunca había oído hablar' usa el pluscuamperfecto; indica que el desconocimiento es anterior al concierto.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cf91e247f00786a0"
+    },
+    {
+      "conceptId": "es.music_headphones_or_speakers",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.56d960af19eaa210"
+    },
+    {
+      "conceptId": "es.music_cover_version_back_to_original",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f01382342dd51d19"
+    },
+    {
+      "conceptId": "es.music_discovered_through_algorithm",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.a2e9f76f42bf6bc3"
+    },
+    {
+      "conceptId": "es.music_concert_sound_mix_terrible",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.35092a150a1f36b2"
+    },
+    {
+      "conceptId": "es.music_reunion_tour_expectations",
+      "level": "B2",
+      "grammar": "'Temo que + subjuntivo' expresa temor sobre algo que podría ocurrir; el subjuntivo indica incertidumbre.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.bec5bd2fcb6ba351"
+    },
+    {
+      "conceptId": "es.music_acoustic_version_reveals_songwriting",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2b850bbdbe7a6c9e"
+    },
+    {
+      "conceptId": "es.music_started_late_still_impressive",
+      "level": "B2",
+      "grammar": "'Lo que + verbo' nominaliza una idea y equivale al inglés 'what + verbo'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.815999ada0110bec"
+    },
+    {
+      "conceptId": "es.music_more_i_listened_more_appreciated",
+      "level": "B2",
+      "grammar": "'Cuanto más + verbo, más + verbo' expresa proporcionalidad; equivale a 'the more... the more'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.6cb9e6072b4014c5"
+    },
+    {
+      "conceptId": "es.music_live_better_than_studio",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.c8b0610509171061"
+    },
+    {
+      "conceptId": "es.music_similar_genre_film",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ce327608affa3c0b"
+    },
+    {
+      "conceptId": "es.music_vocal_range_earlier_work",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ef5f6176b0e839f1"
+    },
+    {
+      "conceptId": "es.music_festival_lineup_disappointing",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f5675336cd31e3dc"
+    },
+    {
+      "conceptId": "es.music_classical_pianist_switched_jazz",
+      "level": "B2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.3fdc220a0c2b6d12"
+    },
+    {
+      "conceptId": "es.music_concept_album_narrative_arc",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.5f0109b7136fa4f5"
+    },
+    {
+      "conceptId": "es.music_overproduction_works_against_core",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.555a3456b4fb871b"
+    },
+    {
+      "conceptId": "es.music_live_spontaneity_studio_cant_capture",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fe5c3f0ac5761786"
+    },
+    {
+      "conceptId": "es.music_lyrics_political_commentary",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.17312757e0e5904c"
+    },
+    {
+      "conceptId": "es.music_blends_traditional_contemporary",
+      "level": "C1",
+      "grammar": "'Lo que + verbo' funciona como sujeto nominalizado; equivale al inglés 'what + verb'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.877e43c6dd0b1146"
+    },
+    {
+      "conceptId": "es.music_indie_influence_underestimated",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.cf30380d08cc0d8b"
+    },
+    {
+      "conceptId": "es.music_chord_progression_unsettling",
+      "level": "C1",
+      "grammar": "'Lo que + verbo' nominaliza una idea y equivale al inglés 'what + verbo'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.87ba19b96bc6ba67"
+    },
+    {
+      "conceptId": "es.music_reinterprets_makes_her_own",
+      "level": "C1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f694d10ab02a35f3"
+    },
+    {
+      "conceptId": "es.music_play_instrument",
+      "level": "A1",
+      "grammar": "'Tocar' es el verbo para instrumentos musicales, no 'jugar'.",
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.fc3f74415c2e2943"
+    },
+    {
+      "conceptId": "es.music_turn_up",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.82acbc14972669ae"
+    },
+    {
+      "conceptId": "es.music_catchy",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.471656d2a602c179"
+    },
+    {
+      "conceptId": "es.music_favorite_singer",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.176328e3c7e80623"
+    },
+    {
+      "conceptId": "es.music_what_listening",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2c0c827fbc98150c"
+    },
+    {
+      "conceptId": "es.music_turn_on",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.7a0ac32c40acfd72"
+    },
+    {
+      "conceptId": "es.music_concert_tickets",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.ed5ce9c13b34756a"
+    },
+    {
+      "conceptId": "es.music_turn_down",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "attested"
+      ],
+      "levelBasis": {
+        "source": "attested",
+        "method": "authored"
+      },
+      "sourceId": "en.s.2d60ad11884beab6"
+    },
+    {
+      "conceptId": "es.music_me_gusta_mucho_la_musica",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.afb07b99a13bf9aa"
+    },
+    {
+      "conceptId": "es.music_me_encanta_cantar",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4f90c814cdaad8b5"
+    },
+    {
+      "conceptId": "es.music_me_gusta_la_musica_disco",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.19d6f5b5a41ba7dc"
+    },
+    {
+      "conceptId": "es.music_toca_el_violin_en_la_orquesta",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.4399e7af2634b034"
+    }
   ]
 }

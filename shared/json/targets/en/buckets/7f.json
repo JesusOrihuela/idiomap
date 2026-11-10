@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "7f",
+  "concepts": {
+    "en.accommodation_cancellation_policy": {
+      "conceptId": "en.accommodation_cancellation_policy",
+      "id": "accommodation_cancellation_policy",
+      "target": [
+        {
+          "text": "What is the hotel's reservation cancellation policy?",
+          "audioSlug": "what_is_the_hotel_s_reservation_cancellation_policy"
+        }
+      ]
+    },
+    "en.descripciones_is_this_photo_recent": {
+      "conceptId": "en.descripciones_is_this_photo_recent",
+      "id": "descripciones_is_this_photo_recent",
+      "target": [
+        {
+          "text": "Is this photo recent?",
+          "audioSlug": "is_this_photo_recent"
+        }
+      ]
+    },
+    "en.family_you_are_my_best_friend": {
+      "conceptId": "en.family_you_are_my_best_friend",
+      "id": "family_you_are_my_best_friend",
+      "target": [
+        {
+          "text": "You are my best friend.",
+          "audioSlug": "you_are_my_best_friend"
+        }
+      ]
+    },
+    "en.movies_classic_movie": {
+      "conceptId": "en.movies_classic_movie",
+      "id": "movies_classic_movie",
+      "target": [
+        {
+          "text": "That movie is a classic, you have to watch it.",
+          "audioSlug": "that_movie_is_a_classic_you_have_to_watch_it",
+          "labels": {
+            "region": "US"
+          }
+        },
+        {
+          "text": "That film is a classic, you have to watch it.",
+          "audioSlug": "that_film_is_a_classic_you_have_to_watch_it",
+          "labels": {
+            "region": "UK"
+          }
+        }
+      ]
+    },
+    "en.movies_where_buy_tickets": {
+      "conceptId": "en.movies_where_buy_tickets",
+      "id": "movies_where_buy_tickets",
+      "target": [
+        {
+          "text": "Where can I buy tickets?",
+          "audioSlug": "where_can_i_buy_tickets"
+        }
+      ]
+    },
+    "en.weather_beautiful_day": {
+      "conceptId": "en.weather_beautiful_day",
+      "id": "weather_beautiful_day",
+      "target": [
+        {
+          "text": "It's a beautiful day.",
+          "audioSlug": "it_s_a_beautiful_day"
+        }
+      ]
+    }
+  }
+}

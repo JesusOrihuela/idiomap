@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "7c",
+  "concepts": {
+    "en.descripciones_i_am_very_busy": {
+      "conceptId": "en.descripciones_i_am_very_busy",
+      "id": "descripciones_i_am_very_busy",
+      "target": [
+        {
+          "text": "I am very busy.",
+          "audioSlug": "i_am_very_busy"
+        }
+      ]
+    },
+    "en.directions_which_way": {
+      "conceptId": "en.directions_which_way",
+      "id": "directions_which_way",
+      "target": [
+        {
+          "text": "Which way is the center?",
+          "audioSlug": "which_way_is_the_center"
+        }
+      ]
+    },
+    "en.personal_info_how_spell_name": {
+      "conceptId": "en.personal_info_how_spell_name",
+      "id": "personal_info_how_spell_name",
+      "target": [
+        {
+          "text": "How do you spell your name?",
+          "audioSlug": "how_do_you_spell_your_name"
+        }
+      ]
+    },
+    "en.survival_im_learning": {
+      "conceptId": "en.survival_im_learning",
+      "id": "survival_im_learning",
+      "target": [
+        {
+          "text": "I'm learning Spanish.",
+          "audioSlug": "i_m_learning_spanish"
+        }
+      ]
+    }
+  }
+}

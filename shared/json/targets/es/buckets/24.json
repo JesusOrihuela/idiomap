@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "24",
+  "concepts": {
+    "es.accommodation_a_que_hora_dejar_la_habitacion": {
+      "conceptId": "es.accommodation_a_que_hora_dejar_la_habitacion",
+      "id": "accommodation_a_que_hora_dejar_la_habitacion",
+      "target": [
+        {
+          "text": "¿A qué hora tengo que dejar la habitación?",
+          "audioSlug": "a_que_hora_tengo_que_dejar_la_habitacion"
+        }
+      ]
+    },
+    "es.calendario_es_medianoche": {
+      "conceptId": "es.calendario_es_medianoche",
+      "id": "calendario_es_medianoche",
+      "target": [
+        {
+          "text": "Es medianoche.",
+          "audioSlug": "es_medianoche"
+        }
+      ]
+    },
+    "es.conversacion_te_perdono": {
+      "conceptId": "es.conversacion_te_perdono",
+      "id": "conversacion_te_perdono",
+      "target": [
+        {
+          "text": "Te perdono.",
+          "audioSlug": "te_perdono"
+        }
+      ]
+    },
+    "es.cuerpo_mi_padre_tiene_barba": {
+      "conceptId": "es.cuerpo_mi_padre_tiene_barba",
+      "id": "cuerpo_mi_padre_tiene_barba",
+      "target": [
+        {
+          "text": "Mi padre tiene barba.",
+          "audioSlug": "mi_padre_tiene_barba"
+        }
+      ]
+    },
+    "es.daily_routine_rest_on_sundays": {
+      "conceptId": "es.daily_routine_rest_on_sundays",
+      "id": "daily_routine_rest_on_sundays",
+      "target": [
+        {
+          "text": "Descanso los domingos.",
+          "audioSlug": "descanso_los_domingos"
+        }
+      ]
+    },
+    "es.deportes_me_gusta_el_deporte": {
+      "conceptId": "es.deportes_me_gusta_el_deporte",
+      "id": "deportes_me_gusta_el_deporte",
+      "target": [
+        {
+          "text": "Me gusta el deporte.",
+          "audioSlug": "me_gusta_el_deporte"
+        }
+      ]
+    },
+    "es.descripciones_i_am_very_happy": {
+      "conceptId": "es.descripciones_i_am_very_happy",
+      "id": "descripciones_i_am_very_happy",
+      "target": [
+        {
+          "text": "Estoy muy feliz.",
+          "audioSlug": "estoy_muy_feliz"
+        }
+      ]
+    },
+    "es.estudios_los_libros_estan_en_la_estanteria": {
+      "conceptId": "es.estudios_los_libros_estan_en_la_estanteria",
+      "id": "estudios_los_libros_estan_en_la_estanteria",
+      "target": [
+        {
+          "text": "Los libros están en la estantería.",
+          "audioSlug": "los_libros_estan_en_la_estanteria"
+        }
+      ]
+    },
+    "es.family_ese_muchacho_es_mi_primo": {
+      "conceptId": "es.family_ese_muchacho_es_mi_primo",
+      "id": "family_ese_muchacho_es_mi_primo",
+      "target": [
+        {
+          "text": "Ese muchacho es mi primo.",
+          "audioSlug": "ese_muchacho_es_mi_primo"
+        }
+      ]
+    },
+    "es.greetings_hasta_luego": {
+      "conceptId": "es.greetings_hasta_luego",
+      "id": "greetings_hasta_luego",
+      "target": [
+        {
+          "text": "¡Hasta luego!",
+          "audioSlug": "hasta_luego"
+        }
+      ]
+    },
+    "es.gym_i_need_to_work_on_my": {
+      "conceptId": "es.gym_i_need_to_work_on_my",
+      "id": "gym_i_need_to_work_on_my",
+      "target": [
+        {
+          "text": "Tengo que trabajar en mi resistencia.",
+          "audioSlug": "tengo_que_trabajar_en_mi_resistencia"
+        }
+      ]
+    },
+    "es.health_donde_esta_la_farmacia_mas_cercana": {
+      "conceptId": "es.health_donde_esta_la_farmacia_mas_cercana",
+      "id": "health_donde_esta_la_farmacia_mas_cercana",
+      "target": [
+        {
+          "text": "¿Dónde está la farmacia más cercana?",
+          "audioSlug": "donde_esta_la_farmacia_mas_cercana"
+        }
+      ]
+    },
+    "es.hogar_mi_habitacion_tiene_una_ventana_grande": {
+      "conceptId": "es.hogar_mi_habitacion_tiene_una_ventana_grande",
+      "id": "hogar_mi_habitacion_tiene_una_ventana_grande",
+      "target": [
+        {
+          "text": "Mi habitación tiene una ventana grande.",
+          "audioSlug": "mi_habitacion_tiene_una_ventana_grande"
+        }
+      ]
+    },
+    "es.kitchen_the_mixer_is_in_the_drawer": {
+      "conceptId": "es.kitchen_the_mixer_is_in_the_drawer",
+      "id": "kitchen_the_mixer_is_in_the_drawer",
+      "target": [
+        {
+          "text": "La batidora está en el cajón.",
+          "audioSlug": "la_batidora_esta_en_el_cajon"
+        }
+      ]
+    },
+    "es.personal_info_mi_ciudad_favorita_es_madrid": {
+      "conceptId": "es.personal_info_mi_ciudad_favorita_es_madrid",
+      "id": "personal_info_mi_ciudad_favorita_es_madrid",
+      "target": [
+        {
+          "text": "Mi ciudad favorita es Madrid.",
+          "audioSlug": "mi_ciudad_favorita_es_madrid"
+        }
+      ]
+    },
+    "es.planes_se_van_a_casar_en_verano": {
+      "conceptId": "es.planes_se_van_a_casar_en_verano",
+      "id": "planes_se_van_a_casar_en_verano",
+      "target": [
+        {
+          "text": "Se van a casar en verano.",
+          "audioSlug": "se_van_a_casar_en_verano"
+        }
+      ]
+    },
+    "es.restaurant_tasting_menu_chef_selections": {
+      "conceptId": "es.restaurant_tasting_menu_chef_selections",
+      "id": "restaurant_tasting_menu_chef_selections",
+      "target": [
+        {
+          "text": "Me gustaría explorar el menú degustación, ¿hay selecciones del chef disponibles esta noche?",
+          "audioSlug": "me_gustaria_explorar_el_menu_degustacion_hay_selecciones_del_chef_disponibles_esta_noche",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "Me gustaría explorar el menú degustación, ¿hay selecciones de la chef disponibles esta noche?",
+          "audioSlug": "me_gustaria_explorar_el_menu_degustacion_hay_selecciones_de_la_chef_disponibles_esta_noche",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.supermarket_i_received_a_discount_coupon_in": {
+      "conceptId": "es.supermarket_i_received_a_discount_coupon_in",
+      "id": "supermarket_i_received_a_discount_coupon_in",
+      "target": [
+        {
+          "text": "Recibí un cupón de descuento en mi correo electrónico.",
+          "audioSlug": "recibi_un_cupon_de_descuento_en_mi_correo_electronico"
+        }
+      ]
+    },
+    "es.technology_look_for_the_file_in_the": {
+      "conceptId": "es.technology_look_for_the_file_in_the",
+      "id": "technology_look_for_the_file_in_the",
+      "target": [
+        {
+          "text": "Busca el archivo en la carpeta de descargas.",
+          "audioSlug": "busca_el_archivo_en_la_carpeta_de_descargas"
+        }
+      ]
+    },
+    "es.theater_moved_by_grief_portrayal": {
+      "conceptId": "es.theater_moved_by_grief_portrayal",
+      "id": "theater_moved_by_grief_portrayal",
+      "target": [
+        {
+          "text": "Me conmovió profundamente la interpretación del actor sobre el duelo.",
+          "audioSlug": "me_conmovio_profundamente_la_interpretacion_del_actor_sobre_el_duelo",
+          "labels": {
+            "gender": "masculino"
+          }
+        },
+        {
+          "text": "Me conmovió profundamente la interpretación de la actriz sobre el duelo.",
+          "audioSlug": "me_conmovio_profundamente_la_interpretacion_de_la_actriz_sobre_el_duelo",
+          "labels": {
+            "gender": "femenino"
+          }
+        }
+      ]
+    },
+    "es.transportation_necesito_un_mapa_de_la_ciudad": {
+      "conceptId": "es.transportation_necesito_un_mapa_de_la_ciudad",
+      "id": "transportation_necesito_un_mapa_de_la_ciudad",
+      "target": [
+        {
+          "text": "Necesito un mapa de la ciudad.",
+          "audioSlug": "necesito_un_mapa_de_la_ciudad"
+        }
+      ]
+    }
+  }
+}

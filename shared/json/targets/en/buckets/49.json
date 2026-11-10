@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "49",
+  "concepts": {
+    "en.conversacion_come_up_with_idea": {
+      "conceptId": "en.conversacion_come_up_with_idea",
+      "id": "conversacion_come_up_with_idea",
+      "target": [
+        {
+          "text": "We came up with a great idea together.",
+          "audioSlug": "we_came_up_with_a_great_idea_together"
+        }
+      ]
+    },
+    "en.conversacion_if_known_would_called": {
+      "conceptId": "en.conversacion_if_known_would_called",
+      "id": "conversacion_if_known_would_called",
+      "target": [
+        {
+          "text": "If I had known, I would have called you.",
+          "audioSlug": "if_i_had_known_i_would_have_called_you"
+        }
+      ]
+    },
+    "en.sitios_bank_on_the_corner": {
+      "conceptId": "en.sitios_bank_on_the_corner",
+      "id": "sitios_bank_on_the_corner",
+      "target": [
+        {
+          "text": "There is a bank on the corner.",
+          "audioSlug": "there_is_a_bank_on_the_corner"
+        }
+      ]
+    },
+    "en.transportation_payment_airport_transfer": {
+      "conceptId": "en.transportation_payment_airport_transfer",
+      "id": "transportation_payment_airport_transfer",
+      "target": [
+        {
+          "text": "I will pay extra to include the transfer to the airport.",
+          "audioSlug": "i_will_pay_extra_to_include_the_transfer_to_the_airport"
+        }
+      ]
+    }
+  }
+}

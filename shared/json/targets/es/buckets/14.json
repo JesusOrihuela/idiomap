@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "14",
+  "concepts": {
+    "es.accommodation_room_misrepresented_listing": {
+      "conceptId": "es.accommodation_room_misrepresented_listing",
+      "id": "accommodation_room_misrepresented_listing",
+      "target": [
+        {
+          "text": "El anuncio describía la habitación de forma engañosa, las fotos mostraban una vista al mar que no existía.",
+          "audioSlug": "el_anuncio_describia_la_habitacion_de_forma_enganosa_las_fotos_mostraban_una_vista_al_mar_q_7414d04d"
+        }
+      ]
+    },
+    "es.deportes_tom_gano_la_carrera": {
+      "conceptId": "es.deportes_tom_gano_la_carrera",
+      "id": "deportes_tom_gano_la_carrera",
+      "target": [
+        {
+          "text": "Tom ganó la carrera.",
+          "audioSlug": "tom_gano_la_carrera"
+        }
+      ]
+    },
+    "es.estudios_la_educacion_es_un_derecho": {
+      "conceptId": "es.estudios_la_educacion_es_un_derecho",
+      "id": "estudios_la_educacion_es_un_derecho",
+      "target": [
+        {
+          "text": "La educación es un derecho de todos.",
+          "audioSlug": "la_educacion_es_un_derecho_de_todos"
+        }
+      ]
+    },
+    "es.estudios_necesito_un_lapiz": {
+      "conceptId": "es.estudios_necesito_un_lapiz",
+      "id": "estudios_necesito_un_lapiz",
+      "target": [
+        {
+          "text": "Necesito un lápiz para dibujar.",
+          "audioSlug": "necesito_un_lapiz_para_dibujar"
+        }
+      ]
+    },
+    "es.gym_breathe_deeply_and_through_your_nose": {
+      "conceptId": "es.gym_breathe_deeply_and_through_your_nose",
+      "id": "gym_breathe_deeply_and_through_your_nose",
+      "target": [
+        {
+          "text": "Respira profundo y por la nariz.",
+          "audioSlug": "respira_profundo_y_por_la_nariz"
+        }
+      ]
+    },
+    "es.kitchen_add_a_little_sugar_to_the": {
+      "conceptId": "es.kitchen_add_a_little_sugar_to_the",
+      "id": "kitchen_add_a_little_sugar_to_the",
+      "target": [
+        {
+          "text": "Agrega un poco de azúcar a la salsa.",
+          "audioSlug": "agrega_un_poco_de_azucar_a_la_salsa"
+        }
+      ]
+    },
+    "es.kitchen_este_postre_lleva_un_poco_de_ron": {
+      "conceptId": "es.kitchen_este_postre_lleva_un_poco_de_ron",
+      "id": "kitchen_este_postre_lleva_un_poco_de_ron",
+      "target": [
+        {
+          "text": "Este postre lleva un poco de ron.",
+          "audioSlug": "este_postre_lleva_un_poco_de_ron"
+        }
+      ]
+    },
+    "es.planes_voy_a_buscar_trabajo": {
+      "conceptId": "es.planes_voy_a_buscar_trabajo",
+      "id": "planes_voy_a_buscar_trabajo",
+      "target": [
+        {
+          "text": "El próximo mes voy a buscar trabajo.",
+          "audioSlug": "el_proximo_mes_voy_a_buscar_trabajo"
+        }
+      ]
+    },
+    "es.restaurant_do_you_offer_any_birthday_specials": {
+      "conceptId": "es.restaurant_do_you_offer_any_birthday_specials",
+      "id": "restaurant_do_you_offer_any_birthday_specials",
+      "target": [
+        {
+          "text": "¿Ofrecen algún especial de cumpleaños?",
+          "audioSlug": "ofrecen_algun_especial_de_cumpleanos"
+        }
+      ]
+    },
+    "es.restaurant_price_discrepancy_charged": {
+      "conceptId": "es.restaurant_price_discrepancy_charged",
+      "id": "restaurant_price_discrepancy_charged",
+      "target": [
+        {
+          "text": "Hay una discrepancia entre el precio del menú y nuestra cuenta.",
+          "audioSlug": "hay_una_discrepancia_entre_el_precio_del_menu_y_nuestra_cuenta"
+        }
+      ]
+    },
+    "es.survival_how_do_you_say": {
+      "conceptId": "es.survival_how_do_you_say",
+      "id": "survival_how_do_you_say",
+      "target": [
+        {
+          "text": "¿Cómo se dice esto en español?",
+          "audioSlug": "como_se_dice_esto_en_espanol"
+        }
+      ]
+    },
+    "es.technology_grabe_un_video_del_concierto": {
+      "conceptId": "es.technology_grabe_un_video_del_concierto",
+      "id": "technology_grabe_un_video_del_concierto",
+      "target": [
+        {
+          "text": "Grabé un vídeo del concierto.",
+          "audioSlug": "grabe_un_video_del_concierto"
+        }
+      ]
+    },
+    "es.tiempo_libre_lei_un_cuento_a_los_ninos": {
+      "conceptId": "es.tiempo_libre_lei_un_cuento_a_los_ninos",
+      "id": "tiempo_libre_lei_un_cuento_a_los_ninos",
+      "target": [
+        {
+          "text": "Leí un cuento a los niños.",
+          "audioSlug": "lei_un_cuento_a_los_ninos"
+        }
+      ]
+    },
+    "es.weather_its_snowing": {
+      "conceptId": "es.weather_its_snowing",
+      "id": "weather_its_snowing",
+      "target": [
+        {
+          "text": "Está nevando.",
+          "audioSlug": "esta_nevando"
+        }
+      ]
+    }
+  }
+}

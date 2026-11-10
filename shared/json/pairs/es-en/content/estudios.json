@@ -1,30 +1,306 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "es-en",
   "topic": "estudios",
-  "conceptIds": [
-    "en.estudios_we_start_next_term",
-    "en.estudios_education_is_very_important",
-    "en.estudios_she_does_research",
-    "en.estudios_i_study_at_the_university",
-    "en.estudios_this_exam_is_hard",
-    "en.estudios_your_answer_is_wrong",
-    "en.estudios_the_library_is_quiet",
-    "en.estudios_i_study_for_the_exam",
-    "en.estudios_the_class_starts_at_eight",
-    "en.estudios_i_have_to_do_my_homework",
-    "en.estudios_the_teacher_explains_the_lesson",
-    "en.estudios_i_got_a_good_grade_on_the_exam",
-    "en.estudios_i_need_a_new_notebook",
-    "en.estudios_i_learn_something_new_every_day",
-    "en.estudios_the_library_closes_late",
-    "en.estudios_the_course_lasts_a_year",
-    "en.estudios_raise_your_hand_to_ask",
-    "en.estudios_knowledge_is_power",
-    "en.estudios_we_met_in_college",
-    "en.estudios_science_is_too_hard",
-    "en.estudios_i_like_history",
-    "en.estudios_you_broke_the_rule",
-    "en.estudios_this_is_a_great_theory"
+  "phrases": [
+    {
+      "conceptId": "en.estudios_we_start_next_term",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.4f5794c80c9a8382"
+    },
+    {
+      "conceptId": "en.estudios_education_is_very_important",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c98cc965120fa192"
+    },
+    {
+      "conceptId": "en.estudios_she_does_research",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a1b298a41bf7f4ef"
+    },
+    {
+      "conceptId": "en.estudios_i_study_at_the_university",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e7f63664461bd273"
+    },
+    {
+      "conceptId": "en.estudios_this_exam_is_hard",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.78e06d6e0e6f8bb2"
+    },
+    {
+      "conceptId": "en.estudios_your_answer_is_wrong",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c8e906b470861c80"
+    },
+    {
+      "conceptId": "en.estudios_the_library_is_quiet",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.77b73c5a4b283c8b"
+    },
+    {
+      "conceptId": "en.estudios_i_study_for_the_exam",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.c9212fefbe4f117e"
+    },
+    {
+      "conceptId": "en.estudios_the_class_starts_at_eight",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.b3fe1f000dd07c16"
+    },
+    {
+      "conceptId": "en.estudios_i_have_to_do_my_homework",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.ef3161cbab012501"
+    },
+    {
+      "conceptId": "en.estudios_the_teacher_explains_the_lesson",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.76ee640293774408"
+    },
+    {
+      "conceptId": "en.estudios_i_got_a_good_grade_on_the_exam",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.6a9e3da00ca6e55f"
+    },
+    {
+      "conceptId": "en.estudios_i_need_a_new_notebook",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.e6c0cb5f39f0be10"
+    },
+    {
+      "conceptId": "en.estudios_i_learn_something_new_every_day",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.11a8d770196f2a87"
+    },
+    {
+      "conceptId": "en.estudios_the_library_closes_late",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.614b472891066e6c"
+    },
+    {
+      "conceptId": "en.estudios_the_course_lasts_a_year",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.a72dae79c6642479"
+    },
+    {
+      "conceptId": "en.estudios_raise_your_hand_to_ask",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f8bf4b1a9f925a7f"
+    },
+    {
+      "conceptId": "en.estudios_knowledge_is_power",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.5420d897370875d8"
+    },
+    {
+      "conceptId": "en.estudios_we_met_in_college",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.adca3738e5a22f7e"
+    },
+    {
+      "conceptId": "en.estudios_science_is_too_hard",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.dfc758da7452b68f"
+    },
+    {
+      "conceptId": "en.estudios_i_like_history",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d840ca5d933d551a"
+    },
+    {
+      "conceptId": "en.estudios_you_broke_the_rule",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.f446bfc8c4eb1f5f"
+    },
+    {
+      "conceptId": "en.estudios_this_is_a_great_theory",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "es.s.d515afaac059d1c5"
+    }
   ]
 }

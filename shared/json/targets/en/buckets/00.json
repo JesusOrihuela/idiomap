@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "00",
+  "concepts": {
+    "en.airport_seat_changed_no_notice": {
+      "conceptId": "en.airport_seat_changed_no_notice",
+      "id": "airport_seat_changed_no_notice",
+      "target": [
+        {
+          "text": "The airline changed my seat without notice. I'd like to speak to a supervisor.",
+          "audioSlug": "the_airline_changed_my_seat_without_notice_i_d_like_to_speak_to_a_supervisor"
+        }
+      ]
+    },
+    "en.greetings_hey_hows_everything_with_you": {
+      "conceptId": "en.greetings_hey_hows_everything_with_you",
+      "id": "greetings_hey_hows_everything_with_you",
+      "target": [
+        {
+          "text": "Hey, how's everything with you?",
+          "audioSlug": "hey_how_s_everything_with_you",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Hello, how's everything with you?",
+          "audioSlug": "hello_how_s_everything_with_you",
+          "labels": {
+            "register": "formal"
+          }
+        }
+      ]
+    },
+    "en.technology_what_is_this_formula_in_excel": {
+      "conceptId": "en.technology_what_is_this_formula_in_excel",
+      "id": "technology_what_is_this_formula_in_excel",
+      "target": [
+        {
+          "text": "What is this formula in Excel for?",
+          "audioSlug": "what_is_this_formula_in_excel_for"
+        }
+      ]
+    },
+    "en.technology_you_should_look_it_up_on": {
+      "conceptId": "en.technology_you_should_look_it_up_on",
+      "id": "technology_you_should_look_it_up_on",
+      "target": [
+        {
+          "text": "You should look it up on the internet, you'll probably find the answer.",
+          "audioSlug": "you_should_look_it_up_on_the_internet_you_ll_probably_find_the_answer"
+        }
+      ]
+    }
+  }
+}

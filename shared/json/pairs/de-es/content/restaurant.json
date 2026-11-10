@@ -1,49 +1,553 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "de-es",
   "topic": "restaurant",
-  "conceptIds": [
-    "es.restaurant_a_table_for_two",
-    "es.restaurant_the_menu_please",
-    "es.restaurant_what_do_you_recommend",
-    "es.restaurant_i_would_like_a_coffee",
-    "es.restaurant_a_glass_of_water_for_me",
-    "es.restaurant_the_bill_please",
-    "es.restaurant_the_food_is_delicious",
-    "es.restaurant_im_allergic_to_nuts",
-    "es.restaurant_que_van_a_comer_hoy",
-    "es.restaurant_quiero_probar_un_plato_tipico",
-    "es.restaurant_me_puede_traer_la_carta",
-    "es.restaurant_el_pescado_esta_muy_rico",
-    "es.restaurant_que_me_recomienda_para_beber",
-    "es.restaurant_esta_incluida_la_propina",
-    "es.restaurant_tienen_platos_vegetarianos",
-    "es.restaurant_la_comida_aqui_es_fresca",
-    "es.restaurant_la_carne_esta_muy_tierna",
-    "es.restaurant_prefiere_pollo_o_pescado",
-    "es.restaurant_aqui_sirven_comida_tipica",
-    "es.restaurant_el_queso_esta_delicioso",
-    "es.restaurant_este_plato_es_muy_popular",
-    "es.restaurant_voy_a_tratar_de_comer_mas_sano",
-    "es.restaurant_la_mayoria_pide_postre",
-    "es.restaurant_el_menu_tiene_muchas_opciones",
-    "es.restaurant_vamos_a_compartir_una_pizza",
-    "es.restaurant_una_cerveza_bien_fria_por_favor",
-    "es.restaurant_el_pan_es_un_alimento_basico",
-    "es.restaurant_quiero_una_hamburguesa_con_queso",
-    "es.restaurant_de_primero_una_ensalada_mixta",
-    "es.restaurant_para_llevar_un_sandwich_de_pollo",
-    "es.restaurant_me_pongo_un_bocadillo_de_jamon",
-    "es.restaurant_la_tortilla_de_patatas_esta_riquisima",
-    "es.restaurant_la_paella_es_para_dos_personas",
-    "es.restaurant_de_segundo_un_filete_a_la_plancha",
-    "es.restaurant_de_postre_un_helado_de_vainilla",
-    "es.restaurant_la_tarta_de_chocolate_es_casera",
-    "es.restaurant_el_camarero_nos_trae_la_carta",
-    "es.restaurant_el_cocinero_prepara_el_plato",
-    "es.restaurant_los_ninos_toman_la_merienda_a_las_cinco",
-    "es.restaurant_ponme_una_cana_bien_fria",
-    "es.restaurant_necesito_una_servilleta_limpia",
-    "es.restaurant_no_bebo_alcohol_cuando_conduzco"
+  "phrases": [
+    {
+      "conceptId": "es.restaurant_a_table_for_two",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.88a3e3a52e250c8a"
+    },
+    {
+      "conceptId": "es.restaurant_the_menu_please",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.98866f8365497448"
+    },
+    {
+      "conceptId": "es.restaurant_what_do_you_recommend",
+      "level": "A2",
+      "grammar": "Con usted se dice recomienda, con tú recomiendas.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.01429d5be2d77c23"
+    },
+    {
+      "conceptId": "es.restaurant_i_would_like_a_coffee",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.254a158b2a03fd12"
+    },
+    {
+      "conceptId": "es.restaurant_a_glass_of_water_for_me",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.856faf98a56709e9"
+    },
+    {
+      "conceptId": "es.restaurant_the_bill_please",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.155f689b433c553e"
+    },
+    {
+      "conceptId": "es.restaurant_the_food_is_delicious",
+      "level": "A2",
+      "grammar": "El sabor del momento usa estar, está deliciosa.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.f6930ac8f6427909"
+    },
+    {
+      "conceptId": "es.restaurant_im_allergic_to_nuts",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d4ea0622e433e16e"
+    },
+    {
+      "conceptId": "es.restaurant_que_van_a_comer_hoy",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.30432e779e16b56b"
+    },
+    {
+      "conceptId": "es.restaurant_quiero_probar_un_plato_tipico",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.2ee8c37c51a68d3d"
+    },
+    {
+      "conceptId": "es.restaurant_me_puede_traer_la_carta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8139716a9a52de41"
+    },
+    {
+      "conceptId": "es.restaurant_el_pescado_esta_muy_rico",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.5889c2eb9be60588"
+    },
+    {
+      "conceptId": "es.restaurant_que_me_recomienda_para_beber",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4c948141660921f4"
+    },
+    {
+      "conceptId": "es.restaurant_esta_incluida_la_propina",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.048a4d93ff5ab240"
+    },
+    {
+      "conceptId": "es.restaurant_tienen_platos_vegetarianos",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.192e553a09ee6c60"
+    },
+    {
+      "conceptId": "es.restaurant_la_comida_aqui_es_fresca",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.6d097a1a993dd393"
+    },
+    {
+      "conceptId": "es.restaurant_la_carne_esta_muy_tierna",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4804ce36bc10dfb5"
+    },
+    {
+      "conceptId": "es.restaurant_prefiere_pollo_o_pescado",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.7b7391bcc71f465e"
+    },
+    {
+      "conceptId": "es.restaurant_aqui_sirven_comida_tipica",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fbdf6789d7145cd3"
+    },
+    {
+      "conceptId": "es.restaurant_el_queso_esta_delicioso",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.af1506cc8620e1e4"
+    },
+    {
+      "conceptId": "es.restaurant_este_plato_es_muy_popular",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.eab3ec8dd2fde94b"
+    },
+    {
+      "conceptId": "es.restaurant_voy_a_tratar_de_comer_mas_sano",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.fd36fe371d0218a4"
+    },
+    {
+      "conceptId": "es.restaurant_la_mayoria_pide_postre",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ad4128f2e57ae964"
+    },
+    {
+      "conceptId": "es.restaurant_el_menu_tiene_muchas_opciones",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cfab746ee8c43feb"
+    },
+    {
+      "conceptId": "es.restaurant_vamos_a_compartir_una_pizza",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.cc925a4bb89101f2"
+    },
+    {
+      "conceptId": "es.restaurant_una_cerveza_bien_fria_por_favor",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.9003f29c9a35dada"
+    },
+    {
+      "conceptId": "es.restaurant_el_pan_es_un_alimento_basico",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.99c14f5b6b49ef31"
+    },
+    {
+      "conceptId": "es.restaurant_quiero_una_hamburguesa_con_queso",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.05f1221c1156e89f"
+    },
+    {
+      "conceptId": "es.restaurant_de_primero_una_ensalada_mixta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.8821faabf1397ed8"
+    },
+    {
+      "conceptId": "es.restaurant_para_llevar_un_sandwich_de_pollo",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bcf4ecfb5cfbf476"
+    },
+    {
+      "conceptId": "es.restaurant_me_pongo_un_bocadillo_de_jamon",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.4b734cb2dc101bfc"
+    },
+    {
+      "conceptId": "es.restaurant_la_tortilla_de_patatas_esta_riquisima",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ef979b928aa2c7b6"
+    },
+    {
+      "conceptId": "es.restaurant_la_paella_es_para_dos_personas",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.d5021d3b50a9e3be"
+    },
+    {
+      "conceptId": "es.restaurant_de_segundo_un_filete_a_la_plancha",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.c64334c413bb4427"
+    },
+    {
+      "conceptId": "es.restaurant_de_postre_un_helado_de_vainilla",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.ede74f102ce7070c"
+    },
+    {
+      "conceptId": "es.restaurant_la_tarta_de_chocolate_es_casera",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.186f3480f3d6139a"
+    },
+    {
+      "conceptId": "es.restaurant_el_camarero_nos_trae_la_carta",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.0804cbf29f2d0bae"
+    },
+    {
+      "conceptId": "es.restaurant_el_cocinero_prepara_el_plato",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.bd80e15e163b4f3a"
+    },
+    {
+      "conceptId": "es.restaurant_los_ninos_toman_la_merienda_a_las_cinco",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3029df9993f64433"
+    },
+    {
+      "conceptId": "es.restaurant_ponme_una_cana_bien_fria",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.258b1e9d90bebe44"
+    },
+    {
+      "conceptId": "es.restaurant_necesito_una_servilleta_limpia",
+      "level": "A2",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.58c75895ae13ebd0"
+    },
+    {
+      "conceptId": "es.restaurant_no_bebo_alcohol_cuando_conduzco",
+      "level": "B1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "de.s.3093ec65b5c063eb"
+    }
   ]
 }

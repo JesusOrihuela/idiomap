@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "cc",
+  "concepts": {
+    "en.conversacion_write_me_a_note": {
+      "conceptId": "en.conversacion_write_me_a_note",
+      "id": "conversacion_write_me_a_note",
+      "target": [
+        {
+          "text": "Write me a note.",
+          "audioSlug": "write_me_a_note"
+        }
+      ]
+    },
+    "en.estudios_i_got_a_good_grade_on_the_exam": {
+      "conceptId": "en.estudios_i_got_a_good_grade_on_the_exam",
+      "id": "estudios_i_got_a_good_grade_on_the_exam",
+      "target": [
+        {
+          "text": "I got a good grade on the exam.",
+          "audioSlug": "i_got_a_good_grade_on_the_exam"
+        }
+      ]
+    },
+    "en.kitchen_let_the_pizza_dough_rest_before": {
+      "conceptId": "en.kitchen_let_the_pizza_dough_rest_before",
+      "id": "kitchen_let_the_pizza_dough_rest_before",
+      "target": [
+        {
+          "text": "Let the pizza dough rest before stretching it.",
+          "audioSlug": "let_the_pizza_dough_rest_before_stretching_it"
+        }
+      ]
+    },
+    "en.kitchen_peel_the_potatoes_and_then_slice": {
+      "conceptId": "en.kitchen_peel_the_potatoes_and_then_slice",
+      "id": "kitchen_peel_the_potatoes_and_then_slice",
+      "target": [
+        {
+          "text": "Peel the potatoes and then slice them.",
+          "audioSlug": "peel_the_potatoes_and_then_slice_them"
+        }
+      ]
+    },
+    "en.music_live_spontaneity_studio_cant_capture": {
+      "conceptId": "en.music_live_spontaneity_studio_cant_capture",
+      "id": "music_live_spontaneity_studio_cant_capture",
+      "target": [
+        {
+          "text": "Live recordings have a spontaneity that studio albums rarely capture.",
+          "audioSlug": "live_recordings_have_a_spontaneity_that_studio_albums_rarely_capture"
+        }
+      ]
+    },
+    "en.restaurant_could_i_have_my_steak_cooked": {
+      "conceptId": "en.restaurant_could_i_have_my_steak_cooked",
+      "id": "restaurant_could_i_have_my_steak_cooked",
+      "target": [
+        {
+          "text": "Could I have my steak cooked medium, please?",
+          "audioSlug": "could_i_have_my_steak_cooked_medium_please",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can I have my steak cooked medium, please?",
+          "audioSlug": "can_i_have_my_steak_cooked_medium_please",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.supermarket_how_much_does_a_kilo_of": {
+      "conceptId": "en.supermarket_how_much_does_a_kilo_of",
+      "id": "supermarket_how_much_does_a_kilo_of",
+      "target": [
+        {
+          "text": "How much does a kilo of meat cost?",
+          "audioSlug": "how_much_does_a_kilo_of_meat_cost"
+        }
+      ]
+    },
+    "en.tiempo_libre_went_camping_by_lake": {
+      "conceptId": "en.tiempo_libre_went_camping_by_lake",
+      "id": "tiempo_libre_went_camping_by_lake",
+      "target": [
+        {
+          "text": "They went camping by the lake.",
+          "audioSlug": "they_went_camping_by_the_lake"
+        }
+      ]
+    }
+  }
+}

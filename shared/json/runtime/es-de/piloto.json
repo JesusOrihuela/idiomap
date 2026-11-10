@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-de",
+  "topic": "piloto",
+  "phrases": [
+    {
+      "id": "piloto_hola_como_estas",
+      "conceptId": "de.piloto_hola_como_estas",
+      "sourceId": "es.s.c4f025edd78dcecf",
+      "source": "Hola, ¿cómo estás?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Hallo, wie geht es dir?",
+          "audioSlug": "hola_como_estas"
+        }
+      ]
+    },
+    {
+      "id": "piloto_buenos_dias",
+      "conceptId": "de.piloto_buenos_dias",
+      "sourceId": "es.s.72a643e57838ad53",
+      "source": "Buenos días.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Guten Morgen.",
+          "audioSlug": "buenos_dias"
+        }
+      ]
+    },
+    {
+      "id": "piloto_gracias_por_tu_ayuda",
+      "conceptId": "de.piloto_gracias_por_tu_ayuda",
+      "sourceId": "es.s.6ed0eb46ee0985d2",
+      "source": "Gracias por tu ayuda.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Danke für deine Hilfe.",
+          "audioSlug": "gracias_por_tu_ayuda"
+        }
+      ]
+    },
+    {
+      "id": "piloto_donde_esta_la_estacion",
+      "conceptId": "de.piloto_donde_esta_la_estacion",
+      "sourceId": "es.s.05fe2651da18850b",
+      "source": "¿Dónde está la estación?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Wo ist der Bahnhof?",
+          "audioSlug": "donde_esta_la_estacion"
+        }
+      ]
+    },
+    {
+      "id": "piloto_quiero_un_cafe_por_favor",
+      "conceptId": "de.piloto_quiero_un_cafe_por_favor",
+      "sourceId": "es.s.6f3fba94fa771636",
+      "source": "Quiero un café, por favor.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ich möchte einen Kaffee, bitte.",
+          "audioSlug": "quiero_un_cafe_por_favor"
+        }
+      ]
+    },
+    {
+      "id": "piloto_cuanto_cuesta",
+      "conceptId": "de.piloto_cuanto_cuesta",
+      "sourceId": "es.s.1a0043ca3557caa5",
+      "source": "¿Cuánto cuesta?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Wie viel kostet das?",
+          "audioSlug": "cuanto_cuesta"
+        }
+      ]
+    },
+    {
+      "id": "piloto_no_entiendo",
+      "conceptId": "de.piloto_no_entiendo",
+      "sourceId": "es.s.2b32af9c0a3a5e6e",
+      "source": "No entiendo.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ich verstehe nicht.",
+          "audioSlug": "no_entiendo"
+        }
+      ]
+    },
+    {
+      "id": "piloto_hablo_un_poco_de_aleman",
+      "conceptId": "de.piloto_hablo_un_poco_de_aleman",
+      "sourceId": "es.s.10a472cd0f031956",
+      "source": "Hablo un poco de alemán.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Ich spreche ein wenig Deutsch.",
+          "audioSlug": "hablo_un_poco_de_aleman"
+        }
+      ]
+    },
+    {
+      "id": "piloto_puedes_repetir",
+      "conceptId": "de.piloto_puedes_repetir",
+      "sourceId": "es.s.bf17900554750faa",
+      "source": "¿Puedes repetir?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Kannst du das wiederholen?",
+          "audioSlug": "puedes_repetir"
+        }
+      ]
+    },
+    {
+      "id": "piloto_hasta_luego",
+      "conceptId": "de.piloto_hasta_luego",
+      "sourceId": "es.s.3640782bdb34c953",
+      "source": "Hasta luego.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Bis später.",
+          "audioSlug": "hasta_luego"
+        }
+      ]
+    }
+  ]
+}

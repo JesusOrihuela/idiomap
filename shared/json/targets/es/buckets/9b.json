@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "9b",
+  "concepts": {
+    "es.animales_el_gato_es_negro": {
+      "conceptId": "es.animales_el_gato_es_negro",
+      "id": "animales_el_gato_es_negro",
+      "target": [
+        {
+          "text": "El gato es negro.",
+          "audioSlug": "el_gato_es_negro"
+        }
+      ]
+    },
+    "es.cuerpo_sus_brazos_son_fuertes": {
+      "conceptId": "es.cuerpo_sus_brazos_son_fuertes",
+      "id": "cuerpo_sus_brazos_son_fuertes",
+      "target": [
+        {
+          "text": "Sus brazos son fuertes.",
+          "audioSlug": "sus_brazos_son_fuertes"
+        }
+      ]
+    },
+    "es.daily_routine_i_have_lunch_at_two": {
+      "conceptId": "es.daily_routine_i_have_lunch_at_two",
+      "id": "daily_routine_i_have_lunch_at_two",
+      "target": [
+        {
+          "text": "Almuerzo a las dos.",
+          "audioSlug": "almuerzo_a_las_dos"
+        }
+      ]
+    },
+    "es.deportes_sigo_el_partido_con_mucho_interes": {
+      "conceptId": "es.deportes_sigo_el_partido_con_mucho_interes",
+      "id": "deportes_sigo_el_partido_con_mucho_interes",
+      "target": [
+        {
+          "text": "Sigo el partido con mucho interés.",
+          "audioSlug": "sigo_el_partido_con_mucho_interes"
+        }
+      ]
+    },
+    "es.economia_el_vuelo_cuesta_doscientos_euros": {
+      "conceptId": "es.economia_el_vuelo_cuesta_doscientos_euros",
+      "id": "economia_el_vuelo_cuesta_doscientos_euros",
+      "target": [
+        {
+          "text": "El vuelo cuesta doscientos euros.",
+          "audioSlug": "el_vuelo_cuesta_doscientos_euros"
+        }
+      ]
+    },
+    "es.health_el_paciente_necesita_una_operacion": {
+      "conceptId": "es.health_el_paciente_necesita_una_operacion",
+      "id": "health_el_paciente_necesita_una_operacion",
+      "target": [
+        {
+          "text": "El paciente necesita una operación.",
+          "audioSlug": "el_paciente_necesita_una_operacion"
+        }
+      ]
+    },
+    "es.health_el_tratamiento_dura_varias_semanas": {
+      "conceptId": "es.health_el_tratamiento_dura_varias_semanas",
+      "id": "health_el_tratamiento_dura_varias_semanas",
+      "target": [
+        {
+          "text": "El tratamiento dura varias semanas.",
+          "audioSlug": "el_tratamiento_dura_varias_semanas"
+        }
+      ]
+    },
+    "es.health_i_dont_feel_well": {
+      "conceptId": "es.health_i_dont_feel_well",
+      "id": "health_i_dont_feel_well",
+      "target": [
+        {
+          "text": "No me siento bien.",
+          "audioSlug": "no_me_siento_bien"
+        }
+      ]
+    },
+    "es.hogar_enciende_la_luz_por_favor": {
+      "conceptId": "es.hogar_enciende_la_luz_por_favor",
+      "id": "hogar_enciende_la_luz_por_favor",
+      "target": [
+        {
+          "text": "Enciende la luz, por favor.",
+          "audioSlug": "enciende_la_luz_por_favor"
+        }
+      ]
+    },
+    "es.hogar_necesito_arreglar_la_puerta": {
+      "conceptId": "es.hogar_necesito_arreglar_la_puerta",
+      "id": "hogar_necesito_arreglar_la_puerta",
+      "target": [
+        {
+          "text": "Necesito arreglar la puerta.",
+          "audioSlug": "necesito_arreglar_la_puerta"
+        }
+      ]
+    },
+    "es.kitchen_the_coffee_maker_is_on_the": {
+      "conceptId": "es.kitchen_the_coffee_maker_is_on_the",
+      "id": "kitchen_the_coffee_maker_is_on_the",
+      "target": [
+        {
+          "text": "La cafetera está en la repisa.",
+          "audioSlug": "la_cafetera_esta_en_la_repisa"
+        }
+      ]
+    },
+    "es.personal_info_mi_abuela_quedo_viuda_muy_joven": {
+      "conceptId": "es.personal_info_mi_abuela_quedo_viuda_muy_joven",
+      "id": "personal_info_mi_abuela_quedo_viuda_muy_joven",
+      "target": [
+        {
+          "text": "Mi abuela quedó viuda muy joven.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "source": "Meine Großmutter wurde sehr jung Witwe.",
+          "audioSlug": "mi_abuela_quedo_viuda_muy_joven"
+        },
+        {
+          "text": "Mi abuelo quedó viudo muy joven.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "source": "Mein Großvater wurde sehr jung Witwer.",
+          "audioSlug": "mi_abuelo_quedo_viudo_muy_joven"
+        }
+      ]
+    },
+    "es.planes_voy_a_necesitar_tu_ayuda": {
+      "conceptId": "es.planes_voy_a_necesitar_tu_ayuda",
+      "id": "planes_voy_a_necesitar_tu_ayuda",
+      "target": [
+        {
+          "text": "Voy a necesitar tu ayuda.",
+          "audioSlug": "voy_a_necesitar_tu_ayuda"
+        }
+      ]
+    },
+    "es.restaurant_que_me_recomienda_para_beber": {
+      "conceptId": "es.restaurant_que_me_recomienda_para_beber",
+      "id": "restaurant_que_me_recomienda_para_beber",
+      "target": [
+        {
+          "text": "¿Qué me recomienda para beber?",
+          "audioSlug": "que_me_recomienda_para_beber"
+        }
+      ]
+    },
+    "es.technology_what_is_the_wifi_password": {
+      "conceptId": "es.technology_what_is_the_wifi_password",
+      "id": "technology_what_is_the_wifi_password",
+      "target": [
+        {
+          "text": "¿Cuál es la contraseña del WiFi?",
+          "audioSlug": "cual_es_la_contrasena_del_wifi"
+        }
+      ]
+    },
+    "es.viajes_cruzamos_la_frontera_sin_problemas": {
+      "conceptId": "es.viajes_cruzamos_la_frontera_sin_problemas",
+      "id": "viajes_cruzamos_la_frontera_sin_problemas",
+      "target": [
+        {
+          "text": "Cruzamos la frontera sin problemas.",
+          "audioSlug": "cruzamos_la_frontera_sin_problemas"
+        }
+      ]
+    }
+  }
+}

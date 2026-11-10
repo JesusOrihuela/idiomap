@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "55",
+  "concepts": {
+    "es.conversacion_pues_eso_no_tiene_sentido": {
+      "conceptId": "es.conversacion_pues_eso_no_tiene_sentido",
+      "id": "conversacion_pues_eso_no_tiene_sentido",
+      "target": [
+        {
+          "text": "Pues eso no tiene sentido.",
+          "audioSlug": "pues_eso_no_tiene_sentido"
+        }
+      ]
+    },
+    "es.cotidianidad_coge_el_paraguas": {
+      "conceptId": "es.cotidianidad_coge_el_paraguas",
+      "id": "cotidianidad_coge_el_paraguas",
+      "target": [
+        {
+          "text": "Coge el paraguas, va a llover.",
+          "audioSlug": "coge_el_paraguas_va_a_llover"
+        }
+      ]
+    },
+    "es.cotidianidad_recibi_una_llamada_importante": {
+      "conceptId": "es.cotidianidad_recibi_una_llamada_importante",
+      "id": "cotidianidad_recibi_una_llamada_importante",
+      "target": [
+        {
+          "text": "Recibí una llamada importante.",
+          "audioSlug": "recibi_una_llamada_importante"
+        }
+      ]
+    },
+    "es.daily_routine_shower_every_day": {
+      "conceptId": "es.daily_routine_shower_every_day",
+      "id": "daily_routine_shower_every_day",
+      "target": [
+        {
+          "text": "Me ducho todos los días.",
+          "audioSlug": "me_ducho_todos_los_dias"
+        }
+      ]
+    },
+    "es.greetings_mutual_acquaintance_conference": {
+      "conceptId": "es.greetings_mutual_acquaintance_conference",
+      "id": "greetings_mutual_acquaintance_conference",
+      "target": [
+        {
+          "text": "Creo que tenemos un conocido en común, ¿conoces a Ana de la conferencia?",
+          "audioSlug": "creo_que_tenemos_un_conocido_en_comun_conoces_a_ana_de_la_conferencia"
+        }
+      ]
+    },
+    "es.health_me_canso_muy_rapido": {
+      "conceptId": "es.health_me_canso_muy_rapido",
+      "id": "health_me_canso_muy_rapido",
+      "target": [
+        {
+          "text": "Me canso muy rápido.",
+          "audioSlug": "me_canso_muy_rapido"
+        }
+      ]
+    },
+    "es.hogar_el_dormitorio_principal_es_muy_amplio": {
+      "conceptId": "es.hogar_el_dormitorio_principal_es_muy_amplio",
+      "id": "hogar_el_dormitorio_principal_es_muy_amplio",
+      "target": [
+        {
+          "text": "El dormitorio principal es muy amplio.",
+          "audioSlug": "el_dormitorio_principal_es_muy_amplio"
+        }
+      ]
+    }
+  }
+}

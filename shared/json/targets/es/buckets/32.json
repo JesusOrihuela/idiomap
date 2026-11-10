@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "32",
+  "concepts": {
+    "es.accountability_the_balance_sheet_is_ready": {
+      "conceptId": "es.accountability_the_balance_sheet_is_ready",
+      "id": "accountability_the_balance_sheet_is_ready",
+      "target": [
+        {
+          "text": "El balance general está listo.",
+          "audioSlug": "el_balance_general_esta_listo"
+        }
+      ]
+    },
+    "es.descripciones_mi_abuelo_es_muy_viejo": {
+      "conceptId": "es.descripciones_mi_abuelo_es_muy_viejo",
+      "id": "descripciones_mi_abuelo_es_muy_viejo",
+      "target": [
+        {
+          "text": "Mi abuelo ya es muy viejo.",
+          "audioSlug": "mi_abuelo_ya_es_muy_viejo"
+        }
+      ]
+    },
+    "es.family_mi_sobrino_tiene_cinco_anos": {
+      "conceptId": "es.family_mi_sobrino_tiene_cinco_anos",
+      "id": "family_mi_sobrino_tiene_cinco_anos",
+      "target": [
+        {
+          "text": "Mi sobrino tiene cinco años.",
+          "audioSlug": "mi_sobrino_tiene_cinco_anos"
+        }
+      ]
+    },
+    "es.health_i_have_a_headache": {
+      "conceptId": "es.health_i_have_a_headache",
+      "id": "health_i_have_a_headache",
+      "target": [
+        {
+          "text": "Me duele la cabeza.",
+          "audioSlug": "me_duele_la_cabeza"
+        }
+      ]
+    },
+    "es.kitchen_im_hungry": {
+      "conceptId": "es.kitchen_im_hungry",
+      "id": "kitchen_im_hungry",
+      "target": [
+        {
+          "text": "Tengo hambre.",
+          "audioSlug": "tengo_hambre"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_el_canguro_vive_en_australia": {
+      "conceptId": "es.naturaleza_lugares_el_canguro_vive_en_australia",
+      "id": "naturaleza_lugares_el_canguro_vive_en_australia",
+      "target": [
+        {
+          "text": "El canguro vive en Australia.",
+          "audioSlug": "el_canguro_vive_en_australia"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_mucha_gente_no_piensa_en_el_futuro": {
+      "conceptId": "es.pensamientos_opiniones_mucha_gente_no_piensa_en_el_futuro",
+      "id": "pensamientos_opiniones_mucha_gente_no_piensa_en_el_futuro",
+      "target": [
+        {
+          "text": "Mucha gente no piensa en el futuro.",
+          "audioSlug": "mucha_gente_no_piensa_en_el_futuro"
+        }
+      ]
+    },
+    "es.restaurant_la_comida_esta_mala": {
+      "conceptId": "es.restaurant_la_comida_esta_mala",
+      "id": "restaurant_la_comida_esta_mala",
+      "target": [
+        {
+          "text": "La comida está mala.",
+          "audioSlug": "la_comida_esta_mala"
+        }
+      ]
+    }
+  }
+}

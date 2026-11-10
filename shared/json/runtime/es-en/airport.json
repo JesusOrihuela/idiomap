@@ -1,0 +1,665 @@
+{
+  "schemaVersion": 1,
+  "pair": "es-en",
+  "topic": "airport",
+  "phrases": [
+    {
+      "id": "airport_flight_departure_time",
+      "conceptId": "en.airport_flight_departure_time",
+      "sourceId": "es.s.21d006a732f7cc22",
+      "source": "¿A qué hora sale nuestro vuelo?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "What time is our flight?",
+          "audioSlug": "what_time_is_our_flight"
+        }
+      ]
+    },
+    {
+      "id": "airport_check_luggage",
+      "conceptId": "en.airport_check_luggage",
+      "sourceId": "es.s.755906729f404416",
+      "source": "Necesito facturar mi equipaje.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I need to check my luggage.",
+          "audioSlug": "i_need_to_check_my_luggage"
+        }
+      ]
+    },
+    {
+      "id": "airport_waiting_room_location",
+      "conceptId": "en.airport_waiting_room_location",
+      "sourceId": "es.s.fe681b02db364068",
+      "source": "La sala de espera está en la planta baja.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The waiting room is on the ground floor.",
+          "audioSlug": "the_waiting_room_is_on_the_ground_floor"
+        }
+      ]
+    },
+    {
+      "id": "airport_prefer_window_seat",
+      "conceptId": "en.airport_prefer_window_seat",
+      "sourceId": "es.s.90de1eb67714add0",
+      "source": "Prefiero un asiento junto a la ventana.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I prefer a window seat.",
+          "audioSlug": "i_prefer_a_window_seat"
+        }
+      ]
+    },
+    {
+      "id": "airport_boarding_pass_gate",
+      "conceptId": "en.airport_boarding_pass_gate",
+      "sourceId": "es.s.c9d5b22182ddd62c",
+      "source": "Debo mostrar mi pase de abordar en la puerta.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I must show my boarding pass at the gate.",
+          "audioSlug": "i_must_show_my_boarding_pass_at_the_gate"
+        }
+      ]
+    },
+    {
+      "id": "airport_carryon_size_limit",
+      "conceptId": "en.airport_carryon_size_limit",
+      "sourceId": "es.s.cdae96e77c1eafd8",
+      "source": "El equipaje de mano debe ser de un tamaño específico.",
+      "level": "A2",
+      "grammar": "Modal 'must': strong obligation or rule",
+      "target": [
+        {
+          "text": "Carry-on luggage must be a specific size.",
+          "audioSlug": "carry_on_luggage_must_be_a_specific_size"
+        }
+      ]
+    },
+    {
+      "id": "airport_exchange_currency",
+      "conceptId": "en.airport_exchange_currency",
+      "sourceId": "es.s.3d2e5c4e3a4f5edd",
+      "source": "¿Dónde puedo cambiar divisas?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where can I exchange currency?",
+          "audioSlug": "where_can_i_exchange_currency"
+        }
+      ]
+    },
+    {
+      "id": "airport_which_terminal_departs",
+      "conceptId": "en.airport_which_terminal_departs",
+      "sourceId": "es.s.76ef7c31537a0dc1",
+      "source": "¿Desde qué terminal sale mi vuelo?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Which terminal is my flight departing from?",
+          "audioSlug": "which_terminal_is_my_flight_departing_from"
+        }
+      ]
+    },
+    {
+      "id": "airport_how_early_arrive",
+      "conceptId": "en.airport_how_early_arrive",
+      "sourceId": "es.s.686f8b467e6a1b23",
+      "source": "¿Cuánto tiempo antes debo llegar al aeropuerto?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "How early should I arrive at the airport before my flight?",
+          "audioSlug": "how_early_should_i_arrive_at_the_airport_before_my_flight"
+        }
+      ]
+    },
+    {
+      "id": "airport_direct_or_connecting",
+      "conceptId": "en.airport_direct_or_connecting",
+      "sourceId": "es.s.3ef92ae495d4b73e",
+      "source": "¿Hay un vuelo directo o tengo que hacer escala?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is there a direct flight or must I connect?",
+          "audioSlug": "is_there_a_direct_flight_or_must_i_connect"
+        }
+      ]
+    },
+    {
+      "id": "airport_flight_delayed_voucher",
+      "conceptId": "en.airport_flight_delayed_voucher",
+      "sourceId": "es.s.6835248a80a4643d",
+      "source": "Mi vuelo se ha retrasado. ¿Puedo recibir un vale de comida?",
+      "level": "B2",
+      "grammar": "Present perfect passive: 'has been delayed' for a recent change affecting the speaker",
+      "target": [
+        {
+          "text": "My flight has been delayed. Can I get a food voucher?",
+          "audioSlug": "my_flight_has_been_delayed_can_i_get_a_food_voucher"
+        }
+      ]
+    },
+    {
+      "id": "airport_request_seat_front",
+      "conceptId": "en.airport_request_seat_front",
+      "sourceId": "es.s.3ec7ee1e6393ae54",
+      "source": "Me gustaría un asiento cerca de la parte delantera.",
+      "level": "A2",
+      "grammar": "'I'd like + noun' or 'I'd like to + infinitive' both make polite requests.",
+      "target": [
+        {
+          "text": "I would like a seat near the front, please.",
+          "audioSlug": "i_would_like_a_seat_near_the_front_please"
+        }
+      ]
+    },
+    {
+      "id": "airport_carryon_over_limit",
+      "conceptId": "en.airport_carryon_over_limit",
+      "sourceId": "es.s.263664a42debefe2",
+      "source": "Mi equipaje de mano supera el límite de peso. ¿Cuáles son mis opciones?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My carry-on is over the weight limit. What are my options?",
+          "audioSlug": "my_carry_on_is_over_the_weight_limit_what_are_my_options"
+        }
+      ]
+    },
+    {
+      "id": "airport_baggage_claim_flight",
+      "conceptId": "en.airport_baggage_claim_flight",
+      "sourceId": "es.s.ebeaecf1a05c0738",
+      "source": "¿Dónde está la cinta de equipaje para este vuelo?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where is the baggage claim area for this flight?",
+          "audioSlug": "where_is_the_baggage_claim_area_for_this_flight"
+        }
+      ]
+    },
+    {
+      "id": "airport_connection_time_enough",
+      "conceptId": "en.airport_connection_time_enough",
+      "sourceId": "es.s.b67227d8287f48c8",
+      "source": "Tengo una conexión. ¿Hay tiempo para llegar a la siguiente puerta de embarque?",
+      "level": "B1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have a connection. Is there time to reach the next gate?",
+          "audioSlug": "i_have_a_connection_is_there_time_to_reach_the_next_gate"
+        }
+      ]
+    },
+    {
+      "id": "airport_security_liquids_confiscated",
+      "conceptId": "en.airport_security_liquids_confiscated",
+      "sourceId": "es.s.79f5f18119e0667a",
+      "source": "Me confiscaron el protector solar en seguridad. Los líquidos de más de 100 ml no se permiten en el equipaje de mano.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My sunscreen was confiscated at security. Liquids over 100ml aren't allowed in carry-on.",
+          "audioSlug": "my_sunscreen_was_confiscated_at_security_liquids_over_100ml_aren_t_allowed_in_carry_on"
+        }
+      ]
+    },
+    {
+      "id": "airport_priority_boarding_boarded_together",
+      "conceptId": "en.airport_priority_boarding_boarded_together",
+      "sourceId": "es.s.a896e8a3eaaefa8c",
+      "source": "Pagué por embarque prioritario y aun así todos abordaron juntos.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I paid for priority boarding but everyone boarded together anyway.",
+          "audioSlug": "i_paid_for_priority_boarding_but_everyone_boarded_together_anyway"
+        }
+      ]
+    },
+    {
+      "id": "airport_cancelled_rebook_today",
+      "conceptId": "en.airport_cancelled_rebook_today",
+      "sourceId": "es.s.9c042eec10100afa",
+      "source": "Mi vuelo fue cancelado. Necesito que me asignen un lugar en el próximo vuelo disponible.",
+      "level": "B2",
+      "grammar": "'Need to be rebooked' requests an action to be performed on the speaker.",
+      "target": [
+        {
+          "text": "My flight was cancelled. I need to be rebooked on the next available flight.",
+          "audioSlug": "my_flight_was_cancelled_i_need_to_be_rebooked_on_the_next_available_flight"
+        }
+      ]
+    },
+    {
+      "id": "airport_forgot_boarding_pass_website",
+      "conceptId": "en.airport_forgot_boarding_pass_website",
+      "sourceId": "es.s.18a54ff7acd8d13b",
+      "source": "Olvidé mi pase de abordar. ¿Puedo acceder en el sitio web de la aerolínea?",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I forgot my boarding pass. Can I pull it up on the airline's website?",
+          "audioSlug": "i_forgot_my_boarding_pass_can_i_pull_it_up_on_the_airline_s_website"
+        }
+      ]
+    },
+    {
+      "id": "airport_luggage_lost_claim",
+      "conceptId": "en.airport_luggage_lost_claim",
+      "sourceId": "es.s.f6daadfd2b015ca1",
+      "source": "Mi equipaje no llegó. Me gustaría presentar un reporte de equipaje perdido.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My luggage didn't arrive. I'd like to file a lost baggage report.",
+          "audioSlug": "my_luggage_didn_t_arrive_i_d_like_to_file_a_lost_baggage_report"
+        }
+      ]
+    },
+    {
+      "id": "airport_denied_boarding_compensation",
+      "conceptId": "en.airport_denied_boarding_compensation",
+      "sourceId": "es.s.63070ba8ba4a7320",
+      "source": "Me negaron el embarque por sobreventas. ¿A qué compensación tengo derecho?",
+      "level": "B2",
+      "grammar": "Passive voice: 'was denied' to describe an action received by the subject",
+      "target": [
+        {
+          "text": "I was denied boarding due to overbooking. What compensation am I entitled to?",
+          "audioSlug": "i_was_denied_boarding_due_to_overbooking_what_compensation_am_i_entitled_to"
+        }
+      ]
+    },
+    {
+      "id": "airport_immigration_before_bags",
+      "conceptId": "en.airport_immigration_before_bags",
+      "sourceId": "es.s.5d003cb231014857",
+      "source": "Debes pasar por inmigración antes de poder recoger tu equipaje.",
+      "level": "B2",
+      "grammar": "Modal 'have to' expressing a rule or required step",
+      "target": [
+        {
+          "text": "You have to go through immigration before you can collect your bags.",
+          "audioSlug": "you_have_to_go_through_immigration_before_you_can_collect_your_bags"
+        }
+      ]
+    },
+    {
+      "id": "airport_seat_changed_no_notice",
+      "conceptId": "en.airport_seat_changed_no_notice",
+      "sourceId": "es.s.fa7885f1e681f828",
+      "source": "La aerolínea cambió mi asiento sin previo aviso. Me gustaría hablar con un supervisor.",
+      "level": "B2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The airline changed my seat without notice. I'd like to speak to a supervisor.",
+          "audioSlug": "the_airline_changed_my_seat_without_notice_i_d_like_to_speak_to_a_supervisor"
+        }
+      ]
+    },
+    {
+      "id": "airport_bag_made_connection",
+      "conceptId": "en.airport_bag_made_connection",
+      "sourceId": "es.s.1261541c2cdc73c2",
+      "source": "¿Podría confirmar si mi maleta documentada alcanzó el vuelo de conexión?",
+      "level": "B2",
+      "grammar": "Indirect question: 'whether + subject + verb' inside a main clause",
+      "target": [
+        {
+          "text": "Could you confirm whether my checked bag made it onto the connecting flight?",
+          "audioSlug": "could_you_confirm_whether_my_checked_bag_made_it_onto_the_connecting_flight"
+        }
+      ]
+    },
+    {
+      "id": "airport_multi_entry_visa_duration",
+      "conceptId": "en.airport_multi_entry_visa_duration",
+      "sourceId": "es.s.3e663537a9ecadc7",
+      "source": "Tengo una visa de entradas múltiples. ¿Cada entrada renueva el período de estancia permitido?",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have a multi-entry visa. Does each arrival reset the permitted duration of stay?",
+          "audioSlug": "i_have_a_multi_entry_visa_does_each_arrival_reset_the_permitted_duration_of_stay"
+        }
+      ]
+    },
+    {
+      "id": "airport_duty_exceeded_pay_here",
+      "conceptId": "en.airport_duty_exceeded_pay_here",
+      "sourceId": "es.s.d715f9b678deeb44",
+      "source": "He superado el límite de franquicia. ¿Puedo pagar el arancel de importación aquí en el aeropuerto?",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I've exceeded the duty-free allowance. Can I pay the import duty here at the airport?",
+          "audioSlug": "i_ve_exceeded_the_duty_free_allowance_can_i_pay_the_import_duty_here_at_the_airport"
+        }
+      ]
+    },
+    {
+      "id": "airport_unaccompanied_minor_procedure",
+      "conceptId": "en.airport_unaccompanied_minor_procedure",
+      "sourceId": "es.s.456fd82dc00f0733",
+      "source": "Mi hija viaja sola por primera vez. ¿Qué procedimientos aplican para los menores no acompañados?",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My daughter is traveling alone for the first time. What procedures apply for unaccompanied minors?",
+          "audioSlug": "my_daughter_is_traveling_alone_for_the_first_time_what_procedures_apply_for_unaccompanied_minors"
+        }
+      ]
+    },
+    {
+      "id": "airport_seat_assignment_not_booked",
+      "conceptId": "en.airport_seat_assignment_not_booked",
+      "sourceId": "es.s.55db4858423b12b8",
+      "source": "Reservé un asiento en la fila de salida, pero me asignaron uno de economía estándar. Me gustaría que se corrigiera.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I booked an exit-row seat but was assigned a standard economy seat. I'd like this corrected.",
+          "audioSlug": "i_booked_an_exit_row_seat_but_was_assigned_a_standard_economy_seat_i_d_like_this_corrected"
+        }
+      ]
+    },
+    {
+      "id": "airport_customs_declare_allowance",
+      "conceptId": "en.airport_customs_declare_allowance",
+      "sourceId": "es.s.72a709e829759714",
+      "source": "Quisiera declarar estos artículos. ¿Podría indicarme el límite de franquicia?",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'd like to declare these goods. Could you tell me the duty-free allowance?",
+          "audioSlug": "i_d_like_to_declare_these_goods_could_you_tell_me_the_duty_free_allowance"
+        }
+      ]
+    },
+    {
+      "id": "airport_passport_expiry_visa",
+      "conceptId": "en.airport_passport_expiry_visa",
+      "sourceId": "es.s.ea2664a61b9f9f47",
+      "source": "Mi pasaporte vence en tres meses. ¿Es suficiente para una visa de turista a la llegada?",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "My passport expires in three months. Is that sufficient for a tourist visa on arrival?",
+          "audioSlug": "my_passport_expires_in_three_months_is_that_sufficient_for_a_tourist_visa_on_arrival"
+        }
+      ]
+    },
+    {
+      "id": "airport_transit_zone_restrictions",
+      "conceptId": "en.airport_transit_zone_restrictions",
+      "sourceId": "es.s.9892d3a35583662f",
+      "source": "Viajo con exención de visa de tránsito. ¿Cuáles son las restricciones para salir de la zona de tránsito?",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'm on a transit visa exemption. What are the restrictions for leaving the transit zone?",
+          "audioSlug": "i_m_on_a_transit_visa_exemption_what_are_the_restrictions_for_leaving_the_transit_zone"
+        }
+      ]
+    },
+    {
+      "id": "airport_upgrade_miles_business",
+      "conceptId": "en.airport_upgrade_miles_business",
+      "sourceId": "es.s.1da33ba6b139e80b",
+      "source": "Me gustaría usar mis millas para un ascenso de categoría. ¿Hay disponibilidad en clase ejecutiva?",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'd like to use my frequent flyer miles to upgrade. Is there availability in business class?",
+          "audioSlug": "i_d_like_to_use_my_frequent_flyer_miles_to_upgrade_is_there_availability_in_business_class"
+        }
+      ]
+    },
+    {
+      "id": "airport_mishandled_bag_return",
+      "conceptId": "en.airport_mishandled_bag_return",
+      "sourceId": "es.s.43ded0f2e066203b",
+      "source": "La aerolínea perdió mi maleta en el trayecto de ida y mi vuelo de regreso sale mañana.",
+      "level": "C1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The airline lost my bag on the outbound leg, and my return flight departs tomorrow.",
+          "audioSlug": "the_airline_lost_my_bag_on_the_outbound_leg_and_my_return_flight_departs_tomorrow"
+        }
+      ]
+    },
+    {
+      "id": "airport_refused_entry_return_carrier",
+      "conceptId": "en.airport_refused_entry_return_carrier",
+      "sourceId": "es.s.7cecab524f442b43",
+      "source": "Me han negado la entrada. ¿Qué aerolínea está legalmente obligada a devolverme a mi punto de salida?",
+      "level": "C2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I've been refused entry. Which carrier is legally required to return me to my point of departure?",
+          "audioSlug": "i_ve_been_refused_entry_which_carrier_is_legally_required_to_return_me_to_my_point_of_departure"
+        }
+      ]
+    },
+    {
+      "id": "airport_eu_regulation_compensation",
+      "conceptId": "en.airport_eu_regulation_compensation",
+      "sourceId": "es.s.9c0e4ba2a9e5f2d2",
+      "source": "Según el Reglamento UE 261/2004, creo que tengo derecho a compensación por esta cancelación.",
+      "level": "C2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Under EU Regulation 261/2004, I believe I'm entitled to compensation for this cancellation.",
+          "audioSlug": "under_eu_regulation_261_2004_i_believe_i_m_entitled_to_compensation_for_this_cancellation"
+        }
+      ]
+    },
+    {
+      "id": "airport_secondary_screening_rights",
+      "conceptId": "en.airport_secondary_screening_rights",
+      "sourceId": "es.s.299abf7c71812040",
+      "source": "Me han seleccionado para una revisión adicional. ¿Podría explicarme el motivo y mis derechos?",
+      "level": "C2",
+      "grammar": "Present perfect passive focuses on the result of an action, not who performed it.",
+      "target": [
+        {
+          "text": "I've been flagged for secondary screening. Could you explain the basis for this and my rights?",
+          "audioSlug": "i_ve_been_flagged_for_secondary_screening_could_you_explain_the_basis_for_this_and_my_rights"
+        }
+      ]
+    },
+    {
+      "id": "airport_partner_airline_baggage_liability",
+      "conceptId": "en.airport_partner_airline_baggage_liability",
+      "sourceId": "es.s.c5baeb2cc8d3f6aa",
+      "source": "El vuelo de conexión fue operado por una aerolínea asociada. ¿Eso afecta la responsabilidad por mi equipaje retrasado?",
+      "level": "C2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "The connecting flight was operated by a partner airline. Does that affect liability for my delayed baggage?",
+          "audioSlug": "the_connecting_flight_was_operated_by_a_partner_airline_does_that_affect_liability_for_my_d_676c4e70"
+        }
+      ]
+    },
+    {
+      "id": "airport_where_is_checkin",
+      "conceptId": "en.airport_where_is_checkin",
+      "sourceId": "es.s.a8d89053eab6b3ef",
+      "source": "¿Dónde está el mostrador de facturación?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where is the check-in counter?",
+          "audioSlug": "where_is_the_check_in_counter"
+        }
+      ]
+    },
+    {
+      "id": "airport_which_gate",
+      "conceptId": "en.airport_which_gate",
+      "sourceId": "es.s.d836ddd28d659212",
+      "source": "¿Cuál es la puerta de mi vuelo?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Which gate does my flight leave from?",
+          "audioSlug": "which_gate_does_my_flight_leave_from"
+        }
+      ]
+    },
+    {
+      "id": "airport_where_is_security",
+      "conceptId": "en.airport_where_is_security",
+      "sourceId": "es.s.b8b65a75dee7a83a",
+      "source": "¿Dónde está el control de seguridad?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where is the security checkpoint?",
+          "audioSlug": "where_is_the_security_checkpoint"
+        }
+      ]
+    },
+    {
+      "id": "airport_where_passport_control",
+      "conceptId": "en.airport_where_passport_control",
+      "sourceId": "es.s.6dbdf41c08c98c7b",
+      "source": "¿Dónde está el control de pasaportes?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where is passport control?",
+          "audioSlug": "where_is_passport_control"
+        }
+      ]
+    },
+    {
+      "id": "airport_is_flight_on_time",
+      "conceptId": "en.airport_is_flight_on_time",
+      "sourceId": "es.s.8018797360871e43",
+      "source": "¿Mi vuelo sale a tiempo?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is my flight on time?",
+          "audioSlug": "is_my_flight_on_time"
+        }
+      ]
+    },
+    {
+      "id": "airport_where_boarding_pass",
+      "conceptId": "en.airport_where_boarding_pass",
+      "sourceId": "es.s.76e3c97c0a440c44",
+      "source": "¿Dónde recojo mi pase de abordar?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where do I get my boarding pass?",
+          "audioSlug": "where_do_i_get_my_boarding_pass"
+        }
+      ]
+    },
+    {
+      "id": "airport_nothing_to_declare",
+      "conceptId": "en.airport_nothing_to_declare",
+      "sourceId": "es.s.d606026d98e2fd62",
+      "source": "No tengo nada que declarar.",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I have nothing to declare.",
+          "audioSlug": "i_have_nothing_to_declare"
+        }
+      ]
+    },
+    {
+      "id": "airport_is_this_gate_for",
+      "conceptId": "en.airport_is_this_gate_for",
+      "sourceId": "es.s.b237ead7a9d129e0",
+      "source": "¿Es esta la puerta para el vuelo 203?",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Is this the gate for flight 203?",
+          "audioSlug": "is_this_the_gate_for_flight_203"
+        }
+      ]
+    },
+    {
+      "id": "airport_aisle_seat",
+      "conceptId": "en.airport_aisle_seat",
+      "sourceId": "es.s.668e806c651d31f0",
+      "source": "Quisiera un asiento de pasillo, por favor.",
+      "level": "A1",
+      "grammar": null,
+      "target": [
+        {
+          "text": "I'd like an aisle seat, please.",
+          "audioSlug": "i_d_like_an_aisle_seat_please"
+        }
+      ]
+    },
+    {
+      "id": "airport_duty_free_shop",
+      "conceptId": "en.airport_duty_free_shop",
+      "sourceId": "es.s.65f8a5d9a3183ccf",
+      "source": "¿Dónde está la tienda libre de impuestos?",
+      "level": "A2",
+      "grammar": null,
+      "target": [
+        {
+          "text": "Where is the duty-free shop?",
+          "audioSlug": "where_is_the_duty_free_shop"
+        }
+      ]
+    }
+  ]
+}

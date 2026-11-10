@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "dd",
+  "concepts": {
+    "es.family_this_man_is_my_uncle": {
+      "conceptId": "es.family_this_man_is_my_uncle",
+      "id": "family_this_man_is_my_uncle",
+      "target": [
+        {
+          "text": "Este hombre es mi tío.",
+          "audioSlug": "este_hombre_es_mi_tio"
+        }
+      ]
+    },
+    "es.greetings_good_evening_hows_your_day_been": {
+      "conceptId": "es.greetings_good_evening_hows_your_day_been",
+      "id": "greetings_good_evening_hows_your_day_been",
+      "target": [
+        {
+          "text": "Buenas noches, ¿cómo ha estado tu día?",
+          "audioSlug": "buenas_noches_como_ha_estado_tu_dia",
+          "labels": {
+            "register": "informal"
+          }
+        },
+        {
+          "text": "Buenas noches, ¿cómo ha estado su día?",
+          "labels": {
+            "register": "formal"
+          },
+          "audioSlug": "buenas_noches_como_ha_estado_su_dia"
+        }
+      ]
+    },
+    "es.gym_cable_machine_seated_row": {
+      "conceptId": "es.gym_cable_machine_seated_row",
+      "id": "gym_cable_machine_seated_row",
+      "target": [
+        {
+          "text": "¿Podrías mostrarme cómo ajustar correctamente la máquina de cable para el remo sentado?",
+          "audioSlug": "podrias_mostrarme_como_ajustar_correctamente_la_maquina_de_cable_para_el_remo_sentado"
+        }
+      ]
+    },
+    "es.gym_the_gyms_music_is_too_loud": {
+      "conceptId": "es.gym_the_gyms_music_is_too_loud",
+      "id": "gym_the_gyms_music_is_too_loud",
+      "target": [
+        {
+          "text": "La música del gimnasio está demasiado alta.",
+          "audioSlug": "la_musica_del_gimnasio_esta_demasiado_alta"
+        }
+      ]
+    },
+    "es.kitchen_fry_the_potatoes_in_hot_oil": {
+      "conceptId": "es.kitchen_fry_the_potatoes_in_hot_oil",
+      "id": "kitchen_fry_the_potatoes_in_hot_oil",
+      "target": [
+        {
+          "text": "Las papas se fríen en aceite caliente.",
+          "labels": {
+            "region": "Latinoamérica"
+          },
+          "audioSlug": "las_papas_se_frien_en_aceite_caliente"
+        },
+        {
+          "text": "Las patatas se fríen en aceite caliente.",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "las_patatas_se_frien_en_aceite_caliente"
+        }
+      ]
+    },
+    "es.pensamientos_opiniones_cada_persona_ve_el_mundo": {
+      "conceptId": "es.pensamientos_opiniones_cada_persona_ve_el_mundo",
+      "id": "pensamientos_opiniones_cada_persona_ve_el_mundo",
+      "target": [
+        {
+          "text": "Cada persona ve el mundo distinto.",
+          "audioSlug": "cada_persona_ve_el_mundo_distinto"
+        }
+      ]
+    },
+    "es.politica_el_presidente_dio_un_discurso": {
+      "conceptId": "es.politica_el_presidente_dio_un_discurso",
+      "id": "politica_el_presidente_dio_un_discurso",
+      "target": [
+        {
+          "text": "El presidente dio un discurso.",
+          "audioSlug": "el_presidente_dio_un_discurso"
+        }
+      ]
+    },
+    "es.supermarket_hay_una_oferta_en_el_arroz": {
+      "conceptId": "es.supermarket_hay_una_oferta_en_el_arroz",
+      "id": "supermarket_hay_una_oferta_en_el_arroz",
+      "target": [
+        {
+          "text": "Hay una oferta en el arroz.",
+          "audioSlug": "hay_una_oferta_en_el_arroz"
+        }
+      ]
+    },
+    "es.tiempo_libre_me_gusta_leer_novelas": {
+      "conceptId": "es.tiempo_libre_me_gusta_leer_novelas",
+      "id": "tiempo_libre_me_gusta_leer_novelas",
+      "target": [
+        {
+          "text": "Me gusta leer novelas.",
+          "audioSlug": "me_gusta_leer_novelas"
+        }
+      ]
+    }
+  }
+}

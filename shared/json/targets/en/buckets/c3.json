@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "c3",
+  "concepts": {
+    "en.accommodation_help_luggage": {
+      "conceptId": "en.accommodation_help_luggage",
+      "id": "accommodation_help_luggage",
+      "target": [
+        {
+          "text": "Could you help me with my luggage?",
+          "audioSlug": "could_you_help_me_with_my_luggage",
+          "labels": {
+            "register": "formal"
+          }
+        },
+        {
+          "text": "Can you help me with my luggage?",
+          "audioSlug": "can_you_help_me_with_my_luggage",
+          "labels": {
+            "register": "informal"
+          }
+        }
+      ]
+    },
+    "en.calendario_today_is_may_fifteenth": {
+      "conceptId": "en.calendario_today_is_may_fifteenth",
+      "id": "calendario_today_is_may_fifteenth",
+      "target": [
+        {
+          "text": "Today is May fifteenth.",
+          "audioSlug": "today_is_may_fifteenth"
+        }
+      ]
+    },
+    "en.hogar_turn_off_the_light_before_sleeping": {
+      "conceptId": "en.hogar_turn_off_the_light_before_sleeping",
+      "id": "hogar_turn_off_the_light_before_sleeping",
+      "target": [
+        {
+          "text": "Turn off the light before sleeping.",
+          "audioSlug": "turn_off_the_light_before_sleeping"
+        }
+      ]
+    },
+    "en.music_vocal_range_earlier_work": {
+      "conceptId": "en.music_vocal_range_earlier_work",
+      "id": "music_vocal_range_earlier_work",
+      "target": [
+        {
+          "text": "The singer's vocal range in this album is remarkable compared to her earlier work.",
+          "audioSlug": "the_singer_s_vocal_range_in_this_album_is_remarkable_compared_to_her_earlier_work"
+        }
+      ]
+    },
+    "en.personal_info_where_are_you_from": {
+      "conceptId": "en.personal_info_where_are_you_from",
+      "id": "personal_info_where_are_you_from",
+      "target": [
+        {
+          "text": "Where are you from?",
+          "audioSlug": "where_are_you_from"
+        }
+      ]
+    },
+    "en.planes_let_me_try": {
+      "conceptId": "en.planes_let_me_try",
+      "id": "planes_let_me_try",
+      "target": [
+        {
+          "text": "Let me try.",
+          "audioSlug": "let_me_try"
+        }
+      ]
+    },
+    "en.restaurant_is_this_dish_spicy": {
+      "conceptId": "en.restaurant_is_this_dish_spicy",
+      "id": "restaurant_is_this_dish_spicy",
+      "target": [
+        {
+          "text": "Is this dish spicy?",
+          "audioSlug": "is_this_dish_spicy"
+        }
+      ]
+    },
+    "en.restaurant_tasting_menu_chef_selections": {
+      "conceptId": "en.restaurant_tasting_menu_chef_selections",
+      "id": "restaurant_tasting_menu_chef_selections",
+      "target": [
+        {
+          "text": "I'd like to explore the tasting menu. Are there chef's selections available this evening?",
+          "audioSlug": "i_d_like_to_explore_the_tasting_menu_are_there_chef_s_selections_available_this_evening"
+        }
+      ]
+    },
+    "en.supermarket_buy_new_toothbrush": {
+      "conceptId": "en.supermarket_buy_new_toothbrush",
+      "id": "supermarket_buy_new_toothbrush",
+      "target": [
+        {
+          "text": "I need to buy a new toothbrush.",
+          "audioSlug": "i_need_to_buy_a_new_toothbrush"
+        }
+      ]
+    },
+    "en.survival_i_have_a_question": {
+      "conceptId": "en.survival_i_have_a_question",
+      "id": "survival_i_have_a_question",
+      "target": [
+        {
+          "text": "I have a question.",
+          "audioSlug": "i_have_a_question"
+        }
+      ]
+    },
+    "en.technology_i_need_to_back_up_my": {
+      "conceptId": "en.technology_i_need_to_back_up_my",
+      "id": "technology_i_need_to_back_up_my",
+      "target": [
+        {
+          "text": "I need to back up my data.",
+          "audioSlug": "i_need_to_back_up_my_data"
+        }
+      ]
+    }
+  }
+}

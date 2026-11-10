@@ -1,10 +1,46 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "pair": "en-sv",
   "topic": "personal_info",
-  "conceptIds": [
-    "sv.personal_info_my_name_is",
-    "sv.personal_info_i_am_from_sweden",
-    "sv.personal_info_i_am_a_student"
+  "phrases": [
+    {
+      "conceptId": "sv.personal_info_my_name_is",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.f325f4f4adee5994"
+    },
+    {
+      "conceptId": "sv.personal_info_i_am_from_sweden",
+      "level": "A1",
+      "grammar": null,
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.025f62c3944c6962"
+    },
+    {
+      "conceptId": "sv.personal_info_i_am_a_student",
+      "level": "A1",
+      "grammar": "Student är könsneutralt, samma form för kvinna och man.",
+      "evidence": [
+        "legacy"
+      ],
+      "levelBasis": {
+        "source": "legacy",
+        "method": "authored"
+      },
+      "sourceId": "en.s.aef259d3cdd5fa71"
+    }
   ]
 }

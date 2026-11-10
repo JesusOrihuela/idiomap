@@ -276,6 +276,12 @@
   line-height: var(--text-body-leading);
 }
 
+.word-example--l1 {
+  margin-top: 0;
+  font-size: var(--text-caption);
+  font-weight: var(--weight-regular);
+}
+
 .fc-translation-block {
   padding-top: var(--space-3);
   border-top: 1px solid var(--color-border);

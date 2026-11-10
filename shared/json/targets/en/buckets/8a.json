@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tag": "en",
+  "bucket": "8a",
+  "concepts": {
+    "en.greetings_i_could_be_better": {
+      "conceptId": "en.greetings_i_could_be_better",
+      "id": "greetings_i_could_be_better",
+      "target": [
+        {
+          "text": "I could be better.",
+          "audioSlug": "i_could_be_better"
+        }
+      ]
+    },
+    "en.tiempo_libre_reading_is_a_good_activity": {
+      "conceptId": "en.tiempo_libre_reading_is_a_good_activity",
+      "id": "tiempo_libre_reading_is_a_good_activity",
+      "target": [
+        {
+          "text": "Reading is a good activity.",
+          "audioSlug": "reading_is_a_good_activity"
+        }
+      ]
+    }
+  }
+}

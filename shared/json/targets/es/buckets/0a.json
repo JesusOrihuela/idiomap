@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "0a",
+  "concepts": {
+    "es.conversacion_no_me_gusta_discutir": {
+      "conceptId": "es.conversacion_no_me_gusta_discutir",
+      "id": "conversacion_no_me_gusta_discutir",
+      "target": [
+        {
+          "text": "No me gusta discutir.",
+          "audioSlug": "no_me_gusta_discutir"
+        }
+      ]
+    },
+    "es.emergencias_ayuda": {
+      "conceptId": "es.emergencias_ayuda",
+      "id": "emergencias_ayuda",
+      "target": [
+        {
+          "text": "¡Ayuda!",
+          "audioSlug": "ayuda"
+        }
+      ]
+    },
+    "es.movies_me_gusto_el_programa": {
+      "conceptId": "es.movies_me_gusto_el_programa",
+      "id": "movies_me_gusto_el_programa",
+      "target": [
+        {
+          "text": "Me gustó el programa.",
+          "audioSlug": "me_gusto_el_programa"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_la_tierra_es_un_planeta": {
+      "conceptId": "es.naturaleza_lugares_la_tierra_es_un_planeta",
+      "id": "naturaleza_lugares_la_tierra_es_un_planeta",
+      "target": [
+        {
+          "text": "La Tierra es un planeta.",
+          "audioSlug": "la_tierra_es_un_planeta"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_muchas_especies_en_peligro": {
+      "conceptId": "es.naturaleza_lugares_muchas_especies_en_peligro",
+      "id": "naturaleza_lugares_muchas_especies_en_peligro",
+      "target": [
+        {
+          "text": "Muchas especies están en peligro de desaparecer.",
+          "audioSlug": "muchas_especies_estan_en_peligro_de_desaparecer"
+        }
+      ]
+    }
+  }
+}

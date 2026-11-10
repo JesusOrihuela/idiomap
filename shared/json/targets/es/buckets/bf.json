@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "bf",
+  "concepts": {
+    "es.conversacion_necesito_silencio": {
+      "conceptId": "es.conversacion_necesito_silencio",
+      "id": "conversacion_necesito_silencio",
+      "target": [
+        {
+          "text": "Necesito silencio.",
+          "audioSlug": "necesito_silencio"
+        }
+      ]
+    },
+    "es.deportes_quien_gano_el_partido_de_ayer": {
+      "conceptId": "es.deportes_quien_gano_el_partido_de_ayer",
+      "id": "deportes_quien_gano_el_partido_de_ayer",
+      "target": [
+        {
+          "text": "¿Quién ganó el partido de ayer?",
+          "audioSlug": "quien_gano_el_partido_de_ayer"
+        }
+      ]
+    },
+    "es.descripciones_aquel_edificio_es_muy_antiguo": {
+      "conceptId": "es.descripciones_aquel_edificio_es_muy_antiguo",
+      "id": "descripciones_aquel_edificio_es_muy_antiguo",
+      "target": [
+        {
+          "text": "Aquel edificio es muy antiguo.",
+          "audioSlug": "aquel_edificio_es_muy_antiguo"
+        }
+      ]
+    },
+    "es.economia_recibo_mi_sueldo_cada_mes": {
+      "conceptId": "es.economia_recibo_mi_sueldo_cada_mes",
+      "id": "economia_recibo_mi_sueldo_cada_mes",
+      "target": [
+        {
+          "text": "Recibo mi sueldo cada mes.",
+          "audioSlug": "recibo_mi_sueldo_cada_mes"
+        }
+      ]
+    },
+    "es.emociones_esta_loca_de_alegria_por_la_noticia": {
+      "conceptId": "es.emociones_esta_loca_de_alegria_por_la_noticia",
+      "id": "emociones_esta_loca_de_alegria_por_la_noticia",
+      "target": [
+        {
+          "text": "Está loca de alegría por la noticia.",
+          "labels": {
+            "gender": "femenino"
+          },
+          "audioSlug": "esta_loca_de_alegria_por_la_noticia"
+        },
+        {
+          "text": "Está loco de alegría por la noticia.",
+          "labels": {
+            "gender": "masculino"
+          },
+          "audioSlug": "esta_loco_de_alegria_por_la_noticia"
+        }
+      ]
+    },
+    "es.emociones_im_excited": {
+      "conceptId": "es.emociones_im_excited",
+      "id": "emociones_im_excited",
+      "target": [
+        {
+          "text": "Estoy emocionada.",
+          "audioSlug": "estoy_emocionada",
+          "labels": {
+            "gender": "femenino"
+          }
+        },
+        {
+          "text": "Estoy emocionado.",
+          "audioSlug": "estoy_emocionado",
+          "labels": {
+            "gender": "masculino"
+          }
+        }
+      ]
+    },
+    "es.family_my_older_brother": {
+      "conceptId": "es.family_my_older_brother",
+      "id": "family_my_older_brother",
+      "target": [
+        {
+          "text": "Este es mi hermano mayor.",
+          "audioSlug": "este_es_mi_hermano_mayor"
+        }
+      ]
+    },
+    "es.greetings_me_despido_de_ti": {
+      "conceptId": "es.greetings_me_despido_de_ti",
+      "id": "greetings_me_despido_de_ti",
+      "target": [
+        {
+          "text": "Me despido de ti.",
+          "audioSlug": "me_despido_de_ti"
+        }
+      ]
+    },
+    "es.music_add_song_playlist": {
+      "conceptId": "es.music_add_song_playlist",
+      "id": "music_add_song_playlist",
+      "target": [
+        {
+          "text": "Me gustaría añadir esta canción a mi lista de reproducción.",
+          "audioSlug": "me_gustaria_anadir_esta_cancion_a_mi_lista_de_reproduccion"
+        }
+      ]
+    },
+    "es.personal_info_soy_de_origen_aleman": {
+      "conceptId": "es.personal_info_soy_de_origen_aleman",
+      "id": "personal_info_soy_de_origen_aleman",
+      "target": [
+        {
+          "text": "Soy de origen alemán.",
+          "audioSlug": "soy_de_origen_aleman"
+        }
+      ]
+    },
+    "es.restaurant_preparo_un_coctel_con_ron": {
+      "conceptId": "es.restaurant_preparo_un_coctel_con_ron",
+      "id": "restaurant_preparo_un_coctel_con_ron",
+      "target": [
+        {
+          "text": "Preparó un cóctel con ron.",
+          "audioSlug": "preparo_un_coctel_con_ron"
+        }
+      ]
+    },
+    "es.sitios_el_museo_esta_en_el_centro": {
+      "conceptId": "es.sitios_el_museo_esta_en_el_centro",
+      "id": "sitios_el_museo_esta_en_el_centro",
+      "target": [
+        {
+          "text": "El museo está en el centro de la ciudad.",
+          "audioSlug": "el_museo_esta_en_el_centro_de_la_ciudad"
+        }
+      ]
+    }
+  }
+}

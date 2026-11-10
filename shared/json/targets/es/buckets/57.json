@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "57",
+  "concepts": {
+    "es.accountability_a_companys_fiscal_year_does_not": {
+      "conceptId": "es.accountability_a_companys_fiscal_year_does_not",
+      "id": "accountability_a_companys_fiscal_year_does_not",
+      "target": [
+        {
+          "text": "El año fiscal de una empresa no tiene que comenzar en enero.",
+          "audioSlug": "el_ano_fiscal_de_una_empresa_no_tiene_que_comenzar_en_enero"
+        }
+      ]
+    },
+    "es.calendario_al_principio_del_ano_hago_planes": {
+      "conceptId": "es.calendario_al_principio_del_ano_hago_planes",
+      "id": "calendario_al_principio_del_ano_hago_planes",
+      "target": [
+        {
+          "text": "Al principio del año hago planes.",
+          "audioSlug": "al_principio_del_ano_hago_planes"
+        }
+      ]
+    },
+    "es.descripciones_prefiero_comprar_en_el_mercado_local": {
+      "conceptId": "es.descripciones_prefiero_comprar_en_el_mercado_local",
+      "id": "descripciones_prefiero_comprar_en_el_mercado_local",
+      "target": [
+        {
+          "text": "Prefiero comprar en el mercado local.",
+          "audioSlug": "prefiero_comprar_en_el_mercado_local"
+        }
+      ]
+    },
+    "es.emociones_ese_momento_me_hizo_feliz": {
+      "conceptId": "es.emociones_ese_momento_me_hizo_feliz",
+      "id": "emociones_ese_momento_me_hizo_feliz",
+      "target": [
+        {
+          "text": "Ese momento me hizo muy feliz.",
+          "audioSlug": "ese_momento_me_hizo_muy_feliz"
+        }
+      ]
+    },
+    "es.family_veo_un_nino": {
+      "conceptId": "es.family_veo_un_nino",
+      "id": "family_veo_un_nino",
+      "target": [
+        {
+          "text": "Veo un niño.",
+          "audioSlug": "veo_un_nino"
+        }
+      ]
+    },
+    "es.gym_what_muscles_are_worked_with_this": {
+      "conceptId": "es.gym_what_muscles_are_worked_with_this",
+      "id": "gym_what_muscles_are_worked_with_this",
+      "target": [
+        {
+          "text": "¿Qué músculos se trabajan con esta máquina?",
+          "audioSlug": "que_musculos_se_trabajan_con_esta_maquina"
+        }
+      ]
+    },
+    "es.hogar_los_muebles_son_nuevos": {
+      "conceptId": "es.hogar_los_muebles_son_nuevos",
+      "id": "hogar_los_muebles_son_nuevos",
+      "target": [
+        {
+          "text": "Los muebles son nuevos.",
+          "audioSlug": "los_muebles_son_nuevos"
+        }
+      ]
+    },
+    "es.personal_info_i_speak_three_languages": {
+      "conceptId": "es.personal_info_i_speak_three_languages",
+      "id": "personal_info_i_speak_three_languages",
+      "target": [
+        {
+          "text": "Hablo tres idiomas.",
+          "audioSlug": "hablo_tres_idiomas"
+        }
+      ]
+    },
+    "es.restaurant_is_it_possible_to_have_my": {
+      "conceptId": "es.restaurant_is_it_possible_to_have_my",
+      "id": "restaurant_is_it_possible_to_have_my",
+      "target": [
+        {
+          "text": "¿Es posible que me empaquen la comida para llevar?",
+          "audioSlug": "es_posible_que_me_empaquen_la_comida_para_llevar"
+        }
+      ]
+    },
+    "es.survival_i_dont_understand": {
+      "conceptId": "es.survival_i_dont_understand",
+      "id": "survival_i_dont_understand",
+      "target": [
+        {
+          "text": "No entiendo.",
+          "audioSlug": "no_entiendo"
+        }
+      ]
+    },
+    "es.technology_i_switched_to_a_monthly_subscription": {
+      "conceptId": "es.technology_i_switched_to_a_monthly_subscription",
+      "id": "technology_i_switched_to_a_monthly_subscription",
+      "target": [
+        {
+          "text": "Cambié a suscripción mensual porque incluye actualizaciones.",
+          "audioSlug": "cambie_a_suscripcion_mensual_porque_incluye_actualizaciones"
+        }
+      ]
+    },
+    "es.technology_the_app_uses_dark_patterns_to": {
+      "conceptId": "es.technology_the_app_uses_dark_patterns_to",
+      "id": "technology_the_app_uses_dark_patterns_to",
+      "target": [
+        {
+          "text": "La aplicación usa patrones engañosos para que cancelar la suscripción sea confuso.",
+          "audioSlug": "la_aplicacion_usa_patrones_enganosos_para_que_cancelar_la_suscripcion_sea_confuso"
+        }
+      ]
+    }
+  }
+}

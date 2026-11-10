@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "tag": "es",
+  "bucket": "cb",
+  "concepts": {
+    "es.conversacion_me_refiero_a_esto": {
+      "conceptId": "es.conversacion_me_refiero_a_esto",
+      "id": "conversacion_me_refiero_a_esto",
+      "target": [
+        {
+          "text": "Me refiero a esto.",
+          "audioSlug": "me_refiero_a_esto"
+        }
+      ]
+    },
+    "es.deportes_no_se_nadar": {
+      "conceptId": "es.deportes_no_se_nadar",
+      "id": "deportes_no_se_nadar",
+      "target": [
+        {
+          "text": "No sé nadar.",
+          "audioSlug": "no_se_nadar"
+        }
+      ]
+    },
+    "es.descripciones_es_una_mujer_fuerte": {
+      "conceptId": "es.descripciones_es_una_mujer_fuerte",
+      "id": "descripciones_es_una_mujer_fuerte",
+      "target": [
+        {
+          "text": "Es una mujer muy fuerte.",
+          "audioSlug": "es_una_mujer_muy_fuerte"
+        }
+      ]
+    },
+    "es.descripciones_esta_silla_es_de_plastico_duro": {
+      "conceptId": "es.descripciones_esta_silla_es_de_plastico_duro",
+      "id": "descripciones_esta_silla_es_de_plastico_duro",
+      "target": [
+        {
+          "text": "Esta silla es de plástico duro.",
+          "audioSlug": "esta_silla_es_de_plastico_duro"
+        }
+      ]
+    },
+    "es.descripciones_las_hojas_son_de_color_verde": {
+      "conceptId": "es.descripciones_las_hojas_son_de_color_verde",
+      "id": "descripciones_las_hojas_son_de_color_verde",
+      "target": [
+        {
+          "text": "Las hojas son de color verde.",
+          "audioSlug": "las_hojas_son_de_color_verde"
+        }
+      ]
+    },
+    "es.health_i_want_an_appointment": {
+      "conceptId": "es.health_i_want_an_appointment",
+      "id": "health_i_want_an_appointment",
+      "target": [
+        {
+          "text": "Quisiera pedir una cita.",
+          "audioSlug": "quisiera_pedir_una_cita"
+        }
+      ]
+    },
+    "es.kitchen_can_you_check_if_the_oven": {
+      "conceptId": "es.kitchen_can_you_check_if_the_oven",
+      "id": "kitchen_can_you_check_if_the_oven",
+      "target": [
+        {
+          "text": "¿Puedes comprobar si el horno está precalentado?",
+          "audioSlug": "puedes_comprobar_si_el_horno_esta_precalentado"
+        }
+      ]
+    },
+    "es.kitchen_water_is_boiling": {
+      "conceptId": "es.kitchen_water_is_boiling",
+      "id": "kitchen_water_is_boiling",
+      "target": [
+        {
+          "text": "El agua está hirviendo.",
+          "audioSlug": "el_agua_esta_hirviendo"
+        }
+      ]
+    },
+    "es.naturaleza_lugares_es_una_flor_bonita": {
+      "conceptId": "es.naturaleza_lugares_es_una_flor_bonita",
+      "id": "naturaleza_lugares_es_una_flor_bonita",
+      "target": [
+        {
+          "text": "Es una flor bonita.",
+          "audioSlug": "es_una_flor_bonita"
+        }
+      ]
+    },
+    "es.planes_quiero_proponer_una_idea": {
+      "conceptId": "es.planes_quiero_proponer_una_idea",
+      "id": "planes_quiero_proponer_una_idea",
+      "target": [
+        {
+          "text": "Quiero proponer una idea nueva.",
+          "audioSlug": "quiero_proponer_una_idea_nueva"
+        }
+      ]
+    },
+    "es.restaurant_do_you_offer_glutenfree_alternatives": {
+      "conceptId": "es.restaurant_do_you_offer_glutenfree_alternatives",
+      "id": "restaurant_do_you_offer_glutenfree_alternatives",
+      "target": [
+        {
+          "text": "¿Ofrecen alternativas sin gluten?",
+          "audioSlug": "ofrecen_alternativas_sin_gluten"
+        }
+      ]
+    },
+    "es.technology_how_can_i_change_the_language": {
+      "conceptId": "es.technology_how_can_i_change_the_language",
+      "id": "technology_how_can_i_change_the_language",
+      "target": [
+        {
+          "text": "¿Cómo puedo cambiar el idioma del teclado de la computadora?",
+          "audioSlug": "como_puedo_cambiar_el_idioma_del_teclado_de_la_computadora",
+          "labels": {
+            "region": "Latinoamérica"
+          }
+        },
+        {
+          "text": "¿Cómo puedo cambiar el idioma del teclado del ordenador?",
+          "labels": {
+            "region": "España"
+          },
+          "audioSlug": "como_puedo_cambiar_el_idioma_del_teclado_del_ordenador"
+        }
+      ]
+    },
+    "es.vestimenta_necesito_una_talla_mas_grande": {
+      "conceptId": "es.vestimenta_necesito_una_talla_mas_grande",
+      "id": "vestimenta_necesito_una_talla_mas_grande",
+      "target": [
+        {
+          "text": "Necesito una talla más grande.",
+          "audioSlug": "necesito_una_talla_mas_grande"
+        }
+      ]
+    }
+  }
+}
